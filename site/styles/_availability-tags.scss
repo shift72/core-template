@@ -1,0 +1,42 @@
+s72-availability-status,
+s72-availability-label {
+
+  position: absolute;
+  z-index: 99;
+
+}
+
+.availability-bg {
+  text-align: center;
+  padding: 5px 8px;
+  display: block;
+  background: rgba(0,0,0,0.8);
+  .availability-state {
+    font-size: 10px;
+    text-transform: none;
+  }
+}
+
+.availability-bg,
+.availability-state {
+  font-size: 10px;
+}
+
+.availability-state {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+}
+
+.poster {
+	s72-availability-label {
+		left:0 !important;
+	 	right:0;
+	  	margin-left:auto;
+	  	margin-right:auto;
+	  	padding: 10px 10px 5px 10px;
+	  	.availability-state {
+	  		text-align: center;
+	  	}
+	}
+}

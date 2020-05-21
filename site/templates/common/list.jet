@@ -1,0 +1,9 @@
+{{block list(itemsPerRow, itemLayout, fluid=false)}}
+  
+  <div class="list">
+  	
+  	{{yield content}}
+  
+  </div>
+
+{{end}}

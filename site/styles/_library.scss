@@ -1,0 +1,12 @@
+.s72-userlibrary-items {
+	@extend .d-flex;
+	.partial {
+		@extend .slider-item;
+	}
+}
+
+.s72-userlibrary-empty {
+  text-align: center;
+  // margin-top: -50px;
+  flex: 1;
+}

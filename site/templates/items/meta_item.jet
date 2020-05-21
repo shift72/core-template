@@ -1,0 +1,79 @@
+{{import "tagline.jet"}}
+
+{{block metaItem(item, layout, wrapper_class="")}}
+  {{ displayTitleAndGenreBelowPosters = config("media_item_caption") == "true" }}
+  {{ genresLimit = configInt("media_item_caption_genres_count") }}
+
+  {{isPage := hasPrefix(item.Slug, "/page/")}}
+  {{isExternalPage := isPage && item.InnerItem.PageType == "external"}}
+  {{isCollection := hasPrefix(item.Slug, "/collection/")}}
+  {{imageUrl := ""}}
+  {{if layout == "portrait" && isset(item.Images["Portrait"])}}
+    {{imageUrl = item.Images.Portrait}}
+  {{else if layout == "landscape" && isset(item.Images["Landscape"])}}
+    {{imageUrl = item.Images.Landscape}}
+  {{end}}
+  {{if len(imageUrl) == 0 && isPage}}
+    {{imageUrl = layout == "portrait" ? "/images/missing/page-portrait.png" : "/images/missing/page-landscape.png"}}
+  {{else if len(imageUrl) == 0 && isCollection}}
+    {{imageUrl = layout == "portrait" ? "/images/missing/collection-portrait.png" : "/images/missing/collection-landscape.png"}}
+  {{end}}
+  {{pill := ""}}
+  {{pillSupplement := ""}}
+  {{slugRoute := routeToSlug(item.Slug)}}
+  {{if item.ItemType == "tvepisode"}}
+    {{slugRoute = routeToSlug(item.InnerItem.Season.Slug) + "#episode-" + item.InnerItem.EpisodeNumber}}
+    {{synopsis = item.InnerItem.Overview}}
+    {{pill = i18n("episode_name") + " " + item.InnerItem.EpisodeNumber}}
+    {{pillSupplement = "from " + i18n("season_name") + " " + item.InnerItem.Season.SeasonNumber}}
+  {{end}}
+  {{title := item.Title}}
+  {{if item.ItemType == "tvseason"}}
+    {{synopsis=item.InnerItem.Tagline}}
+    {{title = item.InnerItem.ShowInfo.Title}}
+    {{pill = i18n("season_name") + " " + item.InnerItem.SeasonNumber}}
+  {{end}}
+  {{if wrapper_class != ""}}
+  <div class="{{wrapper_class}}">
+  {{end}}
+  <a href="{{routeToSlug(item.Slug)}}" class="meta-item-link" target="{{isExternalPage ? "_blank" : ""}}">
+    <div class="poster poster-{{layout}}">
+      <s72-availability-status data-slug="{{item.Slug}}"></s72-availability-status>
+      <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
+      <s72-image src="{{imageUrl}}" alt="{{item.Title}}" class="poster-image poster-image-{{layout}}" border="0"></s72-image>
+      {{if !isExternalPage}}
+        <div class="hover">
+          <div class="content">
+
+            {{ if !displayTitleAndGenreBelowPosters }}
+            <div class="titles">
+              <h4 title="{{item.Title}}">{{title|raw}}</h4>
+              <div class="strap">
+                <s72-classification-label data-slug="{{item.Slug}}"></s72-classification-label>
+                {{yield metaItemTagline(genres=true, genresLimit=genresLimit) item.InnerItem}}
+              </div>
+            </div>
+            {{ end }}
+
+            <div class="buttons">
+              <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
+              <s72-pricing-buttons data-slug="{{item.Slug}}" class="pricing-buttons-fit" title="{{item.Title}}"></s72-pricing-buttons>
+            </div>
+          </div>
+          <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
+        </div>
+      {{end}}
+    </div>
+  </a>
+
+  {{if displayTitleAndGenreBelowPosters}}
+    <div class="caption">
+      <div class="title" title="{{item.Title}}">{{title|raw}}</div>
+      {{yield metaItemTagline(genres=true, genresLimit=genresLimit) item.InnerItem}}
+    </div>
+  {{end}}
+
+  {{if wrapper_class != ""}}
+  </div>
+  {{end}}
+{{end}}

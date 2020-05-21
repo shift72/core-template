@@ -1,0 +1,6 @@
+.kibble
+node_modules
+npm-debug.log
+site/static/styles/main.css
+site/static/scripts/main.js
+.DS_Store

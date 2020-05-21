@@ -1,0 +1,18 @@
+{{extends "templates/application.jet"}}
+
+{{block head()}}
+  {{yield seo(title=i18n("account_page_header"), index=false)}}
+{{end}}
+
+{{block body()}}
+  <div class="page form-page">
+    <div class="page-header">
+      <h1>{{ i18n("account_page_header") }}</h1>
+    </div>
+    <div class="page-form">
+	    <div class="form-container">
+	      <s72-useraccount-form signin-url="/signin.html" />
+	    </div>
+	</div>
+  </div>
+{{end}}

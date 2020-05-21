@@ -1,0 +1,28 @@
+{{extends "../application.jet"}}
+{{import "./page_collection_item.jet"}}
+
+{{block head()}}
+  {{yield seo() collection}}
+{{end}}
+
+{{block body()}}
+  <div class="page collection-page">
+    <div class="container-fluid">
+      <div class="page-header">
+        <h1>{{ collection.Title }}</h1>
+        {{if len(collection.Description)}}
+          <div class="page-content collection-content">
+            {{collection.Description | raw}}
+          </div>
+        {{end}}
+      </div>
+      <div class="page-collections">
+        {{ range index, item := collection.Items }}
+          <div class="page-collection-item">
+            {{yield pageCollectionItem(item=item, layout=collection.ItemLayout)}}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{end}}

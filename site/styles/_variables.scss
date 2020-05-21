@@ -1,0 +1,180 @@
+// This file contains any variables used by the site.
+// These variables should be reasonably generic so that overrides are placed in main.scss.
+
+// Bootstrap variables copied here, that some of the below are dependent on.
+$grid-gutter-width-base: 30px !default;
+
+// An extra XXL breakpoint added to the default set.
+// NOTE(gscragg): I would not advise changing these 2 variables here without consulting me first.
+$grid-breakpoints: (
+  xxxs: 0,
+  xxs: 320px,
+  xs: 568px,
+  sm: 667px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px,
+  xxxl: 1600px
+) !default;
+
+$container-max-widths: (
+  xxxs: 0,
+  xxs: 320px,
+  xs: 568px,
+  sm: 667px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px,
+  xxxl: 1600px
+) !default;
+
+// Body / Core
+// ------------------------------------
+$primary:         #35a0a8 !default;
+$secondary:       #4cd3dd !default;
+$body-bg:         #2b2725 !default;
+$body-color:      #fdfdfd !default;
+$hr-border-color: rgba(#fff, .5) !default;
+$list-group-bg: $body-bg !default;
+$list-group-border-color: rgba(#fff, .125) !default;
+
+// Cookie Consent
+$cookie-consent-color: #000;
+
+// Nav
+// ------------------------------------
+$navbar-background-color: $body-bg !default;
+$navbar-dark-active-color: $primary !default;
+$navbar-nav-link-padding-x:  1em !default;
+$navbar-nav-link-padding-y:  1em !default;
+
+// Uses navbar-dark theme so we can use variables for colouring
+$navbar-dark-active-color:  #FD4766 !default;
+$navbar-dark-color:         $body-color !default;
+$navbar-dark-hover-color:   #FD4766 !default;
+
+// Navbar Logo (Brand)
+$navbar-brand-padding-y: 15px !default;
+$navbar-brand-min-width: 130px !default;
+$navbar-brand-min-width-md: 200px !default;
+$navbar-brand-min-width-lg: 200px !default;
+$navbar-brand-min-width-xl: 200px !default;
+$navbar-search-top: 20px !default;
+
+// Sub Navivgation
+$subnav-background-color: #302e30 !default;
+$subnav-nav-item-background-color: #2a2a2a !default;
+$subnav-nav-item-color: #fff !default;
+$subnav-nav-item-hover-background-color: $primary !default;
+$subnav-nav-item-active-background-color: $primary !default;
+$subnav-nav-item-margin-x: 1rem !default;
+$subnav-nav-item-margin-y: .5rem !default;
+$subnav-nav-item-border-radius: 2rem !default;
+
+// Buttons
+$button-text-color: #fff !default;
+$button-text-color-hover: #fff !default;
+$button-background: $primary !default;
+$button-background-hover: $secondary !default;
+$trailer-button-text-color: #fff !default;
+$dropdown-item-color: #fff !default;
+$mobile-nav-link-color: #fff !default;
+
+$signin-text-color: #fff !default;
+$signin-text-color-hover: #fff !default;
+$signin-border-color: transparent !default;
+$signin-border-color-hover: transparent !default;
+$signin-background: transparent !default;
+$signin-background-hover: transparent !default;
+
+$signup-text-color: $button-text-color !default;
+$signup-text-color-hover: $button-text-color-hover !default;
+$signup-border-color: transparent !default;
+$signup-border-color-hover: transparent !default;
+$signup-background: $button-background !default;
+$signup-background-hover: $button-background-hover !default;
+
+
+// Image Gradient Overlays
+$top-gradient-color: $body-bg !default;
+$right-gradient-bg-color: $body-bg !default;
+$bottom-gradient-bg-color: $body-bg !default;
+$left-gradient-bg-color: $body-bg !default;
+
+// Carousel
+$carousel-bg-color: $body-bg !default;
+$carousel-height: 450px !default;
+$carousel-height-sm: 450px !default;
+$carousel-height-md: 600px !default;
+$carousel-caption-top: 80px !default;
+$carousel-caption-top-md: 155px !default;
+
+// Pages
+$page-padding-top: 80px !default;
+$page-padding-top-md: 105px !default;
+$page-detail-padding-top: 95px !default;
+$page-detail-padding-top-md: 133px !default;
+
+// Footer
+$footer-brand-min-width: 100px !default;
+$footer-brand-min-width-md: 100px !default;
+
+// Social
+// ------------------------------------
+$facebook-color: #3b5998 !default;
+$instagram-color: #A1755C !default;
+$twitter-color: #0084b4 !default;
+$youtube-color: #C52F30 !default;
+$linkedin-color: #0077B5 !default;
+
+// Meta Items
+// ------------------------------------
+$meta-item-border-radius: 3px !default;
+$featured-meta-item-body-padding: 10px !default;
+$meta-item-body-color: #fff !default;
+$meta-item-tagline-classification-border-radius: $meta-item-border-radius !default;
+$meta-item-availability-tag-margin: 5px !default;
+
+// Posters
+// ------------------------------------
+$poster-portrait-width: 282px !default;
+$poster-portrait-height: 422px !default;
+$poster-landscape-width: 585px !default;
+$poster-landscape-height: 330px !default;
+$poster-carousel-width: 1600px !default;
+$poster-carousel-height: 600px !default;
+
+$poster-landscape-size-ratio: ($poster-landscape-height / $poster-landscape-width) !default;
+$poster-portrait-size-ratio: ($poster-portrait-height / $poster-portrait-width) !default;
+$poster-carousel-size-ratio: ($poster-carousel-height / $poster-carousel-width) !default;
+
+$poster-border-radius: $meta-item-border-radius !default;
+
+// Page Collections
+// ------------------------------------
+
+$page-collection-container-width: 1140px !default;
+$page-collection-item-padding-horizontal: $grid-gutter-width-base / 2 !default;
+// $page-collection-item-padding-horizontal: 15px !default;
+
+// Sliders
+// ------------------------------------
+
+$slider-control-width: 50px !default;
+$slider-control-height: 50px !default;
+// $slider-control-color: $text-color-light !default;
+$slider-control-bg: rgba(255, 255, 255, 0.5) !default;
+
+// Icons
+// ------------------------------------
+
+$icon-play-size: 32px !default;
+$icon-play-color: #fff !default;
+$icon-play-bg: rgba(#000, 0.5) !default;
+$icon-play-hover-color: #fff !default;
+$icon-play-hover-bg: rgba(#fff, 0.5) !default;
+
+// Modals
+// ------------------------------------

@@ -1,0 +1,12 @@
+{{block socialMediaButtons(path="", title="")}}
+	<div class="social-media-buttons">
+		<div class="social-media-buttons-title">
+			<h5>{{i18n("social_media_buttons_title")}}</h5>
+		</div>
+		<div class="social-media-buttons-container">
+			<a target="_blank" title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.SiteConfig.SiteURL + path | url}}" class="btn btn-social btn-social-facebook"><i class="fa fa-facebook-square"></i></a>
+			<a target="_blank" title="Tweet" href="https://twitter.com/intent/tweet?text={{title + " " + site.SiteConfig.SiteURL + path | url}}" class="btn btn-social btn-social-twitter"><i class="fa fa-twitter-square"></i></a>
+			<a target="_blank" title="Share on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={{site.SiteConfig.SiteURL + path | url}}&title={{title|url}}" class="btn btn-social btn-social-linkedin"><i class="fa fa-linkedin-square"></i></a>
+		</div>
+	</div>
+{{end}}

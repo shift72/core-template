@@ -1,0 +1,191 @@
+.btn {
+  font-family: $font-family-base;
+  border-radius: 0;
+}
+// Default Action for Buttons
+
+// Primary Button
+.btn-primary {
+  color: $button-text-color;
+  background-color: $button-background;
+  font-weight: 500;
+  @include hover-focus {
+    color: $button-text-color-hover;
+    border-color: $button-background-hover;
+    background-color: $button-background-hover;
+  }
+}
+// Sign In Button
+.btn.btn-signin {
+  font-size: 14px;
+  color: $signin-text-color;
+  border: 3px solid $signin-border-color;
+  background-color: $signin-background;
+  margin-right: 10px;
+  @include media-breakpoint-up(xl) {
+    font-size: 16px;
+  }
+  @include hover-focus {
+    color: $signin-text-color-hover;
+    border: 3px solid $signin-border-color-hover;
+    background: $signin-background-hover;
+    text-decoration: underline;
+  }
+}
+// Sign Up Button
+.btn.btn-signup {
+  font-size: 14px;
+  color: $signup-text-color;
+  border: 3px solid $signup-border-color;
+  background-color: $signup-background; 
+  @include media-breakpoint-up(xl) {
+    font-size: 16px;
+  }
+  @include hover-focus {
+    color: $signup-text-color-hover;
+    background-color: $signup-background-hover;
+  }
+}
+// Play Button
+.s72-btn-play {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 0;
+  border: 3px solid $button-background;
+  background: $button-background;
+  align-items: center;
+  justify-content: center;
+  @extend .d-flex;
+  .s72-icon-play {
+    circle {
+      stroke: none;
+      fill: none;
+    }
+    path {
+        fill: $button-text-color;
+        stroke: $button-text-color;
+      }
+  }
+  .verb {
+    color: $button-text-color;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  @include hover-focus {
+    border: 3px solid $button-background-hover;
+    background: $button-background-hover;
+    .verb {
+    }
+    .s72-icon-play {
+      circle {
+        stroke: none;
+        fill: none;
+      }
+      path {
+        fill: $button-text-color-hover;
+        stroke: $button-text-color-hover;
+      }
+    }
+  }
+  &.s72-btn-trailer {
+    background: transparent;
+    border: 0 none;
+    .verb {
+      color: $trailer-button-text-color;
+    }
+    @include hover-focus {
+      background: transparent;
+      .s72-icon-play {
+        circle {
+          fill: $primary;
+          stroke-width: 3px;
+          stroke: $primary;
+        }
+        path {
+          fill: #000;
+          stroke: #000;
+        }
+      }
+      .verb {
+        color: $primary;
+        background: transparent;
+      }
+    }
+    .s72-btn-play-icon {
+      margin-right: 0;
+      display: inline-block;
+      height: 32px;
+      width: 32px;
+      circle {
+        fill: transparent;
+        stroke-width: 3px;
+        stroke: $primary;
+      }
+      path {
+        fill: #fff;
+        stroke: #fff;
+      }
+    }
+    .s72-btn-play-label {
+      font-size: 12px;
+      border-width: 0;
+      padding-left: 8px;
+      margin-left: 0;
+      background: transparent;
+      padding-top: 0;
+      padding-bottom: 0;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      &:before {
+        display: none;
+      }
+    }
+  }
+}
+// Transactional Buttons
+.s72-btn-rent,
+.s72-btn-purchase {
+  background: $button-background;
+  border: 3px solid $button-background;
+  @include hover-focus {
+    color: $button-text-color-hover;
+    background: $button-background-hover;
+    border-color: $button-background-hover;
+  }
+  .verb {
+    font-weight: 700;
+  }
+  .price {
+    font-weight: 700;
+  }
+}
+// Wishlist Button
+.btn-wishlist {
+  p {
+    margin: 0px;
+  }
+  .btn-wishlist-quick {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    // One more than the availability label
+    z-index: 100;
+  }
+  // Internal container
+  .s72-btn-wishlist {
+    font-size: 14px;
+    color: $button-text-color;
+    background: transparent;
+    // padding: 0;
+    border: 0 none;
+    // @extend .d-flex;
+    .s72-icon-loading, .s72-icon-errored {
+        display: none;
+        }
+  }
+  .s72-icon {
+    font-size: 16px !important;
+    margin-left: 0;
+    margin-right: 5px;
+  }
+}

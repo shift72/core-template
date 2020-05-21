@@ -1,0 +1,27 @@
+{{import "./page_collection_item.jet"}}
+{{import "../common/slider.jet"}}
+{{block pageCollectionSlider()}}
+{{if len(.Items) > 0}}
+<div class="page-collection page-collection-slider page-collection-slider-{{.ItemsPerRow}} page-collection-slider-{{.ItemLayout}} slider-{{.ItemsPerRow}} slider-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-slider">
+  <div class="swiper-wrapper-container">
+    <div class="swiper-container" data-items-per-row="{{.ItemsPerRow}}" data-layout="{{.ItemLayout}}">
+      {{if .DisplayName != ""}}
+      <div class="swiper-title">
+          <h3>{{.DisplayName}}</h3>
+          {*<a href="/collection/{{.ID}}/{{.Slug}}" class="btn btn-see-all">See All</a>*}
+      </div>
+      {{end}}
+      <div class="swiper-wrapper">
+        {{range item := .Items}}
+          <div class="swiper-slide items-{{.ItemsPerRow}} layout-{{.ItemLayout}}">
+            {{yield pageCollectionItem(item=item, layout=.ItemLayout)}}
+          </div>
+        {{end}}
+      </div>
+    </div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+  </div>
+</div>
+{{end}}
+{{end}}

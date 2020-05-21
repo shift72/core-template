@@ -1,0 +1,15 @@
+{{extends "templates/application.jet"}}
+{{block head()}}
+  {{yield seo(title=i18n("userdevices_page_header"), index=false)}}
+{{end}}
+{{block body()}}
+  <div class="page devices-page">
+    <div class="page-header">
+      <h1>{{ i18n("userdevices_page_header") }}</h1>
+      {{ if configInt("device_user_limit", 0) > 0 }}
+        <p>{{i18n("userdevices_page_content", configInt("device_user_limit"))}}</p>
+      {{ end }}
+    </div>
+    <s72-userdevices signin-url="/signin.html" />
+  </div>
+{{end}}

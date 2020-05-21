@@ -1,0 +1,42 @@
+{
+  "name": "abc-cinemas",
+  "version": "0.0.2",
+  "description": "ABC Cinemas On Demand",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run init && npm-run-all --parallel css:watch js:watch kibble:watch",
+    "init": "npm-run-all css js",
+    "css": "node-sass ./site/styles/main.scss ./site/static/styles/main.css",
+    "css:watch": "npm run css -- --watch",
+    "css:build": "postcss ./site/static/styles/main.css --use autoprefixer --use cssnano -r",
+    "js": "concat -o site/static/scripts/main.js site/static/js/*.js",
+    "js:watch": "watch 'npm run js' site/static/js",
+    "js:build": "minify site/static/js/*.js > site/static/scripts/main.js",
+    "kibble": "kibble render",
+    "kibble:watch": "kibble render --watch --port 8081",
+    "kibble:build": "kibble publish",
+    "build": "npm-run-all css js:build css:build kibble:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indiereign/screenplus-event.git"
+  },
+  "keywords": [
+    "Kibble",
+    "Template"
+  ],
+  "author": "Shift 72",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "bootstrap": "^4.0.0",
+    "concat": "^1.0.3",
+    "cssnano": "^4.1.10",
+    "font-awesome": "^4.7.0",
+    "minify": "^4.1.1",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.0.2",
+    "postcss-cli": "^7.1.1",
+    "s72-kibble": "0.10.16",
+    "watch": "^1.0.2"
+  }
+}

@@ -1,0 +1,5 @@
+{{import "../items/meta_item.jet"}}
+
+{{item=film.GetGenericItem()}}
+
+{{yield metaItem(item=item, layout=config("default_image_type"), wrapper_class="partial")}}

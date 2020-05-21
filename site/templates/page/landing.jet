@@ -1,0 +1,11 @@
+{{extends "templates/application.jet"}}
+{{block body()}}
+  <div>
+    <h2>Landing - {{ page.Title }}</h2>
+
+    <div>
+      {{ page.Content }}
+    </div>
+
+  </div>
+{{end}}

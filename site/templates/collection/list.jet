@@ -1,0 +1,24 @@
+{{import "./page_collection_item.jet"}}
+
+{{block pageCollectionList()}}
+{{if len(.Items) > 0}}
+<div class="page-collection page-collection-list page-collection-list-{{.ItemsPerRow}} page-collection-list-{{.ItemLayout}} list-{{.ItemsPerRow}} list-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-list">
+
+  <div class="page-collection-list-title">
+
+    <h3>{{.DisplayName}}</h3>
+    {*<a href="/collection/{{.ID}}/{{.Slug}}" class="btn btn-see-all">See All</a>*}
+
+  </div>
+
+  <div class="page-collection-items collection-items">
+    {{range item := .Items}}
+      <div class="page-collection-item page-collection-list-item page-collection-list-item-{{.ItemLayout}} page-collection-item-{{.ItemLayout}} page-collection-list-item-{{.ItemsPerRow}} page-collection-item-{{.ItemsPerRow}}">
+        {{yield pageCollectionItem(item=item, layout=.ItemLayout)}}
+      </div>
+    {{end}}
+  </div>
+
+</div>
+{{end}}
+{{end}}

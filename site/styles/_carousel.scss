@@ -1,0 +1,339 @@
+// Carousel
+.carousel,
+s72-carousel {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+// Carousel Slides
+.s72-carousel-slides {
+  width: 100%;
+  height: $carousel-height !important;
+  position: relative;
+  overflow: hidden;
+  background: $carousel-bg-color;
+  @include media-breakpoint-up(sm) {
+    height: $carousel-height-sm !important;
+  }
+  @include media-breakpoint-up(md) {
+    height: $carousel-height-md !important;
+  }
+  // Carousel Background Image
+  s72-image {
+    width: 100%;
+    height: $carousel-height;
+    max-width: 1600px;
+    position: relative;
+    float: right;
+    overflow: hidden;
+    @include media-breakpoint-up(sm) {
+      height: $carousel-height-sm;
+    }
+    @include media-breakpoint-up(md) {
+      height: $carousel-height-md;
+    }
+    &:before {
+      content: '';
+      width: 60%;
+      height: 100%;
+      position: absolute;
+      z-index: 8;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      @extend .left-gradient-bg;
+      @include media-breakpoint-up(lg) {
+        width: 100%;
+      }
+      @include media-breakpoint-up(xl) {
+        display: block;
+      }
+    }
+    img {
+      height: $carousel-height;
+      margin-left: -200px;
+      @include media-breakpoint-up(sm) {
+        height: $carousel-height-sm;
+        margin-left: 0;
+      }
+      @include media-breakpoint-up(md) {
+        width: auto;
+        height: $carousel-height-md;
+        float: right;
+      }
+    }
+  }
+}
+// Carousel Item
+.s72-carousel-item {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.7s linear;
+  @include media-breakpoint-up(lg){
+    position: absolute;
+  }
+  &.in {
+    display: block;
+  }
+  &.out {
+    display: block;
+    z-index: 5;
+  }
+  &.current {
+    opacity: 1;
+    display:block;
+  }
+  .carousel-item-link {
+    display: block;
+    height: 500px;
+  }
+}
+// Carousel Item Content Block
+.carousel-item-caption {
+  top: $carousel-caption-top;
+  left: 0;
+  position: absolute;
+  z-index: 999;
+  padding: 0 20px;
+  @include media-breakpoint-up(md){
+    left: 60px;
+    width: 70%;
+    top: $carousel-caption-top-md;
+  }
+  @include media-breakpoint-up(lg){
+    left: 70px;
+    width: 70%;
+    top: $carousel-caption-top-md;
+  }
+  @include media-breakpoint-up(xl){
+    left: 120px;
+    width: 50%;
+    top: $carousel-caption-top-md;
+  }
+  @include media-breakpoint-up(xxxl){
+    width: 50%;
+    top: $carousel-caption-top-md;
+  }
+  s72-availability-status, s72-availability-label {
+    position: relative;
+    .availability-bg {
+      display: inline-block;
+      padding: 10px 0;
+      background: transparent;
+      .availability-state {
+        font-size: 12px;
+        text-transform: none;
+      }
+    }
+  }
+  .meta-item-content {
+    color: #fff;
+    h3 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      @include media-breakpoint-up(md){
+        font-size: 38px;
+      }
+      @include media-breakpoint-up(lg){
+        font-size: 48px;
+      }
+      @include media-breakpoint-up(xxxl){
+        font-size: 54px;
+      }
+    }
+    h4 {
+      font-size: 6px;
+      color: #000;
+      font-weight: 800;
+      display: inline-block;
+      text-transform: uppercase;
+      background: $primary;
+      padding: 2px 4px;
+      @include media-breakpoint-up(md){
+        font-size: 10px;
+      }
+    }
+    .meta-item-tagline-and-classification {
+      @extend .d-flex;
+      align-items: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      .s72-classification {
+        margin-right: 5px;
+      }
+      .meta-item-tagline {
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(255,255,255,0.5);
+        margin-bottom: 0;
+        align-self: center;
+        @include media-breakpoint-up(xxxl) {
+          font-size: 18px;
+        }
+      }
+    }
+    .meta-item-tagline {
+      font-size: 14px;
+      font-weight: 600;
+      color: rgba(255,255,255,0.5);
+      @include media-breakpoint-up(xxxl){
+        font-size: 18px;
+      }
+    }
+    .meta-item-synopsis {
+      font-size: 12px;
+      font-weight: 600;
+      display: block;
+      padding-top: 10px;
+      @include media-breakpoint-up(md){
+        font-size: 16px;
+      }
+      @include media-breakpoint-up(xxxl){
+        font-size: 16px;
+      }
+      @include media-breakpoint-up(xxxl){
+        font-size: 18px;
+      }
+    }
+    .meta-item-extras {
+      padding: 0 0 20px 0;
+      @extend .d-flex;
+      .s72-btn-play {
+        s72-icon-play {
+          circle {
+            fill: transparent !important;
+          }
+        }
+      }
+    }
+    .btn-wishlist {
+      position: relative;
+    }
+  }
+}
+// Carousel Pagination
+.s72-carousel-pagination {
+  position: absolute;
+  bottom: 0px;
+  height: 60px;
+  line-height: 60px;
+  left: 50%;
+  @extend .d-flex;
+  transform: translateX(-50%);
+  .s72-carousel-page {
+    margin: 0 5px;
+    color: rgba(255,255,255,0.2);
+    &.current {
+      color: $primary;
+    }
+    .fa {
+      @extend .fa-circle;
+      font-size: 14px;
+      padding: 0px 3px;
+    }
+  }
+}
+
+// Carousel Nav Controls
+.s72-carousel-control {
+  position: absolute;
+  height: 60px;
+  line-height: 60px;
+  width: 50px;
+  text-align: center;
+  bottom: 0px;
+  top: auto;
+  z-index: 6;
+  @extend .d-flex;
+  justify-content: center;
+  flex-direction: column;
+  @include media-breakpoint-up(md){
+    top: 53%;
+    background: #000;
+  }
+  &.left {
+    left: 0;
+    right: auto;
+  }
+  &.right {
+    right: 0;
+    left: auto;
+  }
+  span {
+    width: 100%;
+    text-align: center;
+  }
+  @include media-breakpoint-down(sm) {
+    :hover {
+      color: $primary;
+    }
+    :active {
+      opacity: 0.8;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    top: 53%;
+    background: #000;
+  }
+}
+
+// Right Gradient ~ should be moved somewhere else
+.right-gradient {
+  position: absolute;
+  z-index: 9;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 500px;
+  display: none;
+  @extend .right-gradient-bg;
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+  // @include media-breakpoint-up(xl){
+  //   display: block;
+  // }
+}
+// Bottom Gradient ~ should be moved somewhere else
+.bottom-gradient {
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  z-index: 8;
+  left: 0;
+  bottom: 0;
+  @extend .bottom-gradient-bg;
+  @include media-breakpoint-up(lg) {
+    width: 100%;
+    height: 500px;
+    display: block;
+  }
+}
+// Left Gradient ~ should be moved somewhere else
+.left-gradient {
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  z-index: 8;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  @extend .left-gradient-bg;
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 100%;
+  }
+  @include media-breakpoint-up(xl) {
+    display: none;
+    width: 100%;
+  }
+}

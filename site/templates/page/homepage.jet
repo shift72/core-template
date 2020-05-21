@@ -1,0 +1,56 @@
+{{extends "templates/application.jet"}}
+{{import "templates/collection/page_collection.jet"}}
+{{import "templates/items/featured_item.jet"}}
+{{import "../collection/carousel.jet"}}
+{{import "templates/collection/wishlist.jet"}}
+
+{{block head()}}
+  {{yield seo() page}}
+
+  <script>
+    // help with old ng routes
+    var routes = { '#!/signin': '/signin.html' };
+    !function(o, l){for(k in o){if(k==l.hash){l.href=o[k];}}}(routes, window.location);
+  </script>
+{{end}}
+
+{{block body()}}
+  {{count := len(page.PageCollections)}}
+  <div class="page page-{{page.PageType|lower}}">
+    {{yield pageCollectionCarousel() page.PageCollections[0]}}
+<!--     <div class="sign-up-now">
+      <div class="item">
+        <h2>Watch anywhere, at any time.</h2>
+        <div class="supports">
+          <img src="/images/homepage/supported.png" alt="Supported Platforms">
+        </div>
+        <s72-user-anon>
+          <p>
+            <a href="/signin.html">{{i18n("nav_signin")}}</a>
+            or
+            {{if config("disable_user_signups") != "true"}}
+              <a href="/signup.html">{{i18n("nav_signup")}}</a>
+            {{end}}
+          </p>
+        </s72-user-anon>
+      </div>
+    </div> -->
+
+    <div class="other-sliders">
+      <div class="other-sliders-container">
+        {{yield wishlistCollection()}}
+        {{range index, pf := page.PageCollections}}
+          {{if index == 1}}{{yield pageCollection() pf}}{{end}}
+        {{end}}
+        {{range index, pf := page.PageCollections}}
+          {{if index == 2}}{{yield pageCollection() pf}}{{end}}
+        {{end}}
+      </div>
+      <div class="other-sliders-container">
+        {{range index, pf := page.PageCollections}}
+          {{if index > 2}}{{yield pageCollection() pf}}{{end}}
+        {{end}}
+      </div>
+    </div>
+  </div>
+{{end}}

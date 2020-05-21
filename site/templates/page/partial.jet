@@ -1,0 +1,27 @@
+<div class="partial partial-page">
+  <a href="{{routeToSlug(page.Slug)}}">
+
+  {{if config("default_image_type") == "portrait"}}
+    <div class="poster poster-portrait">
+      <s72-image src="{{len(page.Images.Portrait) > 0 ? page.Images.Portrait : "/images/missing/page-portrait.png"}}" alt="{{page.Title}}" class="poster-image poster-image-portrait" border="0"></s72-image>
+  {{else}}
+    <div class="poster poster-landscape">
+      <s72-image src="{{len(page.Images.Landscape) > 0 ? page.Images.Landscape : "/images/missing/page-landscape.png"}}" alt="{{page.Title}}" class="poster-image poster-image-landscape" border="0"></s72-image>
+  {{end}}
+      <div class="hover">
+        <div class="content d-flex">
+
+          {{if isset(page["Tagline"])}}
+            <div class="meta-item-synopsis hidden-md">
+              <p>{{page.Tagline}}</p>
+            </div>
+          {{end}}
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <div class="caption">
+    <div class="title" title="{{page.Title}}">{{page.Title}}</div>
+  </div>
+</div>

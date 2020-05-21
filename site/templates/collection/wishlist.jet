@@ -1,0 +1,79 @@
+{{import "./page_collection_item.jet"}}
+{{import "../common/slider.jet"}}
+{{block wishlistCollection()}}
+
+{{if config("default_image_type") == "portrait"}}
+  <s72-userwishlist
+      render-as-slider="false"
+      hide-if-empty="true"
+      partials-base-path="/partials"
+      partials-classes="swiper-slide"
+      partials-insert-point-selector=".swiper-wrapper"
+      force-login="false"
+      data-items-per-page="6" data-item-layout="portrait" class="user-wishlist s72-slider s72-hide">
+
+{{else}}
+  <s72-userwishlist
+      render-as-slider="false"
+      hide-if-empty="true"
+      partials-base-path="/partials"
+      partials-classes="swiper-slide"
+      partials-insert-point-selector=".swiper-wrapper"
+      force-login="false"
+      data-items-per-page="4" data-item-layout="landscape" class="user-wishlist s72-slider s72-hide">
+
+{{end}}
+  <div class="page-collection">
+    <div class="swiper-wrapper-container">
+      {{if config("default_image_type") == "portrait"}}
+        <div class="swiper-container" is-wishlist="true" data-items-per-row="6" data-layout="portrait">
+      {{else}}
+        <div class="swiper-container" is-wishlist="true" data-items-per-row="4" data-layout="landscape">
+      {{end}}
+            {{if i18n("userwishlist_slider_header") != ""}}
+            <div class="swiper-title">
+                <h3>{{i18n("userwishlist_slider_header")}}</h3>
+            </div>
+            {{end}}
+            <div class="swiper-wrapper">
+              {{yield content}}
+            </div>
+        </div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+    </div>
+  </div>
+</s72-userwishlist>
+
+<script language="javascript">
+  var wishlist = document.querySelector('s72-userwishlist');
+  var originalFunction = wishlist.classList.remove;
+  wishlist.classList.remove = function(className){
+    if(className == 's72-hide')
+    {
+      // Hide this from view
+      wishlist.style.opacity = '0';
+
+      // Remove class
+      originalFunction.apply(this, [ className ]);
+
+      /* Convert this to a swiper */
+      var containers = wishlist.getElementsByClassName('swiper-container');
+      if(containers.length > 0) {
+        var container = containers[0];
+        var swiper = initializeSwiper(container, true);
+
+        init(swiper);
+        toggleButtons(container);
+      }
+
+      // Now show it
+      wishlist.style.opacity = '1';
+    }
+    else
+    {
+      originalFunction.apply(this, [ className ]);
+    }
+  }
+</script>
+{{end}}

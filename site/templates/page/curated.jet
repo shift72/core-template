@@ -1,0 +1,31 @@
+{{extends "templates/application.jet"}}
+{{import "templates/collection/page_collection.jet"}}
+
+{{block head()}}
+  {{yield seo() page}}
+{{end}}
+
+
+{{block body()}}
+<div class="page {{page.PageType}}-page">
+  <div class="page-bg">
+    <div class="right-gradient"></div>
+    <s72-image src="{{page.Images.Background}}" class="page-bg-img"></s72-image>
+  </div>
+  <div class="container-fluid">
+    <div class="page-header">
+      <h1>{{ page.Title }}</h1>
+      {{if len(page.Content)}}
+        <div class="page-header-content">
+          {{page.Content | raw}}
+        </div>
+      {{end}}
+    </div>
+  </div>
+  <div class="page-collections">
+    {{range index, pf := page.PageCollections}}
+      {{yield pageCollection() pf}}
+    {{end}}
+  </div>
+</div>
+{{end}}

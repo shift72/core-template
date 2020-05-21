@@ -1,0 +1,18 @@
+<div class="partial partial-collection">
+  <a href="{{routeToSlug(collection.Slug)}}" class="meta-item-link">
+
+    {{if config("default_image_type") == "portrait"}}
+      <div class="poster poster-portrait">
+      <s72-image src="{{len(collection.Images.Portrait) > 0 ? collection.Images.Portrait : "/images/missing/collection-portrait.png"}}" alt="{{collection.Title}}" class="poster-image poster-image-portrait" border="0"></s72-image>
+    {{else}}
+      <div class="poster poster-landscape">
+      <s72-image src="{{len(collection.Images.Landscape) > 0 ? collection.Images.Landscape : "/images/missing/collection-landscape.png"}}" alt="{{collection.Title}}" class="poster-image poster-image-landscape" border="0"></s72-image>
+    {{end}}
+      <div class="hover"></div>
+    </div>
+  </a>
+
+  <div class="caption">
+    <div class="title" title="{{collection.Title}}">{{collection.Title}}</div>
+  </div>
+</div>

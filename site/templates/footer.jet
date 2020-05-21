@@ -1,0 +1,24 @@
+{{block footer()}}
+	<footer>
+		<a href="/" class="footer-brand">
+			{{i18n("nav_homepage")}}
+		</a>
+		<div class="footer-nav">
+			{{if len(site.Navigation.Footer) > 0}}
+				<ul class="nav">
+					{{range site.Navigation.Footer}}
+						<li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}"><a class="nav-link" href="{{ len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug) }}">{{ .Label }}</a>
+					{{end}}
+			  	</ul>
+			{{end}}
+			<p class="copyright-statement">
+		      &copy; {{i18n("site_owner")}}. All rights reserved. No part of this site may be reproduced without our written permission.
+		    </p>
+		</div>
+		<div class="powered-by">
+		    <a href="{{i18n("powered_by_url")}}" target="_blank" class="footer-screenplus-powered-by">
+		    	Powered by {{i18n("powered_by_name")}}
+		    </a>
+		</div>
+	</footer>
+{{end}}

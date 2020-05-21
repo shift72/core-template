@@ -1,0 +1,140 @@
+{{extends "../application.jet"}}
+{{import "../common/slider.jet"}}
+{{import "../items/tagline.jet"}}
+{{import "../collection/page_collection_item.jet"}}
+{{import "./episode.jet"}}
+{{import "../common/list.jet"}}
+{{import "../common/social-media-buttons.jet"}}
+{{block head()}}
+  {{yield seo() tvseason}}
+{{end}}
+
+{* Hide Sub nav on this page *}
+{{block navigation()}}
+  {{yield nav(showSubNav=true)}}
+{{end}}
+
+{{block body()}}
+  <div class="page page-tvseason meta-detail meta-detail-tvseason">
+    <div class="meta-detail-bg">
+      <div class="right-gradient"></div>
+      <s72-image src="{{tvseason.Images.Background}}" class="meta-detail-bg-img"></s72-image>
+    </div>
+    <div class="container">
+      <div class="meta-detail-main">
+        {{if config("default_image_type") == "portrait"}}
+          <div class="poster poster-portrait">
+            <s72-image src="{{tvseason.Images.Classification}}" alt="" class="classification-image">
+            <s72-image src="{{tvseason.Images.Portrait}}" alt="{{tvseason.Title}}" class="poster poster-image poster-image-portrait"></s72-image>
+          </div>
+        {{end}}
+        <div class="meta-detail-content">
+          <h1>{{tvseason.GetTitle(i18n)}}</h1>
+          <div class="meta-detail-tagline">
+            {{yield metaItemTagline() tvseason}}
+          </div>
+          <div class="meta-detail-buttons">
+            <s72-play-button data-slug="{{tvseason.Slug}}" data-title="{{tvseason.Title}}"></s72-play-button>
+            <s72-pricing-buttons data-slug="{{tvseason.Slug}}" data-title="{{tvseason.Title}}"></s72-pricing-buttons>
+          </div>
+          <s72-availability-label data-slug="{{tvseason.Slug}}"></s72-availability-label>
+          <div class="meta-detail-synopsis">{{tvseason.Overview | raw}}</div>
+          <div class="meta-detail-extras">
+            {{if len(tvseason.Trailers) > 0 }}
+              <s72-can-be-watched data-slug="{{tvseason.Slug}}">
+                <s72-modal-player src="{{tvseason.Trailers[0].URL}}" data-slug="{{tvseason.Slug}}" data-label="{{i18n("play_trailer")}}"></s72-modal-player>
+              </s72-can-be-watched>
+            {{end}}
+            <s72-userwishlist-button data-slug="{{tvseason.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
+            {{yield socialMediaButtons(path=currentUrlPath)}}
+          </div>
+          <div class="meta-detail-cast">
+          {{if len(tvseason.Cast) > 0 }}
+            <h3>{{i18n("meta_detail_cast_title")}}</h3>
+          {{end}}
+            <p>
+              {{range index, member := tvseason.Cast}}
+                <a href="/search.html?q={{member.Name}}">{{member.Name}}</a>{{if index < len(tvseason.Cast) - 1}}, {{end}}
+              {{end}}
+            </p>
+          </div>
+          <div class="meta-detail-crew d-flex">
+            {{range index, member := tvseason.Crew}}
+              <div class="crew-member">
+                <h4>{{member.Job}}</h4>
+                <a href="/search.html?q={{member.Name}}">{{member.Name}}</a>
+              </div>
+            {{end}}
+          </div>
+
+          {{if len(tvseason.Episodes) > 0}}
+            <div class="meta-detail-episodes-content">
+              <h4>{{i18n("meta_detail_episodes_title")}}</h4>
+              {{yield list(itemsPerRow=4, itemLayout="portrait") content}}
+                {{range episode := tvseason.Episodes}}
+                  <div class="episode-item">
+                    {{yield episodeCollectionItem(item=episode)}}
+                  </div>
+                {{end}}
+              {{end}}
+            </div>
+          {{end}}
+
+          {{if len(tvseason.Bonuses) > 0 }}
+            <div class="meta-detail-bonus-content d-flex">
+              <h4>{{i18n("meta_detail_bonus_title")}}</h4>
+              {{yield slider(itemsPerRow=4, itemLayout="landscape") content}}
+                {{range bonus := tvseason.Bonuses}}
+                  <div class="bonus-item">
+                    <div class="bonus">
+                      <div class="poster">
+                        <s72-availability-status slug="{{bonus.Slug}}"></s72-availability-status>
+                        <s72-image src="{{bonus.Images.Landscape}}" alt="" class="poster-image poster-image-landscape"></s72-image>
+                        <s72-play-button data-slug="{{bonus.Slug}}" title="{{bonus.Title}}"></s72-play-button>
+                      </div>
+                      <div class="caption">
+                        {{if bonus.Runtime > 0}}
+                          <span class="runtime pull-right">{{bonus.Runtime}} mins</span>
+                        {{end}}
+                        <h5>{{bonus.Title}}</h5>
+                        <div class="synopsis">{{bonus.Overview | raw}}</div>
+                      </div>
+                    </div>
+                  </div>
+                {{end}}
+              {{end}}
+            </div>
+          {{end}}
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+    {{if len(tvseason.Recommendations) > 0 }}
+      <div class="page-collection recommendations-collection">
+        <div class="swiper-wrapper-container">
+
+          {{if config("default_image_type") == "portrait"}}
+            <div class="swiper-container" data-items-per-row="6" data-layout="portrait">
+          {{else}}
+            <div class="swiper-container" data-items-per-row="4" data-layout="landscape">
+          {{end}}
+
+            <div class="swiper-title">
+                <h3>{{i18n("meta_detail_recommendations_title")}}</h3>
+            </div>
+            <div class="swiper-wrapper">
+              {{range item := tvseason.Recommendations}}
+                <div class="swiper-slide">
+                  {{yield pageCollectionItem(item=item, layout=config("default_image_type"))}}
+                </div>
+              {{end}}
+            </div>
+          </div>
+          <div class="swiper-button-prev swiper-button-white"></div>
+          <div class="swiper-button-next swiper-button-white"></div>
+        </div>
+      </div>
+    {{end}}
+  </div>
+{{end}}

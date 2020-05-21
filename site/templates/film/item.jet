@@ -1,0 +1,147 @@
+{{extends "../application.jet"}}
+{{import "../common/slider.jet"}}
+{{import "../items/tagline.jet"}}
+{{import "../collection/page_collection_item.jet"}}
+{{import "../collection/slider.jet"}}
+{{import "../common/list.jet"}}
+{{import "../common/social-media-buttons.jet"}}
+
+{{block head()}}
+  {{yield seo() film}}
+{{end}}
+
+{* Hide Sub nav on this page *}
+{{block navigation()}}
+  {{yield nav(showSubNav=true)}}
+{{end}}
+
+{{block body()}}
+  <div class="page page-film meta-detail meta-detail-film">
+    <div class="meta-detail-bg">
+      <div class="right-gradient"></div>
+      <s72-image src="{{film.Images.Background}}" class="meta-detail-bg-img"></s72-image>
+    </div>
+    <div class="container">
+      <div class="meta-detail-main">
+        {{if config("default_image_type") == "portrait"}}
+            <div class="poster poster-portrait">
+              <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
+              <s72-image src="{{film.Images.Classification}}" alt="" class="classification-image">
+
+              <s72-image src="{{film.Images.Portrait}}" alt="{{film.Title}}" class="poster poster-image poster-image-portrait"></s72-image>
+
+            </div>
+        {{end}}
+        <div class="meta-detail-content">
+          <h1>{{ film.Title }} <small>({{film.ReleaseDate.Year()}})</small></h1>
+          <div class="meta-detail-tagline-and-classification">
+            <s72-classification-label data-slug="{{film.Slug}}" data-layout="tooltip"></s72-classification-label>
+            <div class="meta-detail-tagline">
+              {{yield metaItemTagline() film}}
+            </div>
+          </div>
+
+          <!-- {{film.CustomFields|json}} -->
+
+          <div class="meta-detail-buttons">
+            <s72-play-button data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-play-button>
+            <s72-pricing-buttons data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-pricing-buttons>
+          </div>
+          {{if config("default_image_type") != "portrait"}}
+            <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
+            <br>
+          {{end}}
+          <s72-availability-label data-slug="{{film.Slug}}"></s72-availability-label>
+          <div class="meta-detail-synopsis">{{film.Overview | raw}}</div>
+          <div class="meta-detail-extras">
+            {{if len(film.Trailers) > 0 }}
+                <s72-modal-player src="{{film.Trailers[0].URL}}" class="s72-btn-trailer" data-slug="{{film.Slug}}" data-label="{{i18n("play_trailer")}}" autoplay="querystring"></s72-modal-player>
+            {{end}}
+            <s72-userwishlist-button data-slug="{{film.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
+            {{yield socialMediaButtons(path=currentUrlPath)}}
+          </div>
+          <div class="meta-detail-cast">
+          {{if len(film.Cast) > 0 }}
+            <h3>{{i18n("meta_detail_cast_title")}}</h3>
+          {{end}}
+            <p>
+              {{range index, member := film.Cast}}
+                <a href="/search.html?q={{member.Name}}">{{member.Name}}</a>{{if index < len(film.Cast) - 1}}, {{end}}
+              {{end}}
+            </p>
+          </div>
+          <div class="meta-detail-crew d-flex">
+            {{range index, member := film.Crew}}
+              <div class="crew-member">
+                <h4>{{member.Job}}</h4>
+                <a href="/search.html?q={{member.Name}}">{{member.Name}}</a>
+              </div>
+            {{end}}
+          </div>
+          {{if len(film.Languages) > 0 }}
+            <div class="meta-detail-language">
+              <h4>{{i18n("meta_detail_languages")}}</h4>
+              <p>{{ film.Languages }}</p>
+            </div>
+          {{end}}
+          {{if len(film.GetSubtitles()) > 0 }}
+            <div class="meta-detail-subtitle">
+              <h4>{{i18n("meta_detail_subtitles")}}</h4>
+              <p>{{ film.GetSubtitles() }}</p>
+            </div>
+          {{end}}
+          {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}
+            <div class="meta-detail-bonus-content">
+              <h4>{{i18n("meta_detail_bonus_title")}}</h4>
+              {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
+                {{range bonus := film.Bonuses}}
+                  <div class="bonus-item">
+                    <div class="bonus">
+                      <div class="poster">
+                        <s72-image src="{{bonus.Images.Landscape}}" alt="" class="poster-image poster-image-landscape"></s72-image>
+                        <s72-play-button data-slug="{{bonus.Slug}}" title="{{bonus.Title}}"></s72-play-button>
+                      </div>
+                      <div class="caption">
+                        {{if bonus.Runtime > 0}}
+                          <span class="runtime pull-right">{{bonus.Runtime}} mins</span>
+                        {{end}}
+                        <h5>{{bonus.Title}}</h5>
+                        <div class="synopsis">{{bonus.Overview | raw}}</div>
+                      </div>
+                    </div>
+                  </div>
+                {{end}}
+              {{end}}
+            </div>
+          </div>
+        {{end}}
+        </div>
+      </div>
+    </div>
+
+    {{if len(film.Recommendations) > 0 }}
+    <div class="page-collection recommendations-collection">
+      <div class="swiper-wrapper-container">
+        {{if config("default_image_type") == "portrait"}}
+          <div class="swiper-container" data-items-per-row="6" data-layout="portrait">
+        {{else}}
+          <div class="swiper-container" data-items-per-row="4" data-layout="landscape">
+        {{end}}
+          <div class="swiper-title">
+              <h3>{{i18n("meta_detail_recommendations_title")}}</h3>
+          </div>
+          <div class="swiper-wrapper">
+            {{range item := film.Recommendations}}
+              <div class="swiper-slide">
+                {{yield pageCollectionItem(item=item, layout=config("default_image_type"))}}
+              </div>
+            {{end}}
+          </div>
+        </div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+{{end}}
