@@ -187,21 +187,21 @@ function toggleButtons(slider) {
   }
 }
 
-function initButton(slider, button, velocity){
-  if(button){
+function initButton(slider, button, velocity) {
+  if (button) {
+    button.classList.remove('s72-hide');
     // Clone the button so any pre-existing listeners are destroyed
     var buttonClone = button.cloneNode(true);
     button.parentNode.replaceChild(buttonClone, button);
 
     buttonClone.addEventListener('click', function(e){
       e.preventDefault();
-      if(velocity > 0) {
+      if (velocity > 0) {
         addAndRemoveSlides(slider.swiper, true, false);
-      }
-      else {
+      } else {
         addAndRemoveSlides(slider.swiper, false, true);
       }
-      slider.swiper.slideToLoop(slider.swiper.realIndex + ( slider.swiper.params.slidesPerView * velocity ) );
+      slider.swiper.slideToLoop(slider.swiper.realIndex + (slider.swiper.params.slidesPerView * velocity));
     });
 
     var direction = (velocity > 0) ? 'next' : 'prev';
