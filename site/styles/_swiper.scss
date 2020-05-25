@@ -42,17 +42,12 @@
     opacity: 1;
   }
 
-  &.swiper-button-disabled {
+  @include media-breakpoint-down(sm) {
     display: none;
   }
-}
 
-html[is-touchscreen="true"] {
-  .swiper-button-prev,
-  .swiper-button-next {
-    @include media-breakpoint-down(sm) {
-      display: none;
-    }
+  &.swiper-button-disabled {
+    display: none;
   }
 }
 
