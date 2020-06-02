@@ -27,6 +27,7 @@
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
     ga('create', '{{analyticsId}}', 'auto');
+    ga('require', 'ecommerce');
     ga('send', 'pageview');
   </script>
   {{ end }}
