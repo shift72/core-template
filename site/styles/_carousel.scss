@@ -51,15 +51,15 @@ s72-carousel {
     }
     img {
       height: $carousel-height;
-      margin-left: -200px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+
       @include media-breakpoint-up(sm) {
         height: $carousel-height-sm;
-        margin-left: 0;
       }
       @include media-breakpoint-up(md) {
         width: auto;
         height: $carousel-height-md;
-        float: right;
       }
     }
   }
