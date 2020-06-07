@@ -1,11 +1,29 @@
 {{block googleTagManagerScript(tagManagerId=config("google_tag_manager_id"))}}
   {{ if len(tagManagerId) > 0 }}
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','{{ tagManagerId }}');</script>
+    <script>
+      function loadGoogleTagManager() {
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','{{ tagManagerId }}')
+      }
+
+      // Only load Google Tag Manager if a/ the frontend cookie consent isn't required or b/ they've agreed to the cookie consent
+      var cookieConsentRequired = {{ isEnabled("frontend_cookie_consent") }};
+      document.addEventListener('s72loaded', function(event) {
+        if(!cookieConsentRequired || event.detail.app.hasCookieConsent()) {
+          loadGoogleTagManager();
+        }
+        else {
+          // Listen for an 'accept' of the cookie consent, in which case load google tag manager
+          event.detail.app.messagebus.subscribe('cookie-consent-set', function(event) {
+            loadGoogleTagManager();
+          });
+        }
+      });
+    </script>
     <!-- End Google Tag Manager -->
   {{end}}
 {{end}}
