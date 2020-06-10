@@ -3,7 +3,7 @@
 {{block pageCollectionCarousel()}}
 
 {{if len(.Items) > 0}}
-<s72-carousel data-image-width="1600" data-image-height="900">
+<s72-carousel>
 	<div class="page-collection page-collection-carousel">
 		<div class="s72-carousel-slides">
 			{{range item := .Items}}
