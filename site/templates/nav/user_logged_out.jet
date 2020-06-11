@@ -1,0 +1,8 @@
+{{block nav_user_logged_out()}}
+  <s72-user-anon class="user-anon">
+    <a href="/signin.html" class="btn btn-signin">{{i18n("nav_signin")}}</a>
+    {{if config("disable_user_signups") != "true"}}
+      <a href="/signup.html" class="btn btn-signup">{{i18n("nav_signup")}}</a>
+    {{end}}
+  </s72-user-anon>
+{{end}}
