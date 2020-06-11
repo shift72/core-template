@@ -75,6 +75,7 @@ footer {
 .powered-by {
 	text-align: center;
 	padding: 10px 0 15px 0;
+	flex-shrink: 0;
 	@include media-breakpoint-up(md){
 		margin-left: auto;
 	}
