@@ -183,7 +183,6 @@
     text-shadow: none;
     small {
       font-size: 24px;
-      display: none;
     }
     @include media-breakpoint-up(md) {
       font-size: 34px;

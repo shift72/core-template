@@ -8,6 +8,7 @@
 		<div class="s72-carousel-slides">
 			{{range item := .Items}}
 				{{yield carouselItem(item=item)}}
+
 			{{end}}
 		</div>
 

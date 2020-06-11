@@ -1,11 +1,16 @@
+{{import "./nav/user_logged_out.jet"}}
+{{import "./nav/user_logged_in.jet"}}
+
 {{block nav(showSubNav=true)}}
 <div class="navigation" data-toggle="affix">
   <nav class="navbar navbar-expand-md navbar-dark">
       <a class="navbar-brand" href="/">{{i18n("nav_homepage")}}</a>
-      <form class="form-search navbar-nav-search" action="/search.html">
-          <input class="form-control form-control-search" type="search" placeholder="{{i18n("search_control_placeholder")}}" name="q">
-          <button class="sr-only" type="submit">Search</button>
-      </form>
+      {{ if config("search_disabled") != "true" }}
+        <form class="form-search navbar-nav-search" action="/search.html">
+            <input class="form-control form-control-search" type="search" placeholder="{{i18n("search_control_placeholder")}}" name="q">
+            <button class="sr-only" type="submit">Search</button>
+        </form>
+      {{ end }}
       <button class="navbar-toggler" type="button" s72-collapse=".navbar-collapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-navbar-toggler"></span>
       </button>
@@ -31,40 +36,8 @@
           </ul>
         {{end}}
         <div class="navbar-nav s72-hide">
-          <s72-user-anon class="user-anon">
-            <a href="/signin.html" class="btn btn-signin">{{i18n("nav_signin")}}</a>
-            {{if config("disable_user_signups") != "true"}}
-              <a href="/signup.html" class="btn btn-signup">{{i18n("nav_signup")}}</a>
-            {{end}}
-          </s72-user-anon>
-          <s72-user-known>
-            <s72-dropdown class="navbar-nav-user-nav">
-              <div>
-                <a href="#" class="s72-btn s72-dropdown-toggle">
-                  {{i18n("nav_signed_in_as")}} <s72-username></s72-username>
-                </a>
-              </div>
-              <ul class="s72-dropdown-menu s72-dropdown-menu-right">
-                {{if config("wishlist_enabled") }}
-                <li>
-                  <a class="s72-dropdown-item" href="/wishlist.html">{{i18n("nav_wishlist")}}</a>
-                </li>
-                {{ end }}
-                <li>
-                  <a class="s72-dropdown-item" href="/library.html">{{i18n("nav_library")}}</a>
-                </li>
-                <li>
-                  <a class="s72-dropdown-item" href="/devices.html">{{i18n("nav_devices")}}</a>
-                </li>
-                <li>
-                  <a class="s72-dropdown-item" href="/account.html">{{i18n("nav_account")}}</a>
-                </li>
-                <li>
-                  <s72-sign-out class="s72-dropdown-item">{{i18n("nav_signout")}}</s72-sign-out>
-                </li>
-              </ul>
-            </s72-dropdown>
-          </s72-user-known>
+        	{{ yield nav_user_logged_out() }}
+        	{{ yield nav_user_logged_in() }}
         </div>
       </div>
   </nav>
