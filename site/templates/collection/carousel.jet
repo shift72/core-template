@@ -1,78 +1,13 @@
+{{import "./carousel_item.jet"}}
+
 {{block pageCollectionCarousel()}}
 
 {{if len(.Items) > 0}}
-{*
-	Image width and height are here to help with resizing, there might be another way doing it,
-	but I didnt want to have to rely on images loading like the web-core carousel.
-
-	None of the html in .carousel-item is finished or even 10% looked at, so feel free to make it better.
-	This was copypasted from web-core.
-*}
-<s72-carousel data-image-width="1600" data-image-height="900">
+<s72-carousel>
 	<div class="page-collection page-collection-carousel">
 		<div class="s72-carousel-slides">
 			{{range item := .Items}}
-				{{ trailer := "" }}
-
-				{{ if isset(item.InnerItem["Trailers"]) && len(item.InnerItem.Trailers) > 0}}
-					{{ trailer = item.InnerItem.Trailers[0].URL }}
-				{{ else if(item.InnerItem["PromoURL"] && len(item.InnerItem.PromoURL) > 0) }}
-					{{ trailer = item.InnerItem.PromoURL }}
-				{{ end }}
-
-				<div class="s72-carousel-item">
-					<a href="{{routeToSlug(item.Slug)}}" class="carousel-item-link">
-
-						{{if isset(item.Images["Carousel"])}}
-							<s72-image src="{{item.Images.Carousel}}" alt="{{item.Title}}" class="carousel-item-image"></s72-image>
-						{{end}}
-
-						{{if !isset(item["PageType"]) || item.PageType != "external"}}
-							<div class="carousel-item-caption">
-								<div class="meta-item-content">
-									<h3>{{item.GetTitle(i18n)}}
-						        {{if isset(item.InnerItem["ReleaseDate"])}}
-						          <small>({{item.InnerItem.ReleaseDate.Year()}})</small>
-						        {{end}}
-      						</h3>
-									<div class="meta-item-tagline-and-classification">
-										<s72-classification-label data-slug="{{item.Slug}}" data-layout="tooltip"></s72-classification-label>
-										<div class="meta-item-tagline">
-											{{yield metaItemTagline() item.InnerItem}}
-										</div>
-									</div>
-
-									<div class="meta-item-buttons">
-					          <s72-play-button data-slug="{{item.Slug}}"></s72-play-button>
-					          <s72-pricing-buttons data-slug="{{item.Slug}}"></s72-pricing-buttons>
-					        </div>
-
-					        <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
-
-				          <div class="meta-item-synopsis">
-				            <p>{{item.InnerItem.Tagline}}</p>
-				          </div>
-
-					        <div class="meta-item-extras">
-										{{if len(trailer) > 0 }}
-											<div class="s72-btn-trailer btn-trailer" data-url="{{routeToSlug(item.Slug)}}?autoplay">
-												<button class="s72-btn s72-btn-play btn-sm s72-btn-trailer">
-													<span class="s72-btn-play-icon"><s72-play-icon></s72-play-icon></span>
-													<span class="verb s72-btn-play-label">{{i18n("play_trailer")}}</span>
-												</button>
-											</div>
-										{{end}}
-										<s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
-										<s72-share-buttons item="::item.meta" class="hidden-sm hidden-xs pull-right"></s72-share-buttons>
-									</div>
-								</div>
-							</div>
-						{{end}}
-						<div class="left-gradient"></div>
-						<div class="right-gradient"></div>
-						<div class="bottom-gradient"></div>
-					</a>
-				</div>
+				{{yield carouselItem(item=item)}}
 			{{end}}
 		</div>
 
