@@ -1,0 +1,5 @@
+<div class="powered-by">
+    <a href="{{i18n("powered_by_url")}}" target="_blank" class="footer-screenplus-powered-by">
+      Powered by {{i18n("powered_by_name")}}
+    </a>
+</div>
