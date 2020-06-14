@@ -15,10 +15,6 @@
 		      &copy; {{i18n("site_owner")}}. All rights reserved. No part of this site may be reproduced without our written permission.
 		    </p>
 		</div>
-		<div class="powered-by">
-		    <a href="{{i18n("powered_by_url")}}" target="_blank" class="footer-screenplus-powered-by">
-		    	Powered by {{i18n("powered_by_name")}}
-		    </a>
-		</div>
+		{{include "footer/powered-by" }}
 	</footer>
 {{end}}
