@@ -15,6 +15,9 @@
 .page-header {
   padding-right: 20px;
   padding-left: 20px;
+  @media (min-width: 438px) {
+    text-align: center;
+  }
   @include media-breakpoint-up(md) {
     padding-right: 50px;
     padding-left: 50px;
