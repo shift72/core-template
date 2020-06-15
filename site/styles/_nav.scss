@@ -293,10 +293,10 @@
 .navbar-nav-search {
   position: absolute;
   left: 160px;
-  width: 150px;
+  width: 100px;
   top: $navbar-search-top;
-  @media (max-width: 345px) {
-    width: 100px;
+  @include media-breakpoint-up(xs) {
+    width: 150px;
   }
   @include media-breakpoint-up(sm) {
     top: $navbar-search-top;
