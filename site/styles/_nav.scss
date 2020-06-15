@@ -288,12 +288,16 @@
     }
   }
 }
+
 // Header Form Search
 .navbar-nav-search {
   position: absolute;
   left: 160px;
   width: 150px;
   top: $navbar-search-top;
+  @media (max-width: 345px) {
+    width: 100px;
+  }
   @include media-breakpoint-up(sm) {
     top: $navbar-search-top;
     left: 50%;
@@ -309,8 +313,9 @@
   }
   // Header Search Form Control
   .form-control-search {
-    font-size: 10px;
+    font-size: 12px;
     color: #fff;
+    font-weight: 400;
     border-color: rgba(255,255,255,0.3);
     background-color: rgba(255,255,255,0.3);
     @include media-breakpoint-up(md){
