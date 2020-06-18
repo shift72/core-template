@@ -292,6 +292,7 @@
   "meta_detail_cast_title": { "other": "Cast" },
   "meta_detail_crew_title": { "other": "Crew" },
   "meta_detail_languages": { "other": "Language(s)" },
+  "meta_detail_studio": { "other": "Studio" },
   "meta_detail_subtitles": { "other": "Subtitle(s)" },
   "meta_detail_episodes_title": { "other": "Episodes" },
   "meta_detail_bonus_title": { "other": "Bonus Content" },
