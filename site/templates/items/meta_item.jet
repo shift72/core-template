@@ -48,7 +48,7 @@
             {{ if !displayTitleAndGenreBelowPosters }}
             <div class="titles">
               <h4 title="{{item.Title}}">{{title|raw}}
-                {{if isset(item.InnerItem["ReleaseDate"])}}
+                {{if isset(item.InnerItem["ReleaseDate"]) && item.InnerItem.ReleaseDate.Year() > 1}}
                   <small>({{item.InnerItem.ReleaseDate.Year()}})</small>
                 {{end}}
               </h4>
@@ -73,7 +73,7 @@
   {{if displayTitleAndGenreBelowPosters}}
     <div class="caption">
       <div class="title" title="{{item.Title}}">{{title|raw}}
-        {{if isset(item.InnerItem["ReleaseDate"])}}
+        {{if isset(item.InnerItem["ReleaseDate"]) && item.InnerItem.ReleaseDate.Year() > 1}}
           <small>({{item.InnerItem.ReleaseDate.Year()}})</small>
         {{end}}
       </div>
