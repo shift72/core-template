@@ -20,7 +20,7 @@
         <div class="carousel-item-caption">
           <div class="meta-item-content">
             <h3>{{item.GetTitle(i18n)}}
-              {{if isset(item.InnerItem["ReleaseDate"])}}
+              {{if isset(item.InnerItem["ReleaseDate"]) && item.InnerItem.ReleaseDate.Year() > 1}}
                 <small>({{item.InnerItem.ReleaseDate.Year()}})</small>
               {{end}}
             </h3>
