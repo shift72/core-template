@@ -167,50 +167,41 @@ function enableButton(button) {
 }
 
 function toggleButtons(slider) {
-  if(!isTouchscreenEnabled()) {
-    let currentIndex = slider.swiper.activeIndex;
-    let slidesToTheLeft = currentIndex;
+  let currentIndex = slider.swiper.activeIndex;
+  let slidesToTheLeft = currentIndex;
+  let slidesPerView = slider.swiper.params.slidesPerView;
+  let slidesLength = slider.swiper.slides.length;
+  let lastVisibleIndex = currentIndex + slidesPerView;
+  let slidesToTheRight = slidesLength - lastVisibleIndex;
 
-    let slidesPerView = slider.swiper.params.slidesPerView;
-    let slidesLength = slider.swiper.slides.length;
-    let lastVisibleIndex = currentIndex + slidesPerView;
-    let slidesToTheRight = slidesLength - lastVisibleIndex;
-
-    if(slidesToTheLeft == 0) {
-      disableButton(slider.buttons.prev);
-    }
-    else {
-      enableButton(slider.buttons.prev);
-    }
-
-    if(slidesToTheRight <= 0) {
-      disableButton(slider.buttons.next);
-    }
-    else {
-      enableButton(slider.buttons.next);
-    }
-  }
-  else {
+  if (slidesToTheLeft == 0) {
     disableButton(slider.buttons.prev);
+  } else {
+    enableButton(slider.buttons.prev);
+  }
+
+  if (slidesToTheRight <= 0) {
     disableButton(slider.buttons.next);
+  } else {
+    enableButton(slider.buttons.next);
   }
 }
 
-function initButton(slider, button, velocity){
-  if(button){
+function initButton(slider, button, velocity) {
+  if (button) {
+    button.classList.remove('s72-hide');
     // Clone the button so any pre-existing listeners are destroyed
     var buttonClone = button.cloneNode(true);
     button.parentNode.replaceChild(buttonClone, button);
 
     buttonClone.addEventListener('click', function(e){
       e.preventDefault();
-      if(velocity > 0) {
+      if (velocity > 0) {
         addAndRemoveSlides(slider.swiper, true, false);
-      }
-      else {
+      } else {
         addAndRemoveSlides(slider.swiper, false, true);
       }
-      slider.swiper.slideToLoop(slider.swiper.realIndex + ( slider.swiper.params.slidesPerView * velocity ) );
+      slider.swiper.slideToLoop(slider.swiper.realIndex + (slider.swiper.params.slidesPerView * velocity));
     });
 
     var direction = (velocity > 0) ? 'next' : 'prev';
