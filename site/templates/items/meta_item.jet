@@ -54,7 +54,7 @@
               </h4>
               <div class="strap">
                 <s72-classification-label data-slug="{{item.Slug}}"></s72-classification-label>
-                {{yield metaItemTagline(genres=true, genresLimit=genresLimit) item.InnerItem}}
+                {{yield metaItemTagline(genres=true, genresLimit=genresLimit, classification=false) item.InnerItem}}
               </div>
             </div>
             {{ end }}
@@ -77,7 +77,7 @@
           <small>({{item.InnerItem.ReleaseDate.Year()}})</small>
         {{end}}
       </div>
-      {{yield metaItemTagline(genres=true, genresLimit=genresLimit) item.InnerItem}}
+      {{yield metaItemTagline(genres=true, genresLimit=genresLimit, classification=false) item.InnerItem}}
     </div>
   {{end}}
 
