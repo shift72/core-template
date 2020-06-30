@@ -244,6 +244,7 @@
   "shopping_error_proxy_detected": { "other": "Your {{.Ownership}} has not been completed. We have detected that you are using an unblocker or proxy service. Please turn off any of these services and try again." },
 
   "shopping_error_discount_blank": { "other": "Please enter a promo code." },
+  "shopping_error_discount_not_applied": { "other": "Please enter a valid promo code." },
   "shopping_error_discount_invalid": { "other": "Please enter a valid promo code." },
   "shopping_error_discount_disabled": { "other": "Please enter a valid promo code." },
   "shopping_error_discount_already_applied": { "other": "A promo code has already been used for this session." },
