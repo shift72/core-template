@@ -80,7 +80,7 @@
           </div>
           {{if len(film.Languages) > 0 }}
             <div class="meta-detail-language">
-              <h4>{{i18n("meta_detail_languages")}}</h4>
+              <h4>{{i18n("meta_detail_languages", len(film.Languages))}}</h4>
               <p>{{ film.Languages }}</p>
             </div>
           {{end}}
