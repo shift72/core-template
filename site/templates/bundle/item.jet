@@ -19,7 +19,7 @@
 
     <div class="meta-detail-bg">
       <div class="meta-detail-bg-gradient"></div>
-      <s72-image src="{{bundle.Images.Background}}" class="meta-detail-bg-img"></s72-image>
+      <s72-image src="{{bundle.Images.Background}}" alt="" class="meta-detail-bg-img"></s72-image>
     </div>
 
     <div class="container">
