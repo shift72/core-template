@@ -20,7 +20,6 @@
       <div class="collapse navbar-collapse">
         {{if len(site.Navigation.Header) > 0 && showSubNav}}
           <ul class="mobile-nav d-md-none">
-          {{if len(site.Navigation.Header) > 0 && showSubNav}}
             {{range site.Navigation.Header}}
               {{if len(.Items) > 0}}
                 <li class="nav-item title">{{.Label}}</li>
@@ -35,7 +34,6 @@
                 </li>
               {{end}}
             {{end}}
-          {{end}}
           </ul>
         {{end}}
 
