@@ -49,16 +49,16 @@
     <ul class="sub-nav">
       {{range site.Navigation.Header}}
         {{if len(.Items) > 0}}
-          <s72-dropdown class="nav-item">
-            <a class="s72-dropdown-toggle nav-link" href="{{ len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : len(.Items) == 0 ? routeToSlug(.Link.Slug) : "#" }}">{{ .Label }}</a>
-
-            <div class="s72-dropdown-menu sub-nav-menu">
-              {{range sub := .Items}}
+          <li class="nav-item">
+            <s72-dropdown>
+              <a class="s72-dropdown-toggle nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : len(.Items) == 0 ? routeToSlug(.Link.Slug) : "#"}}">{{.Label}}</a>
+              <div class="s72-dropdown-menu sub-nav-menu">
+                {{range sub := .Items}}
                   <a class="nav-link" href="{{len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
-              {{end}}
-            </div>
-          </s72-dropdown>
-
+                {{end}}
+              </div>
+            </s72-dropdown>
+          </li>
         {{else}}
           <li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}">
             <a class="nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug)}}">{{.Label}}</a>
