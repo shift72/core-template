@@ -9,7 +9,7 @@
     {{ trailer = item.InnerItem.PromoURL }}
   {{ end }}
 
-  <div class="s72-carousel-item">
+  <div class="s72-carousel-item" data-slug="{{item.Slug}}">
     <a href="{{routeToSlug(item.Slug)}}" class="carousel-item-link">
 
       {{if isset(item.Images["Carousel"])}}
