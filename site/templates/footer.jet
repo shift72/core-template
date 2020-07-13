@@ -12,7 +12,7 @@
 			  	</ul>
 			{{end}}
 			<p class="copyright-statement">
-		      &copy; {{i18n("site_owner")}}. All rights reserved. No part of this site may be reproduced without our written permission.
+		      &copy; {{i18n("site_owner")}}. {{i18n("all_rights_reserved")}}
 		    </p>
 		</div>
 		{{include "footer/powered-by" }}
