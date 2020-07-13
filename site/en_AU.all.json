@@ -172,7 +172,7 @@
 
   "shopping_info_subtitle_hd": { "other": "HD Video on Demand." },
   "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
-  "shopping_info_subtitle_wallet": { "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlu." },
+  "shopping_info_subtitle_wallet": { "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus." },
   "shopping_info_subtitle_help": { "other": "See here for system requirements." },
   "shopping_info_ownership_buy": { "other": "purchase" },
   "shopping_info_ownership_rent": { "other": "rental" },
@@ -349,5 +349,7 @@
   "classification_outro": { "other": "" },
 
   "cookie_banner_message": { "other": "This site uses cookies to enhance your experience. By using this site, you accept our <a href=\"/page/cookie-policy/\">cookie usage</a>." },
-  "cookie_banner_accept": { "other": "I Accept" }
+  "cookie_banner_accept": { "other": "I Accept" },
+
+  "all_rights_reserved": { "other": "All rights reserved. No part of this site may be reproduced without our written permission." }
 }
