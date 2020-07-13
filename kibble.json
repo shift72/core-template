@@ -6,7 +6,7 @@
   "defaultLanguage": "en",
   "languages": {
     "en": "en_AU",
-    "it": "it_it"
+    "it": "it_IT"
   },
   "siteRootPath": "site",
   "liveReload": {
