@@ -70,7 +70,7 @@
   "acceptinvite_form_invalid_reset_password_token": { "other": "Questo Invito è già stato usato." },
   "acceptinvite_complete": { "other": "Thank you. Your account has been created." },
   "acceptinvite_form_submit": { "other": "Accept Invitation" },
-  "acceptinvite_agreement": { "other": "By clicking \"Accept Invitation\" you agree that you have read and understood our <a href=\"/page/terms-and-conditions\" target=\"_blank\">terms &amp; conditions</a> and <a href=\"/page/privacy\" target=\"_blank\">privacy policy</a>." },
+  "acceptinvite_agreement": { "other": "By clicking \"Accept Invitation\" you agree that you have read and understood our <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a> and <a href=\"/page/privacy/\" target=\"_blank\">privacy policy</a>." },
 
   "signup_page_header": { "other": "Crea un nuovo Account" },
   "signup_form_name": { "other": "Nome" },
