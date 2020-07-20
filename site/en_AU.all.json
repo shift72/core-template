@@ -248,6 +248,7 @@
   "shopping_error_discount_invalid": { "other": "Please enter a valid promo code." },
   "shopping_error_discount_disabled": { "other": "Please enter a valid promo code." },
   "shopping_error_discount_already_applied": { "other": "A promo code has already been used for this session." },
+  "shopping_error_discount_already_redeemed": { "other": "That promo code has already been used." },
   "shopping_error_discount_used_previously": { "other": "That promo code has already been used." },
   "shopping_error_discount_max_limit": { "other": "That promo code can no longer be used." },
   "shopping_error_discount_expired": { "other": "That promo code has expired." },
