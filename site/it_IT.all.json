@@ -146,6 +146,10 @@
   "changepassword_modal_submit": { "other": "Aggiorna" },
   "changepassword_modal_error_incorrect_password": { "other": "That password is incorrect." },
 
+  "userlibrary_page_header": { "other": "I miei ordini" },
+  "userlibrary_empty_header":  { "other": "Non hai ordini." },
+  "userlibrary_empty_content": { "other": "" },
+
   "searchresults_page_header": { "other": "Search Results" },
   "searchresults_load_more": { "other": "Load {{.Count}} more" },
   "searchresults_total": {
