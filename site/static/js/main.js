@@ -421,17 +421,9 @@ function initializeMenu() {
 }
 
 function toggleMobileMenu(icon){
-  var element = document.getElementById('navbar-mobile');
-  if(element){
-    if(element.classList.contains('visible')) {
-      if(icon) icon.classList.remove('toggled');
-      element.classList.remove('visible');
-    }
-    else
-    {
-      element.classList.add('visible');
-      if(icon) icon.classList.add('toggled');
-    }
+  var element = document.querySelector('.collapse.navbar-collapse');
+  if (element && icon) {
+    element.classList.contains('show') ? icon.classList.add('toggled') : icon.classList.remove('toggled');
   }
 }
 

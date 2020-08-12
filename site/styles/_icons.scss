@@ -5,6 +5,10 @@
 .icon-navbar-toggler {
   @extend .fa;
   @extend .fa-bars;
+
+  &.toggled {
+    @extend .fa-close;
+  }
 }
 
 .icon-loading {

@@ -13,7 +13,7 @@
         </form>
       {{end}}
       
-      <button class="navbar-toggler" type="button" s72-collapse=".navbar-collapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" toggle-function="toggleMobileMenu" s72-collapse=".navbar-collapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-navbar-toggler"></span>
       </button>
 
