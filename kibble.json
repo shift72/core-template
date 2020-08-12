@@ -2,7 +2,7 @@
   "name": "core-template",
   "version": "0.0.1",
   "siteUrl": "https://staging-abccinemas.screenplus.co",
-  "builderVersion": "0.10.16",
+  "builderVersion": "0.10.24",
   "defaultLanguage": "en",
   "languages": {
     "en": "en_AU",
