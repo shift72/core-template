@@ -57,6 +57,7 @@
   "runtime_minutes": { "other": "m" },
 
   "datetime_next": { "other": "this {{.Date}}" },
+  "datetime_last": { "other": "lo scorso {{.Date}}" },
 
   "search_control_placeholder": { "other": "Cerca" },
   "search_control_submit": { "other": "Submit search" },
@@ -121,7 +122,7 @@
   "resetpassword_form_error_invalid_reset_password_token": { "other": "The reset password request is invalid. Please try again later." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "The reset password token has expired. Please request a new one." },
 
-  "account_page_header": { "other": "My Account" },
+  "account_page_header": { "other": "Il mio account" },
   "account_form_name": { "other": "Nome" },
   "account_form_email": { "other": "Indirizzo email" },
   "account_form_password": { "other": "Password" },
@@ -181,7 +182,7 @@
   "shopping_info_ownership_rent": { "other": "noleggio" },
 
   "shopping_info_sd_only": { "other": "Limited to SD playback only." },
-  "shopping_info_release_date_title": { "other": "Releases {{.Date}}. " },
+  "shopping_info_release_date_title": { "other": "Disponibile dal {{.Date}}. " },
   "shopping_info_release_date_explanation_rent": { "other": "You can rent it now, but you won't be able to watch it until then." },
   "shopping_info_release_date_explanation_buy": { "other": "You can buy it now, but you won't be able to watch it until then." },
 
@@ -189,15 +190,16 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "You will not be able to view the content after this." },
   "shopping_info_available_until_date_explanation_buy": { "other": "You will not be able to view the content after this." },
 
-  "shopping_info_rental_period_duration": { "other": "{{.Count}} day rental " },
-  "shopping_info_watch_window_duration": { "other": "{{.Count}} hour playback window. " },
+  "shopping_info_rental_period_duration": { "other": "{{.Count}} giorni " },
+  "shopping_info_rental_period_coming_soon": { "other": "dalla data e ora della pubblicazione." },
+  "shopping_info_watch_window_duration": { "other": "Finestra di riproduzione: {{.Count}} ore. " },
   "shopping_info_watch_window_explanation_film": {
     "one": "Once rented, your film will be available in your account for a day. ",
-    "other": "Once rented, your film will be available in your account for {{.Count}} days. "
+    "other": "Una volta noleggiato, il film sarà disponibile nel vostro account per {{.Count}} giorni. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Once you press play, the watch window begins and you have an hour to watch the film as many times as you like.",
-    "other": "Once you press play, the watch window begins and you have {{.Count}} hours to watch the film as many times as you like."
+    "other": "Una volta premuto play, inizia la finestra di riproduzione e avete {{.Count}} ore di tempo per completare la visione e guardare il film tutte le volte che vorrete."
   },
   "shopping_info_watch_window_explanation_bundle": {
     "one": "Once rented, the items in your bundle will be available in your account for a day. ",
@@ -220,12 +222,12 @@
   "shopping_enter_card_prompt": { "other": "Inserisci i dati della tua carta di credito per completare l'ordine." },
 
   "shopping_terms": { "other": "Procedendo con questo pagamento, accetto i <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">termini e le condizioni</a>."},
-  "shopping_discount_applied": { "other": "{{.DiscountAmount}} discount applied." },
-  "shopping_discount_apply": { "other": "Apply" },
-  "shopping_discount_code": { "other": "Enter a promo code." },
+  "shopping_discount_applied": { "other": "{{.DiscountAmount}} sconto applicato." },
+  "shopping_discount_apply": { "other": "Applica" },
+  "shopping_discount_code": { "other": "Inserisci il codice." },
   "shopping_discount_have_code": { "other": "Ho un codice promozionale." },
 
-  "shopping_price_you_pay": { "other": "You pay" },
+  "shopping_price_you_pay": { "other": "Paghi" },
   "shopping_price_nothing": { "other": "Nothing" },
   "shopping_price_free": { "other": "Gratuito" },
 
@@ -311,7 +313,7 @@
   "userwishlist_page_header": { "other": "La mia wishlist" },
   "userwishlist_slider_header": { "other": "La mia wishlist" },
   "userwishlist_empty_header":  { "other": "L'elenco è vuoto." },
-  "userwishlist_empty_content": { "other": "<a href=\"/\">Sfoglia il catalogo</a> e scegli tra le proposte di Itaca On Demand." },
+  "userwishlist_empty_content": { "other": "Riempilo <a href=\"/\">sfogliando</a> la nostra fantastica selezione." },
   "userwishlist_button_add": { "other": "Aggiungi alla mia wishlist" },
   "userwishlist_button_remove": { "other": "La mia wishlist" },
   "userwishlist_button_add_compact": { "other": "La mia wishlist" },
@@ -331,7 +333,7 @@
     "one": "I dispositivi verranno aggiunti automaticamente qui quando saranno attivati. Puoi aggiungere fino a 1 dispositivi.",
     "other": "I dispositivi verranno aggiunti automaticamente qui quando saranno attivati. Puoi aggiungere fino a {{.Count}} dispositivi."
   },
-  "userdevices_empty_content": { "other": "You currently have 0 registered devices." },
+  "userdevices_empty_content": { "other": "Attualmente hai 0 dispositivi registrati." },
   "userdevices_header_type": { "other": "Device Type" },
   "userdevices_header_description": { "other": "Description" },
   "userdevices_device_added": { "other": "Aggiunto {{.Date}}" },
@@ -357,5 +359,7 @@
 
   "all_rights_reserved": { "other": "Tutti i diritti riservati. Nessuna parte di questo sito può essere riprodotta senza la nostra autorizzazione scritta." },
 
-  "availability_available": { "other": "Disponibile {{.ReleaseDate}}"}
+  "availability_available": { "other": "Disponibile {{.ReleaseDate}}"},
+  "availability_renting": { "other": "Noleggiato" },
+  "availability_expired": { "other": "Scaduto" }
 }
