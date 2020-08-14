@@ -6,7 +6,8 @@
   "defaultLanguage": "en",
   "languages": {
     "en": "en_AU",
-    "it": "it_IT"
+    "it": "it_IT",
+    "de": "de_DE"
   },
   "siteRootPath": "site",
   "liveReload": {
