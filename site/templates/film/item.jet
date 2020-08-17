@@ -35,7 +35,6 @@
         <div class="meta-detail-content">
           <h1>{{ film.Title }} {{if film.ReleaseDate.Year() > 1}}<small>({{film.ReleaseDate.Year()}})</small>{{end}}</h1>
           <div class="meta-detail-tagline-and-classification">
-            <s72-classification-label data-slug="{{film.Slug}}" data-layout="tooltip"></s72-classification-label>
             <div class="meta-detail-tagline">
               {{yield metaItemTagline() film}}
             </div>
