@@ -21,7 +21,9 @@
     </div>
   </a>
 
-  <div class="caption">
-    <div class="title" title="{{page.Title}}">{{page.Title}}</div>
-  </div>
+  {{ if config("media_item_caption") == "true" }}
+    <div class="caption">
+      <div class="title" title="{{page.Title}}">{{page.Title}}</div>
+    </div>
+  {{ end }}
 </div>
