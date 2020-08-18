@@ -374,6 +374,8 @@
             left: 50%;
             transform: translateX(-50%) translateY(-50%);
             z-index: 2;
+            padding-right: 3px;
+            padding-left: 3px;
             .verb {
               display: none;
             }
