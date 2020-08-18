@@ -371,8 +371,6 @@
   "pricing_quality_hd_only": { "other": "" },
   "pricing_quality_sd_only": { "other": "" },
 
-  "stripe_${e.error.code}": { "other": "" },
-
   "shopping_card_save_card": { "other": "Save this card for future use" },
   "shopping_card_button_change": { "other": "Show all saved cards" },
   "shopping_card_existing_description": { "other": "{{.Card.Brand}} ending in {{.Card.Number}}" },
