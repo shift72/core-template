@@ -430,6 +430,7 @@
 
   "combined_auth_signin_prompt": { "other": "combined_auth_signin_prompt" },
   "combined_auth_signup_prompt": { "other": "combined_auth_signup_prompt" },
-  "combined_auth_terms": { "other": "combined_auth_terms" },
-  "signup_terms": { "other": "signup_terms" }
+  "combined_auth_terms": { "other": "" },
+  "signup_terms": { "other": "" },
+  "shopping_error_item_limit_exceeded": { "other": "Unfortunately, {{.Title}} has sold out." }
 }
