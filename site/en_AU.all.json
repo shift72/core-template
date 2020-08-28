@@ -431,5 +431,6 @@
   "combined_auth_signup_prompt": { "other": "Sign up" },
   "combined_auth_terms": { "other": "I agree to all the <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a>." },
   "signup_terms": { "other": "I agree to all the <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a>." },
+  "validation_terms_required": { "other": "You must agree to the terms and conditions." },
   "shopping_error_item_limit_exceeded": { "other": "Unfortunately, {{.Title}} has sold out." }
 }
