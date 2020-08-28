@@ -427,9 +427,9 @@
 
   "play": { "other": "Play" },
 
-  "combined_auth_signin_prompt": { "other": "combined_auth_signin_prompt" },
-  "combined_auth_signup_prompt": { "other": "combined_auth_signup_prompt" },
-  "combined_auth_terms": { "other": "" },
-  "signup_terms": { "other": "" },
+  "combined_auth_signin_prompt": { "other": "Sign in" },
+  "combined_auth_signup_prompt": { "other": "Sign up" },
+  "combined_auth_terms": { "other": "I agree to all the <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a>." },
+  "signup_terms": { "other": "I agree to all the <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a>." },
   "shopping_error_item_limit_exceeded": { "other": "Unfortunately, {{.Title}} has sold out." }
 }
