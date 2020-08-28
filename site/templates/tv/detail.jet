@@ -1,6 +1,7 @@
 {{extends "../application.jet"}}
 {{import "../common/slider.jet"}}
 {{import "../items/tagline.jet"}}
+{{import "../items/bonus_item.jet"}}
 {{import "../collection/page_collection_item.jet"}}
 {{import "./episode.jet"}}
 {{import "../common/list.jet"}}
@@ -86,20 +87,7 @@
               {{yield slider(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := tvseason.Bonuses}}
                   <div class="bonus-item">
-                    <div class="bonus">
-                      <div class="poster">
-                        <s72-availability-status slug="{{bonus.Slug}}"></s72-availability-status>
-                        <s72-image src="{{bonus.Images.Landscape}}" alt="" class="poster-image poster-image-landscape"></s72-image>
-                        <s72-play-button data-slug="{{bonus.Slug}}" title="{{bonus.Title}}"></s72-play-button>
-                      </div>
-                      <div class="caption">
-                        {{if bonus.Runtime > 0}}
-                          <span class="runtime pull-right">{{bonus.Runtime}} mins</span>
-                        {{end}}
-                        <h5>{{bonus.Title}}</h5>
-                        <div class="synopsis">{{bonus.Overview | raw}}</div>
-                      </div>
-                    </div>
+                    {{yield bonusItem(item=bonus)}}
                   </div>
                 {{end}}
               {{end}}
