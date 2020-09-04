@@ -2,4 +2,10 @@
     <a href="{{i18n("powered_by_url")}}" target="_blank" class="footer-screenplus-powered-by">
       Powered by {{i18n("powered_by_name")}}
     </a>
+    {{ if config("festival_scope_footer") == "true" }}
+    <div class="footer-festivalscope">
+      <span class="footer-festivalscope-label">In partnership with</span>
+      <a href="https://www.festivalscope.com/all/page/create-your-own-online-film-festival" target="_blank"><img src="/images/common/festival-scope.png" class="footer-festivalscope-logo" title="Festival Scope" /></a>
+    </div>
+    {{ end }}
 </div>

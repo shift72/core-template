@@ -95,3 +95,26 @@ footer {
 		}
 	}
 }
+// Festival Scope
+.footer-festivalscope {
+  font-size: .8rem;
+
+  a {
+    padding: 3px 0 6px 0;
+    margin: 0;
+
+    &:hover .footer-festivalscope-logo {
+      filter: invert(100%);
+    }
+  }
+}
+.footer-festivalscope-label {
+  display: block;
+  margin: 10px 0 5px 0;
+  text-align: center;
+}
+.footer-festivalscope-logo {
+  border: 0;
+  max-width: 110px;
+  margin: 9px;
+}
