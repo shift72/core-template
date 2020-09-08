@@ -182,7 +182,7 @@
 
   "shopping_info_sd_only": { "other": "Limited to SD playback only." },
   "shopping_info_release_date_title": { "other": "Disponible le {{.Date}}. " },
-  "shopping_info_release_date_explanation_rent": { "other": "Vous pouvez acheter votre billet maintenant, vous aurez 5 jours pour démarrer le visionnage à partir de cette date." },
+  "shopping_info_release_date_explanation_rent": { "other": "Vous pouvez acheter votre billet maintenant, mais vous ne pourrez pas le regarder jusque-là." },
   "shopping_info_release_date_explanation_buy": { "other": "You can buy it now, but you won't be able to watch it until then." },
 
   "shopping_info_available_until_date_title": { "other": "Available until {{.Date}}. " },
@@ -194,7 +194,7 @@
   "shopping_info_rental_period_duration": { "other": "Location {{.Count}} jour " },
   "shopping_info_watch_window_duration": { "other": "Fenêtre de lecture {{.Count}} heures. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Once rented, your film will be available in your account for a day. ",
+    "one": "Une fois loué, votre film sera disponible sur votre compte pendant une journée.",
     "other": "Une fois loué, votre film sera disponible sur votre compte pendant {{.Count}} jours."
   },
   "shopping_info_watch_window_explanation2_film": {
