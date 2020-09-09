@@ -59,7 +59,7 @@
   "search_control_placeholder": { "other": "Suche" },
   "search_control_submit": { "other": "Suche einreichen" },
 
-  "play_button_watch": { "other" : "Jetzt spielen"},
+  "play_button_watch": { "other" : "Jetzt abspielen"},
   "play_button_resume": { "other" : "Fortsetzen"},
 
   "social_media_buttons_title": { "other": "Teilen" },
@@ -146,11 +146,11 @@
   "userlibrary_empty_header":  { "other": "Ihre Bibliothek ist leer." },
   "userlibrary_empty_content": { "other": "Füllen Sie es von unserer großen Auswahl <a href=\"/\">Surfen</a>." },
 
-  "searchresults_page_header": { "other": "Search Results" },
+  "searchresults_page_header": { "other": "Suchergebnisse" },
   "searchresults_load_more": { "other": "Load {{.Count}} more" },
   "searchresults_total": {
-    "one": "Found 1 result for \"{{.Query}}\".",
-    "other": "Found {{.Count}} results for \"{{.Query}}\"."
+    "one": "1 Ergebnis gefunden: \"{{.Query}}\".",
+    "other": "{{.Count}} Ergebnisse gefunden: \"{{.Query}}\"."
   },
   "searchresults_empty_header":  { "other": "There were no search results for \"{{.Query}}\"" },
   "searchresults_empty_content": { "other": "Try another search or <a href=\"/\">browse our content</a> to find what you're looking for." },
@@ -169,7 +169,7 @@
   "validation_dob_required": { "other": "Please enter your date of birth." },
   "validation_dob_date": { "other": "Please enter a valid date of birth." },
 
-  "shopping_info_subtitle_hd": { "other": "HD Video on Demand." },
+  "shopping_info_subtitle_hd": { "other": "Film in HD leihen." },
   "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
   "shopping_info_subtitle_wallet": { "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus." },
   "shopping_info_subtitle_help": { "other": "Technische Voraussetzungen." },
@@ -177,13 +177,13 @@
   "shopping_info_ownership_rent": { "other": "rental" },
 
   "shopping_info_sd_only": { "other": "Limited to SD playback only." },
-  "shopping_info_release_date_title": { "other": "Releases {{.Date}}. " },
-  "shopping_info_release_date_explanation_rent": { "other": "You can rent it now, but you won't be able to watch it until then." },
+  "shopping_info_release_date_title": { "other": "Verfügbar ab {{.Date}}. " },
+  "shopping_info_release_date_explanation_rent": { "other": "Sie können den Film jetzt leihen, aber erst ab diesem Datum ansehen." },
   "shopping_info_release_date_explanation_buy": { "other": "You can buy it now, but you won't be able to watch it until then." },
 
-  "shopping_info_available_until_date_title": { "other": "Available until {{.Date}}. " },
-  "shopping_info_available_until_date_explanation_rent": { "other": "You will not be able to view the content after this." },
-  "shopping_info_available_until_date_explanation_buy": { "other": "You will not be able to view the content after this." },
+  "shopping_info_available_until_date_title": { "other": "Verfügbar bis {{.Date}}. " },
+  "shopping_info_available_until_date_explanation_rent": { "other": "Danach können Sie den Film nicht mehr ansehen." },
+  "shopping_info_available_until_date_explanation_buy": { "other": "Danach können Sie den Film nicht mehr ansehen." },
 
   "shopping_info_rental_period_duration": { "other": "Verfügbar für {{.Count}} Tage " },
   "shopping_info_watch_window_duration": { "other": "Abspielbar für {{.Count}} Stunden. " },
@@ -211,6 +211,7 @@
     "one": "Once you press play on an episode, the watch window begins and you have an hour to watch that episode as many times as you like.",
     "other": "Once you press play on an episode, the watch window begins and you have {{.Count}} hours to watch that episode as many times as you like."
   },
+  "shopping_info_rental_period_coming_soon": { "other": "ab dem Zeitpunk der Premiere." },
   "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },
 
   "shopping_enter_card_prompt": { "other": "Bitte geben Sie Ihre Kreditkartendetails ein um den Film auszuleihen." },
@@ -327,7 +328,7 @@
     "one": "Devices will be automatically added here when you use them. You are limited to only one device.",
     "other": "Geräte werden automatisch hinzugefügt, wenn Sie sie verwenden. Sie dürfen höchsten {{.Count}} Geräte verwenden."
   },
-  "userdevices_empty_content": { "other": "You currently have 0 registered devices." },
+  "userdevices_empty_content": { "other": "Momentan sind 0 Geräte registriert." },
   "userdevices_header_type": { "other": "Device Type" },
   "userdevices_header_description": { "other": "Description" },
   "userdevices_device_added": { "other": "Hinzugefügt {{.Date}}" },
@@ -354,7 +355,7 @@
   "all_rights_reserved": { "other": "Alle Rechte vorbehalten. Kein Teil dieser Website darf ohne unsere schriftliche Genehmigung reproduziert werden." },
 
   "availability_coming_soon": {"other": "In Kürze verfügbar"},
-  "availability_available": {"other": "Verfügbar {{.ReleaseDate}}"},
+  "availability_available": {"other": "Verfügbar ab {{.ReleaseDate}}"},
   "availability_expired": { "other": "Abgelaufen {{.Expiry}}" },
   "availability_sold_out": { "other": "Ausverkauft" },
   "availability_not_available_in_country": { "other": "Nicht verfügbar" },
