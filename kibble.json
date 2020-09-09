@@ -9,7 +9,8 @@
     "it": "it_IT",
     "fr": "fr_FR",
     "de": "de_DE",
-    "es": "es_ES"
+    "es": "es_ES",
+    "el": "el_EL"
   },
   "siteRootPath": "site",
   "liveReload": {
