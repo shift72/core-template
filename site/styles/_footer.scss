@@ -19,19 +19,24 @@ footer {
 	}
 	.nav {
 		flex-direction: column;
+		margin: 20px 0;
 		@include media-breakpoint-up(md){
 			flex-direction: row;
+			margin: 0;
 		}
 		.nav-item {
 			.nav-link {
-				font-size: 10px;
+				font-size: 14px;
 				font-weight: 600;
 				color: #fff;
 				text-align: center;
 				padding: 5px 4px;
 				display: block;
+				&:hover {
+					color: $primary;
+				}
 				@include media-breakpoint-up(md){
-					font-size: 12px;
+					font-size: 16px;
 					text-align: left;
 					margin-right: 10px;
 					padding: 0;
@@ -40,15 +45,15 @@ footer {
 		}
 	}
 	.copyright-statement {
-		font-size: 8px;
+		font-size: 10px;
 		text-align: center;
 		padding: 10px 0;
-		max-width: 210px;
 		margin: 0 auto;
+		opacity: .6;
 		@include media-breakpoint-up(md){
 			text-align: left;
 			padding: 0;
-			max-width: 100%;
+			font-size: 12px;
 		}
 	}
 }
