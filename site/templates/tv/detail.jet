@@ -82,7 +82,7 @@
           {{end}}
 
           {{if len(tvseason.Bonuses) > 0 }}
-            <div class="meta-detail-bonus-content d-flex">
+            <div class="meta-detail-bonus-content">
               <h4>{{i18n("meta_detail_bonus_title")}}</h4>
               {{yield slider(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := tvseason.Bonuses}}
