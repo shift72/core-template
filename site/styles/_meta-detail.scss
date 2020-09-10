@@ -1,35 +1,38 @@
 // FadeIn Animation
 @keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 // Meta Detail
 .meta-detail {
@@ -53,7 +56,7 @@
   position: absolute;
   top: 0;
   z-index: -1;
-  opacity: .5;
+  opacity: 0.5;
   @extend .d-flex;
   justify-content: flex-end;
   flex-direction: row;
@@ -76,7 +79,7 @@
       width: 1600px;
     }
     &:before {
-      content: '';
+      content: "";
       width: 60%;
       height: 100%;
       position: absolute;
@@ -85,7 +88,7 @@
       bottom: 0;
       z-index: 8;
       @extend .left-gradient-bg;
-      @include media-breakpoint-up(md){
+      @include media-breakpoint-up(md) {
         width: 100%;
       }
     }
@@ -109,7 +112,7 @@
     }
   }
   &:after {
-    content: '';
+    content: "";
     width: 100%;
     height: 350px;
     position: absolute;
@@ -130,7 +133,7 @@
   width: 100%;
   bottom: 0;
   top: 0;
-  @include gradient-y(rgba($body-bg,0.4), $body-bg, 0%, 100%);
+  @include gradient-y(rgba($body-bg, 0.4), $body-bg, 0%, 100%);
 }
 // Meta Detail Background Image
 .meta-detail-bg-img {
@@ -203,7 +206,7 @@
   .meta-item-tagline {
     font-size: 14px;
     font-weight: 600;
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
     @include media-breakpoint-up(xxxl) {
       font-size: 18px;
     }
@@ -288,35 +291,36 @@
   .meta-detail-country,
   .meta-detail-subtitle {
     padding-bottom: 20px;
-    h3, h4 {
+    h3,
+    h4 {
       font-size: 8px;
       font-weight: 500;
-      color: rgba(255,255,255,0.25);
+      color: rgba(255, 255, 255, 0.25);
       margin-bottom: 0;
       padding-bottom: 0;
       animation: fadein 2s;
       -moz-animation: fadein 2s; /* Firefox */
       -webkit-animation: fadein 2s; /* Safari and Chrome */
       -o-animation: fadein 2s; /* Opera */
-      @include media-breakpoint-up(md){
+      @include media-breakpoint-up(md) {
         font-size: 10px;
       }
     }
     p {
       font-size: 10px;
       font-weight: 400;
-      color: rgba(255,255,255,0.6);
+      color: rgba(255, 255, 255, 0.6);
       margin-bottom: 0;
       animation: fadein 2s;
       -moz-animation: fadein 2s; /* Firefox */
       -webkit-animation: fadein 2s; /* Safari and Chrome */
       -o-animation: fadein 2s; /* Opera */
-      @include media-breakpoint-up(md){
+      @include media-breakpoint-up(md) {
         font-size: 12px;
       }
     }
     a {
-      color: rgba(255,255,255,0.6);
+      color: rgba(255, 255, 255, 0.6);
       font-weight: 600;
       text-decoration: underline;
       animation: fadein 2s;
@@ -325,7 +329,7 @@
       -webkit-animation: fadein 2s; /* Safari and Chrome */
       -o-animation: fadein 2s; /* Opera */
       @include hover-focus {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
         text-decoration: none;
       }
     }
@@ -346,6 +350,9 @@
   padding: 0;
   // border-top: 1px solid rgba(255,255,255,0.2);
   padding-top: 20px;
+  .poster .s72-btn-play {
+    padding-right: 3px;
+  }
   h4 {
     font-size: 14px;
     font-weight: 700;
@@ -395,7 +402,7 @@
           }
           .runtime {
             font-size: 8px;
-            color: rgba(255,255,255,0.5);
+            color: rgba(255, 255, 255, 0.5);
             @include media-breakpoint-up(md) {
               font-size: 10px;
             }
@@ -407,7 +414,7 @@
             p {
               font-size: 10px;
               line-height: 12px;
-              color: rgba(255,255,255,0.5);
+              color: rgba(255, 255, 255, 0.5);
               @include media-breakpoint-up(lg) {
                 font-size: 12px;
               }
@@ -435,7 +442,7 @@
 .meta-detail-bundle {
   // Meta Detail Background
   .meta-detail-bg {
-    opacity: .4;
+    opacity: 0.4;
     &:before {
       display: none;
     }
@@ -444,11 +451,11 @@
       width: 100%;
       bottom: 0;
       left: 0;
-      @include gradient-y(rgba($body-bg,0), $body-bg, 0%, 100%);
+      @include gradient-y(rgba($body-bg, 0), $body-bg, 0%, 100%);
     }
     s72-image {
       &:before {
-        content: '';
+        content: "";
         width: 30%;
         height: 100%;
         position: absolute;
@@ -456,10 +463,10 @@
         left: 0;
         bottom: 0;
         z-index: 8;
-        @include gradient-x( rgba($body-bg, 1), transparent, 0%, 100%);
+        @include gradient-x(rgba($body-bg, 1), transparent, 0%, 100%);
       }
       &:after {
-        content: '';
+        content: "";
         width: 30%;
         height: 100%;
         position: absolute;
@@ -467,7 +474,7 @@
         right: 0;
         bottom: 0;
         z-index: 8;
-        @include gradient-x( transparent, rgba($body-bg, 1), 0%, 100%);
+        @include gradient-x(transparent, rgba($body-bg, 1), 0%, 100%);
       }
     }
   }
@@ -475,7 +482,7 @@
   .meta-detail-main {
     flex-direction: column;
     padding-top: 140px;
-    @include media-breakpoint-up(lg){
+    @include media-breakpoint-up(lg) {
       padding-top: 170px;
     }
   }
@@ -484,15 +491,16 @@
     margin: 0 auto;
     width: 100%;
     max-width: 557px;
-    @include media-breakpoint-up(lg){
+    @include media-breakpoint-up(lg) {
       width: 657px;
       max-width: 100%;
     }
-    @include media-breakpoint-up(xl){
+    @include media-breakpoint-up(xl) {
       width: 773px;
       max-width: 100%;
     }
-    h1, p,
+    h1,
+    p,
     .meta-item-tagline,
     .meta-detail-buttons {
       text-align: center;
@@ -502,10 +510,10 @@
       text-align: center;
       margin-bottom: $grid-gutter-width / 2;
       padding-top: 0;
-      @include media-breakpoint-up(lg){
+      @include media-breakpoint-up(lg) {
         font-size: 14px;
       }
-      @include media-breakpoint-up(xl){
+      @include media-breakpoint-up(xl) {
         font-size: 16px;
       }
       p {
@@ -534,10 +542,10 @@
       @extend .d-flex;
       justify-content: center;
       margin: 0 auto;
-      @include media-breakpoint-up(lg){
+      @include media-breakpoint-up(lg) {
         max-width: 767px;
       }
-      @include media-breakpoint-up(xl){
+      @include media-breakpoint-up(xl) {
         max-width: 1440px;
       }
       .slider-item {
@@ -545,7 +553,7 @@
         float: none;
         padding-right: 5px;
         padding-left: 5px;
-        @include media-breakpoint-up(lg){
+        @include media-breakpoint-up(lg) {
           width: 16.6666666667%;
         }
         .poster {
@@ -560,9 +568,15 @@
               display: none !important;
             }
           }
-
         }
       }
     }
+  }
+}
+
+.meta-detail-bonus-content .synopsis {
+  font-size: 10px;
+  @include media-breakpoint-up(lg) {
+    font-size: 12px;
   }
 }

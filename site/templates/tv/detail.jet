@@ -81,19 +81,44 @@
             </div>
           {{end}}
 
+          
           {{if len(tvseason.Bonuses) > 0 }}
-            <div class="meta-detail-bonus-content">
+            <div class="meta-detail-bonus-content"">
               <h4>{{i18n("meta_detail_bonus_title")}}</h4>
-              {{yield slider(itemsPerRow=4, itemLayout="landscape") content}}
+              {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := tvseason.Bonuses}}
                   <div class="bonus-item">
-                    {{yield bonusItem(item=bonus)}}
+                    <div class="bonus">
+                      <div class="poster">
+                        <s72-availability-status slug="{{bonus.Slug}}"></s72-availability-status>
+                        <s72-image src="{{bonus.Images.Landscape}}" alt="" class="poster-image poster-image-landscape"></s72-image>
+                        <s72-can-be-watched-now data-slug="{{tvseason.Slug}}">
+                          <s72-play-button data-slug="{{bonus.Slug}}" title="{{bonus.Title}}"></s72-play-button>
+                        </s72-can-be-watched-now>
+                      </div>
+                      <div class="caption">
+                        {{if bonus.Runtime > 0}}
+                          <span class="runtime pull-right">
+                            {{if bonus.Runtime.Hours() > 0}}
+                              {{bonus.Runtime.Hours()}}{{i18n("runtime_hours")}}
+                            {{end}}
+                            {{bonus.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
+                          </span>
+                        {{end}}
+                        <h5>{{bonus.Title}}</h5>
+                        <div class="synopsis">{{bonus.Overview | raw}}</div>
+                      </div>
+                    </div>
                   </div>
                 {{end}}
               {{end}}
             </div>
           {{end}}
         </div>
+      </div>
+        </div>
+      </div>
+    </div>
       </div>
         </div>
       </div>
