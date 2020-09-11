@@ -566,3 +566,17 @@
     }
   }
 }
+
+.meta-detail-episodes-content,
+.meta-detail-bonus-content {
+    .poster .s72-btn-play {
+        padding-right: 3px;
+    }
+}
+
+.meta-detail-bonus-content .synopsis {
+    font-size: 10px;    
+    @include media-breakpoint-up(lg) {
+        font-size: 12px;
+    }
+}
