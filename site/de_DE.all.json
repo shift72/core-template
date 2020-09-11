@@ -52,7 +52,7 @@
   "nav_wishlist": { "other": "Meine Liste" },
   "nav_account": { "other": "Mein Konto" },
   "nav_signout": { "other": "Ausloggen" },
-  "play_trailer": { "other": "Trailer" },
+  "play_trailer": { "other": "Vorschau" },
   "runtime_hours": { "other": "h" },
   "runtime_minutes": { "other": "m" },
 
@@ -144,7 +144,7 @@
 
   "userlibrary_page_header": { "other": "Meine Bibliothek" },
   "userlibrary_empty_header":  { "other": "Ihre Bibliothek ist leer." },
-  "userlibrary_empty_content": { "other": "Füllen Sie es von unserer großen Auswahl <a href=\"/\">Surfen</a>." },
+  "userlibrary_empty_content": { "other": "Fügen Sie Medien aus unserer großen Auswahl hinzu. <a href=\"/\">Durchsuchen</a>." },
 
   "searchresults_page_header": { "other": "Suchergebnisse" },
   "searchresults_load_more": { "other": "Load {{.Count}} more" },
@@ -326,9 +326,9 @@
   "userdevices_page_header": { "other": "Geräte" },
   "userdevices_page_content": {
     "one": "Devices will be automatically added here when you use them. You are limited to only one device.",
-    "other": "Geräte werden automatisch hinzugefügt, wenn Sie sie verwenden. Sie dürfen höchsten {{.Count}} Geräte verwenden."
+    "other": "Ihre verwendeten Geräte werden hier automatisch angezeigt. Es können maximal {{.Count}} Geräte hinzugefügt werden."
   },
-  "userdevices_empty_content": { "other": "Momentan sind 0 Geräte registriert." },
+  "userdevices_empty_content": { "other": "Im Moment sind 0 Geräte registriert." },
   "userdevices_header_type": { "other": "Device Type" },
   "userdevices_header_description": { "other": "Description" },
   "userdevices_device_added": { "other": "Hinzugefügt {{.Date}}" },
