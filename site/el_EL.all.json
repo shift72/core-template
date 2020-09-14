@@ -1,436 +1,436 @@
 {
-    "site_owner": { "other": "ABC Cinemas" },
-    "settings_title": { "other": "Settings" },
-    "powered_by_name": { "other": "ScreenPlus" },
-    "powered_by_url": { "other": "https://www.screenplus.com" },
-    "en": { "other": "English" },
-    "fr": { "other": "French" },
-  
-    "episode_name": {
-      "other": "Episode"
-    },
-  
-    "season_name": {
-      "other": "Season"
-    },
-  
-    "seasons":{
-      "one": "one season",
-      "other": "{{.Count}} seasons"
-    },
-    "tvseason": {
-      "other": "{{.ShowInfo.Title}} Series {{.Season.SeasonNumber}}"
-    },
-    "tvseason_html": {
-      "other": "{{.ShowInfo.Title}} <span>Series {{.Season.SeasonNumber}}</span>"
-    },
-    "tvepisode": {
-      "other": "{{.Episode.Title}}"
-    },
-    "tvseason_number": {
-      "other": "Series {{.Season.SeasonNumber}}"
-    },
-    "episode_count": {
-      "one": "1 Episode",
-      "other": "{{.Count}} Episodes"
-    },
-  
-    "date_day": { "other": "Day" },
-    "date_month": { "other": "Month" },
-    "date_year": { "other": "Year" },
-  
-    "404_page_header": { "other": "That page doesn't exist..." },
-    "404_page_content": { "other": "<p>Sorry, it looks like the page that you're looking for doesn't exist.</p><p>It could have been moved or deleted, or perhaps you misspelled something.</p><p>Try going back to the homepage to find what you were looking for.</p><p><a href=\"/\">Back to the Homepage</a></p>" },
-  
-  
-    "nav_homepage": { "other": "ABC Cinemas" },
-    "nav_signin": { "other": "Sign In" },
-    "nav_signup": { "other": "Create Account" },
-    "nav_signed_in_as": { "other": "Signed in as" },
-    "nav_library": { "other": "My Library" },
-    "nav_devices": { "other": "My Devices" },
-    "nav_wishlist": { "other": "My List" },
-    "nav_account": { "other": "My Account" },
-    "nav_signout": { "other": "Sign Out" },
-    "play_trailer": { "other": "Trailer" },
-    "runtime_hours": { "other": "h" },
-    "runtime_minutes": { "other": "m" },
-  
-    "datetime_today": { "other": "today {{.Date}}" },
-    "datetime_tomorrow": { "other": "tomorrow {{.Date}}" },
-    "datetime_yesterday": { "other": "yesterday {{.Date}}" },
-    "datetime_next": { "other": "next {{.Date}}" },
-    "datetime_last": { "other": "last {{.Date}}" },
-  
-    "search_control_placeholder": { "other": "Search" },
-    "search_control_submit": { "other": "Submit search" },
-  
-    "play_button_watch": { "other" : "Play Now"},
-    "play_button_resume": { "other" : "Continue"},
-  
-    "social_media_buttons_title": { "other": "Share" },
-  
-    "accept_invite_page_header": { "other": "Welcome to " },
-    "acceptinvite_form_invalid_reset_password_token": { "other": "It looks like you have already claimed this invite, you should <a href=\"signin.html\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"forgotpassword.html\">reset your password</a>." },
-    "acceptinvite_complete": { "other": "Thank you. Your account has been created." },
-    "acceptinvite_form_submit": { "other": "Accept Invitation" },
-    "acceptinvite_agreement": { "other": "By clicking \"Accept Invitation\" you agree that you have read and understood our <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a> and <a href=\"/page/privacy/\" target=\"_blank\">privacy policy</a>." },
-  
-    "signup_page_header": { "other": "Create New Account" },
-    "signup_form_name": { "other": "Name" },
-    "signup_form_email": { "other": "Email address" },
-    "signup_form_password": { "other": "Password" },
-    "signup_form_password_confirmation": { "other": "Confirm your password" },
-    "signup_form_gender": { "other": "Gender" },
-    "signup_form_dob": { "other": "Birth date" },
-    "signup_form_submit": { "other": "Submit" },
-  
-    "signin_page_header": { "other": "Sign In" },
-    "signin_form_email": { "other": "Email address" },
-    "signin_form_password": { "other": "Password" },
-    "signin_form_remember": { "other": "Remember me" },
-    "signin_form_submit": { "other": "Submit" },
-    "signin_page_forgotpassword": { "other": "Forgotten your password?" },
-    "signin_page_createnewaccount": { "other": "Don't have an account? Create new account" },
-    "signup_page_alreadyhaveanaccount": { "other": "Already have an account? Sign in" },
-    "signup_form_error_email_already_in_use": { "other": "That email address is already in use." },
-    "signin_form_error_incorrect_credentials": { "other": "The username or password is incorrect." },
-    "signup_form_error_forbidden": { "other": "An error has occurred." },
-  
-    "combined_auth_continue": { "other": "Continue" },
-    "combined_auth_change": { "other": "change" },
-    "combined_auth_signin": { "other": "Sign in" },
-    "combined_auth_signup": { "other": "Create account" },
-    "combined_auth_signin_password": { "other": "Please enter your password to sign in to your account." },
-    "combined_auth_signin_error_incorrect_credentials": { "other": "That password is incorrect." },
-    "combined_auth_error_forbidden": { "other": "An error has occurred." },
-  
-    "forgotpassword_page_header": { "other": "Reset your Password" },
-    "forgotpassword_form_email": { "other": "Email address" },
-    "forgotpassword_form_submit": { "other": "Reset" },
-    "forgotpassword_form_error_email_doesnt_exist": { "other": "An account matching that email address does not exist." },
-    "forgotpassword_form_error_account_suspended": { "other": "This account is suspended." },
-    "forgotpassword_complete": { "other": "Thank you. A password reset email should appear in your inbox shortly." },
-    "forgotpassword_form_error_forbidden": { "other": "An error has occurred." },
-  
-    "resetpassword_page_header": { "other": "Change your Password" },
-    "resetpassword_form_invalid_reset_password_token": { "other": "It appears as if this reset password request is invalid, please fill out the <a href=\"{{.URL}}\">Forgot Password</a> form again." },
-    "resetpassword_form_password": { "other": "New password" },
-    "resetpassword_form_password2": { "other": "Confirm your new password" },
-    "resetpassword_form_submit": { "other": "Change" },
-    "resetpassword_complete": { "other": "Thank you. Your password has been changed, and you have been signed in." },
-    "resetpassword_form_error_invalid_reset_password_token": { "other": "The reset password request is invalid. Please try again later." },
-    "resetpassword_form_error_reset_password_token_expired": { "other": "The reset password token has expired. Please request a new one." },
-  
-    "account_page_header": { "other": "My Account" },
-    "account_form_name": { "other": "Name" },
-    "account_form_email": { "other": "Email address" },
-    "account_form_password": { "other": "Password" },
-    "account_form_change_password": { "other": "Change" },
-    "account_form_gender": { "other": "Gender" },
-    "account_form_dob": { "other": "Birth date" },
-    "account_form_submit": { "other": "Update" },
-    "account_form_submitted": { "other": "Updated" },
-    "account_form_password_changed": { "other": "Updated" },
-    "account_form_error_incorrect_password": { "other": "That password is incorrect." },
-  
-    "signup_form_optin": {"other": "Sign up for our free newsletter"},
-  
-    "passwordconfirmation_modal_header": { "other": "Confirm your password" },
-    "passwordconfirmation_modal_label": { "other": "Please enter your password in order to update your changes" },
-    "passwordconfirmation_modal_confirm": { "other": "Confirm" },
-  
-    "changepassword_modal_header": { "other": "Change your password" },
-    "changepassword_modal_currentpassword": { "other": "Your current password" },
-    "changepassword_modal_password": { "other": "Your new password" },
-    "changepassword_modal_password2": { "other": "Confirm your new password" },
-    "changepassword_modal_submit": { "other": "Update" },
-    "changepassword_modal_error_incorrect_password": { "other": "That password is incorrect." },
-  
-    "userlibrary_page_header": { "other": "My Library" },
-    "userlibrary_empty_header":  { "other": "Your library is empty." },
-    "userlibrary_empty_content": { "other": "Fill it by <a href=\"/\">browsing</a> our great selection." },
-  
-    "searchresults_page_header": { "other": "Search Results" },
-    "searchresults_load_more": { "other": "Load {{.Count}} more" },
-    "searchresults_total": {
-      "one": "Found 1 result for \"{{.Query}}\".",
-      "other": "Found {{.Count}} results for \"{{.Query}}\"."
-    },
-    "searchresults_empty_header":  { "other": "There were no search results for \"{{.Query}}\"" },
-    "searchresults_empty_content": { "other": "Try another search or <a href=\"/\">browse our content</a> to find what you're looking for." },
-  
-    "validation_name_required": { "other": "Please enter your name." },
-    "validation_email_required": { "other": "Please enter your email address." },
-    "validation_email_email": { "other": "Please enter a valid email address." },
-    "validation_currentpassword_required": { "other": "Please enter your current password." },
-    "validation_password_required": { "other": "Please enter a password." },
-    "validation_password2_required": { "other": "Please confirm your password." },
-    "validation_password2_match": { "other": "Your passwords do not match." },
-    "validation_password_minlength": { "other": "Please enter at least {{.Count}} characters." },
-    "validation_promocode_required": { "other": "Please enter a promo code." },
-    "validation_pincode_required": { "other": "Please enter a PIN code." },
-    "validation_gender_required": { "other": "Please select the closest gender you identify with." },
-    "validation_dob_required": { "other": "Please enter your date of birth." },
-    "validation_dob_date": { "other": "Please enter a valid date of birth." },
-  
-    "shopping_info_subtitle_hd": { "other": "HD Video on Demand." },
-    "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
-    "shopping_info_subtitle_wallet": { "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus." },
-    "shopping_info_subtitle_help": { "other": "See here for system requirements." },
-    "shopping_info_ownership_buy": { "other": "purchase" },
-    "shopping_info_ownership_rent": { "other": "rental" },
-  
-    "shopping_info_sd_only": { "other": "Limited to SD playback only." },
-    "shopping_info_release_date_title": { "other": "Releases {{.Date}}. " },
-    "shopping_info_release_date_explanation_rent": { "other": "You can rent it now, but you won't be able to watch it until then." },
-    "shopping_info_release_date_explanation_buy": { "other": "You can buy it now, but you won't be able to watch it until then." },
-  
-    "shopping_info_available_until_date_title": { "other": "Available until {{.Date}}. " },
-    "shopping_info_available_until_date_explanation_rent": { "other": "You will not be able to view the content after this." },
-    "shopping_info_available_until_date_explanation_buy": { "other": "You will not be able to view the content after this." },
-  
-    "shopping_info_rental_period_duration": { "other": "{{.Count}} day rental " },
-    "shopping_info_watch_window_duration": { "other": "{{.Count}} hour playback window. " },
-    "shopping_info_watch_window_explanation_film": {
-      "one": "Once rented, your film will be available in your account for a day. ",
-      "other": "Once rented, your film will be available in your account for {{.Count}} days. "
-    },
-    "shopping_info_watch_window_explanation2_film": {
-      "one": "Once you press play, the watch window begins and you have an hour to watch the film as many times as you like.",
-      "other": "Once you press play, the watch window begins and you have {{.Count}} hours to watch the film as many times as you like."
-    },
-    "shopping_info_watch_window_explanation_bundle": {
-      "one": "Once rented, the items in your bundle will be available in your account for a day. ",
-      "other": "Once rented, the items in your bundle will be available in your account for {{.Count}} days. "
-    },
-    "shopping_info_watch_window_explanation2_bundle": {
-      "one": "Once you press play on a specific film, the watch window begins and you have an hour to watch that film as many times as you like.",
-      "other": "Once you press play on a specific film, the watch window begins and you have {{.Count}} hours to watch that film as many times as you like."
-    },
-    "shopping_info_watch_window_explanation_season": {
-      "one": "Once rented, your season will be available in your account for a day. ",
-      "other": "Once rented, your season will be available in your account for {{.Count}} days. "
-    },
-    "shopping_info_watch_window_explanation2_season": {
-      "one": "Once you press play on an episode, the watch window begins and you have an hour to watch that episode as many times as you like.",
-      "other": "Once you press play on an episode, the watch window begins and you have {{.Count}} hours to watch that episode as many times as you like."
-    },
-    "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },
-  
-    "shopping_enter_card_prompt": { "other": "Enter your credit card details below to complete your {{.Verb}}." },
-  
-    "shopping_terms": { "other": "Με την ολοκλήρωση της διαδικασίας, συμφωνείτε στους <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">όρους και προϋποθέσεις</a>. By completing this transaction, I agree to the <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">terms and conditions.</a>"},
-    "shopping_discount_applied": { "other": "{{.DiscountAmount}} discount applied." },
-    "shopping_discount_apply": { "other": "Apply" },
-    "shopping_discount_code": { "other": "Enter a promo code." },
-    "shopping_discount_have_code": { "other": "I have a promo code." },
-  
-    "shopping_price_you_pay": { "other": "You pay" },
-    "shopping_price_nothing": { "other": "Nothing" },
-    "shopping_price_free": { "other": "Free" },
-  
-    "shopping_auth_directions": { "other": "Θα πρέπει πρώτα να δημιουργήσετε ένα λογαριασμό. Παρακαλούμε συμπληρώστε το email σας. An account is needed first. Please enter your email address" },
-  
-    "shopping_error_in_library": { "other": "{{.Title}} is already in your library." },
-  
-    "shopping_error_missing_card": { "other": "Please enter your Credit Card details." },
-    "shopping_error_title": { "other": "An error occured" },
-    "shopping_error_incorrect_cvc": { "other": "Please enter a valid CVV." },
-    "shopping_error_invalid_cvc": { "other": "Please enter a valid CVV." },
-    "shopping_error_incorrect_number": { "other": "Please enter a valid Credit Card Nunber." },
-    "shopping_error_invalid_number": { "other": "Please enter a valid Credit Card Nunber." },
-    "shopping_error_card_declined": { "other": "The Credit Card has been declined." },
-    "shopping_error_invalid_expiry_month": { "other": "Please enter a valid Expiry." },
-    "shopping_error_invalid_expiry_year": { "other": "Please enter a valid Expiry." },
-    "shopping_error_expired_card": { "other": "The Credit Card has expired." },
-    "shopping_error_creditcard_country_mismatch": { "other": "Your {{.Ownership}} has not been completed. You need to be in the country your credit card was issued. Please use another card for making the payment." },
-    "shopping_error_proxy_detected": { "other": "Your {{.Ownership}} has not been completed. We have detected that you are using an unblocker or proxy service. Please turn off any of these services and try again." },
-  
-    "shopping_error_discount_blank": { "other": "Please enter a promo code." },
-    "shopping_error_discount_not_applied": { "other": "Please enter a valid promo code." },
-    "shopping_error_discount_invalid": { "other": "Please enter a valid promo code." },
-    "shopping_error_discount_disabled": { "other": "Please enter a valid promo code." },
-    "shopping_error_discount_already_applied": { "other": "A promo code has already been used for this session." },
-    "shopping_error_discount_already_redeemed": { "other": "That promo code has already been used." },
-    "shopping_error_discount_used_previously": { "other": "That promo code has already been used." },
-    "shopping_error_discount_max_limit": { "other": "That promo code can no longer be used." },
-    "shopping_error_discount_expired": { "other": "That promo code has expired." },
-    "shopping_error_discount_invalid_ownership_buy": { "other": "That promo code can not be used when purchasing." },
-    "shopping_error_discount_invalid_ownership_rent": { "other": "That promo code can not be used when renting." },
-    "shopping_error_discount_invalid_item": { "other": "That promo code can not be used with this item." },
-    "shopping_error_discount_invalid_pricing_region": { "other": "That promo code can not be used in your country." },
-    "shopping_error_discounts_not_allowed": { "other": "That promo code can not be used." },
-    "shopping_error_discount_disallowed_on_bundles": { "other": "That promo code can not be used on bundles." },
-    "shopping_error_payment_intent_authentication_failure": { "other": "The Credit Card has been declined. Please try again." },
-  
-    "shopping_complete_rental": { "other": "Success!" },
-    "shopping_complete_rental_period": {
-      "one": "You are now able to watch it as often as you like over the next day.",
-      "other": "You are now able to watch it as often as you like over the next {{.Count}} days."
-    },
-    "shopping_complete_purchase": { "other": "Thank you for purchasing {{.Title}}." },
-    "shopping_complete_credit_purchase": { "other": "Thank you for purchasing {{.Title}}, {{.CreditTotal}} has been added to your account." },
-    "shopping_complete_purchase_coming_soon": { "other": "You will be able to watch it from {{.Date}}." },
-    "shopping_complete_receipt": { "other": "A receipt has been emailed to you." },
-    "shopping_complete_library_link": { "other": "Start watching any of the {{.BundleItems}} in your library now." },
-  
-    "shopping_complete_rental_watch_window_start": {
-      "one": "You are now able to start watching it within the next day.",
-      "other": "You are now able to start watching it within the next {{.Count}} days."
-    },
-    "shopping_complete_rental_watch_window_end": {
-      "one": "When playback is started you will then have an hour to watch the item as many times as you like.",
-      "other": "When playback is started you will then have {{.Count}} hours to watch the item as many times as you like."
-    },
-    "shopping_complete_rental_coming_soon": {
-      "one": "You will be able to watch it from {{.Date}} and your rental will remain active for a day.",
-      "other": "You will be able to watch it from {{.Date}} and your rental will remain active for {{.Count}} days."
-    },
-    "shopping_complete_rental_coming_soon_watch_window_start": {
-      "one": "You will be able to watch it from {{.Date}} and your rental will remain active for a day.",
-      "other": "You will be able to watch it from {{.Date}} and your rental will remain active for {{.Count}} days."
-    },
-  
-    "shopping_action_rent": { "other": "Rent" },
-    "shopping_action_buy": { "other": "Buy" },
-  
-    "meta_detail_cast_title": { "other": "Cast" },
-    "meta_detail_crew_title": { "other": "Crew" },
-    "meta_detail_languages": { "one": "Language", "other": "Languages" },
-    "meta_detail_studios": { "one": "Studio", "other": "Studios" },
-    "meta_detail_countries": { "one": "Country", "other": "Countries" },
-    "meta_detail_subtitles": { "other": "Subtitles" },
-    "meta_detail_episodes_title": { "other": "Episodes" },
-    "meta_detail_bonus_title": { "other": "Bonus Content" },
-    "meta_detail_recommendations_title": { "other": "You may also like" },
-    "meta_detail_bundle_items_title": { "other": "Content included in this bundle" },
-  
-    "bundle_items_all_films": { "other": "{{.Count}} films" },
-    "bundle_items_all_seasons": { "other": "{{.Count}} seasons" },
-    "bundle_items_mixed": { "other": "{{.Count}} films and seasons" },
-    "userwishlist_page_header": { "other": "My List" },
-    "userwishlist_slider_header": { "other": "My List" },
-    "userwishlist_empty_header":  { "other": "Your list is empty." },
-    "userwishlist_empty_content": { "other": "Fill it by <a href=\"/\">browsing</a> our great selection." },
-    "userwishlist_button_add": { "other": "Add to My List" },
-    "userwishlist_button_remove": { "other": "My List" },
-    "userwishlist_button_add_compact": { "other": "My List" },
-    "userwishlist_button_remove_compact": { "other": "My List" },
-  
-    "activatedevice_page_header": { "other": "Activate Device" },
-    "activatedevice_page_content": { "other": "Follow the instructions on your device to get a PIN code. Your computer and device must both be connected to the internet to activate." },
-    "activatedevice_form_pin": { "other": "PIN Code" },
-    "activatedevice_form_submit": { "other": "Activate" },
-    "activatedevice_form_error_invalid_code": { "other": "PIN Code not found, please try again." },
-    "activatedevice_form_error_pin_not_found": { "other": "PIN Code not found, please try again." },
-    "activatedevice_signin_prompt": { "other": "Please sign in before activating your device." },
-    "activatedevice_page_activated": { "other": "Thank you for activating {{.DeviceName}}. You should now be able to browse your library on your television or device." },
-  
-    "userdevices_page_header": { "other": "Devices" },
-    "userdevices_page_content": {
-      "one": "Devices will be automatically added here when you use them. You are limited to only one device.",
-      "other": "Devices will be automatically added here when you use them. You are limited to {{.Count}} devices."
-    },
-    "userdevices_empty_content": { "other": "You currently have 0 registered devices." },
-    "userdevices_header_type": { "other": "Device Type" },
-    "userdevices_header_description": { "other": "Description" },
-    "userdevices_device_added": { "other": "Added {{.Date}}" },
-    "userdevices_device_actions_delete": { "other": "Remove" },
-    "userdevices_device_actions_cancel": { "other": "Cancel" },
-    "userdevices_device_actions_confirm": { "other": "Yes, remove device" },
-    "userdevices_device_deleted": { "other": "(Removed)" },
-  
-    "playlist_page_header": { "other": "Playlist" },
-    "playlist_sign_in_warning": { "other": "Please sign in to watch live TV."},
-    "playlist_share_title": { "other": "Playlist" },
-    "playlist_up_next_title": { "other": "Up Next" },
-  
-    "pricing_ownership_buy": { "other": "Buy" },
-    "pricing_ownership_rent": { "other": "Rent" },
-  
-    "classification_intro": { "other": "Rating: " },
-    "classification_divider": { "other": " - " },
-    "classification_outro": { "other": "" },
-  
-    "cookie_banner_message": { "other": "This site uses cookies to enhance your experience. By using this site, you accept our <a href=\"/page/cookie-policy/\">cookie usage</a>." },
-    "cookie_banner_accept": { "other": "I Accept" },
-  
-    "all_rights_reserved": { "other": "All rights reserved. No part of this site may be reproduced without our written permission." },
-  
-    "users_gender_none": { "other": "Not specified" },
-    "users_gender_female": { "other": "Female" },
-    "users_gender_male": { "other": "Male" },
-    "users_gender_diverse": { "other": "Diverse" },
-    "users_gender_other": { "other": "Other" },
-  
-    "plan_label_owned": { "other": "" },
-  
-    "pricing_quality_hd": { "other": "pricing_quality_hd" },
-    "pricing_quality_sd": { "other": "pricing_quality_sd" },
-    "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
-    "pricing_quality_sd_only": { "other": "pricing_quality_sd_only" },
-  
-    "shopping_card_save_card": { "other": "Save this card for future use" },
-    "shopping_card_button_change": { "other": "Show all saved cards" },
-    "shopping_card_existing_description": { "other": "{{.Card.Brand}} ending in {{.Card.Number}}" },
-    "shopping_card_existing_expiry": { "other": "(expires {{.Card.Expiry}})" },
-    "shopping_card_existing_expired": { "other": "(expired)" },
-    "shopping_card_use_other": { "other": "Use a new card" },
-    "shopping_card_use_new_card": { "other": "Change card" },
-  
-    "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
-  
-    "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-    "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-    "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
-  
-    "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
-  
-    "shopping_action_credit": { "other": "shopping_action_credit" },
-    "shopping_action_plan": { "other": "shopping_action_plan" },
-  
-    "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-    "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
-  
-    "shopping_info_rental_period_coming_soon": { "other": "from the date and time of release." },
-    "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-    "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
-  
-    "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
-    "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
-    "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
-  
-    "usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
-    "usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
-    "usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
-    "usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
-    "usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
-    "usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
-    "usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
-    "usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
-    "usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
-    "usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
-  
-    "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
-  
-    "availability_coming_soon": { "other": "Coming soon" },
-    "availability_renting": { "other": "Renting" },
-    "availability_not_available": { "other": "availability_not_available" },
-    "availability_in_watch_window": { "other": "availability_in_watch_window" },
-    "availability_sold_out": { "other": "Sold Out" },
-    "availability_available_till": { "other": "Available until {{.ExpiryDate}}" },
-    "availability_not_available_in_country": { "other": "Not available" },
-    "availability_available": { "other": "Available {{.ReleaseDate}}" },
-  
-    "modal_cancel": { "other": "Cancel" },
-  
-    "play": { "other": "Play" },
-  
-    "combined_auth_signin_prompt": { "other": "Sign in" },
-    "combined_auth_signup_prompt": { "other": "Sign up" },
-    "combined_auth_terms": { "other": "I agree to all the <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a>." },
-    "signup_terms": { "other": "I agree to all the <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a>." },
-    "validation_terms_required": { "other": "You must agree to the terms and conditions." },
-    "shopping_error_item_limit_exceeded": { "other": "Unfortunately, {{.Title}} has sold out." }
-  }
+  "site_owner": { "other": "ABC Cinemas" },
+  "settings_title": { "other": "Settings" },
+  "powered_by_name": { "other": "ScreenPlus" },
+  "powered_by_url": { "other": "https://www.screenplus.com" },
+  "en": { "other": "English" },
+  "fr": { "other": "French" },
+
+  "episode_name": {
+    "other": "Επεισόδιο"
+  },
+
+  "season_name": {
+    "other": "Σεζόν"
+  },
+
+  "seasons":{
+    "one": "one season",
+    "other": "{{.Count}} seasons"
+  },
+  "tvseason": {
+    "other": "{{.ShowInfo.Title}} Series {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>Series {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "Series {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "1 Episode",
+    "other": "{{.Count}} Episodes"
+  },
+
+  "date_day": { "other": "Ημέρα" },
+  "date_month": { "other": "Μήνας" },
+  "date_year": { "other": "Έτος" },
+
+  "404_page_header": { "other": "Αυτή η σελίδα δεν υπάρχει..." },
+  "404_page_content": { "other": "<p>Λυπούμαστε, αλλά φαίνεται πως η σελίδα που αναζητήσατε δεν υπάρχει.</p><p>Ίσως έχει μετακινηθεί ή διαγραφεί, ή ίσως αν γράψατε απ' ευθείας το url να πληκτρολογήσατε κάτι λάθος</p><p>Δοκιμάστε να γυρίσετε στην κεντρική σελίδα και ίσως βρείτε αυτό που αναζητήσατε.</p><p><a href=\"/\">Πίσω στην κεντρική σελίδα</a>"},
+
+
+  "nav_homepage": { "other": "ABC Cinemas" },
+  "nav_signin": { "other": "Είσοδος" },
+  "nav_signup": { "other": "Δημιουργία Λογαριασμού" },
+  "nav_signed_in_as": { "other": "Είσοδος ως" },
+  "nav_library": { "other": "Ο κατάλογός μου" },
+  "nav_devices": { "other": "Οι συσκευές μου" },
+  "nav_wishlist": { "other": "Η λίστα μου" },
+  "nav_account": { "other": "Ο λογαριασμός μου" },
+  "nav_signout": { "other": "Έξοδος" },
+  "play_trailer": { "other": "Τρέιλερ" },
+  "runtime_hours": { "other": "ω" },
+  "runtime_minutes": { "other": "λ" },
+
+  "datetime_today": { "other": "Σήμερα {{.Date}}" },
+  "datetime_tomorrow": { "other": "Αύριο {{.Date}}" },
+  "datetime_yesterday": { "other": "Χθες {{.Date}}" },
+  "datetime_next": { "other": "Επόμενη {{.Date}}" },
+  "datetime_last": { "other": "Τελευταία {{.Date}}" },
+
+  "search_control_placeholder": { "other": "Αναζήτηση" },
+  "search_control_submit": { "other": "Υποβάλετε αναζήτηση" },
+
+  "play_button_watch": { "other" : "Αναπαραγωγή"},
+  "play_button_resume": { "other" : "Συνέχιση"},
+
+  "social_media_buttons_title": { "other": "Μοιράσου το" },
+
+  "accept_invite_page_header": { "other": "Καλώς ήρθατε στο " },
+  "acceptinvite_form_invalid_reset_password_token": { "other": "Φαίνεται πως έχετε ήδη αποδεχθεί αυτή την πρόσκληση, πρέπει να <a href=\"signin.html\">εισέλθετε</a> στο λογαριασμό σας." },
+  "acceptinvite_complete": { "other": "Ευχαριστούμε πολύ. Ο λογαριασμός σας έχει δημιουργηθεί." },
+  "acceptinvite_form_submit": { "other": "Αποδοχή πρόσκλησης" },
+  "acceptinvite_agreement": { "other": "Κλικάροντας την «Αποδοχή πρόσκλησης» συμφωνείτε πως διαβάστε, κατανοείτε και συμφωνείτε με τους <a href=\"/page/terms-and-conditions/\" target=\"_blank\">όρους και τις προϋποθέσεις</a> και <a href=\"/page/privacy/\" target=\"_blank\">την πολιτική απορρήτου</a>." },
+
+  "signup_page_header": { "other": "Δημιουργία νέου λογαριασμού" },
+  "signup_form_name": { "other": "Όνομα" },
+  "signup_form_email": { "other": "Διεύθυνση ηλ. ταχυδρομείου" },
+  "signup_form_password": { "other": "Κωδικός" },
+  "signup_form_password_confirmation": { "other": "Επαλήθευση κωδικού" },
+  "signup_form_gender": { "other": "Φύλο" },
+  "signup_form_dob": { "other": "Ημ/νία Γέννησης" },
+  "signup_form_submit": { "other": "Υποβολή" },
+
+  "signin_page_header": { "other": "Είσοδος" },
+  "signin_form_email": { "other": "Διεύθυνση ηλ. ταχυδρομείου" },
+  "signin_form_password": { "other": "Κωδικός" },
+  "signin_form_remember": { "other": "Να με θυμάσαι" },
+  "signin_form_submit": { "other": "Υποβολή" },
+  "signin_page_forgotpassword": { "other": "Ξεχάσατε τον κωδικό σας;" },
+  "signin_page_createnewaccount": { "other": "Δεν έχετε λογαριασμό; Εγγραφείτε εδώ" },
+  "signup_page_alreadyhaveanaccount": { "other": "Έχετε ήδη λογαριασμό; Παρακαλώ εισέλθετε" },
+  "signup_form_error_email_already_in_use": { "other": "Αυτή η διεύθυνση ηλ. ταχυδρομείου χρησιμοποιείται ήδη." },
+  "signin_form_error_incorrect_credentials": { "other": "Το όνομα χρήστη ή ο κωδικός είναι λάθος. " },
+  "signup_form_error_forbidden": { "other": "Αντιμετωπίσαμε ένα σφάλμα. " },
+
+  "combined_auth_continue": { "other": "Συνέχεια" },
+  "combined_auth_change": { "other": "Αλλαγή" },
+  "combined_auth_signin": { "other": "Είσοδος" },
+  "combined_auth_signup": { "other": "Δημιουργία λογαριασμού" },
+  "combined_auth_signin_password": { "other": "Παρακαλώ εισάγετε τον κωδικό σας για να εισέλθετε στο λογαριασμό σας." },
+  "combined_auth_signin_error_incorrect_credentials": { "other": "Ο κωδικός είναι λάθος." },
+  "combined_auth_error_forbidden": { "other": "Αντιμετωπίσαμε ένα σφάλμα." },
+
+  "forgotpassword_page_header": { "other": "Επαναφέρετε τον κωδικό σας" },
+  "forgotpassword_form_email": { "other": "Διεύθυνση ηλ. ταχυδρομείου" },
+  "forgotpassword_form_submit": { "other": "Επαναφορά" },
+  "forgotpassword_form_error_email_doesnt_exist": { "other": "Δεν βρέθηκε λογαριασμός που να αντιστοιχεί σε αυτή τη διεύθυνση ηλ. ταχυδρομείου." },
+  "forgotpassword_form_error_account_suspended": { "other": "Ο λογαριασμός σας έχει ακυρωθεί." },
+  "forgotpassword_complete": { "other": "Σας ευχαριστούμε. Θα λάβετε σύντομα ένα μήνυμα για την επαναφορά του κωδικού σας." },
+  "forgotpassword_form_error_forbidden": { "other": "Αντιμετωπίσαμε ένα σφάλμα." },
+
+  "resetpassword_page_header": { "other": "Αλλάξτε τον κωδικό σας" },
+  "resetpassword_form_invalid_reset_password_token": { "other": "Φαίνεται πως το αίτημα επαναφορά του κωδικού σας έχει ακυρωθεί, παρακαλώ συμπληρώστε τη φόρμα <a href=\"{{.URL}}\">ανάκτησης του κωδικού σας</a> ξανά." },
+  "resetpassword_form_password": { "other": "Νέος κωδικός" },
+  "resetpassword_form_password2": { "other": "Επιβεβαιώστε το νέο σας κωδικό." },
+  "resetpassword_form_submit": { "other": "Αλλαγή" },
+  "resetpassword_complete": { "other": "Σας ευχαριστούμε. Ο κωδικός σας έχει αλλάξει και έχετε εισέλθει στο λογαριασμό σας." },
+  "resetpassword_form_error_invalid_reset_password_token": { "other": "Το αίτημα για επαναφορά του κωδικού σας δεν είναι έγκυρο. Παρακαλώ δοκιμάστε αργότερα." },
+  "resetpassword_form_error_reset_password_token_expired": { "other": "Το αίτημα επαναφοράς του κωδικού σας έχει λήξει. Παρακαλώ δοκιμάστε ξανά." },
+
+  "account_page_header": { "other": "Ο λογαριασμός μου" },
+  "account_form_name": { "other": "Όνομα" },
+  "account_form_email": { "other": "Διεύθυνση ηλ. ταχυδρομείου" },
+  "account_form_password": { "other": "Κωδικός" },
+  "account_form_change_password": { "other": "Αλλαγή" },
+  "account_form_gender": { "other": "Φύλο" },
+  "account_form_dob": { "other": "Ημ/νία γέννησης" },
+  "account_form_submit": { "other": "Ανανέωση" },
+  "account_form_submitted": { "other": "Ανανεώθηκε" },
+  "account_form_password_changed": { "other": "Ανανεώθηκε" },
+  "account_form_error_incorrect_password": { "other": "Ο κωδικός είναι λάθος" },
+
+  "signup_form_optin": {"other": "Εγγραφείτε στο newsletter μας."},
+
+  "passwordconfirmation_modal_header": { "other": "Επιβεβαιώστε τον κωδικό σας" },
+  "passwordconfirmation_modal_label": { "other": "Παρακαλώ εισάγεται τον κωδικό σας για να περάσουν οι αλλαγές. " },
+  "passwordconfirmation_modal_confirm": { "other": "Επιβεβαίωση" },
+
+  "changepassword_modal_header": { "other": "Αλλάξτε τον κωδικό σας." },
+  "changepassword_modal_currentpassword": { "other": "Ο τρέχων κωδικός σας." },
+  "changepassword_modal_password": { "other": "Ο νέος σας κωδικός." },
+  "changepassword_modal_password2": { "other": "Επιβεβαιώστε τον νέο σας κωδικό." },
+  "changepassword_modal_submit": { "other": "Ανανέωση" },
+  "changepassword_modal_error_incorrect_password": { "other": "Ο κωδικός είναι λάθος." },
+
+  "userlibrary_page_header": { "other": "Ο κατάλογός μου." },
+  "userlibrary_empty_header":  { "other": "Ο κατάλογός σας είναι άδειος." },
+  "userlibrary_empty_content": { "other": "Γεμίστε τον με <<a href=\"/\">προτάσεις</a> από τη φετινή μας επιλογή." },
+
+  "searchresults_page_header": { "other": "Αποτέλεσματα αναζήτησης." },
+  "searchresults_load_more": { "other": "Φόρτωση {{.Count}} περισσότερων." },
+  "searchresults_total": {
+    "one": "Βρέθηκαν {{.Count}} αποτελέσματα για \"{{.Query}}\".",
+    "other": "Βρέθηκαν {{.Count}} αποτελέσματα για \"{{.Query}}\"."
+  },
+  "searchresults_empty_header":  { "other": "Δεν βρέθηκαν αποτελέσματα για \"{{.Query}}\"" },
+  "searchresults_empty_content": { "other": "Δοκιμάστε μια διαφορετική αναζήτηση ή <a href=\"/\">δείτε το περιεχόμενό μας</a> για να βρείτε αυτό που ψάχνετε. " },
+  
+  "validation_name_required": { "other": "Παρακαλώ συμπληρώστε το όνομά σας." },
+  "validation_email_required": { "other": "Παρακαλώ συμπληρώστε τη διεύθυνση ηλ. ταχυδορμείου σας." },
+  "validation_email_email": { "other": "Παρακαλώ συμπληρώστε μια έγκυρη διεύθυνση." },
+  "validation_currentpassword_required": { "other": "Παρακαλώ εισάγετε τον τρέχοντα κωδικό σας." },
+  "validation_password_required": { "other": "Παρακαλώ εισάγετε έναν κωδικό." },
+  "validation_password2_required": { "other": "Παρακαλώ επιβεβαιώστε τον κωδικό σας. " },
+  "validation_password2_match": { "other": "Οι κωδικοί δεν ταιριάζουν. " },
+  "validation_password_minlength": { "other": "Παρακαλώ εισάγετε τουλάχιστον {{.Count}} χαρακτήρες." },
+  "validation_promocode_required": { "other": "Παρακαλώ εισάγετε τον κωδικό έκπτωσης." },
+  "validation_pincode_required": { "other": "Please enter a PIN code." },
+  "validation_gender_required": { "other": "Παρακαλώ εισάγετε το φύλο που σας εκφράζει περισσότερο." },
+  "validation_dob_required": { "other": "Παρακαλώ εισάγετε την ημ/νία γέννησής σας. " },
+  "validation_dob_date": { "other": "Παρακαλώ εισάγετε μια έγκυρη ημ/νία." },
+
+  "shopping_info_subtitle_hd": { "other": "Βίντεο HD on Demand." },
+  "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
+  "shopping_info_subtitle_wallet": { "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus." },
+  "shopping_info_subtitle_help": { "other": "Δείτε εδώ για απαιτήσεις συστήματος." },
+  "shopping_info_ownership_buy": { "other": "αγορά" },
+  "shopping_info_ownership_rent": { "other": "ενοικίαση" },
+
+  "shopping_info_sd_only": { "other": "Limited to SD playback only." },
+  "shopping_info_release_date_title": { "other": "Κυκλοφορίες {{.Date}}." },
+  "shopping_info_release_date_explanation_rent": { "other": "Μπορείτε να το ενοικιάσετε τώρα, αλλά δεν θα μπορείτε να το δείτε μέχρι τότε." },
+  "shopping_info_release_date_explanation_buy": { "other": "Μπορείτε να το αγοράσετε τώρα, αλλά δεν θα μπορείτε να το δείτε μέχρι τότε." },
+
+  "shopping_info_available_until_date_title": { "other": "Διαθέσιμο έως {{.Date}}. " },
+  "shopping_info_available_until_date_explanation_rent": { "other": "Δεν θα μπορείτε να παρακολουθήσετε το περιεχόμενο μετά από τότε. " },
+  "shopping_info_available_until_date_explanation_buy": { "other": "Δεν θα μπορείτε να παρακολουθήσετε το περιεχόμενο μετά από τότε. " },
+
+  "shopping_info_rental_period_duration": { "other": "{{.Count}} μέρες ενοικίασης. " },
+  "shopping_info_watch_window_duration": { "other": "{{.Count}} ώρες μέχρι να ολοκληρωθεί η προβολή. " },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "Με την ενοικίαση, η ταινία θα είναι διαθέσιμη στο λογαριασμό σας για {{.Count}} ημέρα. ",
+    "other": "Με την ενοικίαση, η ταινία θα είναι διαθέσιμη στο λογαριασμό σας για {{.Count}} ημέρες.  "
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "one": "Με το που πατήσετε αναπαραγωγή, ανοίγει το παράθυρο παρακολούθησης κι έχετε {{.Count}} ώρες για να δείτε την ταινία, όσες φορές επιθυμείτε.",
+    "other": "Με το που πατήσετε αναπαραγωγή, ανοίγει το παράθυρο παρακολούθησης κι έχετε {{.Count}} ώρες για να δείτε την ταινία, όσες φορές επιθυμείτε. "
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "one": "Με την ενοικίαση, τα περιεχόμενα του πακέτου σας θα είναι διαθέσιμα στο λογαριασμό σας για μία μέρα.  ",
+    "other": "Με την ενοικίαση, τα περιεχόμενα του πακέτου σας θα είναι διαθέσιμα στο λογαριασμό σας για μία μέρα.  "
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "one": "Με το που πατήσετε αναπαραγωγή σε μια συγκεκριμένη ταινία, ανοίγει το παράθυρο παρακολούθησης κι έχετε {{.Count}} ώρες για να τη δείτε, όσες φορές επιθυμείτε. ",
+    "other": "Με το που πατήσετε αναπαραγωγή σε μια συγκεκριμένη ταινία, ανοίγει το παράθυρο παρακολούθησης κι έχετε {{.Count}} ώρες για να τη δείτε, όσες φορές επιθυμείτε. "
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "one": "Με την ενοικίαση, η σεζόν θα είναι διαθέσιμη στο λογαριασμό σας για {{.Count}} ημέρες. ",
+    "other": "Με την ενοικίαση, η σεζόν θα είναι διαθέσιμη στο λογαριασμό σας για {{.Count}} ημέρες. "
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "one": "Με το που πατήσετε αναπαραγωγή σε ένα επεισόδιο, ανοίγει το παράθυρο παρακολούθησης κι έχετε {{.Count}} ώρες για να το δείτε, όσες φορές επιθυμείτε.",
+    "other": "Με το που πατήσετε αναπαραγωγή σε ένα επεισόδιο, ανοίγει το παράθυρο παρακολούθησης κι έχετε {{.Count}} ώρες για να το δείτε, όσες φορές επιθυμείτε."
+  },
+  "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Μπόνους" },
+
+  "shopping_enter_card_prompt": { "other": "Εισάγετε τα στοιχεία της κάρτας σας για να ολοκληρώσετε την {{.Verb}}." },
+
+  "shopping_terms": { "other": "Ολοκληρώνοντας τη συναλλαγή, αποδέχεστε τους <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">όρους και τις προϋποθέσεις</a>."},
+  "shopping_discount_applied": { "other": "{{.DiscountAmount}} έκπτωση συνυπολογίστηκε. " },
+  "shopping_discount_apply": { "other": "Εφαρμογή" },
+  "shopping_discount_code": { "other": "Εισάγετε προωθητικό κωδικό. " },
+  "shopping_discount_have_code": { "other": "Έχω προωθητικό κωδικό. " },
+
+  "shopping_price_you_pay": { "other": "Πληρώνετε" },
+  "shopping_price_nothing": { "other": "Τίποτα" },
+  "shopping_price_free": { "other": "Δωρεάν" },
+
+  "shopping_auth_directions": { "other": "Χρειάζεται πρώτα να δημιουργήσετε λογαριασμό. Παρακαλώ συμπληρώστε τη διεύθυνση ηλ. ταχυδρομείου. " },
+
+  "shopping_error_in_library": { "other": "Το {{.Title}} είναι ήδη στον κατάλογό σας. " },
+
+  "shopping_error_missing_card": { "other": "Παρακαλώ εισάγετε τα στοιχεία της κάρτας σας. " },
+  "shopping_error_title": { "other": "Αντιμετωπίσαμε ένα σφάλμα. " },
+  "shopping_error_incorrect_cvc": { "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVV. " },
+  "shopping_error_invalid_cvc": { "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVV. " },
+  "shopping_error_incorrect_number": { "other": "Παρακαλώ εισάγετε έναν έγκυρο αριθμό κάρτας." },
+  "shopping_error_invalid_number": { "other": "Παρακαλώ εισάγεται έναν έγκυρο αριθμό κάρτας." },
+  "shopping_error_card_declined": { "other": "Η κάρτα σας δεν έγινε δεκτή. " },
+  "shopping_error_invalid_expiry_month": { "other": "Παρακαλώ εισάγετε μια έγκυρη ημ/νία λήξης. " },
+  "shopping_error_invalid_expiry_year": { "other": "Παρακαλώ εισάγετε μια έγκυρη ημ/νία λήξης. " },
+  "shopping_error_expired_card": { "other": "Η κάρτα σας έχει λήξει. " },
+  "shopping_error_creditcard_country_mismatch": { "other": "Η {{.Ownership}} σας δεν έχει ολοκληρωθεί. Πρέπει να βρίσκεστε στη χώρα στην οποία εκδόθηκε η κάρτα. Παρακαλώ χρησιμοποιήστε μια άλλη κάρτα για να ολοκληρώσετε την πληρωμή." },
+  "shopping_error_proxy_detected": { "other": "Η {{.Ownership}} σας δεν έχει ολοκληρωθεί. Εντοπίσαμε πως χρησιμοποιείτε unblocker ή υπηρεσία proxy. Παρακαλώ απενεργοποιήστε τα και δοκιμάστε ξανά." },
+
+  "shopping_error_discount_blank": { "other": "Παρακαλώ εισάγετε έναν προωθητικό κωδικό. " },
+  "shopping_error_discount_not_applied": { "other": "Παρακαλώ εισάγετε έναν έγκυρο προωθητικό κωδικό. " },
+  "shopping_error_discount_invalid": { "other": "Παρακαλώ εισάγετε έναν έγκυρο προωθητικό κωδικό." },
+  "shopping_error_discount_disabled": { "other": "Παρακαλώ εισάγετε έναν έγκυρο προωθητικό κωδικό." },
+  "shopping_error_discount_already_applied": { "other": "Έχει ήδη χρησιμοποιηθεί ένας προωθητικός κωδικός για αυτή τη συναλλαγή." },
+  "shopping_error_discount_already_redeemed": { "other": "Αυτός ο προωθητικός κωδικός έχει ήδη χρησιμοποιηθεί." },
+  "shopping_error_discount_used_previously": { "other": "Αυτός ο προωθητικός κωδικός έχει ήδη χρησιμοποιηθεί." },
+  "shopping_error_discount_max_limit": { "other": "Αυτός ο προωθητικός κωδικός δεν μπορεί να χρησιμοποιηθεί πια." },
+  "shopping_error_discount_expired": { "other": "Αυτός ο προωθητικός κωδικός έχει λήξει." },
+  "shopping_error_discount_invalid_ownership_buy": { "other": "Αυτός ο προωθητικός κωδικός δεν μπορεί να χρησιμοποιηθεί κατά την αγορά." },
+  "shopping_error_discount_invalid_ownership_rent": { "other": "Αυτός ο προωθητικός κωδικός δεν μπορεί να χρησιμοποιηθεί κατά την ενοικίαση." },
+  "shopping_error_discount_invalid_item": { "other": "Αυτός ο προωθητικός κωδικός δεν μπορεί να χρησιμοποιηθεί για το συγκεκριμένο προϊόν." },
+  "shopping_error_discount_invalid_pricing_region": { "other": "Αυτός ο προωθητικός κωδικός δεν μπορεί να χρησιμοποιηθεί στη χώρα που διαμένετε." },
+  "shopping_error_discounts_not_allowed": { "other": "Αυτός ο προωθητικός κωδικός δεν μπορεί να χρησιμοποιηθεί." },
+  "shopping_error_discount_disallowed_on_bundles": { "other": "Αυτός ο προωθητικός κωδικός δεν μπορεί να χρησιμοποιηθεί για πακέτα." },
+  "shopping_error_payment_intent_authentication_failure": { "other": "Η πιστωτική σας κάρτα δεν έγινε δεκτή. Παρακαλώ προσπαθήστε ξανά." },
+
+  "shopping_complete_rental": { "other": "Επιτυχία!" },
+  "shopping_complete_rental_period": {
+    "one": "Μπορείτε τώρα να το παρακολουθήσετε όσες φορές επιθυμείτε για τις επόμενες {{.Count}} μέρες.",
+    "other": "Μπορείτε τώρα να το παρακολουθήσετε όσες φορές επιθυμείτε για τις επόμενες {{.Count}} μέρες."
+  },
+  "shopping_complete_purchase": { "other": "Ευχαριστούμε για την αγορά του {{.Title}}." },
+  "shopping_complete_credit_purchase": { "other": "Ευχαριστούμε για την αγορά του {{.Title}}.  {{.CreditTotal}} έχουν προστεθεί στο λογαριασμό σας." },
+  "shopping_complete_purchase_coming_soon": { "other": "Μπορείτε να το παρακολουθήσετε από {{.Date}}." },
+  "shopping_complete_receipt": { "other": "Η απόδειξή σας έχει σταλεί με e-mail." },
+  "shopping_complete_library_link": { "other": "Ξεκινήστε να βλέτεπε κάποιο από τα {{.BundleItems}} στον κατάλογό σας τώρα." },
+
+  "shopping_complete_rental_watch_window_start": {
+    "one": "Μπορείτε τώρα να ξεκινήσετε τη θέαση μέσα στις επόμενες {{.Count}} μέρες.",
+    "other": "Μπορείτε τώρα να ξεκινήσετε τη θέαση μέσα στις επόμενες {{.Count}} μέρες."
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "one": "Από τη στιγμή που θα ξεκινήσετε την παρακολούθηση έχετε {{.Count}} ώρες να παρακολουθήσετε το προϊόν όσες φορές επιθυμείτε. ",
+    "other": "Από τη στιγμή που θα ξεκινήσετε την παρακολούθηση έχετε {{.Count}} ώρες να παρακολουθήσετε το προϊόν όσες φορές επιθυμείτε."
+  },
+  "shopping_complete_rental_coming_soon": {
+    "one": "Μπορείτε να το παρακολουθήσετε από {{.Date}} και η ενοικίαση θα είναι ενεργή για {{.Count}} ημέρες.",
+    "other": "Μπορείτε να το παρακολουθήσετε από {{.Date}} και η ενοικίαση θα είναι ενεργή για {{.Count}} ημέρες."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "one": "Μπορείτε να το παρακολουθήσετε από {{.Date}} και η ενοικίαση θα είναι ενεργή για {{.Count}} ημέρες.",
+    "other": "Μπορείτε να το παρακολουθήσετε από {{.Date}} και η ενοικίαση θα είναι ενεργή για {{.Count}} ημέρες."
+  },
+
+  "shopping_action_rent": { "other": "Ενοικίαση" },
+  "shopping_action_buy": { "other": "Αγορά" },
+
+  "meta_detail_cast_title": { "other": "Πρωταγωνιστούν" },
+  "meta_detail_crew_title": { "other": "Επιτελείο" },
+  "meta_detail_languages": { "one": "Γλώσσες", "other": "Γλώσσες" },
+  "meta_detail_studios": { "one": "Εταιρίες", "other": "Εταιρίες" },
+  "meta_detail_countries": { "one": "Χώρες", "other": "Χώρες" },
+  "meta_detail_subtitles": { "other": "Υπότιτλοι" },
+  "meta_detail_episodes_title": { "other": "Επεισόδια" },
+  "meta_detail_bonus_title": { "other": "Έξτρα υλικό" },
+  "meta_detail_recommendations_title": { "other": "Ίσως σας αρέσουν και τα" },
+  "meta_detail_bundle_items_title": { "other": "Περιεχόμενο σε αυτό το πακέτο." },
+
+  "bundle_items_all_films": { "other": "{{.Count}} ταινίες" },
+  "bundle_items_all_seasons": { "other": "{{.Count}} σεζόν" },
+  "bundle_items_mixed": { "other": "{{.Count}} ταινιών και σεζόν" },
+  "userwishlist_page_header": { "other": "Η λίστα μου." },
+  "userwishlist_slider_header": { "other": "Η λίστα μου." },
+  "userwishlist_empty_header":  { "other": "Η λίστα σας είναι άδεια." },
+  "userwishlist_empty_content": { "other": "Γεμίστε τη με <a href=\"/\">υλικό</a> από την επιλογή μας." },
+  "userwishlist_button_add": { "other": "Πρόσθεσε στη λίστα μου." },
+  "userwishlist_button_remove": { "other": "Η λίστα μου." },
+  "userwishlist_button_add_compact": { "other": "Η λίστα μου." },
+  "userwishlist_button_remove_compact": { "other": "Η λίστα μου." },
+
+  "activatedevice_page_header": { "other": "Activate Device" },
+  "activatedevice_page_content": { "other": "Follow the instructions on your device to get a PIN code. Your computer and device must both be connected to the internet to activate." },
+  "activatedevice_form_pin": { "other": "PIN Code" },
+  "activatedevice_form_submit": { "other": "Activate" },
+  "activatedevice_form_error_invalid_code": { "other": "PIN Code not found, please try again." },
+  "activatedevice_form_error_pin_not_found": { "other": "PIN Code not found, please try again." },
+  "activatedevice_signin_prompt": { "other": "Please sign in before activating your device." },
+  "activatedevice_page_activated": { "other": "Thank you for activating {{.DeviceName}}. You should now be able to browse your library on your television or device." },
+
+  "userdevices_page_header": { "other": "Συσκευές" },
+  "userdevices_page_content": {
+    "one": "Οι συσκευές θα προστίθενται αυτόματα όταν τις χρησιμοποιείτε. Έχετε όριο για {{.Count}} συσκευές.",
+    "other": "Οι συσκευές θα προστίθενται αυτόματα όταν τις χρησιμοποιείτε. Έχετε όριο για {{.Count}} συσκευές."
+  },
+  "userdevices_empty_content": { "other": "Προς το παρόν έχετε 0 εγγεγραμμένες συσκευές." },
+  "userdevices_header_type": { "other": "Τύπος συσκευής" },
+  "userdevices_header_description": { "other": "Περιγραφή" },
+  "userdevices_device_added": { "other": "Προστέθηκε {{.Date}}" },
+  "userdevices_device_actions_delete": { "other": "Αφαίρεση" },
+  "userdevices_device_actions_cancel": { "other": "Άκυρο" },
+  "userdevices_device_actions_confirm": { "other": "Ναι, αφαίρεσε τη συσκευή" },
+  "userdevices_device_deleted": { "other": "(Αφαιρέθηκε)" },
+
+  "playlist_page_header": { "other": "Playlist" },
+  "playlist_sign_in_warning": { "other": "Please sign in to watch live TV."},
+  "playlist_share_title": { "other": "Playlist" },
+  "playlist_up_next_title": { "other": "Up Next" },
+
+  "pricing_ownership_buy": { "other": "Αγορά" },
+  "pricing_ownership_rent": { "other": "Ενοικίαση" },
+
+  "classification_intro": { "other": "Κατηγοριοποίηση" },
+  "classification_divider": { "other": " - " },
+  "classification_outro": { "other": "" },
+
+  "cookie_banner_message": { "other": "Αυτός ο ιστότοπος χρησιμοποιεί cookies για να βελτιώσει την ψηφιακή εμπειρία σας. Χρησιμοποιώντας τη σελίδα, αποδέχεστε τον <a href=\"/page/cookie-policy/\"> κανονισμό cookies</a>" },
+  "cookie_banner_accept": { "other": "Αποδέχομαι" },
+
+  "all_rights_reserved": { "other": "Με την επιφύλαξη κάθε δικαιώματος. Απαγορεύεται η αναπαραγωγή του περιεχομένου του ιστοτόπου, χωρίς την απαραίτητη γραπτή άδεια." },
+
+  "users_gender_none": { "other": "Μη προσδιορισμένο" },
+  "users_gender_female": { "other": "Θηλυκό" },
+  "users_gender_male": { "other": "Αρσενικό" },
+  "users_gender_diverse": { "other": "LGBTQI+" },
+  "users_gender_other": { "other": "Άλλο" },
+
+  "plan_label_owned": { "other": "" },
+
+  "pricing_quality_hd": { "other": "pricing_quality_hd" },
+  "pricing_quality_sd": { "other": "pricing_quality_sd" },
+  "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
+  "pricing_quality_sd_only": { "other": "pricing_quality_sd_only" },
+
+  "shopping_card_save_card": { "other": "Save this card for future use" },
+  "shopping_card_button_change": { "other": "Show all saved cards" },
+  "shopping_card_existing_description": { "other": "{{.Card.Brand}} ending in {{.Card.Number}}" },
+  "shopping_card_existing_expiry": { "other": "(expires {{.Card.Expiry}})" },
+  "shopping_card_existing_expired": { "other": "(expired)" },
+  "shopping_card_use_other": { "other": "Use a new card" },
+  "shopping_card_use_new_card": { "other": "Change card" },
+
+  "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
+
+  "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
+  "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
+  "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
+
+  "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
+
+  "shopping_action_credit": { "other": "shopping_action_credit" },
+  "shopping_action_plan": { "other": "shopping_action_plan" },
+
+  "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
+  "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
+
+  "shopping_info_rental_period_coming_soon": { "other": "Από την ημέρα και ώρα της κυκλοφορίας." },
+  "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
+  "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
+
+  "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
+
+  "usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
+  "usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
+  "usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
+  "usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
+  "usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
+  "usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
+  "usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
+  "usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
+  "usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
+  "usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
+
+  "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
+
+  "availability_coming_soon": { "other": "Προσεχώς" },
+  "availability_renting": { "other": "Ενοικίαση" },
+  "availability_not_available": { "other": "Μη διαθέσιμο" },
+  "availability_in_watch_window": { "other": "Διαθέσιμο" },
+  "availability_sold_out": { "other": "Εξαντλημένο" },
+  "availability_available_till": { "other": "Διαθέσιμο έως {{.ExpiryDate}}" },
+  "availability_not_available_in_country": { "other": "Μη διαθέσιμο" },
+  "availability_available": { "other": "Διαθέσιμο {{.ExpiryDate}}" },
+
+  "modal_cancel": { "other": "Άκυρο" },
+
+  "play": { "other": "Αναπαραγωγή" },
+
+  "combined_auth_signin_prompt": { "other": "Είσοδος" },
+  "combined_auth_signup_prompt": { "other": "Εγγραφή" },
+  "combined_auth_terms": { "other": "Συμφωνώ σε όλους τους <a href=\"/page/terms-and-conditions/\" target=\"_blank\">όρους και τις προϋποθέσεις</a>." },
+  "signup_terms": { "other": "Συμφωνώ σε όλους τους <a href=\"/page/terms-and-conditions/\" target=\"_blank\">όρους και τις προϋποθέσεις</a>." },
+  "validation_terms_required": { "other": "Πρέπει να συμφωνήσετε στους όρους και τις προϋποθέσεις." },
+  "shopping_error_item_limit_exceeded": { "other": "Δυστυχώς, το {{.Title}} έχει εξαντληθεί." }
+}
