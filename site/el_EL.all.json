@@ -76,7 +76,7 @@
   "acceptinvite_form_submit": { "other": "Αποδοχή πρόσκλησης" },
   "acceptinvite_agreement": { "other": "Κλικάροντας την «Αποδοχή πρόσκλησης» συμφωνείτε πως διαβάστε, κατανοείτε και συμφωνείτε με τους <a href=\"/page/terms-and-conditions/\" target=\"_blank\">όρους και τις προϋποθέσεις</a> και <a href=\"/page/privacy/\" target=\"_blank\">την πολιτική απορρήτου</a>." },
 
-  "signup_page_header": { "other": "Create New Account" },
+  "signup_page_header": { "other": "Δημιουργία νέου λογαριασμού" },
   "signup_form_name": { "other": "Όνομα" },
   "signup_form_email": { "other": "Διεύθυνση ηλ. ταχυδρομείου" },
   "signup_form_password": { "other": "Κωδικός" },
@@ -353,7 +353,7 @@
   "classification_divider": { "other": " - " },
   "classification_outro": { "other": "" },
 
-  "cookie_banner_message": { "other": "Αυτός ο ιστότοπος χρησιμοποιεί cookies για να βελτιώσει την ψηφιακή εμπειρία σας. Χρησιμοποιώντας τη σελίδα, αποδέχεστε τον <a href="/page/cookie-policy/"> κανονισμό cookies</a>" },
+  "cookie_banner_message": { "other": "Αυτός ο ιστότοπος χρησιμοποιεί cookies για να βελτιώσει την ψηφιακή εμπειρία σας. Χρησιμοποιώντας τη σελίδα, αποδέχεστε τον <a href=\"/page/cookie-policy/\"> κανονισμό cookies</a>" },
   "cookie_banner_accept": { "other": "Αποδέχομαι" },
 
   "all_rights_reserved": { "other": "Με την επιφύλαξη κάθε δικαιώματος. Απαγορεύεται η αναπαραγωγή του περιεχομένου του ιστοτόπου, χωρίς την απαραίτητη γραπτή άδεια." },
