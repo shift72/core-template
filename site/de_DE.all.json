@@ -64,11 +64,11 @@
 
   "social_media_buttons_title": { "other": "Teilen" },
 
-  "accept_invite_page_header": { "other": "Welcome to " },
+  "accept_invite_page_header": { "other": "Willkommen bei " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "It looks like you have already claimed this invite, you should <a href=\"signin.html\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"forgotpassword.html\">reset your password</a>." },
   "acceptinvite_complete": { "other": "Thank you. Your account has been created." },
-  "acceptinvite_form_submit": { "other": "Accept Invitation" },
-  "acceptinvite_agreement": { "other": "By clicking \"Accept Invitation\" you agree that you have read and understood our <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a> and <a href=\"/page/privacy/\" target=\"_blank\">privacy policy</a>." },
+  "acceptinvite_form_submit": { "other": "Einladung annehmen" },
+  "acceptinvite_agreement": { "other": "Durch Klicken auf den Button stimme ich den Allgemeinen Geschäftsbedingungen und der Datenschutzerklärung zu" },
 
   "signup_page_header": { "other": "Neuen Account erstellen" },
   "signup_form_name": { "other": "Name" },
@@ -144,7 +144,7 @@
 
   "userlibrary_page_header": { "other": "Meine Bibliothek" },
   "userlibrary_empty_header":  { "other": "Ihre Bibliothek ist leer." },
-  "userlibrary_empty_content": { "other": "Fügen Sie Medien aus unserer großen Auswahl hinzu. <a href=\"/\">Durchsuchen</a>." },
+  "userlibrary_empty_content": { "other": "Durchsuchen Sie unsere <a href=\"/\">Filmauswahl</a>, um Ihre Filmliste zu füllen." },
 
   "searchresults_page_header": { "other": "Suchergebnisse" },
   "searchresults_load_more": { "other": "Load {{.Count}} more" },
