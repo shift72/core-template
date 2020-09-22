@@ -345,3 +345,10 @@ s72-classification-label {
 		width: 100%; // otherwise inherits from meta_item post which has a fixed width
 	}
 }
+
+//text wrap fix
+@for $index from 1 through 6 {
+  h#{$index}, p {
+      overflow-wrap: break-word;
+  }
+}
