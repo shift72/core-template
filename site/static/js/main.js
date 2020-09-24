@@ -492,6 +492,7 @@ function documentReady(app) {
   });
 
   togglePageTopPadding();
+  window.addEventListener('resize', togglePageTopPadding, { passive: true });
 }
 
 function detectTouchscreen(){
@@ -507,5 +508,3 @@ document.addEventListener('s72loaded', function(event) {
   let app = event.detail.app;
   documentReady(app);
 });
-
-window.onresize = togglePageTopPadding;
