@@ -11,7 +11,8 @@
     "de": "de_DE",
     "es": "es_ES",
     "el": "el_EL",
-    "pt": "pt_PT"
+    "pt": "pt_PT",
+    "no": "no_NO"
   },
   "siteRootPath": "site",
   "liveReload": {
