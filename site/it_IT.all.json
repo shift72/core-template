@@ -47,7 +47,7 @@
   "nav_signin": { "other": "Accedi" },
   "nav_signup": { "other": "Registrati" },
   "nav_signed_in_as": { "other": "Registrato come" },
-  "nav_library": { "other": "I miei ordini" },
+  "nav_library": { "other": "I miei film" },
   "nav_devices": { "other": "I miei dispositivi" },
   "nav_wishlist": { "other": "La mia wishlist" },
   "nav_account": { "other": "Il mio Account" },
@@ -147,8 +147,8 @@
   "changepassword_modal_submit": { "other": "Aggiorna" },
   "changepassword_modal_error_incorrect_password": { "other": "That password is incorrect." },
 
-  "userlibrary_page_header": { "other": "I miei ordini" },
-  "userlibrary_empty_header":  { "other": "Non hai ordini." },
+  "userlibrary_page_header": { "other": "I miei Film" },
+  "userlibrary_empty_header":  { "other": "Non hai Film." },
   "userlibrary_empty_content": { "other": "" },
 
   "searchresults_page_header": { "other": "Search Results" },
