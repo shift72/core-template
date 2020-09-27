@@ -421,7 +421,7 @@
   "availability_sold_out": { "other": "Εξαντλημένο" },
   "availability_available_till": { "other": "Διαθέσιμο έως {{.ExpiryDate}}" },
   "availability_not_available_in_country": { "other": "Μη διαθέσιμο" },
-  "availability_available": { "other": "Διαθέσιμο {{.ExpiryDate}}" },
+  "availability_available": { "other": "Διαθέσιμο {{.ReleaseDate}}" },
 
   "modal_cancel": { "other": "Άκυρο" },
 
