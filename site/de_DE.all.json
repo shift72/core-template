@@ -356,7 +356,7 @@
 
   "availability_coming_soon": {"other": "In Kürze verfügbar"},
   "availability_available": {"other": "Verfügbar ab {{.ReleaseDate}}"},
-  "availability_expired": { "other": "Abgelaufen {{.Expiry}}" },
+  "availability_expired": { "other": "Abgelaufen" },
   "availability_sold_out": { "other": "Ausverkauft" },
   "availability_not_available_in_country": { "other": "Nicht verfügbar" },
 
