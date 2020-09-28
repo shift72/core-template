@@ -52,6 +52,9 @@ html {
 }
 body {
 	font-family: "Rawline", $font-family-base;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 .container-fluid {
 	margin: 0 auto;

@@ -3,6 +3,8 @@
   @include media-breakpoint-up(md){
     padding-bottom: $grid-gutter-width;
   }
+  flex: 1 0 auto;
+  margin: 0;
 }
 // Form Page Default
 .form-page {
@@ -70,8 +72,6 @@
   }
 }
 .form-page {
-  margin: 0 auto;
-  max-width: 1600px;
   @include media-breakpoint-up(xl) {
     padding: $page-padding-top-md 0 0 0;
   }
