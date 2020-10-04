@@ -119,7 +119,6 @@
   }
 }
 .collection-page {
-  margin: 0 auto;
   .page-collections {
     @extend .d-flex;
     flex-wrap: wrap;
@@ -154,7 +153,6 @@
 .library-page,
 .search-page,
 .devices-page {
-  margin: 0 auto;
   .page-header {
     h1 {
       margin-bottom: $headings-margin-bottom;
