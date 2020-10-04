@@ -460,19 +460,6 @@ function togglePageTopPadding() {
   }
 }
 
-function throttle(callback, limit) {
-  var waiting = false;
-  return function() {
-    if (!waiting) {
-      callback.apply(this, arguments);
-      waiting = true;
-      setTimeout(function() {
-        waiting = false;
-      }, limit);
-    }
-  }
-}
-
 function documentReady(app) {
   app.classificationsService.load('/classifications.all.json');
 
@@ -505,7 +492,7 @@ function documentReady(app) {
   });
 
   togglePageTopPadding();
-  window.addEventListener('resize', throttle(togglePageTopPadding, 100));
+  window.addEventListener('resize', s72.utils.fn.throttle(togglePageTopPadding, 100));
 }
 
 function detectTouchscreen(){
