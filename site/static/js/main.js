@@ -427,6 +427,39 @@ function toggleMobileMenu(icon){
   }
 }
 
+// Checks if the subnav is overflowing
+function subnavOverflowing() {
+  var subnav = document.querySelector('.sub-nav');
+  if (!subnav) return false;
+
+  var padding = 0;
+  padding += parseFloat(window.getComputedStyle(subnav, null).getPropertyValue('padding-left'));
+  padding += parseFloat(window.getComputedStyle(subnav, null).getPropertyValue('padding-right'));
+
+  var childrenWidth = 0;
+  for (var i = 0; i < subnav.children.length; i++) {
+    childrenWidth += subnav.children[i].offsetWidth;
+  }
+
+  return childrenWidth > window.innerWidth - padding;
+}
+
+function togglePageTopPadding() {
+  var navItem = document.querySelector('.sub-nav .nav-item');
+  if (!navItem) return;
+
+  var page = document.querySelector('.page');
+  if (!page) return;
+
+  if (subnavOverflowing()) {
+    if (page.hasAttribute('style')) return;
+    var padding = parseFloat(window.getComputedStyle(page, null).getPropertyValue('padding-top'));
+    page.style.paddingTop = (padding + navItem.offsetHeight) + 'px';
+  } else {
+    page.removeAttribute('style');
+  }
+}
+
 function documentReady(app) {
   app.classificationsService.load('/classifications.all.json');
 
@@ -457,6 +490,9 @@ function documentReady(app) {
   document.querySelectorAll('.navbar-nav').forEach(function(nav) {
     nav.classList.remove('s72-hide');
   });
+
+  togglePageTopPadding();
+  window.addEventListener('resize', s72.utils.fn.throttle(togglePageTopPadding, 100));
 }
 
 function detectTouchscreen(){
