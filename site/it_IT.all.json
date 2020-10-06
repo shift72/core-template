@@ -186,7 +186,7 @@
   "shopping_info_release_date_explanation_rent": { "other": "You can rent it now, but you won't be able to watch it until then." },
   "shopping_info_release_date_explanation_buy": { "other": "You can buy it now, but you won't be able to watch it until then." },
 
-  "shopping_info_available_until_date_title": { "other": "Available until {{.Date}}. " },
+  "shopping_info_available_until_date_title": { "other": "Disponsibile fino a {{.Date}}. " },
   "shopping_info_available_until_date_explanation_rent": { "other": "You will not be able to view the content after this." },
   "shopping_info_available_until_date_explanation_buy": { "other": "You will not be able to view the content after this." },
 
@@ -362,5 +362,6 @@
 
   "availability_available": { "other": "Disponibile {{.ReleaseDate}}"},
   "availability_renting": { "other": "Noleggiato" },
+  "availability_available_till": { "other": "Disponibile fino a {{.ExpiryDate}}" },
   "availability_expired": { "other": "Scaduto" }
 }
