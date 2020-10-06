@@ -247,6 +247,7 @@
     "shopping_error_creditcard_country_mismatch": { "other": "Sua {{.Ownership}} não foi bem-sucedida. Você deve estar no mesmo país onde seu cartão de crédito foi emitido. Por favor, use outro cartão de crédito para este pagamento." },
     "shopping_error_proxy_detected": { "other": "Sua {{.Ownership}} não foi bem-sucedida. Nós detectamos que você está utilizando um desbloqueador ou proxy. Por favor, desligue esses dispositivos e tente novamente." },
 
+    "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
     "shopping_error_discount_blank": { "other": "Por favor, insira um código promocional válido" },
     "shopping_error_discount_not_applied": { "other": "Por favor, insira um código promocional válido" },
     "shopping_error_discount_invalid": { "other": "Por favor, insira um código promocional válido" },
