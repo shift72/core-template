@@ -49,7 +49,7 @@ s72-activatedevice-form,
     padding: 20px 50px;
   }
 }
-// Navbar Search Form Input Control 
+// Navbar Search Form Input Control
 .navbar-nav-search {
 .form-control-search {
   font-weight: 600;
@@ -144,10 +144,7 @@ s72-activatedevice-form,
   }
 }
 .s72-modal-backdrop {
-  opacity: 1;
-  @include media-breakpoint-up(md) {
-    opacity: .9;
-  }
+  opacity: .5;
 }
 .s72-modal-closable {
   .s72-modal-dialog {
@@ -156,7 +153,10 @@ s72-activatedevice-form,
 }
 .s72-modal-content {
   color: #fff;
-  background: transparent;
+  background: $body-bg;
+  padding: 20px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
   .s72-modal-header {
     padding: 20px;
     border-bottom: 0 none;
