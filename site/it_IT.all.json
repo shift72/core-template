@@ -56,7 +56,7 @@
   "runtime_hours": { "other": "h" },
   "runtime_minutes": { "other": "m" },
 
-  "datetime_next": { "other": "this {{.Date}}" },
+  "datetime_next": { "other": "a {{.Date}}" },
   "datetime_last": { "other": "lo scorso {{.Date}}" },
 
   "search_control_placeholder": { "other": "Cerca" },
