@@ -5,7 +5,7 @@
     {{ if config("festival_scope_footer") == "true" }}
     <div class="footer-festivalscope">
       <span class="footer-festivalscope-label">In partnership with</span>
-      <a href="https://www.festivalscope.com/all/page/create-your-own-online-film-festival" target="_blank"><img src="/images/common/festival-scope.png" class="footer-festivalscope-logo" title="Festival Scope" /></a>
+      <a href="https://www.festivalscope.com/all/page/create-your-own-online-film-festival" target="_blank"><img src="/images/common/festival-scope-white-on-transparent.png" class="footer-festivalscope-logo" title="Festival Scope" /></a>
     </div>
     {{ end }}
 </div>
