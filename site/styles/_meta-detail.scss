@@ -473,9 +473,9 @@
   // Meta Detail Main
   .meta-detail-main {
     flex-direction: column;
-    padding-top: 140px;
+    padding-top: $page-detail-padding-top;
     @include media-breakpoint-up(lg){
-      padding-top: 170px;
+      padding-top: $page-detail-padding-top-md;
     }
   }
   // Meta Detail Content
