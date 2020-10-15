@@ -2,6 +2,7 @@ var slideObservers = [];
 
 function initializeWishlist() {
   var wishlist = document.querySelector('s72-userwishlist');
+  if (!wishlist) return;
   var originalFunction = wishlist.classList.remove;
   wishlist.classList.remove = function(className){
     if(className == 's72-hide')
