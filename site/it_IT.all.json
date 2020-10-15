@@ -85,8 +85,8 @@
   "signup_form_dob": { "other": "Data di nascita" },
   "signup_form_submit": { "other": "Invia" },
 
-  "signup_terms": { "other": "Cliccando sul bottone, dichiari di aver letto e accettato <a href=\"/page/terms-and-conditions\" target=\"_blank\">Termini &amp; Condizioni</a>." },
-  "combined_auth_terms": { "other": "Cliccando sul bottone, dichiari di aver letto e accettato <a href=\"/page/terms-and-conditions\" target=\"_blank\">Termini &amp; Condizioni</a>." },
+  "signup_terms": { "other": "Cliccando sul bottone, dichiari di aver letto e accettato <a href=\"/page/terms-and-conditions/\" target=\"_blank\">Termini &amp; Condizioni</a>." },
+  "combined_auth_terms": { "other": "Cliccando sul bottone, dichiari di aver letto e accettato <a href=\"/page/terms-and-conditions/\" target=\"_blank\">Termini &amp; Condizioni</a>." },
 
   "signin_page_header": { "other": "Accedi" },
   "signin_form_email": { "other": "Indirizzo email" },
