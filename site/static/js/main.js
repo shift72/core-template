@@ -71,6 +71,7 @@ function initializeSwiper(element, force){
           slidesPerView[1200] = 5;
           slidesPerView[992] = 4;
           slidesPerView[768] = 4;
+          slidesPerView[667] = 3;
           slidesPerView[568] = 3;
           break;
 
@@ -81,6 +82,7 @@ function initializeSwiper(element, force){
           slidesPerView[1200] = 4;
           slidesPerView[992] = 3;
           slidesPerView[768] = 3;
+          slidesPerView[667] = 3;
           slidesPerView[568] = 2;
           break;
       }
