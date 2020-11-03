@@ -10,7 +10,8 @@
       partials-classes="swiper-slide"
       partials-insert-point-selector=".swiper-wrapper"
       force-login="false"
-      data-items-per-page="6" data-item-layout="portrait" class="user-wishlist s72-slider s72-hide">
+      data-items-per-page="6" data-item-layout="portrait" class="user-wishlist s72-slider s72-hide"
+      home-url="{{ routeToPath("/") }}">
 
 {{else}}
   <s72-userwishlist
@@ -20,7 +21,8 @@
       partials-classes="swiper-slide"
       partials-insert-point-selector=".swiper-wrapper"
       force-login="false"
-      data-items-per-page="4" data-item-layout="landscape" class="user-wishlist s72-slider s72-hide">
+      data-items-per-page="4" data-item-layout="landscape" class="user-wishlist s72-slider s72-hide"
+      home-url="{{ routeToPath("/") }}">
 
 {{end}}
   <div class="page-collection">

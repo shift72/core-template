@@ -9,9 +9,9 @@
   </div>
 
   {{if config("default_image_type") == "portrait"}}
-    <s72-userwishlist data-items-per-page="6" data-item-layout="portrait" signin-url="{{ routeToPath("/signin.html") }}" partials-base-path="/partials" />
+    <s72-userwishlist data-items-per-page="6" data-item-layout="portrait" signin-url="{{ routeToPath("/signin.html") }}" partials-base-path="{{ routeToPath("/partials") }}" />
   {{else}}
-    <s72-userwishlist data-items-per-page="4" data-item-layout="landscape" signin-url="{{ routeToPath("/signin.html") }}" partials-base-path="/partials" />
+    <s72-userwishlist data-items-per-page="4" data-item-layout="landscape" signin-url="{{ routeToPath("/signin.html") }}" partials-base-path="{{ routeToPath("/partials") }}" />
   {{end}}
 
 </div>

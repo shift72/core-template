@@ -11,9 +11,9 @@
   </div>
 
   {{if config("default_image_type") == "portrait"}}
-    <s72-userlibrary data-items-per-page="6" data-item-layout="portrait" signin-url="{{ routeToPath("/signin.html") }}" partials-base-path="/partials" />
+    <s72-userlibrary data-items-per-page="6" data-item-layout="portrait" signin-url="{{ routeToPath("/signin.html") }}" partials-base-path="/partials" home-url="{{ routeToPath("/") }}" />
   {{else}}
-    <s72-userlibrary data-items-per-page="4" data-item-layout="landscape" signin-url="{{ routeToPath("/signin.html") }}" partials-base-path="/partials" />
+    <s72-userlibrary data-items-per-page="4" data-item-layout="landscape" signin-url="{{ routeToPath("/signin.html") }}" partials-base-path="/partials" home-url="{{ routeToPath("/") }}" />
   {{end}}
 </div>
 {{end}}
