@@ -9,20 +9,20 @@
       <ul class="s72-dropdown-menu s72-dropdown-menu-right">
         {{if config("wishlist_enabled") }}
         <li>
-          <a class="s72-dropdown-item" href="/wishlist.html">{{i18n("nav_wishlist")}}</a>
+          <a class="s72-dropdown-item" href="{{ routeToPath("/wishlist.html") }}">{{i18n("nav_wishlist")}}</a>
         </li>
         {{ end }}
 
         {{if config("library_disabled") != "true" }}
         <li>
-          <a class="s72-dropdown-item" href="/library.html">{{i18n("nav_library")}}</a>
+          <a class="s72-dropdown-item" href="{{ routeToPath("/library.html") }}">{{i18n("nav_library")}}</a>
         </li>
         {{ end }}
         <li>
-          <a class="s72-dropdown-item" href="/devices.html">{{i18n("nav_devices")}}</a>
+          <a class="s72-dropdown-item" href="{{ routeToPath("/devices.html") }}">{{i18n("nav_devices")}}</a>
         </li>
         <li>
-          <a class="s72-dropdown-item" href="/account.html">{{i18n("nav_account")}}</a>
+          <a class="s72-dropdown-item" href="{{ routeToPath("/account.html") }}">{{i18n("nav_account")}}</a>
         </li>
         <li>
           <s72-sign-out class="s72-dropdown-item">{{i18n("nav_signout")}}</s72-sign-out>

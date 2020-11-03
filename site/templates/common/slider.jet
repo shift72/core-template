@@ -4,7 +4,6 @@
           {{if title != ""}}
           <div class="swiper-title">
               <h3>{{title}}</h3>
-              {*<a href="/collection/{{.ID}}/{{.Slug}}" class="btn btn-see-all">See All</a>*}
           </div>
           {{end}}
           <div class="swiper-wrapper">

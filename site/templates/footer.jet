@@ -1,6 +1,6 @@
 {{block footer()}}
 	<footer>
-		<a href="/" class="footer-brand">
+		<a href="{{ routeToPath("/") }}" class="footer-brand">
 			{{i18n("nav_homepage")}}
 		</a>
 		<div class="footer-nav">

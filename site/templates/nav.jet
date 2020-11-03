@@ -4,7 +4,7 @@
 {{block nav(showSubNav=true)}}
 <div class="navigation" data-toggle="affix">
   <nav class="navbar navbar-expand-md navbar-dark">
-      <a class="navbar-brand" href="/">{{i18n("nav_homepage")}}</a>
+      <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
       
       {{if config("search_disabled") != "true"}}
         <form class="form-search navbar-nav-search" action="/search.html">

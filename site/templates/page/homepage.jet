@@ -19,23 +19,6 @@
   {{count := len(page.PageCollections)}}
   <div class="page page-{{page.PageType|lower}}">
     {{yield pageCollectionCarousel() page.PageCollections[0]}}
-<!--     <div class="sign-up-now">
-      <div class="item">
-        <h2>Watch anywhere, at any time.</h2>
-        <div class="supports">
-          <img src="/images/homepage/supported.png" alt="Supported Platforms">
-        </div>
-        <s72-user-anon>
-          <p>
-            <a href="/signin.html">{{i18n("nav_signin")}}</a>
-            or
-            {{if config("disable_user_signups") != "true"}}
-              <a href="/signup.html">{{i18n("nav_signup")}}</a>
-            {{end}}
-          </p>
-        </s72-user-anon>
-      </div>
-    </div> -->
 
     <div class="other-sliders">
       <div class="other-sliders-container">

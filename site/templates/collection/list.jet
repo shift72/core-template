@@ -7,7 +7,6 @@
   <div class="page-collection-list-title">
 
     <h3>{{.DisplayName}}</h3>
-    {*<a href="/collection/{{.ID}}/{{.Slug}}" class="btn btn-see-all">See All</a>*}
 
   </div>
 

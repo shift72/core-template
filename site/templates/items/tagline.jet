@@ -59,10 +59,5 @@
       <li class="meta-item-tagline-item">{{i18n("episode_count", len(.Episodes))}}</li>
     {{end}}
 
-  <!--   {{if isset(.CustomFields) && isset(.CustomFields["imdb_url"])}}
-      <li class="meta-item-tagline-divider">•</li>
-      <li class="meta-item-tagline-item"><a href="{{.CustomFields["imdb_url"]}}" target="_blank">IMDB</a></li>
-    {{end}} -->
-
   </ul>
 {{end}}
