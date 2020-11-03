@@ -11,7 +11,7 @@
     </div>
     <div class="page-form">
 	    <div class="form-container">
-	      <s72-useraccount-form signin-url="/signin.html" />
+	      <s72-useraccount-form signin-url="{{ routeToPath("/signin.html") }}" />
 	    </div>
 	</div>
   </div>

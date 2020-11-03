@@ -10,6 +10,6 @@
         <p>{{i18n("userdevices_page_content", configInt("device_user_limit"))}}</p>
       {{ end }}
     </div>
-    <s72-userdevices signin-url="/signin.html" />
+    <s72-userdevices signin-url="{{ routeToPath("/signin.html") }}" />
   </div>
 {{end}}

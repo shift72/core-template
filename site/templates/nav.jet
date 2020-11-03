@@ -7,7 +7,7 @@
       <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
       
       {{if config("search_disabled") != "true"}}
-        <form class="form-search navbar-nav-search" action="/search.html">
+        <form class="form-search navbar-nav-search" action="{{ routeToPath("/search.html") }}">
             <input class="form-control form-control-search" type="search" placeholder="{{i18n("search_control_placeholder")}}" name="q" aria-label="{{i18n("search_control_placeholder")}}">
             <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
         </form>
