@@ -12,7 +12,7 @@
   </div>
 
   <div class="text-center">
-    {{i18n("404_page_content") | raw}}
+    {{i18n("404_page_content", map("URL", routeToPath("/"))) | raw}}
   </div>
 
 </div>

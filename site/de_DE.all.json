@@ -40,7 +40,7 @@
   "date_year": { "other": "Year" },
 
   "404_page_header": { "other": "That page doesn't exist..." },
-  "404_page_content": { "other": "<p>Sorry, it looks like the page that you're looking for doesn't exist.</p><p>It could have been moved or deleted, or perhaps you misspelled something.</p><p>Try going back to the homepage to find what you were looking for.</p><p><a href=\"/\">Back to the Homepage</a></p>" },
+  "404_page_content": { "other": "<p>Sorry, it looks like the page that you're looking for doesn't exist.</p><p>It could have been moved or deleted, or perhaps you misspelled something.</p><p>Try going back to the homepage to find what you were looking for.</p><p><a href=\"{{ .URL }}\">Back to the Homepage</a></p>" },
 
 
   "nav_homepage": { "other": "ABC Cinemas" },
@@ -65,7 +65,7 @@
   "social_media_buttons_title": { "other": "Teilen" },
 
   "accept_invite_page_header": { "other": "Willkommen bei " },
-  "acceptinvite_form_invalid_reset_password_token": { "other": "It looks like you have already claimed this invite, you should <a href=\"signin.html\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"forgotpassword.html\">reset your password</a>." },
+  "acceptinvite_form_invalid_reset_password_token": { "other": "It looks like you have already claimed this invite, you should <a href=\"{{ .SigninURL }}\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"{{ .ForgotPasswordURL }}\">reset your password</a>." },
   "acceptinvite_complete": { "other": "Thank you. Your account has been created." },
   "acceptinvite_form_submit": { "other": "Einladung annehmen" },
   "acceptinvite_agreement": { "other": "Durch Klicken auf den Button stimme ich den Allgemeinen Geschäftsbedingungen und der Datenschutzerklärung zu" },
@@ -109,7 +109,7 @@
   "forgotpassword_form_error_forbidden": { "other": "An error has occurred." },
 
   "resetpassword_page_header": { "other": "Ändern Sie Ihr Passwort" },
-  "resetpassword_form_invalid_reset_password_token": { "other": "It appears as if this reset password request is invalid, please fill out the <a href=\"{{.URL}}\">Forgot Password</a> form again." },
+  "resetpassword_form_invalid_reset_password_token": { "other": "It appears as if this reset password request is invalid, please fill out the <a href=\"{{.ForgotPasswordURL}}\">Forgot Password</a> form again." },
   "resetpassword_form_password": { "other": "New password" },
   "resetpassword_form_password2": { "other": "Bestätigen Sie Ihr Passwort" },
   "resetpassword_form_submit": { "other": "Veränderung" },
@@ -144,7 +144,7 @@
 
   "userlibrary_page_header": { "other": "Meine Bibliothek" },
   "userlibrary_empty_header":  { "other": "Ihre Bibliothek ist leer." },
-  "userlibrary_empty_content": { "other": "Durchsuchen Sie unsere <a href=\"/\">Filmauswahl</a>, um Ihre Filmliste zu füllen." },
+  "userlibrary_empty_content": { "other": "Durchsuchen Sie unsere <a href=\"{{ .HomeURL }}\">Filmauswahl</a>, um Ihre Filmliste zu füllen." },
 
   "searchresults_page_header": { "other": "Suchergebnisse" },
   "searchresults_load_more": { "other": "Load {{.Count}} more" },
@@ -153,7 +153,7 @@
     "other": "{{.Count}} Ergebnisse gefunden: \"{{.Query}}\"."
   },
   "searchresults_empty_header":  { "other": "There were no search results for \"{{.Query}}\"" },
-  "searchresults_empty_content": { "other": "Try another search or <a href=\"/\">browse our content</a> to find what you're looking for." },
+  "searchresults_empty_content": { "other": "Try another search or <a href=\"{{ .HomeURL }}\">browse our content</a> to find what you're looking for." },
 
   "validation_name_required": { "other": "Bitte geben Sie Ihren Namen ein." },
   "validation_email_required": { "other": "Bitte geben Sie eine gültige Emailadresse ein." },
@@ -216,7 +216,7 @@
 
   "shopping_enter_card_prompt": { "other": "Bitte geben Sie Ihre Kreditkartendetails ein um den Film auszuleihen." },
 
-  "shopping_terms": { "other": "Durch den Abschluss dieser Transaktion stimme ich den <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">Allgemeinen Geschäftsbedingungen</a> zu."},
+  "shopping_terms": { "other": "Durch den Abschluss dieser Transaktion stimme ich den <a href=\"{{ .TermsAndConditionsURL }}\" target=\"_blank\" tabindex=\"-1\">Allgemeinen Geschäftsbedingungen</a> zu."},
   "shopping_discount_applied": { "other": "{{.DiscountAmount}} discount applied." },
   "shopping_discount_apply": { "other": "Senden" },
   "shopping_discount_code": { "other": "Gutscheincode eingeben." },
@@ -309,7 +309,7 @@
   "userwishlist_page_header": { "other": "Meine Liste" },
   "userwishlist_slider_header": { "other": "Meine Liste" },
   "userwishlist_empty_header":  { "other": "Ihre Liste ist leer." },
-  "userwishlist_empty_content": { "other": "Durchsuchen Sie unsere <a href=\"/\">Filmauswahl</a>, um Ihre Filmliste zu füllen." },
+  "userwishlist_empty_content": { "other": "Durchsuchen Sie unsere <a href=\"{{ .HomeURL }}\">Filmauswahl</a>, um Ihre Filmliste zu füllen." },
   "userwishlist_button_add": { "other": "Zu meiner Liste hinzufügen" },
   "userwishlist_button_remove": { "other": "Meine Liste" },
   "userwishlist_button_add_compact": { "other": "Meine Liste" },
@@ -350,7 +350,7 @@
   "classification_divider": { "other": " - " },
   "classification_outro": { "other": "" },
 
-  "cookie_banner_message": { "other": "Wir verwenden Cookies und andere Identifizierungsmerkmale, um Ihre Online-Erfahrung zu verbessern. Mit der Nutzung unserer Website erklären Sie sich damit einverstanden. Lesen Sie gerne unsere <a href=\"/page/cookie-policy/\">Datenschutzrichtlinie</a> um herauszufinden, wofür Cookies verwendet werden und wie Sie Ihre Einstellungen ändern können." },
+  "cookie_banner_message": { "other": "Wir verwenden Cookies und andere Identifizierungsmerkmale, um Ihre Online-Erfahrung zu verbessern. Mit der Nutzung unserer Website erklären Sie sich damit einverstanden. Lesen Sie gerne unsere <a href=\"{{ .CookiePolicyURL }}\">Datenschutzrichtlinie</a> um herauszufinden, wofür Cookies verwendet werden und wie Sie Ihre Einstellungen ändern können." },
   "cookie_banner_accept": { "other": "Annehmen" },
 
   "all_rights_reserved": { "other": "Alle Rechte vorbehalten. Kein Teil dieser Website darf ohne unsere schriftliche Genehmigung reproduziert werden." },
