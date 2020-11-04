@@ -164,7 +164,7 @@
   "validation_email_required": { "other": "Por favor, introduzca su dirección de correo electrónico." },
   "validation_email_email": { "other": "Por favor, introduzca una dirección de correo electrónico válida." },
   "validation_currentpassword_required": { "other": "Por favor, introduzca su contraseña actual." },
-  "validation_password_required": { "other": "Porfavor ingrese una contraseña." },
+  "validation_password_required": { "other": "Por favor ingrese una contraseña." },
   "validation_password2_required": { "other": "Por favor confirma su contraseña." },
   "validation_password2_match": { "other": "Sus contraseñas no coinciden." },
   "validation_password_minlength": { "other": "Por favor, introduzca al menos {{.Count}} caracteres." },
