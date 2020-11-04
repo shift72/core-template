@@ -289,8 +289,8 @@
     "other": "Podrá ver desde {{.Date}} y su alquiler se mantendrá activo durante {{.Count}} días."
   },
   "shopping_complete_rental_coming_soon_watch_window_start": {
-    "one": "Podrá ver desde {{.Date} y su alquiler se mantendrá activo durante un día.",
-    "other": "Podrá ver desde {{.Date} y su alquiler se mantendrá activo durante {{.Count}} días."
+    "one": "Podrá ver desde {{.Date}} y su alquiler se mantendrá activo durante un día.",
+    "other": "Podrá ver desde {{.Date}} y su alquiler se mantendrá activo durante {{.Count}} días."
   },
 
   "shopping_action_rent": { "other": "Alquilar" },
