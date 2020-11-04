@@ -25,12 +25,20 @@
                 <li class="nav-item title">{{.Label}}</li>
                 {{range sub := .Items}}
                 <li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}">
-                  <a class="nav-link" href="{{ len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
+                  {{if (sub.Link.ExternalURL)}}
+                   <a target="_blank"class="nav-link" href="{{ len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
+                  {{else}}
+                   <a class="nav-link" href="{{ len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
+                  {{end}}
                 </li>
                 {{end}}
               {{else}}
                 <li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}">
+                {{if (.Link.ExternalURL)}}
+                  <a target="_blank" class="nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug)}}">{{.Label}}</a>
+                {{else}}
                   <a class="nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug)}}">{{.Label}}</a>
+                {{end}}
                 </li>
               {{end}}
             {{end}}
@@ -54,14 +62,22 @@
               <a class="s72-dropdown-toggle nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : len(.Items) == 0 ? routeToSlug(.Link.Slug) : "#"}}">{{.Label}}</a>
               <div class="s72-dropdown-menu sub-nav-menu">
                 {{range sub := .Items}}
+                {{if (sub.Link.ExternalURL)}}
+                  <a target="_blank" class="nav-link" href="{{len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
+                {{else}}
                   <a class="nav-link" href="{{len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
+                {{end}}
                 {{end}}
               </div>
             </s72-dropdown>
           </li>
         {{else}}
           <li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}">
-            <a class="nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug)}}">{{.Label}}</a>
+            {{if (.Link.ExternalURL)}}
+             <a target="_blank"class="nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug)}}">{{.Label}}</a>
+            {{else}}
+             <a class="nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug)}}">{{.Label}}</a>
+            {{end}}
           </li>
         {{end}}
       {{end}}
