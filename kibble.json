@@ -15,7 +15,8 @@
     "no": "no_NO",
     "ru": "ru_RU",
     "tr": "tr_TR",
-    "hu": "hu_HU"
+    "hu": "hu_HU",
+    "ee": "ee_EU"
   },
   "siteRootPath": "site",
   "liveReload": {
