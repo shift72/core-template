@@ -149,7 +149,7 @@
 
   "userlibrary_page_header": { "other": "Mi biblioteca" },
   "userlibrary_empty_header":  { "other": "Tu biblioteca esta vacía." },
-  "userlibrary_empty_content": { "other": "Llenarla <a href=\"/\">revisando</a> nuestra gran selección." },
+  "userlibrary_empty_content": { "other": "Llénala <a href=\"/\">revisando</a> nuestra gran selección." },
 
   "searchresults_page_header": { "other": "Resultados de la busqueada" },
   "searchresults_load_more": { "other": "Cargar {{.Count }} más" },
@@ -197,24 +197,24 @@
     "other": "Una vez rentada, tu película estará disponible en tu cuenta durante {{.Count}} días. "
   },
   "shopping_info_watch_window_explanation2_film": {
-    "one": "Una vez que seleccionas reproducir, se inicia la ventana de reproducción y tienes una hora para ver la película las veces que quieres.",
-    "other": "Una vez que seleccionas reproducir, se inicia la ventana de reproducción y tienes {{.Count}} horas para ver la película las veces que quieres."
+    "one": "Una vez que seleccionas reproducir, se inicia la ventana de reproducción y tienes una hora para ver la película las veces que quieras.",
+    "other": "Una vez que seleccionas reproducir, se inicia la ventana de reproducción y tienes {{.Count}} horas para ver la película las veces que quieras."
   },
   "shopping_info_watch_window_explanation_bundle": {
     "one": "Una vez rentados, los artículos en tu paquete estarán disponibles en tu cuenta durante un día. ",
     "other": "Una vez rentados, los artículos en tu paquete estarán disponibles en tu cuenta durante {{.Count}} días. "
   },
   "shopping_info_watch_window_explanation2_bundle": {
-    "one": "Una vez que seleccionas reproducir en una película en especifico, la ventana de reproducción inicia y tienes una hora para ver esa película las veces que quieres.",
-    "other": "Una vez que seleccionas reproducir en una película en especifico, la ventana de reproducción inicia y tienes {{.Count}} horas para ver esa película las veces que quieres."
+    "one": "Una vez que seleccionas reproducir en una película en especifico, la ventana de reproducción inicia y tienes una hora para ver esa película las veces que quieras.",
+    "other": "Una vez que seleccionas reproducir en una película en especifico, la ventana de reproducción inicia y tienes {{.Count}} horas para ver esa película las veces que quieras."
   },
   "shopping_info_watch_window_explanation_season": {
     "one": "Una vez rentada, tu temporada estará disponible en tu cuenta para día. ",
     "other": "Una vez rentada, tu temporada estará disponible en tu cuenta para {{.Count}} días. "
   },
   "shopping_info_watch_window_explanation2_season": {
-    "one": "Una vez que seleccionas reproducir en un capítulo, se inicia la ventana de reproducción y tienes hora para ver ese capítulo las veces que quieres.",
-    "other": "Una vez que seleccionas reproducir en un capítulo, se inicia la ventana de reproducción y tienes {{.Count}} horas para ver ese capítulo las veces que quieres."
+    "one": "Una vez que seleccionas reproducir en un capítulo, se inicia la ventana de reproducción y tienes hora para ver ese capítulo las veces que quieras.",
+    "other": "Una vez que seleccionas reproducir en un capítulo, se inicia la ventana de reproducción y tienes {{.Count}} horas para ver ese capítulo las veces que quieras."
   },
   "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },
 
@@ -267,8 +267,8 @@
 
   "shopping_complete_rental": { "other": "¡Éxito!" },
   "shopping_complete_rental_period": {
-    "one": "Ahora puedes verla las veces que quieres durante el próximo día.",
-    "other": "Ahora puedes verla las veces que quieres durante los próximos {{.Count}} días."
+    "one": "Ahora puedes verla las veces que quieras durante el próximo día.",
+    "other": "Ahora puedes verla las veces que quieras durante los próximos {{.Count}} días."
   },
   "shopping_complete_purchase": { "other": "Gracias por comprar {{.Title}}." },
   "shopping_complete_credit_purchase": { "other": "Gracias por comprar {{.Title}}, {{.CreditTotal}} se ha agregado a tu cuenta." },
@@ -282,7 +282,7 @@
   },
   "shopping_complete_rental_watch_window_end": {
     "one": "Cuando se inicia la reproducción a continuación, tendrá una hora para ver el elemento tantas veces como desee.",
-    "other": "Cuando has empezado el playback tendrás {{.Count}} horas para ver la película las veces que quieres."
+    "other": "Cuando has empezado el playback tendrás {{.Count}} horas para ver la película las veces que quieras."
   },
   "shopping_complete_rental_coming_soon": {
     "one": "Podrá ver desde {{.Date}} y su alquiler se mantendrá activo durante un día.",
