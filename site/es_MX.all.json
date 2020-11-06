@@ -190,8 +190,8 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "No podrás ver el contenido después de esto." },
   "shopping_info_available_until_date_explanation_buy": { "other": "No podrás ver el contenido después de esto." },
 
-  "shopping_info_rental_period_duration": { "other": "Renta de {{.Count}} días " },
-  "shopping_info_watch_window_duration": { "other": "Venta de reproducción de {{.Count}} horas. " },
+  "shopping_info_rental_period_duration": { "other": "Renta de {{.Count}} día " },
+  "shopping_info_watch_window_duration": { "other": "Ventana de reproducción de {{.Count}} horas. " },
   "shopping_info_watch_window_explanation_film": {
     "one": "Una vez rentada, tu película estará disponible en tu cuenta durante un día. ",
     "other": "Una vez rentada, tu película estará disponible en tu cuenta durante {{.Count}} días. "
@@ -220,7 +220,7 @@
 
   "shopping_enter_card_prompt": { "other": "Ingresa los datos de tu tarjeta de crédito para completar tu {{.Verb}}." },
 
-  "shopping_terms": { "other": "AAl completar esta transacción, estoy de acuerdo con los <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">términos y condiciones</a>."},
+  "shopping_terms": { "other": "Al completar esta transacción, estoy de acuerdo con los <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">términos y condiciones</a>."},
   "shopping_discount_applied": { "other": "{{.DiscountAmount}} descuento aplicado." },
   "shopping_discount_apply": { "other": "Aplicar" },
   "shopping_discount_code": { "other": "Ingresar un código promocional." },
