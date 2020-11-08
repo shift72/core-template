@@ -39,8 +39,8 @@
   "date_month": { "other": "Month" },
   "date_year": { "other": "Anno" },
 
-  "404_page_header": { "other": "That page doesn't exist..." },
-  "404_page_content": { "other": "<p>Sorry, it looks like the page that you're looking for doesn't exist.</p><p>It could have been moved or deleted, or perhaps you misspelled something.</p><p>Try going back to the homepage to find what you were looking for.</p><p><a href=\"/\">Back to the Homepage</a></p>" },
+  "404_page_header": { "other": "Questa pagina non esiste..." },
+  "404_page_content": { "other": "<p>Ci dispiace, sembra che questa pagina non esista.</p><p>Potrebbe essere stata spostata o rimossa.</p><p>Prova a tornare alla homepage per trovare quel che cercavi.</p><p><a href=\"/\">Torna alla Home</a></p>" },
 
 
   "nav_homepage": { "other": "ABC Cinemas" },
@@ -186,14 +186,14 @@
 
   "shopping_info_sd_only": { "other": "Limited to SD playback only." },
   "shopping_info_release_date_title": { "other": "Disponibile dal {{.Date}}. " },
-  "shopping_info_release_date_explanation_rent": { "other": "You can rent it now, but you won't be able to watch it until then." },
+  "shopping_info_release_date_explanation_rent": { "other": "Lo puoi noleggiare ora, ma lo potrai vedere solo da quando sarà disponibile." },
   "shopping_info_release_date_explanation_buy": { "other": "You can buy it now, but you won't be able to watch it until then." },
 
   "shopping_info_available_until_date_title": { "other": "Disponsibile fino a {{.Date}}. " },
   "shopping_info_available_until_date_explanation_rent": { "other": "You will not be able to view the content after this." },
   "shopping_info_available_until_date_explanation_buy": { "other": "You will not be able to view the content after this." },
 
-  "shopping_info_rental_period_duration": { "other": "{{.Count}} giorni " },
+  "shopping_info_rental_period_duration": { "other": "Avrete poi {{.Count}} giorni " },
   "shopping_info_rental_period_coming_soon": { "other": "dalla data e ora della pubblicazione." },
   "shopping_info_watch_window_duration": { "other": "Finestra di riproduzione: {{.Count}} ore. " },
   "shopping_info_watch_window_explanation_film": {
