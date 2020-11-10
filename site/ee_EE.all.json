@@ -186,12 +186,12 @@
   
     "shopping_info_sd_only": { "other": "Limited to SD playback only." },
     "shopping_info_release_date_title": { "other": "Film on vaadatav alates {{.Date}}. " },
-    "shopping_info_release_date_explanation_rent": { "other": "Pileti võid osta juba praegu, kuid film avaneb {{.Date}}." },
-    "shopping_info_release_date_explanation_buy": { "other": "Pileti võid osta juba praegu, kuid film avaneb {{.Date}}." },
+    "shopping_info_release_date_explanation_rent": { "other": "Pileti võid osta juba praegu, kuid film avaneb antud kuupäeval." },
+    "shopping_info_release_date_explanation_buy": { "other": "Pileti võid osta juba praegu, kuid film avaneb antud kuupäeval." },
   
     "shopping_info_available_until_date_title": { "other": "Vaadatav kuni {{.Date}}. " },
-    "shopping_info_available_until_date_explanation_rent": { "other": "Pärast {{.Date}} ei saa filmi enam vaadata." },
-    "shopping_info_available_until_date_explanation_buy": { "other": "Pärast {{.Date}} ei saa filmi enam vaadata." },
+    "shopping_info_available_until_date_explanation_rent": { "other": "Pärast antud kuupäeva ei saa filmi enam vaadata." },
+    "shopping_info_available_until_date_explanation_buy": { "other": "Pärast antud kuupäeva ei saa filmi enam vaadata." },
   
     "shopping_info_rental_period_duration": { "other": "Pilet kehtib {{.Count}} päeva " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} tunnine vaatamise periood. " },
@@ -216,7 +216,7 @@
       "other": "Pärast pileti ostmist on hooaeg sinu kontol vaatamiseks {{.Count}} päeva. "
     },
     "shopping_info_watch_window_explanation2_season": {
-      "one": "Kui vajutad Play / Mängi konkreetse episoodi aknas, algab esitamine ja sul on {{.Count}} tundi episoodi vaatamiseks.",
+      "one": "Kui vajutad 'Vaata', on sul on aega 30 tundi, et filmid lõpuni vaadata.",
       "other": "Kui vajutad Play / Mängi konkreetse episoodi aknas, algab esitamine ja sul on {{.Count}} tundi episoodi vaatamiseks."
     },
     "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Boonus" },
