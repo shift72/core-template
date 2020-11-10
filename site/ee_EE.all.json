@@ -268,7 +268,7 @@
     "shopping_error_discount_disallowed_on_bundles": { "other": "Sooduskoodi ei saa kogumike juures kasutada." },
     "shopping_error_payment_intent_authentication_failure": { "other": "Krediitkaart on tagasi lükatud. Palun proovi uuesti." },
   
-    "shopping_complete_rental": { "other": "Õnnestus!!" },
+    "shopping_complete_rental": { "other": "Õnnestus!" },
     "shopping_complete_rental_period": {
       "one": "Sul on nüüd aega 30 tundi, et film lõpuni vaadata.",
       "other": "Alusta filmi vaatamisega {{.Count}} päeva jooksul."
