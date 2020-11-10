@@ -46,7 +46,7 @@
     "nav_homepage": { "other": "ABC Cinemas" },
     "nav_signin": { "other": "Logi sisse" },
     "nav_signup": { "other": "Loo konto" },
-    "nav_signed_in_as": { "other": "Sisse logitud kui " },
+    "nav_signed_in_as": { "other": "Sisse logitud kui" },
     "nav_library": { "other": "Minu filmid" },
     "nav_devices": { "other": "Minu seadmed" },
     "nav_wishlist": { "other": "Minu nimekiri" },
@@ -185,35 +185,35 @@
     "shopping_info_ownership_rent": { "other": "pilet" },
   
     "shopping_info_sd_only": { "other": "Limited to SD playback only." },
-    "shopping_info_release_date_title": { "other": "Film on vaadatav alates {{.Date}}." },
+    "shopping_info_release_date_title": { "other": "Film on vaadatav alates {{.Date}}. " },
     "shopping_info_release_date_explanation_rent": { "other": "Pileti võid osta juba praegu, kuid film avaneb {{.Date}}." },
     "shopping_info_release_date_explanation_buy": { "other": "Pileti võid osta juba praegu, kuid film avaneb {{.Date}}." },
   
-    "shopping_info_available_until_date_title": { "other": "Vaadatav kuni {{.Date}}." },
+    "shopping_info_available_until_date_title": { "other": "Vaadatav kuni {{.Date}}. " },
     "shopping_info_available_until_date_explanation_rent": { "other": "Pärast {{.Date}} ei saa filmi enam vaadata." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Pärast {{.Date}} ei saa filmi enam vaadata." },
   
-    "shopping_info_rental_period_duration": { "other": "Pilet kehtib {{.Count}} päeva" },
-    "shopping_info_watch_window_duration": { "other": "{{.Count}} tunnine vaatamise periood." },
+    "shopping_info_rental_period_duration": { "other": "Pilet kehtib {{.Count}} päeva " },
+    "shopping_info_watch_window_duration": { "other": "{{.Count}} tunnine vaatamise periood. " },
     "shopping_info_watch_window_explanation_film": {
-      "one": "Pärast pileti ostmist on film sinu kontol vaadatav ühe päeva.",
-      "other": "Pärast pileti ostmist on film sinu kontol vaadatav {{.Count}} päeva jooksul."
+      "one": "Pärast pileti ostmist on film sinu kontol vaadatav ühe päeva. ",
+      "other": "Pärast pileti ostmist on film sinu kontol vaadatav {{.Count}} päeva jooksul. "
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Kui vajutad 'Vaata', algab filmi esitamine ja sul on aega 30 tundi, et film lõpuni vaadata.",
       "other": "Kui vajutad 'Vaata', on sul on aega {{.Count}} tundi, et film lõpuni vaadata."
     },
     "shopping_info_watch_window_explanation_bundle": {
-      "one": "Pärast pileti ostmist on sinu kogumiku filmid sinu kontol vaatamiseks ühe päeva.",
-      "other": "Pärast pileti ostmist on sinu kogumiku filmid sinu kontol vaatamiseks {{.Count}} päeva."
+      "one": "Pärast pileti ostmist on sinu kogumiku filmid sinu kontol vaatamiseks ühe päeva. ",
+      "other": "Pärast pileti ostmist on sinu kogumiku filmid sinu kontol vaatamiseks {{.Count}} päeva. "
     },
     "shopping_info_watch_window_explanation2_bundle": {
       "one": "Kui vajutad 'Vaata', on sul on aega {{.Count}} tundi, et film lõpuni vaadata.",
       "other": "Kui vajutad 'Vaata', on sul on aega {{.Count}} tundi, et filmid lõpuni vaadata."
     },
     "shopping_info_watch_window_explanation_season": {
-      "one": "Pärast pileti ostmist on hooaeg sinu kontol vaatamiseks ühe päeva.",
-      "other": "Pärast pileti ostmist on hooaeg sinu kontol vaatamiseks {{.Count}} päeva."
+      "one": "Pärast pileti ostmist on hooaeg sinu kontol vaatamiseks ühe päeva. ",
+      "other": "Pärast pileti ostmist on hooaeg sinu kontol vaatamiseks {{.Count}} päeva. "
     },
     "shopping_info_watch_window_explanation2_season": {
       "one": "Kui vajutad Play / Mängi konkreetse episoodi aknas, algab esitamine ja sul on {{.Count}} tundi episoodi vaatamiseks.",
@@ -436,6 +436,7 @@
     "combined_auth_terms": { "other": "Nõustun kõigi <a href=\"/page/terms-and-conditions/\" target=\"_blank\">kasutustingimustega</a>." },
     "signup_terms": { "other": "Nõustun kõigi <a href=\"/page/terms-and-conditions/\" target=\"_blank\">kasutustingimustega</a>." },
     "validation_terms_required": { "other": "Sa pead nõustuma kasutustingimustega." },
-    "shopping_error_item_limit_exceeded": { "other": "Kahjuks on {{.Title}} välja müüdud." }
+    "shopping_error_item_limit_exceeded": { "other": "Kahjuks on {{.Title}} välja müüdud." },
+    "availability_expires": { "other": "Aegub {{.Expiry}}" }
   }
   
