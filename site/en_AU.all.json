@@ -136,6 +136,20 @@
   "account_form_submitted": { "other": "Updated" },
   "account_form_password_changed": { "other": "Updated" },
   "account_form_error_incorrect_password": { "other": "That password is incorrect." },
+  "account_form_pin_code": { "other": "account_form_pin_code" },
+  "account_form_pin_code_not_set": { "other": "account_form_pin_code_not_set" },
+  "account_form_masked_pin": { "other": "****" },
+  "account_form_change_pin": { "other": "account_form_change_pin" },
+  "account_form_pin_changed": { "other": "account_form_pin_changed" },
+
+  "user_set_pin_intro": { "other": "user_set_pin_intro" },
+  "user_set_pin_header": { "other": "user_set_pin_header" },
+  "user_set_pin_button": { "other": "user_set_pin_button" },
+  "user_submit_pin_heading": { "other": "user_submit_pin_heading" },
+  "user_error_wrong_pin_retry": { "other": "user_error_wrong_pin_retry" },
+  "user_error_too_many_pin_errors": { "other": "user_error_too_many_pin_errors" },
+  "user_submit_pin_button": { "other": "user_submit_pin_button" },
+  "user_reset_pin_button": { "other": "user_reset_pin_button" },
 
   "signup_form_optin": {"other": "Sign up for our free newsletter"},
 
@@ -344,6 +358,8 @@
   "userdevices_device_actions_cancel": { "other": "Cancel" },
   "userdevices_device_actions_confirm": { "other": "Yes, remove device" },
   "userdevices_device_deleted": { "other": "(Removed)" },
+  "userdevices_delete_limits": { "other": "userdevices_delete_limits" },
+  "userdevices_delete_limit_reached": { "other": "userdevices_delete_limit_reached" },
 
   "playlist_page_header": { "other": "Playlist" },
   "playlist_sign_in_warning": { "other": "Please sign in to watch live TV."},
@@ -382,6 +398,9 @@
   "shopping_card_existing_expired": { "other": "(expired)" },
   "shopping_card_use_other": { "other": "Use a new card" },
   "shopping_card_use_new_card": { "other": "Change card" },
+  "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
+  "shopping_card_new_subscription": { "other": "This card will saved and be charged regularly" },
+  "shopping_card_change": { "other": "Credit card not correct? <a href=\"/subscriptions.html\">Click here to update your card.</a>" },
 
   "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
 
@@ -416,7 +435,6 @@
   "usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
   "usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
 
-  "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
 
   "availability_coming_soon": { "other": "Coming soon" },
   "availability_renting": { "other": "Renting" },
@@ -426,6 +444,8 @@
   "availability_available_till": { "other": "Available until {{.ExpiryDate}}" },
   "availability_not_available_in_country": { "other": "Not available in your country" },
   "availability_available": { "other": "Available {{.ReleaseDate}}" },
+  "availability_expires": { "other": "Expires {{.Expiry}}" },
+  "availability_expired": { "other": "Expired {{.Expiry}}"},
 
   "modal_cancel": { "other": "Cancel" },
 
@@ -436,5 +456,8 @@
   "combined_auth_terms": { "other": "I agree to all the <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a>." },
   "signup_terms": { "other": "I agree to all the <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a>." },
   "validation_terms_required": { "other": "You must agree to the terms and conditions." },
-  "shopping_error_item_limit_exceeded": { "other": "Unfortunately, {{.Title}} has sold out." }
+  "shopping_error_item_limit_exceeded": { "other": "Unfortunately, {{.Title}} has sold out." },
+
+  "changepincode_modal_header": { "other": "changepincode_modal_header" },
+  "changepincode_modal_submit": { "other": "changepincode_modal_submit" }
 }
