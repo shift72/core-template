@@ -445,7 +445,7 @@
   "availability_not_available_in_country": { "other": "Not available in your country" },
   "availability_available": { "other": "Available {{.ReleaseDate}}" },
   "availability_expires": { "other": "Expires {{.Expiry}}" },
-  "availability_expired": { "other": "Expired {{.Expiry}}"},
+  "availability_expired": { "other": "Expired"},
 
   "modal_cancel": { "other": "Cancel" },
 
