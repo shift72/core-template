@@ -136,11 +136,11 @@
   "account_form_submitted": { "other": "Updated" },
   "account_form_password_changed": { "other": "Updated" },
   "account_form_error_incorrect_password": { "other": "That password is incorrect." },
-  "account_form_pin_code": { "other": "account_form_pin_code" },
-  "account_form_pin_code_not_set": { "other": "account_form_pin_code_not_set" },
-  "account_form_masked_pin": { "other": "****" },
-  "account_form_change_pin": { "other": "account_form_change_pin" },
-  "account_form_pin_changed": { "other": "account_form_pin_changed" },
+  "account_form_pin_code": { "other": "PIN" },
+  "account_form_pin_code_not_set": { "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles."},
+  "account_form_set_pin": { "other": "Set PIN" },
+  "account_form_pin_changed": { "other": "Updated" },
+  "account_form_change_pin": { "other": "Change PIN" },
 
   "user_set_pin_intro": { "other": "user_set_pin_intro" },
   "user_set_pin_header": { "other": "user_set_pin_header" },
@@ -458,6 +458,23 @@
   "validation_terms_required": { "other": "You must agree to the terms and conditions." },
   "shopping_error_item_limit_exceeded": { "other": "Unfortunately, {{.Title}} has sold out." },
 
-  "changepincode_modal_header": { "other": "changepincode_modal_header" },
-  "changepincode_modal_submit": { "other": "changepincode_modal_submit" }
+  "changepincode_modal_header": { "other": "Change your PIN" },
+  "changepincode_modal_currentpassword": { "other": "Your current password" },
+  "changepincode_modal_pincode1": { "other": "Your new 4 digit PIN" },
+  "changepincode_modal_pincode2": { "other": "Confirm your new 4 digit PIN" },
+  "changepincode_modal_submit": { "other": "Set PIN" },
+  "changepincode_modal_error_wrong_password": { "other": "That password is incorrect." },
+
+  "user_submit_pin_heading": { "other": "Enter your PIN to {{.Action}} this restricted content"},
+  "user_submit_pin_button": { "other": "Enter" },
+  "user_set_pin_intro": { "other": "You need a PIN to {{.Action}} restricted content"},
+  "user_set_pin_header": { "other": "Set your PIN" },
+  "user_set_pin_button": { "other": "Set PIN" },
+  "user_reset_pin_button": { "other": "Reset PIN" },
+  "user_error_wrong_pin_retry": { "other": "Oops, you have entered an incorrect PIN" },
+  "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"/page/help/\" target=\"_blank\">help</a>" },
+  "user_error_too_many_pin_errors_help_page_link": { "other": "" },
+  "shopping_error_age_restricted": { "other": "This content is age restricted." },
+  "shopping_error_close_button": { "other": "OK" }
 }
