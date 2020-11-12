@@ -36,6 +36,7 @@
 
 @import '_social-media-buttons';
 @import '_cookie-consent';
+@import '_pin-codes';
 
 // Custom fonts ???
 // ---------------------------------------
@@ -76,127 +77,127 @@ body {
 }
 
 .page-collection-list {
-  // List Items
-  .page-collection-items {
-    // List Item Portrait
-    .page-collection-list-item-portrait {
-      &.page-collection-item-6 {
+	// List Items
+	.page-collection-items {
+		// List Item Portrait
+		.page-collection-list-item-portrait {
+			&.page-collection-item-6 {
 				max-width: (100% / 3);
 				flex-basis: (100% / 3);
-        .meta-item-link {
-          width: 100%;
-        }
-        @include media-breakpoint-up(sm) {
-          max-width: (100% / 4);
-          flex-basis: (100% / 4);
-        }
-        @include media-breakpoint-up(lg) {
-          max-width: (100% / 5);
-          flex-basis: (100% / 5);
-        }
-        @include media-breakpoint-up(xl) {
-          max-width: (100% / 6);
-        }
-        @include media-breakpoint-up(xxxl) {
-          max-width: (100% / 8);
-        }
-      }
-      &.page-collection-item-4 {
-        max-width: 50%;
-        flex-basis: 50%;
-        .meta-item-link {
-          width: 100%;
-        }
-        @include media-breakpoint-up(sm) {
-          max-width: (100% / 3);
-          flex-basis: (100% / 3);
-        }
-        @include media-breakpoint-up(lg) {
-          max-width: (100% / 4);
-          flex-basis: (100% / 4);
-        }
-        @include media-breakpoint-up(xl) {
-          max-width: (100% / 5);
-        }
-        @include media-breakpoint-up(xxxl) {
-          max-width: (100% / 6);
-        }
-      }
-    }
-    .page-collection-list-item-landscape {
-      &.page-collection-item-4 {
-        max-width: 50%;
-        flex-basis: 50%;
-        .meta-item-link {
-          width: 100%;
-        }
+				.meta-item-link {
+					width: 100%;
+				}
+				@include media-breakpoint-up(sm) {
+					max-width: (100% / 4);
+					flex-basis: (100% / 4);
+				}
+				@include media-breakpoint-up(lg) {
+					max-width: (100% / 5);
+					flex-basis: (100% / 5);
+				}
+				@include media-breakpoint-up(xl) {
+					max-width: (100% / 6);
+				}
+				@include media-breakpoint-up(xxxl) {
+					max-width: (100% / 8);
+				}
+			}
+			&.page-collection-item-4 {
+				max-width: 50%;
+				flex-basis: 50%;
+				.meta-item-link {
+					width: 100%;
+				}
 				@include media-breakpoint-up(sm) {
 					max-width: (100% / 3);
 					flex-basis: (100% / 3);
 				}
-        @include media-breakpoint-up(lg) {
-          max-width: (100% / 3);
-          flex-basis: (100% / 3);
-        }
-        @include media-breakpoint-up(xl) {
-          max-width: (100% / 4);
-        }
-        @include media-breakpoint-up(xxxl) {
-          max-width: (100% / 5);
-        }
-      }
-      &.page-collection-item-3 {
-        max-width: 50%;
-        flex-basis: 50%;
-        .meta-item-link {
-          width: 100%;
-        }
+				@include media-breakpoint-up(lg) {
+					max-width: (100% / 4);
+					flex-basis: (100% / 4);
+				}
+				@include media-breakpoint-up(xl) {
+					max-width: (100% / 5);
+				}
+				@include media-breakpoint-up(xxxl) {
+					max-width: (100% / 6);
+				}
+			}
+		}
+		.page-collection-list-item-landscape {
+			&.page-collection-item-4 {
+				max-width: 50%;
+				flex-basis: 50%;
+				.meta-item-link {
+					width: 100%;
+				}
+				@include media-breakpoint-up(sm) {
+					max-width: (100% / 3);
+					flex-basis: (100% / 3);
+				}
 				@include media-breakpoint-up(lg) {
 					max-width: (100% / 3);
 					flex-basis: (100% / 3);
 				}
-        @include media-breakpoint-up(xl) {
-          max-width: (100% / 3);
-          flex-basis: (100% / 3);
-        }
-        @include media-breakpoint-up(xxxl) {
-          max-width: (100% / 4);
-        }
-      }
-    }
-  }
+				@include media-breakpoint-up(xl) {
+					max-width: (100% / 4);
+				}
+				@include media-breakpoint-up(xxxl) {
+					max-width: (100% / 5);
+				}
+			}
+			&.page-collection-item-3 {
+				max-width: 50%;
+				flex-basis: 50%;
+				.meta-item-link {
+					width: 100%;
+				}
+				@include media-breakpoint-up(lg) {
+					max-width: (100% / 3);
+					flex-basis: (100% / 3);
+				}
+				@include media-breakpoint-up(xl) {
+					max-width: (100% / 3);
+					flex-basis: (100% / 3);
+				}
+				@include media-breakpoint-up(xxxl) {
+					max-width: (100% / 4);
+				}
+			}
+		}
+	}
 }
 
 s72-classification-label {
-  display: inline-block;
+	display: inline-block;
 }
 .s72-classification {
-    display: inline-block;
-    margin-top: 0;
-    padding: 0;
-    @extend .d-flex;
-    .s72-classification-intro,
-    .s72-classification-divider {
-      display: none;
-    }
-    .s72-classification-description {
-      font-size: 14px;
-      color: rgba(255,255,255,0.5);
-      font-weight: 600;
-      margin-left: 5px;
-      display: none;
-    }
-    .s72-classification-label {
-      color: rgba(255,255,255,0.5);
-      font-weight: 800;
-      font-size: 12px;
-      padding: 1px 5px;
-      border: 3px solid rgba(255,255,255,0.5);
-      border-radius: 0;
-      @include media-breakpoint-up(xxxl) {
-        font-size: 14px;
-      }
-    }
+		display: inline-block;
+		margin-top: 0;
+		padding: 0;
+		@extend .d-flex;
+		.s72-classification-intro,
+		.s72-classification-divider {
+			display: none;
+		}
+		.s72-classification-description {
+			font-size: 14px;
+			color: rgba(255,255,255,0.5);
+			font-weight: 600;
+			margin-left: 5px;
+			display: none;
+		}
+		.s72-classification-label {
+			color: rgba(255,255,255,0.5);
+			font-weight: 800;
+			font-size: 12px;
+			padding: 1px 5px;
+			border: 3px solid rgba(255,255,255,0.5);
+			border-radius: 0;
+			@include media-breakpoint-up(xxxl) {
+				font-size: 14px;
+			}
+		}
 }
 // Classication and Tagline
 .meta-detail-content .meta-detail-tagline-and-classification {
