@@ -45,7 +45,7 @@ for (const [key, value] of Object.entries(json)) {
   csv.push(createRow(key, value.other, singularValue));
 }
 
-let outputFilename = `scripts/language-file-to-csv/output/${Date.now()} - Translations.csv`;
+let outputFilename = `scripts/language-file-to-csv/output/${new Date().toString()} - Translations.csv`;
 
 fs.writeFile(outputFilename, csv.join('\n'), err => {
   if (err) {
