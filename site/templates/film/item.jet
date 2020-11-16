@@ -90,6 +90,26 @@
               <p>{{ film.GetSubtitles() }}</p>
             </div>
           {{end}}
+          {{if len(film.Countries) > 0 }}
+            <div class="meta-detail-country">
+              <h4>{{i18n("meta_detail_countries", len(film.Countries))}}</h4>
+              <p>{{ film.Countries }}</p>
+            </div>
+          {{end}}
+          {{if len(film.Studio) > 0 }}
+            <div class="meta-detail-studio">
+              <h4>{{i18n("meta_detail_studios", len(film.Studio))}}</h4>
+              {*{ FORMAT STUDIOS }*}
+              {{ studios := "" }}
+              {{ range studio := film.Studio }}
+                {{ studios = studios + studio + ", "}}
+              {{ end }}
+              {{ if len(studios) > 0 }}
+                {{ studios = studios[0:len(studios) - 2] }}
+              {{ end }}
+              <p>{{ studios }}</p>
+            </div>
+          {{end}}
           {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}
             <div class="meta-detail-bonus-content">
               <h4>{{i18n("meta_detail_bonus_title")}}</h4>
