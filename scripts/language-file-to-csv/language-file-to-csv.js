@@ -27,8 +27,6 @@ for (const [key, value] of Object.entries(json)) {
   }
 }
 
-// Because this character '~' is not present in the English language file.
-// May have to change how this works in the future.
 let csvSeparator = '","'; 
 
 let createRow = (key, value, singularValue) => {
