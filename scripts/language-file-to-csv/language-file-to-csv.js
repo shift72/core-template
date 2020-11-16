@@ -32,10 +32,11 @@ for (const [key, value] of Object.entries(json)) {
 let csvSeparator = '","'; 
 
 let createRow = (key, value, singularValue) => {
-  return '"' + [key, '', value.replace(/"/g, '""'), '', singularValue.replace(/"/g, '""')].join(csvSeparator) + '"';
+  let row = [key, '', value.replace(/"/g, '""'), '', singularValue.replace(/"/g, '""')];
+  return `"${row.join(csvSeparator)}"`;
 };
 
-let csvHeader = '"' + ['Term', 'Translated Value', 'Value', 'Singular Translated Value', 'Singular Value'].join(csvSeparator) + '"';
+let csvHeader = `"${['Term', 'Translated Value', 'Value', 'Singular Translated Value', 'Singular Value'].join(csvSeparator)}"`;
 let csv = [
   csvHeader
 ];
