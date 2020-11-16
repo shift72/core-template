@@ -29,13 +29,13 @@ for (const [key, value] of Object.entries(json)) {
 
 // Because this character '~' is not present in the English language file.
 // May have to change how this works in the future.
-let csvSeparator = '~'; 
+let csvSeparator = '","'; 
 
 let createRow = (key, value, singularValue) => {
-  return [key, '', value, '', singularValue].join(csvSeparator);
+  return '"' + [key, '', value.replace(/"/g, '""'), '', singularValue.replace(/"/g, '""')].join(csvSeparator) + '"';
 };
 
-let csvHeader = ['Term', 'Translated Value', 'Value', 'Singular Translated Value', 'Singular Value'].join(csvSeparator);
+let csvHeader = '"' + ['Term', 'Translated Value', 'Value', 'Singular Translated Value', 'Singular Value'].join(csvSeparator) + '"';
 let csv = [
   csvHeader
 ];
