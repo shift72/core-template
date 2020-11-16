@@ -16,7 +16,8 @@
     "kibble:watch": "kibble render --watch --port 8081",
     "kibble:build": "kibble publish",
     "build": "npm-run-all css js:build css:build kibble:build",
-    "language:csv": "node scripts/language-file-to-csv/language-file-to-csv.js site/en_AU.all.json"
+    "language:csv": "node scripts/language-file-to-csv/language-file-to-csv.js site/en_AU.all.json",
+    "language:validate": "node scripts/language-file-validator.js"
   },
   "repository": {
     "type": "git",
