@@ -2,6 +2,11 @@
 
 const fs = require('fs');
 
+const outputDir = 'scripts/language-file-to-csv/output';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir);
+}
+
 if (process.argv.length < 3) {
   console.error('ERROR - Language file path argument missing!');
   return;
@@ -44,7 +49,7 @@ for (const [key, value] of Object.entries(json)) {
   csv.push(createRow(key, value.other, singularValue));
 }
 
-let outputFilename = `scripts/language-file-to-csv/output/${new Date().toString()} - Translations.csv`;
+let outputFilename = `${outputDir}/${new Date().toString()} - Translations.csv`;
 
 fs.writeFile(outputFilename, csv.join('\n'), err => {
   if (err) {
