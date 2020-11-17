@@ -142,7 +142,6 @@
   "account_form_pin_changed": { "other": "Updated" },
   "account_form_change_pin": { "other": "Change PIN" },
 
-  "user_set_pin_intro": { "other": "user_set_pin_intro" },
   "user_set_pin_header": { "other": "user_set_pin_header" },
   "user_set_pin_button": { "other": "user_set_pin_button" },
   "user_submit_pin_heading": { "other": "user_submit_pin_heading" },
