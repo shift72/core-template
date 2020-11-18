@@ -366,5 +366,6 @@
   "availability_available": { "other": "Disponibile {{.ReleaseDate}}"},
   "availability_renting": { "other": "Noleggiato" },
   "availability_available_till": { "other": "Disponibile fino a {{.ExpiryDate}}" },
+  "availability_not_available_in_country": { "other": "Non Disponibile" },
   "availability_expired": { "other": "Scaduto" }
 }
