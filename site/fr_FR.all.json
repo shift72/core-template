@@ -354,5 +354,7 @@
   "classification_outro": { "other": "" },
 
   "cookie_banner_message": { "other": "Ce site utilise des cookies dans le but d'améliorer votre expérience. En utilisant ce site, vous acceptez notre <a href=\"/page/cookie-policy/\">politique d'utilisation des cookies</a>." },
-  "cookie_banner_accept": { "other": "J'accepte" }
+  "cookie_banner_accept": { "other": "J'accepte" },
+
+  "all_rights_reserved": { "other": "Tous les droits sont réservés. Aucune partie de ce site ne peut être reproduite sans notre autorisation écrite." }
 }
