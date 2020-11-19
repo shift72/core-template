@@ -39,6 +39,10 @@ languageFilenames.forEach(language => {
     if (emptyKeys.includes(key) && keys.includes(key)) {
       testEmptyKey(file, key);
     }
+
+    if (keys.includes(key)) {
+      testKeyNotEnglish(masterFile[key], file[key], key);
+    }
   });
 
   console.log('\n\n');
@@ -87,6 +91,18 @@ function testEmptyKey(file, key) {
     assert.ok(file[key].other === '', `${key} is empty`);
   } catch(e) {
     console.error(`${key} - should be empty.`);
+    errors.push(e);
+  }
+}
+
+function testKeyNotEnglish(englishValue, translatedValue, key) {
+  try {
+    let count = Object.keys(englishValue);
+    count.forEach(c => {
+      assert.ok(englishValue[c] !== translatedValue[c], `${key} is translated`)
+    });
+  } catch(e) {
+    console.error(`${key} - should be translated.`);
     errors.push(e);
   }
 }
