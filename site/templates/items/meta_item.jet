@@ -61,7 +61,7 @@
 
             <div class="buttons">
               <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
-              <s72-pricing-buttons data-slug="{{item.Slug}}" class="pricing-buttons-fit" title="{{item.Title}}"></s72-pricing-buttons>
+              <s72-pricing-buttons data-slug="{{item.Slug}}" class="pricing-buttons-fit" title="{{item.Title}}" terms-and-conditions-url="{{ routeToPath("/page/terms-and-conditions/") }}"></s72-pricing-buttons>
             </div>
           </div>
           <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist"></s72-userwishlist-button>

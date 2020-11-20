@@ -33,7 +33,7 @@
 
         <div class="meta-item-buttons">
           <s72-play-button data-slug="{{item.Slug}}"></s72-play-button>
-          <s72-pricing-buttons data-slug="{{item.Slug}}"></s72-pricing-buttons>
+          <s72-pricing-buttons data-slug="{{item.Slug}}" terms-and-conditions-url="{{ routeToPath("/page/terms-and-conditions/") }}"></s72-pricing-buttons>
           {{if isset(item.InnerItem["Trailers"]) && len(item.InnerItem.Trailers) > 0}}
             <s72-modal-player src="{{item.InnerItem.Trailers[0].URL}}" class="btn-sm" data-slug="{{item.Slug}}" data-label="{{i18n("play_trailer")}}"></s72-modal-player>
           {{end}}
@@ -49,7 +49,7 @@
 
           <div class="buttons">
             <watch-button data-slug="item.Slug"></watch-button>
-            <pricing-buttons data-slug="item.Slug"></pricing-buttons>
+            <pricing-buttons data-slug="item.Slug" terms-and-conditions-url="{{ routeToPath("/page/terms-and-conditions/") }}"></pricing-buttons>
           </div>
 
             {*<p class="synopsis visible-md visible-lg">{{item.Tagline}}</p>*}

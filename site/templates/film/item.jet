@@ -45,7 +45,7 @@
 
           <div class="meta-detail-buttons">
             <s72-play-button data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-play-button>
-            <s72-pricing-buttons data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-pricing-buttons>
+            <s72-pricing-buttons data-slug="{{film.Slug}}" data-title="{{film.Title}}" terms-and-conditions-url="{{ routeToPath("/page/terms-and-conditions/") }}"></s72-pricing-buttons>
           </div>
           {{if config("default_image_type") != "portrait"}}
             <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
