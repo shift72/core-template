@@ -1,0 +1,9 @@
+{{block linkoverrides()}}
+  <script type="text/javascript">
+    document.addEventListener('s72loaded', function(event) {
+      var app = event.detail.app;
+      
+      app.shoppingProcessService.setTermsAndConditionsUrl('{{ routeToPath("/page/terms-and-conditions/") }}');
+    });
+  </script>
+{{end}}
