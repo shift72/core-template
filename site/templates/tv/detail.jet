@@ -36,7 +36,7 @@
           </div>
           <div class="meta-detail-buttons">
             <s72-play-button data-slug="{{tvseason.Slug}}" data-title="{{tvseason.Title}}"></s72-play-button>
-            <s72-pricing-buttons data-slug="{{tvseason.Slug}}" data-title="{{tvseason.Title}}" terms-and-conditions-url="{{ routeToPath("/page/terms-and-conditions/") }}"></s72-pricing-buttons>
+            <s72-pricing-buttons data-slug="{{tvseason.Slug}}" data-title="{{tvseason.Title}}"></s72-pricing-buttons>
           </div>
           <s72-availability-label data-slug="{{tvseason.Slug}}"></s72-availability-label>
           <div class="meta-detail-synopsis">{{tvseason.Overview | raw}}</div>

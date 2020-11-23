@@ -31,7 +31,7 @@
           </div>
           <div class="meta-detail-synopsis">{{bundle.Description | raw}}</div>
           <div class="meta-detail-buttons">
-            <s72-pricing-buttons data-slug="{{bundle.Slug}}" data-title="{{bundle.Title}}" terms-and-conditions-url="{{ routeToPath("/page/terms-and-conditions/") }}"></s72-pricing-buttons>
+            <s72-pricing-buttons data-slug="{{bundle.Slug}}" data-title="{{bundle.Title}}"></s72-pricing-buttons>
           </div>
           <div class="meta-detail-extras">
             {{if len(bundle.PromoURL) > 0 }}

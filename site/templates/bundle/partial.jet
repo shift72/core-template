@@ -30,7 +30,7 @@
             {{end}}
           </div>
           <div class="buttons">
-            <s72-pricing-buttons data-slug="{{bundle.Slug}}" class="pricing-buttons-fit" title="{{bundle.Title}}" terms-and-conditions-url="{{ routeToPath("/page/terms-and-conditions/") }}"></s72-pricing-buttons>
+            <s72-pricing-buttons data-slug="{{bundle.Slug}}" class="pricing-buttons-fit" title="{{bundle.Title}}"></s72-pricing-buttons>
           </div>
         </div>
       </div>
