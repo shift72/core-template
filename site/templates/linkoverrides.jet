@@ -4,6 +4,7 @@
       var app = event.detail.app;
       
       app.shoppingProcessService.setTermsAndConditionsUrl('{{ routeToPath("/page/terms-and-conditions/") }}');
+      app.shoppingProcessService.setLibraryUrl('{{ routeToPath("/library.html") }}');
     });
   </script>
 {{end}}
