@@ -133,6 +133,15 @@
   }
 }
 
+// some fields which are "readonly" shouldn't have the padding and font-size applied to them because they are text (not masked "****" values)
+.s72-readonly-text .s72-form-control-readonly {
+  @extend .py-0;
+
+  font-size: unset;
+  border-radius: $border-radius !important;
+  border: 1px solid transparent;
+}
+
 s72-useraccount-form {
 
   .s72-form-control-readonly {
