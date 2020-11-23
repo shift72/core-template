@@ -68,7 +68,7 @@
   "acceptinvite_form_invalid_reset_password_token": { "other": "It looks like you have already claimed this invite, you should <a href=\"{{.SigninURL}}\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"{{.ForgotPasswordURL}}\">reset your password</a>." },
   "acceptinvite_complete": { "other": "Thank you. Your account has been created." },
   "acceptinvite_form_submit": { "other": "Einladung annehmen" },
-  "acceptinvite_agreement": { "other": "Durch Klicken auf den Button stimme ich den Allgemeinen Geschäftsbedingungen und der Datenschutzerklärung zu" },
+  "acceptinvite_agreement": { "other": "Durch Klicken auf den Button stimme ich den <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Allgemeinen Geschäftsbedingungen</a> und der <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">Datenschutzerklärung zu</a>." },
 
   "signup_page_header": { "other": "Neuen Account erstellen" },
   "signup_form_name": { "other": "Name" },
@@ -78,7 +78,7 @@
   "signup_form_gender": { "other": "Geschlecht" },
   "signup_form_dob": { "other": "Geburtsdatum" },
   "signup_form_submit": { "other": "Absenden" },
-  "signup_terms": { "other": "Wenn Sie die Schaltfläche unten anklicken, bestätigen Sie, dass Sie die Allgemeinen Geschäftsbedingungen gelesen und akzeptiert haben." },
+  "signup_terms": { "other": "Wenn Sie die Schaltfläche unten anklicken, bestätigen Sie, dass Sie die <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Allgemeinen Geschäftsbedingungen</a> gelesen und akzeptiert haben." },
 
   "signin_page_header": { "other": "Anmelden" },
   "signin_form_email": { "other": "E-Mail-Adresse" },
@@ -370,5 +370,10 @@
   "modal_cancel": { "other": "Abbrechen" },
 
   "combined_auth_signin_prompt": { "other": "Anmelden" },
-  "combined_auth_signup_prompt": { "other": "Konto anlegen" }
+  "combined_auth_signup_prompt": { "other": "Konto anlegen" },
+  "combined_auth_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
+
+  "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
 }
