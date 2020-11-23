@@ -89,7 +89,7 @@
     "signin_form_email": { "other": "E-mail cím" },
     "signin_form_password": { "other": "Jelszó" },
     "signin_form_remember": { "other": "Emlékezz rám" },
-    "signin_form_submit": { "other": "Fiók létrehozása" },
+    "signin_form_submit": { "other": "Bejelentkezés" },
     "signin_page_forgotpassword": { "other": "Elfelejtetted a jelszavadat?" },
     "signin_page_createnewaccount": { "other": "Nincs még fiókod? Új fiók létrehozása" },
     "signup_page_alreadyhaveanaccount": { "other": "Már van fiókod? Bejelentkezés" },
@@ -221,12 +221,12 @@
     },
     "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bónusz" },
   
-    "shopping_enter_card_prompt": { "other": "Add meg bánkkártya adataidat, hogy a {{.Verb}} létrejöjjön." },
+    "shopping_enter_card_prompt": { "other": "Add meg bankkártya adataidat, hogy a {{.Verb}} létrejöjjön." },
   
     "shopping_terms": { "other": "A tranzakció teljesítésével elfogadod a <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">Felhasználói szabályzatot</a>."},
     "shopping_discount_applied": { "other": "{{.DiscountAmount}} kedvezmény levonva." },
     "shopping_discount_apply": { "other": "Alkalmazás." },
-    "shopping_discount_code": { "other": "EÍrj be egy promókódot." },
+    "shopping_discount_code": { "other": "Írj be egy promókódot." },
     "shopping_discount_have_code": { "other": "Promókódom van." },
   
     "shopping_price_you_pay": { "other": "Fizetés összege" },
@@ -308,7 +308,7 @@
     "meta_detail_episodes_title": { "other": "Epizódok" },
     "meta_detail_bonus_title": { "other": "Extra tartalom" },
     "meta_detail_recommendations_title": { "other": "Talán ez is tetszene" },
-    "meta_detail_bundle_items_title": { "other": "A válogatásban szereplő filmeka" },
+    "meta_detail_bundle_items_title": { "other": "A válogatásban szereplő filmek" },
   
     "bundle_items_all_films": { "other": "{{.Count}} film" },
     "bundle_items_all_seasons": { "other": "{{.Count}} évad" },

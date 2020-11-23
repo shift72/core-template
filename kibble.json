@@ -10,12 +10,14 @@
     "fr": "fr_FR",
     "de": "de_DE",
     "es": "es_ES",
+    "es_MX": "es_MX",
     "el": "el_EL",
     "pt": "pt_PT",
     "no": "no_NO",
     "ru": "ru_RU",
     "tr": "tr_TR",
-    "hu": "hu_HU"
+    "hu": "hu_HU",
+    "ee": "ee_EE"
   },
   "siteRootPath": "site",
   "liveReload": {

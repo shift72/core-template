@@ -36,6 +36,7 @@
 
 @import '_social-media-buttons';
 @import '_cookie-consent';
+@import '_pin-codes';
 
 // Custom fonts ???
 // ---------------------------------------
@@ -48,31 +49,31 @@
 @import 'https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css';
 
 html {
-	overflow-y: scroll;
+  overflow-y: scroll;
 }
 body {
-	font-family: "Rawline", $font-family-base;
+  font-family: "Rawline", $font-family-base;
 }
 .container-fluid {
-	margin: 0 auto;
-	padding: 0;
+  margin: 0 auto;
+  padding: 0;
 }
 .animate-this {
-	transition: all .25s ease-out;
+  transition: all .25s ease-out;
 }
 .sign-up-now {
-	s72-user-anon {
-		padding: $grid-gutter-width / 2 0;
-		@extend .d-flex;
-		justify-content: center;
-	}
-	.supports {
-		@extend .d-flex;
-		justify-content: center;
-		img {
-			max-width: 258px;
-		}
-	}
+  s72-user-anon {
+    padding: $grid-gutter-width / 2 0;
+    @extend .d-flex;
+    justify-content: center;
+  }
+  .supports {
+    @extend .d-flex;
+    justify-content: center;
+    img {
+      max-width: 258px;
+    }
+  }
 }
 
 .page-collection-list {
@@ -81,8 +82,8 @@ body {
     // List Item Portrait
     .page-collection-list-item-portrait {
       &.page-collection-item-6 {
-				max-width: (100% / 3);
-				flex-basis: (100% / 3);
+        max-width: (100% / 3);
+        flex-basis: (100% / 3);
         .meta-item-link {
           width: 100%;
         }
@@ -130,10 +131,10 @@ body {
         .meta-item-link {
           width: 100%;
         }
-				@include media-breakpoint-up(sm) {
-					max-width: (100% / 3);
-					flex-basis: (100% / 3);
-				}
+        @include media-breakpoint-up(sm) {
+          max-width: (100% / 3);
+          flex-basis: (100% / 3);
+        }
         @include media-breakpoint-up(lg) {
           max-width: (100% / 3);
           flex-basis: (100% / 3);
@@ -151,10 +152,10 @@ body {
         .meta-item-link {
           width: 100%;
         }
-				@include media-breakpoint-up(lg) {
-					max-width: (100% / 3);
-					flex-basis: (100% / 3);
-				}
+        @include media-breakpoint-up(lg) {
+          max-width: (100% / 3);
+          flex-basis: (100% / 3);
+        }
         @include media-breakpoint-up(xl) {
           max-width: (100% / 3);
           flex-basis: (100% / 3);
@@ -200,146 +201,146 @@ s72-classification-label {
 }
 // Classication and Tagline
 .meta-detail-content .meta-detail-tagline-and-classification {
-		align-items: center;
-		padding-top: 8px;
-		padding-bottom: 14px;
-		display: flex !important;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 14px;
+    display: flex !important;
 }
 .meta-detail-content .meta-detail-tagline-and-classification .s72-classification {
-		margin-right: 5px;
+    margin-right: 5px;
 }
 
 .meta-detail-content .meta-detail-tagline-and-classification .meta-item-tagline {
-		font-weight: 600;
-		color: rgba(255, 255, 255, 0.5);
-		margin-bottom: 0;
-		align-self: center;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0;
+    align-self: center;
 }
 
 .wishlist-page-landscape .s72-userwishlist-items {
-	@extend .d-flex;
-	flex-wrap: wrap;
-	// Wishlist Partial
-	.partial {
-		max-width: (100% / 2);
-		flex-basis: (100% / 2);
-		@include media-breakpoint-up(md) {
-			max-width: (100% / 3);
-			flex-basis: (100% / 3);
-		}
-		@include media-breakpoint-up(lg) {
-			max-width: (100% / 3);
-			flex-basis: (100% / 3);
-		}
-		@include media-breakpoint-up(xl) {
-			max-width: (100% / 4);
-			flex-basis: (100% / 4);
-		}
-		@include media-breakpoint-up(xxxl) {
-			max-width: (100% / 4);
-			flex-basis: (100% / 4);
-		}
-	}
+  @extend .d-flex;
+  flex-wrap: wrap;
+  // Wishlist Partial
+  .partial {
+    max-width: (100% / 2);
+    flex-basis: (100% / 2);
+    @include media-breakpoint-up(md) {
+      max-width: (100% / 3);
+      flex-basis: (100% / 3);
+    }
+    @include media-breakpoint-up(lg) {
+      max-width: (100% / 3);
+      flex-basis: (100% / 3);
+    }
+    @include media-breakpoint-up(xl) {
+      max-width: (100% / 4);
+      flex-basis: (100% / 4);
+    }
+    @include media-breakpoint-up(xxxl) {
+      max-width: (100% / 4);
+      flex-basis: (100% / 4);
+    }
+  }
 }
 
 // Library
 .library-page-landscape .s72-userlibrary-items {
-	@extend .d-flex;
-	flex-wrap: wrap;
-	// Library item Partial
-	.partial {
-		max-width: (100% / 2);
-		flex-basis: (100% / 2);
-		@include media-breakpoint-up(md) {
-			max-width: (100% / 3);
-			flex-basis: (100% / 3);
-		}
-		@include media-breakpoint-up(lg) {
-			max-width: (100% / 3);
-			flex-basis: (100% / 3);
-		}
-		@include media-breakpoint-up(xl) {
-			max-width: (100% / 4);
-			flex-basis: (100% / 4);
-		}
-		@include media-breakpoint-up(xxxl) {
-			max-width: (100% / 4);
-			flex-basis: (100% / 4);
-		}
-	}
+  @extend .d-flex;
+  flex-wrap: wrap;
+  // Library item Partial
+  .partial {
+    max-width: (100% / 2);
+    flex-basis: (100% / 2);
+    @include media-breakpoint-up(md) {
+      max-width: (100% / 3);
+      flex-basis: (100% / 3);
+    }
+    @include media-breakpoint-up(lg) {
+      max-width: (100% / 3);
+      flex-basis: (100% / 3);
+    }
+    @include media-breakpoint-up(xl) {
+      max-width: (100% / 4);
+      flex-basis: (100% / 4);
+    }
+    @include media-breakpoint-up(xxxl) {
+      max-width: (100% / 4);
+      flex-basis: (100% / 4);
+    }
+  }
 }
 
 // Search
 .search-page-landscape .s72-searchresults-results {
-	@extend .d-flex;
-	flex-wrap: wrap;
-	// Search Partial
-	.partial {
-		max-width: (100% / 2);
-		flex-basis: (100% / 2);
-		@include media-breakpoint-up(md) {
-			max-width: (100% / 3);
-			flex-basis: (100% / 3);
-		}
-		@include media-breakpoint-up(lg) {
-			max-width: (100% / 3);
-			flex-basis: (100% / 3);
-		}
-		@include media-breakpoint-up(xl) {
-			max-width: (100% / 4);
-			flex-basis: (100% / 4);
-		}
-		@include media-breakpoint-up(xxxl) {
-			max-width: (100% / 4);
-			flex-basis: (100% / 4);
-		}
-	}
+  @extend .d-flex;
+  flex-wrap: wrap;
+  // Search Partial
+  .partial {
+    max-width: (100% / 2);
+    flex-basis: (100% / 2);
+    @include media-breakpoint-up(md) {
+      max-width: (100% / 3);
+      flex-basis: (100% / 3);
+    }
+    @include media-breakpoint-up(lg) {
+      max-width: (100% / 3);
+      flex-basis: (100% / 3);
+    }
+    @include media-breakpoint-up(xl) {
+      max-width: (100% / 4);
+      flex-basis: (100% / 4);
+    }
+    @include media-breakpoint-up(xxxl) {
+      max-width: (100% / 4);
+      flex-basis: (100% / 4);
+    }
+  }
 }
 
 // Bundle - largely inherited from collections
 .page-bundle-list {
-	@extend .page-collection-list;
+  @extend .page-collection-list;
 
-	& h4 {
-			width: 100%;
-	}
+  & h4 {
+      width: 100%;
+  }
 
-	.page-bundle-items {
-		@extend .page-collection-items;
-	}
+  .page-bundle-items {
+    @extend .page-collection-items;
+  }
 
-	.page-bundle-item {
-		@extend .page-collection-item;
+  .page-bundle-item {
+    @extend .page-collection-item;
 
-		// Uncomment this to max out at 4 items across
-		// @include media-breakpoint-up(xxxl) {
-		// 	max-width: (100% / 4) !important;
-		// 	flex-basis: (100% / 4) !important;
-		// }
-	}
+    // Uncomment this to max out at 4 items across
+    // @include media-breakpoint-up(xxxl) {
+    //  max-width: (100% / 4) !important;
+    //  flex-basis: (100% / 4) !important;
+    // }
+  }
 
-	.page-bundle-list-item-portrait {
-		@extend .page-collection-list-item-portrait;
-	}
+  .page-bundle-list-item-portrait {
+    @extend .page-collection-list-item-portrait;
+  }
 
-	.page-bundle-list-item-landscape {
-		@extend .page-collection-list-item-landscape;
-	}
+  .page-bundle-list-item-landscape {
+    @extend .page-collection-list-item-landscape;
+  }
 
-	.page-bundle-item-4 {
-		@extend .page-collection-item-4;
-	}
+  .page-bundle-item-4 {
+    @extend .page-collection-item-4;
+  }
 
-	.page-bundle-item-6 {
-		@extend .page-collection-item-6;
-	}
+  .page-bundle-item-6 {
+    @extend .page-collection-item-6;
+  }
 
-	.poster {
-		width: 100%; // otherwise inherits from meta_item post which has a fixed width
-	}
+  .poster {
+    width: 100%; // otherwise inherits from meta_item post which has a fixed width
+  }
 }
 
 //text wrap fix
-h1, h2, h3, h4, h5, h6, p {
-	overflow-wrap: break-word;
+h1, h2, h3, h4, h5, h6, p, .title {
+  overflow-wrap: break-word;
 }
