@@ -109,7 +109,7 @@
   "forgotpassword_form_error_forbidden": { "other": "An error has occurred." },
 
   "resetpassword_page_header": { "other": "Ändern Sie Ihr Passwort" },
-  "resetpassword_form_invalid_reset_password_token": { "other": "It appears as if this reset password request is invalid, please fill out the <a href=\"{{.ForgotPasswordURL}}\">Forgot Password</a> form again." },
+  "resetpassword_form_invalid_reset_password_token": { "other": "It appears as if this reset password request is invalid, please fill out the <a href=\"{{.URL}}\">Forgot Password</a> form again." },
   "resetpassword_form_password": { "other": "New password" },
   "resetpassword_form_password2": { "other": "Bestätigen Sie Ihr Passwort" },
   "resetpassword_form_submit": { "other": "Veränderung" },
