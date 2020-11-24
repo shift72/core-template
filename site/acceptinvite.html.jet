@@ -12,7 +12,13 @@
     </div>
 
     <div class="page-form">
-      <s72-acceptinvite-form acceptinvite-url="{{ routeToPath("/acceptinvite.html") }}" signin-url="{{ routeToPath("/signin.html") }}" forgotpassword-url="{{ routeToPath("/forgotpassword.html") }}" />
+      <s72-acceptinvite-form
+        acceptinvite-url="{{ routeToPath("/acceptinvite.html") }}"
+        signin-url="{{ routeToPath("/signin.html") }}"
+        forgotpassword-url="{{ routeToPath("/forgotpassword.html") }}"
+        terms-and-conditions-url="{{ routeToPath("/page/terms-and-conditions/") }}"
+        privacy-policy-url="{{ routeToPath("/page/privacy/") }}"
+      />
     </div>
   
   </div>
