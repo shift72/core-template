@@ -11,7 +11,7 @@
       <p><a href="{{ routeToPath("/signin.html") }}">{{ i18n("signup_page_alreadyhaveanaccount")}}</a></p>
     </div>
     <div class="page-form">
-      <s72-signup-form />
+      <s72-signup-form terms-and-conditions-url="{{ routeToPath("/page/terms-and-conditions/") }}" />
     </div>
   </div>
 {{end}}
