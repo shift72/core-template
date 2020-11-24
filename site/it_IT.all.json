@@ -189,7 +189,7 @@
   "shopping_info_release_date_explanation_rent": { "other": "Puoi noleggiarlo ora, ma non potrai vederlo fino a questa data." },
   "shopping_info_release_date_explanation_buy": { "other": "Puoi comprarlo ora, ma non potrai vederlo fino a questa data." },
 
-  "shopping_info_available_until_date_title": { "other": "Disponibile fino a {{.Date}}. " },
+  "shopping_info_available_until_date_title": { "other": "Disponibile fino {{.Date}}. " },
   "shopping_info_available_until_date_explanation_rent": { "other": "Non potrai vedere il contenuto oltre questa data." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Non potrai vedere il contenuto oltre questa data." },
 
