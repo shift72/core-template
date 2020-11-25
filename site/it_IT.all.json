@@ -367,5 +367,10 @@
   "availability_renting": { "other": "Noleggiato" },
   "availability_available_till": { "other": "Disponibile fino {{.ExpiryDate}}" },
   "availability_not_available_in_country": { "other": "Non Disponibile" },
-  "availability_expired": { "other": "Scaduto" }
+  "availability_expires": { "other": "Scade {{.Expiry}}" },
+  "availability_expired": { "other": "Scaduto" },
+  "availability_coming_soon": { "other": "Prossimamente" },
+  "availability_not_available": { "other": "Non Disponibile" },
+  "availability_in_watch_window": { "other": "availability_in_watch_window" },
+  "availability_sold_out": { "other": "Esaurito" }
 }
