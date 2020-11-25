@@ -369,7 +369,7 @@
   "availability_not_available_in_country": { "other": "Non Disponibile" },
   "availability_expires": { "other": "Scade {{.Expiry}}" },
   "availability_expired": { "other": "Scaduto" },
-  "availability_coming_soon": { "other": "Prossimamente" },
+  "availability_coming_soon": { "other": "Presto Disponibile" },
   "availability_not_available": { "other": "Non Disponibile" },
   "availability_in_watch_window": { "other": "availability_in_watch_window" },
   "availability_sold_out": { "other": "Esaurito" }
