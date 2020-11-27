@@ -3,6 +3,9 @@
   @include media-breakpoint-up(md){
     padding-bottom: $grid-gutter-width;
   }
+  @include media-breakpoint-up(md) {
+    min-height: calc(100vh - #{$footer-height-md});
+  }
 }
 // Form Page Default
 .form-page {

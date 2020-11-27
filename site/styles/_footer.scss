@@ -4,6 +4,7 @@ footer {
 	flex-direction: column;
 	@extend .d-flex;
 	@include media-breakpoint-up(md){
+		height: $footer-height-md;
 		text-align: left;
 		flex-direction: row;
 		padding: 20px 20px;
@@ -47,7 +48,7 @@ footer {
 	.copyright-statement {
 		font-size: 10px;
 		text-align: center;
-		padding: 10px 0;
+		padding: 10px;
 		margin: 0 auto;
 		opacity: .6;
 		@include media-breakpoint-up(md){
@@ -79,10 +80,12 @@ footer {
 // Powered by
 .powered-by {
 	text-align: center;
-	padding: 10px 0 15px 0;
+	align-self: center;
 	flex-shrink: 0;
+	padding: 10px 0 15px 0;
 	@include media-breakpoint-up(md){
 		margin-left: auto;
+		padding: 0;
 	}
 	a {
 		white-space: nowrap;
