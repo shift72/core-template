@@ -71,9 +71,7 @@
     min-height: 740px;
   }
 }
-.account-page {
-  margin: 0;
-}
+
 .form-page {
   @include media-breakpoint-up(xl) {
     padding: $page-padding-top-md 0 0 0;
