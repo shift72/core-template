@@ -188,8 +188,3 @@ s72-activatedevice-form,
     top: 11px;
   }
 }
-
-// ie11 fix
-.justify-content-center {
-  justify-content: flex-start !important;
-}
