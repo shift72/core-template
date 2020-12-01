@@ -247,6 +247,7 @@
   "shopping_error_creditcard_country_mismatch": { "other": "Η {{.Ownership}} σας δεν έχει ολοκληρωθεί. Πρέπει να βρίσκεστε στη χώρα στην οποία εκδόθηκε η κάρτα. Παρακαλώ χρησιμοποιήστε μια άλλη κάρτα για να ολοκληρώσετε την πληρωμή." },
   "shopping_error_proxy_detected": { "other": "Η {{.Ownership}} σας δεν έχει ολοκληρωθεί. Εντοπίσαμε πως χρησιμοποιείτε unblocker ή υπηρεσία proxy. Παρακαλώ απενεργοποιήστε τα και δοκιμάστε ξανά." },
 
+  "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
   "shopping_error_discount_blank": { "other": "Παρακαλώ εισάγετε έναν προωθητικό κωδικό. " },
   "shopping_error_discount_not_applied": { "other": "Παρακαλώ εισάγετε έναν έγκυρο προωθητικό κωδικό. " },
   "shopping_error_discount_invalid": { "other": "Παρακαλώ εισάγετε έναν έγκυρο προωθητικό κωδικό." },
@@ -421,7 +422,7 @@
   "availability_sold_out": { "other": "Εξαντλημένο" },
   "availability_available_till": { "other": "Διαθέσιμο έως {{.ExpiryDate}}" },
   "availability_not_available_in_country": { "other": "Μη διαθέσιμο" },
-  "availability_available": { "other": "Διαθέσιμο {{.ExpiryDate}}" },
+  "availability_available": { "other": "Διαθέσιμο {{.ReleaseDate}}" },
 
   "modal_cancel": { "other": "Άκυρο" },
 

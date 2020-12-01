@@ -4,7 +4,7 @@
     padding-bottom: $grid-gutter-width;
   }
   flex: 1 0 auto;
-  margin: 0;
+  //margin: 0;
 }
 // Form Page Default
 .form-page {
@@ -70,6 +70,9 @@
     // padding: 211px 0 0 0;
     min-height: 740px;
   }
+}
+.account-page {
+  margin: 0;
 }
 .form-page {
   @include media-breakpoint-up(xl) {

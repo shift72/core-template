@@ -133,6 +133,35 @@
   }
 }
 
+// some fields which are "readonly" shouldn't have the padding and font-size applied to them because they are text (not masked "****" values)
+.s72-readonly-text .s72-form-control-readonly {
+  @extend .py-0;
+
+  font-size: unset;
+  border-radius: $border-radius !important;
+  border: 1px solid transparent;
+}
+
+s72-useraccount-form {
+
+  .s72-form-control-readonly {
+    @extend .s72-form-control-static;
+    border-radius: 6px !important;
+  }
+
+  .s72-account-password-form-group, .s72-account-pin-form-group {
+    .s72-btn-changepassword {
+      @extend .rounded-0;
+    }
+
+    margin-top: 30px;
+    label {
+      font-weight: 700;
+    }
+  }
+}
+
+
 .s72-form-state-label {
   // so it looks similar to a button
   display: inline-block;

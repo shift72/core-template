@@ -250,6 +250,7 @@
     "shopping_error_creditcard_country_mismatch": { "other": "Ditt {{.Ownership}} er ikke fullført. Du må befinne deg i landet kredittkortet ditt ble utstedt. Vennligst bruk et annet kort for å gjennomføre betalingen." },
     "shopping_error_proxy_detected": { "other": "Ditt {{.Ownership}} er ikke fullført. Det ble oppdaget bruk av en unblocker eller en proxytjeneste. Vennligst slå av noen av disse tjenestene og prøv på nytt." },
   
+    "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
     "shopping_error_discount_blank": { "other": "Vennligst skriv inn en promo-kode." },
     "shopping_error_discount_not_applied": { "other": "Vennligst skriv inn en gyldig promo-kode." },
     "shopping_error_discount_invalid": { "other": "Vennligst skriv inn en gyldig promo-kode." },

@@ -136,6 +136,19 @@
   "account_form_submitted": { "other": "Updated" },
   "account_form_password_changed": { "other": "Updated" },
   "account_form_error_incorrect_password": { "other": "That password is incorrect." },
+  "account_form_pin_code": { "other": "PIN" },
+  "account_form_pin_code_not_set": { "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles."},
+  "account_form_set_pin": { "other": "Set PIN" },
+  "account_form_pin_changed": { "other": "Updated" },
+  "account_form_change_pin": { "other": "Change PIN" },
+
+  "user_set_pin_header": { "other": "user_set_pin_header" },
+  "user_set_pin_button": { "other": "user_set_pin_button" },
+  "user_submit_pin_heading": { "other": "user_submit_pin_heading" },
+  "user_error_wrong_pin_retry": { "other": "user_error_wrong_pin_retry" },
+  "user_error_too_many_pin_errors": { "other": "user_error_too_many_pin_errors" },
+  "user_submit_pin_button": { "other": "user_submit_pin_button" },
+  "user_reset_pin_button": { "other": "user_reset_pin_button" },
 
   "signup_form_optin": {"other": "Sign up for our free newsletter"},
 
@@ -241,8 +254,8 @@
   "shopping_error_title": { "other": "An error occured" },
   "shopping_error_incorrect_cvc": { "other": "Please enter a valid CVV." },
   "shopping_error_invalid_cvc": { "other": "Please enter a valid CVV." },
-  "shopping_error_incorrect_number": { "other": "Please enter a valid Credit Card Nunber." },
-  "shopping_error_invalid_number": { "other": "Please enter a valid Credit Card Nunber." },
+  "shopping_error_incorrect_number": { "other": "Please enter a valid Credit Card Number." },
+  "shopping_error_invalid_number": { "other": "Please enter a valid Credit Card Number." },
   "shopping_error_card_declined": { "other": "The Credit Card has been declined." },
   "shopping_error_invalid_expiry_month": { "other": "Please enter a valid Expiry." },
   "shopping_error_invalid_expiry_year": { "other": "Please enter a valid Expiry." },
@@ -250,6 +263,7 @@
   "shopping_error_creditcard_country_mismatch": { "other": "Your {{.Ownership}} has not been completed. You need to be in the country your credit card was issued. Please use another card for making the payment." },
   "shopping_error_proxy_detected": { "other": "Your {{.Ownership}} has not been completed. We have detected that you are using an unblocker or proxy service. Please turn off any of these services and try again." },
 
+  "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
   "shopping_error_discount_blank": { "other": "Please enter a promo code." },
   "shopping_error_discount_not_applied": { "other": "Please enter a valid promo code." },
   "shopping_error_discount_invalid": { "other": "Please enter a valid promo code." },
@@ -343,6 +357,8 @@
   "userdevices_device_actions_cancel": { "other": "Cancel" },
   "userdevices_device_actions_confirm": { "other": "Yes, remove device" },
   "userdevices_device_deleted": { "other": "(Removed)" },
+  "userdevices_delete_limits": { "other": "userdevices_delete_limits" },
+  "userdevices_delete_limit_reached": { "other": "userdevices_delete_limit_reached" },
 
   "playlist_page_header": { "other": "Playlist" },
   "playlist_sign_in_warning": { "other": "Please sign in to watch live TV."},
@@ -381,6 +397,9 @@
   "shopping_card_existing_expired": { "other": "(expired)" },
   "shopping_card_use_other": { "other": "Use a new card" },
   "shopping_card_use_new_card": { "other": "Change card" },
+  "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
+  "shopping_card_new_subscription": { "other": "This card will saved and be charged regularly" },
+  "shopping_card_change": { "other": "Credit card not correct? <a href=\"/subscriptions.html\">Click here to update your card.</a>" },
 
   "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
 
@@ -415,7 +434,6 @@
   "usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
   "usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
 
-  "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
 
   "availability_coming_soon": { "other": "Coming soon" },
   "availability_renting": { "other": "Renting" },
@@ -425,6 +443,8 @@
   "availability_available_till": { "other": "Available until {{.ExpiryDate}}" },
   "availability_not_available_in_country": { "other": "Not available in your country" },
   "availability_available": { "other": "Available {{.ReleaseDate}}" },
+  "availability_expires": { "other": "Expires {{.Expiry}}" },
+  "availability_expired": { "other": "Expired"},
 
   "modal_cancel": { "other": "Cancel" },
 
@@ -435,5 +455,25 @@
   "combined_auth_terms": { "other": "I agree to all the <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a>." },
   "signup_terms": { "other": "I agree to all the <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a>." },
   "validation_terms_required": { "other": "You must agree to the terms and conditions." },
-  "shopping_error_item_limit_exceeded": { "other": "Unfortunately, {{.Title}} has sold out." }
+  "shopping_error_item_limit_exceeded": { "other": "Unfortunately, {{.Title}} has sold out." },
+
+  "changepincode_modal_header": { "other": "Change your PIN" },
+  "changepincode_modal_currentpassword": { "other": "Your current password" },
+  "changepincode_modal_pincode1": { "other": "Your new 4 digit PIN" },
+  "changepincode_modal_pincode2": { "other": "Confirm your new 4 digit PIN" },
+  "changepincode_modal_submit": { "other": "Set PIN" },
+  "changepincode_modal_error_wrong_password": { "other": "That password is incorrect." },
+
+  "user_submit_pin_heading": { "other": "Enter your PIN to {{.Action}} this restricted content"},
+  "user_submit_pin_button": { "other": "Enter" },
+  "user_set_pin_intro": { "other": "You need a PIN to {{.Action}} restricted content"},
+  "user_set_pin_header": { "other": "Set your PIN" },
+  "user_set_pin_button": { "other": "Set PIN" },
+  "user_reset_pin_button": { "other": "Reset PIN" },
+  "user_error_wrong_pin_retry": { "other": "Oops, you have entered an incorrect PIN" },
+  "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"/page/help/\" target=\"_blank\">help</a>" },
+  "user_error_too_many_pin_errors_help_page_link": { "other": "" },
+  "shopping_error_age_restricted": { "other": "This content is age restricted." },
+  "shopping_error_close_button": { "other": "OK" }
 }
