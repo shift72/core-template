@@ -3,6 +3,8 @@
   @include media-breakpoint-up(md){
     padding-bottom: $grid-gutter-width;
   }
+  flex: 1;
+  //margin: 0;
 }
 // Form Page Default
 .form-page {
@@ -69,9 +71,8 @@
     min-height: 740px;
   }
 }
+
 .form-page {
-  margin: 0 auto;
-  max-width: 1600px;
   @include media-breakpoint-up(xl) {
     padding: $page-padding-top-md 0 0 0;
   }
@@ -119,7 +120,6 @@
   }
 }
 .collection-page {
-  margin: 0 auto;
   .page-collections {
     @extend .d-flex;
     flex-wrap: wrap;
@@ -154,7 +154,6 @@
 .library-page,
 .search-page,
 .devices-page {
-  margin: 0 auto;
   .page-header {
     h1 {
       margin-bottom: $headings-margin-bottom;

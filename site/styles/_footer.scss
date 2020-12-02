@@ -2,6 +2,7 @@
 footer {
 	padding: 10px 10px;
 	flex-direction: column;
+	flex: none;
 	@extend .d-flex;
 	@include media-breakpoint-up(md){
 		text-align: left;

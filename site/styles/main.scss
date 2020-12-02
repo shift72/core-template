@@ -50,9 +50,13 @@
 
 html {
   overflow-y: scroll;
+  height: 100%;
 }
 body {
-  font-family: "Rawline", $font-family-base;
+	font-family: "Rawline", $font-family-base;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 .container-fluid {
   margin: 0 auto;
