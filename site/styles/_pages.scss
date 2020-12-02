@@ -3,7 +3,7 @@
   @include media-breakpoint-up(md){
     padding-bottom: $grid-gutter-width;
   }
-  flex: 1;
+  flex: 1 0 auto;
   //margin: 0;
 }
 // Form Page Default
