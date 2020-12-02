@@ -50,10 +50,11 @@
 
 html {
   overflow-y: scroll;
+  height: 100%;
 }
 body {
 	font-family: "Rawline", $font-family-base;
-	min-height: 100vh;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 }
