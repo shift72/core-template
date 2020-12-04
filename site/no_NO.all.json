@@ -40,7 +40,7 @@
     "date_year": { "other": "År" },
   
     "404_page_header": { "other": "Siden finnes ikke..." },
-    "404_page_content": { "other": "<p>Beklager, det ser ut til at siden du forsøker å finne ikke eksisterer.</p><p>Den kan ha blitt flyttet eller slettet, eller kanskje adressen har blitt feilstavet.</p><p>Forsøk å gå tilbake til startsiden for å finne hva du leter etter.</p><p><a href=\"/\">Tilbake til startsiden</a></p>" },
+    "404_page_content": { "other": "<p>Beklager, det ser ut til at siden du forsøker å finne ikke eksisterer.</p><p>Den kan ha blitt flyttet eller slettet, eller kanskje adressen har blitt feilstavet.</p><p>Forsøk å gå tilbake til startsiden for å finne hva du leter etter.</p><p><a href=\"{{.URL}}\">Tilbake til startsiden</a></p>" },
   
   
     "nav_homepage": { "other": "ABC Cinemas" },
@@ -71,10 +71,10 @@
     "social_media_buttons_title": { "other": "Del" },
   
     "accept_invite_page_header": { "other": "Velkommen til " },
-    "acceptinvite_form_invalid_reset_password_token": { "other": "Det ser ut til at du allerede har godtatt denne invitasjonen, forsøk i stedet å <a href=\"signin.html\">logge inn</a>. Hvis du har glemt passordet kan du også <a href=\"forgotpassword.html\">tilbakestille passordet</a>." },
+    "acceptinvite_form_invalid_reset_password_token": { "other": "Det ser ut til at du allerede har godtatt denne invitasjonen, forsøk i stedet å <a href=\"{{.SigninURL}}\">logge inn</a>. Hvis du har glemt passordet kan du også <a href=\"{{.ForgotPasswordURL}}\">tilbakestille passordet</a>." },
     "acceptinvite_complete": { "other": "Takk! Din konto er opprettet." },
     "acceptinvite_form_submit": { "other": "Godta invitasjon" },
-    "acceptinvite_agreement": { "other": "Ved å klikke på Godta invitasjon bekrefter du at du har lest og forstått våre <a href=\"/page/terms-and-conditions/\" target=\"_blank\">vilkår og betingelser</a>, og våre <a href=\"/page/privacy/\" target=\"_blank\">retningslinjer for personvern</a>." },
+    "acceptinvite_agreement": { "other": "Ved å klikke på Godta invitasjon bekrefter du at du har lest og forstått våre <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">vilkår og betingelser</a>, og våre <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">retningslinjer for personvern</a>." },
   
     "signup_page_header": { "other": "Opprett ny konto" },
     "signup_form_name": { "other": "Navn" },
@@ -152,7 +152,7 @@
   
     "userlibrary_page_header": { "other": "Mine filmer" },
     "userlibrary_empty_header":  { "other": "Ditt bibliotek er tomt." },
-    "userlibrary_empty_content": { "other": "Finn nye filmer ved å <a href=\"/\">bla gjennom </a>vårt store utvalg." },
+    "userlibrary_empty_content": { "other": "Finn nye filmer ved å <a href=\"{{.HomeURL}}\">bla gjennom </a>vårt store utvalg." },
   
     "searchresults_page_header": { "other": "Søkeresultater" },
     "searchresults_load_more": { "other": "Last inn {{.Count}} til" },
@@ -161,7 +161,7 @@
       "other": "Fant ett treff for \"{{.Query}}\"."
     },
     "searchresults_empty_header":  { "other": "Fant ingen treff for \"{{.Query}}\"" },
-    "searchresults_empty_content": { "other": "Prøv et nytt søk, eller <a href=\"/\">bla gjennom filmene våre</a> for å finne det du leter etter." },
+    "searchresults_empty_content": { "other": "Prøv et nytt søk, eller <a href=\"{{.HomeURL}}\">bla gjennom filmene våre</a> for å finne det du leter etter." },
   
     "validation_name_required": { "other": "Vennligst skriv inn navnet ditt." },
     "validation_email_required": { "other": "Vennligst skriv inn e-postadressen din." },
@@ -223,7 +223,7 @@
   
     "shopping_enter_card_prompt": { "other": "Skriv inn kredittkortopplysningene dine nedenfor for å fullføre ditt {{.Verb}}." },
   
-    "shopping_terms": { "other": "By completing this transaction, I agree to the <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">terms and conditions</a>."},
+    "shopping_terms": { "other": "By completing this transaction, I agree to the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">terms and conditions</a>."},
     "shopping_discount_applied": { "other": "{{.DiscountAmount}} discount applied." },
     "shopping_discount_apply": { "other": "Apply" },
     "shopping_discount_code": { "other": "Tast inn en promo-kode. " },
@@ -316,7 +316,7 @@
     "userwishlist_page_header": { "other": "Min liste" },
     "userwishlist_slider_header": { "other": "Min liste" },
     "userwishlist_empty_header":  { "other": "Listen er tom." },
-    "userwishlist_empty_content": { "other": "Fyll den ved å <a href=\"/\">bla gjennom</a> vårt store utvalg!" },
+    "userwishlist_empty_content": { "other": "Fyll den ved å <a href=\"{{.HomeURL}}\">bla gjennom</a> vårt store utvalg!" },
     "userwishlist_button_add": { "other": "Legg til i listen min" },
     "userwishlist_button_remove": { "other": "Min liste" },
     "userwishlist_button_add_compact": { "other": "Min liste" },
@@ -357,7 +357,7 @@
     "classification_divider": { "other": " - " },
     "classification_outro": { "other": "" },
   
-    "cookie_banner_message": { "other": "Dette nettstedet bruker informasjonskapsler for å forbedre din opplevelse. Ved å bruke dette nettstedet aksepterer du <a href=\"/page/cookie-policy/\">bruk av informasjonskapsler</a>." },
+    "cookie_banner_message": { "other": "Dette nettstedet bruker informasjonskapsler for å forbedre din opplevelse. Ved å bruke dette nettstedet aksepterer du <a href=\"{{.CookiePolicyURL}}\">bruk av informasjonskapsler</a>." },
     "cookie_banner_accept": { "other": "Jeg aksepterer" },
   
     "all_rights_reserved": { "other": "Alle rettigheter forbeholdes. Ingen deler av dette nettstedet kan reproduseres uten skriftlig tillatelse." },
@@ -433,9 +433,13 @@
   
     "combined_auth_signin_prompt": { "other": "Logg inn" },
     "combined_auth_signup_prompt": { "other": "Opprett konto" },
-    "combined_auth_terms": { "other": "Jeg godtar alle <a href=\"/page/terms-and-conditions/\" target=\"_blank\">vilkår og betingelser</a>." },
-    "signup_terms": { "other": "Jeg godtar alle <a href=\"/page/terms-and-conditions/\" target=\"_blank\">vilkår og betingelser</a>." },
+    "combined_auth_terms": { "other": "Jeg godtar alle <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">vilkår og betingelser</a>." },
+    "signup_terms": { "other": "Jeg godtar alle <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">vilkår og betingelser</a>." },
     "validation_terms_required": { "other": "Du må godta vilkårene og betingelsene." },
-    "shopping_error_item_limit_exceeded": { "other": "Dessverre er det utsolgt for visninger av {{.Title}}." }
+    "shopping_error_item_limit_exceeded": { "other": "Dessverre er det utsolgt for visninger av {{.Title}}." },
+
+    "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+
+    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
   }
   

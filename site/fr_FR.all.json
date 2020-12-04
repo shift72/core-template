@@ -41,7 +41,7 @@
   "date_year": { "other": "Année" },
 
   "404_page_header": { "other": "Cette page n'existe pas..." },
-  "404_page_content": { "other": "<p>Désolée, la page que vous essayez de consulter n'existe pas.</p><p>Il se peut qu'elle ait été déplacée ou supprimée, ou peut-être il y a une erreur de saisie.</p><p>Veuillez retourner à la page d'accueil pour essayer de retrouver ce que vous cherchiez.</p><p><a href=\"/\">Retour à la page d'accueil</a></p>" },
+  "404_page_content": { "other": "<p>Désolée, la page que vous essayez de consulter n'existe pas.</p><p>Il se peut qu'elle ait été déplacée ou supprimée, ou peut-être il y a une erreur de saisie.</p><p>Veuillez retourner à la page d'accueil pour essayer de retrouver ce que vous cherchiez.</p><p><a href=\"{{.URL}}\">Retour à la page d'accueil</a></p>" },
 
   "nav_signin": { "other": "Se connecter" },
   "nav_signup": { "other": "Créer un compte" },
@@ -65,10 +65,10 @@
   "social_media_buttons_title": { "other": "Partager" },
 
   "accept_invite_page_header": { "other": "Bienvenue à " },
-  "acceptinvite_form_invalid_reset_password_token": { "other": "Il semble que vous ayez déjà utilisé ce lien, vous devriez essayer de <a href=\"signin.html\">vous connecter</a>. Si vous avez oublié votre mot de passe, vous pouvez aussi <a href=\"forgotpassword.html\">réinitialiser votre mot de passe</a>." },
+  "acceptinvite_form_invalid_reset_password_token": { "other": "Il semble que vous ayez déjà utilisé ce lien, vous devriez essayer de <a href=\"{{.SigninURL}}\">vous connecter</a>. Si vous avez oublié votre mot de passe, vous pouvez aussi <a href=\"{{.ForgotPasswordURL}}\">réinitialiser votre mot de passe</a>." },
   "acceptinvite_complete": { "other": "Merci, votre compte a bien été créé." },
   "acceptinvite_form_submit": { "other": "Accepter l'invitation" },
-  "acceptinvite_agreement": { "other": "En cliquant sur \"Accepter l'invitation\", vous reconnaissez avoir lu et accepté les <a href=\"/page/terms-and-conditions\" target=\"_blank\">termes &amp; conditions</a> et <a href=\"/page/privacy\" target=\"_blank\">notre politique de confidentialité</a>." },
+  "acceptinvite_agreement": { "other": "En cliquant sur \"Accepter l'invitation\", vous reconnaissez avoir lu et accepté les <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">termes &amp; conditions</a> et <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">notre politique de confidentialité</a>." },
 
   "signup_page_header": { "other": "Créer un compte" },
   "signup_form_name": { "other": "Nom" },
@@ -144,7 +144,7 @@
 
   "userlibrary_page_header": { "other": "Ma bibliothèque" },
   "userlibrary_empty_header":  { "other": "Votre bibliothèque est vide." },
-  "userlibrary_empty_content": { "other": "Remplissez-le en <a href=\"/\">naviguant</a> sur notre grande sélection." },
+  "userlibrary_empty_content": { "other": "Remplissez-le en <a href=\"{{.HomeURL}}\">naviguant</a> sur notre grande sélection." },
 
   "searchresults_page_header": { "other": "Résultats de recherche" },
   "searchresults_load_more": { "other": "Afficher {{.Count}} de plus" },
@@ -153,7 +153,7 @@
     "other": "{{.Count}} résultats trouvés pour \"{{.Query}}\"."
   },
   "searchresults_empty_header":  { "other": "Aucun résultat trouvé pour \"{{.Query}}\"" },
-  "searchresults_empty_content": { "other": "Veuillez faire une nouvelle recherche ou <a href=\"/\">parcourir notre contenu</a> pour trouver ce que vous cherchez." },
+  "searchresults_empty_content": { "other": "Veuillez faire une nouvelle recherche ou <a href=\"{{.HomeURL}}\">parcourir notre contenu</a> pour trouver ce que vous cherchez." },
 
   "validation_name_required": { "other": "S'il vous plaît entrez votre nom." },
   "validation_email_required": { "other": "S'il vous plaît entrer votre adresse e-mail." },
@@ -224,7 +224,7 @@
 
   "shopping_enter_card_prompt": { "other": "Veuillez saisir les détails de votre carte bancaire ci-dessous pour compléter votre {{.Verb}}." },
 
-  "shopping_terms": { "other": "En validant cette transaction, j'accepte les <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">conditions d'utilisation</a>."},
+  "shopping_terms": { "other": "En validant cette transaction, j'accepte les <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">conditions d'utilisation</a>."},
   "shopping_discount_applied": { "other": "{{.DiscountAmount}} remise appliquée." },
   "shopping_discount_apply": { "other": "Confirmer" },
   "shopping_discount_code": { "other": "Rentrer votre code promo." },
@@ -315,7 +315,7 @@
   "userwishlist_page_header": { "other": "Ma liste" },
   "userwishlist_slider_header": { "other": "Ma liste" },
   "userwishlist_empty_header":  { "other": "Votre liste est vide." },
-  "userwishlist_empty_content": { "other": "Remplissez-le en naviguant sur notre grande sélection." },
+  "userwishlist_empty_content": { "other": "Remplissez-le en naviguant sur notre <a href=\"{{.HomeURL}}\">grande sélection</a>." },
   "userwishlist_button_add": { "other": "Ajouter à ma liste" },
   "userwishlist_button_remove": { "other": "Ma liste" },
   "userwishlist_button_add_compact": { "other": "Ma liste" },
@@ -356,8 +356,16 @@
   "classification_divider": { "other": " - " },
   "classification_outro": { "other": "" },
 
-  "cookie_banner_message": { "other": "Ce site utilise des cookies dans le but d'améliorer votre expérience. En utilisant ce site, vous acceptez notre <a href=\"/page/cookie-policy/\">politique d'utilisation des cookies</a>." },
+  "cookie_banner_message": { "other": "Ce site utilise des cookies dans le but d'améliorer votre expérience. En utilisant ce site, vous acceptez notre <a href=\"{{.CookiePolicyURL}}\">politique d'utilisation des cookies</a>." },
   "cookie_banner_accept": { "other": "J'accepte" },
 
-  "all_rights_reserved": { "other": "Tous les droits sont réservés. Aucune partie de ce site ne peut être reproduite sans notre autorisation écrite." }
+  "all_rights_reserved": { "other": "Tous les droits sont réservés. Aucune partie de ce site ne peut être reproduite sans notre autorisation écrite." },
+
+  "signup_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
+
+  "combined_auth_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
+
+  "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
 }

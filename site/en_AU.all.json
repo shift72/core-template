@@ -40,7 +40,7 @@
   "date_year": { "other": "Year" },
 
   "404_page_header": { "other": "That page doesn't exist..." },
-  "404_page_content": { "other": "<p>Sorry, it looks like the page that you're looking for doesn't exist.</p><p>It could have been moved or deleted, or perhaps you misspelled something.</p><p>Try going back to the homepage to find what you were looking for.</p><p><a href=\"/\">Back to the Homepage</a></p>" },
+  "404_page_content": { "other": "<p>Sorry, it looks like the page that you're looking for doesn't exist.</p><p>It could have been moved or deleted, or perhaps you misspelled something.</p><p>Try going back to the homepage to find what you were looking for.</p><p><a href=\"{{.URL}}\">Back to the Homepage</a></p>" },
 
 
   "nav_homepage": { "other": "ABC Cinemas" },
@@ -71,10 +71,10 @@
   "social_media_buttons_title": { "other": "Share" },
 
   "accept_invite_page_header": { "other": "Welcome to " },
-  "acceptinvite_form_invalid_reset_password_token": { "other": "It looks like you have already claimed this invite, you should <a href=\"signin.html\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"forgotpassword.html\">reset your password</a>." },
+  "acceptinvite_form_invalid_reset_password_token": { "other": "It looks like you have already claimed this invite, you should <a href=\"{{.SigninURL}}\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"{{.ForgotPasswordURL}}\">reset your password</a>." },
   "acceptinvite_complete": { "other": "Thank you. Your account has been created." },
   "acceptinvite_form_submit": { "other": "Accept Invitation" },
-  "acceptinvite_agreement": { "other": "By clicking \"Accept Invitation\" you agree that you have read and understood our <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a> and <a href=\"/page/privacy/\" target=\"_blank\">privacy policy</a>." },
+  "acceptinvite_agreement": { "other": "By clicking \"Accept Invitation\" you agree that you have read and understood our <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a> and <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">privacy policy</a>." },
 
   "signup_page_header": { "other": "Create New Account" },
   "signup_form_name": { "other": "Name" },
@@ -165,7 +165,7 @@
 
   "userlibrary_page_header": { "other": "My Library" },
   "userlibrary_empty_header":  { "other": "Your library is empty." },
-  "userlibrary_empty_content": { "other": "Fill it by <a href=\"/\">browsing</a> our great selection." },
+  "userlibrary_empty_content": { "other": "Fill it by <a href=\"{{.HomeURL}}\">browsing</a> our great selection." },
 
   "searchresults_page_header": { "other": "Search Results" },
   "searchresults_load_more": { "other": "Load {{.Count}} more" },
@@ -174,7 +174,7 @@
     "other": "Found {{.Count}} results for \"{{.Query}}\"."
   },
   "searchresults_empty_header":  { "other": "There were no search results for \"{{.Query}}\"" },
-  "searchresults_empty_content": { "other": "Try another search or <a href=\"/\">browse our content</a> to find what you're looking for." },
+  "searchresults_empty_content": { "other": "Try another search or <a href=\"{{.HomeURL}}\">browse our content</a> to find what you're looking for." },
 
   "validation_name_required": { "other": "Please enter your name." },
   "validation_email_required": { "other": "Please enter your email address." },
@@ -236,7 +236,7 @@
 
   "shopping_enter_card_prompt": { "other": "Enter your credit card details below to complete your {{.Verb}}." },
 
-  "shopping_terms": { "other": "By completing this transaction, I agree to the <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">terms and conditions</a>."},
+  "shopping_terms": { "other": "By completing this transaction, I agree to the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">terms and conditions</a>."},
   "shopping_discount_applied": { "other": "{{.DiscountAmount}} discount applied." },
   "shopping_discount_apply": { "other": "Apply" },
   "shopping_discount_code": { "other": "Enter a promo code." },
@@ -329,7 +329,7 @@
   "userwishlist_page_header": { "other": "My List" },
   "userwishlist_slider_header": { "other": "My List" },
   "userwishlist_empty_header":  { "other": "Your list is empty." },
-  "userwishlist_empty_content": { "other": "Fill it by <a href=\"/\">browsing</a> our great selection." },
+  "userwishlist_empty_content": { "other": "Fill it by <a href=\"{{.HomeURL}}\">browsing</a> our great selection." },
   "userwishlist_button_add": { "other": "Add to My List" },
   "userwishlist_button_remove": { "other": "My List" },
   "userwishlist_button_add_compact": { "other": "My List" },
@@ -372,7 +372,7 @@
   "classification_divider": { "other": " - " },
   "classification_outro": { "other": "" },
 
-  "cookie_banner_message": { "other": "This site uses cookies to enhance your experience. By using this site, you accept our <a href=\"/page/cookie-policy/\">cookie usage</a>." },
+  "cookie_banner_message": { "other": "This site uses cookies to enhance your experience. By using this site, you accept our <a href=\"{{.CookiePolicyURL}}\">cookie usage</a>." },
   "cookie_banner_accept": { "other": "I Accept" },
 
   "all_rights_reserved": { "other": "All rights reserved. No part of this site may be reproduced without our written permission." },
@@ -399,7 +399,7 @@
   "shopping_card_use_new_card": { "other": "Change card" },
   "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
   "shopping_card_new_subscription": { "other": "This card will saved and be charged regularly" },
-  "shopping_card_change": { "other": "Credit card not correct? <a href=\"/subscriptions.html\">Click here to update your card.</a>" },
+  "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 
   "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
 
@@ -452,8 +452,8 @@
 
   "combined_auth_signin_prompt": { "other": "Sign in" },
   "combined_auth_signup_prompt": { "other": "Sign up" },
-  "combined_auth_terms": { "other": "I agree to all the <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a>." },
-  "signup_terms": { "other": "I agree to all the <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a>." },
+  "combined_auth_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
+  "signup_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
   "validation_terms_required": { "other": "You must agree to the terms and conditions." },
   "shopping_error_item_limit_exceeded": { "other": "Unfortunately, {{.Title}} has sold out." },
 
@@ -472,7 +472,7 @@
   "user_reset_pin_button": { "other": "Reset PIN" },
   "user_error_wrong_pin_retry": { "other": "Oops, you have entered an incorrect PIN" },
   "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
-  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"/page/help/\" target=\"_blank\">help</a>" },
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
   "user_error_too_many_pin_errors_help_page_link": { "other": "" },
   "shopping_error_age_restricted": { "other": "This content is age restricted." },
   "shopping_error_close_button": { "other": "OK" }

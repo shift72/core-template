@@ -40,7 +40,7 @@
     "date_year": { "other": "Év" },
   
     "404_page_header": { "other": "A keresett oldal nem létezik..." },
-    "404_page_content": { "other": "<p>Sajnos úgy tűnik, hogy a keresett oldal nem létezik.</p><p>Talán törölték vagy áthelyezték, kérjük ellenőrizd, hogy helyesen írtad-e be a címet.</p><p>Próbálj visszamenni a kezdőlapra, hogy megtaláld, amit keresel.</p><p><a href=\"/\">Vissza a kezdőlapra</a></p>" },
+    "404_page_content": { "other": "<p>Sajnos úgy tűnik, hogy a keresett oldal nem létezik.</p><p>Talán törölték vagy áthelyezték, kérjük ellenőrizd, hogy helyesen írtad-e be a címet.</p><p>Próbálj visszamenni a kezdőlapra, hogy megtaláld, amit keresel.</p><p><a href=\"{{.URL}}\">Vissza a kezdőlapra</a></p>" },
   
   
     "nav_homepage": { "other": "ABC Cinemas" },
@@ -71,10 +71,10 @@
     "social_media_buttons_title": { "other": "Megosztás" },
   
     "accept_invite_page_header": { "other": "Üdvözlünk " },
-    "acceptinvite_form_invalid_reset_password_token": { "other": "Úgy tűnik, már felhasználtad a meghívódat, próbálj meg <a href=\"signin.html\">bejelentkezni</a>. Ha elfelejtetted a jelszavadat, <a href=\"forgotpassword.html\">állíts be újat</a>." },
+    "acceptinvite_form_invalid_reset_password_token": { "other": "Úgy tűnik, már felhasználtad a meghívódat, próbálj meg <a href=\"{{.SigninURL}}\">bejelentkezni</a>. Ha elfelejtetted a jelszavadat, <a href=\"{{.ForgotPasswordURL}}\">állíts be újat</a>." },
     "acceptinvite_complete": { "other": "Köszönjük. A fiókodat létrehoztuk." },
     "acceptinvite_form_submit": { "other": "Meghívó elfogadása" },
-    "acceptinvite_agreement": { "other": "Meghívó elfogadása -ra kattintva hozzájárulsz, hogy elolvastad és megértetted a <a href=\"/page/terms-and-conditions/\" target=\"_blank\">Felhasználói szabályzatot</a> és az <a href=\"/page/privacy/\" target=\"_blank\tvédelmi szabályzatot</a>." },
+    "acceptinvite_agreement": { "other": "Meghívó elfogadása -ra kattintva hozzájárulsz, hogy elolvastad és megértetted a <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Felhasználói szabályzatot</a> és az <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\tvédelmi szabályzatot</a>." },
   
     "signup_page_header": { "other": "Új fiók létrehozása" },
     "signup_form_name": { "other": "Név" },
@@ -152,7 +152,7 @@
   
     "userlibrary_page_header": { "other": "Könyvtáram" },
     "userlibrary_empty_header":  { "other": "A könyvtárad üres." },
-    "userlibrary_empty_content": { "other": "Töltsd meg kiváló filmekkel, nézd át a <a href=\"/\">programot</a>." },
+    "userlibrary_empty_content": { "other": "Töltsd meg kiváló filmekkel, nézd át a <a href=\"{{.HomeURL}}\">programot</a>." },
   
     "searchresults_page_header": { "other": "Keresési találatok" },
     "searchresults_load_more": { "other": "Mutass még {{.Count}} találatot." },
@@ -161,7 +161,7 @@
       "other": "A \"{{.Query}}\" {{.Count}} találatot hozott."
     },
     "searchresults_empty_header":  { "other": "A \"{{.Query}}\" egy találatot sem hozott." },
-    "searchresults_empty_content": { "other": "Próbálj meg mégegyszer rákeresni vagy <a href=\"/\">nézd át a kínálatot</a>, hogy megtaláld, amit keresel." },
+    "searchresults_empty_content": { "other": "Próbálj meg mégegyszer rákeresni vagy <a href=\"{{.HomeURL}}\">nézd át a kínálatot</a>, hogy megtaláld, amit keresel." },
   
     "validation_name_required": { "other": "Kérjük, add meg a nevedet." },
     "validation_email_required": { "other": "Kérjük, add meg a nevedet." },
@@ -223,7 +223,7 @@
   
     "shopping_enter_card_prompt": { "other": "Add meg bankkártya adataidat, hogy a {{.Verb}} létrejöjjön." },
   
-    "shopping_terms": { "other": "A tranzakció teljesítésével elfogadod a <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">Felhasználói szabályzatot</a>."},
+    "shopping_terms": { "other": "A tranzakció teljesítésével elfogadod a <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">Felhasználói szabályzatot</a>."},
     "shopping_discount_applied": { "other": "{{.DiscountAmount}} kedvezmény levonva." },
     "shopping_discount_apply": { "other": "Alkalmazás." },
     "shopping_discount_code": { "other": "Írj be egy promókódot." },
@@ -316,7 +316,7 @@
     "userwishlist_page_header": { "other": "Listám" },
     "userwishlist_slider_header": { "other": "Listám" },
     "userwishlist_empty_header":  { "other": "A listád üres." },
-    "userwishlist_empty_content": { "other": "Töltsd meg kiváló filmekkel, nézd át a <a href=\"/\">programot</a>." },
+    "userwishlist_empty_content": { "other": "Töltsd meg kiváló filmekkel, nézd át a <a href=\"{{.HomeURL}}\">programot</a>." },
     "userwishlist_button_add": { "other": "Add hozzá a listámhoz." },
     "userwishlist_button_remove": { "other": "Listám" },
     "userwishlist_button_add_compact": { "other": "Listám" },
@@ -357,7 +357,7 @@
     "classification_divider": { "other": " - " },
     "classification_outro": { "other": "" },
   
-    "cookie_banner_message": { "other": "Ez az oldal sütiket használ a felhasználói élmény növelésének érdekében. Amennyiben ezt az oldalt használod, elfogadod a <a href=\"/page/cookie-policy/\">sütik használatára vonatkozó feltételeket</a>-ot." },
+    "cookie_banner_message": { "other": "Ez az oldal sütiket használ a felhasználói élmény növelésének érdekében. Amennyiben ezt az oldalt használod, elfogadod a <a href=\"{{.CookiePolicyURL}}\">sütik használatára vonatkozó feltételeket</a>-ot." },
     "cookie_banner_accept": { "other": "Elfogadom" },
   
     "all_rights_reserved": { "other": "Minden jog fenntartva. Az oldal egyetlen része sem reprodukálható írásos engedélyünk nélkül." },
@@ -433,9 +433,13 @@
   
     "combined_auth_signin_prompt": { "other": "Bejelentkezés" },
     "combined_auth_signup_prompt": { "other": "Feliratkozás" },
-    "combined_auth_terms": { "other": "Elfogadom a <a href=\"/page/terms-and-conditions/\" target=\"_blank\">Felhasználói szabályzatot</a>." },
-    "signup_terms": { "other": "Elfogadom a <a href=\"/page/terms-and-conditions/\" target=\"_blank\">Felhasználói szabályzatot</a>." },
+    "combined_auth_terms": { "other": "Elfogadom a <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Felhasználói szabályzatot</a>." },
+    "signup_terms": { "other": "Elfogadom a <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Felhasználói szabályzatot</a>." },
     "validation_terms_required": { "other": "Kérjük, fogadd el a Felhasználói szabályzatot." },
-    "shopping_error_item_limit_exceeded": { "other": "Sajnáljuk, de {{.Title}} tételre már minden jegy elkelt." }
+    "shopping_error_item_limit_exceeded": { "other": "Sajnáljuk, de {{.Title}} tételre már minden jegy elkelt." },
+
+    "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+
+    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
   }
   

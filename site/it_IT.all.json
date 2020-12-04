@@ -40,7 +40,7 @@
   "date_year": { "other": "Anno" },
 
   "404_page_header": { "other": "La pagina non esiste..." },
-  "404_page_content": { "other": "<p>Ci scusiamo, ma sembra che la pagina che stai cercando non esista.</p><p>Potrebbe essere stata spostata o cancellata, o forse potresti aver sbagliato qualcosa nella digitazione.</p><p>Prova a tornare alla homepage per trovare quello che stavi cercando.</p><p><a href=\"/\">Torna alla Homepage</a></p>" },
+  "404_page_content": { "other": "<p>Ci scusiamo, ma sembra che la pagina che stai cercando non esista.</p><p>Potrebbe essere stata spostata o cancellata, o forse potresti aver sbagliato qualcosa nella digitazione.</p><p>Prova a tornare alla homepage per trovare quello che stavi cercando.</p><p><a href=\"{{.URL}}\">Torna alla Homepage</a></p>" },
 
 
   "nav_homepage": { "other": "ABC Cinemas" },
@@ -74,7 +74,7 @@
   "acceptinvite_form_invalid_reset_password_token": { "other": "Questo Invito è già stato usato." },
   "acceptinvite_complete": { "other": "Grazie. Il tuo account è stato creato." },
   "acceptinvite_form_submit": { "other": "Accetta l'Invito" },
-  "acceptinvite_agreement": { "other": "Cliccando su “Accetta l’Invito” acconsenti ad aver letto e compreso i nostri <a href=\"/page/terms-and-conditions/\" target=\"_blank\">termini &amp; condizioni</a> e la nostra <a href=\"/page/privacy/\" target=\"_blank\">privacy policy</a>." },
+  "acceptinvite_agreement": { "other": "Cliccando su “Accetta l’Invito” acconsenti ad aver letto e compreso i nostri <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">termini &amp; condizioni</a> e la nostra <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">privacy policy</a>." },
 
   "signup_page_header": { "other": "Crea un nuovo Account" },
   "signup_form_name": { "other": "Nome" },
@@ -85,8 +85,8 @@
   "signup_form_dob": { "other": "Data di nascita" },
   "signup_form_submit": { "other": "Invia" },
 
-  "signup_terms": { "other": "Cliccando sul bottone, dichiari di aver letto e accettato <a href=\"/page/terms-and-conditions/\" target=\"_blank\">Termini &amp; Condizioni</a>." },
-  "combined_auth_terms": { "other": "Cliccando sul bottone, dichiari di aver letto e accettato <a href=\"/page/terms-and-conditions/\" target=\"_blank\">Termini &amp; Condizioni</a>." },
+  "signup_terms": { "other": "Cliccando sul bottone, dichiari di aver letto e accettato <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Termini &amp; Condizioni</a>." },
+  "combined_auth_terms": { "other": "Cliccando sul bottone, dichiari di aver letto e accettato <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Termini &amp; Condizioni</a>." },
 
   "signin_page_header": { "other": "Accedi" },
   "signin_form_email": { "other": "Indirizzo email" },
@@ -152,7 +152,7 @@
 
   "userlibrary_page_header": { "other": "I miei Film" },
   "userlibrary_empty_header":  { "other": "Non hai Film." },
-  "userlibrary_empty_content": { "other": "" },
+  "userlibrary_empty_content": { "other": "Fill it by <a href=\"{{.HomeURL}}\">browsing</a> our great selection." },
 
   "searchresults_page_header": { "other": "Risultati della ricerca" },
   "searchresults_load_more": { "other": "Carica altri {{.Count}}" },
@@ -161,7 +161,7 @@
     "other": "Trovati {{.Count}} risultati per \"{{.Query}}\"."
   },
   "searchresults_empty_header":  { "other": "Non ho trovato risultati per \"{{.Query}}\"" },
-  "searchresults_empty_content": { "other": "Prova con un'altra ricerca oppure <a href=\"/\">sfoglia i nostri contenuti</a> per trovare quello che stai cercando." },
+  "searchresults_empty_content": { "other": "Prova con un'altra ricerca oppure <a href=\"{{.HomeURL}}\">sfoglia i nostri contenuti</a> per trovare quello che stai cercando." },
 
   "validation_name_required": { "other": "Per favore inserisci il tuo nome." },
   "validation_email_required": { "other": "Per favore inserisci il tuo indirizzo email." },
@@ -224,7 +224,7 @@
 
   "shopping_enter_card_prompt": { "other": "Inserisci i dati della tua carta di credito per completare l'ordine." },
 
-  "shopping_terms": { "other": "Procedendo con questo pagamento, accetto i <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">termini e le condizioni</a>."},
+  "shopping_terms": { "other": "Procedendo con questo pagamento, accetto i <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">termini e le condizioni</a>."},
   "shopping_discount_applied": { "other": "{{.DiscountAmount}} sconto applicato." },
   "shopping_discount_apply": { "other": "Applica" },
   "shopping_discount_code": { "other": "Inserisci il codice." },
@@ -317,7 +317,7 @@
   "userwishlist_page_header": { "other": "La mia wishlist" },
   "userwishlist_slider_header": { "other": "La mia wishlist" },
   "userwishlist_empty_header":  { "other": "L'elenco è vuoto." },
-  "userwishlist_empty_content": { "other": "Riempilo <a href=\"/\">sfogliando</a> la nostra fantastica selezione." },
+  "userwishlist_empty_content": { "other": "Riempilo <a href=\"{{.HomeURL}}\">sfogliando</a> la nostra fantastica selezione." },
   "userwishlist_button_add": { "other": "Aggiungi alla mia wishlist" },
   "userwishlist_button_remove": { "other": "La mia wishlist" },
   "userwishlist_button_add_compact": { "other": "La mia wishlist" },
@@ -358,7 +358,7 @@
   "classification_divider": { "other": " - " },
   "classification_outro": { "other": "" },
 
-  "cookie_banner_message": { "other": "Utilizziamo cookies e altre tecnologie per migliorare la tua navigazione. Utilizzando il nostro sito Web, accetti queste condizioni. Leggi la nostra <a href=\"/page/cookie-policy/\">informativa sulla privacy</a> per scoprire a cosa servono i cookies e come modificare le tue impostazioni." },
+  "cookie_banner_message": { "other": "Utilizziamo cookies e altre tecnologie per migliorare la tua navigazione. Utilizzando il nostro sito Web, accetti queste condizioni. Leggi la nostra <a href=\"{{.CookiePolicyURL}}\">informativa sulla privacy</a> per scoprire a cosa servono i cookies e come modificare le tue impostazioni." },
   "cookie_banner_accept": { "other": "Accetta" },
 
   "all_rights_reserved": { "other": "Tutti i diritti riservati. Nessuna parte di questo sito può essere riprodotta senza la nostra autorizzazione scritta." },
@@ -372,5 +372,9 @@
   "availability_coming_soon": { "other": "Presto Disponibile" },
   "availability_not_available": { "other": "Non Disponibile" },
   "availability_in_watch_window": { "other": "availability_in_watch_window" },
-  "availability_sold_out": { "other": "Esaurito" }
+  "availability_sold_out": { "other": "Esaurito" },
+
+  "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
 }

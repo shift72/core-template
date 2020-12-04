@@ -40,7 +40,7 @@
   "date_year": { "other": "Έτος" },
 
   "404_page_header": { "other": "Αυτή η σελίδα δεν υπάρχει..." },
-  "404_page_content": { "other": "<p>Λυπούμαστε, αλλά φαίνεται πως η σελίδα που αναζητήσατε δεν υπάρχει.</p><p>Ίσως έχει μετακινηθεί ή διαγραφεί, ή ίσως αν γράψατε απ' ευθείας το url να πληκτρολογήσατε κάτι λάθος</p><p>Δοκιμάστε να γυρίσετε στην κεντρική σελίδα και ίσως βρείτε αυτό που αναζητήσατε.</p><p><a href=\"/\">Πίσω στην κεντρική σελίδα</a>"},
+  "404_page_content": { "other": "<p>Λυπούμαστε, αλλά φαίνεται πως η σελίδα που αναζητήσατε δεν υπάρχει.</p><p>Ίσως έχει μετακινηθεί ή διαγραφεί, ή ίσως αν γράψατε απ' ευθείας το url να πληκτρολογήσατε κάτι λάθος</p><p>Δοκιμάστε να γυρίσετε στην κεντρική σελίδα και ίσως βρείτε αυτό που αναζητήσατε.</p><p><a href=\"{{.URL}}\">Πίσω στην κεντρική σελίδα</a>"},
 
 
   "nav_homepage": { "other": "ABC Cinemas" },
@@ -71,10 +71,10 @@
   "social_media_buttons_title": { "other": "Μοιράσου το" },
 
   "accept_invite_page_header": { "other": "Καλώς ήρθατε στο " },
-  "acceptinvite_form_invalid_reset_password_token": { "other": "Φαίνεται πως έχετε ήδη αποδεχθεί αυτή την πρόσκληση, πρέπει να <a href=\"signin.html\">εισέλθετε</a> στο λογαριασμό σας." },
+  "acceptinvite_form_invalid_reset_password_token": { "other": "Φαίνεται πως έχετε ήδη αποδεχθεί αυτή την πρόσκληση, πρέπει να <a href=\"{{.SigninURL}}\">εισέλθετε</a> στο λογαριασμό σας." },
   "acceptinvite_complete": { "other": "Ευχαριστούμε πολύ. Ο λογαριασμός σας έχει δημιουργηθεί." },
   "acceptinvite_form_submit": { "other": "Αποδοχή πρόσκλησης" },
-  "acceptinvite_agreement": { "other": "Κλικάροντας την «Αποδοχή πρόσκλησης» συμφωνείτε πως διαβάστε, κατανοείτε και συμφωνείτε με τους <a href=\"/page/terms-and-conditions/\" target=\"_blank\">όρους και τις προϋποθέσεις</a> και <a href=\"/page/privacy/\" target=\"_blank\">την πολιτική απορρήτου</a>." },
+  "acceptinvite_agreement": { "other": "Κλικάροντας την «Αποδοχή πρόσκλησης» συμφωνείτε πως διαβάστε, κατανοείτε και συμφωνείτε με τους <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">όρους και τις προϋποθέσεις</a> και <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">την πολιτική απορρήτου</a>." },
 
   "signup_page_header": { "other": "Δημιουργία νέου λογαριασμού" },
   "signup_form_name": { "other": "Όνομα" },
@@ -149,7 +149,7 @@
 
   "userlibrary_page_header": { "other": "Ο κατάλογός μου." },
   "userlibrary_empty_header":  { "other": "Ο κατάλογός σας είναι άδειος." },
-  "userlibrary_empty_content": { "other": "Γεμίστε τον με <<a href=\"/\">προτάσεις</a> από τη φετινή μας επιλογή." },
+  "userlibrary_empty_content": { "other": "Γεμίστε τον με <<a href=\"{{.HomeURL}}\">προτάσεις</a> από τη φετινή μας επιλογή." },
 
   "searchresults_page_header": { "other": "Αποτέλεσματα αναζήτησης." },
   "searchresults_load_more": { "other": "Φόρτωση {{.Count}} περισσότερων." },
@@ -158,7 +158,7 @@
     "other": "Βρέθηκαν {{.Count}} αποτελέσματα για \"{{.Query}}\"."
   },
   "searchresults_empty_header":  { "other": "Δεν βρέθηκαν αποτελέσματα για \"{{.Query}}\"" },
-  "searchresults_empty_content": { "other": "Δοκιμάστε μια διαφορετική αναζήτηση ή <a href=\"/\">δείτε το περιεχόμενό μας</a> για να βρείτε αυτό που ψάχνετε. " },
+  "searchresults_empty_content": { "other": "Δοκιμάστε μια διαφορετική αναζήτηση ή <a href=\"{{.HomeURL}}\">δείτε το περιεχόμενό μας</a> για να βρείτε αυτό που ψάχνετε. " },
   
   "validation_name_required": { "other": "Παρακαλώ συμπληρώστε το όνομά σας." },
   "validation_email_required": { "other": "Παρακαλώ συμπληρώστε τη διεύθυνση ηλ. ταχυδορμείου σας." },
@@ -220,7 +220,7 @@
 
   "shopping_enter_card_prompt": { "other": "Εισάγετε τα στοιχεία της κάρτας σας για να ολοκληρώσετε την {{.Verb}}." },
 
-  "shopping_terms": { "other": "Ολοκληρώνοντας τη συναλλαγή, αποδέχεστε τους <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">όρους και τις προϋποθέσεις</a>."},
+  "shopping_terms": { "other": "Ολοκληρώνοντας τη συναλλαγή, αποδέχεστε τους <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">όρους και τις προϋποθέσεις</a>."},
   "shopping_discount_applied": { "other": "{{.DiscountAmount}} έκπτωση συνυπολογίστηκε. " },
   "shopping_discount_apply": { "other": "Εφαρμογή" },
   "shopping_discount_code": { "other": "Εισάγετε προωθητικό κωδικό. " },
@@ -313,7 +313,7 @@
   "userwishlist_page_header": { "other": "Η λίστα μου." },
   "userwishlist_slider_header": { "other": "Η λίστα μου." },
   "userwishlist_empty_header":  { "other": "Η λίστα σας είναι άδεια." },
-  "userwishlist_empty_content": { "other": "Γεμίστε τη με <a href=\"/\">υλικό</a> από την επιλογή μας." },
+  "userwishlist_empty_content": { "other": "Γεμίστε τη με <a href=\"{{.HomeURL}}\">υλικό</a> από την επιλογή μας." },
   "userwishlist_button_add": { "other": "Πρόσθεσε στη λίστα μου." },
   "userwishlist_button_remove": { "other": "Η λίστα μου." },
   "userwishlist_button_add_compact": { "other": "Η λίστα μου." },
@@ -354,7 +354,7 @@
   "classification_divider": { "other": " - " },
   "classification_outro": { "other": "" },
 
-  "cookie_banner_message": { "other": "Αυτός ο ιστότοπος χρησιμοποιεί cookies για να βελτιώσει την ψηφιακή εμπειρία σας. Χρησιμοποιώντας τη σελίδα, αποδέχεστε τον <a href=\"/page/cookie-policy/\"> κανονισμό cookies</a>" },
+  "cookie_banner_message": { "other": "Αυτός ο ιστότοπος χρησιμοποιεί cookies για να βελτιώσει την ψηφιακή εμπειρία σας. Χρησιμοποιώντας τη σελίδα, αποδέχεστε τον <a href=\"{{.CookiePolicyURL}}\"> κανονισμό cookies</a>" },
   "cookie_banner_accept": { "other": "Αποδέχομαι" },
 
   "all_rights_reserved": { "other": "Με την επιφύλαξη κάθε δικαιώματος. Απαγορεύεται η αναπαραγωγή του περιεχομένου του ιστοτόπου, χωρίς την απαραίτητη γραπτή άδεια." },
@@ -430,8 +430,12 @@
 
   "combined_auth_signin_prompt": { "other": "Είσοδος" },
   "combined_auth_signup_prompt": { "other": "Εγγραφή" },
-  "combined_auth_terms": { "other": "Συμφωνώ σε όλους τους <a href=\"/page/terms-and-conditions/\" target=\"_blank\">όρους και τις προϋποθέσεις</a>." },
-  "signup_terms": { "other": "Συμφωνώ σε όλους τους <a href=\"/page/terms-and-conditions/\" target=\"_blank\">όρους και τις προϋποθέσεις</a>." },
+  "combined_auth_terms": { "other": "Συμφωνώ σε όλους τους <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">όρους και τις προϋποθέσεις</a>." },
+  "signup_terms": { "other": "Συμφωνώ σε όλους τους <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">όρους και τις προϋποθέσεις</a>." },
   "validation_terms_required": { "other": "Πρέπει να συμφωνήσετε στους όρους και τις προϋποθέσεις." },
-  "shopping_error_item_limit_exceeded": { "other": "Δυστυχώς, το {{.Title}} έχει εξαντληθεί." }
+  "shopping_error_item_limit_exceeded": { "other": "Δυστυχώς, το {{.Title}} έχει εξαντληθεί." },
+
+  "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
 }

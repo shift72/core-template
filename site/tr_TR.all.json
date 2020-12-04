@@ -40,7 +40,7 @@
     "date_year": { "other": "Yıl" },
   
     "404_page_header": { "other": "Sayfa bulunamadı…" },
-    "404_page_content": { "other": "<p>Sorry, it looks like the page that you're looking for doesn't exist.</p><p>It could have been moved or deleted, or perhaps you misspelled something.</p><p>Try going back to the homepage to find what you were looking for.</p><p><a href=\"/\">Back to the Homepage</a></p>" },
+    "404_page_content": { "other": "<p>Sorry, it looks like the page that you're looking for doesn't exist.</p><p>It could have been moved or deleted, or perhaps you misspelled something.</p><p>Try going back to the homepage to find what you were looking for.</p><p><a href=\"{{.URL}}\">Back to the Homepage</a></p>" },
   
   
     "nav_homepage": { "other": "ABC Cinemas" },
@@ -71,10 +71,10 @@
     "social_media_buttons_title": { "other": "Paylaş" },
   
     "accept_invite_page_header": { "other": "...'e hoşgeldiniz  " },
-    "acceptinvite_form_invalid_reset_password_token": { "other": "Görünüşe göre bu davet talebini zaten yapmışsınız, onun yerine <a href=\"signin.html\">sign in</a> denemelisiniz. Parolanızı unuttuysanız, parolanızı ayrıca <a href=\"forgotpassword.html\"> sıfırlayabilirsiniz." },
+    "acceptinvite_form_invalid_reset_password_token": { "other": "Görünüşe göre bu davet talebini zaten yapmışsınız, onun yerine <a href=\"{{.SigninURL}}\">sign in</a> denemelisiniz. Parolanızı unuttuysanız, parolanızı ayrıca <a href=\"{{.ForgotPasswordURL}}\"> sıfırlayabilirsiniz." },
     "acceptinvite_complete": { "other": "Teşekkürler. Hesabınız oluşturuldu." },
     "acceptinvite_form_submit": { "other": "Daveti Kabul Et." },
-    "acceptinvite_agreement": { "other": "Daveti Kabul Et butonuna tıklayarak, <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a> and <a href=\"/page/privacy/\" target=\"_blank\">privacy policy</a> okuyup anladığınızı kabul etmiş olacaksınız." },
+    "acceptinvite_agreement": { "other": "Daveti Kabul Et butonuna tıklayarak, <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a> and <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">privacy policy</a> okuyup anladığınızı kabul etmiş olacaksınız." },
   
     "signup_page_header": { "other": "Yeni Hesap Oluştur" },
     "signup_form_name": { "other": "İsim" },
@@ -152,7 +152,7 @@
   
     "userlibrary_page_header": { "other": "Kütüphanem" },
     "userlibrary_empty_header":  { "other": "Kütüphaneniz boş" },
-    "userlibrary_empty_content": { "other": "Geniş seçkimizi <a href=\"/\">tarayarak</a> doldurun." },
+    "userlibrary_empty_content": { "other": "Geniş seçkimizi <a href=\"{{.HomeURL}}\">tarayarak</a> doldurun." },
   
     "searchresults_page_header": { "other": "Arama Sonuçları" },
     "searchresults_load_more": { "other": "Daha fazla yükle {{.Count}}" },
@@ -161,7 +161,7 @@
       "other": "için {{.Count}} sonuçlar bulundu \"{{.Query}}\"."
     },
     "searchresults_empty_header":  { "other": "için arama sonucu bulunamadı. \"{{.Query}}\"" },
-    "searchresults_empty_content": { "other": "Başka bir şey aramayı deneyin ya da aradığınızı bulmak için<a href=\"/\">içeriğimizi tarayın</a> " },
+    "searchresults_empty_content": { "other": "Başka bir şey aramayı deneyin ya da aradığınızı bulmak için<a href=\"{{.HomeURL}}\">içeriğimizi tarayın</a> " },
   
     "validation_name_required": { "other": "Lütfen isminizi giriniz." },
     "validation_email_required": { "other": "Lütfen e-posta adresini giriniz." },
@@ -223,7 +223,7 @@
   
     "shopping_enter_card_prompt": { "other": "nizi tamamlamak için aşağıya kredi kartı bilgilerinizi giriniz {{.Verb}}." },
   
-    "shopping_terms": { "other": "Bu işlemi tamamlayarak, <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">terms and conditions</a> katılıyorum."},
+    "shopping_terms": { "other": "Bu işlemi tamamlayarak, <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">terms and conditions</a> katılıyorum."},
     "shopping_discount_applied": { "other": "{{.DiscountAmount}} indirim uygulanmıştır." },
     "shopping_discount_apply": { "other": "Uygula" },
     "shopping_discount_code": { "other": "Promosyon kodu girin." },
@@ -316,7 +316,7 @@
     "userwishlist_page_header": { "other": "Benim Listem" },
     "userwishlist_slider_header": { "other": "Benim Listem" },
     "userwishlist_empty_header":  { "other": "Listeniz boş." },
-    "userwishlist_empty_content": { "other": "Geniş seçkimizi <a href=\"/\">tarayarak</a> listenizi doldurun." },
+    "userwishlist_empty_content": { "other": "Geniş seçkimizi <a href=\"{{.HomeURL}}\">tarayarak</a> listenizi doldurun." },
     "userwishlist_button_add": { "other": "Listeme Ekle" },
     "userwishlist_button_remove": { "other": "Benim Listem" },
     "userwishlist_button_add_compact": { "other": "Benim Listem" },
@@ -357,7 +357,7 @@
     "classification_divider": { "other": " - " },
     "classification_outro": { "other": "" },
   
-    "cookie_banner_message": { "other": "Bu site kullanıcı deneyimini artırmak için çerezler kullanmaktadır. Bu siteyi kullanırken, < çerez ve gizlilik ayarlarını kabul edin <a href=\"/page/cookie-policy/\">cookie usage</a>." },
+    "cookie_banner_message": { "other": "Bu site kullanıcı deneyimini artırmak için çerezler kullanmaktadır. Bu siteyi kullanırken, < çerez ve gizlilik ayarlarını kabul edin <a href=\"{{.CookiePolicyURL}}\">cookie usage</a>." },
     "cookie_banner_accept": { "other": "Kabul Ediyorum" },
   
     "all_rights_reserved": { "other": "Her hakkı saklıdır. Bu sitenin hiçbir bölümü yazılı iznimiz olmadan çoğaltılamaz." },
@@ -433,9 +433,13 @@
   
     "combined_auth_signin_prompt": { "other": "Oturum Aç" },
     "combined_auth_signup_prompt": { "other": "Kaydol" },
-    "combined_auth_terms": { "other": "Tüm <a href=\"/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a> kabul ediyorum." },
-    "signup_terms": { "other": "Tüm <a href=\/page/terms-and-conditions/\" target=\"_blank\">terms &amp; conditions</a> kabul ediyorum." },
+    "combined_auth_terms": { "other": "Tüm <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a> kabul ediyorum." },
+    "signup_terms": { "other": "Tüm <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a> kabul ediyorum." },
     "validation_terms_required": { "other": "Hüküm ve şartları kabul etmelisiniz." },
-    "shopping_error_item_limit_exceeded": { "other": " Ne yazık ki{{.Title}} tükendi. ." }
+    "shopping_error_item_limit_exceeded": { "other": " Ne yazık ki{{.Title}} tükendi. ." },
+
+    "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+
+    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
   }
   
