@@ -66,7 +66,7 @@
     right: 0px;
     margin-left: auto;
     margin-right: auto;
-    height: 900px;
+    height: 100%;
   }
   s72-image {
     width: 100%;
@@ -474,9 +474,9 @@
   // Meta Detail Main
   .meta-detail-main {
     flex-direction: column;
-    padding-top: 140px;
+    padding-top: $page-detail-padding-top;
     @include media-breakpoint-up(lg){
-      padding-top: 170px;
+      padding-top: $page-detail-padding-top-md;
     }
   }
   // Meta Detail Content

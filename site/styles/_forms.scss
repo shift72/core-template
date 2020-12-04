@@ -148,7 +148,7 @@ s72-activatedevice-form,
 }
 .s72-modal-closable {
   .s72-modal-dialog {
-    margin: 0;
+    margin: auto;
   }
 }
 .s72-modal-content {
@@ -179,8 +179,18 @@ s72-activatedevice-form,
   }
 }
 
+.form-check {
+  display: inline-block !important;
+}
+
 .s72-btn {
   &.s72-btn-modal-close {
     top: 11px;
+  }
+}
+
+s72-signup-form {
+  .s72-form-text {
+    margin-bottom: 1rem;
   }
 }

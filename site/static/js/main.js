@@ -1,5 +1,38 @@
 var slideObservers = [];
 
+function initializeWishlist() {
+  var wishlist = document.querySelector('s72-userwishlist');
+  if (!wishlist) return;
+  var originalFunction = wishlist.classList.remove;
+  wishlist.classList.remove = function(className){
+    if(className == 's72-hide')
+    {
+      // Hide this from view
+      wishlist.style.opacity = '0';
+
+      // Remove class
+      originalFunction.apply(this, [ className ]);
+
+      /* Convert this to a swiper */
+      var containers = wishlist.getElementsByClassName('swiper-container');
+      if(containers.length > 0) {
+        var container = containers[0];
+        var swiper = initializeSwiper(container, true);
+
+        init(swiper);
+        toggleButtons(container);
+      }
+
+      // Now show it
+      wishlist.style.opacity = '1';
+    }
+    else
+    {
+      originalFunction.apply(this, [ className ]);
+    }
+  }
+}
+
 function initializeSwiper(element, force){
   if(element.swiper) {
     if(force) {
@@ -38,6 +71,7 @@ function initializeSwiper(element, force){
           slidesPerView[1200] = 5;
           slidesPerView[992] = 4;
           slidesPerView[768] = 4;
+          slidesPerView[667] = 3;
           slidesPerView[568] = 3;
           break;
 
@@ -48,6 +82,7 @@ function initializeSwiper(element, force){
           slidesPerView[1200] = 4;
           slidesPerView[992] = 3;
           slidesPerView[768] = 3;
+          slidesPerView[667] = 3;
           slidesPerView[568] = 2;
           break;
       }
@@ -461,6 +496,8 @@ function togglePageTopPadding() {
 }
 
 function documentReady(app) {
+  initializeWishlist();
+
   app.classificationsService.load('/classifications.all.json');
 
   detectTouchscreen();
