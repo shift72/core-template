@@ -59,7 +59,7 @@
   "datetime_today": { "other": "today {{.Date}}" },
   "datetime_tomorrow": { "other": "tomorrow {{.Date}}" },
   "datetime_yesterday": { "other": "yesterday {{.Date}}" },
-  "datetime_next": { "other": "next {{.Date}}" },
+  "datetime_next": { "other": "{{.Date}}" },
   "datetime_last": { "other": "last {{.Date}}" },
 
   "search_control_placeholder": { "other": "Search" },

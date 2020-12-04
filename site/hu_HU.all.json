@@ -59,7 +59,7 @@
     "datetime_today": { "other": "ma {{.Date}}" },
     "datetime_tomorrow": { "other": "holnap {{.Date}}" },
     "datetime_yesterday": { "other": "tegnap {{.Date}}" },
-    "datetime_next": { "other": "következő {{.Date}}" },
+    "datetime_next": { "other": "{{.Date}}" },
     "datetime_last": { "other": "utolsó {{.Date}}" },
   
     "search_control_placeholder": { "other": "Keresés" },

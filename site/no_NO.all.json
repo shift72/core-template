@@ -59,7 +59,7 @@
     "datetime_today": { "other": "i dag {{.Date}}" },
     "datetime_tomorrow": { "other": "i morgen {{.Date}}" },
     "datetime_yesterday": { "other": "i går {{.Date}}" },
-    "datetime_next": { "other": "neste {{.Date}}" },
+    "datetime_next": { "other": "{{.Date}}" },
     "datetime_last": { "other": "forrige {{.Date}}" },
   
     "search_control_placeholder": { "other": "Søk" },

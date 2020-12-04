@@ -59,7 +59,7 @@
   "datetime_today": { "other": "Σήμερα {{.Date}}" },
   "datetime_tomorrow": { "other": "Αύριο {{.Date}}" },
   "datetime_yesterday": { "other": "Χθες {{.Date}}" },
-  "datetime_next": { "other": "Επόμενη {{.Date}}" },
+  "datetime_next": { "other": "{{.Date}}" },
   "datetime_last": { "other": "Τελευταία {{.Date}}" },
 
   "search_control_placeholder": { "other": "Αναζήτηση" },

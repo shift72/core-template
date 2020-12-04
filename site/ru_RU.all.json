@@ -58,7 +58,7 @@
     "datetime_today": { "other": "сегодня {{.Date}}" },
     "datetime_tomorrow": { "other": "завтра {{.Date}}" },
     "datetime_yesterday": { "other": "вчера {{.Date}}" },
-    "datetime_next": { "other": "Следующая {{.Date}}" },
+    "datetime_next": { "other": "{{.Date}}" },
     "datetime_last": { "other": "последняя {{.Date}}" },
 
     "search_control_placeholder": { "other": "Поиск" },
