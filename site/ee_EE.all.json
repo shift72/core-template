@@ -59,7 +59,7 @@
     "datetime_today": { "other": "täna {{.Date}}" },
     "datetime_tomorrow": { "other": "homme {{.Date}}" },
     "datetime_yesterday": { "other": "eile {{.Date}}" },
-    "datetime_next": { "other": "järgmine {{.Date}}" },
+    "datetime_next": { "other": "{{.Date}}" },
     "datetime_last": { "other": "eelmine {{.Date}}" },
   
     "search_control_placeholder": { "other": "Otsing" },

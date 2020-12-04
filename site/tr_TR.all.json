@@ -59,7 +59,7 @@
     "datetime_today": { "other": "bugün {{.Date}}" },
     "datetime_tomorrow": { "other": "yarın {{.Date}}" },
     "datetime_yesterday": { "other": "dün {{.Date}}" },
-    "datetime_next": { "other": "sonraki  {{.Date}}" },
+    "datetime_next": { "other": "{{.Date}}" },
     "datetime_last": { "other": "son {{.Date}}" },
   
     "search_control_placeholder": { "other": "Arama" },

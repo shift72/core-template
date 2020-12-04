@@ -56,12 +56,12 @@ $navbar-dark-color:         $body-color !default;
 $navbar-dark-hover-color:   #FD4766 !default;
 
 // Navbar Logo (Brand)
-$navbar-brand-padding-y: 15px !default;
+$navbar-brand-padding-y: 25px !default;
 $navbar-brand-min-width: 130px !default;
 $navbar-brand-min-width-md: 200px !default;
 $navbar-brand-min-width-lg: 200px !default;
 $navbar-brand-min-width-xl: 200px !default;
-$navbar-search-top: 20px !default;
+$navbar-search-top: 30px !default;
 
 // Sub Navivgation
 $subnav-background-color: #302e30 !default;
@@ -105,17 +105,17 @@ $left-gradient-bg-color: $body-bg !default;
 
 // Carousel
 $carousel-bg-color: $body-bg !default;
-$carousel-height: 450px !default;
-$carousel-height-sm: 450px !default;
-$carousel-height-md: 600px !default;
-$carousel-caption-top: 80px !default;
-$carousel-caption-top-md: 155px !default;
+$carousel-height: 470px !default;
+$carousel-height-sm: 470px !default;
+$carousel-height-md: 620px !default;
+$carousel-caption-top: 100px !default;
+$carousel-caption-top-md: 175px !default;
 
 // Pages
-$page-padding-top: 80px !default;
-$page-padding-top-md: 105px !default;
-$page-detail-padding-top: 95px !default;
-$page-detail-padding-top-md: 133px !default;
+$page-padding-top: 100px !default;
+$page-padding-top-md: 125px !default;
+$page-detail-padding-top: 115px !default;
+$page-detail-padding-top-md: 153px !default;
 
 // Footer
 $footer-brand-min-width: 100px !default;

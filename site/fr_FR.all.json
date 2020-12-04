@@ -55,7 +55,7 @@
   "runtime_hours": { "other": "h" },
   "runtime_minutes": { "other": "m" },
 
-  "datetime_next": { "other": "ce {{.Date}}" },
+  "datetime_next": { "other": "{{.Date}}" },
 
   "search_control_placeholder": { "other": "Rechercher" },
 
@@ -169,9 +169,12 @@
   "validation_dob_required": { "other": "Veuillez saisir votre date de naissance." },
   "validation_dob_date": { "other": "Veuillez saisir une date de naissance valide." },
 
-  "availability_not_available_in_country": { "other": "Pas disponible" },
+  "availability_not_available_in_country": { "other": "Non disponible dans votre pays" },
   "availability_coming_soon": { "other": "Bientôt disponible" },
+  "availability_available_till": { "other": "Disponible jusqu’au {{.ExpiryDate}}" },
   "availability_available": { "other": "Disponible {{.ReleaseDate}}" },
+  "availability_expires": { "other": "Expire {{.Expiry}}" },
+  
 
   "shopping_info_subtitle_hd": { "other": "Vidéo HD à la demande." },
   "shopping_info_subtitle_sd": { "other": "Vidéo SD à la demande." },
@@ -185,7 +188,7 @@
   "shopping_info_release_date_explanation_rent": { "other": "Vous pouvez acheter votre billet maintenant, mais vous ne pourrez pas le regarder jusque-là." },
   "shopping_info_release_date_explanation_buy": { "other": "Vous pouvez l'acheter maintenant, mais vous ne pourrez pas le regarder jusque-là." },
 
-  "shopping_info_available_until_date_title": { "other": "Disponible jusqu'au {{.Date}}. " },
+  "shopping_info_available_until_date_title": { "other": "Disponible jusqu’au {{.Date}}. " },
   "shopping_info_available_until_date_explanation_rent": { "other": "Vous ne pourrez plus voir le contenu après cela." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Vous ne pourrez plus voir le contenu après cela." },
 

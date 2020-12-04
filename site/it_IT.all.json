@@ -59,7 +59,7 @@
   "datetime_today": { "other": "oggi {{.Date}}" },
   "datetime_tomorrow": { "other": "domani {{.Date}}" },
   "datetime_yesterday": { "other": "ieri {{.Date}}" },
-  "datetime_next": { "other": "a {{.Date}}" },
+  "datetime_next": { "other": "{{.Date}}" },
   "datetime_last": { "other": "lo scorso {{.Date}}" },
 
   "search_control_placeholder": { "other": "Cerca" },
@@ -189,7 +189,7 @@
   "shopping_info_release_date_explanation_rent": { "other": "Puoi noleggiarlo ora, ma non potrai vederlo fino a questa data." },
   "shopping_info_release_date_explanation_buy": { "other": "Puoi comprarlo ora, ma non potrai vederlo fino a questa data." },
 
-  "shopping_info_available_until_date_title": { "other": "Disponibile fino a {{.Date}}. " },
+  "shopping_info_available_until_date_title": { "other": "Disponibile fino {{.Date}}. " },
   "shopping_info_available_until_date_explanation_rent": { "other": "Non potrai vedere il contenuto oltre questa data." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Non potrai vedere il contenuto oltre questa data." },
 
@@ -365,7 +365,12 @@
 
   "availability_available": { "other": "Disponibile {{.ReleaseDate}}"},
   "availability_renting": { "other": "Noleggiato" },
-  "availability_available_till": { "other": "Disponibile fino a {{.ExpiryDate}}" },
+  "availability_available_till": { "other": "Disponibile fino {{.ExpiryDate}}" },
   "availability_not_available_in_country": { "other": "Non Disponibile" },
-  "availability_expired": { "other": "Scaduto" }
+  "availability_expires": { "other": "Scade {{.Expiry}}" },
+  "availability_expired": { "other": "Scaduto" },
+  "availability_coming_soon": { "other": "Presto Disponibile" },
+  "availability_not_available": { "other": "Non Disponibile" },
+  "availability_in_watch_window": { "other": "availability_in_watch_window" },
+  "availability_sold_out": { "other": "Esaurito" }
 }

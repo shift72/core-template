@@ -364,7 +364,7 @@
   "datetime_today": { "other": "heute {{.Date}}" },
   "datetime_tomorrow": { "other": "morgen {{.Date}}" },
   "datetime_yesterday": { "other": "gestern {{.Date}}" },
-  "datetime_next": { "other": "ab {{.Date}}" },
+  "datetime_next": { "other": "{{.Date}}" },
   "datetime_last": { "other": "{{.Date}}" },
 
   "modal_cancel": { "other": "Abbrechen" },

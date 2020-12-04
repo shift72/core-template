@@ -9,7 +9,7 @@
 
   <script>
     // help with old ng routes
-    var routes = { '#!/signin': '{{ routeToPath("/signin.html") }}' };
+    var routes = { '#!/signin': '{{ routeToPath("/signin.html") }}', '#!/reset-pin': '{{ routeToPath("/account.html#reset-pin") }}' };
     {{range p := site.Pages}}{{if p.PageType == "content"}}routes['#!/page/{{p.TitleSlug}}']='{{routeToSlug(p.Slug)}}';{{end}}{{end}}
     !function(o, l){for(k in o){if(k==l.hash){l.href=o[k];}}}(routes, window.location);
   </script>
