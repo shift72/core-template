@@ -7,7 +7,7 @@
       </div>
       <div class="caption">
         <div class="bonus-item-title">
-        <h5>{{item.Title}}</h5>
+          <h5>{{item.Title}}</h5>
           {{if item.Runtime > 0 }}
             <span class="runtime">
               {{if item.Runtime.Hours() > 0}}
@@ -16,7 +16,6 @@
               {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
             </span>
           {{end}}
-          
         </div>
         <div class="synopsis">{{item.Overview | raw}}</div>
       </div>
