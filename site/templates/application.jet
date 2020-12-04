@@ -2,7 +2,6 @@
 {{import "./seo.jet" }}
 {{import "./footer.jet" }}
 {{import "./google.jet" }}
-{{import "./linkoverrides.jet"}}
 {{CDN := "//cdn.shift72.com/1.3"}}
 {*{CDN := "//localhost:3000"}*}
 <!DOCTYPE html>
@@ -47,8 +46,6 @@
     </script>
 
     <script type="text/javascript" src="/scripts/swiper.min.js"></script>
-
-    {{yield linkoverrides()}}
   </head>
   <body>
     <s72-cookie-consent policy-url="{{ routeToPath("/page/cookie-policy/") }}"></s72-cookie-consent>
