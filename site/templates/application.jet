@@ -48,7 +48,7 @@
     <script type="text/javascript" src="/scripts/swiper.min.js"></script>
   </head>
   <body>
-    <s72-cookie-consent policy-url="{{ routeToPath("/page/cookie-policy/") }}"></s72-cookie-consent>
+    <s72-cookie-consent></s72-cookie-consent>
     {{yield googleTagManagerNoScript()}}
 
     {{block navigation()}}
