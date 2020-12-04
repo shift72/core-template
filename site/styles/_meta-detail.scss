@@ -382,6 +382,10 @@
           }
         }
         .caption {
+          .bonus-item-title {
+            display: flex;
+            align-items:baseline;
+          }
           padding: 5px 10px;
           @include media-breakpoint-up(md) {
             padding: 10px $grid-gutter-width / 2;
@@ -393,7 +397,9 @@
               font-size: 12px;
             }
           }
+
           .runtime {
+            margin-left: auto;
             font-size: 8px;
             color: rgba(255,255,255,0.5);
             @include media-breakpoint-up(md) {

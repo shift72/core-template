@@ -6,15 +6,18 @@
         <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
       </div>
       <div class="caption">
-        {{if item.Runtime > 0 }}
-          <span class="runtime pull-right">
-            {{if item.Runtime.Hours() > 0}}
-              {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
-            {{end}}
-            {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
-          </span>
-        {{end}}
+        <div class="bonus-item-title">
         <h5>{{item.Title}}</h5>
+          {{if item.Runtime > 0 }}
+            <span class="runtime">
+              {{if item.Runtime.Hours() > 0}}
+                {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
+              {{end}}
+              {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
+            </span>
+          {{end}}
+          
+        </div>
         <div class="synopsis">{{item.Overview | raw}}</div>
       </div>
     </div>
