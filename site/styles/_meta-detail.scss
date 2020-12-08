@@ -382,11 +382,12 @@
           }
         }
         .caption {
+          
+          width: 100%;
           .bonus-item-title {
             display: flex;
             align-items:baseline;
           }
-          padding: 5px 10px;
           @include media-breakpoint-up(md) {
             padding: 10px $grid-gutter-width / 2;
           }
