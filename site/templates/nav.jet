@@ -13,7 +13,7 @@
         </form>
       {{end}}
 
-      <s72-language-selector default-language="{{site.SiteConfig.DefaultLanguage}}"></s72-language-selector>
+      <s72-language-selector></s72-language-selector>
       
       <button class="navbar-toggler" type="button" toggle-function="toggleMobileMenu" s72-collapse=".navbar-collapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-navbar-toggler"></span>
