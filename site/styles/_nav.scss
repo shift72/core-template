@@ -323,9 +323,11 @@
     font-family: $font-family-base;
 
     &::placeholder {
-      @include font-sm;
-      @include font(xl, 16px);
       color: $body-color;
+      font-size: 14px;
+      @include media-breakpoint-up(xl) {
+        font-size: 16px;
+      }
     }
 
     &:focus {
