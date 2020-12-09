@@ -33,7 +33,6 @@
   }
 }
 .navbar-nav {
-  margin-left: auto;
   background: $navbar-background-color;
 
   @include media-breakpoint-up(md) {
@@ -289,36 +288,70 @@
   }
 }
 // Header Form Search
+.navbar-collapse {
+  .navbar-nav-search {
+    margin-right: 10px;
+  }
+}
 .navbar-nav-search {
-  position: absolute;
-  left: 160px;
-  width: 150px;
-  top: $navbar-search-top;
-  @include media-breakpoint-up(sm) {
-    top: $navbar-search-top;
-    left: 50%;
-    width: 200px;
-    transform: translateX(-50%);
-    margin-right: $subnav-nav-item-margin-x;
+  @include media-breakpoint-down(sm) {
+    background: $body-bg;
+    padding-top: 30px;
   }
-  @include media-breakpoint-up(lg) {
-    top: $navbar-search-top;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 350px;
+
+  .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.25rem;
+    text-align: center;
+    pointer-events: none;
+    color: $body-color;
   }
-  // Header Search Form Control
-  .form-control-search {
-    font-size: 10px;
-    color: #fff;
-    border-color: rgba(255,255,255,0.3);
-    background-color: rgba(255,255,255,0.3);
-    @include media-breakpoint-up(md){
-      font-size: 14px;
-    }
+
+  input[type=search] {
+    transition: 0.3s ease;
+    width: 115px;
+    color: $body-color;
+    padding: 0.375rem 0 0.375rem 2.735rem;
+    border: 0;
+    border-radius: 0;
+    background-clip: initial;
+    background: transparent;
+    font-family: $font-family-base;
+
     &::placeholder {
-      text-align: left;
-      color: #fff;
+      @include font-sm;
+      @include font(xl, 16px);
+      color: $body-color;
+    }
+
+    &:focus {
+      width: 200px;
+      border: 1px solid $primary;
+      background-color: rgba(#000, .5);
+    }
+
+    /* clears the ‘X’ from Internet Explorer */
+    &::-ms-clear  {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+
+    &::-ms-reveal {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+
+    &::-webkit-search-decoration,
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-results-button,
+    &::-webkit-search-results-decoration {
+      display: none;
     }
   }
 }

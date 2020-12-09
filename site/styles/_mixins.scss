@@ -23,3 +23,13 @@
     z-index: 8;
     @include gradient-x( rgba($left-gradient-bg-color, 1), transparent, 0%, 100%);
 }
+
+@mixin font($breakpoint, $size) {
+  @include media-breakpoint-up($breakpoint) {
+    font-size: $size;
+  }
+}
+
+@mixin font-sm {
+  font-size: 14px;
+}

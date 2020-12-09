@@ -49,21 +49,6 @@ s72-activatedevice-form,
     padding: 20px 50px;
   }
 }
-// Navbar Search Form Input Control
-.navbar-nav-search {
-.form-control-search {
-  font-weight: 600;
-  transition: all .25s ease-out;
-  @include hover-focus {
-    color: #000;
-    background-color: #fff;
-    border-color: #fff;
-    &::placeholder {
-      color: #000;
-    }
-  }
-}
-}
 // Error Messaging
 .s72-error-message {
   color: #fff;
