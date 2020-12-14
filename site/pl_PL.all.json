@@ -333,8 +333,8 @@
   "availability_available_till": { "other": "Dostępny do {{.ExpiryDate}}" },
   "availability_not_available_in_country": { "other": "Niedostępny" },
   "availability_available": { "other": "Dostępny {{.ReleaseDate}}" },
-  "availability_expires": { "other": "Expires {{.Expiry}}" },
-  "availability_expired": { "other": "Expired"},
+  "availability_expires": { "other": "Wygasa {{.Expiry}}" },
+  "availability_expired": { "other": "Wygasł"},
 
   "modal_cancel": { "other": "Anuluj" },
 
