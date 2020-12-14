@@ -19,7 +19,7 @@
   "date_year": { "other": "Rok" },
 
   "404_page_header": { "other": "Podana strona nie istnieje..." },
-  "404_page_content": { "other": "<p> Niestety, wygląda na to, że strona, której szukasz, nie istnieje. </p> <p> Mogła zostać przeniesiona, usunięta lub wpisany adres jest błędny. </p> <p> Spróbuj powrócić do strony głównej w celu znalezienia tego, czego szukasz. </p> <p> <a href=\"https://www.mockina.pl\"> Powrót do strony głównej </a> </p>"},
+  "404_page_content": { "other": "<p> Niestety, wygląda na to, że strona, której szukasz, nie istnieje. </p> <p> Mogła zostać przeniesiona, usunięta lub wpisany adres jest błędny. </p> <p> Spróbuj powrócić do strony głównej w celu znalezienia tego, czego szukasz. </p> <p> <a href=\"/\"> Powrót do strony głównej </a> </p>"},
 
   "nav_signin": { "other": "Zaloguj się" },
   "nav_signup": { "other": "Utwórz konto" },
@@ -312,7 +312,7 @@
 
   "classification_intro": { "other": "Klasyfikacja: " },
 
-  "cookie_banner_message": { "other": "Korzystanie z naszej witryny oznacza zgodę na wykorzystywanie plików cookie. Więcej informacji można znaleźć na <a href=\"/https://mockina.pl/cookie-policy/\">polityka prywatności</a>." },
+  "cookie_banner_message": { "other": "Korzystanie z naszej witryny oznacza zgodę na wykorzystywanie plików cookie. Więcej informacji można znaleźć na <a href=\"/page/cookie-policy/\">polityka prywatności</a>." },
   "cookie_banner_accept": { "other": "Akceptuję" },
 
   "all_rights_reserved": { "other": "Wszelkie prawa zastrzeżone. Treści witryny nie mogą być powielane bez pisemnej zgody jej administratora." },
