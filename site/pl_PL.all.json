@@ -19,7 +19,7 @@
   "date_year": { "other": "Rok" },
 
   "404_page_header": { "other": "Podana strona nie istnieje..." },
-  "404_page_content": { "other": "<p> Niestety, wygląda na to, że strona, której szukasz, nie istnieje. </p> <p> Mogła zostać przeniesiona, usunięta lub wpisany adres jest błędny. </p> <p> Spróbuj powrócić do strony głównej w celu znalezienia tego, czego szukasz. </p> <p> <a href=\"https://www.mockina.pl\"> Powrót do strony głównej </a> </p>"},
+  "404_page_content": { "other": "<p> Niestety, wygląda na to, że strona, której szukasz, nie istnieje. </p> <p> Mogła zostać przeniesiona, usunięta lub wpisany adres jest błędny. </p> <p> Spróbuj powrócić do strony głównej w celu znalezienia tego, czego szukasz. </p> <p> <a href=\"{{.URL}}\"> Powrót do strony głównej </a> </p>"},
 
   "nav_signin": { "other": "Zaloguj się" },
   "nav_signup": { "other": "Utwórz konto" },
@@ -48,10 +48,10 @@
   "social_media_buttons_title": { "other": "Udostępnij" },
 
   "accept_invite_page_header": { "other": "Witamy " },
-  "acceptinvite_form_invalid_reset_password_token": { "other": "Wygląda na to, że już odebrałeś to zaproszenie. Kliknij zatem <a href=\"signin.html\"> zaloguj się </a>. Jeśli zapomniałeś hasła, możesz je odzyskać <a href=\"forgotpassword.html\"> resetując hasło </a>." },
+  "acceptinvite_form_invalid_reset_password_token": { "other": "Wygląda na to, że już odebrałeś to zaproszenie. Kliknij zatem <a href=\"{{.SigninURL}}\"> zaloguj się </a>. Jeśli zapomniałeś hasła, możesz je odzyskać <a href=\"{{.ForgotPasswordURL}}\"> resetując hasło </a>." },
   "acceptinvite_complete": { "other": "Dziękujemy. Twoje konto zostało utworzone." },
   "acceptinvite_form_submit": { "other": "Zaakceptuj zaproszenie." },
-  "acceptinvite_agreement": { "other": "Klikając „Przyjmij zaproszenie”, potwierdzasz zapoznanie się z naszymi <a href=\"/page/terms-and-conditions/\" target=\"_blank\">warunkami korzystania z serwisu</a> oraz <a href=\"/page/privacy/\" target=\"_blank\">polityką prywatności</a>." },
+  "acceptinvite_agreement": { "other": "Klikając „Przyjmij zaproszenie”, potwierdzasz zapoznanie się z naszymi <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">warunkami korzystania z serwisu</a> oraz <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">polityką prywatności</a>." },
 
   "signup_page_header": { "other": "Utwórz nowe konto" },
   "signup_form_name": { "other": "Nazwa użytkownika" },
@@ -127,7 +127,7 @@
 
   "userlibrary_page_header": { "other": "Moja biblioteka" },
   "userlibrary_empty_header":  { "other": "Twoja biblioteka jest pusta." },
-  "userlibrary_empty_content": { "other": "Wypełnij je <a href=\"/\">przeglądając</a> naszą listę filmów." },
+  "userlibrary_empty_content": { "other": "Wypełnij je <a href=\"{{.HomeURL}}\">przeglądając</a> naszą listę filmów." },
 
   "searchresults_page_header": { "other": "Wyniki wyszukiwania" },
   "searchresults_load_more": { "other": "Załaduj {{.Count}} więcej" },
@@ -136,7 +136,7 @@
     "other": "Znaleziono {{.Count}} wyniki dla „{{.Query}}”."
   },
   "searchresults_empty_header":  { "other": "Brak wyników wyszukiwania dla „{{.Query}}”" },
-  "searchresults_empty_content": { "other": "Spróbuj innego zapytania lub <a href=\"/\"> przejrzyj naszą bibiotekę filmów </a>, aby znaleźć to, czego szukasz" },
+  "searchresults_empty_content": { "other": "Spróbuj innego zapytania lub <a href=\"{{.HomeURL}}\"> przejrzyj naszą bibiotekę filmów </a>, aby znaleźć to, czego szukasz" },
 
   "validation_name_required": { "other": "Podaj nazwę użytkownika." },
   "validation_email_required": { "other": "Podaj adres e-mail." },
@@ -194,7 +194,7 @@
 
   "shopping_enter_card_prompt": { "other": "Wprowadź poniżej dane karty kredytowej, aby dokończyć {{.Verb}}." },
 
-  "shopping_terms": { "other": "Realizując tę transakcję, zgadzam się na <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\"> warunki korzystania z serwisu </a>."},
+  "shopping_terms": { "other": "Realizując tę transakcję, zgadzam się na <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\"> warunki korzystania z serwisu </a>."},
   "shopping_discount_applied": { "other": "Uwzględniono rabat w wysokości {{.DiscountAmount}}." },
   "shopping_discount_apply": { "other": "Zastosuj" },
   "shopping_discount_code": { "other": "Wprowadź kod promocyjny" },
@@ -287,7 +287,7 @@
   "userwishlist_page_header": { "other": "Moja lista" },
   "userwishlist_slider_header": { "other": "Moja lista" },
   "userwishlist_empty_header":  { "other": "Twoja lista jest pusta." },
-  "userwishlist_empty_content": { "other": "Wypełnij je, <a href=\"/\"> przeglądając </a> naszą obszerną bibliotekę." },
+  "userwishlist_empty_content": { "other": "Wypełnij je, <a href=\"{{.HomeURL}}\"> przeglądając </a> naszą obszerną bibliotekę." },
   "userwishlist_button_add": { "other": "Dodaj do mojej listy" },
   "userwishlist_button_remove": { "other": "Moja lista" },
   "userwishlist_button_add_compact": { "other": "Moja lista" },
@@ -312,7 +312,7 @@
 
   "classification_intro": { "other": "Klasyfikacja: " },
 
-  "cookie_banner_message": { "other": "Korzystanie z naszej witryny oznacza zgodę na wykorzystywanie plików cookie. Więcej informacji można znaleźć na <a href=\"/https://mockina.pl/cookie-policy/\">polityka prywatności</a>." },
+  "cookie_banner_message": { "other": "Korzystanie z naszej witryny oznacza zgodę na wykorzystywanie plików cookie. Więcej informacji można znaleźć na <a href=\"{{.CookiePolicyURL}}\">polityka prywatności</a>." },
   "cookie_banner_accept": { "other": "Akceptuję" },
 
   "all_rights_reserved": { "other": "Wszelkie prawa zastrzeżone. Treści witryny nie mogą być powielane bez pisemnej zgody jej administratora." },
@@ -342,8 +342,8 @@
 
   "combined_auth_signin_prompt": { "other": "Zaloguj się" },
   "combined_auth_signup_prompt": { "other": "Zapisz się" },
-  "combined_auth_terms": { "other": "Akceptuję wszystkie <a href=\"/page/terms-and-conditions/\" target=\"_blank\">warunki korzystania z serwisu</a>." },
-  "signup_terms": { "other": "Akceptuję wszystkie <a href=\"/page/terms-and-conditions/\" target=\"_blank\">warunki korzystania z serwisu</a>." },
+  "combined_auth_terms": { "other": "Akceptuję wszystkie <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">warunki korzystania z serwisu</a>." },
+  "signup_terms": { "other": "Akceptuję wszystkie <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">warunki korzystania z serwisu</a>." },
   "validation_terms_required": { "other": "Musisz zaakceptować warunki korzystania z serwisu." },
   "shopping_error_item_limit_exceeded": { "other": "Niestety, {{.Title}} został wyprzedany." }
 }
