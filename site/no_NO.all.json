@@ -6,6 +6,21 @@
     "en": { "other": "English" },
     "fr": { "other": "French" },
   
+    "lang_name_de_de": { "other": "Deutsch" },
+    "lang_name_ee_ee": { "other": "Eestlane" },
+    "lang_name_el_el": { "other": "Ελληνικά" },
+    "lang_name_en_au": { "other": "English" },
+    "lang_name_es_es": { "other": "Español" },
+    "lang_name_es_mx": { "other": "Español" },
+    "lang_name_fr_fr": { "other": "Français" },
+    "lang_name_hu_hu": { "other": "Magyar" },
+    "lang_name_it_it": { "other": "Italiano" },
+    "lang_name_no_no": { "other": "Norsk" },
+    "lang_name_pl_pl": { "other": "Polskie" },
+    "lang_name_pt_pt": { "other": "Português" },
+    "lang_name_ru_ru": { "other": "Pусский" },
+    "lang_name_tr_tr": { "other": "Türk" },
+  
     "episode_name": {
       "other": "Episode"
     },
