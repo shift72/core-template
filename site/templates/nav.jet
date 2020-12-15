@@ -6,34 +6,20 @@
   <nav class="navbar navbar-expand-md navbar-dark">
       <a class="navbar-brand" href="/">{{i18n("nav_homepage")}}</a>
       
+      {{if config("search_disabled") != "true"}}
+        <form class="form-search navbar-nav-search" action="/search.html">
+            <input class="form-control form-control-search" type="search" placeholder="{{i18n("search_control_placeholder")}}" name="q" aria-label="{{i18n("search_control_placeholder")}}">
+            <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
+        </form>
+      {{end}}
+      
       <button class="navbar-toggler" type="button" toggle-function="toggleMobileMenu" s72-collapse=".navbar-collapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-navbar-toggler"></span>
       </button>
 
       <div class="collapse navbar-collapse">
-        {{if config("search_disabled") != "true"}}
-          <div class="navbar-nav-search ml-md-auto d-none d-md-block">
-            <form class="form-inline" autocomplete="off" action="/search.html">
-                <span class="fa fa-search form-control-feedback"></span>
-                <input class="form-control form-control-search" type="search" placeholder="{{i18n("search_control_placeholder")}}" name="q" aria-label="{{i18n("search_control_placeholder")}}">
-                <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
-            </form>
-          </div>
-        {{end}}
-
         {{if len(site.Navigation.Header) > 0 && showSubNav}}
           <ul class="mobile-nav d-md-none">
-            <!-- added search bar here to collapse on 768px -->
-            {{if config("search_disabled") != "true"}}
-              <div class="navbar-nav-search mx-auto">
-                <form class="form-inline" autocomplete="off" action="/search.html">
-                    <span class="fa fa-search form-control-feedback"></span>
-                    <input class="form-control form-control-search" type="search" placeholder="{{i18n("search_control_placeholder")}}" name="q" aria-label="{{i18n("search_control_placeholder")}}">
-                    <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
-                </form>
-              </div>
-            {{end}}
-      
             {{range site.Navigation.Header}}
               {{if len(.Items) > 0}}
                 <li class="nav-item title">{{.Label}}</li>
