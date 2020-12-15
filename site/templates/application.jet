@@ -40,7 +40,7 @@
     <script>
       window.addEventListener('DOMContentLoaded', function(){
         s72.cfg(function(){ return s72.i18n.load('{{lang.Code}}', '/{{lang.DefinitionFilePath}}'); });
-        s72.cfg(function(){ return s72.i18n.href.load('{{site.SiteConfig.DefaultLanguage}}', '{{lang.Code}}'); });
+        s72.cfg(function(){ return s72.i18n.href.setLanguages('{{site.SiteConfig.DefaultLanguage}}', '{{lang.Code}}'); });
         s72.boot({ config: {{ site.Config | json | raw }}, toggles: {{ site.Toggles | json | raw }}, lang: '{{ lang.Code }}' });
       });
     </script>
