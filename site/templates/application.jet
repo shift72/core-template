@@ -44,14 +44,7 @@
         s72.boot({
           config: {{ site.Config | json | raw }},
           toggles: {{ site.Toggles | json | raw }},
-          languages: [
-            {{ range k, v := site.SiteConfig.Languages }}
-              {
-                value: '{{ k != site.SiteConfig.DefaultLanguage ? k : "" }}',
-                name: '{{ i18n(lower("lang_name_" + v)) }}'
-              },
-            {{ end }}
-          ]
+          languages: {{ site.Languages | json | raw }}
         });
       });
     </script>
