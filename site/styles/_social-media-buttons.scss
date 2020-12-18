@@ -39,69 +39,69 @@
 		background: $facebook-color;
 		border-color: $facebook-color;
 		.fa {
-			color: #fff;
+			color: $body-bg;
 		}
 	}
 	&.btn-social-instagram {
 		background-color: $instagram-color;
 		border-color: $instagram-color;
 		.fa {
-			color: #fff;
+			color: $body-bg;
 		}
 	}
 	&.btn-social-twitter {
 		background-color: $twitter-color;
 		border-color: $twitter-color;
 		.fa {
-			color: #fff;
+			color: $body-bg;
 		}
 	}
 	&.btn-social-linkedin {
 		background-color: $linkedin-color;
 		border-color: $linkedin-color;
 		.fa {
-			color: #fff;
+			color: $body-bg;
 		}
 	}
 	&.btn-social-youtube {
 		background-color: $youtube-color;
 		border-color: $youtube-color;
 		.fa {
-			color: #fff;
+			color: $body-bg;
 		}
 	}
 	&:hover, &:active, &:focus {
 		&.btn-social-facebook {
-			background-color: #fff;
-			border-color: #fff;
+			background-color: $primary;
+			border-color: $primary;
 			.fa {
 				color: $facebook-color;
 			}
 		}
 		&.btn-social-instagram {
-			background-color: #fff;
-			border-color: #fff;
+			background-color: $primary;
+			border-color: $primary;
 			.fa {
 				color: $instagram-color;
 			}
 		}
 		&.btn-social-twitter {
-			background-color: #fff;
-			border-color: #fff;
+			background-color: $primary;
+			border-color: $primary;
 			.fa {
 				color: $twitter-color;
 			}
 		}
 		&.btn-social-linkedin {
-			background-color: #fff;
-			border-color: #fff;
+			background-color: $primary;
+			border-color: $primary;
 			.fa {
 				color: $linkedin-color;
 			}
 		}
 		&.btn-social-youtube {
-			background-color: #fff;
-			border-color: #fff;
+			background-color: $primary;
+			border-color: $primary;
 			.fa {
 				color: $youtube-color;
 			}

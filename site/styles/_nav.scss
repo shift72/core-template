@@ -126,6 +126,7 @@
     padding-top: 0;
     padding-bottom: 0;
     margin: 0;
+    border-top: none;
   }
   .s72-btn {
     font-size: 14px;
@@ -271,7 +272,6 @@
     color: $subnav-nav-item-color;
     border-bottom: 3px solid transparent;
     margin-right: 20px;
-    opacity: .6;
     padding-right: 0;
     padding-left: 0;
     @extend .animate-this;
