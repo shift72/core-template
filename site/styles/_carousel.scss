@@ -133,6 +133,7 @@ s72-carousel {
   .meta-item-content {
     color: #fff;
     h3 {
+      color: $var-text; // Light Theme
       font-size: 28px;
       font-weight: 700;
       margin-bottom: 0;
@@ -170,7 +171,7 @@ s72-carousel {
       .meta-item-tagline {
         font-size: 14px;
         font-weight: 600;
-        color: rgba(255,255,255,0.5);
+        color: rgba($var-text, 0.5); // Light Theme
         margin-bottom: 0;
         align-self: center;
         @include media-breakpoint-up(xxxl) {
@@ -230,7 +231,7 @@ s72-carousel {
     @include media-breakpoint-up(md) {
       margin: 0 5px;
     }
-    color: rgba(255,255,255,0.2);
+    color: rgba($var-text, 0.2); // Light Theme
     &.current {
       color: $primary;
     }
@@ -260,7 +261,7 @@ s72-carousel {
   flex-direction: column;
   @include media-breakpoint-up(md){
     top: 53%;
-    background: #000;
+    background: none;
   }
   &.left {
     left: 0;
@@ -288,7 +289,7 @@ s72-carousel {
   }
   @include media-breakpoint-up(md) {
     top: 53%;
-    background: #000;
+    background: none;
   }
 }
 

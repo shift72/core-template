@@ -62,9 +62,9 @@
       fill: none;
     }
     path {
-        fill: $button-text-color;
-        stroke: $button-text-color;
-      }
+      fill: $var-text; // Light Theme
+      stroke: $var-text; // Light Theme
+    }
   }
   .verb {
     color: $button-text-color;
@@ -122,8 +122,8 @@
         stroke: $primary;
       }
       path {
-        fill: #fff;
-        stroke: #fff;
+        fill: $var-text; // Light Theme
+        stroke: $var-text; // Light Theme
       }
     }
     .s72-btn-play-label {
@@ -141,6 +141,10 @@
       }
     }
   }
+}
+.s72-btn-play .s72-icon-play path {
+  fill: #fff;
+  stroke: #fff;
 }
 // Transactional Buttons
 .s72-btn-rent,
@@ -174,7 +178,7 @@
   // Internal container
   .s72-btn-wishlist {
     font-size: 14px;
-    color: $button-text-color;
+    color: $var-text; // Light Theme
     background: transparent;
     // padding: 0;
     border: 0 none;

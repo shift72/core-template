@@ -291,7 +291,7 @@
     h3, h4 {
       font-size: 8px;
       font-weight: 500;
-      color: rgba(255,255,255,0.25);
+      color: $var-text; // Light Theme
       margin-bottom: 0;
       padding-bottom: 0;
       animation: fadein 2s;
@@ -305,7 +305,7 @@
     p {
       font-size: 10px;
       font-weight: 400;
-      color: rgba(255,255,255,0.6);
+      color: $var-text; // Light Theme
       margin-bottom: 0;
       animation: fadein 2s;
       -moz-animation: fadein 2s; /* Firefox */
@@ -316,7 +316,7 @@
       }
     }
     a {
-      color: rgba(255,255,255,0.6);
+      color: $var-text; // Light Theme
       font-weight: 600;
       text-decoration: underline;
       animation: fadein 2s;
@@ -325,7 +325,7 @@
       -webkit-animation: fadein 2s; /* Safari and Chrome */
       -o-animation: fadein 2s; /* Opera */
       @include hover-focus {
-        color: rgba(255,255,255,1);
+        color: rgba($var-text, 0.8); // Light Theme
         text-decoration: none;
       }
     }

@@ -133,7 +133,7 @@
   }
   .s72-dropdown-toggle {
     font-size: 14px;
-    color: #fff;
+    color: $var-text; // Light Theme
     text-align: center;
     display: block;
     padding-bottom: 0;
@@ -340,6 +340,7 @@
     height: auto;
     transition: all .45s ease-in;
     min-height: 100vh;
+    box-shadow: 0 6px 6px rgba(#000, .3); // Light Theme
   }
   .navbar-nav {
     s72-user-anon {
@@ -347,7 +348,7 @@
       padding-bottom: 20px;
       margin: 20px;
       padding-top: 15px;
-      border-top: 1px solid rgba(255,255,255,0.2);
+      border-top: 1px solid rgba($var-text, 0.2); // Light Theme
       @include media-breakpoint-up(md) {
         border-top: 0 none;
         padding: 0;
@@ -378,7 +379,7 @@ ul.mobile-nav {
     }
     &.title {
       font-size: 12px;
-      color: rgba(255,255,255,0.4);
+      color: rgba($var-text, 0.5); // Light Theme
       text-align: center;
       font-weight: 800;
       padding-top: 15px;
