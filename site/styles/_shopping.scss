@@ -120,7 +120,7 @@
   li {
     text-align: left;
     font-size: 12px;
-    color: rgba($var-text, 0.5); // Light Theme
+    color: rgba($var-text, 0.7); // Light Theme
     list-style-type: none;
   }
 }
@@ -138,7 +138,7 @@
 .s72-shopping-item-info {
   p {
     font-size: 14px;
-    color: rgba(255,255,255,0.5);
+    color: $var-text; // Light theme
     a {
       font-size: 12px;
       text-decoration: underline;

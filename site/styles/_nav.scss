@@ -160,11 +160,11 @@
     padding: 0;
     width: 100%;
     display: block;
-
+    border: none;
     background: $navbar-background-color;
-    border-top: 0 none;
 
     @include media-breakpoint-up(md){
+      border: 1px solid rgba(0, 0, 0, 0.15);
       width: 190px;
       display: none;
       background: $navbar-background-color;
@@ -307,18 +307,24 @@
     transform: translateX(-50%);
     width: 350px;
   }
+
   // Header Search Form Control
   .form-control-search {
     font-size: 10px;
-    color: #fff;
-    border-color: rgba(255,255,255,0.3);
-    background-color: rgba(255,255,255,0.3);
+    //border-color: rgba($color: #868686, $alpha: 0);
+    border-color: transparent;
+    background: rgba($color: $var-text, $alpha: 0.4);
+    
+    //background-color: color.invert(rgba($var-text, 0.5), $weight: 100%);
     @include media-breakpoint-up(md){
       font-size: 14px;
     }
     &::placeholder {
       text-align: left;
       color: #fff;
+    }
+    &:hover {
+      border-color: #ced4da;
     }
   }
 }

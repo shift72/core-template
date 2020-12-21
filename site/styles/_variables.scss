@@ -34,8 +34,8 @@ $container-max-widths: (
 // ------------------------------------
 
 //To make dark or light theme change the two variables bellow
-$var-text: #fff;
-$var-background: #000;
+$var-text: rgb(0, 0, 0);
+$var-background: rgb(255, 255, 255);
 
 $primary:         #35a0a8 !default;
 $secondary:       #4cd3dd !default;
