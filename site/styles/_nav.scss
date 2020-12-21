@@ -146,6 +146,10 @@
       text-align: left;
       display: inline-block;
       padding: 0.375rem 0.75rem;
+      padding-top: 8px;
+    }
+    @include media-breakpoint-up(xl) {
+      font-size: 16px;
     }
     @include hover-focus {
       color: $primary;
