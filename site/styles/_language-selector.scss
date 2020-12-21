@@ -17,7 +17,11 @@
     }
     .s72-dropdown-menu {
       position: static;
-      border: none;
+      border-top: 1px solid rgba(255,255,255,0.2);
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+    .s72-dropdown-item {
+      font-size: 14px;
     }
   }
 }
