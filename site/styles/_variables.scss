@@ -33,9 +33,9 @@ $container-max-widths: (
 // Body / Core
 // ------------------------------------
 
-//To make dark or light theme change the two variables bellow
-$var-text: rgb(0, 0, 0);
-$var-background: rgb(255, 255, 255);
+//To make dark or light theme change the two variables below
+$var-text: #000;
+$var-background: #fff;
 
 $primary:         #35a0a8 !default;
 $secondary:       #4cd3dd !default;
@@ -125,6 +125,8 @@ $page-detail-padding-top-md: 153px !default;
 // Footer
 $footer-brand-min-width: 100px !default;
 $footer-brand-min-width-md: 100px !default;
+$footer-fs-invert-percentage: 100%; // Change to 100% for light theme
+$footer-fs-invert-percentage-hover: 100%;
 
 // Social
 // ------------------------------------
