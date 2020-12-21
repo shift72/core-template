@@ -13,8 +13,6 @@
         </form>
       {{end}}
 
-      <s72-language-selector></s72-language-selector>
-      
       <button class="navbar-toggler" type="button" toggle-function="toggleMobileMenu" s72-collapse=".navbar-collapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-navbar-toggler"></span>
       </button>
@@ -22,6 +20,7 @@
       <div class="collapse navbar-collapse">
         {{if len(site.Navigation.Header) > 0 && showSubNav}}
           <ul class="mobile-nav d-md-none">
+            <s72-language-selector></s72-language-selector>
             {{range site.Navigation.Header}}
               {{if len(.Items) > 0}}
                 <li class="nav-item title">{{.Label}}</li>
@@ -40,6 +39,7 @@
         {{end}}
 
         <div class="navbar-nav s72-hide">
+          <s72-language-selector></s72-language-selector>
         	{{ yield nav_user_logged_out() }}
         	{{ yield nav_user_logged_in() }}
         </div>
