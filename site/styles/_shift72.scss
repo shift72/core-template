@@ -23,7 +23,7 @@
 .s72-btn-purchase-card { @extend .btn-primary; }
 .s72-btn-purchase-free { @extend .btn-primary; }
 
-.s72-btn-changepassword { @extend .btn-secondary; }
+.s72-btn-changepassword { @extend .btn-primary; }
 .s72-btn-updateaccount { @extend .btn-primary; }
 .s72-btn-signup { @extend .btn-primary; }
 .s72-btn-signin { @extend .btn-primary; }
@@ -35,7 +35,7 @@
 .s72-btn-modal-cancel { @extend .btn-outline-secondary; }
 
 .s72-btn-combined-auth { @extend .btn-primary; }
-.s72-btn-combined-auth-change { @extend .btn-link; }
+.s72-btn-combined-auth-change { @extend .btn-primary; }
 
 .s72-btn-applydiscount { @extend .btn-secondary; }
 

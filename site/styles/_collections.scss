@@ -68,7 +68,7 @@
         transition: opacity .25s ease-in;
         flex-direction: column;
         justify-content: space-between;
-        background: rgba(0,0,0,0.9);
+        background: rgba(0,0,0,0.7);
         @extend .d-flex;
         .buttons {
           width: 100%;
@@ -91,6 +91,7 @@
             align-items: center;
             .s72-btn {
               width: auto;
+              min-width: 140px;
               .verb,
               .price {
                 font-size: 14px;
