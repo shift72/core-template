@@ -62,8 +62,8 @@
       fill: none;
     }
     path {
-      fill: $var-text; // Light Theme
-      stroke: $var-text; // Light Theme
+      fill: $body-color; // Light Theme
+      stroke: $body-color; // Light Theme
     }
   }
   .verb {
@@ -122,8 +122,8 @@
         stroke: $primary;
       }
       path {
-        fill: $var-text; // Light Theme
-        stroke: $var-text; // Light Theme
+        fill: $body-color; // Light Theme
+        stroke: $body-color; // Light Theme
       }
     }
     .s72-btn-play-label {
@@ -178,7 +178,7 @@
   // Internal container
   .s72-btn-wishlist {
     font-size: 14px;
-    color: $var-text; // Light Theme
+    color: $body-color; // Light Theme
     background: transparent;
     // padding: 0;
     border: 0 none;
