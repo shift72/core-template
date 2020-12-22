@@ -489,7 +489,7 @@ function togglePageTopPadding() {
   if (subnavOverflowing()) {
     if (page.hasAttribute('style')) return;
     var padding = parseFloat(window.getComputedStyle(page, null).getPropertyValue('padding-top'));
-    page.style.paddingTop = (padding + navItem.offsetHeight) + 'px';
+    page.style.paddingTop = (padding) + 'px';
   } else {
     page.removeAttribute('style');
   }
