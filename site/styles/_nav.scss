@@ -311,11 +311,9 @@
   // Header Search Form Control
   .form-control-search {
     font-size: 10px;
-    //border-color: rgba($color: #868686, $alpha: 0);
     border-color: transparent;
     background: rgba($color: $body-color, $alpha: 0.4);
     
-    //background-color: color.invert(rgba($body-color, 0.5), $weight: 100%);
     @include media-breakpoint-up(md){
       font-size: 14px;
     }
