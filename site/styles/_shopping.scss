@@ -9,7 +9,7 @@
     padding: 0;
     flex-direction: column;
     .s72-btn-close {
-      color: $body-color; // Light Theme
+      color: $body-color; 
       text-transform: uppercase;
       text-shadow: none;
       position: absolute;
@@ -61,7 +61,7 @@
 }
 
 .s72-combined-auth-email {
-  color: $body-color; // Light Theme
+  color: $body-color; 
   font-weight: 600;
   padding-top: 0;
   padding-bottom: 0;
@@ -120,7 +120,7 @@
   li {
     text-align: left;
     font-size: 12px;
-    color: rgba($body-color, 0.7); // Light Theme
+    color: rgba($body-color, 0.7); 
     list-style-type: none;
   }
 }
@@ -138,7 +138,7 @@
 .s72-shopping-item-info {
   p {
     font-size: 14px;
-    color: $body-color; // Light theme
+    color: $body-color; 
     a {
       font-size: 12px;
       text-decoration: underline;
@@ -167,7 +167,7 @@
   p {
     text-align: center;
     font-size: 12px;
-    color: $body-color; // Light Theme
+    color: $body-color; 
   }
   div {
     div {

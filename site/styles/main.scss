@@ -191,8 +191,8 @@ s72-classification-label {
       display: none;
     }
     .s72-classification-label {
-      color: rgba($body-color, 0.5); // Light Theme
-      border: 1px solid rgba($body-color, 0.5); // Light Theme
+      color: rgba($body-color, 0.5); 
+      border: 1px solid rgba($body-color, 0.5); 
       font-weight: 800;
       font-size: 12px;
       padding: 1px 5px;
@@ -215,7 +215,7 @@ s72-classification-label {
 
 .meta-detail-content .meta-detail-tagline-and-classification .meta-item-tagline {
     font-weight: 600;
-    color: rgba($body-color, 0.5); // Light Theme
+    color: rgba($body-color, 0.5); 
     margin-bottom: 0;
     align-self: center;
 }

@@ -68,7 +68,7 @@
         transition: opacity .25s ease-in;
         flex-direction: column;
         justify-content: space-between;
-        background: rgba($body-bg, 0.7); // Light Theme
+        background: rgba($body-bg, 0.7); 
         @extend .d-flex;
         .buttons {
           width: 100%;
