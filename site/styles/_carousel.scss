@@ -259,10 +259,6 @@ s72-carousel {
   @extend .d-flex;
   justify-content: center;
   flex-direction: column;
-  @include media-breakpoint-up(md){
-    top: 53%;
-    background: none;
-  }
   &.left {
     left: 0;
     right: auto;
