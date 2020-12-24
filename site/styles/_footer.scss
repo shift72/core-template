@@ -108,12 +108,11 @@ footer {
   a {
     padding: 3px 0 6px 0;
 		margin: 0;
-		
 		.footer-festivalscope-logo {
-			filter: invert($footer-fs-invert-percentage);
+			@include setFilter;
 		}
 		&:hover .footer-festivalscope-logo  {
-			filter: invert($footer-fs-invert-percentage-hover);
+			filter: invert($footer-theme-fs-logo-invert);
 		}
   }
 }

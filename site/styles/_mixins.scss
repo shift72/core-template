@@ -23,3 +23,23 @@
     z-index: 8;
     @include gradient-x( rgba($left-gradient-bg-color, 1), transparent, 0%, 100%);
 }
+
+// Converts hex code to rgb colour channels and adds them together.
+@function rbgAdd($hex) {
+    $red: red($hex);
+    $green: green($hex);
+    $blue: blue($hex);
+    $result: $red + $green + $blue;
+    @return $result;
+}
+
+// Decides whether to invert colours based on light theme or dark theme.
+@mixin setFilter {
+    $colorTotal: rbgAdd($body-color);
+    $bgTotal: rbgAdd($body-bg);
+    @if $colorTotal > $bgTotal {
+        filter: invert(0%);
+    } @else {
+        filter: invert(100%);
+    }
+}

@@ -35,8 +35,8 @@ $container-max-widths: (
 
 $primary:         #35a0a8 !default;
 $secondary:       #4cd3dd !default;
-$body-bg:         #fff !default;
-$body-color:      #000 !default;
+$body-bg:         #000000 !default;
+$body-color:      #ffffff !default;
 $hr-border-color: rgba($body-color, .5) !default;
 $list-group-bg: $body-bg !default;
 $list-group-border-color: rgba(#fff, .125) !default;
@@ -121,8 +121,7 @@ $page-detail-padding-top-md: 153px !default;
 // Footer
 $footer-brand-min-width: 100px !default;
 $footer-brand-min-width-md: 100px !default;
-$footer-fs-invert-percentage: 100%; // Change to 100% for light theme
-$footer-fs-invert-percentage-hover: 100%;
+$footer-theme-fs-logo-invert: 100% !default;
 
 // Social
 // ------------------------------------
