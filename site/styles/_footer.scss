@@ -109,10 +109,18 @@ footer {
     padding: 3px 0 6px 0;
 		margin: 0;
 		.footer-festivalscope-logo {
-			@include setFilter;
+			@if lightness($body-color) > lightness($body-bg) {
+        filter: invert(0%);
+      } @else {
+        filter: invert(100%);
+      }
 		}
 		&:hover .footer-festivalscope-logo  {
-			filter: invert($footer-theme-fs-logo-invert);
+			@if lightness($body-color) > lightness($body-bg) {
+        filter: invert(100%);
+      } @else {
+        filter: invert(0%);
+      }
 		}
   }
 }
