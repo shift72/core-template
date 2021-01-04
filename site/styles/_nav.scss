@@ -322,7 +322,7 @@
       color: #fff;
     }
     &:hover {
-      border-color: #ced4da;
+      border-color: rgba($body-color, 0.2);
     }
   }
 }
