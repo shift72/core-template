@@ -19,6 +19,7 @@
     "hu": { "code": "hu_HU", "name": "Magyar" },
     "ee": { "code": "ee_EE", "name": "Eestlane" },
     "pl": { "code": "pl_PL", "name": "Polskie" }
+    "se":"se_SE"
   },
   "siteRootPath": "site",
   "liveReload": {
