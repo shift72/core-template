@@ -1,0 +1,1055 @@
+{
+  "site_owner": {
+   "other": "ABC Cinemas"
+  },
+  "settings_title": {
+   "other": "Settings"
+  },
+  "powered_by_name": {
+   "other": "ScreenPlus"
+  },
+  "powered_by_url": {
+   "other": "https://www.screenplus.com"
+  },
+  "en": {
+   "other": "English"
+  },
+  "fr": {
+   "other": "French"
+  },
+  "episode_name": {
+   "other": "Aflevering"
+  },
+  "season_name": {
+   "other": "Seizoen"
+  },
+  "seasons": {
+   "one": "one season",
+   "other": "{{.Count}} seasons"
+  },
+  "tvseason": {
+   "other": "{{.ShowInfo.Title}} Series {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+   "other": "{{.ShowInfo.Title}} <span>Series {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+   "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+   "other": "Series {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+   "one": "1 Episode",
+   "other": "{{.Count}} Episodes"
+  },
+  "date_day": {
+   "other": "Dag"
+  },
+  "date_month": {
+   "other": "Maand"
+  },
+  "date_year": {
+   "other": "Jaar"
+  },
+  "404_page_header": {
+   "other": "Deze pagina bestaat niet."
+  },
+  "404_page_content": {
+   "other": "<p>Sorry, het lijkt erop dat de pagina die u zoekt niet bestaat.</p><p>\n De pagina is misschien verplaatst of verwijderd, of misschien heeft u iets verkeerd gespeld.</p><p> \n Probeer terug te gaan naar de startpagina om te vinden wat u zoekt.</p><p><a href=\"{{.URL}}\">Terug naar de Startpagina</a></p>"
+  },
+  "nav_homepage": {
+   "other": "ABC Cinemas"
+  },
+  "nav_signin": {
+   "other": "Log in"
+  },
+  "nav_signup": {
+   "other": "Maak een account aan"
+  },
+  "nav_signed_in_as": {
+   "other": "Ingelogd als"
+  },
+  "nav_library": {
+   "other": "Mijn Bibliotheek"
+  },
+  "nav_devices": {
+   "other": "Mijn Apparaten"
+  },
+  "nav_wishlist": {
+   "other": "Mijn Lijst"
+  },
+  "nav_account": {
+   "other": "Mijn Account"
+  },
+  "nav_signout": {
+   "other": "Log uit"
+  },
+  "play_trailer": {
+   "other": "Trailer"
+  },
+  "runtime_hours": {
+   "other": "u"
+  },
+  "runtime_minutes": {
+   "other": "min."
+  },
+  "datetime_today": {
+   "other": "Vandaag {{.Date}}"
+  },
+  "datetime_tomorrow": {
+   "other": "Morgen {{.Date}}"
+  },
+  "datetime_yesterday": {
+   "other": "Gisteren {{.Date}}"
+  },
+  "datetime_next": {
+   "other": "Volgende {{.Date}}"
+  },
+  "datetime_last": {
+   "other": "Afgelopen {{.Date}}"
+  },
+  "search_control_placeholder": {
+   "other": "Zoek"
+  },
+  "search_control_submit": {
+   "other": "Zoekopdracht indienen"
+  },
+  "play_button_watch": {
+   "other": "Kijk nu"
+  },
+  "play_button_resume": {
+   "other": "Ga verder"
+  },
+  "social_media_buttons_title": {
+   "other": "Deel"
+  },
+  "accept_invite_page_header": {
+   "other": "Welkom op"
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+   "other": "Het lijkt erop dat u deze uitnodiging al hebt gebruikt. U dient zich hier <a href=\"{{.SigninURL}}\">in te loggen</a>.\n <a href=\"{{.ForgotPasswordURL}}\">Wachtwoord vergeten?</a>."
+  },
+  "acceptinvite_complete": {
+   "other": "Bedankt. Uw account is aangemaakt."
+  },
+  "acceptinvite_form_submit": {
+   "other": "Aanvaard uitnodiging"
+  },
+  "acceptinvite_agreement": {
+   "other": "Door te klikken op «Aanvaard uitnodiging», verklaart u dat u onze <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; voorwaarden</a> en ons<a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">privacybeleid</a> begrepen heeft en dat u ermee akkoord gaat."
+  },
+  "signup_page_header": {
+   "other": "Maak een nieuw account aan"
+  },
+  "signup_form_name": {
+   "other": "Naam"
+  },
+  "signup_form_email": {
+   "other": "E-mailadres"
+  },
+  "signup_form_password": {
+   "other": "Wachtwoord"
+  },
+  "signup_form_password_confirmation": {
+   "other": "Bevestig uw wachtwoord"
+  },
+  "signup_form_gender": {
+   "other": "Gender"
+  },
+  "signup_form_dob": {
+   "other": "Geboortedatum"
+  },
+  "signup_form_submit": {
+   "other": "Dien in"
+  },
+  "signin_page_header": {
+   "other": "Log in"
+  },
+  "signin_form_email": {
+   "other": "E-mailadres"
+  },
+  "signin_form_password": {
+   "other": "Wachtwoord"
+  },
+  "signin_form_remember": {
+   "other": "Onthoud me"
+  },
+  "signin_form_submit": {
+   "other": "Dien in"
+  },
+  "signin_page_forgotpassword": {
+   "other": "Wachtwoord vergeten?"
+  },
+  "signin_page_createnewaccount": {
+   "other": "Heeft u nog geen account? Maak hier een nieuw account aan."
+  },
+  "signup_page_alreadyhaveanaccount": {
+   "other": "Heeft u al een account? Log hier in."
+  },
+  "signup_form_error_email_already_in_use": {
+   "other": "Dit e-mailadres is al in gebruik."
+  },
+  "signin_form_error_incorrect_credentials": {
+   "other": "De gebruikersnaam of het wachtwoord is niet correct."
+  },
+  "signin_form_error_ip_throttled": {
+   "other": "You have failed to sign in too many times. Please try again later."
+  },
+  "signin_form_error_account_suspended": {
+   "other": "Your account has been temporarily suspended. Please contact an admin if you believe this is in error."
+  },
+  "signup_form_error_forbidden": {
+   "other": "Er is een fout opgetreden."
+  },
+  "combined_auth_continue": {
+   "other": "Ga verder"
+  },
+  "combined_auth_change": {
+   "other": "verander"
+  },
+  "combined_auth_signin": {
+   "other": "Log in"
+  },
+  "combined_auth_signup": {
+   "other": "Maak een account aan"
+  },
+  "combined_auth_signin_password": {
+   "other": "Vul uw wachtwoord in om in te loggen."
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+   "other": "Het wachtwoord is niet correct."
+  },
+  "combined_auth_error_forbidden": {
+   "other": "Er is een fout opgetreden."
+  },
+  "forgotpassword_page_header": {
+   "other": "Stel uw wachtwoord opnieuw in"
+  },
+  "forgotpassword_form_email": {
+   "other": "E-mailadres"
+  },
+  "forgotpassword_form_submit": {
+   "other": "Stel opnieuw in"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+   "other": "Er bestaat geen account dat overeenkomt met dit e-mailadres."
+  },
+  "forgotpassword_form_error_account_suspended": {
+   "other": "Dit account is opgeschort"
+  },
+  "forgotpassword_complete": {
+   "other": "Bedankt. Er zou binnenkort een e-mail over het opnieuw instellen van uw wachtwoord in uw inbox moeten verschijnen."
+  },
+  "forgotpassword_form_error_forbidden": {
+   "other": "Er is een fout opgetreden."
+  },
+  "resetpassword_page_header": {
+   "other": "Verander uw wachtwoord"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+   "other": "Het lijkt erop dat het verzoek voor het opnieuw instellen van uw wachtwoord ongeldig is, vul het <a href=\"{{.URL}}\">Wachtwoord vergeten</a> formulier opnieuw in."
+  },
+  "resetpassword_form_password": {
+   "other": "Nieuw wachtwoord"
+  },
+  "resetpassword_form_password2": {
+   "other": "Bevestig uw nieuw wachtwoord"
+  },
+  "resetpassword_form_submit": {
+   "other": "Verander"
+  },
+  "resetpassword_complete": {
+   "other": "Bedankt. Uw wachtwoord is veranderd en u bent ingelogd."
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+   "other": "Het verzoek om uw wachtwoord opnieuw in te stellen is ongeldig. Probeer het later nog eens."
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+   "other": "Het token om het wachtwoord opnieuw in te stellen is ongeldig. Probeer het later nog eens."
+  },
+  "account_page_header": {
+   "other": "Mijn Account"
+  },
+  "account_form_name": {
+   "other": "Naam"
+  },
+  "account_form_email": {
+   "other": "E-mailadres"
+  },
+  "account_form_password": {
+   "other": "Wachtwoord"
+  },
+  "account_form_change_password": {
+   "other": "Verander"
+  },
+  "account_form_gender": {
+   "other": "Gender"
+  },
+  "account_form_dob": {
+   "other": "Geboortedatum"
+  },
+  "account_form_submit": {
+   "other": "Bijwerken"
+  },
+  "account_form_submitted": {
+   "other": "Bijgewerkt"
+  },
+  "account_form_password_changed": {
+   "other": "Bijgewerkt"
+  },
+  "account_form_error_incorrect_password": {
+   "other": "Dit wachtwoord is niet correct."
+  },
+  "account_form_pin_code": {
+   "other": "PIN"
+  },
+  "account_form_pin_code_not_set": {
+   "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles."
+  },
+  "account_form_set_pin": {
+   "other": "Set PIN"
+  },
+  "account_form_pin_changed": {
+   "other": "Updated"
+  },
+  "account_form_change_pin": {
+   "other": "Change PIN"
+  },
+  "user_set_pin_header": {
+   "other": "Set your PIN"
+  },
+  "user_set_pin_button": {
+   "other": "Set PIN"
+  },
+  "user_submit_pin_heading": {
+   "other": "Enter your PIN to {{.Action}} this restricted content"
+  },
+  "user_error_wrong_pin_retry": {
+   "other": "Oops, you have entered an incorrect PIN"
+  },
+  "user_error_too_many_pin_errors": {
+   "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>"
+  },
+  "user_submit_pin_button": {
+   "other": "Enter"
+  },
+  "user_reset_pin_button": {
+   "other": "Reset PIN"
+  },
+  "signup_form_optin": {
+   "other": "Schrijf u in voor onze nieuwsbrief"
+  },
+  "passwordconfirmation_modal_header": {
+   "other": "Bevestig uw wachtwoord"
+  },
+  "passwordconfirmation_modal_label": {
+   "other": "Gelieve uw wachtwoord in te voeren om de veranderingen bij te werken."
+  },
+  "passwordconfirmation_modal_confirm": {
+   "other": "Bevestigen"
+  },
+  "changepassword_modal_header": {
+   "other": "Verander uw wachtwoord"
+  },
+  "changepassword_modal_currentpassword": {
+   "other": "Uw huidig wachtwoord"
+  },
+  "changepassword_modal_password": {
+   "other": "Uw nieuw wachtwoord"
+  },
+  "changepassword_modal_password2": {
+   "other": "Bevestig uw nieuw wachtwoord"
+  },
+  "changepassword_modal_submit": {
+   "other": "Bijwerken"
+  },
+  "changepassword_modal_error_incorrect_password": {
+   "other": "Dit wachtwoord is niet correct."
+  },
+  "userlibrary_page_header": {
+   "other": "Mijn Bibliotheek"
+  },
+  "userlibrary_empty_header": {
+   "other": "Uw bibliotheek is leeg."
+  },
+  "userlibrary_empty_content": {
+   "other": "U kunt uw bibliotheek aanvullen met <a href=\"{{.HomeURL}}\">onze geweldige selectie films</a>"
+  },
+  "searchresults_page_header": {
+   "other": "Zoekresultaten"
+  },
+  "searchresults_load_more": {
+   "other": "Laad {{.Count}} meer"
+  },
+  "searchresults_total": {
+   "one": "Vond 1 resultaat voor \"{{.Query}}\".",
+   "other": "Vond {{.Count}} resultaten voor \"{{.Query}}\"."
+  },
+  "searchresults_empty_header": {
+   "other": "Geen zoekresultaten gevonden voor \"{{.Query}}\""
+  },
+  "searchresults_empty_content": {
+   "other": "Probeer een andere zoekopdracht of <a href=\"{{.HomeURL}}\">blader door onze inhoud</a> om te vinden wat u zoekt."
+  },
+  "validation_name_required": {
+   "other": "Voer uw naam in."
+  },
+  "validation_email_required": {
+   "other": "Voer uw e-mailadres in."
+  },
+  "validation_email_email": {
+   "other": "Voer een geldig e-mailadres in."
+  },
+  "validation_currentpassword_required": {
+   "other": "Voer uw huidige wachtwoord in."
+  },
+  "validation_password_required": {
+   "other": "Voer een wachtwoord in."
+  },
+  "validation_password2_required": {
+   "other": "Bevestig uw wachtwoord."
+  },
+  "validation_password2_match": {
+   "other": "Uw wachtwoorden komen niet overeen."
+  },
+  "validation_password_minlength": {
+   "other": "Gebruik ten minste {{.Count}} tekens."
+  },
+  "validation_promocode_required": {
+   "other": "Voer een promotiecode in."
+  },
+  "validation_pincode_required": {
+   "other": "Please enter a PIN code."
+  },
+  "validation_gender_required": {
+   "other": "Selecteer het gender waar u zich het meest mee identificeert."
+  },
+  "validation_dob_required": {
+   "other": "Voer uw geboortedatum in."
+  },
+  "validation_dob_date": {
+   "other": "Voer een geldige geboortedatum in."
+  },
+  "shopping_info_subtitle_hd": {
+   "other": "HD Video on Demand."
+  },
+  "shopping_info_subtitle_sd": {
+   "other": "SD Video on Demand."
+  },
+  "shopping_info_subtitle_wallet": {
+   "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus."
+  },
+  "shopping_info_subtitle_help": {
+   "other": "Meer info over de systeemvereisten"
+  },
+  "shopping_info_ownership_buy": {
+   "other": "koop"
+  },
+  "shopping_info_ownership_rent": {
+   "other": "huur"
+  },
+  "shopping_info_sd_only": {
+   "other": "Limited to SD playback only."
+  },
+  "shopping_info_release_date_title": {
+   "other": "Komt uit op {{.Date}}."
+  },
+  "shopping_info_release_date_explanation_rent": {
+   "other": "U kunt deze film nu al huren, maar u kunt hem pas vanaf dan bekijken."
+  },
+  "shopping_info_release_date_explanation_buy": {
+   "other": "U kunt deze film nu al kopen, maar u kunt hem pas vanaf dan bekijken."
+  },
+  "shopping_info_available_until_date_title": {
+   "other": "Beschikbaar tot {{.Date}}."
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+   "other": "U zult de inhoud hierna niet meer kunnen bekijken."
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+   "other": "U zult de inhoud hierna niet meer kunnen bekijken."
+  },
+  "shopping_info_rental_period_duration": {
+   "other": "U kunt de film nog gedurende {{.Count}} dagen bekijken."
+  },
+  "shopping_info_watch_window_duration": {
+   "other": "U kunt de film nog gedurende {{.Count}} uur (her)bekijken"
+  },
+  "shopping_info_watch_window_explanation_film": {
+   "one": "Eenmaal gehuurd, zal de film gedurende 1 dag beschikbaar zijn in uw bibliotheek.",
+   "other": "Eenmaal gehuurd, zal de film gedurende {{.Count}} dagen beschikbaar zijn in uw bibliotheek."
+  },
+  "shopping_info_watch_window_explanation2_film": {
+   "one": "Zodra u op play klikt, begint de film en heeft u 1 uur de tijd om deze zo vaak als u wenst te herbekijken.",
+   "other": "Zodra u op play klikt, begint de film en heeft u {{.Count}} uur de tijd om deze zo vaak als u wenst te herbekijken."
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+   "one": "Eenmaal gehuurd, zullen de items in uw bundel gedurende 1 dag beschikbaar zijn in uw bibliotheek.",
+   "other": "Eenmaal gehuurd, zullen de items in uw bundel gedurende {{.Count}} dagen beschikbaar zijn in uw bibliotheek."
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+   "one": "Zodra u op play drukt bij een bepaalde film, begint deze en heeft u 1 uur tijd om deze zo vaak als u wenst te herbekijken.",
+   "other": "Zodra u op play drukt bij een bepaalde film, begint deze en heeft u {{.Count}} uur tijd om deze zo vaak als u wenst te herbekijken."
+  },
+  "shopping_info_watch_window_explanation_season": {
+   "one": "Eenmaal gehuurd, zal het seizoen gedurende 1 dag beschikbaar zijn in uw bibliotheek.",
+   "other": "Eenmaal gehuurd, zal het seizoen gedurende {{.Count}} dagen beschikbaar zijn in uw bibliotheek."
+  },
+  "shopping_info_watch_window_explanation2_season": {
+   "one": "Zodra u op play drukt, begint de serie en heeft u 1 uur de tijd om deze zo vaak als u wilt te bekijken.",
+   "other": "Zodra u op play drukt, begint de serie en heeft u {{.Count}} uur de tijd om deze zo vaak als u wilt te bekijken."
+  },
+  "shopping_info_credit_bonus_title": {
+   "other": "{{.BonusPercentage}}% Bonus"
+  },
+  "shopping_enter_card_prompt": {
+   "other": "Vul hieronder uw kredietkaartgegevens in om uw {{.Verb}} af te ronden."
+  },
+  "shopping_terms": {
+   "other": "Door deze transactie af te ronden, ga ik akkoord met de <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">voorwaarden</a>."
+  },
+  "shopping_discount_applied": {
+   "other": "{{.DiscountAmount}} korting toegepast."
+  },
+  "shopping_discount_apply": {
+   "other": "Toepassen"
+  },
+  "shopping_discount_code": {
+   "other": "Voer een promotiecode in."
+  },
+  "shopping_discount_have_code": {
+   "other": "Ik heb een promotiecode."
+  },
+  "shopping_price_you_pay": {
+   "other": "U betaalt"
+  },
+  "shopping_price_nothing": {
+   "other": "Niets"
+  },
+  "shopping_price_free": {
+   "other": "Gratis"
+  },
+  "shopping_auth_directions": {
+   "other": "U heeft eerst een account nodig. Gelieve uw e-mailadres in te vullen."
+  },
+  "shopping_error_in_library": {
+   "other": "{{.Title}} staat al in uw bibliotheek."
+  },
+  "shopping_error_missing_card": {
+   "other": "Gelieve uw kredietkaartgegevens in te vullen."
+  },
+  "shopping_error_title": {
+   "other": "Er is een fout opgetreden."
+  },
+  "shopping_error_incorrect_cvc": {
+   "other": "Gelieve een geldige veiligheidscode (CVC) in te voeren."
+  },
+  "shopping_error_invalid_cvc": {
+   "other": "Gelieve een geldige veiligheidscode (CVC) in te voeren."
+  },
+  "shopping_error_incorrect_number": {
+   "other": "Gelieve een geldig kaartnummer in te voeren."
+  },
+  "shopping_error_invalid_number": {
+   "other": "Gelieve een geldig kaartnummer in te voeren."
+  },
+  "shopping_error_card_declined": {
+   "other": "De kredietkaart is geweigerd."
+  },
+  "shopping_error_invalid_expiry_month": {
+   "other": "Gelieve een geldige vervaldatum in te vullen."
+  },
+  "shopping_error_invalid_expiry_year": {
+   "other": "Gelieve een geldige vervaldatum in te vullen."
+  },
+  "shopping_error_expired_card": {
+   "other": "De kredietkaart is vervallen."
+  },
+  "shopping_error_creditcard_country_mismatch": {
+   "other": "Uw {{.Ownership}} is niet voltooid. U moet zich in het land van afgifte van uw kredietkaart bevinden. Gelieve een andere kaart te gebruiken voor de betaling."
+  },
+  "shopping_error_proxy_detected": {
+   "other": "Uw {{.Ownership}} is niet voltooid. We hebben ontdekt dat u een unblocker of proxy gebruikt. Schakel alstublieft een van deze diensten uit en probeer het opnieuw."
+  },
+  "shopping_error_discount_worn_out": {
+   "other": "That promo code can no longer be used."
+  },
+  "shopping_error_discount_blank": {
+   "other": "Gelieve een promotiecode in te voeren."
+  },
+  "shopping_error_discount_not_applied": {
+   "other": "Gelieve een geldige promotiecode in te voeren."
+  },
+  "shopping_error_discount_invalid": {
+   "other": "Gelieve een geldige promotiecode in te voeren."
+  },
+  "shopping_error_discount_disabled": {
+   "other": "Gelieve een geldige promotiecode in te voeren."
+  },
+  "shopping_error_discount_already_applied": {
+   "other": "Er is al een promotiecode gebruikt geweest voor deze sessie."
+  },
+  "shopping_error_discount_already_redeemed": {
+   "other": "Deze promotiecode werd reeds gebruikt."
+  },
+  "shopping_error_discount_used_previously": {
+   "other": "Deze promotiecode werd reeds gebruikt."
+  },
+  "shopping_error_discount_max_limit": {
+   "other": "Deze promotiecode kan niet langer gebruikt worden."
+  },
+  "shopping_error_discount_expired": {
+   "other": "Deze promotiecode is vervallen."
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+   "other": "Deze promotiecode kan niet gebruikt worden bij een aankoop."
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+   "other": "Deze promotiecode kan niet gebruikt worden bij het huren."
+  },
+  "shopping_error_discount_invalid_item": {
+   "other": "Deze promotiecode kan niet gebruikt worden voor dit artikel."
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+   "other": "Deze promotiecode kan niet gebruikt worden in uw land."
+  },
+  "shopping_error_discounts_not_allowed": {
+   "other": "Deze promotiecode kan niet gebruikt worden."
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+   "other": "Deze promotiecode kan niet gebruikt worden voor bundels."
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+   "other": "De kredietkaart is geweigerd. Gelieve opnieuw te proberen."
+  },
+  "shopping_complete_rental": {
+   "other": "Gelukt !"
+  },
+  "shopping_complete_rental_period": {
+   "one": "U kunt het item nu de volgende dag zo vaak als u wenst herbekijken.",
+   "other": "U kunt het item nu de komende {{.Count}} dagen zo vaak als u wenst herbekijken."
+  },
+  "shopping_complete_purchase": {
+   "other": "Bedankt voor uw aankoop van {{.Title}}"
+  },
+  "shopping_complete_credit_purchase": {
+   "other": "Bedankt voor uw aankoop van {{.Title}}. {{.CreditTotal}} is toegevoegd aan uw account."
+  },
+  "shopping_complete_purchase_coming_soon": {
+   "other": "U kunt de film bekijken vanaf {{.Date}}."
+  },
+  "shopping_complete_receipt": {
+   "other": "Er werd een ontvangstbewijs naar uw e-mailadres verstuurd."
+  },
+  "shopping_complete_library_link": {
+   "other": "Begin nu met het bekijken van een van de {{{.BundleItems}} in je bibliotheek."
+  },
+  "shopping_complete_rental_watch_window_start": {
+   "one": "U kunt nu binnen de volgende dag beginnen met kijken.",
+   "other": "U kunt nu binnen de komende {{.Count}} dagen beginnen met kijken."
+  },
+  "shopping_complete_rental_watch_window_end": {
+   "one": "Wanneer de film begint, heeft u 1 uur de tijd om het item zo vaak als u wilt te bekijken.",
+   "other": "Wanneer de film begint, heeft u {{.Count}} uur de tijd om het item zo vaak als u wilt te bekijken."
+  },
+  "shopping_complete_rental_coming_soon": {
+   "one": "U kunt het gehuurde item vanaf {{.Date}} bekijken. De titel blijft 1 dag beschikbaar.",
+   "other": "U kunt het gehuurde item vanaf {{.Date}} bekijken. De titel blijft {{.Count}} dagen beschikbaar."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+   "one": "U kunt het gehuurde item vanaf {{.Date}} bekijken. De titel blijft 1 dag beschikbaar.",
+   "other": "U kunt het gehuurde item vanaf {{.Date}} bekijken. De titel blijft {{.Count}} dagen beschikbaar."
+  },
+  "shopping_action_rent": {
+   "other": "Huur"
+  },
+  "shopping_action_buy": {
+   "other": "Koop"
+  },
+  "meta_detail_cast_title": {
+   "other": "Cast"
+  },
+  "meta_detail_crew_title": {
+   "other": "Crew"
+  },
+  "meta_detail_languages": {
+   "one": "Taal",
+   "other": "Talen"
+  },
+  "meta_detail_studios": {
+   "one": "Studio",
+   "other": "Studio's"
+  },
+  "meta_detail_countries": {
+   "one": "Land",
+   "other": "Landen"
+  },
+  "meta_detail_subtitles": {
+   "other": "Ondertitels"
+  },
+  "meta_detail_episodes_title": {
+   "other": "Afleveringen"
+  },
+  "meta_detail_bonus_title": {
+   "other": "Bonusinhoud"
+  },
+  "meta_detail_recommendations_title": {
+   "other": "Dit vindt u misschien ook leuk"
+  },
+  "meta_detail_bundle_items_title": {
+   "other": "Inhoud van de bundel"
+  },
+  "bundle_items_all_films": {
+   "other": "{{.Count}} films"
+  },
+  "bundle_items_all_seasons": {
+   "other": "{{.Count}} seizoenen"
+  },
+  "bundle_items_mixed": {
+   "other": "{{.Count}} films and seizoenen"
+  },
+  "userwishlist_page_header": {
+   "other": "Mijn Lijst"
+  },
+  "userwishlist_slider_header": {
+   "other": "Mijn Lijst"
+  },
+  "userwishlist_empty_header": {
+   "other": "Uw lijst is leeg."
+  },
+  "userwishlist_empty_content": {
+   "other": "U kunt uw lijst aanvullen met <a href=\"{{.HomeURL}}\">onze geweldige selectie films</a>"
+  },
+  "userwishlist_button_add": {
+   "other": "Toevoegen aan Mijn Lijst"
+  },
+  "userwishlist_button_remove": {
+   "other": "Mijn Lijst"
+  },
+  "userwishlist_button_add_compact": {
+   "other": "Mijn Lijst"
+  },
+  "userwishlist_button_remove_compact": {
+   "other": "Mijn Lijst"
+  },
+  "activatedevice_page_header": {
+   "other": "Activate Device"
+  },
+  "activatedevice_page_content": {
+   "other": "Follow the instructions on your device to get a PIN code. Your computer and device must both be connected to the internet to activate."
+  },
+  "activatedevice_form_pin": {
+   "other": "PIN Code"
+  },
+  "activatedevice_form_submit": {
+   "other": "Activate"
+  },
+  "activatedevice_form_error_invalid_code": {
+   "other": "PIN Code not found, please try again."
+  },
+  "activatedevice_form_error_pin_not_found": {
+   "other": "PIN Code not found, please try again."
+  },
+  "activatedevice_signin_prompt": {
+   "other": "Please sign in before activating your device."
+  },
+  "activatedevice_page_activated": {
+   "other": "Thank you for activating {{.DeviceName}}. You should now be able to browse your library on your television or device."
+  },
+  "userdevices_page_header": {
+   "other": "Apparaten"
+  },
+  "userdevices_page_content": {
+   "one": "Apparaten worden hier automatisch toegevoegd wanneer u ze gebruikt. U kunt 1 apparaat gebruiken.",
+   "other": "Apparaten worden hier automatisch toegevoegd wanneer u ze gebruikt. U kunt {{.Count}} apparaten gebruiken."
+  },
+  "userdevices_empty_content": {
+   "other": "U heeft momenteel 0 geregistreerde apparaten."
+  },
+  "userdevices_header_type": {
+   "other": "Type apparaat"
+  },
+  "userdevices_header_description": {
+   "other": "Beschrijving"
+  },
+  "userdevices_device_added": {
+   "other": "Op {{.Date}} toegevoegd"
+  },
+  "userdevices_device_actions_delete": {
+   "other": "Verwijderen"
+  },
+  "userdevices_device_actions_cancel": {
+   "other": "Annuleren"
+  },
+  "userdevices_device_actions_confirm": {
+   "other": "Ja, verwijder apparaat"
+  },
+  "userdevices_device_deleted": {
+   "other": "(Verwijderd)"
+  },
+  "userdevices_delete_limits": {
+   "other": "userdevices_delete_limits"
+  },
+  "userdevices_delete_limit_reached": {
+   "other": "userdevices_delete_limit_reached"
+  },
+  "playlist_page_header": {
+   "other": "Playlist"
+  },
+  "playlist_sign_in_warning": {
+   "other": "Please sign in to watch live TV."
+  },
+  "playlist_share_title": {
+   "other": "Playlist"
+  },
+  "playlist_up_next_title": {
+   "other": "Up Next"
+  },
+  "pricing_ownership_buy": {
+   "other": "Koop"
+  },
+  "pricing_ownership_rent": {
+   "other": "Huur"
+  },
+  "classification_intro": {
+   "other": "Classificatie:"
+  },
+  "classification_divider": {
+   "other": " - "
+  },
+  "classification_outro": {
+   "other": ""
+  },
+  "cookie_banner_message": {
+   "other": "Deze site gebruikt cookies om uw surfervaring te verbeteren. Door deze site te gebruiken, gaat u akkoord met <a href=\"{{.CookiePolicyURL}}\">het gebruik van cookies</a>."
+  },
+  "cookie_banner_accept": {
+   "other": "Ik ga akkoord"
+  },
+  "all_rights_reserved": {
+   "other": "Alle rechten voorbehouden. Niets van deze site mag worden gereproduceerd zonder onze schriftelijke toestemming."
+  },
+  "users_gender_none": {
+   "other": "Niet gespecificeerd"
+  },
+  "users_gender_female": {
+   "other": "Vrouw"
+  },
+  "users_gender_male": {
+   "other": "Man"
+  },
+  "users_gender_diverse": {
+   "other": "Non-binair"
+  },
+  "users_gender_other": {
+   "other": "Ander"
+  },
+  "plan_label_owned": {
+   "other": ""
+  },
+  "pricing_quality_hd": {
+   "other": "pricing_quality_hd"
+  },
+  "pricing_quality_sd": {
+   "other": "pricing_quality_sd"
+  },
+  "pricing_quality_hd_only": {
+   "other": "pricing_quality_hd_only"
+  },
+  "pricing_quality_sd_only": {
+   "other": "pricing_quality_sd_only"
+  },
+  "shopping_card_save_card": {
+   "other": "Save this card for future use"
+  },
+  "shopping_card_button_change": {
+   "other": "Show all saved cards"
+  },
+  "shopping_card_existing_description": {
+   "other": "{{.Card.Brand}} ending in {{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+   "other": "(expires {{.Card.Expiry}})"
+  },
+  "shopping_card_existing_expired": {
+   "other": "(expired)"
+  },
+  "shopping_card_use_other": {
+   "other": "Use a new card"
+  },
+  "shopping_card_use_new_card": {
+   "other": "Change card"
+  },
+  "shopping_card_update_reason_none": {
+   "other": "shopping_card_update_reason_none"
+  },
+  "shopping_card_new_subscription": {
+   "other": "This card will saved and be charged regularly"
+  },
+  "shopping_card_change": {
+   "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>"
+  },
+  "shopping_info_ownership_plan": {
+   "other": "shopping_info_ownership_plan"
+  },
+  "shopping_price_title_plan": {
+   "other": "shopping_price_title_plan"
+  },
+  "shopping_price_plan_note": {
+   "other": "shopping_price_plan_note"
+  },
+  "shopping_price_plan_note_interval": {
+   "other": "shopping_price_plan_note_interval"
+  },
+  "shopping_enter_card_prompt_plan": {
+   "other": "shopping_enter_card_prompt_plan"
+  },
+  "shopping_action_credit": {
+   "other": "shopping_action_credit"
+  },
+  "shopping_action_plan": {
+   "other": "shopping_action_plan"
+  },
+  "shopping_complete_subscription": {
+   "other": "shopping_complete_subscription"
+  },
+  "shopping_complete_subscription_browse": {
+   "other": "shopping_complete_subscription_browse"
+  },
+  "shopping_info_rental_period_coming_soon": {
+   "other": "vanaf de releasedatum."
+  },
+  "shopping_info_plan_offer": {
+   "other": "shopping_info_plan_offer"
+  },
+  "shopping_info_trial_period_offer": {
+   "other": "shopping_info_trial_period_offer"
+  },
+  "usersubscriptions_change_payment_method_change": {
+   "other": "usersubscriptions_change_payment_method_change"
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+   "other": "usersubscriptions_change_payment_method_modal_title"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+   "other": "usersubscriptions_change_payment_method_modal_submit"
+  },
+  "usersubscriptions_subscription_expiry": {
+   "other": "usersubscriptions_subscription_expiry"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+   "other": "usersubscriptions_subscription_status_cancelled"
+  },
+  "usersubscriptions_subscription_status_errored": {
+   "other": "usersubscriptions_subscription_status_errored"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+   "other": "usersubscriptions_subscription_status_past_due"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+   "other": "usersubscriptions_subscription_status_trialing"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+   "other": "usersubscriptions_subscription_unsubscribe"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+   "other": "usersubscriptions_unsubscribe_modal_cancel"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+   "other": "usersubscriptions_unsubscribe_modal_confirm"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+   "other": "usersubscriptions_unsubscribe_modal_title"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+   "other": "usersubscriptions_unsubscribe_modal_body"
+  },
+  "availability_coming_soon": {
+   "other": "Binnenkort"
+  },
+  "availability_renting": {
+   "other": "Huren"
+  },
+  "availability_not_available": {
+   "other": "Niet beschikbaar"
+  },
+  "availability_in_watch_window": {
+   "other": "Beschikbaar"
+  },
+  "availability_sold_out": {
+   "other": "Uitverkocht"
+  },
+  "availability_available_till": {
+   "other": "Beschikbaar tot {{.ExpiryDate}}"
+  },
+  "availability_not_available_in_country": {
+   "other": "Niet beschikbaar"
+  },
+  "availability_available": {
+   "other": "Beschikbaar vanaf {{.ReleaseDate}}"
+  },
+  "availability_expires": {
+   "other": "Expires {{.Expiry}}"
+  },
+  "availability_expired": {
+   "other": "Expired"
+  },
+  "modal_cancel": {
+   "other": "Annuleren"
+  },
+  "play": {
+   "other": "Play"
+  },
+  "combined_auth_signin_prompt": {
+   "other": "Log in"
+  },
+  "combined_auth_signup_prompt": {
+   "other": "Registreren"
+  },
+  "combined_auth_terms": {
+   "other": "Ik ga akkoord met alle <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; voorwaarden</a>."
+  },
+  "signup_terms": {
+   "other": "Ik ga akkoord met alle <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; voorwaarden</a>."
+  },
+  "validation_terms_required": {
+   "other": "U moet akkoord gaan met de voorwaarden."
+  },
+  "shopping_error_item_limit_exceeded": {
+   "other": "Jammer genoeg is {{.Title} uitverkocht."
+  },
+  "changepincode_modal_header": {
+   "other": "Change your PIN"
+  },
+  "changepincode_modal_currentpassword": {
+   "other": "Your current password"
+  },
+  "changepincode_modal_pincode1": {
+   "other": "Your new 4 digit PIN"
+  },
+  "changepincode_modal_pincode2": {
+   "other": "Confirm your new 4 digit PIN"
+  },
+  "changepincode_modal_submit": {
+   "other": "Set PIN"
+  },
+  "changepincode_modal_error_wrong_password": {
+   "other": "That password is incorrect."
+  },
+  "user_set_pin_intro": {
+   "other": "You need a PIN to {{.Action}} restricted content"
+  },
+  "user_error_wrong_pin_reset": {
+   "other": "Click here to reset your PIN"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+   "other": ""
+  },
+  "shopping_error_age_restricted": {
+   "other": "This content is age restricted."
+  },
+  "shopping_error_close_button": {
+   "other": "OK"
+  }
+ }
