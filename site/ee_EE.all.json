@@ -40,7 +40,7 @@
     "date_year": { "other": "Aasta" },
   
     "404_page_header": { "other": "Lehte ei leitud..." },
-    "404_page_content": { "other": "<p>Vabandame, näib, otsitud lehte ei eksisteeri.</p><p>Selle asukoht võib olla muutunud või on see kustutatud. Või tegid sa kirjutamisel vea.</p><p>Proovi minna tagasi avalehele ja otsi uuesti.</p><p><a href=\"/\">Tagasi lehele.</a></p>" },
+    "404_page_content": { "other": "<p>Vabandame, näib, otsitud lehte ei eksisteeri.</p><p>Selle asukoht võib olla muutunud või on see kustutatud. Või tegid sa kirjutamisel vea.</p><p>Proovi minna tagasi avalehele ja otsi uuesti.</p><p><a href=\"{{.URL}}\">Tagasi lehele.</a></p>" },
   
   
     "nav_homepage": { "other": "ABC Cinemas" },
@@ -71,10 +71,10 @@
     "social_media_buttons_title": { "other": "Jaga" },
   
     "accept_invite_page_header": { "other": "Tere tulemast " },
-    "acceptinvite_form_invalid_reset_password_token": { "other": "Näib, et sa oled kutse juba vastu võtnud. Sa peaksid hoopis <a href=\"signin.html\">sisse logima</a>. Kui oled salasõna unustanud, saad selle <a href=\"forgotpassword.html\">uuendada</a>." },
+    "acceptinvite_form_invalid_reset_password_token": { "other": "Näib, et sa oled kutse juba vastu võtnud. Sa peaksid hoopis <a href=\"{{.SigninURL}}\">sisse logima</a>. Kui oled salasõna unustanud, saad selle <a href=\"{{.ForgotPasswordURL}}\">uuendada</a>." },
     "acceptinvite_complete": { "other": "Aitäh! Sinu konto on loodud." },
     "acceptinvite_form_submit": { "other": "Võta kutse vastu." },
-    "acceptinvite_agreement": { "other": "Vajutades Võta kutse vastu kinnitad, et oled lugenud ja nõustud <a href=\"/page/terms-and-conditions/\" target=\"_blank\">kasutustingimustega</a> ja <a href=\"/page/privacy/\" target=\"_blank\">privaatsustingimustega</a>." },
+    "acceptinvite_agreement": { "other": "Vajutades Võta kutse vastu kinnitad, et oled lugenud ja nõustud <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">kasutustingimustega</a> ja <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">privaatsustingimustega</a>." },
   
     "signup_page_header": { "other": "Loo uus konto" },
     "signup_form_name": { "other": "Nimi" },
@@ -152,7 +152,7 @@
   
     "userlibrary_page_header": { "other": "Minu filmid" },
     "userlibrary_empty_header":  { "other": "Otsingu tulemused" },
-    "userlibrary_empty_content": { "other": "Täida nimekiri meie <a href=\"/\">valikust</a>. " },
+    "userlibrary_empty_content": { "other": "Täida nimekiri meie <a href=\"{{.HomeURL}}\">valikust</a>. " },
   
     "searchresults_page_header": { "other": "Search Results" },
     "searchresults_load_more": { "other": "Lae {{.Count}} veel" },
@@ -161,7 +161,7 @@
       "other": "Leitud {{.Count}} vastust otsingule \"{{.Query}}\"."
     },
     "searchresults_empty_header":  { "other": "Otsingule \"{{.Query}}\" ei leitud vastuseid" },
-    "searchresults_empty_content": { "other": "Proovi uut otsingut või <a href=\"/\">lehitse</a>." },
+    "searchresults_empty_content": { "other": "Proovi uut otsingut või <a href=\"{{.HomeURL}}\">lehitse</a>." },
   
     "validation_name_required": { "other": "Palun sisesta oma nimi." },
     "validation_email_required": { "other": "Palun sisesta oma e-posti aadress." },
@@ -223,7 +223,7 @@
   
     "shopping_enter_card_prompt": { "other": "Sisesta oma krediitkaardi andmed, et lõpetada {{.Verb}}." },
   
-    "shopping_terms": { "other": "Tehingu lõpetamisel nõustud <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">kasutustingimustega</a>."},
+    "shopping_terms": { "other": "Tehingu lõpetamisel nõustud <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">kasutustingimustega</a>."},
     "shopping_discount_applied": { "other": "{{.DiscountAmount}} soodustus on rakendatud." },
     "shopping_discount_apply": { "other": "Rakenda" },
     "shopping_discount_code": { "other": "Sisesta sooduskood." },
@@ -316,7 +316,7 @@
     "userwishlist_page_header": { "other": "Minu nimekiri" },
     "userwishlist_slider_header": { "other": "Minu nimekiri" },
     "userwishlist_empty_header":  { "other": "Sinu nimekiri on tühi." },
-    "userwishlist_empty_content": { "other": "Täida see <a href=\"/\">meie valikust</a>." },
+    "userwishlist_empty_content": { "other": "Täida see <a href=\"{{.HomeURL}}\">meie valikust</a>." },
     "userwishlist_button_add": { "other": "Lisa minu nimekirja" },
     "userwishlist_button_remove": { "other": "Minu nimekiri" },
     "userwishlist_button_add_compact": { "other": "Minu nimekiri" },
@@ -357,7 +357,7 @@
     "classification_divider": { "other": " - " },
     "classification_outro": { "other": "" },
   
-    "cookie_banner_message": { "other": "Kasutuskogemuse parandamiseks kasutab see leht küpsiseid. Lehte edasi kasutades nõustud <a href=\"/page/cookie-policy/\">küpsiste kasutamisega</a>." },
+    "cookie_banner_message": { "other": "Kasutuskogemuse parandamiseks kasutab see leht küpsiseid. Lehte edasi kasutades nõustud <a href=\"{{.CookiePolicyURL}}\">küpsiste kasutamisega</a>." },
     "cookie_banner_accept": { "other": "I Accept" },
   
     "all_rights_reserved": { "other": "All rights reserved. No part of this site may be reproduced without our written permission." },
@@ -433,10 +433,14 @@
   
     "combined_auth_signin_prompt": { "other": "Logi sisse" },
     "combined_auth_signup_prompt": { "other": "Loo konto" },
-    "combined_auth_terms": { "other": "Nõustun kõigi <a href=\"/page/terms-and-conditions/\" target=\"_blank\">kasutustingimustega</a>." },
-    "signup_terms": { "other": "Nõustun kõigi <a href=\"/page/terms-and-conditions/\" target=\"_blank\">kasutustingimustega</a>." },
+    "combined_auth_terms": { "other": "Nõustun kõigi <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">kasutustingimustega</a>." },
+    "signup_terms": { "other": "Nõustun kõigi <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">kasutustingimustega</a>." },
     "validation_terms_required": { "other": "Sa pead nõustuma kasutustingimustega." },
     "shopping_error_item_limit_exceeded": { "other": "Kahjuks on {{.Title}} välja müüdud." },
-    "availability_expires": { "other": "Aegub {{.Expiry}}" }
+    "availability_expires": { "other": "Aegub {{.Expiry}}" },
+
+    "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+
+    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
   }
   

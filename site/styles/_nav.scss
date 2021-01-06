@@ -116,6 +116,7 @@
     }
   }
 }
+.s72-language-selector,
 .navbar-nav-user-nav {
   width: 100%;
   margin: 0 40px;
@@ -145,6 +146,10 @@
       text-align: left;
       display: inline-block;
       padding: 0.375rem 0.75rem;
+      padding-top: 8px;
+    }
+    @include media-breakpoint-up(xl) {
+      font-size: 16px;
     }
     @include hover-focus {
       color: $primary;
@@ -296,16 +301,17 @@
   top: $navbar-search-top;
   @include media-breakpoint-up(sm) {
     top: $navbar-search-top;
-    left: 50%;
-    width: 200px;
-    transform: translateX(-50%);
+    width: 150px;
     margin-right: $subnav-nav-item-margin-x;
+  }
+  @include media-breakpoint-up(md) {
+    left: 236px;
   }
   @include media-breakpoint-up(lg) {
     top: $navbar-search-top;
     left: 50%;
     transform: translateX(-50%);
-    width: 350px;
+    width: 300px;
   }
   // Header Search Form Control
   .form-control-search {

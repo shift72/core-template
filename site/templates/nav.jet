@@ -4,15 +4,15 @@
 {{block nav(showSubNav=true)}}
 <div class="navigation" data-toggle="affix">
   <nav class="navbar navbar-expand-md navbar-dark">
-      <a class="navbar-brand" href="/">{{i18n("nav_homepage")}}</a>
+      <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
       
       {{if config("search_disabled") != "true"}}
-        <form class="form-search navbar-nav-search" action="/search.html">
+        <form class="form-search navbar-nav-search" action="{{ routeToPath("/search.html") }}">
             <input class="form-control form-control-search" type="search" placeholder="{{i18n("search_control_placeholder")}}" name="q" aria-label="{{i18n("search_control_placeholder")}}">
             <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
         </form>
       {{end}}
-      
+
       <button class="navbar-toggler" type="button" toggle-function="toggleMobileMenu" s72-collapse=".navbar-collapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-navbar-toggler"></span>
       </button>
@@ -20,6 +20,7 @@
       <div class="collapse navbar-collapse">
         {{if len(site.Navigation.Header) > 0 && showSubNav}}
           <ul class="mobile-nav d-md-none">
+            <s72-language-selector></s72-language-selector>
             {{range site.Navigation.Header}}
               {{if len(.Items) > 0}}
                 <li class="nav-item title">{{.Label}}</li>
@@ -38,6 +39,7 @@
         {{end}}
 
         <div class="navbar-nav s72-hide">
+          <s72-language-selector></s72-language-selector>
         	{{ yield nav_user_logged_out() }}
         	{{ yield nav_user_logged_in() }}
         </div>

@@ -55,7 +55,8 @@
           {{end}}
             <p>
               {{range index, member := tvseason.Cast}}
-                <a href="/search.html?q={{member.Name}}">{{member.Name}}</a>{{if index < len(tvseason.Cast) - 1}}, {{end}}
+                {{ path := "/search.html?q=" + member.Name }}
+                <a href="{{ routeToPath(path) }}">{{member.Name}}</a>{{if index < len(tvseason.Cast) - 1}}, {{end}}
               {{end}}
             </p>
           </div>
@@ -63,7 +64,8 @@
             {{range index, member := tvseason.Crew}}
               <div class="crew-member">
                 <h4>{{member.Job}}</h4>
-                <a href="/search.html?q={{member.Name}}">{{member.Name}}</a>
+                {{ path := "/search.html?q=" + member.Name }}
+                <a href="{{ routeToPath(path) }}"">{{member.Name}}</a>
               </div>
             {{end}}
           </div>

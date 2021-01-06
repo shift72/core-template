@@ -6,7 +6,7 @@
     "powered_by_url": { "other": "https://www.screenplus.com" },
     "en": { "other": "English" },
     "fr": { "other": "French" },
-
+  
     "episode_name": {
       "other": "Эпизод"
     },
@@ -41,7 +41,7 @@
     "date_year": { "other": "Год" },
 
     "404_page_header": { "other": "Этой страницы не существует..." },
-    "404_page_content": { "other": "<p>К сожалению, вы ищете страницу, которая не существует.</p><p>Файл может быть перемещен или удален, или, возможно, вы что-то неправильно сделали.</p><p>Вернитесь к главной странице, чтобы найти то, что вы искали.</p><p><a href=\"/\">Вернуться на главную страницу</a></p>" },
+    "404_page_content": { "other": "<p>К сожалению, вы ищете страницу, которая не существует.</p><p>Файл может быть перемещен или удален, или, возможно, вы что-то неправильно сделали.</p><p>Вернитесь к главной странице, чтобы найти то, что вы искали.</p><p><a href=\"{{.URL}}\">Вернуться на главную страницу</a></p>" },
 
     "nav_signin": { "other": "Войти в систему" },
     "nav_signup": { "other": "Создать аккаунт" },
@@ -70,10 +70,10 @@
     "social_media_buttons_title": { "other": "Поделиться" },
 
     "accept_invite_page_header": { "other": "Добро пожаловать в " },
-    "acceptinvite_form_invalid_reset_password_token": { "other": "Вы уже подтвердили регистрацию, вам надо <a href=\"signin.html\">войти</a> . Если вы забыли свой пароль, вы можете <a href=\"forgotpassword.html\">сбросить пароль</a>." },
+    "acceptinvite_form_invalid_reset_password_token": { "other": "Вы уже подтвердили регистрацию, вам надо <a href=\"{{.SigninURL}}\">войти</a> . Если вы забыли свой пароль, вы можете <a href=\"{{.ForgotPasswordURL}}\">сбросить пароль</a>." },
     "acceptinvite_complete": { "other": "Спасибо. Ваш аккаунт был создан." },
     "acceptinvite_form_submit": { "other": "Принять приглашение" },
-    "acceptinvite_agreement": { "other": "Нажимая кнопку \"Принять приглашение\" вы подтверждаете, что вы прочитали и приняли наши <a href=\"/page/terms-and-conditions/\" target=\"_blank\">правила &amp; условия</a> и <a href=\"/page/privacy/\" target=\"_blank\">и политику конфиденциальности</a>." },
+    "acceptinvite_agreement": { "other": "Нажимая кнопку \"Принять приглашение\" вы подтверждаете, что вы прочитали и приняли наши <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">правила &amp; условия</a> и <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">и политику конфиденциальности</a>." },
 
     "signup_page_header": { "other": "Создать новый аккаунт" },
     "signup_form_name": { "other": "имя" },
@@ -151,7 +151,7 @@
 
     "userlibrary_page_header": { "other": "Моя видеотека" },
     "userlibrary_empty_header":  { "other": "Ваша библиотека пуста." },
-    "userlibrary_empty_content": { "other": "Заполните ее <a href=\"/\">у нас</a> большой выбор." },
+    "userlibrary_empty_content": { "other": "Заполните ее <a href=\"{{.HomeURL}}\">у нас</a> большой выбор." },
 
     "searchresults_page_header": { "other": "результаты поиска" },
     "searchresults_load_more": { "other": "Загрузить {{.Count}} больше" },
@@ -160,7 +160,7 @@
       "other": "Найдены {{.Count}} результаты для \"{{.Query}}\"."
     },
     "searchresults_empty_header":  { "other": "Не было никаких результатов поиска для \"{{.Query}}\"" },
-    "searchresults_empty_content": { "other": "Попробуйте другой поиск или <a href=\"/\">просмотрите наш контент</a>, чтобы найти то, что вы ищете." },
+    "searchresults_empty_content": { "other": "Попробуйте другой поиск или <a href=\"{{.HomeURL}}\">просмотрите наш контент</a>, чтобы найти то, что вы ищете." },
 
     "validation_name_required": { "other": "Укажите Ваше имя." },
     "validation_email_required": { "other": "Укажите адрес Вашей электронной почты." },
@@ -222,7 +222,7 @@
 
     "shopping_enter_card_prompt": { "other": "Введите данные кредитной карты ниже, чтобы ваш {{.Verb}}." },
 
-    "shopping_terms": { "other": "Завершив эту трансакцию, я согласен_а <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">сроки и условия</a>."},
+    "shopping_terms": { "other": "Завершив эту трансакцию, я согласен_а <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">сроки и условия</a>."},
     "shopping_discount_applied": { "other": "{{.DiscountAmount}} скидка учитывается." },
     "shopping_discount_apply": { "other": "Применить" },
     "shopping_discount_code": { "other": "Введите промо-код." },
@@ -315,7 +315,7 @@
     "userwishlist_page_header": { "other": "Мой список" },
     "userwishlist_slider_header": { "other": "Мой список" },
     "userwishlist_empty_header":  { "other": "Ваш список пуст." },
-    "userwishlist_empty_content": { "other": "Заполните его <a href=\"/\">просмотрите</a> нашу коллекцию." },
+    "userwishlist_empty_content": { "other": "Заполните его <a href=\"{{.HomeURL}}\">просмотрите</a> нашу коллекцию." },
     "userwishlist_button_add": { "other": "Добавить в мой список" },
     "userwishlist_button_remove": { "other": "Мой список" },
     "userwishlist_button_add_compact": { "other": "Мой список" },
@@ -356,7 +356,7 @@
     "classification_divider": { "other": " - " },
     "classification_outro": { "other": "" },
 
-    "cookie_banner_message": { "other": "Этот сайт использует куки-файлы для улучшения качества просмотра. Используя этот сайт, вы принимаете нашу политику <a href=\"/page/cookie-policy/\">куки-файлов</a>." },
+    "cookie_banner_message": { "other": "Этот сайт использует куки-файлы для улучшения качества просмотра. Используя этот сайт, вы принимаете нашу политику <a href=\"{{.CookiePolicyURL}}\">куки-файлов</a>." },
     "cookie_banner_accept": { "other": "Принимаю" },
 
     "all_rights_reserved": { "other": "Все права защищены. Ни одна часть этого сайта не может быть воспроизведена без письменного разрешения." },
@@ -432,8 +432,12 @@
 
     "combined_auth_signin_prompt": { "other": "Войти в систему" },
     "combined_auth_signup_prompt": { "other": "зарегистрироваться" },
-    "combined_auth_terms": { "other": "Я согласен_а с <a href=\"/page/terms-and-conditions/\" target=\"_blank\">правилами &amp; условиями</a>." },
-    "signup_terms": { "other": "Я согласен_а с <a href=\"/page/terms-and-conditions/\" target=\"_blank\">правилами &amp; условиями</a>." },
+    "combined_auth_terms": { "other": "Я согласен_а с <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">правилами &amp; условиями</a>." },
+    "signup_terms": { "other": "Я согласен_а с <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">правилами &amp; условиями</a>." },
     "validation_terms_required": { "other": "Вы должны согласиться с правилами и условиями." },
-    "shopping_error_item_limit_exceeded": { "other": "К сожалению, {{.Title}} куплен." }
+    "shopping_error_item_limit_exceeded": { "other": "К сожалению, {{.Title}} куплен." },
+
+    "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+
+    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
   }
