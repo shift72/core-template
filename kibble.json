@@ -18,8 +18,8 @@
     "tr": { "code": "tr_TR", "name": "Türk" },
     "hu": { "code": "hu_HU", "name": "Magyar" },
     "ee": { "code": "ee_EE", "name": "Eestlane" },
-    "pl": { "code": "pl_PL", "name": "Polskie" }
-    "se":"se_SE"
+    "pl": { "code": "pl_PL", "name": "Polskie" },
+    "se": { "code": "se_SE", "name": "Српски" }
   },
   "siteRootPath": "site",
   "liveReload": {
