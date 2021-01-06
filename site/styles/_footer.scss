@@ -104,21 +104,20 @@ footer {
 // Festival Scope
 .footer-festivalscope {
   font-size: .8rem;
-
   a {
   	padding: 3px 0 6px 0;
     margin: 0;
     .footer-festivalscope-logo {	
-			@if lightness($body-color) < lightness($body-bg) {
-				filter: invert(100%);
-			}
-		}
-		&:hover .footer-festivalscope-logo {
-			filter: invert(100%);
-			@if lightness($body-color) < lightness($body-bg) {
-				filter: invert(0%);
-			} 
-		}
+    @if lightness($body-color) < lightness($body-bg) {
+      filter: invert(100%);
+      }
+    }
+    &:hover .footer-festivalscope-logo {
+      filter: invert(100%);
+      @if lightness($body-color) < lightness($body-bg) {
+        filter: invert(0%);
+      }
+    }
   }
 }
 .footer-festivalscope-label {
