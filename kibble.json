@@ -18,7 +18,8 @@
     "tr": "tr_TR",
     "hu": "hu_HU",
     "ee": "ee_EE",
-    "pl": "pl_PL"
+    "pl": "pl_PL",
+    "se":"se_SE"
   },
   "siteRootPath": "site",
   "liveReload": {
