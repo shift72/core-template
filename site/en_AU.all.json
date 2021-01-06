@@ -142,13 +142,13 @@
   "account_form_pin_changed": { "other": "Updated" },
   "account_form_change_pin": { "other": "Change PIN" },
 
-  "user_set_pin_header": { "other": "user_set_pin_header" },
-  "user_set_pin_button": { "other": "user_set_pin_button" },
-  "user_submit_pin_heading": { "other": "user_submit_pin_heading" },
-  "user_error_wrong_pin_retry": { "other": "user_error_wrong_pin_retry" },
-  "user_error_too_many_pin_errors": { "other": "user_error_too_many_pin_errors" },
-  "user_submit_pin_button": { "other": "user_submit_pin_button" },
-  "user_reset_pin_button": { "other": "user_reset_pin_button" },
+  "user_set_pin_header": { "other": "Set your PIN" },
+  "user_set_pin_button": { "other": "Set PIN" },
+  "user_submit_pin_heading": { "other": "Enter your PIN to {{.Action}} this restricted content" },
+  "user_error_wrong_pin_retry": { "other": "Oops, you have entered an incorrect PIN" },
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+  "user_submit_pin_button": { "other": "Enter" },
+  "user_reset_pin_button": { "other": "Reset PIN" },
 
   "signup_form_optin": {"other": "Sign up for our free newsletter"},
 
