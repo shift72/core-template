@@ -290,7 +290,7 @@
   "shopping_complete_credit_purchase": { "other": "Bedankt voor uw aankoop van {{.Title}}. {{.CreditTotal}} is toegevoegd aan uw account." },
   "shopping_complete_purchase_coming_soon": { "other": "U kunt de film bekijken vanaf {{.Date}}." },
   "shopping_complete_receipt": { "other": "Er werd een ontvangstbewijs naar uw e-mailadres verstuurd." },
-  "shopping_complete_library_link": { "other": "Begin nu met het bekijken van een van de {{{.BundleItems}} in je bibliotheek." },
+  "shopping_complete_library_link": { "other": "Begin nu met het bekijken van een van de {{.BundleItems}} in je bibliotheek." },
 
   "shopping_complete_rental_watch_window_start": {
     "one": "U kunt nu binnen de volgende dag beginnen met kijken.",
@@ -455,7 +455,7 @@
   "combined_auth_terms": { "other": "Ik ga akkoord met alle <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; voorwaarden</a>." },
   "signup_terms": { "other": "Ik ga akkoord met alle <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; voorwaarden</a>." },
   "validation_terms_required": { "other": "U moet akkoord gaan met de voorwaarden." },
-  "shopping_error_item_limit_exceeded": { "other": "Jammer genoeg is {{.Title} uitverkocht." },
+  "shopping_error_item_limit_exceeded": { "other": "Jammer genoeg is {{.Title}} uitverkocht." },
 
   "changepincode_modal_header": { "other": "Change your PIN" },
   "changepincode_modal_currentpassword": { "other": "Your current password" },

@@ -20,7 +20,7 @@
     "ee": { "code": "ee_EE", "name": "Eestlane" },
     "pl": { "code": "pl_PL", "name": "Polskie" },
     "se": { "code": "se_SE", "name": "Српски" },
-    "nl": { "code": "nl_NL", "name": "Nederlands" }
+    "nl": { "code": "nl_BE", "name": "Nederlands" }
   },
   "siteRootPath": "site",
   "liveReload": {
