@@ -40,7 +40,7 @@
   "date_year": { "other": "Jaar" },
 
   "404_page_header": { "other": "Deze pagina bestaat niet." },
-  "404_page_content": { "other": "<p>Sorry, het lijkt erop dat de pagina die u zoekt niet bestaat.</p><p>\n De pagina is misschien verplaatst of verwijderd, of misschien heeft u iets verkeerd gespeld.</p><p> \n Probeer terug te gaan naar de startpagina om te vinden wat u zoekt.</p><p><a href=\"{{.URL}}\">Terug naar de Startpagina</a></p>" },
+  "404_page_content": { "other": "<p>Sorry, het lijkt erop dat de pagina die u zoekt niet bestaat.</p><p>De pagina is misschien verplaatst of verwijderd, of misschien heeft u iets verkeerd gespeld.</p><p>Probeer terug te gaan naar de startpagina om te vinden wat u zoekt.</p><p><a href=\"{{.URL}}\">Terug naar de Startpagina</a></p>" },
 
 
   "nav_homepage": { "other": "ABC Cinemas" },
@@ -71,7 +71,7 @@
   "social_media_buttons_title": { "other": "Deel" },
 
   "accept_invite_page_header": { "other": "Welkom op" },
-  "acceptinvite_form_invalid_reset_password_token": { "other": "Het lijkt erop dat u deze uitnodiging al hebt gebruikt. U dient zich hier <a href=\"{{.SigninURL}}\">in te loggen</a>.\n <a href=\"{{.ForgotPasswordURL}}\">Wachtwoord vergeten?</a>." },
+  "acceptinvite_form_invalid_reset_password_token": { "other": "Het lijkt erop dat u deze uitnodiging al hebt gebruikt. U dient zich hier <a href=\"{{.SigninURL}}\">in te loggen</a>. <a href=\"{{.ForgotPasswordURL}}\">Wachtwoord vergeten?</a>." },
   "acceptinvite_complete": { "other": "Bedankt. Uw account is aangemaakt." },
   "acceptinvite_form_submit": { "other": "Aanvaard uitnodiging" },
   "acceptinvite_agreement": { "other": "Door te klikken op «Aanvaard uitnodiging», verklaart u dat u onze <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; voorwaarden</a> en ons<a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">privacybeleid</a> begrepen heeft en dat u ermee akkoord gaat." },
