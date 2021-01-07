@@ -464,15 +464,8 @@
   "changepincode_modal_submit": { "other": "Set PIN" },
   "changepincode_modal_error_wrong_password": { "other": "That password is incorrect." },
 
-  "user_submit_pin_heading": { "other": "Enter your PIN to {{.Action}} this restricted content"},
-  "user_submit_pin_button": { "other": "Enter" },
   "user_set_pin_intro": { "other": "You need a PIN to {{.Action}} restricted content"},
-  "user_set_pin_header": { "other": "Set your PIN" },
-  "user_set_pin_button": { "other": "Set PIN" },
-  "user_reset_pin_button": { "other": "Reset PIN" },
-  "user_error_wrong_pin_retry": { "other": "Oops, you have entered an incorrect PIN" },
   "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
-  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
   "user_error_too_many_pin_errors_help_page_link": { "other": "" },
   "shopping_error_age_restricted": { "other": "This content is age restricted." },
   "shopping_error_close_button": { "other": "OK" }
