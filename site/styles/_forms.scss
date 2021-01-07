@@ -66,10 +66,10 @@ s72-activatedevice-form,
 }
 // Error Messaging
 .s72-error-message {
-  color: #fff;
+  background: rgba($body-color, 0.1);
+  color: $body-color;
   font-weight: 600;
   border-radius: 3px;
-  background: rgba(255,255,255,0.1);
   margin-top: 10px;
   position: relative;
   padding: 5px 8px;
@@ -79,7 +79,7 @@ s72-activatedevice-form,
     height: 0;
     border-style: solid;
     border-width: 0 5px 5px 5px;
-    border-color: transparent transparent rgba(255,255,255,0.1) transparent;
+    border-color: transparent transparent rgba($body-color, 0.1) transparent;
     position: absolute;
     left: 10px;
     top: -5px;
@@ -100,13 +100,13 @@ s72-activatedevice-form,
 }
 // Account Page Change Password Field
 .s72-form-control-static {
-  color: #000;
+  color: $body-color;
   font-size: 30px;
   border-radius: 6px 0 0 6px;
   padding: 0.375rem 0.75rem 0 0.75em;
   line-height: 34px;
   display: inline-block;
-  background: rgba(255,255,255,0.4);
+  background: rgba($body-color, 0.1);
 }
 // Change Password Overlay
 .s72-shopping-modal {
@@ -142,7 +142,7 @@ s72-activatedevice-form,
   }
 }
 .s72-modal-content {
-  color: #fff;
+  color: $body-color; 
   background: $body-bg;
   padding: 20px 10px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -152,7 +152,7 @@ s72-activatedevice-form,
     border-bottom: 0 none;
     .s72-modal-title {
       font-size: 20px;
-      color: #fff;
+      color: $body-color; 
       font-weight: 700;
       line-height: auto;
     }

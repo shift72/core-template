@@ -32,13 +32,14 @@ $container-max-widths: (
 
 // Body / Core
 // ------------------------------------
+
 $primary:         #35a0a8 !default;
 $secondary:       #4cd3dd !default;
-$body-bg:         #2b2725 !default;
-$body-color:      #fdfdfd !default;
-$hr-border-color: rgba(#fff, .5) !default;
+$body-bg:         #000 !default;
+$body-color:      #fff !default;
+$hr-border-color: rgba($body-color, .5) !default;
 $list-group-bg: $body-bg !default;
-$list-group-border-color: rgba(#fff, .125) !default;
+$list-group-border-color: rgba($body-color, .125) !default;
 
 // Cookie Consent
 $cookie-consent-color: #000;
@@ -66,7 +67,7 @@ $navbar-search-top: 30px !default;
 // Sub Navivgation
 $subnav-background-color: #302e30 !default;
 $subnav-nav-item-background-color: #2a2a2a !default;
-$subnav-nav-item-color: #fff !default;
+$subnav-nav-item-color: $body-color !default;
 $subnav-nav-item-hover-background-color: $primary !default;
 $subnav-nav-item-active-background-color: $primary !default;
 $subnav-nav-item-margin-x: 1rem !default;
@@ -78,12 +79,12 @@ $button-text-color: #fff !default;
 $button-text-color-hover: #fff !default;
 $button-background: $primary !default;
 $button-background-hover: $secondary !default;
-$trailer-button-text-color: #fff !default;
-$dropdown-item-color: #fff !default;
-$mobile-nav-link-color: #fff !default;
+$trailer-button-text-color: $body-color !default;
+$dropdown-item-color: $body-color !default;
+$mobile-nav-link-color: $body-color !default;
 
-$signin-text-color: #fff !default;
-$signin-text-color-hover: #fff !default;
+$signin-text-color: $body-color !default;
+$signin-text-color-hover: $body-color !default;
 $signin-border-color: transparent !default;
 $signin-border-color-hover: transparent !default;
 $signin-background: transparent !default;
@@ -123,17 +124,17 @@ $footer-brand-min-width-md: 100px !default;
 
 // Social
 // ------------------------------------
-$facebook-color: #fff !default;
-$instagram-color: #fff !default;
-$twitter-color: #fff !default;
-$youtube-color: #fff !default;
-$linkedin-color: #fff !default;
+$facebook-color: $body-color !default;
+$instagram-color: $body-color !default;
+$twitter-color: $body-color !default;
+$youtube-color: $body-color !default;
+$linkedin-color: $body-color !default;
 
 // Meta Items
 // ------------------------------------
 $meta-item-border-radius: 3px !default;
 $featured-meta-item-body-padding: 10px !default;
-$meta-item-body-color: #fff !default;
+$meta-item-body-color: $body-color !default;
 $meta-item-tagline-classification-border-radius: $meta-item-border-radius !default;
 $meta-item-availability-tag-margin: 5px !default;
 

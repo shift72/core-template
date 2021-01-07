@@ -62,9 +62,9 @@
       fill: none;
     }
     path {
-        fill: $button-text-color;
-        stroke: $button-text-color;
-      }
+      fill: $body-color; 
+      stroke: $body-color; 
+    }
   }
   .verb {
     color: $button-text-color;
@@ -74,8 +74,6 @@
   @include hover-focus {
     border: 3px solid $button-background-hover;
     background: $button-background-hover;
-    .verb {
-    }
     .s72-icon-play {
       circle {
         stroke: none;
@@ -122,8 +120,8 @@
         stroke: $primary;
       }
       path {
-        fill: #fff;
-        stroke: #fff;
+        fill: $body-color; 
+        stroke: $body-color; 
       }
     }
     .s72-btn-play-label {
@@ -142,6 +140,7 @@
     }
   }
 }
+
 // Transactional Buttons
 .s72-btn-rent,
 .s72-btn-purchase {
@@ -174,7 +173,7 @@
   // Internal container
   .s72-btn-wishlist {
     font-size: 14px;
-    color: $button-text-color;
+    color: $body-color; 
     background: transparent;
     // padding: 0;
     border: 0 none;
