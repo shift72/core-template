@@ -312,7 +312,7 @@
   .form-control-search {
     font-size: 10px;
     border-color: transparent;
-    background: rgba($color: $body-color, $alpha: 0.4);
+    background: rgba($color: $body-color, $alpha: 0.3);
     color: #fff;
     
     @include media-breakpoint-up(md){

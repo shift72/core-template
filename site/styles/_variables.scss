@@ -39,7 +39,7 @@ $body-bg:         #000 !default;
 $body-color:      #fff !default;
 $hr-border-color: rgba($body-color, .5) !default;
 $list-group-bg: $body-bg !default;
-$list-group-border-color: rgba(#fff, .125) !default;
+$list-group-border-color: rgba($body-color, .125) !default;
 
 // Cookie Consent
 $cookie-consent-color: #000;
