@@ -14,7 +14,7 @@
     "other": "Seizoen"
   },
 
-  "seasons": {
+  "seasons":{
     "one": "one season",
     "other": "{{.Count}} seasons"
   },
@@ -59,18 +59,18 @@
   "datetime_today": { "other": "Vandaag {{.Date}}" },
   "datetime_tomorrow": { "other": "Morgen {{.Date}}" },
   "datetime_yesterday": { "other": "Gisteren {{.Date}}" },
-  "datetime_next": { "other": "Volgende {{.Date}}" },
+  "datetime_next": { "other": "{{.Date}}" },
   "datetime_last": { "other": "Afgelopen {{.Date}}" },
 
   "search_control_placeholder": { "other": "Zoek" },
   "search_control_submit": { "other": "Zoekopdracht indienen" },
 
-  "play_button_watch": { "other": "Kijk nu" },
-  "play_button_resume": { "other": "Ga verder" },
+  "play_button_watch": { "other" : "Kijk nu"},
+  "play_button_resume": { "other" : "Ga verder"},
 
   "social_media_buttons_title": { "other": "Deel" },
 
-  "accept_invite_page_header": { "other": "Welkom op" },
+  "accept_invite_page_header": { "other": "Welkom op " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Het lijkt erop dat u deze uitnodiging al hebt gebruikt. U dient zich hier <a href=\"{{.SigninURL}}\">in te loggen</a>. <a href=\"{{.ForgotPasswordURL}}\">Wachtwoord vergeten?</a>." },
   "acceptinvite_complete": { "other": "Bedankt. Uw account is aangemaakt." },
   "acceptinvite_form_submit": { "other": "Aanvaard uitnodiging" },
@@ -137,7 +137,7 @@
   "account_form_password_changed": { "other": "Bijgewerkt" },
   "account_form_error_incorrect_password": { "other": "Dit wachtwoord is niet correct." },
   "account_form_pin_code": { "other": "PIN" },
-  "account_form_pin_code_not_set": { "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles." },
+  "account_form_pin_code_not_set": { "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles."},
   "account_form_set_pin": { "other": "Set PIN" },
   "account_form_pin_changed": { "other": "Updated" },
   "account_form_change_pin": { "other": "Change PIN" },
@@ -150,7 +150,7 @@
   "user_submit_pin_button": { "other": "Enter" },
   "user_reset_pin_button": { "other": "Reset PIN" },
 
-  "signup_form_optin": { "other": "Schrijf u in voor onze nieuwsbrief" },
+  "signup_form_optin": {"other": "Schrijf u in voor onze nieuwsbrief" },
 
   "passwordconfirmation_modal_header": { "other": "Bevestig uw wachtwoord" },
   "passwordconfirmation_modal_label": { "other": "Gelieve uw wachtwoord in te voeren om de veranderingen bij te werken." },
@@ -164,7 +164,7 @@
   "changepassword_modal_error_incorrect_password": { "other": "Dit wachtwoord is niet correct." },
 
   "userlibrary_page_header": { "other": "Mijn Bibliotheek" },
-  "userlibrary_empty_header": { "other": "Uw bibliotheek is leeg." },
+  "userlibrary_empty_header":  { "other": "Uw bibliotheek is leeg." },
   "userlibrary_empty_content": { "other": "U kunt uw bibliotheek aanvullen met <a href=\"{{.HomeURL}}\">onze geweldige selectie films</a>" },
 
   "searchresults_page_header": { "other": "Zoekresultaten" },
@@ -173,7 +173,7 @@
     "one": "Vond 1 resultaat voor \"{{.Query}}\".",
     "other": "Vond {{.Count}} resultaten voor \"{{.Query}}\"."
   },
-  "searchresults_empty_header": { "other": "Geen zoekresultaten gevonden voor \"{{.Query}}\"" },
+  "searchresults_empty_header":  { "other": "Geen zoekresultaten gevonden voor \"{{.Query}}\"" },
   "searchresults_empty_content": { "other": "Probeer een andere zoekopdracht of <a href=\"{{.HomeURL}}\">blader door onze inhoud</a> om te vinden wat u zoekt." },
 
   "validation_name_required": { "other": "Voer uw naam in." },
@@ -198,35 +198,35 @@
   "shopping_info_ownership_rent": { "other": "huur" },
 
   "shopping_info_sd_only": { "other": "Limited to SD playback only." },
-  "shopping_info_release_date_title": { "other": "Komt uit op {{.Date}}." },
+  "shopping_info_release_date_title": { "other": "Komt uit op {{.Date}}. " },
   "shopping_info_release_date_explanation_rent": { "other": "U kunt deze film nu al huren, maar u kunt hem pas vanaf dan bekijken." },
   "shopping_info_release_date_explanation_buy": { "other": "U kunt deze film nu al kopen, maar u kunt hem pas vanaf dan bekijken." },
 
-  "shopping_info_available_until_date_title": { "other": "Beschikbaar tot {{.Date}}." },
+  "shopping_info_available_until_date_title": { "other": "Beschikbaar tot {{.Date}}. " },
   "shopping_info_available_until_date_explanation_rent": { "other": "U zult de inhoud hierna niet meer kunnen bekijken." },
   "shopping_info_available_until_date_explanation_buy": { "other": "U zult de inhoud hierna niet meer kunnen bekijken." },
 
-  "shopping_info_rental_period_duration": { "other": "U kunt de film nog gedurende {{.Count}} dagen bekijken." },
-  "shopping_info_watch_window_duration": { "other": "U kunt de film nog gedurende {{.Count}} uur (her)bekijken" },
+  "shopping_info_rental_period_duration": { "other": "{{.Count}} dagen bekijken " },
+  "shopping_info_watch_window_duration": { "other": "{{.Count}} uur (her)bekijken. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Eenmaal gehuurd, zal de film gedurende 1 dag beschikbaar zijn in uw bibliotheek.",
-    "other": "Eenmaal gehuurd, zal de film gedurende {{.Count}} dagen beschikbaar zijn in uw bibliotheek."
+    "one": "Eenmaal gehuurd, zal de film gedurende 1 dag beschikbaar zijn in uw bibliotheek. ",
+    "other": "Eenmaal gehuurd, zal de film gedurende {{.Count}} dagen beschikbaar zijn in uw bibliotheek. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Zodra u op play klikt, begint de film en heeft u 1 uur de tijd om deze zo vaak als u wenst te herbekijken.",
     "other": "Zodra u op play klikt, begint de film en heeft u {{.Count}} uur de tijd om deze zo vaak als u wenst te herbekijken."
   },
   "shopping_info_watch_window_explanation_bundle": {
-    "one": "Eenmaal gehuurd, zullen de items in uw bundel gedurende 1 dag beschikbaar zijn in uw bibliotheek.",
-    "other": "Eenmaal gehuurd, zullen de items in uw bundel gedurende {{.Count}} dagen beschikbaar zijn in uw bibliotheek."
+    "one": "Eenmaal gehuurd, zullen de items in uw bundel gedurende 1 dag beschikbaar zijn in uw bibliotheek. ",
+    "other": "Eenmaal gehuurd, zullen de items in uw bundel gedurende {{.Count}} dagen beschikbaar zijn in uw bibliotheek. "
   },
   "shopping_info_watch_window_explanation2_bundle": {
     "one": "Zodra u op play drukt bij een bepaalde film, begint deze en heeft u 1 uur tijd om deze zo vaak als u wenst te herbekijken.",
     "other": "Zodra u op play drukt bij een bepaalde film, begint deze en heeft u {{.Count}} uur tijd om deze zo vaak als u wenst te herbekijken."
   },
   "shopping_info_watch_window_explanation_season": {
-    "one": "Eenmaal gehuurd, zal het seizoen gedurende 1 dag beschikbaar zijn in uw bibliotheek.",
-    "other": "Eenmaal gehuurd, zal het seizoen gedurende {{.Count}} dagen beschikbaar zijn in uw bibliotheek."
+    "one": "Eenmaal gehuurd, zal het seizoen gedurende 1 dag beschikbaar zijn in uw bibliotheek. ",
+    "other": "Eenmaal gehuurd, zal het seizoen gedurende {{.Count}} dagen beschikbaar zijn in uw bibliotheek. "
   },
   "shopping_info_watch_window_explanation2_season": {
     "one": "Zodra u op play drukt, begint de serie en heeft u 1 uur de tijd om deze zo vaak als u wilt te bekijken.",
@@ -236,7 +236,7 @@
 
   "shopping_enter_card_prompt": { "other": "Vul hieronder uw kredietkaartgegevens in om uw {{.Verb}} af te ronden." },
 
-  "shopping_terms": { "other": "Door deze transactie af te ronden, ga ik akkoord met de <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">voorwaarden</a>." },
+  "shopping_terms": { "other": "Door deze transactie af te ronden, ga ik akkoord met de <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">voorwaarden</a>."},
   "shopping_discount_applied": { "other": "{{.DiscountAmount}} korting toegepast." },
   "shopping_discount_apply": { "other": "Toepassen" },
   "shopping_discount_code": { "other": "Voer een promotiecode in." },
@@ -315,7 +315,7 @@
   "meta_detail_cast_title": { "other": "Cast" },
   "meta_detail_crew_title": { "other": "Crew" },
   "meta_detail_languages": { "one": "Taal", "other": "Talen" },
-  "meta_detail_studios": { "one": "Studio", "other": "Studio's" },
+  "meta_detail_studios": { "one": "Studio", "other": "Studios" },
   "meta_detail_countries": { "one": "Land", "other": "Landen" },
   "meta_detail_subtitles": { "other": "Ondertitels" },
   "meta_detail_episodes_title": { "other": "Afleveringen" },
@@ -328,8 +328,8 @@
   "bundle_items_mixed": { "other": "{{.Count}} films and seizoenen" },
   "userwishlist_page_header": { "other": "Mijn Lijst" },
   "userwishlist_slider_header": { "other": "Mijn Lijst" },
-  "userwishlist_empty_header": { "other": "Uw lijst is leeg." },
-  "userwishlist_empty_content": { "other": "U kunt uw lijst aanvullen met <a href=\"{{.HomeURL}}\">onze geweldige selectie films</a>" },
+  "userwishlist_empty_header":  { "other": "Uw lijst is leeg." },
+  "userwishlist_empty_content": { "other": "U kunt uw lijst aanvullen met <a href=\"{{.HomeURL}}\">onze geweldige selectie films</a>." },
   "userwishlist_button_add": { "other": "Toevoegen aan Mijn Lijst" },
   "userwishlist_button_remove": { "other": "Mijn Lijst" },
   "userwishlist_button_add_compact": { "other": "Mijn Lijst" },
@@ -361,14 +361,14 @@
   "userdevices_delete_limit_reached": { "other": "userdevices_delete_limit_reached" },
 
   "playlist_page_header": { "other": "Playlist" },
-  "playlist_sign_in_warning": { "other": "Please sign in to watch live TV." },
+  "playlist_sign_in_warning": { "other": "Please sign in to watch live TV."},
   "playlist_share_title": { "other": "Playlist" },
   "playlist_up_next_title": { "other": "Up Next" },
 
   "pricing_ownership_buy": { "other": "Koop" },
   "pricing_ownership_rent": { "other": "Huur" },
 
-  "classification_intro": { "other": "Classificatie:" },
+  "classification_intro": { "other": "Classificatie: " },
   "classification_divider": { "other": " - " },
   "classification_outro": { "other": "" },
 
@@ -444,7 +444,7 @@
   "availability_not_available_in_country": { "other": "Niet beschikbaar" },
   "availability_available": { "other": "Beschikbaar vanaf {{.ReleaseDate}}" },
   "availability_expires": { "other": "Expires {{.Expiry}}" },
-  "availability_expired": { "other": "Expired" },
+  "availability_expired": { "other": "Expired"},
 
   "modal_cancel": { "other": "Annuleren" },
 
@@ -464,9 +464,9 @@
   "changepincode_modal_submit": { "other": "Set PIN" },
   "changepincode_modal_error_wrong_password": { "other": "That password is incorrect." },
 
-  "user_set_pin_intro": { "other": "You need a PIN to {{.Action}} restricted content" },
+  "user_set_pin_intro": { "other": "You need a PIN to {{.Action}} restricted content"},
   "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
   "user_error_too_many_pin_errors_help_page_link": { "other": "" },
   "shopping_error_age_restricted": { "other": "This content is age restricted." },
   "shopping_error_close_button": { "other": "OK" }
- }
+}
