@@ -77,12 +77,9 @@
     padding: $page-padding-top-md 0 0 0;
   }
   .page-header {
-    h1 {
-      @include media-breakpoint-up(md) {
-        text-align: center;
-      }
-    }
-    p {
+    h1, p {
+      max-width: 400px;
+      margin: 0 auto;
       @include media-breakpoint-up(md) {
         text-align: center;
       }
