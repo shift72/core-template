@@ -55,7 +55,11 @@
   "runtime_hours": { "other": "h" },
   "runtime_minutes": { "other": "m" },
 
+  "datetime_today": { "other": "aujourd'hui {{.Date}}" },
+  "datetime_tomorrow": { "other": "demain {{.Date}}" },
+  "datetime_yesterday": { "other": "hier {{.Date}}" },
   "datetime_next": { "other": "{{.Date}}" },
+  "datetime_last": { "other": "{{.Date}}" },
 
   "search_control_placeholder": { "other": "Rechercher" },
 
