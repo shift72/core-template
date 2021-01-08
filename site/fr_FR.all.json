@@ -361,9 +361,9 @@
 
   "all_rights_reserved": { "other": "Tous les droits sont réservés. Aucune partie de ce site ne peut être reproduite sans notre autorisation écrite." },
 
-  "signup_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
+  "signup_terms": { "other": "J'accepte tous les <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">termes et conditions</a>." },
 
-  "combined_auth_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
+  "combined_auth_terms": { "other": "J'accepte tous les <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">termes et conditions</a>." },
 
   "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 
