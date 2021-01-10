@@ -13,7 +13,7 @@
     <a href="{{routeToSlug(item.Slug)}}" class="carousel-item-link">
 
       {{if isset(item.Images["Carousel"])}}
-        <s72-image src="{{item.Images.Carousel}}" alt="{{item.Title}}" class="carousel-item-image"></s72-image>
+        <div class="carousel-item-image" style="background-image: url({{item.Images.Carousel}})"></div>
       {{end}}
 
       {{if !isset(item["PageType"]) || item.PageType != "external"}}

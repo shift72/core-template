@@ -19,48 +19,17 @@ s72-carousel {
     height: $carousel-height-md !important;
   }
   // Carousel Background Image
-  s72-image {
+  .carousel-item-image {
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: $carousel-height;
-    max-width: 1600px;
-    position: relative;
-    float: right;
-    overflow: hidden;
     @include media-breakpoint-up(sm) {
       height: $carousel-height-sm;
     }
     @include media-breakpoint-up(md) {
       height: $carousel-height-md;
-    }
-    &:before {
-      content: '';
-      width: 60%;
-      height: 100%;
-      position: absolute;
-      z-index: 8;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      @extend .left-gradient-bg;
-      @include media-breakpoint-up(lg) {
-        width: 100%;
-      }
-      @include media-breakpoint-up(xl) {
-        display: block;
-      }
-    }
-    img {
-      height: $carousel-height;
-      margin-left: 50%;
-      transform: translateX(-50%);
-
-      @include media-breakpoint-up(sm) {
-        height: $carousel-height-sm;
-      }
-      @include media-breakpoint-up(md) {
-        width: auto;
-        height: $carousel-height-md;
-      }
     }
   }
 }
@@ -323,7 +292,7 @@ s72-carousel {
 }
 // Left Gradient ~ should be moved somewhere else
 .left-gradient {
-  width: 60%;
+  width: $carousel-left-gradient-width;
   height: 100%;
   position: absolute;
   z-index: 8;
@@ -331,15 +300,14 @@ s72-carousel {
   top: 0;
   bottom: 0;
   @extend .left-gradient-bg;
-  display: none;
   @include media-breakpoint-up(md) {
-    display: block;
+    width: $carousel-left-gradient-width-md;
   }
   @include media-breakpoint-up(lg) {
-    width: 100%;
+    width: $carousel-left-gradient-width-lg;
   }
   @include media-breakpoint-up(xl) {
-    display: none;
-    width: 100%;
+    width: $carousel-left-gradient-width-xl;
   }
 }
+
