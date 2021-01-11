@@ -203,7 +203,7 @@
   .meta-item-tagline {
     font-size: 14px;
     font-weight: 600;
-    color: rgba(255,255,255,0.5);
+    color:$body-color;
     @include media-breakpoint-up(xxxl) {
       font-size: 18px;
     }
