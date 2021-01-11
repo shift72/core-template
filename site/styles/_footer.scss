@@ -130,3 +130,10 @@ footer {
   max-width: 110px;
   margin: 9px;
 }
+
+//Removes filter affect and keeps bg color same for IE as filter isn't supported.
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
+  .footer-festivalscope a {
+     background: $primary !important; 
+    }
+}
