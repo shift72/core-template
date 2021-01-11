@@ -7,7 +7,7 @@
         </a>
       </div>
       <ul class="s72-dropdown-menu s72-dropdown-menu-right">
-        {{if config("wishlist_enabled") }}
+        {{if config("wishlist_enabled") == "true" }}
         <li>
           <a class="s72-dropdown-item" href="{{ routeToPath("/wishlist.html") }}">{{i18n("nav_wishlist")}}</a>
         </li>
