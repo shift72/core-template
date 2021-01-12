@@ -22,6 +22,8 @@ s72-carousel {
   s72-image {
     width: 100%;
     height: $carousel-height;
+    position: relative;
+    overflow: hidden;
     @include media-breakpoint-up(sm) {
       height: $carousel-height-sm;
     }
