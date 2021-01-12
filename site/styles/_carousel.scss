@@ -22,10 +22,6 @@ s72-carousel {
   s72-image {
     width: 100%;
     height: $carousel-height;
-    max-width: 1600px;
-    position: relative;
-    float: right;
-    overflow: hidden;
     @include media-breakpoint-up(sm) {
       height: $carousel-height-sm;
     }
@@ -50,16 +46,23 @@ s72-carousel {
       }
     }
     img {
+      position: absolute;
       height: $carousel-height;
-      margin-left: 50%;
-      transform: translateX(-50%);
-
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       @include media-breakpoint-up(sm) {
         height: $carousel-height-sm;
       }
       @include media-breakpoint-up(md) {
         width: auto;
         height: $carousel-height-md;
+      }
+      // Finds the width of the image given the carousel height and a fixed aspect ratio of 1600:600
+      $carousel-image-width: (1600 / 600) * $carousel-height-md;
+      @media only screen and (min-width: $carousel-image-width) {
+        width: 100%;
+        height: auto;
       }
     }
   }
