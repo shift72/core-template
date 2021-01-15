@@ -479,21 +479,6 @@ function subnavOverflowing() {
   return childrenWidth > window.innerWidth - padding;
 }
 
-function togglePageTopPadding() {
-  var navItem = document.querySelector('.sub-nav .nav-item');
-  if (!navItem) return;
-
-  var page = document.querySelector('.page');
-  if (!page) return;
-
-  if (subnavOverflowing()) {
-    if (page.hasAttribute('style')) return;
-    var padding = parseFloat(window.getComputedStyle(page, null).getPropertyValue('padding-top'));
-    page.style.paddingTop = (padding) + 'px';
-  } else {
-    page.removeAttribute('style');
-  }
-}
 
 function documentReady(app) {
   initializeWishlist();
@@ -528,8 +513,6 @@ function documentReady(app) {
     nav.classList.remove('s72-hide');
   });
 
-  togglePageTopPadding();
-  window.addEventListener('resize', s72.utils.fn.throttle(togglePageTopPadding, 100));
 }
 
 function detectTouchscreen(){
