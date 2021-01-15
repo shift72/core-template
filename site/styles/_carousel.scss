@@ -60,8 +60,8 @@ s72-carousel {
         width: auto;
         height: $carousel-height-md;
       }
-      // Finds the width of the image given the carousel height and a fixed aspect ratio of 1600:600
-      $carousel-image-width: (1600 / 600) * $carousel-height-md;
+      // Finds the width of the image given the carousel height and a fixed aspect ratio of 1600:600 (by default)
+      $carousel-image-width: ($background-image-width / $background-image-height) * $carousel-height-md;
       @media only screen and (min-width: $carousel-image-width) {
         width: 100%;
         height: auto;
