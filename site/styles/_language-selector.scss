@@ -35,4 +35,7 @@ s72-language-selector {
   .s72-dropdown-menu {
     left: auto;
   }
+  &:hover, .s72-dropdown-item:hover {
+    cursor: pointer;
+  }
 }
