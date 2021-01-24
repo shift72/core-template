@@ -1,6 +1,6 @@
 {
   "site_owner": { "other": "ABC Cinemas" },
-  "settings_title": { "other": "Settings" },
+  "settings_title": { "other": "Einstelllungen" },
   "powered_by_name": { "other": "ScreenPlus" },
   "powered_by_url": { "other": "https://www.screenplus.com" },
   "en": { "other": "English" },
@@ -11,36 +11,36 @@
   },
 
   "season_name": {
-    "other": "Season"
+    "other": "Staffel"
   },
 
   "seasons":{
-    "one": "one season",
-    "other": "{{.Count}} seasons"
+    "one": "1 Staffel",
+    "other": "{{.Count}} Staffeln"
   },
   "tvseason": {
-    "other": "{{.ShowInfo.Title}} Series {{.Season.SeasonNumber}}"
+    "other": "{{.ShowInfo.Title}} Staffel {{.Season.SeasonNumber}}"
   },
   "tvseason_html": {
-    "other": "{{.ShowInfo.Title}} <span>Series {{.Season.SeasonNumber}}</span>"
+    "other": "{{.ShowInfo.Title}} <span>Staffel {{.Season.SeasonNumber}}</span>"
   },
   "tvepisode": {
     "other": "{{.Episode.Title}}"
   },
   "tvseason_number": {
-    "other": "Series {{.Season.SeasonNumber}}"
+    "other": "Staffel {{.Season.SeasonNumber}}"
   },
   "episode_count": {
     "one": "1 Episode",
-    "other": "{{.Count}} Episodes"
+    "other": "{{.Count}} Episoden"
   },
 
-  "date_day": { "other": "Day" },
-  "date_month": { "other": "Month" },
-  "date_year": { "other": "Year" },
+  "date_day": { "other": "Tag" },
+  "date_month": { "other": "Monat" },
+  "date_year": { "other": "Jahr" },
 
-  "404_page_header": { "other": "That page doesn't exist..." },
-  "404_page_content": { "other": "<p>Sorry, it looks like the page that you're looking for doesn't exist.</p><p>It could have been moved or deleted, or perhaps you misspelled something.</p><p>Try going back to the homepage to find what you were looking for.</p><p><a href=\"{{.URL}}\">Back to the Homepage</a></p>" },
+  "404_page_header": { "other": "Diese Seite existiert nicht…" },
+  "404_page_content": { "other": "<p>Diese Seite existiert leider nicht.</p><p><a href=\"/\">Zurück zur Startseite</a></p>" },
 
 
   "nav_homepage": { "other": "ABC Cinemas" },
@@ -65,12 +65,12 @@
   "social_media_buttons_title": { "other": "Teilen" },
 
   "accept_invite_page_header": { "other": "Willkommen bei " },
-  "acceptinvite_form_invalid_reset_password_token": { "other": "It looks like you have already claimed this invite, you should <a href=\"{{.SigninURL}}\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"{{.ForgotPasswordURL}}\">reset your password</a>." },
-  "acceptinvite_complete": { "other": "Thank you. Your account has been created." },
+  "acceptinvite_form_invalid_reset_password_token": { "other": "Sie haben diese Einladung bereits angenommen. <a href=\"signin.html\">Loggen Sie sich hier ein</a>. Falls Sie Ihr Passwort vergessen haben, können Sie es <a href=\"forgotpassword.html\">hier zurücksetzen</a>." },
+  "acceptinvite_complete": { "other": "Vielen Dank. Ihr Konto wurde erstellt." },
   "acceptinvite_form_submit": { "other": "Einladung annehmen" },
   "acceptinvite_agreement": { "other": "Durch Klicken auf den Button stimme ich den <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Allgemeinen Geschäftsbedingungen</a> und der <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">Datenschutzerklärung zu</a>." },
 
-  "signup_page_header": { "other": "Neuen Account erstellen" },
+  "signup_page_header": { "other": "Neues Konto erstellen" },
   "signup_form_name": { "other": "Name" },
   "signup_form_email": { "other": "E-Mail-Adresse" },
   "signup_form_password": { "other": "Passwort" },
@@ -86,11 +86,11 @@
   "signin_form_remember": { "other": "Angemeldet bleiben" },
   "signin_form_submit": { "other": "Absenden" },
   "signin_page_forgotpassword": { "other": "Passwort vergessen?" },
-  "signin_page_createnewaccount": { "other": "Don't have an account? Create new account" },
+  "signin_page_createnewaccount": { "other": "Sie haben noch kein Konto? Hier registrieren" },
   "signup_page_alreadyhaveanaccount": { "other": "Sie haben bereits ein Konto? Hier anmelden" },
-  "signup_form_error_email_already_in_use": { "other": "That email address is already in use." },
+  "signup_form_error_email_already_in_use": { "other": "Diese E-Mail-Adresse ist bereits registriert." },
   "signin_form_error_incorrect_credentials": { "other": "Der Benutzername oder das Passwort ist falsch." },
-  "signup_form_error_forbidden": { "other": "An error has occurred." },
+  "signup_form_error_forbidden": { "other": "Ein Fehler ist aufgetreten." },
 
   "combined_auth_continue": { "other": "Fortsetzen" },
   "combined_auth_change": { "other": "Veränderung" },
@@ -98,23 +98,23 @@
   "combined_auth_signup": { "other": "Konto anlegen" },
   "combined_auth_signin_password": { "other": "Bitte geben Sie Ihr Password ein um zu Ihrem Konto zu gelangen." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Falsches Password." },
-  "combined_auth_error_forbidden": { "other": "An error has occurred." },
+  "combined_auth_error_forbidden": { "other": "Ein Fehler ist aufgetreten." },
 
   "forgotpassword_page_header": { "other": "Passwort zurücksetzen" },
   "forgotpassword_form_email": { "other": "E-Mail-Adresse" },
   "forgotpassword_form_submit": { "other": "Zurücksetzen" },
-  "forgotpassword_form_error_email_doesnt_exist": { "other": "An account matching that email address does not exist." },
-  "forgotpassword_form_error_account_suspended": { "other": "This account is suspended." },
+  "forgotpassword_form_error_email_doesnt_exist": { "other": "Es existiert kein Konto mit dieser E-Mail-Adresse." },
+  "forgotpassword_form_error_account_suspended": { "other": "Dieses Konto wurde gesperrt." },
   "forgotpassword_complete": { "other": "Vielen Dank! In Kürze erhalten Sie eine E-Mail mit einem Link zum Zurücksetzen Ihres Passwortes." },
-  "forgotpassword_form_error_forbidden": { "other": "An error has occurred." },
+  "forgotpassword_form_error_forbidden": { "other": "Ein Fehler ist aufgetreten." },
 
   "resetpassword_page_header": { "other": "Ändern Sie Ihr Passwort" },
-  "resetpassword_form_invalid_reset_password_token": { "other": "It appears as if this reset password request is invalid, please fill out the <a href=\"{{.URL}}\">Forgot Password</a> form again." },
-  "resetpassword_form_password": { "other": "New password" },
+  "resetpassword_form_invalid_reset_password_token": { "other": "Ihre Anfrage ist ungültig. Bitte füllen Sie das Formular <a href=\"{{.URL}}\">Passwort vergessen</a> nochmals aus." },
+  "resetpassword_form_password": { "other": "Neues Passwort" },
   "resetpassword_form_password2": { "other": "Bestätigen Sie Ihr Passwort" },
   "resetpassword_form_submit": { "other": "Veränderung" },
-  "resetpassword_complete": { "other": "Thank you. Your password has been changed, and you have been signed in." },
-  "resetpassword_form_error_invalid_reset_password_token": { "other": "The reset password request is invalid. Please try again later." },
+  "resetpassword_complete": { "other": "Vielen Dank. Ihr Passwort wurde geändert und Sie wurden eingeloggt." },
+  "resetpassword_form_error_invalid_reset_password_token": { "other": "Ihre Anfrage ist ungültig. Bitte versuchen Sie es später nochmals." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "The reset password token has expired. Please request a new one." },
 
   "account_page_header": { "other": "Mein Konto" },
