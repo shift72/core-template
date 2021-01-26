@@ -40,7 +40,7 @@
   "date_year": { "other": "Jahr" },
 
   "404_page_header": { "other": "Diese Seite existiert nicht…" },
-  "404_page_content": { "other": "<p>Diese Seite existiert leider nicht.</p><p><a href=\"/\">Zurück zur Startseite</a></p>" },
+  "404_page_content": { "other": "<p>Diese Seite existiert leider nicht.</p><p><a href=\"{{.URL}}\">Zurück zur Startseite</a></p>" },
 
 
   "nav_homepage": { "other": "ABC Cinemas" },
@@ -65,7 +65,7 @@
   "social_media_buttons_title": { "other": "Teilen" },
 
   "accept_invite_page_header": { "other": "Willkommen bei " },
-  "acceptinvite_form_invalid_reset_password_token": { "other": "Sie haben diese Einladung bereits angenommen. <a href=\"signin.html\">Loggen Sie sich hier ein</a>. Falls Sie Ihr Passwort vergessen haben, können Sie es <a href=\"forgotpassword.html\">hier zurücksetzen</a>." },
+  "acceptinvite_form_invalid_reset_password_token": { "other": "Sie haben diese Einladung bereits angenommen. <a href=\"{{.SigninURL}}\">Loggen Sie sich hier ein</a>. Falls Sie Ihr Passwort vergessen haben, können Sie es <a href=\"{{.ForgotPasswordURL}}\">hier zurücksetzen</a>." },
   "acceptinvite_complete": { "other": "Vielen Dank. Ihr Konto wurde erstellt." },
   "acceptinvite_form_submit": { "other": "Einladung annehmen" },
   "acceptinvite_agreement": { "other": "Durch Klicken auf den Button stimme ich den <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Allgemeinen Geschäftsbedingungen</a> und der <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">Datenschutzerklärung zu</a>." },
@@ -266,14 +266,14 @@
     "one": "Sie können ihre Leihe während {{.Count}} Tagen so oft ansehen, wie Sie möchten. ",
     "other": "Sie können ihre Leihe während {{.Count}} Tagen so oft ansehen, wie Sie möchten. "
   },
-  "shopping_complete_purchase": { "other": "Vielen Dank für den Kauf von {{.Title}}" },
+  "shopping_complete_purchase": { "other": "Vielen Dank für den Kauf von {{.Title}}." },
   "shopping_complete_credit_purchase": { "other": "Vielen Dank für den Kauf von {{.Title}}, {{.CreditTotal}} wurde Ihrem Konto gutgeschrieben." },
   "shopping_complete_purchase_coming_soon": { "other": "Ab dem {{.Date}} können Sie den Film ansehen." },
   "shopping_complete_receipt": { "other": "Die Rechnung wurde Ihnen per Email zugeschickt." },
   "shopping_complete_library_link": { "other": "Ab jetzt können Sie alle {{.BundleItems}} des Pakets ansehen." },
 
   "shopping_complete_rental_watch_window_start": {
-    "one": "You are now able to start watching it within the next day.",
+    "one": "Ab jetzt können Sie den geliehenen Film in den nächsten {{.Count}} Tagen ansehen.",
     "other": "Ab jetzt können Sie den geliehenen Film in den nächsten {{.Count}} Tagen ansehen."
   },
   "shopping_complete_rental_watch_window_end": {
@@ -350,7 +350,7 @@
   "classification_divider": { "other": " - " },
   "classification_outro": { "other": "" },
 
-  "cookie_banner_message": { "other": "Diese Webseite verwendet Cookies und andere Identifizierungsmerkmale. Mit der Nutzung der Webseite erklären Sie sich damit einverstanden. Nähere Informationen entnehmen Sie den <a href=\"/page/cookie-policy/\">Datenschutzrichtlinien</a>. " },
+  "cookie_banner_message": { "other": "Wir verwenden Cookies und andere Identifizierungsmerkmale, um Ihre Online-Erfahrung zu verbessern. Mit der Nutzung unserer Website erklären Sie sich damit einverstanden. Lesen Sie gerne unsere <a href=\"{{.CookiePolicyURL}}\">Datenschutzrichtlinie</a> um herauszufinden, wofür Cookies verwendet werden und wie Sie Ihre Einstellungen ändern können." },
   "cookie_banner_accept": { "other": "Annehmen" },
 
   "all_rights_reserved": { "other": "Alle Rechte vorbehalten. Kein Teil dieser Website darf ohne unsere schriftliche Genehmigung reproduziert werden." },
