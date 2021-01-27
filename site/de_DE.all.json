@@ -188,27 +188,27 @@
   "shopping_info_rental_period_duration": { "other": "Verfügbar für {{.Count}} Tage " },
   "shopping_info_watch_window_duration": { "other": "Abspielbar für {{.Count}} Stunden. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Sobald Sie den Film leihen ist dieser für {{.Count}} Tage in Ihrem Konto verfügbar. ",
+    "one": "Sobald Sie den Film leihen, ist dieser für einen Tag in Ihrem Konto verfügbar. ",
     "other": "Sobald Sie den Film leihen ist dieser für {{.Count}} Tage in Ihrem Konto verfügbar. "
   },
   "shopping_info_watch_window_explanation2_film": {
-    "one": "Sobald Sie den Film zum ersten mal abspielen, kann dieser in einem Zeitfenster von {{.Count}} Stunden so oft wiedergegeben werden, wie Sie möchten.",
+    "one": "Sobald Sie den Film zum ersten mal abspielen, kann dieser in einem Zeitfenster von 1 Stunde so oft wiedergegeben werden, wie Sie möchten.",
     "other": "Sobald Sie den Film zum ersten mal abspielen, kann dieser in einem Zeitfenster von {{.Count}} Stunden so oft wiedergegeben werden, wie Sie möchten."
   },
   "shopping_info_watch_window_explanation_bundle": {
-    "one": "Sobald Sie den Film leihen ist dieser für {{.Count}} Tage in Ihrem Konto verfügbar. ",
+    "one": "Sobald Sie den Film leihen, ist dieser für einen Tag in Ihrem Konto verfügbar. ",
     "other": "Sobald Sie den Film leihen ist dieser für {{.Count}} Tage in Ihrem Konto verfügbar. "
   },
   "shopping_info_watch_window_explanation2_bundle": {
-    "one": "Sobald Sie den Film zum ersten mal abspielen, kann dieser in einem Zeitfenster von {{.Count}} Stunden so oft wiedergegeben werden, wie Sie möchten.",
+    "one": "Sobald Sie den Film zum ersten mal abspielen, kann dieser in einem Zeitfenster von 1 Stunde so oft wiedergegeben werden, wie Sie möchten.",
     "other": "Sobald Sie den Film zum ersten mal abspielen, kann dieser in einem Zeitfenster von {{.Count}} Stunden so oft wiedergegeben werden, wie Sie möchten."
   },
   "shopping_info_watch_window_explanation_season": {
-    "one": "Sobald Sie diese Staffel ausleihen, ist sie für {{.Count}} Tage in Ihrem Konto verfügbar. ",
+    "one": "Sobald Sie diese Staffel ausleihen, ist sie für einen Tag in Ihrem Konto verfügbar. ",
     "other": "Sobald Sie diese Staffel ausleihen, ist sie für {{.Count}} Tage in Ihrem Konto verfügbar. "
   },
   "shopping_info_watch_window_explanation2_season": {
-    "one": "Sobald Sie eine Episode in dieser Staffel zum ersten Mal abspielen, können die Episoden dieser Staffel während {{.Count}} Stunden so oft wiedergegeben werden, wie Sie möchten. ",
+    "one": "Sobald Sie eine Episode in dieser Staffel zum ersten Mal abspielen, können die Episoden dieser Staffel während 1 Stunde so oft wiedergegeben werden, wie Sie möchten. ",
     "other": "Sobald Sie eine Episode in dieser Staffel zum ersten Mal abspielen, können die Episoden dieser Staffel während {{.Count}} Stunden so oft wiedergegeben werden, wie Sie möchten."
   },
   "shopping_info_rental_period_coming_soon": { "other": "ab dem Zeitpunk der Premiere." },
@@ -263,7 +263,7 @@
 
   "shopping_complete_rental": { "other": "Kauf erfolgreich!" },
   "shopping_complete_rental_period": {
-    "one": "Sie können ihre Leihe während {{.Count}} Tagen so oft ansehen, wie Sie möchten. ",
+    "one": "Sie können ihre Leihe während eines Tages so oft ansehen, wie Sie möchten. ",
     "other": "Sie können ihre Leihe während {{.Count}} Tagen so oft ansehen, wie Sie möchten. "
   },
   "shopping_complete_purchase": { "other": "Vielen Dank für den Kauf von {{.Title}}." },
@@ -273,19 +273,19 @@
   "shopping_complete_library_link": { "other": "Ab jetzt können Sie alle {{.BundleItems}} des Pakets ansehen." },
 
   "shopping_complete_rental_watch_window_start": {
-    "one": "Ab jetzt können Sie den geliehenen Film in den nächsten {{.Count}} Tagen ansehen.",
+    "one": "Ab jetzt können Sie den geliehenen Film bis zum nächsten Tag ansehen.",
     "other": "Ab jetzt können Sie den geliehenen Film in den nächsten {{.Count}} Tagen ansehen."
   },
   "shopping_complete_rental_watch_window_end": {
-    "one": "When playback is started you will then have an hour to watch the item as many times as you like.",
+    "one": "Ab dem ersten Abspielen Ihres geliehenen Films können Sie ihn während 1 Stunde so oft ansehen, wie Sie möchten. ",
     "other": "Ab dem ersten Abspielen Ihres geliehenen Films können Sie ihn während {{.Count}} Stunden so oft ansehen, wie Sie möchten. "
   },
   "shopping_complete_rental_coming_soon": {
-    "one": "You will be able to watch it from {{.Date}} and your rental will remain active for a day.",
+    "one": "Ab dem {{.Date}} können Sie Ihren geliehenen Film für einen Tag ansehen",
     "other": "Ab dem {{.Date}} können Sie Ihren geliehenen Film während {{.Count}} Tagen ansehen."
   },
   "shopping_complete_rental_coming_soon_watch_window_start": {
-    "one": "You will be able to watch it from {{.Date}} and your rental will remain active for a day.",
+    "one": "Ab dem {{.Date}} können Sie Ihren geliehenen Film für einen Tag ansehen",
     "other": "Ab dem {{.Date}} können Sie Ihren geliehenen Film während {{.Count}} Tagen ansehen."
   },
 
@@ -326,7 +326,7 @@
 
   "userdevices_page_header": { "other": "Geräte" },
   "userdevices_page_content": {
-    "one": "Devices will be automatically added here when you use them. You are limited to only one device.",
+    "one": "Ihre verwendeten Geräte werden hier automatisch angezeigt. Es kann maximal 1 Gerät hinzugefügt werden.",
     "other": "Ihre verwendeten Geräte werden hier automatisch angezeigt. Es können maximal {{.Count}} Geräte hinzugefügt werden."
   },
   "userdevices_empty_content": { "other": "Im Moment sind 0 Geräte registriert." },
