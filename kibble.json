@@ -42,7 +42,7 @@
     {
       "name": "filmIndex",
       "urlPath": "/film/",
-      "templatePath": "templates/film/index.jet",
+      "templatePath": "404.html.jet",
       "datasource": "FilmIndex",
       "pageSize": 0
     },
@@ -66,10 +66,10 @@
     },
     {
       "name": "pageIndex",
-      "urlPath": "/page/:index/",
-      "templatePath": "templates/page/index.jet",
+      "urlPath": "/page/",
+      "templatePath": "404.html.jet",
       "datasource": "PageIndex",
-      "pageSize": 10
+      "pageSize": 0
     },
     {
       "name": "bundleItem",
@@ -83,7 +83,7 @@
     {
       "name": "bundleIndex",
       "urlPath": "/bundle/",
-      "templatePath": "templates/bundle/index.jet",
+      "templatePath": "404.html.jet",
       "datasource": "BundleIndex",
       "pageSize": 0
     },
