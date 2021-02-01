@@ -277,7 +277,7 @@
     "shopping_complete_credit_purchase": { "other": "yi satın aldığınız için teşekkürler {{.Title}}, {{.CreditTotal}} hesabınıza eklenmiştir." },
     "shopping_complete_purchase_coming_soon": { "other": "tarihinden itibaren filmi izleyebileceksiniz {{.Date}}." },
     "shopping_complete_receipt": { "other": "Faturanız adresinize e-posta ile gönderilmiştir." },
-    "shopping_complete_library_link": { "other": "Kütüphanenizdeki {{.BundleItems}} lerden birini şimdi izlemeye başlayın." },
+    "shopping_complete_library_link": { "other": "Kütüphanenizi görüntüle" },
   
     "shopping_complete_rental_watch_window_start": {
       "one": "Artık önümüzdeki günde filmi izlemeye başlayabilirsiniz.",

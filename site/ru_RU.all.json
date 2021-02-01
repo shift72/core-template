@@ -276,7 +276,7 @@
     "shopping_complete_credit_purchase": { "other": "Благодарим Вас за покупку {{.Title}}, {{.CreditTotal}} была добавлена ​​на ваш счет." },
     "shopping_complete_purchase_coming_soon": { "other": "Вы сможете посмотреть его, начиная с {{.Date}}." },
     "shopping_complete_receipt": { "other": "Квитанция по электронной почте." },
-    "shopping_complete_library_link": { "other": "Начало просмотра любого из {{.BundleItems}} в видеотеке в настоящее время." },
+    "shopping_complete_library_link": { "other": "Просмотр библиотеки" },
 
     "shopping_complete_rental_watch_window_start": {
       "one": "Теперь вы можете начать смотреть его в течение следующего дня.",

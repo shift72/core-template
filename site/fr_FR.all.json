@@ -79,7 +79,6 @@
   "signup_form_email": { "other": "Adresse électronique" },
   "signup_form_password": { "other": "Mot de passe" },
   "signup_form_password_confirmation": { "other": "Confirmer votre mot de passe" },
-  "signup_form_name": { "other": "Nom" },
   "signup_form_gender": { "other": "Genre" },
   "signup_form_dob": { "other": "Date de naissance" },
   "signup_form_submit": { "other": "Valider" },
@@ -280,7 +279,7 @@
   "shopping_complete_credit_purchase": { "other": "Merci d'avoir acheté {{.Title}}, {{.CreditTotal}} a été ajouté à votre compte." },
   "shopping_complete_purchase_coming_soon": { "other": "Vous pourrez commencer le visionnage à partir du {{.Date}}." },
   "shopping_complete_receipt": { "other": "Un reçu vous a été envoyé par email." },
-  "shopping_complete_library_link": { "other": "Commencer maintenant à regarder l'un des {{.BundleItems}} dans votre bibliothèque." },
+  "shopping_complete_library_link": { "other": "Voir votre bibliothèque" },
 
   "shopping_complete_rental_watch_window_start": {
     "one": "Vous pouvez maintenant commencer la lecture jusqu'à demain",

@@ -274,7 +274,7 @@
   "shopping_complete_credit_purchase": { "other": "Gracias por comprar {{.Title}}, {{.CreditTotal}} ha sido añadido a su cuenta." },
   "shopping_complete_purchase_coming_soon": { "other": "Estará disponible para verse en {{.Date}}." },
   "shopping_complete_receipt": { "other": "Un recibo se ha enviado por correo electrónico." },
-  "shopping_complete_library_link": { "other": "Empezar a ver cualquiera de los {{.BundleItems}} en su biblioteca ahora." },
+  "shopping_complete_library_link": { "other": "Ir a vuestra biblioteca." },
 
   "shopping_complete_rental_watch_window_start": {
     "one": "Ahora puede ver dentro del próximo día.",

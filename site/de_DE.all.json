@@ -270,7 +270,7 @@
   "shopping_complete_credit_purchase": { "other": "Vielen Dank für den Kauf von {{.Title}}, {{.CreditTotal}} wurde Ihrem Konto gutgeschrieben." },
   "shopping_complete_purchase_coming_soon": { "other": "Ab dem {{.Date}} können Sie den Film ansehen." },
   "shopping_complete_receipt": { "other": "Die Rechnung wurde Ihnen per Email zugeschickt." },
-  "shopping_complete_library_link": { "other": "Ab jetzt können Sie alle {{.BundleItems}} des Pakets ansehen." },
+  "shopping_complete_library_link": { "other": "Sehen Sie Ihre Bibliothek" },
 
   "shopping_complete_rental_watch_window_start": {
     "one": "Ab jetzt können Sie den geliehenen Film bis zum nächsten Tag ansehen.",

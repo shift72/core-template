@@ -290,7 +290,7 @@
   "shopping_complete_credit_purchase": { "other": "Thank you for purchasing {{.Title}}, {{.CreditTotal}} has been added to your account." },
   "shopping_complete_purchase_coming_soon": { "other": "You will be able to watch it from {{.Date}}." },
   "shopping_complete_receipt": { "other": "A receipt has been emailed to you." },
-  "shopping_complete_library_link": { "other": "Start watching any of the {{.BundleItems}} in your library now." },
+  "shopping_complete_library_link": { "other": "View your library" },
 
   "shopping_complete_rental_watch_window_start": {
     "one": "You are now able to start watching it within the next day.",
