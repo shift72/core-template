@@ -152,7 +152,7 @@
   "searchresults_page_header": { "other": "Résultats de recherche" },
   "searchresults_load_more": { "other": "Afficher {{.Count}} de plus" },
   "searchresults_total": {
-    "one": "1 résult troubé pour \"{{.Query}}\".",
+    "one": "1 résultat trouvé pour \"{{.Query}}\".",
     "other": "{{.Count}} résultats trouvés pour \"{{.Query}}\"."
   },
   "searchresults_empty_header":  { "other": "Aucun résultat trouvé pour \"{{.Query}}\"" },
@@ -177,7 +177,7 @@
   "availability_available_till": { "other": "Disponible jusqu’au {{.ExpiryDate}}" },
   "availability_available": { "other": "Disponible {{.ReleaseDate}}" },
   "availability_expires": { "other": "Expire {{.Expiry}}" },
-  
+
 
   "shopping_info_subtitle_hd": { "other": "Vidéo HD à la demande." },
   "shopping_info_subtitle_sd": { "other": "Vidéo SD à la demande." },
