@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "siteUrl": "https://staging-abccinemas.screenplus.co",
   "builderVersion": "0.15.6",
-  "defaultLanguage": "jp",
+  "defaultLanguage": "en",
   "languages": {
     "en": { "code": "en_AU", "name": "English" },
     "it": { "code": "it_IT", "name": "Italiano" },
@@ -21,7 +21,7 @@
     "pl": { "code": "pl_PL", "name": "Polskie" },
     "se": { "code": "se_SE", "name": "Српски" },
     "nl": { "code": "nl_BE", "name": "Nederlands" },
-    "jp": { "code": "jp_JP", "name": "日本語"}
+    "jp": { "code": "ja_JP", "name": "日本語"}
   },
   "siteRootPath": "site",
   "liveReload": {
