@@ -335,6 +335,8 @@
   "availability_available_till": { "other": "{{.ExpiryDate}} まで視聴可能" },
   "availability_not_available_in_country": { "other": "視聴不可" },
   "availability_available": { "other": "{{.ReleaseDate}} から視聴可能" },
+  "availability_expires": { "other": "視聴期限{{.Expiry}}まで" },
+  "availability_expired": { "other": "視聴期限切れ"},
 
   "modal_cancel": { "other": "キャンセル" },
 
