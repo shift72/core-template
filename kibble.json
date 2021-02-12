@@ -21,7 +21,8 @@
     "pl": { "code": "pl_PL", "name": "Polskie" },
     "se": { "code": "se_SE", "name": "Српски" },
     "nl": { "code": "nl_BE", "name": "Nederlands" },
-    "ja": { "code": "ja_JP", "name": "日本語"}
+    "ja": { "code": "ja_JP", "name": "日本語"},
+    "lt": { "code": "lt_LT", "name": "Lietuvių Kalba" }
   },
   "siteRootPath": "site",
   "liveReload": {
