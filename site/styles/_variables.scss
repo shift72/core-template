@@ -33,8 +33,8 @@ $container-max-widths: (
 // Body / Core
 // ------------------------------------
 
-$primary:         #35a0a8 !default;
-$secondary:       #4cd3dd !default;
+$primary:         #4d97ff !default;
+$secondary:       #2d85ff !default;
 $body-bg:         #000 !default;
 $body-color:      #fff !default;
 $hr-border-color: rgba($body-color, .5) !default;
@@ -57,7 +57,7 @@ $navbar-dark-color:         $body-color !default;
 $navbar-dark-hover-color:   #FD4766 !default;
 
 // Navbar Logo (Brand)
-$navbar-brand-padding-y: 25px !default;
+$navbar-brand-padding-y: 45px !default;
 $navbar-brand-min-width: 130px !default;
 $navbar-brand-min-width-md: 200px !default;
 $navbar-brand-min-width-lg: 200px !default;

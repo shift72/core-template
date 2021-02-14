@@ -456,7 +456,7 @@ function initializeMenu() {
 }
 
 function toggleMobileMenu(icon){
-  var element = document.querySelector('.collapse.navbar-collapse');
+  var element = document.querySelector('.navigation');
   if (element && icon) {
     element.classList.contains('show') ? icon.classList.add('toggled') : icon.classList.remove('toggled');
   }
