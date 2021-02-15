@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    {{ range site.Pages }}
+      <loc>{{routeToSlug(.Slug)}}</loc>
+    {{ end }}
+
+    {{ range site.Films }}
+      <loc>{{routeToSlug(.Slug)}}</loc>
+    {{ end }}
+
+    {{ range site.TVSeasons }}
+      <loc>{{routeToSlug(.Slug)}}</loc>
+    {{ end }}
+
+    {{ range site.Collections }}
+      <loc>{{routeToSlug(.Slug)}}</loc>
+    {{ end }}
+
+    {{ range site.Bundles }}
+      <loc>{{routeToSlug(.Slug)}}</loc>
+    {{ end }}
+  </url>
+</urlset>
