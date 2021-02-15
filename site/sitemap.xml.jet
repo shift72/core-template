@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{ range site.Pages }}
+    <url>
+      {{ if .PageType == "external" }}
+        <loc>{{routeToSlug(.Slug)}}</loc>
+      {{ else }}
+        <loc>{{site.SiteConfig.SiteURL}}{{routeToSlug(.Slug)}}</loc>
+      {{ end }}
+    </url>
+  {{ end }}
+
+  {{ range site.Films }}
+    <url>
+      <loc>{{site.SiteConfig.SiteURL}}{{routeToSlug(.Slug)}}</loc>
+    </url>
+  {{ end }}
+
+  {{ range site.TVSeasons }}
+    <url>
+      <loc>{{site.SiteConfig.SiteURL}}{{routeToSlug(.Slug)}}</loc>
+    </url>
+  {{ end }}
+
+  {{ range site.Collections }}
+    <url>
+      <loc>{{site.SiteConfig.SiteURL}}{{routeToSlug(.Slug)}}</loc>
+    </url>
+  {{ end }}
+
+  {{ range site.Bundles }}
+    <url>
+      <loc>{{site.SiteConfig.SiteURL}}{{routeToSlug(.Slug)}}</loc>
+    </url>
+  {{ end }}
+</urlset>

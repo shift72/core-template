@@ -2,3 +2,4 @@
 User-agent: *
 Allow: /
 Sitemap: {{site.SiteConfig.SiteURL}}/sitemap.txt
+Sitemap: {{site.SiteConfig.SiteURL}}/sitemap.xml
