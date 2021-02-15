@@ -2,52 +2,58 @@
 {{import "./nav/user_logged_in.jet"}}
 
 {{block nav(showSubNav=true)}}
-<div class="navigation" data-toggle="affix">
-  <nav class="navbar">
-
-    <div class="navbar-brand-container">
-      <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
-        <button class="navbar-toggler" type="button" toggle-function="toggleMobileMenu" s72-collapse=".navigation" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="icon-navbar-toggler"></span>
+<div class="navigation search-hidden" data-toggle="affix">
+  <nav>
+    <div class="navbar">
+      <div class="navbar-brand-container">
+        <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
+          <button class="navbar-toggler" type="button" toggle-function="toggleMobileMenu" s72-collapse=".navigation" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-navbar-toggler"></span>
+          </button>
+      </div>
+      
+      {{if config("search_disabled") != "true"}}
+        <button class="btn-search" type="button" onClick="toggleSearch()">
+          <span class="search-icon"></span>
         </button>
-    </div>
-    
-    {{if config("search_disabled") != "true"}}
-      <form class="form-search navbar-nav-search" action="{{ routeToPath("/search.html") }}">
-          <input class="form-control form-control-search" type="search" placeholder="{{i18n("search_control_placeholder")}}" name="q" aria-label="{{i18n("search_control_placeholder")}}">
-          <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
-      </form>
-    {{end}}
+      {{end}}
 
-    <s72-language-selector></s72-language-selector>
+      <s72-language-selector></s72-language-selector>
+      <div class="vl"></div>
+      <div class="navbar-nav s72-hide">
+        {{ yield nav_user_logged_out() }}
+        {{ yield nav_user_logged_in() }}
+      </div>
 
-    <div class="navbar-nav s72-hide">
-      {{ yield nav_user_logged_out() }}
-      {{ yield nav_user_logged_in() }}
-    </div>
-
-    {{if len(site.Navigation.Header) > 0 && showSubNav}}
-      <ul class="sub-nav">
-        {{range site.Navigation.Header}}
-          {{if len(.Items) > 0}}
-            <li class="nav-item">
-              <s72-dropdown>
-                <a class="s72-dropdown-toggle nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : len(.Items) == 0 ? routeToSlug(.Link.Slug) : "#"}}">{{.Label}}</a>
-                <div class="s72-dropdown-menu sub-nav-menu">
-                  {{range sub := .Items}}
-                    <a class="nav-link" href="{{len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
-                  {{end}}
-                </div>
-              </s72-dropdown>
-            </li>
-          {{else}}
-            <li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}">
-              <a class="nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug)}}">{{.Label}}</a>
-            </li>
+      {{if len(site.Navigation.Header) > 0 && showSubNav}}
+        <ul class="sub-nav">
+          {{range site.Navigation.Header}}
+            {{if len(.Items) > 0}}
+              <li class="nav-item">
+                <s72-dropdown>
+                  <a class="s72-dropdown-toggle nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : len(.Items) == 0 ? routeToSlug(.Link.Slug) : "#"}}">{{.Label}}</a>
+                  <div class="s72-dropdown-menu sub-nav-menu">
+                    {{range sub := .Items}}
+                      <a class="nav-link" href="{{len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
+                    {{end}}
+                  </div>
+                </s72-dropdown>
+              </li>
+            {{else}}
+              <li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}">
+                <a class="nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug)}}">{{.Label}}</a>
+              </li>
+            {{end}}
           {{end}}
-        {{end}}
-      </ul>
-    {{end}}
+        </ul>
+      {{end}}
+    </div>
+          <form class="form-search navbar-nav-search search-desktop" action="{{ routeToPath("/search.html") }}">
+        <input class="form-control form-control-search" type="search" placeholder="Search for a film or event..." name="q" aria-label="{{i18n("search_control_placeholder")}}">
+        <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
+      </form>
   </nav>
+
+
 </div>
 {{end}}

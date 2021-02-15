@@ -1,8 +1,12 @@
 s72-language-selector {
   .s72-dropdown-toggle {
+    // Remove this from shift72-web
     i {
       padding-right: 10px;
+      font-size: 18px;
+      display: none;
     }
+    
   }
   .s72-dropdown-menu {
     left: auto;
@@ -12,8 +16,11 @@ s72-language-selector {
   }
   .s72-language-selector {
     margin: 0;
+    padding: 10px 0;
   }
   .s72-dropdown-toggle {
     padding: 0;
+    display: flex;
+    align-items: center;
   }
 }

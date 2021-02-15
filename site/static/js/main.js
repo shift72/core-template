@@ -462,6 +462,21 @@ function toggleMobileMenu(icon){
   }
 }
 
+function toggleSearch() {
+  console.log("search clicked !");
+  var element = document.querySelector('.navigation');
+  if (element) { 
+    if (element.classList.contains('search-hidden')) {
+      element.classList.remove('search-hidden');
+      element.classList.add('search-show');
+    }
+    else if ("search-hidden") {
+      element.classList.remove('search-show');
+      element.classList.add('search-hidden');
+    }
+  }
+}
+
 // Checks if the subnav is overflowing
 function subnavOverflowing() {
   var subnav = document.querySelector('.sub-nav');
