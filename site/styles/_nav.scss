@@ -44,6 +44,8 @@
   justify-content: flex-start;
   flex-direction: column;
   min-height: 100%;
+  background-color: transparent;
+  //transition: background-color 0.15s;;
   @include media-breakpoint-up(md) {
     padding: 20px 50px 15px 50px;
     flex-direction: row;
@@ -54,22 +56,24 @@
   background-color: $body-bg;
 }
 
-// Initial order
-.navbar-brand-container { order: 1; }
-.btn-search { order: 2;}
+// Mobile Order
+.navbar-brand-container { order: 1;}
+.btn-search { order: 2; }
 s72-language-selector { order: 3; }
-.vl { order: 4; }
+.sub-nav { order: 4; }
 .navbar-nav { order: 5; }
-.sub-nav { order: 6; }
-.navbar-nav-search { order: 7;}
 
-@include media-breakpoint-down(sm) {
-  .navbar-brand-container { order: 1;}
-  .btn-search { order: 2; }
+// Desktop Order
+@include media-breakpoint-up(md) {
+  .navbar-brand-container { order: 1; }
+  .btn-search { order: 2;}
   s72-language-selector { order: 3; }
+  .vl { order: 4; }
   .navbar-nav { order: 5; }
-  .sub-nav { order: 4; }
+  .sub-nav { order: 6; }
+  .navbar-nav-search { order: 7;}
 }
+
 
 
 
@@ -129,6 +133,7 @@ s72-language-selector { order: 3; }
     @include hover-focus {
       @extend .animate-this;
     }
+
   }
   .s72-username {
     max-width: 100px; //arbituary
@@ -355,8 +360,20 @@ s72-language-selector { order: 3; }
   .nav-link {
     padding: 10px 0;
     color: $subnav-nav-item-color;
+    @extend .animate-this;
     @include media-breakpoint-up(md) {
       margin-right: 20px;
+      border-bottom: 3px solid transparent;
+      @include hover-focus{
+        opacity: 1;
+        color: $subnav-nav-item-hover-background-color;
+        border-bottom: 3px solid $subnav-nav-item-hover-background-color;
+      }
+      &.s72-dropdown-toggle {
+        @include hover-focus {
+          border-bottom: 3px solid transparent;
+        }
+      }
     }
   }
 }
@@ -397,8 +414,9 @@ s72-language-selector { order: 3; }
   visibility: hidden; 
 }
 .search-show .search-desktop {
-  animation: search-show 0.25s ease-out;
+  animation: search-show 0.15s ease-out;
   animation-fill-mode: forwards; 
+  //animation-delay: 0.15s;
   z-index: 1;
   .form-control-search {
     border-radius: 0;
@@ -412,7 +430,7 @@ s72-language-selector { order: 3; }
 }
 
 @keyframes search-show {
-  0% {transform: translateY(-129px); visibility: visible;}
+  0% {transform: translateY(-100px); visibility: visible;}
   100% {transform: translateY(0px); visibility: visible;}
 }
 
