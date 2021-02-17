@@ -36,6 +36,7 @@ $container-max-widths: (
 $primary:         #4d97ff !default;
 $secondary:       #2d85ff !default;
 $body-bg:         #000 !default;
+$body-bg-light: #1a1a1a;
 $body-color:      #fff !default;
 $hr-border-color: rgba($body-color, .5) !default;
 $list-group-bg: $body-bg !default;
@@ -87,7 +88,8 @@ $signin-text-color: $body-color !default;
 $signin-text-color-hover: $body-color !default;
 $signin-border-color: transparent !default;
 $signin-border-color-hover: transparent !default;
-$signin-background: transparent !default;
+$signin-background: rgba($color: $body-color, $alpha: 0.06) !default;
+$signin-background-md: transparent !default;
 $signin-background-hover: transparent !default;
 
 $signup-text-color: $button-text-color !default;

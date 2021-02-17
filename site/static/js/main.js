@@ -456,24 +456,9 @@ function initializeMenu() {
 }
 
 function toggleMobileMenu(icon){
-  var element = document.querySelector('.navigation');
-  if (element && icon) {
-    element.classList.contains('show') ? icon.classList.add('toggled') : icon.classList.remove('toggled');
-  }
-}
-
-function toggleSearch() {
-  console.log("search clicked !");
-  var element = document.querySelector('.navigation');
-  if (element) { 
-    if (element.classList.contains('search-hidden')) {
-      element.classList.remove('search-hidden');
-      element.classList.add('search-show');
-    }
-    else if ("search-hidden") {
-      element.classList.remove('search-show');
-      element.classList.add('search-hidden');
-    }
+  var nav = document.querySelector('.navigation');
+  if (nav && icon) {
+    nav.classList.contains('show') ? icon.classList.add('toggled') : icon.classList.remove('toggled');
   }
 }
 

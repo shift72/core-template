@@ -2,7 +2,7 @@
 {{import "./nav/user_logged_in.jet"}}
 
 {{block nav(showSubNav=true)}}
-<div class="navigation search-hidden" data-toggle="affix">
+<div class="navigation search-hidden" data-toggle="affix" aria-hidden="true">
   <nav>
     <div class="navbar">
       <div class="navbar-brand-container">
@@ -11,11 +11,14 @@
             <span class="icon-navbar-toggler"></span>
           </button>
       </div>
-      
+
       {{if config("search_disabled") != "true"}}
-        <button class="btn-search" type="button" onClick="toggleSearch()">
-          <span class="search-icon"></span>
-        </button>
+        <form class="form-search navbar-nav-search search-desktop" action="{{ routeToPath("/search.html") }}">
+          <button class="search-icon"></button>
+          <input class="form-control form-control-search" type="search" placeholder="Search" name="q" aria-label="{{i18n("search_control_placeholder")}}">
+            
+          <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
+        </form>
       {{end}}
 
       <s72-language-selector></s72-language-selector>
@@ -37,6 +40,7 @@
                       <a class="nav-link" href="{{len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
                     {{end}}
                   </div>
+                  <svg  width="24" height="24" viewBox="0 0 24 24" class="dropdown-caret"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
                 </s72-dropdown>
               </li>
             {{else}}
@@ -48,10 +52,6 @@
         </ul>
       {{end}}
     </div>
-          <form class="form-search navbar-nav-search search-desktop" action="{{ routeToPath("/search.html") }}">
-        <input class="form-control form-control-search" type="search" placeholder="Search for a film or event..." name="q" aria-label="{{i18n("search_control_placeholder")}}">
-        <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
-      </form>
   </nav>
 
 

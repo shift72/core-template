@@ -1,10 +1,12 @@
 s72-language-selector {
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: flex;
+  }
   .s72-dropdown-toggle {
-    // Remove this from shift72-web
     i {
       padding-right: 10px;
       font-size: 18px;
-      display: none;
     }
     
   }
@@ -23,4 +25,7 @@ s72-language-selector {
     display: flex;
     align-items: center;
   }
+}
+.navigation.show s72-language-selector {
+  display: flex;
 }
