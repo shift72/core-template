@@ -292,7 +292,7 @@
   "userwishlist_slider_header": { "other": "マイリスト" },
   "userwishlist_empty_header":  { "other": "お客様のマイリストには何も入っていません。" },
   "userwishlist_empty_content": { "other": "作品を<a href=\"/\">チェック</a> してマイリストに追加してみてください。" },
-  "userwishlist_button_add": { "other": "Aマイリストに追加" },
+  "userwishlist_button_add": { "other": "マイリストに追加" },
   "userwishlist_button_remove": { "other": "マイリスト" },
   "userwishlist_button_add_compact": { "other": "マイリスト" },
   "userwishlist_button_remove_compact": { "other": "マイリスト" },
