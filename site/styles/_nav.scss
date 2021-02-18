@@ -9,13 +9,11 @@ TODO - SHIFT72-WEB
   position: absolute;
   z-index: 9;
   width: 100%;
-  
   top: 0;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  
   @extend .top-gradient-bg;
 }
 
@@ -44,7 +42,6 @@ TODO - SHIFT72-WEB
     flex-direction: column;
     min-height: 100%;
     background-color: transparent;
-    //transition: background-color 0.15s;;
     @include media-breakpoint-up(md) {
       padding: 20px 50px 15px 50px;
       flex-direction: row;
@@ -68,7 +65,7 @@ TODO - SHIFT72-WEB
   // Desktop Order
   @include media-breakpoint-up(md) {
     .navbar-brand-container { order: 1; }
-    .navbar-nav-search { order: 2;}
+    .navbar-nav-search { order: 2; }
     s72-language-selector { order: 3; }
     .vl { order: 4; }
     .navbar-nav { order: 5; }
@@ -79,9 +76,11 @@ TODO - SHIFT72-WEB
     display: flex;
     align-items: center;
     width: 100%;
+    padding-bottom: 10px;
     @include media-breakpoint-up(md) {
       width: auto;
       flex-grow: 1;
+      padding-bottom: 0;
     } 
   }
   // Hamburger Menu Icon
@@ -89,6 +88,9 @@ TODO - SHIFT72-WEB
     z-index: 10;
     color: #ffffff;
     @include media-breakpoint-up(md) {
+      display: none;
+    }
+    .icon-navbar-toggler {
       display: none;
     }
   }
@@ -165,6 +167,12 @@ TODO - SHIFT72-WEB
     }
     @include media-breakpoint-up(xl) {
       min-width: $navbar-brand-min-width-xl;
+    }
+  }
+  &.show .navbar-brand {
+    visibility: hidden;
+    @include media-breakpoint-up(md) {
+      visibility: visible;
     }
   }
 
@@ -276,23 +284,16 @@ TODO - SHIFT72-WEB
       padding: 10px 0;
       color: $subnav-nav-item-color;
       font-size: 16px;
-      @extend .animate-this;
+      transition: all .15s ease-out;
       @include media-breakpoint-up(md) {
         margin-right: 20px;
-        border-bottom: 3px solid transparent;
-        
+        border-bottom: 3px solid transparent;  
         @include hover-focus{
-          opacity: 1;
           color: $subnav-nav-item-hover-background-color;
-          border-bottom: 3px solid $subnav-nav-item-hover-background-color;
-        }
-        &.s72-dropdown-toggle {
-          @include hover-focus {
-            border-bottom: 3px solid transparent;
-          }
         }
       }
     }
+
   }
   &.show .sub-nav {
     display: flex;
@@ -313,40 +314,65 @@ TODO - SHIFT72-WEB
   .navbar-nav-search {
     position: relative;
     display: none;
+    height: 44px;
+    width: 100%;
     @include media-breakpoint-up(md) {
-      display: flex;
-    }
-    &:hover {
-      cursor: pointer;
+      display: block;
+      width: auto;
     }
     .form-control-search {
-      background: rgb(201, 201, 201);
-      border-left: 0;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
-      border-right: 1px solid rgba($color: rgb(201, 201, 201), $alpha: 0.5);
-      height: 46px;
-      //padding-left: 45px;
+      font-family: $font-family-base;
+      font-weight: 600;
       color: $body-color;
+      height: 100%;
+      padding-left: 30px;
+      padding-right: 0px;
+      background-color: transparent;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      width: 100%;
+      @extend .animate-this;
       &::placeholder {
-        //padding-left: 30px;
+        transition: 0.25s ease-out;
+        color: $body-color;
+      }
+      @include media-breakpoint-down(sm) {
+        &:focus {
+          box-shadow: none;
+          &::placeholder {
+            transition: 0.25s ease-out;
+            color: transparent;
+          }
+        }
+      }
+      @include media-breakpoint-up(md) {
+        font-weight: 400;
+        padding-left: 40px;
+        width: 105px;
+        &:focus {
+          border: 1px solid $primary;
+          width: 200px;
+        }
       }
     }
+    
   }
   &.show .navbar-nav-search {
-    display: flex;
+    display: block;
   }
 
   .search-icon  {
-    background: url(/images/icons/search.png) center no-repeat;
-    background-color: $primary;
-    //position: absolute;
-    //top: 0;
-    border: 1px solid $primary;
-    border-radius: 4px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    padding: 22px;
+    position: absolute;
+    top: 0;
+    margin: 11px 0 9px 0;
+    pointer-events: none;
+    path {
+      fill: $body-color;
+    }
+    @include media-breakpoint-up(md) {
+      margin: 11px 0 9px 10px;
+    }
+    
   }
 
 
@@ -359,12 +385,26 @@ TODO - SHIFT72-WEB
     position: relative;
     display: flex;
     flex-wrap: wrap;
-
     .s72-dropdown-toggle.nav-link {
       flex-grow: 1;
       margin-right: 0;
+      border-bottom: 3px solid transparent;
       &:active, &:focus {
         color: $primary;
+      }
+      @include media-breakpoint-up(md) {
+        &:active, &:focus {
+          color: $body-color;
+        }
+        &:hover {
+          color: $primary;
+        }
+        &:hover ~ .dropdown-caret {
+          path {
+
+            fill: $primary;
+          }
+        }
       }
     }
     .s72-dropdown-menu {
@@ -375,11 +415,13 @@ TODO - SHIFT72-WEB
       border: 0;
       padding: 0;
       margin: 0;
-      .nav-link {
-        padding-left: 10px;
-      }
       @include media-breakpoint-up(md) {
         position: absolute;
+        padding: 7px 5px;
+      }
+      .nav-link {
+        border: 0;
+        padding-left: 10px;
       }
     }
     .dropdown-caret {
@@ -390,6 +432,7 @@ TODO - SHIFT72-WEB
         margin-right: 16px;
       }
       path {
+        transition: fill .15s ease-out;
         fill: $body-color;
       }
     }
