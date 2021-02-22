@@ -24,7 +24,6 @@
       {{end}}
 
       <s72-language-selector></s72-language-selector>
-      <div class="vl"></div>
       <div class="navbar-nav s72-hide">
         {{ yield nav_user_logged_out() }}
         {{ yield nav_user_logged_in() }}
