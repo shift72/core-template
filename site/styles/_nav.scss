@@ -14,6 +14,7 @@ TODO - SHIFT72-WEB
   margin-left: auto;
   margin-right: auto;
   @extend .top-gradient-bg;
+
   &.show {
     height: 100%;
     nav {
@@ -23,6 +24,7 @@ TODO - SHIFT72-WEB
       height: auto;
     
     }
+    
   }
   .navbar {
     z-index: 2;
@@ -35,17 +37,32 @@ TODO - SHIFT72-WEB
     flex-direction: column;
     min-height: 100%;
     background-color: transparent;
+    transition: width 250ms;
+    float: right;
     @include media-breakpoint-up(md) {
       padding: 20px 50px 15px 50px;
       flex-direction: row;
       align-items: center;
     }
+
+
   }
   &.show .navbar {
+    
     background-color: $body-bg-light;
     @include media-breakpoint-up(md) {
       background-color: transparent;
     }
+    
+    .navbar-nav-search, s72-language-selector, .navbar-nav, .sub-nav {
+      animation: slidein 400ms;
+      @keyframes slidein {
+        0% {opacity: 0; margin-left: 40px;}
+        30% {opacity: 0; margin-left: 40px;}
+        100% {opacity: 1; margin-left: 0px;}
+      }
+    }
+    width: 100%;
 
   }
 
