@@ -4,7 +4,7 @@
 {{block nav(showSubNav=true)}}
 <div class="navigation search-hidden" data-toggle="affix" aria-hidden="true">
   <nav>
-    <button class="navbar-toggler" type="button" toggle-function="toggleMobileMenu" s72-collapse=".navigation" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" onClick="toggleHidden()" toggle-function="toggleMobileMenu" s72-collapse=".navigation" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="hamburger-top"></span>
       <span class="hamburger-middle"></span>
       <span class="hamburger-bottom"></span>

@@ -23,3 +23,30 @@
     z-index: 8;
     @include gradient-x( rgba($left-gradient-bg-color, 1), transparent, 0%, 100%);
 }
+
+@keyframes slidein {
+    0% {
+        visibility: visible;
+      opacity: 0;
+    }
+    30% {
+      opacity: 0; 
+      transform: translateX(40px);
+    }
+    100% {
+      opacity: 1; 
+      transform: translateX(0px);
+    }
+  }
+
+@keyframes slideout {
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
