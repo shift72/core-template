@@ -198,7 +198,7 @@
   "shopping_info_rental_period_coming_soon": { "other": "Bientôt disponible" },
 
   "shopping_info_rental_period_duration": { "other": "Location pour {{.Count}} jours " },
-  "shopping_info_watch_window_duration": { "other": "Fenêtre de lecture de {{.Count}} heures. " },
+  "shopping_info_watch_window_duration": { "other": "Fenêtre de lecture est de {{.Count}} heures. " },
   "shopping_info_watch_window_explanation_film": {
     "one": "Une fois loué, votre film sera disponible sur votre compte pendant une journée.",
     "other": "Une fois loué, votre film sera disponible sur votre compte pendant {{.Count}} jours."
