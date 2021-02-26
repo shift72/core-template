@@ -156,7 +156,7 @@
   "shopping_info_ownership_buy": { "other": "購入" },
   "shopping_info_ownership_rent": { "other": "期間限定視聴（レンタル）" },
 
-  "shopping_info_release_date_title": { "other": "{{.Date}} リリース" },
+  "shopping_info_release_date_title": { "other": "{{.Date}} より視聴可能になります。" },
   "shopping_info_release_date_explanation_rent": { "other": "現在、お申し込みはできますが、期日まではご視聴いただけません。" },
   "shopping_info_release_date_explanation_buy": { "other": "現在、購入はできますが、配信日まではご視聴いただけません。" },
 
@@ -166,26 +166,26 @@
   "shopping_info_available_until_date_explanation_buy": { "other": "この日時以降の視聴はできません。" },
 
   "shopping_info_rental_period_duration": { "other": "レンタル期間 {{.Count}}日間" },
-  "shopping_info_watch_window_duration": { "other": "再生開始後{{.Count}} 時間視聴できます" },
+  "shopping_info_watch_window_duration": { "other": "再生開始後{{.Count}} 時間視聴できます。" },
   "shopping_info_watch_window_explanation_film": {
-    "one": "お申し込み完了後、当日に限り、視聴を開始いただけます。",
-    "other": "お申し込み完了後、{{.Count}}日間以内に限り、視聴を開始いただけます。"
+    "one": "お申し込み完了後、本日中に視聴を開始してください。",
+    "other": "お申し込み完了後、{{.Count}}日間以内に視聴を開始してください。"
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "再生開始後、1時間以内に限り、何度でも視聴いただけます。",
     "other": "再生開始後、{{.Count}} 時間以内に限り、何度でも視聴いただけます。"
   },
   "shopping_info_watch_window_explanation_bundle": {
-    "one": "お申し込み完了後、当日に限り、パック内作品の視聴を開始いただけます。",
-    "other": "お申し込み完了後、{{.Count}}日間に限り、パック内作品の視聴を開始いただけます。"
+    "one": "お申し込み完了後、本日中にパック作品の視聴を開始してください。",
+    "other": "お申し込み完了後、{{.Count}}日間以内にパック作品の視聴を開始してください。"
   },
   "shopping_info_watch_window_explanation2_bundle": {
     "one": "再生開始後、1時間以内に限り何度でも視聴いただけます。",
     "other": "再生開始後、{{.Count}} 時間以内は何度でも視聴いただけます。"
   },
   "shopping_info_watch_window_explanation_season": {
-    "one": "お申し込み完了後、ご利用のシーズンを1日間に限り、視聴を開始いただけます。",
-    "other": "お申し込み完了後、ご利用のシーズンを{{.Count}} 日間に限り、視聴を開始いただけます。"
+    "one": "お申し込み完了後、ご利用のシーズンを本日中に視聴を開始してください。",
+    "other": "お申し込み完了後、ご利用のシーズンを{{.Count}} 日間以内に視聴してください。"
   },
   "shopping_info_watch_window_explanation2_season": {
     "one": "シーズン内のエピソード再生開始後は、1時間以内に限り、そのエピソードを何度でも視聴いただけます。",
@@ -271,7 +271,7 @@
   "shopping_action_rent": { "other": "期間限定視聴（レンタル）する" },
   "shopping_action_buy": { "other": "購入する" },
 
-  "shopping_info_rental_period_coming_soon": { "other": "リリース日時" },
+  "shopping_info_rental_period_coming_soon": { "other": "視聴開始可能日時より" },
 
   "meta_detail_cast_title": { "other": "出演" },
   "meta_detail_crew_title": { "other": "スタッフ" },
