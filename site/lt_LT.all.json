@@ -393,8 +393,8 @@
   "shopping_card_save_card": { "other": "Save this card for future use" },
   "shopping_card_button_change": { "other": "Show all saved cards" },
   "shopping_card_existing_description": { "other": "{{.Card.Brand}} ending in {{.Card.Number}}" },
-  "shopping_card_existing_expiry": { "other": "(expires {{.Card.Expiry}})" },
-  "shopping_card_existing_expired": { "other": "(expired)" },
+  "shopping_card_existing_expiry": { "other": "(pasibaigia {{.Card.Expiry}})" },
+  "shopping_card_existing_expired": { "other": "(pasibaigęs)" },
   "shopping_card_use_other": { "other": "Use a new card" },
   "shopping_card_use_new_card": { "other": "Change card" },
   "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
@@ -443,8 +443,8 @@
   "availability_available_till": { "other": "Peržiūra galima iki {{.ExpiryDate}}" },
   "availability_not_available_in_country": { "other": "Jūsų šalyje peržiūra negalima" },
   "availability_available": { "other": "Peržiūra galima nuo {{.ReleaseDate}}" },
-  "availability_expires": { "other": "Expires {{.Expiry}}" },
-  "availability_expired": { "other": "Expired"},
+  "availability_expires": { "other": "pasibaigia {{.Expiry}}" },
+  "availability_expired": { "other": "pasibaigęs"},
 
   "modal_cancel": { "other": "Atšaukti" },
 
