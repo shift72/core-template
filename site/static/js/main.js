@@ -461,7 +461,16 @@ function toggleMobileMenu(icon){
     nav.classList.contains('show') ? icon.classList.add('toggled') : icon.classList.remove('toggled');
   }
 }
-
+function focusSearch() {
+  document.querySelector('.form-control-search').focus();
+  document.querySelector('.navbar-nav-search').classList.add('search-show');
+  document.querySelector('.navbar-nav-search').classList.remove('search-hidden');
+}
+function focusOutSearch() {
+  document.querySelector('.navbar-nav-search').classList.remove('search-show');
+  document.querySelector('.navbar-nav-search').classList.add('search-hidden');
+}
+console.log(2);
 // Checks if the subnav is overflowing
 function subnavOverflowing() {
   var subnav = document.querySelector('.sub-nav');

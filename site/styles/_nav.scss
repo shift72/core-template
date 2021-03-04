@@ -29,17 +29,17 @@ TODO - SHIFT72-WEB
 .navbar {
   z-index: 2;
   width: 100%;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 60px 20px;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
-  flex-direction: column;
+  align-content: flex-start;
+  flex-direction: row;
   min-height: 100%;
   background-color: transparent;
   @include media-breakpoint-up(md) {
     padding: 20px 50px 15px 50px;
-    flex-direction: row;
     align-items: center;
   }
 }
@@ -59,7 +59,7 @@ TODO - SHIFT72-WEB
     background-color: transparent;
   }
   
-  .navbar-nav-search, s72-language-selector, .navbar-nav, .sub-nav {
+  s72-language-selector, .navbar-nav, .sub-nav {
     animation: slidein 300ms;
   }
 }
@@ -67,25 +67,24 @@ TODO - SHIFT72-WEB
 // Mobile Order
 .navbar-brand-container { order: 1; }
 .navbar-nav-search { order: 2; }
-s72-language-selector { order: 3; }
-.sub-nav { order: 4; }
-.navbar-nav { order: 5; }
+.navbar-toggler { order: 3; }
+s72-language-selector { order: 4; }
+.sub-nav { order: 5; }
+.navbar-nav { order: 6; }
 
 // Desktop Order
 @include media-breakpoint-up(md) {
   .navbar-brand-container { order: 1; }
   .navbar-nav-search { order: 2; }
-  s72-language-selector { order: 3; }
-  .navbar-nav { order: 4; }
-  .sub-nav { order: 5; }
+  s72-language-selector { order: 4; }
+  .navbar-nav { order: 5; }
+  .sub-nav { order: 6; }
 }
 
 /*** HAMBURGER MENU TOGGLER ***/
 .navbar-toggler {
+  position: relative;
   z-index: 10;
-  position: absolute;
-  top: 30px;
-  right: 20px;
   padding: 8px 12px;
   &:focus {
     outline: none;
@@ -136,9 +135,8 @@ s72-language-selector { order: 3; }
 /*** LOGO ***/
 .navbar-brand-container {
   display: flex;
+  flex-grow: 1;
   align-items: center;
-  width: 100%;
-  padding-bottom: 10px;
   @include media-breakpoint-up(md) {
     width: auto;
     flex-grow: 1;
@@ -178,13 +176,15 @@ s72-language-selector { order: 3; }
 /*** SEARCH BAR ***/
 .navbar-nav-search {
   position: relative;
-  display: none;
-  height: 44px;
-  width: 100%;
+  display: flex;
+  height: 24px;
+  width: 24px;
   margin-right: 0;
+  border-bottom: 1px solid transparent;
+  @extend .animate-this;
   @include media-breakpoint-up(md) {
-    display: block;
-    width: auto;
+    height: 44px;
+    width: 36px;
     margin-right: 10px;
   }
   .form-control-search {
@@ -198,9 +198,10 @@ s72-language-selector { order: 3; }
     border: 1px solid transparent;
     border-radius: 4px;
     width: 100%;
-    @extend .animate-this;
+    
     &::placeholder {
       transition: 0.25s ease-out;
+      opacity: 0;
       color: $body-color;
     }
     @include media-breakpoint-down(sm) {
@@ -214,30 +215,41 @@ s72-language-selector { order: 3; }
     }
     @include media-breakpoint-up(md) {
       font-weight: 400;
-      padding-left: 40px;
-      width: 105px;
+      padding: 0;
+      
+      pointer-events: none;
       &:focus {
-        border: 1px solid $primary;
-        width: 200px;
+        box-shadow: none;
+        pointer-events: visible;
+        
+        &::placeholder {
+          opacity: 1;
+        }
       }
     }
   }
   
+  &.search-show {
+    border-bottom: 1px solid $body-color;
+    width: 200px;
+  }
 }
 .navigation.show .navbar-nav-search {
-  display: block;
+  display: none;
+}
+
+.search-open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background-color: transparent;
 }
 
 .search-icon  {
-  position: absolute;
-  top: 0;
-  margin: 11px 0 9px 0;
   pointer-events: none;
   path {
     fill: $body-color;
-  }
-  @include media-breakpoint-up(md) {
-    margin: 11px 0 9px 10px;
   }
 }
 
@@ -326,16 +338,40 @@ s72-dropdown, .s72-language-selector {
 }
 
 /*** ACCOUNT AND SIGN IN ***/
+
 .navbar-nav {
   display: none;
   flex-grow: 1;
   align-self: center;
   width: 100%;
   padding: 10px 0 22px 0;
-  border-top: 1px solid rgba($color: $body-color, $alpha: 0.1);
+  
   .btn {
     width: 100%;
   }
+  &.navbar-logged-out {
+    @include media-breakpoint-down(sm) {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 0;
+    }
+  }
+
+  s72-user-anon {
+    padding: 20px;
+  }
+  s72-user-known {
+    padding: 10px 0;
+  }
+  s72-user-known, s72-user-anon {
+    border-top: 1px solid rgba($color: $body-color, $alpha: 0.1);
+    @include media-breakpoint-up(md) {
+      border: 0;
+      padding: 0;
+    }
+  }
+
     
   hr {
     display: none;
@@ -360,11 +396,7 @@ s72-dropdown, .s72-language-selector {
       position: absolute;
     }
   }
-  s72-user-anon {
-    display: flex;
-    flex-grow: 1;
-    align-items: flex-end;
-  }
+
   .s72-dropdown-toggle {
     
     path {

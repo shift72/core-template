@@ -12,7 +12,6 @@
       
       <ul class="s72-dropdown-menu s72-dropdown-menu-right">
         <s72-username class="username-desktop"></s72-username>
-        <hr/>
         {{if config("wishlist_enabled") == "true" }}
         <li>
           <a class="s72-dropdown-item" href="{{ routeToPath("/wishlist.html") }}">{{i18n("nav_wishlist")}}</a>
