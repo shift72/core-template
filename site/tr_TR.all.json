@@ -176,23 +176,23 @@
     "validation_gender_required": { "other": "Lütfen size en yakın cinsiyeti belirtiniz." },
     "validation_dob_required": { "other": "Lütfen doğum tarihinizi giriniz." },
     "validation_dob_date": { "other": "Lütfen geçerli bir doğum tarihi giriniz." },
-  
+
     "shopping_info_subtitle_hd": { "other": "Talep Üzerine HD Video." },
     "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
     "shopping_info_subtitle_wallet": { "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus." },
     "shopping_info_subtitle_help": { "other": "Sistem gereksinimleri için buraya bakınız." },
     "shopping_info_ownership_buy": { "other": "satın al" },
     "shopping_info_ownership_rent": { "other": "kirala" },
-  
+
     "shopping_info_sd_only": { "other": "Limited to SD playback only." },
     "shopping_info_release_date_title": { "other": "Yayın {{.Date}}. " },
     "shopping_info_release_date_explanation_rent": { "other": " Şu an kiralayabilirsiniz ama o zamana kadar izleyemeyeceksiniz." },
     "shopping_info_release_date_explanation_buy": { "other": "Şu an satın alabilirsiniz ama o zamana kadar izleyemeyeceksiniz." },
-  
-    "shopping_info_available_until_date_title": { "other": "....'e kadar erişilebilir. " },
+
+    "shopping_info_available_until_date_title": { "other": "{{.Date}}'e kadar erişilebilir. " },
     "shopping_info_available_until_date_explanation_rent": { "other": "Bundan sonra içeriği görüntüleyemeceksiniz." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Bundan sonra içeriği görüntüleyemeceksiniz." },
-  
+
     "shopping_info_rental_period_duration": { "other": "{{.Count}} kiralanan gün sayısı " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} saat playback oynatma penceresi " },
     "shopping_info_watch_window_explanation_film": {
