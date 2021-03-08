@@ -174,9 +174,10 @@ s72-language-selector { order: 4; }
 }
 
 /*** SEARCH BAR ***/
+
 .navbar-nav-search {
-  position: relative;
   display: flex;
+  position: relative;
   height: 24px;
   width: 24px;
   margin-right: 0;
@@ -184,54 +185,74 @@ s72-language-selector { order: 4; }
   @extend .animate-this;
   @include media-breakpoint-up(md) {
     height: 44px;
-    width: 36px;
+    width: 44px;
     margin-right: 10px;
+    
   }
   .form-control-search {
     font-family: $font-family-base;
     font-weight: 600;
-    color: $body-color;
+    color: transparent;
     height: 100%;
-    padding-left: 30px;
+    padding-left: 36px;
     padding-right: 0px;
     background-color: transparent;
     border: 1px solid transparent;
-    border-radius: 4px;
     width: 100%;
+    @extend .animate-this;
+    &:focus {
+      color: $body-color;
+    }
+    
+
     
     &::placeholder {
       transition: 0.25s ease-out;
       opacity: 0;
-      color: $body-color;
+      color: rgba($color: $body-color, $alpha: 0.8);
     }
-    @include media-breakpoint-down(sm) {
-      &:focus {
-        box-shadow: none;
-        &::placeholder {
-          transition: 0.25s ease-out;
-          color: transparent;
-        }
-      }
-    }
+ 
+
     @include media-breakpoint-up(md) {
       font-weight: 400;
-      padding: 0;
-      
-      pointer-events: none;
-      &:focus {
+        &:focus {
         box-shadow: none;
-        pointer-events: visible;
-        
+       
         &::placeholder {
           opacity: 1;
         }
       }
     }
+
+    // Change chrome autofill background
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover, 
+    &:-webkit-autofill:focus {
+    border: 1px solid transparent;
+    -webkit-text-fill-color: $body-color;
+    box-shadow: 0 0 0px 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+    }
+    :-ms-input-placeholder {
+      opacity: 1;
+    }
   }
   
   &.search-show {
-    border-bottom: 1px solid $body-color;
+    .form-control-search {
+      border-bottom: 1px solid $body-color;
+    }
     width: 200px;
+    background-color: $body-bg-light;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px + ($navbar-brand-padding-y * 2);
+    @include media-breakpoint-up(md) {
+      background-color: transparent;
+      position: relative;
+      height: 44px;
+    }
   }
 }
 .navigation.show .navbar-nav-search {
@@ -239,6 +260,11 @@ s72-language-selector { order: 4; }
 }
 
 .search-open {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -247,6 +273,10 @@ s72-language-selector { order: 4; }
 }
 
 .search-icon  {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
   pointer-events: none;
   path {
     fill: $body-color;
@@ -480,6 +510,7 @@ s72-dropdown, .s72-language-selector {
   display: none;
   @include media-breakpoint-up(md) {
     display: block;
+    align-self: center;
   }
 }
 
