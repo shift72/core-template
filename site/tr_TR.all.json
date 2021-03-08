@@ -249,7 +249,7 @@
     "shopping_error_expired_card": { "other": "Kredi Kartının son kullanma tarihi geçmiştir." },
     "shopping_error_creditcard_country_mismatch": { "other": "niz {{.Ownership}} tamamlanmadı. Kredi kartınızın basıldığı ülkede olmanız gerekiyor. Lütfen ödemeyi yapmak için başka bir kart kullanın." },
     "shopping_error_proxy_detected": { "other": "niz {{.Ownership}} tamamlanmadı. Blok kaldırıcı ya da proxy hizmeti kullandığınızı tespit ettik. Lütfen bu hizmetlerin hepsini kapatıp tekrar deneyin." },
-  
+
     "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
     "shopping_error_discount_blank": { "other": "Lütfen promosyon kodu girin." },
     "shopping_error_discount_not_applied": { "other": "Lütfen geçerli bir promosyon kodu girin." },
@@ -267,7 +267,8 @@
     "shopping_error_discounts_not_allowed": { "other": "Bu promosyon kodu kullanılamaz." },
     "shopping_error_discount_disallowed_on_bundles": { "other": "That promo code can not be used on bundles." },
     "shopping_error_payment_intent_authentication_failure": { "other": "Kredi Kartınız reddedildi. Lütfen tekrar deneyin." },
-  
+    "shopping_error_item_limit_exceeded": { "other": "{{.Title}} için sınırlı sayıdaki izleme kapasitemiz dolmuştur." },
+
     "shopping_complete_rental": { "other": "Başardınız!" },
     "shopping_complete_rental_period": {
       "one": "Filmi önümüzdeki gün istediğiniz sıklıkta izleyebilirsiniz.",
@@ -426,11 +427,14 @@
     "availability_available_till": { "other": "(bitiş tarihi)'ne dek erişilebilir." },
     "availability_not_available_in_country": { "other": "Mevcut Değil" },
     "availability_available": { "other": "(yayın tarihi)'nde erişilebilir." },
-  
+
     "modal_cancel": { "other": "İptal" },
-  
+
     "play": { "other": "Oynat" },
-  
+
+    "availability_expires": { "other": "Son gösterim: {{.Expiry}}" },
+    "availability_expired": { "other": "Süresi doldu"},
+
     "combined_auth_signin_prompt": { "other": "Oturum Aç" },
     "combined_auth_signup_prompt": { "other": "Kaydol" },
     "combined_auth_terms": { "other": "Tüm <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a> kabul ediyorum." },
