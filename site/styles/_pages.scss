@@ -103,12 +103,17 @@
     p {
       font-size: 14px;
       overflow-wrap: break-word;
-      img {
-        width: 100%;
-      }
     }
   }
 }
+// Make images inserted into content and curated pages native size at large res but 100% width at mobile res
+.content-page .content-page-content p img, .page-header p img {
+  width: auto;
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
+}
+
 .curated-page,
 .collection-page {
   padding: $page-padding-top 0 0 0;
