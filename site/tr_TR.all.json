@@ -220,25 +220,25 @@
       "other": "Bir bölümü oynata bastığınızda, izleme penceresi başlar ve bölümü istediğiniz kadar izlemek için bir saatiniz olacak."
     },
     "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },
-  
+
     "shopping_enter_card_prompt": { "other": "nizi tamamlamak için aşağıya kredi kartı bilgilerinizi giriniz {{.Verb}}." },
-  
+
     "shopping_terms": { "other": "Bu işlemi tamamlayarak, <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">terms and conditions</a> katılıyorum."},
     "shopping_discount_applied": { "other": "{{.DiscountAmount}} indirim uygulanmıştır." },
     "shopping_discount_apply": { "other": "Uygula" },
     "shopping_discount_code": { "other": "Promosyon kodu girin." },
     "shopping_discount_have_code": { "other": "Promosyon kodum var." },
-  
+
     "shopping_price_you_pay": { "other": "Ödüyorsunuz" },
     "shopping_price_nothing": { "other": "Hiçbir şey" },
     "shopping_price_free": { "other": "Ücretsiz" },
-  
+
     "shopping_auth_directions": { "other": "Öncelikle bir hesaba ihtiyaç var. Lütfen e-posta adresinizi girin." },
-  
+
     "shopping_error_in_library": { "other": "{{.Title}} zaten kütüphanenizde." },
-  
+
     "shopping_error_missing_card": { "other": "Lütfen kredi kartı bilgilerinizi girin." },
-    "shopping_error_title": { "other": "Bir hata oluştu." },
+    "shopping_error_title": { "other": "İlginiz için teşekkür ederiz." },
     "shopping_error_incorrect_cvc": { "other": "Lütfen geçerli bir CVV girin." },
     "shopping_error_invalid_cvc": { "other": "Lütfen geçerli bir CVV girin." },
     "shopping_error_incorrect_number": { "other": "Lütfen geçerli bir Kredi Kart Numarası girin." },
