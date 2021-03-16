@@ -67,7 +67,6 @@ TODO - SHIFT72-WEB
 // Mobile Order
 .navbar-brand-container { order: 1; }
 .navbar-nav-search { order: 2; }
-.navbar-toggler { order: 3; }
 s72-language-selector { order: 4; }
 .sub-nav { order: 5; }
 .navbar-nav { order: 6; }
@@ -83,9 +82,12 @@ s72-language-selector { order: 4; }
 
 /*** HAMBURGER MENU TOGGLER ***/
 .navbar-toggler {
-  position: relative;
+  position: absolute;
+  top: 20px;
+  height: $navbar-brand-padding-y * 2;
+  right: 20px;
   z-index: 10;
-  padding: 8px 12px;
+  padding: 0;
   &:focus {
     outline: none;
   }
@@ -96,7 +98,9 @@ s72-language-selector { order: 4; }
     display: none;
   }
   span {
-    position: absolute;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     right: 0;
     height: 2px;
     width: 24px;
@@ -106,14 +110,8 @@ s72-language-selector { order: 4; }
     transform: rotate(0deg);
     transition: 0.15s ease-in-out;
   }
-  .hamburger-top {
-    top: 0px;
-  }
-  .hamburger-middle {
-    top: 7px;
-  }
-  .hamburger-bottom {
-    top: 14px;
+  .hamburger-top, .hamburger-middle {
+    margin-bottom: 5px;
   }
 }
 .navigation.show {
@@ -177,16 +175,21 @@ s72-language-selector { order: 4; }
 
 .navbar-nav-search {
   display: flex;
-  position: relative;
-  height: 24px;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  height: $navbar-padding-y * 2;
   width: 24px;
   margin-right: 0;
   border-bottom: 1px solid transparent;
   @extend .animate-this;
   @include media-breakpoint-up(md) {
+    top: 0;
+    right: 0;
     height: 44px;
     width: 44px;
     margin-right: 10px;
+    position: relative;
     
   }
   .form-control-search {
