@@ -93,7 +93,8 @@
   border-radius: 0;
 }
 .s72-modal-dialog {
-  margin: 20px;
+  margin: auto;
+  padding: 20px;
   @include media-breakpoint-up(md) {
     margin: 20px auto;
   }
