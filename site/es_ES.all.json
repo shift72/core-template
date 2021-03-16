@@ -354,15 +354,18 @@
   "classification_divider": { "other": " - " },
   "classification_outro": { "other": "" },
 
-  "cookie_banner_message": { "other": "Este sitio utiliza cookies para mejorar su experiencia. Al utilizar este sitio, usted acepta nuestro <a href=\"{{.CookiePolicyURL}}\"> uso de Cookies </a>." },
+  "cookie_banner_message": { "other": "“Este sitio usa cookies para mejorar tu experiencia. Haciendo uso del sitio, usted acepta nuestra <a href=\"{{.CookiePolicyURL}}\">política de uso de cookies</a>." },
   "cookie_banner_accept": { "other": "Acepto" },
 
   "all_rights_reserved": { "other": "Todos los derechos reservados. Ninguna parte de este sitio puede ser reproducido sin nuestro permiso por escrito." },
 
-  "availability_not_available_in_country": { "other": "No disponible en tu país" },
+  "availability_not_available_in_country": { "other": "No disponible" },
   "availability_coming_soon": {"other": "Próximamente"},
+  "availability_sold_out": { "other": "Agotada" },
   "availability_available": {"other": "Disponible {{.ReleaseDate}}"},
   "availability_available_till": {"other": "Disponible hasta {{.ExpiryDate}}"},
+  "availability_expires": { "other": "Caducó {{.Expiry}}" },
+  "availability_expired": { "other": "Caducada"},
 
   "signup_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
 

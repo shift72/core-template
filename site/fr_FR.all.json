@@ -176,8 +176,13 @@
   "availability_coming_soon": { "other": "Bientôt disponible" },
   "availability_available_till": { "other": "Disponible jusqu’au {{.ExpiryDate}}" },
   "availability_available": { "other": "Disponible {{.ReleaseDate}}" },
+  "availability_sold_out": { "other": "Épuisé" },
   "availability_expires": { "other": "Expire {{.Expiry}}" },
+  "availability_expired": { "other": "Expiré"},
 
+  "modal_cancel": { "other": "Annuler" },
+
+  "validation_terms_required": { "other": "Veuillez lire et accepter nos termes et conditions." },
 
   "shopping_info_subtitle_hd": { "other": "Vidéo HD à la demande." },
   "shopping_info_subtitle_sd": { "other": "Vidéo SD à la demande." },
