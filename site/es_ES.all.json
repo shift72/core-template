@@ -152,7 +152,7 @@
   "userlibrary_empty_content": { "other": "Llénala <a href=\"{{.HomeURL}}\">navegando</a> la programación." },
 
   "searchresults_page_header": { "other": "Resultados de la búsqueda" },
-  "searchresults_load_more": { "other": "Cargar {{.Count }} más" },
+  "searchresults_load_more": { "other": "Cargar {{.Count}} más" },
   "searchresults_total": {
     "one": "Encontrado 1 resultado para \"{{.Query}}\".",
     "other": "Encontrado {{.Count}} resultados para \"{{.Query}}\"."
@@ -367,11 +367,13 @@
   "availability_expires": { "other": "Caducó {{.Expiry}}" },
   "availability_expired": { "other": "Caducada"},
 
-  "signup_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
+  "signup_terms": { "other": "Acepto todos <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">términos y condiciones</a>." },
 
-  "combined_auth_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
+  "combined_auth_terms": { "other": "Acepto todos <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">términos y condiciones</a>." },
+  "validation_terms_required": { "other": "Es necesario aceptar los términos y condiciones para continuar." },
 
   "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+  "shopping_info_rental_period_coming_soon": { "other": "a partir de la fecha y la hora de la publicación." },
 
   "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
 }
