@@ -172,7 +172,7 @@
   "validation_dob_required": { "other": "Veuillez saisir votre date de naissance." },
   "validation_dob_date": { "other": "Veuillez saisir une date de naissance valide." },
 
-  "availability_not_available_in_country": { "other": "Non disponible dans votre pays" },
+  "availability_not_available_in_country": { "other": "Non disponible" },
   "availability_coming_soon": { "other": "Bientôt disponible" },
   "availability_available_till": { "other": "Disponible jusqu’au {{.ExpiryDate}}" },
   "availability_available": { "other": "Disponible {{.ReleaseDate}}" },
