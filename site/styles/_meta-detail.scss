@@ -364,6 +364,7 @@
         @extend .d-flex;
         flex-direction: row;
         .poster {
+          height: 100%;
           width: 118px;
           flex-shrink: 0;
           @include media-breakpoint-up(md) {
