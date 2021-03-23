@@ -347,7 +347,7 @@
   "userdevices_page_header": { "other": "Įrenginiai" },
   "userdevices_page_content": {
     "one": "Čia automatiškai atsiras jūsų naudojami įrenginiai. Įrenginių skaičius ribojimas iki vieno.",
-    "other": "Čia automatiškai atsiras jūsų naudojami įrenginiai. Įrenginių skaičius ribojimas iki {{.Count}}."
+    "few": "Čia automatiškai atsiras jūsų naudojami įrenginiai. Įrenginių skaičius ribojimas iki {{.Count}}."
   },
   "userdevices_empty_content": { "other": "Šiuo metu esate užregistravę 0 įrenginių." },
   "userdevices_header_type": { "other": "Įrenginio tipas" },
