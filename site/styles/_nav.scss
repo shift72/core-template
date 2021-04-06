@@ -176,9 +176,11 @@ s72-language-selector { order: 4; }
 .navbar-nav-search {
   display: flex;
   position: absolute;
-  top: 20px;
+  top: 0;
   right: 50px;
-  height: $navbar-padding-y * 2;
+
+  // TODO - Needs a max height so the search isn't huge with tall logo's
+  height: 40px + ($navbar-brand-padding-y * 2);
   width: 24px;
   margin-right: 0;
   border-bottom: 1px solid transparent;
@@ -245,16 +247,19 @@ s72-language-selector { order: 4; }
     .form-control-search {
       border-bottom: 1px solid $body-color;
     }
-    width: 200px;
+    height: 40px + ($navbar-brand-padding-y * 2);
+    width: 100%;
     background-color: $body-bg-light;
     position: absolute;
     top: 0;
     right: 0;
-    height: 40px + ($navbar-brand-padding-y * 2);
+    z-index: 12;
+    
     @include media-breakpoint-up(md) {
       background-color: transparent;
       position: relative;
       height: 44px;
+      width: 200px;
     }
   }
 }
