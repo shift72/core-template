@@ -175,9 +175,10 @@ s72-language-selector { order: 4; }
 
 .navbar-nav-search {
   display: flex;
+  align-items: center;
   position: absolute;
   top: 0;
-  right: 50px;
+  right: 70px;
 
   // TODO - Needs a max height so the search isn't huge with tall logo's
   height: 40px + ($navbar-brand-padding-y * 2);
@@ -198,15 +199,27 @@ s72-language-selector { order: 4; }
     font-family: $font-family-base;
     font-weight: 600;
     color: transparent;
-    height: 100%;
-    padding-left: 36px;
+    height: 44px;
+    padding-left: 32px;
     padding-right: 0px;
+    
     background-color: transparent;
     border: 1px solid transparent;
+    border-radius: 0;
     width: 100%;
+    box-shadow: none;
+    @include media-breakpoint-up(md) {
+      height: 100%;
+      
+    }
     @extend .animate-this;
     &:focus {
       color: $body-color;
+      margin: 0 20px 0 20px;
+      @include media-breakpoint-up(md) {
+        margin: 0;
+      }
+      
     }
     
 
@@ -272,13 +285,16 @@ s72-language-selector { order: 4; }
   top: 0;
   left: 0;
   height: 100%;
-  width: 42px;
+  width: 32px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 0;
   background-color: transparent;
 }
+
+
 
 .search-icon  {
   position: absolute;
@@ -290,6 +306,22 @@ s72-language-selector { order: 4; }
     fill: $body-color;
   }
 }
+
+.search-show .search-icon {
+  @include media-breakpoint-down(sm) {
+    left: 20px;
+  }
+}
+
+/* clears the ‘X’ from Internet Explorer */
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
 
 /*** DROPDOWNS ***/
 s72-dropdown, .s72-language-selector {
