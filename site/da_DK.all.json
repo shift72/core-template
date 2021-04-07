@@ -195,27 +195,27 @@
   "shopping_info_rental_period_duration": { "other": "{{.Count}} dages leje " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} timers afspilningsperiode. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Fra lejeperiodens start vil din film kunne afspilles i 1 dage. ",
+    "one": "Fra lejeperiodens start vil din film kunne afspilles i en dag. ",
     "other": "Fra lejeperiodens start vil din film kunne afspilles i {{.Count}} dage. "
   },
   "shopping_info_watch_window_explanation2_film": {
-    "one": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu 1 timer til at se filmen.",
+    "one": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu en time til at se filmen.",
     "other": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu {{.Count}} timer til at se filmen."
   },
   "shopping_info_watch_window_explanation_bundle": {
-    "one": "Når du har lejet filmene, der er tilknyttet filmpakke, vil de være gældende i 1 dage. ",
+    "one": "Når du har lejet filmene, der er tilknyttet filmpakke, vil de være gældende i en dag. ",
     "other": "Når du har lejet filmene, der er tilknyttet filmpakke, vil de være gældende i {{.Count}} dage. "
   },
   "shopping_info_watch_window_explanation2_bundle": {
-    "one": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu 1 timer til at se filmen.",
+    "one": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu en time til at se filmen.",
     "other": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu {{.Count}} timer til at se filmen."
   },
   "shopping_info_watch_window_explanation_season": {
-    "one": "Fra lejeperiodens start vil din film kunne afspilles i 1 dage. ",
+    "one": "Fra lejeperiodens start vil din film kunne afspilles i en dag. ",
     "other": "Fra lejeperiodens start vil din film kunne afspilles i {{.Count}} dage. "
   },
   "shopping_info_watch_window_explanation2_season": {
-    "one": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu 1 timer til at se filmen.",
+    "one": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu en time til at se filmen.",
     "other": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu {{.Count}} timer til at se filmen."
   },
 
@@ -266,7 +266,7 @@
   "shopping_error_payment_intent_authentication_failure": { "other": "Kreditkortet er afvist. Prøv venligst igen." },
 
   "shopping_complete_rental_period": {
-    "one": "Du kan nu se filmen i løbet af de næste 1 dage.",
+    "one": "Du kan nu se filmen i løbet af den næste dag.",
     "other": "Du kan nu se filmen i løbet af de næste {{.Count}} dage."
   },
   "shopping_complete_purchase": { "other": "Tak fordi du købte {{.Title}}." },
@@ -276,19 +276,19 @@
   "shopping_complete_library_link": { "other": "Se dit bibliotek" },
 
   "shopping_complete_rental_watch_window_start": {
-    "one": "Du vil nu kunne starte med at se den inden for de næste 1 dage.",
+    "one": "Du vil nu kunne starte med at se den inden for den næste dag.",
     "other": "Du vil nu kunne starte med at se den inden for de næste {{.Count}} dage."
   },
   "shopping_complete_rental_watch_window_end": {
-    "one": "Når afspilningen er begyndt, har du 1 timer til at se filmen.",
+    "one": "Når afspilningen er begyndt, har du en time til at se filmen.",
     "other": "Når afspilningen er begyndt, har du {{.Count}} timer til at se filmen."
   },
   "shopping_complete_rental_coming_soon": {
-    "one": "Du vil kunne se den fra {{.Date}} og din leje af filmen vil være gældende i 1 dage.",
+    "one": "Du vil kunne se den fra {{.Date}} og din leje af filmen vil være gældende i en dag.",
     "other": "Du vil kunne se den fra {{.Date}} og din leje af filmen vil være gældende i {{.Count}} dage."
   },
   "shopping_complete_rental_coming_soon_watch_window_start": {
-    "one": "YDu vil kunne se den fra {{.Date}} og din leje af filmen vil være gældende i {{.Count}} dage.",
+    "one": "Du vil kunne se den fra {{.Date}} og din leje af filmen vil være gældende i en dag.",
     "other": "Du vil kunne se den fra {{.Date}} og din leje af filmen vil være gældende i {{.Count}} dage."
   },
 
@@ -315,7 +315,7 @@
 
   "userdevices_page_header": { "other": "Enheder" },
   "userdevices_page_content": {
-    "one": "Enheder vil automatisk blive tilføjet her, når du bruger dem. Du kan højst bruge 1 enheder.",
+    "one": "Enheder vil automatisk blive tilføjet her, når du bruger dem. Du kan højst bruge en enhed.",
     "other": "Enheder vil automatisk blive tilføjet her, når du bruger dem. Du kan højst bruge {{.Count}} enheder."
   },
 
