@@ -75,8 +75,8 @@ $subnav-nav-item-margin-y: .5rem !default;
 $subnav-nav-item-border-radius: 2rem !default;
 
 // Buttons
-$button-text-color: #fff !default;
-$button-text-color-hover: #fff !default;
+$button-text-color: $body-color !default;
+$button-text-color-hover: $body-color !default;
 $button-background: $primary !default;
 $button-background-hover: $secondary !default;
 $trailer-button-text-color: $body-color !default;
