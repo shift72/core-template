@@ -192,7 +192,7 @@
   "shopping_info_ownership_rent": { "other": "location" },
 
   "shopping_info_sd_only": { "other": "Limité à la lecture SD uniquement." },
-  "shopping_info_release_date_title": { "other": "Disponible le {{.Date}}. " },
+  "shopping_info_release_date_title": { "other": "Disponible {{.Date}}. " },
   "shopping_info_release_date_explanation_rent": { "other": "Vous pouvez acheter votre billet maintenant, mais vous ne pourrez pas le regarder jusque-là." },
   "shopping_info_release_date_explanation_buy": { "other": "Vous pouvez l'acheter maintenant, mais vous ne pourrez pas le regarder jusque-là." },
 
