@@ -190,7 +190,7 @@ s72-language-selector { order: 4; }
     top: 0;
     right: 0;
     height: 44px;
-    width: 44px;
+    width: 32px;
     margin-right: 10px;
     position: relative;
     
@@ -305,11 +305,49 @@ s72-language-selector { order: 4; }
   path {
     fill: $body-color;
   }
+
 }
 
-.search-show .search-icon {
-  @include media-breakpoint-down(sm) {
-    left: 20px;
+.search-close {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  @extend .animate-this;
+  right: 5px;
+  border: 0;
+  height: 32px;
+  width: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*
+  background-color: transparent;
+  background: url('../images/icons/close.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+  */
+  svg {
+    height: 16px;
+  }
+  path {
+    fill: $body-color;
+  }
+}
+
+.search-show {
+  .search-icon {
+    @include media-breakpoint-down(sm) {
+      left: 20px;
+    }
+  }
+  .search-close {
+    opacity: 1;
+    pointer-events: auto;
   }
 }
 
