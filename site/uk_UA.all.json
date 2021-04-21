@@ -715,8 +715,10 @@
    "other": "Студії"
   },
   "meta_detail_countries": {
-   "one": "Країна",
-   "other": "Країни"
+    "one": "Країна",
+    "few": "Країна",
+    "many": "Країна",
+    "other": "Країни"
   },
   "meta_detail_subtitles": {
    "other": "Субтитри"
