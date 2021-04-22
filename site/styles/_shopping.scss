@@ -9,7 +9,7 @@
     padding: 0;
     flex-direction: column;
     .s72-btn-close {
-      color: $body-color; 
+      color: $body-color;
       text-transform: uppercase;
       text-shadow: none;
       position: absolute;
@@ -61,7 +61,7 @@
 }
 
 .s72-combined-auth-email {
-  color: $body-color; 
+  color: $body-color;
   font-weight: 600;
   padding-top: 0;
   padding-bottom: 0;
@@ -121,7 +121,7 @@
   li {
     text-align: left;
     font-size: 12px;
-    color: rgba($body-color, 0.7); 
+    color: rgba($body-color, 0.7);
     list-style-type: none;
   }
 }
@@ -139,7 +139,7 @@
 .s72-shopping-item-info {
   p {
     font-size: 14px;
-    color: $body-color; 
+    color: $body-color;
     a {
       font-size: 12px;
       text-decoration: underline;
@@ -168,7 +168,7 @@
   p {
     text-align: center;
     font-size: 12px;
-    color: $body-color; 
+    color: $body-color;
   }
   div {
     div {
@@ -213,4 +213,51 @@
 .s72-modal-footer {
   padding-right: 0;
   padding-left: 0;
+}
+
+
+.s72-payment-methods-container {
+  @extend .mb-3;
+
+  .s72-payment-methods-header {
+    @extend .mb-2;
+    font-weight: $font-weight-bold;
+  }
+
+  .s72-payment-methods {
+    border-color: transparent;
+  }
+
+  .s72-payment-method {
+    @extend .d-flex;
+
+    background-color: $white;
+    color: $black;
+    font-weight: $font-weight-bold;
+    padding: 1rem;
+
+    border-top: 1px solid $gray-300;
+
+    @include hover-focus {
+      background: $gray-300;
+      cursor: pointer;
+    }
+
+    &:first-child {
+      border-top: none;
+      @include border-top-radius($border-radius);
+    }
+
+    &:last-child {
+      @include border-bottom-radius($border-radius);
+    }
+
+    .s72-payment-method-name {
+      @extend .flex-grow-1;
+    }
+
+    .s72-icon {
+      color: $primary;
+    }
+  }
 }
