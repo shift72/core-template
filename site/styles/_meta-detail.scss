@@ -370,6 +370,9 @@
           @include media-breakpoint-up(md) {
             width: 158px;
           }
+          .poster-image {
+            border-radius: $poster-border-radius;
+          }
           .s72-btn-play {
             position: absolute;
             top: 50%;
