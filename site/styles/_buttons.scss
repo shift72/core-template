@@ -70,7 +70,7 @@
   .verb {
     color: $button-text-color;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
   }
   @include hover-focus {
     border: 3px solid $button-background-hover;
@@ -156,10 +156,10 @@
     border-color: $button-background-hover;
   }
   .verb {
-    font-weight: 700;
+    font-weight: 500;
   }
   .price {
-    font-weight: 700;
+    font-weight: 500;
   }
 }
 // Wishlist Button

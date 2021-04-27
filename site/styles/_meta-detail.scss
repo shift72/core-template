@@ -178,7 +178,7 @@
   }
   h1 {
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 0;
     text-shadow: none;
     small {
@@ -349,7 +349,7 @@
   padding-top: 20px;
   h4 {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     align-self: stretch;
   }
   .list {
@@ -398,7 +398,7 @@
           }
           h5 {
             font-size: 12px;
-            font-weight: 700;
+            font-weight: 500;
             @include media-breakpoint-up(md) {
               font-size: 12px;
             }

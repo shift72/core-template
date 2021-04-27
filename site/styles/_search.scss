@@ -11,7 +11,7 @@
   }
   .s72-searchresults-total {
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0;
     padding-top: 10px;
     @include media-breakpoint-up(md) {
@@ -41,11 +41,11 @@
   }
   .s72-searchresults-empty-header {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
   }
   .s72-searchresults-empty-content {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
   }
 }
 .s72-form-search {
