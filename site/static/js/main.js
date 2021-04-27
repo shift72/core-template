@@ -512,21 +512,6 @@ function documentReady(app) {
   document.querySelectorAll('.navbar-nav').forEach(function(nav) {
     nav.classList.remove('s72-hide');
   });
-
-  if(s72.utils.querystring.get('session')) {
-    // app.shoppingService._http.post(`/services/shopping/v1/item/${s72.utils.querystring.get('session')}/status`).then(data => {});
-    data = { status: 'completed' };
-    if(data.status && data.status == 'completed') {
-      app.libraryService.getUserLibrary(true).then(() => {
-        console.log("PUBLISH", app.http._bus.publish('user-library-refreshed'));
-        // console.log(app.availabilityService._cache);
-        // let url = window.location.origin + window.location.pathname;
-        // console.log("BLAM", url);
-        // s72.utils.redirect(url);
-      });
-    }
-  }
-
 }
 
 function detectTouchscreen(){
