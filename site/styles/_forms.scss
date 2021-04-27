@@ -1,7 +1,7 @@
 
 label {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
 }
 // Form Container Defaults
 s72-signin-form,
@@ -52,7 +52,7 @@ s72-activatedevice-form,
 // Navbar Search Form Input Control
 .navbar-nav-search {
 .form-control-search {
-  font-weight: 600;
+  font-weight: 400;
   transition: all .25s ease-out;
   @include hover-focus {
     color: #000;
@@ -68,7 +68,7 @@ s72-activatedevice-form,
 .s72-error-message {
   background: rgba($body-color, 0.1);
   color: $body-color;
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 3px;
   margin-top: 10px;
   position: relative;
@@ -96,7 +96,7 @@ s72-activatedevice-form,
 }
 // Form Control Default
 .s72-form-control {
-  font-weight: 600;
+  font-weight: 400;
 }
 // Account Page Change Password Field
 .s72-form-control-static {

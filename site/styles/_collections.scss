@@ -121,7 +121,7 @@
           .titles {
             h4 {
               font-size: 18px;
-              font-weight: 600;
+              font-weight: 400;
               color: #fff;
               margin: 0;
               padding: 0;
@@ -132,7 +132,7 @@
             }
             .meta-item-tagline {
               color: #fff;
-              font-weight: 600;
+              font-weight: 400;
               display: inline-block;
               margin: 0;
               padding: 0;
@@ -247,7 +247,7 @@
       @extend .d-flex;
       span {
         font-size: 10px;
-        font-weight: 600;
+        font-weight: 400;
         color: rgba(255,255,255,0.7);
         display: inline-block;
         padding-right: 4px;
@@ -259,7 +259,7 @@
     .meta-item-tagline {
       .meta-item-tagline-item {
         font-size: 10px;
-        font-weight: 600;
+        font-weight: 400;
         text-transform: uppercase;
         @include media-breakpoint-up(md) {
           font-size: 10px;
