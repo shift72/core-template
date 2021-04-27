@@ -39,21 +39,12 @@
 @import '_pin-codes';
 @import '_language-selector';
 
-// Custom fonts ???
-// ---------------------------------------
-
-// @import url(https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css);
-
-
-// Site specific styles
-// ---------------------------------------
-@import 'https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css';
 
 html {
   height: 100%;
 }
 body {
-	font-family: "Rawline", $font-family-base;
+	font-family: $font-family-base;
 	height: 100%;
 	display: flex;
 	flex-direction: column;

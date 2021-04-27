@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="{{CDN}}/s72.transactional.css">
     <link rel="stylesheet" href="/styles/swiper.css">
 
-    <link rel="stylesheet" href="https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css">
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
