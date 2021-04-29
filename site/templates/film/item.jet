@@ -154,5 +154,4 @@
     </div>
     {{ end }}
   </div>
-  <s72-payment-complete-modal data-slug="{{film.Slug}}"></s72-payment-complete-modal>
 {{end}}
