@@ -512,6 +512,7 @@ function documentReady(app) {
   document.querySelectorAll('.navbar-nav').forEach(function(nav) {
     nav.classList.remove('s72-hide');
   });
+
 }
 
 function detectTouchscreen(){
