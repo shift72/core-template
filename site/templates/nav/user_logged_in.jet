@@ -33,7 +33,7 @@
           <s72-sign-out class="s72-dropdown-item">{{i18n("nav_signout")}}</s72-sign-out>
         </li>
       </ul>
-      <svg  width="24" height="24" viewBox="0 0 24 24" class="dropdown-caret"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+      <i class="fa fa-angle-down dropdown-caret"></i>
     </s72-dropdown>
   </s72-user-known>
 {{end}}
