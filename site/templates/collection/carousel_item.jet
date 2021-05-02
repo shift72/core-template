@@ -33,6 +33,9 @@
             <div class="meta-item-buttons">
               <s72-play-button data-slug="{{item.Slug}}"></s72-play-button>
               <s72-pricing-buttons data-slug="{{item.Slug}}"></s72-pricing-buttons>
+              {{ if item.ItemType == "film" }}
+                <live-event data-slug="{{item.InnerItem.Slug}}" data-url="{{ item.InnerItem.CustomFields.GetString("live_event_link", "") }}" data-label="{{ item.InnerItem.CustomFields.GetString("live_event_text", "owned_custom_button_text") }}"></live-event>
+              {{ end }}
             </div>
 
             <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>

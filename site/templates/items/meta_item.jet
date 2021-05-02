@@ -62,6 +62,9 @@
             <div class="buttons">
               <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
               <s72-pricing-buttons data-slug="{{item.Slug}}" class="pricing-buttons-fit" title="{{item.Title}}"></s72-pricing-buttons>
+              {{ if item.ItemType == "film" }}
+                <live-event data-slug="{{item.InnerItem.Slug}}" data-url="{{ item.InnerItem.CustomFields.GetString("live_event_link", "") }}" data-label="{{ item.InnerItem.CustomFields.GetString("live_event_text", "owned_custom_button_text") }}"></live-event>
+              {{ end }}
             </div>
           </div>
           <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
