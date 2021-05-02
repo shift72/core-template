@@ -104,6 +104,9 @@
       font-size: 14px;
       overflow-wrap: break-word;
     }
+    strong {
+      font-weight: $font-weight-bold;
+    }
   }
 }
 // Make images inserted into content and curated pages native size at large res but 100% width at mobile res

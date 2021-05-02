@@ -185,7 +185,7 @@ s72-classification-label {
     .s72-classification-label {
       color: rgba($body-color, 0.5); 
       border: 1px solid rgba($body-color, 0.5); 
-      font-weight: 800;
+      font-weight: $font-weight-bold;
       font-size: 12px;
       padding: 1px 5px;
       border-radius: 0;
