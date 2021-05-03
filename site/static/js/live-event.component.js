@@ -52,7 +52,7 @@ export default class LiveEvent extends AppComponent {
   }
 
   render(props, state) {
-    if (!state.loaded || !state.isOwned) return;
+    if (!state.loaded || !state.isOwned || props.url == '' || props.label == '') return;
     return state.loaded && state.isOwned && (
       <button class="s72-btn s72-btn-owned-custom" onClick={ e => { this.openLink(e, props.url) } }>
         <span class="padder"></span>

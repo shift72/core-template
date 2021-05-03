@@ -192,8 +192,8 @@ s72-classification-label {
       display: none;
     }
     .s72-classification-label {
-      color: rgba($body-color, 0.5); 
-      border: 1px solid rgba($body-color, 0.5); 
+      color: rgba($body-color, 0.5);
+      border: 1px solid rgba($body-color, 0.5);
       font-weight: 800;
       font-size: 12px;
       padding: 1px 5px;
@@ -216,7 +216,7 @@ s72-classification-label {
 
 .meta-detail-content .meta-detail-tagline-and-classification .meta-item-tagline {
     font-weight: 600;
-    color: rgba($body-color, 0.5); 
+    color: rgba($body-color, 0.5);
     margin-bottom: 0;
     align-self: center;
 }
@@ -347,4 +347,62 @@ s72-classification-label {
 //text wrap fix
 h1, h2, h3, h4, h5, h6, p, .title {
   overflow-wrap: break-word;
+}
+
+.s72-btn-owned-custom {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 3px solid $button-background;
+  background: $button-background;
+  align-items: center;
+  justify-content: center;
+  @extend .d-flex;
+  .padder {
+    min-height: 32px;
+  }
+  .verb {
+    color: $button-text-color;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  @include hover-focus {
+    border: 3px solid $button-background-hover;
+    background: $button-background-hover;
+  }
+}
+
+.meta-detail-content .meta-detail-buttons,
+.meta-item-buttons {
+  display: flex;
+  flex-direction: row;
+  .owned-custom-container {
+    display: none;
+    &.s72-show {
+      display: block;
+    }
+  }
+  .s72-btn-play {
+    margin-right: 8px;
+  }
+}
+
+.s72-userwishlist-items .partial > a,
+.s72-userlibrary-items .partial > a,
+.s72-searchresults .s72-searchresults-results .partial > a,
+.swiper-slide > a {
+  .poster .hover .buttons {
+    flex-direction: column;
+    padding-top: 0px;
+    .s72-btn-owned-custom {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    s72-pricing-buttons {
+      padding-top: 10px;
+    }
+    .s72-btn-play,
+    .s72-btn-owned-custom {
+      min-width: 140px;
+    }
+  }
 }
