@@ -1,4 +1,5 @@
 import './modernizr-custom.js';
+import './custom-owned-button.component.js';
 
 var slideObservers = [];
 

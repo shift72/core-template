@@ -1,7 +1,7 @@
 import { utils } from 's72';
 import { AppComponent, bindAllComponents, render, h, attrs, getComponentElement } from 's72.ui';
 
-export default class LiveEvent extends AppComponent {
+export default class CustomOwnedButton extends AppComponent {
   constructor(props, context) {
     super(props, context);
     this.state = { loaded: false };
@@ -62,6 +62,6 @@ export default class LiveEvent extends AppComponent {
   }
 }
 
-bindAllComponents('live-event', (elements, app) => {
-  return elements.map(e => render(h(LiveEvent, attrs(e)), e));
+bindAllComponents('custom-owned-button', (elements, app) => {
+  return elements.map(e => render(h(CustomOwnedButton, attrs(e)), e));
 });

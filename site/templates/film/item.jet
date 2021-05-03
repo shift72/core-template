@@ -46,7 +46,7 @@
           <div class="meta-detail-buttons">
             <s72-play-button data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-play-button>
             <s72-pricing-buttons data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-pricing-buttons>
-            <live-event data-slug="{{film.Slug}}" data-url="{{ film.CustomFields.GetString("live_event_link", "") }}" data-label="{{ film.CustomFields.GetString("live_event_text", "owned_custom_button_text") }}"></live-event>
+            <custom-owned-button data-slug="{{film.Slug}}" data-url="{{ film.CustomFields.GetString("live_event_link", "") }}" data-label="{{ film.CustomFields.GetString("live_event_text", "owned_custom_button_text") }}"></custom-owned-button>
           </div>
           {{if config("default_image_type") != "portrait"}}
             <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
