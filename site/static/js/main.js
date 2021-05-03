@@ -455,22 +455,22 @@ function initializeMenu() {
   }
 }
 
-function toggleMobileMenu(icon){
-  var nav = document.querySelector('.navigation');
-  if (nav && icon) {
-    nav.classList.contains('show') ? icon.classList.add('toggled') : icon.classList.remove('toggled');
-  }
-}
+function searchShow() {
+  var searchButton = document.querySelector('.search-open');
+  var searchForm = document.querySelector('.form-control-search');
 
-function focusSearch() {
-  document.querySelector('.form-control-search').focus();
-  document.querySelector('.navbar-nav-search').classList.add('search-show');
-  document.querySelector('.navbar-nav-search').classList.remove('search-hidden');
+  searchButton.addEventListener('focusin', function(e) {
+    document.querySelector('.form-control-search').focus();
+    document.querySelector('.navbar-nav-search').classList.add('search-show');
+    document.querySelector('.navbar-nav-search').classList.remove('search-hidden');
+  });
+
+  searchForm.addEventListener('focusout', function(e) {
+    document.querySelector('.navbar-nav-search').classList.remove('search-show');
+    document.querySelector('.navbar-nav-search').classList.add('search-hidden');
+  });
 }
-function focusOutSearch() {
-  document.querySelector('.navbar-nav-search').classList.remove('search-show');
-  document.querySelector('.navbar-nav-search').classList.add('search-hidden');
-}
+searchShow();
 
 // Checks if the subnav is overflowing
 function subnavOverflowing() {
@@ -533,7 +533,6 @@ function detectTouchscreen(){
 function isTouchscreenEnabled(){
   return (document.querySelector('html').getAttribute('is-touchscreen') === 'true');
 }
-
 document.addEventListener('s72loaded', function(event) {
   let app = event.detail.app;
   documentReady(app);

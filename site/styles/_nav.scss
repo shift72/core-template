@@ -29,6 +29,7 @@ TODO - SHIFT72-WEB
 .navbar {
   z-index: 2;
   width: 100%;
+  overflow: hidden;
   padding: 20px 20px 60px 20px;
   display: flex;
   flex-wrap: wrap;
@@ -39,6 +40,7 @@ TODO - SHIFT72-WEB
   min-height: 100%;
   background-color: transparent;
   @include media-breakpoint-up(md) {
+    overflow: visible;
     padding: 20px 50px 15px 50px;
     align-items: center;
   }
@@ -287,15 +289,21 @@ s72-language-selector { order: 4; }
   &:hover {
     i {
       @extend .animate-this;
-      color: $primary;
+      @include media-breakpoint-up(md) {
+        color: $primary;
+      }
     }
   }
   &:active, &:focus {
     outline: none;
   }
 }
-
-
+.search-show .search-open:hover {
+  cursor: auto;
+  i {
+    color: $body-color;
+  }
+}
 
 .search-icon  {
   position: absolute;
@@ -305,7 +313,6 @@ s72-language-selector { order: 4; }
   transform: translateY(-50%);
   pointer-events: none;
   color: $body-color;
-
 }
 
 .search-close {
@@ -331,12 +338,13 @@ s72-language-selector { order: 4; }
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    line-height: 19px;
+    line-height: 18px;
   }
   &:hover, &:focus, &:active {
     i {
       @extend .animate-this;
       background-color: rgba($color: $body-color, $alpha: 0.2);
+      color: $body-color;
     }
   }
 }
