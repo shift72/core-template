@@ -30,19 +30,20 @@ TODO - SHIFT72-WEB
   z-index: 2;
   width: 100%;
   overflow: hidden;
-  padding: 20px 20px 60px 20px;
+  padding: 20px 20px 20px 20px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
   align-content: flex-start;
-  flex-direction: row;
+  flex-direction: column;
   min-height: 100%;
   background-color: transparent;
   @include media-breakpoint-up(md) {
     overflow: visible;
     padding: 20px 50px 15px 50px;
     align-items: center;
+    flex-direction: row;
   }
 }
 
@@ -135,7 +136,7 @@ s72-language-selector { order: 4; }
 /*** LOGO ***/
 .navbar-brand-container {
   display: flex;
-  flex-grow: 1;
+  flex-grow: 0;
   align-items: center;
   @include media-breakpoint-up(md) {
     width: auto;
@@ -224,15 +225,13 @@ s72-language-selector { order: 4; }
       transition: 0.25s ease-out;
       opacity: 0;
       color: rgba($color: $body-color, $alpha: 0.8);
+      font-weight: 400;
     }
 
-    @include media-breakpoint-up(md) {
-      font-weight: 400;
-        &:focus {
-        box-shadow: none;
-        &::placeholder {
-          opacity: 1;
-        }
+    &:focus {
+      box-shadow: none;
+      &::placeholder {
+        opacity: 1;
       }
     }
 
@@ -454,22 +453,21 @@ s72-dropdown, .s72-language-selector {
   flex-grow: 1;
   align-self: center;
   width: 100%;
-  padding: 10px 0 22px 0;
+  padding: 10px 0 0 0;
   
   .btn {
     width: 100%;
   }
   &.navbar-logged-out {
-    @include media-breakpoint-down(sm) {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      padding: 0;
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    @include media-breakpoint-up(md) {
+      flex-grow: 0;
     }
   }
 
   s72-user-anon {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
   }
   s72-user-known {
     padding: 10px 0;
@@ -601,12 +599,13 @@ s72-dropdown, .s72-language-selector {
 .sub-nav {
   display: none;
   font-family: $font-family-base;
-  flex-basis: 100%;
+  flex-basis: auto;
   flex-direction: column;
   width: 100%;
   @include media-breakpoint-up(md) {
     @extend .d-md-flex;
     flex-direction: row;
+    flex-basis: 100%;
     width: auto;
     padding-top: 15px;
   }

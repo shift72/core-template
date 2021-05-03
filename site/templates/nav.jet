@@ -28,12 +28,13 @@
       </button>
 
       <s72-language-selector></s72-language-selector>
-      <div class="navbar-nav navbar-logged-out s72-hide">
-        {{ yield nav_user_logged_out() }}
-      </div>
       <div class="navbar-nav navbar-logged-in s72-hide">
         {{ yield nav_user_logged_in() }}
       </div>
+      <div class="navbar-nav navbar-logged-out s72-hide">
+        {{ yield nav_user_logged_out() }}
+      </div>
+
 
       {{if len(site.Navigation.Header) > 0 && showSubNav}}
         <ul class="sub-nav">
