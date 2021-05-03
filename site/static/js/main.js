@@ -1,3 +1,5 @@
+import './modernizr-custom.js';
+
 var slideObservers = [];
 
 function initializeWishlist() {
