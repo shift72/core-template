@@ -222,6 +222,14 @@
       -moz-animation: fadein 2s; /* Firefox */
       -webkit-animation: fadein 2s; /* Safari and Chrome */
       -o-animation: fadein 2s; /* Opera */
+
+      margin-bottom: 10px;
+      &:nth-child(1) {
+        margin-right: .5rem;
+      }
+      &:nth-child(2) {
+        margin-left: 0;
+      }
     }
   }
   s72-availability-label {

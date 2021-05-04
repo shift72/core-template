@@ -10,6 +10,9 @@
     &:not(:last-child) {
       margin-right: map-get($spacers, 1); // Currently 0.25rem
     }
+    &.meta-item-tagline-item-classification {
+      margin-right: 0;
+    }
   }
 }
 .meta-item-classification {
