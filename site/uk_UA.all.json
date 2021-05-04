@@ -708,10 +708,14 @@
   },
   "meta_detail_languages": {
    "one": "Мова",
+   "few": "Мови",
+   "many": "Мови",
    "other": "Мови"
   },
   "meta_detail_studios": {
    "one": "Студія",
+   "few": "Студія",
+   "many": "Студія",
    "other": "Студії"
   },
   "meta_detail_countries": {
