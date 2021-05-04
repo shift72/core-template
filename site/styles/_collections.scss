@@ -224,7 +224,7 @@
       .hover {
         opacity: 0;
         display: none !important;
-         @include media-breakpoint-up(lg) {
+         @include media-breakpoint-up(md) {
           opacity: 1;
           display: flex !important;
         }
