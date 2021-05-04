@@ -9,7 +9,6 @@ TODO - SHIFT72-WEB
   z-index: 9;
   width: 100%;
   top: 0;
-  left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
@@ -17,11 +16,12 @@ TODO - SHIFT72-WEB
 
   &.show {
     height: 100%;
-    nav {
-      height: 100%;
-    }
     @include media-breakpoint-up(md) {
       height: auto;
+      max-width: 100%;
+    }
+    @include media-breakpoint-up(sm) {
+      max-width: 384px;
     }
   }
 }
@@ -111,6 +111,7 @@ s72-language-selector { order: 4; }
     opacity: 1;
     transform-origin: right center;
     transform: rotate(0deg);
+    //transition: 0.15s ease-in-out;
     transition: 0.15s ease-in-out;
   }
   .hamburger-top, .hamburger-middle {
@@ -315,11 +316,14 @@ s72-language-selector { order: 4; }
 }
 
 .search-close {
+  color: $body-color;
   color: rgba($color: $body-color, $alpha: 0.7);
+  background: transparent;
   opacity: 0;
   pointer-events: none;
   position: absolute;
   right: 10px;
+  
   @include media-breakpoint-up(md) {
     right: 5px;
   }
@@ -329,21 +333,27 @@ s72-language-selector { order: 4; }
   width: 32px;
   top: 50%;
   transform: translateY(-50%);
+  /*
   background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
+  */
+  /*
   i {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     line-height: 18px;
-  }
+  */
   &:hover, &:focus, &:active {
+    outline: 0;
+    @extend .animate-this;
+    color: rgba($color: $body-color, $alpha: 1);
     i {
       @extend .animate-this;
-      background-color: rgba($color: $body-color, $alpha: 0.2);
-      color: $body-color;
+      //background-color: rgba($color: $body-color, $alpha: 0.2);
+      
     }
   }
 }
@@ -467,7 +477,7 @@ s72-dropdown, .s72-language-selector {
   }
 
   s72-user-anon {
-    padding: 20px 20px 0 20px;
+    padding: 20px 0 0 0;
   }
   s72-user-known {
     padding: 10px 0;
@@ -576,6 +586,9 @@ s72-dropdown, .s72-language-selector {
     &:focus {
       box-shadow: none;
     }
+  }
+  .s72-dropdown-item {
+    @extend .animate-this;
   }
 }
 
