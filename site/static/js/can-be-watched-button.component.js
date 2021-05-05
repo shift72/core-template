@@ -48,13 +48,10 @@ export default class CanBeWatchedButton extends AppComponent {
     if (url.length == 0) return;
     window.open(url);
   }
-  
-  isVisible() {
-    return state.loaded && state.isOwned && props.url && props.label;
-  }
-  
+
   render(props, state) {
-    return isVisible() && (
+    if (!state.loaded || !state.isOwned || props.url == '' || props.label == '') return;
+    return state.loaded && state.isOwned && (
       <button class="s72-btn s72-btn-can-be-watched" onClick={ e => { this.openLink(e, props.url) } }>
         <span class="padder"></span>
         <span class="verb watch s72-btn-can-be-watched-label">{ props.label }</span>
