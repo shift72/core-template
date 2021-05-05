@@ -46,6 +46,7 @@
           <div class="meta-detail-buttons">
             <s72-play-button data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-play-button>
             <s72-pricing-buttons data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-pricing-buttons>
+            <can-be-watched-button data-slug="{{film.Slug}}" data-url="{{ film.CustomFields.GetString("can_be_watched_button_link", "") }}" data-label="{{ film.CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text") }}"></can-be-watched-button>
           </div>
           {{if config("default_image_type") != "portrait"}}
             <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
