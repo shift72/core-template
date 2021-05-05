@@ -122,7 +122,7 @@
             h4 {
               font-size: 18px;
               font-weight: 600;
-              color: #fff;
+              color: $body-color;
               margin: 0;
               padding: 0;
               text-align: center;
@@ -131,7 +131,7 @@
               }
             }
             .meta-item-tagline {
-              color: #fff;
+              color: $body-color;
               font-weight: 600;
               display: inline-block;
               margin: 0;
@@ -224,7 +224,7 @@
       .hover {
         opacity: 0;
         display: none !important;
-         @include media-breakpoint-up(lg) {
+         @include media-breakpoint-up(md) {
           opacity: 1;
           display: flex !important;
         }
