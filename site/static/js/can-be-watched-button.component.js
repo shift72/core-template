@@ -1,7 +1,7 @@
 import { utils } from 's72';
 import { AppComponent, bindAllComponents, render, h, attrs, getComponentElement } from 's72.ui';
 
-export default class CustomOwnedButton extends AppComponent {
+export default class CanBeWatchedButton extends AppComponent {
   constructor(props, context) {
     super(props, context);
     this.state = { loaded: false };
@@ -35,14 +35,12 @@ export default class CustomOwnedButton extends AppComponent {
   }
 
   loadAvailability(slug){
-    return this.app.itemLimitService.get(slug).then(limit => {
-      if (utils.slugs.detect(slug) === utils.slugs.TYPE.FILM){
-        return this.app.availabilityService.getAvailability(slug).then(a => {
-          this.setState({ isOwned: a && a.canBeWatched });
-        });
-      }
-      return;
-    });
+    if (utils.slugs.detect(slug) === utils.slugs.TYPE.FILM){
+      return this.app.availabilityService.getAvailability(slug).then(a => {
+        this.setState({ isOwned: a && a.canBeWatched });
+      });
+    }
+    return;
   }
 
   openLink(event, url) {
@@ -54,14 +52,14 @@ export default class CustomOwnedButton extends AppComponent {
   render(props, state) {
     if (!state.loaded || !state.isOwned || props.url == '' || props.label == '') return;
     return state.loaded && state.isOwned && (
-      <button class="s72-btn s72-btn-owned-custom" onClick={ e => { this.openLink(e, props.url) } }>
+      <button class="s72-btn s72-btn-can-be-watched" onClick={ e => { this.openLink(e, props.url) } }>
         <span class="padder"></span>
-        <span class="verb watch s72-btn-owned-custom-label">{ props.label }</span>
+        <span class="verb watch s72-btn-can-be-watched-label">{ props.label }</span>
       </button>
     );
   }
 }
 
-bindAllComponents('custom-owned-button', (elements, app) => {
-  return elements.map(e => render(h(CustomOwnedButton, attrs(e)), e));
+bindAllComponents('can-be-watched-button', (elements, app) => {
+  return elements.map(e => render(h(CanBeWatchedButton, attrs(e)), e));
 });

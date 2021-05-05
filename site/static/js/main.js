@@ -1,5 +1,5 @@
 import './modernizr-custom.js';
-import './custom-owned-button.component.js';
+import './can-be-watched-button.component.js';
 
 var slideObservers = [];
 

@@ -34,7 +34,7 @@
               <s72-play-button data-slug="{{item.Slug}}"></s72-play-button>
               <s72-pricing-buttons data-slug="{{item.Slug}}"></s72-pricing-buttons>
               {{ if item.ItemType == "film" }}
-                <custom-owned-button data-slug="{{item.InnerItem.Slug}}" data-url="{{ item.InnerItem.CustomFields.GetString("live_event_link", "") }}" data-label="{{ item.InnerItem.CustomFields.GetString("live_event_text", "owned_custom_button_text") }}"></custom-owned-button>
+                <can-be-watched-button data-slug="{{item.InnerItem.Slug}}" data-url="{{ item.InnerItem.CustomFields.GetString("can_be_watched_button_link", "") }}" data-label="{{ item.InnerItem.CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text") }}"></can-be-watched-button>
               {{ end }}
             </div>
 

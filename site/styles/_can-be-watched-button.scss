@@ -1,4 +1,4 @@
-.s72-btn-owned-custom {
+.s72-btn-can-be-watched {
   padding-top: 3px;
   padding-bottom: 3px;
   border: 3px solid $button-background;
@@ -42,7 +42,7 @@
   .poster .hover .buttons {
     flex-direction: column;
     padding-top: 0px;
-    .s72-btn-owned-custom {
+    .s72-btn-can-be-watched {
       margin-top: 10px;
       margin-bottom: 10px;
     }
@@ -50,7 +50,7 @@
       padding-top: 10px;
     }
     .s72-btn-play,
-    .s72-btn-owned-custom {
+    .s72-btn-can-be-watched {
       min-width: 140px;
     }
   }
