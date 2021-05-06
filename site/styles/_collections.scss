@@ -31,7 +31,7 @@
     padding-left: 0;
   }
   h3 {
-    font-weight: 500;
+    font-weight: $font-weight-bold;
     font-size: 16px;
     @include media-breakpoint-up(md) {
       font-size: 18px;
@@ -121,7 +121,7 @@
           .titles {
             h4 {
               font-size: 18px;
-              font-weight: 400;
+              font-weight: $font-weight-normal;
               color: #fff;
               margin: 0;
               padding: 0;
@@ -132,7 +132,7 @@
             }
             .meta-item-tagline {
               color: #fff;
-              font-weight: 400;
+              font-weight: $font-weight-normal;
               display: inline-block;
               margin: 0;
               padding: 0;
@@ -172,7 +172,7 @@
           }
           .bonuses {
             font-size: 12px;
-            font-weight: 500;
+            font-weight: $font-weight-bold;
             text-align: center;
             font-style: italic;
             color: #fff;
@@ -238,7 +238,7 @@
     .title,
     .runtime {
       font-size: 10px;
-      font-weight: 500;
+      font-weight: $font-weight-bold;
       @include media-breakpoint-up(md) {
         font-size: 14px;
       }
@@ -247,7 +247,7 @@
       @extend .d-flex;
       span {
         font-size: 10px;
-        font-weight: 400;
+        font-weight: $font-weight-normal;
         color: rgba(255,255,255,0.7);
         display: inline-block;
         padding-right: 4px;
@@ -259,7 +259,7 @@
     .meta-item-tagline {
       .meta-item-tagline-item {
         font-size: 10px;
-        font-weight: 400;
+        font-weight: $font-weight-normal;
         text-transform: uppercase;
         @include media-breakpoint-up(md) {
           font-size: 10px;

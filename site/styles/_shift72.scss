@@ -152,7 +152,7 @@ s72-useraccount-form {
   .s72-account-password-form-group, .s72-account-pin-form-group {
     margin-top: 30px;
     label {
-      font-weight: 500;
+      font-weight: $font-weight-bold;
     }
   }
 }

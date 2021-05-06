@@ -181,7 +181,9 @@ $icon-play-hover-bg: rgba(#fff, 0.5) !default;
 // ------------------------------------
 $modal-footer-button-margin: 5px;
 
-// New Font Poppins
+// Fonts
 // ------------------------------------
 $font-family-base: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-weight-bold: 500; // We should replace all font weights with these variables in the future.
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 500 !default;

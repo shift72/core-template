@@ -11,7 +11,7 @@
     h2 {
       color: #fff;
       font-size: 24px;
-      font-weight: 400;
+      font-weight: $font-weight-normal;
       text-align: center;
       align-self: center;
       max-width: 210px;
@@ -31,7 +31,7 @@
       display: block;
       p {
         font-size: 14px;
-        font-weight: 400;
+        font-weight: $font-weight-normal;
         a {
           text-decoration: underline;
         }

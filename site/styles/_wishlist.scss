@@ -21,7 +21,7 @@
 .s72-userwishlist-buttons {
 	.s72-btn-wishlist {
 		font-size: 12px;
-    font-weight: 500;
+    font-weight: $font-weight-bold;
     @extend .btn;
     padding-top: 3px;
     padding-bottom: 3px;

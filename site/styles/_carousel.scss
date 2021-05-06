@@ -136,7 +136,7 @@ s72-carousel {
     h3 {
       color: $body-color; 
       font-size: 28px;
-      font-weight: 500;
+      font-weight: $font-weight-bold;
       margin-bottom: 0;
       padding-bottom: 0;
       @include media-breakpoint-up(md){
@@ -171,7 +171,7 @@ s72-carousel {
       }
       .meta-item-tagline {
         font-size: 14px;
-        font-weight: 400;
+        font-weight: $font-weight-normal;
         color: rgba($body-color, 0.5); 
         margin-bottom: 0;
         align-self: center;
@@ -182,7 +182,7 @@ s72-carousel {
     }
     .meta-item-tagline {
       font-size: 14px;
-      font-weight: 400;
+      font-weight: $font-weight-normal;
       color: rgba(255,255,255,0.5);
       @include media-breakpoint-up(xxxl){
         font-size: 18px;
@@ -190,7 +190,7 @@ s72-carousel {
     }
     .meta-item-synopsis {
       font-size: 12px;
-      font-weight: 400;
+      font-weight: $font-weight-normal;
       display: block;
       padding-top: 10px;
       @include media-breakpoint-up(md){
