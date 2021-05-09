@@ -29,10 +29,10 @@
    "many": "{{.Count}} seasons"
   },
   "tvseason": {
-   "other": "{{.ShowInfo.Title}} {{.Season.SeasonNumber}}"
+    "other": "{{.ShowInfo.Title}} Series {{.Season.SeasonNumber}}"
   },
-  "tvseason_html": {
-   "other": "{{.ShowInfo.Title}} <span> {{.Season.SeasonNumber}}</span>"
+   "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>Series {{.Season.SeasonNumber}}</span>"
   },
   "tvepisode": {
    "other": "{{.Episode.Title}}"
@@ -41,7 +41,7 @@
    "other": "{{.Season.SeasonNumber}}"
   },
   "episode_count": {
-   "one": "1 Episode",
+   "one": "1 Серій",
    "few": "{{.Count}} Серій",
    "many": "{{.Count}} Серій"
   },
