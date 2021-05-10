@@ -12,44 +12,54 @@ TODO - SHIFT72-WEB
   right: 0;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-direction: column;
   @extend .top-gradient-bg;
-
-  &.show {
-    height: 100%;
-    @include media-breakpoint-up(md) {
-      height: auto;
-      max-width: 100%;
-    }
-    @include media-breakpoint-up(sm) {
-      max-width: 384px;
-    }
-  }
+  height: ($navbar-brand-padding-y * 2) + 40px;
 }
 
 .navbar {
-  z-index: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 11;
   width: 100%;
-  overflow: hidden;
-  padding: 20px 20px 20px 20px;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 70px 20px 20px 20px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: flex-start;
   align-content: flex-start;
   flex-direction: column;
-  min-height: 100%;
   background-color: transparent;
+  transition: background-color 0.25s ease-out;
+  max-height: 100vh;
+
+  @include media-breakpoint-up(sm) {
+    width: 100%;
+  }
   @include media-breakpoint-up(md) {
+    position: absolute;
+    justify-content: flex-end;
     overflow: visible;
     padding: 20px 50px 15px 50px;
     align-items: center;
     flex-direction: row;
+    max-height: 100%;
+    flex-wrap: wrap;
   }
 }
 
 .navigation.show .navbar {
-  animation: fade-in 150ms;
-  animation-fill-mode: forwards;
+  min-height: 100vh;
+  background-color: $body-bg-light; 
+  height: auto;
+  @include media-breakpoint-down(sm) {
+    animation: fade-in 0.25s;
+    animation-fill-mode: forwards;
+  }
   @keyframes fade-in {
     0% {
       background-color: transparent;
@@ -58,13 +68,20 @@ TODO - SHIFT72-WEB
       background-color: $body-bg-light;
     }
   }
-  @include media-breakpoint-up(md) {
-    background-color: transparent;
-  }
-  
   s72-language-selector, .navbar-nav, .sub-nav {
     animation: slidein 300ms;
   }
+
+  @include media-breakpoint-up(sm) {
+    max-width: 384px;
+    
+  }
+  @include media-breakpoint-up(md) {
+    background-color: transparent;
+    max-width: 100%;
+    min-height: auto;
+  }
+  
 }
 
 // Mobile Order
@@ -111,7 +128,6 @@ s72-language-selector { order: 4; }
     opacity: 1;
     transform-origin: right center;
     transform: rotate(0deg);
-    //transition: 0.15s ease-in-out;
     transition: 0.15s ease-in-out;
   }
   .hamburger-top, .hamburger-middle {
@@ -136,8 +152,10 @@ s72-language-selector { order: 4; }
 
 /*** LOGO ***/
 .navbar-brand-container {
+  position: absolute;
+  top: 20px;
+  left: 40px;
   display: flex;
-  flex-grow: 0;
   align-items: center;
   @include media-breakpoint-up(md) {
     width: auto;
@@ -146,6 +164,7 @@ s72-language-selector { order: 4; }
   } 
 }
 .navbar-brand {
+
   min-width: $navbar-brand-min-width;
   z-index: 9;
   margin-right: auto;
@@ -170,7 +189,7 @@ s72-language-selector { order: 4; }
 }
 .navigation.show .navbar-brand {
   visibility: hidden;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(sm) {
     visibility: visible;
   }
 }
@@ -214,7 +233,6 @@ s72-language-selector { order: 4; }
     @include media-breakpoint-up(md) {
       height: 100%;
     }
-    @extend .animate-this;
     &:focus {
       color: $body-color;
       margin: 0 20px 0 20px;
@@ -333,19 +351,7 @@ s72-language-selector { order: 4; }
   width: 32px;
   top: 50%;
   transform: translateY(-50%);
-  /*
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  */
-  /*
-  i {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    line-height: 18px;
-  */
+
   &:hover, &:focus, &:active {
     outline: 0;
     @extend .animate-this;

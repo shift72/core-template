@@ -3,10 +3,11 @@
 
 {{block nav(showSubNav=true)}}
 <div class="navigation search-hidden" data-toggle="affix" aria-hidden="true">
+  <div class="navbar-brand-container">
+    <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
+  </div>
     <nav class="navbar">
-      <div class="navbar-brand-container">
-        <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
-      </div>
+
 
       {{if config("search_disabled") != "true"}}
         <form class="form-search navbar-nav-search search-desktop"  action="{{ routeToPath("/search.html") }}">
