@@ -152,7 +152,7 @@ s72-useraccount-form {
   .s72-account-password-form-group, .s72-account-pin-form-group {
     margin-top: 30px;
     label {
-      font-weight: 700;
+      font-weight: $font-weight-bold;
     }
   }
 }
@@ -197,7 +197,7 @@ s72-cant-be-watched {
 
 // .s72-btn-play {
 //   @extend .btn-link;
-//   font-weight: 700;
+//   font-weight: 500;
 //   color: $primary;
 //   padding-left: 0;
 //   .s72-icon-play {
