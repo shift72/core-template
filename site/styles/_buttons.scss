@@ -20,6 +20,9 @@
 }
 // Sign In Button
 .btn.btn-signin {
+  justify-content: center;
+  align-items: center;
+  display: flex;
   font-size: 14px;
   color: $signin-text-color;
   border: 3px solid $signin-border-color;
@@ -39,6 +42,9 @@
 }
 // Sign Up Button
 .btn.btn-signup {
+  justify-content: center;
+  align-items: center;
+  display: flex;
   font-size: 14px;
   color: $signup-text-color;
   border: 3px solid $signup-border-color;

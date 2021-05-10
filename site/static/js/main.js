@@ -435,26 +435,6 @@ function cullSlides(slider, direction){
   }
 }
 
-function initializeMenu() {
-  var togglers = document.getElementsByClassName('navbar-toggler');
-  for (var i = 0; i < togglers.length; i++) {
-    var toggler = togglers[i];
-    var f = toggler.getAttribute('toggle-function');
-
-    // Look for icons
-    var icon = null;
-    var icons = toggler.getElementsByClassName('icon-navbar-toggler');
-    if(icons && icons.length > 0) {
-      icon = icons[0];
-    }
-
-    toggler.addEventListener('click', function(e){
-      e.preventDefault();
-      window[f](icon);
-    });
-  }
-}
-
 function searchShow() {
   var searchButton = document.querySelector('.search-open');
   var searchForm = document.querySelector('.form-control-search');
@@ -470,7 +450,25 @@ function searchShow() {
     document.querySelector('.navbar-nav-search').classList.add('search-hidden');
   });
 }
-searchShow();
+
+function navToggle() {
+  var nav = document.querySelector('.navbar-toggler');
+    nav.addEventListener('click', function(e) {
+    console.log('clicked');
+    noScroll();
+  });
+}
+
+function noScroll() {
+  var body = document.querySelector('body');
+  if (!body.classList.contains('noscroll')) {
+    body.classList.add('noscroll');
+    console.log('added');
+  } else {
+    console.log('removed');
+    body.classList.remove('noscroll');
+  }
+}
 
 // Checks if the subnav is overflowing
 function subnavOverflowing() {
@@ -509,8 +507,6 @@ function documentReady(app) {
     }
   }
 
-  initializeMenu();
-
   document.querySelectorAll('.btn-trailer').forEach(function(btn) {
     btn.addEventListener('click', function(e) {
       e.preventDefault();
@@ -522,6 +518,10 @@ function documentReady(app) {
   document.querySelectorAll('.navbar-nav').forEach(function(nav) {
     nav.classList.remove('s72-hide');
   });
+
+  searchShow();
+
+  navToggle();
 
 }
 
