@@ -1,7 +1,7 @@
 {
-  "name": "abc-cinemas",
-  "version": "0.0.2",
-  "description": "ABC Cinemas On Demand",
+  "name": "@shift72/core-template",
+  "version": "0.2.7",
+  "description": "Base template",
   "license": "MIT",
   "scripts": {
     "start": "npm run init && npm-run-all --parallel css:watch js:watch kibble:watch",
@@ -21,13 +21,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/indiereign/screenplus-event.git"
+    "url": "git+https://github.com/shift72/core-template.git"
   },
   "keywords": [
     "Kibble",
     "Template"
   ],
-  "author": "Shift 72",
+  "author": "Shift72",
   "dependencies": {
     "@rollup/plugin-buble": "^0.21.3",
     "autoprefixer": "^7.1.2",
