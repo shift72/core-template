@@ -71,6 +71,8 @@ TODO - SHIFT72-WEB
       background-color: $body-bg-light;
     }
   }
+  
+  // Slide in animation for mobile nav
   s72-language-selector, .navbar-nav, .sub-nav {
     animation: slidein 300ms;
   }
@@ -89,19 +91,13 @@ TODO - SHIFT72-WEB
 }
 
 // Mobile Order
-.navbar-brand-container { order: 1; }
-.navbar-nav-search { order: 2; }
-s72-language-selector { order: 4; }
-.sub-nav { order: 5; }
-.navbar-nav { order: 6; }
+.sub-nav { order: 1; }
+.navbar-nav { order: 2; }
 
 // Desktop Order
 @include media-breakpoint-up(md) {
-  .navbar-brand-container { order: 1; }
-  .navbar-nav-search { order: 2; }
-  s72-language-selector { order: 4; }
-  .navbar-nav { order: 5; }
-  .sub-nav { order: 6; }
+  .navbar-nav { order: 1; }
+  .sub-nav { order: 2; }
 }
 
 /*** HAMBURGER MENU TOGGLER ***/
@@ -364,8 +360,6 @@ s72-language-selector { order: 4; }
     color: rgba($color: $body-color, $alpha: 1);
     i {
       @extend .animate-this;
-      //background-color: rgba($color: $body-color, $alpha: 0.2);
-      
     }
   }
 }
@@ -415,7 +409,6 @@ s72-dropdown, .s72-language-selector {
       position: absolute;
       top: 100%;
       box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 8px 10px 1px rgba(0, 0, 0, 0.14);
-      //border: solid 1px rgba(255, 255, 255, 0.12);
       border: 4px solid $body-bg-light;
       box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12);
       max-height: 330px;
@@ -440,7 +433,6 @@ s72-dropdown, .s72-language-selector {
       color: $body-color;
       font-weight: 600;
       font-size: 14px;
-      //margin-right: 0;
       padding: 0;
       border: 0;
       padding: 8px 0 8px 15px;
