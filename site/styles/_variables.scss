@@ -35,9 +35,9 @@ $container-max-widths: (
 
 $primary:         #4d97ff !default;
 $secondary:       #2d85ff !default;
-$body-bg:         #0F0F0F !default;
-$body-bg-light:   #181818 !default;
+$body-bg:         #0f0f0f !default;
 $body-color:      #ffffff !default;
+$body-bg-light:   lighten($body-bg, 4%) !default;
 $hr-border-color: rgba($body-color, .5) !default;
 $list-group-bg: $body-bg !default;
 $list-group-border-color: rgba($body-color, .125) !default;
@@ -47,7 +47,7 @@ $cookie-consent-color: #000;
 
 // Nav
 // ------------------------------------
-$navbar-background-color: $body-bg !default;
+$navbar-background-color: transparent !default;
 $navbar-dark-active-color: $primary !default;
 $navbar-nav-link-padding-x:  1em !default;
 $navbar-nav-link-padding-y:  1em !default;
@@ -63,7 +63,6 @@ $navbar-brand-min-width: 130px !default;
 $navbar-brand-min-width-md: 200px !default;
 $navbar-brand-min-width-lg: 200px !default;
 $navbar-brand-min-width-xl: 200px !default;
-$navbar-search-top: 30px !default;
 
 // Sub Navivgation
 $subnav-background-color: #302e30 !default;

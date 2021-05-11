@@ -1,7 +1,9 @@
 /* 
 TODO - SHIFT72-WEB 
-  Replace language selector icon 
-  Remove caret from .s72-dropdown-toggle
+  Replace language selector icon and add carat
+  Remove old caret from .s72-dropdown-toggle
+  Increase min width of s72-dropdown
+
 */
 
 .navigation {
@@ -25,17 +27,15 @@ TODO - SHIFT72-WEB
   z-index: 11;
   width: 100%;
   height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
   padding: 70px 20px 20px 20px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   align-content: flex-start;
   flex-direction: column;
-  background-color: transparent;
+  background-color: $navbar-background-color;
   transition: background-color 0.25s ease-out;
-  max-height: 100vh;
+  max-height: 100%;
 
   @include media-breakpoint-up(sm) {
     width: 100%;
@@ -54,9 +54,11 @@ TODO - SHIFT72-WEB
 
 .navigation.show .navbar {
   position: fixed;
-  min-height: 100vh;
+  min-height: 100%;
   background-color: $body-bg-light; 
   height: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
   @include media-breakpoint-down(sm) {
     animation: fade-in 0.25s;
     animation-fill-mode: forwards;
@@ -137,6 +139,9 @@ s72-language-selector { order: 4; }
   }
 }
 .navigation.show {
+  .navbar-toggler {
+    position: fixed;
+  }
   span {
     width: 20px;
   }
@@ -217,9 +222,7 @@ s72-language-selector { order: 4; }
     right: 0;
     height: 44px;
     width: 32px;
-    margin-right: 10px;
     position: relative;
-    
   }
   .form-control-search {
     font-family: $font-family-base;
@@ -392,11 +395,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 /*** DROPDOWNS ***/
 s72-dropdown, .s72-language-selector {
   position: relative;
-  .s72-dropdown-toggle { 
-    display: flex;
-    padding-right: 25px;
-    text-align: left;
-  }
+
   &:hover, &:focus {
     .s72-dropdown-toggle, .dropdown-caret  {
       color: $primary;
@@ -490,6 +489,9 @@ s72-dropdown, .s72-language-selector {
   }
   s72-user-known {
     padding: 10px 0;
+    @include media-breakpoint-up(md) {
+      margin-left: 12px;
+    }
   }
   s72-user-known, s72-user-anon {
     border-top: 1px solid rgba($color: $body-color, $alpha: 0.1);
@@ -590,6 +592,7 @@ s72-dropdown, .s72-language-selector {
     width: auto;
   }
   .s72-dropdown-toggle {
+    display: flex;
     padding-left: 0;
     padding-right: 20px;
     &:focus {
@@ -605,7 +608,7 @@ s72-dropdown, .s72-language-selector {
 .vl {
   border-left: solid 1px rgba($color: $body-color, $alpha: 0.5);
   height: 25px;
-  margin-left: 10px;
+  margin-left: 12px;
   display: none;
   @include media-breakpoint-up(md) {
     display: block;
