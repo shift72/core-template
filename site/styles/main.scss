@@ -187,14 +187,14 @@ s72-classification-label {
     }
     .s72-classification-description {
       font-size: 14px;
-      color: rgba(255,255,255,0.5);
+      color: rgba(255,255,255,0.8);
       font-weight: $font-weight-normal;
       margin-left: 5px;
       display: none;
     }
     .s72-classification-label {
-      color: rgba($body-color, 0.5);
-      border: 1px solid rgba($body-color, 0.5);
+      color: rgba($body-color, 0.8);
+      border: 1px solid rgba($body-color, 0.8);
       font-weight: $font-weight-bold;
       font-size: 12px;
       padding: 1px 5px;
@@ -217,7 +217,7 @@ s72-classification-label {
 
 .meta-detail-content .meta-detail-tagline-and-classification .meta-item-tagline {
     font-weight: $font-weight-normal;
-    color: rgba($body-color, 0.5);
+    color: rgba($body-color, 0.9);
     margin-bottom: 0;
     align-self: center;
 }
