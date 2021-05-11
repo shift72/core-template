@@ -3,9 +3,9 @@ TODO - SHIFT72-WEB
   Replace language selector icon and add carat
   Remove old caret from .s72-dropdown-toggle
   Increase min width of s72-dropdown
-
 */
 
+/*** NAVIGATION ***/
 .navigation {
   position: absolute;
   z-index: 9;
@@ -79,7 +79,6 @@ TODO - SHIFT72-WEB
 
   @include media-breakpoint-up(sm) {
     max-width: 384px;
-    
   }
   @include media-breakpoint-up(md) {
     position: absolute;
@@ -87,7 +86,6 @@ TODO - SHIFT72-WEB
     max-width: 100%;
     min-height: auto;
   }
-  
 }
 
 // Mobile Order
@@ -101,6 +99,7 @@ TODO - SHIFT72-WEB
 }
 
 /*** HAMBURGER MENU TOGGLER ***/
+
 .navbar-toggler {
   position: absolute;
   top: 20px;
@@ -154,6 +153,7 @@ TODO - SHIFT72-WEB
 }
 
 /*** LOGO ***/
+
 .navbar-brand-container {
   position: absolute;
   top: 20px;
@@ -222,7 +222,7 @@ TODO - SHIFT72-WEB
   }
   .form-control-search {
     font-family: $font-family-base;
-    font-weight: 600;
+    font-weight: 400;
     color: transparent;
     height: 44px;
     padding-left: 32px;
@@ -292,6 +292,9 @@ TODO - SHIFT72-WEB
 }
 .navigation.show .navbar-nav-search {
   display: none;
+  @include media-breakpoint-up(md) {
+    display: flex;
+  }
 }
 
 .search-open {
@@ -647,7 +650,7 @@ s72-dropdown, .s72-language-selector {
     padding: 10px 0;
     color: $subnav-nav-item-color;
     font-size: 16px;
-    @extend .animate-this;
+    transition: color 0.25s ease-out;
     @include media-breakpoint-up(md) {
       margin-right: 20px;
       border-bottom: 3px solid transparent;  
