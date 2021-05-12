@@ -479,6 +479,7 @@
   "shopping_payment_method_credit_card": { "other": "Credit card" },
   "shopping_payment_method_giropay": { "other": "Giropay" },
 
+  "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
   "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." }
 
 
