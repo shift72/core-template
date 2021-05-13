@@ -4,6 +4,7 @@
   "description": "Base template",
   "license": "MIT",
   "scripts": {
+    "ninja": "node ./scripts/workspace-copy.js",
     "start": "npm run init && npm-run-all --parallel css:watch js:watch kibble:watch",
     "init": "npm-run-all css js",
     "css": "node-sass ./site/styles/main.scss ./site/static/styles/main.css",
@@ -34,6 +35,7 @@
     "bootstrap": "^4.0.0",
     "concat": "^1.0.3",
     "cssnano": "^4.1.10",
+    "del": "^6.0.0",
     "font-awesome": "^4.7.0",
     "minify": "^4.1.1",
     "node-sass": "^4.14.1",
