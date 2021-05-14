@@ -1,10 +1,9 @@
 {
   "name": "@shift72/core-template",
-  "version": "0.2.7",
-  "description": "Base template",
+  "version": "0.1.0",
+  "description": "Shift72 core template",
   "license": "MIT",
   "scripts": {
-    "ninja": "node ./scripts/workspace-copy.js",
     "start": "npm run init && npm-run-all --parallel css:watch js:watch kibble:watch",
     "init": "npm-run-all css js",
     "css": "node-sass ./site/styles/main.scss ./site/static/styles/main.css",
@@ -20,11 +19,14 @@
     "language:csv": "node scripts/language-file-to-csv/language-file-to-csv.js site/en_AU.all.json",
     "language:validate": "node scripts/language-file-validator.js"
   },
+  "bin": "./scripts/core-template.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shift72/core-template.git"
   },
   "keywords": [
+    "Shift72",
+    "Core",
     "Kibble",
     "Template"
   ],
