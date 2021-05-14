@@ -21,4 +21,4 @@ console.log(`${srcDir} -> ${destDir}`);
 fse.copySync(path.join(srcDir, 'site'), path.join(destDir, 'site'));
 fse.copySync(path.join(srcDir, 'kibble.json'), path.join(destDir, 'kibble.json'));
 
-console.log(`=== END: core-template v${package.version} ===`);
+console.log(`===== END: core-template v${package.version} ===`);
