@@ -49,7 +49,7 @@
           </div>
           <div class="meta-detail-cast">
           {{if len(tvseason.Cast) > 0 }}
-            <h3>{{i18n("meta_detail_cast_title")}}</h3>
+            <h2>{{i18n("meta_detail_cast_title")}}</h2>
           {{end}}
             <p>
               {{range index, member := tvseason.Cast}}
@@ -61,7 +61,7 @@
           <div class="meta-detail-crew d-flex">
             {{range index, member := tvseason.Crew}}
               <div class="crew-member">
-                <h4>{{member.Job}}</h4>
+                <h2>{{member.Job}}</h2>
                 {{ path := "/search.html?q=" + member.Name }}
                 <a href="{{ routeToPath(path) }}"">{{member.Name}}</a>
               </div>
@@ -70,7 +70,7 @@
 
           {{if len(tvseason.Episodes) > 0}}
             <div class="meta-detail-episodes-content">
-              <h4>{{i18n("meta_detail_episodes_title")}}</h4>
+              <h2>{{i18n("meta_detail_episodes_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="portrait") content}}
                 {{range episode := tvseason.Episodes}}
                   <div class="episode-item">
@@ -83,7 +83,7 @@
 
           {{if len(tvseason.Bonuses) > 0 }}
             <div class="meta-detail-bonus-content">
-              <h4>{{i18n("meta_detail_bonus_title")}}</h4>
+              <h2>{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := tvseason.Bonuses}}
                   <div class="bonus-item">
@@ -109,7 +109,7 @@
           {{end}}
 
             <div class="swiper-title">
-                <h3>{{i18n("meta_detail_recommendations_title")}}</h3>
+                <h2>{{i18n("meta_detail_recommendations_title")}}</h2>
             </div>
             <div class="swiper-wrapper">
               {{range item := tvseason.Recommendations}}

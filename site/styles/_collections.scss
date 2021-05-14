@@ -30,7 +30,7 @@
     padding-bottom: $grid-gutter-width / 4;
     padding-left: 0;
   }
-  h3 {
+  h2, h3 {
     font-weight: $font-weight-bold;
     font-size: 16px;
     @include media-breakpoint-up(md) {

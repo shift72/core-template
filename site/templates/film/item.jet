@@ -139,7 +139,7 @@
           <div class="swiper-container" data-items-per-row="4" data-layout="landscape">
         {{end}}
           <div class="swiper-title">
-              <h3>{{i18n("meta_detail_recommendations_title")}}</h3>
+              <h2>{{i18n("meta_detail_recommendations_title")}}</h2>
           </div>
           <div class="swiper-wrapper">
             {{range item := film.Recommendations}}
