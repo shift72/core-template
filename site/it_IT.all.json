@@ -152,7 +152,7 @@
 
   "userlibrary_page_header": { "other": "I miei Film" },
   "userlibrary_empty_header":  { "other": "Non hai Film." },
-  "userlibrary_empty_content": { "other": "Fill it by <a href=\"{{.HomeURL}}\">browsing</a> our great selection." },
+  "userlibrary_empty_content": { "other": "Scegli un titolo <a href=\"{{.HomeURL}}\">sfogliando</a> la nostra grande selezione." },
 
   "searchresults_page_header": { "other": "Risultati della ricerca" },
   "searchresults_load_more": { "other": "Carica altri {{.Count}}" },
