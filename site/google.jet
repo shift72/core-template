@@ -47,7 +47,7 @@
 {{block googleTagManagerNoScript(tagManagerId=config("google_tag_manager_id"))}}
   {{ if len(tagManagerId) > 0 }}
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ tagManagerId }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id={{ tagManagerId }}" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   {{end}}
 {{end}}
