@@ -47,6 +47,13 @@
           toggles: {{ site.Toggles | json | raw }},
           languages: {{ site.Languages | json | raw }}
         });
+
+        // Last resort iframe title insertion for WCAG compliance.
+        document.querySelectorAll('iframe').forEach(function(iframe, i) {
+          if (iframe.getAttribute('aria-hidden') && !iframe.getAttribute('title')) {
+            iframe.setAttribute('title', 'Iframe ' + i);
+          }
+        });
       });
     </script>
 
