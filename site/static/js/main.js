@@ -531,3 +531,15 @@ document.addEventListener('s72loaded', function(event) {
   let app = event.detail.app;
   documentReady(app);
 });
+
+// Last resort iframe title insertion for WCAG compliance.
+new MutationObserver(function(mutations, observer) {
+  mutations.forEach(function(mutation) {
+    mutation.addedNodes.forEach(function(node) {
+      if (node.nodeName !== 'IFRAME') return;
+      if (!node.getAttribute('aria-hidden') || node.getAttribute('title')) return;
+
+      node.setAttribute('title', 'IFRAME');
+    });
+  });
+}).observe(document.querySelector('body'), { childList: true });
