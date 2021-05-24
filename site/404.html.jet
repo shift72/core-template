@@ -5,7 +5,7 @@
 {{end}}
 
 {{block body()}}
-<div class="container page not-found">
+<main role="main" class="container page not-found">
 
   <div class="page-header text-center">
     <h2>{{ i18n("404_page_header") }}</h2>
@@ -15,5 +15,5 @@
     {{i18n("404_page_content", map("URL", routeToPath("/"))) | raw}}
   </div>
 
-</div>
+</main>
 {{end}}

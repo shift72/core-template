@@ -1,6 +1,7 @@
 {{extends "templates/application.jet"}}
 
 {{block body()}}
+<main role="main" class="page content-page">
   <h2>Genres</h2>
   <div> 
 
@@ -22,4 +23,5 @@
     {{ end }}
 
   </div>
+</main>
 {{end}}

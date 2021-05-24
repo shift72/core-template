@@ -5,7 +5,7 @@
 {{end}}
 
 {{block body()}}
-<div class="page library-page library-page-{{config("default_image_type")}}">
+<main role="main" class="page library-page library-page-{{config("default_image_type")}}">
   <div class="page-header">
     <h1>{{ i18n("userlibrary_page_header") }}</h1>
   </div>
@@ -15,5 +15,5 @@
   {{else}}
     <s72-userlibrary data-items-per-page="4" data-item-layout="landscape" signin-url="{{ routeToPath("/signin.html") }}" partials-base-path="{{ routeToPath("/partials") }}" />
   {{end}}
-</div>
+</main>
 {{end}}
