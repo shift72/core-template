@@ -317,6 +317,13 @@
   "shopping_action_rent": { "other": "Rent" },
   "shopping_action_buy": { "other": "Buy" },
 
+  "shopping_payment_method_header": { "other": "Payment methods" },
+  "shopping_payment_method_credit_card": { "other": "Credit card" },
+  "shopping_payment_method_giropay": { "other": "Giropay (Germany)" },
+
+  "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
+  "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
+
   "meta_detail_cast_title": { "other": "Cast" },
   "meta_detail_crew_title": { "other": "Crew" },
   "meta_detail_languages": { "one": "Language", "other": "Languages" },
@@ -473,15 +480,5 @@
   "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
   "user_error_too_many_pin_errors_help_page_link": { "other": "" },
   "shopping_error_age_restricted": { "other": "This content is age restricted." },
-  "shopping_error_close_button": { "other": "OK" },
-
-  "shopping_payment_method_header": { "other": "Payment methods" },
-  "shopping_payment_method_credit_card": { "other": "Credit card" },
-  "shopping_payment_method_giropay": { "other": "Giropay" },
-
-  "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
-  "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." }
-
-
-
+  "shopping_error_close_button": { "other": "OK" }
 }

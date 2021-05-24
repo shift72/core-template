@@ -306,6 +306,13 @@
   "shopping_action_rent": { "other": "Location" },
   "shopping_action_buy": { "other": "Acheter" },
 
+  "shopping_payment_method_header": { "autres": "Méthodes de paiement" },
+  "shopping_payment_method_credit_card": { "autres": "Carte de crédit" },
+  "shopping_payment_method_giropay": { "autres": "Giropay (Allemagne)" },
+  
+  "shopping_error_stripe_unknown_error": { "autres": "Il y a eu une erreur avec ce paiement. Veuillez réessayer plus tard." },
+  "shopping_error_payment_complete_failed": { "autres": "Ce paiement a été rejeté. Fermez cette fenêtre et réessayez." },
+
   "meta_detail_cast_title": { "other": "Casting" },
   "meta_detail_crew_title": { "other": "Équipe" },
   "meta_detail_languages": { "one": "Langue", "other": "Langues" },
