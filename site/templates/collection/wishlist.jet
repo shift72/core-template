@@ -23,7 +23,7 @@
       data-items-per-page="4" data-item-layout="landscape" class="user-wishlist s72-slider s72-hide">
 
 {{end}}
-  <div class="page-collection">
+  <section class="page-collection" role="region" aria-label="wishlist">
     <div class="swiper-wrapper-container">
       {{if config("default_image_type") == "portrait"}}
         <div class="swiper-container" is-wishlist="true" data-items-per-row="6" data-layout="portrait">
@@ -42,6 +42,6 @@
         <div class="swiper-button-prev swiper-button-white"></div>
         <div class="swiper-button-next swiper-button-white"></div>
     </div>
-  </div>
+  </section>
 </s72-userwishlist>
 {{end}}

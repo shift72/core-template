@@ -4,7 +4,7 @@
 
 {{if len(.Items) > 0}}
 <s72-carousel>
-	<div class="page-collection page-collection-carousel">
+	<section class="page-collection page-collection-carousel" role="region" aria-label="carousel">
 		<div class="s72-carousel-slides">
 			{{range item := .Items}}
 				{{yield carouselItem(item=item)}}
@@ -20,7 +20,7 @@
 		<!-- Controls -->
 		<a class="left s72-carousel-control"><span class="fa fa-angle-left"></span></a>
 		<a class="right s72-carousel-control"><span class="fa fa-angle-right"></span></a>
-	</div>
+	</section>
 </s72-carousel>
 {{end}}
 {{end}}
