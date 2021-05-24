@@ -2,14 +2,14 @@
 {{import "./nav/user_logged_in.jet"}}
 
 {{block nav(showSubNav=true)}}
-<div class="navigation" data-toggle="affix">
-  <nav class="navbar navbar-expand-md navbar-dark">
+<header class="navigation" data-toggle="affix" role="banner">
+  <nav class="navbar navbar-expand-md navbar-dark" role="navigation" aria-label="main">
       <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
       
       {{if config("search_disabled") != "true"}}
-        <form class="form-search navbar-nav-search" action="{{ routeToPath("/search.html") }}">
-            <input class="form-control form-control-search" type="search" placeholder="{{i18n("search_control_placeholder")}}" name="q" aria-label="{{i18n("search_control_placeholder")}}">
-            <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
+        <form class="form-search navbar-nav-search" action="{{ routeToPath("/search.html") }}" role="search">
+          <input class="form-control form-control-search" type="search" placeholder="{{i18n("search_control_placeholder")}}" name="q" aria-label="{{i18n("search_control_placeholder")}}">
+          <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
         </form>
       {{end}}
 
@@ -19,23 +19,25 @@
 
       <div class="collapse navbar-collapse">
         {{if len(site.Navigation.Header) > 0 && showSubNav}}
-          <ul class="mobile-nav d-md-none">
-            <s72-language-selector></s72-language-selector>
-            {{range site.Navigation.Header}}
-              {{if len(.Items) > 0}}
-                <li class="nav-item title">{{.Label}}</li>
-                {{range sub := .Items}}
-                <li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}">
-                  <a class="nav-link" href="{{ len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
-                </li>
+            <ul class="mobile-nav d-md-none">
+              <li>
+                <s72-language-selector></s72-language-selector>
+              </li>
+              {{range site.Navigation.Header}}
+                {{if len(.Items) > 0}}
+                  <li class="nav-item title">{{.Label}}</li>
+                  {{range sub := .Items}}
+                  <li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}">
+                    <a class="nav-link" href="{{ len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
+                  </li>
+                  {{end}}
+                {{else}}
+                  <li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}">
+                    <a class="nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug)}}">{{.Label}}</a>
+                  </li>
                 {{end}}
-              {{else}}
-                <li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}">
-                  <a class="nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug)}}">{{.Label}}</a>
-                </li>
               {{end}}
-            {{end}}
-          </ul>
+            </ul>
         {{end}}
 
         <div class="navbar-nav s72-hide">
@@ -48,27 +50,29 @@
   </nav>
 
   {{if len(site.Navigation.Header) > 0 && showSubNav}}
-    <ul class="sub-nav">
-      {{range site.Navigation.Header}}
-        {{if len(.Items) > 0}}
-          <li class="nav-item">
-            <s72-dropdown>
-              <a class="s72-dropdown-toggle nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : len(.Items) == 0 ? routeToSlug(.Link.Slug) : "#"}}">{{.Label}}</a>
-              <div class="s72-dropdown-menu sub-nav-menu">
-                {{range sub := .Items}}
-                  <a class="nav-link" href="{{len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
-                {{end}}
-              </div>
-            </s72-dropdown>
-          </li>
-        {{else}}
-          <li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}">
-            <a class="nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug)}}">{{.Label}}</a>
-          </li>
+    <nav role="navigation" aria-label="sub">
+      <ul class="sub-nav">
+        {{range site.Navigation.Header}}
+          {{if len(.Items) > 0}}
+            <li class="nav-item">
+              <s72-dropdown>
+                <a class="s72-dropdown-toggle nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : len(.Items) == 0 ? routeToSlug(.Link.Slug) : "#"}}">{{.Label}}</a>
+                <div class="s72-dropdown-menu sub-nav-menu">
+                  {{range sub := .Items}}
+                    <a class="nav-link" href="{{len(sub.Link.ExternalURL) > 0 ? sub.Link.ExternalURL : routeToSlug(sub.Link.Slug) }}">{{sub.Label}}</a>
+                  {{end}}
+                </div>
+              </s72-dropdown>
+            </li>
+          {{else}}
+            <li class="nav-item {{len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : ""}}">
+              <a class="nav-link" href="{{len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug)}}">{{.Label}}</a>
+            </li>
+          {{end}}
         {{end}}
-      {{end}}
-    </ul>
+      </ul>
+    </nav>
   {{end}}
 
-</div>
+</header>
 {{end}}

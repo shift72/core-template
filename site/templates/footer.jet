@@ -1,9 +1,9 @@
 {{block footer()}}
-	<footer>
+	<footer role="contentinfo">
 		<a href="{{ routeToPath("/") }}" class="footer-brand">
 			{{i18n("nav_homepage")}}
 		</a>
-		<div class="footer-nav">
+		<nav class="footer-nav" role="navigation" aria-label="footer">
 			{{if len(site.Navigation.Footer) > 0}}
 				<ul class="nav">
 					{{range site.Navigation.Footer}}
@@ -14,7 +14,7 @@
 			<p class="copyright-statement">
 		      &copy; {{i18n("site_owner")}}. {{i18n("all_rights_reserved")}}
 		    </p>
-		</div>
+		</nav>
 		{{include "footer/powered-by" }}
 	</footer>
 {{end}}
