@@ -1,0 +1,203 @@
+{
+  "site_owner": { "other": "ABC Cinemas" },
+  "settings_title": { "other": "Settings" },
+  "powered_by_name": { "other": "ScreenPlus" },
+  "powered_by_url": { "other": "https://www.screenplus.com" },
+  "en": { "other": "English" },
+  "fr": { "other": "French" },
+
+  "episode_name": {
+    "other": "Jakso"
+  },
+
+  "season_name": {
+    "other": "Kausi"
+  },
+
+  "date_day": { "other": "Päivä" },
+  "date_month": { "other": "Kuukausi" },
+  "date_year": { "other": "Vuosi" },
+
+  "404_page_header": { "other": "Sivua ei ole olemassa" },
+  "404_page_content": { "other": "<p> Valitettavasti hakemaasi sivua ei ole olemassa.</p><p>Sivu on voitu siirtää tai poistaa, tai osoiterivillä on virhe.</p><p>Palaa etusivulle löytääksesi hakemasi.</p><p><a href=\"/\">Takaisin etusivulle</a></p>" },
+
+  "nav_homepage": { "other": "ABC Cinemas" },
+  "nav_signin": { "other": "Kirjaudu" },
+  "nav_signup": { "other": "Luo tili" },
+  "nav_signed_in_as": { "other": "Kirjautunut:" },
+  "nav_library": { "other": "Kirjastoni" },
+  "nav_devices": { "other": "Laitteeni" },
+  "nav_wishlist": { "other": "Listani" },
+  "nav_account": { "other": "Tilini" },
+  "nav_signout": { "other": "Kirjaudu ulos" },  
+  "play_trailer": { "other": "Traileri" },
+  "runtime_hours": { "other": "t" },
+  "runtime_minutes": { "other": "min" },
+
+  "datetime_today": { "other": "tänään {{.Date}}" },
+  "datetime_tomorrow": { "other": "huomenna {{.Date}}" },
+  "datetime_yesterday": { "other": "eilen {{.Date}}" },
+  "datetime_next": { "other": "{{.Date}}" },
+  "datetime_last": { "other": "viimeinen {{.Date}}" },
+
+  "search_control_placeholder": { "other": "Haku" },
+  "search_control_submit": { "other": "Hae" },
+
+  "play_button_watch": { "other" : "Toista"},
+  "play_button_resume": { "other" : "Jatka"},
+
+  "social_media_buttons_title": { "other": "Jaa" },
+
+  "accept_invite_page_header": { "other": "Tervetuloa " },
+  "acceptinvite_form_invalid_reset_password_token": { "other": "Vaikuttaa siltä, että olet jo käyttänyt tämän kutsun. Kokeile <a href=\"signin.html\">kirjautua sisään</a> palveluun. Jos olet unohtanut salasanasi, voit <a href=\"forgotpassword.html\">tilata uuden salasanan</a>." },
+  "acceptinvite_complete": { "other": "Kiitos. Tilisi on luotu." },
+  "acceptinvite_form_submit": { "other": "Hyväksy kutsu" },
+  "acceptinvite_agreement": { "other": "Hyväksymällä kutsun vahvistat lukeneesi ja ymmärtäneesi palvelun <a href=\"/page/terms-and-conditions/\" target=\"_blank\">käyttöehdot</a> ja <a href=\"/page/privacy/\" target=\"_blank\">tietosuojaselosteen</a>." },
+
+  "signup_page_header": { "other": "Luo uusi tili" },
+  "signup_form_name": { "other": "Nimi" },
+  "signup_form_email": { "other": "Sähköpostiosoite" },
+  "signup_form_password": { "other": "Salasana" },
+  "signup_form_password_confirmation": { "other": "Vahvista salasana" },
+  "signup_form_gender": { "other": "Sukupuoli" },
+  "signup_form_dob": { "other": "Syntymäaika" },
+  "signup_form_submit": { "other": "Lähetä" },
+
+  "signin_page_header": { "other": "Kirjaudu" },
+  "signin_form_email": { "other": "Sähköpostiosoite" },
+  "signin_form_password": { "other": "Salasana" },
+  "signin_form_remember": { "other": "Muista minut" },
+  "signin_form_submit": { "other": "Lähetä" },
+  "signin_page_forgotpassword": { "other": "Unohtuiko salasana?" },
+  "signin_page_createnewaccount": { "other": "Eikö sinulla ole tiliä? Luo uusi tili" },
+  "signup_page_alreadyhaveanaccount": { "other": "Onko sinulla jo tili? Kirjaudu sisään" },
+  "signup_form_error_email_already_in_use": { "other": "Sähköpostiosoite on jo käytössä." },
+  "signin_form_error_incorrect_credentials": { "other": "Virheellinen käyttäjätunnus tai salasana." },
+  "signin_form_error_ip_throttled": { "other": "You have failed to sign in too many times. Please try again later." },
+
+  "signup_form_error_forbidden": { "other": "Tapahtui virhe." },
+
+  "combined_auth_continue": { "other": "Jatka" },
+  "combined_auth_change": { "other": "vaihda" },
+  "combined_auth_signin": { "other": "Kirjaudu" },
+  "combined_auth_signup": { "other": "Luo tili" },
+  "combined_auth_signin_password": { "other": "Syötä salasanasi kirjautuaksesi tilillesi." },
+  "combined_auth_signin_error_incorrect_credentials": { "other": "Salasana on virheellinen." },
+  "combined_auth_error_forbidden": { "other": "Tapahtui virhe." },
+
+  "forgotpassword_page_header": { "other": "Tilaa uusi salasana" },
+  "forgotpassword_form_email": { "other": "Sähköpostiosoite" },
+  "forgotpassword_form_submit": { "other": "Tilaa uusi" },
+  "forgotpassword_form_error_email_doesnt_exist": { "other": "Tätä sähköpostiosoitetta vastaavaa tiliä ei ole olemassa." },
+  "forgotpassword_form_error_account_suspended": { "other": "Tämä tili on jäädytetty." },
+  "forgotpassword_complete": { "other": "Kiitos. Saat pian sähköpostiisi linkin salasanasi vaihtamiseksi." },
+  "forgotpassword_form_error_forbidden": { "other": "An error has occurred." },
+
+  "resetpassword_page_header": { "other": "Vaihda salasana" },
+  "resetpassword_form_invalid_reset_password_token": { "other": "Vaikuttaa siltä, ​​että tämä salasanan palautuspyyntö on virheellinen. Täytä <a href=\"{{.URL}}\">Salasananvaihtolomake</a> uudelleen." },
+  "resetpassword_form_password": { "other": "Uusi salasana" },
+  "resetpassword_form_password2": { "other": "Vahvista salasana" },
+  "resetpassword_form_submit": { "other": "Vaihda" },
+  "resetpassword_complete": { "other": "Kiitos. Salasanasi on vaihdettu ja sinut on kirjattu sisään." },
+  "resetpassword_form_error_invalid_reset_password_token": { "other": "Salasanan vaihtopyyntö on virheellinen. Yritä myöhemmin uudelleen." },
+  "resetpassword_form_error_reset_password_token_expired": { "other": "Salasananvaihtopyyntö on vanhentunut. Pyydä uusi." },
+
+  "account_page_header": { "other": "Tilini" },
+  "account_form_name": { "other": "Nimi" },
+  "account_form_email": { "other": "Sähköpostiosoite" },
+  "account_form_password": { "other": "Salasana" },
+  "account_form_change_password": { "other": "Vaihda" },
+  "account_form_gender": { "other": "Sukupuoli" },
+  "account_form_dob": { "other": "Syntymäaika" },
+  "account_form_submit": { "other": "Päivitä" },
+  "account_form_submitted": { "other": "Päivitetty" },
+  "account_form_password_changed": { "other": "Päivitetty" },
+  "account_form_error_incorrect_password": { "other": "Salasana on virheellinen." },
+
+  "signup_form_optin": {"other": "Tilaa Festival Scopen ilmainen uutiskirje"},
+
+  "passwordconfirmation_modal_header": { "other": "Vahvista salasana" },
+  "passwordconfirmation_modal_label": { "other": "Kirjoita salasanasi vahvistaaksesi tekemäsi muutokset." },
+  "passwordconfirmation_modal_confirm": { "other": "Vahvista" },
+
+  "changepassword_modal_header": { "other": "Vaihda salasana" },
+  "changepassword_modal_currentpassword": { "other": "Nykyinen salasana" },
+  "changepassword_modal_password": { "other": "Uusi salasana" },
+  "changepassword_modal_password2": { "other": "Vahvista uusi salasana" },
+  "changepassword_modal_submit": { "other": "Päivitä" },
+  "changepassword_modal_error_incorrect_password": { "other": "Salasana on virheellinen." },
+
+  "userlibrary_page_header": { "other": "Kirjastoni" },
+  "userlibrary_empty_header":  { "other": "Kirjastosi on tyhjä." },
+  "userlibrary_empty_content": { "other": "Täydennä kirjastoasi <a href=\"/\">selaamalla</a> valikoimaamme." },
+
+  "searchresults_page_header": { "other": "Hakutulokset" },
+  "searchresults_load_more": { "other": "Näytä {{.Count}} lisää" },
+  "searchresults_total": {
+    "one": "Hakuehdolla \"{{.Query}}\" löytyi 1 tulos.",
+    "other": "Hakuehdolla \"{{.Query}}\" löytyi {{.Count}} tulosta."
+  },
+  "searchresults_empty_header":  { "other": "Hakuehdolla \"{{.Query}}\" ei löytynyt tuloksia." },
+  "searchresults_empty_content": { "other": "Kokeile toista hakusanaa tai <a href=\"{{.HomeURL}}\">selaa sisältöjämme</a> löytääksesi etsimäsi." },
+
+  "validation_name_required": { "other": "Kirjoita nimesi." },
+  "validation_email_required": { "other": "Kirjoita sähköpostiosoitteesi." },
+  "validation_email_email": { "other": "Kirjoita voimassaoleva sähköpostiosoite." },
+  "validation_currentpassword_required": { "other": "Kirjoita vaatimusten mukainen salasana." },
+  "validation_password_required": { "other": "Kirjoita salasana." },
+  "validation_password2_required": { "other": "Vahvista salasanasi." },
+  "validation_password2_match": { "other": "Salasanasi eivät täsmää." },
+  "validation_password_minlength": { "other": "Salasanassa on oltava vähintään {{.Count}} merkkiä." },
+  "validation_promocode_required": { "other": "Syötä tarjouskoodi." },
+  "validation_gender_required": { "other": "Valitse sukupuoli, johon eniten identifioidut." },
+  "validation_dob_required": { "other": "Kirjoita syntymäaikasi." },
+  "validation_dob_date": { "other": "Kirjoita kelvollinen syntymäaika." },
+
+  "meta_detail_cast_title": { "other": "Esiintyjät" },
+  "meta_detail_crew_title": { "other": "Tekijät" },
+  "meta_detail_languages": { "one": "Kieli", "other": "Kielet" },
+  "meta_detail_studios": { "one": "Tuotantoyhtiö", "other": "Tuotantoyhtiöt" },
+  "meta_detail_countries": { "one": "Maa", "other": "Maat" },
+  "meta_detail_subtitles": { "other": "Tekstitys" },
+  "meta_detail_episodes_title": { "other": "Jaksot" },
+  "meta_detail_bonus_title": { "other": "Bonusmateriaali" },
+  "meta_detail_recommendations_title": { "other": "Saatat pitää myös:" },
+
+  "availability_coming_soon": { "other": "Tulossa" },
+  "availability_renting": { "other": "Vuokrattavissa" },
+  "availability_not_available": { "other": "Ei saatavissa" },
+  "availability_in_watch_window": { "other": "Saatavissa" },
+  "availability_sold_out": { "other": "Loppuunmyyty" },
+  "availability_available_till": { "other": "Saatavissa {{.ExpiryDate}} asti" },
+  "availability_not_available_in_country": { "other": "Ei saatavissa" },
+  "availability_available": { "other": "Katsottavissa {{.ReleaseDate}}" },
+  "availability_expires": { "other": "Poistuu {{.Expiry}}" },
+  "availability_expired": { "other": "Ei katsottavissa"},
+
+  "modal_cancel": { "other": "Peru" },
+
+  "play": { "other": "Toista" },
+
+  "pricing_ownership_buy": { "other": "Osta" },
+  "pricing_ownership_rent": { "other": "Vuokraa" },
+
+  "classification_intro": { "other": "Luokitus: " },
+
+  "cookie_banner_message": { "other": "Sivusto käyttää evästeitä parantaakseen käyttökokemustasi. Jatkamalla sivuston käyttöä hyväksyt <a href=\"/page/cookie-policy/\">käyttöehtomme</a>." },
+  "cookie_banner_accept": { "other": "Hyväksyn" },
+  "all_rights_reserved": { "other": "Kaikki oikeudet pidätetään. Sivustoa tai sen osia ei saa käyttää uudelleen ilman kirjallista lupaamme." },
+
+  "users_gender_none": { "other": "Ei määritelty" },
+  "users_gender_female": { "other": "Nainen" },
+  "users_gender_male": { "other": "Mies" },
+  "users_gender_diverse": { "other": "Ei-binäärinen" },
+  "users_gender_other": { "other": "Muu" },
+
+  "combined_auth_signin_prompt": { "other": "Kirjaudu" },
+  "combined_auth_signup_prompt": { "other": "Rekisteröidy" },
+  "combined_auth_terms": { "other": "Hyväksyn palvelun <a href=\"/page/terms-and-conditions/\" target=\"_blank\">käyttöehdot</a>." },
+  "signup_terms": { "other": "Hyväksyn palvelun <a href=\"/page/terms-and-conditions/\" target=\"_blank\">käyttöehdot</a>." },
+  "validation_terms_required": { "other": "Sinun on hyväksyttävä käyttöehdot." },
+
+
+}
