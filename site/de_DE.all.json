@@ -294,8 +294,7 @@
 
   "shopping_payment_method_header": { "other": "Zahlungsmethoden" },
   "shopping_payment_method_credit_card": { "other": "Kreditkarte" },
-  "shopping_payment_method_giropay": { "other": "Giropay" },
-  
+  "shopping_payment_method_giropay": { "other": "Giropay (Deutschland)" },
   "shopping_error_stripe_unknown_error": { "other": "Mit dieser Zahlung ist leider etwas schief gelaufen. Bitte versuchen Sie es zu einem späteren Zeitpunkt noch einmal." },
   "shopping_error_payment_complete_failed": { "other": "Die Zahlung wurde nicht akzeptiert. Bitte schließen Sie das Fenster und versuchen Sie es noch einmal." },
 
