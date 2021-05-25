@@ -17,7 +17,7 @@
 
 {{block body()}}
   {{count := len(page.PageCollections)}}
-  <main class="page page-{{page.PageType|lower}}" role="main">
+  <main id="main" class="page page-{{page.PageType|lower}}" role="main">
     {{yield pageCollectionCarousel() page.PageCollections[0]}}
 
     <div class="other-sliders">

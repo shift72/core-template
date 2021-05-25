@@ -15,7 +15,7 @@
 {{end}}
 
 {{block body()}}
-  <main role="main" class="page page-bundle meta-detail meta-detail-bundle page-bundle-{{config("default_image_type")}}">
+  <main id="main" role="main" class="page page-bundle meta-detail meta-detail-bundle page-bundle-{{config("default_image_type")}}">
 
     <div class="meta-detail-bg">
       <div class="meta-detail-bg-gradient"></div>

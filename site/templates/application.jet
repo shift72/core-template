@@ -54,6 +54,19 @@
   </head>
   <body>
     <s72-cookie-consent></s72-cookie-consent>
+
+    <section>
+      <h2 class="sr-only">{{i18n("accessibility_skip_links_header")}}</h2>
+      <ul class="sr-only">
+        <li>
+          <a class="sr-only" href="#main">{{i18n("accessibility_skip_links_content")}}</a>
+        </li>
+        <li>
+          <a class="sr-only" href="#footer">{{i18n("accessibility_skip_links_footer")}}</a>
+        </li>
+      </ul>
+    </section>
+
     {{yield googleTagManagerNoScript()}}
 
     {{block navigation()}}
