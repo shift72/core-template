@@ -3,7 +3,7 @@
   {{yield seo(title=i18n("userdevices_page_header"), index=false)}}
 {{end}}
 {{block body()}}
-  <main id="main" role="main" class="page devices-page">
+  <main id="main" class="page devices-page" role="main">
     <div class="page-header">
       <h1>{{ i18n("userdevices_page_header") }}</h1>
       {{ if configInt("device_user_limit", 0) > 0 }}

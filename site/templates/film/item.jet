@@ -17,7 +17,7 @@
 {{end}}
 
 {{block body()}}
-  <main id="main" role="main" class="page page-film meta-detail meta-detail-film">
+  <main id="main" class="page page-film meta-detail meta-detail-film" role="main">
     <div class="meta-detail-bg">
       <div class="right-gradient"></div>
       <s72-image src="{{film.Images.Background}}" alt="" class="meta-detail-bg-img"></s72-image>
@@ -131,7 +131,7 @@
     </div>
 
     {{if len(film.Recommendations) > 0 }}
-    <section role="region" aria-label="{{i18n("meta_detail_recommendations_title")}}" class="page-collection recommendations-collection">
+    <section class="page-collection recommendations-collection" role="region" aria-label="{{i18n("meta_detail_recommendations_title")}}">
       <div class="swiper-wrapper-container">
         {{if config("default_image_type") == "portrait"}}
           <div class="swiper-container" data-items-per-row="6" data-layout="portrait">

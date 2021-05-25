@@ -16,7 +16,7 @@
 {{end}}
 
 {{block body()}}
-  <main id="main" role="main" class="page page-tvseason meta-detail meta-detail-tvseason">
+  <main id="main" class="page page-tvseason meta-detail meta-detail-tvseason" role="main">
     <div class="meta-detail-bg">
       <div class="right-gradient"></div>
       <s72-image src="{{tvseason.Images.Background}}" alt="" class="meta-detail-bg-img"></s72-image>
@@ -82,7 +82,7 @@
           {{end}}
 
           {{if len(tvseason.Bonuses) > 0 }}
-            <section role="region" aria-label="{{i18n("meta_detail_bonus_title")}}" class="meta-detail-bonus-content">
+            <section class="meta-detail-bonus-content" role="region" aria-label="{{i18n("meta_detail_bonus_title")}}">
               <h4>{{i18n("meta_detail_bonus_title")}}</h4>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := tvseason.Bonuses}}
@@ -99,7 +99,7 @@
       </div>
     </div>
     {{if len(tvseason.Recommendations) > 0 }}
-      <section role="region" aria-label="{{i18n("meta_detail_recommendations_title")}}" class="page-collection recommendations-collection">
+      <section class="page-collection recommendations-collection" role="region" aria-label="{{i18n("meta_detail_recommendations_title")}}">
         <div class="swiper-wrapper-container">
 
           {{if config("default_image_type") == "portrait"}}
