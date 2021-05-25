@@ -20,7 +20,7 @@
   <div class="page page-film meta-detail meta-detail-film">
     <div class="meta-detail-bg">
       <div class="right-gradient"></div>
-      <s72-image src="{{film.Images.Background}}" alt="" class="meta-detail-bg-img"></s72-image>
+      <s72-image src="{{film.Images.Background}}" class="meta-detail-bg-img"></s72-image>
     </div>
     <div class="container">
       <div class="meta-detail-main">
