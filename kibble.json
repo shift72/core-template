@@ -25,7 +25,7 @@
     "lt": { "code": "lt_LT", "name": "Lietuvių Kalba" },
     "da": { "code": "da_DK", "name": "Dansk" },
     "uk": { "code": "uk_UA", "name": "Український" },
-    "fi": { "code": "fi-FI", "name": "Suomi" }
+    "fi": { "code": "fi_FI", "name": "Suomi" }
     
   },
   "siteRootPath": "site",

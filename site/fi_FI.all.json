@@ -153,6 +153,123 @@
   "validation_dob_required": { "other": "Kirjoita syntymäaikasi." },
   "validation_dob_date": { "other": "Kirjoita kelvollinen syntymäaika." },
 
+  "shopping_info_subtitle_help": { "other": "Katso järjestelmävaatimukset täältä." },
+  "shopping_info_ownership_buy": { "other": "osto" },
+  "shopping_info_ownership_rent": { "other": "vuokraus" },
+
+  "shopping_info_release_date_title": { "other": "Julkaistaan {{.Date}}. " },
+  "shopping_info_release_date_explanation_rent": { "other": "Voit vuokrata tuotteen nyt, mutta se on katsottavissa vasta julkaisupäivänä." },
+  "shopping_info_release_date_explanation_buy": { "other": "Voit ostaa tuotteen nyt, mutta se on katsottavissa vasta julkaisupäivänä." },
+
+  "shopping_info_available_until_date_title": { "other": "Saatavissa {{.Date}} saakka. " },
+  "shopping_info_available_until_date_explanation_rent": { "other": "Sen jälkeen sisältöä ei voi enää katsoa." },
+  "shopping_info_available_until_date_explanation_buy": { "other": "Sen jälkeen sisältöä ei voi enää katsoa." },
+
+  "shopping_info_rental_period_duration": { "other": "{{.Count}} päivän vuokra " },
+  "shopping_info_watch_window_duration": { "other": "{{.Count}} tunnin katseluoikeus. " },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "Vuokraamasi elokuva on katsottavissa tililläsi yhden päivän ajan. ",
+    "other": "Vuokraamasi elokuva on katsottavissa tililläsi {{.Count}} päivän ajan. "
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "one": "Katselun aloitettuasi sinulla on tunti aikaa katsoa elokuva niin monta kertaa kuin haluat.",
+    "other": "Katselun aloitettuasi sinulla on {{.Count}} tuntia aikaa katsoa elokuva niin monta kertaa kuin haluat."
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "one": "Vuokraamasi paketin tuotteet ovat katsottavissa tililläsi yhden päivän ajan. ",
+    "other": "Vuokraamasi paketin tuotteet ovat katsottavissa tililläsi {{.Count}} päivän ajan. "
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "one": "Kun aloitat tietyn elokuvan toiston, sinulla on tunti aikaa katsoa elokuvaa niin monta kertaa kuin haluat.",
+    "other": "Kun aloitat tietyn elokuvan toiston, sinulla on {{.Count}} tuntia aikaa katsoa elokuvaa niin monta kertaa kuin haluat."
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "one": "Vuokraamasi kausi on katsottavissa tililläsi yhden päivän ajan. ",
+    "other": "Vuokraamasi kausi on katsottavissa tililläsi {{.Count}} päivän ajan. "
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "one": "Kun aloitat tietyn jakson toiston, sinulla on tunti aikaa katsoa jaksoa niin monta kertaa kuin haluat.",
+    "other": "Kun aloitat tietyn jakson toiston, sinulla on {{.Count}} tuntia aikaa katsoa jaksoa niin monta kertaa kuin haluat."
+  },
+  "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },
+
+  "shopping_enter_card_prompt": { "other": "Syötä luottokorttitietosi alle ja {{.Verb}} suoritetaan loppuun." },
+
+  "shopping_terms": { "other": "Suorittamalla tapahtuman loppuun hyväksyn palvelun <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">käyttöehdot</a>."},
+  "shopping_discount_applied": { "other": "{{.DiscountAmount}} alennus käytössä." },
+  "shopping_discount_apply": { "other": "Käytä tarjouskoodi" },
+  "shopping_discount_code": { "other": "Syötä tarjouskoodi." },
+  "shopping_discount_have_code": { "other": "Minulla on tarjouskoodi." },
+
+  "shopping_price_you_pay": { "other": "Hinta" },
+  "shopping_price_nothing": { "other": "Ei mitään" },
+  "shopping_price_free": { "other": "Ilmainen" },
+
+  "shopping_auth_directions": { "other": "Ostoon tarvitaan tili. Syötä sähköpostiosoitteesi." },
+
+  "shopping_error_in_library": { "other": "{{.Title}} on jo kirjastossasi." },
+
+  "shopping_error_missing_card": { "other": "Syötä luottokorttitietosi." },
+  "shopping_error_title": { "other": "Tapahtui virhe" },
+  "shopping_error_incorrect_cvc": { "other": "Syötä kelvollinen CVV-tunnus." },
+  "shopping_error_invalid_cvc": { "other": "Syötä kelvollinen CVV-tunnus." },
+  "shopping_error_incorrect_number": { "other": "Syötä voimassa olevan luottokortin numero." },
+  "shopping_error_invalid_number": { "other": "Syötä voimassa olevan luottokortin numero." },
+  "shopping_error_card_declined": { "other": "Korttimaksutapahtuma hylätty." },
+  "shopping_error_invalid_expiry_month": { "other": "Syötä kelvollinen viimeinen voimassaolopäivä." },
+  "shopping_error_invalid_expiry_year": { "other": "Syötä kelvollinen viimeinen voimassaolopäivä." },
+  "shopping_error_expired_card": { "other": "Kortti on vanhentunut." },
+  "shopping_error_creditcard_country_mismatch": { "other": "{{.Ownership}} epäonnistui. Sinun on oltava siinä maassa, jossa luottokorttisi myönnettiin. Käytä maksamiseen toista korttia." },
+  "shopping_error_proxy_detected": { "other": "{{.Ownership}} epäonnistui. Havaitsimme sinun käyttävän estonpoistajaa tai välityspalvelinta. Kokeile poistaa nämä palvelut käytöstä ja yritä uudelleen." },
+
+  "shopping_error_discount_blank": { "other": "Syötä tarjouskoodi." },
+  "shopping_error_discount_not_applied": { "other": "Syötä kelvollinen tarjouskoodi." },
+  "shopping_error_discount_invalid": { "other": "Syötä kelvollinen tarjouskoodi." },
+  "shopping_error_discount_disabled": { "other": "Syötä kelvollinen tarjouskoodi." },
+  "shopping_error_discount_already_applied": { "other": "Tähän ostotapahtumaan on jo käytetty tarjouskoodia." },
+  "shopping_error_discount_already_redeemed": { "other": "Tarjouskoodi on jo käytetty." },
+  "shopping_error_discount_used_previously": { "other": "Tarjouskoodi on jo käytetty." },
+  "shopping_error_discount_max_limit": { "other": "Tarjouskoodia ei voi enää käyttää." },
+  "shopping_error_discount_expired": { "other": "Tarjouskoodi on vanhentunut." },
+  "shopping_error_discount_invalid_ownership_buy": { "other": "Tarjouskoodia ei voi käyttää tuotteiden ostamiseen." },
+  "shopping_error_discount_invalid_ownership_rent": { "other": "Tarjouskoodia ei voi käyttää tuotteiden vuokraamiseen." },
+  "shopping_error_discount_invalid_item": { "other": "Tarjouskoodia ei voi käyttää tähän tuotteeseen." },
+  "shopping_error_discount_invalid_pricing_region": { "other": "Tarjouskoodia ei voi käyttää maassasi." },
+  "shopping_error_discounts_not_allowed": { "other": "Tarjouskoodia ei voi käyttää." },
+  "shopping_error_discount_disallowed_on_bundles": { "other": "Tarjouskoodia ei voi käyttää paketteihin." },
+  "shopping_error_payment_intent_authentication_failure": { "other": "Kortti hylätty. Ole hyvä ja yritä uudestaan." },
+
+  "shopping_complete_rental": { "other": "Tapahtuma hyväksytty" },
+  "shopping_complete_rental_period": {
+    "one": "Voit nyt katsoa elokuvan niin monta kertaa kuin haluat seuraavan päivän aikana.",
+    "other": "Voit nyt katsoa elokuvan niin monta kertaa kuin haluat seuraavien {{.Count}} päivän aikana."
+  },
+  "shopping_complete_purchase": { "other": "Kiitos tuotteen {{.Title}} ostamisesta." },
+  "shopping_complete_credit_purchase": { "other": "Kiitos tuotteen {{.Title}} ostamisesta. {{.CreditTotal}} on lisätty tilillesi." },
+  "shopping_complete_purchase_coming_soon": { "other": "Voit katsoa elokuvaa {{.Date}} alkaen." },
+  "shopping_complete_receipt": { "other": "Kuitti on lähetetty sähköpostiisi." },
+  "shopping_complete_library_link": { "other": "Selaa kirjastoasi" },
+
+  "shopping_complete_rental_watch_window_start": {
+    "one": "Voit aloittaa katsomisen seuraavan päivän aikana.",
+    "other": "Voit aloittaa katsomisen seuraavan {{.Count}} päivän aikana."
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "one": "Kun toisto on aloitettu, sinulla on yksi tunti aikaa katsoa elokuvaa niin monta kertaa kuin haluat.",
+    "other": "Kun toisto on aloitettu, sinulla on {{.Count}} tuntia aikaa katsoa elokuvaa niin monta kertaa kuin haluat."
+  },
+  "shopping_complete_rental_coming_soon": {
+    "one": "Voit katsoa elokuvaa {{.Date}} alkaen, ja vuokrauksesi pysyy aktiivisena yhden päivän ajan.",
+    "other": "Voit katsoa elokuvaa {{.Date}} alkaen, ja vuokrauksesi pysyy aktiivisena {{.Count}} päivän ajan."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "one": "Voit katsoa elokuvaa {{.Date}} alkaen, ja vuokrauksesi pysyy aktiivisena yhden päivän ajan.",
+    "other": "Voit katsoa elokuvaa {{. .Date}} alkaen, ja vuokrauksesi pysyy aktiivisena {{.Count}} päivän ajan."
+  },
+
+  "shopping_action_rent": { "other": "Vuokraa" },
+  "shopping_action_buy": { "other": "Osta" },
+
   "meta_detail_cast_title": { "other": "Esiintyjät" },
   "meta_detail_crew_title": { "other": "Tekijät" },
   "meta_detail_languages": { "one": "Kieli", "other": "Kielet" },
@@ -162,6 +279,34 @@
   "meta_detail_episodes_title": { "other": "Jaksot" },
   "meta_detail_bonus_title": { "other": "Bonusmateriaali" },
   "meta_detail_recommendations_title": { "other": "Saatat pitää myös:" },
+  "meta_detail_bundle_items_title": { "other": "Tämän paketin sisältämät tuotteet" },
+
+  "bundle_items_all_films": { "other": "{{.Count}} elokuvaa" },
+  "bundle_items_all_seasons": { "other": "{{.Count}} kautta" },
+  "bundle_items_mixed": { "other": "{{.Count}} elokuvaa ja kautta" },
+
+  "userwishlist_page_header": { "other": "Listani" },
+  "userwishlist_slider_header": { "other": "Listani" },
+  "userwishlist_empty_header":  { "other": "Listasi on tyhjä." },
+  "userwishlist_empty_content": { "other": "Täydennä listaasi <a href=\"{{.HomeURL}}\">selaamalla</a> valikoimaamme." },
+  "userwishlist_button_add": { "other": "Lisää listaani" },
+  "userwishlist_button_remove": { "other": "Listani" },
+  "userwishlist_button_add_compact": { "other": "Listani" },
+  "userwishlist_button_remove_compact": { "other": "Listani" },
+
+  "userdevices_page_header": { "other": "Laitteeni" },
+  "userdevices_page_content": {
+    "one": "Käyttämäsi laitteet lisätään tähän automaattisesti. Käyttöoikeus on rajattu yhteen laitteeseen.",
+    "other": "Käyttämäsi laitteet lisätään tähän automaattisesti. Käyttöoikeus on rajattu {{.Count}} laitteeseen."
+  },
+  "userdevices_empty_content": { "other": "Tällä hetkellä käytössäsi on 0 rekisteröityä laitetta." },
+  "userdevices_header_type": { "other": "Laitetyyppi" },
+  "userdevices_header_description": { "other": "Kuvaus" },
+  "userdevices_device_added": { "other": "Lisätty {{.Date}}" },
+  "userdevices_device_actions_delete": { "other": "Poista" },
+  "userdevices_device_actions_cancel": { "other": "Peru" },
+  "userdevices_device_actions_confirm": { "other": "Kyllä, poista laite" },
+  "userdevices_device_deleted": { "other": "(Poistettu)" },
 
   "availability_coming_soon": { "other": "Tulossa" },
   "availability_renting": { "other": "Vuokrattavissa" },
@@ -193,11 +338,13 @@
   "users_gender_diverse": { "other": "Ei-binäärinen" },
   "users_gender_other": { "other": "Muu" },
 
+  "shopping_info_rental_period_coming_soon": { "other": "julkaisupäivästä ja -ajasta." },
+
   "combined_auth_signin_prompt": { "other": "Kirjaudu" },
   "combined_auth_signup_prompt": { "other": "Rekisteröidy" },
   "combined_auth_terms": { "other": "Hyväksyn palvelun <a href=\"/page/terms-and-conditions/\" target=\"_blank\">käyttöehdot</a>." },
   "signup_terms": { "other": "Hyväksyn palvelun <a href=\"/page/terms-and-conditions/\" target=\"_blank\">käyttöehdot</a>." },
   "validation_terms_required": { "other": "Sinun on hyväksyttävä käyttöehdot." },
 
-
+  "shopping_error_item_limit_exceeded": { "other": "Valitettavasti {{.Title}} on loppuunmyyty." }
 }
