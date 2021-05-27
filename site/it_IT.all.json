@@ -300,12 +300,12 @@
   "shopping_action_rent": { "other": "Noleggia" },
   "shopping_action_buy": { "other": "Acquista" },
 
-  "shopping_payment_method_header": { "altro": "Metodi di pagamento" },
-  "shopping_payment_method_credit_card": { "altro": "Carta di credito" },
-  "shopping_payment_method_giropay": { "altro": "Giropay (Germania)" },
+  "shopping_payment_method_header": { "other": "Metodi di pagamento" },
+  "shopping_payment_method_credit_card": { "other": "Carta di credito" },
+  "shopping_payment_method_giropay": { "other": "Giropay (Germania)" },
   
-  "shopping_error_stripe_unknown_error": { "altro": "Con questo pagamento qualcosa non ha funzionato. Si prega di riprovare più tardi." },
-  "shopping_error_payment_complete_failed": { "altro": "Il pagamento è stato rifiutato. Chiudi la finestra e riprova." },
+  "shopping_error_stripe_unknown_error": { "other": "Con questo pagamento qualcosa non ha funzionato. Si prega di riprovare più tardi." },
+  "shopping_error_payment_complete_failed": { "other": "Il pagamento è stato rifiutato. Chiudi la finestra e riprova." },
 
   "meta_detail_cast_title": { "other": "Cast" },
   "meta_detail_crew_title": { "other": "Crew" },
