@@ -24,7 +24,9 @@
     "ja": { "code": "ja_JP", "name": "日本語"},
     "lt": { "code": "lt_LT", "name": "Lietuvių Kalba" },
     "da": { "code": "da_DK", "name": "Dansk" },
-    "uk": { "code": "uk_UA", "name": "Український" }
+    "uk": { "code": "uk_UA", "name": "Український" },
+    "fi": { "code": "fi_FI", "name": "Suomi" }
+    
   },
   "siteRootPath": "site",
   "liveReload": {

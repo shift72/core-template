@@ -296,12 +296,12 @@
   "shopping_action_rent": { "other": "Alquilar" },
   "shopping_action_buy": { "other": "Comprar" },
 
-  "shopping_payment_method_header": { "otros": "Métodos de pago" },
-  "shopping_payment_method_credit_card": { "otros": "Tarjeta de crédito" },
-  "shopping_payment_method_giropay": { "otros": "Giropay (Alemania) " },
+  "shopping_payment_method_header": { "other": "Métodos de pago" },
+  "shopping_payment_method_credit_card": { "other": "Tarjeta de crédito" },
+  "shopping_payment_method_giropay": { "other": "Giropay (Alemania) " },
   
-  "shopping_error_stripe_unknown_error": { "otros": "Hubo un error con este pago. Por favor, intente más tarde." },
-  "shopping_error_payment_complete_failed": { "otros": "Este pago fue rechazado. Cierre esta ventana e inténtelo de nuevo." },
+  "shopping_error_stripe_unknown_error": { "other": "Hubo un error con este pago. Por favor, intente más tarde." },
+  "shopping_error_payment_complete_failed": { "other": "Este pago fue rechazado. Cierre esta ventana e inténtelo de nuevo." },
 
   "meta_detail_cast_title": { "other": "Emitir" },
   "meta_detail_crew_title": { "other": "Equipo" },
