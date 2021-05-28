@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-alpha.1...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-alpha.2...HEAD)
+
+## [0.1.0-alpha.2](https://github.com/shift72/core-template/compare/0.1.0-alpha.1...0.1.0-alpha.2) - 2021-05-28
 ### Added
 - German (`de_De`), English (`en_AU`), Spanish (`es_ES`), French (`fr_FR`) and Italian (`it_IT`) translations for Giropay payment option.
 - New base Finnish (`fi_FI`) translation.
