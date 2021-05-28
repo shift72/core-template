@@ -8,7 +8,7 @@
 <div class="container page form-page">
 
   <div class="page-header text-center">
-    <h2>{{ i18n("activatedevice_page_header") }}</h2>
+    <h1>{{ i18n("activatedevice_page_header") }}</h1>
   </div>
 
   <div class="form-block">
