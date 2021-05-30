@@ -44,7 +44,7 @@
 
         {{if len(bundle.Items) > 0 }}
           <div class="page-bundle-list">
-            <h4>{{i18n("meta_detail_bundle_items_title")}}</h4>
+            <h2>{{i18n("meta_detail_bundle_items_title")}}</h2>
             <div class="page-bundle-items">
 		        {{ range index, item := bundle.Items }}
 	            {{if config("default_image_type") == "portrait"}}

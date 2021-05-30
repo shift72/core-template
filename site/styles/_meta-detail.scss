@@ -404,7 +404,7 @@
           @include media-breakpoint-up(md) {
             padding: 10px $grid-gutter-width / 2;
           }
-          h5 {
+          h3, h5 {
             font-size: 12px;
             font-weight: $font-weight-bold;
             @include media-breakpoint-up(md) {
