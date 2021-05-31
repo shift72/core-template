@@ -357,7 +357,7 @@ a {
   background-color: transparent;
   font-weight: bold;
   }
-  a:hover {
+  a:hover, a:focus {
     color: $secondary;
     text-decoration: none; }
 
