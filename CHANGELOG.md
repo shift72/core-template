@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-alpha.2...HEAD)
+### Fixed
+- Live event buttons now stack vertically on list collection items.
 
 ## [0.1.0-alpha.2](https://github.com/shift72/core-template/compare/0.1.0-alpha.1...0.1.0-alpha.2) - 2021-05-28
 ### Added
