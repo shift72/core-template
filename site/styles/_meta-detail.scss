@@ -326,7 +326,9 @@
     }
     a {
       color: $body-color; 
-      font-weight: $font-weight-normal;
+      font-weight: bold;
+      text-decoration: underline;
+      background-color: transparent;
       text-decoration: underline;
       animation: fadein 2s;
       font-size: 12px;
@@ -334,7 +336,7 @@
       -webkit-animation: fadein 2s; /* Safari and Chrome */
       -o-animation: fadein 2s; /* Opera */
       @include hover-focus {
-        color: rgba($body-color, 0.8); 
+        color: $secondary; 
         text-decoration: none;
       }
     }

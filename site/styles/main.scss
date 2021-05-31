@@ -349,3 +349,24 @@ s72-classification-label {
 h1, h2, h3, h4, h5, h6, p, .title {
   word-wrap: break-word;
 }
+
+p, .s72-prompt, .s72-searchresults-empty-content, span, .s72-modal-body .s72-shopping-done {
+a {
+  color: $body-color;
+  text-decoration: underline;
+  background-color: transparent;
+  font-weight: bold;
+  }
+  a:hover {
+    color: $secondary;
+    text-decoration: none; }
+
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none; }
+  a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+    color: inherit;
+    text-decoration: none; }
+  a:not([href]):not([tabindex]):focus {
+    outline: 0; }
+  }
