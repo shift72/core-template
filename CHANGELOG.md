@@ -1,6 +1,9 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-alpha.3...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-alpha.4...HEAD)
+
+## [0.1.0-alpha.4](https://github.com/shift72/core-template/compare/0.1.0-alpha.3...0.1.0-alpha.4) - 2021-06-02
+Repackage of `0.1.0-alpha.3`.
 
 ## [0.1.0-alpha.3](https://github.com/shift72/core-template/compare/0.1.0-alpha.2...0.1.0-alpha.3) - 2021-06-02
 ### Fixed
