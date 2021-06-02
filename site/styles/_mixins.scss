@@ -23,3 +23,17 @@
     z-index: 8;
     @include gradient-x( rgba($left-gradient-bg-color, 1), transparent, 0%, 100%);
 }
+
+.a-links{
+    color: $body-color;
+    text-decoration: underline;
+    background-color: transparent;
+    font-weight: bold;
+}
+.a-links-hover-focus{
+    &:hover,
+       &:focus {
+        color: $body-color;
+        text-decoration: none;
+      }
+}

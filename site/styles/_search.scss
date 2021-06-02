@@ -46,6 +46,10 @@
   .s72-searchresults-empty-content {
     font-size: 14px;
     font-weight: $font-weight-bold;
+    a{
+       @extend .a-links;
+       @extend .a-links-hover-focus;
+    }
   }
 }
 .s72-form-search {

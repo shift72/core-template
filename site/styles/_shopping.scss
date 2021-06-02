@@ -190,6 +190,10 @@
       margin: 0 auto;
     }
   }
+  a{
+    @extend .a-links;
+    @extend .a-links-hover-focus;
+ }
 }
 
 .s72-shopping-modal-promo-code-form {

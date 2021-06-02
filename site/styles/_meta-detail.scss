@@ -325,20 +325,13 @@
       }
     }
     a {
-      color: $body-color; 
-      font-weight: bold;
-      text-decoration: underline;
-      background-color: transparent;
-      text-decoration: underline;
+      @extend .a-links;
       animation: fadein 2s;
       font-size: 12px;
       -moz-animation: fadein 2s; /* Firefox */
       -webkit-animation: fadein 2s; /* Safari and Chrome */
       -o-animation: fadein 2s; /* Opera */
-      @include hover-focus {
-        color: $secondary; 
-        text-decoration: none;
-      }
+      @extend .a-links-hover-focus;
     }
   }
   .meta-detail-crew {
