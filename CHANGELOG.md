@@ -6,6 +6,9 @@
 Repackage of `0.1.0-alpha.3`.
 
 ## [0.1.0-alpha.3](https://github.com/shift72/core-template/compare/0.1.0-alpha.2...0.1.0-alpha.3) - 2021-06-02
+
+Note: packaging fail so fixes are in `0.1.0-alpha.4`.
+
 ### Fixed
 - Live event buttons now stack vertically on list collection items.
 - Better screenreader support on social buttons.
