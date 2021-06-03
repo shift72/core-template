@@ -68,7 +68,7 @@
 
 .meta-item-text {
 
-  font-size: 10px;
+  font-size: $font-size-h4;
   font-weight: $font-weight-normal;
   color: $meta-item-body-color;
   width: 100%;
@@ -97,7 +97,7 @@
 
 .meta-item-synopsis {
 
-  font-size: 10px;
+  font-size: $font-size-h4;
   font-weight: $font-weight-normal;
   color: $meta-item-body-color;
   display: none;

@@ -308,7 +308,7 @@
       -webkit-animation: fadein 2s; /* Safari and Chrome */
       -o-animation: fadein 2s; /* Opera */
       @include media-breakpoint-up(md){
-        font-size: 10px;
+        font-size: $font-size-h4;
       }
     }
     p {
@@ -417,7 +417,7 @@
             font-size: 8px;
             color: $body-color; 
             @include media-breakpoint-up(md) {
-              font-size: 10px;
+              font-size: $font-size-h4;
             }
             @include media-breakpoint-up(lg) {
               font-size: 12px;

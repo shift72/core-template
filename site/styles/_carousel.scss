@@ -158,7 +158,7 @@ s72-carousel {
       background: $primary;
       padding: 2px 4px;
       @include media-breakpoint-up(md){
-        font-size: 10px;
+        font-size: $font-size-h4;
       }
     }
     .meta-item-tagline-and-classification {
