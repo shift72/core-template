@@ -306,8 +306,16 @@ s72-classification-label {
 .page-bundle-list {
   @extend .page-collection-list;
 
-  & h4 {
-      width: 100%;
+  h2, h4 {
+    width: 100%;
+    font-weight: $font-weight-bold;
+    font-size: 16px;
+    @include media-breakpoint-up(md) {
+      font-size: 18px;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 20px;
+    }
   }
 
   .page-bundle-items {
