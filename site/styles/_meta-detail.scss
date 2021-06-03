@@ -308,11 +308,11 @@
       -webkit-animation: fadein 2s; /* Safari and Chrome */
       -o-animation: fadein 2s; /* Opera */
       @include media-breakpoint-up(md){
-        font-size: $font-size-h4;
+        font-size: 12px;
       }
     }
     p {
-      font-size: 10px;
+      font-size: 12px;
       font-weight: $font-weight-light;
       color: $body-color; 
       margin-bottom: 0;
@@ -417,7 +417,7 @@
             font-size: 8px;
             color: $body-color; 
             @include media-breakpoint-up(md) {
-              font-size: $font-size-h4;
+              font-size: 12px;
             }
             @include media-breakpoint-up(lg) {
               font-size: 12px;
@@ -425,7 +425,7 @@
           }
           .synopsis {
             p {
-              font-size: 10px;
+              font-size: 12px;
               line-height: 12px;
               color: $body-color; 
               @include media-breakpoint-up(lg) {
@@ -595,7 +595,7 @@
 }
 
 .meta-detail-bonus-content .synopsis {
-    font-size: 10px;    
+    font-size: 12px;    
     @include media-breakpoint-up(lg) {
         font-size: 12px;
     }

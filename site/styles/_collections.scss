@@ -164,7 +164,7 @@
           }
           .synopsis {
             p {
-              font-size: 10px;
+              font-size: 12px;
               line-height: 14px;
               color: $body-color;
               margin-bottom: 0;
@@ -239,7 +239,7 @@
     }
     .title,
     .runtime {
-      font-size: 10px;
+      font-size: 12px;
       font-weight: $font-weight-bold;
       @include media-breakpoint-up(md) {
         font-size: 14px;
@@ -248,7 +248,7 @@
     .crumb {
       @extend .d-flex;
       span {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: $font-weight-normal;
         color: rgba(255,255,255,0.7);
         display: inline-block;
@@ -260,11 +260,11 @@
     }
     .meta-item-tagline {
       .meta-item-tagline-item {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: $font-weight-normal;
         text-transform: uppercase;
         @include media-breakpoint-up(md) {
-          font-size: $font-size-h4;
+          font-size: 12px;
         }
       }
     }

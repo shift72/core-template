@@ -12,7 +12,7 @@ s72-availability-label {
   display: block;
   background: rgba(0,0,0,0.8);
   .availability-state {
-    font-size: $font-size-h4;
+    font-size: 12px;
     font-weight: $font-weight-bold;
     text-transform: none;
   }
@@ -20,7 +20,7 @@ s72-availability-label {
 
 .availability-bg,
 .availability-state {
-  font-size: $font-size-h4;
+  font-size: 12px;
 }
 
 .availability-state {
