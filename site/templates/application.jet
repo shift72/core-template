@@ -55,14 +55,14 @@
   <body>
     <s72-cookie-consent></s72-cookie-consent>
 
-    <section>
-      <h2 class="sr-only">{{i18n("wcag_skip_links_header")}}</h2>
-      <ul class="sr-only">
+    <section class="sr-only">
+      <h2>{{i18n("wcag_skip_links_header")}}</h2>
+      <ul>
         <li>
-          <a class="sr-only" href="#main">{{i18n("wcag_skip_links_content")}}</a>
+          <a href="#main">{{i18n("wcag_skip_links_content")}}</a>
         </li>
         <li>
-          <a class="sr-only" href="#footer">{{i18n("wcag_skip_links_footer")}}</a>
+          <a href="#footer">{{i18n("wcag_skip_links_footer")}}</a>
         </li>
       </ul>
     </section>
