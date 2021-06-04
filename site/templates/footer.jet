@@ -1,9 +1,9 @@
 {{block footer()}}
-	<footer id="footer" role="contentinfo">
+	<footer id="footer">
 		<a href="{{ routeToPath("/") }}" class="footer-brand">
 			{{i18n("nav_homepage")}}
 		</a>
-		<nav class="footer-nav" role="navigation" aria-label="footer">
+		<nav class="footer-nav" aria-label="footer">
 			{{if len(site.Navigation.Footer) > 0}}
 				<ul class="nav">
 					{{range site.Navigation.Footer}}

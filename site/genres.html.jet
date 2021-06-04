@@ -1,7 +1,7 @@
 {{extends "templates/application.jet"}}
 
 {{block body()}}
-<main id="main" class="page content-page" role="main">
+<main id="main" class="page content-page">
   <h2>Genres</h2>
   <div> 
 

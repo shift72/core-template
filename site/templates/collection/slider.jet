@@ -2,7 +2,7 @@
 {{import "../common/slider.jet"}}
 {{block pageCollectionSlider()}}
 {{if len(.Items) > 0}}
-<section class="page-collection page-collection-slider page-collection-slider-{{.ItemsPerRow}} page-collection-slider-{{.ItemLayout}} slider-{{.ItemsPerRow}} slider-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-slider" role="region" aria-label="collection slider">
+<section class="page-collection page-collection-slider page-collection-slider-{{.ItemsPerRow}} page-collection-slider-{{.ItemLayout}} slider-{{.ItemsPerRow}} slider-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-slider" aria-label="collection slider">
   <div class="swiper-wrapper-container">
     <div class="swiper-container" data-items-per-row="{{.ItemsPerRow}}" data-layout="{{.ItemLayout}}">
       {{if .DisplayName != ""}}

@@ -5,7 +5,7 @@
 {{end}}
 
 {{block body()}}
-<main id="main" class="container page not-found" role="main">
+<main id="main" class="container page not-found">
 
   <div class="page-header text-center">
     <h2>{{ i18n("404_page_header") }}</h2>

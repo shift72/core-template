@@ -17,7 +17,7 @@
 {{end}}
 
 {{block body()}}
-  <main id="main" class="page page-film meta-detail meta-detail-film" role="main">
+  <main id="main" class="page page-film meta-detail meta-detail-film">
     <div class="meta-detail-bg">
       <div class="right-gradient"></div>
       <s72-image src="{{film.Images.Background}}" alt="" class="meta-detail-bg-img"></s72-image>
@@ -114,7 +114,7 @@
             </div>
           {{end}}
           {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}
-            <section class="meta-detail-bonus-content" role="region" aria-label="{{i18n("meta_detail_bonus_title")}}">
+            <section class="meta-detail-bonus-content" aria-label="{{i18n("meta_detail_bonus_title")}}">
               <h2>{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := film.Bonuses}}
@@ -131,7 +131,7 @@
     </div>
 
     {{if len(film.Recommendations) > 0 }}
-    <section class="page-collection recommendations-collection" role="region" aria-label="{{i18n("meta_detail_recommendations_title")}}">
+    <section class="page-collection recommendations-collection" aria-label="{{i18n("meta_detail_recommendations_title")}}">
       <div class="swiper-wrapper-container">
         {{if config("default_image_type") == "portrait"}}
           <div class="swiper-container" data-items-per-row="6" data-layout="portrait">
