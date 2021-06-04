@@ -1,5 +1,5 @@
 <div class="partial partial-page">
-  <a href="{{routeToSlug(page.Slug)}}">
+  <a href="{{routeToSlug(page.Slug)}}" aria-label="{{page.Title}}">
 
   {{if config("default_image_type") == "portrait"}}
     <div class="poster poster-portrait">
