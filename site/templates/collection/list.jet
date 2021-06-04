@@ -2,7 +2,7 @@
 
 {{block pageCollectionList()}}
 {{if len(.Items) > 0}}
-<section class="page-collection page-collection-list page-collection-list-{{.ItemsPerRow}} page-collection-list-{{.ItemLayout}} list-{{.ItemsPerRow}} list-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-list" aria-label="collection list">
+<section class="page-collection page-collection-list page-collection-list-{{.ItemsPerRow}} page-collection-list-{{.ItemLayout}} list-{{.ItemsPerRow}} list-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-list" aria-label="{{i18n("wcag_aria_label_collection_list")}}">
 
   <div class="page-collection-list-title">
 

@@ -16,7 +16,7 @@
           </div>
         {{end}}
       </div>
-      <section class="page-collections" aria-label="page collection">
+      <section class="page-collections" aria-label="{{i18n("wcag_aria_label_page_collection")}}">
         {{ range index, item := collection.Items }}
           <div class="page-collection-item">
             {{yield pageCollectionItem(item=item, layout=collection.ItemLayout)}}

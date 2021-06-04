@@ -43,7 +43,7 @@
         </div>
 
         {{if len(bundle.Items) > 0 }}
-          <section class="page-bundle-list" aria-label="bundle items">
+          <section class="page-bundle-list" aria-label="{{i18n("wcag_aria_label_bundle_items")}}">
             <h2>{{i18n("meta_detail_bundle_items_title")}}</h2>
             <div class="page-bundle-items">
 		        {{ range index, item := bundle.Items }}

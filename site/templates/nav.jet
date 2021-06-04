@@ -3,7 +3,7 @@
 
 {{block nav(showSubNav=true)}}
 <header class="navigation" data-toggle="affix">
-  <nav class="navbar navbar-expand-md navbar-dark" aria-label="main">
+  <nav class="navbar navbar-expand-md navbar-dark" aria-label="{{i18n("wcag_aria_label_nav_main")}}">
       <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
       
       {{if config("search_disabled") != "true"}}
@@ -14,7 +14,7 @@
         </form>
       {{end}}
 
-      <button class="navbar-toggler" type="button" toggle-function="toggleMobileMenu" s72-collapse=".navbar-collapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" toggle-function="toggleMobileMenu" s72-collapse=".navbar-collapse" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="{{i18n("wcag_aria_label_toggle_nav")}}">
         <span class="icon-navbar-toggler"></span>
       </button>
 
@@ -51,7 +51,7 @@
   </nav>
 
   {{if len(site.Navigation.Header) > 0 && showSubNav}}
-    <nav aria-label="sub">
+    <nav aria-label="{{i18n("wcag_aria_label_nav_sub")}}">
       <ul class="sub-nav">
         {{range site.Navigation.Header}}
           {{if len(.Items) > 0}}

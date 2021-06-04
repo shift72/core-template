@@ -3,7 +3,7 @@
 		<a href="{{ routeToPath("/") }}" class="footer-brand">
 			{{i18n("nav_homepage")}}
 		</a>
-		<nav class="footer-nav" aria-label="footer">
+		<nav class="footer-nav" aria-label="{{i18n("wcag_aria_label_footer")}}">
 			{{if len(site.Navigation.Footer) > 0}}
 				<ul class="nav">
 					{{range site.Navigation.Footer}}

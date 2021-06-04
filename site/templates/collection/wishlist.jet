@@ -23,7 +23,7 @@
       data-items-per-page="4" data-item-layout="landscape" class="user-wishlist s72-slider s72-hide">
 
 {{end}}
-  <section class="page-collection" aria-label="wishlist">
+  <section class="page-collection" aria-label="{{i18n("wcag_aria_label_wishlist")}}">
     <div class="swiper-wrapper-container">
       {{if config("default_image_type") == "portrait"}}
         <div class="swiper-container" is-wishlist="true" data-items-per-row="6" data-layout="portrait">
