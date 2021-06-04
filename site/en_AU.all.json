@@ -319,7 +319,7 @@
 
   "shopping_payment_method_header": { "other": "Payment methods" },
   "shopping_payment_method_credit_card": { "other": "Credit card" },
-  "shopping_payment_method_giropay": { "other": "Giropay (Germany)" },
+  "shopping_payment_method_giropay": { "other": "Giropay" },
 
   "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
   "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
@@ -482,16 +482,9 @@
   "shopping_error_age_restricted": { "other": "This content is age restricted." },
   "shopping_error_close_button": { "other": "OK" },
 
-  "shopping_payment_method_header": { "other": "Payment methods" },
-  "shopping_payment_method_credit_card": { "other": "Credit card" },
-  "shopping_payment_method_giropay": { "other": "Giropay" },
-
-  "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
-  "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
-
-  "accessibility_skip_links_header": { "other": "Accessibility Links" },
-  "accessibility_skip_links_content": { "other": "Skip to Content" },
-  "accessibility_skip_links_footer": { "other": "Skip to Footer" }
+  "wcag_skip_links_header": { "other": "Accessibility Links" },
+  "wcag_skip_links_content": { "other": "Skip to Content" },
+  "wcag_skip_links_footer": { "other": "Skip to Footer" },
 
   "wcag_homepage_h1": { "other": "Homepage" }
 }
