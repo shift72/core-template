@@ -10,7 +10,7 @@
   {{ end }}
 
   <div class="s72-carousel-item" data-slug="{{item.Slug}}">
-    <a href="{{routeToSlug(item.Slug)}}" class="carousel-item-link">
+    <a href="{{routeToSlug(item.Slug)}}" class="carousel-item-link" aria-label="{{item.Title}}">
 
       {{if isset(item.Images["Carousel"])}}
         <s72-image src="{{item.Images.Carousel}}" alt="{{item.Title}}" class="carousel-item-image"></s72-image>

@@ -16,7 +16,7 @@
 {{end}}
 
 {{block body()}}
-  {{count := len(page.PageCollections)}}
+  <h1 class="sr-only">{{i18n("wcag_homepage_h1")}}</h1>
   <main id="main" class="page page-{{page.PageType|lower}}" role="main">
     {{yield pageCollectionCarousel() page.PageCollections[0]}}
 
