@@ -482,5 +482,5 @@
   "shopping_error_age_restricted": { "other": "This content is age restricted." },
   "shopping_error_close_button": { "other": "OK" },
 
-  "accessibility_homepage": { "other": "Homepage" }
+  "wcag_homepage_h1": { "other": "Homepage" }
 }
