@@ -169,7 +169,7 @@
     background: $navbar-background-color;
 
     @include media-breakpoint-up(md){
-      border: 1px solid rgba(0, 0, 0, 0.15);
+      border: 1px solid rgba(0, 0, 0, 0.2);
       width: 190px;
       display: none;
       background: $navbar-background-color;
