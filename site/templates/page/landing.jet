@@ -1,7 +1,7 @@
 {{extends "templates/application.jet"}}
 {{block body()}}
   <div>
-    <h2>Landing - {{ page.Title }}</h2>
+    <h1>Landing - {{ page.Title }}</h1>
 
     <div>
       {{ page.Content }}
