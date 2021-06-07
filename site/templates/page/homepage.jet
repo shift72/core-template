@@ -21,6 +21,7 @@
     {{yield pageCollectionCarousel() page.PageCollections[0]}}
 
     <div class="other-sliders">
+      <h2 class="sr-only">{{i18n("wcag_collections_h2")}}</h2>
       <div class="other-sliders-container">
         {{yield wishlistCollection()}}
         {{range index, pf := page.PageCollections}}

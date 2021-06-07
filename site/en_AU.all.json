@@ -487,6 +487,8 @@
   "wcag_skip_links_footer": { "other": "Skip to Footer" },
 
   "wcag_homepage_h1": { "other": "Homepage" },
+  "wcag_carousel_h2": { "other": "Carousel" },
+  "wcag_collections_h2": { "other": "Collections" },
 
   "wcag_aria_label_footer": { "other": "Footer" },
   "wcag_aria_label_nav_main": { "other": "Main" },

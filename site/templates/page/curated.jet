@@ -23,6 +23,7 @@
     </div>
   </div>
   <div class="page-collections">
+    <h2 class="sr-only">{{i18n("wcag_collections_h2")}}</h2>
     {{range index, pf := page.PageCollections}}
       {{yield pageCollection() pf}}
     {{end}}
