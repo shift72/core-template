@@ -2,6 +2,7 @@
 // s72-slider styles in _slider.scss
 // shopping modal styles in _shopping.scss
 // user devices styles in _devices.scss
+@import '_mixins.scss';
 
 .s72-btn {
   @extend .btn;
@@ -227,7 +228,6 @@ s72-cant-be-watched {
   @extend p;
   @extend .text-center;
   a{
-    @extend .a-links;
-    @extend .a-links-hover-focus;
+    @include a-links;
  }
 }

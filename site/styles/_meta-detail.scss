@@ -325,13 +325,12 @@
       }
     }
     a {
-      @extend .a-links;
+      @include a-links;
       animation: fadein 2s;
       font-size: 12px;
       -moz-animation: fadein 2s; /* Firefox */
       -webkit-animation: fadein 2s; /* Safari and Chrome */
       -o-animation: fadein 2s; /* Opera */
-      @extend .a-links-hover-focus;
     }
   }
   .meta-detail-crew {
