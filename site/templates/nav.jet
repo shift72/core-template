@@ -41,7 +41,7 @@
             </ul>
         {{end}}
 
-        <div id="account" class="navbar-nav s72-hide">
+        <div class="navbar-nav s72-hide">
           <s72-language-selector></s72-language-selector>
         	{{ yield nav_user_logged_out() }}
         	{{ yield nav_user_logged_in() }}
