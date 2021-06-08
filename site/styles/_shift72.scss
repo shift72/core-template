@@ -226,7 +226,7 @@ s72-cant-be-watched {
 .s72-prompt {
   @extend p;
   @extend .text-center;
-  a{
-    @include a-links;
+  a {
+    @include a;
  }
 }

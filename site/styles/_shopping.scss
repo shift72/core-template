@@ -141,12 +141,9 @@
     font-size: 14px;
     color: $body-color;
     a {
+      @include a;
       font-size: 12px;
-      text-decoration: underline;
       display: block;
-      @include hover-focus {
-        text-decoration: none;
-      }
     }
   }
 }
@@ -190,9 +187,7 @@
       margin: 0 auto;
     }
   }
-  a{
-    @include a-links;
- }
+  
 }
 
 .s72-shopping-modal-promo-code-form {
@@ -216,6 +211,11 @@
 .s72-modal-footer {
   padding-right: 0;
   padding-left: 0;
+  p {
+    a {
+      @include a;
+    }
+  }
 }
 
 

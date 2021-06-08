@@ -325,7 +325,7 @@
       }
     }
     a {
-      @include a-links;
+      @include a;
       animation: fadein 2s;
       font-size: 12px;
       -moz-animation: fadein 2s; /* Firefox */

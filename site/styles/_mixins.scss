@@ -24,14 +24,13 @@
     @include gradient-x( rgba($left-gradient-bg-color, 1), transparent, 0%, 100%);
 }
 
-@mixin a-links{
-    color: $body-color;
+@mixin a {
+    color: $link-color;
     text-decoration: underline;
     background-color: transparent;
-    font-weight: bold;
-    &:hover,
+       &:hover,
        &:focus {
-        color: $body-color;
+        color: $link-color;
         text-decoration: none;
       }
 }

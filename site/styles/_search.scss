@@ -46,8 +46,8 @@
   .s72-searchresults-empty-content {
     font-size: 14px;
     font-weight: $font-weight-bold;
-    a{
-       @include a-links;
+    a {
+       @include a;
     }
   }
 }
