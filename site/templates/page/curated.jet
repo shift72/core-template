@@ -7,7 +7,7 @@
 
 
 {{block body()}}
-<div class="page {{page.PageType}}-page">
+<main id="main" class="page {{page.PageType}}-page">
   <div class="page-bg">
     <div class="right-gradient"></div>
     <s72-image src="{{page.Images.Background}}" alt="" class="page-bg-img"></s72-image>
@@ -28,5 +28,5 @@
       {{yield pageCollection() pf}}
     {{end}}
   </div>
-</div>
+</main>
 {{end}}

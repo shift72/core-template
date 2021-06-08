@@ -17,7 +17,7 @@
 {{end}}
 
 {{block body()}}
-  <div class="page page-film meta-detail meta-detail-film">
+  <main id="main" class="page page-film meta-detail meta-detail-film">
     <div class="meta-detail-bg">
       <div class="right-gradient"></div>
       <s72-image src="{{film.Images.Background}}" alt="" class="meta-detail-bg-img"></s72-image>
@@ -114,7 +114,7 @@
             </div>
           {{end}}
           {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}
-            <div class="meta-detail-bonus-content">
+            <section class="meta-detail-bonus-content" aria-label="{{i18n("meta_detail_bonus_title")}}">
               <h2>{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := film.Bonuses}}
@@ -123,7 +123,7 @@
                   </div>
                 {{end}}
               {{end}}
-            </div>
+            </section>
           </div>
         {{end}}
         </div>
@@ -131,7 +131,7 @@
     </div>
 
     {{if len(film.Recommendations) > 0 }}
-    <div class="page-collection recommendations-collection">
+    <section class="page-collection recommendations-collection" aria-label="{{i18n("meta_detail_recommendations_title")}}">
       <div class="swiper-wrapper-container">
         {{if config("default_image_type") == "portrait"}}
           <div class="swiper-container" data-items-per-row="6" data-layout="portrait">
@@ -152,7 +152,7 @@
         <div class="swiper-button-prev swiper-button-white"></div>
         <div class="swiper-button-next swiper-button-white"></div>
       </div>
-    </div>
+    </section>
     {{ end }}
-  </div>
+  </main>
 {{end}}

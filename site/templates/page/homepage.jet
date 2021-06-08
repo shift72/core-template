@@ -17,7 +17,7 @@
 
 {{block body()}}
   <h1 class="sr-only">{{i18n("wcag_homepage_h1")}}</h1>
-  <div class="page page-{{page.PageType|lower}}">
+  <main id="main" class="page page-{{page.PageType|lower}}">
     {{yield pageCollectionCarousel() page.PageCollections[0]}}
 
     <div class="other-sliders">
@@ -37,5 +37,5 @@
         {{end}}
       </div>
     </div>
-  </div>
+  </main>
 {{end}}

@@ -5,7 +5,7 @@
 {{end}}
 
 {{block body()}}
-  <div class="page form-page">
+  <main id="main" class="page form-page">
     <div class="page-header">
       <h1>{{ i18n("signup_page_header") }}</h1>
       <p><a href="{{ routeToPath("/signin.html") }}">{{ i18n("signup_page_alreadyhaveanaccount")}}</a></p>
@@ -13,5 +13,5 @@
     <div class="page-form">
       <s72-signup-form />
     </div>
-  </div>
+  </main>
 {{end}}

@@ -2,7 +2,7 @@
 {{import "../common/slider.jet"}}
 {{block pageCollectionSlider()}}
 {{if len(.Items) > 0}}
-<div class="page-collection page-collection-slider page-collection-slider-{{.ItemsPerRow}} page-collection-slider-{{.ItemLayout}} slider-{{.ItemsPerRow}} slider-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-slider">
+<section class="page-collection page-collection-slider page-collection-slider-{{.ItemsPerRow}} page-collection-slider-{{.ItemLayout}} slider-{{.ItemsPerRow}} slider-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-slider" aria-label="{{i18n("wcag_aria_label_collection_slider")}}">
   <div class="swiper-wrapper-container">
     <div class="swiper-container" data-items-per-row="{{.ItemsPerRow}}" data-layout="{{.ItemLayout}}">
       {{if .DisplayName != ""}}
@@ -21,6 +21,6 @@
     <div class="swiper-button-prev swiper-button-white s72-hide"></div>
     <div class="swiper-button-next swiper-button-white s72-hide"></div>
   </div>
-</div>
+</section>
 {{end}}
 {{end}}
