@@ -296,7 +296,7 @@
 // Header Form Search
 .navbar-nav-search {
   position: absolute;
-  left: 160px;
+  left: $navbar-search-left;
   width: 150px;
   top: $navbar-search-top;
   @include media-breakpoint-up(sm) {
@@ -305,7 +305,7 @@
     margin-right: $subnav-nav-item-margin-x;
   }
   @include media-breakpoint-up(md) {
-    left: 165px;
+    left: $navbar-search-left-md;
   }
   @include media-breakpoint-up(lg) {
     top: $navbar-search-top;
