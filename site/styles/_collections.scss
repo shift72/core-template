@@ -193,6 +193,9 @@
           //     width: 100%;
           //   }
           // }
+          a {
+            @include a;
+          }
         }
         .titles {
           text-align: center;

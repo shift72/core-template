@@ -261,6 +261,9 @@
       @include media-breakpoint-up(xxxl) {
         font-size: 18px;
       }
+      a { 
+        @include a;
+      }
     }
   }
   // Extras (Bonus etc)
