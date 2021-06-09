@@ -186,6 +186,11 @@
   "validation_password_minlength": { "other": "Please enter at least {{.Count}} characters." },
   "validation_promocode_required": { "other": "Please enter a promo code." },
   "validation_pincode_required": { "other": "Please enter a PIN code." },
+  "validation_pincode1_required": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_required": { "other": "Please enter a valid PIN code." },
+  "validation_pincode1_pattern": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_pattern": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_match": { "other": "PIN code does not match." },
   "validation_gender_required": { "other": "Please select the closest gender you identify with." },
   "validation_dob_required": { "other": "Please enter your date of birth." },
   "validation_dob_date": { "other": "Please enter a valid date of birth." },
@@ -312,6 +317,13 @@
   "shopping_action_rent": { "other": "Rent" },
   "shopping_action_buy": { "other": "Buy" },
 
+  "shopping_payment_method_header": { "other": "Payment methods" },
+  "shopping_payment_method_credit_card": { "other": "Credit card" },
+  "shopping_payment_method_giropay": { "other": "Giropay" },
+
+  "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
+  "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
+
   "meta_detail_cast_title": { "other": "Cast" },
   "meta_detail_crew_title": { "other": "Crew" },
   "meta_detail_languages": { "one": "Language", "other": "Languages" },
@@ -357,8 +369,8 @@
   "userdevices_device_actions_cancel": { "other": "Cancel" },
   "userdevices_device_actions_confirm": { "other": "Yes, remove device" },
   "userdevices_device_deleted": { "other": "(Removed)" },
-  "userdevices_delete_limits": { "other": "userdevices_delete_limits" },
-  "userdevices_delete_limit_reached": { "other": "userdevices_delete_limit_reached" },
+  "userdevices_delete_limits": { "other": "You can remove {{.Limit}} device(s) from this list every {{.Period}} day(s)."},
+  "userdevices_delete_limit_reached": { "other": "You have reached this limit and can't remove any devices right now. You can delete a device in {{.Days}} day(s)." },
 
   "playlist_page_header": { "other": "Playlist" },
   "playlist_sign_in_warning": { "other": "Please sign in to watch live TV."},
@@ -468,5 +480,27 @@
   "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
   "user_error_too_many_pin_errors_help_page_link": { "other": "" },
   "shopping_error_age_restricted": { "other": "This content is age restricted." },
-  "shopping_error_close_button": { "other": "OK" }
+  "shopping_error_close_button": { "other": "OK" },
+
+  "wcag_skip_links_header": { "other": "Accessibility Links" },
+  "wcag_skip_links_content": { "other": "Skip to Content" },
+  "wcag_skip_links_footer": { "other": "Skip to Footer" },
+
+  "wcag_homepage_h1": { "other": "Homepage" },
+  "wcag_carousel_h2": { "other": "Carousel" },
+  "wcag_collections_h2": { "other": "Collections" },
+
+  "wcag_aria_label_footer": { "other": "Footer" },
+  "wcag_aria_label_nav_main": { "other": "Main" },
+  "wcag_aria_label_nav_sub": { "other": "Sub" },
+  "wcag_aria_label_toggle_nav": { "other": "Toggle Navigation" },
+  "wcag_aria_label_bundle_items": { "other": "Bundle Items" },
+  "wcag_aria_label_carousel": { "other": "Carousel" },
+  "wcag_aria_label_page_collection": { "other": "Page Collection" },
+  "wcag_aria_label_collection_list": { "other": "Collection List" },
+  "wcag_aria_label_collection_slider": { "other": "Collection Slider" },
+  "wcag_aria_label_wishlist": { "other": "Wishlist" },
+  "wcag_aria_label_facebook": { "other": "Share on Facebook" },
+  "wcag_aria_label_twitter": { "other": "Share on Twitter" },
+  "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" }
 }

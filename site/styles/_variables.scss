@@ -33,10 +33,10 @@ $container-max-widths: (
 // Body / Core
 // ------------------------------------
 
-$primary:         #4d97ff !default;
-$secondary:       #2d85ff !default;
-$body-bg:         #0f0f0f !default;
-$body-color:      #ffffff !default;
+$primary:         #35a0a8 !default;
+$secondary:       #4cd3dd !default;
+$body-bg:         #0F0F0F !default;
+$body-color:      #fff !default;
 $body-bg-light:   lighten($body-bg, 4%) !default;
 $hr-border-color: rgba($body-color, .5) !default;
 $list-group-bg: $body-bg !default;
@@ -58,11 +58,11 @@ $navbar-dark-color:         $body-color !default;
 $navbar-dark-hover-color:   #FD4766 !default;
 
 // Navbar Logo (Brand)
-$navbar-brand-padding-y: 22px !default;
-$navbar-brand-min-width: 130px !default;
-$navbar-brand-min-width-md: 200px !default;
-$navbar-brand-min-width-lg: 200px !default;
-$navbar-brand-min-width-xl: 200px !default;
+$navbar-brand-padding-y: 25px !default;
+$navbar-brand-min-width: 126px !default;
+$navbar-brand-min-width-md: 126px !default;
+$navbar-brand-min-width-lg: 126px !default;
+$navbar-brand-min-width-xl: 126px !default;
 
 // Sub Navivgation
 $subnav-background-color: #302e30 !default;
@@ -75,8 +75,8 @@ $subnav-nav-item-margin-y: .5rem !default;
 $subnav-nav-item-border-radius: 2rem !default;
 
 // Buttons
-$button-text-color: #fff !default;
-$button-text-color-hover: #fff !default;
+$button-text-color: $body-color !default;
+$button-text-color-hover: $body-color !default;
 $button-background: $primary !default;
 $button-background-hover: $secondary !default;
 $trailer-button-text-color: $body-color !default;
@@ -167,17 +167,24 @@ $page-collection-item-padding-horizontal: $grid-gutter-width-base / 2 !default;
 $slider-control-width: 50px !default;
 $slider-control-height: 50px !default;
 // $slider-control-color: $text-color-light !default;
-$slider-control-bg: rgba(255, 255, 255, 0.5) !default;
+$slider-control-bg: rgba(255, 255, 255, 0.8) !default;
 
 // Icons
 // ------------------------------------
 
 $icon-play-size: 32px !default;
 $icon-play-color: #fff !default;
-$icon-play-bg: rgba(#000, 0.5) !default;
+$icon-play-bg: rgba(#000, 0.8) !default;
 $icon-play-hover-color: #fff !default;
-$icon-play-hover-bg: rgba(#fff, 0.5) !default;
+$icon-play-hover-bg: rgba(#fff, 0.8) !default;
 
 // Modals
 // ------------------------------------
 $modal-footer-button-margin: 5px;
+
+// Fonts
+// ------------------------------------
+$font-family-base: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 500 !default;

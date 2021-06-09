@@ -1,9 +1,6 @@
 .btn {
   font-family: $font-family-base;
   border-radius: 4px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  
 }
 // Default Action for Buttons
 
@@ -11,7 +8,7 @@
 .btn-primary {
   color: $button-text-color;
   background-color: $button-background;
-  font-weight: 500;
+  font-weight: $font-weight-bold;
   @include hover-focus {
     color: $button-text-color-hover;
     border-color: $button-background-hover;
@@ -76,14 +73,14 @@
       fill: none;
     }
     path {
-      fill: $body-color; 
-      stroke: $body-color; 
+      fill: $button-text-color;
+      stroke: $button-text-color; 
     }
   }
   .verb {
     color: $button-text-color;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: $font-weight-bold;
   }
   @include hover-focus {
     border: 3px solid $button-background-hover;
@@ -97,6 +94,9 @@
         fill: $button-text-color-hover;
         stroke: $button-text-color-hover;
       }
+    }
+    .s72-btn-play-label {
+      color: $button-text-color-hover;
     }
   }
   &.s72-btn-trailer {
@@ -167,10 +167,10 @@
     border-color: $button-background-hover;
   }
   .verb {
-    font-weight: 700;
+    font-weight: $font-weight-bold;
   }
   .price {
-    font-weight: 700;
+    font-weight: $font-weight-bold;
   }
 }
 // Wishlist Button

@@ -130,9 +130,16 @@
   "userlibrary_empty_content": { "other": "Wypełnij je <a href=\"{{.HomeURL}}\">przeglądając</a> naszą listę filmów." },
 
   "searchresults_page_header": { "other": "Wyniki wyszukiwania" },
-  "searchresults_load_more": { "other": "Załaduj {{.Count}} więcej" },
+  "searchresults_load_more": {
+    "one": "Załaduj {{.Count}} więcej",
+    "few": "Załaduj {{.Count}} więcej",
+    "many": "Załaduj {{.Count}} więcej",
+    "other": "Załaduj {{.Count}} więcej"
+  },
   "searchresults_total": {
     "one": "Znaleziono 1 wynik dla „{{.Query}}”.",
+    "few": "Znaleziono {{.Count}} wyniki dla „{{.Query}}”.",
+    "many": "Znaleziono {{.Count}} wyniki dla „{{.Query}}”.",
     "other": "Znaleziono {{.Count}} wyniki dla „{{.Query}}”."
   },
   "searchresults_empty_header":  { "other": "Brak wyników wyszukiwania dla „{{.Query}}”" },
@@ -145,7 +152,12 @@
   "validation_password_required": { "other": "Podaj hasło." },
   "validation_password2_required": { "other": "Potwierdź hasło." },
   "validation_password2_match": { "other": "Hasła nie zgadzają się." },
-  "validation_password_minlength": { "other": "Hasło musi mieć co najmniej {{.Count}} znaków." },
+  "validation_password_minlength": {
+    "one": "Hasło musi mieć co najmniej {{.Count}} znaków.",
+    "few": "Hasło musi mieć co najmniej {{.Count}} znaków.",
+    "many": "Hasło musi mieć co najmniej {{.Count}} znaków.",
+    "other": "Hasło musi mieć co najmniej {{.Count}} znaków."
+  },
   "validation_promocode_required": { "other": "Podaj kod promocyjny." },
   "validation_gender_required": { "other": "Wybierz płeć, z którą się identyfikujesz" },
   "validation_dob_required": { "other": "Podaj datę urodzenia." },
@@ -164,30 +176,52 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Po upływie tego czasu nie będziesz mógł przeglądać treści." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Po upływie tego czasu nie będziesz mógł przeglądać treści." },
 
-  "shopping_info_rental_period_duration": { "other": "Wypożyczono na {{.Count}} dni " },
-  "shopping_info_watch_window_duration": { "other": "{{.Count}} godzinne okno odtwarzania. " },
+  "shopping_info_rental_period_duration": {
+    "one": "Wypożyczono na {{.Count}} dni ",
+    "few": "Wypożyczono na {{.Count}} dni ",
+    "many": "Wypożyczono na {{.Count}} dni ",
+    "other": "Wypożyczono na {{.Count}} dni "
+  },
+  "shopping_info_watch_window_duration": {
+    "one": "{{.Count}} godzinne okno odtwarzania. ",
+    "few": "{{.Count}} godzinne okno odtwarzania. ",
+    "many": "{{.Count}} godzinne okno odtwarzania. ",
+    "other": "{{.Count}} godzinne okno odtwarzania. "
+  },
   "shopping_info_watch_window_explanation_film": {
     "one": "Wypożyczony film będzie dostępny na Twoim koncie przez jeden dzień. ",
+    "few": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.Count}} dni. ",
+    "many": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.Count}} dni. ",
     "other": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.Count}} dni. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Po naciśnięciu przycisku odtwarzania otworzy się player i będziesz miał godzinę na obejrzenie filmu tyle razy, ile chcesz.",
+    "few": "Po naciśnięciu przycisku odtwarzania otworzy się player i pozostanie Ci {{.Count}} godzin na obejrzenie filmu tyle razy, ile chcesz.",
+    "many": "Po naciśnięciu przycisku odtwarzania otworzy się player i pozostanie Ci {{.Count}} godzin na obejrzenie filmu tyle razy, ile chcesz.",
     "other": "Po naciśnięciu przycisku odtwarzania otworzy się player i pozostanie Ci {{.Count}} godzin na obejrzenie filmu tyle razy, ile chcesz."
   },
   "shopping_info_watch_window_explanation_bundle": {
     "one": "Od momentu zakupienia dostępu do filmu, będzie on dostępny na Twoim koncie przez jeden dzień. ",
+    "few": "Od momentu zakupienia dostępu do filmu, będzie on dostępny na Twoim koncie przez {{.Count}} dni. ",
+    "many": "Od momentu zakupienia dostępu do filmu, będzie on dostępny na Twoim koncie przez {{.Count}} dni. ",
     "other": "Od momentu zakupienia dostępu do filmu, będzie on dostępny na Twoim koncie przez {{.Count}} dni. "
   },
   "shopping_info_watch_window_explanation2_bundle": {
     "one": "Po naciśnięciu przycisku odtwarzania filmu otworzy się player i pozostanie Ci godzina na obejrzenie tego filmu tyle razy, ile chcesz.",
+    "few": "Po naciśnięciu przycisku odtwarzania filmu otworzy się player i pozostanie Ci {{.Count}} godzin na obejrzenie filmu tyle razy, ile chcesz.",
+    "many": "Po naciśnięciu przycisku odtwarzania filmu otworzy się player i pozostanie Ci {{.Count}} godzin na obejrzenie filmu tyle razy, ile chcesz.",
     "other": "Po naciśnięciu przycisku odtwarzania filmu otworzy się player i pozostanie Ci {{.Count}} godzin na obejrzenie filmu tyle razy, ile chcesz."
   },
   "shopping_info_watch_window_explanation_season": {
     "one": "Po wypożyczeniu wybrany odcinek będzie dostępny na Twoim koncie przez jeden dzień. ",
+    "few": "Po wypożyczeniu wybrany odcinek będzie dostępny na Twoim koncie przez {{.Count}} dni. ",
+    "many": "Po wypożyczeniu wybrany odcinek będzie dostępny na Twoim koncie przez {{.Count}} dni. ",
     "other": "Po wypożyczeniu wybrany odcinek będzie dostępny na Twoim koncie przez {{.Count}} dni. "
   },
   "shopping_info_watch_window_explanation2_season": {
     "one": "Po naciśnięciu przycisku odtwarzania otworzy się player i pozostanie Ci godzina na obejrzenie wybranego odcinka dowolną liczbę razy.",
+    "few": "Po naciśnięciu przycisku odtwarzania otworzy się player i pozostanie Ci {{.Count}} godzin na obejrzenie wybranego odcinka dowolną liczbę razy.",
+    "many": "Po naciśnięciu przycisku odtwarzania otworzy się player i pozostanie Ci {{.Count}} godzin na obejrzenie wybranego odcinka dowolną liczbę razy.",
     "other": "Po naciśnięciu przycisku odtwarzania otworzy się player i pozostanie Ci {{.Count}} godzin na obejrzenie wybranego odcinka dowolną liczbę razy."
   },
   "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% rabatu" },
@@ -242,6 +276,8 @@
   "shopping_complete_rental": { "other": "Udało się!" },
   "shopping_complete_rental_period": {
     "one": "Możesz teraz oglądać go tak często, jak chcesz przez następny dzień.",
+    "few": "Możesz teraz oglądać go tak często, jak chcesz przez następne {{.Count}} dni.",
+    "many": "Możesz teraz oglądać go tak często, jak chcesz przez następne {{.Count}} dni.",
     "other": "Możesz teraz oglądać go tak często, jak chcesz przez następne {{.Count}} dni."
   },
   "shopping_complete_purchase": { "other": "Dziękujemy za zakup {{.Title}}." },
@@ -252,6 +288,8 @@
 
   "shopping_complete_rental_watch_window_start": {
     "one": "Możesz go obejrzeć do jutra.",
+    "few": "Możesz zacząć go oglądać w ciągu następnych {{.Count}} dni.",
+    "many": "Możesz zacząć go oglądać w ciągu następnych {{.Count}} dni.",
     "other": "Możesz zacząć go oglądać w ciągu następnych {{.Count}} dni."
   },
   "shopping_complete_rental_watch_window_end": {
@@ -260,10 +298,14 @@
   },
   "shopping_complete_rental_coming_soon": {
     "one": "Będziesz mógł go oglądać od {{.Date}}, a wypożyczenie pozostanie aktywne przez 1 dzień.",
+    "few": "Będziesz mógł go oglądać od {{.Date}}, a wypożyczenie pozostanie aktywne przez {{.Count}} dni.",
+    "many": "Będziesz mógł go oglądać od {{.Date}}, a wypożyczenie pozostanie aktywne przez {{.Count}} dni.",
     "other": "Będziesz mógł go oglądać od {{.Date}}, a wypożyczenie pozostanie aktywne przez {{.Count}} dni."
   },
   "shopping_complete_rental_coming_soon_watch_window_start": {
     "one": "Będziesz mógł go oglądać od {{.Date}}, a wypożyczenie pozostanie aktywne przez 1 dzień.",
+    "few": "Będziesz mógł go oglądać od {{.Date}}, a wypożyczenie pozostanie aktywne przez {{.Count}} dni.",
+    "many": "Będziesz mógł go oglądać od {{.Date}}, a wypożyczenie pozostanie aktywne przez {{.Count}} dni.",
     "other": "Będziesz mógł go oglądać od {{.Date}}, a wypożyczenie pozostanie aktywne przez {{.Count}} dni."
   },
 
@@ -281,9 +323,24 @@
   "meta_detail_recommendations_title": { "other": "Propozycje dla Ciebie" },
   "meta_detail_bundle_items_title": { "other": "Zawartość waybranego pakietu:" },
 
-  "bundle_items_all_films": { "other": "{{.Count}} filmów" },
-  "bundle_items_all_seasons": { "other": "{{.Count}} odcinków" },
-  "bundle_items_mixed": { "other": "{{.Count}} filmów i odcinków" },
+  "bundle_items_all_films": {
+    "one": "{{.Count}} filmów",
+    "few": "{{.Count}} filmów",
+    "many": "{{.Count}} filmów",
+    "other": "{{.Count}} filmów"
+  },
+  "bundle_items_all_seasons": {
+    "one": "{{.Count}} odcinków",
+    "few": "{{.Count}} odcinków",
+    "many": "{{.Count}} odcinków",
+    "other": "{{.Count}} odcinków"
+  },
+  "bundle_items_mixed": {
+    "one": "{{.Count}} filmów i odcinków",
+    "few": "{{.Count}} filmów i odcinków",
+    "many": "{{.Count}} filmów i odcinków",
+    "other": "{{.Count}} filmów i odcinków"
+  },
   "userwishlist_page_header": { "other": "Moja lista" },
   "userwishlist_slider_header": { "other": "Moja lista" },
   "userwishlist_empty_header":  { "other": "Twoja lista jest pusta." },
@@ -296,6 +353,8 @@
   "userdevices_page_header": { "other": "Urządzenia" },
   "userdevices_page_content": {
     "one": "Urządzenia zostaną automatycznie dodane, gdy ich użyjesz. Masz ograniczenie do 1 urządzenia.",
+    "few": "Urządzenia zostaną automatycznie dodane, gdy ich użyjesz. Masz ograniczenie do {{.Count}} urządzeń.",
+    "many": "Urządzenia zostaną automatycznie dodane, gdy ich użyjesz. Masz ograniczenie do {{.Count}} urządzeń.",
     "other": "Urządzenia zostaną automatycznie dodane, gdy ich użyjesz. Masz ograniczenie do {{.Count}} urządzeń."
   },
   "userdevices_empty_content": { "other": "Obecnie masz 0 zarejestrowanych urządzeń" },

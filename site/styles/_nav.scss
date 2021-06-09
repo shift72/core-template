@@ -222,7 +222,7 @@ TODO - SHIFT72-WEB
   }
   .form-control-search {
     font-family: $font-family-base;
-    font-weight: 400;
+    font-weight: $font-weight-normal;
     color: transparent;
     height: 44px;
     padding-left: 32px;
@@ -246,7 +246,7 @@ TODO - SHIFT72-WEB
       transition: 0.25s ease-out;
       opacity: 0;
       color: rgba($color: $body-color, $alpha: 0.8);
-      font-weight: 400;
+      font-weight: $font-weight-normal;
     }
 
     &:focus {
@@ -434,7 +434,7 @@ s72-dropdown, .s72-language-selector {
     }
     .s72-dropdown-item, .nav-link {
       color: $body-color;
-      font-weight: 600;
+      font-weight: $font-weight-normal;
       font-size: 14px;
       padding: 0;
       border: 0;
@@ -535,7 +535,7 @@ s72-dropdown, .s72-language-selector {
   }
 
   .nav-link {
-    font-weight: 800;
+    font-weight: $font-weight-normal;
     font-size: 16px;
     @extend .animate-this;
     @include media-breakpoint-up(md) {
@@ -558,7 +558,7 @@ s72-dropdown, .s72-language-selector {
       border-radius: 4px;
       color: $button-text-color;
       background-color: rgba($color: $body-color, $alpha: 0.06);
-      font-weight: 500;
+      font-weight: $font-weight-normal;
       @include hover-focus {
         background-color: rgba($color: $body-color, $alpha: 0.1);
       }
@@ -574,7 +574,7 @@ s72-dropdown, .s72-language-selector {
     display: none;
     @include media-breakpoint-up(md) {
       display: inline-block;
-      font-weight: 600;
+      font-weight: $font-weight-bold;
       padding: 8px 0 8px 15px;
       color: $primary;
     }
@@ -633,7 +633,7 @@ s72-dropdown, .s72-language-selector {
   @extend .nav;
   .nav-item {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: $font-weight-normal;
     @include media-breakpoint-up(xxxl){
       font-size: 16px;
     }

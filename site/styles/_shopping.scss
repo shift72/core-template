@@ -9,7 +9,7 @@
     padding: 0;
     flex-direction: column;
     .s72-btn-close {
-      color: $body-color; 
+      color: $body-color;
       text-transform: uppercase;
       text-shadow: none;
       position: absolute;
@@ -62,7 +62,7 @@
 
 .s72-combined-auth-email {
   color: $body-color; 
-  font-weight: 600;
+  font-weight: $font-weight-normal;
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 0;
@@ -93,7 +93,8 @@
   border-radius: 0;
 }
 .s72-modal-dialog {
-  margin: 20px;
+  margin: auto;
+  padding: 20px;
   @include media-breakpoint-up(md) {
     margin: 20px auto;
   }
@@ -103,7 +104,7 @@
   padding: $modal-inner-padding 0;
   width: 100%;
   h4 {
-    font-weight: 700;
+    font-weight: $font-weight-bold;
     font-size: 20px;
   }
   h4, p {
@@ -120,7 +121,7 @@
   li {
     text-align: left;
     font-size: 12px;
-    color: rgba($body-color, 0.7); 
+    color: rgba($body-color, 0.8);
     list-style-type: none;
   }
 }
@@ -138,7 +139,7 @@
 .s72-shopping-item-info {
   p {
     font-size: 14px;
-    color: $body-color; 
+    color: $body-color;
     a {
       font-size: 12px;
       text-decoration: underline;
@@ -167,15 +168,15 @@
   p {
     text-align: center;
     font-size: 12px;
-    color: $body-color; 
+    color: $body-color;
   }
   div {
     div {
       p {
         font-size: 20px;
         text-align: center;
-        font-weight: 700;
-        color: #fff;
+        font-weight: $font-weight-bold;
+        color: $body-color;
         margin-bottom: 5px;
         &:nth-child(2),
         &:nth-child(3) {
@@ -212,4 +213,51 @@
 .s72-modal-footer {
   padding-right: 0;
   padding-left: 0;
+}
+
+
+.s72-payment-methods-container {
+  @extend .mb-3;
+
+  .s72-payment-methods-header {
+    @extend .mb-2;
+    font-weight: $font-weight-bold;
+  }
+
+  .s72-payment-methods {
+    border-color: transparent;
+  }
+
+  .s72-payment-method {
+    @extend .d-flex;
+
+    background-color: $white;
+    color: $black;
+    font-weight: $font-weight-bold;
+    padding: 1rem;
+
+    border-top: 1px solid $gray-300;
+
+    @include hover-focus {
+      background: $gray-300;
+      cursor: pointer;
+    }
+
+    &:first-child {
+      border-top: none;
+      @include border-top-radius($border-radius);
+    }
+
+    &:last-child {
+      @include border-bottom-radius($border-radius);
+    }
+
+    .s72-payment-method-name {
+      @extend .flex-grow-1;
+    }
+
+    .s72-icon {
+      color: $primary;
+    }
+  }
 }

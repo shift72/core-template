@@ -44,10 +44,9 @@
 }
 
 .meta-item-title {
-
-  font-family: 'Rawline', sans-serif;
+  font-family: $font-family-base;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
   text-shadow: 1px 1px 2px #000;
   color: $meta-item-body-color;
 
@@ -69,8 +68,8 @@
 
 .meta-item-text {
 
-  font-size: 10px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: $font-weight-normal;
   color: $meta-item-body-color;
   width: 100%;
 
@@ -98,8 +97,8 @@
 
 .meta-item-synopsis {
 
-  font-size: 10px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: $font-weight-normal;
   color: $meta-item-body-color;
   display: none;
 

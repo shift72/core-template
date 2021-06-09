@@ -39,6 +39,8 @@
 @import '_pin-codes';
 @import '_language-selector';
 
+@import '_can-be-watched-button';
+
 // Custom fonts ???
 // ---------------------------------------
 
@@ -47,13 +49,12 @@
 
 // Site specific styles
 // ---------------------------------------
-@import 'https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css';
 
 html {
   height: 100%;
 }
 body {
-	font-family: "Rawline", $font-family-base;
+	font-family: $font-family-base;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -186,15 +187,15 @@ s72-classification-label {
     }
     .s72-classification-description {
       font-size: 14px;
-      color: rgba(255,255,255,0.5);
-      font-weight: 600;
+      color: rgba(255,255,255,0.8);
+      font-weight: $font-weight-normal;
       margin-left: 5px;
       display: none;
     }
     .s72-classification-label {
-      color: rgba($body-color, 0.5); 
-      border: 1px solid rgba($body-color, 0.5); 
-      font-weight: 800;
+      color: rgba($body-color, 0.8);
+      border: 1px solid rgba($body-color, 0.8);
+      font-weight: $font-weight-bold;
       font-size: 12px;
       padding: 1px 5px;
       border-radius: 0;
@@ -215,8 +216,8 @@ s72-classification-label {
 }
 
 .meta-detail-content .meta-detail-tagline-and-classification .meta-item-tagline {
-    font-weight: 600;
-    color: rgba($body-color, 0.5); 
+    font-weight: $font-weight-normal;
+    color: rgba($body-color, 0.8);
     margin-bottom: 0;
     align-self: center;
 }
@@ -305,8 +306,16 @@ s72-classification-label {
 .page-bundle-list {
   @extend .page-collection-list;
 
-  & h4 {
-      width: 100%;
+  h2, h4 {
+    width: 100%;
+    font-weight: $font-weight-bold;
+    font-size: 16px;
+    @include media-breakpoint-up(md) {
+      font-size: 18px;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 20px;
+    }
   }
 
   .page-bundle-items {
@@ -346,7 +355,7 @@ s72-classification-label {
 
 //text wrap fix
 h1, h2, h3, h4, h5, h6, p, .title {
-  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .noscroll {

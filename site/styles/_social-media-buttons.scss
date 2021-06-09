@@ -5,11 +5,12 @@
 	padding-bottom: 3px
 }
 .social-media-buttons-title {
+	display: flex;
 	align-self: center;
 	padding-right: 10px;
-	h5 {
+	h2, h5 {
 		font-size: 12px;
-		font-weight: 700;
+		font-weight: $font-weight-bold;
 		color: $body-color; 
 		margin: 0; 
 		align-self: center;

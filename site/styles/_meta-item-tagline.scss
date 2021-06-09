@@ -10,12 +10,15 @@
     &:not(:last-child) {
       margin-right: map-get($spacers, 1); // Currently 0.25rem
     }
+    &.meta-item-tagline-item-classification {
+      margin-right: 0;
+    }
   }
 }
 .meta-item-classification {
   border-radius: $meta-item-tagline-classification-border-radius;
   padding: 0 5px 1px 5px;
-  font-weight: 800;
+  font-weight: $font-weight-bold;
   display: inline-block;
 }
 .meta-item-classification-mature {

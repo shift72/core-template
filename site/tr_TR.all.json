@@ -176,23 +176,23 @@
     "validation_gender_required": { "other": "Lütfen size en yakın cinsiyeti belirtiniz." },
     "validation_dob_required": { "other": "Lütfen doğum tarihinizi giriniz." },
     "validation_dob_date": { "other": "Lütfen geçerli bir doğum tarihi giriniz." },
-  
+
     "shopping_info_subtitle_hd": { "other": "Talep Üzerine HD Video." },
     "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
     "shopping_info_subtitle_wallet": { "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus." },
     "shopping_info_subtitle_help": { "other": "Sistem gereksinimleri için buraya bakınız." },
     "shopping_info_ownership_buy": { "other": "satın al" },
     "shopping_info_ownership_rent": { "other": "kirala" },
-  
+
     "shopping_info_sd_only": { "other": "Limited to SD playback only." },
     "shopping_info_release_date_title": { "other": "Yayın {{.Date}}. " },
     "shopping_info_release_date_explanation_rent": { "other": " Şu an kiralayabilirsiniz ama o zamana kadar izleyemeyeceksiniz." },
     "shopping_info_release_date_explanation_buy": { "other": "Şu an satın alabilirsiniz ama o zamana kadar izleyemeyeceksiniz." },
-  
-    "shopping_info_available_until_date_title": { "other": "....'e kadar erişilebilir. " },
+
+    "shopping_info_available_until_date_title": { "other": "{{.Date}}'e kadar erişilebilir. " },
     "shopping_info_available_until_date_explanation_rent": { "other": "Bundan sonra içeriği görüntüleyemeceksiniz." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Bundan sonra içeriği görüntüleyemeceksiniz." },
-  
+
     "shopping_info_rental_period_duration": { "other": "{{.Count}} kiralanan gün sayısı " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} saat playback oynatma penceresi " },
     "shopping_info_watch_window_explanation_film": {
@@ -220,25 +220,25 @@
       "other": "Bir bölümü oynata bastığınızda, izleme penceresi başlar ve bölümü istediğiniz kadar izlemek için bir saatiniz olacak."
     },
     "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },
-  
+
     "shopping_enter_card_prompt": { "other": "nizi tamamlamak için aşağıya kredi kartı bilgilerinizi giriniz {{.Verb}}." },
-  
+
     "shopping_terms": { "other": "Bu işlemi tamamlayarak, <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">terms and conditions</a> katılıyorum."},
     "shopping_discount_applied": { "other": "{{.DiscountAmount}} indirim uygulanmıştır." },
     "shopping_discount_apply": { "other": "Uygula" },
     "shopping_discount_code": { "other": "Promosyon kodu girin." },
     "shopping_discount_have_code": { "other": "Promosyon kodum var." },
-  
+
     "shopping_price_you_pay": { "other": "Ödüyorsunuz" },
     "shopping_price_nothing": { "other": "Hiçbir şey" },
     "shopping_price_free": { "other": "Ücretsiz" },
-  
+
     "shopping_auth_directions": { "other": "Öncelikle bir hesaba ihtiyaç var. Lütfen e-posta adresinizi girin." },
-  
+
     "shopping_error_in_library": { "other": "{{.Title}} zaten kütüphanenizde." },
-  
+
     "shopping_error_missing_card": { "other": "Lütfen kredi kartı bilgilerinizi girin." },
-    "shopping_error_title": { "other": "Bir hata oluştu." },
+    "shopping_error_title": { "other": "İlginiz için teşekkür ederiz." },
     "shopping_error_incorrect_cvc": { "other": "Lütfen geçerli bir CVV girin." },
     "shopping_error_invalid_cvc": { "other": "Lütfen geçerli bir CVV girin." },
     "shopping_error_incorrect_number": { "other": "Lütfen geçerli bir Kredi Kart Numarası girin." },
@@ -249,7 +249,7 @@
     "shopping_error_expired_card": { "other": "Kredi Kartının son kullanma tarihi geçmiştir." },
     "shopping_error_creditcard_country_mismatch": { "other": "niz {{.Ownership}} tamamlanmadı. Kredi kartınızın basıldığı ülkede olmanız gerekiyor. Lütfen ödemeyi yapmak için başka bir kart kullanın." },
     "shopping_error_proxy_detected": { "other": "niz {{.Ownership}} tamamlanmadı. Blok kaldırıcı ya da proxy hizmeti kullandığınızı tespit ettik. Lütfen bu hizmetlerin hepsini kapatıp tekrar deneyin." },
-  
+
     "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
     "shopping_error_discount_blank": { "other": "Lütfen promosyon kodu girin." },
     "shopping_error_discount_not_applied": { "other": "Lütfen geçerli bir promosyon kodu girin." },
@@ -267,7 +267,8 @@
     "shopping_error_discounts_not_allowed": { "other": "Bu promosyon kodu kullanılamaz." },
     "shopping_error_discount_disallowed_on_bundles": { "other": "That promo code can not be used on bundles." },
     "shopping_error_payment_intent_authentication_failure": { "other": "Kredi Kartınız reddedildi. Lütfen tekrar deneyin." },
-  
+    "shopping_error_item_limit_exceeded": { "other": "{{.Title}} için sınırlı sayıdaki izleme kapasitemiz dolmuştur." },
+
     "shopping_complete_rental": { "other": "Başardınız!" },
     "shopping_complete_rental_period": {
       "one": "Filmi önümüzdeki gün istediğiniz sıklıkta izleyebilirsiniz.",
@@ -426,11 +427,14 @@
     "availability_available_till": { "other": "(bitiş tarihi)'ne dek erişilebilir." },
     "availability_not_available_in_country": { "other": "Mevcut Değil" },
     "availability_available": { "other": "(yayın tarihi)'nde erişilebilir." },
-  
+
     "modal_cancel": { "other": "İptal" },
-  
+
     "play": { "other": "Oynat" },
-  
+
+    "availability_expires": { "other": "Son gösterim: {{.Expiry}}" },
+    "availability_expired": { "other": "Süresi doldu"},
+
     "combined_auth_signin_prompt": { "other": "Oturum Aç" },
     "combined_auth_signup_prompt": { "other": "Kaydol" },
     "combined_auth_terms": { "other": "Tüm <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a> kabul ediyorum." },

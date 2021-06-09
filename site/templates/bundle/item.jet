@@ -15,7 +15,7 @@
 {{end}}
 
 {{block body()}}
-  <div class="page page-bundle meta-detail meta-detail-bundle page-bundle-{{config("default_image_type")}}">
+  <main id="main" class="page page-bundle meta-detail meta-detail-bundle page-bundle-{{config("default_image_type")}}">
 
     <div class="meta-detail-bg">
       <div class="meta-detail-bg-gradient"></div>
@@ -43,8 +43,8 @@
         </div>
 
         {{if len(bundle.Items) > 0 }}
-          <div class="page-bundle-list">
-            <h4>{{i18n("meta_detail_bundle_items_title")}}</h4>
+          <section class="page-bundle-list" aria-label="{{i18n("wcag_aria_label_bundle_items")}}">
+            <h2>{{i18n("meta_detail_bundle_items_title")}}</h2>
             <div class="page-bundle-items">
 		        {{ range index, item := bundle.Items }}
 	            {{if config("default_image_type") == "portrait"}}
@@ -59,10 +59,10 @@
 
 		        {{ end }}
 		      	</div>
-          </div>
+          </section>
         {{end}}
 
       </div>
     </div>
-  </div>
+  </main>
 {{end}}

@@ -21,7 +21,7 @@
 .s72-userwishlist-buttons {
 	.s72-btn-wishlist {
 		font-size: 12px;
-    font-weight: 700;
+    font-weight: $font-weight-bold;
     @extend .btn;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -38,7 +38,7 @@
     }
     .s72-icon {
       font-size: 32px !important;
-      opacity: .5;
+      opacity: .8;
     }
 	}
 }

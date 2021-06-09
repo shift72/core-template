@@ -136,7 +136,7 @@ s72-carousel {
     h3 {
       color: $body-color; 
       font-size: 28px;
-      font-weight: 700;
+      font-weight: $font-weight-bold;
       margin-bottom: 0;
       padding-bottom: 0;
       @include media-breakpoint-up(md){
@@ -152,13 +152,13 @@ s72-carousel {
     h4 {
       font-size: 6px;
       color: #000;
-      font-weight: 800;
+      font-weight: $font-weight-bold;
       display: inline-block;
       text-transform: uppercase;
       background: $primary;
       padding: 2px 4px;
       @include media-breakpoint-up(md){
-        font-size: 10px;
+        font-size: 12px;
       }
     }
     .meta-item-tagline-and-classification {
@@ -171,8 +171,8 @@ s72-carousel {
       }
       .meta-item-tagline {
         font-size: 14px;
-        font-weight: 600;
-        color: rgba($body-color, 0.5); 
+        font-weight: $font-weight-normal;
+        color: rgba($body-color, 0.8); 
         margin-bottom: 0;
         align-self: center;
         @include media-breakpoint-up(xxxl) {
@@ -180,17 +180,30 @@ s72-carousel {
         }
       }
     }
+    .meta-item-buttons {
+      .s72-pricing-button-container {
+        .s72-btn {
+          margin-bottom: 10px;
+          &:nth-child(1) {
+            margin-right: .5rem;
+          }
+          &:nth-child(2) {
+            margin-left: 0;
+          }
+        }
+      }
+    }
     .meta-item-tagline {
       font-size: 14px;
-      font-weight: 600;
-      color: rgba(255,255,255,0.5);
+      font-weight: $font-weight-normal;
+      color: rgba(255,255,255,0.8);
       @include media-breakpoint-up(xxxl){
         font-size: 18px;
       }
     }
     .meta-item-synopsis {
       font-size: 12px;
-      font-weight: 600;
+      font-weight: $font-weight-normal;
       display: block;
       padding-top: 10px;
       @include media-breakpoint-up(md){

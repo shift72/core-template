@@ -9,7 +9,7 @@
   {{end}}
 
   {* Set this to be a local file path to have a default SEO sharing image e.g. "/images/common/logo.png" *}
-  {{seoImage := "/images/common/facebook-image.png"}}
+  {{seoImage := site.SiteConfig.SiteURL + "/images/common/facebook-image.png"}}
   {{if isset(.Seo) && len(.Seo.Image) > 0}}
     {{seoImage = .Seo.Image}}
   {{end}}

@@ -1,0 +1,1098 @@
+{
+  "site_owner": {
+   "other": "ABC Cinemas"
+  },
+  "settings_title": {
+   "other": "Settings"
+  },
+  "powered_by_name": {
+   "other": "ScreenPlus"
+  },
+  "powered_by_url": {
+   "other": "https://www.screenplus.com"
+  },
+  "en": {
+   "other": "English"
+  },
+  "fr": {
+   "other": "French"
+  },
+  "episode_name": {
+   "other": "Епізод"
+  },
+  "season_name": {
+   "other": "Сезон"
+  },
+  "seasons": {
+   "one": "one season",
+   "few": "{{.Count}} seasons",
+   "many": "{{.Count}} seasons"
+  },
+  "tvseason": {
+    "other": "{{.ShowInfo.Title}} Series {{.Season.SeasonNumber}}"
+  },
+   "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>Series {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+   "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+   "other": "{{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+   "one": "1 Серій",
+   "few": "{{.Count}} Серій",
+   "many": "{{.Count}} Серій"
+  },
+  "date_day": {
+   "other": "День"
+  },
+  "date_month": {
+   "other": "Місяць"
+  },
+  "date_year": {
+   "other": "Рік"
+  },
+  "404_page_header": {
+   "other": "Ця сторінка не існує..."
+  },
+  "404_page_content": {
+   "other": "<p>На жаль, сторінка, яку ви шукаєте, не існує.</p><p>Вона могла бути переміщена або видалена, чи, можливо, ви щось неправильно написали.</p><p>Спробуйте повернутися на головну сторінку, щоб знайти те, що ви шукаєте.</p><p><a href=\"/\">Назад на головну сторінку</a></p>"
+  },
+  "nav_homepage": {
+   "other": "ABC Cinemas"
+  },
+  "nav_signin": {
+   "other": "Увійти"
+  },
+  "nav_signup": {
+   "other": "Створити обліковий запис"
+  },
+  "nav_signed_in_as": {
+   "other": "Увійти через"
+  },
+  "nav_library": {
+   "other": "Моя бібліотека"
+  },
+  "nav_devices": {
+   "other": "Мої пристрої"
+  },
+  "nav_wishlist": {
+   "other": "Мій список"
+  },
+  "nav_account": {
+   "other": "Мій обліковий запис"
+  },
+  "nav_signout": {
+   "other": "Вийти"
+  },
+  "play_trailer": {
+   "other": "Трейлер"
+  },
+  "runtime_hours": {
+   "other": "г"
+  },
+  "runtime_minutes": {
+   "other": "хв"
+  },
+  "datetime_today": {
+   "other": "сьогодні {{.Date}}"
+  },
+  "datetime_tomorrow": {
+   "other": "завтра {{.Date}}"
+  },
+  "datetime_yesterday": {
+   "other": "вчора {{.Date}}"
+  },
+  "datetime_next": {
+   "other": "наступна {{.Date}}"
+  },
+  "datetime_last": {
+   "other": "остання {{.Date}}"
+  },
+  "search_control_placeholder": {
+   "other": "Пошук"
+  },
+  "search_control_submit": {
+   "other": "Шукати"
+  },
+  "play_button_watch": {
+   "other": "Дивитися"
+  },
+  "play_button_resume": {
+   "other": "Продовжити"
+  },
+  "social_media_buttons_title": {
+   "other": "Поділитися"
+  },
+  "accept_invite_page_header": {
+   "other": "Ласкаво просимо до"
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+   "other": "Здається, ви вже використали це запрошення. Спробуйте <a href=\"signin.html\">увійти</a>. Якщо ви забули свій пароль, ви можете <a href=\"forgotpassword.html\">скинути свій пароль</a>."
+  },
+  "acceptinvite_complete": {
+   "other": "Дякуємо. Ваш обліковий запис створено."
+  },
+  "acceptinvite_form_submit": {
+   "other": "Прийняти запрошення"
+  },
+  "acceptinvite_agreement": {
+   "other": "Натискаючи кнопку \"Прийняти запрошення\", ви погоджуєтесь, що прочитали та зрозуміли наші <a href=\"/page/terms-and-conditions/\" target=\"_blank\">правила &amp; умови</a> та <a href=\"/page/privacy/\" target=\"_blank\">правила захисту персональних даних</a>."
+  },
+  "signup_page_header": {
+   "other": "Створити новий обліковий запис"
+  },
+  "signup_form_name": {
+   "other": "Ім'я"
+  },
+  "signup_form_email": {
+   "other": "Електронна адреса"
+  },
+  "signup_form_password": {
+   "other": "Пароль"
+  },
+  "signup_form_password_confirmation": {
+   "other": "Підтвердити пароль"
+  },
+  "signup_form_gender": {
+   "other": "Стать"
+  },
+  "signup_form_dob": {
+   "other": "Дата народження"
+  },
+  "signup_form_submit": {
+   "other": "Зберегти"
+  },
+  "signin_page_header": {
+   "other": "Увійти"
+  },
+  "signin_form_email": {
+   "other": "Електронна адреса"
+  },
+  "signin_form_password": {
+   "other": "Пароль"
+  },
+  "signin_form_remember": {
+   "other": "Запам'ятати мене"
+  },
+  "signin_form_submit": {
+   "other": "Зберегти"
+  },
+  "signin_page_forgotpassword": {
+   "other": "Забули пароль?"
+  },
+  "signin_page_createnewaccount": {
+   "other": "Немає облікового запису? Створити новий обліковий запис"
+  },
+  "signup_page_alreadyhaveanaccount": {
+   "other": "Уже маєте обліковий запис? Увійти"
+  },
+  "signup_form_error_email_already_in_use": {
+   "other": "Ця електронна адреса вже використовується."
+  },
+  "signin_form_error_incorrect_credentials": {
+   "other": "Неправильне ім'я користувача або пароль."
+  },
+  "signin_form_error_ip_throttled": {
+   "other": "You have failed to sign in too many times. Please try again later."
+  },
+  "signin_form_error_account_suspended": {
+   "other": "Your account has been temporarily suspended. Please contact an admin if you believe this is in error."
+  },
+  "signup_form_error_forbidden": {
+   "other": "Сталася помилка."
+  },
+  "combined_auth_continue": {
+   "other": "Продовжити"
+  },
+  "combined_auth_change": {
+   "other": "змінити"
+  },
+  "combined_auth_signin": {
+   "other": "Увійти"
+  },
+  "combined_auth_signup": {
+   "other": "Створити обліковий запис"
+  },
+  "combined_auth_signin_password": {
+   "other": "Будь ласка, введіть свій пароль, щоб увійти у свій обліковий запис."
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+   "other": "Неправильний пароль."
+  },
+  "combined_auth_error_forbidden": {
+   "other": "Сталася помилка."
+  },
+  "forgotpassword_page_header": {
+   "other": "Скинути пароль"
+  },
+  "forgotpassword_form_email": {
+   "other": "Електронна адреса"
+  },
+  "forgotpassword_form_submit": {
+   "other": "Скинути"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+   "other": "За цією електронною адресою не здайдено жодного облікового запису."
+  },
+  "forgotpassword_form_error_account_suspended": {
+   "other": "Роботу облікового запису призупинено."
+  },
+  "forgotpassword_complete": {
+   "other": "Дякуємо. Електронний лист про скидання пароля незабаром прийде на вашу електронну адресу."
+  },
+  "forgotpassword_form_error_forbidden": {
+   "other": "Сталася помилка."
+  },
+  "resetpassword_page_header": {
+   "other": "Змінити пароль"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+   "other": "Схоже, цей запит на скидання пароля недійсний, заповніть форму <a href=\"{{.URL}}\">Змінити пароль</a> ще раз."
+  },
+  "resetpassword_form_password": {
+   "other": "Новий пароль"
+  },
+  "resetpassword_form_password2": {
+   "other": "Підтвердити новий пароль"
+  },
+  "resetpassword_form_submit": {
+   "other": "Змінити"
+  },
+  "resetpassword_complete": {
+   "other": "Дякуємо. Ваш пароль було змінено, і ви увійшли до свого облікового запису."
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+   "other": "Запит на скидання пароля недійсний. Будь ласка, спробуйте пізніше."
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+   "other": "Термін дії маркера скидання пароля закінчився. Будь ласка, запитайте новий."
+  },
+  "account_page_header": {
+   "other": "Мій обліковий запис"
+  },
+  "account_form_name": {
+   "other": "Ім'я"
+  },
+  "account_form_email": {
+   "other": "Електронна адреса"
+  },
+  "account_form_password": {
+   "other": "Пароль"
+  },
+  "account_form_change_password": {
+   "other": "Змінити"
+  },
+  "account_form_gender": {
+   "other": "Стать"
+  },
+  "account_form_dob": {
+   "other": "Дата народження"
+  },
+  "account_form_submit": {
+   "other": "Оновити"
+  },
+  "account_form_submitted": {
+   "other": "Оновлено"
+  },
+  "account_form_password_changed": {
+   "other": "Оновлено"
+  },
+  "account_form_error_incorrect_password": {
+   "other": "Неправильний пароль"
+  },
+  "account_form_pin_code": {
+   "other": "PIN"
+  },
+  "account_form_pin_code_not_set": {
+   "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles."
+  },
+  "account_form_set_pin": {
+   "other": "Set PIN"
+  },
+  "account_form_pin_changed": {
+   "other": "Updated"
+  },
+  "account_form_change_pin": {
+   "other": "Change PIN"
+  },
+  "user_set_pin_header": {
+   "other": "Set your PIN"
+  },
+  "user_set_pin_button": {
+   "other": "Set PIN"
+  },
+  "user_submit_pin_heading": {
+   "other": "Enter your PIN to {{.Action}} this restricted content"
+  },
+  "user_error_wrong_pin_retry": {
+   "other": "Oops, you have entered an incorrect PIN"
+  },
+  "user_error_too_many_pin_errors": {
+   "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>"
+  },
+  "user_submit_pin_button": {
+   "other": "Enter"
+  },
+  "user_reset_pin_button": {
+   "other": "Reset PIN"
+  },
+  "signup_form_optin": {
+   "other": "Підписатися на нашу безкоштовну розсилку"
+  },
+  "passwordconfirmation_modal_header": {
+   "other": "Підтвердити пароль"
+  },
+  "passwordconfirmation_modal_label": {
+   "other": "Будь ласка, введіть свій пароль, щоб оновити зміни"
+  },
+  "passwordconfirmation_modal_confirm": {
+   "other": "Підтвердити"
+  },
+  "changepassword_modal_header": {
+   "other": "Змінити пароль"
+  },
+  "changepassword_modal_currentpassword": {
+   "other": "Поточний пароль"
+  },
+  "changepassword_modal_password": {
+   "other": "Новий пароль"
+  },
+  "changepassword_modal_password2": {
+   "other": "Підтвердити новий пароль"
+  },
+  "changepassword_modal_submit": {
+   "other": "Оновити"
+  },
+  "changepassword_modal_error_incorrect_password": {
+   "other": "Невірний пароль"
+  },
+  "userlibrary_page_header": {
+   "other": "Моя бібліотека"
+  },
+  "userlibrary_empty_header": {
+   "other": "Ваша бібліотека порожня."
+  },
+  "userlibrary_empty_content": {
+   "other": "Заповніть її, <a href=\"/\">переглянувши</a> нашу колекцію."
+  },
+  "searchresults_page_header": {
+   "other": "Результати пошуку"
+  },
+  "searchresults_load_more": {
+   "few": "Завантажити ще {{.Count}}",
+   "many": "Завантажити ще {{.Count}}"
+  },
+  "searchresults_total": {
+   "one": "Знайдено 1 результат за запитом \"{{.Query}}\".",
+    "few": "Знайдено {{.Count}} результатів за запитом \"{{.Query}}\".",
+    "many": "Знайдено {{.Count}} результатів за запитом \"{{.Query}}\"."
+  },
+  "searchresults_empty_header": {
+   "other": "Результати пошуку за запитом \"{{.Query}}\" відсутні"
+  },
+  "searchresults_empty_content": {
+   "other": "Спробуйте інший запит пошуку або <a href=\"/\">перегляньте наш контент</a>, щоб знайти те, що ви шукаєте."
+  },
+  "validation_name_required": {
+   "other": "Будь ласка, введіть своє ім'я."
+  },
+  "validation_email_required": {
+   "other": "Будь ласка, введіть свою електронну адресу."
+  },
+  "validation_email_email": {
+   "other": "Будь ласка, введіть дійсну електронну адресу."
+  },
+  "validation_currentpassword_required": {
+   "other": "Будь ласка, введіть ваш дійсний пароль."
+  },
+  "validation_password_required": {
+   "other": "Будь ласка, введіть пароль."
+  },
+  "validation_password2_required": {
+   "other": "Будь ласка, продублюйте свій пароль."
+  },
+  "validation_password2_match": {
+   "other": "Паролі не співпадають."
+  },
+  "validation_password_minlength": {
+   "few": "Будь ласка, введіть щонайменше {{.Count}} символів.",
+   "many": "Будь ласка, введіть щонайменше {{.Count}} символів."
+  },
+  "validation_promocode_required": {
+   "other": "Будь ласка, введіть промокод."
+  },
+  "validation_pincode_required": {
+   "other": "Please enter a PIN code."
+  },
+  "validation_pincode1_required": {
+   "other": "Please enter a valid PIN code."
+  },
+  "validation_pincode2_required": {
+   "other": "Please enter a valid PIN code."
+  },
+  "validation_pincode1_pattern": {
+   "other": "Please enter a valid PIN code."
+  },
+  "validation_pincode2_pattern": {
+   "other": "Please enter a valid PIN code."
+  },
+  "validation_pincode2_match": {
+   "other": "PIN code does not match."
+  },
+  "validation_gender_required": {
+   "other": "Будь ласка, оберіть вашу стать."
+  },
+  "validation_dob_required": {
+   "other": "Будь ласка, введіть вашу дату народження."
+  },
+  "validation_dob_date": {
+   "other": "Будь ласка, введіть дійсну дату народження."
+  },
+  "shopping_info_subtitle_hd": {
+   "other": "HD відео за запитом."
+  },
+  "shopping_info_subtitle_sd": {
+   "other": "SD Video on Demand."
+  },
+  "shopping_info_subtitle_wallet": {
+   "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus."
+  },
+  "shopping_info_subtitle_help": {
+   "other": "Дивитися системні вимоги."
+  },
+  "shopping_info_ownership_buy": {
+   "other": "купити"
+  },
+  "shopping_info_ownership_rent": {
+   "other": "взяти напрокат"
+  },
+  "shopping_info_sd_only": {
+   "other": "Limited to SD playback only."
+  },
+  "shopping_info_release_date_title": {
+   "other": "Дата релізу {{.Date}}."
+  },
+  "shopping_info_release_date_explanation_rent": {
+   "other": "Ви можете взяти фільм напрокат вже зараз, але ви не зможете переглянути його до дати релізу."
+  },
+  "shopping_info_release_date_explanation_buy": {
+   "other": "Ви можете взяти фільм напрокат вже зараз, але ви не зможете переглянути його до дати релізу."
+  },
+  "shopping_info_available_until_date_title": {
+   "other": "Доступний до {{.Date}}."
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+   "other": "Ви не зможете переглянути контент після цього."
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+   "other": "Ви не зможете переглянути контент після цього."
+  },
+  "shopping_info_rental_period_duration": {
+   "few": "{{.Count}} день прокату",
+   "many": "{{.Count}} день прокату"
+  },
+  "shopping_info_watch_window_duration": {
+   "few": "{{.Count}}-годинне вікно відтворення.",
+   "many": "{{.Count}}-годинне вікно відтворення."
+  },
+  "shopping_info_watch_window_explanation_film": {
+   "one": "Після оформлення прокату, фільм буде доступний у вашому обліковому записі протягом 1 дня.",
+   "few": "Після оформлення прокату, фільм буде доступний у вашому обліковому записі протягом {{.Count}} днів. ",
+   "many": "Після оформлення прокату, фільм буде доступний у вашому обліковому записі протягом {{.Count}} днів. "
+  },
+  "shopping_info_watch_window_explanation2_film": {
+   "one": "Після натискання кнопки \"Дивитися\" відкривається вікно перегляду. У вас є 1 година, щоб переглянути фільм скільки завгодно разів.",
+   "few": "Після натискання кнопки \"Дивитися\" відкривається вікно перегляду. У вас є {{.Count}} годин(и), щоб переглянути фільм скільки завгодно разів.",
+   "many": "Після натискання кнопки \"Дивитися\" відкривається вікно перегляду. У вас є {{.Count}} годин(и), щоб переглянути фільм скільки завгодно разів."
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+   "one": "Після оформлення прокату, об'єкти в вашому комплекті будуть доступні у вашому обліковому записі протягом 1 дня.",
+   "few": "Після оформлення прокату, об'єкти в вашому комплекті будуть доступні у вашому обліковому записі протягом {{.Count}} днів.",
+   "many": "Після оформлення прокату, об'єкти в вашому комплекті будуть доступні у вашому обліковому записі протягом {{.Count}} днів."
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+   "one": "Після натискання кнопки \"Дивитися\" на сторінці фільму відкривається вікно перегляду. У вас є 1 година, щоб переглянути цей фільм скільки завгодно разів.",
+   "few": "Після натискання кнопки \"Дивитися\" на сторінці фільму відкривається вікно перегляду. У вас є {{.Count}} годин(и), щоб переглянути цей фільм скільки завгодно разів.",
+   "many": "Після натискання кнопки \"Дивитися\" на сторінці фільму відкривається вікно перегляду. У вас є {{.Count}} годин(и), щоб переглянути цей фільм скільки завгодно разів."
+  },
+  "shopping_info_watch_window_explanation_season": {
+   "one": "Після оформлення прокату, сезон буде доступний на вашому обліковому записі протягом 1 дня.",
+   "few": "Після оформлення прокату, сезон буде доступний на вашому обліковому записі протягом {{.Count}} днів. ",
+   "many": "Після оформлення прокату, сезон буде доступний на вашому обліковому записі протягом {{.Count}} днів. "
+  },
+  "shopping_info_watch_window_explanation2_season": {
+   "one": "Після натискання кнопки \"Дивитися\" у серії відкривається вікно перегляду. У вас є 1 година, щоб переглянути цю серію скільки завгодно разів.",
+   "few": "Після натискання кнопки \"Дивитися\" у серії відкривається вікно перегляду. У вас є {{.Count}} годин(и), щоб переглянути цю серію скільки завгодно разів.",
+   "many": "Після натискання кнопки \"Дивитися\" у серії відкривається вікно перегляду. У вас є {{.Count}} годин(и), щоб переглянути цю серію скільки завгодно разів."
+  },
+  "shopping_info_credit_bonus_title": {
+   "other": "{{.BonusPercentage}}% Бонус"
+  },
+  "shopping_enter_card_prompt": {
+   "other": "Введіть дані вашої банківської карти, щоб завершити {{.Verb}}."
+  },
+  "shopping_terms": {
+   "other": "Завершуючи цю транзакцію, я погоджуюся з <a href=\"/page/terms-and-conditions/\" target=\"_blank\" tabindex=\"-1\">умовами використання</a>."
+  },
+  "shopping_discount_applied": {
+   "other": "Застосована сума знижки {{.DiscountAmount}}."
+  },
+  "shopping_discount_apply": {
+   "other": "Застосувати"
+  },
+  "shopping_discount_code": {
+   "other": "Введіть промокод."
+  },
+  "shopping_discount_have_code": {
+   "other": "У мене є промокод."
+  },
+  "shopping_price_you_pay": {
+   "other": "Ви сплачуєте"
+  },
+  "shopping_price_nothing": {
+   "other": "Нічого"
+  },
+  "shopping_price_free": {
+   "other": "Безкоштовно"
+  },
+  "shopping_auth_directions": {
+   "other": "Потрібно увійти до облікового запису. Будь ласка, введіть свою електронну адресу."
+  },
+  "shopping_error_in_library": {
+   "other": "{{.Title}} уже додано до бібліотеки."
+  },
+  "shopping_error_missing_card": {
+   "other": "Будь ласка, введіть дані вашої банківської картки."
+  },
+  "shopping_error_title": {
+   "other": "Сталася помилка."
+  },
+  "shopping_error_incorrect_cvc": {
+   "other": "Будь ласка, введіть дійсний CVV."
+  },
+  "shopping_error_invalid_cvc": {
+   "other": "Будь ласка, введіть дійсний CVV."
+  },
+  "shopping_error_incorrect_number": {
+   "other": "Будь ласка, введіть дійсний номер банківської картки."
+  },
+  "shopping_error_invalid_number": {
+   "other": "Будь ласка, введіть дійсний номер банківської картки."
+  },
+  "shopping_error_card_declined": {
+   "other": "Банківська карта відхилена."
+  },
+  "shopping_error_invalid_expiry_month": {
+   "other": "Будь ласка, введіть дійсний термін дії картки."
+  },
+  "shopping_error_invalid_expiry_year": {
+   "other": "Будь ласка, введіть дійсний термін дії картки."
+  },
+  "shopping_error_expired_card": {
+   "other": "Термін дії банківської картки закінчився."
+  },
+  "shopping_error_creditcard_country_mismatch": {
+   "other": "Ваше {{.Ownership}} не встановлено. Ви маєте знаходитися в країні, де була випущена банківська картка. Будь ласка, використайте іншу картку для здійснення платежу."
+  },
+  "shopping_error_proxy_detected": {
+   "other": "Ваше {{.Ownership}} не встановлено. Здається ви використовуєте розблокувальник або проксі. Будь ласка, вимкніть ці сервіси та спробуйте ще раз."
+  },
+  "shopping_error_discount_worn_out": {
+   "other": "That promo code can no longer be used."
+  },
+  "shopping_error_discount_blank": {
+   "other": "Будь ласка, введіть промокод."
+  },
+  "shopping_error_discount_not_applied": {
+   "other": "Будь ласка, введіть дійсний промокод."
+  },
+  "shopping_error_discount_invalid": {
+   "other": "Будь ласка, введіть дійсний промокод."
+  },
+  "shopping_error_discount_disabled": {
+   "other": "Будь ласка, введіть дійсний промокод."
+  },
+  "shopping_error_discount_already_applied": {
+   "other": "Промокод уже був використаний для цього сеансу."
+  },
+  "shopping_error_discount_already_redeemed": {
+   "other": "Цей промокод уже був використаний."
+  },
+  "shopping_error_discount_used_previously": {
+   "other": "Цей промокод уже був використаний."
+  },
+  "shopping_error_discount_max_limit": {
+   "other": "Цей промокод більше не можна використовувати."
+  },
+  "shopping_error_discount_expired": {
+   "other": "Термін дії цього промокоду закінчився."
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+   "other": "Цей промокод не можна використовувати для придбання."
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+   "other": "Цей промокод не можна використовувати для прокату."
+  },
+  "shopping_error_discount_invalid_item": {
+   "other": "Цей промокод не може бути використаний з цим товаром."
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+   "other": "Цей промокод не може бути використаний у вашій країні."
+  },
+  "shopping_error_discounts_not_allowed": {
+   "other": "Цей промокод не може бути використаний."
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+   "other": "Цей промокод не може бути використаний для комплектів."
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+   "other": "Банківську картку відхилено. Спробуйте ще раз."
+  },
+  "shopping_complete_rental": {
+   "other": "Успішно!"
+  },
+  "shopping_complete_rental_period": {
+   "one": "Тепер ви можете переглядати фільм стільки раз, скільки забажаєте, протягом наступного дня.",
+   "few": "Тепер ви можете переглядати фільм стільки раз, скільки забажаєте, протягом наступних {{.Count}} днів.",
+   "many": "Тепер ви можете переглядати фільм стільки раз, скільки забажаєте, протягом наступних {{.Count}} днів."
+  },
+  "shopping_complete_purchase": {
+   "other": "Дякуємо за придбання фільму {{.Title}}."
+  },
+  "shopping_complete_credit_purchase": {
+   "other": "Дякуємо за придбання фільму {{.Title}}, сума {{.CreditTotal}} зарахована на ваш обліковий запис."
+  },
+  "shopping_complete_purchase_coming_soon": {
+   "other": "Ви зможете подивитися цей фільм з {{.Date}}."
+  },
+  "shopping_complete_receipt": {
+   "other": "Квиток відправлений на вашу електрону адресу."
+  },
+  "shopping_complete_library_link": {
+   "other": "Подивитися вашу бібліотеку"
+  },
+  "shopping_complete_rental_watch_window_start": {
+   "one": "Тепер ви можете почати дивитися фільм протягом наступного дня.",
+   "few": "Тепер ви можете почати дивитися фільм протягом наступних {{.Count}} днів.",
+   "many": "Тепер ви можете почати дивитися фільм протягом наступних {{.Count}} днів."
+  },
+  "shopping_complete_rental_watch_window_end": {
+   "one": "Коли розпочнеться показ, у вас буде одна година, щоб переглянути фільм скільки завгодно разів.",
+   "few": "Коли розпочнеться показ, у вас буде {{.Count}} годин(и), щоб переглянути фільм скільки завгодно разів.",
+   "many": "Коли розпочнеться показ, у вас буде {{.Count}} годин(и), щоб переглянути фільм скільки завгодно разів."
+  },
+  "shopping_complete_rental_coming_soon": {
+   "one": "Ви зможете переглянути фільм з {{.Date}}, а період прокату триватиме протягом одного дня.",
+   "few": "Ви зможете переглянути фільм з {{.Date}}, а період прокату триватиме протягом {{.Count}} днів.",
+   "many": "Ви зможете переглянути фільм з {{.Date}}, а період прокату триватиме протягом {{.Count}} днів."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+   "one": "Ви зможете переглянути фільм з {{.Date}}, а період прокату триватиме протягом одного дня.",
+   "few": "Ви зможете переглянути фільм з {{.Date}}, а період прокату триватиме протягом {{.Count}} днів.",
+   "many": "Ви зможете переглянути фільм з {{.Date}}, а період прокату триватиме протягом {{.Count}} днів."
+  },
+  "shopping_action_rent": {
+   "other": "Взяти напрокат"
+  },
+  "shopping_action_buy": {
+   "other": "Купити"
+  },
+  "meta_detail_cast_title": {
+   "other": "Акторський склад"
+  },
+  "meta_detail_crew_title": {
+   "other": "Знімальна група"
+  },
+  "meta_detail_languages": {
+   "one": "Мова",
+   "few": "Мови",
+   "many": "Мови",
+   "other": "Мови"
+  },
+  "meta_detail_studios": {
+   "one": "Студія",
+   "few": "Студія",
+   "many": "Студія",
+   "other": "Студії"
+  },
+  "meta_detail_countries": {
+    "one": "Країна",
+    "few": "Країна",
+    "many": "Країна",
+    "other": "Країни"
+  },
+  "meta_detail_subtitles": {
+   "other": "Субтитри"
+  },
+  "meta_detail_episodes_title": {
+   "other": "Епізоди"
+  },
+  "meta_detail_bonus_title": {
+   "other": "Бонусний контент"
+  },
+  "meta_detail_recommendations_title": {
+   "other": "Вам також може сподобатися"
+  },
+  "meta_detail_bundle_items_title": {
+   "other": "Контент, що входить до цього комплекту."
+  },
+  "bundle_items_all_films": {
+   "few": "{{.Count}} фільмів",
+   "many": "{{.Count}} фільмів"
+  },
+  "bundle_items_all_seasons": {
+   "few": "{{.Count}} сезонів",
+   "many": "{{.Count}} сезонів"
+  },
+  "bundle_items_mixed": {
+   "few": "{{.Count}} фільмів і сезонів",
+   "many": "{{.Count}} фільмів і сезонів"
+  },
+  "userwishlist_page_header": {
+   "other": "Мій список"
+  },
+  "userwishlist_slider_header": {
+   "other": "Мій список"
+  },
+  "userwishlist_empty_header": {
+   "other": "Ваш список порожній."
+  },
+  "userwishlist_empty_content": {
+   "other": "Заповніть його, <a href=\"/\">переглянувши</a> нашу колекцію."
+  },
+  "userwishlist_button_add": {
+   "other": "Додати до мого списку"
+  },
+  "userwishlist_button_remove": {
+   "other": "Мій список"
+  },
+  "userwishlist_button_add_compact": {
+   "other": "Мій список"
+  },
+  "userwishlist_button_remove_compact": {
+   "other": "Мій список"
+  },
+  "activatedevice_page_header": {
+   "other": "Activate Device"
+  },
+  "activatedevice_page_content": {
+   "other": "Follow the instructions on your device to get a PIN code. Your computer and device must both be connected to the internet to activate."
+  },
+  "activatedevice_form_pin": {
+   "other": "PIN Code"
+  },
+  "activatedevice_form_submit": {
+   "other": "Activate"
+  },
+  "activatedevice_form_error_invalid_code": {
+   "other": "PIN Code not found, please try again."
+  },
+  "activatedevice_form_error_pin_not_found": {
+   "other": "PIN Code not found, please try again."
+  },
+  "activatedevice_signin_prompt": {
+   "other": "Please sign in before activating your device."
+  },
+  "activatedevice_page_activated": {
+   "other": "Thank you for activating {{.DeviceName}}. You should now be able to browse your library on your television or device."
+  },
+  "userdevices_page_header": {
+   "other": "Пристрої"
+  },
+  "userdevices_page_content": {
+   "one": "Пристрої будуть автоматично додаватися під час їхнього використання. Ваш ліміт пристроїв – 1.",
+   "few": "Пристрої будуть автоматично додаватися під час їхнього використання. Ваш ліміт пристроїв – {{.Count}}.",
+   "many": "Пристрої будуть автоматично додаватися під час їхнього використання. Ваш ліміт пристроїв – {{.Count}}."
+  },
+  "userdevices_empty_content": {
+   "other": "Зараз у вас 0 зареєстрованих пристроїв."
+  },
+  "userdevices_header_type": {
+   "other": "Тип пристрою"
+  },
+  "userdevices_header_description": {
+   "other": "Опис"
+  },
+  "userdevices_device_added": {
+   "other": "Доданий {{.Date}}"
+  },
+  "userdevices_device_actions_delete": {
+   "other": "Видалити"
+  },
+  "userdevices_device_actions_cancel": {
+   "other": "Відмінити"
+  },
+  "userdevices_device_actions_confirm": {
+   "other": "Так, видалити пристрій"
+  },
+  "userdevices_device_deleted": {
+   "other": "(Видалений)"
+  },
+  "userdevices_delete_limits": {
+   "other": "You can remove {{.Limit}} device(s) from this list every {{.Period}} day(s)."
+  },
+  "userdevices_delete_limit_reached": {
+   "other": "You have reached this limit and can't remove any devices right now. You can delete a device in {{.Days}} day(s)."
+  },
+  "playlist_page_header": {
+   "other": "Playlist"
+  },
+  "playlist_sign_in_warning": {
+   "other": "Please sign in to watch live TV."
+  },
+  "playlist_share_title": {
+   "other": "Playlist"
+  },
+  "playlist_up_next_title": {
+   "other": "Up Next"
+  },
+  "pricing_ownership_buy": {
+   "other": "Купити"
+  },
+  "pricing_ownership_rent": {
+   "other": "Взяти напрокат"
+  },
+  "classification_intro": {
+   "other": "Класифікація:"
+  },
+  "classification_divider": {
+   "other": " - "
+  },
+  "classification_outro": {
+   "other": ""
+  },
+  "cookie_banner_message": {
+   "other": "Цей вебсайт використовує файли cookies, щоб забезпечити вам найкращий досвід користування. Продовжуючи відвідування сайту, ви погоджуєтесь з нашою <a href=\"/page/cookie-policy/\">політикою використання файлів cookies</a>."
+  },
+  "cookie_banner_accept": {
+   "other": "Я погоджуюсь"
+  },
+  "all_rights_reserved": {
+   "other": "Усі права захищені. Жодну частину цього вебсайту не можна відтворювати без нашої попередньої письмової згоди."
+  },
+  "users_gender_none": {
+   "other": "Не вказано"
+  },
+  "users_gender_female": {
+   "other": "Жіноча"
+  },
+  "users_gender_male": {
+   "other": "Чоловіча"
+  },
+  "users_gender_diverse": {
+   "other": "Різноманітна"
+  },
+  "users_gender_other": {
+   "other": "Інша"
+  },
+  "plan_label_owned": {
+   "other": ""
+  },
+  "pricing_quality_hd": {
+   "other": "pricing_quality_hd"
+  },
+  "pricing_quality_sd": {
+   "other": "pricing_quality_sd"
+  },
+  "pricing_quality_hd_only": {
+   "other": "pricing_quality_hd_only"
+  },
+  "pricing_quality_sd_only": {
+   "other": "pricing_quality_sd_only"
+  },
+  "shopping_card_save_card": {
+   "other": "Save this card for future use"
+  },
+  "shopping_card_button_change": {
+   "other": "Show all saved cards"
+  },
+  "shopping_card_existing_description": {
+   "other": "{{.Card.Brand}} ending in {{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+   "other": "(expires {{.Card.Expiry}})"
+  },
+  "shopping_card_existing_expired": {
+   "other": "(expired)"
+  },
+  "shopping_card_use_other": {
+   "other": "Use a new card"
+  },
+  "shopping_card_use_new_card": {
+   "other": "Change card"
+  },
+  "shopping_card_update_reason_none": {
+   "other": "shopping_card_update_reason_none"
+  },
+  "shopping_card_new_subscription": {
+   "other": "This card will saved and be charged regularly"
+  },
+  "shopping_card_change": {
+   "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>"
+  },
+  "shopping_info_ownership_plan": {
+   "other": "shopping_info_ownership_plan"
+  },
+  "shopping_price_title_plan": {
+   "other": "shopping_price_title_plan"
+  },
+  "shopping_price_plan_note": {
+   "other": "shopping_price_plan_note"
+  },
+  "shopping_price_plan_note_interval": {
+   "other": "shopping_price_plan_note_interval"
+  },
+  "shopping_enter_card_prompt_plan": {
+   "other": "shopping_enter_card_prompt_plan"
+  },
+  "shopping_action_credit": {
+   "other": "shopping_action_credit"
+  },
+  "shopping_action_plan": {
+   "other": "shopping_action_plan"
+  },
+  "shopping_complete_subscription": {
+   "other": "shopping_complete_subscription"
+  },
+  "shopping_complete_subscription_browse": {
+   "other": "shopping_complete_subscription_browse"
+  },
+  "shopping_info_rental_period_coming_soon": {
+   "other": "з дати та часу релізу."
+  },
+  "shopping_info_plan_offer": {
+   "other": "shopping_info_plan_offer"
+  },
+  "shopping_info_trial_period_offer": {
+   "other": "shopping_info_trial_period_offer"
+  },
+  "usersubscriptions_change_payment_method_change": {
+   "other": "usersubscriptions_change_payment_method_change"
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+   "other": "usersubscriptions_change_payment_method_modal_title"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+   "other": "usersubscriptions_change_payment_method_modal_submit"
+  },
+  "usersubscriptions_subscription_expiry": {
+   "other": "usersubscriptions_subscription_expiry"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+   "other": "usersubscriptions_subscription_status_cancelled"
+  },
+  "usersubscriptions_subscription_status_errored": {
+   "other": "usersubscriptions_subscription_status_errored"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+   "other": "usersubscriptions_subscription_status_past_due"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+   "other": "usersubscriptions_subscription_status_trialing"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+   "other": "usersubscriptions_subscription_unsubscribe"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+   "other": "usersubscriptions_unsubscribe_modal_cancel"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+   "other": "usersubscriptions_unsubscribe_modal_confirm"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+   "other": "usersubscriptions_unsubscribe_modal_title"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+   "other": "usersubscriptions_unsubscribe_modal_body"
+  },
+  "availability_coming_soon": {
+   "other": "Скоро у доступі"
+  },
+  "availability_renting": {
+   "other": "Прокат"
+  },
+  "availability_not_available": {
+   "other": "Не доступний для перегляду"
+  },
+  "availability_in_watch_window": {
+   "other": "Доступний для перегляду"
+  },
+  "availability_sold_out": {
+   "other": "Перегляд завершено"
+  },
+  "availability_available_till": {
+   "other": "Доступний для перегляду до {{.ExpiryDate}}"
+  },
+  "availability_not_available_in_country": {
+   "other": "Не доступний для перегляду"
+  },
+  "availability_available": {
+   "other": "Доступний з {{.ReleaseDate}}"
+  },
+  "availability_expires": {
+   "other": "Доступ буде закрито {{.Expiry}}"
+  },
+  "availability_expired": {
+   "other": "Доступ закритий"
+  },
+  "modal_cancel": {
+   "other": "Відмінити"
+  },
+  "play": {
+   "other": "Дивитися"
+  },
+  "combined_auth_signin_prompt": {
+   "other": "Увійти"
+  },
+  "combined_auth_signup_prompt": {
+   "other": "Підписатися"
+  },
+  "combined_auth_terms": {
+   "other": "Я погоджуюся з усіма <a href=\"/page/terms-and-conditions/\" target=\"_blank\">правилами &amp; умовами</a>."
+  },
+  "signup_terms": {
+   "other": "Я погоджуюся з усіма <a href=\"/page/terms-and-conditions/\" target=\"_blank\">правилами &amp; умовами</a>."
+  },
+  "validation_terms_required": {
+   "other": "Ви маєте погодитися з правилами та умовами."
+  },
+  "shopping_error_item_limit_exceeded": {
+   "other": "На жаль, перегляд фільму {{.Title}} завершено."
+  },
+  "changepincode_modal_header": {
+   "other": "Change your PIN"
+  },
+  "changepincode_modal_currentpassword": {
+   "other": "Your current password"
+  },
+  "changepincode_modal_pincode1": {
+   "other": "Your new 4 digit PIN"
+  },
+  "changepincode_modal_pincode2": {
+   "other": "Confirm your new 4 digit PIN"
+  },
+  "changepincode_modal_submit": {
+   "other": "Set PIN"
+  },
+  "changepincode_modal_error_wrong_password": {
+   "other": "That password is incorrect."
+  },
+  "user_set_pin_intro": {
+   "other": "You need a PIN to {{.Action}} restricted content"
+  },
+  "user_error_wrong_pin_reset": {
+   "other": "Click here to reset your PIN"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+   "other": ""
+  },
+  "shopping_error_age_restricted": {
+   "other": "This content is age restricted."
+  },
+  "shopping_error_close_button": {
+   "other": "OK"
+  }
+}

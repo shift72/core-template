@@ -1,8 +1,8 @@
 {
   "name": "core-template",
-  "version": "0.0.8",
-  "siteUrl": "https://staging-test.shift72.com",
-  "builderVersion": "0.15.6",
+  "version": "0.0.1",
+  "siteUrl": "https://staging-abccinemas.screenplus.co",
+  "builderVersion": "0.15.17",
   "defaultLanguage": "en",
   "languages": {
     "en": { "code": "en_AU", "name": "English" },
@@ -21,7 +21,12 @@
     "pl": { "code": "pl_PL", "name": "Polskie" },
     "se": { "code": "se_SE", "name": "Српски" },
     "nl": { "code": "nl_BE", "name": "Nederlands" },
-    "ja": { "code": "ja_JP", "name": "日本語"}
+    "ja": { "code": "ja_JP", "name": "日本語"},
+    "lt": { "code": "lt_LT", "name": "Lietuvių Kalba" },
+    "da": { "code": "da_DK", "name": "Dansk" },
+    "uk": { "code": "uk_UA", "name": "Український" },
+    "fi": { "code": "fi_FI", "name": "Suomi" }
+    
   },
   "siteRootPath": "site",
   "liveReload": {

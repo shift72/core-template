@@ -2,7 +2,7 @@
   "site_owner": { "other": "ABC Cinemas" },
   "nav_homepage": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Paramètres" },
-  "powered_by_name": { "other": "Shift72" },
+  "powered_by_name": { "other": "ScreenPlus" },
   "powered_by_url": { "other": "https://www.shift72.com" },
   "en": { "other": "Anglais" },
   "fr": { "other": "Français" },
@@ -172,12 +172,17 @@
   "validation_dob_required": { "other": "Veuillez saisir votre date de naissance." },
   "validation_dob_date": { "other": "Veuillez saisir une date de naissance valide." },
 
-  "availability_not_available_in_country": { "other": "Non disponible dans votre pays" },
+  "availability_not_available_in_country": { "other": "Non disponible" },
   "availability_coming_soon": { "other": "Bientôt disponible" },
   "availability_available_till": { "other": "Disponible jusqu’au {{.ExpiryDate}}" },
   "availability_available": { "other": "Disponible {{.ReleaseDate}}" },
+  "availability_sold_out": { "other": "Épuisé" },
   "availability_expires": { "other": "Expire {{.Expiry}}" },
+  "availability_expired": { "other": "Expiré"},
 
+  "modal_cancel": { "other": "Annuler" },
+
+  "validation_terms_required": { "other": "Veuillez lire et accepter nos termes et conditions." },
 
   "shopping_info_subtitle_hd": { "other": "Vidéo HD à la demande." },
   "shopping_info_subtitle_sd": { "other": "Vidéo SD à la demande." },
@@ -187,7 +192,7 @@
   "shopping_info_ownership_rent": { "other": "location" },
 
   "shopping_info_sd_only": { "other": "Limité à la lecture SD uniquement." },
-  "shopping_info_release_date_title": { "other": "Disponible le {{.Date}}. " },
+  "shopping_info_release_date_title": { "other": "Disponible {{.Date}}. " },
   "shopping_info_release_date_explanation_rent": { "other": "Vous pouvez acheter votre billet maintenant, mais vous ne pourrez pas le regarder jusque-là." },
   "shopping_info_release_date_explanation_buy": { "other": "Vous pouvez l'acheter maintenant, mais vous ne pourrez pas le regarder jusque-là." },
 
@@ -197,8 +202,8 @@
 
   "shopping_info_rental_period_coming_soon": { "other": "Bientôt disponible" },
 
-  "shopping_info_rental_period_duration": { "other": "Location pour {{.Count}} jour " },
-  "shopping_info_watch_window_duration": { "other": "Fenêtre de lecture de {{.Count}} heures. " },
+  "shopping_info_rental_period_duration": { "other": "Location pour {{.Count}} jours " },
+  "shopping_info_watch_window_duration": { "other": "Fenêtre de lecture est de {{.Count}} heures. " },
   "shopping_info_watch_window_explanation_film": {
     "one": "Une fois loué, votre film sera disponible sur votre compte pendant une journée.",
     "other": "Une fois loué, votre film sera disponible sur votre compte pendant {{.Count}} jours."
@@ -300,6 +305,13 @@
 
   "shopping_action_rent": { "other": "Location" },
   "shopping_action_buy": { "other": "Acheter" },
+
+  "shopping_payment_method_header": { "other": "Méthodes de paiement" },
+  "shopping_payment_method_credit_card": { "other": "Carte de crédit" },
+  "shopping_payment_method_giropay": { "other": "Giropay (Allemagne)" },
+  
+  "shopping_error_stripe_unknown_error": { "other": "Il y a eu une erreur avec ce paiement. Veuillez réessayer plus tard." },
+  "shopping_error_payment_complete_failed": { "other": "Ce paiement a été rejeté. Fermez cette fenêtre et réessayez." },
 
   "meta_detail_cast_title": { "other": "Casting" },
   "meta_detail_crew_title": { "other": "Équipe" },

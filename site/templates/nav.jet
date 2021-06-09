@@ -6,7 +6,7 @@
   <div class="navbar-brand-container">
     <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
   </div>
-    <nav class="navbar">
+    <nav class="navbar" aria-label="{{i18n("wcag_aria_label_nav_main")}}">
 
 
       {{if config("search_disabled") != "true"}}

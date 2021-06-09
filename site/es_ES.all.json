@@ -152,7 +152,7 @@
   "userlibrary_empty_content": { "other": "Llénala <a href=\"{{.HomeURL}}\">navegando</a> la programación." },
 
   "searchresults_page_header": { "other": "Resultados de la búsqueda" },
-  "searchresults_load_more": { "other": "Cargar {{.Count }} más" },
+  "searchresults_load_more": { "other": "Cargar {{.Count}} más" },
   "searchresults_total": {
     "one": "Encontrado 1 resultado para \"{{.Query}}\".",
     "other": "Encontrado {{.Count}} resultados para \"{{.Query}}\"."
@@ -296,6 +296,13 @@
   "shopping_action_rent": { "other": "Alquilar" },
   "shopping_action_buy": { "other": "Comprar" },
 
+  "shopping_payment_method_header": { "other": "Métodos de pago" },
+  "shopping_payment_method_credit_card": { "other": "Tarjeta de crédito" },
+  "shopping_payment_method_giropay": { "other": "Giropay (Alemania) " },
+  
+  "shopping_error_stripe_unknown_error": { "other": "Hubo un error con este pago. Por favor, intente más tarde." },
+  "shopping_error_payment_complete_failed": { "other": "Este pago fue rechazado. Cierre esta ventana e inténtelo de nuevo." },
+
   "meta_detail_cast_title": { "other": "Emitir" },
   "meta_detail_crew_title": { "other": "Equipo" },
   "meta_detail_languages": { "one": "Idioma", "other": "Idiomas" },
@@ -354,21 +361,26 @@
   "classification_divider": { "other": " - " },
   "classification_outro": { "other": "" },
 
-  "cookie_banner_message": { "other": "Este sitio utiliza cookies para mejorar su experiencia. Al utilizar este sitio, usted acepta nuestro <a href=\"{{.CookiePolicyURL}}\"> uso de Cookies </a>." },
+  "cookie_banner_message": { "other": "“Este sitio usa cookies para mejorar tu experiencia. Haciendo uso del sitio, usted acepta nuestra <a href=\"{{.CookiePolicyURL}}\">política de uso de cookies</a>." },
   "cookie_banner_accept": { "other": "Acepto" },
 
   "all_rights_reserved": { "other": "Todos los derechos reservados. Ninguna parte de este sitio puede ser reproducido sin nuestro permiso por escrito." },
 
-  "availability_not_available_in_country": { "other": "No disponible en tu país" },
+  "availability_not_available_in_country": { "other": "No disponible" },
   "availability_coming_soon": {"other": "Próximamente"},
+  "availability_sold_out": { "other": "Agotada" },
   "availability_available": {"other": "Disponible {{.ReleaseDate}}"},
   "availability_available_till": {"other": "Disponible hasta {{.ExpiryDate}}"},
+  "availability_expires": { "other": "Caducó {{.Expiry}}" },
+  "availability_expired": { "other": "Caducada"},
 
-  "signup_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
+  "signup_terms": { "other": "Acepto todos <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">términos y condiciones</a>." },
 
-  "combined_auth_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
+  "combined_auth_terms": { "other": "Acepto todos <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">términos y condiciones</a>." },
+  "validation_terms_required": { "other": "Es necesario aceptar los términos y condiciones para continuar." },
 
   "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+  "shopping_info_rental_period_coming_soon": { "other": "a partir de la fecha y la hora de la publicación." },
 
   "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
 }

@@ -17,7 +17,7 @@
 {{end}}
 
 {{block body()}}
-  <div class="page page-film meta-detail meta-detail-film">
+  <main id="main" class="page page-film meta-detail meta-detail-film">
     <div class="meta-detail-bg">
       <div class="right-gradient"></div>
       <s72-image src="{{film.Images.Background}}" alt="" class="meta-detail-bg-img"></s72-image>
@@ -46,6 +46,7 @@
           <div class="meta-detail-buttons">
             <s72-play-button data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-play-button>
             <s72-pricing-buttons data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-pricing-buttons>
+            <can-be-watched-button data-slug="{{film.Slug}}" data-url="{{ film.CustomFields.GetString("can_be_watched_button_link", "") }}" data-label="{{ film.CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text") }}"></can-be-watched-button>
           </div>
           {{if config("default_image_type") != "portrait"}}
             <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
@@ -62,7 +63,7 @@
           </div>
           <div class="meta-detail-cast">
           {{if len(film.Cast) > 0 }}
-            <h3>{{i18n("meta_detail_cast_title")}}</h3>
+            <h2>{{i18n("meta_detail_cast_title")}}</h2>
           {{end}}
             <p>
               {{range index, member := film.Cast}}
@@ -74,7 +75,7 @@
           <div class="meta-detail-crew d-flex">
             {{range index, member := film.Crew}}
               <div class="crew-member">
-                <h4>{{member.Job}}</h4>
+                <h2>{{member.Job}}</h2>
                 {{ path := "/search.html?q=" + member.Name }}
                 <a href="{{ routeToPath(path) }}">{{member.Name}}</a>
               </div>
@@ -82,25 +83,25 @@
           </div>
           {{if len(film.Languages) > 0 }}
             <div class="meta-detail-language">
-              <h4>{{i18n("meta_detail_languages", len(film.Languages))}}</h4>
+              <h2>{{i18n("meta_detail_languages", len(film.Languages))}}</h2>
               <p>{{ film.Languages }}</p>
             </div>
           {{end}}
           {{if len(film.GetSubtitles()) > 0 }}
             <div class="meta-detail-subtitle">
-              <h4>{{i18n("meta_detail_subtitles")}}</h4>
+              <h2>{{i18n("meta_detail_subtitles")}}</h2>
               <p>{{ film.GetSubtitles() }}</p>
             </div>
           {{end}}
           {{if len(film.Countries) > 0 }}
             <div class="meta-detail-country">
-              <h4>{{i18n("meta_detail_countries", len(film.Countries))}}</h4>
+              <h2>{{i18n("meta_detail_countries", len(film.Countries))}}</h2>
               <p>{{ film.Countries }}</p>
             </div>
           {{end}}
           {{if len(film.Studio) > 0 }}
             <div class="meta-detail-studio">
-              <h4>{{i18n("meta_detail_studios", len(film.Studio))}}</h4>
+              <h2>{{i18n("meta_detail_studios", len(film.Studio))}}</h2>
               {*{ FORMAT STUDIOS }*}
               {{ studios := "" }}
               {{ range studio := film.Studio }}
@@ -113,8 +114,8 @@
             </div>
           {{end}}
           {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}
-            <div class="meta-detail-bonus-content">
-              <h4>{{i18n("meta_detail_bonus_title")}}</h4>
+            <section class="meta-detail-bonus-content" aria-label="{{i18n("meta_detail_bonus_title")}}">
+              <h2>{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := film.Bonuses}}
                   <div class="bonus-item">
@@ -122,7 +123,7 @@
                   </div>
                 {{end}}
               {{end}}
-            </div>
+            </section>
           </div>
         {{end}}
         </div>
@@ -130,7 +131,7 @@
     </div>
 
     {{if len(film.Recommendations) > 0 }}
-    <div class="page-collection recommendations-collection">
+    <section class="page-collection recommendations-collection" aria-label="{{i18n("meta_detail_recommendations_title")}}">
       <div class="swiper-wrapper-container">
         {{if config("default_image_type") == "portrait"}}
           <div class="swiper-container" data-items-per-row="6" data-layout="portrait">
@@ -138,7 +139,7 @@
           <div class="swiper-container" data-items-per-row="4" data-layout="landscape">
         {{end}}
           <div class="swiper-title">
-              <h3>{{i18n("meta_detail_recommendations_title")}}</h3>
+              <h2>{{i18n("meta_detail_recommendations_title")}}</h2>
           </div>
           <div class="swiper-wrapper">
             {{range item := film.Recommendations}}
@@ -151,7 +152,7 @@
         <div class="swiper-button-prev swiper-button-white"></div>
         <div class="swiper-button-next swiper-button-white"></div>
       </div>
-    </div>
+    </section>
     {{ end }}
-  </div>
+  </main>
 {{end}}

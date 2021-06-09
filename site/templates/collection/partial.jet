@@ -1,5 +1,5 @@
 <div class="partial partial-collection">
-  <a href="{{routeToSlug(collection.Slug)}}" class="meta-item-link">
+  <a href="{{routeToSlug(collection.Slug)}}" class="meta-item-link" aria-label="{{collection.Title}}">
 
     {{if config("default_image_type") == "portrait"}}
       <div class="poster poster-portrait">

@@ -93,7 +93,7 @@
   "signin_form_password": { "other": "Password" },
   "signin_form_remember": { "other": "Ricordami" },
   "signin_form_submit": { "other": "Invia" },
-  "signin_page_forgotpassword": { "other": "Hai dimenticato la tua password?" },
+  "signin_page_forgotpassword": { "other": "Hai dimenticato la password?" },
   "signin_page_createnewaccount": { "other": "Non hai un account utente? Creane uno nuovo" },
   "signup_page_alreadyhaveanaccount": { "other": "Hai già un Account? Accedi qui" },
   "signup_form_error_email_already_in_use": { "other": "L'indirizzo email è già in uso." },
@@ -152,7 +152,7 @@
 
   "userlibrary_page_header": { "other": "I miei Film" },
   "userlibrary_empty_header":  { "other": "Non hai Film." },
-  "userlibrary_empty_content": { "other": "Fill it by <a href=\"{{.HomeURL}}\">browsing</a> our great selection." },
+  "userlibrary_empty_content": { "other": "Scegli un titolo <a href=\"{{.HomeURL}}\">sfogliando</a> la nostra grande selezione." },
 
   "searchresults_page_header": { "other": "Risultati della ricerca" },
   "searchresults_load_more": { "other": "Carica altri {{.Count}}" },
@@ -197,16 +197,16 @@
   "shopping_info_rental_period_coming_soon": { "other": "dalla data e ora della pubblicazione." },
   "shopping_info_watch_window_duration": { "other": "Finestra di riproduzione: {{.Count}} ore. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Una volta noleggiato, il film sarà disponibile nel vostro account per 1 giorno. ",
-    "other": "Una volta noleggiato, il film sarà disponibile nel vostro account per {{.Count}} giorni. "
+    "one": "Una volta noleggiato, il film sarà disponibile nel tuo account per 1 giorno. ",
+    "other": "Una volta noleggiato, il film sarà disponibile nel tuo account per {{.Count}} giorni. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Once you press play, the watch window begins and you have an hour to watch the film as many times as you like.",
     "other": "Una volta premuto play, inizia la finestra di riproduzione e avete {{.Count}} ore di tempo per completare la visione e guardare il film tutte le volte che vorrete."
   },
   "shopping_info_watch_window_explanation_bundle": {
-    "one": "Una volta noleggiati, gli oggetti del vostro bundle saranno disponibili nel vostro account utente per 1 giorno. ",
-    "other": "Una volta noleggiati, gli oggetti del vostro bundle saranno disponibili nel vostro account utente per {{.Count}} giorni "
+    "one": "Una volta noleggiati, gli oggetti del vostro bundle saranno disponibili nel tuo account utente per 1 giorno. ",
+    "other": "Una volta noleggiati, gli oggetti del vostro bundle saranno disponibili nel tuo account utente per {{.Count}} giorni "
   },
   "shopping_info_watch_window_explanation2_bundle": {
     "one": "Once you press play on a specific film, the watch window begins and you have an hour to watch that film as many times as you like.",
@@ -300,6 +300,13 @@
   "shopping_action_rent": { "other": "Noleggia" },
   "shopping_action_buy": { "other": "Acquista" },
 
+  "shopping_payment_method_header": { "other": "Metodi di pagamento" },
+  "shopping_payment_method_credit_card": { "other": "Carta di credito" },
+  "shopping_payment_method_giropay": { "other": "Giropay (Germania)" },
+  
+  "shopping_error_stripe_unknown_error": { "other": "Con questo pagamento qualcosa non ha funzionato. Si prega di riprovare più tardi." },
+  "shopping_error_payment_complete_failed": { "other": "Il pagamento è stato rifiutato. Chiudi la finestra e riprova." },
+
   "meta_detail_cast_title": { "other": "Cast" },
   "meta_detail_crew_title": { "other": "Crew" },
   "meta_detail_languages": { "one": "Lingua", "other": "Lingua" },
@@ -367,7 +374,7 @@
   "availability_renting": { "other": "Noleggiato" },
   "availability_available_till": { "other": "Disponibile fino {{.ExpiryDate}}" },
   "availability_not_available_in_country": { "other": "Non Disponibile" },
-  "availability_expires": { "other": "Scade {{.Expiry}}" },
+  "availability_expires": { "other": "Scaduto il {{.Expiry}}" },
   "availability_expired": { "other": "Scaduto" },
   "availability_coming_soon": { "other": "Presto Disponibile" },
   "availability_not_available": { "other": "Non Disponibile" },
