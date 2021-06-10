@@ -1,10 +1,11 @@
 @import '_variables';
 
 @import '_bootstrap4';
+@import '_mixins';
 @import '_shift72';
 @import 'node_modules/font-awesome/scss/font-awesome';
 
-@import '_mixins';
+
 @import '_icons';
 @import '_buttons';
 @import '_pages';
@@ -357,3 +358,4 @@ s72-classification-label {
 h1, h2, h3, h4, h5, h6, p, .title {
   word-wrap: break-word;
 }
+
