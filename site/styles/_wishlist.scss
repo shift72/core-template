@@ -11,6 +11,9 @@
   // text-align: center;
   // margin-top: -50px;
   flex: 1;
+  a {
+    @include a;
+  }
 }
 
 // dont show empty wishlist message on homepage slider

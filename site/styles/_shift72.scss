@@ -122,7 +122,12 @@
 .s72-form-control { @extend .form-control; }
 .s72-form-group { @extend .form-group; }
 .s72-form-check { @extend .form-check; }
-.s72-form-check-label { @extend .form-check-label; }
+.s72-form-check-label { 
+  @extend .form-check-label; 
+    span a{
+      @include a;
+    }
+}
 .s72-form-check-input { @extend .form-check-input; }
 
 .s72-form-control-readonly,
