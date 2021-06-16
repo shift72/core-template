@@ -17,22 +17,20 @@ TODO - SHIFT72-WEB
   display: flex;
   flex-direction: column;
   @extend .top-gradient-bg;
-  height: ($navbar-brand-padding-y * 2) + 40px;
+  height: $navbar-nav-height;
 }
 
 .navbar {
-  position: absolute;
-  top: 0;
-  right: 0;
+  padding: 0 20px;
+  position: relative;
   z-index: 11;
   width: 100%;
   height: 100%;
-  padding: 70px 20px 20px 20px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   align-content: flex-start;
-  flex-direction: column;
+  flex-direction: row;
   background-color: $navbar-background-color;
   transition: background-color 0.25s ease-out;
   max-height: 100%;
@@ -41,21 +39,25 @@ TODO - SHIFT72-WEB
     width: 100%;
   }
   @include media-breakpoint-up(md) {
-    position: absolute;
     justify-content: flex-end;
     overflow: visible;
-    padding: 20px 50px 15px 50px;
+    padding: 20px 50px;
     align-items: center;
     flex-direction: row;
-    max-height: 100%;
     flex-wrap: wrap;
+    max-height: none;
+    height: auto;
   }
 }
 
 .navigation.show .navbar {
+  flex-direction: column;
   position: fixed;
+  right: 0;
+  top: 0;
+  padding-bottom: 20px;
   min-height: 100%;
-  background-color: $body-bg-light; 
+  background-color: $body-bg-light;
   height: auto;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -73,9 +75,11 @@ TODO - SHIFT72-WEB
   }
   
   // Slide in animation for mobile nav
+  /*
   s72-language-selector, .navbar-nav, .sub-nav {
     animation: slidein 300ms;
   }
+  */
 
   @include media-breakpoint-up(sm) {
     max-width: 384px;
@@ -100,26 +104,31 @@ TODO - SHIFT72-WEB
 
 /*** HAMBURGER MENU TOGGLER ***/
 
-.navbar-toggler {
-  position: absolute;
-  top: 20px;
-  height: $navbar-brand-padding-y * 2;
-  right: 20px;
+.navbar-toggler-container {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: $navbar-nav-height;
   z-index: 10;
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+}
+.navbar-toggler {
+  width: 24px;
+  height: 16px;
+  position: relative;
   padding: 0;
   &:focus {
     outline: none;
-  }
-  @include media-breakpoint-up(md) {
-    display: none;
   }
   .icon-navbar-toggler {
     display: none;
   }
   span {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    position: absolute;
     right: 0;
     height: 2px;
     width: 24px;
@@ -129,13 +138,21 @@ TODO - SHIFT72-WEB
     transform: rotate(0deg);
     transition: 0.15s ease-in-out;
   }
-  .hamburger-top, .hamburger-middle {
-    margin-bottom: 5px;
+
+  .hamburger-top {
+    top: 0px;
   }
+  .hamburger-middle {
+    top: 7px;
+  }
+  .hamburger-bottom {
+    top: 14px;
+  }
+
 }
 .navigation.show {
-  .navbar-toggler {
-    position: fixed;
+  .navbar-toggler-container {
+    align-self: flex-end;
   }
   span {
     width: 20px;
@@ -155,7 +172,18 @@ TODO - SHIFT72-WEB
 /*** LOGO ***/
 
 .navbar-brand-container {
-  position: absolute;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  @include media-breakpoint-up(md) {
+    width: auto;
+    padding-bottom: 0;
+  } 
+}
+/*
+.navbar-brand-container {
+  position: relative;
   top: 20px;
   left: 20px;
   display: flex;
@@ -167,6 +195,9 @@ TODO - SHIFT72-WEB
     padding-bottom: 0;
   } 
 }
+*/
+
+
 .navbar-brand {
   min-width: $navbar-brand-min-width;
   z-index: 9;
@@ -191,10 +222,23 @@ TODO - SHIFT72-WEB
     min-width: $navbar-brand-min-width-xl;
   }
 }
-.navigation.show .navbar-brand {
-  visibility: hidden;
-  @include media-breakpoint-up(sm) {
-    visibility: visible;
+.navbar-brand-container-tablet {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  opacity: 0.5;
+}
+.navigation.show .navbar-brand-container-tablet {
+  @include media-breakpoint-between(sm, md) {
+    display: block;
+  }
+}
+.navigation.show .navbar-brand-container {
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: flex;
   }
 }
 
@@ -203,12 +247,10 @@ TODO - SHIFT72-WEB
 .navbar-nav-search {
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 0;
-  right: 70px;
-
+  position: relative;
+  
   // TODO - Needs a max height so the search isn't huge with tall logo's
-  height: 40px + ($navbar-brand-padding-y * 2);
+  height: $navbar-nav-height;
   width: 24px;
   margin-right: 0;
   border-bottom: 1px solid transparent;
@@ -274,7 +316,7 @@ TODO - SHIFT72-WEB
     .form-control-search {
       border-bottom: 1px solid $body-color;
     }
-    height: 40px + ($navbar-brand-padding-y * 2);
+    height: $navbar-nav-height;
     width: 100%;
     background-color: $body-bg-light;
     position: absolute;

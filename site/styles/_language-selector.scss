@@ -24,6 +24,9 @@ s72-language-selector {
       padding-right: 10px;
       font-size: 20px;
     }
+    &:focus {
+      color: $primary;
+    }
   }
   .s72-dropdown-menu {
     left: auto;
@@ -31,6 +34,7 @@ s72-language-selector {
   &:hover, .s72-dropdown-item:hover {
     cursor: pointer;
   }
+
   .s72-language-selector {
     margin: 0;
     padding: 10px 0;
