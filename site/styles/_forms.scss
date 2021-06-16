@@ -90,8 +90,8 @@ s72-activatedevice-form,
   @extend .d-flex;
   flex-direction: row;
   justify-content: space-between;
-  .s72-form-control {
-    width: auto;
+  .s72-datepicker-day, .s72-datepicker-year {
+    flex-shrink: 0;
   }
 }
 // Form Control Default
