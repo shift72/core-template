@@ -9,4 +9,9 @@
   text-align: center;
   // margin-top: -50px;
   flex: 1;
+  .s72-userlibrary-empty-content {
+		a {
+		  @include a;
+		}
+	}
 }
