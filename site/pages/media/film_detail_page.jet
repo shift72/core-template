@@ -1,0 +1,12 @@
+{{ extends "../application.jet" }}
+
+{{ import "../../components/molecules/background_image.jet" }}
+
+{{ import "../../components/templates/film_detail.jet" }}
+
+{{block body()}}
+  <main id="main" class="page page-film meta-detail meta-detail-film">
+    {{ yield backgroundImage(containerClass="meta-detail-bg", gradientClass="right-gradient", imageSrc=film.Images.Background, imageAlt="", imageClass="meta-detail-bg-img") }}
+    {{ yield filmDetail() }}
+  </main>
+{{end}}

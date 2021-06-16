@@ -1,0 +1,9 @@
+{{ import "../atoms/gradient.jet" }}
+{{ import "../atoms/s72_image.jet" }}
+
+{{ block backgroundImage(containerClass, gradientClass, imageSrc, imageAlt, imageClass) }}
+  <div class="{{ containerClass }}">
+    {{ yield gradient(class=gradientClass) }}
+    {{ yield s72Image(src=imageSrc, alt=imageAlt, class=imageClass) }}
+  </div>
+{{ end }}

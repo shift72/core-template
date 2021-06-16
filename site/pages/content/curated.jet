@@ -1,0 +1,12 @@
+{{ extends "../application.jet" }}
+
+{{ import "../../components/molecules/background_image.jet" }}
+
+{{ import "../../components/templates/curated_page.jet" }}
+
+{{ block body() }}
+  <main id="main" class="page {{page.PageType}}-page">
+    {{ yield backgroundImage(containerClass="page-bg", gradientClass="right-gradient", imageSrc=page.Images.Background, imageAlt="", imageClass="page-bg-img") }}
+    {{ yield curatedPage() }}
+  </main>
+{{ end }}

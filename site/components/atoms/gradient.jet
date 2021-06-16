@@ -1,0 +1,3 @@
+{{ block gradient(class) }}
+  <div class="{{ class }}"></div>
+{{ end }}
