@@ -3,12 +3,12 @@
 {{ import "./nav.jet" }}
 
 {{ block footer() }}
-	{*{ ID is used for skip links. }*}
-	<footer id="footer">
-		{{ yield footerBrand() }}
+  {*{ ID is used for skip links. }*}
+  <footer id="footer">
+    {{ yield footerBrand() }}
 
-		{{ yield footerNav(navLinks=site.Navigation.Footer) }}
+    {{ yield footerNav(navLinks=site.Navigation.Footer) }}
 
-		{{ yield footerInfo() }}
-	</footer>
+    {{ yield footerInfo() }}
+  </footer>
 {{ end }}
