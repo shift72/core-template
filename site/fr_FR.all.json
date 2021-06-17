@@ -2,8 +2,12 @@
   "site_owner": { "other": "ABC Cinemas" },
   "nav_homepage": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Paramètres" },
+  "powered_by": { "other": "Powered by" },
   "powered_by_name": { "other": "ScreenPlus" },
-  "powered_by_url": { "other": "https://www.shift72.com" },
+  "powered_by_url": { "other": "https://www.screenplus.com" },
+  "in_partnership_with": { "other": "in partnership with" },
+  "festival_scope": { "other": "Festival Scope" },
+  "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
   "en": { "other": "Anglais" },
   "fr": { "other": "Français" },
 
