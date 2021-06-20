@@ -44,8 +44,8 @@
 
 
   "nav_homepage": { "other": "ABC Cinemas" },
-  "nav_signin": { "other": "Log In" },
-  "nav_signup": { "other": "Sign Up" },
+  "nav_signin": { "other": "Sign In" },
+  "nav_signup": { "other": "Create Account" },
   "nav_signed_in_as": { "other": "Signed in as" },
   "nav_library": { "other": "My Library" },
   "nav_devices": { "other": "My Devices" },

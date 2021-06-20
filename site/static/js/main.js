@@ -442,7 +442,7 @@ function searchShow() {
   var searchButton = document.querySelector('.search-open');
   var searchForm = document.querySelector('.form-control-search');
 
-  searchButton.addEventListener('focusin', function(e) {
+  searchButton.addEventListener('click', function(e) {
     document.querySelector('.form-control-search').focus();
     document.querySelector('.navbar-nav-search').classList.add('search-show');
     document.querySelector('.navbar-nav-search').classList.remove('search-hidden');
@@ -457,19 +457,16 @@ function searchShow() {
 function navToggle() {
   var nav = document.querySelector('.navbar-toggler');
     nav.addEventListener('click', function(e) {
-    console.log('clicked');
     noScroll();
   });
 }
 
 function noScroll() {
   var body = document.querySelector('body');
-  if (!body.classList.contains('noscroll')) {
-    body.classList.add('noscroll');
-    console.log('added');
+  if (!body.classList.contains('no-scroll')) {
+    body.classList.add('no-scroll');
   } else {
-    console.log('removed');
-    body.classList.remove('noscroll');
+    body.classList.remove('no-scroll');
   }
 }
 

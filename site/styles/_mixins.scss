@@ -25,28 +25,25 @@
 }
 
 @keyframes slidein {
-    0% {
-        visibility: visible;
-      opacity: 0;
-    }
-    30% {
-      opacity: 0; 
-      transform: translateX(40px);
-    }
-    100% {
-      opacity: 1; 
-      transform: translateX(0px);
-    }
+  0% {
+    visibility: visible;
+    opacity: 0;
   }
+  30% {
+    opacity: 0; 
+    transform: translateX(40px);
+  }
+  100% {
+    opacity: 1; 
+    transform: translateX(0px);
+  }
+}
 
-@keyframes slideout {
-    0% {
-        opacity: 1;
-    }
-    99% {
-        opacity: 0;
-    }
-    100% {
-        visibility: hidden;
-    }
+@keyframes fade-in {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: $body-bg-light;
+  }
 }

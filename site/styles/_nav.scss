@@ -61,34 +61,25 @@ TODO - SHIFT72-WEB
   height: auto;
   overflow-y: scroll;
   overflow-x: hidden;
-  @include media-breakpoint-down(sm) {
-    animation: fade-in 0.25s;
-    animation-fill-mode: forwards;
-  }
-  @keyframes fade-in {
-    0% {
-      background-color: transparent;
-    }
-    100% {
-      background-color: $body-bg-light;
-    }
-  }
-  
-  // Slide in animation for mobile nav
-  /*
-  s72-language-selector, .navbar-nav, .sub-nav {
-    animation: slidein 300ms;
-  }
-  */
 
   @include media-breakpoint-up(sm) {
     max-width: 384px;
   }
   @include media-breakpoint-up(md) {
+    flex-direction: row;
     position: absolute;
     background-color: transparent;
     max-width: 100%;
     min-height: auto;
+  }
+
+  @include media-breakpoint-down(sm) {
+    animation: fade-in 0.25s;
+    animation-fill-mode: forwards;
+  }
+  // Slide in animation for mobile nav
+  s72-language-selector, .navbar-nav, .sub-nav {
+    animation: slidein 300ms;
   }
 }
 
@@ -197,7 +188,6 @@ TODO - SHIFT72-WEB
 }
 */
 
-
 .navbar-brand {
   min-width: $navbar-brand-min-width;
   z-index: 9;
@@ -221,6 +211,7 @@ TODO - SHIFT72-WEB
   @include media-breakpoint-up(xl) {
     min-width: $navbar-brand-min-width-xl;
   }
+  background-size: contain;
 }
 .navbar-brand-container-tablet {
   display: none;
@@ -231,7 +222,7 @@ TODO - SHIFT72-WEB
   opacity: 0.5;
 }
 .navigation.show .navbar-brand-container-tablet {
-  @include media-breakpoint-between(sm, md) {
+  @include media-breakpoint-between(sm, sm) {
     display: block;
   }
 }
@@ -248,11 +239,14 @@ TODO - SHIFT72-WEB
   display: flex;
   align-items: center;
   position: relative;
+  margin-right: 20px;
+  @include media-breakpoint-up(md) {
+    margin-right: 0;
+  }
   
   // TODO - Needs a max height so the search isn't huge with tall logo's
   height: $navbar-nav-height;
   width: 24px;
-  margin-right: 0;
   border-bottom: 1px solid transparent;
   @extend .animate-this;
   @include media-breakpoint-up(md) {
@@ -313,6 +307,9 @@ TODO - SHIFT72-WEB
   }
   
   &.search-show {
+    &.navbar-nav-search {
+      margin: 0;
+    }
     .form-control-search {
       border-bottom: 1px solid $body-color;
     }

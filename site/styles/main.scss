@@ -358,10 +358,13 @@ h1, h2, h3, h4, h5, h6, p, .title {
   word-wrap: break-word;
 }
 
-.noscroll {
+.no-scroll {
   overflow: hidden;
   #main {
     opacity: 0.5;
+    @include media-breakpoint-up(md) {
+      opacity: 1;
+    }
   }
   @include media-breakpoint-up(md) {
     overflow: visible;
