@@ -55,7 +55,6 @@ TODO - SHIFT72-WEB
   position: fixed;
   right: 0;
   top: 0;
-  padding-bottom: 20px;
   min-height: 100%;
   background-color: $body-bg-light;
   height: auto;
@@ -172,21 +171,6 @@ TODO - SHIFT72-WEB
     padding-bottom: 0;
   } 
 }
-/*
-.navbar-brand-container {
-  position: relative;
-  top: 20px;
-  left: 20px;
-  display: flex;
-  align-items: center;
-  @include media-breakpoint-up(md) {
-    left: 50px;
-    width: auto;
-    flex-grow: 1;
-    padding-bottom: 0;
-  } 
-}
-*/
 
 .navbar-brand {
   min-width: $navbar-brand-min-width;
@@ -240,16 +224,15 @@ TODO - SHIFT72-WEB
   align-items: center;
   position: relative;
   margin-right: 20px;
-  @include media-breakpoint-up(md) {
-    margin-right: 0;
-  }
-  
+ 
   // TODO - Needs a max height so the search isn't huge with tall logo's
   height: $navbar-nav-height;
   width: 24px;
   border-bottom: 1px solid transparent;
-  @extend .animate-this;
+  transition: none;
   @include media-breakpoint-up(md) {
+    margin-right: 0;
+    transition: all .25s ease-out;
     top: 0;
     right: 0;
     height: 44px;
@@ -268,6 +251,7 @@ TODO - SHIFT72-WEB
     border-radius: 0;
     width: 100%;
     box-shadow: none;
+    transition: none;
     @include media-breakpoint-up(md) {
       height: 100%;
     }
@@ -283,6 +267,9 @@ TODO - SHIFT72-WEB
       opacity: 0;
       color: rgba($color: $body-color, $alpha: 0.8);
       font-weight: $font-weight-normal;
+      @include media-breakpoint-up(md) {
+        transition: none;
+      }
     }
 
     &:focus {
@@ -292,21 +279,26 @@ TODO - SHIFT72-WEB
       }
     }
 
-    // Change chrome autofill background
+    // Override autofill styles
+    &:-webkit-autofill::first-line,
     &:-webkit-autofill,
     &:-webkit-autofill:hover, 
     &:-webkit-autofill:focus {
-    border: 1px solid transparent;
+    border-bottom: 1px solid white;
     -webkit-text-fill-color: $body-color;
     box-shadow: 0 0 0px 1000px transparent inset;
     transition: background-color 5000s ease-in-out 0s;
+    font-family: $font-family-base;
+    font-size: 1rem;
     }
     :-ms-input-placeholder {
       opacity: 1;
     }
   }
+
   
   &.search-show {
+
     &.navbar-nav-search {
       margin: 0;
     }
@@ -320,7 +312,6 @@ TODO - SHIFT72-WEB
     top: 0;
     right: 0;
     z-index: 12;
-    
     @include media-breakpoint-up(md) {
       background-color: transparent;
       position: relative;
@@ -375,6 +366,7 @@ TODO - SHIFT72-WEB
   transform: translateY(-50%);
   pointer-events: none;
   color: $body-color;
+  transition: none;
 }
 
 .search-close {
@@ -385,29 +377,24 @@ TODO - SHIFT72-WEB
   pointer-events: none;
   position: absolute;
   right: 10px;
-  
-  @include media-breakpoint-up(md) {
-    right: 5px;
-  }
   border: 0;
   border-radius: 50%;
   height: 32px;
   width: 32px;
   top: 50%;
   transform: translateY(-50%);
+  @include media-breakpoint-up(md) {
+    right: 5px;
+  }
 
   &:hover, &:focus, &:active {
     outline: 0;
-    @extend .animate-this;
     color: rgba($color: $body-color, $alpha: 1);
-    i {
-      @extend .animate-this;
-    }
   }
 }
 
 .search-show {
-  .search-icon {
+  .search-open {
     @include media-breakpoint-down(sm) {
       left: 20px;
     }
@@ -506,7 +493,6 @@ s72-dropdown, .s72-language-selector {
   align-self: center;
   width: 100%;
   padding: 10px 0 0 0;
-  
   .btn {
     width: 100%;
   }
@@ -519,10 +505,13 @@ s72-dropdown, .s72-language-selector {
   }
 
   s72-user-anon {
-    padding: 20px 0 0 0;
+    padding: 20px 0;
   }
   s72-user-known {
-    padding: 10px 0;
+    padding: 10px 0 20px 0;
+    .dropdown-caret {
+      top: 8px;
+    }
     @include media-breakpoint-up(md) {
       margin-left: 12px;
     }
@@ -535,7 +524,6 @@ s72-dropdown, .s72-language-selector {
     }
   }
 
-    
   hr {
     display: none;
     margin: 0 15px 5px 15px;
