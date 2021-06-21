@@ -12,8 +12,8 @@
 - Updated the footer design and added more extensiblity options.
 
 ### Fixed
-- Heading hierachies on film, TV and bundle pages.
-- Increased legibility on tag lines, navigation and classifications.
+- Heading hierachies for accessibility.
+- Increased legibility on headings, tag lines, navigation and classifications.
 - Bundles now check for the `media_item_caption` config before rendering the HTML for it.
 - Datepicker now fits on smaller screens.
 
