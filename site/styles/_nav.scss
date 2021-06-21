@@ -38,7 +38,7 @@ TODO - SHIFT72-WEB
   @include media-breakpoint-up(sm) {
     width: 100%;
   }
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     justify-content: flex-end;
     overflow: visible;
     padding: 20px 50px;
@@ -64,7 +64,7 @@ TODO - SHIFT72-WEB
   @include media-breakpoint-up(sm) {
     max-width: 384px;
   }
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     flex-direction: row;
     position: absolute;
     background-color: transparent;
@@ -72,7 +72,7 @@ TODO - SHIFT72-WEB
     min-height: auto;
   }
 
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     animation: fade-in 0.25s;
     animation-fill-mode: forwards;
   }
@@ -87,7 +87,7 @@ TODO - SHIFT72-WEB
 .navbar-nav { order: 2; }
 
 // Desktop Order
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(lg) {
   .navbar-nav { order: 1; }
   .sub-nav { order: 2; }
 }
@@ -102,7 +102,7 @@ TODO - SHIFT72-WEB
   width: 24px;
   height: $navbar-nav-height;
   z-index: 10;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     display: none;
   }
 }
@@ -166,7 +166,7 @@ TODO - SHIFT72-WEB
   display: flex;
   align-items: center;
   flex-grow: 1;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     width: auto;
     padding-bottom: 0;
   } 
@@ -176,7 +176,7 @@ TODO - SHIFT72-WEB
   min-width: $navbar-brand-min-width;
   z-index: 9;
   margin-right: auto;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     z-index: 13;
     margin: 0;  
   }
@@ -186,7 +186,7 @@ TODO - SHIFT72-WEB
   @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min-resolution: 192dpi) {
     background: url("../images/common/logo@2x.png") left center/100% no-repeat;
   }
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     min-width: $navbar-brand-min-width-md;
   }
   @include media-breakpoint-up(lg) {
@@ -206,13 +206,13 @@ TODO - SHIFT72-WEB
   opacity: 0.5;
 }
 .navigation.show .navbar-brand-container-tablet {
-  @include media-breakpoint-between(sm, sm) {
+  @include media-breakpoint-between(sm, md) {
     display: block;
   }
 }
 .navigation.show .navbar-brand-container {
   display: none;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     display: flex;
   }
 }
@@ -230,7 +230,7 @@ TODO - SHIFT72-WEB
   width: 24px;
   border-bottom: 1px solid transparent;
   transition: none;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     margin-right: 0;
     transition: all .25s ease-out;
     top: 0;
@@ -252,13 +252,13 @@ TODO - SHIFT72-WEB
     width: 100%;
     box-shadow: none;
     transition: none;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       height: 100%;
     }
     &:focus {
       color: $body-color;
       margin: 0 20px 0 20px;
-      @include media-breakpoint-up(md) {
+      @include media-breakpoint-up(lg) {
         margin: 0;
       }
     }
@@ -267,7 +267,7 @@ TODO - SHIFT72-WEB
       opacity: 0;
       color: rgba($color: $body-color, $alpha: 0.8);
       font-weight: $font-weight-normal;
-      @include media-breakpoint-up(md) {
+      @include media-breakpoint-up(lg) {
         transition: none;
       }
     }
@@ -312,7 +312,7 @@ TODO - SHIFT72-WEB
     top: 0;
     right: 0;
     z-index: 12;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       background-color: transparent;
       position: relative;
       height: 44px;
@@ -322,7 +322,7 @@ TODO - SHIFT72-WEB
 }
 .navigation.show .navbar-nav-search {
   display: none;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     display: flex;
   }
 }
@@ -342,7 +342,7 @@ TODO - SHIFT72-WEB
   &:hover {
     i {
       @extend .animate-this;
-      @include media-breakpoint-up(md) {
+      @include media-breakpoint-up(lg) {
         color: $primary;
       }
     }
@@ -383,7 +383,7 @@ TODO - SHIFT72-WEB
   width: 32px;
   top: 50%;
   transform: translateY(-50%);
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     right: 5px;
   }
 
@@ -395,7 +395,7 @@ TODO - SHIFT72-WEB
 
 .search-show {
   .search-open {
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
       left: 20px;
     }
   }
@@ -434,7 +434,7 @@ s72-dropdown, .s72-language-selector {
     padding: 0;
     border: 0;
     @extend .animate-this;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       position: absolute;
       top: 100%;
       box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 8px 10px 1px rgba(0, 0, 0, 0.14);
@@ -499,7 +499,7 @@ s72-dropdown, .s72-language-selector {
   &.navbar-logged-out {
     flex-grow: 1;
     flex-direction: column-reverse;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       flex-grow: 0;
     }
   }
@@ -512,13 +512,13 @@ s72-dropdown, .s72-language-selector {
     .dropdown-caret {
       top: 8px;
     }
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       margin-left: 12px;
     }
   }
   s72-user-known, s72-user-anon {
     border-top: 1px solid rgba($color: $body-color, $alpha: 0.1);
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       border: 0;
       padding: 0;
     }
@@ -528,12 +528,12 @@ s72-dropdown, .s72-language-selector {
     display: none;
     margin: 0 15px 5px 15px;
     border-top: 1px solid rgba($color: $body-color, $alpha: 0.1);
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       display: block;
     }
   }
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     display: flex;
     flex-grow: 0;
     justify-content: flex-start;
@@ -565,7 +565,7 @@ s72-dropdown, .s72-language-selector {
     font-weight: $font-weight-normal;
     font-size: 16px;
     @extend .animate-this;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       padding-top: $navbar-padding-y * 4;
       padding-bottom: $navbar-padding-y * 4;
     }
@@ -576,7 +576,7 @@ s72-dropdown, .s72-language-selector {
       @extend .animate-this;
     }
   }
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     s72-sign-out.s72-dropdown-item {
       width: 100%;
       margin-top: 25px;
@@ -593,13 +593,13 @@ s72-dropdown, .s72-language-selector {
   }
   .username-mobile {
     padding-left: 6px;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       display: none;
     }
   }
   .username-desktop {
     display: none;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       display: inline-block;
       font-weight: $font-weight-bold;
       padding: 8px 0 8px 15px;
@@ -610,7 +610,7 @@ s72-dropdown, .s72-language-selector {
 
 .navbar-nav-user-nav {
   width: 100%;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     width: auto;
   }
   .s72-dropdown-toggle {
@@ -632,7 +632,7 @@ s72-dropdown, .s72-language-selector {
   height: 25px;
   margin-left: 12px;
   display: none;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     display: block;
     align-self: center;
   }
@@ -649,8 +649,8 @@ s72-dropdown, .s72-language-selector {
   flex-basis: auto;
   flex-direction: column;
   width: 100%;
-  @include media-breakpoint-up(md) {
-    @extend .d-md-flex;
+  @include media-breakpoint-up(lg) {
+    display: flex;
     flex-direction: row;
     flex-basis: 100%;
     width: auto;
@@ -667,7 +667,7 @@ s72-dropdown, .s72-language-selector {
     &.active .nav-link {
       color: $subnav-nav-item-hover-background-color;
       opacity: 1;
-      @include media-breakpoint-up(md) {
+      @include media-breakpoint-up(lg) {
         border-bottom: 3px solid $subnav-nav-item-hover-background-color;
       }
     }
@@ -678,7 +678,7 @@ s72-dropdown, .s72-language-selector {
     color: $subnav-nav-item-color;
     font-size: 16px;
     transition: color 0.25s ease-out;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       margin-right: 20px;
       border-bottom: 3px solid transparent;  
       @include hover-focus{
@@ -691,7 +691,7 @@ s72-dropdown, .s72-language-selector {
     padding-right: 40px;  
   }
   .dropdown-caret {
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       right: 15px;
     }
   }

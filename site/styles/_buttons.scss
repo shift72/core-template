@@ -24,8 +24,8 @@
   color: $signin-text-color;
   border: 3px solid $signin-border-color;
   background-color: $signin-background;
-  @include media-breakpoint-up(md) {
-    background-color: $signin-background-md;
+  @include media-breakpoint-up(lg) {
+    background-color: $signin-background-lg;
     margin-left: 12px;
   }
   @include media-breakpoint-up(xl) {

@@ -1,7 +1,7 @@
 s72-language-selector {
   display: none;
   width: 100%;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     display: flex;
     width: auto;
   }
@@ -13,7 +13,7 @@ s72-language-selector {
     text-align: left;
     font-size: 16px;
     font-weight: $font-weight-normal;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       margin-left: 12px;
       font-size: 14px;
     }
