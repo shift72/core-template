@@ -1,6 +1,21 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-alpha.4...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-beta.1...HEAD)
+
+## [0.1.0-beta.1](https://github.com/shift72/core-template/compare/0.1.0-alpha.4...0.1.0-beta.1) - 2021-06-21
+
+### Added
+- HTML landmarks, skip links and ARIA labels for screenreader support.
+
+### Changed
+- Hyperlink underlines for accessibility.
+- Updated the footer design and added more extensiblity options.
+
+### Fixed
+- Heading hierachies for accessibility.
+- Increased legibility on headings, tag lines, navigation and classifications.
+- Bundles now check for the `media_item_caption` config before rendering the HTML for it.
+- Datepicker now fits on smaller screens.
 
 ## [0.1.0-alpha.4](https://github.com/shift72/core-template/compare/0.1.0-alpha.3...0.1.0-alpha.4) - 2021-06-02
 Repackage of `0.1.0-alpha.3`.
