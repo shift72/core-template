@@ -63,6 +63,8 @@ $navbar-brand-min-width-md: 126px !default;
 $navbar-brand-min-width-lg: 126px !default;
 $navbar-brand-min-width-xl: 126px !default;
 $navbar-search-top: 30px !default;
+$navbar-search-left: 160px !default;
+$navbar-search-left-md: 165px !default;
 
 // Sub Navivgation
 $subnav-background-color: #302e30 !default;
@@ -97,6 +99,7 @@ $signup-border-color-hover: transparent !default;
 $signup-background: $button-background !default;
 $signup-background-hover: $button-background-hover !default;
 
+$link-color: $body-color !default;
 
 // Image Gradient Overlays
 $top-gradient-color: $body-bg !default;
@@ -166,16 +169,16 @@ $page-collection-item-padding-horizontal: $grid-gutter-width-base / 2 !default;
 $slider-control-width: 50px !default;
 $slider-control-height: 50px !default;
 // $slider-control-color: $text-color-light !default;
-$slider-control-bg: rgba(255, 255, 255, 0.5) !default;
+$slider-control-bg: rgba(255, 255, 255, 0.8) !default;
 
 // Icons
 // ------------------------------------
 
 $icon-play-size: 32px !default;
 $icon-play-color: #fff !default;
-$icon-play-bg: rgba(#000, 0.5) !default;
+$icon-play-bg: rgba(#000, 0.8) !default;
 $icon-play-hover-color: #fff !default;
-$icon-play-hover-bg: rgba(#fff, 0.5) !default;
+$icon-play-hover-bg: rgba(#fff, 0.8) !default;
 
 // Modals
 // ------------------------------------

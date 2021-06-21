@@ -1,0 +1,5 @@
+{{ block footerBrand() }}
+  <a class="footer-brand-link" href="{{ routeToPath("/") }}" aria-label="{{ i18n("nav_homepage") }}">
+    <s72-image src="/images/common/logo.png" alt="{{ i18n("nav_homepage") }}" class="footer-brand-image"></s72-image>
+  </a>
+{{ end }}

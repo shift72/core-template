@@ -158,7 +158,7 @@ s72-carousel {
       background: $primary;
       padding: 2px 4px;
       @include media-breakpoint-up(md){
-        font-size: 10px;
+        font-size: 12px;
       }
     }
     .meta-item-tagline-and-classification {
@@ -172,7 +172,7 @@ s72-carousel {
       .meta-item-tagline {
         font-size: 14px;
         font-weight: $font-weight-normal;
-        color: rgba($body-color, 0.5); 
+        color: rgba($body-color, 0.8); 
         margin-bottom: 0;
         align-self: center;
         @include media-breakpoint-up(xxxl) {
@@ -196,7 +196,7 @@ s72-carousel {
     .meta-item-tagline {
       font-size: 14px;
       font-weight: $font-weight-normal;
-      color: rgba(255,255,255,0.5);
+      color: rgba(255,255,255,0.8);
       @include media-breakpoint-up(xxxl){
         font-size: 18px;
       }

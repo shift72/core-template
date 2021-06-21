@@ -2,7 +2,7 @@
 
 {{block featuredItem(item, image="Landscape")}}
 <div class="meta-item featured-meta-item meta-item-{{item.ItemType|lower}}">
-  <a href="{{routeToSlug(item.Slug)}}">
+  <a href="{{routeToSlug(item.Slug)}}" aria-label="{{item.Title}}">
     {{if isset(item.Images[image])}}
       <s72-image src="{{item.Images[image]}}" alt="{{item.Title}}" class="meta-item-img featured-meta-item-img"></s72-image>
     {{end}}

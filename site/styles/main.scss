@@ -1,10 +1,11 @@
 @import '_variables';
 
 @import '_bootstrap4';
+@import '_mixins';
 @import '_shift72';
 @import 'node_modules/font-awesome/scss/font-awesome';
 
-@import '_mixins';
+
 @import '_icons';
 @import '_buttons';
 @import '_pages';
@@ -187,14 +188,14 @@ s72-classification-label {
     }
     .s72-classification-description {
       font-size: 14px;
-      color: rgba(255,255,255,0.5);
+      color: rgba(255,255,255,0.8);
       font-weight: $font-weight-normal;
       margin-left: 5px;
       display: none;
     }
     .s72-classification-label {
-      color: rgba($body-color, 0.5);
-      border: 1px solid rgba($body-color, 0.5);
+      color: rgba($body-color, 0.8);
+      border: 1px solid rgba($body-color, 0.8);
       font-weight: $font-weight-bold;
       font-size: 12px;
       padding: 1px 5px;
@@ -217,7 +218,7 @@ s72-classification-label {
 
 .meta-detail-content .meta-detail-tagline-and-classification .meta-item-tagline {
     font-weight: $font-weight-normal;
-    color: rgba($body-color, 0.5);
+    color: rgba($body-color, 0.8);
     margin-bottom: 0;
     align-self: center;
 }
@@ -306,8 +307,16 @@ s72-classification-label {
 .page-bundle-list {
   @extend .page-collection-list;
 
-  & h4 {
-      width: 100%;
+  h2, h4 {
+    width: 100%;
+    font-weight: $font-weight-bold;
+    font-size: 16px;
+    @include media-breakpoint-up(md) {
+      font-size: 18px;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 20px;
+    }
   }
 
   .page-bundle-items {
@@ -349,3 +358,4 @@ s72-classification-label {
 h1, h2, h3, h4, h5, h6, p, .title {
   word-wrap: break-word;
 }
+

@@ -169,7 +169,7 @@
     background: $navbar-background-color;
 
     @include media-breakpoint-up(md){
-      border: 1px solid rgba(0, 0, 0, 0.15);
+      border: 1px solid rgba(0, 0, 0, 0.2);
       width: 190px;
       display: none;
       background: $navbar-background-color;
@@ -296,7 +296,7 @@
 // Header Form Search
 .navbar-nav-search {
   position: absolute;
-  left: 160px;
+  left: $navbar-search-left;
   width: 150px;
   top: $navbar-search-top;
   @include media-breakpoint-up(sm) {
@@ -305,7 +305,7 @@
     margin-right: $subnav-nav-item-margin-x;
   }
   @include media-breakpoint-up(md) {
-    left: 165px;
+    left: $navbar-search-left-md;
   }
   @include media-breakpoint-up(lg) {
     top: $navbar-search-top;
@@ -316,7 +316,7 @@
 
   // Header Search Form Control
   .form-control-search {
-    font-size: 10px;
+    font-size: 12px;
     border-color: transparent;
     background: rgba($color: $body-color, $alpha: 0.3);
     color: #fff;
@@ -390,10 +390,10 @@ ul.mobile-nav {
     }
     &.title {
       font-size: 12px;
-      color: rgba($body-color, 0.5); 
+      color: rgba($body-color, 0.8); 
       text-align: center;
       font-weight: $font-weight-bold;
-      padding-top: 15px;
+      padding-top: 20px;
       text-transform: uppercase;
     }
   }

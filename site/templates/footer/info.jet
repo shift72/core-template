@@ -1,0 +1,9 @@
+{{ import "./copyright-statement.jet" }}
+{{ import "./powered-by.jet" }}
+
+{{ block footerInfo() }}
+  <div class="footer-info">
+    {{ yield copyrightStatement() }}
+    {{ yield poweredBy() }}
+  </div>
+{{ end }}

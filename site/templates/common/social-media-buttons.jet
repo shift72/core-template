@@ -1,16 +1,16 @@
 {{block socialMediaButtons(path="", title="")}}
 	<div class="social-media-buttons">
 		<div class="social-media-buttons-title">
-			<h5>{{i18n("social_media_buttons_title")}}</h5>
+			<h2>{{i18n("social_media_buttons_title")}}</h2>
 		</div>
 		<div class="social-media-buttons-container">
-			<a class="btn btn-social btn-social-facebook" aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.SiteConfig.SiteURL + path | url}}" target="_blank">
+			<a class="btn btn-social btn-social-facebook" aria-label="{{i18n("wcag_aria_label_facebook")}}" href="https://www.facebook.com/sharer/sharer.php?u={{site.SiteConfig.SiteURL + path | url}}" target="_blank">
 				<i class="fa fa-facebook" title="Share on Facebook" aria-hidden="true"></i>
 			</a>
-			<a class="btn btn-social btn-social-twitter" aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text={{title + " " + site.SiteConfig.SiteURL + path | url}}" target="_blank">
+			<a class="btn btn-social btn-social-twitter" aria-label="{{i18n("wcag_aria_label_twitter")}}" href="https://twitter.com/intent/tweet?text={{title + " " + site.SiteConfig.SiteURL + path | url}}" target="_blank">
 				<i class="fa fa-twitter" title="Share on Twitter" aria-hidden="true"></i>
 			</a>
-			<a class="btn btn-social btn-social-linkedin" aria-label="Share on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url={{site.SiteConfig.SiteURL + path | url}}&title={{title|url}}" target="_blank">
+			<a class="btn btn-social btn-social-linkedin" aria-label="{{i18n("wcag_aria_label_linkedin")}}" href="https://www.linkedin.com/shareArticle?mini=true&url={{site.SiteConfig.SiteURL + path | url}}&title={{title|url}}" target="_blank">
 				<i class="fa fa-linkedin" title="Share on LinkedIn" aria-hidden="true"></i>
 			</a>
 		</div>

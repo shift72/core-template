@@ -121,7 +121,7 @@
   li {
     text-align: left;
     font-size: 12px;
-    color: rgba($body-color, 0.7);
+    color: rgba($body-color, 0.8);
     list-style-type: none;
   }
 }
@@ -141,12 +141,9 @@
     font-size: 14px;
     color: $body-color;
     a {
+      @include a;
       font-size: 12px;
-      text-decoration: underline;
       display: block;
-      @include hover-focus {
-        text-decoration: none;
-      }
     }
   }
 }
@@ -190,6 +187,7 @@
       margin: 0 auto;
     }
   }
+  
 }
 
 .s72-shopping-modal-promo-code-form {
@@ -213,6 +211,11 @@
 .s72-modal-footer {
   padding-right: 0;
   padding-left: 0;
+  p {
+    a {
+      @include a;
+    }
+  }
 }
 
 

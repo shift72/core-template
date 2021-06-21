@@ -42,10 +42,7 @@
       font-size: 16px;
     }
     a {
-      text-decoration: underline;
-      @include hover-focus {
-        text-decoration: none;
-      }
+     @include a;
     }
   }
 }
@@ -104,9 +101,15 @@
     p {
       font-size: 14px;
       word-wrap: break-word;
+      a {
+        @include a;
+      }
     }
     strong {
       font-weight: $font-weight-bold;
+      a {
+        @include a;
+      }
     }
   }
 }
