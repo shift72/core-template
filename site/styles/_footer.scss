@@ -77,7 +77,8 @@ footer {
   font-weight: $font-weight-normal;
   margin: 0;
   text-align: center;
-
+  color: rgba($body-color, 0.8);
+  
   a {
     font-weight: $font-weight-bold;
   }
