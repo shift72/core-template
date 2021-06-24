@@ -51,7 +51,6 @@ $navbar-background-color: transparent !default;
 $navbar-dark-active-color: $primary !default;
 $navbar-nav-link-padding-x:  1em !default;
 $navbar-nav-link-padding-y:  1em !default;
-$navbar-nav-height: 70px;
 
 // Uses navbar-dark theme so we can use variables for colouring
 $navbar-dark-active-color:  #FD4766 !default;
@@ -59,7 +58,8 @@ $navbar-dark-color:         $body-color !default;
 $navbar-dark-hover-color:   #FD4766 !default;
 
 // Navbar Logo (Brand)
-$navbar-brand-padding-y: 25px !default;
+$navbar-brand-padding-y: 35px !default;
+$navbar-brand-padding-y-lg: 25px  !default;
 $navbar-brand-min-width: 126px !default;
 $navbar-brand-min-width-md: 126px !default;
 $navbar-brand-min-width-lg: 126px !default;

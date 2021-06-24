@@ -442,11 +442,14 @@ function searchShow() {
   var searchButton = document.querySelector('.search-open');
   var searchForm = document.querySelector('.form-control-search');
 
-  searchButton.addEventListener('click', function(e) {
+  var openSearch = function() {
     document.querySelector('.form-control-search').focus();
     document.querySelector('.navbar-nav-search').classList.add('search-show');
     document.querySelector('.navbar-nav-search').classList.remove('search-hidden');
-  });
+  }
+
+  searchButton.addEventListener('click', openSearch, false);
+  searchButton.addEventListener('focusin', openSearch, false);
 
   searchForm.addEventListener('focusout', function(e) {
     document.querySelector('.navbar-nav-search').classList.remove('search-show');
