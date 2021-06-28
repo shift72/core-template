@@ -4,10 +4,12 @@ footer {
 }
 
 .footer-brand-link {
-  margin: auto;
+  display: flex;
+  align-self: center;
 
   @include media-breakpoint-up(xl) {
     margin: 20px;
+    align-self: flex-start;
   }
 }
 
@@ -77,7 +79,8 @@ footer {
   font-weight: $font-weight-normal;
   margin: 0;
   text-align: center;
-
+  color: rgba($body-color, 0.8);
+  
   a {
     font-weight: $font-weight-bold;
   }

@@ -1,6 +1,14 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-beta.1...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-beta.2...HEAD)
+
+## [0.1.0-beta.2](https://github.com/shift72/core-template/compare/0.1.0-alpha.1...0.1.0-beta.2) - 2021-06-28
+
+### Changed
+- Greek translations for shopping info.
+
+### Fixed
+- Footer logo is now centered in IE11.
 
 ## [0.1.0-beta.1](https://github.com/shift72/core-template/compare/0.1.0-alpha.4...0.1.0-beta.1) - 2021-06-21
 
