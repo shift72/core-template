@@ -4,6 +4,10 @@ s72-language-selector {
   @include media-breakpoint-up(lg) {
     display: flex;
     width: auto;
+    grid-column: 3;
+    -ms-grid-column: 3;
+    grid-row: 1;
+    -ms-grid-row: 1;
   }
   .s72-dropdown-toggle {
     display: flex;

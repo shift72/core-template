@@ -29,13 +29,14 @@ TODO - SHIFT72-WEB
   z-index: 11;
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  align-content: flex-start;
-  flex-direction: row;
   background-color: $navbar-background-color;
   transition: background-color 0.25s ease-out;
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: 1fr repeat(3, min-content);
+  -ms-grid-columns: 1fr min-content min-content min-content;
+  grid-template-rows: repeat(2, min-content);
+  -ms-grid-rows: 1fr 1fr;
 
   @include media-breakpoint-up(sm) {
     width: 100%;
@@ -81,16 +82,6 @@ TODO - SHIFT72-WEB
   s72-language-selector, .navbar-nav, .sub-nav {
     animation: slidein 300ms;
   }
-}
-
-// Mobile Order
-.sub-nav-wrapper { order: 1; }
-.navbar-nav { order: 2; }
-
-// Desktop Order
-@include media-breakpoint-up(lg) {
-  .navbar-nav { order: 1; }
-  .sub-nav-wrapper { order: 2; }
 }
 
 /*** HAMBURGER MENU TOGGLER ***/
@@ -174,12 +165,17 @@ TODO - SHIFT72-WEB
 }
 
 .navbar-brand {
+
   min-width: $navbar-brand-min-width;
   z-index: 9;
   margin-right: auto;
   padding-top: $navbar-brand-padding-y;
   padding-bottom: $navbar-brand-padding-y;
   @include media-breakpoint-up(lg) {
+    grid-column: 1;
+    -ms-grid-column: 1;
+    grid-row: 1;
+    -ms-grid-row: 1;
     z-index: 13;
     margin: 0;
     padding-top: $navbar-brand-padding-y-lg;
@@ -202,24 +198,7 @@ TODO - SHIFT72-WEB
   }
   background-size: contain;
 }
-.navbar-brand-container-tablet {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 20px;
-  opacity: 0.3;
-}
-.navigation.show .navbar-brand-container-tablet {
-  @include media-breakpoint-between(sm, md) {
-    display: block;
-  }
-}
-.navigation.show .navbar-brand-container {
-  display: none;
-  @include media-breakpoint-up(lg) {
-    display: flex;
-  }
-}
+
 
 /*** SEARCH BAR ***/
 
@@ -236,6 +215,10 @@ TODO - SHIFT72-WEB
   transition: none;
 
   @include media-breakpoint-up(lg) {
+    grid-column: 2;
+    -ms-grid-column: 2;
+    grid-row: 1;
+    -ms-grid-row: 1;
     margin-right: 0;
     transition: all .25s ease-out;
     top: 0;
@@ -493,10 +476,15 @@ s72-dropdown, .s72-language-selector {
 
 .navbar-nav {
   display: none;
-  flex-grow: 1;
   align-self: center;
   width: 100%;
   padding: 10px 0 0 0;
+  @include media-breakpoint-up(lg) {
+    grid-column: 4;
+    -ms-grid-column: 4;
+    grid-row: 1;
+    -ms-grid-row: 1;
+  }
   .btn {
     width: 100%;
   }
@@ -653,6 +641,11 @@ s72-dropdown, .s72-language-selector {
   @include media-breakpoint-up(lg) {
     display: flex;
     flex-basis: 100%;
+    grid-column: 1;
+    -ms-grid-column: 1;
+    grid-row: 2;
+    -ms-grid-row: 2;
+    -ms-grid-column-span: 5;   
   }
 }
 .sub-nav {
