@@ -35,9 +35,9 @@ $container-max-widths: (
 
 $primary:         #35a0a8 !default;
 $secondary:       #4cd3dd !default;
-$body-bg:         #0F0F0F !default;
 $body-color:      #fff !default;
-$body-bg-light:   lighten($body-bg, 4%) !default;
+$body-bg:         #0f0f0f !default;
+$body-bg-light:   #1a1a1a !default;
 $hr-border-color: rgba($body-color, .5) !default;
 $list-group-bg: $body-bg !default;
 $list-group-border-color: rgba($body-color, .125) !default;

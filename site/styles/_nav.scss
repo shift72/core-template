@@ -206,8 +206,13 @@ TODO - SHIFT72-WEB
   display: none;
   position: absolute;
   top: 0;
-  left: 20px;
-  opacity: 0.3;
+  left: 0;
+  width: 100%;
+  opacity: 0.2;
+  background-color: $navbar-background-color;
+  .navbar-brand {
+    margin-left: 20px;
+  }
 }
 .navigation.show .navbar-brand-container-tablet {
   @include media-breakpoint-between(sm, md) {
@@ -276,19 +281,12 @@ TODO - SHIFT72-WEB
       }
     }
 
-
-    /*
-    &:focus-visible {
-      outline: auto;
-    }
-    */
-
     // Override autofill styles
     &:-webkit-autofill::first-line,
     &:-webkit-autofill,
     &:-webkit-autofill:hover, 
     &:-webkit-autofill:focus {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid $body-color;
     -webkit-text-fill-color: $body-color;
     box-shadow: 0 0 0px 1000px transparent inset;
     transition: background-color 5000s ease-in-out 0s;
@@ -425,7 +423,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 s72-dropdown, .s72-language-selector {
   position: relative;
 
-  &:hover, &:focus {
+   &:hover, &:focus-within {
     .s72-dropdown-toggle, .dropdown-caret  {
       color: $primary;
     }
@@ -484,7 +482,7 @@ s72-dropdown, .s72-language-selector {
     @extend .animate-this;
   }
   .show + .dropdown-caret {
-    color: $primary;
+    //color: $primary;
     transform: rotate(-180deg);
   }
 }
@@ -591,6 +589,7 @@ s72-dropdown, .s72-language-selector {
       background-color: rgba($color: $body-color, $alpha: 0.06);
       font-weight: $font-weight-normal;
       @include hover-focus {
+        color: $body-color;
         background-color: rgba($color: $body-color, $alpha: 0.1);
       }
     }
@@ -606,7 +605,7 @@ s72-dropdown, .s72-language-selector {
     @include media-breakpoint-up(lg) {
       display: inline-block;
       font-weight: $font-weight-bold;
-      padding: 8px 0 8px 15px;
+      padding: 8px 0 4px 15px;
       color: $primary;
     }
   }
@@ -627,6 +626,12 @@ s72-dropdown, .s72-language-selector {
   }
   .s72-dropdown-item {
     @extend .animate-this;
+  }
+  .s72-username {
+    @include media-breakpoint-up(lg) {
+      overflow: hidden;
+      width: 124px;
+    }
   }
 }
 
@@ -692,9 +697,9 @@ s72-dropdown, .s72-language-selector {
     @include media-breakpoint-up(lg) {
       margin-right: 20px;
       border-bottom: 3px solid transparent;  
-      @include hover-focus{
-        color: $subnav-nav-item-hover-background-color;
-      }
+    }
+    &:hover {
+      color: $subnav-nav-item-hover-background-color;
     }
   }
   .s72-dropdown-toggle.nav-link {

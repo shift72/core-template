@@ -458,7 +458,6 @@ function searchShow() {
   searchForm.addEventListener('focusout', closeSearch, false);
 }
 
-
 function navToggle() {
   var nav = document.querySelector('.navbar-toggler');
     nav.addEventListener('click', function(e) {
@@ -523,11 +522,10 @@ function documentReady(app) {
   document.querySelectorAll('.navbar-nav').forEach(function(nav) {
     nav.classList.remove('s72-hide');
   });
-
-  searchShow();
-
+  if (document.querySelector('.navbar-nav-search')) {
+    searchShow();
+  }
   navToggle();
-
 }
 
 function detectTouchscreen(){

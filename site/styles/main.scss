@@ -360,8 +360,8 @@ h1, h2, h3, h4, h5, h6, p, .title {
 
 .no-scroll {
   overflow-y: hidden;
-  #main {
-    opacity: 0.3;
+  #main, #footer {
+    opacity: 0.2;
     @include media-breakpoint-up(lg) {
       opacity: 1;
     }
