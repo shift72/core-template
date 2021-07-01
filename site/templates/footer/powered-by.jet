@@ -1,11 +1,9 @@
-<div class="powered-by">
-    <a href="{{i18n("powered_by_url")}}" target="_blank" class="footer-screenplus-powered-by">
-      Powered by {{i18n("powered_by_name")}}
-    </a>
-    {{ if config("festival_scope_footer") == "true" }}
-    <div class="footer-festivalscope">
-      <span class="footer-festivalscope-label">In partnership with</span>
-      <a href="https://www.festivalscope.com/page/create-your-online-film-festival/" target="_blank"><img src="/images/common/festival-scope-white-on-transparent.png" class="footer-festivalscope-logo" title="Festival Scope" /></a>
-    </div>
-    {{ end }}
-</div>
+{{ block poweredBy() }}
+  {{ festival_scope_footer := config("festival_scope_footer") == "true" }}
+
+  <p class="powered-by">
+    {{ i18n("powered_by") }} <a href="{{ i18n("powered_by_url") }}" target="_blank">{{ i18n("powered_by_name") }}</a>
+    
+    {{ if festival_scope_footer }}{{ i18n("in_partnership_with") }} <a href="{{ i18n("festival_scope_url") }}" target="_blank">{{ i18n("festival_scope") }}</a>{{ end }}
+  </p>
+{{ end }}

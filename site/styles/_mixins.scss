@@ -24,6 +24,17 @@
     @include gradient-x( rgba($left-gradient-bg-color, 1), transparent, 0%, 100%);
 }
 
+@mixin a {
+  color: $link-color;
+  text-decoration: underline;
+  background-color: transparent;
+  &:hover,
+  &:focus {
+    color: $link-color;
+    text-decoration: none;
+  }
+}
+
 @keyframes slidein {
   0% {
     visibility: visible;
