@@ -16,15 +16,12 @@ TODO - SHIFT72-WEB
   margin-right: auto;
   display: flex;
   flex-direction: column;
-  height: $navbar-brand-padding-y * 2;
+  height: auto;
   @extend .top-gradient-bg;
-  @include media-breakpoint-up(md) {
-    height: auto;
-  }
 }
 
 .navbar {
-  padding: 0 20px;
+  padding: 10px 20px;
   position: relative;
   z-index: 11;
   width: 100%;
@@ -55,6 +52,7 @@ TODO - SHIFT72-WEB
   position: fixed;
   right: 0;
   top: 0;
+  padding-bottom: 0;
   min-height: 100%;
   background-color: $body-bg-light;
   height: 100%;
@@ -182,14 +180,14 @@ TODO - SHIFT72-WEB
   @include media-breakpoint-up(lg) {
     z-index: 13;
     margin: 0;
-    padding-top: $navbar-brand-padding-y-lg;
-    padding-bottom: $navbar-brand-padding-y-lg;
+    padding-top: $navbar-brand-padding-y;
+    padding-bottom: $navbar-brand-padding-y;
   }
 
-  background: url('../images/common/logo.png') left center/100% no-repeat;
+  background: url('../images/common/logo.png') left center/contain no-repeat;
   @extend .text-hide;
   @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min-resolution: 192dpi) {
-    background: url("../images/common/logo@2x.png") left center/100% no-repeat;
+    background: url("../images/common/logo@2x.png") left center/contain no-repeat;
   }
   @include media-breakpoint-up(lg) {
     min-width: $navbar-brand-min-width-md;
@@ -200,12 +198,12 @@ TODO - SHIFT72-WEB
   @include media-breakpoint-up(xl) {
     min-width: $navbar-brand-min-width-xl;
   }
-  background-size: contain;
+  
 }
 .navbar-brand-container-tablet {
   display: none;
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
   width: 100%;
   opacity: 0.2;
@@ -367,7 +365,7 @@ TODO - SHIFT72-WEB
   }
   
   &.search-show {
-    height: $navbar-brand-padding-y * 2;
+    height: ($navbar-brand-padding-y * 2) + 20px;
     width: 100%;
     background-color: $body-bg-light;
     margin: 0;
