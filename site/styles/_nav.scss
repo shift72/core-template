@@ -437,6 +437,7 @@ s72-dropdown, .s72-language-selector {
     margin: 0;
     padding: 0;
     border: 0;
+    min-width: 178px;
     @extend .animate-this;
     @include media-breakpoint-up(lg) {
       position: absolute;
@@ -511,8 +512,16 @@ s72-dropdown, .s72-language-selector {
   }
   s72-user-known {
     padding: 10px 0 20px 0;
+    .s72-dropdown-toggle {
+      @include media-breakpoint-up(lg) {
+        padding: 10px 20px 10px 0px;
+      }
+    }
     .dropdown-caret {
       top: 8px;
+      @include media-breakpoint-up(lg) {
+        top: 12px;
+      }
     }
     @include media-breakpoint-up(lg) {
       margin-left: 12px;
