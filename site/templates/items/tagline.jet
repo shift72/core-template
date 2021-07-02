@@ -1,63 +1,48 @@
 {{block metaItemTagline(genres=true, genresLimit=-1, classification=true)}}
-  <ul class="meta-item-tagline">
-
-    {*<li class="meta-item-tagline-item">
-      <span class="meta-item-classification meta-item-classification-mature">M</span>
-    </li>*}
-
+  <div class="meta-item-tagline">
     {{if classification==true}}
-    <li class="meta-item-tagline-item meta-item-tagline-item-classification">
       <s72-classification-label data-slug="{{.Slug}}" data-layout="tooltip"></s72-classification-label>
-    </li>
     {{end}}
 
     {{if genres == true}}
-      {{ if isset(.Genres) && len(.Genres) > 0 }}
-
-        {{ itemGenres := .Genres }}
-        {{ if genresLimit > -1  && len(itemGenres) > genresLimit }}
-          {{ itemGenres = itemGenres[:genresLimit] }}
-        {{ end }}
+      {{if isset(.Genres) && len(.Genres) > 0}}
+        {{itemGenres := .Genres}}
+        {{if genresLimit > -1  && len(itemGenres) > genresLimit}}
+          {{itemGenres = itemGenres[:genresLimit]}}
+        {{end}}
 
         {{if isset(itemGenres)}}
-          <li class="meta-item-tagline-item">{{itemGenres}}</li>
+          <span class="meta-item-tagline-item">{{itemGenres}}</span>
         {{end}}
 
         {{if isset(.Runtime) || isset(.Episodes)}}
-          <li class="meta-item-tagline-divider">•</li>
+          <span class="meta-item-tagline-divider">•</span>
         {{end}}
-
       {{end}}
 
       {{if isset(.ShowInfo) && isset(.ShowInfo.Genres)}}
-        <li class="meta-item-tagline-item">{{.ShowInfo.Genres}}</li>
+        <span class="meta-item-tagline-item">{{.ShowInfo.Genres}}</span>
 
         {{if isset(.Runtime) || isset(.Episodes)}}
-          <li class="meta-item-tagline-divider">•</li>
+          <span class="meta-item-tagline-divider">•</span>
         {{end}}
-
       {{end}}
-
     {{end}}
 
     {{if isset(.Runtime)}}
-
       {{if .Runtime > 60}}
-        <li class="meta-item-tagline-item">{{.Runtime.Hours()}}{{i18n("runtime_hours")}} {{.Runtime.Minutes()}}{{i18n("runtime_minutes")}}</li>
+        <span class="meta-item-tagline-item">{{.Runtime.Hours()}}{{i18n("runtime_hours")}} {{.Runtime.Minutes()}}{{i18n("runtime_minutes")}}</span>
       {{else}}
-        <li class="meta-item-tagline-item">{{.Runtime}}min</li>
+        <span class="meta-item-tagline-item">{{.Runtime}}min</span>
       {{end}}
-
-      {*<li class="meta-item-tagline-item">{{.Runtime}}min</li>*}
     {{end}}
 
     {{if isset(.Items)}}
-      <li class="meta-item-tagline-item">{{i18n("bundle_items_all_films", len(.Items))}}</li>
+      <span class="meta-item-tagline-item">{{i18n("bundle_items_all_films", len(.Items))}}</span>
     {{end}}
 
     {{if isset(.Episodes)}}
-      <li class="meta-item-tagline-item">{{i18n("episode_count", len(.Episodes))}}</li>
+      <span class="meta-item-tagline-item">{{i18n("episode_count", len(.Episodes))}}</span>
     {{end}}
-
-  </ul>
+  </div>
 {{end}}
