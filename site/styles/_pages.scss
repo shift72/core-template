@@ -1,16 +1,24 @@
 // Page Default
 .page {
+  padding-bottom: $page-padding-bottom;
+  @include media-breakpoint-up(sm){
+    padding-bottom: $page-padding-bottom-md;
+  }
   @include media-breakpoint-up(md){
-    padding-bottom: $grid-gutter-width;
+    padding-bottom: $page-padding-bottom-lg;
   }
   flex: 1 0 auto;
   //margin: 0;
 }
 // Form Page Default
 .form-page {
+  padding-bottom: $page-padding-bottom;
+  @include media-breakpoint-up(sm){
+    padding-bottom: $page-padding-bottom-md;
+  }
   @include media-breakpoint-up(md){
     padding-top: $grid-gutter-width * 4;
-    padding-bottom: $grid-gutter-width * 4;
+    padding-bottom: $page-padding-bottom-lg;
   }
 }
 // Page Header Default
