@@ -438,8 +438,8 @@ function cullSlides(slider, direction){
   }
 }
 
-function searchShow() {
-  var searchButton = document.querySelector('.search-open');
+function initSearch() {
+  var searchButton = document.querySelector('.btn-search-open');
   var searchForm = document.querySelector('.form-control-search');
 
   var openSearch = function() {
@@ -458,7 +458,7 @@ function searchShow() {
   searchForm.addEventListener('focusout', closeSearch, false);
 }
 
-function navToggle() {
+function toggleScroll() {
   var nav = document.querySelector('.navbar-toggler');
     nav.addEventListener('click', function(e) {
     noScroll();
@@ -523,9 +523,9 @@ function documentReady(app) {
     nav.classList.remove('s72-hide');
   });
   if (document.querySelector('.navbar-nav-search')) {
-    searchShow();
+    initSearch();
   }
-  navToggle();
+  toggleScroll();
 }
 
 function detectTouchscreen(){

@@ -359,9 +359,11 @@ h1, h2, h3, h4, h5, h6, p, .title {
   word-wrap: break-word;
 }
 
+// Prevents scrolling when the hamburger menu is active
 .no-scroll {
   overflow-y: hidden;
   #main, #footer {
+    pointer-events: none;
     opacity: 0.2;
     @include media-breakpoint-up(lg) {
       opacity: 1;

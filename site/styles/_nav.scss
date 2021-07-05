@@ -207,6 +207,7 @@ TODO - SHIFT72-WEB
   left: 0;
   width: 100%;
   opacity: 0.2;
+  pointer-events: none;
   background-color: $navbar-background-color;
   .navbar-brand {
     margin-left: 20px;
@@ -296,7 +297,7 @@ TODO - SHIFT72-WEB
     }
   }
 
-  .search-open {
+  .btn-search-open {
     position: absolute;
     top: 0;
     left: 0;
@@ -323,7 +324,7 @@ TODO - SHIFT72-WEB
       outline: auto;
     }
   }
-  .search-show .search-open:hover {
+  .search-show .btn-search-open:hover {
     cursor: auto;
     i {
       color: $body-color;
@@ -341,7 +342,7 @@ TODO - SHIFT72-WEB
     transition: none;
   }
   
-  .search-close {
+  .btn-search-close {
     color: rgba($color: $body-color, $alpha: 0.7);
     background: transparent;
     opacity: 0;
@@ -380,12 +381,12 @@ TODO - SHIFT72-WEB
       height: 44px;
       width: 200px;
     }
-    .search-open {
+    .btn-search-open {
       @include media-breakpoint-down(md) {
         left: 20px;
       }
     }
-    .search-close {
+    .btn-search-close {
       opacity: 1;
       pointer-events: auto;
     }
@@ -643,7 +644,7 @@ s72-dropdown, .s72-language-selector {
 }
 
 // Vertical line divider
-.vl {
+.vertical-line {
   border-left: solid 1px rgba($color: $body-color, $alpha: 0.5);
   height: 25px;
   margin-left: 12px;

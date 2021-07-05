@@ -36,6 +36,7 @@ s72-language-selector {
   }
   &:hover, .s72-dropdown-item:hover {
     cursor: pointer;
+    @extend .animate-this;
   }
 
   .s72-language-selector {
