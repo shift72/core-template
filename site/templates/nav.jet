@@ -38,7 +38,6 @@
       {{ yield nav_user_logged_out() }}
     </div>
 
-
     {{if len(site.Navigation.Header) > 0 && showSubNav}}
       <nav class="sub-nav-wrapper">
         <ul class="sub-nav">

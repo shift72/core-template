@@ -35,5 +35,6 @@
       </ul>
       <i class="fa fa-angle-down dropdown-caret"></i>
     </s72-dropdown>
+    <s72-sign-out class="sign-out-mobile">{{i18n("nav_signout")}}</s72-sign-out>
   </s72-user-known>
 {{end}}
