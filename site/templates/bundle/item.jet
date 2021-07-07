@@ -1,15 +1,17 @@
 {{extends "../application.jet"}}
-{{import "../common/slider.jet"}}
-{{import "../common/list.jet"}}
-{{import "../items/tagline.jet"}}
-{{import "../collection/page_collection_item.jet"}}
-{{import "../common/social-media-buttons.jet"}}
+
+{{ import "./background.jet" }}
+{{ import "./title.jet" }}
+{{ import "./tagline.jet" }}
+{{ import "./synopsis.jet" }}
+{{ import "./buttons.jet" }}
+{{ import "./extras.jet" }}
+{{ import "./list.jet" }}
 
 {{block head()}}
   {{yield seo() bundle}}
 {{end}}
 
-{* Hide Sub nav on this page *}
 {{block navigation()}}
   {{yield nav(showSubNav=true)}}
 {{end}}
@@ -17,51 +19,23 @@
 {{block body()}}
   <main id="main" class="page page-bundle meta-detail meta-detail-bundle page-bundle-{{config("default_image_type")}}">
 
-    <div class="meta-detail-bg">
-      <div class="meta-detail-bg-gradient"></div>
-      <s72-image src="{{bundle.Images.Background}}" alt="" class="meta-detail-bg-img"></s72-image>
-    </div>
+    {{ yield bundleBackground(background=bundle.Images.Background) }}
 
     <div class="container">
       <div class="meta-detail-main">
         <div class="meta-detail-content">
-          <h1>{{ bundle.Title }}</h1>
-          <div class="meta-detail-tagline">
-            {{yield metaItemTagline() bundle}}
-          </div>
-          <div class="meta-detail-synopsis">{{bundle.Description | raw}}</div>
-          <div class="meta-detail-buttons">
-            <s72-pricing-buttons data-slug="{{bundle.Slug}}" data-title="{{bundle.Title}}"></s72-pricing-buttons>
-          </div>
-          <div class="meta-detail-extras">
-            {{if len(bundle.PromoURL) > 0 }}
-               <s72-modal-player src="{{bundle.PromoURL}}" class="s72-btn-trailer" data-slug="{{bundle.Slug}}" data-label="{{i18n("play_trailer")}}" autoplay="querystring"></s72-modal-player>
-            {{end}}
-            <s72-userwishlist-button data-slug="{{bundle.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
-            {{yield socialMediaButtons(path=currentUrlPath)}}
-          </div>
+          {{ yield bundleTitle(title=bundle.Title) }}
+
+          {{ yield bundleTagline(class="meta-detail-tagline") bundle }}
+
+          {{ yield bundleButtons(class="meta-detail-buttons", slug=bundle.Slug, title=bundle.Title) }}
+
+          {{ yield bundleSynopsis(class="meta-detail-synopsis", synopsis=bundle.Description)}}
+
+          {{ yield bundleExtras(class="meta-detail-extras", slug=bundle.Slug, promoURL=bundle.PromoURL) }}
         </div>
 
-        {{if len(bundle.Items) > 0 }}
-          <section class="page-bundle-list" aria-label="{{i18n("wcag_aria_label_bundle_items")}}">
-            <h2>{{i18n("meta_detail_bundle_items_title")}}</h2>
-            <div class="page-bundle-items">
-		        {{ range index, item := bundle.Items }}
-	            {{if config("default_image_type") == "portrait"}}
-					      <div class="page-bundle-item page-bundle-list-item page-bundle-list-item-portrait page-bundle-item-6">
-					        {{yield pageCollectionItem(item=item, layout="portrait")}}
-					      </div>
-	            {{else}}
-					      <div class="page-bundle-item page-bundle-list-item page-bundle-list-item-landscape page-bundle-item-4">
-					        {{yield pageCollectionItem(item=item, layout="landscape")}}
-					      </div>
-	            {{end}}
-
-		        {{ end }}
-		      	</div>
-          </section>
-        {{end}}
-
+        {{ yield bundleList(items=bundle.Items) }}
       </div>
     </div>
   </main>

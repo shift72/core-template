@@ -1,0 +1,22 @@
+{{ import "../collection/page_collection_item.jet" }}
+
+{{ block bundleList(items) }}
+  {{ if len(items) > 0 }}
+    {{ itemLayout := config("default_image_type") == "portrait" ? "portrait" : "landscape" }}
+    {{ itemsPerRow := itemLayout == "portrait" ? "4" : "3" }}
+
+    <section  class="page-collection page-collection-list page-collection-list-{{ itemsPerRow }} page-collection-list-{{ itemLayout }} list-{{ itemsPerRow }} list-{{ itemLayout }} page-collection-{{ itemsPerRow }}-list" aria-label="{{ i18n("wcag_aria_label_bundle_items") }}">
+      <div class="page-collection-list-title">
+        <h2>{{ i18n("meta_detail_bundle_items_title") }}</h2>
+      </div>
+
+      <div class="page-collection-items collection-items">
+        {{ range index, item := items }}
+          <div class="page-collection-item page-collection-list-item page-collection-list-item-{{ itemLayout }} page-collection-item-{{ itemLayout }} page-collection-list-item-{{ itemsPerRow }} page-collection-item-{{ itemsPerRow }}">
+            {{ yield pageCollectionItem(item=item, layout=itemLayout) }}
+          </div>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+{{ end }}
