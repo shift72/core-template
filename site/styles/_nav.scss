@@ -495,7 +495,8 @@ s72-dropdown, .s72-language-selector {
   flex-grow: 1;
   align-self: center;
   width: 100%;
-  padding: 10px 0 0 0;
+  //padding: 10px 0 0 0;
+  padding: 0;
   .btn {
     width: 100%;
   }
@@ -515,6 +516,16 @@ s72-dropdown, .s72-language-selector {
     flex-direction: column;
     height: 100%;
     padding: 10px 0 20px 0;
+    margin-top: 20px;
+    @include media-breakpoint-up(lg) {
+      margin-top: 0;
+    }
+    .navbar-nav-user-nav {
+      margin-bottom: 15px;
+      @include media-breakpoint-up(lg) {
+        margin-bottom: 0;
+      }
+    }
     .s72-dropdown-toggle {
       @include media-breakpoint-up(lg) {
         padding: 10px 20px 10px 0px;
