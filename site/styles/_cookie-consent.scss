@@ -2,7 +2,14 @@
   padding: 10px 20px;
   bottom: 0;
 }
-
+.s72-cookie-consent-message{
+  a{
+    color: $cookie-consent-link-color;
+      &:hover{
+        color: $cookie-consent-hover-link-color;
+      }
+  }
+}
 .s72-btn-cookie-consent {
   @extend .btn-primary;
 }
