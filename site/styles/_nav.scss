@@ -68,7 +68,7 @@ TODO - SHIFT72-WEB
     background-color: transparent;
     max-width: 100%;
     height: auto;
-    overflow-y: auto;
+    overflow: visible;
   }
 
   @include media-breakpoint-down(md) {
@@ -429,7 +429,6 @@ s72-dropdown, .s72-language-selector {
     }
   }
   .s72-dropdown-menu {
-    order: 3;
     position: relative;
     top: 0;
     flex-basis: 100%;
@@ -438,7 +437,6 @@ s72-dropdown, .s72-language-selector {
     padding: 0;
     border: 0;
     min-width: 178px;
-    @extend .animate-this;
     @include media-breakpoint-up(lg) {
       position: absolute;
       top: 100%;
