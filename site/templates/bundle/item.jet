@@ -1,12 +1,12 @@
 {{extends "../application.jet"}}
 
-{{ import "./background.jet" }}
-{{ import "./title.jet" }}
-{{ import "./tagline.jet" }}
-{{ import "./synopsis.jet" }}
-{{ import "./buttons.jet" }}
-{{ import "./extras.jet" }}
-{{ import "./list.jet" }}
+{{import "./background.jet"}}
+{{import "./title.jet"}}
+{{import "./tagline.jet"}}
+{{import "./synopsis.jet"}}
+{{import "./buttons.jet"}}
+{{import "./extras.jet"}}
+{{import "./list.jet"}}
 
 {{block head()}}
   {{yield seo() bundle}}
@@ -19,23 +19,23 @@
 {{block body()}}
   <main id="main" class="page page-bundle meta-detail meta-detail-bundle page-bundle-{{config("default_image_type")}}">
 
-    {{ yield bundleBackground(background=bundle.Images.Background) }}
+    {{yield bundleBackground(background=bundle.Images.Background)}}
 
     <div class="container">
       <div class="meta-detail-main">
         <div class="meta-detail-content">
-          {{ yield bundleTitle(title=bundle.Title) }}
+          {{yield bundleTitle(title=bundle.Title)}}
 
-          {{ yield bundleTagline(class="meta-detail-tagline") bundle }}
+          {{yield bundleTagline(class="meta-detail-tagline") bundle}}
 
-          {{ yield bundleButtons(class="meta-detail-buttons", slug=bundle.Slug, title=bundle.Title) }}
+          {{yield bundleButtons(class="meta-detail-buttons", slug=bundle.Slug, title=bundle.Title)}}
 
-          {{ yield bundleSynopsis(class="meta-detail-synopsis", synopsis=bundle.Description)}}
+          {{yield bundleSynopsis(class="meta-detail-synopsis", synopsis=bundle.Description)}}
 
-          {{ yield bundleExtras(class="meta-detail-extras", slug=bundle.Slug, promoURL=bundle.PromoURL) }}
+          {{yield bundleExtras(class="meta-detail-extras", slug=bundle.Slug, promoURL=bundle.PromoURL)}}
         </div>
 
-        {{ yield bundleList(items=bundle.Items) }}
+        {{yield bundleList(items=bundle.Items)}}
       </div>
     </div>
   </main>
