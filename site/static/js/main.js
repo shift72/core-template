@@ -460,7 +460,7 @@ function initSearch() {
 
 function toggleScroll() {
   var nav = document.querySelector('.navbar-toggler');
-    nav.addEventListener('click', function(e) {
+  nav.addEventListener('click', function(e) {
     noScroll();
   });
 }
