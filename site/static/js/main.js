@@ -458,7 +458,7 @@ function initSearch() {
   searchForm.addEventListener('focusout', closeSearch, false);
 }
 
-function toggleScroll() {
+function initToggleScroll() {
   var nav = document.querySelector('.navbar-toggler');
   nav.addEventListener('click', function(e) {
     noScroll();
@@ -525,7 +525,7 @@ function documentReady(app) {
   if (document.querySelector('.navbar-nav-search')) {
     initSearch();
   }
-  toggleScroll();
+  initToggleScroll();
 }
 
 function detectTouchscreen(){
