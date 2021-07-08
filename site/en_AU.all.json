@@ -23,16 +23,16 @@
     "other": "{{.Count}} seasons"
   },
   "tvseason": {
-    "other": "{{.ShowInfo.Title}} Series {{.Season.SeasonNumber}}"
+    "other": "{{.ShowInfo.Title}} Season {{.Season.SeasonNumber}}"
   },
   "tvseason_html": {
-    "other": "{{.ShowInfo.Title}} <span>Series {{.Season.SeasonNumber}}</span>"
+    "other": "{{.ShowInfo.Title}} <span>Season {{.Season.SeasonNumber}}</span>"
   },
   "tvepisode": {
     "other": "{{.Episode.Title}}"
   },
   "tvseason_number": {
-    "other": "Series {{.Season.SeasonNumber}}"
+    "other": "Season {{.Season.SeasonNumber}}"
   },
   "episode_count": {
     "one": "1 Episode",
