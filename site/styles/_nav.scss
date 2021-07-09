@@ -531,7 +531,7 @@ s72-dropdown,
       font-weight: $font-weight-normal;
       padding: 8px 0 8px 15px;
 
-      &:hover {
+      @include hover-focus {
         background-color: transparent;
         color: $primary;
       }
@@ -745,9 +745,12 @@ s72-dropdown,
     display: flex;
     padding-left: 0;
     padding-right: 20px;
-
     &:focus {
       box-shadow: none;
+    }
+    &:focus-visible {
+      outline: 1px dotted $body-color;
+      outline: 5px auto -webkit-focus-ring-color;
     }
   }
 
