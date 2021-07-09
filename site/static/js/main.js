@@ -458,14 +458,14 @@ function initSearch() {
   searchForm.addEventListener('focusout', closeSearch, false);
 }
 
-function initToggleScroll() {
+function initScroll() {
   var nav = document.querySelector('.navbar-toggler');
   nav.addEventListener('click', function(e) {
-    noScroll();
+    toggleScroll();
   });
 }
 
-function noScroll() {
+function toggleScroll() {
   var body = document.querySelector('body');
   if (!body.classList.contains('no-scroll')) {
     body.classList.add('no-scroll');
@@ -525,7 +525,7 @@ function documentReady(app) {
   if (document.querySelector('.navbar-nav-search')) {
     initSearch();
   }
-  initToggleScroll();
+  initScroll();
 }
 
 function detectTouchscreen(){
