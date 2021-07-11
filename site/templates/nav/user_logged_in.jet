@@ -30,11 +30,11 @@
           <a class="s72-dropdown-item" href="{{ routeToPath("/account.html") }}">{{i18n("nav_account")}}</a>
         </li>
         <li>
-          <s72-sign-out class="s72-dropdown-item">{{i18n("nav_signout")}}</s72-sign-out>
+          <s72-sign-out class="s72-dropdown-item" tabindex="0">{{i18n("nav_signout")}}</s72-sign-out>
         </li>
       </ul>
       <i class="fa fa-angle-down dropdown-caret"></i>
     </s72-dropdown>
-    <s72-sign-out class="sign-out-mobile">{{i18n("nav_signout")}}</s72-sign-out>
+    <s72-sign-out class="sign-out-mobile" tabindex="0">{{i18n("nav_signout")}}</s72-sign-out>
   </s72-user-known>
 {{end}}
