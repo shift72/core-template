@@ -1,7 +1,16 @@
-
 {
+  {{if config("player_allow_mobile_drm_content") == "true"}}
+  "support": {
+    "safari": {
+      "ios": "yes"
+    },
+    "chrome": {
+      "android": "yes"
+    }
+  },
+  {{end}}
   "apps": {
-    "android": null,
-    "ios": null
+    "android": {{if len(config("app_link_android")) > 0}}"{{config("app_link_android")}}"{{else}}null{{end}},
+    "ios": {{if len(config("app_link_ios")) > 0}}"{{config("app_link_ios")}}"{{else}}null{{end}}
   }
 }
