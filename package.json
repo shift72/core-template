@@ -7,6 +7,7 @@
     "start": "npm run init && npm-run-all --parallel css:watch js:watch kibble:watch",
     "init": "npm-run-all css js",
     "css": "node-sass ./site/styles/main.scss ./site/static/styles/main.css",
+    "css:lint": "stylelint ./site/styles/*.scss --fix",
     "css:watch": "npm run css -- --watch",
     "css:build": "postcss ./site/static/styles/main.css --use autoprefixer --use cssnano -r",
     "js": "rollup -c",
@@ -45,5 +46,13 @@
     "rollup-plugin-terser": "^6.1.0",
     "s72-kibble": "^0.15.17",
     "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.19.0"
   }
 }
