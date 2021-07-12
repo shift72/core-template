@@ -11,6 +11,7 @@
     "css:watch": "npm run css -- --watch",
     "css:build": "postcss ./site/static/styles/main.css --use autoprefixer --use cssnano -r",
     "js": "rollup -c",
+    "js:lint": "eslint ./site/static/js/*.js ./scripts --fix",
     "js:watch": "rollup -c -w",
     "js:build": "rollup -c",
     "kibble": "kibble render",
@@ -48,6 +49,7 @@
     "watch": "^1.0.2"
   },
   "devDependencies": {
+    "eslint": "^7.30.0",
     "prettier": "^2.3.2",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
