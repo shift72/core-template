@@ -438,30 +438,39 @@ function cullSlides(slider, direction){
   }
 }
 
-function initializeMenu() {
-  var togglers = document.getElementsByClassName('navbar-toggler');
-  for (var i = 0; i < togglers.length; i++) {
-    var toggler = togglers[i];
-    var f = toggler.getAttribute('toggle-function');
+function initSearch() {
+  var searchButton = document.querySelector('.btn-search-open');
+  var searchForm = document.querySelector('.form-control-search');
 
-    // Look for icons
-    var icon = null;
-    var icons = toggler.getElementsByClassName('icon-navbar-toggler');
-    if(icons && icons.length > 0) {
-      icon = icons[0];
-    }
-
-    toggler.addEventListener('click', function(e){
-      e.preventDefault();
-      window[f](icon);
-    });
+  var openSearch = function() {
+    document.querySelector('.form-control-search').focus();
+    document.querySelector('.navbar-nav-search').classList.add('search-show');
+    document.querySelector('.navbar-nav-search').classList.remove('search-hidden');
   }
+
+  var closeSearch = function() {
+    document.querySelector('.navbar-nav-search').classList.remove('search-show');
+    document.querySelector('.navbar-nav-search').classList.add('search-hidden');
+  }
+
+  searchButton.addEventListener('click', openSearch, false);
+  searchForm.addEventListener('focusin', openSearch, false);
+  searchForm.addEventListener('focusout', closeSearch, false);
 }
 
-function toggleMobileMenu(icon){
-  var element = document.querySelector('.collapse.navbar-collapse');
-  if (element && icon) {
-    element.classList.contains('show') ? icon.classList.add('toggled') : icon.classList.remove('toggled');
+function initScroll() {
+  var nav = document.querySelector('.navbar-toggler');
+  nav.addEventListener('click', function(e) {
+    toggleScroll();
+  });
+}
+
+function toggleScroll() {
+  var body = document.querySelector('body');
+  if (!body.classList.contains('no-scroll')) {
+    body.classList.add('no-scroll');
+  } else {
+    body.classList.remove('no-scroll');
   }
 }
 
@@ -502,8 +511,6 @@ function documentReady(app) {
     }
   }
 
-  initializeMenu();
-
   document.querySelectorAll('.btn-trailer').forEach(function(btn) {
     btn.addEventListener('click', function(e) {
       e.preventDefault();
@@ -515,7 +522,10 @@ function documentReady(app) {
   document.querySelectorAll('.navbar-nav').forEach(function(nav) {
     nav.classList.remove('s72-hide');
   });
-
+  if (document.querySelector('.navbar-nav-search')) {
+    initSearch();
+  }
+  initScroll();
 }
 
 function detectTouchscreen(){
@@ -526,7 +536,6 @@ function detectTouchscreen(){
 function isTouchscreenEnabled(){
   return (document.querySelector('html').getAttribute('is-touchscreen') === 'true');
 }
-
 document.addEventListener('s72loaded', function(event) {
   let app = event.detail.app;
   documentReady(app);
