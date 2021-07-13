@@ -281,6 +281,10 @@ s72-carousel {
     right: 0;
     left: auto;
   }
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
   span {
     width: 100%;
     text-align: center;
