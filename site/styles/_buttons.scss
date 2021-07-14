@@ -25,7 +25,7 @@
   border: 3px solid $signin-border-color;
   background-color: $signin-background;
   @include hover-focus {
-    color: $signin-text-color-hover;
+    color: $body-color;
     border: 3px solid $signin-border-color-hover;
     background: rgba($body-color, 0.1);
   }
@@ -34,7 +34,7 @@
     margin-left: 12px;
     @include hover-focus {
       background: $signin-background-hover;
-      text-decoration: underline;
+      color: $signin-text-color-hover;
     }
   }
   @include media-breakpoint-up(xl) {

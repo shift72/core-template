@@ -284,7 +284,7 @@
     right: 0;
     top: 0;
     transition: all .25s ease-out;
-    width: 32px;
+    width: 36px;
   }
 
   .form-control-search {
@@ -352,7 +352,7 @@
     padding: 0;
     position: absolute;
     top: 0;
-    width: 32px;
+    width: 36px;
 
     &:hover {
       i {
@@ -491,7 +491,8 @@ s72-dropdown,
     border: 0;
     flex-basis: 100%;
     margin: 0;
-    min-width: 178px;
+    min-width: 174px;
+    max-width: 243px;
     padding: 0;
     position: relative;
     top: 0;
@@ -527,9 +528,12 @@ s72-dropdown,
     .nav-link {
       border: 0;
       color: $body-color;
-      font-size: 14px;
+      font-size: 16px;
       font-weight: $font-weight-normal;
-      padding: 8px 0 8px 15px;
+      padding: 8px 0 8px 0px;
+      @include media-breakpoint-up(lg) {
+        padding: 8px 0 8px 15px;
+      }
 
       @include hover-focus {
         background-color: transparent;
@@ -796,12 +800,8 @@ s72-dropdown,
   }
 
   .nav-item {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: $font-weight-normal;
-
-    @include media-breakpoint-up(xxxl) {
-      font-size: 16px;
-    }
 
     &.active .nav-link {
       color: $subnav-nav-item-hover-background-color;
