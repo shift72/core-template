@@ -491,6 +491,7 @@ s72-dropdown,
     border: 0;
     flex-basis: 100%;
     margin: 0;
+    width: max-content;
     min-width: 174px;
     max-width: 243px;
     padding: 0;
@@ -532,7 +533,7 @@ s72-dropdown,
       font-weight: $font-weight-normal;
       padding: 8px 0 8px 0px;
       @include media-breakpoint-up(lg) {
-        padding: 8px 0 8px 15px;
+        padding: 8px 20px 8px 15px;
       }
 
       @include hover-focus {
@@ -821,7 +822,7 @@ s72-dropdown,
 
     @include media-breakpoint-up(lg) {
       border-bottom: 3px solid transparent;
-      margin-right: 20px;
+      padding-right: 20px;
     }
 
     &:hover {
