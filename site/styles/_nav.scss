@@ -847,3 +847,15 @@ s72-dropdown,
     display: none;
   }
 }
+
+.announcement-bar {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  background-color: $primary;
+  padding: 5px;
+  .announcement-bar-message {
+      display: contents;
+      font-size: 13px;
+  }
+}
