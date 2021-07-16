@@ -35,18 +35,22 @@ $container-max-widths: (
 
 $primary:         #35a0a8 !default;
 $secondary:       #4cd3dd !default;
-$body-bg:         #0F0F0F !default;
 $body-color:      #fff !default;
+$body-bg:         #0f0f0f !default;
+$body-bg-light:   #1a1a1a !default;
 $hr-border-color: rgba($body-color, .5) !default;
 $list-group-bg: $body-bg !default;
 $list-group-border-color: rgba($body-color, .125) !default;
 
 // Cookie Consent
 $cookie-consent-color: #000;
+$cookie-consent-link-color: $primary;
+$cookie-consent-hover-link-color: $secondary;
+
 
 // Nav
 // ------------------------------------
-$navbar-background-color: $body-bg !default;
+$navbar-background-color: transparent !default;
 $navbar-dark-active-color: $primary !default;
 $navbar-nav-link-padding-x:  1em !default;
 $navbar-nav-link-padding-y:  1em !default;
@@ -62,9 +66,6 @@ $navbar-brand-min-width: 126px !default;
 $navbar-brand-min-width-md: 126px !default;
 $navbar-brand-min-width-lg: 126px !default;
 $navbar-brand-min-width-xl: 126px !default;
-$navbar-search-top: 30px !default;
-$navbar-search-left: 160px !default;
-$navbar-search-left-md: 165px !default;
 
 // Sub Navivgation
 $subnav-background-color: #302e30 !default;
@@ -86,10 +87,11 @@ $dropdown-item-color: $body-color !default;
 $mobile-nav-link-color: $body-color !default;
 
 $signin-text-color: $body-color !default;
-$signin-text-color-hover: $body-color !default;
+$signin-text-color-hover: $primary !default;
 $signin-border-color: transparent !default;
 $signin-border-color-hover: transparent !default;
-$signin-background: transparent !default;
+$signin-background: rgba($body-color, 0.06) !default;
+$signin-background-lg: transparent !default;
 $signin-background-hover: transparent !default;
 
 $signup-text-color: $button-text-color !default;

@@ -2,6 +2,26 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-beta.2...HEAD)
 
+## [0.1.0](https://github.com/shift72/core-template/compare/0.1.0-beta-2...0.1.0) - 2021-07-16
+
+### Added
+- Added new searchbar behaviour:
+  - For all breakpoints, the search is collapsed by default until the magnifying glass is selected.
+  - For desktop, a small input is shown when selected.
+  - For tablet and mobile, a full width input is shown when selected.
+- Tablet breakpoint for the navigation.
+- Variables for link colour on the cookie banner.
+
+### Changed
+- Converted the header layout to flexbox.
+- Dropdowns for navigation and user account actions in the mobile menu are now collapsed by default.
+- English (`en_AU`) translations for TV Series changed to Season.
+
+### Fixed
+- Bundle page content is now left aligned.
+- Removed underline from carousel arrows.
+- Polish (`pl_PL`) Polskie renamed to Polski.
+
 ## [0.1.0-beta.2](https://github.com/shift72/core-template/compare/0.1.0-alpha.1...0.1.0-beta.2) - 2021-06-28
 
 ### Changed

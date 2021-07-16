@@ -1,0 +1,6 @@
+{{block bundleBackground(background)}}
+  <div class="meta-detail-bg">
+    <div class="meta-detail-bg-gradient"></div>
+    <s72-image src="{{background}}" alt="" class="meta-detail-bg-img"></s72-image>
+  </div>
+{{end}}
