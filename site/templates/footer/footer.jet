@@ -5,7 +5,7 @@
 
 {{ block footer() }}
 
-  {{ yield appBadges() }}
+  {*{ yield appBadges() }*}
 
   {*{ ID is used for skip links. }*}
   <footer id="footer">
