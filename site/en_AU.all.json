@@ -506,5 +506,7 @@
   "wcag_aria_label_wishlist": { "other": "Wishlist" },
   "wcag_aria_label_facebook": { "other": "Share on Facebook" },
   "wcag_aria_label_twitter": { "other": "Share on Twitter" },
-  "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" }
+  "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
+
+  "app_badge_title": { "other": "Download the app today!" }
 }

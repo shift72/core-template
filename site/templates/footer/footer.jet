@@ -1,8 +1,12 @@
 {{ import "./brand.jet" }}
 {{ import "./info.jet" }}
 {{ import "./nav.jet" }}
+{{ import "./app-badges.jet" }}
 
 {{ block footer() }}
+
+  {{ yield appBadges() }}
+
   {*{ ID is used for skip links. }*}
   <footer id="footer">
     {{ yield footerBrand() }}
