@@ -1,18 +1,18 @@
-{{ import "./brand.jet" }}
-{{ import "./info.jet" }}
-{{ import "./nav.jet" }}
-{{ import "./app-badges.jet" }}
+{{import "./brand.jet"}}
+{{import "./info.jet"}}
+{{import "./nav.jet"}}
+{{import "./app-badges.jet"}}
 
-{{ block footer() }}
+{{block footer()}}
 
-  {*{ yield appBadges() }*}
+  {*{yield appBadges()}*}
 
-  {*{ ID is used for skip links. }*}
+  {*{ID is used for skip links.}*}
   <footer id="footer">
-    {{ yield footerBrand() }}
+    {{yield footerBrand()}}
 
-    {{ yield footerNav(navLinks=site.Navigation.Footer) }}
+    {{yield footerNav(navLinks=site.Navigation.Footer)}}
 
-    {{ yield footerInfo() }}
+    {{yield footerInfo()}}
   </footer>
-{{ end }}
+{{end}}
