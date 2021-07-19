@@ -848,13 +848,13 @@ s72-dropdown,
   }
 }
 
-.announcement-bar {
+.nav-banner {
   text-align: center;
   position: relative;
   z-index: 10;
   background-color: $primary;
   padding: 5px;
-  .announcement-bar-message {
+  .nav-banner-message {
       display: contents;
       font-size: 13px;
   }

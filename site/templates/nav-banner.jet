@@ -1,0 +1,11 @@
+{{block navBanner()}}
+
+ {{showBanner:= config("show_nav_banner") == "true"}}
+
+ {{if showBanner}}
+  <div class="nav-banner">
+    <p class="nav-banner-message">{{i18n("nav_banner")}}</p>
+  </div>
+  {{ end }}
+
+{{end}}
