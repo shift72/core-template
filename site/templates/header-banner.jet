@@ -1,0 +1,8 @@
+{{block headerBanner()}}
+  {{showBanner:=config("show_header_banner")=="true"}}
+    {{if showBanner}}
+      <div class="header-banner">
+        <p class="header-banner-message">{{i18n("header_banner")}}</p>
+      </div>
+    {{end}}
+{{end}}

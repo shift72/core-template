@@ -848,13 +848,13 @@ s72-dropdown,
   }
 }
 
-.nav-banner {
+.header-banner {
   text-align: center;
   position: relative;
   z-index: 10;
   background-color: $primary;
   padding: 5px;
-  .nav-banner-message {
+  .header-banner-message {
       display: contents;
       font-size: 13px;
   }
