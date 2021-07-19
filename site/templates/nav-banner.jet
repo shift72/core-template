@@ -6,6 +6,6 @@
   <div class="nav-banner">
     <p class="nav-banner-message">{{i18n("nav_banner")}}</p>
   </div>
-  {{ end }}
+  {{end}}
 
 {{end}}
