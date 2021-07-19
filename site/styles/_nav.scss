@@ -566,22 +566,34 @@ s72-dropdown,
   padding: 0;
   width: 100%;
 
-  @include media-breakpoint-down(md) {
-    s72-sign-out.s72-dropdown-item {
-      display: none;
+  s72-sign-out {
+    display: flex;
+    margin-top: auto;
+
+    .btn-sign-out {
+      border: 0;
+      background-color: transparent;
+      color: $body-color;
+      padding: 0;
     }
 
-    .sign-out-mobile {
+    .btn-sign-out-mobile {
       background-color: rgba($color: $body-color, $alpha: .06);
       border-radius: 4px;
       color: $button-text-color;
-      font-weight: $font-weight-normal;
-      margin-top: auto;
       padding: 8px 56px;
-      text-align: center;
       width: 100%;
+      text-align: center;
+    }
 
-      @include hover-focus {
+    @include hover-focus {
+      .btn-sign-out {
+        @extend .animate-this;
+        color: $primary;
+        text-decoration: none;
+      }
+
+      .btn-sign-out-mobile {
         background-color: rgba($color: $body-color, $alpha: .1);
         color: $body-color;
       }
