@@ -37,13 +37,15 @@ $primary:         #35a0a8 !default;
 $secondary:       #4cd3dd !default;
 $body-color:      #fff !default;
 $body-bg:         #0f0f0f !default;
-$body-bg-light:   #1a1a1a !default;
+$body-bg-accent:   #1a1a1a !default;
 $hr-border-color: rgba($body-color, .5) !default;
 $list-group-bg: $body-bg !default;
 $list-group-border-color: rgba($body-color, .125) !default;
 
 @if lightness($body-bg) > 50% {
-  $body-bg-light: #e7e7e7;
+  $body-bg-accent: darken($body-bg, 8%);
+} @else {
+  $body-bg-accent: lighten($body-bg, 4%);
 }
 
 // Cookie Consent
