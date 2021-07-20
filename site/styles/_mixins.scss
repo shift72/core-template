@@ -25,12 +25,36 @@
 }
 
 @mixin a {
+  color: $link-color;
+  text-decoration: underline;
+  background-color: transparent;
+  &:hover,
+  &:focus {
     color: $link-color;
-    text-decoration: underline;
+    text-decoration: none;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+  30% {
+    opacity: 0; 
+    transform: translateX(40px);
+  }
+  100% {
+    opacity: 1; 
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fade-in {
+  0% {
     background-color: transparent;
-       &:hover,
-       &:focus {
-        color: $link-color;
-        text-decoration: none;
-      }
+  }
+  100% {
+    background-color: $body-bg-light;
+  }
 }

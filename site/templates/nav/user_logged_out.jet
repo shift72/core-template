@@ -1,5 +1,6 @@
 {{block nav_user_logged_out()}}
   <s72-user-anon class="user-anon">
+    <div class="vertical-line"></div>
     <a href="{{ routeToPath("/signin.html") }}" class="btn btn-signin">{{i18n("nav_signin")}}</a>
     {{if config("disable_user_signups") != "true"}}
       <a href="{{routeToPath("/signup.html")}}" class="btn btn-signup">{{i18n("nav_signup")}}</a>
