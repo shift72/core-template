@@ -410,7 +410,7 @@
   "validation_terms_required": { "other": "Musisz zaakceptować warunki korzystania z serwisu." },
   "shopping_error_item_limit_exceeded": { "other": "Niestety, {{.Title}} został wyprzedany." },
 
-  "app_badge_title": { "other": "Download the app today!" },
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
   "app_badge_ios": { "other": "Download on the App Store" },
   "app_badge_android": { "other": "Get it on Google Play" }
 }
