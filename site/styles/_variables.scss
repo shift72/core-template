@@ -36,7 +36,7 @@ $container-max-widths: (
 $primary:         #35a0a8 !default;
 $secondary:       #4cd3dd !default;
 $body-color:      #fff !default;
-$body-bg:         #1a1a1a !default;
+$body-bg:         #0f0f0f !default;
 $body-bg-accent: getAccentColor($body-bg) !default;
 $hr-border-color: rgba($body-color, .5) !default;
 $list-group-bg: $body-bg !default;
