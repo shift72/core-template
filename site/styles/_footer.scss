@@ -50,7 +50,7 @@ footer {
 
 .footer-info {
   padding: 20px 42px;
-  background-color: $body-bg-light;
+  background-color: $body-bg-accent;
 
   @include media-breakpoint-up(xl) {
     display: flex;
