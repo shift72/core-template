@@ -1,0 +1,13 @@
+{{ block appBadges() }}
+  <div class="app-banner">
+    <h2 class="app-badge-title">{{ i18n("app_badge_title") }}</h2>
+    <div class="app-badge-container">
+      <a class="app-badge-link" href="#">
+        <s72-image src="/images/icons/app-store-badge.png" alt="{{ i18n("app_badge_ios") }}" class="app-badge-image"></s72-image>
+      </a>
+      <a class="app-badge-link" href="#">
+        <s72-image src="/images/icons/google-play-badge.png" alt="{{ i18n("app_badge_android") }}" class="app-badge-image"></s72-image>
+      </a>
+    </div>
+  </div>
+{{ end }}
