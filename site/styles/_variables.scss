@@ -39,7 +39,7 @@ $body-color:      #fff !default;
 $body-bg:         #0f0f0f !default;
 $body-bg-light:   #1a1a1a !default;
 $error-color: $body-color !default;
-$error-background: $body-bg !default;
+$error-background: rgba($body-color, .1) !default;
 $hr-border-color: rgba($body-color, .5) !default;
 $list-group-bg: $body-bg !default;
 $list-group-border-color: rgba($body-color, .125) !default;
