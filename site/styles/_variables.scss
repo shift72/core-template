@@ -38,6 +38,8 @@ $secondary:       #4cd3dd !default;
 $body-color:      #fff !default;
 $body-bg:         #0f0f0f !default;
 $body-bg-light:   #1a1a1a !default;
+$error-color: $body-color !default;
+$error-background: $body-bg !default;
 $hr-border-color: rgba($body-color, .5) !default;
 $list-group-bg: $body-bg !default;
 $list-group-border-color: rgba($body-color, .125) !default;
@@ -192,5 +194,3 @@ $font-family-base: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Hel
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 500 !default;
-
-$error-background: #dc3545 !default;
