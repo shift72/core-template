@@ -576,7 +576,25 @@ s72-dropdown,
       border: 0;
       background-color: transparent;
       color: $body-color;
-      //padding: 0;
+    }
+    
+    .sign-out-desktop {
+      display: none;
+      @include media-breakpoint-up(lg) {
+        display: flex;
+        padding: 0;
+        margin: 3px 5px 3px 5px;
+        .btn-sign-out-desktop {
+          padding: 5px 15px 5px 10px;
+          width: 100%;
+        }
+      }
+    }
+
+    .sign-out-mobile {
+      @include media-breakpoint-up(lg) {
+        display: none;
+      }
     }
 
     .btn-sign-out-mobile {
@@ -594,7 +612,7 @@ s72-dropdown,
         color: $primary;
         text-decoration: none;
       }
-      
+
       .btn-sign-out-desktop {
         color: $primary;
       }
@@ -604,6 +622,7 @@ s72-dropdown,
         color: $body-color;
       }
     }
+
   }
 
   @include media-breakpoint-up(lg) {
@@ -672,25 +691,6 @@ s72-dropdown,
 
       @include media-breakpoint-up(lg) {
         top: 12px;
-      }
-    }
-
-    .sign-out-mobile {
-      @include media-breakpoint-up(lg) {
-        display: none;
-      }
-    }
-    
-    .sign-out-desktop {
-      display: none;
-      @include media-breakpoint-up(lg) {
-        display: flex;
-        padding: 0;
-        margin: 3px 5px 3px 5px;
-        .btn-sign-out-desktop {
-          padding: 5px 15px 5px 10px;
-          width: 100%;
-        }
       }
     }
   }
