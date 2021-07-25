@@ -594,6 +594,10 @@ s72-dropdown,
         color: $primary;
         text-decoration: none;
       }
+      
+      .btn-sign-out-desktop {
+        color: $primary;
+      }
 
       .btn-sign-out-mobile {
         background-color: rgba($color: $body-color, $alpha: .1);
@@ -686,9 +690,6 @@ s72-dropdown,
         .btn-sign-out-desktop {
           padding: 5px 15px 5px 10px;
           width: 100%;
-          @include hover-focus {
-            color: $primary;
-          }
         }
       }
     }
