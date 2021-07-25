@@ -30,7 +30,7 @@
           <a class="s72-dropdown-item" href="{{ routeToPath("/account.html") }}">{{i18n("nav_account")}}</a>
         </li>
         <li>
-          <s72-sign-out class="s72-dropdown-item" >
+          <s72-sign-out class="s72-dropdown-item sign-out-desktop" >
             <a href="#" class="btn-sign-out btn-sign-out-desktop">{{i18n("nav_signout")}}</a>
           </s72-sign-out>
         </li>
