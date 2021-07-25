@@ -15,7 +15,7 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px,
   xxl: 1440px,
-  xxxl: 1600px
+  xxxl: 1600px,
 ) !default;
 
 $container-max-widths: (
@@ -27,38 +27,37 @@ $container-max-widths: (
   lg: 992px,
   xl: 1200px,
   xxl: 1440px,
-  xxxl: 1600px
+  xxxl: 1600px,
 ) !default;
 
 // Body / Core
 // ------------------------------------
 
-$primary:         #35a0a8 !default;
-$secondary:       #4cd3dd !default;
-$body-color:      #fff !default;
-$body-bg:         #0f0f0f !default;
+$primary: #35a0a8 !default;
+$secondary: #4cd3dd !default;
+$body-color: #fff !default;
+$body-bg: #0f0f0f !default;
 $body-bg-accent: getAccentColor($body-bg) !default;
-$hr-border-color: rgba($body-color, .5) !default;
+$hr-border-color: rgba($body-color, 0.5) !default;
 $list-group-bg: $body-bg !default;
-$list-group-border-color: rgba($body-color, .125) !default;
+$list-group-border-color: rgba($body-color, 0.125) !default;
 
 // Cookie Consent
 $cookie-consent-color: #000;
 $cookie-consent-link-color: $primary;
 $cookie-consent-hover-link-color: $secondary;
 
-
 // Nav
 // ------------------------------------
 $navbar-background-color: transparent !default;
 $navbar-dark-active-color: $primary !default;
-$navbar-nav-link-padding-x:  1em !default;
-$navbar-nav-link-padding-y:  1em !default;
+$navbar-nav-link-padding-x: 1em !default;
+$navbar-nav-link-padding-y: 1em !default;
 
 // Uses navbar-dark theme so we can use variables for colouring
-$navbar-dark-active-color:  #FD4766 !default;
-$navbar-dark-color:         $body-color !default;
-$navbar-dark-hover-color:   #FD4766 !default;
+$navbar-dark-active-color: #fd4766 !default;
+$navbar-dark-color: $body-color !default;
+$navbar-dark-hover-color: #fd4766 !default;
 
 // Navbar Logo (Brand)
 $navbar-brand-padding-y: 25px !default;
@@ -74,7 +73,7 @@ $subnav-nav-item-color: $body-color !default;
 $subnav-nav-item-hover-background-color: $primary !default;
 $subnav-nav-item-active-background-color: $primary !default;
 $subnav-nav-item-margin-x: 1rem !default;
-$subnav-nav-item-margin-y: .5rem !default;
+$subnav-nav-item-margin-y: 0.5rem !default;
 $subnav-nav-item-border-radius: 2rem !default;
 
 // Buttons
@@ -152,9 +151,15 @@ $poster-landscape-height: 330px !default;
 $poster-carousel-width: 1600px !default;
 $poster-carousel-height: 600px !default;
 
-$poster-landscape-size-ratio: ($poster-landscape-height / $poster-landscape-width) !default;
-$poster-portrait-size-ratio: ($poster-portrait-height / $poster-portrait-width) !default;
-$poster-carousel-size-ratio: ($poster-carousel-height / $poster-carousel-width) !default;
+$poster-landscape-size-ratio: (
+  $poster-landscape-height / $poster-landscape-width
+) !default;
+$poster-portrait-size-ratio: (
+  $poster-portrait-height / $poster-portrait-width
+) !default;
+$poster-carousel-size-ratio: (
+  $poster-carousel-height / $poster-carousel-width
+) !default;
 
 $poster-border-radius: $meta-item-border-radius !default;
 
@@ -188,7 +193,9 @@ $modal-footer-button-margin: 5px;
 
 // Fonts
 // ------------------------------------
-$font-family-base: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-base: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto,
+  'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 500 !default;

@@ -1,5 +1,3 @@
-'use strict';
-
 const fs = require('fs');
 
 const outputDir = 'scripts/language-file-to-csv/output';
@@ -13,10 +11,12 @@ if (process.argv.length < 3) {
 }
 
 let languageFilePath = process.argv[2];
-let validLanguageFilePath = /site\/[a-z]{2}\_[A-Z]{2}.all.json/;
+let validLanguageFilePath = /site\/[a-z]{2}_[A-Z]{2}.all.json/;
 
 if (!languageFilePath.match(validLanguageFilePath)) {
-  console.error(`ERROR - Language file path argument '${languageFilePath}' invalid!`);
+  console.error(
+    `ERROR - Language file path argument '${languageFilePath}' invalid!`
+  );
   return;
 }
 
@@ -32,17 +32,27 @@ for (const [key, value] of Object.entries(json)) {
   }
 }
 
-let csvSeparator = '","'; 
+let csvSeparator = '","';
 
 let createRow = (key, value, singularValue) => {
-  let row = [key, '', value.replace(/"/g, '""'), '', singularValue.replace(/"/g, '""')];
+  let row = [
+    key,
+    '',
+    value.replace(/"/g, '""'),
+    '',
+    singularValue.replace(/"/g, '""'),
+  ];
   return `"${row.join(csvSeparator)}"`;
 };
 
-let csvHeader = `"${['Term', 'Translated Value', 'Value', 'Singular Translated Value', 'Singular Value'].join(csvSeparator)}"`;
-let csv = [
-  csvHeader
-];
+let csvHeader = `"${[
+  'Term',
+  'Translated Value',
+  'Value',
+  'Singular Translated Value',
+  'Singular Value',
+].join(csvSeparator)}"`;
+let csv = [csvHeader];
 
 for (const [key, value] of Object.entries(json)) {
   let singularValue = value.one ? value.one : '';
@@ -51,9 +61,9 @@ for (const [key, value] of Object.entries(json)) {
 
 let outputFilename = `${outputDir}/${new Date().toString()} - Translations.csv`;
 
-fs.writeFile(outputFilename, csv.join('\n'), err => {
+fs.writeFile(outputFilename, csv.join('\n'), (err) => {
   if (err) {
-    console.error(`ERROR - CSV creation failed '${err}'!`)
+    console.error(`ERROR - CSV creation failed '${err}'!`);
   }
   console.log(`\nFile '${outputFilename}' created!`);
 });
