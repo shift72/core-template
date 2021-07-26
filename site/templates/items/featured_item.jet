@@ -27,7 +27,7 @@
 
         {{if isset(item.InnerItem["Tagline"])}}
           <div class="meta-item-synopsis hidden-md">
-            <p>{{item.InnerItem.Tagline}}</p>
+            <p>{{item.InnerItem.Tagline | stripHTML}}</p>
           </div>
         {{end}}
 
