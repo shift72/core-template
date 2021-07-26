@@ -822,7 +822,7 @@ s72-dropdown,
 
     @include media-breakpoint-up(lg) {
       border-bottom: 3px solid transparent;
-      padding-right: 20px;
+      margin-right: 20px;
     }
 
     &:hover {
