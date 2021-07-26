@@ -859,3 +859,13 @@ s72-dropdown,
     font-size: 13px;
   }
 }
+.no-scroll{
+  .header-banner{
+    opacity: 0.2;
+  }
+}
+@media (min-width: 667px) and (max-width: 991.98px){
+  .navigation.show .navbar-brand-container-tablet{
+    margin-top: 22px;
+  }
+}
