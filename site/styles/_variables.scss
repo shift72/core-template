@@ -1,3 +1,5 @@
+@use "sass:math";
+
 // This file contains any variables used by the site.
 // These variables should be reasonably generic so that overrides are placed in main.scss.
 
@@ -152,14 +154,10 @@ $poster-carousel-width: 1600px !default;
 $poster-carousel-height: 600px !default;
 
 $poster-landscape-size-ratio: (
-  $poster-landscape-height / $poster-landscape-width
+  math.div($poster-landscape-height, $poster-landscape-width)
 ) !default;
-$poster-portrait-size-ratio: (
-  $poster-portrait-height / $poster-portrait-width
-) !default;
-$poster-carousel-size-ratio: (
-  $poster-carousel-height / $poster-carousel-width
-) !default;
+$poster-portrait-size-ratio: math.div($poster-portrait-height, $poster-portrait-width) !default;
+$poster-carousel-size-ratio: math.div($poster-carousel-height, $poster-carousel-width) !default;
 
 $poster-border-radius: $meta-item-border-radius !default;
 
@@ -167,7 +165,7 @@ $poster-border-radius: $meta-item-border-radius !default;
 // ------------------------------------
 
 $page-collection-container-width: 1140px !default;
-$page-collection-item-padding-horizontal: $grid-gutter-width-base / 2 !default;
+$page-collection-item-padding-horizontal: math.div($grid-gutter-width-base, 2) !default;
 // $page-collection-item-padding-horizontal: 15px !default;
 
 // Sliders
@@ -193,9 +191,9 @@ $modal-footer-button-margin: 5px;
 
 // Fonts
 // ------------------------------------
-$font-family-base: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto,
-  'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
-  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
+$font-family-base: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+  'Noto Color Emoji' !default;
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 500 !default;

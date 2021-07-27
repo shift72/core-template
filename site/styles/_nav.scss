@@ -235,10 +235,8 @@
     z-index: 13;
   }
 
-  @media only screen and (min-device-pixel-ratio: 2),
-    only screen and (min-resolution: 192dpi) {
-    background: url('../images/common/logo@2x.png') left center / contain
-      no-repeat;
+  @media only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+    background: url('../images/common/logo@2x.png') left center / contain no-repeat;
   }
 
   @include media-breakpoint-up(lg) {

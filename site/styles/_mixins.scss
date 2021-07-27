@@ -8,12 +8,7 @@
 }
 // Bottom Gradient
 .bottom-gradient-bg {
-  @include gradient-y(
-    transparent,
-    rgba($bottom-gradient-bg-color, 1),
-    0%,
-    100%
-  );
+  @include gradient-y(transparent, rgba($bottom-gradient-bg-color, 1), 0%, 100%);
   bottom: 0;
   left: 0;
   position: absolute;

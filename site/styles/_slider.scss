@@ -48,15 +48,11 @@ s72-userwishlist .s72-slider-control {
   $child-width: $width - ($page-collection-item-padding-horizontal * 2);
   .slider-#{$i} {
     &.slider-landscape .s72-slider-control {
-      top: ($child-width * $poster-landscape-size-ratio) /
-        2 -
-        ($slider-control-height / 2);
+      top: ($child-width * $poster-landscape-size-ratio) / 2 - ($slider-control-height / 2);
     }
 
     &.slider-portrait .s72-slider-control {
-      top: ($child-width * $poster-portrait-size-ratio) /
-        2 -
-        ($slider-control-height / 2);
+      top: ($child-width * $poster-portrait-size-ratio) / 2 - ($slider-control-height / 2);
     }
   }
 }

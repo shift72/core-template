@@ -5,7 +5,7 @@
 @import '_bootstrap4';
 @import '_mixins';
 @import '_shift72';
-@import 'node_modules/font-awesome/scss/font-awesome';
+@import '../../node_modules/font-awesome/scss/font-awesome';
 
 @import '_icons';
 @import '_buttons';
@@ -230,15 +230,11 @@ s72-classification-label {
   padding-top: 8px;
 }
 
-.meta-detail-content
-  .meta-detail-tagline-and-classification
-  .s72-classification {
+.meta-detail-content .meta-detail-tagline-and-classification .s72-classification {
   margin-right: 5px;
 }
 
-.meta-detail-content
-  .meta-detail-tagline-and-classification
-  .meta-item-tagline {
+.meta-detail-content .meta-detail-tagline-and-classification .meta-item-tagline {
   align-self: center;
   color: rgba($body-color, 0.8);
   font-weight: $font-weight-normal;
