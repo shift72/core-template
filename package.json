@@ -11,7 +11,7 @@
     "css:watch": "npm run css -- --watch",
     "css:build": "postcss ./site/static/styles/main.css --use autoprefixer --use cssnano -r",
     "js": "rollup -c",
-    "js:lint": "prettier '{scripts,site/static/js}/**/*.js' --write && eslint ./site/static/js/*.js ./scripts --fix",
+    "js:lint": "prettier '{scripts,site/static/js}/**/!(modernizr-custom).js' --write && eslint ./site/static/js/*.js ./scripts --fix",
     "js:watch": "rollup -c -w",
     "js:build": "rollup -c",
     "kibble": "kibble render",
