@@ -98,7 +98,7 @@
     "./site/static/scripts/*.map"
   ],
   "prettier": {
-    "arrowParens": "always",
+    "arrowParens": "avoid",
     "bracketSpacing": true,
     "embeddedLanguageFormatting": "auto",
     "endOfLine": "lf",
@@ -106,7 +106,7 @@
     "insertPragma": false,
     "jsxBracketSameLine": false,
     "jsxSingleQuote": false,
-    "printWidth": 80,
+    "printWidth": 100,
     "proseWrap": "preserve",
     "quoteProps": "as-needed",
     "requirePragma": false,

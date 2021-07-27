@@ -20,13 +20,13 @@ const whitespacePaddedKeys = [
 ];
 const emptyKeys = ['classification_outro', 'plan_label_owned'];
 
-languageFilenames.forEach((language) => {
+languageFilenames.forEach(language => {
   console.log(`===== TESTING: ${language} =====`);
 
   let file = languageFiles[language];
   let keys = Object.keys(file);
 
-  masterFileKeys.forEach((key) => {
+  masterFileKeys.forEach(key => {
     testLanguageContainsKey(language, keys, key);
 
     if (whitespacePaddedKeys.includes(key) && keys.includes(key)) {
@@ -48,11 +48,8 @@ languageFilenames.forEach((language) => {
 assert.ok(errors.length === 0, 'LANGUAGE FILE VALIDATION FAILED!');
 
 function getFilenames() {
-  return fs.readdirSync('./site/').filter((filename) => {
-    return (
-      filename !== masterFilename &&
-      filename.match(/[a-z]{2}_[A-Z]{2}\.all\.json/)
-    );
+  return fs.readdirSync('./site/').filter(filename => {
+    return filename !== masterFilename && filename.match(/[a-z]{2}_[A-Z]{2}\.all\.json/);
   });
 }
 
@@ -98,7 +95,7 @@ function testEmptyKey(file, key) {
 function testKeyNotEnglish(englishValue, translatedValue, key) {
   try {
     let count = Object.keys(englishValue);
-    count.forEach((c) => {
+    count.forEach(c => {
       assert.ok(englishValue[c] !== translatedValue[c], `${key} is translated`);
     });
   } catch (e) {

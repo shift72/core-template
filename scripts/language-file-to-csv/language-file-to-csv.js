@@ -14,9 +14,7 @@ let languageFilePath = process.argv[2];
 let validLanguageFilePath = /site\/[a-z]{2}_[A-Z]{2}.all.json/;
 
 if (!languageFilePath.match(validLanguageFilePath)) {
-  console.error(
-    `ERROR - Language file path argument '${languageFilePath}' invalid!`
-  );
+  console.error(`ERROR - Language file path argument '${languageFilePath}' invalid!`);
   return;
 }
 
@@ -35,13 +33,7 @@ for (const [key, value] of Object.entries(json)) {
 let csvSeparator = '","';
 
 let createRow = (key, value, singularValue) => {
-  let row = [
-    key,
-    '',
-    value.replace(/"/g, '""'),
-    '',
-    singularValue.replace(/"/g, '""'),
-  ];
+  let row = [key, '', value.replace(/"/g, '""'), '', singularValue.replace(/"/g, '""')];
   return `"${row.join(csvSeparator)}"`;
 };
 
@@ -61,7 +53,7 @@ for (const [key, value] of Object.entries(json)) {
 
 let outputFilename = `${outputDir}/${new Date().toString()} - Translations.csv`;
 
-fs.writeFile(outputFilename, csv.join('\n'), (err) => {
+fs.writeFile(outputFilename, csv.join('\n'), err => {
   if (err) {
     console.error(`ERROR - CSV creation failed '${err}'!`);
   }

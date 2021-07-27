@@ -188,16 +188,12 @@ function initializeSwiper(element, force) {
 
   initButton(
     element,
-    element
-      .closest('.swiper-wrapper-container')
-      .querySelector('.swiper-button-next'),
+    element.closest('.swiper-wrapper-container').querySelector('.swiper-button-next'),
     1
   );
   initButton(
     element,
-    element
-      .closest('.swiper-wrapper-container')
-      .querySelector('.swiper-button-prev'),
+    element.closest('.swiper-wrapper-container').querySelector('.swiper-button-prev'),
     -1
   );
 
@@ -240,7 +236,7 @@ function initButton(slider, button, velocity) {
     let buttonClone = button.cloneNode(true);
     button.parentNode.replaceChild(buttonClone, button);
 
-    buttonClone.addEventListener('click', (e) => {
+    buttonClone.addEventListener('click', e => {
       e.preventDefault();
       if (velocity > 0) {
         addAndRemoveSlides(slider.swiper, true, false);
@@ -261,11 +257,9 @@ function getMatchingDuplicatedSlides(slider, link) {
   let result = [];
 
   if (!slider.destroyed) {
-    Array.from(slider.el.querySelectorAll('.swiper-slide')).forEach((slide) => {
+    Array.from(slider.el.querySelectorAll('.swiper-slide')).forEach(slide => {
       if (!slide.classList.contains('base')) {
-        let thisLink = slide
-          .querySelector('a.meta-item-link')
-          .getAttribute('href');
+        let thisLink = slide.querySelector('a.meta-item-link').getAttribute('href');
         if (link === thisLink) result.push(slide);
       }
     });
@@ -286,23 +280,18 @@ function init(slider) {
     if (infiniteScrollEnabled(slider)) {
       let config = { subtree: true, childList: true };
 
-      let observer = new MutationObserver((mutations) => {
+      let observer = new MutationObserver(mutations => {
         for (let y = 0; y < mutations.length; y++) {
           let mutationRecord = mutations[y];
 
           // var href = mutationRecord.target.closest('a.meta-item-link').getAttribute('href');
           let thisSlide = mutationRecord.target.closest('.swiper-slide');
           if (thisSlide) {
-            let thisLink = thisSlide
-              .querySelector('a.meta-item-link')
-              .getAttribute('href');
+            let thisLink = thisSlide.querySelector('a.meta-item-link').getAttribute('href');
 
-            let duplicatedSlides = getMatchingDuplicatedSlides(
-              slider,
-              thisLink
-            );
+            let duplicatedSlides = getMatchingDuplicatedSlides(slider, thisLink);
 
-            Array.from(duplicatedSlides).forEach((dupe) => {
+            Array.from(duplicatedSlides).forEach(dupe => {
               dupe.innerHTML = thisSlide.innerHTML;
             });
           }
@@ -335,8 +324,7 @@ function infiniteScrollEnabled(slider) {
   let next = el.buttons.next;
 
   // Only infinite scroll on desktop (i.e. when the next/prev buttons are visible)
-  let buttonsVisible =
-    (prev && prev.offsetHeight > 0) || (next && next.offsetHeight > 0);
+  let buttonsVisible = (prev && prev.offsetHeight > 0) || (next && next.offsetHeight > 0);
 
   let screens = slider.slides.length / slider.params.slidesPerView;
 
@@ -369,13 +357,11 @@ function addAndRemoveSlides(slider, append, prepend) {
 }
 
 function getBaseSlides(slider) {
-  let result = Array.from(slider.el.querySelectorAll('.swiper-slide.base')).map(
-    (node) => {
-      return node.cloneNode(true);
-    }
-  );
+  let result = Array.from(slider.el.querySelectorAll('.swiper-slide.base')).map(node => {
+    return node.cloneNode(true);
+  });
 
-  Array.from(result).forEach((slide) => {
+  Array.from(result).forEach(slide => {
     slide.classList.remove(
       'base',
       'swiper-slide-visible',
@@ -420,10 +406,7 @@ function cullSlides(slider, direction) {
       if (index < slider.activeIndex && !slide.classList.contains('base')) {
         indices.push(index);
       }
-    } else if (
-      index > slider.activeIndex &&
-      !slide.classList.contains('base')
-    ) {
+    } else if (index > slider.activeIndex && !slide.classList.contains('base')) {
       indices.push(index);
     }
   }
@@ -447,15 +430,11 @@ function initSearch() {
   let openSearch = function () {
     document.querySelector('.form-control-search').focus();
     document.querySelector('.navbar-nav-search').classList.add('search-show');
-    document
-      .querySelector('.navbar-nav-search')
-      .classList.remove('search-hidden');
+    document.querySelector('.navbar-nav-search').classList.remove('search-hidden');
   };
 
   let closeSearch = function () {
-    document
-      .querySelector('.navbar-nav-search')
-      .classList.remove('search-show');
+    document.querySelector('.navbar-nav-search').classList.remove('search-show');
     document.querySelector('.navbar-nav-search').classList.add('search-hidden');
   };
 
@@ -498,15 +477,15 @@ function documentReady(app) {
     }
   }
 
-  document.querySelectorAll('.btn-trailer').forEach((btn) => {
-    btn.addEventListener('click', (e) => {
+  document.querySelectorAll('.btn-trailer').forEach(btn => {
+    btn.addEventListener('click', e => {
       e.preventDefault();
       e.stopPropagation();
       window.location = btn.getAttribute('data-url');
     });
   });
 
-  document.querySelectorAll('.navbar-nav').forEach((nav) => {
+  document.querySelectorAll('.navbar-nav').forEach(nav => {
     nav.classList.remove('s72-hide');
   });
   if (document.querySelector('.navbar-nav-search')) {
@@ -521,11 +500,9 @@ function detectTouchscreen() {
 }
 
 function isTouchscreenEnabled() {
-  return (
-    document.querySelector('html').getAttribute('is-touchscreen') === 'true'
-  );
+  return document.querySelector('html').getAttribute('is-touchscreen') === 'true';
 }
-document.addEventListener('s72loaded', (event) => {
+document.addEventListener('s72loaded', event => {
   let app = event.detail.app;
   documentReady(app);
 });
