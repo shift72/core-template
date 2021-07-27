@@ -824,7 +824,7 @@ s72-dropdown,
 
     @include media-breakpoint-up(lg) {
       border-bottom: 3px solid transparent;
-      padding-right: 20px;
+      margin-right: 20px;
     }
 
     &:hover {
@@ -860,5 +860,15 @@ s72-dropdown,
   .header-banner-message {
     display: contents;
     font-size: 13px;
+  }
+}
+.no-scroll{
+  .header-banner{
+    opacity: 0.2;
+  }
+}
+@media (min-width: 667px) and (max-width: 991.98px){
+  .navigation.show .navbar-brand-container-tablet{
+    margin-top: 22px;
   }
 }
