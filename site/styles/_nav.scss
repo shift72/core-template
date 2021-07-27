@@ -19,7 +19,7 @@
 
   &.show {
     .navbar {
-      background-color: $body-bg-light;
+      background-color: $body-bg-accent;
       flex-direction: column;
       height: 100%;
       min-height: 100%;
@@ -420,7 +420,7 @@
   }
 
   &.search-show {
-    background-color: $body-bg-light;
+    background-color: $body-bg-accent;
     height: ($navbar-brand-padding-y * 2) + 20px;
     margin: 0;
     position: absolute;
@@ -487,7 +487,7 @@ s72-dropdown,
   }
 
   .s72-dropdown-menu {
-    background-color: $body-bg-light;
+    background-color: $body-bg-accent;
     border: 0;
     flex-basis: 100%;
     margin: 0;
@@ -499,7 +499,7 @@ s72-dropdown,
     top: 0;
 
     @include media-breakpoint-up(lg) {
-      border: 4px solid $body-bg-light;
+      border: 4px solid $body-bg-accent;
       box-shadow: 0 0 0 1px rgba(255, 255, 255, .12);
       max-height: 330px;
       overflow-y: auto;
@@ -511,7 +511,7 @@ s72-dropdown,
       }
 
       &::-webkit-scrollbar-track {
-        background: $body-bg-light;
+        background: $body-bg-accent;
       }
 
       &::-webkit-scrollbar-thumb {
@@ -822,7 +822,7 @@ s72-dropdown,
 
     @include media-breakpoint-up(lg) {
       border-bottom: 3px solid transparent;
-      padding-right: 20px;
+      margin-right: 20px;
     }
 
     &:hover {
@@ -845,5 +845,27 @@ s72-dropdown,
 .s72-dropdown-toggle {
   &::after {
     display: none;
+  }
+}
+
+.header-banner {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  background-color: $primary;
+  padding: 1px;
+  .header-banner-message {
+    display: contents;
+    font-size: 13px;
+  }
+}
+.no-scroll{
+  .header-banner{
+    opacity: 0.2;
+  }
+}
+@media (min-width: 667px) and (max-width: 991.98px){
+  .navigation.show .navbar-brand-container-tablet{
+    margin-top: 22px;
   }
 }

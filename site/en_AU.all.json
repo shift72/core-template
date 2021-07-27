@@ -56,6 +56,7 @@
   "nav_wishlist": { "other": "My List" },
   "nav_account": { "other": "My Account" },
   "nav_signout": { "other": "Sign Out" },
+  "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
   "play_trailer": { "other": "Trailer" },
   "runtime_hours": { "other": "h" },
   "runtime_minutes": { "other": "m" },
@@ -506,5 +507,9 @@
   "wcag_aria_label_wishlist": { "other": "Wishlist" },
   "wcag_aria_label_facebook": { "other": "Share on Facebook" },
   "wcag_aria_label_twitter": { "other": "Share on Twitter" },
-  "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" }
+  "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
+
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
+  "app_badge_ios": { "other": "Download on the App Store" },
+  "app_badge_android": { "other": "Get it on Google Play" }
 }
