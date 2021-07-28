@@ -70,9 +70,11 @@ s72-activatedevice-form,
     top: -5px;
   }
 }
+
 .s72-form-errors {
   color: $error-color;
 }
+
 // DOB Datepicker
 .s72-datepicker {
   @extend .d-flex;
