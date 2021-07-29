@@ -174,7 +174,7 @@ s72-useraccount-form {
   }
 }
 
-.s72-form-errors { @extend .invalid-feedback; }
+.s72-form-errors { @extend .is-invalid; }
 .s72-has-error .form-control { @extend .is-invalid; }
 // .s72-control-inputs { @extend .control-inputs; }
 // .s72-no-control-label { @extend .no-control-label; }
