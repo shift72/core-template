@@ -26,8 +26,8 @@
     "da": { "code": "da_DK", "name": "Dansk" },
     "uk": { "code": "uk_UA", "name": "Український" },
     "fi": { "code": "fi_FI", "name": "Suomi" },
-    "ar": { "code": "ar_LB", "name": "عربى" }
-    
+    "ar": { "code": "ar_LB", "name": "عربى" },
+    "zh-tw": { "code": "zh_TW", "name": "中文" }
   },
   "siteRootPath": "site",
   "liveReload": {
