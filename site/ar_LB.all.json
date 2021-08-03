@@ -63,8 +63,8 @@
     "datetime_today": { "other": "اليوم {{.Date}}" },
     "datetime_tomorrow": { "other": "غداً {{.Date}}" },
     "datetime_yesterday": { "other": "البارحة {{.Date}}" },
-    "datetime_next": { "other": "{{التاريخ.}}" },
-    "datetime_last": { "other": "{{آخر.}}" },
+    "datetime_next": { "other": "{{.Date}}" },
+    "datetime_last": { "other": "{{.Date}}" },
   
     "search_control_placeholder": { "other": "البحث" },
     "search_control_submit": { "other": "تأكيد البحث" },
