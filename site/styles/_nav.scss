@@ -578,7 +578,7 @@ s72-dropdown,
       color: $body-color;
     }
     
-    .sign-out-desktop {
+    &.sign-out-desktop {
       display: none;
       @include media-breakpoint-up(lg) {
         display: flex;
@@ -591,7 +591,7 @@ s72-dropdown,
       }
     }
 
-    .sign-out-mobile {
+    &.sign-out-mobile {
       @include media-breakpoint-up(lg) {
         display: none;
       }
@@ -605,24 +605,27 @@ s72-dropdown,
       width: 100%;
       text-align: center;
     }
-
-    @include hover-focus {
-      .btn-sign-out {
-        @extend .animate-this;
+    
+    .btn-sign-out {
+      @extend .animate-this;
+      @include hover-focus {
         color: $primary;
         text-decoration: none;
       }
+    }
 
-      .btn-sign-out-desktop {
+    .btn-sign-out-desktop {
+      @include hover-focus {
         color: $primary;
       }
+    }
 
-      .btn-sign-out-mobile {
+    .btn-sign-out-mobile {
+      @include hover-focus {
         background-color: rgba($color: $body-color, $alpha: .1);
         color: $body-color;
       }
     }
-
   }
 
   @include media-breakpoint-up(lg) {
