@@ -2,7 +2,7 @@
   "name": "core-template",
   "version": "0.0.1",
   "siteUrl": "https://abccinemas.screenplus.co",
-  "builderVersion": "0.15.17",
+  "builderVersion": "0.15.18",
   "defaultLanguage": "en",
   "languages": {
     "en": { "code": "en_AU", "name": "English" },
@@ -25,8 +25,9 @@
     "lt": { "code": "lt_LT", "name": "Lietuvių Kalba" },
     "da": { "code": "da_DK", "name": "Dansk" },
     "uk": { "code": "uk_UA", "name": "Український" },
-    "fi": { "code": "fi_FI", "name": "Suomi" }
-    
+    "fi": { "code": "fi_FI", "name": "Suomi" },
+    "ar": { "code": "ar_LB", "name": "عربى" },
+    "zh-tw": { "code": "zh_TW", "name": "中文" }
   },
   "siteRootPath": "site",
   "liveReload": {

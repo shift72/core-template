@@ -1,15 +1,17 @@
 {
   "name": "@shift72/core-template",
-  "version": "0.1.0-beta.2",
+  "version": "0.1.0",
   "description": "Shift72 core template",
   "license": "MIT",
   "scripts": {
     "start": "npm run init && npm-run-all --parallel css:watch js:watch kibble:watch",
     "init": "npm-run-all css js",
     "css": "node-sass ./site/styles/main.scss ./site/static/styles/main.css",
+    "css:lint": "prettier 'site/styles/*.scss' --write && stylelint ./site/styles/*.scss --fix",
     "css:watch": "npm run css -- --watch",
     "css:build": "postcss ./site/static/styles/main.css --use autoprefixer --use cssnano -r",
     "js": "rollup -c",
+    "js:lint": "prettier '{scripts,site/static/js}/**/*.js' --write && eslint ./site/static/js/*.js ./scripts --fix",
     "js:watch": "rollup -c -w",
     "js:build": "rollup -c",
     "kibble": "kibble render",
@@ -43,7 +45,83 @@
     "postcss-cli": "^7.1.1",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
-    "s72-kibble": "^0.15.17",
+    "s72-kibble": "^0.15.18",
     "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-preact": "^1.1.4",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.19.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "preact",
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2015,
+      "sourceType": "module"
+    },
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    }
+  },
+  "eslintIgnore": [
+    "modernizr-custom.js",
+    "./site/static/scripts/*.js"
+  ],
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "embeddedLanguageFormatting": "auto",
+    "endOfLine": "lf",
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "printWidth": 80,
+    "proseWrap": "preserve",
+    "quoteProps": "as-needed",
+    "requirePragma": false,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "useTabs": false
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-sass-guidelines",
+      "stylelint-prettier/recommended"
+    ],
+    "rules": {
+      "prettier/prettier": true
+    }
   }
 }

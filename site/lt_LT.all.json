@@ -472,5 +472,9 @@
   "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
   "user_error_too_many_pin_errors_help_page_link": { "other": "" },
   "shopping_error_age_restricted": { "other": "This content is age restricted." },
-  "shopping_error_close_button": { "other": "OK" }
+  "shopping_error_close_button": { "other": "OK" },
+
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
+  "app_badge_ios": { "other": "Download on the App Store" },
+  "app_badge_android": { "other": "Get it on Google Play" }
 }

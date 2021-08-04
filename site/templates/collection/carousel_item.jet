@@ -41,7 +41,7 @@
             <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
 
             <div class="meta-item-synopsis">
-              <p>{{item.InnerItem.Tagline}}</p>
+              <p>{{item.InnerItem.Tagline | stripHTML}}</p>
             </div>
 
             <div class="meta-item-extras">
