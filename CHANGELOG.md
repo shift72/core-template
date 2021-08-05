@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-beta.2...HEAD)
 
+### Fixed
+- Prevent rollup.js from clearing console output when rebuilding.
+
 ## [0.2.0-beta.1](https://github.com/shift72/core-template/compare/0.1.0...0.2.0-beta.1) -2021-08-05
 
 ### Added
