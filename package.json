@@ -122,8 +122,9 @@
       "stylelint-prettier/recommended"
     ],
     "rules": {
+      "max-nesting-depth": 3,
       "prettier/prettier": true,
-      "max-nesting-depth": 3
+      "scss/at-extend-no-missing-placeholder": null
     }
   }
 }
