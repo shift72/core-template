@@ -2,8 +2,8 @@
   @extend .d-flex;
   flex-wrap: wrap;
   .partial {
-    @extend .slider-item;
     padding-bottom: $grid-gutter-width;
+    @extend .slider-item;
   }
 }
 
@@ -18,30 +18,30 @@
 
 // dont show empty wishlist message on homepage slider
 .page-homepage .s72-userwishlist-empty {
-  display: none;
+	display: none;
 }
 
 .s72-userwishlist-buttons {
-  .s72-btn-wishlist {
-    @extend .btn;
-    font-size: 12px;
+	.s72-btn-wishlist {
+		font-size: 12px;
     font-weight: $font-weight-bold;
-    margin-right: 10px;
-    padding-bottom: 3px;
-    padding-left: 0;
+    @extend .btn;
     padding-top: 3px;
-    @include media-breakpoint-up(md) {
-      padding-left: 0.75rem;
-    }
+    padding-bottom: 3px;
+    margin-right: 10px;
+    padding-left: 0;
+     @include media-breakpoint-up(md) {
+      padding-left: 0.75rem
+     }
     span {
-      @extend .d-flex;
-      align-items: center;
-      flex-direction: row;
       justify-content: center;
+      flex-direction: row;
+      align-items: center;
+      @extend .d-flex;
     }
     .s72-icon {
       font-size: 32px !important;
-      opacity: 0.8;
+      opacity: .8;
     }
-  }
+	}
 }

@@ -1,32 +1,12 @@
 .right-gradient-bg {
-  @include gradient-x(
-    rgba($right-gradient-bg-color, 0),
-    rgba($right-gradient-bg-color, 1),
-    0%,
-    100%
-  );
+	@include gradient-x(rgba($right-gradient-bg-color,0), rgba($right-gradient-bg-color,1), 0%, 100%);
 }
 .bottom-gradient-bg {
-  @include gradient-y(
-    rgba($bottom-gradient-bg-color, 0),
-    rgba($bottom-gradient-bg-color, 1),
-    0%,
-    100%
-  );
+    @include gradient-y(rgba($bottom-gradient-bg-color, 0), rgba($bottom-gradient-bg-color, 1), 0%, 100%);
 }
 .left-gradient-bg {
-  @include gradient-x(
-    rgba($left-gradient-bg-color, 1),
-    rgba($left-gradient-bg-color, 0),
-    0%,
-    100%
-  );
+    @include gradient-x(rgba($left-gradient-bg-color, 1), rgba($left-gradient-bg-color, 0), 0%, 100%);
 }
 .top-gradient-bg {
-  @include gradient-y(
-    rgba($top-gradient-color, 1),
-    rgba($top-gradient-color, 0),
-    0%,
-    100%
-  );
+	@include gradient-y(rgba($top-gradient-color, 1), rgba($top-gradient-color, 0), 0%, 100%); 
 }

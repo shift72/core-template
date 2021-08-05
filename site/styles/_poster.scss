@@ -1,29 +1,25 @@
 .poster {
-  border-radius: $poster-border-radius;
-  max-width: 100%;
-  overflow: hidden;
   position: relative;
-  width: 100%;
+  overflow: hidden;
+  border-radius: $poster-border-radius;
   z-index: 1;
+  max-width: 100%;
+  width: 100%;
 
-  s72-availability-status {
-    left: $meta-item-availability-tag-margin;
-    top: $meta-item-availability-tag-margin;
-  }
-  s72-availability-label {
-    bottom: $meta-item-availability-tag-margin;
-    left: $meta-item-availability-tag-margin;
-  }
+  s72-availability-status { top: $meta-item-availability-tag-margin; left: $meta-item-availability-tag-margin; }
+  s72-availability-label  { bottom: $meta-item-availability-tag-margin; left: $meta-item-availability-tag-margin; }
 }
 
 .poster-image {
-  height: auto;
-  max-width: 100%;
   position: relative;
+  max-width: 100%;
+  height: auto;
   width: 100%;
   &.poster-image-landscape {
+
   }
 
   &.poster-image-portrait {
+
   }
 }

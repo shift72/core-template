@@ -1,44 +1,42 @@
 .swiper-wrapper-container {
-  margin: 0 auto;
   padding: 0;
   position: relative;
+  margin: 0 auto;
 }
 
 .swiper-container {
-  padding: 0 0 40px;
-  @include media-breakpoint-up(md) {
-    padding: 15px 50px 20px;
+  padding: 0 0 40px 0;
+  @include media-breakpoint-up(md){
+    padding: 15px 50px 20px 50px;
   }
 }
 
 .swiper-slide {
   a {
-    display: block;
     width: 100%;
+    display: block;
   }
 }
 
 .swiper-button-next {
-  background: rgba($body-bg, 0.8) url(/images/icons/next.png) center center
-    no-repeat;
   right: 0;
+  background: rgba($body-bg,0.8) url(/images/icons/next.png) center center no-repeat;
 }
 
 .swiper-button-prev {
-  background: rgba($body-bg, 0.8) url(/images/icons/prev.png) center center
-    no-repeat;
   left: 0;
+  background: rgba($body-bg,0.8) url(/images/icons/prev.png) center center no-repeat;
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-  background-size: 30%;
-  height: 100%;
-  margin-top: 0;
-  opacity: 0.8;
-  outline: 0 none;
   top: 0;
   width: 44px;
+  height: 100%;
+  margin-top: 0;
+  background-size: 30%;
+  opacity: .8;
+  outline: 0 none;
 
   @include hover-focus {
     opacity: 1;
@@ -54,7 +52,7 @@
 }
 
 .swiper-title {
-  @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(sm){
     padding-left: 25px;
   }
 }

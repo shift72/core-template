@@ -44,7 +44,7 @@
       }
 
       @include media-breakpoint-down(md) {
-        animation: fade-in 0.25s;
+        animation: fade-in .25s;
         animation-fill-mode: forwards;
       }
 
@@ -118,7 +118,7 @@
   height: 100%;
   padding: 10px 20px;
   position: relative;
-  transition: background-color 0.25s ease-out;
+  transition: background-color .25s ease-out;
   width: 100%;
   z-index: 11;
 
@@ -189,7 +189,7 @@
     right: 0;
     transform: rotate(0deg);
     transform-origin: right center;
-    transition: 0.15s ease-in-out;
+    transition: .15s ease-in-out;
     width: 24px;
   }
 
@@ -235,10 +235,8 @@
     z-index: 13;
   }
 
-  @media only screen and (min-device-pixel-ratio: 2),
-    only screen and (min-resolution: 192dpi) {
-    background: url('../images/common/logo@2x.png') left center / contain
-      no-repeat;
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min-resolution: 192dpi) {
+    background: url('../images/common/logo@2x.png') left center / contain no-repeat;
   }
 
   @include media-breakpoint-up(lg) {
@@ -258,7 +256,7 @@
   background-color: $navbar-background-color;
   display: none;
   left: 0;
-  opacity: 0.2;
+  opacity: .2;
   pointer-events: none;
   position: absolute;
   top: 10px;
@@ -285,7 +283,7 @@
     position: relative;
     right: 0;
     top: 0;
-    transition: all 0.25s ease-out;
+    transition: all .25s ease-out;
     width: 36px;
   }
 
@@ -303,7 +301,7 @@
 
     @include media-breakpoint-up(lg) {
       height: 100%;
-      transition: border-bottom 0.25s ease-out;
+      transition: border-bottom .25s ease-out;
     }
 
     &:focus {
@@ -319,7 +317,7 @@
       color: rgba($color: $body-color, $alpha: 0.8);
       font-weight: $font-weight-normal;
       opacity: 0;
-      transition: 0.25s ease-out;
+      transition: .25s ease-out;
 
       @include media-breakpoint-up(lg) {
         transition: none;
@@ -338,7 +336,7 @@
       transition: background-color 5000s ease-in-out 0s;
     }
 
-    :input-placeholder {
+    :-ms-input-placeholder {
       opacity: 1;
     }
   }
@@ -462,17 +460,17 @@
   }
 }
 
-input[type='search']::-ms-clear,
-input[type='search']::-ms-reveal {
+input[type=search]::-ms-clear,
+input[type=search]::-ms-reveal {
   display: none;
   height: 0;
   width: 0;
 }
 
-input[type='search']::-webkit-search-decoration,
-input[type='search']::-webkit-search-cancel-button,
-input[type='search']::-webkit-search-results-button,
-input[type='search']::-webkit-search-results-decoration {
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
@@ -493,16 +491,16 @@ s72-dropdown,
     border: 0;
     flex-basis: 100%;
     margin: 0;
-    max-width: 243px;
+    width: max-content;
     min-width: 174px;
+    max-width: 243px;
     padding: 0;
     position: relative;
     top: 0;
-    width: max-content;
 
     @include media-breakpoint-up(lg) {
       border: 4px solid $body-bg-accent;
-      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12);
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, .12);
       max-height: 330px;
       overflow-y: auto;
       position: absolute;
@@ -517,12 +515,12 @@ s72-dropdown,
       }
 
       &::-webkit-scrollbar-thumb {
-        background: rgba($body-color, 0.4);
+        background: rgba($body-color, .4);
         border-radius: 10px;
-        transition: all 0.25s ease-out;
+        transition: all .25s ease-out;
 
         &:hover {
-          background: rgba($body-color, 0.5);
+          background: rgba($body-color, .5);
         }
       }
     }
@@ -533,7 +531,7 @@ s72-dropdown,
       color: $body-color;
       font-size: 16px;
       font-weight: $font-weight-normal;
-      padding: 8px 0;
+      padding: 8px 0 8px 0px;
       @include media-breakpoint-up(lg) {
         padding: 8px 20px 8px 15px;
       }
@@ -574,7 +572,7 @@ s72-dropdown,
     }
 
     .sign-out-mobile {
-      background-color: rgba($color: $body-color, $alpha: 0.06);
+      background-color: rgba($color: $body-color, $alpha: .06);
       border-radius: 4px;
       color: $button-text-color;
       font-weight: $font-weight-normal;
@@ -584,7 +582,7 @@ s72-dropdown,
       width: 100%;
 
       @include hover-focus {
-        background-color: rgba($color: $body-color, $alpha: 0.1);
+        background-color: rgba($color: $body-color, $alpha: .1);
         color: $body-color;
       }
     }
@@ -630,7 +628,7 @@ s72-dropdown,
     flex-direction: column;
     height: 100%;
     margin-top: 20px;
-    padding: 10px 0 20px;
+    padding: 10px 0 20px 0;
 
     @include media-breakpoint-up(lg) {
       margin-left: 12px;
@@ -668,7 +666,7 @@ s72-dropdown,
 
   s72-user-known,
   s72-user-anon {
-    border-top: 1px solid rgba($color: $body-color, $alpha: 0.1);
+    border-top: 1px solid rgba($color: $body-color, $alpha: .1);
 
     @include media-breakpoint-up(lg) {
       border: 0;
@@ -677,7 +675,7 @@ s72-dropdown,
   }
 
   hr {
-    border-top: 1px solid rgba($color: $body-color, $alpha: 0.1);
+    border-top: 1px solid rgba($color: $body-color, $alpha: .1);
     display: none;
     margin: 0 15px 5px;
 
@@ -774,7 +772,7 @@ s72-dropdown,
 }
 
 .vertical-line {
-  border-left: solid 1px rgba($color: $body-color, $alpha: 0.5);
+  border-left: solid 1px rgba($color: $body-color, $alpha: .5);
   display: none;
   height: 25px;
   margin-left: 12px;
@@ -820,7 +818,7 @@ s72-dropdown,
     color: $subnav-nav-item-color;
     font-size: 16px;
     padding: 10px 0;
-    transition: color 0.25s ease-out;
+    transition: color .25s ease-out;
 
     @include media-breakpoint-up(lg) {
       border-bottom: 3px solid transparent;
@@ -851,13 +849,11 @@ s72-dropdown,
 }
 
 .header-banner {
-  align-items: center;
-  background-color: $primary;
   display: flex;
-  height: 26px;
   justify-content: center;
-  position: relative;
+  align-items: center;
   text-align: center;
+  position: relative;
   z-index: 10;
   background-color: $primary;
   min-height: 26px;

@@ -2,19 +2,19 @@
 .sign-up-now {
   padding: $grid-gutter-width 0;
   .item {
-    @extend .d-flex;
-    flex-direction: column;
-    margin: 0 auto;
     max-width: 420px;
+    margin: 0 auto;
+    flex-direction: column;
     padding: 0 $grid-gutter-width / 2;
+    @extend .d-flex;
     // Watch anywhere, at any time
     h2 {
-      align-self: center;
       color: #fff;
       font-size: 24px;
       font-weight: $font-weight-normal;
-      max-width: 210px;
       text-align: center;
+      align-self: center;
+      max-width: 210px;
       @include media-breakpoint-up(md) {
         font-size: 22px;
         max-width: 400px;
@@ -25,10 +25,10 @@
     }
     // Sign in or Create Account
     s72-user-anon {
-      align-self: center;
-      display: block;
       text-align: center;
+      align-self: center;
       width: 100%;
+      display: block;
       p {
         font-size: 14px;
         font-weight: $font-weight-normal;
@@ -44,10 +44,10 @@
         padding: 0;
       }
       img {
-        display: block;
+        width: 60%;
         height: 60%;
         margin: 0 auto;
-        width: 60%;
+        display: block;
         @include media-breakpoint-up(md) {
           // width: 100%;
         }
