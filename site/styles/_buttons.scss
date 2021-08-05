@@ -1,33 +1,33 @@
 .btn {
-  font-family: $font-family-base;
   border-radius: 4px;
+  font-family: $font-family-base;
 }
 // Default Action for Buttons
 
 // Primary Button
 .btn-primary {
-  color: $button-text-color;
   background-color: $button-background;
+  color: $button-text-color;
   font-weight: $font-weight-bold;
   @include hover-focus {
-    color: $button-text-color-hover;
-    border-color: $button-background-hover;
     background-color: $button-background-hover;
+    border-color: $button-background-hover;
+    color: $button-text-color-hover;
   }
 }
 // Sign In Button
 .btn.btn-signin {
-  justify-content: center;
   align-items: center;
+  background-color: $signin-background;
+  border: 3px solid $signin-border-color;
+  color: $signin-text-color;
   display: flex;
   font-size: 14px;
-  color: $signin-text-color;
-  border: 3px solid $signin-border-color;
-  background-color: $signin-background;
+  justify-content: center;
   @include hover-focus {
-    color: $body-color;
-    border: 3px solid $signin-border-color-hover;
     background: rgba($body-color, 0.1);
+    border: 3px solid $signin-border-color-hover;
+    color: $body-color;
   }
   @include media-breakpoint-up(lg) {
     background-color: $signin-background-lg;
@@ -40,59 +40,43 @@
   @include media-breakpoint-up(xl) {
     font-size: 16px;
   }
-
 }
 // Sign Up Button
 .btn.btn-signup {
-  justify-content: center;
   align-items: center;
+  background-color: $signup-background;
+  border: 3px solid $signup-border-color;
+  color: $signup-text-color;
   display: flex;
   font-size: 14px;
-  color: $signup-text-color;
-  border: 3px solid $signup-border-color;
-  background-color: $signup-background; 
-  white-space: initial;
+  justify-content: center;
   margin-left: 12px;
+  white-space: initial;
   @include media-breakpoint-up(xl) {
     font-size: 16px;
   }
   @include hover-focus {
-    color: $signup-text-color-hover;
     background-color: $signup-background-hover;
+    color: $signup-text-color-hover;
   }
 }
 // Play Button
 .s72-btn-play {
-  padding-top: 3px;
+  @extend .d-flex;
+  align-items: center;
+  background: $button-background;
+  border: 3px solid $button-background;
+  justify-content: center;
   padding-bottom: 3px;
   padding-left: 0;
-  border: 3px solid $button-background;
-  background: $button-background;
-  align-items: center;
-  justify-content: center;
-  @extend .d-flex;
-  .s72-icon-play {
-    circle {
-      stroke: none;
-      fill: none;
-    }
-    path {
-      fill: $button-text-color;
-      stroke: $button-text-color; 
-    }
-  }
-  .verb {
-    color: $button-text-color;
-    font-size: 18px;
-    font-weight: $font-weight-bold;
-  }
+  padding-top: 3px;
   @include hover-focus {
-    border: 3px solid $button-background-hover;
     background: $button-background-hover;
+    border: 3px solid $button-background-hover;
     .s72-icon-play {
       circle {
-        stroke: none;
         fill: none;
+        stroke: none;
       }
       path {
         fill: $button-text-color-hover;
@@ -103,19 +87,31 @@
       color: $button-text-color-hover;
     }
   }
+  .s72-icon-play {
+    circle {
+      fill: none;
+      stroke: none;
+    }
+    path {
+      fill: $button-text-color;
+      stroke: $button-text-color;
+    }
+  }
+  .verb {
+    color: $button-text-color;
+    font-size: 18px;
+    font-weight: $font-weight-bold;
+  }
   &.s72-btn-trailer {
     background: transparent;
     border: 0 none;
-    .verb {
-      color: $trailer-button-text-color;
-    }
     @include hover-focus {
       background: transparent;
       .s72-icon-play {
         circle {
           fill: $primary;
-          stroke-width: 3px;
           stroke: $primary;
+          stroke-width: 3px;
         }
         path {
           fill: #000;
@@ -123,36 +119,39 @@
         }
       }
       .verb {
-        color: $primary;
         background: transparent;
+        color: $primary;
       }
     }
+    .verb {
+      color: $trailer-button-text-color;
+    }
     .s72-btn-play-icon {
-      margin-right: 0;
       display: inline-block;
       height: 32px;
+      margin-right: 0;
       width: 32px;
       circle {
         fill: transparent;
-        stroke-width: 3px;
         stroke: $primary;
+        stroke-width: 3px;
       }
       path {
-        fill: $body-color; 
-        stroke: $body-color; 
+        fill: $body-color;
+        stroke: $body-color;
       }
     }
     .s72-btn-play-label {
-      font-size: 12px;
-      border-width: 0;
-      padding-left: 8px;
-      margin-left: 0;
       background: transparent;
-      padding-top: 0;
-      padding-bottom: 0;
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      border-width: 0;
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-      &:before {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      font-size: 12px;
+      margin-left: 0;
+      padding-bottom: 0;
+      padding-left: 8px;
+      padding-top: 0;
+      &::before {
         display: none;
       }
     }
@@ -166,9 +165,9 @@
   border: 3px solid $button-background;
   min-width: 140px;
   @include hover-focus {
-    color: $button-text-color-hover;
     background: $button-background-hover;
     border-color: $button-background-hover;
+    color: $button-text-color-hover;
   }
   .verb {
     font-weight: $font-weight-bold;
@@ -180,26 +179,27 @@
 // Wishlist Button
 .btn-wishlist {
   p {
-    margin: 0px;
+    margin: 0;
   }
   .btn-wishlist-quick {
-    position: absolute;
     left: 10px;
-    top: 0px;
+    position: absolute;
+    top: 0;
     // One more than the availability label
     z-index: 100;
   }
   // Internal container
   .s72-btn-wishlist {
-    font-size: 14px;
-    color: $body-color; 
     background: transparent;
     // padding: 0;
     border: 0 none;
+    color: $body-color;
+    font-size: 14px;
     // @extend .d-flex;
-    .s72-icon-loading, .s72-icon-errored {
-        display: none;
-        }
+    .s72-icon-loading,
+    .s72-icon-errored {
+      display: none;
+    }
   }
   .s72-icon {
     font-size: 16px !important;

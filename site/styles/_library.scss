@@ -1,17 +1,17 @@
 .s72-userlibrary-items {
-	@extend .d-flex;
-	.partial {
-		@extend .slider-item;
-	}
+  @extend .d-flex;
+  .partial {
+    @extend .slider-item;
+  }
 }
 
 .s72-userlibrary-empty {
-  text-align: center;
   // margin-top: -50px;
   flex: 1;
+  text-align: center;
   .s72-userlibrary-empty-content {
-		a {
-		  @include a;
-		}
-	}
+    a {
+      @include a;
+    }
+  }
 }

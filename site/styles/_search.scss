@@ -6,7 +6,7 @@
   .s72-form-search {
     margin: 0;
     @include media-breakpoint-up(md) {
-      margin: 0 50px 20px 50px;
+      margin: 0 50px 20px;
     }
   }
   .s72-searchresults-total {
@@ -20,14 +20,13 @@
   }
   .s72-searchresults-results {
     @extend .d-flex;
-    padding-right: 0;
     padding-left: 0;
+    padding-right: 0;
     @include media-breakpoint-up(md) {
       padding: 0 50px;
     }
     .partial {
       @extend .slider-item;
-
     }
   }
 }
@@ -47,11 +46,11 @@
     font-size: 14px;
     font-weight: $font-weight-bold;
     a {
-       @include a;
+      @include a;
     }
   }
 }
 .s72-form-search {
+  margin: 0 auto 1rem;
   max-width: map-get($container-max-widths, md);
-  margin: 0 auto 1rem auto;
 }

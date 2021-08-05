@@ -7,7 +7,6 @@
 @import '_shift72';
 @import 'node_modules/font-awesome/scss/font-awesome';
 
-
 @import '_icons';
 @import '_buttons';
 @import '_pages';
@@ -49,7 +48,6 @@
 
 // @import url(https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css);
 
-
 // Site specific styles
 // ---------------------------------------
 
@@ -57,23 +55,23 @@ html {
   height: 100%;
 }
 body {
-	font-family: $font-family-base;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-family-base;
+  height: 100%;
 }
 .container-fluid {
   margin: 0 auto;
   padding: 0;
 }
 .animate-this {
-  transition: all .25s ease-out;
+  transition: all 0.25s ease-out;
 }
 .sign-up-now {
   s72-user-anon {
-    padding: $grid-gutter-width / 2 0;
     @extend .d-flex;
     justify-content: center;
+    padding: $grid-gutter-width / 2 0;
   }
   .supports {
     @extend .d-flex;
@@ -90,18 +88,15 @@ body {
     // List Item Portrait
     .page-collection-list-item-portrait {
       &.page-collection-item-6 {
-        max-width: (100% / 3);
         flex-basis: (100% / 3);
-        .meta-item-link {
-          width: 100%;
-        }
+        max-width: (100% / 3);
         @include media-breakpoint-up(sm) {
-          max-width: (100% / 4);
           flex-basis: (100% / 4);
+          max-width: (100% / 4);
         }
         @include media-breakpoint-up(lg) {
-          max-width: (100% / 5);
           flex-basis: (100% / 5);
+          max-width: (100% / 5);
         }
         @include media-breakpoint-up(xl) {
           max-width: (100% / 6);
@@ -109,20 +104,20 @@ body {
         @include media-breakpoint-up(xxxl) {
           max-width: (100% / 8);
         }
-      }
-      &.page-collection-item-4 {
-        max-width: 50%;
-        flex-basis: 50%;
         .meta-item-link {
           width: 100%;
         }
+      }
+      &.page-collection-item-4 {
+        flex-basis: 50%;
+        max-width: 50%;
         @include media-breakpoint-up(sm) {
-          max-width: (100% / 3);
           flex-basis: (100% / 3);
+          max-width: (100% / 3);
         }
         @include media-breakpoint-up(lg) {
-          max-width: (100% / 4);
           flex-basis: (100% / 4);
+          max-width: (100% / 4);
         }
         @include media-breakpoint-up(xl) {
           max-width: (100% / 5);
@@ -130,22 +125,22 @@ body {
         @include media-breakpoint-up(xxxl) {
           max-width: (100% / 6);
         }
+        .meta-item-link {
+          width: 100%;
+        }
       }
     }
     .page-collection-list-item-landscape {
       &.page-collection-item-4 {
-        max-width: 50%;
         flex-basis: 50%;
-        .meta-item-link {
-          width: 100%;
-        }
+        max-width: 50%;
         @include media-breakpoint-up(sm) {
-          max-width: (100% / 3);
           flex-basis: (100% / 3);
+          max-width: (100% / 3);
         }
         @include media-breakpoint-up(lg) {
-          max-width: (100% / 3);
           flex-basis: (100% / 3);
+          max-width: (100% / 3);
         }
         @include media-breakpoint-up(xl) {
           max-width: (100% / 4);
@@ -153,23 +148,26 @@ body {
         @include media-breakpoint-up(xxxl) {
           max-width: (100% / 5);
         }
-      }
-      &.page-collection-item-3 {
-        max-width: 50%;
-        flex-basis: 50%;
         .meta-item-link {
           width: 100%;
         }
+      }
+      &.page-collection-item-3 {
+        flex-basis: 50%;
+        max-width: 50%;
         @include media-breakpoint-up(lg) {
-          max-width: (100% / 3);
           flex-basis: (100% / 3);
+          max-width: (100% / 3);
         }
         @include media-breakpoint-up(xl) {
-          max-width: (100% / 3);
           flex-basis: (100% / 3);
+          max-width: (100% / 3);
         }
         @include media-breakpoint-up(xxxl) {
           max-width: (100% / 4);
+        }
+        .meta-item-link {
+          width: 100%;
         }
       }
     }
@@ -180,49 +178,53 @@ s72-classification-label {
   display: inline-block;
 }
 .s72-classification {
-    display: inline-block;
-    margin-top: 0;
-    padding: 0;
-    @extend .d-flex;
-    .s72-classification-intro,
-    .s72-classification-divider {
-      display: none;
-    }
-    .s72-classification-description {
+  @extend .d-flex;
+  display: inline-block;
+  margin-top: 0;
+  padding: 0;
+  .s72-classification-intro,
+  .s72-classification-divider {
+    display: none;
+  }
+  .s72-classification-description {
+    color: rgba(255, 255, 255, 0.8);
+    display: none;
+    font-size: 14px;
+    font-weight: $font-weight-normal;
+    margin-left: 5px;
+  }
+  .s72-classification-label {
+    border: 1px solid rgba($body-color, 0.8);
+    border-radius: 0;
+    color: rgba($body-color, 0.8);
+    font-size: 12px;
+    font-weight: $font-weight-bold;
+    padding: 1px 5px;
+    @include media-breakpoint-up(xxxl) {
       font-size: 14px;
-      color: rgba(255,255,255,0.8);
-      font-weight: $font-weight-normal;
-      margin-left: 5px;
-      display: none;
     }
-    .s72-classification-label {
-      color: rgba($body-color, 0.8);
-      border: 1px solid rgba($body-color, 0.8);
-      font-weight: $font-weight-bold;
-      font-size: 12px;
-      padding: 1px 5px;
-      border-radius: 0;
-      @include media-breakpoint-up(xxxl) {
-        font-size: 14px;
-      }
-    }
+  }
 }
 // Classication and Tagline
 .meta-detail-content .meta-detail-tagline-and-classification {
-    align-items: center;
-    padding-top: 8px;
-    padding-bottom: 14px;
-    display: flex !important;
+  align-items: center;
+  display: flex !important;
+  padding-bottom: 14px;
+  padding-top: 8px;
 }
-.meta-detail-content .meta-detail-tagline-and-classification .s72-classification {
-    margin-right: 5px;
+.meta-detail-content
+  .meta-detail-tagline-and-classification
+  .s72-classification {
+  margin-right: 5px;
 }
 
-.meta-detail-content .meta-detail-tagline-and-classification .meta-item-tagline {
-    font-weight: $font-weight-normal;
-    color: rgba($body-color, 0.8);
-    margin-bottom: 0;
-    align-self: center;
+.meta-detail-content
+  .meta-detail-tagline-and-classification
+  .meta-item-tagline {
+  align-self: center;
+  color: rgba($body-color, 0.8);
+  font-weight: $font-weight-normal;
+  margin-bottom: 0;
 }
 
 .wishlist-page-landscape .s72-userwishlist-items {
@@ -230,23 +232,23 @@ s72-classification-label {
   flex-wrap: wrap;
   // Wishlist Partial
   .partial {
-    max-width: (100% / 2);
     flex-basis: (100% / 2);
+    max-width: (100% / 2);
     @include media-breakpoint-up(md) {
-      max-width: (100% / 3);
       flex-basis: (100% / 3);
+      max-width: (100% / 3);
     }
     @include media-breakpoint-up(lg) {
-      max-width: (100% / 3);
       flex-basis: (100% / 3);
+      max-width: (100% / 3);
     }
     @include media-breakpoint-up(xl) {
-      max-width: (100% / 4);
       flex-basis: (100% / 4);
+      max-width: (100% / 4);
     }
     @include media-breakpoint-up(xxxl) {
-      max-width: (100% / 4);
       flex-basis: (100% / 4);
+      max-width: (100% / 4);
     }
   }
 }
@@ -257,23 +259,23 @@ s72-classification-label {
   flex-wrap: wrap;
   // Library item Partial
   .partial {
-    max-width: (100% / 2);
     flex-basis: (100% / 2);
+    max-width: (100% / 2);
     @include media-breakpoint-up(md) {
-      max-width: (100% / 3);
       flex-basis: (100% / 3);
+      max-width: (100% / 3);
     }
     @include media-breakpoint-up(lg) {
-      max-width: (100% / 3);
       flex-basis: (100% / 3);
+      max-width: (100% / 3);
     }
     @include media-breakpoint-up(xl) {
-      max-width: (100% / 4);
       flex-basis: (100% / 4);
+      max-width: (100% / 4);
     }
     @include media-breakpoint-up(xxxl) {
-      max-width: (100% / 4);
       flex-basis: (100% / 4);
+      max-width: (100% / 4);
     }
   }
 }
@@ -284,23 +286,23 @@ s72-classification-label {
   flex-wrap: wrap;
   // Search Partial
   .partial {
-    max-width: (100% / 2);
     flex-basis: (100% / 2);
+    max-width: (100% / 2);
     @include media-breakpoint-up(md) {
-      max-width: (100% / 3);
       flex-basis: (100% / 3);
+      max-width: (100% / 3);
     }
     @include media-breakpoint-up(lg) {
-      max-width: (100% / 3);
       flex-basis: (100% / 3);
+      max-width: (100% / 3);
     }
     @include media-breakpoint-up(xl) {
-      max-width: (100% / 4);
       flex-basis: (100% / 4);
+      max-width: (100% / 4);
     }
     @include media-breakpoint-up(xxxl) {
-      max-width: (100% / 4);
       flex-basis: (100% / 4);
+      max-width: (100% / 4);
     }
   }
 }
@@ -309,10 +311,11 @@ s72-classification-label {
 .page-bundle-list {
   @extend .page-collection-list;
 
-  h2, h4 {
-    width: 100%;
-    font-weight: $font-weight-bold;
+  h2,
+  h4 {
     font-size: 16px;
+    font-weight: $font-weight-bold;
+    width: 100%;
     @include media-breakpoint-up(md) {
       font-size: 18px;
     }
@@ -357,21 +360,29 @@ s72-classification-label {
 }
 
 //text wrap fix
-h1, h2, h3, h4, h5, h6, p, .title {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.title {
   word-wrap: break-word;
 }
 
 // Prevents scrolling when the hamburger menu is active
 .no-scroll {
   overflow-y: hidden;
-  #main, #footer {
-    pointer-events: none;
+  @include media-breakpoint-up(lg) {
+    overflow-y: visible;
+  }
+  #main,
+  #footer {
     opacity: 0.2;
+    pointer-events: none;
     @include media-breakpoint-up(lg) {
       opacity: 1;
     }
-  }
-  @include media-breakpoint-up(lg) {
-    overflow-y: visible;
   }
 }
