@@ -13,7 +13,7 @@
 
           {{if isset(page["Tagline"])}}
             <div class="meta-item-synopsis hidden-md">
-              <p>{{page.Tagline}}</p>
+              <p>{{page.Tagline | stripHTML}}</p>
             </div>
           {{end}}
         </div>

@@ -6,6 +6,7 @@ footer {
 .footer-brand-link {
   display: flex;
   align-self: center;
+  margin-top: 20px;
 
   @include media-breakpoint-up(xl) {
     margin: 20px 20px 0 20px;
@@ -50,7 +51,7 @@ footer {
 
 .footer-info {
   padding: 20px 42px;
-  background-color: $body-bg-light;
+  background-color: $body-bg-accent;
 
   @include media-breakpoint-up(xl) {
     display: flex;
@@ -80,5 +81,29 @@ footer {
   
   a {
     font-weight: $font-weight-bold;
+  }
+}
+
+.app-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  margin: 0 20px;
+  border-bottom: 1px solid rgba($body-color, 0.2);
+  .app-badge-container {
+    display: flex;
+  }
+  .app-badge-title {
+    font-size: 16px;
+    font-weight: $font-weight-normal;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .app-badge-link {
+    margin: 0 5px;
+  }
+  .app-badge-image {
+    height: 40px;
   }
 }

@@ -351,5 +351,9 @@
   "combined_auth_terms": { "other": "<a href=\"/page/terms-and-conditions/\"target=\"_blank\">利用規約</a>に同意する。" },
   "signup_terms": { "other": "<a href=\"/page/terms-and-conditions/\"target=\"_blank\">利用規約</a>に同意する。" },
   "validation_terms_required": { "other": "利用規約に同意してください。" },
-  "shopping_error_item_limit_exceeded": { "other": "申し訳ありません。{{.Title}} は完売しました。" }
+  "shopping_error_item_limit_exceeded": { "other": "申し訳ありません。{{.Title}} は完売しました。" },
+
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
+  "app_badge_ios": { "other": "Download on the App Store" },
+  "app_badge_android": { "other": "Get it on Google Play" }
 }
