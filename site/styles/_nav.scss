@@ -851,13 +851,13 @@ s72-dropdown,
 }
 
 .header-banner {
+  align-items: center;
+  background-color: $primary;
   display: flex;
   justify-content: center;
-  align-items: center;
+  min-height: 26px;
   text-align: center;
   z-index: 10;
-  background-color: $primary;
-  min-height: 26px;
 
   .header-banner-message {
     font-size: 12px;

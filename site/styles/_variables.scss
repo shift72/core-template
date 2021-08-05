@@ -41,8 +41,8 @@ $body-color: #fff !default;
 $body-bg: #0f0f0f !default;
 $body-bg-accent: getAccentColor($body-bg) !default;
 $error-color: $body-color !default;
-$error-background: rgba($body-color, .1) !default;
-$hr-border-color: rgba($body-color, .5) !default;
+$error-background: rgba($body-color, 0.1) !default;
+$hr-border-color: rgba($body-color, 0.5) !default;
 $list-group-bg: $body-bg !default;
 $list-group-border-color: rgba($body-color, 0.125) !default;
 
