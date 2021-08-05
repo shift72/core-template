@@ -29,7 +29,7 @@
   {{end}}
   {{title := item.Title}}
   {{if item.ItemType == "tvseason"}}
-    {{synopsis=item.InnerItem.Tagline}}
+    {{synopsis = stripHTML(item.InnerItem.Tagline)}}
     {{title = item.InnerItem.ShowInfo.Title}}
     {{pill = i18n("season_name") + " " + item.InnerItem.SeasonNumber}}
   {{end}}

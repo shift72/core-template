@@ -2,6 +2,25 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-beta.2...HEAD)
 
+## [0.2.0-beta.1](https://github.com/shift72/core-template/compare/0.1.0...0.2.0-beta.1) -2021-08-05
+
+### Added
+- Added Stylelint, Prettier, and ESLint.
+- Added Node.js CI for Github Actions.
+- Added header banner.
+- Added app store badges.
+- Added Arabic (`ar_LB`) translations file.
+- Added Taiwanese Chinese (`zh_TW`) translations file.
+
+### Changed
+- Targeting Kibble 0.15.18.
+- Strip HTML on taglines.
+
+### Fixed
+- Added missing focus rings to language selector.
+- Error message background colour is now red.
+- Body background accent colour is determined by body background.
+
 ## [0.1.0](https://github.com/shift72/core-template/compare/0.1.0-beta-2...0.1.0) - 2021-07-16
 
 ### Added

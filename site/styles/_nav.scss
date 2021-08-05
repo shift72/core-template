@@ -851,24 +851,35 @@ s72-dropdown,
 }
 
 .header-banner {
-  background-color: $primary;
-  padding: 1px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   z-index: 10;
+  background-color: $primary;
+  min-height: 26px;
 
   .header-banner-message {
-    display: contents;
-    font-size: 13px;
+    font-size: 12px;
+    margin-bottom: 0;
+    @include media-breakpoint-up(sm) {
+      font-size: 14px;
+    }
   }
 }
-.no-scroll{
-  .header-banner{
+
+.no-scroll {
+  .header-banner {
     opacity: 0.2;
+    @include media-breakpoint-up(lg) {
+      opacity: 1;
+    }
   }
 }
-@media (min-width: 667px) and (max-width: 991.98px){
-  .navigation.show .navbar-brand-container-tablet{
-    margin-top: 22px;
+
+// Temporary fix due to header banner increasing height from top of page.
+.navigation.show .header-banner + .navbar-brand-container-tablet {
+  @include media-breakpoint-between(sm, lg) {
+    top: 36px;
   }
 }
