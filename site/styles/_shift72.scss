@@ -1,7 +1,3 @@
-// s72-slider styles in _slider.scss
-// shopping modal styles in _shopping.scss
-// user devices styles in _devices.scss
-
 .s72-btn {
   @extend .btn;
 
@@ -277,9 +273,6 @@ s72-useraccount-form {
 .s72-has-error .form-control {
   @extend .is-invalid;
 }
-// .s72-control-inputs { @extend .control-inputs; }
-// .s72-no-control-label { @extend .no-control-label; }
-// .s72-error-message { @extend .error-message; }
 
 .s72-input-group {
   @extend .input-group;
@@ -310,34 +303,6 @@ s72-cant-be-watched {
   padding: 1rem;
   text-shadow: 0 1px 0 #000;
 }
-
-// .s72-btn-play {
-//   @extend .btn-link;
-//   font-weight: 500;
-//   color: $primary;
-//   padding-left: 0;
-//   .s72-icon-play {
-//     margin-right: 5px;
-//     circle { fill: $primary; }
-//     circle, path {
-//       stroke: $primary;
-//       // modified from $btn-transition
-//       transition: stroke .15s ease-in-out, fill .15s ease-in-out;
-//     }
-//     path {
-//       fill: #000;
-//       stroke: #000;
-//     }
-//   }
-//   @include hover-focus {
-//     text-decoration: none;
-//     .s72-icon-play {
-// path { stroke: darken($primary, 7.5%); }
-// path { fill: darken($primary, 7.5%); }
-//       circle { fill: rgba($primary, 0.5); } //darken($primary, 7.5%)
-//     }
-//   }
-// }
 
 .s72-prompt {
   @extend p;

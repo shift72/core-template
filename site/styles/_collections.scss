@@ -1,12 +1,11 @@
-// Carousel Page Collection
 .page-collection-carousel {
   position: relative;
 }
-// Default Page Collection
+
 .page-collection {
   @extend .clearfix;
 }
-// Slider
+
 .page-collection-slider {
   padding: 0;
   padding-bottom: 40px;
@@ -16,7 +15,7 @@
     padding: 0 $grid-gutter-width / 3 $grid-gutter-width / 3 $grid-gutter-width / 3;
   }
 }
-// Slider Title
+
 .page-collection-slider-title,
 .page-collection-list-title,
 .swiper-title {
@@ -51,7 +50,7 @@
 .poster-image {
   display: block;
 }
-// Slider Item
+
 .page-collection-item,
 .slider-item,
 .swiper-slide {
@@ -90,7 +89,7 @@
           }
 
           s72-userwishlist-button {
-            flex-shrink: 0; // don't wrap
+            flex-shrink: 0;
           }
 
           .s72-pricing-button-container {
@@ -155,7 +154,6 @@
               padding: 0;
 
               .meta-item-tagline-divider {
-                // styles testing out a direction
                 display: none;
                 font-size: 14px;
               }
@@ -207,21 +205,7 @@
             margin-top: 5px;
             text-align: center;
           }
-          // s72-pricing-buttons {
-          //   width: 100%;
-          //   .s72-pricing-button-container {
-          //     flex-direction: row;
-          //     .s72-btn {
-          //       &:nth-child(2) {
-          //         margin-left: 10px;
-          //         margin-top: 0;
-          //       }
-          //     }
-          //   }
-          //   .s72-btn {
-          //     width: 100%;
-          //   }
-          // }
+
           a {
             @include a;
           }
@@ -318,42 +302,29 @@
   $child-width: $width - ($page-collection-item-padding-horizontal * 2);
   .page-collection-item-#{$i},
   .slider-item-#{$i} {
-    // width: $width;
-    .poster {
-      // width: $child-width;
-    }
-
     .poster-image {
       z-index: 1;
     }
-
-    .poster-landscape {
-      // height: $child-width * $poster-landscape-size-ratio;
-    }
-
-    .poster-portrait {
-      // height: $child-width * $poster-portrait-size-ratio;
-    }
   }
 }
-// List
+
 .page-collection-list {
   padding: 0 20px 15px;
   @include media-breakpoint-up(md) {
     padding: 0 50px 30px;
   }
-  // List Items
+
   .page-collection-items {
     @extend .d-flex;
     flex-wrap: wrap;
-    // List Partial
+
     .partial {
       @extend .col-6;
       @extend .col-md-4;
       @extend .col-lg-3;
       padding: 0 5px;
     }
-    // List Items Landscape
+
     .page-collection-list-item-landscape {
       &.page-collection-item-4 {
         @extend .col-6;
@@ -362,7 +333,7 @@
         padding: 0 5px;
       }
     }
-    // List Item Portrait
+
     .page-collection-list-item-portrait {
       &.page-collection-item-6 {
         @extend .col-6;
@@ -374,8 +345,7 @@
     }
   }
 }
-// Unsure why this is here?
+
 .collection-items {
   margin: 0 auto;
-  // max-width: 1600px;
 }

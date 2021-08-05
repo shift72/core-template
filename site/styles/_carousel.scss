@@ -1,11 +1,10 @@
-// Carousel
 .carousel,
 s72-carousel {
   display: block;
   margin: 0 auto;
   position: relative;
 }
-// Carousel Slides
+
 .s72-carousel-slides {
   background: $carousel-bg-color;
   height: $carousel-height !important;
@@ -18,7 +17,7 @@ s72-carousel {
   @include media-breakpoint-up(md) {
     height: $carousel-height-md !important;
   }
-  // Carousel Background Image
+
   s72-image {
     float: right;
     height: $carousel-height;
@@ -66,7 +65,7 @@ s72-carousel {
     }
   }
 }
-// Carousel Item
+
 .s72-carousel-item {
   height: 100%;
   left: 0;
@@ -98,7 +97,7 @@ s72-carousel {
     height: 500px;
   }
 }
-// Carousel Item Content Block
+
 .carousel-item-caption {
   left: 0;
   padding: 0 20px;
@@ -133,12 +132,12 @@ s72-carousel {
       background: transparent;
       display: inline-block;
       padding: 10px 0;
+    }
 
-      .availability-state {
-        color: $body-color;
-        font-size: 12px;
-        text-transform: none;
-      }
+    .availability-state {
+      color: $body-color;
+      font-size: 12px;
+      text-transform: none;
     }
   }
 
@@ -180,36 +179,20 @@ s72-carousel {
       align-items: center;
       padding-bottom: 8px;
       padding-top: 8px;
-
-      .s72-classification {
-        margin-right: 5px;
-      }
-
-      .meta-item-tagline {
-        align-self: center;
-        color: rgba($body-color, 0.8);
-        font-size: 14px;
-        font-weight: $font-weight-normal;
-        margin-bottom: 0;
-        @include media-breakpoint-up(xxxl) {
-          font-size: 18px;
-        }
-      }
     }
 
-    .meta-item-buttons {
-      .s72-pricing-button-container {
-        .s72-btn {
-          margin-bottom: 10px;
+    .s72-classification {
+      margin-right: 5px;
+    }
 
-          &:nth-child(1) {
-            margin-right: 0.5rem;
-          }
-
-          &:nth-child(2) {
-            margin-left: 0;
-          }
-        }
+    .meta-item-tagline {
+      align-self: center;
+      color: rgba($body-color, 0.8);
+      font-size: 14px;
+      font-weight: $font-weight-normal;
+      margin-bottom: 0;
+      @include media-breakpoint-up(xxxl) {
+        font-size: 18px;
       }
     }
 
@@ -241,22 +224,34 @@ s72-carousel {
     .meta-item-extras {
       @extend .d-flex;
       padding: 0 0 20px;
-
-      .s72-btn-play {
-        s72-icon-play {
-          circle {
-            fill: transparent !important;
-          }
-        }
-      }
     }
 
     .btn-wishlist {
       position: relative;
     }
   }
+
+  .s72-pricing-button-container {
+    .s72-btn {
+      margin-bottom: 10px;
+
+      &:nth-child(1) {
+        margin-right: 0.5rem;
+      }
+
+      &:nth-child(2) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .s72-btn-play {
+    circle {
+      fill: transparent;
+    }
+  }
 }
-// Carousel Pagination
+
 .s72-carousel-pagination {
   @extend .d-flex;
   bottom: 2px;
@@ -287,7 +282,6 @@ s72-carousel {
   }
 }
 
-// Carousel Nav Controls
 .s72-carousel-control {
   @extend .d-flex;
   bottom: 0;
@@ -339,7 +333,6 @@ s72-carousel {
   }
 }
 
-// Right Gradient ~ should be moved somewhere else
 .right-gradient {
   @extend .right-gradient-bg;
   bottom: 0;
@@ -352,11 +345,8 @@ s72-carousel {
   @include media-breakpoint-up(lg) {
     display: none;
   }
-  // @include media-breakpoint-up(xl){
-  //   display: block;
-  // }
 }
-// Bottom Gradient ~ should be moved somewhere else
+
 .bottom-gradient {
   @extend .bottom-gradient-bg;
   bottom: 0;
@@ -371,7 +361,7 @@ s72-carousel {
     width: 100%;
   }
 }
-// Left Gradient ~ should be moved somewhere else
+
 .left-gradient {
   @extend .left-gradient-bg;
   bottom: 0;

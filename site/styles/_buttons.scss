@@ -2,9 +2,7 @@
   border-radius: 4px;
   font-family: $font-family-base;
 }
-// Default Action for Buttons
 
-// Primary Button
 .btn-primary {
   background-color: $button-background;
   color: $button-text-color;
@@ -15,7 +13,7 @@
     color: $button-text-color-hover;
   }
 }
-// Sign In Button
+
 .btn.btn-signin {
   align-items: center;
   background-color: $signin-background;
@@ -41,7 +39,7 @@
     font-size: 16px;
   }
 }
-// Sign Up Button
+
 .btn.btn-signup {
   align-items: center;
   background-color: $signup-background;
@@ -108,73 +106,70 @@
     font-size: 18px;
     font-weight: $font-weight-bold;
   }
+}
 
-  &.s72-btn-trailer {
+.s72-btn-play.s72-btn-trailer {
+  background: transparent;
+  border: 0 none;
+  @include hover-focus {
     background: transparent;
-    border: 0 none;
-    @include hover-focus {
-      background: transparent;
 
-      .s72-icon-play {
-        circle {
-          fill: $primary;
-          stroke: $primary;
-          stroke-width: 3px;
-        }
+    .s72-icon-play circle {
+      fill: $primary;
+      stroke: $primary;
+      stroke-width: 3px;
+    }
 
-        path {
-          fill: #000;
-          stroke: #000;
-        }
-      }
-
-      .verb {
-        background: transparent;
-        color: $primary;
-      }
+    .s72-icon-play path {
+      fill: #000;
+      stroke: #000;
     }
 
     .verb {
-      color: $trailer-button-text-color;
-    }
-
-    .s72-btn-play-icon {
-      display: inline-block;
-      height: 32px;
-      margin-right: 0;
-      width: 32px;
-
-      circle {
-        fill: transparent;
-        stroke: $primary;
-        stroke-width: 3px;
-      }
-
-      path {
-        fill: $body-color;
-        stroke: $body-color;
-      }
-    }
-
-    .s72-btn-play-label {
       background: transparent;
-      border-width: 0;
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-      font-size: 12px;
-      margin-left: 0;
-      padding-bottom: 0;
-      padding-left: 8px;
-      padding-top: 0;
+      color: $primary;
+    }
+  }
 
-      &::before {
-        display: none;
-      }
+  .verb {
+    color: $trailer-button-text-color;
+  }
+
+  .s72-btn-play-icon {
+    display: inline-block;
+    height: 32px;
+    margin-right: 0;
+    width: 32px;
+
+    circle {
+      fill: transparent;
+      stroke: $primary;
+      stroke-width: 3px;
+    }
+
+    path {
+      fill: $body-color;
+      stroke: $body-color;
+    }
+  }
+
+  .s72-btn-play-label {
+    background: transparent;
+    border-width: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    font-size: 12px;
+    margin-left: 0;
+    padding-bottom: 0;
+    padding-left: 8px;
+    padding-top: 0;
+
+    &::before {
+      display: none;
     }
   }
 }
 
-// Transactional Buttons
 .s72-btn-rent,
 .s72-btn-purchase {
   background: $button-background;
@@ -194,7 +189,7 @@
     font-weight: $font-weight-bold;
   }
 }
-// Wishlist Button
+
 .btn-wishlist {
   p {
     margin: 0;
@@ -207,14 +202,13 @@
     // One more than the availability label
     z-index: 100;
   }
-  // Internal container
+
   .s72-btn-wishlist {
     background: transparent;
-    // padding: 0;
     border: 0 none;
     color: $body-color;
     font-size: 14px;
-    // @extend .d-flex;
+
     .s72-icon-loading,
     .s72-icon-errored {
       display: none;
