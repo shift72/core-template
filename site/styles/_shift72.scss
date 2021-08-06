@@ -257,7 +257,7 @@ s72-useraccount-form {
     $btn-line-height,
     $btn-border-radius
   );
-  // so it looks similar to a button
+
   display: inline-block;
   vertical-align: middle;
 
@@ -293,6 +293,7 @@ s72-useraccount-form {
 s72-can-be-watched,
 s72-can-be-watched-now,
 s72-cant-be-watched {
+  /* stylelint-disable-next-line */
   &.s72-show {
     display: inline-block;
   }

@@ -353,6 +353,7 @@
       i {
         @extend .animate-this;
 
+        /* stylelint-disable-next-line */
         @include media-breakpoint-up(lg) {
           color: $primary;
         }
@@ -372,6 +373,7 @@
   .search-show .btn-search-open:hover {
     cursor: auto;
 
+    /* stylelint-disable-next-line */
     i {
       color: $body-color;
     }
@@ -514,6 +516,7 @@ s72-dropdown,
         border-radius: 10px;
         transition: all 0.25s ease-out;
 
+        /* stylelint-disable-next-line */
         &:hover {
           background: rgba($body-color, 0.5);
         }

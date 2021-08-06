@@ -40,6 +40,7 @@
   }
 }
 
+/* stylelint-disable selector-max-compound-selectors */
 .s72-userwishlist-items .partial > a,
 .s72-userlibrary-items .partial > a,
 .s72-searchresults .s72-searchresults-results .partial > a,
@@ -64,3 +65,4 @@
     }
   }
 }
+/* stylelint-enable selector-max-compound-selectors */

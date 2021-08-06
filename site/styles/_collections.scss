@@ -51,6 +51,7 @@
   display: block;
 }
 
+/* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
 .page-collection-item,
 .slider-item,
 .swiper-slide {
@@ -296,6 +297,7 @@
     }
   }
 }
+/* stylelint-enable selector-max-compound-selectors, max-nesting-depth */
 
 @for $i from 1 through 10 {
   $width: round($page-collection-container-width / $i);

@@ -182,27 +182,26 @@
 }
 
 .s72-shopping-done {
-  p {
+  /* stylelint-disable-next-line */
+  div div p {
     color: $body-color;
-    font-size: 12px;
+    font-size: 20px;
+    font-weight: $font-weight-bold;
+    margin-bottom: 5px;
     text-align: center;
+
+    /* stylelint-disable-next-line */
+    &:nth-child(2),
+    &:nth-child(3) {
+      display: none;
+    }
   }
 
-  div {
-    div {
-      p {
-        color: $body-color;
-        font-size: 20px;
-        font-weight: $font-weight-bold;
-        margin-bottom: 5px;
-        text-align: center;
-
-        &:nth-child(2),
-        &:nth-child(3) {
-          display: none;
-        }
-      }
-    }
+  div p {
+    color: $body-color;
+    display: block;
+    font-size: 12px;
+    text-align: center;
   }
 
   .s72-show {
@@ -229,10 +228,6 @@
   .s72-buttons {
     align-self: start;
   }
-}
-
-.StripeElement--invalid {
-  color: $form-feedback-invalid-color;
 }
 
 .s72-modal-footer {
@@ -275,7 +270,7 @@
 
     &:first-child {
       @include border-top-radius($border-radius);
-      border-top: none;
+      border-top: unset;
     }
 
     &:last-child {

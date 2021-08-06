@@ -312,6 +312,7 @@
   }
 }
 
+/* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
 .meta-detail-bonus-content,
 .meta-detail-episodes-content {
   padding: 0;
@@ -414,6 +415,7 @@
     }
   }
 }
+/* stylelint-enable selector-max-compound-selectors, max-nesting-depth */
 
 .recommendations-collection {
   padding-top: 20px;
