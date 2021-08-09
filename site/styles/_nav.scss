@@ -598,7 +598,7 @@ s72-dropdown,
     }
 
     .btn-sign-out-mobile {
-      background-color: rgba($color: $body-color, $alpha: .06);
+      background-color: $signout-background;
       border-radius: 4px;
       color: $button-text-color;
       padding: 8px 56px;
@@ -622,7 +622,7 @@ s72-dropdown,
 
     .btn-sign-out-mobile {
       @include hover-focus {
-        background-color: rgba($color: $body-color, $alpha: .1);
+        background-color: $signout-background-hover;
         color: $body-color;
       }
     }
