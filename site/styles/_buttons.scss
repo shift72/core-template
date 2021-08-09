@@ -27,13 +27,13 @@
   @include hover-focus {
     color: $body-color;
     border: 3px solid $signin-border-color-hover;
-    background: rgba($body-color, 0.1);
+    background: $signin-background-hover;
   }
   @include media-breakpoint-up(lg) {
     background-color: $signin-background-lg;
     margin-left: 12px;
     @include hover-focus {
-      background: $signin-background-hover;
+      background: $signin-background-hover-lg;
       color: $signin-text-color-hover;
     }
   }
