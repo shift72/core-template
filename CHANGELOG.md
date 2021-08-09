@@ -2,6 +2,11 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-beta.2...HEAD)
 
+### Changed
+- Changed from Node Sass to Dart Sass.
+- Improved linter rule sets.
+- Major refactor of JS and SCSS files.
+
 ## [0.2.0-beta.1](https://github.com/shift72/core-template/compare/0.1.0...0.2.0-beta.1) -2021-08-05
 
 ### Added
