@@ -1,6 +1,9 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-beta.2...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.2.0-beta.1...HEAD)
+
+### Fixed
+- The sign out button can now be selected with keyboard controls.
 
 ### Changed
 - Changed from Node Sass to Dart Sass.
