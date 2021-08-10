@@ -93,8 +93,8 @@ $signin-text-color: $body-color !default;
 $signin-text-color-hover: $primary !default;
 $signin-border-color: transparent !default;
 $signin-border-color-hover: transparent !default;
-$signin-background: rgba($body-color, .06) !default;
-$signin-background-hover: rgba($body-color, .1) !default;
+$signin-background: rgba($body-color, 0.06) !default;
+$signin-background-hover: rgba($body-color, 0.1) !default;
 $signin-background-lg: transparent !default;
 $signin-background-hover-lg: transparent !default;
 
@@ -105,8 +105,8 @@ $signup-border-color-hover: transparent !default;
 $signup-background: $button-background !default;
 $signup-background-hover: $button-background-hover !default;
 
-$signout-background: rgba($body-color, .06);
-$signout-background-hover: rgba($body-color, .1);
+$signout-background: rgba($body-color, 0.06);
+$signout-background-hover: rgba($body-color, 0.1);
 
 $link-color: $body-color !default;
 

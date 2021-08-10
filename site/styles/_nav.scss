@@ -496,15 +496,15 @@ s72-dropdown,
     width: 100%;
 
     @include media-breakpoint-up(lg) {
-      padding: 0;
-      width: max-content;
-      max-width: 243px;
       border: 4px solid $body-bg-accent;
       box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12);
       max-height: 330px;
+      max-width: 243px;
       overflow-y: auto;
+      padding: 0;
       position: absolute;
       top: 100%;
+      width: max-content;
 
       &::-webkit-scrollbar {
         width: 10px;
