@@ -4,6 +4,7 @@
 
 ### Fixed
 - The sign out button can now be selected with keyboard controls.
+- Prevent rollup.js from clearing console output when rebuilding.
 
 ### Changed
 - Changed from Node Sass to Dart Sass.

@@ -23,7 +23,7 @@
   font-size: 14px;
   justify-content: center;
   @include hover-focus {
-    background: rgba($body-color, 0.1);
+    background: $signin-background-hover;
     border: 3px solid $signin-border-color-hover;
     color: $body-color;
   }
@@ -31,7 +31,7 @@
     background-color: $signin-background-lg;
     margin-left: 12px;
     @include hover-focus {
-      background: $signin-background-hover;
+      background: $signin-background-hover-lg;
       color: $signin-text-color-hover;
     }
   }

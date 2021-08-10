@@ -4,7 +4,7 @@
 
 {{block nav(showSubNav=true)}}
 <header class="navigation" data-toggle="affix">
-  {*{yield headerBanner()}*}
+  {{yield headerBanner()}}
   <div class="navbar-brand-container-tablet">
     <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
   </div>
