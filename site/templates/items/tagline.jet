@@ -33,7 +33,7 @@
       {{if .Runtime > 60}}
         <span class="meta-item-tagline-item">{{.Runtime.Hours()}}{{i18n("runtime_hours")}} {{.Runtime.Minutes()}}{{i18n("runtime_minutes")}}</span>
       {{else}}
-        <span class="meta-item-tagline-item">{{.Runtime}}min</span>
+        <span class="meta-item-tagline-item">{{.Runtime}}{{i18n("runtime_minutes")}}</span>
       {{end}}
     {{end}}
 
