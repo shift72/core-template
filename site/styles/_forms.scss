@@ -68,11 +68,8 @@ s72-activatedevice-form,
   position: relative;
 
   &::before {
-    border-color: transparent transparent rgba($body-color, 0.1) transparent;
     border-color: transparent transparent $error-background transparent;
     border-style: solid;
-    border-style: solid;
-    border-width: 0 5px 5px;
     border-width: 0 5px 5px;
     content: '';
     height: 0;
