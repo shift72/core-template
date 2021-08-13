@@ -1,33 +1,34 @@
 // Right Gradient
 .right-gradient-bg {
-    position: absolute;
-    z-index: 9;
-    bottom: 0;
-    right: 0;
-	@include gradient-x(transparent, rgba($right-gradient-bg-color,1), 0%, 100%);
+  @include gradient-x(transparent, rgba($right-gradient-bg-color, 1), 0%, 100%);
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  z-index: 9;
 }
-// Bottom Gradient 
+// Bottom Gradient
 .bottom-gradient-bg {
-	position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: 8;
-    @include gradient-y(transparent, rgba($bottom-gradient-bg-color, 1), 0%, 100%);
+  @include gradient-y(transparent, rgba($bottom-gradient-bg-color, 1), 0%, 100%);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: 8;
 }
 // Left Gradient
 .left-gradient-bg {
-	position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 8;
-    @include gradient-x( rgba($left-gradient-bg-color, 1), transparent, 0%, 100%);
+  @include gradient-x(rgba($left-gradient-bg-color, 1), transparent, 0%, 100%);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 8;
 }
 
 @mixin a {
+  background-color: transparent;
   color: $link-color;
   text-decoration: underline;
-  background-color: transparent;
+
   &:hover,
   &:focus {
     color: $link-color;
@@ -37,16 +38,18 @@
 
 @keyframes slidein {
   0% {
-    visibility: visible;
     opacity: 0;
+    visibility: visible;
   }
+
   30% {
-    opacity: 0; 
+    opacity: 0;
     transform: translateX(40px);
   }
+
   100% {
-    opacity: 1; 
-    transform: translateX(0px);
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
@@ -54,6 +57,7 @@
   0% {
     background-color: transparent;
   }
+
   100% {
     background-color: $body-bg-accent;
   }

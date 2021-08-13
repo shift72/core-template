@@ -21,5 +21,8 @@ export default {
   plugins: [
     buble({ jsx: 's72.ui.h', objectAssign: 'Object.assign' }),
     (production && terser())
-  ]
+  ],
+  watch: {
+    clearScreen: false
+  }
 };

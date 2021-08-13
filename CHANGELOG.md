@@ -1,8 +1,25 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.1.0-beta.2...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.3.0-beta.1...HEAD)
 
-## [0.2.0-beta.1](https://github.com/shift72/core-template/compare/0.1.0...0.2.0-beta.1) -2021-08-05
+## [0.3.0-beta.1](https://github.com/shift72/core-template/compare/0.2.0-beta.1...0.3.0-beta.1) - 2021-08-13
+
+### Added
+- Added Croatian (`hr_HR`) translations file.
+
+### Fixed
+- The sign out button can now be selected with keyboard controls.
+- Prevent rollup.js from clearing console output when rebuilding.
+- Headed banner height replaced with min-height.
+- Removed hardcoded English minutes reference in tagline.
+
+### Changed
+- Changed from Node Sass to Dart Sass.
+- Improved linter rule sets.
+- Major refactor of JS and SCSS files.
+- Subnav dropdown width increased for mobile.
+
+## [0.2.0-beta.1](https://github.com/shift72/core-template/compare/0.1.0...0.2.0-beta.1) - 2021-08-05
 
 ### Added
 - Added Stylelint, Prettier, and ESLint.

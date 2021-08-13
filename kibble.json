@@ -27,7 +27,8 @@
     "uk": { "code": "uk_UA", "name": "Український" },
     "fi": { "code": "fi_FI", "name": "Suomi" },
     "ar": { "code": "ar_LB", "name": "عربى" },
-    "zh-tw": { "code": "zh_TW", "name": "中文" }
+    "zh-tw": { "code": "zh_TW", "name": "中文" },
+    "hr": { "code": "hr_HR", "name": "Hrvatski" }
   },
   "siteRootPath": "site",
   "liveReload": {

@@ -1,4 +1,4 @@
-@function getAccentColor($body-bg) {
+@function get-accent-color($body-bg) {
   @if lightness($body-bg) > 50% {
     @return darken($body-bg, 8%);
   } @else {

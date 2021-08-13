@@ -5,42 +5,48 @@ s72-language-selector {
     display: flex;
     width: auto;
   }
+
   .s72-dropdown-toggle {
-    display: flex;
-    padding: 10px 0;
-    
     align-items: center;
-    text-align: left;
+    display: flex;
     font-size: 16px;
     font-weight: $font-weight-normal;
+    padding: 10px 0;
+    text-align: left;
     @include hover-focus {
       box-shadow: none;
     }
     @include media-breakpoint-up(lg) {
-      margin: 0 12px;
       font-size: 14px;
+      margin: 0 12px;
     }
     @include media-breakpoint-up(xl) {
       font-size: 16px;
     }
+
     i {
-      padding-right: 10px;
       font-size: 20px;
+      padding-right: 10px;
     }
+
     &:focus {
       color: $primary;
     }
+
     &:focus-visible {
       outline: 1px dotted $body-color;
       outline: 5px auto -webkit-focus-ring-color;
     }
   }
+
   .s72-dropdown-menu {
     left: auto;
   }
-  &:hover, .s72-dropdown-item:hover {
-    cursor: pointer;
+
+  &:hover,
+  .s72-dropdown-item:hover {
     @extend .animate-this;
+    cursor: pointer;
   }
 
   .s72-language-selector {
@@ -48,6 +54,7 @@ s72-language-selector {
     width: 100%;
   }
 }
+
 .navigation.show s72-language-selector {
   display: flex;
 }
