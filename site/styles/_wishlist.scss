@@ -1,9 +1,10 @@
 .s72-userwishlist-items {
   @extend .d-flex;
   flex-wrap: wrap;
+
   .partial {
-    padding-bottom: $grid-gutter-width;
     @extend .slider-item;
+    padding-bottom: $grid-gutter-width;
   }
 }
 
@@ -11,6 +12,7 @@
   // text-align: center;
   // margin-top: -50px;
   flex: 1;
+
   a {
     @include a;
   }
@@ -18,7 +20,7 @@
 
 // dont show empty wishlist message on homepage slider
 .page-homepage .s72-userwishlist-empty {
-	display: none;
+  display: none;
 }
 
 .s72-userwishlist-buttons {

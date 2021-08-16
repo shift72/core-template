@@ -1,8 +1,3 @@
-// TODO - SHIFT72-WEB
-// Replace language selector icon and add carat
-// Remove old caret from .s72-dropdown-toggle
-// Increase min width of s72-dropdown
-
 .navigation {
   @extend .top-gradient-bg;
 
@@ -44,7 +39,7 @@
       }
 
       @include media-breakpoint-down(md) {
-        animation: fade-in .25s;
+        animation: fade-in 0.25s;
         animation-fill-mode: forwards;
       }
 
@@ -118,7 +113,7 @@
   height: 100%;
   padding: 10px 20px;
   position: relative;
-  transition: background-color .25s ease-out;
+  transition: background-color 0.25s ease-out;
   width: 100%;
   z-index: 11;
 
@@ -189,7 +184,7 @@
     right: 0;
     transform: rotate(0deg);
     transform-origin: right center;
-    transition: .15s ease-in-out;
+    transition: 0.15s ease-in-out;
     width: 24px;
   }
 
@@ -235,7 +230,7 @@
     z-index: 13;
   }
 
-  @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min-resolution: 192dpi) {
+  @media only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
     background: url('../images/common/logo@2x.png') left center / contain no-repeat;
   }
 
@@ -256,7 +251,7 @@
   background-color: $navbar-background-color;
   display: none;
   left: 0;
-  opacity: .2;
+  opacity: 0.2;
   pointer-events: none;
   position: absolute;
   top: 10px;
@@ -283,7 +278,7 @@
     position: relative;
     right: 0;
     top: 0;
-    transition: all .25s ease-out;
+    transition: all 0.25s ease-out;
     width: 36px;
   }
 
@@ -301,7 +296,7 @@
 
     @include media-breakpoint-up(lg) {
       height: 100%;
-      transition: border-bottom .25s ease-out;
+      transition: border-bottom 0.25s ease-out;
     }
 
     &:focus {
@@ -317,7 +312,7 @@
       color: rgba($color: $body-color, $alpha: 0.8);
       font-weight: $font-weight-normal;
       opacity: 0;
-      transition: .25s ease-out;
+      transition: 0.25s ease-out;
 
       @include media-breakpoint-up(lg) {
         transition: none;
@@ -336,7 +331,7 @@
       transition: background-color 5000s ease-in-out 0s;
     }
 
-    :-ms-input-placeholder {
+    :input-placeholder {
       opacity: 1;
     }
   }
@@ -358,6 +353,7 @@
       i {
         @extend .animate-this;
 
+        /* stylelint-disable-next-line */
         @include media-breakpoint-up(lg) {
           color: $primary;
         }
@@ -377,6 +373,7 @@
   .search-show .btn-search-open:hover {
     cursor: auto;
 
+    /* stylelint-disable-next-line */
     i {
       color: $body-color;
     }
@@ -460,17 +457,17 @@
   }
 }
 
-input[type=search]::-ms-clear,
-input[type=search]::-ms-reveal {
+.form-control-search::-ms-clear,
+.form-control-search::-ms-reveal {
   display: none;
   height: 0;
   width: 0;
 }
 
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
+.form-control-search::-webkit-search-decoration,
+.form-control-search::-webkit-search-cancel-button,
+.form-control-search::-webkit-search-results-button,
+.form-control-search::-webkit-search-results-decoration {
   display: none;
 }
 
@@ -491,6 +488,7 @@ s72-dropdown,
     border: 0;
     flex-basis: 100%;
     margin: 0;
+    max-width: 243px;
     min-width: 174px;
     padding: 0 30px 0 0;
     position: relative;
@@ -498,15 +496,15 @@ s72-dropdown,
     width: 100%;
 
     @include media-breakpoint-up(lg) {
-      padding: 0;
-      width: max-content;
-      max-width: 243px;
       border: 4px solid $body-bg-accent;
-      box-shadow: 0 0 0 1px rgba(255, 255, 255, .12);
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12);
       max-height: 330px;
+      max-width: 243px;
       overflow-y: auto;
+      padding: 0;
       position: absolute;
       top: 100%;
+      width: max-content;
 
       &::-webkit-scrollbar {
         width: 10px;
@@ -517,12 +515,13 @@ s72-dropdown,
       }
 
       &::-webkit-scrollbar-thumb {
-        background: rgba($body-color, .4);
+        background: rgba($body-color, 0.4);
         border-radius: 10px;
-        transition: all .25s ease-out;
+        transition: all 0.25s ease-out;
 
+        /* stylelint-disable-next-line */
         &:hover {
-          background: rgba($body-color, .5);
+          background: rgba($body-color, 0.5);
         }
       }
     }
@@ -533,11 +532,11 @@ s72-dropdown,
       color: $body-color;
       font-size: 16px;
       font-weight: $font-weight-normal;
-      padding: 8px 0 8px 0px;
+      padding: 8px 0;
       @include media-breakpoint-up(lg) {
-        width: auto;
+        margin: 3px 5px;
         padding: 5px 15px 5px 10px;
-        margin: 3px 5px 3px 5px;
+        width: auto;
       }
 
       @include hover-focus {
@@ -570,32 +569,38 @@ s72-dropdown,
   padding: 0;
   width: 100%;
 
+  @include media-breakpoint-up(lg) {
+    border: 0;
+    display: flex;
+    flex-grow: 0;
+    justify-content: flex-start;
+    order: 1;
+    padding: 0;
+    width: auto;
+
+    .s72-dropdown-menu {
+      position: absolute;
+    }
+  }
+
   s72-sign-out {
     display: flex;
     margin-top: auto;
 
     .btn-sign-out {
-      border: 0;
       background-color: transparent;
+      border: 0;
       color: $body-color;
     }
-    
+
+    /* stylelint-disable-next-line */
     &.sign-out-desktop {
       display: none;
+
       @include media-breakpoint-up(lg) {
         display: flex;
+        margin: 3px 5px;
         padding: 0;
-        margin: 3px 5px 3px 5px;
-        .btn-sign-out-desktop {
-          padding: 5px 15px 5px 10px;
-          width: 100%;
-        }
-      }
-    }
-
-    &.sign-out-mobile {
-      @include media-breakpoint-up(lg) {
-        display: none;
       }
     }
 
@@ -604,10 +609,10 @@ s72-dropdown,
       border-radius: 4px;
       color: $button-text-color;
       padding: 8px 56px;
-      width: 100%;
       text-align: center;
+      width: 100%;
     }
-    
+
     .btn-sign-out {
       @extend .animate-this;
       @include hover-focus {
@@ -620,6 +625,11 @@ s72-dropdown,
       @include hover-focus {
         color: $primary;
       }
+
+      @include media-breakpoint-up(lg) {
+        padding: 5px 15px 5px 10px;
+        width: 100%;
+      }
     }
 
     .btn-sign-out-mobile {
@@ -627,20 +637,10 @@ s72-dropdown,
         background-color: $signout-background-hover;
         color: $body-color;
       }
-    }
-  }
 
-  @include media-breakpoint-up(lg) {
-    border: 0;
-    display: flex;
-    flex-grow: 0;
-    justify-content: flex-start;
-    order: 1;
-    padding: 0;
-    width: auto;
-
-    .s72-dropdown-menu {
-      position: absolute;
+      @include media-breakpoint-up(lg) {
+        display: none;
+      }
     }
   }
 
@@ -670,7 +670,7 @@ s72-dropdown,
     flex-direction: column;
     height: 100%;
     margin-top: 20px;
-    padding: 10px 0 20px 0;
+    padding: 10px 0 20px;
 
     @include media-breakpoint-up(lg) {
       margin-left: 12px;
@@ -702,7 +702,7 @@ s72-dropdown,
 
   s72-user-known,
   s72-user-anon {
-    border-top: 1px solid rgba($color: $body-color, $alpha: .1);
+    border-top: 1px solid rgba($color: $body-color, $alpha: 0.1);
 
     @include media-breakpoint-up(lg) {
       border: 0;
@@ -711,7 +711,7 @@ s72-dropdown,
   }
 
   hr {
-    border-top: 1px solid rgba($color: $body-color, $alpha: .1);
+    border-top: 1px solid rgba($color: $body-color, $alpha: 0.1);
     display: none;
     margin: 0 15px 5px;
 
@@ -786,9 +786,11 @@ s72-dropdown,
     display: flex;
     padding-left: 0;
     padding-right: 20px;
+
     &:focus {
       box-shadow: none;
     }
+
     &:focus-visible {
       outline: 1px dotted $body-color;
       outline: 5px auto -webkit-focus-ring-color;
@@ -808,7 +810,7 @@ s72-dropdown,
 }
 
 .vertical-line {
-  border-left: solid 1px rgba($color: $body-color, $alpha: .5);
+  border-left: solid 1px rgba($color: $body-color, $alpha: 0.5);
   display: none;
   height: 25px;
   margin-left: 12px;
@@ -854,7 +856,7 @@ s72-dropdown,
     color: $subnav-nav-item-color;
     font-size: 16px;
     padding: 10px 0;
-    transition: color .25s ease-out;
+    transition: color 0.25s ease-out;
 
     @include media-breakpoint-up(lg) {
       border-bottom: 3px solid transparent;
@@ -885,14 +887,13 @@ s72-dropdown,
 }
 
 .header-banner {
+  align-items: center;
+  background-color: $primary;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-  z-index: 10;
-  background-color: $primary;
   min-height: 26px;
+  text-align: center;
+  z-index: 10;
 
   .header-banner-message {
     font-size: 12px;
@@ -912,7 +913,6 @@ s72-dropdown,
   }
 }
 
-// Temporary fix due to header banner increasing height from top of page.
 .navigation.show .header-banner + .navbar-brand-container-tablet {
   @include media-breakpoint-between(sm, lg) {
     top: 36px;

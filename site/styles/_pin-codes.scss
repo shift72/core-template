@@ -1,56 +1,50 @@
-// User account form
-
 s72-useraccount-form {
+  .s72-account-pin-not-set-label {
+    padding-bottom: 0.5rem;
+  }
 
-	.s72-account-pin-not-set-label {
-		padding-bottom: 0.5rem;
-	}
-
-	// Change PIN button
-	.s72-btn-changepin {
-		@extend .s72-btn-changepassword;
-	}
+  .s72-btn-changepin {
+    @extend .s72-btn-changepassword;
+  }
 }
-
-// Update pin form
 
 .s72-pincode {
-	@extend .s72-form-control;
+  @extend .s72-form-control;
 }
 
-button.s72-btn-shopping-error-close {
-	@extend .btn-light;
+.s72-btn-shopping-error-close {
+  @extend .btn-light;
 }
 
-form.s72-user-pin-form {
-	.s72-buttons {
-		@extend .d-flex;
-		@extend .justify-content-between;
+.s72-user-pin-form {
+  .s72-buttons {
+    @extend .d-flex;
+    @extend .justify-content-between;
 
-		button.s72-btn-reset-pin {
-			@extend .btn-link;
-			@extend .order-1;
-		}
+    .s72-btn-reset-pin {
+      @extend .btn-link;
+      @extend .order-1;
+    }
 
-		button.s72-btn-submit-pin {
-			@extend .order-2;
-		}
-	}
+    .s72-btn-submit-pin {
+      @extend .order-2;
+    }
+  }
 }
 
 .s72-user-pin-error-limit {
-	button.s72-btn-reset-pin {
-		@extend .btn-primary;
-		margin-right: $modal-footer-button-margin;
-	}
+  .s72-btn-reset-pin {
+    @extend .btn-primary;
+    margin-right: $modal-footer-button-margin;
+  }
 
-	.s72-btn-get-help {
-		@extend .d-inline;
-	}
+  .s72-btn-get-help {
+    @extend .d-inline;
+  }
 }
 
-form.s72-user-reset-pin-form {
-	.s72-user-reset-pin-form-header {
-		@extend .font-weight-bold;
-	}
+.s72-user-reset-pin-form {
+  .s72-user-reset-pin-form-header {
+    @extend .font-weight-bold;
+  }
 }
