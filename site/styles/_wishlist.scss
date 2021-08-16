@@ -32,9 +32,6 @@
     padding-bottom: 3px;
     padding-left: 0;
     padding-top: 3px;
-    @include media-breakpoint-up(md) {
-      padding-left: 0.75rem;
-    }
 
     span {
       @extend .d-flex;
@@ -48,4 +45,9 @@
       opacity: 0.8;
     }
   }
+}
+
+.poster .s72-userwishlist-buttons .s72-btn-wishlist {
+  margin: 0;
+  padding: 0;
 }

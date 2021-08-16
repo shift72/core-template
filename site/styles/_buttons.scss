@@ -124,6 +124,15 @@
       fill: #000;
       stroke: #000;
     }
+  }
+  
+  &.s72-btn-trailer {
+    background: transparent;
+    border: 0 none;
+
+    @include media-breakpoint-up(md) {
+      margin-right: 10px;
+    }
 
     .verb {
       background: transparent;
