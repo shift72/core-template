@@ -6,7 +6,7 @@
 .btn-primary {
   background-color: $button-background;
   color: $button-text-color;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-normal;
   @include hover-focus {
     background-color: $button-background-hover;
     border-color: $button-background-hover;
@@ -104,7 +104,7 @@
   .verb {
     color: $button-text-color;
     font-size: 18px;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-normal;
   }
 }
 
@@ -191,11 +191,11 @@
   }
 
   .verb {
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-normal;
   }
 
   .price {
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-normal;
   }
 }
 
