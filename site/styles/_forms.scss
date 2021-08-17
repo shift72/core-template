@@ -16,7 +16,7 @@ s72-activatedevice-form,
   max-width: 400px;
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 // Password Form Group
 .s72-account-password-form-group .s72-control-inputs {
@@ -44,9 +44,9 @@ s72-activatedevice-form,
 }
 // This needs to be fixed / changed - doesnt need it and could be attached to another div
 .page-form {
-  padding: 10px 20px;
-  @include media-breakpoint-up(md){
-    padding: 20px 50px;
+  padding: 0 20px;
+  @include media-breakpoint-up(lg){
+    padding: 0 50px;
   }
 }
 // Error Messaging

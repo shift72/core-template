@@ -1,16 +1,15 @@
 footer {
   display: flex;
   flex-direction: column;
-  padding-top: 70px;
+  padding-top: 60px;
 }
 
 .footer-brand-link {
   display: flex;
   align-self: center;
-  margin-top: 20px;
-
+  
   @include media-breakpoint-up(xl) {
-    margin: 20px 50px 0 50px;
+    margin: 0 50px;
     align-self: flex-start;
   }
 }
