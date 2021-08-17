@@ -110,6 +110,12 @@
 
 // s72-sign-out             { @extend li; }
 
+.s72-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .s72-modal-error .s72-modal-content {
   @extend .text-danger;
   @extend .bg-light;

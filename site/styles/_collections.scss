@@ -52,8 +52,11 @@
 .slider-item,
 .swiper-slide {
   @extend .meta-item;
-  padding: 5px;
+  margin: 5px 5px 5px 8px;
   float: left;
+  &:first-child {
+    margin-left: 0;
+  }
   > a {
     .poster {
       .hover {

@@ -93,24 +93,9 @@ s72-activatedevice-form,
   display: inline-block;
   background: rgba($body-color, 0.1);
 }
-// Change Password Overlay
-.s72-shopping-modal {
-  .s72-modal-closable {
-    .s72-modal-dialog {
-      @include media-breakpoint-up(md) {
-        margin: 90px auto 0 auto !important;
-        max-width: 400px;
-      }
-    }
-  }
+.s72-modal-sm .s72-modal-dialog {
+  max-width: 400px;
 }
-.s72-modal-closable {
-    .s72-modal-dialog {
-      @include media-breakpoint-up(md) {
-        margin: 90px auto 0 auto !important;
-      }
-    }
-  }
 .s72-modal-container {
   .s72-buttons {
     .s72-btn {
@@ -136,7 +121,7 @@ s72-activatedevice-form,
   border: 1px solid rgba(255, 255, 255, 0.1);
 
   .s72-modal-header {
-    padding: 20px;
+    padding: 0 50px 20px 0;
     border-bottom: 0 none;
     .s72-modal-title {
       font-size: 20px;
