@@ -362,7 +362,7 @@
     "classification_outro": { "other": "" },
   
     "cookie_banner_message": { "other": "Dette nettstedet bruker informasjonskapsler for å forbedre din opplevelse. Ved å bruke dette nettstedet aksepterer du <a href=\"{{.CookiePolicyURL}}\">bruk av informasjonskapsler</a>." },
-    "cookie_banner_accept": { "other": "Jeg aksepterer" },
+    "cookie_banner_accept": { "other": "Aksepterer" },
   
     "all_rights_reserved": { "other": "Alle rettigheter forbeholdes. Ingen deler av dette nettstedet kan reproduseres uten skriftlig tillatelse." },
   

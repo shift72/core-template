@@ -377,7 +377,7 @@
   "classification_outro": { "other": "" },
 
   "cookie_banner_message": { "other": "Deze site gebruikt cookies om uw surfervaring te verbeteren. Door deze site te gebruiken, gaat u akkoord met <a href=\"{{.CookiePolicyURL}}\">het gebruik van cookies</a>." },
-  "cookie_banner_accept": { "other": "Ik ga akkoord" },
+  "cookie_banner_accept": { "other": "Akkoord" },
 
   "all_rights_reserved": { "other": "Alle rechten voorbehouden. Niets van deze site mag worden gereproduceerd zonder onze schriftelijke toestemming." },
 

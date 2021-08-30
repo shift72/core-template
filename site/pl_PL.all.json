@@ -376,7 +376,7 @@
   "classification_intro": { "other": "Klasyfikacja: " },
 
   "cookie_banner_message": { "other": "Korzystanie z naszej witryny oznacza zgodę na wykorzystywanie plików cookie. Więcej informacji można znaleźć na <a href=\"{{.CookiePolicyURL}}\">polityka prywatności</a>." },
-  "cookie_banner_accept": { "other": "Akceptuję" },
+  "cookie_banner_accept": { "other": "Zaakceptować" },
 
   "all_rights_reserved": { "other": "Wszelkie prawa zastrzeżone. Treści witryny nie mogą być powielane bez pisemnej zgody jej administratora." },
 
