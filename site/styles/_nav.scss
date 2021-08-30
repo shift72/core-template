@@ -17,6 +17,9 @@
 
   &.show {
     height: 100%;
+    @include media-breakpoint-up(lg) {
+      height: auto;
+    }
     .navbar {
       background-color: $body-bg-accent;
       flex-direction: column;
