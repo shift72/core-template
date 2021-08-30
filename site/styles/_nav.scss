@@ -1,4 +1,8 @@
 .navigation {
+  background: linear-gradient(
+    rgba($top-gradient-color, 1) 0%,
+    rgba($top-gradient-color, 0) ($navbar-brand-padding-y * 2) + 20px
+  );
   background-color: transparent;
   display: flex;
   flex-direction: column;
@@ -10,9 +14,8 @@
   top: 0;
   width: 100%;
   z-index: 9;
-  background: linear-gradient(rgba($top-gradient-color,1) 0%, rgba($top-gradient-color,0) ($navbar-brand-padding-y * 2) + 20px);
   @include media-breakpoint-up(lg) {
-    background: linear-gradient(rgba($top-gradient-color,1) 0%, rgba($top-gradient-color,0) 100%);
+    background: linear-gradient(rgba($top-gradient-color, 1) 0%, rgba($top-gradient-color, 0) 100%);
   }
 
   &.show {
@@ -926,17 +929,16 @@ s72-dropdown,
   }
 }
 
-.tablet-overlay {
+.s72-tablet-backdrop {
   opacity: 0;
   transition: opacity 0.25s;
 }
-.navigation.show {
-  .tablet-overlay {
-    @include media-breakpoint-between(sm, lg) {
-      opacity: 0.4;
-      background-color: rgba(0, 0, 0);
-      height: 100%;
-      width: 100%;
-    }
+
+.navigation.show .s72-tablet-backdrop {
+  @include media-breakpoint-between(sm, lg) {
+    background-color: rgba(0, 0, 0);
+    height: 100%;
+    opacity: 0.4;
+    width: 100%;
   }
 }
