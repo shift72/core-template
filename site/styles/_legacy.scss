@@ -310,13 +310,4 @@ p,
   @include media-breakpoint-up(lg) {
     overflow-y: visible;
   }
-
-  main,
-  footer {
-    opacity: 0.2;
-    pointer-events: none;
-    @include media-breakpoint-up(lg) {
-      opacity: 1;
-    }
-  }
 }

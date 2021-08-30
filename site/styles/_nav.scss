@@ -1,6 +1,5 @@
 .navigation {
-  @extend .top-gradient-bg;
-
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   height: auto;
@@ -11,8 +10,13 @@
   top: 0;
   width: 100%;
   z-index: 9;
+  background: linear-gradient(rgba($top-gradient-color,1) 0%, rgba($top-gradient-color,0) ($navbar-brand-padding-y * 2) + 20px);
+  @include media-breakpoint-up(lg) {
+    background: linear-gradient(rgba($top-gradient-color,1) 0%, rgba($top-gradient-color,0) 100%);
+  }
 
   &.show {
+    height: 100%;
     .navbar {
       background-color: $body-bg-accent;
       flex-direction: column;
@@ -251,7 +255,6 @@
   background-color: $navbar-background-color;
   display: none;
   left: 0;
-  opacity: 0.2;
   pointer-events: none;
   position: absolute;
   top: 10px;
@@ -497,7 +500,7 @@ s72-dropdown,
 
     @include media-breakpoint-up(lg) {
       border: 4px solid $body-bg-accent;
-      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12);
+      box-shadow: 0 0 0 1px rgba($body-color, 0.12);
       max-height: 330px;
       max-width: 243px;
       overflow-y: auto;
@@ -904,6 +907,7 @@ s72-dropdown,
   }
 }
 
+// Styles for tablet navigation
 .no-scroll {
   .header-banner {
     opacity: 0.2;
@@ -916,5 +920,20 @@ s72-dropdown,
 .navigation.show .header-banner + .navbar-brand-container-tablet {
   @include media-breakpoint-between(sm, lg) {
     top: 36px;
+  }
+}
+
+.tablet-overlay {
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.navigation.show {
+  .tablet-overlay {
+    @include media-breakpoint-between(sm, lg) {
+      opacity: 0.4;
+      background-color: rgba(0, 0, 0);
+      height: 100%;
+      width: 100%;
+    }
   }
 }
