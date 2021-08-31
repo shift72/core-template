@@ -140,7 +140,7 @@
       width: 200px;
     }
   }
-  & > .poster {
+  > .poster {
     padding-right: 20px;
   }
 }
@@ -480,16 +480,15 @@
     padding-top: $page-detail-padding-top;
 
     @include media-breakpoint-up(md) {
-      padding-top: $page-detail-padding-top-md;
       padding-left: 20px;
       padding-right: 20px;
+      padding-top: $page-detail-padding-top-md;
     }
 
     @include media-breakpoint-up(lg) {
-      padding-top: $page-detail-padding-top-lg;
       padding-left: 50px;
       padding-right: 50px;
-      
+      padding-top: $page-detail-padding-top-lg;
     }
   }
 
