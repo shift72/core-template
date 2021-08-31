@@ -1,3 +1,5 @@
+@use "sass:math";
+
 // This file contains any variables used by the site.
 // These variables should be reasonably generic so that overrides are placed in main.scss.
 
@@ -15,7 +17,7 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px,
   xxl: 1440px,
-  xxxl: 1600px
+  xxxl: 1600px,
 ) !default;
 
 $container-max-widths: (
@@ -27,40 +29,39 @@ $container-max-widths: (
   lg: 992px,
   xl: 1200px,
   xxl: 1440px,
-  xxxl: 1600px
+  xxxl: 1600px,
 ) !default;
 
 // Body / Core
 // ------------------------------------
 
-$primary:         #35a0a8 !default;
-$secondary:       #4cd3dd !default;
-$body-color:      #fff !default;
-$body-bg:         #0f0f0f !default;
-$body-bg-accent: getAccentColor($body-bg) !default;
+$primary: #35a0a8 !default;
+$secondary: #4cd3dd !default;
+$body-color: #fff !default;
+$body-bg: #0f0f0f !default;
+$body-bg-accent: get-accent-color($body-bg) !default;
 $error-color: $body-color !default;
-$error-background: rgba($body-color, .1) !default;
-$hr-border-color: rgba($body-color, .5) !default;
+$error-background: rgba($body-color, 0.1) !default;
+$hr-border-color: rgba($body-color, 0.5) !default;
 $list-group-bg: $body-bg !default;
-$list-group-border-color: rgba($body-color, .125) !default;
+$list-group-border-color: rgba($body-color, 0.125) !default;
 
 // Cookie Consent
 $cookie-consent-color: #000;
 $cookie-consent-link-color: $primary;
 $cookie-consent-hover-link-color: $secondary;
 
-
 // Nav
 // ------------------------------------
 $navbar-background-color: transparent !default;
 $navbar-dark-active-color: $primary !default;
-$navbar-nav-link-padding-x:  1em !default;
-$navbar-nav-link-padding-y:  1em !default;
+$navbar-nav-link-padding-x: 1em !default;
+$navbar-nav-link-padding-y: 1em !default;
 
 // Uses navbar-dark theme so we can use variables for colouring
-$navbar-dark-active-color:  #FD4766 !default;
-$navbar-dark-color:         $body-color !default;
-$navbar-dark-hover-color:   #FD4766 !default;
+$navbar-dark-active-color: #fd4766 !default;
+$navbar-dark-color: $body-color !default;
+$navbar-dark-hover-color: #fd4766 !default;
 
 // Navbar Logo (Brand)
 $navbar-brand-padding-y: 25px !default;
@@ -76,7 +77,7 @@ $subnav-nav-item-color: $body-color !default;
 $subnav-nav-item-hover-background-color: $primary !default;
 $subnav-nav-item-active-background-color: $primary !default;
 $subnav-nav-item-margin-x: 1rem !default;
-$subnav-nav-item-margin-y: .5rem !default;
+$subnav-nav-item-margin-y: 0.5rem !default;
 $subnav-nav-item-border-radius: 2rem !default;
 
 // Buttons
@@ -92,8 +93,8 @@ $signin-text-color: $body-color !default;
 $signin-text-color-hover: $primary !default;
 $signin-border-color: transparent !default;
 $signin-border-color-hover: transparent !default;
-$signin-background: rgba($body-color, .06) !default;
-$signin-background-hover: rgba($body-color, .1) !default;
+$signin-background: rgba($body-color, 0.06) !default;
+$signin-background-hover: rgba($body-color, 0.1) !default;
 $signin-background-lg: transparent !default;
 $signin-background-hover-lg: transparent !default;
 
@@ -104,8 +105,8 @@ $signup-border-color-hover: transparent !default;
 $signup-background: $button-background !default;
 $signup-background-hover: $button-background-hover !default;
 
-$signout-background: rgba($body-color, .06);
-$signout-background-hover: rgba($body-color, .1);
+$signout-background: rgba($body-color, 0.06);
+$signout-background-hover: rgba($body-color, 0.1);
 
 $link-color: $body-color !default;
 
@@ -124,12 +125,12 @@ $carousel-caption-top: 150px !default;
 $carousel-caption-top-md: 175px !default;
 
 // Pages
-$page-padding-top: 130px !default;
-$page-padding-top-md: 150px !default;
-$page-padding-top-lg: 190px !default;
-$page-detail-padding-top: 130px !default;
-$page-detail-padding-top-md: 150px !default;
-$page-detail-padding-top-lg: 190px !default;
+$page-padding-top: 120px !default;
+$page-padding-top-md: 120px !default;
+$page-padding-top-lg: 180px !default;
+$page-detail-padding-top: 120px !default;
+$page-detail-padding-top-md: 120px !default;
+$page-detail-padding-top-lg: 180px !default;
 
 // Footer
 $footer-brand-min-width: 100px !default;
@@ -160,9 +161,11 @@ $poster-landscape-height: 330px !default;
 $poster-carousel-width: 1600px !default;
 $poster-carousel-height: 600px !default;
 
-$poster-landscape-size-ratio: ($poster-landscape-height / $poster-landscape-width) !default;
-$poster-portrait-size-ratio: ($poster-portrait-height / $poster-portrait-width) !default;
-$poster-carousel-size-ratio: ($poster-carousel-height / $poster-carousel-width) !default;
+$poster-landscape-size-ratio: (
+  math.div($poster-landscape-height, $poster-landscape-width)
+) !default;
+$poster-portrait-size-ratio: math.div($poster-portrait-height, $poster-portrait-width) !default;
+$poster-carousel-size-ratio: math.div($poster-carousel-height, $poster-carousel-width) !default;
 
 $poster-border-radius: $meta-item-border-radius !default;
 
@@ -170,7 +173,7 @@ $poster-border-radius: $meta-item-border-radius !default;
 // ------------------------------------
 
 $page-collection-container-width: 1140px !default;
-$page-collection-item-padding-horizontal: $grid-gutter-width-base / 2 !default;
+$page-collection-item-padding-horizontal: math.div($grid-gutter-width-base, 2) !default;
 // $page-collection-item-padding-horizontal: 15px !default;
 
 // Sliders
@@ -196,7 +199,9 @@ $modal-footer-button-margin: 5px;
 
 // Fonts
 // ------------------------------------
-$font-family-base: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-base: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+  'Noto Color Emoji' !default;
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 500 !default;

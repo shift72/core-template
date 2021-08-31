@@ -1,17 +1,17 @@
 {
   "name": "@shift72/core-template",
-  "version": "0.2.0-beta.1",
+  "version": "0.3.0-beta.1",
   "description": "Shift72 core template",
   "license": "MIT",
   "scripts": {
     "start": "npm run init && npm-run-all --parallel css:watch js:watch kibble:watch",
     "init": "npm-run-all css js",
-    "css": "node-sass ./site/styles/main.scss ./site/static/styles/main.css",
+    "css": "sass ./site/styles/main.scss ./site/static/styles/main.css --load-path=node_modules",
     "css:lint": "prettier 'site/styles/*.scss' --write && stylelint ./site/styles/*.scss --fix",
     "css:watch": "npm run css -- --watch",
     "css:build": "postcss ./site/static/styles/main.css --use autoprefixer --use cssnano -r",
     "js": "rollup -c",
-    "js:lint": "prettier '{scripts,site/static/js}/**/*.js' --write && eslint ./site/static/js/*.js ./scripts --fix",
+    "js:lint": "prettier '{scripts,site/static/js}/**/!(modernizr-custom).js' --write && eslint ./site/static/js/*.js ./scripts --fix",
     "js:watch": "rollup -c -w",
     "js:build": "rollup -c",
     "kibble": "kibble render",
@@ -40,12 +40,12 @@
     "del": "^6.0.0",
     "font-awesome": "^4.7.0",
     "minify": "^4.1.1",
-    "node-sass": "^4.14.1",
     "npm-run-all": "^4.0.2",
     "postcss-cli": "^7.1.1",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
     "s72-kibble": "^0.15.18",
+    "sass": "^1.36.0",
     "watch": "^1.0.2"
   },
   "devDependencies": {
@@ -94,10 +94,11 @@
   },
   "eslintIgnore": [
     "modernizr-custom.js",
-    "./site/static/scripts/*.js"
+    "./site/static/scripts/*.js",
+    "./site/static/scripts/*.map"
   ],
   "prettier": {
-    "arrowParens": "always",
+    "arrowParens": "avoid",
     "bracketSpacing": true,
     "embeddedLanguageFormatting": "auto",
     "endOfLine": "lf",
@@ -105,7 +106,7 @@
     "insertPragma": false,
     "jsxBracketSameLine": false,
     "jsxSingleQuote": false,
-    "printWidth": 80,
+    "printWidth": 100,
     "proseWrap": "preserve",
     "quoteProps": "as-needed",
     "requirePragma": false,
@@ -121,7 +122,10 @@
       "stylelint-prettier/recommended"
     ],
     "rules": {
-      "prettier/prettier": true
+      "max-nesting-depth": 3,
+      "prettier/prettier": true,
+      "scss/at-extend-no-missing-placeholder": null,
+      "scss/at-import-no-partial-leading-underscore": null
     }
   }
 }

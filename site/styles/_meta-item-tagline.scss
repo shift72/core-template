@@ -1,24 +1,28 @@
 .meta-item-tagline {
+  @extend .list-inline;
   font-size: 12px;
   @include media-breakpoint-up(md) {
     font-size: 14px;
   }
-  @extend .list-inline;
+
   .meta-item-tagline-item,
   .meta-item-tagline-divider {
     @extend .list-inline-item;
+
     &:not(:last-child) {
       margin-right: map-get($spacers, 1); // Currently 0.25rem
     }
   }
 }
+
 .meta-item-classification {
   border-radius: $meta-item-tagline-classification-border-radius;
-  padding: 0 5px 1px 5px;
-  font-weight: $font-weight-bold;
   display: inline-block;
+  font-weight: $font-weight-bold;
+  padding: 0 5px 1px;
 }
+
 .meta-item-classification-mature {
-  background-color: #FDFF5C;
+  background-color: #fdff5c;
   color: #000;
 }

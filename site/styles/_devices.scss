@@ -1,14 +1,17 @@
-.s72-userdevices-header { display: none; }
+.s72-userdevices-header {
+  display: none;
+}
 
-.s72-userdevices-device-list { @extend .list-group; }
-.s72-userdevices-device { @extend .list-group-item; }
+.s72-userdevices-device-list {
+  @extend .list-group;
+}
+
+.s72-userdevices-device {
+  @extend .list-group-item;
+}
 
 .s72-userdevices-device-type {
   @extend .h5;
-}
-
-.s72-userdevices-device-description {
-
 }
 
 .s72-userdevices-device-added {
@@ -27,14 +30,14 @@
 }
 
 .s72-userdevices-device-deleted {
-  opacity: .8;
+  opacity: 0.8;
   user-select: none;
 }
 
 .s72-userdevices-device-deleted-label {
   @extend .small;
   display: inline-block;
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
 .s72-btn-userdevices-confirm,
@@ -42,6 +45,7 @@
   @extend .btn-primary;
   @extend .btn-sm;
 }
+
 .s72-userdevices-empty {
   font-size: 12px;
   font-style: italic;
