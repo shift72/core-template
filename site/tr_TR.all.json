@@ -363,7 +363,7 @@
     "classification_outro": { "other": "" },
   
     "cookie_banner_message": { "other": "Bu site kullanıcı deneyimini artırmak için çerezler kullanmaktadır. Bu siteyi kullanırken, < çerez ve gizlilik ayarlarını kabul edin <a href=\"{{.CookiePolicyURL}}\">cookie usage</a>." },
-    "cookie_banner_accept": { "other": "Kabul Etmek" },
+    "cookie_banner_accept": { "other": "Kabul" },
   
     "all_rights_reserved": { "other": "Her hakkı saklıdır. Bu sitenin hiçbir bölümü yazılı iznimiz olmadan çoğaltılamaz." },
   
