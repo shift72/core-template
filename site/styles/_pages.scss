@@ -190,8 +190,8 @@
   .s72-searchresults-results,
   .s72-userdevices {
     flex-wrap: wrap;
-    padding: 20px 15px;
-    @include media-breakpoint-up(md) {
+    padding: 20px;
+    @include media-breakpoint-up(lg) {
       padding: 20px 50px;
     }
 
