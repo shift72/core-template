@@ -140,11 +140,13 @@
       width: 200px;
     }
   }
+  & > .poster {
+    padding-right: 20px;
+  }
 }
 
 .meta-detail-content {
   @include media-breakpoint-up(md) {
-    margin-left: 20px;
     width: 563px;
   }
   @include media-breakpoint-up(xl) {
