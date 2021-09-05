@@ -333,7 +333,7 @@
   "classification_intro": { "other": "Luokitus: " },
 
   "cookie_banner_message": { "other": "Sivusto käyttää evästeitä parantaakseen käyttökokemustasi. Jatkamalla sivuston käyttöä hyväksyt <a href=\"/page/cookie-policy/\">käyttöehtomme</a>." },
-  "cookie_banner_accept": { "other": "Hyväksyn" },
+  "cookie_banner_accept": { "other": "Hyväksyä" },
   "all_rights_reserved": { "other": "Kaikki oikeudet pidätetään. Sivustoa tai sen osia ei saa käyttää uudelleen ilman kirjallista lupaamme." },
 
   "users_gender_none": { "other": "Ei määritelty" },

@@ -377,7 +377,7 @@
     "classification_outro": { "other": "" },
   
     "cookie_banner_message": { "other":"Овај сајт користи колачиће да би побољшао Ваш доживљај.Коришћењем сајта прихватате <a href=\"{{.CookiePolicyURL}}\">употребу колачића</a>." },
-    "cookie_banner_accept": { "other": "Прихватам" },
+    "cookie_banner_accept": { "other": "Прихвати" },
   
     "all_rights_reserved": { "other": "Сва права су задржана. Ниједан део овог сајта не сме се репродуковати без наше писмене дозволе." },
   

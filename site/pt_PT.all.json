@@ -359,7 +359,7 @@
     "classification_outro": { "other": "" },
 
     "cookie_banner_message": { "other": "Esse site utiliza cookies para melhorar sua experiência. Ao usar esse site, você aceita nossa <a href=\"{{.CookiePolicyURL}}\">cookie usage</a>." },
-    "cookie_banner_accept": { "other": "Eu Aceito" },
+    "cookie_banner_accept": { "other": "Aceitar" },
 
     "all_rights_reserved": { "other": "Todos os direitos reservados. Nenhuma parte desse site pode ser reproduzida sem permissão por escrito." },
 

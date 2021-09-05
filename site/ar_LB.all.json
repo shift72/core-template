@@ -389,7 +389,7 @@
     "classification_outro": { "other": "" },
   
     "cookie_banner_message": { "other": "يستخدم هذا الموقع ملفات تعريف الارتباط لتحسين تجربتك. باستخدام هذا الموقع ، فإنك توافق على <a href=\"{{.CookiePolicyURL}}\"> استخدام ملفات تعريف الارتباط </a>." },
-    "cookie_banner_accept": { "other": "أوافق" },
+    "cookie_banner_accept": { "other": "وافق" },
   
     "all_rights_reserved": { "other": "كل الحقوق محفوظة. لا يجوز إعادة إنتاج أي جزء من هذا الموقع دون إذن كتابي." },
   

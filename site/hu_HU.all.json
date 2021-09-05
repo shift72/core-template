@@ -362,7 +362,7 @@
     "classification_outro": { "other": "" },
   
     "cookie_banner_message": { "other": "Ez az oldal sütiket használ a felhasználói élmény növelésének érdekében. Amennyiben ezt az oldalt használod, elfogadod a <a href=\"{{.CookiePolicyURL}}\">sütik használatára vonatkozó feltételeket</a>-ot." },
-    "cookie_banner_accept": { "other": "Elfogadom" },
+    "cookie_banner_accept": { "other": "Elfogad" },
   
     "all_rights_reserved": { "other": "Minden jog fenntartva. Az oldal egyetlen része sem reprodukálható írásos engedélyünk nélkül." },
   
