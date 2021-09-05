@@ -1,6 +1,6 @@
 .navigation {
   @extend .top-gradient-bg;
-
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   height: auto;
@@ -13,6 +13,14 @@
   z-index: 9;
 
   &.show {
+    height: 100%;
+    @include media-breakpoint-between(sm, md) {
+      background: none;
+    }
+    @include media-breakpoint-up(lg) {
+      height: auto;
+    }
+
     .navbar {
       background-color: $body-bg-accent;
       flex-direction: column;
@@ -248,18 +256,13 @@
 }
 
 .navbar-brand-container-tablet {
+  background: linear-gradient(rgba($top-gradient-color, 1) 0%, rgba($top-gradient-color, 0) 100%);
   background-color: $navbar-background-color;
   display: none;
-  left: 0;
-  opacity: 0.2;
+  padding: 10px 20px;
   pointer-events: none;
-  position: absolute;
-  top: 10px;
+  position: relative;
   width: 100%;
-
-  .navbar-brand {
-    margin-left: 20px;
-  }
 }
 
 .navbar-nav-search {
@@ -497,7 +500,7 @@ s72-dropdown,
 
     @include media-breakpoint-up(lg) {
       border: 4px solid $body-bg-accent;
-      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12);
+      box-shadow: 0 0 0 1px rgba($body-color, 0.12);
       max-height: 330px;
       max-width: 243px;
       overflow-y: auto;
@@ -904,6 +907,7 @@ s72-dropdown,
   }
 }
 
+// Styles for tablet navigation
 .no-scroll {
   .header-banner {
     opacity: 0.2;
@@ -913,8 +917,17 @@ s72-dropdown,
   }
 }
 
-.navigation.show .header-banner + .navbar-brand-container-tablet {
+.s72-tablet-backdrop {
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.navigation.show .s72-tablet-backdrop {
   @include media-breakpoint-between(sm, lg) {
-    top: 36px;
+    background-color: rgba(0, 0, 0);
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
   }
 }
