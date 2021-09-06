@@ -1,6 +1,23 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.3.0-beta.1...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.3.0-beta.3...HEAD)
+
+## [0.3.0-beta.3](https://github.com/shift72/core-template/compare/0.3.0-beta.2...0.3.0-beta.3) - 2021-09-06
+
+### Changed
+- Removed redundant supported devices json file.
+
+## [0.3.0-beta.2](https://github.com/shift72/core-template/compare/0.3.0-beta.1...0.3.0-beta.2) - 2021-09-06
+
+### Fixed
+- Padding issue between wishlish and trailer buttons.
+- Tablet menu overlay now supports light theme.
+- Navigation height bug when increasing window size.
+- Tablet navbar brand now relatively positioned.
+
+### Changed
+- Changed primary button font weight from bold to normal.
+- Changed cookie banner accept button translations.
 
 ## [0.3.0-beta.1](https://github.com/shift72/core-template/compare/0.2.0-beta.1...0.3.0-beta.1) - 2021-08-13
 

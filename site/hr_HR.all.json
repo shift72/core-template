@@ -321,7 +321,7 @@
 	
 	"classification_intro": { "other": "Ocjena:" },
 	"cookie_banner_message": { "other": "Mrežne stranice koriste kolačiće za bolje korisničko iskustvo. Korištenjem stranica, prihvaćate <a href=\"{{.CookiePolicyURL}}\">korištenje podataka o stranicama</a>." },
-	"cookie_banner_accept": { "other": "Prihvaćam" },
+	"cookie_banner_accept": { "other": "Prihvatiti" },
 	"all_rights_reserved": { "other": "Sva prava pridržana. Nijedan dio ovih mrežnih stranica ne smije se koristiti bez naše pisane privole." },
 	
 	"users_gender_none": { "other": "Nije definirano" },

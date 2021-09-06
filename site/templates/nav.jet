@@ -66,5 +66,6 @@
       </nav>
     {{end}}
   </div>
+  <div class="s72-tablet-backdrop"></div>
 </header>
 {{end}}

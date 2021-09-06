@@ -390,7 +390,7 @@
   "classification_outro": { "other": "" },
 
   "cookie_banner_message": { "other": "This site uses cookies to enhance your experience. By using this site, you accept our <a href=\"{{.CookiePolicyURL}}\">cookie usage</a>." },
-  "cookie_banner_accept": { "other": "I Accept" },
+  "cookie_banner_accept": { "other": "Accept" },
 
   "all_rights_reserved": { "other": "All rights reserved. No part of this site may be reproduced without our written permission." },
 

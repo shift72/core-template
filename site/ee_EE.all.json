@@ -362,7 +362,7 @@
     "classification_outro": { "other": "" },
   
     "cookie_banner_message": { "other": "Kasutuskogemuse parandamiseks kasutab see leht küpsiseid. Lehte edasi kasutades nõustud <a href=\"{{.CookiePolicyURL}}\">küpsiste kasutamisega</a>." },
-    "cookie_banner_accept": { "other": "I Accept" },
+    "cookie_banner_accept": { "other": "Accept" },
   
     "all_rights_reserved": { "other": "All rights reserved. No part of this site may be reproduced without our written permission." },
   
