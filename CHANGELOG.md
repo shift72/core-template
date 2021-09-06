@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.3.0-beta.3...HEAD)
 
+### Fixed
+- Carousel tagline now uses theme colour.
+
 ## [0.3.0-beta.3](https://github.com/shift72/core-template/compare/0.3.0-beta.2...0.3.0-beta.3) - 2021-09-06
 
 ### Changed
