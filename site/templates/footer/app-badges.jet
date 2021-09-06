@@ -1,13 +1,21 @@
-{{ block appBadges() }}
-  <div class="app-banner">
-    <h2 class="app-badge-title">{{ i18n("app_badge_title") }}</h2>
-    <div class="app-badge-container">
-      <a class="app-badge-link" href="#">
-        <s72-image src="/images/icons/app-store-badge.png" alt="{{ i18n("app_badge_ios") }}" class="app-badge-image"></s72-image>
-      </a>
-      <a class="app-badge-link" href="#">
-        <s72-image src="/images/icons/google-play-badge.png" alt="{{ i18n("app_badge_android") }}" class="app-badge-image"></s72-image>
-      </a>
+{{block appBadges()}}
+  {{app_link_ios := config("app_link_ios")}}
+  {{app_link_android := config("app_link_android")}}
+  {{if config("app_link_ios") != "" || config("app_link_android") != ""}}
+    <div class="app-banner">
+      <h2 class="app-badge-title">{{ i18n("app_badge_title") }}</h2>
+      <div class="app-badge-container">
+        {{if config("app_link_ios") != ""}}
+          <a class="app-badge-link" href="{{app_link_ios}}" target="_blank">
+            <s72-image src="/images/icons/app-store-badge.png" alt="{{ i18n("app_badge_ios") }}" class="app-badge-image"></s72-image>
+          </a>
+        {{end}}
+        {{if config("app_link_android") != ""}}
+          <a class="app-badge-link" href="{{app_link_android}}" target="_blank">
+            <s72-image src="/images/icons/google-play-badge.png" alt="{{ i18n("app_badge_android") }}" class="app-badge-image"></s72-image>
+          </a>
+        {{end}}
+      </div>
     </div>
-  </div>
-{{ end }}
+  {{end}}
+{{end}}
