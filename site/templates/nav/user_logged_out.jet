@@ -2,7 +2,7 @@
   <s72-user-anon class="user-anon">
     <div class="vertical-line"></div>
     {{if config("disable_user_signups") == "true"}}
-      <a href="{{ routeToPath("/signin.html") }}" class="btn btn-signin-vip">{{i18n("nav_signin")}}</a>
+      <a href="{{ routeToPath("/signin.html") }}" class="btn btn-signin-primary">{{i18n("nav_signin")}}</a>
     {{else}}
       <a href="{{ routeToPath("/signin.html") }}" class="btn btn-signin">{{i18n("nav_signin")}}</a>
       <a href="{{routeToPath("/signup.html")}}" class="btn btn-signup">{{i18n("nav_signup")}}</a>
