@@ -186,17 +186,6 @@ s72-carousel {
     }
 
     .meta-item-tagline {
-      align-self: center;
-      color: rgba($body-color, 0.8);
-      font-size: 14px;
-      font-weight: $font-weight-normal;
-      margin-bottom: 0;
-      @include media-breakpoint-up(xxxl) {
-        font-size: 18px;
-      }
-    }
-
-    .meta-item-tagline {
       color: rgba($body-color, 0.8);
       font-size: 14px;
       font-weight: $font-weight-normal;
