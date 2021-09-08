@@ -91,6 +91,9 @@ footer {
   flex-direction: column;
   margin: 0 20px;
   padding: 50px 0;
+  @include media-breakpoint-up(lg) {
+    margin: 0 50px;
+  }
   .app-badge-container {
     display: flex;
   }
