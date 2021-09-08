@@ -8,12 +8,11 @@
 
 .page-collection-slider {
   padding: 0;
+  padding: 0;
+  padding-bottom: 40px;
   padding-bottom: 40px;
   position: relative;
   z-index: 8;
-  @include media-breakpoint-up(xl) {
-    padding: 0 $grid-gutter-width / 3 $grid-gutter-width / 3 $grid-gutter-width / 3;
-  }
 }
 
 .page-collection-slider-title,
@@ -58,7 +57,9 @@
   @extend .meta-item;
   float: left;
   padding: 5px;
-
+  &:first-child {
+    margin-left: -5px;
+  }
   > a {
     .poster {
       .hover {
@@ -256,9 +257,9 @@
   }
 
   .caption {
-    padding: 4px;
+    padding: 4px 0;
     @include media-breakpoint-up(md) {
-      padding: 8px;
+      padding: 8px 0;
     }
 
     .title,

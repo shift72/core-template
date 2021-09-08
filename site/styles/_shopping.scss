@@ -107,9 +107,6 @@
 .s72-modal-dialog {
   margin: auto;
   padding: 20px;
-  @include media-breakpoint-up(md) {
-    margin: 20px auto;
-  }
 }
 
 .s72-shopping-modal-header-title {
