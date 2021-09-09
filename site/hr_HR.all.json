@@ -33,7 +33,7 @@
 	"nav_signout": { "other": "Odjava" },
 	"play_trailer": { "other": "Trailer" },
 	"runtime_hours": { "other": "h" },
-	"runtime_minutes": { "other": "m" },
+	"runtime_minutes": { "other": "min" },
 
 	"datetime_today": { "other": "danas {{.Date}}" },
 	"datetime_tomorrow": { "other": "sutra {{.Date}}" },
