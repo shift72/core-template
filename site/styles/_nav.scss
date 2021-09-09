@@ -629,13 +629,13 @@ s72-dropdown,
     .btn-sign-out-mobile {
       background-color: $signout-background;
       border-radius: 4px;
+      color: $signout-text-color;
       padding: 8px 56px;
       text-align: center;
       width: 100%;
-      color: $signout-text-color;
       @include hover-focus {
-        color: $signout-text-color-hover;
         background-color: $signout-background-hover;
+        color: $signout-text-color-hover;
       }
       @include media-breakpoint-up(lg) {
         display: none;
@@ -921,8 +921,8 @@ s72-dropdown,
 .navigation.show .s72-tablet-backdrop {
   display: none;
   @include media-breakpoint-between(sm, md) {
-    display: block;
     background-color: rgba(0, 0, 0);
+    display: block;
     height: 100%;
     opacity: 0.4;
     position: absolute;
