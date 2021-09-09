@@ -486,14 +486,14 @@
     "other": "Du vil ikke kunne se indholdet efter dette."
   },
   "shopping_info_rental_period_duration": {
-    "other": "{{.Count}} dages leje "
+    "other": "{{.ValueUnit}} dages leje "
   },
   "shopping_info_watch_window_duration": {
     "other": "{{.Count}} timers afspilningsperiode. "
   },
   "shopping_info_watch_window_explanation_film": {
     "one": "Fra lejeperiodens start vil din film kunne afspilles i en dag. ",
-    "other": "Fra lejeperiodens start vil din film kunne afspilles i {{.Count}} dage. "
+    "other": "Fra lejeperiodens start vil din film kunne afspilles i {{.ValueUnit}} dage. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu en time til at se filmen.",

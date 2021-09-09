@@ -169,11 +169,11 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Sen jälkeen sisältöä ei voi enää katsoa." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Sen jälkeen sisältöä ei voi enää katsoa." },
 
-  "shopping_info_rental_period_duration": { "other": "{{.Count}} päivän vuokra " },
+  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} päivän vuokra " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} tunnin katseluoikeus. " },
   "shopping_info_watch_window_explanation_film": {
     "one": "Vuokraamasi elokuva on katsottavissa tililläsi yhden päivän ajan. ",
-    "other": "Vuokraamasi elokuva on katsottavissa tililläsi {{.Count}} päivän ajan. "
+    "other": "Vuokraamasi elokuva on katsottavissa tililläsi {{.ValueUnit}} päivän ajan. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Katselun aloitettuasi sinulla on tunti aikaa katsoa elokuva niin monta kertaa kuin haluat.",

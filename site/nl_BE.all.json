@@ -210,11 +210,11 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "U zult de inhoud hierna niet meer kunnen bekijken." },
   "shopping_info_available_until_date_explanation_buy": { "other": "U zult de inhoud hierna niet meer kunnen bekijken." },
 
-  "shopping_info_rental_period_duration": { "other": "{{.Count}} dagen bekijken " },
+  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} dagen bekijken " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} uur (her)bekijken. " },
   "shopping_info_watch_window_explanation_film": {
     "one": "Eenmaal gehuurd, zal de film gedurende 1 dag beschikbaar zijn in uw bibliotheek. ",
-    "other": "Eenmaal gehuurd, zal de film gedurende {{.Count}} dagen beschikbaar zijn in uw bibliotheek. "
+    "other": "Eenmaal gehuurd, zal de film gedurende {{.ValueUnit}} dagen beschikbaar zijn in uw bibliotheek. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Zodra u op play klikt, begint de film en heeft u 1 uur de tijd om deze zo vaak als u wenst te herbekijken.",

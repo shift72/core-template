@@ -194,11 +194,11 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Você não poderá assistir ao conteúdo após esta data." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Você não poderá assistir ao conteúdo após esta data." },
 
-    "shopping_info_rental_period_duration": { "other": "Aluguel de {{.Count}} dias." },
+    "shopping_info_rental_period_duration": { "other": "Aluguel de {{.ValueUnit}} dias." },
     "shopping_info_watch_window_duration": { "other": "Período de reprodução de {{.Count}} horas." },
     "shopping_info_watch_window_explanation_film": {
       "one": "Uma vez alugado, o filme estará disponível na sua conta por um dia.",
-      "other": "Uma vez alugado, o filme estará disponível na sua conta por {{.Count}} dias."
+      "other": "Uma vez alugado, o filme estará disponível na sua conta por {{.ValueUnit}} dias."
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Uma vez pressionado play, o período de reprodução se inicia e você tem uma hora para assistir o filme quantas vezes quiser.",

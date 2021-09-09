@@ -194,11 +194,11 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Δεν θα μπορείτε να παρακολουθήσετε το περιεχόμενο μετά από τότε. " },
   "shopping_info_available_until_date_explanation_buy": { "other": "Δεν θα μπορείτε να παρακολουθήσετε το περιεχόμενο μετά από τότε. " },
 
-  "shopping_info_rental_period_duration": { "other": "{{.Count}} μέρες ενοικίασης. " },
+  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} μέρες ενοικίασης. " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} ώρες μέχρι να ολοκληρωθεί η προβολή. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Με την ενοικίαση, η ταινία θα είναι διαθέσιμη στο λογαριασμό σας για {{.Count}} ημέρα. ",
-    "other": "Με την ενοικίαση, η ταινία θα είναι διαθέσιμη στο λογαριασμό σας για {{.Count}} ημέρες.  "
+    "one": "Με την ενοικίαση, η ταινία θα είναι διαθέσιμη στο λογαριασμό σας για {{.ValueUnit}} ημέρα. ",
+    "other": "Με την ενοικίαση, η ταινία θα είναι διαθέσιμη στο λογαριασμό σας για {{.ValueUnit}} ημέρες.  "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Με το που πατήσετε αναπαραγωγή, ξεκινά η περίοδος θέασης κι έχετε μια ώρα για να δείτε την ταινία, όσες φορές επιθυμείτε.",

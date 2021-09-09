@@ -197,10 +197,10 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Du vil ikke kunne se innholdet etter dette." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Du vil ikke kunne se innholdet etter dette." },
   
-    "shopping_info_rental_period_duration": { "other": "{{.Count}} dagers leie " },
+    "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}}dagers leie " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} timers avspillingsvindu. " },
     "shopping_info_watch_window_explanation_film": {
-      "one": "Ved leie av film, vil den være tilgjengelig i kontoen din i {{.Count}} dager. ",
+      "one": "Ved leie av film, vil den være tilgjengelig i kontoen din i {{.ValueUnit}} dager. ",
       "other": "Ved leie av film, vil den være tilgjengelig i kontoen din i én dag. "
     },
     "shopping_info_watch_window_explanation2_film": {
