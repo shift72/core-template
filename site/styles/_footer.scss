@@ -50,7 +50,7 @@ footer {
 }
 
 .footer-info {
-  background-color: $body-bg-accent;
+  background-color: $footer-bar-background-color;
   padding: 20px 42px;
 
   @include media-breakpoint-up(xl) {
