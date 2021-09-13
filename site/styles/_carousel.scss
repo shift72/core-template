@@ -372,3 +372,13 @@ s72-carousel {
     width: 100%;
   }
 }
+
+.no-carousel-padding {
+  height: $page-padding-top;
+  @include media-breakpoint-up(md) {
+    height: $page-padding-top-md;
+  }
+  @include media-breakpoint-up(lg) {
+    height: $page-padding-top-lg;
+  }
+}

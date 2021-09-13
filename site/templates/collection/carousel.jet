@@ -23,5 +23,8 @@
 		<a class="right s72-carousel-control"><span class="fa fa-angle-right"></span></a>
 	</section>
 </s72-carousel>
+{{else}}
+<div class="no-carousel-padding">
+</div>
 {{end}}
 {{end}}
