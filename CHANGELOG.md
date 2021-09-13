@@ -4,6 +4,7 @@
 
 ### Added
 - App badges now display automatically when configured in Uber Admin.
+- Added Letterboxd social button.
 
 ### Fixed
 - Carousel tagline now uses theme colour.
