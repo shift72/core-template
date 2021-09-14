@@ -14,14 +14,14 @@
 				<i class="fa fa-linkedin" title="Share on LinkedIn" aria-hidden="true"></i>
 			</a>
 
-			{{ if letterboxdID }}
-				<a class="btn btn-social btn-social-letterboxd" aria-label="{{i18n("wcag_aria_label_letterboxd")}}" href="https://boxd.it/{{ letterboxdID }}" target="_blank">
+			{{if letterboxdID}}
+				<a class="btn btn-social btn-social-letterboxd" aria-label="{{i18n("wcag_aria_label_letterboxd")}}" href="https://boxd.it/{{letterboxdID}}" target="_blank">
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="28px" viewBox="0 0 560 560" version="1.1">
 						<title>{{i18n("wcag_aria_label_letterboxd")}}</title>
 						<path d="M185.422,140 L185.422,420 L374.578,420 L374.578,350.101 L258.146,350.101 L258.146,140 L185.422,140 Z"/>
 					</svg>
 				</a>
-			{{ end }}
+			{{end}}
 		</div>
 	</div>
 {{end}}
