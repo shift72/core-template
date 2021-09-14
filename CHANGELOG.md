@@ -4,6 +4,7 @@
 
 ### Added
 - App badges now display automatically when configured in Uber Admin.
+- Added Brazilian Portuguese (`pt_BR`) translations file.
 
 ### Fixed
 - Carousel tagline now uses theme colour.
