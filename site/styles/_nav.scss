@@ -481,7 +481,7 @@ s72-dropdown,
   &:focus-within {
     .s72-dropdown-toggle,
     .dropdown-caret {
-      color: $primary;
+      color: $subnav-nav-item-hover-background-color;
     }
   }
 
@@ -544,7 +544,7 @@ s72-dropdown,
 
       @include hover-focus {
         background-color: transparent;
-        color: $primary;
+        color: $subnav-dropdown-background-hover;
       }
     }
   }
@@ -842,11 +842,8 @@ s72-dropdown,
     font-weight: $font-weight-normal;
 
     &.active .nav-link {
-      color: $subnav-nav-item-hover-background-color;
-      opacity: 1;
-
       @include media-breakpoint-up(lg) {
-        border-bottom: 3px solid $subnav-nav-item-hover-background-color;
+        border-bottom: 3px solid $subnav-nav-item-active-border-color;
       }
     }
   }
