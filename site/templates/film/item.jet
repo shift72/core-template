@@ -34,7 +34,7 @@
             </div>
         {{end}}
         <div class="meta-detail-content">
-          <h1>{{ film.Title }} {{if film.ReleaseDate.Year() > 1}}<small>({{film.ReleaseDate.Year()}})</small>{{end}}</h1>
+          <h1>{{ film.Title }}</h1>
           <div class="meta-detail-tagline-and-classification">
             <div class="meta-detail-tagline">
               {{yield metaItemTagline() film}}
