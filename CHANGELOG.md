@@ -6,6 +6,10 @@
 - App badges now display automatically when configured in Uber Admin.
 - Added Brazilian Portuguese (`pt_BR`) translations file.
 
+### Changed
+- Moved year from film/tv titles into tagline.
+- Redesigned meta item tagline jet for easier development.
+
 ### Fixed
 - Carousel tagline now uses theme colour.
 - Signin button on VIP sites now has primary button styling.
