@@ -29,10 +29,11 @@
   color: $link-color;
   text-decoration: underline;
 
-  &:hover,
+  &:hover {
+    color: $link-color-hover;
+  }
   &:focus {
     color: $link-color;
-    text-decoration: none;
   }
 }
 

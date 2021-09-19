@@ -357,7 +357,7 @@
 
         /* stylelint-disable-next-line */
         @include media-breakpoint-up(lg) {
-          color: $primary;
+          color: rgba($body-color, 0.8);
         }
       }
     }
@@ -531,7 +531,7 @@ s72-dropdown,
 
     .s72-dropdown-item,
     .nav-link {
-      border: 0;
+      border-bottom: 3px solid $primary;
       color: $body-color;
       font-size: 16px;
       font-weight: $font-weight-normal;
@@ -617,7 +617,7 @@ s72-dropdown,
 
     .btn-sign-out-desktop {
       @include hover-focus {
-        color: $primary;
+        color: rgba($body-color, 0.8);
       }
 
       @include media-breakpoint-up(lg) {
@@ -710,7 +710,7 @@ s72-dropdown,
   }
 
   hr {
-    border-top: 1px solid rgba($color: $body-color, $alpha: 0.1);
+    border-top: 1px solid rgba($body-color, 0.1);
     display: none;
     margin: 0 15px 5px;
 
@@ -721,15 +721,14 @@ s72-dropdown,
 
   .s72-dropdown-toggle {
     path {
+      @extend .animate-this;
       fill: $body-color;
     }
 
     &:hover,
     &:focus {
       path {
-        @extend .animate-this;
-
-        fill: $primary;
+        fill: rgba($body-color, 0.8);
       }
     }
   }

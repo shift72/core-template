@@ -88,7 +88,8 @@ $trailer-button-text-color: $body-color !default;
 $mobile-nav-link-color: $body-color !default;
 
 $signin-text-color: $body-color !default;
-$signin-text-color-hover: $primary !default;
+$signin-text-color-hover: rgba($body-color, 0.8) !default;
+$signin-text-color-focus: $body-color;
 $signin-border-color: transparent !default;
 $signin-border-color-hover: transparent !default;
 $signin-background: rgba($body-color, 0.1) !default;
@@ -109,6 +110,7 @@ $signout-text-color: $button-text-color !default;
 $signout-text-color-hover: $button-text-color-hover !default;
 
 $link-color: $body-color !default;
+$link-color-hover: rgba($body-color, 0.8);
 
 // Image Gradient Overlays
 $top-gradient-color: $body-bg !default;
@@ -136,14 +138,6 @@ $page-detail-padding-top-lg: 180px !default;
 $footer-brand-min-width: 100px !default;
 $footer-brand-min-width-md: 100px !default;
 $footer-bar-background-color: $body-bg-accent !default;
-
-// Social
-// ------------------------------------
-$facebook-color: $body-color !default;
-$instagram-color: $body-color !default;
-$twitter-color: $body-color !default;
-$youtube-color: $body-color !default;
-$linkedin-color: $body-color !default;
 
 // Meta Items
 // ------------------------------------

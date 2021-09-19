@@ -30,9 +30,13 @@
   @include media-breakpoint-up(lg) {
     background-color: $signin-background-lg;
     margin-left: 12px;
-    @include hover-focus {
+    &:hover {
       background: $signin-background-hover-lg;
       color: $signin-text-color-hover;
+      text-decoration: underline;
+    }
+    &:focus {
+      color: $signin-text-color-focus;
     }
   }
   @include media-breakpoint-up(xl) {
@@ -86,7 +90,7 @@
     }
 
     .s72-btn-play-label {
-      color: $button-text-color-hover;
+      color: $body-color
     }
   }
 
@@ -112,37 +116,28 @@
 .s72-btn-play.s72-btn-trailer {
   background: transparent;
   border: 0 none;
+
   @include hover-focus {
     background: transparent;
-
+    
     .s72-icon-play circle {
       fill: $primary;
       stroke: $primary;
       stroke-width: 3px;
     }
-
+  
     .s72-icon-play path {
       fill: #000;
       stroke: #000;
     }
   }
 
-  &.s72-btn-trailer {
-    background: transparent;
-    border: 0 none;
-
-    @include media-breakpoint-up(md) {
-      margin-right: 10px;
-    }
-
-    .verb {
-      background: transparent;
-      color: $primary;
-    }
+  @include media-breakpoint-up(md) {
+    margin-right: 10px;
   }
 
   .verb {
-    color: $trailer-button-text-color;
+    color: $body-color;
   }
 
   .s72-btn-play-icon {
@@ -218,6 +213,9 @@
     border: 0 none;
     color: $body-color;
     font-size: 14px;
+    @include hover-focus {
+      color: rgba($body-color, 0.8);
+    }
 
     .s72-icon-loading,
     .s72-icon-errored {

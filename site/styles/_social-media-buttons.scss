@@ -22,11 +22,9 @@
 }
 
 .btn-social {
-  background: #fff;
+  background-color: #fff;
   border: 2px solid #fff;
   border-radius: 50%;
-  //all arbituary values
-  color: #000;
   height: 32px;
   line-height: 1;
   padding: 0;
@@ -34,105 +32,18 @@
   width: 32px;
 
   .fa {
-    color: #fff;
+    color: #000;
     font-size: 14px;
     left: 50%;
     position: absolute;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
-
-  &.btn-social-facebook {
-    background: $facebook-color;
-    border-color: $facebook-color;
-
+  @include hover-focus {
+    background-color: $primary;
+    border: 2px solid $primary;
     .fa {
-      color: $body-bg;
-    }
-  }
-
-  &.btn-social-instagram {
-    background-color: $instagram-color;
-    border-color: $instagram-color;
-
-    .fa {
-      color: $body-bg;
-    }
-  }
-
-  &.btn-social-twitter {
-    background-color: $twitter-color;
-    border-color: $twitter-color;
-
-    .fa {
-      color: $body-bg;
-    }
-  }
-
-  &.btn-social-linkedin {
-    background-color: $linkedin-color;
-    border-color: $linkedin-color;
-
-    .fa {
-      color: $body-bg;
-    }
-  }
-
-  &.btn-social-youtube {
-    background-color: $youtube-color;
-    border-color: $youtube-color;
-
-    .fa {
-      color: $body-bg;
-    }
-  }
-
-  &:hover,
-  &:active,
-  &:focus {
-    &.btn-social-facebook {
-      background-color: $primary;
-      border-color: $primary;
-
-      .fa {
-        color: $facebook-color;
-      }
-    }
-
-    &.btn-social-instagram {
-      background-color: $primary;
-      border-color: $primary;
-
-      .fa {
-        color: $instagram-color;
-      }
-    }
-
-    &.btn-social-twitter {
-      background-color: $primary;
-      border-color: $primary;
-
-      .fa {
-        color: $twitter-color;
-      }
-    }
-
-    &.btn-social-linkedin {
-      background-color: $primary;
-      border-color: $primary;
-
-      .fa {
-        color: $linkedin-color;
-      }
-    }
-
-    &.btn-social-youtube {
-      background-color: $primary;
-      border-color: $primary;
-
-      .fa {
-        color: $youtube-color;
-      }
+      color: #fff;
     }
   }
 }
