@@ -11,6 +11,7 @@
 - Redesigned meta item tagline jet for easier development.
 
 ### Fixed
+- Homepage has correct top-padding when carousel is empty.
 - Carousel tagline now uses theme colour.
 - Signin button on VIP sites now has primary button styling.
 
