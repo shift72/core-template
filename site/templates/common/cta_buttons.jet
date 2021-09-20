@@ -1,0 +1,15 @@
+{{block ctaButtons(itemType)}}
+  <div class="cta-buttons">
+    {{if itemType == "film" || itemType == "tvseason"}}
+      <s72-play-button data-slug="{{.Slug}}" data-title="{{.Title}}"></s72-play-button>
+    {{end}}
+
+    {{if itemType == "film" || itemType == "tvseason" || itemType == "bundle"}}
+      <s72-pricing-buttons data-slug="{{.Slug}}" data-title="{{.Title}}"></s72-pricing-buttons>
+    {{end}}
+
+    {{ if itemType == "film" }}
+      <can-be-watched-button data-slug="{{.Slug}}" data-url="{{.CustomFields.GetString("can_be_watched_button_link", "") }}" data-label="{{.CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text") }}"></can-be-watched-button>
+    {{ end }}
+  </div>
+{{end}}
