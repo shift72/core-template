@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.3.0-beta.3...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.3.0-beta.4...HEAD)
+
+## [0.3.0-beta.4](https://github.com/shift72/core-template/compare/0.3.0-beta.3...0.3.0-beta.4)
 
 ### Added
 - App badges now display automatically when configured in Uber Admin.
