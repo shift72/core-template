@@ -861,7 +861,7 @@ s72-dropdown,
           height: 3px;
           background-color: $primary;
           opacity: 1;
-          transform: translate3d(0, 3px, 0);
+          transform: translateY(3px);
         }
       }
     }
@@ -906,7 +906,7 @@ s72-dropdown,
   .s72-dropdown-toggle:hover::before,
   .s72-dropdown-toggle:focus-visible::before {
     opacity: 1;
-    transform: translate3d(0, 3px, 0);
+    transform: translateY(3px);
   }
 
   .s72-dropdown-toggle.nav-link {
