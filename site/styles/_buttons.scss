@@ -90,7 +90,7 @@
     }
 
     .s72-btn-play-label {
-      color: $body-color
+      color: $body-color;
     }
   }
 
@@ -119,13 +119,13 @@
 
   @include hover-focus {
     background: transparent;
-    
+
     .s72-icon-play circle {
       fill: $primary;
       stroke: $primary;
       stroke-width: 3px;
     }
-  
+
     .s72-icon-play path {
       fill: #000;
       stroke: #000;

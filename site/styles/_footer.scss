@@ -36,8 +36,8 @@ footer {
   }
 
   .nav-link {
-    text-align: center;
     @extend .animate-this;
+    text-align: center;
 
     @include media-breakpoint-up(xl) {
       margin-right: 20px;

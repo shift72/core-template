@@ -30,6 +30,13 @@
   padding: 0;
   position: relative;
   width: 32px;
+  @include hover-focus {
+    background-color: $primary;
+    border: 2px solid $primary;
+    .fa {
+      color: #fff;
+    }
+  }
 
   .fa {
     color: #000;
@@ -38,12 +45,5 @@
     position: absolute;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
-  }
-  @include hover-focus {
-    background-color: $primary;
-    border: 2px solid $primary;
-    .fa {
-      color: #fff;
-    }
   }
 }

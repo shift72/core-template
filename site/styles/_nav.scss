@@ -497,11 +497,6 @@ s72-dropdown,
     top: 0;
     width: 100%;
 
-    &.show {
-      display: flex;
-      flex-direction: column;
-    }
-
     @include media-breakpoint-up(lg) {
       background-color: $subnav-dropdown-background;
       border: 4px solid $subnav-dropdown-background;
@@ -532,6 +527,11 @@ s72-dropdown,
           background: rgba($body-color, 0.5);
         }
       }
+    }
+
+    &.show {
+      display: flex;
+      flex-direction: column;
     }
 
     .s72-dropdown-item,
@@ -773,12 +773,12 @@ s72-dropdown,
     display: none;
 
     @include media-breakpoint-up(lg) {
+      border-bottom: 1px solid rgba($body-color, 0.1);
       color: $body-color;
       display: inline-block;
       font-weight: $font-weight-bold;
       margin: 10px 15px 5px;
-      padding: 0 0 8px 0;
-      border-bottom: 1px solid rgba($body-color, 0.1);
+      padding: 0 0 8px;
     }
   }
 }
@@ -849,21 +849,19 @@ s72-dropdown,
   .nav-item {
     font-size: 16px;
     font-weight: $font-weight-normal;
+  }
 
-    &.active .nav-link {
-      @include media-breakpoint-up(lg) {
-        &:before {
-          content: '';
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          height: 3px;
-          background-color: $primary;
-          opacity: 1;
-          transform: translateY(3px);
-        }
-      }
+  .nav-item.active .nav-link::before {
+    @include media-breakpoint-up(lg) {
+      background-color: $primary;
+      bottom: 0;
+      content: '';
+      height: 3px;
+      left: 0;
+      opacity: 1;
+      position: absolute;
+      transform: translateY(3px);
+      width: 100%;
     }
   }
 
@@ -884,25 +882,25 @@ s72-dropdown,
     }
   }
 
-  
-  .nav-item > .nav-link, .s72-dropdown-toggle {
+  .nav-item > .nav-link,
+  .s72-dropdown-toggle {
     position: relative;
     @include media-breakpoint-up(lg) {
-      &:before {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 3px;
+      &::before {
         background-color: $primary;
+        bottom: 0;
+        content: '';
+        height: 3px;
+        left: 0;
         opacity: 0;
+        position: absolute;
         transition: opacity 0.25s, transform 0.25s;
+        width: 100%;
       }
     }
   }
-  .nav-item > .nav-link:hover::before, 
-  .nav-item > .nav-link:focus::before, 
+  .nav-item > .nav-link:hover::before,
+  .nav-item > .nav-link:focus::before,
   .s72-dropdown-toggle:hover::before,
   .s72-dropdown-toggle:focus-visible::before {
     opacity: 1;
