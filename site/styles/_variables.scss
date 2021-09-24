@@ -104,8 +104,8 @@ $signup-background-hover: $button-background-hover !default;
 
 $signout-background: rgba($body-color, 0.1) !default;
 $signout-background-hover: rgba($body-color, 0.2) !default;
-$signout-text-color: $button-text-color !default;
-$signout-text-color-hover: $button-text-color-hover !default;
+$signout-text-color: $body-color !default;
+$signout-text-color-hover: $body-color !default;
 
 $link-color: $body-color !default;
 

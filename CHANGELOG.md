@@ -1,14 +1,20 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.3.0-beta.3...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.3.0-beta.4...HEAD)
+
+### Added
+- Added Letterboxd social button
+
+## [0.3.0-beta.4](https://github.com/shift72/core-template/compare/0.3.0-beta.3...0.3.0-beta.4)
 
 ### Added
 - App badges now display automatically when configured in Uber Admin.
-- Added Letterboxd social button.
+- Added Brazilian Portuguese (`pt_BR`) translations file.
 
 ### Fixed
 - Carousel tagline now uses theme colour.
 - Signin button on VIP sites now has primary button styling.
+- Padding for pages is now consistent.
 
 ## [0.3.0-beta.3](https://github.com/shift72/core-template/compare/0.3.0-beta.2...0.3.0-beta.3) - 2021-09-06
 
