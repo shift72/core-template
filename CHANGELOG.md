@@ -2,6 +2,12 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.3.0-beta.4...HEAD)
 
+### Added
+- Added Letterboxd social button
+
+### Changed
+- Targeting Kibble 0.15.19 
+
 ## [0.3.0-beta.4](https://github.com/shift72/core-template/compare/0.3.0-beta.3...0.3.0-beta.4)
 
 ### Added
