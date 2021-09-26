@@ -210,11 +210,11 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Po šios datos peržiūra bus nebegalima." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Po šios datos peržiūra bus nebegalima." },
 
-  "shopping_info_rental_period_duration": { "other": "{{.Count}} dienų nuoma " },
+  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} dienų nuoma " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} val. peržiūros laikas. " },
   "shopping_info_watch_window_explanation_film": {
     "one": "Įsigytą filmą savo paskyroje galėsite žiūrėti vieną dieną. ",
-    "other": "Įsigytą filmą savo paskyroje galėsite žiūrėti {{.Count}} dienas. "
+    "other": "Įsigytą filmą savo paskyroje galėsite žiūrėti {{.ValueUnit}} dienas. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Paspaudus mygtuką „Žiūrėti“ atsidarys peržiūros langas. Per 1 valandą galėsite peržiūrėti filmą tiek kartų, kiek norėsite.",

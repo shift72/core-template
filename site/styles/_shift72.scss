@@ -51,6 +51,10 @@
   @extend .btn-primary;
 }
 
+.s72-btn-signin-vip {
+  @extend .btn-primary;
+}
+
 .s72-btn-forgotpassword {
   @extend .btn-primary;
 }
@@ -181,6 +185,12 @@
 }
 
 // s72-sign-out             { @extend li; }
+
+.s72-modal {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 
 .s72-modal-error .s72-modal-content {
   @extend .text-danger;

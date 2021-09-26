@@ -215,12 +215,14 @@
   "shopping_info_available_until_date_title": { "other": "Available until {{.Date}}. " },
   "shopping_info_available_until_date_explanation_rent": { "other": "You will not be able to view the content after this." },
   "shopping_info_available_until_date_explanation_buy": { "other": "You will not be able to view the content after this." },
-
-  "shopping_info_rental_period_duration": { "other": "{{.Count}} day rental " },
+  
+  "duration_hour": { "one": "1 hour", "other": "{{.Count}} hours" },
+  "duration_day": { "one": "1 day", "other": "{{.Count}} days" },
+  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} day rental " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} hour playback window. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Once rented, your film will be available in your account for a day. ",
-    "other": "Once rented, your film will be available in your account for {{.Count}} days. "
+    "one": "Once rented, your film will be available in your account for {{.ValueUnit}} day.",
+    "other": "Once rented, your film will be available in your account for {{.ValueUnit}} days. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Once you press play, the watch window begins and you have an hour to watch the film as many times as you like.",
@@ -508,6 +510,7 @@
   "wcag_aria_label_facebook": { "other": "Share on Facebook" },
   "wcag_aria_label_twitter": { "other": "Share on Twitter" },
   "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
+  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
 
   "app_badge_title": { "other": "Download the app to view your purchased content!" },
   "app_badge_ios": { "other": "Download on the App Store" },

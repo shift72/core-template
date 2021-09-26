@@ -22,7 +22,6 @@
     }
 
     .navbar {
-      background-color: $body-bg-accent;
       flex-direction: column;
       height: 100%;
       min-height: 100%;
@@ -420,7 +419,7 @@
   }
 
   &.search-show {
-    background-color: $body-bg-accent;
+    background-color: $navbar-search-background-color;
     height: ($navbar-brand-padding-y * 2) + 20px;
     margin: 0;
     position: absolute;
@@ -487,7 +486,7 @@ s72-dropdown,
   }
 
   .s72-dropdown-menu {
-    background-color: $body-bg-accent;
+    background-color: transparent;
     border: 0;
     flex-basis: 100%;
     margin: 0;
@@ -499,7 +498,8 @@ s72-dropdown,
     width: 100%;
 
     @include media-breakpoint-up(lg) {
-      border: 4px solid $body-bg-accent;
+      background-color: $subnav-dropdown-background;
+      border: 4px solid $subnav-dropdown-background;
       box-shadow: 0 0 0 1px rgba($body-color, 0.12);
       max-height: 330px;
       max-width: 243px;
@@ -514,7 +514,7 @@ s72-dropdown,
       }
 
       &::-webkit-scrollbar-track {
-        background: $body-bg-accent;
+        background: $subnav-dropdown-background;
       }
 
       &::-webkit-scrollbar-thumb {
@@ -607,15 +607,6 @@ s72-dropdown,
       }
     }
 
-    .btn-sign-out-mobile {
-      background-color: $signout-background;
-      border-radius: 4px;
-      color: $button-text-color;
-      padding: 8px 56px;
-      text-align: center;
-      width: 100%;
-    }
-
     .btn-sign-out {
       @extend .animate-this;
       @include hover-focus {
@@ -636,11 +627,16 @@ s72-dropdown,
     }
 
     .btn-sign-out-mobile {
+      background-color: $signout-background;
+      border-radius: 4px;
+      color: $signout-text-color;
+      padding: 8px 56px;
+      text-align: center;
+      width: 100%;
       @include hover-focus {
         background-color: $signout-background-hover;
-        color: $body-color;
+        color: $signout-text-color-hover;
       }
-
       @include media-breakpoint-up(lg) {
         display: none;
       }
@@ -923,8 +919,10 @@ s72-dropdown,
 }
 
 .navigation.show .s72-tablet-backdrop {
-  @include media-breakpoint-between(sm, lg) {
+  display: none;
+  @include media-breakpoint-between(sm, md) {
     background-color: rgba(0, 0, 0);
+    display: block;
     height: 100%;
     opacity: 0.4;
     position: absolute;

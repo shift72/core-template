@@ -215,11 +215,11 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "لن تتمكن من عرض المحتوى بعد ذلك." },
     "shopping_info_available_until_date_explanation_buy": { "other": "لن تتمكن من عرض المحتوى بعد ذلك." },
   
-    "shopping_info_rental_period_duration": { "other": "تأجير لمدة {{.Count}} أيام" },
+    "shopping_info_rental_period_duration": { "other": "تأجير لمدة {{.ValueUnit}} أيام" },
     "shopping_info_watch_window_duration": { "other": "تشغيل لمدة {{.Count}} ساعة." },
     "shopping_info_watch_window_explanation_film": {
       "one": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة يوم واحد.",
-      "other": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة {{.Count}} يوم."
+      "other": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة {{.ValueUnit}} يوم."
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "عند الضغط على تشغيل، يمكنك مشاهدة الفيلم عدة مرات لمدة ساعة واحدة. ",

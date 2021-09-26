@@ -210,11 +210,11 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Нећете моћи да гледате садржај након тога." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Нећете моћи да гледате садржај након тога." },
   
-    "shopping_info_rental_period_duration": { "other": "Изнајмљено на {{.Count}} дана" },
+    "shopping_info_rental_period_duration": { "other": "Изнајмљено на {{.ValueUnit}} дана" },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} ч. за гледање." },
     "shopping_info_watch_window_explanation_film": {
       "one": "Када изнајмите филм, биће доступан на Вашем налогу један дан.",
-      "other": "Када изнајмите филм, биће доступан на Вашем налогу {{.Count}} дана."
+      "other": "Када изнајмите филм, биће доступан на Вашем налогу {{.ValueUnit}} дана."
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Када притиснете дугме за гледање, имаћете један сат да погледате филм колико год пута желите.",

@@ -189,11 +189,11 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Danach können Sie den Film nicht mehr ansehen." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Danach können Sie den Film nicht mehr ansehen." },
 
-  "shopping_info_rental_period_duration": { "other": "Verfügbar für {{.Count}} Tage " },
+  "shopping_info_rental_period_duration": { "other": "Verfügbar für {{.ValueUnit}} Tage " },
   "shopping_info_watch_window_duration": { "other": "Abspielbar für {{.Count}} Stunden. " },
   "shopping_info_watch_window_explanation_film": {
     "one": "Sobald Sie den Film leihen, ist dieser für einen Tag in Ihrem Konto verfügbar. ",
-    "other": "Sobald Sie den Film leihen ist dieser für {{.Count}} Tage in Ihrem Konto verfügbar. "
+    "other": "Sobald Sie den Film leihen ist dieser für {{.ValueUnit}} Tage in Ihrem Konto verfügbar. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Sobald Sie den Film zum ersten mal abspielen, kann dieser in einem Zeitfenster von 1 Stunde so oft wiedergegeben werden, wie Sie möchten.",

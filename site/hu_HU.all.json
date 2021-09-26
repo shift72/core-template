@@ -197,11 +197,11 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Ezután a dátum után nem lesz elérhető a tartalom." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Ezután a dátum után nem lesz elérhető a tartalom." },
   
-    "shopping_info_rental_period_duration": { "other": "{{.Count}} nap a kölcsönzési idő " },
+    "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} nap a kölcsönzési idő " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} óra van a lejátszásra " },
     "shopping_info_watch_window_explanation_film": {
-      "one": "A kölcsönzéstől számítva a film elérhető lesz a fiókodban {{.Count}} napig. ",
-      "other": "A kölcsönzéstől számítva a film elérhető lesz a fiókodban {{.Count}} napig. "
+      "one": "A kölcsönzéstől számítva a film elérhető lesz a fiókodban {{.ValueUnit}} napig. ",
+      "other": "A kölcsönzéstől számítva a film elérhető lesz a fiókodban {{.ValueUnit}} napig. "
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Ha megnyomod a lejátszást, a  lejátszásra biztosított idő megkezdődik és {{.Count}} órád lesz, hogy megnézd a filmet annyiszor, ahányszor akarod.",

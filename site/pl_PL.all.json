@@ -181,10 +181,10 @@
   "shopping_info_available_until_date_explanation_buy": { "other": "Po upływie tego czasu nie będziesz mógł przeglądać treści." },
 
   "shopping_info_rental_period_duration": {
-    "one": "Wypożyczono na {{.Count}} dni ",
-    "few": "Wypożyczono na {{.Count}} dni ",
-    "many": "Wypożyczono na {{.Count}} dni ",
-    "other": "Wypożyczono na {{.Count}} dni "
+    "one": "Wypożyczono na {{.ValueUnit}} dni ",
+    "few": "Wypożyczono na {{.ValueUnit}} dni ",
+    "many": "Wypożyczono na {{.ValueUnit}} dni ",
+    "other": "Wypożyczono na {{.ValueUnit}} dni "
   },
   "shopping_info_watch_window_duration": {
     "one": "{{.Count}} godzinne okno odtwarzania. ",
@@ -194,9 +194,9 @@
   },
   "shopping_info_watch_window_explanation_film": {
     "one": "Wypożyczony film będzie dostępny na Twoim koncie przez jeden dzień. ",
-    "few": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.Count}} dni. ",
-    "many": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.Count}} dni. ",
-    "other": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.Count}} dni. "
+    "few": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.ValueUnit}} dni. ",
+    "many": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.ValueUnit}} dni. ",
+    "other": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.ValueUnit}} dni. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Po naciśnięciu przycisku odtwarzania otworzy się player i będziesz miał godzinę na obejrzenie filmu tyle razy, ile chcesz.",

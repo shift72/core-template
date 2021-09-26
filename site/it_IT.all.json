@@ -197,12 +197,12 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Non potrai vedere il contenuto oltre questa data." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Non potrai vedere il contenuto oltre questa data." },
 
-  "shopping_info_rental_period_duration": { "other": "{{.Count}} giorni " },
+  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} giorni " },
   "shopping_info_rental_period_coming_soon": { "other": "dalla data e ora della pubblicazione." },
   "shopping_info_watch_window_duration": { "other": "Finestra di riproduzione: {{.Count}} ore. " },
   "shopping_info_watch_window_explanation_film": {
     "one": "Una volta noleggiato, il film sarà disponibile nel tuo account per 1 giorno. ",
-    "other": "Una volta noleggiato, il film sarà disponibile nel tuo account per {{.Count}} giorni. "
+    "other": "Una volta noleggiato, il film sarà disponibile nel tuo account per {{.ValueUnit}} giorni. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Once you press play, the watch window begins and you have an hour to watch the film as many times as you like.",

@@ -54,9 +54,11 @@ $cookie-consent-hover-link-color: $secondary;
 // Nav
 // ------------------------------------
 $navbar-background-color: transparent !default;
+$navbar-show-background-color: $body-bg-accent !default;
 $navbar-dark-active-color: $primary !default;
 $navbar-nav-link-padding-x: 1em !default;
 $navbar-nav-link-padding-y: 1em !default;
+$navbar-search-background-color: $body-bg-accent !default;
 
 // Uses navbar-dark theme so we can use variables for colouring
 $navbar-dark-active-color: #fd4766 !default;
@@ -71,14 +73,10 @@ $navbar-brand-min-width-lg: 126px !default;
 $navbar-brand-min-width-xl: 126px !default;
 
 // Sub Navivgation
-$subnav-background-color: #302e30 !default;
-$subnav-nav-item-background-color: #2a2a2a !default;
 $subnav-nav-item-color: $body-color !default;
 $subnav-nav-item-hover-background-color: $primary !default;
 $subnav-nav-item-active-background-color: $primary !default;
-$subnav-nav-item-margin-x: 1rem !default;
-$subnav-nav-item-margin-y: 0.5rem !default;
-$subnav-nav-item-border-radius: 2rem !default;
+$subnav-dropdown-background: $body-bg-accent !default;
 
 // Buttons
 $button-text-color: $body-color !default;
@@ -86,7 +84,6 @@ $button-text-color-hover: $body-color !default;
 $button-background: $primary !default;
 $button-background-hover: $secondary !default;
 $trailer-button-text-color: $body-color !default;
-$dropdown-item-color: $body-color !default;
 $mobile-nav-link-color: $body-color !default;
 
 $signin-text-color: $body-color !default;
@@ -105,8 +102,10 @@ $signup-border-color-hover: transparent !default;
 $signup-background: $button-background !default;
 $signup-background-hover: $button-background-hover !default;
 
-$signout-background: rgba($body-color, 0.1);
-$signout-background-hover: rgba($body-color, 0.2);
+$signout-background: rgba($body-color, 0.1) !default;
+$signout-background-hover: rgba($body-color, 0.2) !default;
+$signout-text-color: $body-color !default;
+$signout-text-color-hover: $body-color !default;
 
 $link-color: $body-color !default;
 
@@ -125,14 +124,17 @@ $carousel-caption-top: 150px !default;
 $carousel-caption-top-md: 175px !default;
 
 // Pages
-$page-padding-top: 100px !default;
-$page-padding-top-md: 125px !default;
-$page-detail-padding-top: 115px !default;
-$page-detail-padding-top-md: 153px !default;
+$page-padding-top: 120px !default;
+$page-padding-top-md: 120px !default;
+$page-padding-top-lg: 180px !default;
+$page-detail-padding-top: 120px !default;
+$page-detail-padding-top-md: 120px !default;
+$page-detail-padding-top-lg: 180px !default;
 
 // Footer
 $footer-brand-min-width: 100px !default;
 $footer-brand-min-width-md: 100px !default;
+$footer-bar-background-color: $body-bg-accent !default;
 
 // Social
 // ------------------------------------
@@ -141,6 +143,7 @@ $instagram-color: $body-color !default;
 $twitter-color: $body-color !default;
 $youtube-color: $body-color !default;
 $linkedin-color: $body-color !default;
+$letterboxd-color: $body-color !default;
 
 // Meta Items
 // ------------------------------------

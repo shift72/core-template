@@ -194,11 +194,11 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "No podrás ver el contenido después de esto." },
   "shopping_info_available_until_date_explanation_buy": { "other": "No podrás ver el contenido después de esto." },
 
-  "shopping_info_rental_period_duration": { "other": "Renta de {{.Count}} día " },
+  "shopping_info_rental_period_duration": { "other": "Renta de {{.ValueUnit}} día " },
   "shopping_info_watch_window_duration": { "other": "Ventana de reproducción de {{.Count}} horas. " },
   "shopping_info_watch_window_explanation_film": {
     "one": "Una vez rentada, tu película estará disponible en tu cuenta durante un día. ",
-    "other": "Una vez rentada, tu película estará disponible en tu cuenta durante {{.Count}} días. "
+    "other": "Una vez rentada, tu película estará disponible en tu cuenta durante {{.ValueUnit}} días. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Una vez que seleccionas reproducir, se inicia la ventana de reproducción y tienes una hora para ver la película las veces que quieras.",
