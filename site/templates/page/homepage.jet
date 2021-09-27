@@ -18,8 +18,10 @@
 {{block body()}}
   <h1 class="sr-only">{{i18n("wcag_homepage_h1")}}</h1>
 
-  <main id="main" class="page page-{{page.PageType|lower}} carousel-len-{{len(page.PageCollections[0])}}">
-    {{yield carousel() page.PageCollections[0]}}
+  <main id="main" class="page page-{{page.PageType|lower}} carousel-len-{{len(page.PageCollections[0].Items)}}">
+    {{if len(page.PageCollections[0].Items) > 0}}
+      {{yield carousel() page.PageCollections[0]}}
+    {{end}}
 
     <div class="other-sliders">
       <h2 class="sr-only">{{i18n("wcag_collections_h2")}}</h2>
