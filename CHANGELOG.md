@@ -1,19 +1,6 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.3.1...HEAD)
-
-## [0.3.1](https://github.com/shift72/core-template/compare/0.3.0-beta.4...0.3.1)
-
-### Added
-- Added Letterboxd social button.
-
-### Changed
-- Targeting Kibble 0.15.19.
-
-### Fixed
-- Signout button text colour now matches body text colour.
-
-## [0.3.0-beta.4](https://github.com/shift72/core-template/compare/0.3.0-beta.3...0.3.0-beta.4)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.3.0-beta.3...HEAD)
 
 ### Added
 - App badges now display automatically when configured in Uber Admin.
@@ -27,7 +14,6 @@
 - Homepage has correct top-padding when carousel is empty.
 - Carousel tagline now uses theme colour.
 - Signin button on VIP sites now has primary button styling.
-- Padding for pages is now consistent.
 
 ## [0.3.0-beta.3](https://github.com/shift72/core-template/compare/0.3.0-beta.2...0.3.0-beta.3) - 2021-09-06
 

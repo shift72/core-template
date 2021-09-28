@@ -510,7 +510,6 @@
   "wcag_aria_label_facebook": { "other": "Share on Facebook" },
   "wcag_aria_label_twitter": { "other": "Share on Twitter" },
   "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
-  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
 
   "app_badge_title": { "other": "Download the app to view your purchased content!" },
   "app_badge_ios": { "other": "Download on the App Store" },

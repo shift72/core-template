@@ -1,7 +1,7 @@
 {{extends "templates/application.jet"}}
 {{import "templates/collection/page_collection.jet"}}
 {{import "templates/items/featured_item.jet"}}
-{{import "templates/carousel/carousel.jet"}}
+{{import "../collection/carousel.jet"}}
 {{import "templates/collection/wishlist.jet"}}
 
 {{block head()}}
@@ -18,10 +18,8 @@
 {{block body()}}
   <h1 class="sr-only">{{i18n("wcag_homepage_h1")}}</h1>
 
-  <main id="main" class="page page-{{page.PageType|lower}} carousel-len-{{len(page.PageCollections[0].Items)}}">
-    {{if len(page.PageCollections[0].Items) > 0}}
-      {{yield carousel() page.PageCollections[0]}}
-    {{end}}
+  <main id="main" class="page page-{{page.PageType|lower}} carousel-len-{{len(page.PageCollections[0])}}">
+    {{yield pageCollectionCarousel() page.PageCollections[0]}}
 
     <div class="other-sliders">
       <h2 class="sr-only">{{i18n("wcag_collections_h2")}}</h2>

@@ -1,5 +1,0 @@
-{{block carouselPage(index, slug)}}
-  <div class="s72-carousel-page" data-page-index="{{index}}" data-slug="{{slug}}">
-    <span class="fa fa-circle"></span>
-  </div>
-{{end}}

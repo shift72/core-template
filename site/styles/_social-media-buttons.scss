@@ -87,17 +87,6 @@
     }
   }
 
-  &.btn-social-letterboxd {
-    background-color: $letterboxd-color;
-    border-color: $letterboxd-color;
-
-    path {
-      fill: $body-bg;
-      stroke: $body-bg;
-      stroke-width: 1;
-    }
-  }
-
   &:hover,
   &:active,
   &:focus {
@@ -143,16 +132,6 @@
 
       .fa {
         color: $youtube-color;
-      }
-    }
-
-    &.btn-social-letterboxd {
-      background-color: $primary;
-      border-color: $primary;
-
-      path {
-        fill: $letterboxd-color;
-        stroke: $letterboxd-color;
       }
     }
   }
