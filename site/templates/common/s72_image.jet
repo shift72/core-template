@@ -1,0 +1,3 @@
+{{block s72Image(src="", alt="", class="", border="")}}
+  <s72-image src="{{src}}" alt="{{alt}}" class="{{class}}" border="{{border}}"></s72-image>
+{{end}}

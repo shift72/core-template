@@ -1,0 +1,21 @@
+{{block metaItemExtras()}}
+  <div class="meta-item-extras">
+    {{ trailer := "" }}
+    {{ if isset(.Trailers) && len(.Trailers) > 0}}
+      {{ trailer = .Trailers[0].URL }}
+    {{ else if(isset(.PromoURL) && len(.PromoURL) > 0) }}
+      {{ trailer = .PromoURL }}
+    {{ end }}
+
+    {{if len(trailer) > 0 }}
+      <div class="s72-btn-trailer btn-trailer" data-url="{{routeToSlug(item.Slug)}}?autoplay">
+        <button class="s72-btn s72-btn-play btn-sm s72-btn-trailer">
+          <span class="s72-btn-play-icon"><s72-play-icon></s72-play-icon></span>
+          <span class="verb s72-btn-play-label">{{i18n("play_trailer")}}</span>
+        </button>
+      </div>
+    {{end}}
+
+    <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
+  </div>
+{{end}}

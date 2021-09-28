@@ -1,0 +1,35 @@
+{*{import "../items/tagline.jet"}*}
+{{import "templates/common/s72_image.jet"}}
+{{import "templates/common/cta_buttons.jet"}}
+{{import "templates/carousel/carousel_item_title.jet"}}
+{{import "templates/common/meta_item_synopsis.jet"}}
+{{import "templates/common/meta_item_extras.jet"}}
+
+{{block carouselItem()}}
+  <div class="s72-carousel-item" data-slug="{{.Slug}}">
+    <a href="{{routeToSlug(.Slug)}}" class="carousel-item-link" aria-label="{{.Title}}">
+      {{if isset(.Images["Carousel"])}}
+        {{yield s72Image(src=.Images.Carousel, alt=.Title, class="carousel-item-image")}}
+      {{end}}
+
+      {{if !isset(.["PageType"]) || .PageType != "external"}}
+        <div class="carousel-item-caption">
+          {{yield carouselItemTitle(title=.GetTitle(i18n))}}
+
+          {{yield metaItemTagline() .InnerItem}}
+
+          {{yield ctaButtons(itemType=.ItemType) .InnerItem}}
+
+          <s72-availability-label data-slug="{{.Slug}}"></s72-availability-label>
+
+          {{yield metaItemSynopsis(synopsis=.InnerItem.Tagline)}}
+
+          {{yield metaItemExtras() .InnerItem}}
+        </div>
+      {{end}}
+
+      <div class="left-gradient"></div>
+      <div class="bottom-gradient"></div>
+    </a>
+  </div>
+{{end}}

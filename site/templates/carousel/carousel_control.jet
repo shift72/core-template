@@ -1,0 +1,7 @@
+{{block carouselControl(direction)}}
+  {*{ direction should be "left" or "right" }*}
+
+  <a class="{{direction}} s72-carousel-control">
+    <span class="fa fa-angle-{{direction}}"></span>
+  </a>
+{{end}}

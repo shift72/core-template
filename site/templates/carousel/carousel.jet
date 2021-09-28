@@ -1,0 +1,26 @@
+{{import "./carousel_item.jet"}}
+{{import "./carousel_control.jet"}}
+{{import "./carousel_pagination.jet"}}
+
+{{block carousel()}}
+	<s72-carousel>
+		<section class="page-collection page-collection-carousel" aria-label="{{i18n("wcag_aria_label_carousel")}}">
+			<h2 class="sr-only">{{i18n("wcag_carousel_h2")}}</h2>
+
+			<div class="s72-carousel-slides">
+				{{range item := .Items}}
+					{{yield carouselItem() item}}
+				{{end}}
+			</div>
+
+			<div class="s72-carousel-pagination">
+				{{range index, item := .Items}}
+					{{yield carouselPage(index=index, slug=item.Slug)}}
+				{{end}}
+			</div>
+
+			{{yield carouselControl(direction="left")}}
+			{{yield carouselControl(direction="right")}}
+		</section>
+	</s72-carousel>
+{{end}}
