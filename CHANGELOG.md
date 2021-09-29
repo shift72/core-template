@@ -3,6 +3,7 @@
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.3.1...HEAD)
 
 ### Fixed
+- Nav vertical line margins now on both sides.
 - Modal trailer margins.
 
 ## [0.3.1](https://github.com/shift72/core-template/compare/0.3.0-beta.4...0.3.1)

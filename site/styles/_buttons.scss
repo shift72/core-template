@@ -29,7 +29,6 @@
   }
   @include media-breakpoint-up(lg) {
     background-color: $signin-background-lg;
-    margin-left: 12px;
     @include hover-focus {
       background: $signin-background-hover-lg;
       color: $signin-text-color-hover;
