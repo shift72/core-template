@@ -75,7 +75,7 @@
 
   {{if displayTitleAndGenreBelowPosters}}
     <div class="caption">
-      <div class="title" title="{{item.Title}}">{{title|raw}}
+      <div class="title" title="{{item.Title}}">{{title|stripHTML}}
         {{if isset(item.InnerItem["ReleaseDate"]) && item.InnerItem.ReleaseDate.Year() > 1}}
           <small>({{item.InnerItem.ReleaseDate.Year()}})</small>
         {{end}}
