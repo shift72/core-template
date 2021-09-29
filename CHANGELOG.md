@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.3.1...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.3.2...HEAD)
+
+## [0.3.2](https://github.com/shift72/core-template/compare/0.3.1...0.3.2)
 
 ### Fixed
 - Nav vertical line margins now on both sides.
