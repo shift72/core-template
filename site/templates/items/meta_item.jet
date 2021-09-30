@@ -71,7 +71,7 @@
 
   {{if displayTitleAndGenreBelowPosters}}
     <div class="caption">
-      <div class="title" title="{{item.Title}}">{{title|raw}}</div>
+      <div class="title" title="{{item.Title}}">{{title|stripHTML}}</div>
       {{yield metaItemTagline(genres=true, genresLimit=genresLimit, classification=false) item.InnerItem}}
     </div>
   {{end}}
