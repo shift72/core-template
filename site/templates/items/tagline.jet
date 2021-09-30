@@ -9,7 +9,7 @@
       {{end}}
     {{end}}
 
-    {*{ FIGURE OUT HOW MANY DIVIDERS }*}
+    {*{ Figure out how many dividers. }*}
     {{dividers := 0}}
     {{if genres && len(itemGenres) > 0}}
       {{dividers = dividers + 1}}
@@ -26,7 +26,7 @@
     {{if isset(.ReleaseDate) && .ReleaseDate.Year() > 1}}
       {{dividers = dividers + 1}}
     {{end}}
-    {*{ THERE SHOULD BE ONE LESS DIVIDERS THAN TAGLINE ITEMS }*}
+    {*{ There should be one less dividers than tagline items. }*}
     {{dividers = dividers - 1}}
     
     {{if classification}}
