@@ -11,6 +11,13 @@
 ### Fixed
 - html tags were not being escaped in some places
 
+### Changed
+- Moved year from film/tv titles into tagline.
+- Redesigned meta item tagline jet for easier development.
+
+### Fixed
+- Homepage has correct top-padding when carousel is empty.
+
 ## [0.3.1](https://github.com/shift72/core-template/compare/0.3.0-beta.4...0.3.1)
 
 ### Added
