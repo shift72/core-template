@@ -6,6 +6,7 @@
   "defaultLanguage": "en",
   "languages": {
     "ar": { "code": "ar_LB", "name": "عربى" },
+    "ca": { "code": "ca_ES", "name": "Català" },
     "da": { "code": "da_DK", "name": "Dansk" },
     "de": { "code": "de_DE", "name": "Deutsch" },
     "ee": { "code": "ee_EE", "name": "Eestlane" },
