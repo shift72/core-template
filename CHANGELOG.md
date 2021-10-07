@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.3.2...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.3.3...HEAD)
+
+## [0.3.3](https://github.com/shift72/core-template/compare/0.3.2...0.3.3)
 
 ### Added
 - Added Catalan (`ca_ES`) translations file. 
