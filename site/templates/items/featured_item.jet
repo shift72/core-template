@@ -15,11 +15,7 @@
       <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist" data-layout="quick-button"></s72-userwishlist-button>
 
       <div class="meta-item-body featured-meta-item-body">
-        <div class="meta-item-title">{{item.Title}}
-          {{if isset(item.InnerItem["ReleaseDate"]) && item.InnerItem.ReleaseDate.Year() > 1}}
-            <small>({{item.InnerItem.ReleaseDate.Year()}})</small>
-          {{end}}
-        </div>
+        <div class="meta-item-title">{{item.Title}}</div>
 
         <div class="meta-item-text">
           {{yield metaItemTagline() item.InnerItem}}
