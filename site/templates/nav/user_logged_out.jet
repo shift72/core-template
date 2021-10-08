@@ -1,6 +1,9 @@
 {{block nav_user_logged_out()}}
   <s72-user-anon class="user-anon">
-    <div class="vertical-line"></div>
+    {{if config("search_disabled") != "true" || isEnabled("language_selector")}}
+      <div class="vertical-line"></div>
+    {{end}}
+
     {{if config("disable_user_signups") == "true"}}
       <a href="{{ routeToPath("/signin.html") }}" class="btn btn-signin-primary">{{i18n("nav_signin")}}</a>
     {{else}}
