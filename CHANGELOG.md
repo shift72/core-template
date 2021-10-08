@@ -1,6 +1,16 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.3.2...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.3.4...HEAD)
+
+## [0.3.4](https://github.com/shift72/core-template/compare/0.3.3...0.3.4)
+
+### Changed
+- Swapped Letterboxd social share icon for a different one.
+
+## [0.3.3](https://github.com/shift72/core-template/compare/0.3.2...0.3.3)
+
+### Added
+- Added Catalan (`ca_ES`) translations file. 
 
 ## [0.3.2](https://github.com/shift72/core-template/compare/0.3.1...0.3.2)
 
