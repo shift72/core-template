@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.3.3...HEAD)
 
+### Changed
+- Swapped Letterboxd social share icon for a different one.
+
 ## [0.3.3](https://github.com/shift72/core-template/compare/0.3.2...0.3.3)
 
 ### Added
