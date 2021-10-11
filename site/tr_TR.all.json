@@ -74,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "Paylaş" },
   
-    "accept_invite_page_header": { "other": "...'e hoşgeldiniz  " },
+    "accept_invite_page_header": { "other": "Hoşgeldiniz" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Görünüşe göre bu davet talebini zaten yapmışsınız, onun yerine <a href=\"{{.SigninURL}}\">sign in</a> denemelisiniz. Parolanızı unuttuysanız, parolanızı ayrıca <a href=\"{{.ForgotPasswordURL}}\"> sıfırlayabilirsiniz." },
     "acceptinvite_complete": { "other": "Teşekkürler. Hesabınız oluşturuldu." },
     "acceptinvite_form_submit": { "other": "Daveti Kabul Et." },

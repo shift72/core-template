@@ -74,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "Jaga" },
   
-    "accept_invite_page_header": { "other": "Tere tulemast " },
+    "accept_invite_page_header": { "other": "Tere tulemast" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Näib, et sa oled kutse juba vastu võtnud. Sa peaksid hoopis <a href=\"{{.SigninURL}}\">sisse logima</a>. Kui oled salasõna unustanud, saad selle <a href=\"{{.ForgotPasswordURL}}\">uuendada</a>." },
     "acceptinvite_complete": { "other": "Aitäh! Sinu konto on loodud." },
     "acceptinvite_form_submit": { "other": "Võta kutse vastu." },

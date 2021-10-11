@@ -49,7 +49,7 @@
 
 	"social_media_buttons_title": { "other": "Podijeli" },
 
-	"accept_invite_page_header": { "other": "Dobrodošli na" },
+	"accept_invite_page_header": { "other": "Dobrodošli" },
 	"acceptinvite_form_invalid_reset_password_token": { "other": "Ovaj pozivni kod je već iskorišten i potrebna je ponovna <a href=\"{{.SigninURL}}\">prijava</a>. Ako ste zaboravili lozinku, možete je <a href=\"{{.ForgotPasswordURL}}\">resetirati</a>." },
 	"acceptinvite_complete": { "other": "Hvala vam. Izradili ste korisnički račun." },
 	"acceptinvite_form_submit": { "other": "Prihvati pozivnicu" },

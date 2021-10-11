@@ -74,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "Megosztás" },
   
-    "accept_invite_page_header": { "other": "Üdvözlünk " },
+    "accept_invite_page_header": { "other": "Üdvözöljük" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Úgy tűnik, már felhasználtad a meghívódat, próbálj meg <a href=\"{{.SigninURL}}\">bejelentkezni</a>. Ha elfelejtetted a jelszavadat, <a href=\"{{.ForgotPasswordURL}}\">állíts be újat</a>." },
     "acceptinvite_complete": { "other": "Köszönjük. A fiókodat létrehoztuk." },
     "acceptinvite_form_submit": { "other": "Meghívó elfogadása" },

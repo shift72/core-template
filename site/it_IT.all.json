@@ -74,7 +74,7 @@
 
   "social_media_buttons_title": { "other": "Condividi" },
 
-  "accept_invite_page_header": { "other": "Benvenuto a " },
+  "accept_invite_page_header": { "other": "Accoglienza" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Questo Invito è già stato usato." },
   "acceptinvite_complete": { "other": "Grazie. Il tuo account è stato creato." },
   "acceptinvite_form_submit": { "other": "Accetta l'Invito" },

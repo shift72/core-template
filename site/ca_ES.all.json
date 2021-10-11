@@ -140,7 +140,7 @@
    "other": "Compartir"
   },
   "accept_invite_page_header": {
-   "other": "Benvingut a "
+   "other": "Benvingut"
   },
   "acceptinvite_form_invalid_reset_password_token": {
    "other": "Sembla que ja heu reclamat aquesta invitació, haureu de fer <a href=\"{{.SigninURL}}\">inicia la sessió</a> en canvi. Si heu oblidat la vostra contrasenya, també podeu <a href=\"{{.ForgotPasswordURL}}\">restablir la contrasenya</a>."

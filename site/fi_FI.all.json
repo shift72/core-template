@@ -52,7 +52,7 @@
 
   "social_media_buttons_title": { "other": "Jaa" },
 
-  "accept_invite_page_header": { "other": "Tervetuloa " },
+  "accept_invite_page_header": { "other": "Tervetuloa" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Vaikuttaa siltä, että olet jo käyttänyt tämän kutsun. Kokeile <a href=\"signin.html\">kirjautua sisään</a> palveluun. Jos olet unohtanut salasanasi, voit <a href=\"forgotpassword.html\">tilata uuden salasanan</a>." },
   "acceptinvite_complete": { "other": "Kiitos. Tilisi on luotu." },
   "acceptinvite_form_submit": { "other": "Hyväksy kutsu" },

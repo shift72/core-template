@@ -74,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "Del" },
   
-    "accept_invite_page_header": { "other": "Velkommen til " },
+    "accept_invite_page_header": { "other": "Velkommen" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Det ser ut til at du allerede har godtatt denne invitasjonen, forsøk i stedet å <a href=\"{{.SigninURL}}\">logge inn</a>. Hvis du har glemt passordet kan du også <a href=\"{{.ForgotPasswordURL}}\">tilbakestille passordet</a>." },
     "acceptinvite_complete": { "other": "Takk! Din konto er opprettet." },
     "acceptinvite_form_submit": { "other": "Godta invitasjon" },

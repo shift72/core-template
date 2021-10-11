@@ -127,7 +127,7 @@
    "other": "Поділитися"
   },
   "accept_invite_page_header": {
-   "other": "Ласкаво просимо до"
+   "other": "Ласкаво просимо"
   },
   "acceptinvite_form_invalid_reset_password_token": {
    "other": "Здається, ви вже використали це запрошення. Спробуйте <a href=\"signin.html\">увійти</a>. Якщо ви забули свій пароль, ви можете <a href=\"forgotpassword.html\">скинути свій пароль</a>."

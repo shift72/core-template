@@ -140,7 +140,7 @@
    "other": "分享"
   },
   "accept_invite_page_header": {
-   "other": "歡迎來到"
+   "other": "歡迎"
   },
   "acceptinvite_form_invalid_reset_password_token": {
    "other": "您已接受過此邀請，請從 <a href=\"{{.SigninURL}}\">登入</a> 。若忘記密碼，請至 <a href=\"{{.ForgotPasswordURL}}\">重設密碼</a>。"
