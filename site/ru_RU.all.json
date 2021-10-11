@@ -75,7 +75,7 @@
 
   "social_media_buttons_title": { "other": "Поделиться" },
 
-  "accept_invite_page_header": { "other": "Добро пожаловать в " },
+  "accept_invite_page_header": { "other": "Добро пожаловать" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Вы уже подтвердили регистрацию, вам надо <a href=\"{{.SigninURL}}\">войти</a> . Если вы забыли свой пароль, вы можете <a href=\"{{.ForgotPasswordURL}}\">сбросить пароль</a>." },
   "acceptinvite_complete": { "other": "Спасибо. Ваш аккаунт был создан." },
   "acceptinvite_form_submit": { "other": "Принять приглашение" },

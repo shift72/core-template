@@ -51,7 +51,7 @@
 
   "social_media_buttons_title": { "other": "Udostępnij" },
 
-  "accept_invite_page_header": { "other": "Witamy " },
+  "accept_invite_page_header": { "other": "Witamy" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Wygląda na to, że już odebrałeś to zaproszenie. Kliknij zatem <a href=\"{{.SigninURL}}\"> zaloguj się </a>. Jeśli zapomniałeś hasła, możesz je odzyskać <a href=\"{{.ForgotPasswordURL}}\"> resetując hasło </a>." },
   "acceptinvite_complete": { "other": "Dziękujemy. Twoje konto zostało utworzone." },
   "acceptinvite_form_submit": { "other": "Zaakceptuj zaproszenie." },

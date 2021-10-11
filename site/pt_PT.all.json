@@ -74,7 +74,7 @@
 
     "social_media_buttons_title": { "other": "Compartilhar" },
 
-    "accept_invite_page_header": { "other": "Bem-vindo(a) a" },
+    "accept_invite_page_header": { "other": "Acolher" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Parece que você já aceitou esse convite, você deve <a href=\"{{.SigninURL}}\">entrar em sua conta</a>. Se você esqueceu sua senha, você também pode <a href=\"{{.ForgotPasswordURL}}\">alterar sua senha</a>." },
     "acceptinvite_complete": { "other": "Obrigado! Sua conta foi criada." },
     "acceptinvite_form_submit": { "other": "Aceitar Convite" },

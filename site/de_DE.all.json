@@ -68,7 +68,7 @@
 
   "social_media_buttons_title": { "other": "Teilen" },
 
-  "accept_invite_page_header": { "other": "Willkommen bei " },
+  "accept_invite_page_header": { "other": "Willkommen" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Sie haben diese Einladung bereits angenommen. <a href=\"{{.SigninURL}}\">Loggen Sie sich hier ein</a>. Falls Sie Ihr Passwort vergessen haben, können Sie es <a href=\"{{.ForgotPasswordURL}}\">hier zurücksetzen</a>." },
   "acceptinvite_complete": { "other": "Vielen Dank. Ihr Konto wurde erstellt." },
   "acceptinvite_form_submit": { "other": "Einladung annehmen" },

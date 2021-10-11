@@ -74,7 +74,7 @@
 
   "social_media_buttons_title": { "other": "Dalintis" },
 
-  "accept_invite_page_header": { "other": "Sveiki atvykę į " },
+  "accept_invite_page_header": { "other": "Sveiki" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Panašu, kad jau patvirtinote šį kvietimą, prašome <a href=\"{{.SigninURL}}\">prisijungti</a>. Pamiršus slaptažodį, galite <a href=\"{{.ForgotPasswordURL}}\">susikurti naują</a>." },
   "acceptinvite_complete": { "other": "Ačiū, jūsų paskyra sukurta." },
   "acceptinvite_form_submit": { "other": "Priimti kvietimą" },

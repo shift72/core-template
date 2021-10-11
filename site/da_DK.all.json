@@ -125,7 +125,7 @@
     "other": "Del"
   },
   "accept_invite_page_header": {
-    "other": "Velkommen til "
+    "other": "Velkommen"
   },
   "acceptinvite_form_invalid_reset_password_token": {
     "other": "Det ser ud som om du allerede har accepteret denne invitation, du skal derfor <a href=\"signin.html\">logge ind</a> i stedet Hvis du har glemt dit kodeord, kan du også <a href=\"forgotpassword.html\">nulstille dit kodeord</a>."

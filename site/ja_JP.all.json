@@ -51,7 +51,7 @@
 
   "social_media_buttons_title": { "other": "共有" },
 
-  "accept_invite_page_header": { "other": "ようこそ " },
+  "accept_invite_page_header": { "other": "ようこそ" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "すでに招待リクエスト済みですので、サインインしてください。" },
   "acceptinvite_complete": { "other": "ありがとうございます。アカウント登録は完了しました。" },
   "acceptinvite_form_submit": { "other": "招待を受け取る" },

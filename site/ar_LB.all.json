@@ -74,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "النشر " },
   
-    "accept_invite_page_header": { "other": "أهلاً بك على" },
+    "accept_invite_page_header": { "other": "أهلا بك" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "يبدو أنك طالبت بهذه الدعوة من قبل ، يجب عليك <a href=\"{{.SigninURL}}\"> تسجيل الدخول </a> بدلاً من ذلك. إذا نسيت كلمة المرور ، فيمكنك أيضًا <a href=\"{{.ForgotPasswordURL}}\"> إعادة تعيين كلمة المرور </a>." },
     "acceptinvite_complete": { "other": "شكراً لك. لقد تم إنشاء حسابك." },
     "acceptinvite_form_submit": { "other": "قبول الدعوة" },

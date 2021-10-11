@@ -74,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "Поделите" },
   
-    "accept_invite_page_header": { "other": "Добродошли на " },
+    "accept_invite_page_header": { "other": "Добродошли" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Изгледа да сте већ активирали овај позив. Потребно је да се <a href=\"{{.SigninURL}}\">пријавите</a>. Ако сте заборавили лозинку, можете и да <a href=\"{{.ForgotPasswordURL}}\">ресетујете лозинку</a>." },
     "acceptinvite_complete": { "other": "Хвала Вам. Ваш налог је направљен." },
     "acceptinvite_form_submit": { "other": "Прихватите позив." },

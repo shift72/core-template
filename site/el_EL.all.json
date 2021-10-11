@@ -74,7 +74,7 @@
 
   "social_media_buttons_title": { "other": "Μοιράσου το" },
 
-  "accept_invite_page_header": { "other": "Καλώς ήρθατε στο " },
+  "accept_invite_page_header": { "other": "Καλώς ορίσατε" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Φαίνεται πως έχετε ήδη αποδεχθεί αυτή την πρόσκληση, πρέπει να <a href=\"{{.SigninURL}}\">εισέλθετε</a> στο λογαριασμό σας." },
   "acceptinvite_complete": { "other": "Ευχαριστούμε πολύ. Ο λογαριασμός σας έχει δημιουργηθεί." },
   "acceptinvite_form_submit": { "other": "Αποδοχή πρόσκλησης" },
