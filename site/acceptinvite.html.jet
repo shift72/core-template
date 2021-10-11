@@ -8,11 +8,11 @@
   <main id="main" class="page form-page">
 
     <div class="page-header">
-      <h1>{{ i18n("accept_invite_page_header") }}{{ i18n("site_owner") }}</h1>
+      <h1>{{i18n("accept_invite_page_header")}}</h1>
     </div>
 
     <div class="page-form">
-      <s72-acceptinvite-form acceptinvite-url="{{ routeToPath("/acceptinvite.html") }}" />
+      <s72-acceptinvite-form acceptinvite-url="{{routeToPath("/acceptinvite.html")}}" />
     </div>
   
   </main>
