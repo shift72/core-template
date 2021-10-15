@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.3.5...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.3.6...HEAD)
+
+## [0.3.6](https://github.com/shift72/core-template/compare/0.3.5...0.3.6)
 
 ### Fixed
 - Purchase modal duration values fixed for every language.
