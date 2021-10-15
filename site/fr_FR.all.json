@@ -206,6 +206,8 @@
 
   "shopping_info_rental_period_coming_soon": { "other": "Bientôt disponible" },
 
+  "duration_hour": { "one": "1 heure", "other": "{{.Count}} heures" },
+  "duration_day": { "one": "1 jour", "other": "{{.Count}} jours" },
   "shopping_info_rental_period_duration": { "other": "Location pour {{.ValueUnit}} jours " },
   "shopping_info_watch_window_duration": { "other": "Fenêtre de lecture est de {{.Count}} heures. " },
   "shopping_info_watch_window_explanation_film": {

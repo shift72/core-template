@@ -500,6 +500,8 @@
   "shopping_info_available_until_date_explanation_buy": {
    "other": "影片下線後將無法觀看。"
   },
+  "duration_hour": { "one": "1小時", "other": "{{.Count}}個小時" },
+  "duration_day": { "one": "1天", "other": "{{.Count}}天" },
   "shopping_info_rental_period_duration": {
    "other": "租借天數 {{.ValueUnit}} 天"
   },

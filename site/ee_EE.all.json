@@ -197,6 +197,8 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Pärast antud kuupäeva ei saa filmi enam vaadata." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Pärast antud kuupäeva ei saa filmi enam vaadata." },
   
+    "duration_hour": { "one": "1 tund", "other": "{{.Count}} tundi" },
+    "duration_day": { "one": "1 päev", "other": "{{.Count}} päeva" },
     "shopping_info_rental_period_duration": { "other": "Pilet kehtib {{.ValueUnit}} päeva " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} tunnine vaatamise periood. " },
     "shopping_info_watch_window_explanation_film": {

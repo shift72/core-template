@@ -194,6 +194,8 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Δεν θα μπορείτε να παρακολουθήσετε το περιεχόμενο μετά από τότε. " },
   "shopping_info_available_until_date_explanation_buy": { "other": "Δεν θα μπορείτε να παρακολουθήσετε το περιεχόμενο μετά από τότε. " },
 
+  "duration_hour": { "one": "1 ώρα", "other": "{{.Count}} ώρες" },
+  "duration_day": { "one": "1 μέρα", "other": "{{.Count}} μέρες" },
   "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} μέρες ενοικίασης. " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} ώρες μέχρι να ολοκληρωθεί η προβολή. " },
   "shopping_info_watch_window_explanation_film": {

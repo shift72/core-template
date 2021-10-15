@@ -189,6 +189,8 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Danach können Sie den Film nicht mehr ansehen." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Danach können Sie den Film nicht mehr ansehen." },
 
+  "duration_hour": { "one": "1 Stunde", "other": "{{.Count}} Stunden" },
+  "duration_day": { "one": "1 Tag", "other": "{{.Count}} Tage" },
   "shopping_info_rental_period_duration": { "other": "Verfügbar für {{.ValueUnit}} Tage " },
   "shopping_info_watch_window_duration": { "other": "Abspielbar für {{.Count}} Stunden. " },
   "shopping_info_watch_window_explanation_film": {

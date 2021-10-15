@@ -501,12 +501,12 @@
    "other": "No podreu veure el contingut després d'això."
   },
   "duration_hour": {
-   "one": "1 hour",
-   "other": "{{.Count}} hours"
+   "one": "1 hora",
+   "other": "{{.Count}} hores"
   },
   "duration_day": {
-   "one": "1 day",
-   "other": "{{.Count}} days"
+   "one": "1 dia",
+   "other": "{{.Count}} dies"
   },
   "shopping_info_rental_period_duration": {
    "other": "{{.Count}} Dia de lloguer "

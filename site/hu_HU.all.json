@@ -197,6 +197,8 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Ezután a dátum után nem lesz elérhető a tartalom." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Ezután a dátum után nem lesz elérhető a tartalom." },
   
+    "duration_hour": { "one": "1 óra", "other": "{{.Count}} óra" },
+    "duration_day": { "one": "1 nap", "other": "{{.Count}} nap" },
     "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} nap a kölcsönzési idő " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} óra van a lejátszásra " },
     "shopping_info_watch_window_explanation_film": {

@@ -194,6 +194,8 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Usted no podrá ver el contenido después de esto." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Usted no podrá ver el contenido después de esto." },
 
+  "duration_hour": { "one": "1 hora", "other": "{{.Count}} horas" },
+  "duration_day": { "one": "1 día", "other": "{{.Count}} dias" },
   "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} día(s) de alquiler " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} hora(s) de ventana de visualización. " },
   "shopping_info_watch_window_explanation_film": {

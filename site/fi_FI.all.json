@@ -169,6 +169,8 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Sen jälkeen sisältöä ei voi enää katsoa." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Sen jälkeen sisältöä ei voi enää katsoa." },
 
+  "duration_hour": { "one": "1 tunti", "other": "{{.Count}} tuntia" },
+  "duration_day": { "one": "1 päivä", "other": "{{.Count}} päivää" },
   "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} päivän vuokra " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} tunnin katseluoikeus. " },
   "shopping_info_watch_window_explanation_film": {

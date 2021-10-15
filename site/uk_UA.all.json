@@ -489,7 +489,9 @@
   },
   "shopping_info_available_until_date_explanation_buy": {
    "other": "Ви не зможете переглянути контент після цього."
-  },
+  },  
+  "duration_hour": { "one": "1 година", "other": "{{.Count}} години" },
+  "duration_day": { "one": "1 день", "other": "{{.Count}} дні" },
   "shopping_info_rental_period_duration": {
    "few": "{{.ValueUnit}} день прокату",
    "many": "{{.ValueUnit}} день прокату"
