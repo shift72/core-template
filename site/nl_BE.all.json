@@ -210,6 +210,8 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "U zult de inhoud hierna niet meer kunnen bekijken." },
   "shopping_info_available_until_date_explanation_buy": { "other": "U zult de inhoud hierna niet meer kunnen bekijken." },
 
+  "duration_hour": { "one": "1 uur", "other": "{{.Count}} uur" },
+  "duration_day": { "one": "1 dag", "other": "{{.Count}} dagen" },
   "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} dagen bekijken " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} uur (her)bekijken. " },
   "shopping_info_watch_window_explanation_film": {

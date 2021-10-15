@@ -197,6 +197,8 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Du vil ikke kunne se innholdet etter dette." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Du vil ikke kunne se innholdet etter dette." },
   
+    "duration_hour": { "one": "1 time", "other": "{{.Count}} timer" },
+    "duration_day": { "one": "1 dag", "other": "{{.Count}} dager" },
     "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}}dagers leie " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} timers avspillingsvindu. " },
     "shopping_info_watch_window_explanation_film": {

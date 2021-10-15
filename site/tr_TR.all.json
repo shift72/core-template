@@ -197,6 +197,8 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Bundan sonra içeriği görüntüleyemeceksiniz." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Bundan sonra içeriği görüntüleyemeceksiniz." },
 
+    "duration_hour": { "one": "1 saat", "other": "{{.Count}} saat" },
+    "duration_day": { "one": "1 gün", "other": "{{.Count}} gün" },
     "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} kiralanan gün sayısı " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} saat playback oynatma penceresi " },
     "shopping_info_watch_window_explanation_film": {

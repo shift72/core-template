@@ -485,6 +485,8 @@
   "shopping_info_available_until_date_explanation_buy": {
     "other": "Du vil ikke kunne se indholdet efter dette."
   },
+  "duration_hour": { "one": "1 time", "other": "{{.Count}} timer" },
+  "duration_day": { "one": "1 dag", "other": "{{.Count}} dage" },
   "shopping_info_rental_period_duration": {
     "other": "{{.ValueUnit}} dages leje "
   },

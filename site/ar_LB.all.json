@@ -215,6 +215,8 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "لن تتمكن من عرض المحتوى بعد ذلك." },
     "shopping_info_available_until_date_explanation_buy": { "other": "لن تتمكن من عرض المحتوى بعد ذلك." },
   
+    "duration_hour": { "one": "1 ساعة", "other": "{{.Count}} ساعة" },
+    "duration_day": { "one": "1 يوم", "other": "{{.Count}} يوما" },
     "shopping_info_rental_period_duration": { "other": "تأجير لمدة {{.ValueUnit}} أيام" },
     "shopping_info_watch_window_duration": { "other": "تشغيل لمدة {{.Count}} ساعة." },
     "shopping_info_watch_window_explanation_film": {

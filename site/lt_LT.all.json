@@ -210,6 +210,8 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Po šios datos peržiūra bus nebegalima." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Po šios datos peržiūra bus nebegalima." },
 
+  "duration_hour": { "one": "1 valandą", "other": "{{.Count}} valandos" },
+  "duration_day": { "one": "1 diena", "other": "{{.Count}} dienos" },
   "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} dienų nuoma " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} val. peržiūros laikas. " },
   "shopping_info_watch_window_explanation_film": {

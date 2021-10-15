@@ -204,7 +204,9 @@
   "shopping_info_available_until_date_title": { "other": "Доступно до {{.Date}}. " },
   "shopping_info_available_until_date_explanation_rent": { "other": "Вы не сможете просматривать содержимое после этого." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Вы не сможете просматривать содержимое после этого." },
-
+  
+  "duration_hour": { "one": "1 час", "other": "{{.Count}} часа" },
+  "duration_day": { "one": "1 день", "other": "{{.Count}} дня" },
   "shopping_info_rental_period_duration": {
     "few": "{{.ValueUnit}} день аренды",
     "many": "{{.ValueUnit}} день аренды"

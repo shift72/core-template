@@ -5,6 +5,7 @@
 ### Fixed
 - Nav vertical line is now hidden when search and language selector are both disabled.
 - Decoupled footer and accept invite header language variables.
+- Added missing rental duration language variables.
 
 ## [0.3.4](https://github.com/shift72/core-template/compare/0.3.3...0.3.4)
 

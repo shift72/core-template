@@ -180,8 +180,10 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Po upływie tego czasu nie będziesz mógł przeglądać treści." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Po upływie tego czasu nie będziesz mógł przeglądać treści." },
 
+  "duration_hour": { "one": "1 godzina", "other": "{{.Count}} godziny" },
+  "duration_day": { "one": "1 dzień", "other": "{{.Count}} dni" },
   "shopping_info_rental_period_duration": {
-    "one": "Wypożyczono na {{.ValueUnit}} dni ",
+    "one": "Wypożyczono na {{.ValueUnit}} dzień ",
     "few": "Wypożyczono na {{.ValueUnit}} dni ",
     "many": "Wypożyczono na {{.ValueUnit}} dni ",
     "other": "Wypożyczono na {{.ValueUnit}} dni "
