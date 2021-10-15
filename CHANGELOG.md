@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.3.4...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.3.5...HEAD)
+
+## [0.3.5](https://github.com/shift72/core-template/compare/0.3.4...0.3.5)
 
 ### Fixed
 - Nav vertical line is now hidden when search and language selector are both disabled.
