@@ -170,12 +170,12 @@
   "shopping_info_available_until_date_explanation_buy": { "other": "この日時以降の視聴はできません。" },
 
   "duration_hour": { "one": "1時間", "other": "{{.Count}}時間" },
-  "duration_day": { "one": "1日", "other": "{{.Count}}日" },
-  "shopping_info_rental_period_duration": { "other": "レンタル期間 {{.ValueUnit}}日間" },
+  "duration_day": { "one": "1日", "other": "{{.Count}}日間" },
+  "shopping_info_rental_period_duration": { "other": "レンタル期間 {{.ValueUnit}}" },
   "shopping_info_watch_window_duration": { "other": "再生開始後{{.Count}} 時間視聴できます。" },
   "shopping_info_watch_window_explanation_film": {
-    "one": "お申し込み完了後、本日中に視聴を開始してください。",
-    "other": "お申し込み完了後、{{.ValueUnit}}日間以内に視聴を開始してください。"
+    "one": "お申し込み完了後、{{.ValueUnit}}以内に視聴を開始してください。",
+    "other": "お申し込み完了後、{{.ValueUnit}}以内に視聴を開始してください。"
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "再生開始後、1時間以内に限り、何度でも視聴いただけます。",

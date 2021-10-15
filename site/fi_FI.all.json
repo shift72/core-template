@@ -171,11 +171,11 @@
 
   "duration_hour": { "one": "1 tunti", "other": "{{.Count}} tuntia" },
   "duration_day": { "one": "1 päivä", "other": "{{.Count}} päivää" },
-  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} päivän vuokra " },
+  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} vuokra " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} tunnin katseluoikeus. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Vuokraamasi elokuva on katsottavissa tililläsi yhden päivän ajan. ",
-    "other": "Vuokraamasi elokuva on katsottavissa tililläsi {{.ValueUnit}} päivän ajan. "
+    "one": "Vuokraamasi elokuva on katsottavissa tililläsi {{.ValueUnit}} ajan. ",
+    "other": "Vuokraamasi elokuva on katsottavissa tililläsi {{.ValueUnit}} ajan. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Katselun aloitettuasi sinulla on tunti aikaa katsoa elokuva niin monta kertaa kuin haluat.",

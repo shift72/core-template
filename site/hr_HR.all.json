@@ -183,20 +183,23 @@
 	"shopping_info_release_date_explanation_rent": { "other": "Sadržaj možete posuditi sada, ali ga nećete moći gledati do zadanog datuma." },
 	"shopping_info_release_date_explanation_buy": { "other": "Sadržaj možete kupiti sada, ali ga nećete moći gledati do zadanog datuma." },
 
-	"shopping_info_available_until_date_title": { "other": "Dostupno do {{.Date}}." },
+	"shopping_info_available_until_date_title": { "other": "Dostupno do {{.Date}}. " },
 	"shopping_info_available_until_date_explanation_rent": { "other": "Nakon ovoga više ne možete gledati sadržaj." },
 	"shopping_info_available_until_date_explanation_buy": { "other": "Nakon ovoga više ne možete gledati sadržaj." },
 
 	"duration_hour": { "one": "1 sat", "other": "{{.Count}} sata" },
   "duration_day": { "one": "1 dan", "other": "{{.Count}} dana" },
-	"shopping_info_rental_period_duration": { "other": "{{.Count}} dana posudbe" },
-	"shopping_info_watch_window_duration": { "other": "{{.Count}} sati zaslona za reprodukciju." },
+	"shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} posudbe " },
+	"shopping_info_watch_window_duration": { "other": "{{.Count}} sati zaslona za reprodukciju. " },
 
-	"shopping_info_watch_window_explanation_film": { "other": "Nakon posudbe, film će biti dostupan na vašem korisničkom računu {{.Count}} dana." },
+	"shopping_info_watch_window_explanation_film": {
+		"one": "Nakon posudbe, film će biti dostupan na vašem korisničkom računu {{.ValueUnit}}. ",
+		"other": "Nakon posudbe, film će biti dostupan na vašem korisničkom računu {{.ValueUnit}}. "
+	},
 	"shopping_info_watch_window_explanation2_film": { "other": "Nakon pokretanja sadržaja, otvara se prozor prikazivanja i imate na raspolaganju {{.Count}} sati za gledanje filma, koliko puta želite. " },
-	"shopping_info_watch_window_explanation_bundle": { "other": "Nakon posudbe, sadržaji iz paketa će biti dostupni na vašem korisničkom računu {{.Count}} dana." },
+	"shopping_info_watch_window_explanation_bundle": { "other": "Nakon posudbe, sadržaji iz paketa će biti dostupni na vašem korisničkom računu {{.Count}} dana. " },
 	"shopping_info_watch_window_explanation2_bundle": { "other": "Nakon pokretanja određenog filma, otvara se prozor prikazivanja i imate na raspolaganju {{.Count}} sati za gledanje filma, koliko puta želite." },
-	"shopping_info_watch_window_explanation_season": { "other": "Nakon posudbe, sezona će biti dostupna na vašem korisničkom računu {{.Count}} dana." },
+	"shopping_info_watch_window_explanation_season": { "other": "Nakon posudbe, sezona će biti dostupna na vašem korisničkom računu {{.Count}} dana. " },
 	"shopping_info_watch_window_explanation2_season": { "other": "Nakon pokretanja epizode, otvara se prozor prikazivanja i imate na raspolaganju {{.Count}} sati za gledanje epizode, koliko puta želite." },
 	
 	"shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },

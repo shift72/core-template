@@ -196,11 +196,11 @@
 
   "duration_hour": { "one": "1 hora", "other": "{{.Count}} horas" },
   "duration_day": { "one": "1 día", "other": "{{.Count}} dias" },
-  "shopping_info_rental_period_duration": { "other": "Renta de {{.ValueUnit}} día " },
+  "shopping_info_rental_period_duration": { "other": "Renta de {{.ValueUnit}} " },
   "shopping_info_watch_window_duration": { "other": "Ventana de reproducción de {{.Count}} horas. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Una vez rentada, tu película estará disponible en tu cuenta durante un día. ",
-    "other": "Una vez rentada, tu película estará disponible en tu cuenta durante {{.ValueUnit}} días. "
+    "one": "Una vez rentada, tu película estará disponible en tu cuenta durante {{.ValueUnit}}. ",
+    "other": "Una vez rentada, tu película estará disponible en tu cuenta durante {{.ValueUnit}}. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Una vez que seleccionas reproducir, se inicia la ventana de reproducción y tienes una hora para ver la película las veces que quieras.",

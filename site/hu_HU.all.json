@@ -199,11 +199,11 @@
   
     "duration_hour": { "one": "1 óra", "other": "{{.Count}} óra" },
     "duration_day": { "one": "1 nap", "other": "{{.Count}} nap" },
-    "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} nap a kölcsönzési idő " },
-    "shopping_info_watch_window_duration": { "other": "{{.Count}} óra van a lejátszásra " },
+    "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} a kölcsönzési idő " },
+    "shopping_info_watch_window_duration": { "other": "{{.Count}} óra van a lejátszásra. " },
     "shopping_info_watch_window_explanation_film": {
-      "one": "A kölcsönzéstől számítva a film elérhető lesz a fiókodban {{.ValueUnit}} napig. ",
-      "other": "A kölcsönzéstől számítva a film elérhető lesz a fiókodban {{.ValueUnit}} napig. "
+      "one": "A kölcsönzéstől számítva a film elérhető lesz a fiókodban {{.ValueUnit}}. ",
+      "other": "A kölcsönzéstől számítva a film elérhető lesz a fiókodban {{.ValueUnit}}. "
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Ha megnyomod a lejátszást, a  lejátszásra biztosított idő megkezdődik és {{.Count}} órád lesz, hogy megnézd a filmet annyiszor, ahányszor akarod.",

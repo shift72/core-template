@@ -503,14 +503,14 @@
   "duration_hour": { "one": "1小時", "other": "{{.Count}}個小時" },
   "duration_day": { "one": "1天", "other": "{{.Count}}天" },
   "shopping_info_rental_period_duration": {
-   "other": "租借天數 {{.ValueUnit}} 天"
+   "other": "租借天數 {{.ValueUnit}} "
   },
   "shopping_info_watch_window_duration": {
-   "other": "觀影期限 {{.Count}} 小時"
+   "other": "觀影期限 {{.Count}} 小時。"
   },
   "shopping_info_watch_window_explanation_film": {
-   "one": "完成租借後，影片將在帳號中保留 1 天。",
-   "other": "完成租借後，影片將在帳號中保留 {{.ValueUnit}} 天。"
+   "one": "完成租借後，影片將在帳號中保留 {{.ValueUnit}}。",
+   "other": "完成租借後，影片將在帳號中保留 {{.ValueUnit}}。"
   },
   "shopping_info_watch_window_explanation2_film": {
    "one": "觀影期限，將由進入播放視窗按下「播放」開始計算，可於 1 小時內無限次觀看。",

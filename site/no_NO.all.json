@@ -199,11 +199,11 @@
   
     "duration_hour": { "one": "1 time", "other": "{{.Count}} timer" },
     "duration_day": { "one": "1 dag", "other": "{{.Count}} dager" },
-    "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}}dagers leie " },
+    "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} leie " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} timers avspillingsvindu. " },
     "shopping_info_watch_window_explanation_film": {
-      "one": "Ved leie av film, vil den være tilgjengelig i kontoen din i {{.ValueUnit}} dager. ",
-      "other": "Ved leie av film, vil den være tilgjengelig i kontoen din i én dag. "
+      "one": "Ved leie av film, vil den være tilgjengelig i kontoen din i {{.ValueUnit}}. ",
+      "other": "Ved leie av film, vil den være tilgjengelig i kontoen din i {{.ValueUnit}}. "
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Avspillingsvinduet starter i det du starter filmen, og du har da {{.Count}} timer til å se den så mange ganger du ønsker.",
