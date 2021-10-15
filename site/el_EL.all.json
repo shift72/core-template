@@ -74,7 +74,7 @@
 
   "social_media_buttons_title": { "other": "Μοιράσου το" },
 
-  "accept_invite_page_header": { "other": "Καλώς ήρθατε στο " },
+  "accept_invite_page_header": { "other": "Καλώς ορίσατε" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Φαίνεται πως έχετε ήδη αποδεχθεί αυτή την πρόσκληση, πρέπει να <a href=\"{{.SigninURL}}\">εισέλθετε</a> στο λογαριασμό σας." },
   "acceptinvite_complete": { "other": "Ευχαριστούμε πολύ. Ο λογαριασμός σας έχει δημιουργηθεί." },
   "acceptinvite_form_submit": { "other": "Αποδοχή πρόσκλησης" },
@@ -194,6 +194,8 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Δεν θα μπορείτε να παρακολουθήσετε το περιεχόμενο μετά από τότε. " },
   "shopping_info_available_until_date_explanation_buy": { "other": "Δεν θα μπορείτε να παρακολουθήσετε το περιεχόμενο μετά από τότε. " },
 
+  "duration_hour": { "one": "1 ώρα", "other": "{{.Count}} ώρες" },
+  "duration_day": { "one": "1 μέρα", "other": "{{.Count}} μέρες" },
   "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} μέρες ενοικίασης. " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} ώρες μέχρι να ολοκληρωθεί η προβολή. " },
   "shopping_info_watch_window_explanation_film": {

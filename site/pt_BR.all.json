@@ -140,7 +140,7 @@
    "other": "Compartilhar"
   },
   "accept_invite_page_header": {
-   "other": "Bem-vindo(a) a"
+   "other": "Acolher"
   },
   "acceptinvite_form_invalid_reset_password_token": {
    "other": "Parece que você já aceitou esse convite, você deve <a href=\"{{.SigninURL}}\">entrar em sua conta</a>. Se você esqueceu sua senha, você também pode <a href=\"{{.ForgotPasswordURL}}\">alterar sua senha</a>."
@@ -501,12 +501,12 @@
    "other": "Você não poderá assistir ao conteúdo após esta data."
   },
   "duration_hour": {
-   "one": "1 hour",
-   "other": "{{.Count}} hours"
+   "one": "1 hora",
+   "other": "{{.Count}} horas"
   },
   "duration_day": {
-   "one": "1 day",
-   "other": "{{.Count}} days"
+   "one": "1 dia",
+   "other": "{{.Count}} dias"
   },
   "shopping_info_rental_period_duration": {
    "other": "Aluguel de {{.Count}} dias."

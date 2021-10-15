@@ -74,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "النشر " },
   
-    "accept_invite_page_header": { "other": "أهلاً بك على" },
+    "accept_invite_page_header": { "other": "أهلا بك" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "يبدو أنك طالبت بهذه الدعوة من قبل ، يجب عليك <a href=\"{{.SigninURL}}\"> تسجيل الدخول </a> بدلاً من ذلك. إذا نسيت كلمة المرور ، فيمكنك أيضًا <a href=\"{{.ForgotPasswordURL}}\"> إعادة تعيين كلمة المرور </a>." },
     "acceptinvite_complete": { "other": "شكراً لك. لقد تم إنشاء حسابك." },
     "acceptinvite_form_submit": { "other": "قبول الدعوة" },
@@ -215,6 +215,8 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "لن تتمكن من عرض المحتوى بعد ذلك." },
     "shopping_info_available_until_date_explanation_buy": { "other": "لن تتمكن من عرض المحتوى بعد ذلك." },
   
+    "duration_hour": { "one": "1 ساعة", "other": "{{.Count}} ساعة" },
+    "duration_day": { "one": "1 يوم", "other": "{{.Count}} يوما" },
     "shopping_info_rental_period_duration": { "other": "تأجير لمدة {{.ValueUnit}} أيام" },
     "shopping_info_watch_window_duration": { "other": "تشغيل لمدة {{.Count}} ساعة." },
     "shopping_info_watch_window_explanation_film": {

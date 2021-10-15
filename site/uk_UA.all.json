@@ -127,7 +127,7 @@
    "other": "Поділитися"
   },
   "accept_invite_page_header": {
-   "other": "Ласкаво просимо до"
+   "other": "Ласкаво просимо"
   },
   "acceptinvite_form_invalid_reset_password_token": {
    "other": "Здається, ви вже використали це запрошення. Спробуйте <a href=\"signin.html\">увійти</a>. Якщо ви забули свій пароль, ви можете <a href=\"forgotpassword.html\">скинути свій пароль</a>."
@@ -489,7 +489,9 @@
   },
   "shopping_info_available_until_date_explanation_buy": {
    "other": "Ви не зможете переглянути контент після цього."
-  },
+  },  
+  "duration_hour": { "one": "1 година", "other": "{{.Count}} години" },
+  "duration_day": { "one": "1 день", "other": "{{.Count}} дні" },
   "shopping_info_rental_period_duration": {
    "few": "{{.ValueUnit}} день прокату",
    "many": "{{.ValueUnit}} день прокату"

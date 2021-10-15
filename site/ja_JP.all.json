@@ -51,7 +51,7 @@
 
   "social_media_buttons_title": { "other": "共有" },
 
-  "accept_invite_page_header": { "other": "ようこそ " },
+  "accept_invite_page_header": { "other": "ようこそ" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "すでに招待リクエスト済みですので、サインインしてください。" },
   "acceptinvite_complete": { "other": "ありがとうございます。アカウント登録は完了しました。" },
   "acceptinvite_form_submit": { "other": "招待を受け取る" },
@@ -169,6 +169,8 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "この日時以降の視聴はできません。" },
   "shopping_info_available_until_date_explanation_buy": { "other": "この日時以降の視聴はできません。" },
 
+  "duration_hour": { "one": "1時間", "other": "{{.Count}}時間" },
+  "duration_day": { "one": "1日", "other": "{{.Count}}日" },
   "shopping_info_rental_period_duration": { "other": "レンタル期間 {{.ValueUnit}}日間" },
   "shopping_info_watch_window_duration": { "other": "再生開始後{{.Count}} 時間視聴できます。" },
   "shopping_info_watch_window_explanation_film": {

@@ -74,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "Megosztás" },
   
-    "accept_invite_page_header": { "other": "Üdvözlünk " },
+    "accept_invite_page_header": { "other": "Üdvözöljük" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Úgy tűnik, már felhasználtad a meghívódat, próbálj meg <a href=\"{{.SigninURL}}\">bejelentkezni</a>. Ha elfelejtetted a jelszavadat, <a href=\"{{.ForgotPasswordURL}}\">állíts be újat</a>." },
     "acceptinvite_complete": { "other": "Köszönjük. A fiókodat létrehoztuk." },
     "acceptinvite_form_submit": { "other": "Meghívó elfogadása" },
@@ -197,6 +197,8 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Ezután a dátum után nem lesz elérhető a tartalom." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Ezután a dátum után nem lesz elérhető a tartalom." },
   
+    "duration_hour": { "one": "1 óra", "other": "{{.Count}} óra" },
+    "duration_day": { "one": "1 nap", "other": "{{.Count}} nap" },
     "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} nap a kölcsönzési idő " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} óra van a lejátszásra " },
     "shopping_info_watch_window_explanation_film": {

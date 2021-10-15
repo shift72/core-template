@@ -74,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "Paylaş" },
   
-    "accept_invite_page_header": { "other": "...'e hoşgeldiniz  " },
+    "accept_invite_page_header": { "other": "Hoşgeldiniz" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Görünüşe göre bu davet talebini zaten yapmışsınız, onun yerine <a href=\"{{.SigninURL}}\">sign in</a> denemelisiniz. Parolanızı unuttuysanız, parolanızı ayrıca <a href=\"{{.ForgotPasswordURL}}\"> sıfırlayabilirsiniz." },
     "acceptinvite_complete": { "other": "Teşekkürler. Hesabınız oluşturuldu." },
     "acceptinvite_form_submit": { "other": "Daveti Kabul Et." },
@@ -197,6 +197,8 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Bundan sonra içeriği görüntüleyemeceksiniz." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Bundan sonra içeriği görüntüleyemeceksiniz." },
 
+    "duration_hour": { "one": "1 saat", "other": "{{.Count}} saat" },
+    "duration_day": { "one": "1 gün", "other": "{{.Count}} gün" },
     "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} kiralanan gün sayısı " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} saat playback oynatma penceresi " },
     "shopping_info_watch_window_explanation_film": {

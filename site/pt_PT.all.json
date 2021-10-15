@@ -74,7 +74,7 @@
 
     "social_media_buttons_title": { "other": "Compartilhar" },
 
-    "accept_invite_page_header": { "other": "Bem-vindo(a) a" },
+    "accept_invite_page_header": { "other": "Acolher" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Parece que você já aceitou esse convite, você deve <a href=\"{{.SigninURL}}\">entrar em sua conta</a>. Se você esqueceu sua senha, você também pode <a href=\"{{.ForgotPasswordURL}}\">alterar sua senha</a>." },
     "acceptinvite_complete": { "other": "Obrigado! Sua conta foi criada." },
     "acceptinvite_form_submit": { "other": "Aceitar Convite" },
@@ -194,6 +194,8 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Você não poderá assistir ao conteúdo após esta data." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Você não poderá assistir ao conteúdo após esta data." },
 
+    "duration_hour": { "one": "1 hora", "other": "{{.Count}} horas" },
+    "duration_day": { "one": "1 dia", "other": "{{.Count}} dias" },
     "shopping_info_rental_period_duration": { "other": "Aluguel de {{.ValueUnit}} dias." },
     "shopping_info_watch_window_duration": { "other": "Período de reprodução de {{.Count}} horas." },
     "shopping_info_watch_window_explanation_film": {

@@ -140,7 +140,7 @@
    "other": "Compartir"
   },
   "accept_invite_page_header": {
-   "other": "Benvingut a "
+   "other": "Benvingut"
   },
   "acceptinvite_form_invalid_reset_password_token": {
    "other": "Sembla que ja heu reclamat aquesta invitació, haureu de fer <a href=\"{{.SigninURL}}\">inicia la sessió</a> en canvi. Si heu oblidat la vostra contrasenya, també podeu <a href=\"{{.ForgotPasswordURL}}\">restablir la contrasenya</a>."
@@ -501,12 +501,12 @@
    "other": "No podreu veure el contingut després d'això."
   },
   "duration_hour": {
-   "one": "1 hour",
-   "other": "{{.Count}} hours"
+   "one": "1 hora",
+   "other": "{{.Count}} hores"
   },
   "duration_day": {
-   "one": "1 day",
-   "other": "{{.Count}} days"
+   "one": "1 dia",
+   "other": "{{.Count}} dies"
   },
   "shopping_info_rental_period_duration": {
    "other": "{{.Count}} Dia de lloguer "

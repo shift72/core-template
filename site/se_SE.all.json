@@ -74,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "Поделите" },
   
-    "accept_invite_page_header": { "other": "Добродошли на " },
+    "accept_invite_page_header": { "other": "Добродошли" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Изгледа да сте већ активирали овај позив. Потребно је да се <a href=\"{{.SigninURL}}\">пријавите</a>. Ако сте заборавили лозинку, можете и да <a href=\"{{.ForgotPasswordURL}}\">ресетујете лозинку</a>." },
     "acceptinvite_complete": { "other": "Хвала Вам. Ваш налог је направљен." },
     "acceptinvite_form_submit": { "other": "Прихватите позив." },
@@ -210,6 +210,8 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Нећете моћи да гледате садржај након тога." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Нећете моћи да гледате садржај након тога." },
   
+    "duration_hour": { "one": "1 сат", "other": "{{.Count}} сата" },
+    "duration_day": { "one": "1 дан", "other": "{{.Count}} дана" },
     "shopping_info_rental_period_duration": { "other": "Изнајмљено на {{.ValueUnit}} дана" },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} ч. за гледање." },
     "shopping_info_watch_window_explanation_film": {

@@ -74,7 +74,7 @@
 
   "social_media_buttons_title": { "other": "Deel" },
 
-  "accept_invite_page_header": { "other": "Welkom op " },
+  "accept_invite_page_header": { "other": "Welkom" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Het lijkt erop dat u deze uitnodiging al hebt gebruikt. U dient zich hier <a href=\"{{.SigninURL}}\">in te loggen</a>. <a href=\"{{.ForgotPasswordURL}}\">Wachtwoord vergeten?</a>." },
   "acceptinvite_complete": { "other": "Bedankt. Uw account is aangemaakt." },
   "acceptinvite_form_submit": { "other": "Aanvaard uitnodiging" },
@@ -210,6 +210,8 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "U zult de inhoud hierna niet meer kunnen bekijken." },
   "shopping_info_available_until_date_explanation_buy": { "other": "U zult de inhoud hierna niet meer kunnen bekijken." },
 
+  "duration_hour": { "one": "1 uur", "other": "{{.Count}} uur" },
+  "duration_day": { "one": "1 dag", "other": "{{.Count}} dagen" },
   "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} dagen bekijken " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} uur (her)bekijken. " },
   "shopping_info_watch_window_explanation_film": {

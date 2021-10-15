@@ -49,7 +49,7 @@
 
 	"social_media_buttons_title": { "other": "Podijeli" },
 
-	"accept_invite_page_header": { "other": "Dobrodošli na" },
+	"accept_invite_page_header": { "other": "Dobrodošli" },
 	"acceptinvite_form_invalid_reset_password_token": { "other": "Ovaj pozivni kod je već iskorišten i potrebna je ponovna <a href=\"{{.SigninURL}}\">prijava</a>. Ako ste zaboravili lozinku, možete je <a href=\"{{.ForgotPasswordURL}}\">resetirati</a>." },
 	"acceptinvite_complete": { "other": "Hvala vam. Izradili ste korisnički račun." },
 	"acceptinvite_form_submit": { "other": "Prihvati pozivnicu" },
@@ -187,6 +187,8 @@
 	"shopping_info_available_until_date_explanation_rent": { "other": "Nakon ovoga više ne možete gledati sadržaj." },
 	"shopping_info_available_until_date_explanation_buy": { "other": "Nakon ovoga više ne možete gledati sadržaj." },
 
+	"duration_hour": { "one": "1 sat", "other": "{{.Count}} sata" },
+  "duration_day": { "one": "1 dan", "other": "{{.Count}} dana" },
 	"shopping_info_rental_period_duration": { "other": "{{.Count}} dana posudbe" },
 	"shopping_info_watch_window_duration": { "other": "{{.Count}} sati zaslona za reprodukciju." },
 

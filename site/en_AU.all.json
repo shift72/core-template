@@ -75,7 +75,7 @@
 
   "social_media_buttons_title": { "other": "Share" },
 
-  "accept_invite_page_header": { "other": "Welcome to " },
+  "accept_invite_page_header": { "other": "Welcome" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "It looks like you have already claimed this invite, you should <a href=\"{{.SigninURL}}\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"{{.ForgotPasswordURL}}\">reset your password</a>." },
   "acceptinvite_complete": { "other": "Thank you. Your account has been created." },
   "acceptinvite_form_submit": { "other": "Accept Invitation" },

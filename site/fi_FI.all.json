@@ -52,7 +52,7 @@
 
   "social_media_buttons_title": { "other": "Jaa" },
 
-  "accept_invite_page_header": { "other": "Tervetuloa " },
+  "accept_invite_page_header": { "other": "Tervetuloa" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Vaikuttaa siltä, että olet jo käyttänyt tämän kutsun. Kokeile <a href=\"signin.html\">kirjautua sisään</a> palveluun. Jos olet unohtanut salasanasi, voit <a href=\"forgotpassword.html\">tilata uuden salasanan</a>." },
   "acceptinvite_complete": { "other": "Kiitos. Tilisi on luotu." },
   "acceptinvite_form_submit": { "other": "Hyväksy kutsu" },
@@ -169,6 +169,8 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Sen jälkeen sisältöä ei voi enää katsoa." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Sen jälkeen sisältöä ei voi enää katsoa." },
 
+  "duration_hour": { "one": "1 tunti", "other": "{{.Count}} tuntia" },
+  "duration_day": { "one": "1 päivä", "other": "{{.Count}} päivää" },
   "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} päivän vuokra " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} tunnin katseluoikeus. " },
   "shopping_info_watch_window_explanation_film": {
