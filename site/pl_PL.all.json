@@ -183,10 +183,10 @@
   "duration_hour": { "one": "1 godzina", "other": "{{.Count}} godziny" },
   "duration_day": { "one": "1 dzień", "other": "{{.Count}} dni" },
   "shopping_info_rental_period_duration": {
-    "one": "Wypożyczono na {{.ValueUnit}} dzień ",
-    "few": "Wypożyczono na {{.ValueUnit}} dni ",
-    "many": "Wypożyczono na {{.ValueUnit}} dni ",
-    "other": "Wypożyczono na {{.ValueUnit}} dni "
+    "one": "Wypożyczono na {{.ValueUnit}} ",
+    "few": "Wypożyczono na {{.ValueUnit}} ",
+    "many": "Wypożyczono na {{.ValueUnit}} ",
+    "other": "Wypożyczono na {{.ValueUnit}} "
   },
   "shopping_info_watch_window_duration": {
     "one": "{{.Count}} godzinne okno odtwarzania. ",
@@ -195,10 +195,10 @@
     "other": "{{.Count}} godzinne okno odtwarzania. "
   },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Wypożyczony film będzie dostępny na Twoim koncie przez jeden dzień. ",
-    "few": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.ValueUnit}} dni. ",
-    "many": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.ValueUnit}} dni. ",
-    "other": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.ValueUnit}} dni. "
+    "one": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.ValueUnit}}. ",
+    "few": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.ValueUnit}}. ",
+    "many": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.ValueUnit}}. ",
+    "other": "Wypożyczony film będzie dostępny na Twoim koncie przez {{.ValueUnit}}. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Po naciśnięciu przycisku odtwarzania otworzy się player i będziesz miał godzinę na obejrzenie filmu tyle razy, ile chcesz.",

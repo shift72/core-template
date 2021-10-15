@@ -509,30 +509,30 @@
    "other": "{{.Count}} dies"
   },
   "shopping_info_rental_period_duration": {
-   "other": "{{.Count}} Dia de lloguer "
+   "other": "{{.ValueUnit}} de lloguer "
   },
   "shopping_info_watch_window_duration": {
    "other": "{{.Count}} Finestra de reproducció d'hora. "
   },
   "shopping_info_watch_window_explanation_film": {
-   "one": "Un cop llogat, la pel·lícula estarà disponible al vostre compte durant un dia.",
-   "other": "Un cop llogat, la vostra pel·lícula estarà disponible al vostre compte per a {{.Count}} dies."
+   "one": "Un cop llogat, la pel·lícula estarà disponible al vostre compte durant {{.ValueUnit}}. ",
+   "other": "Un cop llogat, la vostra pel·lícula estarà disponible al vostre compte per a {{.ValueUnit}}. "
   },
   "shopping_info_watch_window_explanation2_film": {
    "one": "Un cop activada la reproducció, comença la finestra de reproducció i teniu una hora per veure la pel·lícula tantes vegades com vulgueu.",
    "other": "Un cop activada la reproducció, comença la finestra de reproducció i teniu {{.Count}} hores per veure la pel·lícula tantes vegades com vulgueu."
   },
   "shopping_info_watch_window_explanation_bundle": {
-   "one": "Un cop llogats, els articles del vostre paquet estaran disponibles al vostre compte durant un dia.",
-   "other": "Un cop llogats, els articles del vostre paquet estaran disponibles al vostre compte per {{.Count}} dies."
+   "one": "Un cop llogats, els articles del vostre paquet estaran disponibles al vostre compte durant un dia. ",
+   "other": "Un cop llogats, els articles del vostre paquet estaran disponibles al vostre compte per {{.Count}} dies. "
   },
   "shopping_info_watch_window_explanation2_bundle": {
    "one": "Una vegada que premeu PLAY en una pel·lícula específica, comença la finestra de visionat i teniu una hora per veure aquesta pel·lícula tantes vegades com vulgueu.",
    "other": "Quan premeu PLAY en una pel·lícula específica, comença la finestra de visionat i teniu {{.Count}} hores per veure aquesta pel·lícula tantes vegades com vulgueu."
   },
   "shopping_info_watch_window_explanation_season": {
-   "one": "Un cop llogada, la vostra temporada estarà disponible al vostre compte durant un dia.",
-   "other": "Un cop llogada, la vostra temporada estarà disponible al vostre compte per a {{.Count}} dies."
+   "one": "Un cop llogada, la vostra temporada estarà disponible al vostre compte durant un dia. ",
+   "other": "Un cop llogada, la vostra temporada estarà disponible al vostre compte per a {{.Count}} dies. "
   },
   "shopping_info_watch_window_explanation2_season": {
    "one": "Una vegada que premeu Play en un episodi, comença la finestra de visionat i teniu una hora per veure aquest episodi tantes vegades com vulgueu.",

@@ -199,11 +199,11 @@
 
     "duration_hour": { "one": "1 saat", "other": "{{.Count}} saat" },
     "duration_day": { "one": "1 gün", "other": "{{.Count}} gün" },
-    "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} kiralanan gün sayısı " },
-    "shopping_info_watch_window_duration": { "other": "{{.Count}} saat playback oynatma penceresi " },
+    "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} kiralama " },
+    "shopping_info_watch_window_duration": { "other": "{{.Count}} saat playback oynatma penceresi. " },
     "shopping_info_watch_window_explanation_film": {
-      "one": "Kiralandığında, filminiz hesabınızda bir gün boyunca erişilebilir olacaktır.",
-      "other": "Oynata bastığınızda izleme penceresi başlar ve filmi istediğiniz kadar izlemek için bir saatiniz olacak."
+      "one": "Oynata bastığınızda izleme penceresi başlar ve filmi istediğiniz kadar izlemek için {{.ValueUnit}} olacak. ",
+      "other": "Oynata bastığınızda izleme penceresi başlar ve filmi istediğiniz kadar izlemek için {{.ValueUnit}} olacak. "
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Oynata bastığınızda izleme penceresi başlar ve filmi istediğiniz kadar izlemek için bir saatiniz olacak. ",

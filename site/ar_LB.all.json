@@ -217,11 +217,11 @@
   
     "duration_hour": { "one": "1 ساعة", "other": "{{.Count}} ساعة" },
     "duration_day": { "one": "1 يوم", "other": "{{.Count}} يوما" },
-    "shopping_info_rental_period_duration": { "other": "تأجير لمدة {{.ValueUnit}} أيام" },
+    "shopping_info_rental_period_duration": { "other": "تأجير لمدة {{.ValueUnit}}" },
     "shopping_info_watch_window_duration": { "other": "تشغيل لمدة {{.Count}} ساعة." },
     "shopping_info_watch_window_explanation_film": {
-      "one": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة يوم واحد.",
-      "other": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة {{.ValueUnit}} يوم."
+      "one": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة {{.ValueUnit}}.",
+      "other": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة {{.ValueUnit}}."
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "عند الضغط على تشغيل، يمكنك مشاهدة الفيلم عدة مرات لمدة ساعة واحدة. ",

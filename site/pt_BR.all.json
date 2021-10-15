@@ -509,14 +509,14 @@
    "other": "{{.Count}} dias"
   },
   "shopping_info_rental_period_duration": {
-   "other": "Aluguel de {{.Count}} dias."
+   "other": "Aluguel de {{.ValueUnit}} "
   },
   "shopping_info_watch_window_duration": {
-   "other": "Período de reprodução de {{.Count}} horas."
+   "other": "Período de reprodução de {{.Count}} horas. "
   },
   "shopping_info_watch_window_explanation_film": {
-   "one": "Uma vez alugado, o filme estará disponível na sua conta por um dia.",
-   "other": "Uma vez alugado, o filme estará disponível na sua conta por {{.Count}} dias."
+   "one": "Uma vez alugado, o filme estará disponível na sua conta por {{.ValueUnit}}. ",
+   "other": "Uma vez alugado, o filme estará disponível na sua conta por {{.ValueUnit}}. "
   },
   "shopping_info_watch_window_explanation2_film": {
    "one": "Ao clicar no play, o período de reprodução se inicia e você tem uma hora para assistir o filme quantas vezes quiser.",

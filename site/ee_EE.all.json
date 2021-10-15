@@ -199,11 +199,11 @@
   
     "duration_hour": { "one": "1 tund", "other": "{{.Count}} tundi" },
     "duration_day": { "one": "1 päev", "other": "{{.Count}} päeva" },
-    "shopping_info_rental_period_duration": { "other": "Pilet kehtib {{.ValueUnit}} päeva " },
+    "shopping_info_rental_period_duration": { "other": "Pilet kehtib {{.ValueUnit}} " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} tunnine vaatamise periood. " },
     "shopping_info_watch_window_explanation_film": {
-      "one": "Pärast pileti ostmist on film sinu kontol vaadatav ühe päeva. ",
-      "other": "Pärast pileti ostmist on film sinu kontol vaadatav {{.ValueUnit}} päeva jooksul. "
+      "one": "Pärast pileti ostmist on film sinu kontol vaadatav {{.ValueUnit}} jooksul. ",
+      "other": "Pärast pileti ostmist on film sinu kontol vaadatav {{.ValueUnit}} jooksul. "
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Kui vajutad 'Vaata', algab filmi esitamine ja sul on aega 30 tundi, et film lõpuni vaadata.",

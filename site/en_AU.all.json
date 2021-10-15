@@ -218,11 +218,11 @@
   
   "duration_hour": { "one": "1 hour", "other": "{{.Count}} hours" },
   "duration_day": { "one": "1 day", "other": "{{.Count}} days" },
-  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} day rental " },
+  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} rental " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} hour playback window. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Once rented, your film will be available in your account for {{.ValueUnit}} day.",
-    "other": "Once rented, your film will be available in your account for {{.ValueUnit}} days. "
+    "one": "Once rented, your film will be available in your account for {{.ValueUnit}}. ",
+    "other": "Once rented, your film will be available in your account for {{.ValueUnit}}. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Once you press play, the watch window begins and you have an hour to watch the film as many times as you like.",

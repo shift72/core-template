@@ -212,11 +212,11 @@
   
     "duration_hour": { "one": "1 сат", "other": "{{.Count}} сата" },
     "duration_day": { "one": "1 дан", "other": "{{.Count}} дана" },
-    "shopping_info_rental_period_duration": { "other": "Изнајмљено на {{.ValueUnit}} дана" },
-    "shopping_info_watch_window_duration": { "other": "{{.Count}} ч. за гледање." },
+    "shopping_info_rental_period_duration": { "other": "Изнајмљено на {{.ValueUnit}} " },
+    "shopping_info_watch_window_duration": { "other": "{{.Count}} ч. за гледање. " },
     "shopping_info_watch_window_explanation_film": {
-      "one": "Када изнајмите филм, биће доступан на Вашем налогу један дан.",
-      "other": "Када изнајмите филм, биће доступан на Вашем налогу {{.ValueUnit}} дана."
+      "one": "Када изнајмите филм, биће доступан на Вашем налогу {{.ValueUnit}}. ",
+      "other": "Када изнајмите филм, биће доступан на Вашем налогу {{.ValueUnit}}. "
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Када притиснете дугме за гледање, имаћете један сат да погледате филм колико год пута желите.",
