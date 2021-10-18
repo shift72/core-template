@@ -60,6 +60,7 @@
 .search-page,
 .collection-page,
 .devices-page,
+.plans-page,
 .carousel-len-0 {
   padding-top: $page-padding-top;
   @include media-breakpoint-up(md) {
@@ -179,13 +180,15 @@
 .wishlist-page,
 .library-page,
 .search-page,
-.devices-page {
+.devices-page,
+.plans-page {
   .page-header {
     h1 {
       margin-bottom: $headings-margin-bottom;
     }
   }
 
+  .s72-plans,
   .s72-userwishlist-items,
   .s72-userlibrary-items,
   .s72-searchresults-results,

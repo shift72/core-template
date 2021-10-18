@@ -1,0 +1,25 @@
+.s72-plans {
+  @extend .col-md-2;
+  .plan-page-link {
+    @extend .s72-btn;
+    @extend .s72-btn-purchase;
+
+    // Something about making it gray here I guess
+  }
+
+  // .plan {
+  //   @extend .card;
+
+  //   .plan-poster {
+  //     @extend .card-img-top;
+  //   }
+
+  //   .plan-body {
+  //     @extend .card-body;
+
+  //     .plan-caption, .plan-description {
+  //       @extend .card-text;
+  //     }
+  //   }
+  // }
+}

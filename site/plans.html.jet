@@ -1,0 +1,57 @@
+{{extends "templates/application.jet"}}
+
+{{block head()}}
+  {{yield seo(title=i18n("plans_page_header"), index=false)}}
+
+  {*
+    Currently, there are only 2 pages (plans, subscriptions) that need shopping or subscriptions related components.
+    So lets not bog down the rest of the site with them (especially stripe).
+  *}
+  <script src="{{CDN}}/s72.transactional.js" defer></script>
+  <script src="//js.stripe.com/v3/" defer></script>
+{{end}}
+
+{{block body()}}
+  <main id="main" class="page plans-page">
+
+    <div class="page-header">
+      <h1>{{ i18n("plans_page_header") }}</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+      {{ range _, p := site.Plans }}
+        <div class="plan col-md-4">
+          {{ if isset(p.PortraitImage)}}
+            <s72-image src="{{p.PortraitImage}}" alt="{{p.Name}}" class="plan-poster card-img-top" border="0"></s72-image>
+          {{ end }}
+            <div class="plan-caption">
+              <div class="plan-name">{{p.Name}}</div>
+              {{ if p.HasExpiryDate() }}
+                <div class="plan-expiry">{{ i18n("plan_expiry_date", map("ExpiryDate", p.ExpiryDate)) }}</div>
+              {{ end }}
+              <div class="plan-description">{{p.Description}}</div>
+            </div>
+
+          {{ if p.Interval }}
+            <div class="plan-details">
+              <div class="plan-interval">{{i18n("shopping_info_plan_offer", map("Interval", p.Interval, "Count", p.IntervalCount))}}</div>
+              {{ if p.TrialPeriodDays }}
+                <div class="plan-trial-period">{{i18n("shopping_info_trial_period_offer", p.TrialPeriodDays)}}</div>
+              {{ end }}
+            </div>
+          {{ end }}
+          <div class="plan-buttons">
+            {{ if p.Page }}
+              <button class="plan-page-link"><a href="{{ routeToSlug(p.Page.Slug) }}">{{i18n("plan_read_more")}}</a></button>
+            {{ end }}
+            <s72-pricing-buttons data-slug="{{p.Slug}}" data-title="{{p.Name}}" />
+            <s72-plan-label data-slug="{{p.Slug}}" data-title="{{p.Name}}"/>
+          </div>
+        </div>
+      {{ end }}
+      </div>
+    </div>
+
+  </main>
+{{end}}
