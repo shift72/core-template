@@ -246,7 +246,7 @@
   }
 
   @include media-breakpoint-up(lg) {
-    min-width: $navbar-brand-min-width-xl;
+    min-width: $navbar-brand-min-width-lg;
   }
 
   @include media-breakpoint-up(xl) {
