@@ -241,12 +241,12 @@
     background: url('../images/common/logo@2x.png') left center / contain no-repeat;
   }
 
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     min-width: $navbar-brand-min-width-md;
   }
 
   @include media-breakpoint-up(lg) {
-    min-width: $navbar-brand-min-width-xl;
+    min-width: $navbar-brand-min-width-lg;
   }
 
   @include media-breakpoint-up(xl) {

@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.3.6...HEAD)
 
+### Fixed
+- The Sass variables for setting the logo size (`$navbar-brand-min-width-md`/`$navbar-brand-min-width-lg`) are now used for their respective breakpoints.
+
 ## [0.3.6](https://github.com/shift72/core-template/compare/0.3.5...0.3.6)
 
 ### Fixed
