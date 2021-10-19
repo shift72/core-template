@@ -7,6 +7,10 @@
 
 
 {{block body()}}
+{{ plan := 0 }}
+{{ if len(page.Plans) }}
+  {{ plan = page.Plans[0] }}
+{{ end }}
 <main id="main" class="page {{page.PageType}}-page">
   <div class="page-bg">
     <div class="right-gradient"></div>
@@ -15,9 +19,21 @@
   <div class="container-fluid">
     <div class="page-header">
       <h1>{{ page.Title }}</h1>
+
+      {{if plan != 0 && plan.HasExpiryDate() }}
+        ‼️ Expiry date goes here (might need to be component to show the time in local tz) {{ plan.ExpiryDate }}
+      {{end}}
+
       {{if len(page.Content)}}
         <div class="page-header-content">
           {{page.Content | raw}}
+        </div>
+      {{end}}
+
+      {{if plan != 0 }}
+        <div>
+          <s72-pricing-buttons data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" data-ownership-label-prefix={{ i18n("plan_showcase_page_ownership_button_") }} data-hide-price="true" />
+          <s72-plan-label data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" />
         </div>
       {{end}}
     </div>
@@ -25,8 +41,26 @@
   <div class="page-collections">
     <h2 class="sr-only">{{i18n("wcag_collections_h2")}}</h2>
     {{range index, pf := page.PageCollections}}
-      {{yield pageCollection() pf}}
+      {{ showTitle = (plan == 0) }}
+      {{yield pageCollection(showTitle=showTitle) pf}}
     {{end}}
   </div>
+
+
+  {{ if plan != 0 }}
+  <div class="container">
+    <div class="page-passes text-center">
+      <h2>{{ i18n("plan_page_header_text", map("Name", plan.Name)) }}</h2>
+      <div>{{ plan.Description }}</div>
+      <div>
+        <s72-pricing-buttons data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" data-ownership-label-prefix="pricing_ownership_no_price_" />
+        <s72-plan-label data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" />
+      </div>
+      <div>{{ i18n("page_plan_explore_intro" )}}</div>
+      <div><a href="/plans.html">{{ i18n("page_plan_explore_link") }}</a></div>
+    </div>
+  </div>
+  {{ end }}
+
 </main>
 {{end}}
