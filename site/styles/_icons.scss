@@ -31,3 +31,7 @@
   @extend .fa;
   @extend .fa-search;
 }
+
+main svg {
+  fill: $primary;
+}

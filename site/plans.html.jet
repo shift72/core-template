@@ -18,35 +18,39 @@
       <h1>{{ i18n("plans_page_header") }}</h1>
     </div>
 
-    <div class="container">
+    <div class="container-xxxl px-2 px-lg-5">
       <div class="row">
       {{ range _, p := site.Plans }}
-        <div class="plan col-md-4">
-          {{ if isset(p.PortraitImage)}}
-            <s72-image src="{{p.PortraitImage}}" alt="{{p.Name}}" class="plan-poster card-img-top" border="0"></s72-image>
-          {{ end }}
-            <div class="plan-caption">
-              <div class="plan-name">{{p.Name}}</div>
-              {{ if p.HasExpiryDate() }}
-                <div class="plan-expiry">{{ i18n("plan_expiry_date", map("ExpiryDate", p.ExpiryDate)) }}</div>
-              {{ end }}
-              <div class="plan-description">{{p.Description}}</div>
-            </div>
-
-          {{ if p.Interval }}
-            <div class="plan-details">
-              <div class="plan-interval">{{i18n("shopping_info_plan_offer", map("Interval", p.Interval, "Count", p.IntervalCount))}}</div>
-              {{ if p.TrialPeriodDays }}
-                <div class="plan-trial-period">{{i18n("shopping_info_trial_period_offer", p.TrialPeriodDays)}}</div>
-              {{ end }}
-            </div>
-          {{ end }}
-          <div class="plan-buttons">
-            {{ if p.Page }}
-              <button class="plan-page-link"><a href="{{ routeToSlug(p.Page.Slug) }}">{{i18n("plan_read_more")}}</a></button>
+        <div class="plan col-xs-6 col-lg-4 mb-3">
+          <div class="card h-100">
+            {{ if isset(p.PortraitImage)}}
+              <s72-image src="{{p.PortraitImage}}" alt="{{p.Name}}" class="plan-poster card-img-top" border="0"></s72-image>
             {{ end }}
-            <s72-pricing-buttons data-slug="{{p.Slug}}" data-title="{{p.Name}}" />
-            <s72-plan-label data-slug="{{p.Slug}}" data-title="{{p.Name}}"/>
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div class="plan-caption-details">
+                  <h3 class="plan-name">{{p.Name}}</h3>
+                  {{ if p.HasExpiryDate() }}
+                    <p class="plan-expiry">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16"> <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/> <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/> </svg>
+                        <small>{{ i18n("plan_expiry_date", map("ExpiryDate", p.ExpiryDate)) }}</small>
+                    </p>
+                  {{ end }}
+                  <p class="plan-description">{{p.Description}}</p>
+                  {{ if p.Interval }}
+                    <p class="plan-interval">{{i18n("shopping_info_plan_offer", map("Interval", p.Interval, "Count", p.IntervalCount))}}</p>
+                    {{ if p.TrialPeriodDays }}
+                      <p class="plan-trial-period">{{i18n("shopping_info_trial_period_offer", p.TrialPeriodDays)}}</p>
+                    {{ end }}
+                  {{ end }}
+                </div>
+                <div class="plan-buttons">
+                  {{ if p.Page }}
+                    <a class="plan-page-link btn btn-light text-dark btn-block" href="{{ routeToSlug(p.Page.Slug) }}">{{i18n("plan_read_more")}}</a>
+                  {{ end }}
+                  <s72-pricing-buttons class="btn-block" data-slug="{{p.Slug}}" data-title="{{p.Name}}" />
+                  <s72-plan-label data-slug="{{p.Slug}}" data-title="{{p.Name}}"/>
+                </div>
+              </div>
           </div>
         </div>
       {{ end }}

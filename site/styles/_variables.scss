@@ -32,11 +32,29 @@ $container-max-widths: (
   xxxl: 1600px,
 ) !default;
 
+$spacer: (2/3) * 1rem; // 10px
+
+$spacers: (
+  'm1p5': ($spacer * -1.5),// -15px
+  'm1': ($spacer * -1.0),  // -10px
+  'mp5': ($spacer * -0.5), // -5px
+  'p5': ($spacer * 0.5),   // 5px
+  '1': $spacer,            // 10px
+  '1p5': ($spacer * 1.5),  // 15px
+  '2': ($spacer * 2),      // 20px
+  '2p5': ($spacer * 2.5),  // 25px
+  '3': ($spacer * 3),      // 30px
+  '3p5': ($spacer * 3.5),  // 35px
+  '4': ($spacer * 4),      // 40px
+  '4p5': ($spacer * 4.5),  // 45px
+  '5': ($spacer * 5),      // 50px
+);
+
 // Body / Core
 // ------------------------------------
 
-$primary: #35a0a8 !default;
-$secondary: #4cd3dd !default;
+$primary: #4d97ff !default;
+$secondary: lighten(#4d97ff, 7) !default;
 $body-color: #fff !default;
 $body-bg: #0f0f0f !default;
 $body-bg-accent: get-accent-color($body-bg) !default;

@@ -524,7 +524,7 @@
     "one": "Automatically renews every {{.Interval}}",
     "other": "Automatically renews every {{.Count}} {{.Interval}}s"
   },
-  "plans_page_header": { "other": "Available Plans" },
+  "plans_page_header": { "other": "Passes" },
   "plan_label_owned" : {"other": "You own this plan" },
   "plan_expiry_date" : { "other": "Sales close: {{ .ExpiryDate }}"},
   "plan_read_more"   : { "other": "Find out more" },
