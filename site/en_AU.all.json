@@ -422,21 +422,34 @@
 
   "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
 
-  "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-  "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-  "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
+  "shopping_price_title_plan": { "other": "Price" },
+  "shopping_price_plan_note": {
+    "zero": "Charged every {{.Interval}}.",
+    "one": "Charged every {{.Interval}} after your 24 hour free trial ends.",
+    "other": "Charged every {{.Interval}} after your {{.Count}} day free trial ends."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}s"
+  },
 
-  "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
+  "shopping_enter_card_prompt_plan": { "other": "Enter your credit card details below in order start your subscription." },
 
   "shopping_action_credit": { "other": "shopping_action_credit" },
-  "shopping_action_plan": { "other": "shopping_action_plan" },
+  "shopping_action_plan": { "other": "Complete" },
 
-  "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-  "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
+  "shopping_complete_subscription": { "other": "Your subscription purchase was successful. You are now subscribed to {{.Title}}." },
+  "shopping_complete_subscription_browse": { "other": "Feel free to <a href=\"/\">browse around</a> the site, or <a href=\"/search.html\">search</a> for something specific." },
 
   "shopping_info_rental_period_coming_soon": { "other": "from the date and time of release." },
-  "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-  "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
+  "shopping_info_plan_offer": {
+    "one": "Automatically renews every {{.Interval}}",
+    "other": "Automatically renews every {{.Count}} {{.Interval}}s"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Try your free 24hr trial now!",
+    "other": "Try your free {{.Count}} day trial!"
+  },
 
   "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
   "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
