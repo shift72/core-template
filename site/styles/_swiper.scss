@@ -5,12 +5,12 @@
 }
 
 .swiper-container {
-  padding: 0 0 40px;
+  padding: 0 15px 40px;
   @include media-breakpoint-up(md) {
-    padding: 15px 20px 20px;
+    padding: 15px 15px 20px;
   }
   @include media-breakpoint-up(lg) {
-    padding: 15px 50px 20px;
+    padding: 15px 45px 20px;
   }
 }
 
@@ -51,11 +51,5 @@
 
   &.swiper-button-disabled {
     display: none;
-  }
-}
-
-.swiper-title {
-  @include media-breakpoint-down(sm) {
-    padding-left: 25px;
   }
 }

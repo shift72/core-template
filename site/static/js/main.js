@@ -126,16 +126,12 @@ function initializeSwiper(element, force) {
         slidesPerView: slidesPerView[320],
         spaceBetween: 2,
         slidesPerGroup: 1,
-        slidesOffsetBefore: 20,
-        slidesOffsetAfter: 20,
       },
       // when window width is <= 480px
       567: {
         slidesPerView: slidesPerView[568],
         spaceBetween: 2,
         slidesPerGroup: isTouchscreen ? slidesPerView[568] : 1,
-        slidesOffsetBefore: 20,
-        slidesOffsetAfter: 20,
       },
       // when window width is <= 640px
       666: {
