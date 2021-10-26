@@ -1,3 +1,5 @@
+{{import "templates/common/separator.jet"}}
+
 {{block appBadges()}}
   {{app_link_ios := config("app_link_ios")}}
   {{app_link_android := config("app_link_android")}}
@@ -18,4 +20,6 @@
       </div>
     </div>
   {{end}}
+
+  {{yield separator()}}
 {{end}}

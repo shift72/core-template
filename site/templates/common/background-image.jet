@@ -1,0 +1,7 @@
+{{block backgroundImage(containerClass="", gradientClass="", imageClass="", imageSrc="", imageAlt="")}}
+  <div class="{{containerClass}}">
+    <div class="{{gradientClass}}"></div>
+
+    <s72-image class="{{imageClass}}" src="{{imageSrc}}" alt="{{imageAlt}}"></s72-image>
+  </div>
+{{end}}
