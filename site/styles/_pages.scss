@@ -48,8 +48,16 @@
 }
 
 .page-content {
-  border-bottom: $border-width solid rgba(255, 255, 255, 0.1);
   margin-bottom: $headings-margin-bottom * 4;
+}
+
+.separator {
+  border-bottom: 1px solid rgba($body-color, 0.2);
+  margin: 0 20px;
+
+  @include media-breakpoint-up(lg) {
+    margin: 0 50px;
+  }
 }
 
 .curated-page,
@@ -91,8 +99,9 @@
   }
 }
 
-.content-page {
-  .content-page-content {
+.content-page,
+.curated-page {
+  .page-content {
     max-width: 1100px;
     min-height: 220px;
     padding: 20px 20px 0;
