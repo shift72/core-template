@@ -1,5 +1,5 @@
 {{block pageContent(text="")}}
-  {{if len(text)}}
+  {{if len(text) > 0}}
     <div class="page-content">
       {{text | raw}}
     </div>
