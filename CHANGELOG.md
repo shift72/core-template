@@ -3,7 +3,7 @@
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.3.6...HEAD)
 
 ### Added
-- Separator div template with `border-bottom`.  Used by app banner and curated page.
+- Separator div template with `border-bottom`.  Used by app banner.
 - Background image template.  Used by bundle and curated pages (so far).
 
 ### Changed
