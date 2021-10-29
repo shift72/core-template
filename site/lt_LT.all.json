@@ -111,6 +111,7 @@
   "combined_auth_signin_password": { "other": "Norėdami prisijungti prie savo paskyros įveskite slaptažodį." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Neteisingas slaptažodis." },
   "combined_auth_error_forbidden": { "other": "Įvyko klaida." },
+  "combined_auth_error_too_many_requests": { "other": "Per daug užklausų. Prašome pabandyti vėliau." },
 
   "forgotpassword_page_header": { "other": "Atkurti slaptažodį" },
   "forgotpassword_form_email": { "other": "El. pašto adresas" },
@@ -119,6 +120,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "Paskyra laikinai užrakinta." },
   "forgotpassword_complete": { "other": "Ačiū. Neužilgo gausite laišką dėl slaptažodžio atkūrimo." },
   "forgotpassword_form_error_forbidden": { "other": "Įvyko klaida." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Per daug užklausų. Prašome pabandyti vėliau." },
 
   "resetpassword_page_header": { "other": "Keisti slaptažodį" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Prašymas atkurti slaptažodį negalioja. <a href=\"{{.URL}}\">Prašome iš naujo užpildyti formą</a>." },
@@ -128,6 +130,7 @@
   "resetpassword_complete": { "other": "Ačiū. Jūsų slaptažodis pakeistas, jūs prisijungėte prie savo paskyros." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "Prašymas atkurti slaptažodį negalioja. Prašome vėliau bandyti dar kartą." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "Slaptažodžio atkūrimo kodas nebegalioja. Prašome kreiptis dėl naujo kodo." },
+  "resetpassword_form_error_too_many_requests": { "other": "Per daug užklausų. Prašome pabandyti vėliau." },
 
   "account_page_header": { "other": "Mano paskyra" },
   "account_form_name": { "other": "Vardas" },

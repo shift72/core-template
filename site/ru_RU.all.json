@@ -112,6 +112,7 @@
   "combined_auth_signin_password": { "other": "Введите ваш пароль для входа в аккаунт." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Это неверный пароль." },
   "combined_auth_error_forbidden": { "other": "Произошла ошибка." },
+  "combined_auth_error_too_many_requests": { "other": "Пожалуйста, повторите попытку позже." },
 
   "forgotpassword_page_header": { "other": "Сбросить пароль" },
   "forgotpassword_form_email": { "other": "Адрес электронной почты" },
@@ -120,6 +121,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "Эта учетная запись приостановлена." },
   "forgotpassword_complete": { "other": "Спасибо. Новый пароль электронной почты должен появиться в вашем почтовом ящике в ближайшее время." },
   "forgotpassword_form_error_forbidden": { "other": "Произошла ошибка." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Пожалуйста, повторите попытку позже." },
 
   "resetpassword_page_header": { "other": "Измените свой пароль" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Сборс пароля более не действителен, пожалуйста, заполните <a href=\"{{.URL}}\">Забыл_а пароль</a> сформировать снова." },
@@ -129,6 +131,7 @@
   "resetpassword_complete": { "other": "Спасибо. Ваш пароль был изменен, и вы были зарегистрированы." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "Запрос сброса пароля не действителен. Пожалуйста, попробуйте позже." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "Сборс пароля истек. Пожалуйста, запросите новый." },
+  "resetpassword_form_error_too_many_requests": { "other": "Пожалуйста, повторите попытку позже." },
 
   "account_page_header": { "other": "Мой аккаунт" },
   "account_form_name": { "other": "имя" },

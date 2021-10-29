@@ -108,6 +108,7 @@
   "combined_auth_signin_password": { "other": "Παρακαλώ εισάγετε τον κωδικό σας για να εισέλθετε στο λογαριασμό σας." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Ο κωδικός είναι λάθος." },
   "combined_auth_error_forbidden": { "other": "Αντιμετωπίσαμε ένα σφάλμα." },
+  "combined_auth_error_too_many_requests": { "other": "Πολλά αιτήματα. Παρακαλώ προσπαθήστε αργότερα." },
 
   "forgotpassword_page_header": { "other": "Επαναφέρετε τον κωδικό σας" },
   "forgotpassword_form_email": { "other": "Διεύθυνση ηλ. ταχυδρομείου" },
@@ -116,6 +117,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "Ο λογαριασμός σας έχει ακυρωθεί." },
   "forgotpassword_complete": { "other": "Σας ευχαριστούμε. Θα λάβετε σύντομα ένα μήνυμα για την επαναφορά του κωδικού σας." },
   "forgotpassword_form_error_forbidden": { "other": "Αντιμετωπίσαμε ένα σφάλμα." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Πολλά αιτήματα. Παρακαλώ προσπαθήστε αργότερα." },
 
   "resetpassword_page_header": { "other": "Αλλάξτε τον κωδικό σας" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Φαίνεται πως το αίτημα επαναφορά του κωδικού σας έχει ακυρωθεί, παρακαλώ συμπληρώστε τη φόρμα <a href=\"{{.URL}}\">ανάκτησης του κωδικού σας</a> ξανά." },
@@ -125,6 +127,7 @@
   "resetpassword_complete": { "other": "Σας ευχαριστούμε. Ο κωδικός σας έχει αλλάξει και έχετε εισέλθει στο λογαριασμό σας." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "Το αίτημα για επαναφορά του κωδικού σας δεν είναι έγκυρο. Παρακαλώ δοκιμάστε αργότερα." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "Το αίτημα επαναφοράς του κωδικού σας έχει λήξει. Παρακαλώ δοκιμάστε ξανά." },
+  "resetpassword_form_error_too_many_requests": { "other": "Πολλά αιτήματα. Παρακαλώ προσπαθήστε αργότερα." },
 
   "account_page_header": { "other": "Ο λογαριασμός μου" },
   "account_form_name": { "other": "Όνομα" },

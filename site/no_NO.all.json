@@ -111,6 +111,7 @@
     "combined_auth_signin_password": { "other": "Vennligst skriv inn passordet ditt for å logge på kontoen din." },
     "combined_auth_signin_error_incorrect_credentials": { "other": "Passordet stemmer ikke." },
     "combined_auth_error_forbidden": { "other": "Det har oppstått en feil." },
+    "combined_auth_error_too_many_requests": { "other": "For mange forespørsler. Vær snill å prøv senere." },
   
     "forgotpassword_page_header": { "other": "Tilbakestill passord" },
     "forgotpassword_form_email": { "other": "E-postadresse" },
@@ -119,6 +120,7 @@
     "forgotpassword_form_error_account_suspended": { "other": "Denne kontoen er suspendert." },
     "forgotpassword_complete": { "other": "Takk skal du ha! Du mottar straks en e-post for å tilbakestille passordet." },
     "forgotpassword_form_error_forbidden": { "other": "Det har oppstått en feil." },
+    "forgotpassword_form_error_too_many_requests": { "other": "For mange forespørsler. Vær snill å prøv senere." },
   
     "resetpassword_page_header": { "other": "Endre passord" },
     "resetpassword_form_invalid_reset_password_token": { "other": "Det ser ut til at denne forespørselen er ugyldig, vennligst fyll ut skjemaet om <a href=\"{{.URL}}\">tilbakestilling av passord </a> på nytt." },
@@ -128,6 +130,7 @@
     "resetpassword_complete": { "other": "Takk skal du ha! Ditt passord har blitt endret, og du er nå logget inn." },
     "resetpassword_form_error_invalid_reset_password_token": { "other": "Forespørselen om tilbakestilling av passord er ikke gyldig. Vennligst prøv igjen senere." },
     "resetpassword_form_error_reset_password_token_expired": { "other": "Forespørselen om tilbakestilling av passord har gått ut på tid. Vennligst prøv på nytt." },
+    "resetpassword_form_error_too_many_requests": { "other": "For mange forespørsler. Vær snill å prøv senere." },
   
     "account_page_header": { "other": "Min konto" },
     "account_form_name": { "other": "Navn" },
