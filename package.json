@@ -41,6 +41,7 @@
     "font-awesome": "^4.7.0",
     "minify": "^4.1.1",
     "npm-run-all": "^4.0.2",
+    "postcss": "^8.3.11",
     "postcss-cli": "^9.0.1",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
