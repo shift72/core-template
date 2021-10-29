@@ -1,7 +1,7 @@
 {{block socialMediaButtons(path="", title="", letterboxdID="")}}
-{{show_facebook_share := config("show_facebook_share") == "true"}}
-{{show_twitter_share := config("show_twitter_share") == "true"}}
-{{show_linkedin_share := config("show_linkedin_share") == "true"}}
+{{show_facebook_share := config("show_facebook_share", "true") == "true"}}
+{{show_twitter_share := config("show_twitter_share", "true") == "true"}}
+{{show_linkedin_share := config("show_linkedin_share", "true") == "true"}}
 
 	{{if show_facebook_share || show_twitter_share || show_linkedin_share || letterboxdID}}
 		<div class="social-media-buttons">
