@@ -106,6 +106,7 @@
   "combined_auth_signin_password": { "other": "Veuillez entrer un mot de passe." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Le mot de passe est incorrect." },
   "combined_auth_error_forbidden": { "other": "Une erreur est survenue." },
+  "combined_auth_error_too_many_requests": { "other": "Il y a trop de demandes. S'il-vous-plait réessayez plus tard." },
 
   "forgotpassword_page_header": { "other": "Récupérer votre mot de passe" },
   "forgotpassword_form_email": { "other": "Adresse électronique" },
@@ -114,6 +115,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "Ce compte est suspendu." },
   "forgotpassword_complete": { "other": "Merci. Vous allez recevoir rapidement un email de réinitialisation du mot de passe dans votre boîte de réception." },
   "forgotpassword_form_error_forbidden": { "other": "Une erreur est survenue." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Il y a trop de demandes. S'il-vous-plait réessayez plus tard." },
 
   "resetpassword_page_header": { "other": "Changez votre mot de passe" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Il semble que cette demande de réinitialisation du mot de passe ne soit pas valide, merci de remplir à nouveau le formulaire de <a href=\"{{.URL}}\">Réinitialisation du Mot de passe</a>." },
@@ -123,6 +125,7 @@
   "resetpassword_complete": { "other": "Merci, votre mot de passe a bien été modifié. Vous êtes maintenant connecté." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "La demande de réinitialisation est invalide. Veuillez réessayer ultérieurement." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "Le lien de réinitialisation du mot de passe a expiré. Veuillez en demander un nouveau." },
+  "resetpassword_form_error_too_many_requests": { "other": "Il y a trop de demandes. S'il-vous-plait réessayez plus tard." },
 
   "account_page_header": { "other": "Mon compte" },
   "account_form_name": { "other": "Nom" },

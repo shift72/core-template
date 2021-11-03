@@ -108,6 +108,7 @@
   "combined_auth_signin_password": { "other": "Por favor ingresa tu contraseña para iniciar sesión." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Esa contraseña es incorecta." },
   "combined_auth_error_forbidden": { "other": "Ha ocurido un error." },
+  "combined_auth_error_too_many_requests": { "other": "Hay demasiadas solicitudes. Por favor inténtelo más tarde." },
 
   "forgotpassword_page_header": { "other": "Reestablecer contraseña" },
   "forgotpassword_form_email": { "other": "Correo" },
@@ -116,6 +117,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "Esta cuenta está suspendida." },
   "forgotpassword_complete": { "other": "Gracias. Un correo para reestablecer la constraseña debería llegar a tu inbox pronto." },
   "forgotpassword_form_error_forbidden": { "other": "Ha ocurrido un error." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Hay demasiadas solicitudes. Por favor inténtelo más tarde." },
 
   "resetpassword_page_header": { "other": "Cambiar tu contraseña" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Parece que esta solicitud para reestablecer la constraseña no es válida, por favor completa el formato <a href=\"{{.URL}}\">Se te olvidó tu contraseña</a> otra vez." },
@@ -125,6 +127,7 @@
   "resetpassword_complete": { "other": "Gracias. Tu contraseña ha cambiado y has iniciado sesión." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "La solicitud para reestablecer la contraseña es inválida. Por favor intenta más tarde." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "El token para reestablecer la contraseña está vencido. Por favor solicita uno nuevo." },
+  "resetpassword_form_error_too_many_requests": { "other": "Hay demasiadas solicitudes. Por favor inténtelo más tarde." },
 
   "account_page_header": { "other": "Mi cuenta" },
   "account_form_name": { "other": "Nombre" },

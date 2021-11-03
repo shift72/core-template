@@ -238,6 +238,9 @@
   "combined_auth_error_forbidden": {
    "other": "Ocorreu um erro."
   },
+  "combined_auth_error_too_many_requests": {
+    "other": "Muitos pedidos. Por favor tente mais tarde."
+  },
   "forgotpassword_page_header": {
    "other": "Alterar senha"
   },
@@ -258,6 +261,9 @@
   },
   "forgotpassword_form_error_forbidden": {
    "other": "Ocorreu um erro."
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "Muitos pedidos. Por favor tente mais tarde."
   },
   "resetpassword_page_header": {
    "other": "Alterar sua senha"
@@ -282,6 +288,9 @@
   },
   "resetpassword_form_error_reset_password_token_expired": {
    "other": "O token para alteração de senha expirou. Por favor, solicite novamente."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "Muitos pedidos. Por favor tente mais tarde."
   },
   "account_page_header": {
    "other": "Minha conta"

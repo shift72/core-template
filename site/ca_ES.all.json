@@ -238,6 +238,9 @@
   "combined_auth_error_forbidden": {
    "other": "S'ha produït un error."
   },
+  "combined_auth_error_too_many_requests": {
+    "other": "Hi ha massa sol·licituds, torneu-ho a provar més tard."
+  },
   "forgotpassword_page_header": {
    "other": "Restablir la contrasenya"
   },
@@ -258,6 +261,9 @@
   },
   "forgotpassword_form_error_forbidden": {
    "other": "S'ha produït un error."
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "Hi ha massa sol·licituds, torneu-ho a provar més tard."
   },
   "resetpassword_page_header": {
    "other": "Canvia la teva contrasenya"
@@ -282,6 +288,9 @@
   },
   "resetpassword_form_error_reset_password_token_expired": {
    "other": "El token de restabliment ha caducat. Si us plau, sol·liciteu-ne un de nou."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "Hi ha massa sol·licituds, torneu-ho a provar més tard."
   },
   "account_page_header": {
    "other": "El meu compte"

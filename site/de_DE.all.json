@@ -103,6 +103,7 @@
   "combined_auth_signin_password": { "other": "Bitte geben Sie Ihr Password ein um zu Ihrem Konto zu gelangen." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Falsches Password." },
   "combined_auth_error_forbidden": { "other": "Ein Fehler ist aufgetreten." },
+  "combined_auth_error_too_many_requests": { "other": "Zu viele Anfragen. Bitte versuchen Sie es später noch einmal." },
 
   "forgotpassword_page_header": { "other": "Passwort zurücksetzen" },
   "forgotpassword_form_email": { "other": "E-Mail-Adresse" },
@@ -111,6 +112,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "Dieses Konto wurde gesperrt." },
   "forgotpassword_complete": { "other": "Vielen Dank! In Kürze erhalten Sie eine E-Mail mit einem Link zum Zurücksetzen Ihres Passwortes." },
   "forgotpassword_form_error_forbidden": { "other": "Ein Fehler ist aufgetreten." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Zu viele Anfragen. Bitte versuchen Sie es später noch einmal." },
 
   "resetpassword_page_header": { "other": "Ändern Sie Ihr Passwort" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Ihre Anfrage ist ungültig. Bitte füllen Sie das Formular <a href=\"{{.URL}}\">Passwort vergessen</a> nochmals aus." },
@@ -120,6 +122,7 @@
   "resetpassword_complete": { "other": "Vielen Dank. Ihr Passwort wurde geändert und Sie wurden eingeloggt." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "Ihre Anfrage ist ungültig. Bitte versuchen Sie es später nochmals." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "Ihre Anfrage ist abgelaufen. Bitte füllen Sie das Formular <a href=\"{{.URL}}\">Passwort vergessen</a> nochmals aus." },
+  "resetpassword_form_error_too_many_requests": { "other": "Zu viele Anfragen. Bitte versuchen Sie es später noch einmal." },
 
   "account_page_header": { "other": "Mein Konto" },
   "account_form_name": { "other": "Name" },
