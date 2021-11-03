@@ -43,7 +43,6 @@
                     <a class="plan-page-link btn btn-light text-dark btn-block" href="{{ routeToSlug(p.Page.Slug) }}">{{i18n("plan_read_more")}}</a>
                   {{ end }}
                   <s72-pricing-buttons class="btn-block" data-slug="{{p.Slug}}" data-title="{{p.Name}}" />
-                  <s72-plan-label data-slug="{{p.Slug}}" data-title="{{p.Name}}"/>
                 </div>
               </div>
           </div>
