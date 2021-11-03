@@ -249,7 +249,7 @@
   },
   "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },
 
-  "shopping_enter_card_prompt": { "other": "Enter your credit card details below to complete your {{.Verb}}." },
+  "shopping_enter_card_prompt": { "other": "Enter your card details below to complete your {{.Verb}}." },
 
   "shopping_terms": { "other": "By completing this transaction, I agree to the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">terms and conditions</a>."},
   "shopping_discount_applied": { "other": "{{.DiscountAmount}} discount applied." },
@@ -265,17 +265,17 @@
 
   "shopping_error_in_library": { "other": "{{.Title}} is already in your library." },
 
-  "shopping_error_missing_card": { "other": "Please enter your Credit Card details." },
+  "shopping_error_missing_card": { "other": "Please enter your Card details." },
   "shopping_error_title": { "other": "An error occured" },
   "shopping_error_incorrect_cvc": { "other": "Please enter a valid CVV." },
   "shopping_error_invalid_cvc": { "other": "Please enter a valid CVV." },
-  "shopping_error_incorrect_number": { "other": "Please enter a valid Credit Card Number." },
-  "shopping_error_invalid_number": { "other": "Please enter a valid Credit Card Number." },
-  "shopping_error_card_declined": { "other": "The Credit Card has been declined." },
+  "shopping_error_incorrect_number": { "other": "Please enter a valid Card Number." },
+  "shopping_error_invalid_number": { "other": "Please enter a valid Card Number." },
+  "shopping_error_card_declined": { "other": "The Card has been declined." },
   "shopping_error_invalid_expiry_month": { "other": "Please enter a valid Expiry." },
   "shopping_error_invalid_expiry_year": { "other": "Please enter a valid Expiry." },
-  "shopping_error_expired_card": { "other": "The Credit Card has expired." },
-  "shopping_error_creditcard_country_mismatch": { "other": "Your {{.Ownership}} has not been completed. You need to be in the country your credit card was issued. Please use another card for making the payment." },
+  "shopping_error_expired_card": { "other": "The Card has expired." },
+  "shopping_error_creditcard_country_mismatch": { "other": "Your {{.Ownership}} has not been completed. You need to be in the country your card was issued. Please use another card for making the payment." },
   "shopping_error_proxy_detected": { "other": "Your {{.Ownership}} has not been completed. We have detected that you are using an unblocker or proxy service. Please turn off any of these services and try again." },
 
   "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
