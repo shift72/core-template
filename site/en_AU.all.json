@@ -539,7 +539,7 @@
   },
   "plans_page_header": { "other": "Available Plans" },
   "plan_label_owned" : {"other": "You own this plan" },
-  "plan_expiry_date" : { "other": "Sales close: {{ .ExpiryDate }}"},
+  "plan_expiry_date" : { "other": "Sales close: "},
   "plan_read_more"   : { "other": "Find out more" },
 
   "plan_page_read_more": { "other": "Read more" },
