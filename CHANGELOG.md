@@ -1,6 +1,22 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.3.6...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.3.7...HEAD)
+
+## [0.3.7](https://github.com/shift72/core-template/compare/0.3.6...0.3.7)
+
+### Added
+- Separator div template with `border-bottom`.  Used by app banner.
+- Background image template.  Used by bundle and curated pages (so far).
+
+### Changed
+- Removed `border-bottom` from app banner.
+- Atomized common elements for content and curated pages.  CSS is shared now too.
+
+### Fixed
+- The Sass variables for setting the logo size (`$navbar-brand-min-width-md`/`$navbar-brand-min-width-lg`) are now used for their respective breakpoints.
+- List left/right padding now changes at the correct breakpoint (`lg` instead of `md`).
+- Curated page text content now has a maximum width to mirror behaviour of content page text content.
+- Addressed npm audit vulnerabilities.
 
 ## [0.3.6](https://github.com/shift72/core-template/compare/0.3.5...0.3.6)
 

@@ -111,6 +111,7 @@
     "combined_auth_signin_password": { "other": "Sisse logimiseks sisesta palun oma salasõna." },
     "combined_auth_signin_error_incorrect_credentials": { "other": "Vale salasõna." },
     "combined_auth_error_forbidden": { "other": "On juhtunud viga." },
+    "combined_auth_error_too_many_requests": { "other": "Liiga palju taotlusi. Palun proovi hiljem uuesti." },
   
     "forgotpassword_page_header": { "other": "Lähtesta oma salasõna" },
     "forgotpassword_form_email": { "other": "E-posti aadress" },
@@ -119,6 +120,7 @@
     "forgotpassword_form_error_account_suspended": { "other": "Konto on peatatud." },
     "forgotpassword_complete": { "other": "Aitäh! Salasõna lähtestamise e-kiri peaks kohe su postkasti jüudma." },
     "forgotpassword_form_error_forbidden": { "other": "On toimunud viga." },
+    "forgotpassword_form_error_too_many_requests": { "other": "Liiga palju taotlusi. Palun proovi hiljem uuesti." },
   
     "resetpassword_page_header": { "other": "Muuda oma salasõna" },
     "resetpassword_form_invalid_reset_password_token": { "other": "Näib, et salasõna lähtestamisel läks midagi valesti. Palun täida <a href=\"{{.URL}}\">salasõna lähtestamise vorm</a> uuesti." },
@@ -128,6 +130,7 @@
     "resetpassword_complete": { "other": "Aitäh! Sinu salasõna on muudetud ja oled sisse logitud." },
     "resetpassword_form_error_invalid_reset_password_token": { "other": "Salasõna lähtestamise päring ebaõnnestus. Palun proovi hiljem uuesti." },
     "resetpassword_form_error_reset_password_token_expired": { "other": "Salasõna lähtestamise võti on aegunud. Palun täida salasõna lähtestamise vorm uuesti." },
+    "resetpassword_form_error_too_many_requests": { "other": "Liiga palju taotlusi. Palun proovi hiljem uuesti." },
   
     "account_page_header": { "other": "Minu konto" },
     "account_form_name": { "other": "Nimi" },

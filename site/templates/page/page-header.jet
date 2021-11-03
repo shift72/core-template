@@ -1,0 +1,7 @@
+{{block pageHeader(title="")}}
+  {{if len(title) > 0}}
+    <div class="page-header">
+      <h1>{{title}}</h1>
+    </div>
+  {{end}}
+{{end}}

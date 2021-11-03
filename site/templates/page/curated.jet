@@ -1,5 +1,9 @@
 {{extends "templates/application.jet"}}
 {{import "templates/collection/page_collection.jet"}}
+{{import "templates/common/background-image.jet"}}
+{{import "templates/common/separator.jet"}}
+{{import "templates/page/page-content.jet"}}
+{{import "templates/page/page-header.jet"}}
 
 {{block head()}}
   {{yield seo() page}}
@@ -7,26 +11,18 @@
 
 
 {{block body()}}
-<main id="main" class="page {{page.PageType}}-page">
-  <div class="page-bg">
-    <div class="right-gradient"></div>
-    <s72-image src="{{page.Images.Background}}" alt="" class="page-bg-img"></s72-image>
-  </div>
-  <div class="container-fluid">
-    <div class="page-header">
-      <h1>{{ page.Title }}</h1>
-      {{if len(page.Content)}}
-        <div class="page-header-content">
-          {{page.Content | raw}}
-        </div>
+  <main id="main" class="page curated-page">
+    {{yield backgroundImage(containerClass="page-bg", gradientClass="right-gradient", imageClass="page-bg-img", imageSrc=page.Images.Background)}}
+
+    {{yield pageHeader(title=page.Title)}}
+
+    {{yield pageContent(text=page.Content)}}
+
+    <div class="page-collections">
+      <h2 class="sr-only">{{i18n("wcag_collections_h2")}}</h2>
+      {{range index, pf := page.PageCollections}}
+        {{yield pageCollection() pf}}
       {{end}}
     </div>
-  </div>
-  <div class="page-collections">
-    <h2 class="sr-only">{{i18n("wcag_collections_h2")}}</h2>
-    {{range index, pf := page.PageCollections}}
-      {{yield pageCollection() pf}}
-    {{end}}
-  </div>
-</main>
+  </main>
 {{end}}

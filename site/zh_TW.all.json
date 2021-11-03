@@ -238,6 +238,9 @@
   "combined_auth_error_forbidden": {
    "other": "發生錯誤"
   },
+  "combined_auth_error_too_many_requests": {
+    "other": "請求過多，請稍後重試。"
+  },
   "forgotpassword_page_header": {
    "other": "重設密碼"
   },
@@ -258,6 +261,9 @@
   },
   "forgotpassword_form_error_forbidden": {
    "other": "發生錯誤"
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "請求過多，請稍後重試。"
   },
   "resetpassword_page_header": {
    "other": "變更密碼"
@@ -282,6 +288,9 @@
   },
   "resetpassword_form_error_reset_password_token_expired": {
    "other": "「重設密碼」申請已失效，請重新申請。"
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "請求過多，請稍後重試。"
   },
   "account_page_header": {
    "other": "我的帳號"

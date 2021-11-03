@@ -111,6 +111,7 @@
   "combined_auth_signin_password": { "other": "Inserisci la tua password per poterti loggare al tuo nuovo account." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "La password è errata." },
   "combined_auth_error_forbidden": { "other": "C'è stato un errore." },
+  "combined_auth_error_too_many_requests": { "other": "Troppe richieste. La preghiamo di riprovare più tardi." },
 
   "forgotpassword_page_header": { "other": "Resetta la tua password" },
   "forgotpassword_form_email": { "other": "Indirizzo email" },
@@ -119,6 +120,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "L'account utente è sospeso." },
   "forgotpassword_complete": { "other": "Grazie. A breve ti arriverà un'email per poter resettare la tua password." },
   "forgotpassword_form_error_forbidden": { "other": "C'è stato un errore." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Troppe richieste. La preghiamo di riprovare più tardi." },
 
   "resetpassword_page_header": { "other": "Cambia la tua password" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Sembra che la richiesta di reset della password non sia valida. Riempi di nuovo il form<a href=\"{{.URL}}\">Ho dimenticato la Password</a>, grazie." },
@@ -128,6 +130,7 @@
   "resetpassword_complete": { "other": "Grazie. La tua password è stata modificata, ora sei loggato." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "La richiesta di reset della password non è valida. Riprova più tardi." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "Il token per il reset della password è scaduto. Richiedine uno nuovo." },
+  "resetpassword_form_error_too_many_requests": { "other": "Troppe richieste. La preghiamo di riprovare più tardi." },
 
   "account_page_header": { "other": "Il mio account" },
   "account_form_name": { "other": "Nome" },

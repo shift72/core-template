@@ -225,6 +225,9 @@
   "combined_auth_error_forbidden": {
    "other": "Сталася помилка."
   },
+  "combined_auth_error_too_many_requests": {
+    "other": "Забагато запитів, спробуйте пізніше."
+  },
   "forgotpassword_page_header": {
    "other": "Скинути пароль"
   },
@@ -245,6 +248,9 @@
   },
   "forgotpassword_form_error_forbidden": {
    "other": "Сталася помилка."
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "Забагато запитів, спробуйте пізніше."
   },
   "resetpassword_page_header": {
    "other": "Змінити пароль"
@@ -269,6 +275,9 @@
   },
   "resetpassword_form_error_reset_password_token_expired": {
    "other": "Термін дії маркера скидання пароля закінчився. Будь ласка, запитайте новий."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "Забагато запитів, спробуйте пізніше."
   },
   "account_page_header": {
    "other": "Мій обліковий запис"

@@ -108,6 +108,7 @@
     "combined_auth_signin_password": { "other": "Por favor, insira sua senha para entrar em sua conta." },
     "combined_auth_signin_error_incorrect_credentials": { "other": "A senha fornecida está incorreta." },
     "combined_auth_error_forbidden": { "other": "Ocorreu um erro." },
+    "combined_auth_error_too_many_requests": { "other": "Muitos pedidos. Por favor tente mais tarde." },
 
     "forgotpassword_page_header": { "other": "Alterar senha" },
     "forgotpassword_form_email": { "other": "E-mail" },
@@ -116,6 +117,7 @@
     "forgotpassword_form_error_account_suspended": { "other": "Essa conta foi suspensa." },
     "forgotpassword_complete": { "other": "Obrigado. Você deve receber um e-mail para alteração de senha na sua caixa de entrada." },
     "forgotpassword_form_error_forbidden": { "other": "Ocorreu um erro." },
+    "forgotpassword_form_error_too_many_requests": { "other": "Muitos pedidos. Por favor tente mais tarde." },
 
     "resetpassword_page_header": { "other": "Alterar sua senha" },
     "resetpassword_form_invalid_reset_password_token": { "other": "Parece que esse pedido para alteração de senha é inválido. Por favor, faça uma nova solicitação em <a href=\"{{.URL}}\">Esqueci minha senha</a>." },
@@ -125,6 +127,7 @@
     "resetpassword_complete": { "other": "Obrigado. Sua senha foi alterada e você está conectado." },
     "resetpassword_form_error_invalid_reset_password_token": { "other": "O pedido para alteração de senha é inválido, por favor tente novamente mais tarde." },
     "resetpassword_form_error_reset_password_token_expired": { "other": "O token para alteração de senha expirou. Por favor, solicite novamente." },
+    "resetpassword_form_error_too_many_requests": { "other": "Muitos pedidos. Por favor tente mais tarde." },
 
     "account_page_header": { "other": "Minha conta" },
     "account_form_name": { "other": "Nome" },

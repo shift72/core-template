@@ -88,6 +88,7 @@
   "combined_auth_signin_password": { "other": "Syötä salasanasi kirjautuaksesi tilillesi." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Salasana on virheellinen." },
   "combined_auth_error_forbidden": { "other": "Tapahtui virhe." },
+  "combined_auth_error_too_many_requests": { "other": "Liikaa pyyntöjä, yritä myöhemmin uudelleen." },
 
   "forgotpassword_page_header": { "other": "Tilaa uusi salasana" },
   "forgotpassword_form_email": { "other": "Sähköpostiosoite" },
@@ -96,6 +97,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "Tämä tili on jäädytetty." },
   "forgotpassword_complete": { "other": "Kiitos. Saat pian sähköpostiisi linkin salasanasi vaihtamiseksi." },
   "forgotpassword_form_error_forbidden": { "other": "An error has occurred." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Liikaa pyyntöjä, yritä myöhemmin uudelleen." },
 
   "resetpassword_page_header": { "other": "Vaihda salasana" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Vaikuttaa siltä, ​​että tämä salasanan palautuspyyntö on virheellinen. Täytä <a href=\"{{.URL}}\">Salasananvaihtolomake</a> uudelleen." },
@@ -105,6 +107,7 @@
   "resetpassword_complete": { "other": "Kiitos. Salasanasi on vaihdettu ja sinut on kirjattu sisään." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "Salasanan vaihtopyyntö on virheellinen. Yritä myöhemmin uudelleen." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "Salasananvaihtopyyntö on vanhentunut. Pyydä uusi." },
+  "resetpassword_form_error_too_many_requests": { "other": "Liikaa pyyntöjä, yritä myöhemmin uudelleen." },
 
   "account_page_header": { "other": "Tilini" },
   "account_form_name": { "other": "Nimi" },

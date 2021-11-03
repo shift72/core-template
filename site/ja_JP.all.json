@@ -86,6 +86,7 @@
   "combined_auth_signin_password": { "other": "パスワードを入力してサインインする。" },
   "combined_auth_signin_error_incorrect_credentials": { "other": "このパスワードは不正です。" },
   "combined_auth_error_forbidden": { "other": "エラーが発生しました。" },
+  "combined_auth_error_too_many_requests": { "other": "要求が多すぎます。あとで言ってください。" },
 
   "forgotpassword_page_header": { "other": "パスワードをリセットする" },
   "forgotpassword_form_email": { "other": "Eメールアドレス" },
@@ -94,6 +95,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "このアカウントは停止中です。" },
   "forgotpassword_complete": { "other": "ありがとうございます。パスワード再登録の案内メールをお送りしました。" },
   "forgotpassword_form_error_forbidden": { "other": "エラーが発生しました。" },
+  "forgotpassword_form_error_too_many_requests": { "other": "要求が多すぎます。あとで言ってください。" },
 
   "resetpassword_page_header": { "other": "パスワードを変更する" },
   "resetpassword_form_invalid_reset_password_token": { "other": "パスワード再設定リクエスト有効期限切れのようです。再度、 <a href=\"{{.URL}}\">パスワード再設定</a> フォームから申請してください。" },
@@ -103,6 +105,7 @@
   "resetpassword_complete": { "other": "ありがとうございます。パスワードは変更されました。サインイン中です。" },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "パスワード再設定リクエストは無効です。もう一度リクエストしてください。" },
   "resetpassword_form_error_reset_password_token_expired": { "other": "パスワード再設定のトークンは有効期限が切れました。新しいトークンを申請してください。" },
+  "resetpassword_form_error_too_many_requests": { "other": "要求が多すぎます。あとで言ってください。" },
 
   "account_page_header": { "other": "マイアカウント" },
   "account_form_name": { "other": "名前" },
