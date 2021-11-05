@@ -36,6 +36,7 @@ $spacer: math.div(2, 3) * 1rem; // 10px
 
 $spacers: (
   '0': 0,
+  'p5': ($spacer * 0.5),   // 10px
   '1': $spacer,            // 10px
   '2': ($spacer * 2),      // 20px
   '3': ($spacer * 3),      // 30px
