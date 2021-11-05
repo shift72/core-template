@@ -18,6 +18,11 @@
   </div>
   <div class="container-fluid">
     <div class="page-header">
+
+      {{if plan != 0}}
+        <s72-plan-label data-slug="{{plan.Slug}}" data-title="{{plan.Name}}"></s72-plan-label>
+      {{end}}
+
       <h1>{{ page.Title }}</h1>
 
       {{if plan != 0 && plan.HasExpiryDate() }}
@@ -40,7 +45,6 @@
       {{if plan != 0 }}
         <div>
           <s72-pricing-buttons data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" data-ownership-label-prefix={{ i18n("plan_showcase_page_ownership_button_") }} data-hide-price="true" />
-          <s72-plan-label data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" />
         </div>
       {{end}}
     </div>
