@@ -1,3 +1,7 @@
 small {
-    font-size: 85%;
+  font-size: 85%;
+}
+
+a:not([class]) {
+  text-decoration: underline;
 }
