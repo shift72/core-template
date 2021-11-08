@@ -30,6 +30,11 @@
             {{ end }}
               <div class="card-body d-flex flex-column justify-content-between">
                 <div class="plan-caption-details">
+
+                  {{ if !isset(p.LandscapeImage) || p.LandscapeImage == "" }}
+                    <s72-plan-label data-slug="{{p.Slug}}" data-title="{{p.Name}}"></s72-plan-label>
+                  {{ end }}
+
                   <h3 class="plan-name">{{p.Name}}</h3>
 
                   {{ if p.HasExpiryDate() }}
@@ -40,6 +45,7 @@
                       </small>
                     </p>
                   {{ end }}
+
                   <p class="plan-description">{{p.Description}}</p>
                   {{ if p.Interval }}
                     <p class="plan-interval">{{i18n("shopping_info_plan_offer", map("Interval", p.Interval, "Count", p.IntervalCount))}}</p>
@@ -48,6 +54,7 @@
                     {{ end }}
                   {{ end }}
                 </div>
+
                 <div class="plan-buttons">
                   {{ if p.Page }}
                     <a class="plan-page-link btn btn-light text-dark btn-block" href="{{ routeToSlug(p.Page.Slug) }}">{{i18n("plan_read_more")}}</a>

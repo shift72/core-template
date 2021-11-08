@@ -26,4 +26,13 @@ s72-plan-label {
       top: 5px;
     }
   }
+
+  s72-pricing-buttons:not(.s72-show) {
+    margin: 0;
+  }
+
+  .plan-caption-details .s72-plan-owned {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
 }
