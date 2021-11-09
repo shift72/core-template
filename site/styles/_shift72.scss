@@ -336,15 +336,3 @@ s72-cant-be-watched {
   background-color: mix(invert($body-bg), $body-bg, 10%);
   @extend .py-4;
 }
-
-// fix text underline on text node < block style btn < anchor hover
-a:hover {
-  button {
-    @extend .d-inline-block; // required for text decoration none
-    @extend .text-decoration-none;
-  }
-  // availability label can interfere with btn hover as it overlaps
-  s72-availability-label {
-    pointer-events: none;
-  }
-}
