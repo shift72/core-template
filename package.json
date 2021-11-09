@@ -14,9 +14,9 @@
     "js:lint": "prettier '{scripts,site/static/js}/**/!(modernizr-custom).js' --write && eslint ./site/static/js/*.js ./scripts --fix",
     "js:watch": "rollup -c -w",
     "js:build": "rollup -c",
-    "kibble": "/Users/david/src/shift72-kibble/kibble/kibble render",
-    "kibble:watch": "/Users/david/src/shift72-kibble/kibble/kibble render --watch --port 8081",
-    "kibble:build": "/Users/david/src/shift72-kibble/kibble/kibble publish",
+    "kibble": "kibble render",
+    "kibble:watch": "kibble render --watch --port 8081",
+    "kibble:build": "kibble publish",
     "build": "npm-run-all css js:build css:build kibble:build",
     "language:csv": "node scripts/language-file-to-csv/language-file-to-csv.js site/en_AU.all.json",
     "language:validate": "node scripts/language-file-validator.js"
@@ -44,7 +44,7 @@
     "postcss-cli": "^7.1.1",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
-    "s72-kibble": "^0.15.20",
+    "s72-kibble": "^0.15.22",
     "sass": "^1.36.0",
     "watch": "^1.0.2"
   },
