@@ -11,12 +11,17 @@
 
 
 {{block body()}}
+{{ plan := 0 }}
+{{ if len(page.Plans) }}
+  {{ plan = page.Plans[0] }}
+{{ end }}
+
   <main id="main" class="page curated-page">
     {{yield backgroundImage(containerClass="page-bg", gradientClass="right-gradient", imageClass="page-bg-img", imageSrc=page.Images.Background)}}
 
-    {{yield pageHeader(title=page.Title)}}
+    {{yield pageHeader(title=page.Title, plan=plan)}}
 
-    {{yield pageContent(text=page.Content)}}
+    {{yield pageContent(text=page.Content, plan=plan)}}
 
     <div class="page-collections">
       <h2 class="sr-only">{{i18n("wcag_collections_h2")}}</h2>
@@ -24,5 +29,20 @@
         {{yield pageCollection() pf}}
       {{end}}
     </div>
+
+    {{ if plan != 0 }}
+      <div class="s72-view-all-passes text-center">
+        <h2 class="s72-divider-bottom mb-2 pb-2">{{ i18n("plan_page_header_text", map("Name", plan.Name)) }}</h2>
+
+        <p class="col-xs-10 col-xxl-8 mx-auto">{{ plan.Description }}</p>
+
+        <div>
+          <s72-pricing-buttons class="mb-2" data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" data-ownership-label-prefix="pricing_ownership_no_price_" />
+          <s72-plan-label data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" />
+        </div>
+        <p>{{ i18n("page_plan_explore_intro" )}}</p>
+        <p><a href="/plans.html">{{ i18n("page_plan_explore_link") }}</a></p>
+      </div>
+    {{ end }}
   </main>
 {{end}}
