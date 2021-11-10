@@ -86,6 +86,7 @@
 	"combined_auth_signin_password": { "other": "Molimo unesite lozinku za prijavu na vaš korisnički račun." },
 	"combined_auth_signin_error_incorrect_credentials": { "other": "Pogrešna lozinka." },
 	"combined_auth_error_forbidden": { "other": "Došlo je do pogreške." },
+	"combined_auth_error_too_many_requests": { "other": "Previše zahtjeva. Pokušajte ponovno kasnije." },
 
 	"forgotpassword_page_header": { "other": "Resetirajte lozinku" },
 	"forgotpassword_form_email": { "other": "Email adresa" },
@@ -94,6 +95,7 @@
 	"forgotpassword_form_error_account_suspended": { "other": "Ovaj račun je blokiran." },
 	"forgotpassword_complete": { "other": "Hvala vam. Email s uputama za resetiranje lozinke upućen je na vaš email." },
 	"forgotpassword_form_error_forbidden": { "other": "Došlo je do pogreške." },
+	"forgotpassword_form_error_too_many_requests": { "other": "Previše zahtjeva. Pokušajte ponovno kasnije." },
 
 	"resetpassword_page_header": { "other": "Promijeni lozinku" },
 	"resetpassword_form_invalid_reset_password_token": { "other": "Zahtjev za resetiranje lozinke nije valjan, molimo ispunite <a href=\"{{.URL}}\">Forgot Password</a> obrazac ponovno." },
@@ -103,6 +105,7 @@
 	"resetpassword_complete": { "other": "Hvala vam. Vaša lozinka je promijenjena i prijavljeni ste." },
 	"resetpassword_form_error_invalid_reset_password_token": { "other": "Zahtjev za resetiranje lozinke nije valjan. Molimo pokušajte kasnije." },
 	"resetpassword_form_error_reset_password_token_expired": { "other": "Ključ za resetiranje lozinke je istekao. Molimo zatražite novi." },
+	"resetpassword_form_error_too_many_requests": { "other": "Previše zahtjeva. Pokušajte ponovno kasnije." },
 
 	"account_page_header": { "other": "Moj korisnički račun" },
 	"account_form_name": { "other": "Ime" },

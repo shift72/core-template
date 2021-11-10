@@ -111,6 +111,7 @@
     "combined_auth_signin_password": { "other": "Kérjük, add meg a jelszavadat a fiókodba történő belépéshez." },
     "combined_auth_signin_error_incorrect_credentials": { "other": "Hibás jelszó." },
     "combined_auth_error_forbidden": { "other": "Hiba történt." },
+    "combined_auth_error_too_many_requests": { "other": "Túl sok kérés. Kérlek, próbáld újra később." },
   
     "forgotpassword_page_header": { "other": "Új jelszó beállítása" },
     "forgotpassword_form_email": { "other": "E-mail cím" },
@@ -119,6 +120,7 @@
     "forgotpassword_form_error_account_suspended": { "other": "Ezt a fiókot felfüggesztették." },
     "forgotpassword_complete": { "other": "Köszönjük. A jelszó visszaállításáról hamarosan e-mailed érkezik." },
     "forgotpassword_form_error_forbidden": { "other": "Hiba történt." },
+    "forgotpassword_form_error_too_many_requests": { "other": "Túl sok kérés. Kérlek, próbáld újra később." },
   
     "resetpassword_page_header": { "other": "Jelszó megváltoztatása." },
     "resetpassword_form_invalid_reset_password_token": { "other": "Úgy tűnik, hogy ez a jelszó érvénytelen, kérjük töltsd ki ismét az <a href=\"{{.URL}}\">Elfelejtett jelszó</a> űrlapot.." },
@@ -128,6 +130,7 @@
     "resetpassword_complete": { "other": "Köszönjük. A jelszavad megváltoztattad, bejelentkezésed sikeres." },
     "resetpassword_form_error_invalid_reset_password_token": { "other": "A jelszó megváltoztatásának igénye érvénytelen. Kérjük, próbáld meg újra később." },
     "resetpassword_form_error_reset_password_token_expired": { "other": "A jelszó megváltoztatására küldött token lejárt. Igényelj újat." },
+    "resetpassword_form_error_too_many_requests": { "other": "Túl sok kérés. Kérlek, próbáld újra később." },
   
     "account_page_header": { "other": "Fiókom" },
     "account_form_name": { "other": "Név" },

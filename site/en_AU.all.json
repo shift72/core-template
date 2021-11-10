@@ -112,6 +112,7 @@
   "combined_auth_signin_password": { "other": "Please enter your password to sign in to your account." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "That password is incorrect." },
   "combined_auth_error_forbidden": { "other": "An error has occurred." },
+  "combined_auth_error_too_many_requests": { "other": "Too many requests, please try again later." },
 
   "forgotpassword_page_header": { "other": "Reset your Password" },
   "forgotpassword_form_email": { "other": "Email address" },
@@ -120,6 +121,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "This account is suspended." },
   "forgotpassword_complete": { "other": "Thank you. A password reset email should appear in your inbox shortly." },
   "forgotpassword_form_error_forbidden": { "other": "An error has occurred." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Too many requests, please try again later." },
 
   "resetpassword_page_header": { "other": "Change your Password" },
   "resetpassword_form_invalid_reset_password_token": { "other": "It appears as if this reset password request is invalid, please fill out the <a href=\"{{.URL}}\">Forgot Password</a> form again." },
@@ -129,6 +131,7 @@
   "resetpassword_complete": { "other": "Thank you. Your password has been changed, and you have been signed in." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "The reset password request is invalid. Please try again later." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "The reset password token has expired. Please request a new one." },
+  "resetpassword_form_error_too_many_requests": { "other": "Too many requests, please try again later." },
 
   "account_page_header": { "other": "My Account" },
   "account_form_name": { "other": "Name" },
@@ -263,7 +266,7 @@
   "shopping_error_in_library": { "other": "{{.Title}} is already in your library." },
 
   "shopping_error_missing_card": { "other": "Please enter your Credit Card details." },
-  "shopping_error_title": { "other": "An error occured" },
+  "shopping_error_title": { "other": "An error occurred" },
   "shopping_error_incorrect_cvc": { "other": "Please enter a valid CVV." },
   "shopping_error_invalid_cvc": { "other": "Please enter a valid CVV." },
   "shopping_error_incorrect_number": { "other": "Please enter a valid Credit Card Number." },

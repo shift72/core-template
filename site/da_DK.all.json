@@ -223,6 +223,10 @@
   "combined_auth_error_forbidden": {
     "other": "Der er sket en fejl"
   },
+  "combined_auth_error_too_many_requests": {
+    "other": "For mange anmodninger, prøv venligst igen senere."
+  },
+
   "forgotpassword_page_header": {
     "other": "Nulstil dit kodeord"
   },
@@ -243,6 +247,9 @@
   },
   "forgotpassword_form_error_forbidden": {
     "other": "Der er sket en fejl"
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "For mange anmodninger, prøv venligst igen senere."
   },
   "resetpassword_page_header": {
     "other": "Skift kodeord"
@@ -267,6 +274,9 @@
   },
   "resetpassword_form_error_reset_password_token_expired": {
     "other": "Koden til nulstilling af kodeord er udløbet. Få venligst en ny."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "For mange anmodninger, prøv venligst igen senere."
   },
   "account_page_header": {
     "other": "Min konto"

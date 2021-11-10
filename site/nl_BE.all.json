@@ -111,6 +111,7 @@
   "combined_auth_signin_password": { "other": "Vul uw wachtwoord in om in te loggen." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Het wachtwoord is niet correct." },
   "combined_auth_error_forbidden": { "other": "Er is een fout opgetreden." },
+  "combined_auth_error_too_many_requests": { "other": "Te veel verzoeken, probeer het later opnieuw." },
 
   "forgotpassword_page_header": { "other": "Stel uw wachtwoord opnieuw in" },
   "forgotpassword_form_email": { "other": "E-mailadres" },
@@ -119,6 +120,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "Dit account is opgeschort" },
   "forgotpassword_complete": { "other": "Bedankt. Er zou binnenkort een e-mail over het opnieuw instellen van uw wachtwoord in uw inbox moeten verschijnen." },
   "forgotpassword_form_error_forbidden": { "other": "Er is een fout opgetreden." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Te veel verzoeken, probeer het later opnieuw." },
 
   "resetpassword_page_header": { "other": "Verander uw wachtwoord" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Het lijkt erop dat het verzoek voor het opnieuw instellen van uw wachtwoord ongeldig is, vul het <a href=\"{{.URL}}\">Wachtwoord vergeten</a> formulier opnieuw in." },
@@ -128,6 +130,7 @@
   "resetpassword_complete": { "other": "Bedankt. Uw wachtwoord is veranderd en u bent ingelogd." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "Het verzoek om uw wachtwoord opnieuw in te stellen is ongeldig. Probeer het later nog eens." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "Het token om het wachtwoord opnieuw in te stellen is ongeldig. Probeer het later nog eens." },
+  "resetpassword_form_error_too_many_requests": { "other": "Te veel verzoeken, probeer het later opnieuw." },
 
   "account_page_header": { "other": "Mijn Account" },
   "account_form_name": { "other": "Naam" },

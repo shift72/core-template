@@ -1,6 +1,6 @@
 {
   "name": "@shift72/core-template",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "Shift72 core template",
   "license": "MIT",
   "scripts": {
@@ -36,22 +36,25 @@
     "autoprefixer": "^7.1.2",
     "bootstrap": "^4.0.0",
     "concat": "^1.0.3",
-    "cssnano": "^4.1.10",
+    "cssnano": "^5.0.8",
     "del": "^6.0.0",
     "font-awesome": "^4.7.0",
     "minify": "^4.1.1",
     "npm-run-all": "^4.0.2",
-    "postcss-cli": "^7.1.1",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.1",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
     "s72-kibble": "^0.15.22",
-    "sass": "^1.36.0",
-    "watch": "^1.0.2"
+    "sass": "^1.36.0"
   },
   "devDependencies": {
     "eslint": "^7.30.0",
     "eslint-config-preact": "^1.1.4",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-compat": "^3.13.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.3.2",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
