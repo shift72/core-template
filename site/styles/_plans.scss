@@ -1,4 +1,3 @@
-
 .plan-page-link {
   @extend .s72-btn-purchase;
 }
@@ -11,6 +10,7 @@ s72-plan-label {
   }
 }
 
+/* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
 .plan {
   .poster {
     s72-plan-label {
