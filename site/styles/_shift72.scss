@@ -320,19 +320,19 @@ s72-cant-be-watched {
 
 .s72-divider-bottom {
   @extend .position-relative;
-  &:after {
-    content: "";
+  &::after {
     @extend .position-absolute;
-    bottom: 0!important;
-    left: 50%!important;
-    transform: translateX(-50%)!important;
-    height: 3px;
-    width: 40px;
     background-color: $primary;
+    bottom: 0 !important;
+    content: '';
+    height: 3px;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 40px;
   }
 }
 
 .s72-view-all-passes {
-  background-color: mix(invert($body-bg), $body-bg, 10%);
   @extend .py-4;
+  background-color: mix(invert($body-bg), $body-bg, 10%);
 }
