@@ -1,8 +1,8 @@
 {
   "name": "core-template",
   "version": "0.0.1",
-  "siteUrl": "https://staging-studio.shift72.com",
-  "builderVersion": "0.15.21",
+  "siteUrl": "https://abccinemas.screenplus.co",
+  "builderVersion": "0.15.22",
   "defaultLanguage": "en",
   "languages": {
     "ar": { "code": "ar_LB", "name": "عربى" },

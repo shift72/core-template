@@ -535,14 +535,6 @@
   "app_badge_ios": { "other": "Download on the App Store" },
   "app_badge_android": { "other": "Get it on Google Play" },
 
-  "shopping_info_trial_period_offer": {
-    "one": "Try your free 24hr trial now!",
-    "other": "Try your free {{.Count}} day trial!"
-  },
-  "shopping_info_plan_offer": {
-    "one": "Automatically renews every {{.Interval}}",
-    "other": "Automatically renews every {{.Count}} {{.Interval}}s"
-  },
   "plans_page_header": { "other": "Available Plans" },
   "plan_label_owned" : {"other": "You own this plan" },
   "plan_expiry_date" : { "other": "Sales close: "},
