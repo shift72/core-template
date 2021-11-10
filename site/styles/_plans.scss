@@ -36,8 +36,8 @@ s72-plan-label {
   .plan-caption-details .s72-plan-owned {
     @extend .d-inline-block;
     @extend .availability-bg;
+    @extend .mb-p5;
 
     background-color: $button-background;
-    margin-bottom: 5px;
   }
 }
