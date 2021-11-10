@@ -5,34 +5,39 @@
 
 s72-plan-label {
   .s72-plan-owned {
-    @extend .availability-bg;
     @extend .availability-state;
-    background-color: $button-background;
+    @extend .d-inline;
     color: $button-text-color;
-    display: inline;
   }
 }
-
 
 .plan {
   .poster {
     s72-plan-label {
-      position: absolute;
-      z-index: 99;
+      @extend .position-absolute;
+      @extend .mx-auto;
 
+      z-index: 99;
       left: 5px !important;
-      margin-left: auto;
-      margin-right: auto;
       top: 5px;
+
+      .s72-plan-owned {
+        @extend .availability-bg;
+
+        background-color: $button-background;
+      }
     }
   }
 
   s72-pricing-buttons:not(.s72-show) {
-    margin: 0;
+    @extend .m-0;
   }
 
   .plan-caption-details .s72-plan-owned {
-    display: inline-block;
+    @extend .d-inline-block;
+    @extend .availability-bg;
+
+    background-color: $button-background;
     margin-bottom: 5px;
   }
 }
