@@ -4,6 +4,7 @@
 
 ### Fixed
 - Genre limit on meta-item-tagline now works again.
+- Typo in English translations file.
 
 ## [0.3.7](https://github.com/shift72/core-template/compare/0.3.6...0.3.7)
 
