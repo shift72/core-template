@@ -34,6 +34,9 @@
     {{end}}
 
     {{if genres && len(itemGenres) > 0}}
+      {{if genresLimit > -1 && len(itemGenres) > genresLimit}}
+        {{itemGenres = itemGenres[:genresLimit]}}
+      {{end}}
       {{yield taglineItem() content}}
         {{itemGenres}}
       {{end}}
