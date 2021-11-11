@@ -131,6 +131,13 @@
   }
 }
 
+// Curated pages with at least one collection shouldn't have a minimum height which forces a gap before the collection(s)
+.curated-collection-page {
+  .page-content {
+    min-height: auto;
+  }
+}
+
 .content-page p img,
 .page-header p img {
   width: auto;

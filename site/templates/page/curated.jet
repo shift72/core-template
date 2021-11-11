@@ -16,7 +16,7 @@
   {{ plan = page.Plans[0] }}
 {{ end }}
 
-  <main id="main" class="page curated-page">
+  <main id="main" class="page curated-page {{if len(page.PageCollections) > 0}}curated-collection-page{{end}}">
     {{yield backgroundImage(containerClass="page-bg", gradientClass="right-gradient", imageClass="page-bg-img", imageSrc=page.Images.Background)}}
 
     {{yield pageHeader(title=page.Title, plan=plan)}}
