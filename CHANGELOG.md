@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.3.7...HEAD)
 
+### Fixed
+- Genre limit on meta-item-tagline now works again.
+
 ## [0.3.7](https://github.com/shift72/core-template/compare/0.3.6...0.3.7)
 
 ### Added
