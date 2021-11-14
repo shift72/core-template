@@ -488,5 +488,65 @@
 
   "app_badge_title": { "other": "Download the app to view your purchased content!" },
   "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" }
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+  "shopping_price_title_plan": {
+    "other": "Цена"
+  },
+  "shopping_price_plan_note": {
+    "zero": "{{ .Interval }} каждые .интервал.",
+    "one": "{{ .Interval }} каждые .Interval после окончания 24-часового бесплатного пробного периода.",
+    "other": "Взимается каждые .Interval после окончания {{ .Interval }} вашей дневной бесплатной пробной {{ .Count }}"
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Введите данные своей кредитной карты ниже, чтобы начать подписку."
+  },
+  "shopping_action_plan": {
+    "other": "Полный"
+  },
+  "shopping_complete_subscription": {
+    "other": "Ваша подписка была приобретена. Теперь вы подписаны на {{ .Title }} ."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Не стесняйтесь <a href=\"/\">просматривать</a> сайт или <a href=\"/search.html\">искать</a> что-то конкретное."
+  },
+  "shopping_info_plan_offer": {
+    "one": "Автоматически обновляется каждые {{ .Interval }}",
+    "other": "Автоматически обновляется каждые {{ .Count }} {{ .Interval }}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Попробуйте бесплатную 24-часовую пробную версию прямо сейчас!",
+    "other": "Попробуйте бесплатную дневную пробную версию {{ .Count }}"
+  },
+  "plans_page_header": {
+    "other": "Доступные планы"
+  },
+  "plan_label_owned": {
+    "other": "Вы владеете этим планом"
+  },
+  "plan_expiry_date": {
+    "other": "Закрытие продаж:"
+  },
+  "plan_read_more": {
+    "other": "Узнать больше"
+  },
+  "plan_page_read_more": {
+    "other": "Подробнее"
+  },
+  "plan_page_header_text": {
+    "other": "Наслаждайтесь {{ .Name }}"
+  },
+  "page_plan_explore_intro": {
+    "other": "ИЛИ"
+  },
+  "page_plan_explore_link": {
+    "other": "Исследуйте другие перевалы"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Купи сейчас"
+  }
 }
