@@ -4,6 +4,7 @@
 
 @import '_bootstrap4';
 @import '_mixins';
+@import '_globals';
 @import '_shift72';
 @import 'font-awesome/scss/font-awesome';
 
@@ -11,6 +12,7 @@
 @import '_buttons';
 @import '_pages';
 @import '_forms';
+@import '_card';
 
 @import '_nav';
 
@@ -42,6 +44,7 @@
 @import '_language-selector';
 
 @import '_can-be-watched-button';
+@import '_plans';
 
 @import '_legacy';
 

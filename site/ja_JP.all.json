@@ -360,5 +360,65 @@
 
   "app_badge_title": { "other": "Download the app to view your purchased content!" },
   "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" }
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+  "shopping_price_title_plan": {
+    "other": "価格"
+  },
+  "shopping_price_plan_note": {
+    "zero": "{{ .Interval }}ごとに課金されます。",
+    "one": "24時間の無料トライアルが終了した後、.Intervalごとに{{ .Interval }}",
+    "other": "{{ .Count }}日の無料トライアルが終了した後、.Intervalごとに{{ .Interval }}"
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "サブスクリプションを開始するには、以下にクレジットカードの詳細を入力してください。"
+  },
+  "shopping_action_plan": {
+    "other": "完了"
+  },
+  "shopping_complete_subscription": {
+    "other": "サブスクリプションの購入は成功しました。これで、 {{ .Title }}サブスクライブしました。"
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "気軽に<a href=\"/\">サイトを閲覧したり</a>、特定のものを<a href=\"/search.html\">検索</a>したりしてください。"
+  },
+  "shopping_info_plan_offer": {
+    "one": "{{ .Interval }}ごとに自動的に更新されます",
+    "other": "{{ .Count }} {{ .Interval }}ごとに自動的に更新されます"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "今すぐ無料の24時間トライアルをお試しください！",
+    "other": "{{ .Count }}日トライアルをお試しください！"
+  },
+  "plans_page_header": {
+    "other": "利用可能なプラン"
+  },
+  "plan_label_owned": {
+    "other": "あなたはこの計画を所有しています"
+  },
+  "plan_expiry_date": {
+    "other": "販売終了："
+  },
+  "plan_read_more": {
+    "other": "詳細はこちら"
+  },
+  "plan_page_read_more": {
+    "other": "続きを読む"
+  },
+  "plan_page_header_text": {
+    "other": "{{ .Name }}お楽しみください"
+  },
+  "page_plan_explore_intro": {
+    "other": "また"
+  },
+  "page_plan_explore_link": {
+    "other": "他のパスを探す"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "今買う"
+  }
 }

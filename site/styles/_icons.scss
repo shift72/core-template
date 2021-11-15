@@ -31,3 +31,7 @@
   @extend .fa;
   @extend .fa-search;
 }
+
+.alert svg {
+  fill: $primary;
+}
