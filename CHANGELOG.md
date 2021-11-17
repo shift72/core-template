@@ -5,6 +5,9 @@
 ### Added
 - Support for purchasing plans and showcase pages
 
+### Changed
+- Moved separator line from footer jet into app badge jet.
+
 ## [0.3.8](https://github.com/shift72/core-template/compare/0.3.7...0.3.8)
 
 ### Fixed
