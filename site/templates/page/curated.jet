@@ -37,7 +37,7 @@
         <p class="col-xs-10 col-xxl-8 mx-auto">{{ plan.Description }}</p>
 
         <div>
-          <s72-pricing-buttons class="mb-2" data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" data-ownership-label-prefix="pricing_ownership_no_price_" />
+          <s72-pricing-buttons class="mb-2" data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" />
           <s72-plan-label data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" />
         </div>
         <p>{{ i18n("page_plan_explore_intro" )}}</p>
