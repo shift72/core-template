@@ -3,7 +3,7 @@
 {{block appBadges()}}
   {{app_link_ios := config("app_link_ios")}}
   {{app_link_android := config("app_link_android")}}
-  {{if config("app_link_ios") == "" || config("app_link_android") == ""}}
+  {{if config("app_link_ios") != "" || config("app_link_android") != ""}}
     <div class="app-banner">
       <h2 class="app-badge-title">{{ i18n("app_badge_title") }}</h2>
       <div class="app-badge-container">
