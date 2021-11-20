@@ -19,7 +19,7 @@
         {{end}}
       </div>
     </div>
-  {{end}}
 
-  {{yield separator()}}
+    {{yield separator()}}
+  {{end}}
 {{end}}
