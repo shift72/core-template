@@ -290,7 +290,7 @@
   "shopping_error_discount_disallowed_on_bundles": { "other": "Nuolaidos kodas negalioja rinkiniams." },
   "shopping_error_payment_intent_authentication_failure": { "other": "Mokėjimo kortelė nepriimta. Prašome bandyti dar kartą." },
 
-  "shopping_complete_rental": { "other": "Jūs įsigijote „Kino pavasario“ filmą!" },
+  "shopping_complete_rental": { "other": "Pirkinys sėkmingas!" },
   "shopping_complete_rental_period": {
     "one": "Per ateinančią dieną įrašą galite žiūrėti tiek kartu, kiek norite.",
     "other": "Per {{.Count}} dienas įrašą peržiūrėti galite tiek kartų, kiek norite. "
