@@ -12,32 +12,48 @@ s72-plan-label {
 
 /* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
 .plan {
-  .poster {
-    s72-plan-label {
-      @extend .position-absolute;
-      @extend .mx-auto;
+  .card {
+    @extend .bg-transparent;
+    @extend .border-0;
 
-      z-index: 99;
-      left: 5px !important;
-      top: 5px;
+    .plan-container {
+      @extend .bg-white;
+      @include border-radius($border-radius);
 
-      .s72-plan-owned {
+      .plan-caption-details {
+        p {
+          @extend .mb-p75;
+        }
+      }
+
+      .poster {
+        s72-plan-label {
+          @extend .position-absolute;
+          @extend .mx-auto;
+
+          z-index: 99;
+          left: 5px !important;
+          top: 5px;
+
+          .s72-plan-owned {
+            @extend .availability-bg;
+
+            background-color: $button-background;
+          }
+        }
+      }
+
+      s72-pricing-buttons:not(.s72-show) {
+        @extend .m-0;
+      }
+
+      .plan-caption-details .s72-plan-owned {
+        @extend .d-inline-block;
         @extend .availability-bg;
+        @extend .mb-p5;
 
         background-color: $button-background;
       }
     }
-  }
-
-  s72-pricing-buttons:not(.s72-show) {
-    @extend .m-0;
-  }
-
-  .plan-caption-details .s72-plan-owned {
-    @extend .d-inline-block;
-    @extend .availability-bg;
-    @extend .mb-p5;
-
-    background-color: $button-background;
   }
 }
