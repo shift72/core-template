@@ -352,7 +352,7 @@
   
   "availability_coming_soon": { "other": "Uskoro dostupno" },
   "availability_renting": { "other": "Posudba" },
-  "availability_not_available": { "other": "availability_not_available" },
+  "availability_not_available": { "other": "Nije dostupno" },
   "availability_in_watch_window": { "other": "availability_in_watch_window" },
   "availability_sold_out": { "other": "Rasprodano" },
   "availability_available_till": { "other": "Dostupno do {{.ExpiryDate}}" },

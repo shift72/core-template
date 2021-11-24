@@ -426,7 +426,7 @@
 
     "availability_coming_soon": { "other": "Em breve" },
     "availability_renting": { "other": "Alugando" },
-    "availability_not_available": { "other": "availability_not_available" },
+    "availability_not_available": { "other": "Não disponível" },
     "availability_in_watch_window": { "other": "availability_in_watch_window" },
     "availability_sold_out": { "other": "Esgotado" },
     "availability_available_till": { "other": "Disponível até {{.ExpiryDate}}" },
