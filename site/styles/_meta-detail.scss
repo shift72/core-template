@@ -189,21 +189,8 @@
   }
 
   .meta-detail-buttons {
-    min-height: 45px;
-
     .s72-btn {
       animation: fadein 2s;
-
-      margin-bottom: 10px;
-      @include media-breakpoint-up(sm){
-        &:nth-child(1) {
-          margin-right: .5rem;
-        }
-      }
-
-      &:nth-child(2) {
-        margin-left: 0;
-      }
     }
   }
 
@@ -246,13 +233,9 @@
   .meta-detail-extras {
     @extend .d-flex;
     @extend .justify-content-sm-start;
-    @extend .w-100;
-    padding-bottom: 15px;
-    min-height: 48px;
+  @extend .w-100;
     flex-direction: row;
     flex-wrap: wrap;
-    min-height: 48px;
-    padding-bottom: 15px;
     @include media-breakpoint-up(md) {
       flex-direction: row;
     }

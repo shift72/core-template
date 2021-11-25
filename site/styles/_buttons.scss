@@ -60,14 +60,8 @@
 }
 
 .s72-btn-play {
-  @extend .d-flex;
-  align-items: center;
   background: $button-background;
   border: 3px solid $button-background;
-  justify-content: center;
-  padding-bottom: 3px;
-  padding-left: 0;
-  padding-top: 3px;
   @include hover-focus {
     background: $button-background-hover;
     border: 3px solid $button-background-hover;
@@ -113,26 +107,11 @@
   border: 0 none;
   @include hover-focus {
     background: transparent;
-
-    .s72-icon-play circle {
-      fill: $primary;
-      stroke: $primary;
-      stroke-width: 3px;
-    }
-
-    .s72-icon-play path {
-      fill: #000;
-      stroke: #000;
-    }
   }
 
   &.s72-btn-trailer {
     background: transparent;
     border: 0 none;
-
-    @include media-breakpoint-up(md) {
-      margin-right: 10px;
-    }
 
     .verb {
       background: transparent;
@@ -142,24 +121,6 @@
 
   .verb {
     color: $trailer-button-text-color;
-  }
-
-  .s72-btn-play-icon {
-    display: inline-block;
-    height: 32px;
-    margin-right: 0;
-    width: 32px;
-
-    circle {
-      fill: transparent;
-      stroke: $primary;
-      stroke-width: 3px;
-    }
-
-    path {
-      fill: $body-color;
-      stroke: $body-color;
-    }
   }
 
   .s72-btn-play-label {
@@ -205,9 +166,9 @@ s72-play-button {
   }
 }
 
-.s72-btn-purchase {
+// .s72-btn-purchase {
 
-}
+// }
 
 .meta-detail-buttons .s72-pricing-button-container {
   @extend .d-flex;
@@ -215,15 +176,18 @@ s72-play-button {
   @extend .flex-sm-row;
 }
 
-.meta-detail-extras .s72-btn {
-  &:hover {
-      opacity: .8;
-  }
-
-  .fa:before {
-    font-size: 18px;
+.meta-detail-extras, .meta-item-extras{
+  .s72-btn {
+    &:hover {
+        opacity: .8;
+    }
+  
+    .fa:before {
+      font-size: 18px;
+    }
   }
 }
+// }
 
 .btn-wishlist {
   p {
