@@ -1,0 +1,12 @@
+{{block awardNominations()}}
+  {{ if isset(.AwardCategories) }}
+    <div class="meta-awards">
+    {{ range .AwardCategories }}
+      <div class="meta-award-nomination">
+        <div><i class="meta-award-nomination-icon"></i></div>
+        <div>{{ i18n("awards_nominated_for") }} {{ .DisplayLabel }}</div>
+      </div>
+    {{ end }}
+    </div>
+  {{ end }}
+{{end}}

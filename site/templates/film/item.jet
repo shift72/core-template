@@ -6,6 +6,7 @@
 {{import "../collection/slider.jet"}}
 {{import "../common/list.jet"}}
 {{import "../common/social-media-buttons.jet"}}
+{{import "../common/awards.jet"}}
 
 {{block head()}}
   {{yield seo() film}}
@@ -53,6 +54,9 @@
             <br>
           {{end}}
           <s72-availability-label data-slug="{{film.Slug}}"></s72-availability-label>
+
+          {{yield awardNominations() film}}
+
           <div class="meta-detail-synopsis">{{film.Overview | raw}}</div>
           <div class="meta-detail-extras">
             {{if len(film.Trailers) > 0 }}

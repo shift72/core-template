@@ -544,5 +544,7 @@
   "plan_page_header_text": { "other": "Enjoy {{.Name}}" },
   "page_plan_explore_intro": { "other": "OR" },
   "page_plan_explore_link": { "other": "Explore other passes" },
-  "plan_showcase_page_ownership_button_buy": { "other": "Buy now" }
+  "plan_showcase_page_ownership_button_buy": { "other": "Buy now" },
+
+  "awards_nominated_for": { "other": "Nominated for" }
 }

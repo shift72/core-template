@@ -1,0 +1,18 @@
+.meta-awards {
+  @extend .row;
+
+  .meta-award-nomination {
+    @extend .d-flex;
+    @extend .col-lg-6;
+
+    @extend .py-1;
+  }
+
+  .meta-award-nomination-icon {
+    @extend .fa;
+    @extend .fa-star-o;
+    font-size: 1.25rem;
+    padding-right: .5rem;
+  }
+
+}
