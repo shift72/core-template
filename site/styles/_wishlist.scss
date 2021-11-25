@@ -17,28 +17,3 @@
 .page-homepage .s72-userwishlist-empty {
 	display: none;
 }
-
-.s72-userwishlist-buttons {
-	.s72-btn-wishlist {
-		font-size: 12px;
-    font-weight: $font-weight-bold;
-    @extend .btn;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    margin-right: 10px;
-    padding-left: 0;
-     @include media-breakpoint-up(md) {
-      padding-left: 0.75rem
-     }
-    span {
-      justify-content: center;
-      flex-direction: row;
-      align-items: center;
-      @extend .d-flex;
-    }
-    .s72-icon {
-      font-size: 32px !important;
-      opacity: .5;
-    }
-	}
-}

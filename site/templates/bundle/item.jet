@@ -33,9 +33,9 @@
           <div class="meta-detail-buttons">
             <s72-pricing-buttons data-slug="{{bundle.Slug}}" data-title="{{bundle.Title}}"></s72-pricing-buttons>
           </div>
-          <div class="meta-detail-extras">
+          <div class="meta-detail-extras d-flex justify-content-around">
             {{if len(bundle.PromoURL) > 0 }}
-               <s72-modal-player src="{{bundle.PromoURL}}" class="s72-btn-trailer" data-slug="{{bundle.Slug}}" data-label="{{i18n("play_trailer")}}" autoplay="querystring"></s72-modal-player>
+               <s72-modal-player src="{{bundle.PromoURL}}" class="s72-btn-trailer shadow-none" data-slug="{{bundle.Slug}}" data-label="{{i18n("play_trailer")}}" autoplay="querystring"></s72-modal-player>
             {{end}}
             <s72-userwishlist-button data-slug="{{bundle.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
             {{yield socialMediaButtons(path=currentUrlPath)}}
