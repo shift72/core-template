@@ -1,8 +1,12 @@
 {
   "site_owner": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Settings" },
-  "powered_by_name": { "other": "ScreenPlus" },
+  "powered_by": { "other": "Powered by" },
+  "powered_by_name": { "other": "Shift72" },
   "powered_by_url": { "other": "https://www.screenplus.com" },
+  "in_partnership_with": { "other": "in partnership with" },
+  "festival_scope": { "other": "Festival Scope" },
+  "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
   "en": { "other": "English" },
   "fr": { "other": "French" },
 
@@ -19,16 +23,16 @@
     "other": "{{.Count}} seasons"
   },
   "tvseason": {
-    "other": "{{.ShowInfo.Title}} Series {{.Season.SeasonNumber}}"
+    "other": "{{.ShowInfo.Title}} Season {{.Season.SeasonNumber}}"
   },
   "tvseason_html": {
-    "other": "{{.ShowInfo.Title}} <span>Series {{.Season.SeasonNumber}}</span>"
+    "other": "{{.ShowInfo.Title}} <span>Season {{.Season.SeasonNumber}}</span>"
   },
   "tvepisode": {
     "other": "{{.Episode.Title}}"
   },
   "tvseason_number": {
-    "other": "Series {{.Season.SeasonNumber}}"
+    "other": "Season {{.Season.SeasonNumber}}"
   },
   "episode_count": {
     "one": "1 Episode",
@@ -53,6 +57,7 @@
   "nav_account": { "other": "My Account" },
   "nav_signout": { "other": "Sign Out" },
   "play_trailer": { "other": "Play Trailer" },
+  "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
   "runtime_hours": { "other": "h" },
   "runtime_minutes": { "other": "m" },
 
@@ -70,7 +75,7 @@
 
   "social_media_buttons_title": { "other": "Share" },
 
-  "accept_invite_page_header": { "other": "Welcome to " },
+  "accept_invite_page_header": { "other": "Welcome" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "It looks like you have already claimed this invite, you should <a href=\"{{.SigninURL}}\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"{{.ForgotPasswordURL}}\">reset your password</a>." },
   "acceptinvite_complete": { "other": "Thank you. Your account has been created." },
   "acceptinvite_form_submit": { "other": "Accept Invitation" },
@@ -103,10 +108,11 @@
   "combined_auth_continue": { "other": "Continue" },
   "combined_auth_change": { "other": "change" },
   "combined_auth_signin": { "other": "Sign in" },
-  "combined_auth_signup": { "other": "Create account" },
+  "combined_auth_signup": { "other": "Create Account" },
   "combined_auth_signin_password": { "other": "Please enter your password to sign in to your account." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "That password is incorrect." },
   "combined_auth_error_forbidden": { "other": "An error has occurred." },
+  "combined_auth_error_too_many_requests": { "other": "Too many requests, please try again later." },
 
   "forgotpassword_page_header": { "other": "Reset your Password" },
   "forgotpassword_form_email": { "other": "Email address" },
@@ -115,6 +121,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "This account is suspended." },
   "forgotpassword_complete": { "other": "Thank you. A password reset email should appear in your inbox shortly." },
   "forgotpassword_form_error_forbidden": { "other": "An error has occurred." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Too many requests, please try again later." },
 
   "resetpassword_page_header": { "other": "Change your Password" },
   "resetpassword_form_invalid_reset_password_token": { "other": "It appears as if this reset password request is invalid, please fill out the <a href=\"{{.URL}}\">Forgot Password</a> form again." },
@@ -124,6 +131,7 @@
   "resetpassword_complete": { "other": "Thank you. Your password has been changed, and you have been signed in." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "The reset password request is invalid. Please try again later." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "The reset password token has expired. Please request a new one." },
+  "resetpassword_form_error_too_many_requests": { "other": "Too many requests, please try again later." },
 
   "account_page_header": { "other": "My Account" },
   "account_form_name": { "other": "Name" },
@@ -210,12 +218,14 @@
   "shopping_info_available_until_date_title": { "other": "Available until {{.Date}}. " },
   "shopping_info_available_until_date_explanation_rent": { "other": "You will not be able to view the content after this." },
   "shopping_info_available_until_date_explanation_buy": { "other": "You will not be able to view the content after this." },
-
-  "shopping_info_rental_period_duration": { "other": "{{.Count}} day rental " },
+  
+  "duration_hour": { "one": "1 hour", "other": "{{.Count}} hours" },
+  "duration_day": { "one": "1 day", "other": "{{.Count}} days" },
+  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} rental " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} hour playback window. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Once rented, your film will be available in your account for a day. ",
-    "other": "Once rented, your film will be available in your account for {{.Count}} days. "
+    "one": "Once rented, your film will be available in your account for {{.ValueUnit}}. ",
+    "other": "Once rented, your film will be available in your account for {{.ValueUnit}}. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Once you press play, the watch window begins and you have an hour to watch the film as many times as you like.",
@@ -256,7 +266,7 @@
   "shopping_error_in_library": { "other": "{{.Title}} is already in your library." },
 
   "shopping_error_missing_card": { "other": "Please enter your Credit Card details." },
-  "shopping_error_title": { "other": "An error occured" },
+  "shopping_error_title": { "other": "An error occurred" },
   "shopping_error_incorrect_cvc": { "other": "Please enter a valid CVV." },
   "shopping_error_invalid_cvc": { "other": "Please enter a valid CVV." },
   "shopping_error_incorrect_number": { "other": "Please enter a valid Credit Card Number." },
@@ -285,6 +295,9 @@
   "shopping_error_discounts_not_allowed": { "other": "That promo code can not be used." },
   "shopping_error_discount_disallowed_on_bundles": { "other": "That promo code can not be used on bundles." },
   "shopping_error_payment_intent_authentication_failure": { "other": "The Credit Card has been declined. Please try again." },
+
+  "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+  "shopping_error_plan_expired": { "other": "This plan is no longer available." },
 
   "shopping_complete_rental": { "other": "Success!" },
   "shopping_complete_rental_period": {
@@ -320,7 +333,7 @@
   "shopping_payment_method_header": { "other": "Payment methods" },
   "shopping_payment_method_credit_card": { "other": "Credit card" },
   "shopping_payment_method_giropay": { "other": "Giropay" },
-  
+
   "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
   "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
 
@@ -385,7 +398,7 @@
   "classification_outro": { "other": "" },
 
   "cookie_banner_message": { "other": "This site uses cookies to enhance your experience. By using this site, you accept our <a href=\"{{.CookiePolicyURL}}\">cookie usage</a>." },
-  "cookie_banner_accept": { "other": "I Accept" },
+  "cookie_banner_accept": { "other": "Accept" },
 
   "all_rights_reserved": { "other": "All rights reserved. No part of this site may be reproduced without our written permission." },
 
@@ -415,21 +428,34 @@
 
   "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
 
-  "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-  "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-  "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
+  "shopping_price_title_plan": { "other": "Price" },
+  "shopping_price_plan_note": {
+    "zero": "Charged every {{.Interval}}.",
+    "one": "Charged every {{.Interval}} after your 24 hour free trial ends.",
+    "other": "Charged every {{.Interval}} after your {{.Count}} day free trial ends."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}s"
+  },
 
-  "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
+  "shopping_enter_card_prompt_plan": { "other": "Enter your credit card details below in order start your subscription." },
 
   "shopping_action_credit": { "other": "shopping_action_credit" },
-  "shopping_action_plan": { "other": "shopping_action_plan" },
+  "shopping_action_plan": { "other": "Complete" },
 
-  "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-  "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
+  "shopping_complete_subscription": { "other": "Your subscription purchase was successful. You are now subscribed to {{.Title}}." },
+  "shopping_complete_subscription_browse": { "other": "Feel free to <a href=\"/\">browse around</a> the site, or <a href=\"/search.html\">search</a> for something specific." },
 
   "shopping_info_rental_period_coming_soon": { "other": "from the date and time of release." },
-  "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-  "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
+  "shopping_info_plan_offer": {
+    "one": "Automatically renews every {{.Interval}}",
+    "other": "Automatically renews every {{.Count}} {{.Interval}}s"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Try your free 24hr trial now!",
+    "other": "Try your free {{.Count}} day trial!"
+  },
 
   "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
   "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
@@ -463,7 +489,7 @@
   "play": { "other": "Play" },
 
   "combined_auth_signin_prompt": { "other": "Sign in" },
-  "combined_auth_signup_prompt": { "other": "Sign up" },
+  "combined_auth_signup_prompt": { "other": "Create Account" },
   "combined_auth_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
   "signup_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
   "validation_terms_required": { "other": "You must agree to the terms and conditions." },
@@ -480,5 +506,43 @@
   "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
   "user_error_too_many_pin_errors_help_page_link": { "other": "" },
   "shopping_error_age_restricted": { "other": "This content is age restricted." },
-  "shopping_error_close_button": { "other": "OK" }
+  "shopping_error_close_button": { "other": "OK" },
+
+  "wcag_skip_links_header": { "other": "Accessibility Links" },
+  "wcag_skip_links_content": { "other": "Skip to Content" },
+  "wcag_skip_links_footer": { "other": "Skip to Footer" },
+
+  "wcag_homepage_h1": { "other": "Homepage" },
+  "wcag_carousel_h2": { "other": "Carousel" },
+  "wcag_collections_h2": { "other": "Collections" },
+
+  "wcag_aria_label_footer": { "other": "Footer" },
+  "wcag_aria_label_nav_main": { "other": "Main" },
+  "wcag_aria_label_nav_sub": { "other": "Sub" },
+  "wcag_aria_label_toggle_nav": { "other": "Toggle Navigation" },
+  "wcag_aria_label_bundle_items": { "other": "Bundle Items" },
+  "wcag_aria_label_carousel": { "other": "Carousel" },
+  "wcag_aria_label_page_collection": { "other": "Page Collection" },
+  "wcag_aria_label_collection_list": { "other": "Collection List" },
+  "wcag_aria_label_collection_slider": { "other": "Collection Slider" },
+  "wcag_aria_label_wishlist": { "other": "Wishlist" },
+  "wcag_aria_label_facebook": { "other": "Share on Facebook" },
+  "wcag_aria_label_twitter": { "other": "Share on Twitter" },
+  "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
+  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
+  "app_badge_ios": { "other": "Download on the App Store" },
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+  "plans_page_header": { "other": "Available Plans" },
+  "plan_label_owned" : {"other": "You own this plan" },
+  "plan_expiry_date" : { "other": "Sales close: "},
+  "plan_read_more"   : { "other": "Find out more" },
+
+  "plan_page_read_more": { "other": "Read more" },
+  "plan_page_header_text": { "other": "Enjoy {{.Name}}" },
+  "page_plan_explore_intro": { "other": "OR" },
+  "page_plan_explore_link": { "other": "Explore other passes" },
+  "plan_showcase_page_ownership_button_buy": { "other": "Buy now" }
 }

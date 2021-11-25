@@ -1,8 +1,12 @@
 {
     "site_owner": { "other": "ABC Cinemas" },
     "settings_title": { "other": "Settings" },
+    "powered_by": { "other": "Powered by" },
     "powered_by_name": { "other": "ScreenPlus" },
     "powered_by_url": { "other": "https://www.screenplus.com" },
+    "in_partnership_with": { "other": "in partnership with" },
+    "festival_scope": { "other": "Festival Scope" },
+    "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
     "en": { "other": "English" },
     "fr": { "other": "French" },
   
@@ -70,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "Paylaş" },
   
-    "accept_invite_page_header": { "other": "...'e hoşgeldiniz  " },
+    "accept_invite_page_header": { "other": "Hoşgeldiniz" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Görünüşe göre bu davet talebini zaten yapmışsınız, onun yerine <a href=\"{{.SigninURL}}\">sign in</a> denemelisiniz. Parolanızı unuttuysanız, parolanızı ayrıca <a href=\"{{.ForgotPasswordURL}}\"> sıfırlayabilirsiniz." },
     "acceptinvite_complete": { "other": "Teşekkürler. Hesabınız oluşturuldu." },
     "acceptinvite_form_submit": { "other": "Daveti Kabul Et." },
@@ -107,6 +111,7 @@
     "combined_auth_signin_password": { "other": "Lütfen hesabınızda oturum açmak için şifrenizi girin." },
     "combined_auth_signin_error_incorrect_credentials": { "other": "Bu şifre hatalı." },
     "combined_auth_error_forbidden": { "other": "Bir hata oluştu." },
+    "combined_auth_error_too_many_requests": { "other": "Çok fazla talep var.Lütfen daha sonra tekrar deneyin." },
   
     "forgotpassword_page_header": { "other": "Parolanızı Sıfırlayın" },
     "forgotpassword_form_email": { "other": "E-posta adresi" },
@@ -115,6 +120,7 @@
     "forgotpassword_form_error_account_suspended": { "other": "Bu hesap askıya alınmıştır." },
     "forgotpassword_complete": { "other": "Teşekkürler. Kısa süre içinde gelen kutunuzda bir şifre sıfırlama e-postası görünecektir." },
     "forgotpassword_form_error_forbidden": { "other": "Bir hata gerçekleşti." },
+    "forgotpassword_form_error_too_many_requests": { "other": "Çok fazla talep var.Lütfen daha sonra tekrar deneyin." },
   
     "resetpassword_page_header": { "other": "Şifrenizi değiştirin" },
     "resetpassword_form_invalid_reset_password_token": { "other": "Eğer şifrenizi sıfırlama talebi geçersiz görünüyorsa, lütfen <a href=\"{{.URL}}\">Şifremi Unuttum </a> formunu tekrar doldurun." },
@@ -124,6 +130,7 @@
     "resetpassword_complete": { "other": "Teşekkürler. Şifreniz değiştirildi ve oturumunuz açıldı. " },
     "resetpassword_form_error_invalid_reset_password_token": { "other": "Şifre sıfırlama talebi geçersizdir. Lütfen daha sonra tekrar deneyin." },
     "resetpassword_form_error_reset_password_token_expired": { "other": "Şifre sıfırlama talebi geçersizdir. Lütfen daha sonra tekrar deneyin." },
+    "resetpassword_form_error_too_many_requests": { "other": "Çok fazla talep var.Lütfen daha sonra tekrar deneyin." },
   
     "account_page_header": { "other": "Hesabım" },
     "account_form_name": { "other": "İsim" },
@@ -193,11 +200,13 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Bundan sonra içeriği görüntüleyemeceksiniz." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Bundan sonra içeriği görüntüleyemeceksiniz." },
 
-    "shopping_info_rental_period_duration": { "other": "{{.Count}} kiralanan gün sayısı " },
-    "shopping_info_watch_window_duration": { "other": "{{.Count}} saat playback oynatma penceresi " },
+    "duration_hour": { "one": "1 saat", "other": "{{.Count}} saat" },
+    "duration_day": { "one": "1 gün", "other": "{{.Count}} gün" },
+    "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} kiralama " },
+    "shopping_info_watch_window_duration": { "other": "{{.Count}} saat playback oynatma penceresi. " },
     "shopping_info_watch_window_explanation_film": {
-      "one": "Kiralandığında, filminiz hesabınızda bir gün boyunca erişilebilir olacaktır.",
-      "other": "Oynata bastığınızda izleme penceresi başlar ve filmi istediğiniz kadar izlemek için bir saatiniz olacak."
+      "one": "Oynata bastığınızda izleme penceresi başlar ve filmi istediğiniz kadar izlemek için {{.ValueUnit}} olacak. ",
+      "other": "Oynata bastığınızda izleme penceresi başlar ve filmi istediğiniz kadar izlemek için {{.ValueUnit}} olacak. "
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Oynata bastığınızda izleme penceresi başlar ve filmi istediğiniz kadar izlemek için bir saatiniz olacak. ",
@@ -359,7 +368,7 @@
     "classification_outro": { "other": "" },
   
     "cookie_banner_message": { "other": "Bu site kullanıcı deneyimini artırmak için çerezler kullanmaktadır. Bu siteyi kullanırken, < çerez ve gizlilik ayarlarını kabul edin <a href=\"{{.CookiePolicyURL}}\">cookie usage</a>." },
-    "cookie_banner_accept": { "other": "Kabul Ediyorum" },
+    "cookie_banner_accept": { "other": "Kabul" },
   
     "all_rights_reserved": { "other": "Her hakkı saklıdır. Bu sitenin hiçbir bölümü yazılı iznimiz olmadan çoğaltılamaz." },
   
@@ -444,6 +453,70 @@
 
     "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 
-    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
+    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+
+    "app_badge_title": { "other": "Download the app to view your purchased content!" },
+    "app_badge_ios": { "other": "Download on the App Store" },
+    "app_badge_android": { "other": "Get it on Google Play" },
+
+    "shopping_price_title_plan": {
+      "other": "Fiyat"
+    },
+    "shopping_price_plan_note": {
+      "zero": "Her {{ .Interval }} .",
+      "one": "24 saatlik ücretsiz deneme süreniz sona erdikten sonra her {{ .Interval }}",
+      "other": "Her Ücretli {{ .Interval }} sizin sonra {{ .Count }} günlük ücretsiz deneme sürümü bitmeden."
+    },
+    "shopping_price_plan_note_interval": {
+      "one": "{{ .Interval }}",
+      "other": "{{ .Count }} {{ .Interval }}"
+    },
+    "shopping_enter_card_prompt_plan": {
+      "other": "Aboneliğinizi başlatmak için aşağıya kredi kartı bilgilerinizi girin."
+    },
+    "shopping_action_plan": {
+      "other": "Tamamlayınız"
+    },
+    "shopping_complete_subscription": {
+      "other": "Abonelik satın alma işleminiz başarılı oldu. Artık {{ .Title }} ."
+    },
+    "shopping_complete_subscription_browse": {
+      "other": "Sitede <a href=\"/\">gezinmekten</a> veya belirli bir şey <a href=\"/search.html\">aramaktan</a> çekinmeyin."
+    },
+    "shopping_info_plan_offer": {
+      "one": "{{ .Interval }} otomatik olarak yeniler",
+      "other": "Otomatik olarak her yeniler {{ .Count }} {{ .Interval }}"
+    },
+    "shopping_info_trial_period_offer": {
+      "one": "24 saatlik ücretsiz denemenizi şimdi deneyin!",
+      "other": "Ücretsiz {{ .Count }} günlük denemenizi deneyin!"
+    },
+    "plans_page_header": {
+      "other": "Mevcut Planlar"
+    },
+    "plan_label_owned": {
+      "other": "Bu plana sahipsin"
+    },
+    "plan_expiry_date": {
+      "other": "Satış kapanışı:"
+    },
+    "plan_read_more": {
+      "other": "Daha fazlasını bul"
+    },
+    "plan_page_read_more": {
+      "other": "Devamını oku"
+    },
+    "plan_page_header_text": {
+      "other": "Keyfini çıkarın {{ .Name }}"
+    },
+    "page_plan_explore_intro": {
+      "other": "VEYA"
+    },
+    "page_plan_explore_link": {
+      "other": "Diğer geçişleri keşfedin"
+    },
+    "plan_showcase_page_ownership_button_buy": {
+      "other": "Şimdi al"
+    }
   }
   

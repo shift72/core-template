@@ -1,7 +1,9 @@
 {{import "../items/tagline.jet"}}
 
+{{ displayTitleAndGenreBelowPosters = config("media_item_caption") == "true" }}
+
 <div class="partial partial-bundle">
-  <a href="{{routeToSlug(bundle.Slug)}}">
+  <a href="{{routeToSlug(bundle.Slug)}}" aria-label="{{bundle.Title}}">
     <div class="poster poster-{{config("default_image_type")}}">
       <s72-availability-status data-slug="{{bundle.Slug}}"></s72-availability-status>
       <s72-availability-label data-slug="{{bundle.Slug}}"></s72-availability-label>
@@ -12,18 +14,15 @@
       {{end}}
       <div class="hover">
         <div class="content">
-          <div class="titles">
-            <h4 title="{{bundle.Title}}">{{bundle.Title|raw}}</h4>
-            <div class="strap">
-              {{yield metaItemTagline() bundle}}
+          {{ if !displayTitleAndGenreBelowPosters }}
+            <div class="titles">
+              <h4 title="{{bundle.Title}}">{{bundle.Title|raw}}</h4>
+              <div class="strap">
+                {{yield metaItemTagline() bundle}}
+              </div>
             </div>
-          </div>
+          {{ end }}
           <s72-play-button data-slug="{{bundle.Slug}}" title="{{bundle.Title}}"></s72-play-button>
-          <!-- {{if isset(bundle["Tagline"])}}
-            <div class="meta-item-synopsis hidden-md">
-              <p>{{bundle.Tagline}}</p>
-            </div>
-          {{end}} -->
           <div class="buttons">
             {{if isset(bundle["Trailers"]) && len(bundle.Trailers) > 0}}
               <s72-trailer-button data-slug="{{bundle.Slug}}" data-url="{{bundle.Trailers}}" button-class="btn-sm"></s72-trailer-button>

@@ -1,8 +1,12 @@
 {
     "site_owner": { "other": "ABC Cinemas" },
     "settings_title": { "other": "Settings" },
+    "powered_by": { "other": "Powered by" },
     "powered_by_name": { "other": "ScreenPlus" },
     "powered_by_url": { "other": "https://www.screenplus.com" },
+    "in_partnership_with": { "other": "in partnership with" },
+    "festival_scope": { "other": "Festival Scope" },
+    "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
     "en": { "other": "English" },
     "fr": { "other": "French" },
   
@@ -70,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "Del" },
   
-    "accept_invite_page_header": { "other": "Velkommen til " },
+    "accept_invite_page_header": { "other": "Velkommen" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Det ser ut til at du allerede har godtatt denne invitasjonen, forsøk i stedet å <a href=\"{{.SigninURL}}\">logge inn</a>. Hvis du har glemt passordet kan du også <a href=\"{{.ForgotPasswordURL}}\">tilbakestille passordet</a>." },
     "acceptinvite_complete": { "other": "Takk! Din konto er opprettet." },
     "acceptinvite_form_submit": { "other": "Godta invitasjon" },
@@ -107,6 +111,7 @@
     "combined_auth_signin_password": { "other": "Vennligst skriv inn passordet ditt for å logge på kontoen din." },
     "combined_auth_signin_error_incorrect_credentials": { "other": "Passordet stemmer ikke." },
     "combined_auth_error_forbidden": { "other": "Det har oppstått en feil." },
+    "combined_auth_error_too_many_requests": { "other": "For mange forespørsler. Vær snill å prøv senere." },
   
     "forgotpassword_page_header": { "other": "Tilbakestill passord" },
     "forgotpassword_form_email": { "other": "E-postadresse" },
@@ -115,6 +120,7 @@
     "forgotpassword_form_error_account_suspended": { "other": "Denne kontoen er suspendert." },
     "forgotpassword_complete": { "other": "Takk skal du ha! Du mottar straks en e-post for å tilbakestille passordet." },
     "forgotpassword_form_error_forbidden": { "other": "Det har oppstått en feil." },
+    "forgotpassword_form_error_too_many_requests": { "other": "For mange forespørsler. Vær snill å prøv senere." },
   
     "resetpassword_page_header": { "other": "Endre passord" },
     "resetpassword_form_invalid_reset_password_token": { "other": "Det ser ut til at denne forespørselen er ugyldig, vennligst fyll ut skjemaet om <a href=\"{{.URL}}\">tilbakestilling av passord </a> på nytt." },
@@ -124,6 +130,7 @@
     "resetpassword_complete": { "other": "Takk skal du ha! Ditt passord har blitt endret, og du er nå logget inn." },
     "resetpassword_form_error_invalid_reset_password_token": { "other": "Forespørselen om tilbakestilling av passord er ikke gyldig. Vennligst prøv igjen senere." },
     "resetpassword_form_error_reset_password_token_expired": { "other": "Forespørselen om tilbakestilling av passord har gått ut på tid. Vennligst prøv på nytt." },
+    "resetpassword_form_error_too_many_requests": { "other": "For mange forespørsler. Vær snill å prøv senere." },
   
     "account_page_header": { "other": "Min konto" },
     "account_form_name": { "other": "Navn" },
@@ -193,11 +200,13 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Du vil ikke kunne se innholdet etter dette." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Du vil ikke kunne se innholdet etter dette." },
   
-    "shopping_info_rental_period_duration": { "other": "{{.Count}} dagers leie " },
+    "duration_hour": { "one": "1 time", "other": "{{.Count}} timer" },
+    "duration_day": { "one": "1 dag", "other": "{{.Count}} dager" },
+    "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} leie " },
     "shopping_info_watch_window_duration": { "other": "{{.Count}} timers avspillingsvindu. " },
     "shopping_info_watch_window_explanation_film": {
-      "one": "Ved leie av film, vil den være tilgjengelig i kontoen din i {{.Count}} dager. ",
-      "other": "Ved leie av film, vil den være tilgjengelig i kontoen din i én dag. "
+      "one": "Ved leie av film, vil den være tilgjengelig i kontoen din i {{.ValueUnit}}. ",
+      "other": "Ved leie av film, vil den være tilgjengelig i kontoen din i {{.ValueUnit}}. "
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Avspillingsvinduet starter i det du starter filmen, og du har da {{.Count}} timer til å se den så mange ganger du ønsker.",
@@ -358,7 +367,7 @@
     "classification_outro": { "other": "" },
   
     "cookie_banner_message": { "other": "Dette nettstedet bruker informasjonskapsler for å forbedre din opplevelse. Ved å bruke dette nettstedet aksepterer du <a href=\"{{.CookiePolicyURL}}\">bruk av informasjonskapsler</a>." },
-    "cookie_banner_accept": { "other": "Jeg aksepterer" },
+    "cookie_banner_accept": { "other": "Aksepterer" },
   
     "all_rights_reserved": { "other": "Alle rettigheter forbeholdes. Ingen deler av dette nettstedet kan reproduseres uten skriftlig tillatelse." },
   
@@ -440,6 +449,70 @@
 
     "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 
-    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
+    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+
+    "app_badge_title": { "other": "Download the app to view your purchased content!" },
+    "app_badge_ios": { "other": "Download on the App Store" },
+    "app_badge_android": { "other": "Get it on Google Play" },
+
+    "shopping_price_title_plan": {
+      "other": "Pris"
+    },
+    "shopping_price_plan_note": {
+      "zero": "Lades hvert {{ .Interval }} .",
+      "one": "Belastet hvert {{ .Interval }} etter at den 24-timers gratis prøveperioden er over.",
+      "other": "Belastet hvert {{ .Interval }} etter at {{ .Count }} dager avsluttes."
+    },
+    "shopping_price_plan_note_interval": {
+      "one": "{{ .Interval }}",
+      "other": "{{ .Count }} {{ .Interval }}"
+    },
+    "shopping_enter_card_prompt_plan": {
+      "other": "Skriv inn kredittkortopplysningene dine nedenfor for å starte abonnementet."
+    },
+    "shopping_action_plan": {
+      "other": "Fullstendig"
+    },
+    "shopping_complete_subscription": {
+      "other": "Abonnementskjøpet var vellykket. Du abonnerer nå på {{ .Title }} ."
+    },
+    "shopping_complete_subscription_browse": {
+      "other": "<a href=\"/\">Bla deg gjerne rundt</a> på siden, eller <a href=\"/search.html\">søk</a> etter noe spesifikt."
+    },
+    "shopping_info_plan_offer": {
+      "one": "{{ .Interval }} automatisk hver .Interval",
+      "other": "{{ .Count }} automatisk hver {{ .Interval }}"
+    },
+    "shopping_info_trial_period_offer": {
+      "one": "Prøv din gratis 24-timers prøveversjon nå!",
+      "other": "Prøv din gratis {{ .Count }} day prøveversjon!"
+    },
+    "plans_page_header": {
+      "other": "Tilgjengelige planer"
+    },
+    "plan_label_owned": {
+      "other": "Du eier denne planen"
+    },
+    "plan_expiry_date": {
+      "other": "Salg stenger:"
+    },
+    "plan_read_more": {
+      "other": "Finne ut mer"
+    },
+    "plan_page_read_more": {
+      "other": "Les mer"
+    },
+    "plan_page_header_text": {
+      "other": "Nyt {{ .Name }}"
+    },
+    "page_plan_explore_intro": {
+      "other": "ELLER"
+    },
+    "page_plan_explore_link": {
+      "other": "Utforsk andre pass"
+    },
+    "plan_showcase_page_ownership_button_buy": {
+      "other": "Kjøp nå"
+    }
   }
   

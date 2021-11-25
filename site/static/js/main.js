@@ -1,26 +1,27 @@
 import './modernizr-custom.js';
 import './can-be-watched-button.component.js';
 
-var slideObservers = [];
+/*global Swiper, Modernizr, s72*/
+
+let slideObservers = [];
 
 function initializeWishlist() {
-  var wishlist = document.querySelector('s72-userwishlist');
+  let wishlist = document.querySelector('s72-userwishlist');
   if (!wishlist) return;
-  var originalFunction = wishlist.classList.remove;
-  wishlist.classList.remove = function(className){
-    if(className == 's72-hide')
-    {
+  let originalFunction = wishlist.classList.remove;
+  wishlist.classList.remove = function (className) {
+    if (className == 's72-hide') {
       // Hide this from view
       wishlist.style.opacity = '0';
 
       // Remove class
-      originalFunction.apply(this, [ className ]);
+      originalFunction.apply(this, [className]);
 
       /* Convert this to a swiper */
-      var containers = wishlist.getElementsByClassName('swiper-container');
-      if(containers.length > 0) {
-        var container = containers[0];
-        var swiper = initializeSwiper(container, true);
+      let containers = wishlist.getElementsByClassName('swiper-container');
+      if (containers.length > 0) {
+        let container = containers[0];
+        let swiper = initializeSwiper(container, true);
 
         init(swiper);
         toggleButtons(container);
@@ -28,28 +29,25 @@ function initializeWishlist() {
 
       // Now show it
       wishlist.style.opacity = '1';
+    } else {
+      originalFunction.apply(this, [className]);
     }
-    else
-    {
-      originalFunction.apply(this, [ className ]);
-    }
-  }
+  };
 }
 
-function initializeSwiper(element, force){
-  if(element.swiper) {
-    if(force) {
+function initializeSwiper(element, force) {
+  if (element.swiper) {
+    if (force) {
       element.swiper.destroy();
-    }
-    else {
+    } else {
       return;
     }
   }
 
-  var isTouchscreen = isTouchscreenEnabled();
+  let isTouchscreen = isTouchscreenEnabled();
 
-  var defaultSlidesPerView = 8;
-  var slidesPerView = {
+  let defaultSlidesPerView = 8;
+  let slidesPerView = {
     320: 2,
     568: 2,
     667: 2,
@@ -57,66 +55,64 @@ function initializeSwiper(element, force){
     992: 4,
     1200: 4,
     1440: 6,
-    1600: 6
-  }
+    1600: 6,
+  };
 
   // Override some slider values specific sizes. Could potentially expand this for portrait vs. landscapes
-  if(element.getAttribute('data-items-per-row')){
-    var itemsPerRow = element.getAttribute('data-items-per-row');
-    var layout = element.getAttribute('data-layout');
+  if (element.getAttribute('data-items-per-row')) {
+    let itemsPerRow = element.getAttribute('data-items-per-row');
+    let layout = element.getAttribute('data-layout');
 
-    if(layout == 'portrait'){
-      switch(itemsPerRow) {
-        case "6":
-          defaultSlidesPerView = 8;
-          slidesPerView[1600] = 6;
-          slidesPerView[1440] = 6;
-          slidesPerView[1200] = 5;
-          slidesPerView[992] = 4;
-          slidesPerView[768] = 4;
-          slidesPerView[667] = 3;
-          slidesPerView[568] = 3;
-          break;
+    if (layout == 'portrait') {
+      switch (itemsPerRow) {
+      case '6':
+        defaultSlidesPerView = 8;
+        slidesPerView[1600] = 6;
+        slidesPerView[1440] = 6;
+        slidesPerView[1200] = 5;
+        slidesPerView[992] = 4;
+        slidesPerView[768] = 4;
+        slidesPerView[667] = 3;
+        slidesPerView[568] = 3;
+        break;
 
-        case "4":
-          defaultSlidesPerView = 6;
-          slidesPerView[1600] = 5;
-          slidesPerView[1440] = 5;
-          slidesPerView[1200] = 4;
-          slidesPerView[992] = 3;
-          slidesPerView[768] = 3;
-          slidesPerView[667] = 3;
-          slidesPerView[568] = 2;
-          break;
+      case '4':
+        defaultSlidesPerView = 6;
+        slidesPerView[1600] = 5;
+        slidesPerView[1440] = 5;
+        slidesPerView[1200] = 4;
+        slidesPerView[992] = 3;
+        slidesPerView[768] = 3;
+        slidesPerView[667] = 3;
+        slidesPerView[568] = 2;
+        break;
       }
-    }
-    else if(layout == 'landscape'){
-      switch(itemsPerRow) {
-        case "4":
-          defaultSlidesPerView = 5;
-          slidesPerView[1600] = 4;
-          slidesPerView[1440] = 4;
-          slidesPerView[1200] = 3;
-          slidesPerView[992] = 3;
-          slidesPerView[768] = 3;
-          slidesPerView[568] = 2;
-          break;
+    } else if (layout == 'landscape') {
+      switch (itemsPerRow) {
+      case '4':
+        defaultSlidesPerView = 5;
+        slidesPerView[1600] = 4;
+        slidesPerView[1440] = 4;
+        slidesPerView[1200] = 3;
+        slidesPerView[992] = 3;
+        slidesPerView[768] = 3;
+        slidesPerView[568] = 2;
+        break;
 
-        case "3":
-          defaultSlidesPerView = 4;
-          slidesPerView[1600] = 3;
-          slidesPerView[1440] = 3;
-          slidesPerView[1200] = 3;
-          slidesPerView[992] = 2;
-          slidesPerView[768] = 2;
-          slidesPerView[568] = 2;
-          break;
+      case '3':
+        defaultSlidesPerView = 4;
+        slidesPerView[1600] = 3;
+        slidesPerView[1440] = 3;
+        slidesPerView[1200] = 3;
+        slidesPerView[992] = 2;
+        slidesPerView[768] = 2;
+        slidesPerView[568] = 2;
+        break;
       }
     }
   }
 
-  var swiper = new Swiper(element, {
-
+  let swiper = new Swiper(element, {
     init: false,
     slidesPerView: defaultSlidesPerView,
     spaceBetween: 1,
@@ -131,7 +127,7 @@ function initializeSwiper(element, force){
         spaceBetween: 2,
         slidesPerGroup: 1,
         slidesOffsetBefore: 20,
-        slidesOffsetAfter: 20
+        slidesOffsetAfter: 20,
       },
       // when window width is <= 480px
       567: {
@@ -139,7 +135,7 @@ function initializeSwiper(element, force){
         spaceBetween: 2,
         slidesPerGroup: isTouchscreen ? slidesPerView[568] : 1,
         slidesOffsetBefore: 20,
-        slidesOffsetAfter: 20
+        slidesOffsetAfter: 20,
       },
       // when window width is <= 640px
       666: {
@@ -171,27 +167,35 @@ function initializeSwiper(element, force){
         slidesPerView: slidesPerView[1600],
         spaceBetween: 2,
         slidesPerGroup: isTouchscreen ? slidesPerView[1600] : 1,
-      }
+      },
     },
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
     },
     on: {
-      init: function() {
+      init() {
         element.dispatchEvent(new Event('init'));
       },
-      slideChangeTransitionEnd: function(){
+      slideChangeTransitionEnd() {
         addAndRemoveSlides(element.swiper, true, true);
         toggleButtons(element);
-      }
-    }
+      },
+    },
   });
 
   element.buttons = {};
 
-  initButton(element, element.closest('.swiper-wrapper-container').querySelector('.swiper-button-next'), 1);
-  initButton(element, element.closest('.swiper-wrapper-container').querySelector('.swiper-button-prev'), -1);
+  initButton(
+    element,
+    element.closest('.swiper-wrapper-container').querySelector('.swiper-button-next'),
+    1
+  );
+  initButton(
+    element,
+    element.closest('.swiper-wrapper-container').querySelector('.swiper-button-prev'),
+    -1
+  );
 
   return swiper;
 }
@@ -229,68 +233,65 @@ function initButton(slider, button, velocity) {
   if (button) {
     button.classList.remove('s72-hide');
     // Clone the button so any pre-existing listeners are destroyed
-    var buttonClone = button.cloneNode(true);
+    let buttonClone = button.cloneNode(true);
     button.parentNode.replaceChild(buttonClone, button);
 
-    buttonClone.addEventListener('click', function(e){
+    buttonClone.addEventListener('click', e => {
       e.preventDefault();
       if (velocity > 0) {
         addAndRemoveSlides(slider.swiper, true, false);
       } else {
         addAndRemoveSlides(slider.swiper, false, true);
       }
-      slider.swiper.slideToLoop(slider.swiper.realIndex + (slider.swiper.params.slidesPerView * velocity));
+      slider.swiper.slideToLoop(
+        slider.swiper.realIndex + slider.swiper.params.slidesPerView * velocity
+      );
     });
 
-    var direction = (velocity > 0) ? 'next' : 'prev';
+    let direction = velocity > 0 ? 'next' : 'prev';
     slider.buttons[direction] = buttonClone;
   }
 }
 
-function getMatchingDuplicatedSlides(slider, link){
+function getMatchingDuplicatedSlides(slider, link) {
+  let result = [];
 
-  var result = [];
-
-  if(!slider.destroyed){
-    Array.from(slider.el.querySelectorAll('.swiper-slide')).forEach(function(slide){
-      if(!slide.classList.contains('base')){
-        var thisLink = slide.querySelector('a.meta-item-link').getAttribute('href');
-        if(link === thisLink) result.push(slide);
+  if (!slider.destroyed) {
+    Array.from(slider.el.querySelectorAll('.swiper-slide')).forEach(slide => {
+      if (!slide.classList.contains('base')) {
+        let thisLink = slide.querySelector('a.meta-item-link').getAttribute('href');
+        if (link === thisLink) result.push(slide);
       }
-    })
+    });
   }
 
   return result;
 }
 
-function init(slider){
-
+function init(slider) {
   slider.init();
 
   // Set up a mutation observer against each base slide, as it'll get redrawn as the components get rendered
-  for(var x = 0; x < slider.slides.length; x++){
-    var slide = slider.slides[x];
+  for (let x = 0; x < slider.slides.length; x++) {
+    let slide = slider.slides[x];
 
     slide.classList.add('base');
 
-    if(infiniteScrollEnabled(slider))
-    {
+    if (infiniteScrollEnabled(slider)) {
+      let config = { subtree: true, childList: true };
 
-      var config = { subtree: true , childList: true };
-      var link = slide.querySelector('a.meta-item-link').getAttribute('href');
-
-      var observer = new MutationObserver(function(mutations, observer){
-        for(var y = 0; y < mutations.length; y++){
-          var mutationRecord = mutations[y];
+      let observer = new MutationObserver(mutations => {
+        for (let y = 0; y < mutations.length; y++) {
+          let mutationRecord = mutations[y];
 
           // var href = mutationRecord.target.closest('a.meta-item-link').getAttribute('href');
-          var thisSlide = (mutationRecord.target.closest('.swiper-slide'));
-          if(thisSlide){
-            var thisLink = thisSlide.querySelector('a.meta-item-link').getAttribute('href');
+          let thisSlide = mutationRecord.target.closest('.swiper-slide');
+          if (thisSlide) {
+            let thisLink = thisSlide.querySelector('a.meta-item-link').getAttribute('href');
 
-            var duplicatedSlides = getMatchingDuplicatedSlides(slider, thisLink);
+            let duplicatedSlides = getMatchingDuplicatedSlides(slider, thisLink);
 
-            Array.from(duplicatedSlides).forEach(function(dupe){
+            Array.from(duplicatedSlides).forEach(dupe => {
               dupe.innerHTML = thisSlide.innerHTML;
             });
           }
@@ -303,100 +304,91 @@ function init(slider){
     }
   }
 
-
-
   addAndRemoveSlides(slider);
 
   return true;
 }
 
-function disconnectObservers(){
-  // slideObservers.forEach(function(o) { o.disconnect(); });
-}
+function infiniteScrollEnabled(slider) {
+  if (!Modernizr.smil) return false; // i.e. is this IE11
 
-function infiniteScrollEnabled(slider){
-  if(!Modernizr.smil) return false; // i.e. is this IE11
+  if (isTouchscreenEnabled()) return false; // i.e. is this a touchscreen device?
 
-  if(isTouchscreenEnabled()) return false; // i.e. is this a touchscreen device?
+  let el = slider.el;
 
-  var el = slider.el;
-
-  if(el.getAttribute('disable-infinite-scroll') !== null) {
+  if (el.getAttribute('disable-infinite-scroll') !== null) {
     return false;
   }
 
-  var prev = el.buttons.prev; var next = el.buttons.next;
+  let prev = el.buttons.prev;
+  let next = el.buttons.next;
 
   // Only infinite scroll on desktop (i.e. when the next/prev buttons are visible)
-  var buttonsVisible = (prev && (prev.offsetHeight > 0)) || (next && (next.offsetHeight > 0));
+  let buttonsVisible = (prev && prev.offsetHeight > 0) || (next && next.offsetHeight > 0);
 
-  var screens = slider.slides.length / slider.params.slidesPerView;
+  let screens = slider.slides.length / slider.params.slidesPerView;
 
-  return buttonsVisible && (screens > 1);
+  return buttonsVisible && screens > 1;
 }
 
-function addAndRemoveSlides(slider, append, prepend){
-
+function addAndRemoveSlides(slider, append, prepend) {
   // This is a no-go
-  if(!infiniteScrollEnabled(slider)) return;
+  if (!infiniteScrollEnabled(slider)) return;
 
   // Just in case something's gone horribly wrong
-  if(slider.slides.length > 100){
+  if (slider.slides.length > 100) {
     return;
   }
 
-  if(append) {
+  if (append) {
     let lastVisibleIndex = slider.activeIndex + slider.params.slidesPerView;
     let slidesToTheRight = slider.slides.length - lastVisibleIndex;
 
-    if(slidesToTheRight <= slider.params.slidesPerView) {
+    if (slidesToTheRight <= slider.params.slidesPerView) {
       appendBaseSlides(slider);
     }
   }
 
-  if(prepend) {
-    if(slider.activeIndex <= slider.params.slidesPerView) {
+  if (prepend) {
+    if (slider.activeIndex <= slider.params.slidesPerView) {
       prependBaseSlides(slider);
     }
   }
 }
 
-function getBaseSlides(slider){
-  var result = Array.from(slider.el.querySelectorAll('.swiper-slide.base')).map(function(node) {
+function getBaseSlides(slider) {
+  let result = Array.from(slider.el.querySelectorAll('.swiper-slide.base')).map(node => {
     return node.cloneNode(true);
   });
 
-  Array.from(result).forEach(function(slide){
-    slide.classList.remove('base', 'swiper-slide-visible', 'swiper-slide-active', 'swiper-slide-next', 'swiper-slide-prev');
-  })
+  Array.from(result).forEach(slide => {
+    slide.classList.remove(
+      'base',
+      'swiper-slide-visible',
+      'swiper-slide-active',
+      'swiper-slide-next',
+      'swiper-slide-prev'
+    );
+  });
 
   return result;
 }
 
-function appendBaseSlides(slider){
-  var baseSlides = getBaseSlides(slider).slice(0);
+function appendBaseSlides(slider) {
+  let baseSlides = getBaseSlides(slider).slice(0);
   slider.appendSlide(baseSlides);
 
   cullSlides(slider, 1);
 }
 
-function cloneBaseSlides(slider){
-  var slides = getBaseSlides(slider);
-  var result = [];
-  for(var i = 0; i < slides.length; i++){
-    result.push(slides[i].cloneNode(true));
-  }
-  return result;
-}
-
-function prependBaseSlides(slider){
+function prependBaseSlides(slider) {
   // var baseSlides = getBaseSlides(slider).reverse().slice(0);
-  var baseSlides = getBaseSlides(slider).reverse().slice(0);
+  let baseSlides = getBaseSlides(slider).reverse().slice(0);
 
-  var currentIndex = slider.activeIndex;
+  let currentIndex = slider.activeIndex;
 
-  for(var i = 0; i < baseSlides.length; i++){
-      slider.prependSlide(baseSlides[i]);
+  for (let i = 0; i < baseSlides.length; i++) {
+    slider.prependSlide(baseSlides[i]);
   }
   slider.slideTo(currentIndex + baseSlides.length, 0);
 
@@ -404,33 +396,26 @@ function prependBaseSlides(slider){
 }
 
 // Get rid of the oldest N slides to the left of current
-function cullSlides(slider, direction){
-  var baseSlides = getBaseSlides(slider);
-  var length = baseSlides.length;
+function cullSlides(slider, direction) {
+  let baseSlides = getBaseSlides(slider);
 
-  var indices = [];
-  for(var index = 0; index < slider.slides.length; index++){
-    var slide = slider.slides[index];
-    if(direction > 0) {
-      if((index < slider.activeIndex) && !slide.classList.contains('base')){
+  let indices = [];
+  for (let index = 0; index < slider.slides.length; index++) {
+    let slide = slider.slides[index];
+    if (direction > 0) {
+      if (index < slider.activeIndex && !slide.classList.contains('base')) {
         indices.push(index);
       }
-    }
-    else
-    {
-      if((index > slider.activeIndex) && !slide.classList.contains('base')){
-        indices.push(index);
-      }
+    } else if (index > slider.activeIndex && !slide.classList.contains('base')) {
+      indices.push(index);
     }
   }
 
-  if(indices.length > baseSlides.length){
-    var toCullIndices = [];
-    if(direction > 0){
+  if (indices.length > baseSlides.length) {
+    let toCullIndices = [];
+    if (direction > 0) {
       toCullIndices = indices.slice(0, baseSlides.length);
-    }
-    else
-    {
+    } else {
       toCullIndices = indices.reverse().slice(0, baseSlides.length).reverse();
     }
 
@@ -438,50 +423,41 @@ function cullSlides(slider, direction){
   }
 }
 
-function initializeMenu() {
-  var togglers = document.getElementsByClassName('navbar-toggler');
-  for (var i = 0; i < togglers.length; i++) {
-    var toggler = togglers[i];
-    var f = toggler.getAttribute('toggle-function');
+function initSearch() {
+  let searchButton = document.querySelector('.btn-search-open');
+  let searchForm = document.querySelector('.form-control-search');
 
-    // Look for icons
-    var icon = null;
-    var icons = toggler.getElementsByClassName('icon-navbar-toggler');
-    if(icons && icons.length > 0) {
-      icon = icons[0];
-    }
+  let openSearch = function () {
+    document.querySelector('.form-control-search').focus();
+    document.querySelector('.navbar-nav-search').classList.add('search-show');
+    document.querySelector('.navbar-nav-search').classList.remove('search-hidden');
+  };
 
-    toggler.addEventListener('click', function(e){
-      e.preventDefault();
-      window[f](icon);
-    });
-  }
+  let closeSearch = function () {
+    document.querySelector('.navbar-nav-search').classList.remove('search-show');
+    document.querySelector('.navbar-nav-search').classList.add('search-hidden');
+  };
+
+  searchButton.addEventListener('click', openSearch, false);
+  searchForm.addEventListener('focusin', openSearch, false);
+  searchForm.addEventListener('focusout', closeSearch, false);
 }
 
-function toggleMobileMenu(icon){
-  var element = document.querySelector('.collapse.navbar-collapse');
-  if (element && icon) {
-    element.classList.contains('show') ? icon.classList.add('toggled') : icon.classList.remove('toggled');
-  }
+function initScroll() {
+  let nav = document.querySelector('.navbar-toggler');
+  nav.addEventListener('click', () => {
+    toggleScroll();
+  });
 }
 
-// Checks if the subnav is overflowing
-function subnavOverflowing() {
-  var subnav = document.querySelector('.sub-nav');
-  if (!subnav) return false;
-
-  var padding = 0;
-  padding += parseFloat(window.getComputedStyle(subnav, null).getPropertyValue('padding-left'));
-  padding += parseFloat(window.getComputedStyle(subnav, null).getPropertyValue('padding-right'));
-
-  var childrenWidth = 0;
-  for (var i = 0; i < subnav.children.length; i++) {
-    childrenWidth += subnav.children[i].offsetWidth;
+function toggleScroll() {
+  let body = document.querySelector('body');
+  if (!body.classList.contains('no-scroll')) {
+    body.classList.add('no-scroll');
+  } else {
+    body.classList.remove('no-scroll');
   }
-
-  return childrenWidth > window.innerWidth - padding;
 }
-
 
 function documentReady(app) {
   initializeWishlist();
@@ -490,11 +466,10 @@ function documentReady(app) {
 
   detectTouchscreen();
 
-  var swipers = document.getElementsByClassName('swiper-container');
-  for (var i = 0; i < swipers.length; i++) {
-    var el = swipers[i];
-    if(el.getAttribute('is-wishlist') == undefined)
-    {
+  let swipers = document.getElementsByClassName('swiper-container');
+  for (let i = 0; i < swipers.length; i++) {
+    let el = swipers[i];
+    if (el.getAttribute('is-wishlist') == undefined) {
       let swiper = initializeSwiper(el, false);
       init(swiper);
 
@@ -502,32 +477,32 @@ function documentReady(app) {
     }
   }
 
-  initializeMenu();
-
-  document.querySelectorAll('.btn-trailer').forEach(function(btn) {
-    btn.addEventListener('click', function(e) {
+  document.querySelectorAll('.btn-trailer').forEach(btn => {
+    btn.addEventListener('click', e => {
       e.preventDefault();
       e.stopPropagation();
       window.location = btn.getAttribute('data-url');
     });
   });
 
-  document.querySelectorAll('.navbar-nav').forEach(function(nav) {
+  document.querySelectorAll('.navbar-nav').forEach(nav => {
     nav.classList.remove('s72-hide');
   });
-
+  if (document.querySelector('.navbar-nav-search')) {
+    initSearch();
+  }
+  initScroll();
 }
 
-function detectTouchscreen(){
-  var touchEnabled = s72.utils.device.isTouchEnabled();
+function detectTouchscreen() {
+  let touchEnabled = s72.utils.device.isTouchEnabled();
   document.querySelector('html').setAttribute('is-touchscreen', touchEnabled);
 }
 
-function isTouchscreenEnabled(){
-  return (document.querySelector('html').getAttribute('is-touchscreen') === 'true');
+function isTouchscreenEnabled() {
+  return document.querySelector('html').getAttribute('is-touchscreen') === 'true';
 }
-
-document.addEventListener('s72loaded', function(event) {
+document.addEventListener('s72loaded', event => {
   let app = event.detail.app;
   documentReady(app);
 });

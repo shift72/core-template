@@ -1,16 +1,15 @@
 {{extends "templates/application.jet"}}
+{{import "templates/page/page-header.jet"}}
+{{import "templates/page/page-content.jet"}}
+
 {{block head()}}
   {{yield seo() page}}
 {{end}}
+
 {{block body()}}
-<div class="page content-page">
-  <div class="page-header">
-    <h1>{{ page.Title }}</h1>
-  </div>
-  {{if len(page.Content)}}
-  <div class="content-page-content">
-    {{page.Content | raw}}
-  </div>
-  {{end}}
-</div>
+  <main id="main" class="page content-page">
+    {{yield pageHeader(title=page.Title)}}
+
+    {{yield pageContent(text=page.Content)}}
+  </main>
 {{end}}

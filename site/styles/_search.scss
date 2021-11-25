@@ -3,12 +3,14 @@
   @include media-breakpoint-up(md) {
     padding: 20px 0;
   }
+
   .s72-form-search {
     margin: 0;
     @include media-breakpoint-up(md) {
-      margin: 0 50px 20px 50px;
+      margin: 0 50px 20px;
     }
   }
+
   .s72-searchresults-total {
     font-size: 12px;
     font-weight: $font-weight-bold;
@@ -18,37 +20,47 @@
       margin: 0 50px;
     }
   }
+
   .s72-searchresults-results {
     @extend .d-flex;
-    padding-right: 0;
     padding-left: 0;
+    padding-right: 0;
     @include media-breakpoint-up(md) {
       padding: 0 50px;
     }
+
     .partial {
       @extend .slider-item;
-
     }
   }
 }
+
 .s72-searchresults-total {
   margin-bottom: 1rem;
 }
+
 .s72-searchresults-empty {
   @include media-breakpoint-up(md) {
     padding-left: 50px;
     padding-right: 50px;
   }
+
   .s72-searchresults-empty-header {
     font-size: 14px;
     font-weight: $font-weight-bold;
   }
+
   .s72-searchresults-empty-content {
     font-size: 14px;
     font-weight: $font-weight-bold;
+
+    a {
+      @include a;
+    }
   }
 }
+
 .s72-form-search {
+  margin: 0 auto 1rem;
   max-width: map-get($container-max-widths, md);
-  margin: 0 auto 1rem auto;
 }

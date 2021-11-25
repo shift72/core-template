@@ -29,14 +29,14 @@
   {{end}}
   {{title := item.Title}}
   {{if item.ItemType == "tvseason"}}
-    {{synopsis=item.InnerItem.Tagline}}
+    {{synopsis = stripHTML(item.InnerItem.Tagline)}}
     {{title = item.InnerItem.ShowInfo.Title}}
     {{pill = i18n("season_name") + " " + item.InnerItem.SeasonNumber}}
   {{end}}
   {{if wrapper_class != ""}}
   <div class="{{wrapper_class}}">
   {{end}}
-  <a href="{{routeToSlug(item.Slug)}}" class="meta-item-link" target="{{isExternalPage ? "_blank" : ""}}">
+  <a href="{{routeToSlug(item.Slug)}}" class="meta-item-link" aria-label="{{item.Title}}" target="{{isExternalPage ? "_blank" : ""}}">
     <div class="poster poster-{{layout}}">
       <s72-availability-status data-slug="{{item.Slug}}"></s72-availability-status>
       <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
@@ -47,11 +47,7 @@
 
             {{ if !displayTitleAndGenreBelowPosters }}
             <div class="titles">
-              <h4 title="{{item.Title}}">{{title|raw}}
-                {{if isset(item.InnerItem["ReleaseDate"]) && item.InnerItem.ReleaseDate.Year() > 1}}
-                  <small>({{item.InnerItem.ReleaseDate.Year()}})</small>
-                {{end}}
-              </h4>
+              <h4 title="{{item.Title}}">{{title|raw}}</h4>
               <div class="strap">
                 <s72-classification-label data-slug="{{item.Slug}}"></s72-classification-label>
                 {{yield metaItemTagline(genres=true, genresLimit=genresLimit, classification=false) item.InnerItem}}
@@ -75,11 +71,7 @@
 
   {{if displayTitleAndGenreBelowPosters}}
     <div class="caption">
-      <div class="title" title="{{item.Title}}">{{title|raw}}
-        {{if isset(item.InnerItem["ReleaseDate"]) && item.InnerItem.ReleaseDate.Year() > 1}}
-          <small>({{item.InnerItem.ReleaseDate.Year()}})</small>
-        {{end}}
-      </div>
+      <div class="title" title="{{item.Title}}">{{title|stripHTML}}</div>
       {{yield metaItemTagline(genres=true, genresLimit=genresLimit, classification=false) item.InnerItem}}
     </div>
   {{end}}

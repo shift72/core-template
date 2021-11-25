@@ -1,68 +1,201 @@
 .btn {
-  font-family: $font-family-base;
   border-radius: 4px;
+  font-family: $font-family-base;
 }
-// Default Action for Buttons
 
-// Primary Button
 .btn-primary {
-  color: $button-text-color;
   background-color: $button-background;
-  font-weight: $font-weight-bold;
+  color: $button-text-color;
+  font-weight: $font-weight-normal;
   @include hover-focus {
-    color: $button-text-color-hover;
-    border-color: $button-background-hover;
     background-color: $button-background-hover;
+    border-color: $button-background-hover;
+    color: $button-text-color-hover;
   }
 }
-// Sign In Button
+
 .btn.btn-signin {
-  font-size: 14px;
-  color: $signin-text-color;
-  border: 3px solid $signin-border-color;
+  align-items: center;
   background-color: $signin-background;
-  margin-right: 10px;
+  border: 3px solid $signin-border-color;
+  color: $signin-text-color;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  @include hover-focus {
+    background: $signin-background-hover;
+    border: 3px solid $signin-border-color-hover;
+    color: $body-color;
+  }
+  @include media-breakpoint-up(lg) {
+    background-color: $signin-background-lg;
+    @include hover-focus {
+      background: $signin-background-hover-lg;
+      color: $signin-text-color-hover;
+    }
+  }
   @include media-breakpoint-up(xl) {
     font-size: 16px;
   }
-  @include hover-focus {
-    color: $signin-text-color-hover;
-    border: 3px solid $signin-border-color-hover;
-    background: $signin-background-hover;
-    text-decoration: underline;
-  }
 }
-// Sign Up Button
+
+.btn.btn-signin-primary,
 .btn.btn-signup {
-  font-size: 14px;
-  color: $signup-text-color;
+  align-items: center;
+  background-color: $signup-background;
   border: 3px solid $signup-border-color;
-  background-color: $signup-background; 
+  color: $signup-text-color;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  margin-left: 12px;
   white-space: initial;
   @include media-breakpoint-up(xl) {
     font-size: 16px;
   }
   @include hover-focus {
-    color: $signup-text-color-hover;
     background-color: $signup-background-hover;
+    color: $signup-text-color-hover;
   }
 }
 
-// Transactional Buttons
+.s72-btn-play {
+  @extend .d-flex;
+  align-items: center;
+  background: $button-background;
+  border: 3px solid $button-background;
+  justify-content: center;
+  padding-bottom: 3px;
+  padding-left: 0;
+  padding-top: 3px;
+  @include hover-focus {
+    background: $button-background-hover;
+    border: 3px solid $button-background-hover;
+
+    .s72-icon-play {
+      circle {
+        fill: none;
+        stroke: none;
+      }
+
+      path {
+        fill: $button-text-color-hover;
+        stroke: $button-text-color-hover;
+      }
+    }
+
+    .s72-btn-play-label {
+      color: $button-text-color-hover;
+    }
+  }
+
+  .s72-icon-play {
+    circle {
+      fill: none;
+      stroke: none;
+    }
+
+    path {
+      fill: $button-text-color;
+      stroke: $button-text-color;
+    }
+  }
+
+  .verb {
+    color: $button-text-color;
+    font-size: 18px;
+    font-weight: $font-weight-normal;
+  }
+}
+
+.s72-btn-play.s72-btn-trailer {
+  background: transparent;
+  border: 0 none;
+  @include hover-focus {
+    background: transparent;
+
+    .s72-icon-play circle {
+      fill: $primary;
+      stroke: $primary;
+      stroke-width: 3px;
+    }
+
+    .s72-icon-play path {
+      fill: #000;
+      stroke: #000;
+    }
+  }
+
+  &.s72-btn-trailer {
+    background: transparent;
+    border: 0 none;
+
+    @include media-breakpoint-up(md) {
+      margin-right: 10px;
+    }
+
+    .verb {
+      background: transparent;
+      color: $primary;
+    }
+  }
+
+  .verb {
+    color: $trailer-button-text-color;
+  }
+
+  .s72-btn-play-icon {
+    display: inline-block;
+    height: 32px;
+    margin-right: 0;
+    width: 32px;
+
+    circle {
+      fill: transparent;
+      stroke: $primary;
+      stroke-width: 3px;
+    }
+
+    path {
+      fill: $body-color;
+      stroke: $body-color;
+    }
+  }
+
+  .s72-btn-play-label {
+    background: transparent;
+    border-width: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    font-size: 12px;
+    margin-left: 0;
+    padding-bottom: 0;
+    padding-left: 8px;
+    padding-top: 0;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
 .s72-btn-rent,
 .s72-btn-purchase {
   background: $button-background;
   border: 3px solid $button-background;
+  min-width: 140px;
   @include hover-focus {
-    color: $button-text-color-hover;
     background: $button-background-hover;
     border-color: $button-background-hover;
+    color: $button-text-color-hover;
   }
+
   .verb {
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-normal;
   }
+
   .price {
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-normal;
   }
 }
 
@@ -97,5 +230,49 @@ s72-play-button {
   .s72-icon-loading {
     position: absolute;
     left: 0;
+  }
+}
+.btn-wishlist {
+  p {
+    margin: 0;
+  }
+
+  .btn-wishlist-quick {
+    left: 10px;
+    position: absolute;
+    top: 0;
+    // One more than the availability label
+    z-index: 100;
+  }
+
+  .s72-btn-wishlist {
+    background: transparent;
+    border: 0 none;
+    color: $body-color;
+    font-size: 14px;
+
+    .s72-icon-loading,
+    .s72-icon-errored {
+      display: none;
+    }
+  }
+
+  .s72-icon {
+    font-size: 16px !important;
+    margin-left: 0;
+    margin-right: 5px;
+  }
+}
+
+.btn-block .s72-btn {
+  @extend .btn-block;
+}
+
+.btn-light {
+  background-color: $gray-300;
+  border-color: $gray-300;
+  @include hover-focus {
+    background-color: $gray-200;
+    border-color: $gray-200;
   }
 }

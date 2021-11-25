@@ -1,5 +1,8 @@
 {{extends "templates/application.jet"}}
 {{import "templates/collection/page_collection.jet"}}
+{{import "templates/common/background-image.jet"}}
+{{import "templates/page/page-content.jet"}}
+{{import "templates/page/page-header.jet"}}
 
 {{block head()}}
   {{yield seo() page}}
@@ -7,25 +10,38 @@
 
 
 {{block body()}}
-<div class="page {{page.PageType}}-page">
-  <div class="page-bg">
-    <div class="right-gradient"></div>
-    <s72-image src="{{page.Images.Background}}" alt="" class="page-bg-img"></s72-image>
-  </div>
-  <div class="container-fluid">
-    <div class="page-header">
-      <h1>{{ page.Title }}</h1>
-      {{if len(page.Content)}}
-        <div class="page-header-content">
-          {{page.Content | raw}}
-        </div>
+{{ plan := 0 }}
+{{ if len(page.Plans) }}
+  {{ plan = page.Plans[0] }}
+{{ end }}
+
+  <main id="main" class="page curated-page {{if len(page.PageCollections) > 0}}curated-collection-page{{end}}">
+    {{yield backgroundImage(containerClass="page-bg", gradientClass="right-gradient", imageClass="page-bg-img", imageSrc=page.Images.Background)}}
+
+    {{yield pageHeader(title=page.Title, plan=plan)}}
+
+    {{yield pageContent(text=page.Content, plan=plan)}}
+
+    <div class="page-collections">
+      <h2 class="sr-only">{{i18n("wcag_collections_h2")}}</h2>
+      {{range index, pf := page.PageCollections}}
+        {{yield pageCollection() pf}}
       {{end}}
     </div>
-  </div>
-  <div class="page-collections">
-    {{range index, pf := page.PageCollections}}
-      {{yield pageCollection() pf}}
-    {{end}}
-  </div>
-</div>
+
+    {{ if plan != 0 }}
+      <div class="s72-view-all-passes text-center">
+        <h2 class="s72-divider-bottom mb-2 pb-2">{{ i18n("plan_page_header_text", map("Name", plan.Name)) }}</h2>
+
+        <p class="col-xs-10 col-xxl-8 mx-auto">{{ plan.Description }}</p>
+
+        <div>
+          <s72-pricing-buttons class="mb-2" data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" />
+          <s72-plan-label data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" />
+        </div>
+        <p>{{ i18n("page_plan_explore_intro" )}}</p>
+        <p><a href="/plans.html">{{ i18n("page_plan_explore_link") }}</a></p>
+      </div>
+    {{ end }}
+  </main>
 {{end}}

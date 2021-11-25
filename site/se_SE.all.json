@@ -1,8 +1,12 @@
 {
     "site_owner": { "other": "ABC Cinemas" },
     "settings_title": { "other": "Settings" },
+    "powered_by": { "other": "Powered by" },
     "powered_by_name": { "other": "ScreenPlus" },
     "powered_by_url": { "other": "https://www.screenplus.com" },
+    "in_partnership_with": { "other": "in partnership with" },
+    "festival_scope": { "other": "Festival Scope" },
+    "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
     "en": { "other": "English" },
     "fr": { "other": "French" },
   
@@ -70,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "Поделите" },
   
-    "accept_invite_page_header": { "other": "Добродошли на " },
+    "accept_invite_page_header": { "other": "Добродошли" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Изгледа да сте већ активирали овај позив. Потребно је да се <a href=\"{{.SigninURL}}\">пријавите</a>. Ако сте заборавили лозинку, можете и да <a href=\"{{.ForgotPasswordURL}}\">ресетујете лозинку</a>." },
     "acceptinvite_complete": { "other": "Хвала Вам. Ваш налог је направљен." },
     "acceptinvite_form_submit": { "other": "Прихватите позив." },
@@ -107,6 +111,7 @@
     "combined_auth_signin_password": { "other": "Молимо Вас унесите лозинку да бисте се пријавили." },
     "combined_auth_signin_error_incorrect_credentials": { "other": "Лозинка је нетачна." },
     "combined_auth_error_forbidden": { "other": "Догодила се грешка." },
+    "combined_auth_error_too_many_requests": { "other": "Превише захтева. Покушајте поново касније." },
   
     "forgotpassword_page_header": { "other": "Ресетујте лозинку" },
     "forgotpassword_form_email": { "other": "Имејл адреса" },
@@ -115,6 +120,7 @@
     "forgotpassword_form_error_account_suspended": { "other": "Овај налог је суспендован." },
     "forgotpassword_complete": { "other": "Хвала Вам. Имејл за ресетовање лозинке ће Вам убрзо стићи у инбокс." },
     "forgotpassword_form_error_forbidden": { "other": "Догодила се грешка." },
+    "forgotpassword_form_error_too_many_requests": { "other": "Превише захтева. Покушајте поново касније." },
   
     "resetpassword_page_header": { "other": "Промените лозинку" },
     "resetpassword_form_invalid_reset_password_token": { "other": "Изгледа да је захтев за ресетовање лозинке неправилан, молимо Вас попуните <a href=\"{{.URL}}\">Образац за заборављену лозинку</a> поново." },
@@ -124,6 +130,7 @@
     "resetpassword_complete": { "other": "Хвала. Ваша лозинка је промењена и пријављени сте." },
     "resetpassword_form_error_invalid_reset_password_token": { "other": "Захтев за ресетовање лозинке је неправилан." },
     "resetpassword_form_error_reset_password_token_expired": { "other": "Токен за ресетовање лозинке је истекао. Молимо Вас, тражите нови." },
+    "resetpassword_form_error_too_many_requests": { "other": "Превише захтева. Покушајте поново касније." },
   
     "account_page_header": { "other": "Мој налог" },
     "account_form_name": { "other": "Име" },
@@ -206,11 +213,13 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Нећете моћи да гледате садржај након тога." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Нећете моћи да гледате садржај након тога." },
   
-    "shopping_info_rental_period_duration": { "other": "Изнајмљено на {{.Count}} дана" },
-    "shopping_info_watch_window_duration": { "other": "{{.Count}} ч. за гледање." },
+    "duration_hour": { "one": "1 сат", "other": "{{.Count}} сата" },
+    "duration_day": { "one": "1 дан", "other": "{{.Count}} дана" },
+    "shopping_info_rental_period_duration": { "other": "Изнајмљено на {{.ValueUnit}} " },
+    "shopping_info_watch_window_duration": { "other": "{{.Count}} ч. за гледање. " },
     "shopping_info_watch_window_explanation_film": {
-      "one": "Када изнајмите филм, биће доступан на Вашем налогу један дан.",
-      "other": "Када изнајмите филм, биће доступан на Вашем налогу {{.Count}} дана."
+      "one": "Када изнајмите филм, биће доступан на Вашем налогу {{.ValueUnit}}. ",
+      "other": "Када изнајмите филм, биће доступан на Вашем налогу {{.ValueUnit}}. "
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Када притиснете дугме за гледање, имаћете један сат да погледате филм колико год пута желите.",
@@ -373,7 +382,7 @@
     "classification_outro": { "other": "" },
   
     "cookie_banner_message": { "other":"Овај сајт користи колачиће да би побољшао Ваш доживљај.Коришћењем сајта прихватате <a href=\"{{.CookiePolicyURL}}\">употребу колачића</a>." },
-    "cookie_banner_accept": { "other": "Прихватам" },
+    "cookie_banner_accept": { "other": "Прихвати" },
   
     "all_rights_reserved": { "other": "Сва права су задржана. Ниједан део овог сајта не сме се репродуковати без наше писмене дозволе." },
   
@@ -475,5 +484,69 @@
     "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
     "user_error_too_many_pin_errors_help_page_link": { "other": "" },
     "shopping_error_age_restricted": { "other": "This content is age restricted." },
-    "shopping_error_close_button": { "other": "OK" }
+    "shopping_error_close_button": { "other": "OK" },
+
+    "app_badge_title": { "other": "Download the app to view your purchased content!" },
+    "app_badge_ios": { "other": "Download on the App Store" },
+    "app_badge_android": { "other": "Get it on Google Play" },
+
+    "shopping_price_title_plan": {
+      "other": "Цена"
+    },
+    "shopping_price_plan_note": {
+      "zero": "Наплаћује се сваки {{ .Interval }} .",
+      "one": "Наплаћује се сваки {{ .Interval }} након завршетка бесплатног пробног периода од 24 сата.",
+      "other": "Оптужен сваки {{ .Interval }} после ваших {{ .Count }} дневни бесплатни пробни крајевима."
+    },
+    "shopping_price_plan_note_interval": {
+      "one": "{{ .Interval }}",
+      "other": "{{ .Count }} {{ .Interval }} а"
+    },
+    "shopping_enter_card_prompt_plan": {
+      "other": "Унесите податке о својој кредитној картици испод да бисте започели претплату."
+    },
+    "shopping_action_plan": {
+      "other": "комплетан"
+    },
+    "shopping_complete_subscription": {
+      "other": "Ваша куповина претплате је била успешна. Сада сте претплаћени на {{ .Title }} ."
+    },
+    "shopping_complete_subscription_browse": {
+      "other": "Слободно <a href=\"/\">претражујте по</a> сајту или <a href=\"/search.html\">тражите</a> нешто специфично."
+    },
+    "shopping_info_plan_offer": {
+      "one": "Аутоматски обнавља сваки {{ .Interval }}",
+      "other": "Аутоматски обнавља на сваких {{ .Count }} {{ .Interval }} с"
+    },
+    "shopping_info_trial_period_offer": {
+      "one": "Испробајте своју бесплатну пробну верзију од 24 сата сада!",
+      "other": "Испробајте своју бесплатну пробну верзију {{ .Count }}"
+    },
+    "plans_page_header": {
+      "other": "Доступни планови"
+    },
+    "plan_label_owned": {
+      "other": "Ви сте власник овог плана"
+    },
+    "plan_expiry_date": {
+      "other": "Завршена продаја:"
+    },
+    "plan_read_more": {
+      "other": "Откриј више"
+    },
+    "plan_page_read_more": {
+      "other": "Опширније"
+    },
+    "plan_page_header_text": {
+      "other": "Уживајте у {{ .Name }}"
+    },
+    "page_plan_explore_intro": {
+      "other": "ИЛИ"
+    },
+    "page_plan_explore_link": {
+      "other": "Истражите друге пролазе"
+    },
+    "plan_showcase_page_ownership_button_buy": {
+      "other": "Купите сада"
+    }
   }

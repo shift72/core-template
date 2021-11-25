@@ -1,8 +1,12 @@
 {
   "site_owner": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Configuración" },
+  "powered_by": { "other": "Powered by" },
   "powered_by_name": { "other": "ScreenPlus" },
   "powered_by_url": { "other": "https://www.screenplus.com" },
+  "in_partnership_with": { "other": "in partnership with" },
+  "festival_scope": { "other": "Festival Scope" },
+  "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
   "en": { "other": "English" },
   "fr": { "other": "Français" },
 
@@ -70,7 +74,7 @@
 
   "social_media_buttons_title": { "other": "Compartir" },
 
-  "accept_invite_page_header": { "other": "Bienvenido a " },
+  "accept_invite_page_header": { "other": "Bienvenido" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Parece que ya ha canjeado esta invitación, debería  <a href=\"{{.SigninURL}}\">ingresar</a>. Si has olvidado tu contraseña, puedes también <a href=\"{{.ForgotPasswordURL}}\">reestablecer tu contraseña</a>." },
   "acceptinvite_complete": { "other": "Gracias. Se ha creado su cuenta." },
   "acceptinvite_form_submit": { "other": "Aceptar invitación" },
@@ -104,6 +108,7 @@
   "combined_auth_signin_password": { "other": "Por favor ingresa tu contraseña para iniciar sesión." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Esa contraseña es incorecta." },
   "combined_auth_error_forbidden": { "other": "Ha ocurido un error." },
+  "combined_auth_error_too_many_requests": { "other": "Hay demasiadas solicitudes. Por favor inténtelo más tarde." },
 
   "forgotpassword_page_header": { "other": "Reestablecer contraseña" },
   "forgotpassword_form_email": { "other": "Correo" },
@@ -112,6 +117,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "Esta cuenta está suspendida." },
   "forgotpassword_complete": { "other": "Gracias. Un correo para reestablecer la constraseña debería llegar a tu inbox pronto." },
   "forgotpassword_form_error_forbidden": { "other": "Ha ocurrido un error." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Hay demasiadas solicitudes. Por favor inténtelo más tarde." },
 
   "resetpassword_page_header": { "other": "Cambiar tu contraseña" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Parece que esta solicitud para reestablecer la constraseña no es válida, por favor completa el formato <a href=\"{{.URL}}\">Se te olvidó tu contraseña</a> otra vez." },
@@ -121,6 +127,7 @@
   "resetpassword_complete": { "other": "Gracias. Tu contraseña ha cambiado y has iniciado sesión." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "La solicitud para reestablecer la contraseña es inválida. Por favor intenta más tarde." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "El token para reestablecer la contraseña está vencido. Por favor solicita uno nuevo." },
+  "resetpassword_form_error_too_many_requests": { "other": "Hay demasiadas solicitudes. Por favor inténtelo más tarde." },
 
   "account_page_header": { "other": "Mi cuenta" },
   "account_form_name": { "other": "Nombre" },
@@ -190,11 +197,13 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "No podrás ver el contenido después de esto." },
   "shopping_info_available_until_date_explanation_buy": { "other": "No podrás ver el contenido después de esto." },
 
-  "shopping_info_rental_period_duration": { "other": "Renta de {{.Count}} día " },
+  "duration_hour": { "one": "1 hora", "other": "{{.Count}} horas" },
+  "duration_day": { "one": "1 día", "other": "{{.Count}} dias" },
+  "shopping_info_rental_period_duration": { "other": "Renta de {{.ValueUnit}} " },
   "shopping_info_watch_window_duration": { "other": "Ventana de reproducción de {{.Count}} horas. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Una vez rentada, tu película estará disponible en tu cuenta durante un día. ",
-    "other": "Una vez rentada, tu película estará disponible en tu cuenta durante {{.Count}} días. "
+    "one": "Una vez rentada, tu película estará disponible en tu cuenta durante {{.ValueUnit}}. ",
+    "other": "Una vez rentada, tu película estará disponible en tu cuenta durante {{.ValueUnit}}. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Una vez que seleccionas reproducir, se inicia la ventana de reproducción y tienes una hora para ver la película las veces que quieras.",
@@ -387,5 +396,9 @@
 
   "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 
-  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
+  "app_badge_ios": { "other": "Download on the App Store" },
+  "app_badge_android": { "other": "Get it on Google Play" }
 }

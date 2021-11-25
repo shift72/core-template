@@ -10,7 +10,7 @@
   {{ end }}
 
   <div class="s72-carousel-item" data-slug="{{item.Slug}}">
-    <a href="{{routeToSlug(item.Slug)}}" class="carousel-item-link">
+    <a href="{{routeToSlug(item.Slug)}}" class="carousel-item-link" aria-label="{{item.Title}}">
 
       {{if isset(item.Images["Carousel"])}}
         <s72-image src="{{item.Images.Carousel}}" alt="{{item.Title}}" class="carousel-item-image"></s72-image>
@@ -25,9 +25,7 @@
               {{end}}
             </h3>
             <div class="meta-item-tagline-and-classification">
-              <div class="meta-item-tagline">
-                {{yield metaItemTagline() item.InnerItem}}
-              </div>
+              {{yield metaItemTagline() item.InnerItem}}
             </div>
 
             <div class="meta-item-buttons">
@@ -54,7 +52,7 @@
             <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
 
             <div class="meta-item-synopsis">
-              <p>{{item.InnerItem.Tagline}}</p>
+              <p>{{item.InnerItem.Tagline | stripHTML}}</p>
             </div>
 
           </div>

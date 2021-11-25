@@ -1,0 +1,5 @@
+{{import "templates/common/background-image.jet"}}
+
+{{block bundleBackground(background)}}
+  {{yield backgroundImage(containerClass="meta-detail-bg", gradientClass="meta-detail-bg-gradient", imageClass="meta-detail-bg-img", imageSrc=background)}}
+{{end}}

@@ -1,8 +1,12 @@
 {
     "site_owner": { "other": "ABC Cinemas" },
     "settings_title": { "other": "Settings" },
+    "powered_by": { "other": "Powered by" },
     "powered_by_name": { "other": "ScreenPlus" },
     "powered_by_url": { "other": "https://www.screenplus.com" },
+    "in_partnership_with": { "other": "in partnership with" },
+    "festival_scope": { "other": "Festival Scope" },
+    "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
     "en": { "other": "English" },
     "fr": { "other": "French" },
   
@@ -70,7 +74,7 @@
   
     "social_media_buttons_title": { "other": "Megosztás" },
   
-    "accept_invite_page_header": { "other": "Üdvözlünk " },
+    "accept_invite_page_header": { "other": "Üdvözöljük" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Úgy tűnik, már felhasználtad a meghívódat, próbálj meg <a href=\"{{.SigninURL}}\">bejelentkezni</a>. Ha elfelejtetted a jelszavadat, <a href=\"{{.ForgotPasswordURL}}\">állíts be újat</a>." },
     "acceptinvite_complete": { "other": "Köszönjük. A fiókodat létrehoztuk." },
     "acceptinvite_form_submit": { "other": "Meghívó elfogadása" },
@@ -107,6 +111,7 @@
     "combined_auth_signin_password": { "other": "Kérjük, add meg a jelszavadat a fiókodba történő belépéshez." },
     "combined_auth_signin_error_incorrect_credentials": { "other": "Hibás jelszó." },
     "combined_auth_error_forbidden": { "other": "Hiba történt." },
+    "combined_auth_error_too_many_requests": { "other": "Túl sok kérés. Kérlek, próbáld újra később." },
   
     "forgotpassword_page_header": { "other": "Új jelszó beállítása" },
     "forgotpassword_form_email": { "other": "E-mail cím" },
@@ -115,6 +120,7 @@
     "forgotpassword_form_error_account_suspended": { "other": "Ezt a fiókot felfüggesztették." },
     "forgotpassword_complete": { "other": "Köszönjük. A jelszó visszaállításáról hamarosan e-mailed érkezik." },
     "forgotpassword_form_error_forbidden": { "other": "Hiba történt." },
+    "forgotpassword_form_error_too_many_requests": { "other": "Túl sok kérés. Kérlek, próbáld újra később." },
   
     "resetpassword_page_header": { "other": "Jelszó megváltoztatása." },
     "resetpassword_form_invalid_reset_password_token": { "other": "Úgy tűnik, hogy ez a jelszó érvénytelen, kérjük töltsd ki ismét az <a href=\"{{.URL}}\">Elfelejtett jelszó</a> űrlapot.." },
@@ -124,6 +130,7 @@
     "resetpassword_complete": { "other": "Köszönjük. A jelszavad megváltoztattad, bejelentkezésed sikeres." },
     "resetpassword_form_error_invalid_reset_password_token": { "other": "A jelszó megváltoztatásának igénye érvénytelen. Kérjük, próbáld meg újra később." },
     "resetpassword_form_error_reset_password_token_expired": { "other": "A jelszó megváltoztatására küldött token lejárt. Igényelj újat." },
+    "resetpassword_form_error_too_many_requests": { "other": "Túl sok kérés. Kérlek, próbáld újra később." },
   
     "account_page_header": { "other": "Fiókom" },
     "account_form_name": { "other": "Név" },
@@ -193,11 +200,13 @@
     "shopping_info_available_until_date_explanation_rent": { "other": "Ezután a dátum után nem lesz elérhető a tartalom." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Ezután a dátum után nem lesz elérhető a tartalom." },
   
-    "shopping_info_rental_period_duration": { "other": "{{.Count}} nap a kölcsönzési idő " },
-    "shopping_info_watch_window_duration": { "other": "{{.Count}} óra van a lejátszásra " },
+    "duration_hour": { "one": "1 óra", "other": "{{.Count}} óra" },
+    "duration_day": { "one": "1 nap", "other": "{{.Count}} nap" },
+    "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} a kölcsönzési idő " },
+    "shopping_info_watch_window_duration": { "other": "{{.Count}} óra van a lejátszásra. " },
     "shopping_info_watch_window_explanation_film": {
-      "one": "A kölcsönzéstől számítva a film elérhető lesz a fiókodban {{.Count}} napig. ",
-      "other": "A kölcsönzéstől számítva a film elérhető lesz a fiókodban {{.Count}} napig. "
+      "one": "A kölcsönzéstől számítva a film elérhető lesz a fiókodban {{.ValueUnit}}. ",
+      "other": "A kölcsönzéstől számítva a film elérhető lesz a fiókodban {{.ValueUnit}}. "
     },
     "shopping_info_watch_window_explanation2_film": {
       "one": "Ha megnyomod a lejátszást, a  lejátszásra biztosított idő megkezdődik és {{.Count}} órád lesz, hogy megnézd a filmet annyiszor, ahányszor akarod.",
@@ -358,7 +367,7 @@
     "classification_outro": { "other": "" },
   
     "cookie_banner_message": { "other": "Ez az oldal sütiket használ a felhasználói élmény növelésének érdekében. Amennyiben ezt az oldalt használod, elfogadod a <a href=\"{{.CookiePolicyURL}}\">sütik használatára vonatkozó feltételeket</a>-ot." },
-    "cookie_banner_accept": { "other": "Elfogadom" },
+    "cookie_banner_accept": { "other": "Elfogad" },
   
     "all_rights_reserved": { "other": "Minden jog fenntartva. Az oldal egyetlen része sem reprodukálható írásos engedélyünk nélkül." },
   
@@ -440,6 +449,70 @@
 
     "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 
-    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
+    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+    
+    "app_badge_title": { "other": "Download the app to view your purchased content!" },
+    "app_badge_ios": { "other": "Download on the App Store" },
+    "app_badge_android": { "other": "Get it on Google Play" },
+
+    "shopping_price_title_plan": {
+      "other": "Ár"
+    },
+    "shopping_price_plan_note": {
+      "zero": "{{ .Interval }} minden .Intervallum .",
+      "one": "A 24 órás ingyenes próbaidőszak {{ .Interval }} után minden .Intervallumonként felszámításra kerül.",
+      "other": "{{ .Count }} napos ingyenes próbaidőszak {{ .Interval }} után minden .Intervallum felszámításra kerül."
+    },
+    "shopping_price_plan_note_interval": {
+      "one": "{{ .Interval }}",
+      "other": "{{ .Count }} {{ .Interval }}"
+    },
+    "shopping_enter_card_prompt_plan": {
+      "other": "Az előfizetés megkezdéséhez adja meg alább hitelkártyaadatait."
+    },
+    "shopping_action_plan": {
+      "other": "teljes"
+    },
+    "shopping_complete_subscription": {
+      "other": "Az előfizetés vásárlása sikeres volt. Feliratkozott a {{ .Title }} ."
+    },
+    "shopping_complete_subscription_browse": {
+      "other": "Nyugodtan <a href=\"/\">böngésszen</a> az oldalon, vagy <a href=\"/search.html\">keressen</a> valami konkrétat."
+    },
+    "shopping_info_plan_offer": {
+      "one": "Automatikusan megújítja minden {{ .Interval }}",
+      "other": "Automatikusan {{ .Count }} {{ .Interval }}"
+    },
+    "shopping_info_trial_period_offer": {
+      "one": "Próbálja ki most az ingyenes 24 órás próbaverziót!",
+      "other": "Próbálja ki ingyenes {{ .Count }} napos próbaverzióját!"
+    },
+    "plans_page_header": {
+      "other": "Rendelkezésre álló tervek"
+    },
+    "plan_label_owned": {
+      "other": "Öné ez a terv"
+    },
+    "plan_expiry_date": {
+      "other": "Az értékesítés lezárása:"
+    },
+    "plan_read_more": {
+      "other": "Tudjon meg többet"
+    },
+    "plan_page_read_more": {
+      "other": "Olvass tovább"
+    },
+    "plan_page_header_text": {
+      "other": "Élvezze {{ .Name }}"
+    },
+    "page_plan_explore_intro": {
+      "other": "VAGY"
+    },
+    "page_plan_explore_link": {
+      "other": "Fedezzen fel más bérleteket"
+    },
+    "plan_showcase_page_ownership_button_buy": {
+      "other": "Vásárolj most"
+    }
   }
   

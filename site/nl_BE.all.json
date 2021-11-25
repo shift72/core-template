@@ -1,8 +1,12 @@
 {
   "site_owner": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Settings" },
+  "powered_by": { "other": "Powered by" },
   "powered_by_name": { "other": "ScreenPlus" },
   "powered_by_url": { "other": "https://www.screenplus.com" },
+  "in_partnership_with": { "other": "in partnership with" },
+  "festival_scope": { "other": "Festival Scope" },
+  "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
   "en": { "other": "English" },
   "fr": { "other": "French" },
 
@@ -70,7 +74,7 @@
 
   "social_media_buttons_title": { "other": "Deel" },
 
-  "accept_invite_page_header": { "other": "Welkom op " },
+  "accept_invite_page_header": { "other": "Welkom" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Het lijkt erop dat u deze uitnodiging al hebt gebruikt. U dient zich hier <a href=\"{{.SigninURL}}\">in te loggen</a>. <a href=\"{{.ForgotPasswordURL}}\">Wachtwoord vergeten?</a>." },
   "acceptinvite_complete": { "other": "Bedankt. Uw account is aangemaakt." },
   "acceptinvite_form_submit": { "other": "Aanvaard uitnodiging" },
@@ -107,6 +111,7 @@
   "combined_auth_signin_password": { "other": "Vul uw wachtwoord in om in te loggen." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Het wachtwoord is niet correct." },
   "combined_auth_error_forbidden": { "other": "Er is een fout opgetreden." },
+  "combined_auth_error_too_many_requests": { "other": "Te veel verzoeken, probeer het later opnieuw." },
 
   "forgotpassword_page_header": { "other": "Stel uw wachtwoord opnieuw in" },
   "forgotpassword_form_email": { "other": "E-mailadres" },
@@ -115,6 +120,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "Dit account is opgeschort" },
   "forgotpassword_complete": { "other": "Bedankt. Er zou binnenkort een e-mail over het opnieuw instellen van uw wachtwoord in uw inbox moeten verschijnen." },
   "forgotpassword_form_error_forbidden": { "other": "Er is een fout opgetreden." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Te veel verzoeken, probeer het later opnieuw." },
 
   "resetpassword_page_header": { "other": "Verander uw wachtwoord" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Het lijkt erop dat het verzoek voor het opnieuw instellen van uw wachtwoord ongeldig is, vul het <a href=\"{{.URL}}\">Wachtwoord vergeten</a> formulier opnieuw in." },
@@ -124,6 +130,7 @@
   "resetpassword_complete": { "other": "Bedankt. Uw wachtwoord is veranderd en u bent ingelogd." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "Het verzoek om uw wachtwoord opnieuw in te stellen is ongeldig. Probeer het later nog eens." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "Het token om het wachtwoord opnieuw in te stellen is ongeldig. Probeer het later nog eens." },
+  "resetpassword_form_error_too_many_requests": { "other": "Te veel verzoeken, probeer het later opnieuw." },
 
   "account_page_header": { "other": "Mijn Account" },
   "account_form_name": { "other": "Naam" },
@@ -206,11 +213,13 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "U zult de inhoud hierna niet meer kunnen bekijken." },
   "shopping_info_available_until_date_explanation_buy": { "other": "U zult de inhoud hierna niet meer kunnen bekijken." },
 
-  "shopping_info_rental_period_duration": { "other": "{{.Count}} dagen bekijken " },
+  "duration_hour": { "one": "1 uur", "other": "{{.Count}} uur" },
+  "duration_day": { "one": "1 dag", "other": "{{.Count}} dagen" },
+  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} bekijken " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} uur (her)bekijken. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Eenmaal gehuurd, zal de film gedurende 1 dag beschikbaar zijn in uw bibliotheek. ",
-    "other": "Eenmaal gehuurd, zal de film gedurende {{.Count}} dagen beschikbaar zijn in uw bibliotheek. "
+    "one": "Eenmaal gehuurd, zal de film gedurende {{.ValueUnit}} beschikbaar zijn in uw bibliotheek. ",
+    "other": "Eenmaal gehuurd, zal de film gedurende {{.ValueUnit}} beschikbaar zijn in uw bibliotheek. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Zodra u op play klikt, begint de film en heeft u 1 uur de tijd om deze zo vaak als u wenst te herbekijken.",
@@ -373,7 +382,7 @@
   "classification_outro": { "other": "" },
 
   "cookie_banner_message": { "other": "Deze site gebruikt cookies om uw surfervaring te verbeteren. Door deze site te gebruiken, gaat u akkoord met <a href=\"{{.CookiePolicyURL}}\">het gebruik van cookies</a>." },
-  "cookie_banner_accept": { "other": "Ik ga akkoord" },
+  "cookie_banner_accept": { "other": "Akkoord" },
 
   "all_rights_reserved": { "other": "Alle rechten voorbehouden. Niets van deze site mag worden gereproduceerd zonder onze schriftelijke toestemming." },
 
@@ -468,5 +477,69 @@
   "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
   "user_error_too_many_pin_errors_help_page_link": { "other": "" },
   "shopping_error_age_restricted": { "other": "This content is age restricted." },
-  "shopping_error_close_button": { "other": "OK" }
+  "shopping_error_close_button": { "other": "OK" },
+
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
+  "app_badge_ios": { "other": "Download on the App Store" },
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+  "shopping_price_title_plan": {
+    "other": "Prijs"
+  },
+  "shopping_price_plan_note": {
+    "zero": "Elk {{ .Interval }} opgeladen.",
+    "one": "Elke {{ .Interval }} nadat uw gratis proefperiode van 24 uur is afgelopen.",
+    "other": "Elk {{ .Interval }} nadat uw {{ .Count }} dag is afgelopen."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Voer hieronder uw creditcardgegevens in om uw abonnement te starten."
+  },
+  "shopping_action_plan": {
+    "other": "Compleet"
+  },
+  "shopping_complete_subscription": {
+    "other": "Uw abonnementsaankoop is gelukt. U bent nu geabonneerd op {{ .Title }} ."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Kijk gerust <a href=\"/\">rond op</a> de site of <a href=\"/search.html\">zoek</a> naar iets specifieks."
+  },
+  "shopping_info_plan_offer": {
+    "one": "{{ .Interval }} automatisch elk .Interval",
+    "other": "{{ .Count }} automatisch elke {{ .Interval }}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Probeer nu uw gratis proefperiode van 24 uur!",
+    "other": "Probeer uw gratis {{ .Count }} !"
+  },
+  "plans_page_header": {
+    "other": "Beschikbare abonnementen"
+  },
+  "plan_label_owned": {
+    "other": "Jij bent eigenaar van dit abonnement"
+  },
+  "plan_expiry_date": {
+    "other": "Verkoop sluiten:"
+  },
+  "plan_read_more": {
+    "other": "Meer te weten komen"
+  },
+  "plan_page_read_more": {
+    "other": "Lees verder"
+  },
+  "plan_page_header_text": {
+    "other": "Geniet van {{ .Name }}"
+  },
+  "page_plan_explore_intro": {
+    "other": "OF"
+  },
+  "page_plan_explore_link": {
+    "other": "Ontdek andere passen"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Nu kopen"
+  }
 }

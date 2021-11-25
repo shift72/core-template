@@ -1,8 +1,12 @@
 {
   "site_owner": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Settings" },
+  "powered_by": { "other": "Powered by" },
   "powered_by_name": { "other": "ScreenPlus" },
   "powered_by_url": { "other": "https://www.screenplus.com" },
+  "in_partnership_with": { "other": "in partnership with" },
+  "festival_scope": { "other": "Festival Scope" },
+  "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
   "en": { "other": "English" },
   "fr": { "other": "French" },
 
@@ -47,7 +51,7 @@
 
   "social_media_buttons_title": { "other": "共有" },
 
-  "accept_invite_page_header": { "other": "ようこそ " },
+  "accept_invite_page_header": { "other": "ようこそ" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "すでに招待リクエスト済みですので、サインインしてください。" },
   "acceptinvite_complete": { "other": "ありがとうございます。アカウント登録は完了しました。" },
   "acceptinvite_form_submit": { "other": "招待を受け取る" },
@@ -82,6 +86,7 @@
   "combined_auth_signin_password": { "other": "パスワードを入力してサインインする。" },
   "combined_auth_signin_error_incorrect_credentials": { "other": "このパスワードは不正です。" },
   "combined_auth_error_forbidden": { "other": "エラーが発生しました。" },
+  "combined_auth_error_too_many_requests": { "other": "要求が多すぎます。あとで言ってください。" },
 
   "forgotpassword_page_header": { "other": "パスワードをリセットする" },
   "forgotpassword_form_email": { "other": "Eメールアドレス" },
@@ -90,6 +95,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "このアカウントは停止中です。" },
   "forgotpassword_complete": { "other": "ありがとうございます。パスワード再登録の案内メールをお送りしました。" },
   "forgotpassword_form_error_forbidden": { "other": "エラーが発生しました。" },
+  "forgotpassword_form_error_too_many_requests": { "other": "要求が多すぎます。あとで言ってください。" },
 
   "resetpassword_page_header": { "other": "パスワードを変更する" },
   "resetpassword_form_invalid_reset_password_token": { "other": "パスワード再設定リクエスト有効期限切れのようです。再度、 <a href=\"{{.URL}}\">パスワード再設定</a> フォームから申請してください。" },
@@ -99,6 +105,7 @@
   "resetpassword_complete": { "other": "ありがとうございます。パスワードは変更されました。サインイン中です。" },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "パスワード再設定リクエストは無効です。もう一度リクエストしてください。" },
   "resetpassword_form_error_reset_password_token_expired": { "other": "パスワード再設定のトークンは有効期限が切れました。新しいトークンを申請してください。" },
+  "resetpassword_form_error_too_many_requests": { "other": "要求が多すぎます。あとで言ってください。" },
 
   "account_page_header": { "other": "マイアカウント" },
   "account_form_name": { "other": "名前" },
@@ -165,11 +172,13 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "この日時以降の視聴はできません。" },
   "shopping_info_available_until_date_explanation_buy": { "other": "この日時以降の視聴はできません。" },
 
-  "shopping_info_rental_period_duration": { "other": "レンタル期間 {{.Count}}日間" },
+  "duration_hour": { "one": "1時間", "other": "{{.Count}}時間" },
+  "duration_day": { "one": "1日", "other": "{{.Count}}日間" },
+  "shopping_info_rental_period_duration": { "other": "レンタル期間 {{.ValueUnit}}" },
   "shopping_info_watch_window_duration": { "other": "再生開始後{{.Count}} 時間視聴できます。" },
   "shopping_info_watch_window_explanation_film": {
-    "one": "お申し込み完了後、本日中に視聴を開始してください。",
-    "other": "お申し込み完了後、{{.Count}}日間以内に視聴を開始してください。"
+    "one": "お申し込み完了後、{{.ValueUnit}}以内に視聴を開始してください。",
+    "other": "お申し込み完了後、{{.ValueUnit}}以内に視聴を開始してください。"
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "再生開始後、1時間以内に限り、何度でも視聴いただけます。",
@@ -347,5 +356,69 @@
   "combined_auth_terms": { "other": "<a href=\"/page/terms-and-conditions/\"target=\"_blank\">利用規約</a>に同意する。" },
   "signup_terms": { "other": "<a href=\"/page/terms-and-conditions/\"target=\"_blank\">利用規約</a>に同意する。" },
   "validation_terms_required": { "other": "利用規約に同意してください。" },
-  "shopping_error_item_limit_exceeded": { "other": "申し訳ありません。{{.Title}} は完売しました。" }
+  "shopping_error_item_limit_exceeded": { "other": "申し訳ありません。{{.Title}} は完売しました。" },
+
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
+  "app_badge_ios": { "other": "Download on the App Store" },
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+  "shopping_price_title_plan": {
+    "other": "価格"
+  },
+  "shopping_price_plan_note": {
+    "zero": "{{ .Interval }}ごとに課金されます。",
+    "one": "24時間の無料トライアルが終了した後、.Intervalごとに{{ .Interval }}",
+    "other": "{{ .Count }}日の無料トライアルが終了した後、.Intervalごとに{{ .Interval }}"
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "サブスクリプションを開始するには、以下にクレジットカードの詳細を入力してください。"
+  },
+  "shopping_action_plan": {
+    "other": "完了"
+  },
+  "shopping_complete_subscription": {
+    "other": "サブスクリプションの購入は成功しました。これで、 {{ .Title }}サブスクライブしました。"
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "気軽に<a href=\"/\">サイトを閲覧したり</a>、特定のものを<a href=\"/search.html\">検索</a>したりしてください。"
+  },
+  "shopping_info_plan_offer": {
+    "one": "{{ .Interval }}ごとに自動的に更新されます",
+    "other": "{{ .Count }} {{ .Interval }}ごとに自動的に更新されます"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "今すぐ無料の24時間トライアルをお試しください！",
+    "other": "{{ .Count }}日トライアルをお試しください！"
+  },
+  "plans_page_header": {
+    "other": "利用可能なプラン"
+  },
+  "plan_label_owned": {
+    "other": "あなたはこの計画を所有しています"
+  },
+  "plan_expiry_date": {
+    "other": "販売終了："
+  },
+  "plan_read_more": {
+    "other": "詳細はこちら"
+  },
+  "plan_page_read_more": {
+    "other": "続きを読む"
+  },
+  "plan_page_header_text": {
+    "other": "{{ .Name }}お楽しみください"
+  },
+  "page_plan_explore_intro": {
+    "other": "また"
+  },
+  "page_plan_explore_link": {
+    "other": "他のパスを探す"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "今買う"
+  }
 }

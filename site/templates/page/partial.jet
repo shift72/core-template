@@ -1,5 +1,5 @@
 <div class="partial partial-page">
-  <a href="{{routeToSlug(page.Slug)}}">
+  <a href="{{routeToSlug(page.Slug)}}" aria-label="{{page.Title}}">
 
   {{if config("default_image_type") == "portrait"}}
     <div class="poster poster-portrait">
@@ -13,7 +13,7 @@
 
           {{if isset(page["Tagline"])}}
             <div class="meta-item-synopsis hidden-md">
-              <p>{{page.Tagline}}</p>
+              <p>{{page.Tagline | stripHTML}}</p>
             </div>
           {{end}}
         </div>

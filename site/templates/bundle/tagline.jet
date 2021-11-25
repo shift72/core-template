@@ -1,0 +1,7 @@
+{{import "../items/tagline.jet"}}
+
+{{block bundleTagline(class)}}
+  <div class="{{class}}">
+    {{yield metaItemTagline() .}}
+  </div>
+{{end}}

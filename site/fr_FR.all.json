@@ -2,8 +2,12 @@
   "site_owner": { "other": "ABC Cinemas" },
   "nav_homepage": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Paramètres" },
+  "powered_by": { "other": "Powered by" },
   "powered_by_name": { "other": "ScreenPlus" },
-  "powered_by_url": { "other": "https://www.shift72.com" },
+  "powered_by_url": { "other": "https://www.screenplus.com" },
+  "in_partnership_with": { "other": "in partnership with" },
+  "festival_scope": { "other": "Festival Scope" },
+  "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
   "en": { "other": "Anglais" },
   "fr": { "other": "Français" },
 
@@ -68,7 +72,7 @@
 
   "social_media_buttons_title": { "other": "Partager" },
 
-  "accept_invite_page_header": { "other": "Bienvenue à " },
+  "accept_invite_page_header": { "other": "Bienvenue" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Il semble que vous ayez déjà utilisé ce lien, vous devriez essayer de <a href=\"{{.SigninURL}}\">vous connecter</a>. Si vous avez oublié votre mot de passe, vous pouvez aussi <a href=\"{{.ForgotPasswordURL}}\">réinitialiser votre mot de passe</a>." },
   "acceptinvite_complete": { "other": "Merci, votre compte a bien été créé." },
   "acceptinvite_form_submit": { "other": "Accepter l'invitation" },
@@ -102,6 +106,7 @@
   "combined_auth_signin_password": { "other": "Veuillez entrer un mot de passe." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Le mot de passe est incorrect." },
   "combined_auth_error_forbidden": { "other": "Une erreur est survenue." },
+  "combined_auth_error_too_many_requests": { "other": "Il y a trop de demandes. S'il-vous-plait réessayez plus tard." },
 
   "forgotpassword_page_header": { "other": "Récupérer votre mot de passe" },
   "forgotpassword_form_email": { "other": "Adresse électronique" },
@@ -110,6 +115,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "Ce compte est suspendu." },
   "forgotpassword_complete": { "other": "Merci. Vous allez recevoir rapidement un email de réinitialisation du mot de passe dans votre boîte de réception." },
   "forgotpassword_form_error_forbidden": { "other": "Une erreur est survenue." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Il y a trop de demandes. S'il-vous-plait réessayez plus tard." },
 
   "resetpassword_page_header": { "other": "Changez votre mot de passe" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Il semble que cette demande de réinitialisation du mot de passe ne soit pas valide, merci de remplir à nouveau le formulaire de <a href=\"{{.URL}}\">Réinitialisation du Mot de passe</a>." },
@@ -119,6 +125,7 @@
   "resetpassword_complete": { "other": "Merci, votre mot de passe a bien été modifié. Vous êtes maintenant connecté." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "La demande de réinitialisation est invalide. Veuillez réessayer ultérieurement." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "Le lien de réinitialisation du mot de passe a expiré. Veuillez en demander un nouveau." },
+  "resetpassword_form_error_too_many_requests": { "other": "Il y a trop de demandes. S'il-vous-plait réessayez plus tard." },
 
   "account_page_header": { "other": "Mon compte" },
   "account_form_name": { "other": "Nom" },
@@ -202,11 +209,13 @@
 
   "shopping_info_rental_period_coming_soon": { "other": "Bientôt disponible" },
 
-  "shopping_info_rental_period_duration": { "other": "Location pour {{.Count}} jours " },
+  "duration_hour": { "one": "1 heure", "other": "{{.Count}} heures" },
+  "duration_day": { "one": "1 jour", "other": "{{.Count}} jours" },
+  "shopping_info_rental_period_duration": { "other": "Location pour {{.ValueUnit}} " },
   "shopping_info_watch_window_duration": { "other": "Fenêtre de lecture est de {{.Count}} heures. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Une fois loué, votre film sera disponible sur votre compte pendant une journée.",
-    "other": "Une fois loué, votre film sera disponible sur votre compte pendant {{.Count}} jours."
+    "one": "Une fois loué, votre film sera disponible sur votre compte pendant {{.ValueUnit}}. ",
+    "other": "Une fois loué, votre film sera disponible sur votre compte pendant {{.ValueUnit}}. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Une fois que vous lancez un film, la fenêtre de lecture commence et vous avez une heure heures pour regarder le film autant de fois que vous le souhaitez.",
@@ -306,12 +315,12 @@
   "shopping_action_rent": { "other": "Location" },
   "shopping_action_buy": { "other": "Acheter" },
 
-  "shopping_payment_method_header": { "autres": "Méthodes de paiement" },
-  "shopping_payment_method_credit_card": { "autres": "Carte de crédit" },
-  "shopping_payment_method_giropay": { "autres": "Giropay (Allemagne)" },
+  "shopping_payment_method_header": { "other": "Méthodes de paiement" },
+  "shopping_payment_method_credit_card": { "other": "Carte de crédit" },
+  "shopping_payment_method_giropay": { "other": "Giropay (Allemagne)" },
   
-  "shopping_error_stripe_unknown_error": { "autres": "Il y a eu une erreur avec ce paiement. Veuillez réessayer plus tard." },
-  "shopping_error_payment_complete_failed": { "autres": "Ce paiement a été rejeté. Fermez cette fenêtre et réessayez." },
+  "shopping_error_stripe_unknown_error": { "other": "Il y a eu une erreur avec ce paiement. Veuillez réessayer plus tard." },
+  "shopping_error_payment_complete_failed": { "other": "Ce paiement a été rejeté. Fermez cette fenêtre et réessayez." },
 
   "meta_detail_cast_title": { "other": "Casting" },
   "meta_detail_crew_title": { "other": "Équipe" },
@@ -382,5 +391,69 @@
 
   "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 
-  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
+  "app_badge_ios": { "other": "Download on the App Store" },
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+  "shopping_price_title_plan": {
+    "other": "Prix"
+  },
+  "shopping_price_plan_note": {
+    "zero": "Chargé tous les {{ .Interval }} .",
+    "one": "Facturé tous les {{ .Interval }} après la fin de votre essai gratuit de 24 heures.",
+    "other": "Facturé chaque {{ .Interval }} après la {{ .Count }} votre essai gratuit de .Count day."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Entrez les détails de votre carte de crédit ci-dessous afin de commencer votre abonnement."
+  },
+  "shopping_action_plan": {
+    "other": "Compléter"
+  },
+  "shopping_complete_subscription": {
+    "other": "Votre achat d&#39;abonnement a réussi. Vous êtes maintenant abonné à {{ .Title }} ."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "N&#39;hésitez pas à <a href=\"/\">parcourir</a> le site ou à <a href=\"/search.html\">rechercher</a> quelque chose de spécifique."
+  },
+  "shopping_info_plan_offer": {
+    "one": "{{ .Interval }} automatiquement chaque .Interval",
+    "other": "{{ .Count }} automatiquement chaque {{ .Interval }}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Essayez votre essai gratuit de 24 heures maintenant !",
+    "other": "Essayez votre essai gratuit de {{ .Count }} day !"
+  },
+  "plans_page_header": {
+    "other": "Forfaits disponibles"
+  },
+  "plan_label_owned": {
+    "other": "Vous possédez ce plan"
+  },
+  "plan_expiry_date": {
+    "other": "Clôture des ventes :"
+  },
+  "plan_read_more": {
+    "other": "En savoir plus"
+  },
+  "plan_page_read_more": {
+    "other": "Lire la suite"
+  },
+  "plan_page_header_text": {
+    "other": "Profitez de {{ .Name }}"
+  },
+  "page_plan_explore_intro": {
+    "other": "OU"
+  },
+  "page_plan_explore_link": {
+    "other": "Découvrir d'autres pass"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Acheter maintenant"
+  }
 }

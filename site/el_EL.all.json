@@ -1,8 +1,12 @@
 {
   "site_owner": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Settings" },
+  "powered_by": { "other": "Powered by" },
   "powered_by_name": { "other": "ScreenPlus" },
   "powered_by_url": { "other": "https://www.screenplus.com" },
+  "in_partnership_with": { "other": "in partnership with" },
+  "festival_scope": { "other": "Festival Scope" },
+  "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
   "en": { "other": "English" },
   "fr": { "other": "French" },
 
@@ -70,7 +74,7 @@
 
   "social_media_buttons_title": { "other": "Μοιράσου το" },
 
-  "accept_invite_page_header": { "other": "Καλώς ήρθατε στο " },
+  "accept_invite_page_header": { "other": "Καλώς ορίσατε" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Φαίνεται πως έχετε ήδη αποδεχθεί αυτή την πρόσκληση, πρέπει να <a href=\"{{.SigninURL}}\">εισέλθετε</a> στο λογαριασμό σας." },
   "acceptinvite_complete": { "other": "Ευχαριστούμε πολύ. Ο λογαριασμός σας έχει δημιουργηθεί." },
   "acceptinvite_form_submit": { "other": "Αποδοχή πρόσκλησης" },
@@ -104,6 +108,7 @@
   "combined_auth_signin_password": { "other": "Παρακαλώ εισάγετε τον κωδικό σας για να εισέλθετε στο λογαριασμό σας." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "Ο κωδικός είναι λάθος." },
   "combined_auth_error_forbidden": { "other": "Αντιμετωπίσαμε ένα σφάλμα." },
+  "combined_auth_error_too_many_requests": { "other": "Πολλά αιτήματα. Παρακαλώ προσπαθήστε αργότερα." },
 
   "forgotpassword_page_header": { "other": "Επαναφέρετε τον κωδικό σας" },
   "forgotpassword_form_email": { "other": "Διεύθυνση ηλ. ταχυδρομείου" },
@@ -112,6 +117,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "Ο λογαριασμός σας έχει ακυρωθεί." },
   "forgotpassword_complete": { "other": "Σας ευχαριστούμε. Θα λάβετε σύντομα ένα μήνυμα για την επαναφορά του κωδικού σας." },
   "forgotpassword_form_error_forbidden": { "other": "Αντιμετωπίσαμε ένα σφάλμα." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Πολλά αιτήματα. Παρακαλώ προσπαθήστε αργότερα." },
 
   "resetpassword_page_header": { "other": "Αλλάξτε τον κωδικό σας" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Φαίνεται πως το αίτημα επαναφορά του κωδικού σας έχει ακυρωθεί, παρακαλώ συμπληρώστε τη φόρμα <a href=\"{{.URL}}\">ανάκτησης του κωδικού σας</a> ξανά." },
@@ -121,6 +127,7 @@
   "resetpassword_complete": { "other": "Σας ευχαριστούμε. Ο κωδικός σας έχει αλλάξει και έχετε εισέλθει στο λογαριασμό σας." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "Το αίτημα για επαναφορά του κωδικού σας δεν είναι έγκυρο. Παρακαλώ δοκιμάστε αργότερα." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "Το αίτημα επαναφοράς του κωδικού σας έχει λήξει. Παρακαλώ δοκιμάστε ξανά." },
+  "resetpassword_form_error_too_many_requests": { "other": "Πολλά αιτήματα. Παρακαλώ προσπαθήστε αργότερα." },
 
   "account_page_header": { "other": "Ο λογαριασμός μου" },
   "account_form_name": { "other": "Όνομα" },
@@ -190,31 +197,33 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Δεν θα μπορείτε να παρακολουθήσετε το περιεχόμενο μετά από τότε. " },
   "shopping_info_available_until_date_explanation_buy": { "other": "Δεν θα μπορείτε να παρακολουθήσετε το περιεχόμενο μετά από τότε. " },
 
-  "shopping_info_rental_period_duration": { "other": "{{.Count}} μέρες ενοικίασης. " },
+  "duration_hour": { "one": "1 ώρα", "other": "{{.Count}} ώρες" },
+  "duration_day": { "one": "1 μέρα", "other": "{{.Count}} μέρες" },
+  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} ενοικίασης. " },
   "shopping_info_watch_window_duration": { "other": "{{.Count}} ώρες μέχρι να ολοκληρωθεί η προβολή. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Με την ενοικίαση, η ταινία θα είναι διαθέσιμη στο λογαριασμό σας για {{.Count}} ημέρα. ",
-    "other": "Με την ενοικίαση, η ταινία θα είναι διαθέσιμη στο λογαριασμό σας για {{.Count}} ημέρες.  "
+    "one": "Με την ενοικίαση, η ταινία θα είναι διαθέσιμη στο λογαριασμό σας για {{.ValueUnit}}. ",
+    "other": "Με την ενοικίαση, η ταινία θα είναι διαθέσιμη στο λογαριασμό σας για {{.ValueUnit}}.  "
   },
   "shopping_info_watch_window_explanation2_film": {
-    "one": "Με το που πατήσετε αναπαραγωγή, ανοίγει το παράθυρο παρακολούθησης κι έχετε {{.Count}} ώρες για να δείτε την ταινία, όσες φορές επιθυμείτε.",
-    "other": "Με το που πατήσετε αναπαραγωγή, ανοίγει το παράθυρο παρακολούθησης κι έχετε {{.Count}} ώρες για να δείτε την ταινία, όσες φορές επιθυμείτε. "
+    "one": "Με το που πατήσετε αναπαραγωγή, ξεκινά η περίοδος θέασης κι έχετε μια ώρα για να δείτε την ταινία, όσες φορές επιθυμείτε.",
+    "other": "Με το που πατήσετε αναπαραγωγή, ξεκινά η περίοδος θέασης κι έχετε {{.Count}} ώρες για να δείτε την ταινία, όσες φορές επιθυμείτε."
   },
   "shopping_info_watch_window_explanation_bundle": {
     "one": "Με την ενοικίαση, τα περιεχόμενα του πακέτου σας θα είναι διαθέσιμα στο λογαριασμό σας για μία μέρα.  ",
     "other": "Με την ενοικίαση, τα περιεχόμενα του πακέτου σας θα είναι διαθέσιμα στο λογαριασμό σας για μία μέρα.  "
   },
   "shopping_info_watch_window_explanation2_bundle": {
-    "one": "Με το που πατήσετε αναπαραγωγή σε μια συγκεκριμένη ταινία, ανοίγει το παράθυρο παρακολούθησης κι έχετε {{.Count}} ώρες για να τη δείτε, όσες φορές επιθυμείτε. ",
-    "other": "Με το που πατήσετε αναπαραγωγή σε μια συγκεκριμένη ταινία, ανοίγει το παράθυρο παρακολούθησης κι έχετε {{.Count}} ώρες για να τη δείτε, όσες φορές επιθυμείτε. "
+    "one": "Με το που πατήσετε αναπαραγωγή σε μια συγκεκριμένη ταινία, ξεκινά η περίοδος θέασης κι έχετε μια ώρα για να τη δείτε, όσες φορές επιθυμείτε.",
+    "other": "Με το που πατήσετε αναπαραγωγή σε μια συγκεκριμένη ταινία, ξεκινά η περίοδος θέασης κι έχετε {{.Count}} ώρες για να τη δείτε, όσες φορές επιθυμείτε."
   },
   "shopping_info_watch_window_explanation_season": {
     "one": "Με την ενοικίαση, η σεζόν θα είναι διαθέσιμη στο λογαριασμό σας για {{.Count}} ημέρες. ",
     "other": "Με την ενοικίαση, η σεζόν θα είναι διαθέσιμη στο λογαριασμό σας για {{.Count}} ημέρες. "
   },
   "shopping_info_watch_window_explanation2_season": {
-    "one": "Με το που πατήσετε αναπαραγωγή σε ένα επεισόδιο, ανοίγει το παράθυρο παρακολούθησης κι έχετε {{.Count}} ώρες για να το δείτε, όσες φορές επιθυμείτε.",
-    "other": "Με το που πατήσετε αναπαραγωγή σε ένα επεισόδιο, ανοίγει το παράθυρο παρακολούθησης κι έχετε {{.Count}} ώρες για να το δείτε, όσες φορές επιθυμείτε."
+    "one": "Με το που πατήσετε αναπαραγωγή σε ένα επεισόδιο, ξεκινά η περίοδος θέασης κι έχετε μια ώρα για να το δείτε, όσες φορές επιθυμείτε.",
+    "other": "Με το που πατήσετε αναπαραγωγή σε ένα επεισόδιο, ξεκινά η περίοδος θέασης κι έχετε {{.Count}} ώρες για να το δείτε, όσες φορές επιθυμείτε."
   },
   "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Μπόνους" },
 
@@ -437,5 +446,69 @@
 
   "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 
-  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
+  "app_badge_ios": { "other": "Download on the App Store" },
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+  "shopping_price_title_plan": {
+    "other": "Τιμή"
+  },
+  "shopping_price_plan_note": {
+    "zero": "Χρεώνεται κάθε {{ .Interval }} .",
+    "one": "Χρεώνεται κάθε {{ .Interval }} μετά τη λήξη της δωρεάν δοκιμής 24 ωρών.",
+    "other": "Χρεώνεται κάθε {{ .Interval }} μετά τη {{ .Count }} δωρεάν δοκιμής .Count day."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Εισαγάγετε τα στοιχεία της πιστωτικής σας κάρτας παρακάτω για να ξεκινήσετε τη συνδρομή σας."
+  },
+  "shopping_action_plan": {
+    "other": "Πλήρης"
+  },
+  "shopping_complete_subscription": {
+    "other": "Η αγορά της συνδρομής σας ήταν επιτυχής. Είστε πλέον εγγεγραμμένοι στο {{ .Title }} ."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Μη διστάσετε να <a href=\"/\">περιηγηθείτε</a> στον ιστότοπο ή να <a href=\"/search.html\">αναζητήσετε</a> κάτι συγκεκριμένο."
+  },
+  "shopping_info_plan_offer": {
+    "one": "Ανανεώνει αυτόματα κάθε {{ .Interval }}",
+    "other": "Ανανεώνει αυτόματα κάθε {{ .Count }} {{ .Interval }}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Δοκιμάστε τη δωρεάν δοκιμή 24 ωρών τώρα!",
+    "other": "Δοκιμάστε τη δωρεάν {{ .Count }} day!"
+  },
+  "plans_page_header": {
+    "other": "Διαθέσιμα σχέδια"
+  },
+  "plan_label_owned": {
+    "other": "Είστε κάτοχος αυτού του σχεδίου"
+  },
+  "plan_expiry_date": {
+    "other": "Κλείσιμο εκπτώσεων:"
+  },
+  "plan_read_more": {
+    "other": "Μάθετε περισσότερα"
+  },
+  "plan_page_read_more": {
+    "other": "Διαβάστε περισσότερα"
+  },
+  "plan_page_header_text": {
+    "other": "Απολαύστε το {{ .Name }}"
+  },
+  "page_plan_explore_intro": {
+    "other": "Ή"
+  },
+  "page_plan_explore_link": {
+    "other": "Εξερευνήστε άλλα περάσματα"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Αγορασε τωρα"
+  }
 }

@@ -5,12 +5,12 @@
   "settings_title": {
     "other": "Settings"
   },
-  "powered_by_name": {
-    "other": "ScreenPlus"
-  },
-  "powered_by_url": {
-    "other": "https://www.screenplus.com"
-  },
+  "powered_by": { "other": "Powered by" },
+  "powered_by_name": { "other": "ScreenPlus" },
+  "powered_by_url": { "other": "https://www.screenplus.com" },
+  "in_partnership_with": { "other": "in partnership with" },
+  "festival_scope": { "other": "Festival Scope" },
+  "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
   "en": {
     "other": "English"
   },
@@ -125,7 +125,7 @@
     "other": "Del"
   },
   "accept_invite_page_header": {
-    "other": "Velkommen til "
+    "other": "Velkommen"
   },
   "acceptinvite_form_invalid_reset_password_token": {
     "other": "Det ser ud som om du allerede har accepteret denne invitation, du skal derfor <a href=\"signin.html\">logge ind</a> i stedet Hvis du har glemt dit kodeord, kan du også <a href=\"forgotpassword.html\">nulstille dit kodeord</a>."
@@ -223,6 +223,10 @@
   "combined_auth_error_forbidden": {
     "other": "Der er sket en fejl"
   },
+  "combined_auth_error_too_many_requests": {
+    "other": "For mange anmodninger, prøv venligst igen senere."
+  },
+
   "forgotpassword_page_header": {
     "other": "Nulstil dit kodeord"
   },
@@ -243,6 +247,9 @@
   },
   "forgotpassword_form_error_forbidden": {
     "other": "Der er sket en fejl"
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "For mange anmodninger, prøv venligst igen senere."
   },
   "resetpassword_page_header": {
     "other": "Skift kodeord"
@@ -267,6 +274,9 @@
   },
   "resetpassword_form_error_reset_password_token_expired": {
     "other": "Koden til nulstilling af kodeord er udløbet. Få venligst en ny."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "For mange anmodninger, prøv venligst igen senere."
   },
   "account_page_header": {
     "other": "Min konto"
@@ -485,15 +495,17 @@
   "shopping_info_available_until_date_explanation_buy": {
     "other": "Du vil ikke kunne se indholdet efter dette."
   },
+  "duration_hour": { "one": "1 time", "other": "{{.Count}} timer" },
+  "duration_day": { "one": "1 dag", "other": "{{.Count}} dage" },
   "shopping_info_rental_period_duration": {
-    "other": "{{.Count}} dages leje "
+    "other": "{{.ValueUnit}} leje "
   },
   "shopping_info_watch_window_duration": {
     "other": "{{.Count}} timers afspilningsperiode. "
   },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Fra lejeperiodens start vil din film kunne afspilles i en dag. ",
-    "other": "Fra lejeperiodens start vil din film kunne afspilles i {{.Count}} dage. "
+    "one": "Fra lejeperiodens start vil din film kunne afspilles i {{.ValueUnit}}. ",
+    "other": "Fra lejeperiodens start vil din film kunne afspilles i {{.ValueUnit}}. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu en time til at se filmen.",
@@ -840,7 +852,7 @@
     "other": "Dette website bruger cookies til at forbedre din oplevelse. Ved at bruge dette website accepterer du vores <a href=\"/page/cookie-policy/\">cookie usage</a>."
   },
   "cookie_banner_accept": {
-    "other": "Jeg accepterer"
+    "other": "Accepterer"
   },
   "all_rights_reserved": {
     "other": "All rights reserved. No part of this site may be reproduced without our written permission."
@@ -1066,5 +1078,68 @@
   },
   "shopping_error_close_button": {
     "other": "OK"
-  }
+  },
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
+  "app_badge_ios": { "other": "Download on the App Store" },
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+    "shopping_price_title_plan": {
+        "other": "Pris"
+    },
+    "shopping_price_plan_note": {
+        "zero": "Opkræves hvert {{ .Interval }} .",
+        "one": "Opkræves hvert {{ .Interval }} efter din 24 timers gratis prøveperiode slutter.",
+        "other": "Opkræves hvert {{ .Interval }} efter din {{ .Count }} dages gratis prøveperiode slutter."
+    },
+    "shopping_price_plan_note_interval": {
+        "one": "{{ .Interval }}",
+        "other": "{{ .Count }} {{ .Interval }}"
+    },
+    "shopping_enter_card_prompt_plan": {
+        "other": "Indtast dine kreditkortoplysninger nedenfor for at starte dit abonnement."
+    },
+    "shopping_action_plan": {
+        "other": "Komplet"
+    },
+    "shopping_complete_subscription": {
+        "other": "Dit abonnementskøb blev gennemført. Du abonnerer nu på {{ .Title }} ."
+    },
+    "shopping_complete_subscription_browse": {
+        "other": "Du er velkommen til at <a href=\"/\">browse rundt</a> på siden, eller <a href=\"/search.html\">søg</a> efter noget specifikt."
+    },
+    "shopping_info_plan_offer": {
+        "one": "{{ .Interval }} automatisk hvert .Interval",
+        "other": "{{ .Count }} automatisk hver {{ .Interval }}"
+    },
+    "shopping_info_trial_period_offer": {
+        "one": "Prøv din gratis 24 timers prøveperiode nu!",
+        "other": "Prøv din gratis {{ .Count }} day prøveperiode!"
+    },
+    "plans_page_header": {
+        "other": "Tilgængelige planer"
+    },
+    "plan_label_owned": {
+        "other": "Du ejer denne plan"
+    },
+    "plan_expiry_date": {
+        "other": "Salg lukker:"
+    },
+    "plan_read_more": {
+        "other": "Find ud af mere"
+    },
+    "plan_page_read_more": {
+        "other": "Læs mere"
+    },
+    "plan_page_header_text": {
+        "other": "Nyd {{ .Name }}"
+    },
+    "page_plan_explore_intro": {
+        "other": "ELLER"
+    },
+    "page_plan_explore_link": {
+        "other": "Udforsk andre pas"
+    },
+    "plan_showcase_page_ownership_button_buy": {
+        "other": "Køb nu"
+    }
 }

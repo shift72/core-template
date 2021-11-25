@@ -2,7 +2,7 @@
 
 {{block featuredItem(item, image="Landscape")}}
 <div class="meta-item featured-meta-item meta-item-{{item.ItemType|lower}}">
-  <a href="{{routeToSlug(item.Slug)}}">
+  <a href="{{routeToSlug(item.Slug)}}" aria-label="{{item.Title}}">
     {{if isset(item.Images[image])}}
       <s72-image src="{{item.Images[image]}}" alt="{{item.Title}}" class="meta-item-img featured-meta-item-img"></s72-image>
     {{end}}
@@ -15,11 +15,7 @@
       <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist" data-layout="quick-button"></s72-userwishlist-button>
 
       <div class="meta-item-body featured-meta-item-body">
-        <div class="meta-item-title">{{item.Title}}
-          {{if isset(item.InnerItem["ReleaseDate"]) && item.InnerItem.ReleaseDate.Year() > 1}}
-            <small>({{item.InnerItem.ReleaseDate.Year()}})</small>
-          {{end}}
-        </div>
+        <div class="meta-item-title">{{item.Title}}</div>
 
         <div class="meta-item-text">
           {{yield metaItemTagline() item.InnerItem}}
@@ -27,7 +23,7 @@
 
         {{if isset(item.InnerItem["Tagline"])}}
           <div class="meta-item-synopsis hidden-md">
-            <p>{{item.InnerItem.Tagline}}</p>
+            <p>{{item.InnerItem.Tagline | stripHTML}}</p>
           </div>
         {{end}}
 

@@ -16,12 +16,9 @@ const whitespacePaddedKeys = [
   'shopping_info_rental_period_duration',
   'shopping_info_watch_window_duration',
   'classification_intro',
-  'classification_divider'
+  'classification_divider',
 ];
-const emptyKeys = [
-  'classification_outro',
-  'plan_label_owned'
-];
+const emptyKeys = ['classification_outro', 'plan_label_owned'];
 
 languageFilenames.forEach(language => {
   console.log(`===== TESTING: ${language} =====`);
@@ -71,7 +68,7 @@ function openFiles(filenames) {
 function testLanguageContainsKey(language, languageKeys, key) {
   try {
     assert.ok(languageKeys.includes(key), `${language} contains key ${key}`);
-  } catch(e) {
+  } catch (e) {
     console.error(`${key} - missing from file.`);
     errors.push(e);
   }
@@ -80,7 +77,7 @@ function testLanguageContainsKey(language, languageKeys, key) {
 function testWhitespacePaddedKey(file, key) {
   try {
     assert.ok(file[key].other.slice(-1) === ' ', `${key} ends with whitespace`);
-  } catch(e) {
+  } catch (e) {
     console.error(`${key} - should end with whitespace.`);
     errors.push(e);
   }
@@ -89,7 +86,7 @@ function testWhitespacePaddedKey(file, key) {
 function testEmptyKey(file, key) {
   try {
     assert.ok(file[key].other === '', `${key} is empty`);
-  } catch(e) {
+  } catch (e) {
     console.error(`${key} - should be empty.`);
     errors.push(e);
   }
@@ -99,9 +96,9 @@ function testKeyNotEnglish(englishValue, translatedValue, key) {
   try {
     let count = Object.keys(englishValue);
     count.forEach(c => {
-      assert.ok(englishValue[c] !== translatedValue[c], `${key} is translated`)
+      assert.ok(englishValue[c] !== translatedValue[c], `${key} is translated`);
     });
-  } catch(e) {
+  } catch (e) {
     console.error(`${key} - should be translated.`);
     errors.push(e);
   }

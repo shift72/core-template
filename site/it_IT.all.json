@@ -1,8 +1,12 @@
 {
   "site_owner": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Impostazioni" },
+  "powered_by": { "other": "Powered by" },
   "powered_by_name": { "other": "ScreenPlus" },
   "powered_by_url": { "other": "https://www.screenplus.com" },
+  "in_partnership_with": { "other": "in partnership with" },
+  "festival_scope": { "other": "Festival Scope" },
+  "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
   "en": { "other": "English" },
   "fr": { "other": "French" },
 
@@ -70,7 +74,7 @@
 
   "social_media_buttons_title": { "other": "Condividi" },
 
-  "accept_invite_page_header": { "other": "Benvenuto a " },
+  "accept_invite_page_header": { "other": "Accoglienza" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Questo Invito è già stato usato." },
   "acceptinvite_complete": { "other": "Grazie. Il tuo account è stato creato." },
   "acceptinvite_form_submit": { "other": "Accetta l'Invito" },
@@ -107,6 +111,7 @@
   "combined_auth_signin_password": { "other": "Inserisci la tua password per poterti loggare al tuo nuovo account." },
   "combined_auth_signin_error_incorrect_credentials": { "other": "La password è errata." },
   "combined_auth_error_forbidden": { "other": "C'è stato un errore." },
+  "combined_auth_error_too_many_requests": { "other": "Troppe richieste. La preghiamo di riprovare più tardi." },
 
   "forgotpassword_page_header": { "other": "Resetta la tua password" },
   "forgotpassword_form_email": { "other": "Indirizzo email" },
@@ -115,6 +120,7 @@
   "forgotpassword_form_error_account_suspended": { "other": "L'account utente è sospeso." },
   "forgotpassword_complete": { "other": "Grazie. A breve ti arriverà un'email per poter resettare la tua password." },
   "forgotpassword_form_error_forbidden": { "other": "C'è stato un errore." },
+  "forgotpassword_form_error_too_many_requests": { "other": "Troppe richieste. La preghiamo di riprovare più tardi." },
 
   "resetpassword_page_header": { "other": "Cambia la tua password" },
   "resetpassword_form_invalid_reset_password_token": { "other": "Sembra che la richiesta di reset della password non sia valida. Riempi di nuovo il form<a href=\"{{.URL}}\">Ho dimenticato la Password</a>, grazie." },
@@ -124,6 +130,7 @@
   "resetpassword_complete": { "other": "Grazie. La tua password è stata modificata, ora sei loggato." },
   "resetpassword_form_error_invalid_reset_password_token": { "other": "La richiesta di reset della password non è valida. Riprova più tardi." },
   "resetpassword_form_error_reset_password_token_expired": { "other": "Il token per il reset della password è scaduto. Richiedine uno nuovo." },
+  "resetpassword_form_error_too_many_requests": { "other": "Troppe richieste. La preghiamo di riprovare più tardi." },
 
   "account_page_header": { "other": "Il mio account" },
   "account_form_name": { "other": "Nome" },
@@ -193,12 +200,14 @@
   "shopping_info_available_until_date_explanation_rent": { "other": "Non potrai vedere il contenuto oltre questa data." },
   "shopping_info_available_until_date_explanation_buy": { "other": "Non potrai vedere il contenuto oltre questa data." },
 
-  "shopping_info_rental_period_duration": { "other": "{{.Count}} giorni " },
+  "duration_hour": { "one": "1 ora", "other": "{{.Count}} ore" },
+  "duration_day": { "one": "1 giorno", "other": "{{.Count}} giorni" },
+  "shopping_info_rental_period_duration": { "other": "{{.ValueUnit}} di noleggio " },
   "shopping_info_rental_period_coming_soon": { "other": "dalla data e ora della pubblicazione." },
   "shopping_info_watch_window_duration": { "other": "Finestra di riproduzione: {{.Count}} ore. " },
   "shopping_info_watch_window_explanation_film": {
-    "one": "Una volta noleggiato, il film sarà disponibile nel tuo account per 1 giorno. ",
-    "other": "Una volta noleggiato, il film sarà disponibile nel tuo account per {{.Count}} giorni. "
+    "one": "Una volta noleggiato, il film sarà disponibile nel tuo account per {{.ValueUnit}}. ",
+    "other": "Una volta noleggiato, il film sarà disponibile nel tuo account per {{.ValueUnit}}. "
   },
   "shopping_info_watch_window_explanation2_film": {
     "one": "Once you press play, the watch window begins and you have an hour to watch the film as many times as you like.",
@@ -300,12 +309,12 @@
   "shopping_action_rent": { "other": "Noleggia" },
   "shopping_action_buy": { "other": "Acquista" },
 
-  "shopping_payment_method_header": { "altro": "Metodi di pagamento" },
-  "shopping_payment_method_credit_card": { "altro": "Carta di credito" },
-  "shopping_payment_method_giropay": { "altro": "Giropay (Germania)" },
+  "shopping_payment_method_header": { "other": "Metodi di pagamento" },
+  "shopping_payment_method_credit_card": { "other": "Carta di credito" },
+  "shopping_payment_method_giropay": { "other": "Giropay (Germania)" },
   
-  "shopping_error_stripe_unknown_error": { "altro": "Con questo pagamento qualcosa non ha funzionato. Si prega di riprovare più tardi." },
-  "shopping_error_payment_complete_failed": { "altro": "Il pagamento è stato rifiutato. Chiudi la finestra e riprova." },
+  "shopping_error_stripe_unknown_error": { "other": "Con questo pagamento qualcosa non ha funzionato. Si prega di riprovare più tardi." },
+  "shopping_error_payment_complete_failed": { "other": "Il pagamento è stato rifiutato. Chiudi la finestra e riprova." },
 
   "meta_detail_cast_title": { "other": "Cast" },
   "meta_detail_crew_title": { "other": "Crew" },
@@ -383,5 +392,69 @@
 
   "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 
-  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" }
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
+  "app_badge_ios": { "other": "Download on the App Store" },
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+  "shopping_price_title_plan": {
+    "other": "Prezzo"
+  },
+  "shopping_price_plan_note": {
+    "zero": "Addebitato ogni {{ .Interval }} .",
+    "one": "Addebitato ogni {{ .Interval }} termine della prova gratuita di 24 ore.",
+    "other": "Addebitato ogni {{ .Interval }} dopo la {{ .Count }} del periodo di prova gratuito di .Count."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Inserisci i dati della tua carta di credito qui sotto per iniziare il tuo abbonamento."
+  },
+  "shopping_action_plan": {
+    "other": "Completare"
+  },
+  "shopping_complete_subscription": {
+    "other": "L&#39;acquisto dell&#39;abbonamento è andato a buon fine. Ora sei iscritto a {{ .Title }} ."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Sentiti libero di <a href=\"/\">navigare nel</a> sito o di <a href=\"/search.html\">cercare</a> qualcosa di specifico."
+  },
+  "shopping_info_plan_offer": {
+    "one": "Si rinnova automaticamente ogni {{ .Interval }}",
+    "other": "Rinnova automaticamente ogni {{ .Count }} {{ .Interval }}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Prova subito la tua prova gratuita di 24 ore!",
+    "other": "Prova la tua prova gratuita di {{ .Count }} Day!"
+  },
+  "plans_page_header": {
+    "other": "Piani disponibili"
+  },
+  "plan_label_owned": {
+    "other": "Possiedi questo piano"
+  },
+  "plan_expiry_date": {
+    "other": "Chiusura vendite:"
+  },
+  "plan_read_more": {
+    "other": "Scopri di più"
+  },
+  "plan_page_read_more": {
+    "other": "Per saperne di più"
+  },
+  "plan_page_header_text": {
+    "other": "Divertiti con {{ .Name }}"
+  },
+  "page_plan_explore_intro": {
+    "other": "O"
+  },
+  "page_plan_explore_link": {
+    "other": "Esplora altri pass"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Acquista ora"
+  }
 }
