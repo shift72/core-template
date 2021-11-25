@@ -61,13 +61,6 @@
           {{end}}
           <s72-availability-label data-slug="{{film.Slug}}"></s72-availability-label>
           <div class="meta-detail-synopsis">{{film.Overview | raw}}</div>
-          <div class="meta-detail-extras">
-            {{if len(film.Trailers) > 0 }}
-                <s72-modal-player src="{{film.Trailers[0].URL}}" class="s72-btn-trailer" data-slug="{{film.Slug}}" data-label="{{i18n("play_trailer")}}" autoplay="querystring"></s72-modal-player>
-            {{end}}
-            <s72-userwishlist-button data-slug="{{film.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
-            {{yield socialMediaButtons(path=currentUrlPath, letterboxdID=film.Refs.LetterboxdID)}}
-          </div>
           <div class="meta-detail-cast">
           {{if len(film.Cast) > 0 }}
             <h2>{{i18n("meta_detail_cast_title")}}</h2>
