@@ -66,7 +66,6 @@
   border: 3px solid $button-background;
   justify-content: center;
   padding-bottom: 3px;
-  padding-left: 0;
   padding-top: 3px;
   @include hover-focus {
     background: $button-background-hover;
@@ -169,6 +168,7 @@
 s72-play-button {
   button {
     @extend .w-100;
+    padding-left: 0;
   }
 }
 
@@ -183,6 +183,8 @@ s72-play-button {
 }
 
 .meta-detail-extras, .meta-item-extras{
+
+  @extend .ml-1;
 
   s72-modal-share {
     @extend .d-flex;
