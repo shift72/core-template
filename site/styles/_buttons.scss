@@ -180,11 +180,23 @@ s72-play-button {
   @extend .d-flex;
   @extend .flex-column;
   @extend .flex-sm-row;
+
+  .s72-btn {
+    margin-bottom: .5rem;
+    @extend .mb-sm-0;
+    &:nth-child(2){
+      margin-top: .5rem;
+      @include media-breakpoint-up(sm) {
+        margin-top: 0;
+        margin-left: .5rem;
+      }
+    }
+  }
 }
 
 .meta-detail-extras, .meta-item-extras{
 
-  @extend .ml-1;
+  @extend .ml-sm-1;
 
   s72-modal-share {
     @extend .d-flex;
