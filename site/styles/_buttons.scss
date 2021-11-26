@@ -177,7 +177,18 @@ s72-play-button {
 }
 
 .meta-detail-extras, .meta-item-extras{
+
+  s72-modal-share {
+    @extend .d-flex;
+    @extend .h-100;
+  }
+
+  s72-modal-player, s72-userwishlist-button {
+    @extend .d-flex;
+  }
+
   .s72-btn {
+    line-height: 0;
     &:hover {
         opacity: .8;
     }
@@ -187,7 +198,6 @@ s72-play-button {
     }
   }
 }
-// }
 
 .btn-wishlist {
   p {

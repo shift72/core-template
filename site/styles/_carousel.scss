@@ -212,7 +212,10 @@ s72-carousel {
 
     .meta-item-extras {
       @extend .d-flex;
-      padding: 0 0 20px;
+    }
+
+    .meta-item-buttons {
+      margin-bottom: 10px;
     }
 
     .btn-wishlist {
@@ -222,7 +225,6 @@ s72-carousel {
 
   .s72-pricing-button-container {
     .s72-btn {
-      margin-bottom: 10px;
 
       &:nth-child(1) {
         margin-right: 0.5rem;
