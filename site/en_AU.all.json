@@ -546,5 +546,6 @@
   "page_plan_explore_link": { "other": "Explore other passes" },
   "plan_showcase_page_ownership_button_buy": { "other": "Buy now" },
 
-  "awards_nominated_for": { "other": "Nominated for" }
+  "awards_nominated_for": { "other": "Nominated for" },
+  "awards_in_competition": { "other": "In Competition" }
 }
