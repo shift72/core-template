@@ -233,9 +233,10 @@
   .meta-detail-extras {
     @extend .d-flex;
     @extend .justify-content-sm-start;
-  @extend .w-100;
+    @extend .w-100;
     flex-direction: row;
     flex-wrap: wrap;
+
     @include media-breakpoint-up(md) {
       flex-direction: row;
     }

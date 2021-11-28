@@ -198,19 +198,20 @@ s72-signup-form {
 
 .s72-share-modal {
   .s72-modal-dialog {
-
     top: 50%;
     transform: translateY(-50%);
+    max-width: 320px;
+    padding: 0;
+
     @include media-breakpoint-up(sm){
       top: 90px;
       transform:none;
     }
-    max-width: 320px;
-    padding: 0;
     .s72-modal-content {
       padding: 0;
     }
   }
+
   .s72-modal-content {
     background: none;
     border: none;
@@ -219,6 +220,7 @@ s72-signup-form {
   ul {
     @extend .mb-0;
   }
+
   li {
     @extend .position-relative;
     i {

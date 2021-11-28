@@ -174,18 +174,15 @@ s72-play-button {
   }
 }
 
-// .s72-btn-purchase {
-
-// }
-
 .meta-detail-buttons .s72-pricing-button-container {
   @extend .d-flex;
   @extend .flex-column;
   @extend .flex-sm-row;
 
   .s72-btn {
-    margin-bottom: .5rem;
     @extend .mb-sm-0;
+    margin-bottom: .5rem;
+
     &:nth-child(2){
       margin-top: .5rem;
       @include media-breakpoint-up(sm) {
@@ -197,7 +194,6 @@ s72-play-button {
 }
 
 .meta-detail-extras, .meta-item-extras{
-
   @extend .ml-sm-1;
 
   s72-modal-share {
@@ -221,7 +217,7 @@ s72-play-button {
       min-height: 40px;
     }
     &:hover {
-        opacity: .8;
+      opacity: .8;
     }
   
     .fa:before {

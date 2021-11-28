@@ -9,12 +9,6 @@
   .s72-icon {
     margin-left: 0.3em;
   }
-
-  &.icon-only {
-    @include hover-focus-active {
-      box-shadow: none;
-    }
-  }
 }
 
 .s72-btn-search {
@@ -128,7 +122,6 @@
 }
 
 .s72-icon-wishlist-add {
-
   @extend .fa-plus;
   font-size: 1.4em !important;
   transition: all 0.15s ease-in-out;
