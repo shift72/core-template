@@ -216,7 +216,7 @@ s72-play-button {
     i {
       @extend .px-1;
       @extend .h-100;
-      @extend .d-flex;
+      @extend .d-inline-flex;
       @extend .align-items-center;
       min-height: 40px;
     }
