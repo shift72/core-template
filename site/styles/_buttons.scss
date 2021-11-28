@@ -65,8 +65,10 @@
   background: $button-background;
   border: 3px solid $button-background;
   justify-content: center;
-  padding-bottom: 3px;
-  padding-top: 3px;
+  i {
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
   @include hover-focus {
     background: $button-background-hover;
     border: 3px solid $button-background-hover;
@@ -209,6 +211,15 @@ s72-play-button {
 
   .s72-btn {
     line-height: 0;
+    padding: 0;
+
+    i {
+      @extend .px-1;
+      @extend .h-100;
+      @extend .d-flex;
+      @extend .align-items-center;
+      min-height: 40px;
+    }
     &:hover {
         opacity: .8;
     }
