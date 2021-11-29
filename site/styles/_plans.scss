@@ -60,6 +60,10 @@ s72-plan-label {
 
           background-color: $button-background;
         }
+
+        s72-user-anon a {
+          margin-top: 0.5rem;
+        }
       }
     }
   }
@@ -75,5 +79,9 @@ s72-plan-label {
   .page-collection-list-title,
   .swiper-title {
     display: none;
+  }
+
+  .signup-link {
+    display: inline !important;
   }
 }

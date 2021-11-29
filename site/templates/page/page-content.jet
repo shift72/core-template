@@ -4,8 +4,14 @@
       {{text | raw}}
 
       {{if plan != 0 }}
-      <div>
+      <div class="plan-buttons">
+        {{ if plan.PlanType == "free" }}
+          <s72-user-anon>
+            <a class="btn btn-block s72-btn-purchase signup-link" href="{{i18n("plan_free_link_url")}}">{{ i18n("plan_free_link_text") }}</a>
+          </s72-user-anon>
+        {{ else }}
         <s72-pricing-buttons data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" data-ownership-label-prefix={{ i18n("plan_showcase_page_ownership_button_") }} data-hide-price="true" />
+        {{ end }}
       </div>
       {{end}}
     </div>

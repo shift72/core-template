@@ -66,7 +66,14 @@
                   {{ if p.Page }}
                     <a class="plan-page-link btn btn-light text-dark btn-block" href="{{ routeToSlug(p.Page.Slug) }}">{{i18n("plan_read_more")}}</a>
                   {{ end }}
-                  <s72-pricing-buttons class="btn-block" data-slug="{{p.Slug}}" data-title="{{p.Name}}" />
+                  {{ if p.PlanType != "free" }}
+                    <s72-pricing-buttons class="btn-block" data-slug="{{p.Slug}}" data-title="{{p.Name}}" />
+                  {{ end }}
+                  {{ if p.PlanType == "free" }}
+                    <s72-user-anon>
+                      <a class="btn btn-block s72-btn-purchase" href="{{i18n("plan_free_link_url")}}">{{ i18n("plan_free_link_text") }}</a>
+                    </s72-user-anon>
+                  {{ end }}
                 </div>
               </div>
             </div>
