@@ -5,7 +5,6 @@
 {{import "./tagline.jet"}}
 {{import "./synopsis.jet"}}
 {{import "./buttons.jet"}}
-{{import "./extras.jet"}}
 {{import "./list.jet"}}
 
 {{block head()}}
@@ -28,11 +27,10 @@
 
           {{yield bundleTagline(class="meta-detail-tagline") bundle}}
 
-          {{yield bundleButtons(class="meta-detail-buttons", slug=bundle.Slug, title=bundle.Title)}}
+          {{yield bundleButtons(class="meta-detail-buttons", slug=bundle.Slug, title=bundle.Title, promoURL=bundle.PromoURL)}}
 
           {{yield bundleSynopsis(class="meta-detail-synopsis", synopsis=bundle.Description)}}
 
-          {{yield bundleExtras(class="meta-detail-extras", slug=bundle.Slug, promoURL=bundle.PromoURL)}}
         </div>
 
         {{yield bundleList(items=bundle.Items)}}

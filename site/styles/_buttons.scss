@@ -65,9 +65,10 @@
   background: $button-background;
   border: 3px solid $button-background;
   justify-content: center;
-  padding-bottom: 3px;
-  padding-left: 0;
-  padding-top: 3px;
+  i {
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
   @include hover-focus {
     background: $button-background-hover;
     border: 3px solid $button-background-hover;
@@ -113,26 +114,11 @@
   border: 0 none;
   @include hover-focus {
     background: transparent;
-
-    .s72-icon-play circle {
-      fill: $primary;
-      stroke: $primary;
-      stroke-width: 3px;
-    }
-
-    .s72-icon-play path {
-      fill: #000;
-      stroke: #000;
-    }
   }
 
   &.s72-btn-trailer {
     background: transparent;
     border: 0 none;
-
-    @include media-breakpoint-up(md) {
-      margin-right: 10px;
-    }
 
     .verb {
       background: transparent;
@@ -142,24 +128,6 @@
 
   .verb {
     color: $trailer-button-text-color;
-  }
-
-  .s72-btn-play-icon {
-    display: inline-block;
-    height: 32px;
-    margin-right: 0;
-    width: 32px;
-
-    circle {
-      fill: transparent;
-      stroke: $primary;
-      stroke-width: 3px;
-    }
-
-    path {
-      fill: $body-color;
-      stroke: $body-color;
-    }
   }
 
   .s72-btn-play-label {
@@ -196,6 +164,65 @@
 
   .price {
     font-weight: $font-weight-normal;
+  }
+}
+
+s72-play-button {
+  button {
+    @extend .w-100;
+    padding-left: 0;
+  }
+}
+
+.meta-detail-buttons .s72-pricing-button-container {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .flex-sm-row;
+
+  .s72-btn {
+    @extend .mb-sm-0;
+    margin-bottom: .5rem;
+
+    &:nth-child(2){
+      margin-top: .5rem;
+      @include media-breakpoint-up(sm) {
+        margin-top: 0;
+        margin-left: .5rem;
+      }
+    }
+  }
+}
+
+.meta-detail-extras, .meta-item-extras{
+  @extend .ml-sm-1;
+
+  s72-modal-share {
+    @extend .d-flex;
+    @extend .h-100;
+  }
+
+  s72-modal-player, s72-userwishlist-button {
+    @extend .d-flex;
+  }
+
+  .s72-btn {
+    line-height: 0;
+    padding: 0;
+
+    i {
+      @extend .px-1;
+      @extend .h-100;
+      @extend .d-inline-flex;
+      @extend .align-items-center;
+      min-height: 40px;
+    }
+    &:hover {
+      opacity: .8;
+    }
+  
+    .fa:before {
+      font-size: 18px;
+    }
   }
 }
 
