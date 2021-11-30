@@ -1,8 +1,8 @@
 {{block awardNominations()}}
   {{ if isset(.AwardCategories) }}
-    <div class="meta-awards row">
+    <div class="meta-awards row mt-2p5">
     {{ range .AwardCategories }}
-      <div class="meta-award-nomination meta-award-nomination-item col-12 col-sm-8 col-lg-6 col-xl-4">
+      <div class="meta-award-nomination mb-2p5 col-12 col-sm-8 col-lg-6 col-xl-4">
         <span><i class="meta-award-nomination-icon"></i></span>
         <span class="font-weight-bold">{{ i18n("awards_nominated_for") }} {{ .DisplayLabel }}</span>
       </div>
@@ -14,7 +14,7 @@
 {{block inCompetition()}}
   {{ if isset(.AwardCategories) }}
     <div class="meta-awards">
-      <div class="meta-award-nomination meta-award-nomination-carousel col-12 col-sm-8 col-lg-6 col-xl-4">
+      <div class="meta-award-nomination">
         <span><i class="meta-award-nomination-icon"></i></span>
         <span class="font-weight-bold">{{ i18n("awards_in_competition") }}</span>
       </div>
