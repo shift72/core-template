@@ -56,8 +56,8 @@
   "nav_wishlist": { "other": "My List" },
   "nav_account": { "other": "My Account" },
   "nav_signout": { "other": "Sign Out" },
+  "play_trailer": { "other": "Play Trailer" },
   "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
-  "play_trailer": { "other": "Trailer" },
   "runtime_hours": { "other": "h" },
   "runtime_minutes": { "other": "m" },
 
@@ -74,6 +74,12 @@
   "play_button_resume": { "other" : "Continue"},
 
   "social_media_buttons_title": { "other": "Share" },
+  "social_media_buttons_facebook": { "other": "Share on Facebook" },
+  "social_media_buttons_twitter": { "other": "Share on Twitter" },
+  "social_media_buttons_linkedin": { "other": "Share on Linkedin" },
+  "social_media_buttons_email": { "other": "Share via email" },
+  "social_media_buttons_copied_link": { "other": "Link copied to clipboard!" },
+  "social_media_buttons_copy_link": { "other": "Copy to clipboard" },
 
   "accept_invite_page_header": { "other": "Welcome" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "It looks like you have already claimed this invite, you should <a href=\"{{.SigninURL}}\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"{{.ForgotPasswordURL}}\">reset your password</a>." },
@@ -356,7 +362,7 @@
   "userwishlist_empty_header":  { "other": "Your list is empty." },
   "userwishlist_empty_content": { "other": "Fill it by <a href=\"{{.HomeURL}}\">browsing</a> our great selection." },
   "userwishlist_button_add": { "other": "Add to My List" },
-  "userwishlist_button_remove": { "other": "My List" },
+  "userwishlist_button_remove": { "other": "Remove from My List" },
   "userwishlist_button_add_compact": { "other": "My List" },
   "userwishlist_button_remove_compact": { "other": "My List" },
 
