@@ -122,13 +122,13 @@
 }
 
 .s72-icon-wishlist-add {
-  @extend .fa-circle-o;
+  @extend .fa-plus;
   font-size: 1.4em !important;
   transition: all 0.15s ease-in-out;
 }
 
 .s72-icon-wishlist-remove {
-  @extend .fa-check-circle;
+  @extend .fa-minus;
   font-size: 1.4em !important;
 }
 
