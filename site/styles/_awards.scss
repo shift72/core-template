@@ -2,6 +2,10 @@
   @extend .d-flex;
   @extend .align-items-center;
 
+  &.meta-awards-all {
+    @extend .align-items-start;
+  }
+
   .meta-award-nomination {
     @extend .d-flex;
   }
@@ -12,5 +16,29 @@
     font-size: 1.25rem;
     line-height: 1.5rem;
     padding-right: .5rem;
+  }
+}
+
+.meta-awards-icon-overlay {
+  @extend .position-absolute;
+  @extend .text-center;
+
+  right: ($spacer * 0.5);
+  top: ($spacer * 0.5);
+  border-radius: $meta-item-border-radius;
+  background: rgba(0, 0, 0, 0.8);
+
+  z-index: 99;
+
+  padding-right: 3px;
+  padding-left: 3px;
+  width: 16px + (3px * 2);
+  height: 16px + (3px * 2);
+
+  .meta-award-nomination-icon {
+    @extend .fa;
+    @extend .fa-star;
+
+    font-size: 1rem;
   }
 }
