@@ -510,5 +510,11 @@
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Αγορασε τωρα"
+  },
+  "awards_nominated_for": {
+    "other": "Προτάθηκε για"
+  },
+  "awards_in_competition": {
+    "other": "Σε Διαγωνισμό"
   }
 }

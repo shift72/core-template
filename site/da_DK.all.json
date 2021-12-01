@@ -1141,5 +1141,12 @@
     },
     "plan_showcase_page_ownership_button_buy": {
         "other": "Køb nu"
-    }
+    },
+
+  "awards_nominated_for": {
+    "other": "Nomineret til"
+  },
+  "awards_in_competition": {
+    "other": "I Konkurrence"
+  }
 }

@@ -456,5 +456,11 @@
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Acquista ora"
+  },
+  "awards_nominated_for": {
+    "other": "Nominato per"
+  },
+  "awards_in_competition": {
+    "other": "In Concorso"
   }
 }
