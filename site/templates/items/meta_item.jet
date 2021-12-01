@@ -1,5 +1,5 @@
 {{import "tagline.jet"}}
-{{import "../common/awards.jet"}}
+{{import "../common/awards/partial.jet"}}
 
 {{block metaItem(item, layout, wrapper_class="")}}
   {{ displayTitleAndGenreBelowPosters = config("media_item_caption") == "true" }}
@@ -41,7 +41,7 @@
     <div class="poster poster-{{layout}}">
       <s72-availability-status data-slug="{{item.Slug}}"></s72-availability-status>
       <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
-      {{ yield inCompetitionIcon() item.InnerItem }}
+      {{ yield awardsPosterOverlay() item.InnerItem }}
       <s72-image src="{{imageUrl}}" alt="{{item.Title}}" class="poster-image poster-image-{{layout}}" border="0"></s72-image>
       {{if !isExternalPage}}
         <div class="hover">

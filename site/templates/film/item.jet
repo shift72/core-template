@@ -6,7 +6,7 @@
 {{import "../collection/slider.jet"}}
 {{import "../common/list.jet"}}
 {{import "../common/social-media-buttons.jet"}}
-{{import "../common/awards.jet"}}
+{{import "../common/awards/item.jet"}}
 
 {{block head()}}
   {{yield seo() film}}

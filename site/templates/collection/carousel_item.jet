@@ -1,5 +1,5 @@
 {{import "../items/tagline.jet"}}
-{{import "../common/awards.jet"}}
+{{import "../common/awards/carousel.jet"}}
 
 {{block carouselItem(item)}}
   {{ trailer := "" }}
@@ -56,7 +56,7 @@
               <p>{{item.InnerItem.Tagline | stripHTML}}</p>
             </div>
 
-            {{yield inCompetition() item.InnerItem}}
+            {{yield awardsCarousel() item.InnerItem}}
           </div>
         </div>
       {{end}}
