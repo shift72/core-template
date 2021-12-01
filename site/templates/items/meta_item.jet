@@ -39,9 +39,12 @@
   {{end}}
   <a href="{{routeToSlug(item.Slug)}}" class="meta-item-link" aria-label="{{item.Title}}" target="{{isExternalPage ? "_blank" : ""}}">
     <div class="poster poster-{{layout}}">
-      <s72-availability-status data-slug="{{item.Slug}}"></s72-availability-status>
       <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
-      {{ yield awardsPosterOverlay() item.InnerItem }}
+      <div class="poster-overlay poster-overlay-top">
+        <s72-availability-status data-slug="{{item.Slug}}"></s72-availability-status>
+        {{ yield awardsPosterOverlay() item.InnerItem }}
+      </div>
+
       <s72-image src="{{imageUrl}}" alt="{{item.Title}}" class="poster-image poster-image-{{layout}}" border="0"></s72-image>
       {{if !isExternalPage}}
         <div class="hover">

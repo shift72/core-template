@@ -20,15 +20,10 @@
 }
 
 .meta-awards-icon-overlay {
-  @extend .position-absolute;
   @extend .text-center;
 
-  right: ($spacer * 0.5);
-  top: ($spacer * 0.5);
   border-radius: $meta-item-border-radius;
   background: rgba(0, 0, 0, 0.8);
-
-  z-index: 99;
 
   padding-right: 3px;
   padding-left: 3px;
