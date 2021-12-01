@@ -32,9 +32,11 @@
       min-width: 0px;
       @extend .pr-p5;
 
+      /* stylelint-disable selector-max-compound-selectors */
       .availability-bg {
         @extend .text-truncate;
       }
+      /* stylelint-enable selector-max-compound-selectors */
     }
   }
 }
