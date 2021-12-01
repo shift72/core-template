@@ -46,7 +46,6 @@
                   </div>
                 {{end}}
                 <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
-		{{yield inCompetition() item.InnerItem}}
                 <s72-share-buttons item="::item.meta" class="hidden-sm hidden-xs pull-right"></s72-share-buttons>
               </div>
             </div>
@@ -57,6 +56,7 @@
               <p>{{item.InnerItem.Tagline | stripHTML}}</p>
             </div>
 
+            {{yield inCompetition() item.InnerItem}}
           </div>
         </div>
       {{end}}
