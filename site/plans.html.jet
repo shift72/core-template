@@ -70,12 +70,12 @@
                     {{ if p.HasExpiryDate() }}
                     <s72-before datetime="{{ p.ExpiryDate.UnixMilli() }}">
                       <s72-user-anon>
-                        <a class="btn btn-block s72-btn-purchase" href="{{i18n("plan_free_link_url")}}">{{ i18n("plan_free_link_text") }}</a>
+                        <a class="btn btn-block s72-btn-purchase" href="{{routeToPath("/signup.html")}}">{{ i18n("plan_free_link_text") }}</a>
                       </s72-user-anon>
                     </s72-before>
                     {{ else }}
                       <s72-user-anon>
-                        <a class="btn btn-block s72-btn-purchase" href="{{i18n("plan_free_link_url")}}">{{ i18n("plan_free_link_text") }}</a>
+                        <a class="btn btn-block s72-btn-purchase" href="{{routeToPath("/signup.html")}}">{{ i18n("plan_free_link_text") }}</a>
                       </s72-user-anon>
                     {{ end }}
                   {{ else }}
