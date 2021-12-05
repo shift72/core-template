@@ -4,6 +4,7 @@
 
 ### Added
 - Support for purchasing plans and showcase pages
+- Support for award nominations on carousel, meta item partials and film pages
 
 ### Changed
 - Moved separator line from footer jet into app badge jet.
