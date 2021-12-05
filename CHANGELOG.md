@@ -7,6 +7,8 @@
 
 ### Changed
 - Moved separator line from footer jet into app badge jet.
+- Moved social/share links into one relish share component (modal).
+- Grouped icons trailer, wishlist and share-modal, into unified inline icons.
 
 ## [0.3.8](https://github.com/shift72/core-template/compare/0.3.7...0.3.8)
 

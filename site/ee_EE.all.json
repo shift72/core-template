@@ -517,6 +517,12 @@
     },
     "plan_free_link_text": {
       "other": "Registreeru tasuta"
-    }
+    },
+  "awards_nominated_for": {
+    "other": "Kandideeritud"
+  },
+  "awards_in_competition": {
+    "other": "Võistluses"
+  }
   }
   

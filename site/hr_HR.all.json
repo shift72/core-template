@@ -465,5 +465,11 @@
   },
   "plan_free_link_text": {
     "other": "Prijavite se besplatno"
+  },
+  "awards_nominated_for": {
+    "other": "Nominiran za"
+  },
+  "awards_in_competition": {
+    "other": "U natjecanju"
   }
 }

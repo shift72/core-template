@@ -1235,5 +1235,11 @@
   },
   "plan_free_link_text": {
     "other": "免費註冊"
+  },
+  "awards_nominated_for": {
+    "other": "提名"
+  },
+  "awards_in_competition": {
+    "other": "比賽中"
   }
 }

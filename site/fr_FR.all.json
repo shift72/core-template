@@ -458,5 +458,11 @@
   },
   "plan_free_link_text": {
     "other": "Inscription gratuite"
+  },
+  "awards_nominated_for": {
+    "other": "Nominé pour"
+  },
+  "awards_in_competition": {
+    "other": "En compétition"
   }
 }

@@ -520,6 +520,12 @@
     },
     "plan_free_link_text": {
       "other": "Ücretsiz kaydol"
-    }
+    },
+  "awards_nominated_for": {
+    "other": "Aday için"
+  },
+  "awards_in_competition": {
+    "other": "Rekabette"
+  }
   }
   

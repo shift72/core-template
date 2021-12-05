@@ -574,5 +574,12 @@
     },
     "plan_free_link_text": {
       "other": "سجل مجانا"
+    },
+
+    "awards_nominated_for": {
+      "other": "رشح ل"
+    },
+    "awards_in_competition": {
+      "other": "في المنافسة"
     }
   } 

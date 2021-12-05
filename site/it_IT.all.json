@@ -459,5 +459,11 @@
   },
   "plan_free_link_text": {
     "other": "Iscriviti gratis"
+  },
+  "awards_nominated_for": {
+    "other": "Nominato per"
+  },
+  "awards_in_competition": {
+    "other": "In Concorso"
   }
 }

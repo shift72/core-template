@@ -544,5 +544,11 @@
   },
   "plan_free_link_text": {
     "other": "Gratis inschrijven"
+  },
+  "awards_nominated_for": {
+    "other": "Genomineerd voor"
+  },
+  "awards_in_competition": {
+    "other": "in competitie"
   }
 }
