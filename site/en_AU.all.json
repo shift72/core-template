@@ -481,7 +481,7 @@
 
   "availability_coming_soon": { "other": "Coming soon" },
   "availability_renting": { "other": "Renting" },
-  "availability_not_available": { "other": "availability_not_available" },
+  "availability_not_available": { "other": "Not available" },
   "availability_in_watch_window": { "other": "availability_in_watch_window" },
   "availability_sold_out": { "other": "Sold Out" },
   "availability_available_till": { "other": "Available until {{.ExpiryDate}}" },
@@ -551,6 +551,7 @@
   "page_plan_explore_intro": { "other": "OR" },
   "page_plan_explore_link": { "other": "Explore other passes" },
   "plan_showcase_page_ownership_button_buy": { "other": "Buy now" },
+  "plan_free_link_text": { "other": "Sign up for free" },
 
   "awards_nominated_for": { "other": "Nominated for" },
   "awards_in_competition": { "other": "In Competition" }

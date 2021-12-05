@@ -1034,7 +1034,7 @@
    "other": "Alugando"
   },
   "availability_not_available": {
-   "other": "availability_not_available"
+   "other": "Não disponível"
   },
   "availability_in_watch_window": {
    "other": "availability_in_watch_window"
@@ -1239,6 +1239,9 @@
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Compre Agora"
+  },
+  "plan_free_link_text": {
+    "other": "Cadastre-se gratuitamente"
   },
   "awards_nominated_for": {
     "other": "Nomeado para"

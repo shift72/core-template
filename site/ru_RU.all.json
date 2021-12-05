@@ -464,7 +464,7 @@
 
   "availability_coming_soon": { "other": "Скоро в онлайне" },
   "availability_renting": { "other": "аренда" },
-  "availability_not_available": { "other": "availability_not_available" },
+  "availability_not_available": { "other": "Недоступен" },
   "availability_in_watch_window": { "other": "availability_in_watch_window" },
   "availability_sold_out": { "other": "Продано" },
   "availability_available_till": { "other": "Доступно до {{.ExpiryDate}}" },
@@ -548,6 +548,9 @@
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Купи сейчас"
+  },
+  "plan_free_link_text": {
+    "other": "Подпишитесь бесплатно"
   },
   "awards_nominated_for": {
     "other": "Выдвинут на"

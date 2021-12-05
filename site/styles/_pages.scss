@@ -125,7 +125,7 @@
       font-weight: $font-weight-bold;
     }
 
-    a {
+    a:not(.signup-link) {
       @include a;
     }
   }
