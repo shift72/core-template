@@ -1169,5 +1169,11 @@
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Придбайте зараз"
+  },
+  "awards_nominated_for": {
+    "other": "Номінований за"
+  },
+  "awards_in_competition": {
+    "other": "У конкурсі"
   }
 }

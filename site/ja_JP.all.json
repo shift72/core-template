@@ -420,5 +420,11 @@
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "今買う"
+  },
+  "awards_nominated_for": {
+    "other": "ノミネート"
+  },
+  "awards_in_competition": {
+    "other": "競争中"
   }
 }

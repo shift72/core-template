@@ -514,7 +514,12 @@
     },
     "plan_showcase_page_ownership_button_buy": {
       "other": "Osta kohe"
-    }
-
+    },
+  "awards_nominated_for": {
+    "other": "Kandideeritud"
+  },
+  "awards_in_competition": {
+    "other": "Võistluses"
+  }
   }
   

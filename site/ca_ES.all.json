@@ -1239,5 +1239,12 @@
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Compra ara"
+  },
+
+  "awards_nominated_for": {
+    "other": "Nominat per"
+  },
+  "awards_in_competition": {
+    "other": "En Competició"
   }
 }

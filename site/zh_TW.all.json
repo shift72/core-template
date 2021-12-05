@@ -1232,5 +1232,11 @@
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "立即購買"
+  },
+  "awards_nominated_for": {
+    "other": "提名"
+  },
+  "awards_in_competition": {
+    "other": "比賽中"
   }
 }

@@ -548,5 +548,11 @@
     },
     "plan_showcase_page_ownership_button_buy": {
       "other": "Купите сада"
-    }
+    },
+  "awards_nominated_for": {
+    "other": "Номинован за"
+  },
+  "awards_in_competition": {
+    "other": "Ин Цомпетитион"
+  }
   }

@@ -571,5 +571,12 @@
     },
     "plan_showcase_page_ownership_button_buy": {
         "other": "اشتري الآن"
+    },
+
+    "awards_nominated_for": {
+      "other": "رشح ل"
+    },
+    "awards_in_competition": {
+      "other": "في المنافسة"
     }
   } 

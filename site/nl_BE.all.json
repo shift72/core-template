@@ -541,5 +541,11 @@
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Nu kopen"
+  },
+  "awards_nominated_for": {
+    "other": "Genomineerd voor"
+  },
+  "awards_in_competition": {
+    "other": "in competitie"
   }
 }
