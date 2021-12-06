@@ -78,6 +78,7 @@
   "social_media_buttons_twitter": { "other": "Share on Twitter" },
   "social_media_buttons_linkedin": { "other": "Share on Linkedin" },
   "social_media_buttons_email": { "other": "Share via email" },
+  "social_media_buttons_email_subject": { "other": "Link share" },
   "social_media_buttons_copied_link": { "other": "Link copied to clipboard!" },
   "social_media_buttons_copy_link": { "other": "Copy to clipboard" },
 
