@@ -1,8 +1,5 @@
-{{import "./extras.jet"}}
-
-{{block bundleButtons(class, slug, title, promoURL)}}
+{{block bundleButtons(class, slug, title)}}
   <div class="{{class}}">
     <s72-pricing-buttons data-slug="{{slug}}" data-title="{{title}}"></s72-pricing-buttons>
-    {{yield bundleExtras(class="meta-detail-extras", slug=slug, promoURL=promoURL)}}
   </div>
 {{end}}
