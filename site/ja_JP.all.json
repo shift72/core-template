@@ -50,6 +50,13 @@
   "play_button_resume": { "other" : "続きから見る"},
 
   "social_media_buttons_title": { "other": "共有" },
+  "social_media_buttons_facebook": { "other": "Facebookでシェア" },
+  "social_media_buttons_twitter": { "other": "Twitterで共有する" },
+  "social_media_buttons_linkedin": { "other": "Linkedinで共有する" },
+  "social_media_buttons_email": { "other": "メールで共有する" },
+  "social_media_buttons_email_subject": { "other": "リンクシェア" },
+  "social_media_buttons_copied_link": { "other": "リンクがクリップボードにコピーされました！" },
+  "social_media_buttons_copy_link": { "other": "クリップボードにコピー" },
 
   "accept_invite_page_header": { "other": "ようこそ" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "すでに招待リクエスト済みですので、サインインしてください。" },

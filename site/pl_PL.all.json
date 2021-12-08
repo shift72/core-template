@@ -50,6 +50,13 @@
   "play_button_resume": { "other" : "Kontynuuj"},
 
   "social_media_buttons_title": { "other": "Udostępnij" },
+  "social_media_buttons_facebook": { "other": "Udostępnij na Facebooku" },
+  "social_media_buttons_twitter": { "other": "Podziel się na Twitterze" },
+  "social_media_buttons_linkedin": { "other": "Udostępnij na Linkedin" },
+  "social_media_buttons_email": { "other": "Udostępnij przez e-mail" },
+  "social_media_buttons_email_subject": { "other": "Udostępnianie linków" },
+  "social_media_buttons_copied_link": { "other": "Link skopiowany do schowka!" },
+  "social_media_buttons_copy_link": { "other": "Skopiuj do schowka" },
 
   "accept_invite_page_header": { "other": "Witamy" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Wygląda na to, że już odebrałeś to zaproszenie. Kliknij zatem <a href=\"{{.SigninURL}}\"> zaloguj się </a>. Jeśli zapomniałeś hasła, możesz je odzyskać <a href=\"{{.ForgotPasswordURL}}\"> resetując hasło </a>." },

@@ -73,7 +73,14 @@
     "play_button_resume": { "other" : "Folytatás"},
   
     "social_media_buttons_title": { "other": "Megosztás" },
-  
+    "social_media_buttons_facebook": { "other": "Megosztani Facebookon" },
+    "social_media_buttons_twitter": { "other": "Oszd meg a Twitteren" },
+    "social_media_buttons_linkedin": { "other": "Oszd meg a Linkedin-en" },
+    "social_media_buttons_email": { "other": "Oszd meg e-mailben" },
+    "social_media_buttons_email_subject": { "other": "Link megosztás" },
+    "social_media_buttons_copied_link": { "other": "Link a vágólapra másolva!" },
+    "social_media_buttons_copy_link": { "other": "Másolja a vágólapra" },
+
     "accept_invite_page_header": { "other": "Üdvözöljük" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Úgy tűnik, már felhasználtad a meghívódat, próbálj meg <a href=\"{{.SigninURL}}\">bejelentkezni</a>. Ha elfelejtetted a jelszavadat, <a href=\"{{.ForgotPasswordURL}}\">állíts be újat</a>." },
     "acceptinvite_complete": { "other": "Köszönjük. A fiókodat létrehoztuk." },

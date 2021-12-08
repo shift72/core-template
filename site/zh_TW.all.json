@@ -139,6 +139,13 @@
   "social_media_buttons_title": {
    "other": "分享"
   },
+  "social_media_buttons_facebook": { "other": "在脸书上分享" },
+  "social_media_buttons_twitter": { "other": "分享到Twitter" },
+  "social_media_buttons_linkedin": { "other": "在领英上分享" },
+  "social_media_buttons_email": { "other": "通过电子邮件分享" },
+  "social_media_buttons_email_subject": { "other": "链接分享" },
+  "social_media_buttons_copied_link": { "other": "链接已复制到剪贴板！" },
+  "social_media_buttons_copy_link": { "other": "复制到剪贴板" },
   "accept_invite_page_header": {
    "other": "歡迎"
   },

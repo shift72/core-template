@@ -73,6 +73,13 @@
   "play_button_resume": { "other" : "Reproducir"},
 
   "social_media_buttons_title": { "other": "Compartir" },
+  "social_media_buttons_facebook": { "other": "Compartir en Facebook" },
+  "social_media_buttons_twitter": { "other": "Compartir en Twitter" },
+  "social_media_buttons_linkedin": { "other": "Compartir en Linkedin" },
+  "social_media_buttons_email": { "other": "Compartir via correo electrónico" },
+  "social_media_buttons_email_subject": { "other": "Compartir enlace" },
+  "social_media_buttons_copied_link": { "other": "¡Link copiado al portapapeles!" },
+  "social_media_buttons_copy_link": { "other": "Copiar al portapapeles" },
 
   "accept_invite_page_header": { "other": "Bienvenido" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Parece que ya ha reclamado esta invitación, usted debe <a href=\"{{.SigninURL}}\">iniciar sesión</a> sin embargo. Si ha olvidado su contraseña, usted puede <a href=\"{{.ForgotPasswordURL}}\">recuperar su contraseña</a>." },

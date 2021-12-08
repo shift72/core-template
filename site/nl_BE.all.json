@@ -73,6 +73,13 @@
   "play_button_resume": { "other" : "Ga verder"},
 
   "social_media_buttons_title": { "other": "Deel" },
+  "social_media_buttons_facebook": { "other": "Delen op Facebook" },
+  "social_media_buttons_twitter": { "other": "Delen op Twitter" },
+  "social_media_buttons_linkedin": { "other": "Deel op Linkedin" },
+  "social_media_buttons_email": { "other": "Deel via e-mail" },
+  "social_media_buttons_email_subject": { "other": "Link delen" },
+  "social_media_buttons_copied_link": { "other": "Link gekopieerd naar klembord!" },
+  "social_media_buttons_copy_link": { "other": "Kopieer naar klembord" },
 
   "accept_invite_page_header": { "other": "Welkom" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Het lijkt erop dat u deze uitnodiging al hebt gebruikt. U dient zich hier <a href=\"{{.SigninURL}}\">in te loggen</a>. <a href=\"{{.ForgotPasswordURL}}\">Wachtwoord vergeten?</a>." },

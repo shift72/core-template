@@ -51,6 +51,13 @@
   "play_button_resume": { "other" : "Jatka"},
 
   "social_media_buttons_title": { "other": "Jaa" },
+  "social_media_buttons_facebook": { "other": "Jaa Facebookissa" },
+  "social_media_buttons_twitter": { "other": "Jaa Twitterissä" },
+  "social_media_buttons_linkedin": { "other": "Jaa Linkedinissä" },
+  "social_media_buttons_email": { "other": "Jaa sähköpostilla" },
+  "social_media_buttons_email_subject": { "other": "Linkin jakaminen" },
+  "social_media_buttons_copied_link": { "other": "Linkki kopioitu leikepöydälle!" },
+  "social_media_buttons_copy_link": { "other": "Kopioi leikepöydälle" },
 
   "accept_invite_page_header": { "other": "Tervetuloa" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Vaikuttaa siltä, että olet jo käyttänyt tämän kutsun. Kokeile <a href=\"signin.html\">kirjautua sisään</a> palveluun. Jos olet unohtanut salasanasi, voit <a href=\"forgotpassword.html\">tilata uuden salasanan</a>." },

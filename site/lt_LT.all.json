@@ -73,6 +73,13 @@
   "play_button_resume": { "other" : "Tęsti"},
 
   "social_media_buttons_title": { "other": "Dalintis" },
+  "social_media_buttons_facebook": { "other": "Dalintis Facebook" },
+  "social_media_buttons_twitter": { "other": "Bendrinti Twitter" },
+  "social_media_buttons_linkedin": { "other": "Dalintis Linkedin" },
+  "social_media_buttons_email": { "other": "Bendrinkite el. paštu" },
+  "social_media_buttons_email_subject": { "other": "Nuorodos bendrinimas" },
+  "social_media_buttons_copied_link": { "other": "Nuoroda nukopijuota į mainų sritį!" },
+  "social_media_buttons_copy_link": { "other": "Nukopijuoti į iškarpinę" },
 
   "accept_invite_page_header": { "other": "Sveiki" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Panašu, kad jau patvirtinote šį kvietimą, prašome <a href=\"{{.SigninURL}}\">prisijungti</a>. Pamiršus slaptažodį, galite <a href=\"{{.ForgotPasswordURL}}\">susikurti naują</a>." },
