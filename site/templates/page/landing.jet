@@ -1,4 +1,4 @@
-{{extends "templates/application.jet"}}
+{{extends "templates/application/application.jet"}}
 {{block body()}}
   <div>
     <h1>Landing - {{ page.Title }}</h1>

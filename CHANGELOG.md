@@ -3,8 +3,9 @@
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.3.8...HEAD)
 
 ### Added
-- Support for purchasing plans and showcase pages
-- Support for award nominations on carousel, meta item partials and film pages
+- Support for purchasing plans and showcase pages.
+- Support for award nominations on carousel, meta item partials and film pages.
+- Separate template for overriding with custom fonts.
 
 ### Changed
 - Moved separator line from footer jet into app badge jet.
