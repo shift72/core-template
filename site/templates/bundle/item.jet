@@ -1,4 +1,4 @@
-{{extends "../application.jet"}}
+{{extends "../application/application.jet"}}
 
 {{import "./background.jet"}}
 {{import "./title.jet"}}
