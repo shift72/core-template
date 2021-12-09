@@ -1,5 +1,5 @@
-{{import "./nav/user_logged_out.jet"}}
-{{import "./nav/user_logged_in.jet"}}
+{{import "./user_logged_out.jet"}}
+{{import "./user_logged_in.jet"}}
 {{import "./header-banner.jet"}}
 
 {{block nav(showSubNav=true)}}

@@ -1,4 +1,4 @@
-{{extends "../application.jet"}}
+{{extends "../application/application.jet"}}
 {{import "../common/slider.jet"}}
 {{import "../items/tagline.jet"}}
 {{import "../items/bonus_item.jet"}}

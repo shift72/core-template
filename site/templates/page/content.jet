@@ -1,4 +1,4 @@
-{{extends "templates/application.jet"}}
+{{extends "templates/application/application.jet"}}
 {{import "templates/page/page-header.jet"}}
 {{import "templates/page/page-content.jet"}}
 

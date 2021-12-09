@@ -139,6 +139,13 @@
   "social_media_buttons_title": {
    "other": "Compartir"
   },
+  "social_media_buttons_facebook": { "other": "Comparteix a Facebook" },
+  "social_media_buttons_twitter": { "other": "Comparteix a Twitter" },
+  "social_media_buttons_linkedin": { "other": "Comparteix a Linkedin" },
+  "social_media_buttons_email": { "other": "Comparteix per correu electrònic" },
+  "social_media_buttons_email_subject": { "other": "Compartir enllaç" },
+  "social_media_buttons_copied_link": { "other": "S'ha copiat l'enllaç al porta-retalls!" },
+  "social_media_buttons_copy_link": { "other": "Copiar al portapapers" },
   "accept_invite_page_header": {
    "other": "Benvingut"
   },

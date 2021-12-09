@@ -1,4 +1,4 @@
-{{extends "templates/application.jet"}}
+{{extends "templates/application/application.jet"}}
 
 {{block head()}}
   {{yield seo(title=i18n("account_page_header"), index=false)}}

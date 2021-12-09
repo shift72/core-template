@@ -73,7 +73,14 @@
     "play_button_resume": { "other" : "Devam et"},
   
     "social_media_buttons_title": { "other": "Paylaş" },
-  
+    "social_media_buttons_facebook": { "other": "Facebook'ta Paylaş" },
+    "social_media_buttons_twitter": { "other": "Twitter'da paylaş" },
+    "social_media_buttons_linkedin": { "other": "Linkedin'de paylaş" },
+    "social_media_buttons_email": { "other": "E-mail ile paylaş" },
+    "social_media_buttons_email_subject": { "other": "Bağlantı paylaşımı" },
+    "social_media_buttons_copied_link": { "other": "Link kopyalandı!" },
+    "social_media_buttons_copy_link": { "other": "Panoya kopyala" },
+
     "accept_invite_page_header": { "other": "Hoşgeldiniz" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Görünüşe göre bu davet talebini zaten yapmışsınız, onun yerine <a href=\"{{.SigninURL}}\">sign in</a> denemelisiniz. Parolanızı unuttuysanız, parolanızı ayrıca <a href=\"{{.ForgotPasswordURL}}\"> sıfırlayabilirsiniz." },
     "acceptinvite_complete": { "other": "Teşekkürler. Hesabınız oluşturuldu." },

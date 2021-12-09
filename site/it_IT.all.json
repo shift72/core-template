@@ -73,6 +73,13 @@
   "play_button_resume": { "other" : "Continua"},
 
   "social_media_buttons_title": { "other": "Condividi" },
+  "social_media_buttons_facebook": { "other": "Condividi su Facebook" },
+  "social_media_buttons_twitter": { "other": "Condividi su Twitter" },
+  "social_media_buttons_linkedin": { "other": "Condividi su Linkedin" },
+  "social_media_buttons_email": { "other": "Condividi via e-mail" },
+  "social_media_buttons_email_subject": { "other": "Condividi link" },
+  "social_media_buttons_copied_link": { "other": "Link copiato negli appunti!" },
+  "social_media_buttons_copy_link": { "other": "Copia negli appunti" },
 
   "accept_invite_page_header": { "other": "Accoglienza" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Questo Invito è già stato usato." },
