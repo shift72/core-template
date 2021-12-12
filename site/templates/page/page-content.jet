@@ -1,4 +1,4 @@
-{{block pageContent(text="",plan=0)}}
+{{block pageContent(text="", plan=0)}}
   {{if len(text) > 0}}
     <div class="page-content">
       {{text | raw}}

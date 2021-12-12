@@ -5,12 +5,18 @@
 ## [0.4.0-rc.0](https://github.com/shift72/core-template/compare/0.3.8...0.4.0-rc.0)
 
 ### Added
-- Support for purchasing plans and showcase pages.
+- Support for purchasing plans and pages to showcase them.
 - Support for award nominations on carousel, meta item partials and film pages.
 - Separate template for overriding with custom fonts.
 
 ### Changed
 - Moved separator line from footer jet into app badge jet.
+- Kibble upgraded to v0.15.22.
+- Application templates moved to `/site/templates/application/`.
+- Links (`<a>` tags) without a `class` attribute have `text-decoration: underline`.
+
+## Fixed
+- Curated pages with a collection no longer has a `min-height` that was forcing a gap before the collection.
 
 ## [0.3.8](https://github.com/shift72/core-template/compare/0.3.7...0.3.8)
 
