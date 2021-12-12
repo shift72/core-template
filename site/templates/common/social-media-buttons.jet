@@ -4,11 +4,29 @@
 {{show_linkedin_share := config("show_linkedin_share", "true") == "true"}}
 
 	{{if show_facebook_share || show_twitter_share || show_linkedin_share || letterboxdID}}
-
-
 		<div class="social-media-buttons">
+			<div class="social-media-buttons-title">
+				<h2>{{i18n("social_media_buttons_title")}}</h2>
+			</div>
 			<div class="social-media-buttons-container">
-				<s72-modal-share linkedin="{{show_linkedin_share}}" facebook="{{show_facebook_share}}" twitter="{{show_twitter_share}}" title="{{title}}" path="{{site.SiteConfig.SiteURL + path | url}}"></s72-modal-share>
+				{{if show_facebook_share}}
+					<a class="btn btn-social btn-social-facebook" aria-label="{{i18n("wcag_aria_label_facebook")}}" href="https://www.facebook.com/sharer/sharer.php?u={{site.SiteConfig.SiteURL + path | url}}" target="_blank">
+						<i class="fa fa-facebook" title="Share on Facebook" aria-hidden="true"></i>
+					</a>
+				{{end}}
+
+				{{if show_twitter_share}}
+					<a class="btn btn-social btn-social-twitter" aria-label="{{i18n("wcag_aria_label_twitter")}}" href="https://twitter.com/intent/tweet?text={{title + " " + site.SiteConfig.SiteURL + path | url}}" target="_blank">
+						<i class="fa fa-twitter" title="Share on Twitter" aria-hidden="true"></i>
+					</a>
+				{{end}}
+
+				{{if show_linkedin_share}}
+					<a class="btn btn-social btn-social-linkedin" aria-label="{{i18n("wcag_aria_label_linkedin")}}" href="https://www.linkedin.com/shareArticle?mini=true&url={{site.SiteConfig.SiteURL + path | url}}&title={{title|url}}" target="_blank">
+						<i class="fa fa-linkedin" title="Share on LinkedIn" aria-hidden="true"></i>
+					</a>
+				{{end}}
+
 				{{if letterboxdID}}
 					<a class="btn btn-social btn-social-letterboxd" aria-label="{{i18n("wcag_aria_label_letterboxd")}}" href="https://boxd.it/{{letterboxdID}}" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="28px" viewBox="0 0 334.79999 128" version="1.1">

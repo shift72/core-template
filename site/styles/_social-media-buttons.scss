@@ -1,6 +1,8 @@
 .social-media-buttons {
   @extend .d-flex;
   flex-direction: row;
+  padding-bottom: 3px;
+  padding-top: 2px;
 }
 
 .social-media-buttons-title {

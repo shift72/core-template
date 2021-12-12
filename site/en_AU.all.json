@@ -56,7 +56,7 @@
   "nav_wishlist": { "other": "My List" },
   "nav_account": { "other": "My Account" },
   "nav_signout": { "other": "Sign Out" },
-  "play_trailer": { "other": "Play Trailer" },
+  "play_trailer": { "other": "Trailer" },
   "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
   "runtime_hours": { "other": "h" },
   "runtime_minutes": { "other": "m" },
@@ -363,7 +363,7 @@
   "userwishlist_empty_header":  { "other": "Your list is empty." },
   "userwishlist_empty_content": { "other": "Fill it by <a href=\"{{.HomeURL}}\">browsing</a> our great selection." },
   "userwishlist_button_add": { "other": "Add to My List" },
-  "userwishlist_button_remove": { "other": "Remove from My List" },
+  "userwishlist_button_remove": { "other": "My List" },
   "userwishlist_button_add_compact": { "other": "My List" },
   "userwishlist_button_remove_compact": { "other": "My List" },
 
