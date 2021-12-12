@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.3.8...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.4.0-rc.0...HEAD)
+
+## [0.4.0-rc.0](https://github.com/shift72/core-template/compare/0.3.8...0.4.0-rc.0)
 
 ### Added
 - Support for purchasing plans and showcase pages.
@@ -9,8 +11,6 @@
 
 ### Changed
 - Moved separator line from footer jet into app badge jet.
-- Moved social/share links into one relish share component (modal).
-- Grouped icons trailer, wishlist and share-modal, into unified inline icons.
 
 ## [0.3.8](https://github.com/shift72/core-template/compare/0.3.7...0.3.8)
 
