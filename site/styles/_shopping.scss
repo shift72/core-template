@@ -167,6 +167,12 @@
       font-size: 12px;
     }
   }
+
+  /* stylelint-disable selector-no-qualifying-type */
+  ul.s72-shopping-info-plan {
+    text-align: left;
+  }
+  /* stylelint-enable selector-no-qualifying-type */
 }
 
 .s72-shopping-info-credit {

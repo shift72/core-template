@@ -1,4 +1,5 @@
 {{import "../items/tagline.jet"}}
+{{import "../common/awards/carousel.jet"}}
 
 {{block carouselItem(item)}}
   {{ trailer := "" }}
@@ -54,6 +55,7 @@
               <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
               <s72-share-buttons item="::item.meta" class="hidden-sm hidden-xs pull-right"></s72-share-buttons>
             </div>
+            {{yield awardsCarousel() item.InnerItem}}
           </div>
         </div>
       {{end}}

@@ -1,0 +1,87 @@
+.plan-page-link {
+  @extend .s72-btn-purchase;
+}
+
+s72-plan-label {
+  .s72-plan-owned {
+    @extend .availability-state;
+    @extend .d-inline;
+    color: $button-text-color;
+  }
+}
+
+/* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
+.plans-page {
+  // Add some spacing to the heading
+  .page-header h1 {
+    @extend .mb-3;
+  }
+
+  .plan {
+    .card {
+      @extend .bg-transparent;
+      @extend .border-0;
+
+      .plan-container {
+        @extend .bg-white;
+        @include border-radius($border-radius);
+
+        .plan-caption-details {
+          p {
+            @extend .mb-p75;
+          }
+        }
+
+        .poster {
+          s72-plan-label {
+            @extend .position-absolute;
+            @extend .mx-auto;
+            left: 5px !important;
+            top: 5px;
+
+            z-index: 99;
+
+            .s72-plan-owned {
+              @extend .availability-bg;
+
+              background-color: $button-background;
+            }
+          }
+        }
+
+        s72-pricing-buttons:not(.s72-show) {
+          @extend .m-0;
+        }
+
+        .plan-caption-details .s72-plan-owned {
+          @extend .d-inline-block;
+          @extend .availability-bg;
+          @extend .mb-p5;
+
+          background-color: $button-background;
+        }
+
+        s72-user-anon a {
+          margin-top: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+.curated-plan-page {
+  // Hide the separator if this is a curated collection page
+  + .separator {
+    @extend .border-0;
+  }
+
+  // Hide the titles of any collections
+  .page-collection-list-title,
+  .swiper-title {
+    display: none;
+  }
+
+  .signup-link {
+    display: inline !important;
+  }
+}

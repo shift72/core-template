@@ -68,6 +68,7 @@
 .search-page,
 .collection-page,
 .devices-page,
+.plans-page,
 .carousel-len-0 {
   padding-top: $page-padding-top;
   @include media-breakpoint-up(md) {
@@ -124,9 +125,16 @@
       font-weight: $font-weight-bold;
     }
 
-    a {
+    a:not(.signup-link) {
       @include a;
     }
+  }
+}
+
+// Curated pages with at least one collection shouldn't have a minimum height which forces a gap before the collection(s)
+.curated-collection-page {
+  .page-content {
+    min-height: auto;
   }
 }
 
@@ -188,13 +196,15 @@
 .wishlist-page,
 .library-page,
 .search-page,
-.devices-page {
+.devices-page,
+.plans-page {
   .page-header {
     h1 {
       margin-bottom: $headings-margin-bottom;
     }
   }
 
+  .s72-plans,
   .s72-userwishlist-items,
   .s72-userlibrary-items,
   .s72-searchresults-results,

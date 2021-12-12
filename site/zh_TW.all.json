@@ -139,6 +139,13 @@
   "social_media_buttons_title": {
    "other": "分享"
   },
+  "social_media_buttons_facebook": { "other": "在脸书上分享" },
+  "social_media_buttons_twitter": { "other": "分享到Twitter" },
+  "social_media_buttons_linkedin": { "other": "在领英上分享" },
+  "social_media_buttons_email": { "other": "通过电子邮件分享" },
+  "social_media_buttons_email_subject": { "other": "链接分享" },
+  "social_media_buttons_copied_link": { "other": "链接已复制到剪贴板！" },
+  "social_media_buttons_copy_link": { "other": "复制到剪贴板" },
   "accept_invite_page_header": {
    "other": "歡迎"
   },
@@ -1173,5 +1180,73 @@
   },
   "app_badge_android": {
    "other": "Get it on Google Play"
+  },
+  "shopping_price_title_plan": {
+    "other": "價錢"
+  },
+  "shopping_price_plan_note": {
+    "zero": "每隔{{ .Interval }}充電。",
+    "one": "24 小時免費試用期結束後， {{ .Interval }}收費一次。",
+    "other": "{{ .Count }}天免費試用期結束後， {{ .Interval }}收費一次。"
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "在下面輸入您的信用卡詳細信息以開始訂閱。"
+  },
+  "shopping_action_plan": {
+    "other": "完全的"
+  },
+  "shopping_complete_subscription": {
+    "other": "您的訂閱購買成功。您現在訂閱了{{ .Title }} 。"
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "隨意<a href=\"/\">瀏覽</a>網站，或<a href=\"/search.html\">搜索</a>特定內容。"
+  },
+  "shopping_info_plan_offer": {
+    "one": "{{ .Interval }}自動更新",
+    "other": "自動更新每個{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "立即試用您的 24 小時免費試用版！",
+    "other": "免費{{ .Count }}天！"
+  },
+  "plans_page_header": {
+    "other": "可用計劃"
+  },
+  "plan_label_owned": {
+    "other": "您擁有此計劃"
+  },
+  "plan_expiry_date": {
+    "other": "銷售結束："
+  },
+  "plan_read_more": {
+    "other": "了解更多"
+  },
+  "plan_page_read_more": {
+    "other": "閱讀更多"
+  },
+  "plan_page_header_text": {
+    "other": "享受{{ .Name }}"
+  },
+  "page_plan_explore_intro": {
+    "other": "或者"
+  },
+  "page_plan_explore_link": {
+    "other": "探索其他通行證"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "立即購買"
+  },
+  "plan_free_link_text": {
+    "other": "免費註冊"
+  },
+  "awards_nominated_for": {
+    "other": "提名"
+  },
+  "awards_in_competition": {
+    "other": "比賽中"
   }
 }

@@ -26,7 +26,7 @@
 						<i class="fa fa-linkedin" title="Share on LinkedIn" aria-hidden="true"></i>
 					</a>
 				{{end}}
-			
+
 				{{if letterboxdID}}
 					<a class="btn btn-social btn-social-letterboxd" aria-label="{{i18n("wcag_aria_label_letterboxd")}}" href="https://boxd.it/{{letterboxdID}}" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="28px" viewBox="0 0 334.79999 128" version="1.1">

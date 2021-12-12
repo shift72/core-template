@@ -73,6 +73,13 @@
     "play_button_resume": { "other" : "تابع "},
   
     "social_media_buttons_title": { "other": "النشر " },
+    "social_media_buttons_facebook": { "other": "انشر في الفيسبوك" },
+    "social_media_buttons_twitter": { "other": "حصة على التغريد" },
+    "social_media_buttons_linkedin": { "other": "انشر على لينكد إن" },
+    "social_media_buttons_email": { "other": "سهم عبر البريد الإلكتروني" },
+    "social_media_buttons_email_subject": { "other": "مشاركة الارتباط" },
+    "social_media_buttons_copied_link": { "other": "تم نسخ الرابط إلى الحافظة!" },
+    "social_media_buttons_copy_link": { "other": "نسخ إلى الحافظة" },
   
     "accept_invite_page_header": { "other": "أهلا بك" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "يبدو أنك طالبت بهذه الدعوة من قبل ، يجب عليك <a href=\"{{.SigninURL}}\"> تسجيل الدخول </a> بدلاً من ذلك. إذا نسيت كلمة المرور ، فيمكنك أيضًا <a href=\"{{.ForgotPasswordURL}}\"> إعادة تعيين كلمة المرور </a>." },
@@ -511,5 +518,75 @@
     "wcag_aria_label_wishlist": { "other": "قائمة الرغبات" },
     "wcag_aria_label_facebook": { "other": "انشر على الفيسبوك" },
     "wcag_aria_label_twitter": { "other": "انشر على تويتر" },
-    "wcag_aria_label_linkedin": { "other": "انشر على لينكد ان" }
+    "wcag_aria_label_linkedin": { "other": "انشر على لينكد ان" },
+
+    "shopping_price_title_plan": {
+        "other": "سعر"
+    },
+    "shopping_price_plan_note": {
+        "zero": "اتهم كل {{ .Interval }} .",
+        "one": "يتم تحصيل الرسوم كل {{ .Interval }} بعد انتهاء الفترة التجريبية المجانية لمدة 24 ساعة.",
+        "other": "يتم تحصيل الرسوم كل {{ .Interval }} بعد انتهاء {{ .Count }} التجريبية المجانية .Count يوم."
+    },
+    "shopping_price_plan_note_interval": {
+        "one": "{{ .Interval }}",
+        "other": "{{ .Count }} {{ .Interval }}"
+    },
+    "shopping_enter_card_prompt_plan": {
+        "other": "أدخل تفاصيل بطاقة الائتمان الخاصة بك أدناه لبدء اشتراكك."
+    },
+    "shopping_action_plan": {
+        "other": "مكتمل"
+    },
+    "shopping_complete_subscription": {
+        "other": "تم شراء اشتراكك بنجاح. أنت الآن مشترك في {{ .Title }} ."
+    },
+    "shopping_complete_subscription_browse": {
+        "other": "لا تتردد في <a href=\"/\">تصفح</a> الموقع ، أو <a href=\"/search.html\">البحث</a> عن شيء محدد."
+    },
+    "shopping_info_plan_offer": {
+        "one": "يجدد تلقائيا كل. {{ .Interval }}",
+        "other": "يجدد تلقائيا كل {{ .Count }} {{ .Interval }}"
+    },
+    "shopping_info_trial_period_offer": {
+        "one": "جرب الإصدار التجريبي المجاني لمدة 24 ساعة الآن!",
+        "other": "{{ .Count }} التجريبي المجاني من .Count day!"
+    },
+    "plans_page_header": {
+        "other": "الخطط المتاحة"
+    },
+    "plan_label_owned": {
+        "other": "أنت تملك هذه الخطة"
+    },
+    "plan_expiry_date": {
+        "other": "إغلاق المبيعات:"
+    },
+    "plan_read_more": {
+        "other": "اكتشف المزيد"
+    },
+    "plan_page_read_more": {
+        "other": "اقرأ أكثر"
+    },
+    "plan_page_header_text": {
+        "other": "استمتع {{ .Name }}"
+    },
+    "page_plan_explore_intro": {
+        "other": "أو"
+    },
+    "page_plan_explore_link": {
+        "other": "استكشف ممرات أخرى"
+    },
+    "plan_showcase_page_ownership_button_buy": {
+        "other": "اشتري الآن"
+    },
+    "plan_free_link_text": {
+      "other": "سجل مجانا"
+    },
+
+    "awards_nominated_for": {
+      "other": "رشح ل"
+    },
+    "awards_in_competition": {
+      "other": "في المنافسة"
+    }
   } 

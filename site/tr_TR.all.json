@@ -73,7 +73,14 @@
     "play_button_resume": { "other" : "Devam et"},
   
     "social_media_buttons_title": { "other": "Paylaş" },
-  
+    "social_media_buttons_facebook": { "other": "Facebook'ta Paylaş" },
+    "social_media_buttons_twitter": { "other": "Twitter'da paylaş" },
+    "social_media_buttons_linkedin": { "other": "Linkedin'de paylaş" },
+    "social_media_buttons_email": { "other": "E-mail ile paylaş" },
+    "social_media_buttons_email_subject": { "other": "Bağlantı paylaşımı" },
+    "social_media_buttons_copied_link": { "other": "Link kopyalandı!" },
+    "social_media_buttons_copy_link": { "other": "Panoya kopyala" },
+
     "accept_invite_page_header": { "other": "Hoşgeldiniz" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Görünüşe göre bu davet talebini zaten yapmışsınız, onun yerine <a href=\"{{.SigninURL}}\">sign in</a> denemelisiniz. Parolanızı unuttuysanız, parolanızı ayrıca <a href=\"{{.ForgotPasswordURL}}\"> sıfırlayabilirsiniz." },
     "acceptinvite_complete": { "other": "Teşekkürler. Hesabınız oluşturuldu." },
@@ -457,6 +464,75 @@
 
     "app_badge_title": { "other": "Download the app to view your purchased content!" },
     "app_badge_ios": { "other": "Download on the App Store" },
-    "app_badge_android": { "other": "Get it on Google Play" }
+    "app_badge_android": { "other": "Get it on Google Play" },
+
+    "shopping_price_title_plan": {
+      "other": "Fiyat"
+    },
+    "shopping_price_plan_note": {
+      "zero": "Her {{ .Interval }} .",
+      "one": "24 saatlik ücretsiz deneme süreniz sona erdikten sonra her {{ .Interval }}",
+      "other": "Her Ücretli {{ .Interval }} sizin sonra {{ .Count }} günlük ücretsiz deneme sürümü bitmeden."
+    },
+    "shopping_price_plan_note_interval": {
+      "one": "{{ .Interval }}",
+      "other": "{{ .Count }} {{ .Interval }}"
+    },
+    "shopping_enter_card_prompt_plan": {
+      "other": "Aboneliğinizi başlatmak için aşağıya kredi kartı bilgilerinizi girin."
+    },
+    "shopping_action_plan": {
+      "other": "Tamamlayınız"
+    },
+    "shopping_complete_subscription": {
+      "other": "Abonelik satın alma işleminiz başarılı oldu. Artık {{ .Title }} ."
+    },
+    "shopping_complete_subscription_browse": {
+      "other": "Sitede <a href=\"/\">gezinmekten</a> veya belirli bir şey <a href=\"/search.html\">aramaktan</a> çekinmeyin."
+    },
+    "shopping_info_plan_offer": {
+      "one": "{{ .Interval }} otomatik olarak yeniler",
+      "other": "Otomatik olarak her yeniler {{ .Count }} {{ .Interval }}"
+    },
+    "shopping_info_trial_period_offer": {
+      "one": "24 saatlik ücretsiz denemenizi şimdi deneyin!",
+      "other": "Ücretsiz {{ .Count }} günlük denemenizi deneyin!"
+    },
+    "plans_page_header": {
+      "other": "Mevcut Planlar"
+    },
+    "plan_label_owned": {
+      "other": "Bu plana sahipsin"
+    },
+    "plan_expiry_date": {
+      "other": "Satış kapanışı:"
+    },
+    "plan_read_more": {
+      "other": "Daha fazlasını bul"
+    },
+    "plan_page_read_more": {
+      "other": "Devamını oku"
+    },
+    "plan_page_header_text": {
+      "other": "Keyfini çıkarın {{ .Name }}"
+    },
+    "page_plan_explore_intro": {
+      "other": "VEYA"
+    },
+    "page_plan_explore_link": {
+      "other": "Diğer geçişleri keşfedin"
+    },
+    "plan_showcase_page_ownership_button_buy": {
+      "other": "Şimdi al"
+    },
+    "plan_free_link_text": {
+      "other": "Ücretsiz kaydol"
+    },
+  "awards_nominated_for": {
+    "other": "Aday için"
+  },
+  "awards_in_competition": {
+    "other": "Rekabette"
+  }
   }
   

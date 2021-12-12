@@ -67,6 +67,13 @@
   "play_button_resume": { "other" : "Fortsetzen"},
 
   "social_media_buttons_title": { "other": "Teilen" },
+  "social_media_buttons_facebook": { "other": "Auf Facebook teilen" },
+  "social_media_buttons_twitter": { "other": "Auf Twitter teilen" },
+  "social_media_buttons_linkedin": { "other": "Auf Linkedin teilen" },
+  "social_media_buttons_email": { "other": "Per E-Mail teilen" },
+  "social_media_buttons_email_subject": { "other": "Link teilen" },
+  "social_media_buttons_copied_link": { "other": "Link in die Zwischenablage kopiert!" },
+  "social_media_buttons_copy_link": { "other": "In die Zwischenablage kopieren" },
 
   "accept_invite_page_header": { "other": "Willkommen" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Sie haben diese Einladung bereits angenommen. <a href=\"{{.SigninURL}}\">Loggen Sie sich hier ein</a>. Falls Sie Ihr Passwort vergessen haben, können Sie es <a href=\"{{.ForgotPasswordURL}}\">hier zurücksetzen</a>." },
@@ -395,5 +402,74 @@
 
   "app_badge_title": { "other": "Download the app to view your purchased content!" },
   "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" }
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+  "shopping_price_title_plan": {
+    "other": "Preis"
+  },
+  "shopping_price_plan_note": {
+    "zero": "Aufgeladen in jedem {{ .Interval }} .",
+    "one": "{{ .Interval }} jedes .Intervall nach Ablauf Ihrer kostenlosen 24-Stunden-Testversion berechnet.",
+    "other": "{{ .Interval }} jedes .Intervall nach {{ .Count }} Tages-Testversion berechnet."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Geben Sie unten Ihre Kreditkartendaten ein, um Ihr Abonnement zu starten."
+  },
+  "shopping_action_plan": {
+    "other": "Vollständig"
+  },
+  "shopping_complete_subscription": {
+    "other": "Ihr Abonnementkauf war erfolgreich. Sie haben jetzt {{ .Title }} abonniert."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Fühlen Sie sich frei, <a href=\"/\">auf</a> der Website <a href=\"/search.html\">zu stöbern oder nach</a> etwas Bestimmtem zu suchen."
+  },
+  "shopping_info_plan_offer": {
+    "one": "{{ .Interval }} automatisch jedes .Intervall",
+    "other": "Erneuert automatisch alle {{ .Count }} {{ .Interval }}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Testen Sie jetzt Ihre kostenlose 24-Stunden-Testversion!",
+    "other": "Testen Sie Ihre kostenlose {{ .Count }} Tage-Testversion!"
+  },
+  "plans_page_header": {
+    "other": "Verfügbare Pläne"
+  },
+  "plan_label_owned": {
+    "other": "Du besitzt diesen Plan"
+  },
+  "plan_expiry_date": {
+    "other": "Verkaufsschluss:"
+  },
+  "plan_read_more": {
+    "other": "Finde mehr heraus"
+  },
+  "plan_page_read_more": {
+    "other": "Weiterlesen"
+  },
+  "plan_page_header_text": {
+    "other": "Viel {{ .Name }}"
+  },
+  "page_plan_explore_intro": {
+    "other": "ODER"
+  },
+  "page_plan_explore_link": {
+    "other": "Entdecken Sie andere Pässe"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Kaufe jetzt"
+  },
+  "plan_free_link_text": {
+    "other": "Melde dich kostenlos an"
+  },
+  "awards_nominated_for": {
+    "other": "Nominiert für"
+  },
+  "awards_in_competition": {
+    "other": "Im Wettbewerb"
+  }
 }

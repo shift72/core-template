@@ -33,17 +33,6 @@
       <s72-classification-label data-slug="{{.Slug}}" data-layout="tooltip"></s72-classification-label>
     {{end}}
 
-    {{if genres && len(itemGenres) > 0}}
-      {{if genresLimit > -1 && len(itemGenres) > genresLimit}}
-        {{itemGenres = itemGenres[:genresLimit]}}
-      {{end}}
-      {{yield taglineItem() content}}
-        {{itemGenres}}
-      {{end}}
-      {{yield taglineDivider(dividers=dividers)}}
-      {{dividers = dividers - 1}}
-    {{end}}
-
     {{if isset(.Runtime)}}
       {{yield taglineItem() content}}
         {{if .Runtime > 60}}
@@ -67,6 +56,17 @@
     {{if isset(.Episodes)}}
       {{yield taglineItem() content}}
         {{i18n("episode_count", len(.Episodes))}}
+      {{end}}
+      {{yield taglineDivider(dividers=dividers)}}
+      {{dividers = dividers - 1}}
+    {{end}}
+
+    {{if genres && len(itemGenres) > 0}}
+      {{if genresLimit > -1 && len(itemGenres) > genresLimit}}
+        {{itemGenres = itemGenres[:genresLimit]}}
+      {{end}}
+      {{yield taglineItem() content}}
+        {{itemGenres}}
       {{end}}
       {{yield taglineDivider(dividers=dividers)}}
       {{dividers = dividers - 1}}

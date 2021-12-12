@@ -1,4 +1,4 @@
-{{extends "templates/application.jet"}}
+{{extends "templates/application/application.jet"}}
 {{import "templates/collection/page_collection.jet"}}
 {{import "templates/items/featured_item.jet"}}
 {{import "../collection/carousel.jet"}}

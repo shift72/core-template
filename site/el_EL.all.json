@@ -73,6 +73,13 @@
   "play_button_resume": { "other" : "Συνέχιση"},
 
   "social_media_buttons_title": { "other": "Μοιράσου το" },
+  "social_media_buttons_facebook": { "other": "Κοινοποίηση στο Facebook" },
+  "social_media_buttons_twitter": { "other": "Μοιραστείτε το στο Twitter" },
+  "social_media_buttons_linkedin": { "other": "Κοινή χρήση στο Linkedin" },
+  "social_media_buttons_email": { "other": "Κοινοποίηση μέσω email" },
+  "social_media_buttons_email_subject": { "other": "Κοινή χρήση συνδέσμου" },
+  "social_media_buttons_copied_link": { "other": "Ο σύνδεσμος αντιγράφηκε στο πρόχειρο!" },
+  "social_media_buttons_copy_link": { "other": "Αντιγραφή στο πρόχειρο" },
 
   "accept_invite_page_header": { "other": "Καλώς ορίσατε" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Φαίνεται πως έχετε ήδη αποδεχθεί αυτή την πρόσκληση, πρέπει να <a href=\"{{.SigninURL}}\">εισέλθετε</a> στο λογαριασμό σας." },
@@ -450,5 +457,74 @@
 
   "app_badge_title": { "other": "Download the app to view your purchased content!" },
   "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" }
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+  "shopping_price_title_plan": {
+    "other": "Τιμή"
+  },
+  "shopping_price_plan_note": {
+    "zero": "Χρεώνεται κάθε {{ .Interval }} .",
+    "one": "Χρεώνεται κάθε {{ .Interval }} μετά τη λήξη της δωρεάν δοκιμής 24 ωρών.",
+    "other": "Χρεώνεται κάθε {{ .Interval }} μετά τη {{ .Count }} δωρεάν δοκιμής .Count day."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Εισαγάγετε τα στοιχεία της πιστωτικής σας κάρτας παρακάτω για να ξεκινήσετε τη συνδρομή σας."
+  },
+  "shopping_action_plan": {
+    "other": "Πλήρης"
+  },
+  "shopping_complete_subscription": {
+    "other": "Η αγορά της συνδρομής σας ήταν επιτυχής. Είστε πλέον εγγεγραμμένοι στο {{ .Title }} ."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Μη διστάσετε να <a href=\"/\">περιηγηθείτε</a> στον ιστότοπο ή να <a href=\"/search.html\">αναζητήσετε</a> κάτι συγκεκριμένο."
+  },
+  "shopping_info_plan_offer": {
+    "one": "Ανανεώνει αυτόματα κάθε {{ .Interval }}",
+    "other": "Ανανεώνει αυτόματα κάθε {{ .Count }} {{ .Interval }}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Δοκιμάστε τη δωρεάν δοκιμή 24 ωρών τώρα!",
+    "other": "Δοκιμάστε τη δωρεάν {{ .Count }} day!"
+  },
+  "plans_page_header": {
+    "other": "Διαθέσιμα σχέδια"
+  },
+  "plan_label_owned": {
+    "other": "Είστε κάτοχος αυτού του σχεδίου"
+  },
+  "plan_expiry_date": {
+    "other": "Κλείσιμο εκπτώσεων:"
+  },
+  "plan_read_more": {
+    "other": "Μάθετε περισσότερα"
+  },
+  "plan_page_read_more": {
+    "other": "Διαβάστε περισσότερα"
+  },
+  "plan_page_header_text": {
+    "other": "Απολαύστε το {{ .Name }}"
+  },
+  "page_plan_explore_intro": {
+    "other": "Ή"
+  },
+  "page_plan_explore_link": {
+    "other": "Εξερευνήστε άλλα περάσματα"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Αγορασε τωρα"
+  },
+  "plan_free_link_text": {
+    "other": "ΕΓΓΡΑΦΕΙΤΕ ΔΩΡΕΑΝ"
+  },
+  "awards_nominated_for": {
+    "other": "Προτάθηκε για"
+  },
+  "awards_in_competition": {
+    "other": "Σε Διαγωνισμό"
+  }
 }

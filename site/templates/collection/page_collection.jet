@@ -2,12 +2,12 @@
 {{import "./slider.jet"}}
 {{import "./list.jet"}}
 
-{{block pageCollection()}}
-	{{if .Layout == "carousel"}}
-		{{yield pageCollectionCarousel()}}
-	{{else if .Layout == "slider"}}
-		{{yield pageCollectionSlider()}}
-	{{else}}
-		{{yield pageCollectionList()}}
-	{{end}}
+{{block pageCollection(showTitle=true)}}
+  {{if .Layout == "carousel"}}
+    {{yield pageCollectionCarousel()}}
+  {{else if .Layout == "slider"}}
+    {{yield pageCollectionSlider()}}
+  {{else}}
+    {{yield pageCollectionList(showTitle=showTitle)}}
+  {{end}}
 {{end}}

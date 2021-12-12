@@ -1,4 +1,4 @@
-{{extends "../application.jet"}}
+{{extends "../application/application.jet"}}
 
 {{block body()}}
   <h2>Collection - Index</h2>

@@ -71,6 +71,13 @@
   "play_button_resume": { "other" : "Continuer"},
 
   "social_media_buttons_title": { "other": "Partager" },
+  "social_media_buttons_facebook": { "other": "Partager sur Facebook" },
+  "social_media_buttons_twitter": { "other": "Partager sur Twitter" },
+  "social_media_buttons_linkedin": { "other": "Partager sur Linkedin" },
+  "social_media_buttons_email": { "other": "Partager par e-mail" },
+  "social_media_buttons_email_subject": { "other": "Lien de partage" },
+  "social_media_buttons_copied_link": { "other": "Lien copié dans le presse-papiers !" },
+  "social_media_buttons_copy_link": { "other": "Copier dans le presse-papier" },
 
   "accept_invite_page_header": { "other": "Bienvenue" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Il semble que vous ayez déjà utilisé ce lien, vous devriez essayer de <a href=\"{{.SigninURL}}\">vous connecter</a>. Si vous avez oublié votre mot de passe, vous pouvez aussi <a href=\"{{.ForgotPasswordURL}}\">réinitialiser votre mot de passe</a>." },
@@ -395,5 +402,74 @@
 
   "app_badge_title": { "other": "Download the app to view your purchased content!" },
   "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" }
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+  "shopping_price_title_plan": {
+    "other": "Prix"
+  },
+  "shopping_price_plan_note": {
+    "zero": "Chargé tous les {{ .Interval }} .",
+    "one": "Facturé tous les {{ .Interval }} après la fin de votre essai gratuit de 24 heures.",
+    "other": "Facturé chaque {{ .Interval }} après la {{ .Count }} votre essai gratuit de .Count day."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Entrez les détails de votre carte de crédit ci-dessous afin de commencer votre abonnement."
+  },
+  "shopping_action_plan": {
+    "other": "Compléter"
+  },
+  "shopping_complete_subscription": {
+    "other": "Votre achat d&#39;abonnement a réussi. Vous êtes maintenant abonné à {{ .Title }} ."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "N&#39;hésitez pas à <a href=\"/\">parcourir</a> le site ou à <a href=\"/search.html\">rechercher</a> quelque chose de spécifique."
+  },
+  "shopping_info_plan_offer": {
+    "one": "{{ .Interval }} automatiquement chaque .Interval",
+    "other": "{{ .Count }} automatiquement chaque {{ .Interval }}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Essayez votre essai gratuit de 24 heures maintenant !",
+    "other": "Essayez votre essai gratuit de {{ .Count }} day !"
+  },
+  "plans_page_header": {
+    "other": "Forfaits disponibles"
+  },
+  "plan_label_owned": {
+    "other": "Vous possédez ce plan"
+  },
+  "plan_expiry_date": {
+    "other": "Clôture des ventes :"
+  },
+  "plan_read_more": {
+    "other": "En savoir plus"
+  },
+  "plan_page_read_more": {
+    "other": "Lire la suite"
+  },
+  "plan_page_header_text": {
+    "other": "Profitez de {{ .Name }}"
+  },
+  "page_plan_explore_intro": {
+    "other": "OU"
+  },
+  "page_plan_explore_link": {
+    "other": "Découvrir d'autres pass"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Acheter maintenant"
+  },
+  "plan_free_link_text": {
+    "other": "Inscription gratuite"
+  },
+  "awards_nominated_for": {
+    "other": "Nominé pour"
+  },
+  "awards_in_competition": {
+    "other": "En compétition"
+  }
 }

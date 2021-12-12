@@ -317,3 +317,22 @@ s72-cant-be-watched {
     @include a;
   }
 }
+
+.s72-divider-bottom {
+  @extend .position-relative;
+  &::after {
+    @extend .position-absolute;
+    background-color: $primary;
+    bottom: 0 !important;
+    content: '';
+    height: 3px;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 40px;
+  }
+}
+
+.s72-view-all-passes {
+  @extend .py-4;
+  background-color: mix(invert($body-bg), $body-bg, 4.5%);
+}

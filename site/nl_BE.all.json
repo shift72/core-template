@@ -73,6 +73,13 @@
   "play_button_resume": { "other" : "Ga verder"},
 
   "social_media_buttons_title": { "other": "Deel" },
+  "social_media_buttons_facebook": { "other": "Delen op Facebook" },
+  "social_media_buttons_twitter": { "other": "Delen op Twitter" },
+  "social_media_buttons_linkedin": { "other": "Deel op Linkedin" },
+  "social_media_buttons_email": { "other": "Deel via e-mail" },
+  "social_media_buttons_email_subject": { "other": "Link delen" },
+  "social_media_buttons_copied_link": { "other": "Link gekopieerd naar klembord!" },
+  "social_media_buttons_copy_link": { "other": "Kopieer naar klembord" },
 
   "accept_invite_page_header": { "other": "Welkom" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Het lijkt erop dat u deze uitnodiging al hebt gebruikt. U dient zich hier <a href=\"{{.SigninURL}}\">in te loggen</a>. <a href=\"{{.ForgotPasswordURL}}\">Wachtwoord vergeten?</a>." },
@@ -481,5 +488,74 @@
 
   "app_badge_title": { "other": "Download the app to view your purchased content!" },
   "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" }
+  "app_badge_android": { "other": "Get it on Google Play" },
+
+  "shopping_price_title_plan": {
+    "other": "Prijs"
+  },
+  "shopping_price_plan_note": {
+    "zero": "Elk {{ .Interval }} opgeladen.",
+    "one": "Elke {{ .Interval }} nadat uw gratis proefperiode van 24 uur is afgelopen.",
+    "other": "Elk {{ .Interval }} nadat uw {{ .Count }} dag is afgelopen."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Voer hieronder uw creditcardgegevens in om uw abonnement te starten."
+  },
+  "shopping_action_plan": {
+    "other": "Compleet"
+  },
+  "shopping_complete_subscription": {
+    "other": "Uw abonnementsaankoop is gelukt. U bent nu geabonneerd op {{ .Title }} ."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Kijk gerust <a href=\"/\">rond op</a> de site of <a href=\"/search.html\">zoek</a> naar iets specifieks."
+  },
+  "shopping_info_plan_offer": {
+    "one": "{{ .Interval }} automatisch elk .Interval",
+    "other": "{{ .Count }} automatisch elke {{ .Interval }}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Probeer nu uw gratis proefperiode van 24 uur!",
+    "other": "Probeer uw gratis {{ .Count }} !"
+  },
+  "plans_page_header": {
+    "other": "Beschikbare abonnementen"
+  },
+  "plan_label_owned": {
+    "other": "Jij bent eigenaar van dit abonnement"
+  },
+  "plan_expiry_date": {
+    "other": "Verkoop sluiten:"
+  },
+  "plan_read_more": {
+    "other": "Meer te weten komen"
+  },
+  "plan_page_read_more": {
+    "other": "Lees verder"
+  },
+  "plan_page_header_text": {
+    "other": "Geniet van {{ .Name }}"
+  },
+  "page_plan_explore_intro": {
+    "other": "OF"
+  },
+  "page_plan_explore_link": {
+    "other": "Ontdek andere passen"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Nu kopen"
+  },
+  "plan_free_link_text": {
+    "other": "Gratis inschrijven"
+  },
+  "awards_nominated_for": {
+    "other": "Genomineerd voor"
+  },
+  "awards_in_competition": {
+    "other": "in competitie"
+  }
 }
