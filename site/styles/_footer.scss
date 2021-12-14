@@ -115,6 +115,7 @@ footer {
 .sponsor-banner {
   display: flex;
   justify-content: center;
+  padding-top: 60px;
 
   img {
     max-width: max-content;
@@ -144,7 +145,6 @@ footer {
   .sponsors-md {
     display: none;
     width: 100%;
-    max-width: 1440px;
 
     @include media-breakpoint-up(md) {
       display: block;
