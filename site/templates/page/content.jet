@@ -1,6 +1,7 @@
 {{extends "templates/application/application.jet"}}
 {{import "templates/page/page-header.jet"}}
 {{import "templates/page/page-content.jet"}}
+{{import "templates/common/background-image.jet"}}
 
 {{block head()}}
   {{yield seo() page}}
@@ -8,6 +9,8 @@
 
 {{block body()}}
   <main id="main" class="page content-page">
+    {{yield backgroundImage(containerClass="page-bg", gradientClass="right-gradient", imageClass="page-bg-img", imageSrc=page.Images.Background)}}
+
     {{yield pageHeader(title=page.Title)}}
 
     {{yield pageContent(text=page.Content)}}
