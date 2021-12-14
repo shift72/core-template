@@ -111,3 +111,43 @@ footer {
     height: 40px;
   }
 }
+
+.sponsor-banner {
+  display: flex;
+  justify-content: center;
+
+  img {
+    max-width: max-content;
+  }
+  
+  .sponsors-xxxs {
+    width: 100%;
+
+    @include media-breakpoint-up(xs) {
+      display: none;
+    }
+  }
+
+  .sponsors-xs {
+    display: none;
+    width: 100%;
+
+    @include media-breakpoint-up(xs) {
+      display: block;
+    }
+
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+  }
+
+  .sponsors-md {
+    display: none;
+    width: 100%;
+    max-width: 1440px;
+
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+  }
+}
