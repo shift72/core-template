@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.4.0-rc.0...HEAD)
 
+### Added
+- Support for header images on content pages.
+
 ## [0.4.0-rc.0](https://github.com/shift72/core-template/compare/0.3.8...0.4.0-rc.0)
 
 ### Added
