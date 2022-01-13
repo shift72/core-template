@@ -1,0 +1,28 @@
+.skip-nav {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  z-index: 12;
+  width: 100%;
+
+  @include media-breakpoint-up(lg) {
+    height: 90px;
+  }
+
+  &:focus-within {
+          
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+
+  }
+  li {
+    text-decoration: none;
+  }
+
+
+}

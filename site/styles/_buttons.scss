@@ -243,3 +243,19 @@
     border-color: $gray-200;
   }
 }
+
+.skip-nav-btn {
+  align-self: center;
+  background-color: $button-background;
+  border: 3px solid $button-background;
+  color: $button-text-color;
+  font-size: 14px;
+  margin-right: 20px;
+  white-space: nowrap;
+  @include media-breakpoint-up(lg) {
+    margin-right: 50px;
+  }
+  @include media-breakpoint-up(xl) {
+    font-size: 16px;
+  }
+}

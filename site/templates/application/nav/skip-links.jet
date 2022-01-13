@@ -1,0 +1,13 @@
+{{block skipLinks()}}
+  <section class="skip-nav">
+    <h2>Skip Links</h2>
+    <s72-dropdown>
+      <a class="s72-dropdown-toggle nav-link" tabindex="0" href="#">Hello</a>
+      <div class="s72-dropdown-menu sub-nav-menu">
+        <a class="nav-link" href="#main">{{i18n("wcag_skip_links_content")}}</a>
+        <a class="nav-link" href="#footer">{{i18n("wcag_skip_links_footer")}}</a>
+      </div>
+      <i class="fa fa-angle-down dropdown-caret"></i>
+    </s72-dropdown>
+  </section>
+{{end}}
