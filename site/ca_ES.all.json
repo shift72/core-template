@@ -757,6 +757,7 @@
   "meta_detail_subtitles": {
    "other": "Subtítols"
   },
+  "meta_detail_captions": { "other": "Subtítols [CC]" },
   "meta_detail_episodes_title": {
    "other": "Episodis"
   },

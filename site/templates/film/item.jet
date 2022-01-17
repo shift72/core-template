@@ -92,10 +92,29 @@
             </div>
           {{end}}
           {{if len(film.GetSubtitles()) > 0 }}
-            <div class="meta-detail-subtitle">
-              <h2>{{i18n("meta_detail_subtitles")}}</h2>
-              <p>{{ film.GetSubtitles() }}</p>
-            </div>
+            {{subtitles:= ""}}
+            {{captions:= ""}}
+            {{range film.SubtitleTracks}}
+              {{if len(.) >= 3}}
+                {{if .[2] == "caption"}}
+                    {{captions = captions ? captions + ", " + .[1] : .[1]}}
+                {{else}}
+                    {{subtitles = subtitles ? subtitles + ", " + .[1] : .[1]}}
+                {{end}}
+              {{end}}
+            {{end}}
+            {{if subtitles}}
+              <div class="meta-detail-subtitle">
+                <h2>{{i18n("meta_detail_subtitles")}}</h2>
+                <p>{{subtitles}}</p>
+              </div>
+            {{end}}
+            {{if captions}}
+              <div class="meta-detail-subtitle">
+                <h2>{{i18n("meta_detail_captions")}}</h2>
+                <p>{{captions}}</p>
+              </div>
+            {{end}}
           {{end}}
           {{if len(film.Countries) > 0 }}
             <div class="meta-detail-country">

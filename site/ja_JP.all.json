@@ -295,6 +295,7 @@
   "meta_detail_studios": { "one": "製作", "other": "製作" },
   "meta_detail_countries": { "one": "製作国", "other": "製作国" },
   "meta_detail_subtitles": { "other": "字幕" },
+  "meta_detail_captions": { "other": "字幕 [CC]" },
   "meta_detail_episodes_title": { "other": "エピソード" },
   "meta_detail_bonus_title": { "other": "特典映像" },
   "meta_detail_recommendations_title": { "other": "おすすめ作品" },

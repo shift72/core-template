@@ -321,6 +321,7 @@
   "meta_detail_studios": { "one": "Studio", "other": "Studios" },
   "meta_detail_countries": { "one": "Land", "other": "Länder" },
   "meta_detail_subtitles": { "other": "Untertitel" },
+  "meta_detail_captions": { "other": "Untertitel [CC]" },
   "meta_detail_episodes_title": { "other": "Episoden" },
   "meta_detail_bonus_title": { "other": "Bonusinhalt" },
   "meta_detail_recommendations_title": { "other": "Das könnte Ihnen auch gefallen" },

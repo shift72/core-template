@@ -318,6 +318,7 @@
   "meta_detail_studios": { "one": "Εταιρίες", "other": "Εταιρίες" },
   "meta_detail_countries": { "one": "Χώρες", "other": "Χώρες" },
   "meta_detail_subtitles": { "other": "Υπότιτλοι" },
+  "meta_detail_captions": { "other": "Υπότιτλοι [CC]" },
   "meta_detail_episodes_title": { "other": "Επεισόδια" },
   "meta_detail_bonus_title": { "other": "Έξτρα υλικό" },
   "meta_detail_recommendations_title": { "other": "Ίσως σας αρέσουν και τα" },

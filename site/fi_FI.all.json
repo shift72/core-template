@@ -292,6 +292,7 @@
   "meta_detail_studios": { "one": "Tuotantoyhtiö", "other": "Tuotantoyhtiöt" },
   "meta_detail_countries": { "one": "Maa", "other": "Maat" },
   "meta_detail_subtitles": { "other": "Tekstitys" },
+  "meta_detail_captions": { "other": "Tekstitys [CC]" },
   "meta_detail_episodes_title": { "other": "Jaksot" },
   "meta_detail_bonus_title": { "other": "Bonusmateriaali" },
   "meta_detail_recommendations_title": { "other": "Saatat pitää myös:" },

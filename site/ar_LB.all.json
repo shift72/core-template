@@ -346,6 +346,7 @@
     "meta_detail_studios": { "one": "الاستديو", "other": "الاستوديوهات" },
     "meta_detail_countries": { "one": "البلد", "other": "البلدان" },
     "meta_detail_subtitles": { "other": "الترجمة" },
+    "meta_detail_captions": { "other": "الترجمة [CC]" },
     "meta_detail_episodes_title": { "other": "الحلفات" },
     "meta_detail_bonus_title": { "other": "محتوى إضافي" },
     "meta_detail_recommendations_title": { "other": "قد يعجبك أيضا" },

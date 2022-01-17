@@ -286,6 +286,7 @@
   "meta_detail_studios": { "other": "Studiji" },
   "meta_detail_countries": { "other": "Zemlje" },
   "meta_detail_subtitles": { "other": "Podnaslovi" },
+  "meta_detail_captions": { "other": "Podnaslovi [CC]" },
   "meta_detail_episodes_title": { "other": "Epizode" },
   "meta_detail_bonus_title": { "other": "Bonus sadržaj" },
   "meta_detail_recommendations_title": { "other": "Nalovi koji bi vam se mogli svidjeti" },

@@ -346,6 +346,7 @@
   "meta_detail_studios": { "one": "студия", "other": "Студии" },
   "meta_detail_countries": { "one": "Страна", "other": "страны" },
   "meta_detail_subtitles": { "other": "Субтитры" },
+  "meta_detail_captions": { "other": "Субтитры [CC]" },
   "meta_detail_episodes_title": { "other": "Эпизоды" },
   "meta_detail_bonus_title": { "other": "Бонус" },
   "meta_detail_recommendations_title": { "other": "Вам также может понравиться" },

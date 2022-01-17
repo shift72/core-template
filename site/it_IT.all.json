@@ -329,6 +329,7 @@
   "meta_detail_studios": { "one": "Studio", "other": "Studios" },
   "meta_detail_countries": { "one": "Paese", "other": "Paese" },
   "meta_detail_subtitles": { "other": "Sottotitoli" },
+  "meta_detail_captions": { "other": "Sottotitoli [CC]" },
   "meta_detail_episodes_title": { "other": "Episodi" },
   "meta_detail_bonus_title": { "other": "Contenuti Extra" },
   "meta_detail_recommendations_title": { "other": "Potrebbe piacerti anche" },
