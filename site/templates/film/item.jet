@@ -92,14 +92,14 @@
             </div>
           {{end}}
           {{if len(film.GetSubtitles()) > 0 }}
-            {{subtitles:= ""}}
-            {{captions:= ""}}
-            {{range film.SubtitleTracks}}
-              {{if len(.) >= 3}}
-                {{if .[2] == "caption"}}
-                    {{captions = captions ? captions + ", " + .[1] : .[1]}}
+            {{subtitles := ""}}
+            {{captions := ""}}
+            {{range subTrack := film.SubtitleTracks}}
+              {{if len(subTrack) >= 3}}
+                {{if subTrack[2] == "caption"}}
+                    {{captions = captions ? captions + ", " + subTrack[1] : subTrack[1]}}
                 {{else}}
-                    {{subtitles = subtitles ? subtitles + ", " + .[1] : .[1]}}
+                    {{subtitles = subtitles ? subtitles + ", " + subTrack[1] : subTrack[1]}}
                 {{end}}
               {{end}}
             {{end}}
