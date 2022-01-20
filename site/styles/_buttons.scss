@@ -25,7 +25,7 @@
   @include hover-focus {
     background: $signin-background-hover;
     border: 3px solid $signin-border-color-hover;
-    color: $body-color;
+    color: var(--body-color);
   }
   @include media-breakpoint-up(lg) {
     background-color: $signin-background-lg;
@@ -115,8 +115,8 @@
     background: transparent;
 
     .s72-icon-play circle {
-      fill: $primary;
-      stroke: $primary;
+      fill: var(--primary);
+      stroke: var(--primary);
       stroke-width: 3px;
     }
 
@@ -136,7 +136,7 @@
 
     .verb {
       background: transparent;
-      color: $primary;
+      color: var(--primary);
     }
   }
 
@@ -152,13 +152,13 @@
 
     circle {
       fill: transparent;
-      stroke: $primary;
+      stroke: var(--primary);
       stroke-width: 3px;
     }
 
     path {
-      fill: $body-color;
-      stroke: $body-color;
+      fill: var(--body-color);
+      stroke: var(--body-color);
     }
   }
 
@@ -215,7 +215,7 @@
   .s72-btn-wishlist {
     background: transparent;
     border: 0 none;
-    color: $body-color;
+    color: var(--body-color);
     font-size: 14px;
 
     .s72-icon-loading,
