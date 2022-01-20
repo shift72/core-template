@@ -95,9 +95,9 @@ s72-activatedevice-form,
 }
 // Account Page Change Password Field
 .s72-form-control-static {
-  background: rgba(var(--body-color-rgb), 0.1);
+  background: rgba($body-color, 0.1);
   border-radius: 6px 0 0 6px;
-  color: var(--body-color);
+  color: $body-color;
   display: inline-block;
   font-size: 30px;
   line-height: 34px;
@@ -149,9 +149,9 @@ s72-activatedevice-form,
 }
 
 .s72-modal-content {
-  background: var(--body-bg);
+  background: $body-bg;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  color: var(--body-color);
+  color: $body-color;
   padding: 20px 10px;
 
   .s72-modal-header {
@@ -159,7 +159,7 @@ s72-activatedevice-form,
     padding: 0 50px 20px 0;
 
     .s72-modal-title {
-      color: var(--body-color);
+      color: $body-color;
       font-size: 20px;
       font-weight: $font-weight-bold;
       line-height: auto;

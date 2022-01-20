@@ -136,9 +136,9 @@ s72-classification-label {
   }
 
   .s72-classification-label {
-    border: 1px solid rgba(var(--body-color-rgb), 0.8);
+    border: 1px solid rgba($body-color, 0.8);
     border-radius: 0;
-    color: rgba(var(--body-color-rgb), 0.8);
+    color: rgba($body-color, 0.8);
     font-size: 12px;
     font-weight: $font-weight-bold;
     padding: 1px 5px;
@@ -161,7 +161,7 @@ s72-classification-label {
 
 .meta-detail-content .meta-detail-tagline-and-classification .meta-item-tagline {
   align-self: center;
-  color: rgba(var(--body-color-rgb), 0.8);
+  color: rgba($body-color, 0.8);
   font-weight: $font-weight-normal;
   margin-bottom: 0;
 }

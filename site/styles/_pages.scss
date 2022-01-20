@@ -52,7 +52,7 @@
 }
 
 .separator {
-  border-bottom: 1px solid rgba(var(--body-color-rgb), 0.2);
+  border-bottom: 1px solid rgba($body-color, 0.2);
   margin: 0 20px;
 
   @include media-breakpoint-up(lg) {

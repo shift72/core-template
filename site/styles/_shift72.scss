@@ -224,7 +224,7 @@
   @extend .form-control-plaintext;
 
   .form-page & {
-    color: var(--body-color);
+    color: $body-color;
   }
 }
 
@@ -322,7 +322,7 @@ s72-cant-be-watched {
   @extend .position-relative;
   &::after {
     @extend .position-absolute;
-    background-color: var(--primary);
+    background-color: $primary;
     bottom: 0 !important;
     content: '';
     height: 3px;
@@ -334,5 +334,5 @@ s72-cant-be-watched {
 
 .s72-view-all-passes {
   @extend .py-4;
-  background-color: var(--body-bg-accent);
+  background-color: mix(invert($body-bg), $body-bg, 4.5%);
 }
