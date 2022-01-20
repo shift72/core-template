@@ -91,15 +91,20 @@
               <p>{{ film.Languages }}</p>
             </div>
           {{end}}
-          {{if len(film.GetSubtitles()) > 0 }}
+          {{allSubtitles := film.GetSubtitles()}}
+          {{if len(allSubtitles) > 0 }}
             {{subtitles := ""}}
             {{captions := ""}}
-            {{range subTrack := film.SubtitleTracks}}
-              {{if len(subTrack) >= 3}}
-                {{if subTrack[2] == "caption"}}
-                    {{captions = captions ? captions + ", " + subTrack[1] : subTrack[1]}}
-                {{else}}
-                    {{subtitles = subtitles ? subtitles + ", " + subTrack[1] : subTrack[1]}}
+            {{if len(film.SubtitleTracks) == 0}}
+              {{subtitles = allSubtitles}}
+            {{else}}
+              {{range subTrack := film.SubtitleTracks}}
+                {{if len(subTrack) >= 3}}
+                  {{if subTrack[2] == "caption"}}
+                      {{captions = captions ? captions + ", " + subTrack[1] : subTrack[1]}}
+                  {{else}}
+                      {{subtitles = subtitles ? subtitles + ", " + subTrack[1] : subTrack[1]}}
+                  {{end}}
                 {{end}}
               {{end}}
             {{end}}
