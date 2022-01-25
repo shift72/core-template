@@ -34,3 +34,105 @@
 @import 'bootstrap/scss/tooltip';
 @import 'bootstrap/scss/popover';
 @import 'bootstrap/scss/utilities';
+
+// alert (primary, secondary)
+// badge (primary, secondary)
+// buttons (primary, secondary)
+// functions (primary, secondary)
+// list-group (primary, secondary)
+// root (primary, secondary)
+// tables (primary, secondary)
+// variables
+// background (primary, secondary)
+// borders (primary, secondary)
+// text (primary, secondary)
+
+// $link-color (primary, secondary)
+// $component-active-bg (primary, secondary)
+// $custom-control-indicator-checked-disabled-bg (primary, secondary)
+// $progress-bar-bg (primary, secondary)
+
+
+.btn-primary-override {
+  @extend .btn-primary;
+
+  color: $button-text-color;
+  border-color: $button-background;
+
+  @include hover() {
+    color: $button-text-color-hover;
+    border-color: $button-background-hover;
+  }
+
+  &:focus,
+  &.focus {
+    color: $button-text-color-hover;
+    border-color: $button-background-hover;
+    @if $enable-shadows {
+      @include box-shadow($btn-box-shadow, 0 0 0 $btn-focus-width rgba(var(--primary-rgb), .5));
+    } @else {
+      box-shadow: 0 0 0 $btn-focus-width rgba(var(--primary-rgb), .5);
+    }
+  }
+
+  &.disabled,
+  &:disabled {
+    color: $button-text-color;
+    background-color: $button-background;
+    border-color: $button-background;
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    color: $button-text-color-hover;
+    background-color: $button-background-hover;
+    border-color: $button-background-hover;
+
+    &:focus {
+      @if $enable-shadows and $btn-active-box-shadow != none {
+        @include box-shadow($btn-active-box-shadow, 0 0 0 $btn-focus-width rgba(var(--primary-rgb), .5));
+      } @else {
+        box-shadow: 0 0 0 $btn-focus-width rgba(var(--primary-rgb), .5);
+      }
+    }
+  }
+}
+
+.btn-link-override {
+  @extend .btn-link;
+
+  color: var(--link-color);
+
+  @include hover() {
+    color: var(--link-color-hover);
+  }
+}
+
+a {
+  @extend a;
+
+  color: var(--link-color);
+
+  @include hover() {
+    color: var(--link-color-hover);
+  }
+}
+
+.dropdown-item-override {
+  @extend .dropdown-item;
+
+  &.active,
+  &:active {
+    background-color: transparent;
+  }
+}
+
+.list-group-item-override {
+  @extend .list-group-item;
+
+  &.active {
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+}

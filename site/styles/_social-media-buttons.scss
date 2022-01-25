@@ -102,8 +102,8 @@
   &:active,
   &:focus {
     &.btn-social-facebook {
-      background-color: $primary;
-      border-color: $primary;
+      background-color: var(--primary);
+      border-color: var(--primary);
 
       .fa {
         color: $facebook-color;
@@ -111,8 +111,8 @@
     }
 
     &.btn-social-instagram {
-      background-color: $primary;
-      border-color: $primary;
+      background-color: var(--primary);
+      border-color: var(--primary);
 
       .fa {
         color: $instagram-color;
@@ -120,8 +120,8 @@
     }
 
     &.btn-social-twitter {
-      background-color: $primary;
-      border-color: $primary;
+      background-color: var(--primary);
+      border-color: var(--primary);
 
       .fa {
         color: $twitter-color;
@@ -129,8 +129,8 @@
     }
 
     &.btn-social-linkedin {
-      background-color: $primary;
-      border-color: $primary;
+      background-color: var(--primary);
+      border-color: var(--primary);
 
       .fa {
         color: $linkedin-color;
@@ -138,8 +138,8 @@
     }
 
     &.btn-social-youtube {
-      background-color: $primary;
-      border-color: $primary;
+      background-color: var(--primary);
+      border-color: var(--primary);
 
       .fa {
         color: $youtube-color;
@@ -147,8 +147,8 @@
     }
 
     &.btn-social-letterboxd {
-      background-color: $primary;
-      border-color: $primary;
+      background-color: var(--primary);
+      border-color: var(--primary);
 
       path {
         fill: $letterboxd-color;

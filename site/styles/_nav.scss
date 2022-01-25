@@ -357,7 +357,7 @@
 
         /* stylelint-disable-next-line */
         @include media-breakpoint-up(lg) {
-          color: $primary;
+          color: var(--primary);
         }
       }
     }
@@ -481,7 +481,7 @@ s72-dropdown,
   &:focus-within {
     .s72-dropdown-toggle,
     .dropdown-caret {
-      color: $primary;
+      color: var(--primary);
     }
   }
 
@@ -544,7 +544,7 @@ s72-dropdown,
 
       @include hover-focus {
         background-color: transparent;
-        color: $primary;
+        color: var(--primary);
       }
     }
   }
@@ -610,14 +610,14 @@ s72-dropdown,
     .btn-sign-out {
       @extend .animate-this;
       @include hover-focus {
-        color: $primary;
+        color: var(--primary);
         text-decoration: none;
       }
     }
 
     .btn-sign-out-desktop {
       @include hover-focus {
-        color: $primary;
+        color: var(--primary);
       }
 
       @include media-breakpoint-up(lg) {
@@ -729,7 +729,7 @@ s72-dropdown,
       path {
         @extend .animate-this;
 
-        fill: $primary;
+        fill: var(--primary);
       }
     }
   }
@@ -766,7 +766,7 @@ s72-dropdown,
     display: none;
 
     @include media-breakpoint-up(lg) {
-      color: $primary;
+      color: var(--primary);
       display: inline-block;
       font-weight: $font-weight-bold;
       padding: 8px 0 4px 15px;
@@ -887,7 +887,7 @@ s72-dropdown,
 
 .header-banner {
   align-items: center;
-  background-color: $primary;
+  background-color: var(--primary);
   display: flex;
   justify-content: center;
   min-height: 26px;

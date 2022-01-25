@@ -30,7 +30,7 @@ s72-language-selector {
     }
 
     &:focus {
-      color: $primary;
+      color: var(--primary);
     }
 
     &:focus-visible {

@@ -26,12 +26,12 @@
 
 @mixin a {
   background-color: transparent;
-  color: $link-color;
+  color: var(--link-color);
   text-decoration: underline;
 
   &:hover,
   &:focus {
-    color: $link-color;
+    color: var(--link-color);
     text-decoration: none;
   }
 }

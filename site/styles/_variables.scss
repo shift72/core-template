@@ -46,11 +46,36 @@ $spacers: (
   '5':   ($spacer * 5),    // 50px
 );
 
+:root {
+  --primary-rgb: 53, 160, 168;
+  --secondary-rgb: 76, 211, 221;
+  --body-color-rgb: 255, 255, 255;
+  --body-bg-rgb: 15, 15, 15;
+  --link-color-hover-rgb: 217, 217, 217; // darken(body-color, 15%)
+  --input-focus-border-color-rgb: 131, 210, 216; // lighten(primary, 25%)
+
+  --primary: rgb(var(--primary-rgb));
+  --secondary: rgb(var(--secondary-rgb));
+  --body-color: rgb(var(--body-color-rgb));
+  --body-bg: rgb(var(--body-bg-rgb));
+  --link-color: var(--body-color);
+  --link-color-hover: rgb(var(--link-color-hover-rgb));
+  --input-focus-border-color: rgb(var(--input-focus-border-color-rgb));
+
+
+}
+
+// Bootstrap 4 overrides
+$input-btn-focus-color: rgba(var(--primary-rgb), .25) !default;
+$input-focus-border-color: var(--input-focus-border-color) !default;
+$custom-control-indicator-checked-disabled-bg: rgba(var(--primary-rgb), .5) !default;
+$progress-bar-bg: var(--primary) !default;
+
 // Body / Core
 // ------------------------------------
 
-$primary: #35a0a8 !default;
-$secondary: #4cd3dd !default;
+// $primary: #35a0a8 !default;
+// $secondary: #4cd3dd !default;
 $body-color: #fff !default;
 $body-bg: #0f0f0f !default;
 $body-bg-accent: get-accent-color($body-bg) !default;
@@ -62,14 +87,14 @@ $list-group-border-color: rgba($body-color, 0.125) !default;
 
 // Cookie Consent
 $cookie-consent-color: #000;
-$cookie-consent-link-color: $primary;
-$cookie-consent-hover-link-color: $secondary;
+$cookie-consent-link-color: var(--primary);
+$cookie-consent-hover-link-color: var(--secondary);
 
 // Nav
 // ------------------------------------
 $navbar-background-color: transparent !default;
 $navbar-show-background-color: $body-bg-accent !default;
-$navbar-dark-active-color: $primary !default;
+$navbar-dark-active-color: var(--primary) !default;
 $navbar-nav-link-padding-x: 1em !default;
 $navbar-nav-link-padding-y: 1em !default;
 $navbar-search-background-color: $body-bg-accent !default;
@@ -88,20 +113,20 @@ $navbar-brand-min-width-xl: 126px !default;
 
 // Sub Navivgation
 $subnav-nav-item-color: $body-color !default;
-$subnav-nav-item-hover-background-color: $primary !default;
-$subnav-nav-item-active-background-color: $primary !default;
+$subnav-nav-item-hover-background-color: var(--primary) !default;
+$subnav-nav-item-active-background-color: var(--primary) !default;
 $subnav-dropdown-background: $body-bg-accent !default;
 
 // Buttons
 $button-text-color: $body-color !default;
 $button-text-color-hover: $body-color !default;
-$button-background: $primary !default;
-$button-background-hover: $secondary !default;
+$button-background: var(--primary) !default;
+$button-background-hover: var(--secondary) !default;
 $trailer-button-text-color: $body-color !default;
 $mobile-nav-link-color: $body-color !default;
 
 $signin-text-color: $body-color !default;
-$signin-text-color-hover: $primary !default;
+$signin-text-color-hover: var(--primary) !default;
 $signin-border-color: transparent !default;
 $signin-border-color-hover: transparent !default;
 $signin-background: rgba($body-color, 0.1) !default;
@@ -121,7 +146,7 @@ $signout-background-hover: rgba($body-color, 0.2) !default;
 $signout-text-color: $body-color !default;
 $signout-text-color-hover: $body-color !default;
 
-$link-color: $body-color !default;
+// $link-color: $body-color !default;
 
 // Image Gradient Overlays
 $top-gradient-color: $body-bg !default;

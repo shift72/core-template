@@ -44,7 +44,7 @@ footer {
     }
 
     &:hover {
-      color: $primary;
+      color: var(--primary);
     }
   }
 }

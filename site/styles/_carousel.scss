@@ -162,7 +162,7 @@ s72-carousel {
     }
 
     h4 {
-      background: $primary;
+      background: var(--primary);
       color: #000;
       display: inline-block;
       font-size: 6px;
@@ -257,7 +257,7 @@ s72-carousel {
     }
 
     &.current {
-      color: $primary;
+      color: var(--primary);
     }
 
     .fa {
@@ -285,7 +285,7 @@ s72-carousel {
   z-index: 6;
   @include media-breakpoint-down(sm) {
     :hover {
-      color: $primary;
+      color: var(--primary);
     }
 
     :active {

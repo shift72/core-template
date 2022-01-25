@@ -1,7 +1,7 @@
 s72-slider .s72-slider-control,
 s72-userwishlist .s72-slider-control {
-  background-color: $primary;
-  border: 1px solid $primary;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
   border-radius: 50%;
   font-family: $font-family-base;
   height: $slider-control-height;
@@ -35,7 +35,10 @@ s72-userwishlist .s72-slider-control {
   &:hover,
   &:active,
   &:focus {
-    background: darken($primary, 7.5%);
+    // NOTE(jackH):
+    // no nice solution for darkening colour while using css variables
+    // commenting this out though because it doesn't seem to be in use anywhere
+    // background: darken($primary, 7.5%);
   }
 }
 

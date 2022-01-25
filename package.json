@@ -34,7 +34,7 @@
   "dependencies": {
     "@rollup/plugin-buble": "^0.21.3",
     "autoprefixer": "^7.1.2",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.6.1",
     "concat": "^1.0.3",
     "cssnano": "^5.0.8",
     "del": "^6.0.0",
