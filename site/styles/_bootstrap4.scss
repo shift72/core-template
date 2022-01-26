@@ -35,65 +35,53 @@
 @import 'bootstrap/scss/popover';
 @import 'bootstrap/scss/utilities';
 
-// alert (primary, secondary)
-// badge (primary, secondary)
-// buttons (primary, secondary)
-// functions (primary, secondary)
-// list-group (primary, secondary)
-// root (primary, secondary)
-// tables (primary, secondary)
-// variables
-// background (primary, secondary)
-// borders (primary, secondary)
-// text (primary, secondary)
-
-// $link-color (primary, secondary)
-// $component-active-bg (primary, secondary)
-// $custom-control-indicator-checked-disabled-bg (primary, secondary)
-// $progress-bar-bg (primary, secondary)
-
+// The following override classes are to get around Bootstrap 4's use of Sass variables.
+// CSS themes will not work without these hacks.
 
 .btn-primary-override {
   @extend .btn-primary;
-
-  color: $button-text-color;
   border-color: $button-background;
 
+  color: $button-text-color;
+
   @include hover() {
-    color: $button-text-color-hover;
     border-color: $button-background-hover;
+    color: $button-text-color-hover;
   }
 
   &:focus,
   &.focus {
-    color: $button-text-color-hover;
     border-color: $button-background-hover;
+    color: $button-text-color-hover;
     @if $enable-shadows {
-      @include box-shadow($btn-box-shadow, 0 0 0 $btn-focus-width rgba(var(--primary-rgb), .5));
+      @include box-shadow($btn-box-shadow, 0 0 0 $btn-focus-width rgba(var(--primary-rgb), 0.5));
     } @else {
-      box-shadow: 0 0 0 $btn-focus-width rgba(var(--primary-rgb), .5);
+      box-shadow: 0 0 0 $btn-focus-width rgba(var(--primary-rgb), 0.5);
     }
   }
 
   &.disabled,
   &:disabled {
-    color: $button-text-color;
     background-color: $button-background;
     border-color: $button-background;
+    color: $button-text-color;
   }
 
   &:not(:disabled):not(.disabled):active,
   &:not(:disabled):not(.disabled).active,
   .show > &.dropdown-toggle {
-    color: $button-text-color-hover;
     background-color: $button-background-hover;
     border-color: $button-background-hover;
+    color: $button-text-color-hover;
 
     &:focus {
       @if $enable-shadows and $btn-active-box-shadow != none {
-        @include box-shadow($btn-active-box-shadow, 0 0 0 $btn-focus-width rgba(var(--primary-rgb), .5));
+        @include box-shadow(
+          $btn-active-box-shadow,
+          0 0 0 $btn-focus-width rgba(var(--primary-rgb), 0.5)
+        );
       } @else {
-        box-shadow: 0 0 0 $btn-focus-width rgba(var(--primary-rgb), .5);
+        box-shadow: 0 0 0 $btn-focus-width rgba(var(--primary-rgb), 0.5);
       }
     }
   }

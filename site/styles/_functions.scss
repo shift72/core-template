@@ -1,8 +1,0 @@
-@use "sass:color";
-@function get-accent-color($body-bg) {
-  @if lightness($body-bg) > 50% {
-    @return color.mix($body-bg, #000, 96%);
-  } @else {
-    @return color.mix($body-bg, #fff, 96%);
-  }
-}

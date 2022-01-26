@@ -73,7 +73,7 @@ footer {
 }
 
 .powered-by {
-  color: rgba($body-color, 0.8);
+  color: rgba(var(--body-color-rgb), 0.8);
   font-size: 12px;
   font-weight: $font-weight-normal;
   margin: 0;
