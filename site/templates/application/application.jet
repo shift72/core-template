@@ -21,6 +21,9 @@
 
     {{yield font()}}
     <link rel="stylesheet" href="/styles/main.css">
+    {{if isEnabled("self_service_css") && site.CSSFilename != "" }}
+      <link rel="stylesheet" href="/styles/{{site.CSSFilename}}">
+    {{end}}
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -33,7 +36,7 @@
     <script src="{{CDN}}/s72.core.js" defer></script>
     <script src="{{CDN}}/s72.ui.js" defer></script>
 
-    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/main.js" defer></script>    
 
     <script src="{{CDN}}/s72.transactional.js" defer></script>
     <script src="https://js.stripe.com/v3/" defer></script>
