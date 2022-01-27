@@ -47,12 +47,6 @@
             <s72-userwishlist-button data-slug="{{tvseason.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
             {{yield socialMediaButtons(path=currentUrlPath)}}
           </div>
-          </div>
-          <s72-availability-label data-slug="{{tvseason.Slug}}"></s72-availability-label>
-          <div class="meta-detail-synopsis">{{tvseason.Overview | raw}}</div>
-          </div>
-          <s72-availability-label data-slug="{{tvseason.Slug}}"></s72-availability-label>
-          <div class="meta-detail-synopsis">{{tvseason.Overview | raw}}</div>
           <div class="meta-detail-cast">
           {{if len(tvseason.Cast) > 0 }}
             <h2>{{i18n("meta_detail_cast_title")}}</h2>
