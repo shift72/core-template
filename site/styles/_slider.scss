@@ -31,15 +31,6 @@ s72-userwishlist .s72-slider-control {
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
-
-  &:hover,
-  &:active,
-  &:focus {
-    // NOTE(jackH):
-    // no nice solution for darkening colour while using css variables
-    // commenting this out though because it doesn't seem to be in use anywhere
-    // background: darken($primary, 7.5%);
-  }
 }
 
 // make .slider-control be in the middle of the poster, not the middle of the item (which includes captions).
