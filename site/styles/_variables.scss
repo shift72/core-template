@@ -89,41 +89,21 @@ $spacer: math.div(5, 8) * 1rem; // 10px
 
 $spacers: (
   '0': 0,
-  'p5': (
-    $spacer * 0.5,
-  ),
+  'p5': $spacer * 0.5,
   // 5px
-  'p75':
-    (
-      $spacer * 0.75,
-    ),
+  'p75': $spacer * 0.75,
   // 7.5px
   '1': $spacer,
   // 10px
-  '2':
-    (
-      $spacer * 2,
-    ),
+  '2': $spacer * 2,
   // 20px
-  '2p5':
-    (
-      $spacer * 2.5,
-    ),
+  '2p5': $spacer * 2.5,
   // 25px
-  '3':
-    (
-      $spacer * 3,
-    ),
+  '3': $spacer * 3,
   // 30px
-  '4':
-    (
-      $spacer * 4,
-    ),
+  '4': $spacer * 4,
   // 40px
-  '5':
-    (
-      $spacer * 5,
-    ),
+  '5': $spacer * 5,
   // 50px
 );
 
