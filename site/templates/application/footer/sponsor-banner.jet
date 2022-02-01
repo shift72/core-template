@@ -1,9 +1,9 @@
 {{ block sponsorBanner() }}
   {{ if config("show_sponsor_banner") == "true" }}
     <div class="sponsor-banner">
-      <img class="sponsors-xxxs" src="/images/common/sponsors-xxxs.png"/>
-      <img class="sponsors-xs" src="/images/common/sponsors-xs.png"/>
-      <img class="sponsors-md" src="/images/common/sponsors-md.png"/>
+      <s72-image class="sponsors-xxxs" src="/images/common/sponsors-xxxs.png"></s72-image>
+      <s72-image class="sponsors-xs" src="/images/common/sponsors-xs.png"></s72-image>
+      <s72-image class="sponsors-md" src="/images/common/sponsors-md.png"></s72-image>
     </div>
   {{ end }}
 {{ end }}
