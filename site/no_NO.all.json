@@ -294,7 +294,9 @@
     "shopping_complete_purchase_coming_soon": { "other": "Du kan se filmen fra {{.Date}}." },
     "shopping_complete_receipt": { "other": "En kvittering har blitt sendt til deg per e-post." },
     "shopping_complete_library_link": { "other": "Start med å se noe fra {{.BundleItems}} i biblioteket ditt nå." },
-  
+    "shopping_complete_plan": {
+      "other": "Kjøpet av {{ .Title }} var vellykket."
+    },
     "shopping_complete_rental_watch_window_start": {
       "one": "Du kan nå se den om {{.Count}} dager.",
       "other": "You are now able to start watching it within the next {{.Count}} days."

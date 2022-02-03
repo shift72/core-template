@@ -301,7 +301,9 @@
   "shopping_complete_purchase_coming_soon": { "other": "Vous pourrez commencer le visionnage à partir du {{.Date}}." },
   "shopping_complete_receipt": { "other": "Un reçu vous a été envoyé par email." },
   "shopping_complete_library_link": { "other": "Voir votre bibliothèque" },
-
+  "shopping_complete_plan": {
+    "other": "Votre achat de {{ .Title }} a réussi."
+  },
   "shopping_complete_rental_watch_window_start": {
     "one": "Vous pouvez maintenant commencer la lecture jusqu'à demain",
     "other": "Vous pouvez maintenant commencer la lecture dans les {{.Count}} prochains jours."
