@@ -436,5 +436,8 @@
   },
   "awards_in_competition": {
     "other": "競争中"
+  },
+  "awards_winner_of": {
+    "other": "の勝者"
   }
 }

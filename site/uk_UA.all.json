@@ -1185,5 +1185,8 @@
   },
   "awards_in_competition": {
     "other": "У конкурсі"
+  },
+  "awards_winner_of": {
+    "other": "Переможець"
   }
 }

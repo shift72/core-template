@@ -559,10 +559,13 @@
     "plan_free_link_text": {
       "other": "Бесплатно се пријави"
     },
-  "awards_nominated_for": {
-    "other": "Номинован за"
-  },
-  "awards_in_competition": {
-    "other": "Ин Цомпетитион"
-  }
+    "awards_nominated_for": {
+      "other": "Номинован за"
+    },
+    "awards_in_competition": {
+      "other": "Ин Цомпетитион"
+    },
+    "awards_winner_of": {
+      "other": "Победник од"
+    }
   }

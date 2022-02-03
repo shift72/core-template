@@ -472,5 +472,8 @@
   },
   "awards_in_competition": {
     "other": "In Concorso"
+  },
+  "awards_winner_of": {
+    "other": "Vincitore di"
   }
 }

@@ -478,5 +478,8 @@
   },
   "awards_in_competition": {
     "other": "U natjecanju"
+  },
+  "awards_winner_of": {
+    "other": "Pobjednik od"
   }
 }

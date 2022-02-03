@@ -435,5 +435,8 @@
   },
   "awards_in_competition": {
     "other": "Kilpailussa"
+  },
+  "awards_winner_of": {
+    "other": "Voittaja"
   }
 }
