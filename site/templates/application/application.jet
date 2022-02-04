@@ -3,8 +3,16 @@
 {{import "./nav/nav.jet"}}
 {{import "./google.jet" }}
 {{import "./footer/footer.jet" }}
+
 {{CDN := "//cdn.shift72.com/1.3"}}
 {*{CDN := "//localhost:3000"}*}
+
+{{CSSFilename := ""}}
+{{if isEnabled("self_service_css") && site.CSSFilename != "" }}
+  {{CSSFilename = site.CSSFilename}}
+{{end}}
+{*{CSSFilename = "local.css"}*}
+
 <!DOCTYPE html>
 <html lang="{{lang.Code}}">
   <head>
@@ -21,8 +29,8 @@
 
     {{yield font()}}
     <link rel="stylesheet" href="/styles/main.css">
-    {{if isEnabled("self_service_css") && site.CSSFilename != "" }}
-      <link rel="stylesheet" href="/styles/{{site.CSSFilename}}">
+    {{if CSSFilename != "" }}
+      <link rel="stylesheet" href="/styles/{{CSSFilename}}">
     {{end}}
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">

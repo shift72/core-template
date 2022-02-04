@@ -5,11 +5,12 @@
   "license": "MIT",
   "scripts": {
     "start": "npm run init && npm-run-all --parallel css:watch js:watch kibble:watch",
-    "init": "npm-run-all css js",
+    "init": "npm-run-all css css:local:get js",
     "css": "sass ./site/styles/main.scss ./site/static/styles/main.css --load-path=node_modules",
     "css:lint": "prettier 'site/styles/*.scss' --write && stylelint ./site/styles/*.scss --fix",
     "css:watch": "npm run css -- --watch",
     "css:build": "postcss ./site/static/styles/main.css --use autoprefixer --use cssnano -r",
+    "css:local:get": "node scripts/css-local-get.js",
     "js": "rollup -c",
     "js:lint": "prettier '{scripts,site/static/js}/**/!(modernizr-custom).js' --write && eslint ./site/static/js/*.js ./scripts --fix",
     "js:watch": "rollup -c -w",
