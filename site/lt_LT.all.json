@@ -307,7 +307,9 @@
   "shopping_complete_purchase_coming_soon": { "other": "Filmą galėsite žiūrėti nuo {{.Date}}." },
   "shopping_complete_receipt": { "other": "Kvitą jums išsiuntėme el. paštu." },
   "shopping_complete_library_link": { "other": "Pradėkite žiūrėti bet kurį iš savo įsigytų filmų." },
-
+  "shopping_complete_plan": {
+    "other": "{{ .Title }} buvo sėkmingas."
+  },
   "shopping_complete_rental_watch_window_start": {
     "one": "Per ateinančią dieną galėsite pradėti žiūrėti filmą.",
     "other": "Pradėkite žiūrėti filmą per {{.Count}} dienas."

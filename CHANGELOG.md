@@ -3,7 +3,11 @@
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.4.1...HEAD)
 
 ### Added
+- Lang files updated with entries for purchasing one-off passes
 - Sponsor banner that can be enabled/disabled in Uber Admin
+
+### Changed
+- Typo in English lang file
 
 ## [0.4.1](https://github.com/shift72/core-template/compare/0.4.0...0.4.1)
 

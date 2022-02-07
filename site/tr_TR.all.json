@@ -295,7 +295,9 @@
     "shopping_complete_purchase_coming_soon": { "other": "tarihinden itibaren filmi izleyebileceksiniz {{.Date}}." },
     "shopping_complete_receipt": { "other": "Faturanız adresinize e-posta ile gönderilmiştir." },
     "shopping_complete_library_link": { "other": "Kütüphanenizi görüntüle" },
-  
+    "shopping_complete_plan": {
+      "other": "{{ .Title }} satın alma işleminiz başarılı oldu."
+    },
     "shopping_complete_rental_watch_window_start": {
       "one": "Artık önümüzdeki günde filmi izlemeye başlayabilirsiniz.",
       "other": "Artık önümüzdeki {{.Count}} günde filmi izlemeye başlayabilirsiniz."
