@@ -46,6 +46,11 @@ $spacers: (
   '5':   ($spacer * 5),    // 50px
 );
 
+// Neutral Colors
+$grey: #999999;
+$grey-000: rgba($grey, 0.24); // Input fields bg
+$grey-100: rgba($grey, 0.34); // Input fields border & error message bg
+
 // Body / Core
 // ------------------------------------
 
@@ -55,10 +60,17 @@ $body-color: #fff !default;
 $body-bg: #0f0f0f !default;
 $body-bg-accent: get-accent-color($body-bg) !default;
 $error-color: $body-color !default;
-$error-background: rgba($body-color, 0.1) !default;
+$error-background: $grey-100 !default;
 $hr-border-color: rgba($body-color, 0.5) !default;
 $list-group-bg: $body-bg !default;
 $list-group-border-color: rgba($body-color, 0.125) !default;
+
+// Text Colors
+$txt-high-emphasis: $body-color;
+$txt-low-emphasis: rgba($body-color, .8);
+$txt-disabled: rgba($body-color, .6);
+
+$border-radius: 4px !default;
 
 // Cookie Consent
 $cookie-consent-color: #000;
