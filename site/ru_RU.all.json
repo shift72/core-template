@@ -315,7 +315,9 @@
   "shopping_complete_purchase_coming_soon": { "other": "Вы сможете посмотреть его, начиная с {{.Date}}." },
   "shopping_complete_receipt": { "other": "Квитанция по электронной почте." },
   "shopping_complete_library_link": { "other": "Просмотр библиотеки" },
-
+  "shopping_complete_plan": {
+    "other": "Ваша покупка {{ .Title }} прошла успешно."
+  },
   "shopping_complete_rental_watch_window_start": {
     "one": "Теперь вы можете начать смотреть его в течение следующего дня.",
     "few": "Теперь вы можете начать смотреть его в течение следующих {{.Count}} дней.",

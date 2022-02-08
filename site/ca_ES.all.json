@@ -693,6 +693,9 @@
   "shopping_complete_purchase_coming_soon": {
    "other": "Podreu veure-ho des de {{.Date}}."
   },
+  "shopping_complete_plan": {
+    "other": "La teva compra de {{ .Title }} estat correcta."
+  },  
   "shopping_complete_receipt": {
    "other": "S'ha enviat un rebut per correu electrònic."
   },

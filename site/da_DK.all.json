@@ -676,6 +676,9 @@
   "shopping_complete_receipt": {
     "other": "En kvittering er blevet mailet til dig."
   },
+  "shopping_complete_plan": {
+    "other": "Dit køb af {{ .Title }} blev gennemført."
+  },  
   "shopping_complete_library_link": {
     "other": "Se dit bibliotek"
   },

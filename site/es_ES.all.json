@@ -291,7 +291,10 @@
   "shopping_complete_purchase_coming_soon": { "other": "Estará disponible para verse en {{.Date}}." },
   "shopping_complete_receipt": { "other": "Un recibo se ha enviado por correo electrónico." },
   "shopping_complete_library_link": { "other": "Ir a vuestra biblioteca." },
-
+  "shopping_complete_plan": {
+    "other": "Su compra de {{ .Title }} fue exitosa."
+  },
+  
   "shopping_complete_rental_watch_window_start": {
     "one": "Ahora puede ver dentro del próximo día.",
     "other": "Ahora puede ver dentro de los próximos {{.Count}} días."

@@ -294,7 +294,9 @@
     "shopping_complete_purchase_coming_soon": { "other": "Saad hakata filmi vaatama alates {{.Date}}." },
     "shopping_complete_receipt": { "other": "Makse kinnitus saadeti sinu e-posti aadressile." },
     "shopping_complete_library_link": { "other": "Saad nüüd kogumikus olevaid filme vaatama hakata." },
-  
+    "shopping_complete_plan": {
+      "other": "Teie ost {{ .Title }} oli edukas."
+    },  
     "shopping_complete_rental_watch_window_start": {
       "one": "Saad filmi vaatamist alustada {{.Count}} päeva jooksul.",
       "other": "Alusta filmi vaatamisega {{.Count}} päeva jooksul."
