@@ -4,6 +4,7 @@
 
 ### Added
 - Lang files updated with entries for purchasing one-off passes
+- Sponsor banner that can be enabled/disabled in Uber Admin
 
 ### Changed
 - Typo in English lang file
