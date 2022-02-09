@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.4.1...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.4.2...HEAD)
+
+## [0.4.2](https://github.com/shift72/core-template/compare/0.4.1...0.4.2)
 
 ### Added
 - Lang files updated with entries for purchasing one-off passes
