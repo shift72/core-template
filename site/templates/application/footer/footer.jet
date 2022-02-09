@@ -2,10 +2,13 @@
 {{import "./info.jet"}}
 {{import "./nav.jet"}}
 {{import "./app-badges.jet"}}
+{{import "./sponsor-banner.jet"}}
 
 {{block footer()}}
 
   {{yield appBadges()}}
+
+  {{yield sponsorBanner()}}
 
   {*{ID is used for skip links.}*}
   <footer id="footer">

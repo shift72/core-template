@@ -291,7 +291,9 @@
   "shopping_complete_purchase_coming_soon": { "other": "Μπορείτε να το παρακολουθήσετε από {{.Date}}." },
   "shopping_complete_receipt": { "other": "Η απόδειξή σας έχει σταλεί με e-mail." },
   "shopping_complete_library_link": { "other": "Δείτε την ταινιοθήκη σας" },
-
+  "shopping_complete_plan": {
+    "other": "Η αγορά του {{ .Title }} ήταν επιτυχής."
+  },
   "shopping_complete_rental_watch_window_start": {
     "one": "Μπορείτε τώρα να ξεκινήσετε τη θέαση μέσα στις επόμενες {{.Count}} μέρες.",
     "other": "Μπορείτε τώρα να ξεκινήσετε τη θέαση μέσα στις επόμενες {{.Count}} μέρες."
