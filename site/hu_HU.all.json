@@ -294,7 +294,9 @@
     "shopping_complete_purchase_coming_soon": { "other": "{{.Date}}-tól megtekinthető." },
     "shopping_complete_receipt": { "other": "A bizonylatot e-mailben elküldtük számodra." },
     "shopping_complete_library_link": { "other": "Kezd el nézni bármelyiket a {{.BundleItems}} filmjei közül, melyeket mostantól megtalálsz a könyvtáradban." },
-  
+    "shopping_complete_plan": {
+      "other": "A {{ .Title }} vásárlása sikeres volt."
+    },  
     "shopping_complete_rental_watch_window_start": {
       "one": "Mostantól bármikor elkezdheted megnézni a következő {{.Count}} napban.",
       "other": "Mostantól bármikor elkezdheted megnézni a következő {{.Count}} napban."
