@@ -22,7 +22,7 @@ s72-useraccount-form {
     @extend .justify-content-between;
 
     .s72-btn-reset-pin {
-      @extend .btn-link;
+      @extend .btn-link-override;
       @extend .order-1;
     }
 
@@ -34,7 +34,7 @@ s72-useraccount-form {
 
 .s72-user-pin-error-limit {
   .s72-btn-reset-pin {
-    @extend .btn-primary;
+    @extend .btn-primary-override;
     margin-right: $modal-footer-button-margin;
   }
 

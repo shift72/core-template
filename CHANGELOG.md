@@ -2,6 +2,15 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.4.2...HEAD)
 
+### Added
+- External custom CSS link in head.
+- Scripts for downloading/uploading custom CSS files for use with local development.
+
+### Changed
+- Replaced various SASS variables with CSS variables.
+- Added workarounds for SASS and Bootstrap functions that don't understand CSS variables.
+- Kibble 0.16.4
+
 ## [0.4.2](https://github.com/shift72/core-template/compare/0.4.1...0.4.2)
 
 ### Added

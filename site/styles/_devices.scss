@@ -7,7 +7,7 @@
 }
 
 .s72-userdevices-device {
-  @extend .list-group-item;
+  @extend .list-group-item-override;
 }
 
 .s72-userdevices-device-type {
@@ -42,7 +42,7 @@
 
 .s72-btn-userdevices-confirm,
 .s72-btn-userdevices-delete {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
   @extend .btn-sm;
 }
 
@@ -56,6 +56,6 @@
 }
 
 .s72-btn-userdevices-cancel {
-  @extend .btn-link;
+  @extend .btn-link-override;
   @extend .btn-sm;
 }
