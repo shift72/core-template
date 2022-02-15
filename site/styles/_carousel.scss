@@ -7,29 +7,29 @@ s72-carousel {
 
 .s72-carousel-slides {
   background: $carousel-bg-color;
-  height: $carousel-height !important;
+  height: var(--carousel-height) !important;
   overflow: hidden;
   position: relative;
   width: 100%;
   @include media-breakpoint-up(sm) {
-    height: $carousel-height-sm !important;
+    height: var(--carousel-height-sm) !important;
   }
   @include media-breakpoint-up(md) {
-    height: $carousel-height-md !important;
+    height: var(--carousel-height-md) !important;
   }
 
   s72-image {
     float: right;
-    height: $carousel-height;
+    height: var(--carousel-height);
     max-width: 1600px;
     overflow: hidden;
     position: relative;
     width: 100%;
     @include media-breakpoint-up(sm) {
-      height: $carousel-height-sm;
+      height: var(--carousel-height-sm);
     }
     @include media-breakpoint-up(md) {
-      height: $carousel-height-md;
+      height: var(--carousel-height-md);
     }
 
     &::before {
@@ -51,15 +51,15 @@ s72-carousel {
     }
 
     img {
-      height: $carousel-height;
+      height: var(--carousel-height);
       margin-left: 50%;
       transform: translateX(-50%);
 
       @include media-breakpoint-up(sm) {
-        height: $carousel-height-sm;
+        height: var(--carousel-height-sm);
       }
       @include media-breakpoint-up(md) {
-        height: $carousel-height-md;
+        height: var(--carousel-height-md);
         width: auto;
       }
     }
@@ -102,25 +102,25 @@ s72-carousel {
   left: 0;
   padding: 0 20px;
   position: absolute;
-  top: $carousel-caption-top;
+  top: var(--carousel-caption-top);
   z-index: 999;
   @include media-breakpoint-up(md) {
     left: 60px;
-    top: $carousel-caption-top-md;
+    top: var(--carousel-caption-top-md);
     width: 70%;
   }
   @include media-breakpoint-up(lg) {
     left: 70px;
-    top: $carousel-caption-top-md;
+    top: var(--carousel-caption-top-md);
     width: 70%;
   }
   @include media-breakpoint-up(xl) {
     left: 120px;
-    top: $carousel-caption-top-md;
+    top: var(--carousel-caption-top-md);
     width: 50%;
   }
   @include media-breakpoint-up(xxxl) {
-    top: $carousel-caption-top-md;
+    top: var(--carousel-caption-top-md);
     width: 50%;
   }
 
@@ -135,7 +135,7 @@ s72-carousel {
     }
 
     .availability-state {
-      color: $body-color;
+      color: var(--body-color);
       font-size: 12px;
       text-transform: none;
     }
@@ -145,7 +145,7 @@ s72-carousel {
     color: #fff;
 
     h3 {
-      color: $body-color;
+      color: var(--body-color);
       font-size: 28px;
       font-weight: $font-weight-bold;
       margin-bottom: 0;
@@ -162,7 +162,7 @@ s72-carousel {
     }
 
     h4 {
-      background: $primary;
+      background: var(--primary);
       color: #000;
       display: inline-block;
       font-size: 6px;
@@ -186,7 +186,7 @@ s72-carousel {
     }
 
     .meta-item-tagline {
-      color: rgba($body-color, 0.8);
+      color: rgba(var(--body-color-rgb), 0.8);
       font-size: 14px;
       font-weight: $font-weight-normal;
       @include media-breakpoint-up(xxxl) {
@@ -251,13 +251,13 @@ s72-carousel {
   transform: translateX(-50%);
 
   .s72-carousel-page {
-    color: rgba($body-color, 0.2);
+    color: rgba(var(--body-color-rgb), 0.2);
     @include media-breakpoint-up(md) {
       margin: 0 5px;
     }
 
     &.current {
-      color: $primary;
+      color: var(--primary);
     }
 
     .fa {
@@ -285,7 +285,7 @@ s72-carousel {
   z-index: 6;
   @include media-breakpoint-down(sm) {
     :hover {
-      color: $primary;
+      color: var(--primary);
     }
 
     :active {

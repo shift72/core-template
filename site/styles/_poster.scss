@@ -23,14 +23,15 @@
 
     @extend .p-p5;
     @extend .mw-100;
-
-    z-index: 99;
     width: 100%;
 
+    z-index: 99;
+
     s72-availability-status {
-      position: unset; z-index: unset;
-      min-width: 0px;
       @extend .pr-p5;
+      min-width: 0;
+      position: unset;
+      z-index: unset;
 
       /* stylelint-disable selector-max-compound-selectors */
       .availability-bg {
