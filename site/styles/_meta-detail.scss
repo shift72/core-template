@@ -197,6 +197,7 @@
     margin-right: -0.5rem;
     margin-left: -0.5rem;
 
+    /* stylelint-disable selector-max-compound-selectors */
     s72-pricing-buttons .s72-btn, .meta-detail-extras, s72-play-button, can-be-watched-button {
       margin-right: 0.5rem;
       margin-left: 0.5rem;
@@ -208,7 +209,6 @@
       margin-bottom: 10px;
     }
 
-    /* stylelint-disable selector-max-compound-selectors */
     // Handles spacing when there is only rent, only buy, or only play button
     s72-pricing-buttons .s72-btn, s72-play-button {
       &:nth-child(1) {
