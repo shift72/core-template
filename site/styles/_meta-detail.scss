@@ -198,14 +198,14 @@
     margin-left: -0.5rem;
 
     /* stylelint-disable selector-max-compound-selectors */
-    s72-pricing-buttons .s72-btn, .meta-detail-extras, s72-play-button, can-be-watched-button {
+    s72-pricing-buttons .s72-btn, .meta-detail-extras, s72-play-button, can-be-watched-button:not(:empty) {
       margin-right: 0.5rem;
       margin-left: 0.5rem;
 
       animation: fadein 2s;
     }
 
-    s72-modal-player, s72-userwishlist-button, s72-pricing-buttons .s72-btn, s72-play-button, .social-media-buttons, can-be-watched-button {
+    s72-modal-player, s72-userwishlist-button, s72-pricing-buttons .s72-btn, s72-play-button, .social-media-buttons, can-be-watched-button:not(:empty) {
       margin-bottom: 10px;
     }
 

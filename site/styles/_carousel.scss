@@ -226,7 +226,7 @@ s72-carousel {
     margin-left: -0.5rem;
 
     /* stylelint-disable selector-max-compound-selectors */
-    s72-pricing-buttons .s72-btn, .meta-detail-extras, .meta-item-extras, s72-play-button, can-be-watched-button {
+    s72-pricing-buttons .s72-btn, .meta-detail-extras, .meta-item-extras, s72-play-button, can-be-watched-button:not(:empty) {
       margin-right: 0.5rem;
       margin-left: 0.5rem;
       margin-bottom: 10px;
