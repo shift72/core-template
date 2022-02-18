@@ -212,7 +212,6 @@ s72-carousel {
 
     .meta-item-extras {
       @extend .d-flex;
-      padding: 0 0 20px;
     }
 
     .btn-wishlist {
@@ -220,18 +219,29 @@ s72-carousel {
     }
   }
 
-  .s72-pricing-button-container {
-    .s72-btn {
-      margin-bottom: 10px;
+  // Purchase, play, trailer, wishlist and share are all in one group now
+  // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
+  .meta-item-buttons {
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
 
+    /* stylelint-disable selector-max-compound-selectors */
+    s72-pricing-buttons .s72-btn, .meta-detail-extras, .meta-item-extras, s72-play-button, can-be-watched-button:not(:empty) {
+      margin-right: 0.5rem;
+      margin-left: 0.5rem;
+      margin-bottom: 10px;
+    }
+
+    // Handles spacing when there is only rent, only buy, or only play button
+    s72-pricing-buttons .s72-btn, s72-play-button {
       &:nth-child(1) {
+        margin-right: 0rem;
+      }
+      &:only-child {
         margin-right: 0.5rem;
       }
-
-      &:nth-child(2) {
-        margin-left: 0;
-      }
     }
+    /* stylelint-enable selector-max-compound-selectors */
   }
 
   .s72-btn-play {

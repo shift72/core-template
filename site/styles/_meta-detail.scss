@@ -191,19 +191,34 @@
   .meta-detail-buttons {
     min-height: 45px;
 
-    .s72-btn {
+
+  // Purchase, play, trailer, wishlist are all in one group now
+  // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+
+    /* stylelint-disable selector-max-compound-selectors */
+    s72-pricing-buttons .s72-btn, .meta-detail-extras, s72-play-button, can-be-watched-button:not(:empty) {
+      margin-right: 0.5rem;
+      margin-left: 0.5rem;
+
       animation: fadein 2s;
+    }
 
+    s72-modal-player, s72-userwishlist-button, s72-pricing-buttons .s72-btn, s72-play-button, .social-media-buttons, can-be-watched-button:not(:empty) {
       margin-bottom: 10px;
+    }
 
+    // Handles spacing when there is only rent, only buy, or only play button
+    s72-pricing-buttons .s72-btn, s72-play-button {
       &:nth-child(1) {
+        margin-right: 0;
+      }
+      &:only-child {
         margin-right: 0.5rem;
       }
-
-      &:nth-child(2) {
-        margin-left: 0;
-      }
     }
+    /* stylelint-enable selector-max-compound-selectors */
   }
 
   s72-availability-label {
@@ -246,8 +261,6 @@
     @extend .d-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    min-height: 48px;
-    padding-bottom: 15px;
     @include media-breakpoint-up(md) {
       flex-direction: row;
     }
@@ -540,7 +553,6 @@
   .meta-detail-extras {
     @extend .d-flex;
 
-    margin-bottom: 64px;
     min-height: min-content;
     padding: 0;
   }

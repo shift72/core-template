@@ -26,6 +26,8 @@
 .meta-item-buttons {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 
   .owned-custom-container {
     display: none;
