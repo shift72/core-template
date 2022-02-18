@@ -417,6 +417,27 @@
 
   "plan_label_owned": { "other": "" },
 
+  "usersubscriptions_page_header": { "other": "Subscriptions and Billing" },
+  "usersubscriptions_page_content": { "other": " " },
+  "usersubscriptions_payment_section_title": { "other": "Payment Method" },
+  "usersubscriptions_payment_section_content": { "other": "Changes to your credit card payment method will take effect on your next billing cycle." },
+  "usersubscriptions_change_payment_method_change": { "other": "Change Credit Card" },
+
+  "usersubscriptions_subscriptions_section_title": { "other": "Subscription Details" },
+  "usersubscriptions_subscriptions_section_content": { "other": " " },
+  "usersubscriptions_subscription_status_active": { "other": "Active" },
+  "usersubscriptions_subscription_status_trialing": { "other": "Trial Period" },
+  "usersubscriptions_subscription_expiry": { "other": "Expires {{.Expiry}}" },
+
+  "usersubscriptions_subscription_unsubscribe": { "other": "Cancel my subscription" },
+  "usersubscriptions_unsubscribe_modal_cancel": { "other": "Cancel" },
+  "usersubscriptions_unsubscribe_modal_confirm": { "other": "Yes, cancel my subscription" },
+  "usersubscriptions_unsubscribe_modal_title": { "other": "Cancel subscription?" },
+  "usersubscriptions_unsubscribe_modal_body": { "other": "This will cancel the subscription to the {{.Name}} plan. You will still be able to watch the content in the plan until it expires {{.Expiry}}." },
+
+  "usersubscriptions_change_payment_method_modal_title": { "other": "Update credit card details" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "Update" },
+
   "pricing_quality_hd": { "other": "pricing_quality_hd" },
   "pricing_quality_sd": { "other": "pricing_quality_sd" },
   "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
@@ -465,22 +486,6 @@
     "one": "Try your free 24hr trial now!",
     "other": "Try your free {{.Count}} day trial!"
   },
-
-  "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
-  "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
-  "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
-
-  "usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
-  "usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
-  "usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
-  "usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
-  "usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
-  "usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
-  "usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
-  "usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
-  "usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
-  "usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
-
 
   "availability_coming_soon": { "other": "Coming soon" },
   "availability_renting": { "other": "Renting" },
