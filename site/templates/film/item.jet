@@ -69,7 +69,7 @@
                 <p>{{film.Tagline}}</p>
               </div>
             {{end}}
-            <div class="{{ isEnabled("element_switcher_enabled") ? "s72-hide" : "" }}">
+            <div class="{{ isEnabled("element_switcher_enabled") ? "s72-hide" : "" }}"> {* hide class prevents FOUC *}
               <div class="meta-detail-synopsis">{{film.Overview | raw}}</div>
               <div class="meta-detail-cast">
               {{if len(film.Cast) > 0 }}
