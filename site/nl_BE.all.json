@@ -560,5 +560,8 @@
   },
   "awards_in_competition": {
     "other": "in competitie"
+  },
+  "awards_winner_of": {
+    "other": "Winnaar van"
   }
 }

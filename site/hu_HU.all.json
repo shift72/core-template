@@ -526,11 +526,14 @@
     "plan_free_link_text": {
       "other": "Regisztrálj ingyen"
     },
-  "awards_nominated_for": {
-    "other": "Erre jelölték"
-  },
-  "awards_in_competition": {
-    "other": "Versenyben"
-  }
+    "awards_nominated_for": {
+      "other": "Erre jelölték"
+    },
+    "awards_in_competition": {
+      "other": "Versenyben"
+    },
+    "awards_winner_of": {
+      "other": "nyertese"
+    }
   }
   

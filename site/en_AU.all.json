@@ -557,5 +557,6 @@
   "plan_free_link_text": { "other": "Sign up for free" },
 
   "awards_nominated_for": { "other": "Nominated for" },
-  "awards_in_competition": { "other": "In Competition" }
+  "awards_in_competition": { "other": "In Competition" },
+  "awards_winner_of": { "other": "الفائز ب" }
 }

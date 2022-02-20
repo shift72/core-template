@@ -526,11 +526,14 @@
     "plan_free_link_text": {
       "other": "Registrer deg gratis"
     },
-  "awards_nominated_for": {
-    "other": "Nominert til"
-  },
-  "awards_in_competition": {
-    "other": "I konkurranse"
-  }
+    "awards_nominated_for": {
+      "other": "Nominert til"
+    },
+    "awards_in_competition": {
+      "other": "I konkurranse"
+    },
+    "awards_winner_of": {
+      "other": "Vinner av"
+    }
   }
   

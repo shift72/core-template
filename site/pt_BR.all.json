@@ -1258,5 +1258,8 @@
   },
   "awards_in_competition": {
     "other": "Em competição"
+  },
+  "awards_winner_of": {
+    "other": "Vencedor de"
   }
  }

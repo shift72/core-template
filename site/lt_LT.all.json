@@ -559,5 +559,8 @@
   },
   "awards_in_competition": {
     "other": "Varžybose"
+  },
+  "awards_winner_of": {
+    "other": "Nugalėtojas iš"
   }
 }

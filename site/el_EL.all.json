@@ -528,5 +528,8 @@
   },
   "awards_in_competition": {
     "other": "Σε Διαγωνισμό"
+  },
+  "awards_winner_of": {
+    "other": "Νικητής του"
   }
 }
