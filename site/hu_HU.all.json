@@ -534,6 +534,12 @@
     },
     "awards_winner_of": {
       "other": "nyertese"
+    },
+    "meta_description_expand": {
+      "other": "Mutass többet"
+    },
+    "meta_description_collapse": {
+      "other": "Mutass kevesebbet"
     }
   }
   

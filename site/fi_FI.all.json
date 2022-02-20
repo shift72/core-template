@@ -441,5 +441,11 @@
   },
   "awards_winner_of": {
     "other": "Voittaja"
+  },
+  "meta_description_expand": {
+    "other": "Näytä lisää"
+  },
+  "meta_description_collapse": {
+    "other": "Näytä vähemmän"
   }
 }

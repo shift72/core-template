@@ -563,5 +563,11 @@
   },
   "awards_winner_of": {
     "other": "Winnaar van"
+  },
+  "meta_description_expand": {
+    "other": "Laat meer zien"
+  },
+  "meta_description_collapse": {
+    "other": "Laat minder zien"
   }
 }

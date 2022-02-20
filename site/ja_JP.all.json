@@ -441,5 +441,11 @@
   },
   "awards_winner_of": {
     "other": "の勝者"
+  },
+  "meta_description_expand": {
+    "other": "もっと見せる"
+  },
+  "meta_description_collapse": {
+    "other": "表示を減らす"
   }
 }

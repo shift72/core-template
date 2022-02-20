@@ -569,5 +569,11 @@
     },
     "awards_winner_of": {
       "other": "Победник од"
+    },
+    "meta_description_expand": {
+      "other": "Прикажи више"
+    },
+    "meta_description_collapse": {
+      "other": "Прикажи мање"
     }
   }

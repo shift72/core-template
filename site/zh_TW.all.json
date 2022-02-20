@@ -1254,5 +1254,11 @@
   },
   "awards_winner_of": {
     "other": "获奖者"
+  },
+  "meta_description_expand": {
+    "other": "展示更多"
+  },
+  "meta_description_collapse": {
+    "other": "显示较少"
   }
 }

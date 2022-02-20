@@ -558,5 +558,8 @@
 
   "awards_nominated_for": { "other": "Nominated for" },
   "awards_in_competition": { "other": "In Competition" },
-  "awards_winner_of": { "other": "الفائز ب" }
+  "awards_winner_of": { "other": "Winner of" },
+
+  "meta_description_expand": { "other": "Show more" },
+  "meta_description_collapse": { "other": "Show less" }
 }

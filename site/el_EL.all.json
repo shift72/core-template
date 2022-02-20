@@ -531,5 +531,11 @@
   },
   "awards_winner_of": {
     "other": "Νικητής του"
+  },
+  "meta_description_expand": {
+    "other": "Δείτε περισσότερα"
+  },
+  "meta_description_collapse": {
+    "other": "Δείξε λιγότερο"
   }
 }

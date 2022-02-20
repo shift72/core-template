@@ -1164,5 +1164,11 @@
     },
     "awards_winner_of": {
       "other": "Vinder af"
+    },
+    "meta_description_expand": {
+      "other": "Vis mere"
+    },
+    "meta_description_collapse": {
+      "other": "Vis mindre"
     }
 }

@@ -562,5 +562,11 @@
   },
   "awards_winner_of": {
     "other": "Nugalėtojas iš"
+  },
+  "meta_description_expand": {
+    "other": "Rodyti daugiau"
+  },
+  "meta_description_collapse": {
+    "other": "Rodyti mažiau"
   }
 }

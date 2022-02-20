@@ -1191,5 +1191,11 @@
   },
   "awards_winner_of": {
     "other": "Переможець"
+  },
+  "meta_description_expand": {
+    "other": "Показати більше"
+  },
+  "meta_description_collapse": {
+    "other": "Показати менше"
   }
 }

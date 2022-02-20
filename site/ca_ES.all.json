@@ -1261,5 +1261,11 @@
   },
   "awards_winner_of": {
     "other": "Guanyador de"
+  },
+  "meta_description_expand": {
+    "other": "Mostra més"
+  },
+  "meta_description_collapse": {
+    "other": "Mostra menys"
   }
 }

@@ -569,5 +569,11 @@
   },
   "awards_winner_of": {
     "other": "Победитель"
+  },
+  "meta_description_expand": {
+    "other": "Показать больше"
+  },
+  "meta_description_collapse": {
+    "other": "Показывай меньше"
   }
 }

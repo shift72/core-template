@@ -538,6 +538,12 @@
     },
     "awards_winner_of": {
       "other": "kazanan"
+    },
+    "meta_description_expand": {
+      "other": "Daha fazla göster"
+    },
+    "meta_description_collapse": {
+      "other": "Daha az göster"
     }
   }
   

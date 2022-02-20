@@ -477,5 +477,11 @@
   },
   "awards_winner_of": {
     "other": "Ganador de"
+  },
+  "meta_description_expand": {
+    "other": "Mostrar más"
+  },
+  "meta_description_collapse": {
+    "other": "Muestra menos"
   }
 }

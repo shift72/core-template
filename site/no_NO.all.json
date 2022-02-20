@@ -534,6 +534,12 @@
     },
     "awards_winner_of": {
       "other": "Vinner av"
+    },
+    "meta_description_expand": {
+      "other": "Vis mer"
+    },
+    "meta_description_collapse": {
+      "other": "Vis mindre"
     }
   }
   
