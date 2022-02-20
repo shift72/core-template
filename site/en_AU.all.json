@@ -55,6 +55,7 @@
   "nav_devices": { "other": "My Devices" },
   "nav_wishlist": { "other": "My List" },
   "nav_account": { "other": "My Account" },
+  "nav_subscriptions": { "other": "My Subscriptions" },
   "nav_signout": { "other": "Sign Out" },
   "play_trailer": { "other": "Trailer" },
   "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
