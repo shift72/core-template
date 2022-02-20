@@ -41,6 +41,7 @@
 						</svg>
 					</a>
 				{{end}}
+				<s72-share-modal {{letterboxdID ? "letterboxd=" + letterboxdID : ""}}></s72-share-modal>
 			</div>
 		</div>
 	{{end}}
