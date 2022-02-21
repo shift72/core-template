@@ -569,5 +569,8 @@
   },
   "awards_winner_of": {
     "other": "Победитель"
+  },
+  "donate_button_text": {
+    "other": "Пожертвовать"
   }
 }

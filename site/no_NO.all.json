@@ -534,6 +534,9 @@
     },
     "awards_winner_of": {
       "other": "Vinner av"
+    },
+    "donate_button_text": {
+      "other": "Doneren"
     }
   }
   

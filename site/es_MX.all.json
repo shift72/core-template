@@ -418,5 +418,6 @@
     "other": "En competición"
   },
 
-  "awards_winner_of": { "other": "Ganador de" }
+  "awards_winner_of": { "other": "Ganador de" },
+  "donate_button_text": { "other": "Donar" }
 }

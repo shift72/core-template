@@ -476,5 +476,8 @@
   },
   "awards_winner_of": {
     "other": "Vainqueur de"
+  },
+  "donate_button_text": {
+    "other": "Faire un don"
   }
 }
