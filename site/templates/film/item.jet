@@ -65,7 +65,7 @@
           {{yield awardNominations() film}}
           <s72-element-switcher>
             {{if isEnabled("element_switcher_enabled")}}
-              <div class="meta-detail-tagline">
+              <div class="meta-detail-switcher-tagline">
                 <p>{{film.Tagline}}</p>
               </div>
             {{end}}
