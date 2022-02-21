@@ -428,6 +428,7 @@
   "usersubscriptions_subscriptions_section_content": { "other": " " },
   "usersubscriptions_subscription_status_active": { "other": "Active" },
   "usersubscriptions_subscription_status_trialing": { "other": "Trial Period" },
+  "usersubscriptions_subscription_expired": { "other": "Expired" },
   "usersubscriptions_subscription_expiry": { "other": "Expires {{.Expiry}}" },
 
   "usersubscriptions_subscription_unsubscribe": { "other": "Cancel my subscription" },
