@@ -6,7 +6,7 @@
 
 {{block body()}}
   <div class="page form-page usersubscriptions-page">
-
+    <s72-subscriptionscheck></s72-subscriptionscheck>
     <div class="container">
       <div class="page-header form-page-header">
         <h1 class="page-title form-page-title">{{ i18n("usersubscriptions_page_header") }}</h1>
@@ -15,10 +15,7 @@
         <p>{{i18n("usersubscriptions_page_content")}}</p>
         <h3>{{ i18n("usersubscriptions_subscriptions_section_title") }}</h3>
         <s72-usersubscriptions></s72-usersubscriptions>
-
-
         <hr />
-
         <h3>{{ i18n("usersubscriptions_payment_section_title") }}</h3>
         <div>
           <s72-changesubscriptionpaymentmethod></s72-changesubscriptionpaymentmethod>

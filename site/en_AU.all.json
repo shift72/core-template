@@ -431,6 +431,11 @@
   "usersubscriptions_subscription_expired": { "other": "Expired" },
   "usersubscriptions_subscription_expiry": { "other": "Expires {{.Expiry}}" },
 
+
+  "usersubscriptions_no_subscriptions_section_title": { "other": "Discover Subscriptions" },
+  "usersubscriptions_no_subscriptions_content": { "other": "Discover great content at great prices, easily managed here." },
+  "usersubscriptions_no_subscriptions_button_title": { "other": "Explore subscriptions" },
+
   "usersubscriptions_subscription_unsubscribe": { "other": "Cancel my subscription" },
   "usersubscriptions_unsubscribe_modal_cancel": { "other": "Cancel" },
   "usersubscriptions_unsubscribe_modal_confirm": { "other": "Yes, cancel my subscription" },

@@ -1,0 +1,25 @@
+{{extends "templates/application/application.jet"}}
+
+{{block head()}}
+  {{yield seo(title=i18n("usersubscriptions_page_header"), index=false)}}
+{{end}}
+
+{{block body()}}
+  <div class="page form-page user-no-subscriptions-page">
+
+    <div class="container">
+      <div class="page-header form-page-header">
+        <h1 class="page-title form-page-title">{{ i18n("usersubscriptions_page_header") }}</h1>
+      </div>
+      <div class="page-content form-page-content">
+        <p>{{i18n("usersubscriptions_page_content")}}</p>
+        <h3>{{ i18n("usersubscriptions_no_subscriptions_section_title") }}</h3>
+        <p>{{i18n("usersubscriptions_no_subscriptions_content")}}</p>
+        <button class="s72-btn">
+          <span class="verb s72-btn-play-label">{{i18n("usersubscriptions_no_subscriptions_button_title")}}</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+{{end}}
