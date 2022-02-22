@@ -3,14 +3,14 @@
     top: 50%;
     transform: translateY(-50%);
     max-width: 320px;
-    padding: 0;
+    @extend .p-0;
 
     @include media-breakpoint-up(sm){
       top: 90px;
-      transform:none;
+      transform: none;
     }
     .s72-modal-content {
-      padding: 0;
+      @extend .p-0;
     }
   }
 
@@ -33,10 +33,10 @@
 
   a {
     @extend .text-dark;
+    @extend .d-flex;
+    @extend .align-items-center;
     text-decoration: inherit;
     line-height: 3rem;
-    display: flex;
-    align-items: center;
   }
 }
 
