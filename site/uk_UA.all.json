@@ -1191,5 +1191,8 @@
   },
   "awards_winner_of": {
     "other": "Переможець"
+  },
+  "donate_button_text": {
+    "other": "Пожертвуйте"
   }
 }

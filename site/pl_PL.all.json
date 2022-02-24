@@ -498,5 +498,8 @@
   },
   "awards_winner_of": {
     "other": "Zwycięzca"
+  },
+  "donate_button_text": {
+    "other": "Podarować"
   }
 }

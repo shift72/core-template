@@ -441,5 +441,8 @@
   },
   "awards_winner_of": {
     "other": "の勝者"
+  },
+  "donate_button_text": {
+    "other": "寄付"
   }
 }

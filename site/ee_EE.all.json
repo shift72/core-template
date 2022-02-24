@@ -527,14 +527,17 @@
     "plan_free_link_text": {
       "other": "Registreeru tasuta"
     },
-  "awards_nominated_for": {
-    "other": "Kandideeritud"
-  },
-  "awards_in_competition": {
-    "other": "Võistluses"
-  },
-  "awards_winner_of": {
-    "other": "Võitja"
-  }
+    "awards_nominated_for": {
+      "other": "Kandideeritud"
+    },
+    "awards_in_competition": {
+      "other": "Võistluses"
+    },
+    "awards_winner_of": {
+      "other": "Võitja"
+    },
+    "donate_button_text": {
+      "other": "Anneta"
+    }
   }
   
