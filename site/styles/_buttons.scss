@@ -199,6 +199,17 @@
   }
 }
 
+.s72-btn.s72-btn-unsubscribe,
+.s72-btn.s72-btn-updatecreditcard {
+  background: #3f3f3f;
+  border: 3px solid #3f3f3f;
+  min-width: 140px;
+  @include hover-focus {
+    background: $gray-700;
+    border-color: $gray-700;
+  }
+}
+
 .btn-wishlist {
   p {
     margin: 0;
@@ -243,3 +254,4 @@
     border-color: $gray-200;
   }
 }
+

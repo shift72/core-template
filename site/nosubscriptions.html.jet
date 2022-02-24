@@ -16,7 +16,7 @@
         <h3>{{ i18n("usersubscriptions_no_subscriptions_section_title") }}</h3>
         <p>{{i18n("usersubscriptions_no_subscriptions_content")}}</p>
         <button class="s72-btn">
-          <span class="verb s72-btn-play-label">{{i18n("usersubscriptions_no_subscriptions_button_title")}}</span>
+          <span class="verb s72-btn">{{i18n("usersubscriptions_no_subscriptions_button_title")}}</span>
         </button>
       </div>
     </div>
