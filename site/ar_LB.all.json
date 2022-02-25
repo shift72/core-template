@@ -593,5 +593,18 @@
     },
     "donate_button_text": {
       "other": "يتبرع"
-    }
+    },
+    "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+    "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+    "plan_label_owned": { "other": "" },
+
+    "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+
+    "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
+    "app_badge_title": { "other": "Download the app to view your purchased content!" },
+    "app_badge_ios": { "other": "Download on the App Store" },
+    "app_badge_android": { "other": "Get it on Google Play" },
+
+    "awards_winner_of": { "other": "Winner of" }
+
   } 

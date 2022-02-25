@@ -1264,5 +1264,10 @@
   },
   "donate_button_text": {
     "other": "Donar"
-  }
+  },
+  "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+  "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+  "plan_label_owned": { "other": "" },
+
+  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" }
 }

@@ -486,5 +486,57 @@
   },
   "donate_button_text": {
     "other": "Donirajte"
-  }
+  },
+
+  "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+  "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+
+  "usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
+"usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
+"usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
+"usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
+"usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
+"usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
+"usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
+"usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
+"usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
+"usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
+
+"powered_by_name": { "other": "Shift72" },
+"powered_by_url": { "other": "https://www.screenplus.com" },
+"festival_scope": { "other": "Festival Scope" },
+"festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
+"en": { "other": "English" },
+"fr": { "other": "French" },
+
+"nav_homepage": { "other": "ABC Cinemas" },
+"header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
+
+"classification_divider": { "other": " - " },
+"classification_outro": { "other": "" },
+
+"plan_label_owned": { "other": "" },
+
+  "pricing_quality_hd": { "other": "pricing_quality_hd" },
+  "pricing_quality_sd": { "other": "pricing_quality_sd" },
+  "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
+  "pricing_quality_sd_only": { "other": "pricing_quality_sd_only" },
+
+  "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
+  "shopping_action_credit": { "other": "shopping_action_credit" },
+
+  "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
+
+  "app_badge_title": { "other": "Download the app to view your purchased content!" },
+  "app_badge_ios": { "other": "Download on the App Store" },
+  "app_badge_android": { "other": "Get it on Google Play" }, 
+
+  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+
+  "user_error_too_many_pin_errors_help_page_link": { "other": "" }
+
+  
+
 }
