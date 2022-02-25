@@ -1260,5 +1260,8 @@
   },
   "meta_description_collapse": {
     "other": "显示较少"
+  },
+  "donate_button_text": {
+    "other": "捐"
   }
 }

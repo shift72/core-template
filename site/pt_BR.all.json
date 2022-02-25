@@ -1267,5 +1267,8 @@
   },
   "meta_description_collapse": {
     "other": "Mostre menos"
+  },
+  "donate_button_text": {
+    "other": "Doar"
   }
  }

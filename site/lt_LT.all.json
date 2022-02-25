@@ -568,5 +568,8 @@
   },
   "meta_description_collapse": {
     "other": "Rodyti mažiau"
+  },
+  "donate_button_text": {
+    "other": "Paaukoti"
   }
 }

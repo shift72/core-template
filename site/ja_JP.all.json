@@ -447,5 +447,8 @@
   },
   "meta_description_collapse": {
     "other": "表示を減らす"
+  },
+  "donate_button_text": {
+    "other": "寄付"
   }
 }

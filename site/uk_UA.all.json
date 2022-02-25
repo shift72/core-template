@@ -1197,5 +1197,8 @@
   },
   "meta_description_collapse": {
     "other": "Показати менше"
+  },
+  "donate_button_text": {
+    "other": "Пожертвуйте"
   }
 }

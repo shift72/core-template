@@ -504,5 +504,8 @@
   },
   "meta_description_collapse": {
     "other": "Pokaż mniej"
+  },
+  "donate_button_text": {
+    "other": "Podarować"
   }
 }

@@ -424,5 +424,6 @@
   },
   "meta_description_collapse": {
     "other": "Muestra menos"
-  }
+  },
+  "donate_button_text": { "other": "Donar" }
 }

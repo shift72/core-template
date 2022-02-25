@@ -489,5 +489,8 @@
   },
   "meta_description_collapse": {
     "other": "Pokažite manje"
+  },
+  "donate_button_text": {
+    "other": "Donirajte"
   }
 }

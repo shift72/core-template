@@ -483,5 +483,8 @@
   },
   "meta_description_collapse": {
     "other": "Zeige weniger"
+  },
+  "donate_button_text": {
+    "other": "Spenden"
   }
 }

@@ -1170,5 +1170,8 @@
     },
     "meta_description_collapse": {
       "other": "Vis mindre"
+    },
+    "donate_button_text": {
+      "other": "Doner"
     }
 }

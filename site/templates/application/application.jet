@@ -89,5 +89,6 @@
     {{yield footer()}}
 
     {{yield googleScripts()}}
+    <s72-donate-button></s72-donate-button>
   </body>
 </html>

@@ -1267,5 +1267,8 @@
   },
   "meta_description_collapse": {
     "other": "Mostra menys"
+  },
+  "donate_button_text": {
+    "other": "Donar"
   }
 }
