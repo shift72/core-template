@@ -457,7 +457,7 @@
   "shopping_card_existing_expired": { "other": "(expired)" },
   "shopping_card_use_other": { "other": "Use a new card" },
   "shopping_card_use_new_card": { "other": "Change card" },
-  "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
+  "shopping_card_update_reason_none": { "other": "Update your credit card. Supported cards are Visa, Mastercard and American Express." },
   "shopping_card_new_subscription": { "other": "This card will be saved and charged regularly" },
   "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 

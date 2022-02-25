@@ -210,6 +210,15 @@
   }
 }
 
+.s72-btn.s72-btn-explore-subs {
+  background: #1aa3ff;
+  border: 3px solid #1aa3ff;
+  min-width: 140px;
+  @include hover-focus {
+    background: #55bbff;
+    border-color: #55bbff;
+  }
+}
 .btn-wishlist {
   p {
     margin: 0;

@@ -332,6 +332,9 @@ s72-usersubscription {
   .page-content {
     width: 50%;
     margin: 0 auto;
+    &.no-subscriptions {
+      text-align: center;
+    }
   }
 }
 
