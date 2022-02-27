@@ -82,7 +82,7 @@
   "social_media_buttons_copied_link": { "other": "Ссылка скопирована в буфер обмена!" },
   "social_media_buttons_copy_link": { "other": "Скопировать в буфер обмена" },
 
-  "accept_invite_page_header": { "other": "Добро пожаловать" },
+  "accept_invite_page_header": { "other": "Добро пожаловать " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Вы уже подтвердили регистрацию, вам надо <a href=\"{{.SigninURL}}\">войти</a> . Если вы забыли свой пароль, вы можете <a href=\"{{.ForgotPasswordURL}}\">сбросить пароль</a>." },
   "acceptinvite_complete": { "other": "Спасибо. Ваш аккаунт был создан." },
   "acceptinvite_form_submit": { "other": "Принять приглашение" },
@@ -421,7 +421,6 @@
   "users_gender_diverse": { "other": "разные" },
   "users_gender_other": { "other": "Другой" },
 
-  "plan_label_owned": { "other": "" },
 
   "pricing_quality_hd": { "other": "pricing_quality_hd" },
   "pricing_quality_sd": { "other": "pricing_quality_sd" },
@@ -438,21 +437,10 @@
 
   "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
 
-  "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-  "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-  "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
-
-  "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
-
   "shopping_action_credit": { "other": "shopping_action_credit" },
-  "shopping_action_plan": { "other": "shopping_action_plan" },
-
-  "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-  "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
 
   "shopping_info_rental_period_coming_soon": { "other": "с указанием даты и времени выпуска." },
-  "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-  "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
+
 
   "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
   "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },

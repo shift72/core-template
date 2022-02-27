@@ -56,7 +56,7 @@
   "social_media_buttons_copied_link": { "other": "Veza je kopirana u međuspremnik!" },
   "social_media_buttons_copy_link": { "other": "Kopirati u međuspremnikKopirati u međuspremnik" },
 
-  "accept_invite_page_header": { "other": "Dobrodošli" },
+  "accept_invite_page_header": { "other": "Dobrodošli " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Ovaj pozivni kod je već iskorišten i potrebna je ponovna <a href=\"{{.SigninURL}}\">prijava</a>. Ako ste zaboravili lozinku, možete je <a href=\"{{.ForgotPasswordURL}}\">resetirati</a>." },
   "acceptinvite_complete": { "other": "Hvala vam. Izradili ste korisnički račun." },
   "acceptinvite_form_submit": { "other": "Prihvati pozivnicu" },
@@ -189,7 +189,7 @@
   "shopping_info_ownership_rent": { "other": "posudba" },
 
   "shopping_info_sd_only": { "other": "Ograničeno na SD format." },
-  "shopping_info_release_date_title": { "other": "Dolazi {{.Date}}." },
+  "shopping_info_release_date_title": { "other": "Dolazi {{.Date}}. " },
   "shopping_info_release_date_explanation_rent": { "other": "Sadržaj možete posuditi sada, ali ga nećete moći gledati do zadanog datuma." },
   "shopping_info_release_date_explanation_buy": { "other": "Sadržaj možete kupiti sada, ali ga nećete moći gledati do zadanog datuma." },
 
@@ -336,7 +336,7 @@
   "pricing_ownership_buy": { "other": "Kupi" },
   "pricing_ownership_rent": { "other": "Posudi" },
   
-  "classification_intro": { "other": "Ocjena:" },
+  "classification_intro": { "other": "Ocjena: " },
   "cookie_banner_message": { "other": "Mrežne stranice koriste kolačiće za bolje korisničko iskustvo. Korištenjem stranica, prihvaćate <a href=\"{{.CookiePolicyURL}}\">korištenje podataka o stranicama</a>." },
   "cookie_banner_accept": { "other": "Prihvatiti" },
   "all_rights_reserved": { "other": "Sva prava pridržana. Nijedan dio ovih mrežnih stranica ne smije se koristiti bez naše pisane privole." },
@@ -514,8 +514,6 @@
 
 "classification_divider": { "other": " - " },
 "classification_outro": { "other": "" },
-
-"plan_label_owned": { "other": "" },
 
   "pricing_quality_hd": { "other": "pricing_quality_hd" },
   "pricing_quality_sd": { "other": "pricing_quality_sd" },

@@ -81,7 +81,7 @@
     "social_media_buttons_copied_link": { "other": "Link kopyalandı!" },
     "social_media_buttons_copy_link": { "other": "Panoya kopyala" },
 
-    "accept_invite_page_header": { "other": "Hoşgeldiniz" },
+    "accept_invite_page_header": { "other": "Hoşgeldiniz " },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Görünüşe göre bu davet talebini zaten yapmışsınız, onun yerine <a href=\"{{.SigninURL}}\">sign in</a> denemelisiniz. Parolanızı unuttuysanız, parolanızı ayrıca <a href=\"{{.ForgotPasswordURL}}\"> sıfırlayabilirsiniz." },
     "acceptinvite_complete": { "other": "Teşekkürler. Hesabınız oluşturuldu." },
     "acceptinvite_form_submit": { "other": "Daveti Kabul Et." },
@@ -283,7 +283,6 @@
     "shopping_error_discounts_not_allowed": { "other": "Bu promosyon kodu kullanılamaz." },
     "shopping_error_discount_disallowed_on_bundles": { "other": "That promo code can not be used on bundles." },
     "shopping_error_payment_intent_authentication_failure": { "other": "Kredi Kartınız reddedildi. Lütfen tekrar deneyin." },
-    "shopping_error_item_limit_exceeded": { "other": "{{.Title}} için sınırlı sayıdaki izleme kapasitemiz dolmuştur." },
 
     "shopping_complete_rental": { "other": "Başardınız!" },
     "shopping_complete_rental_period": {
@@ -387,7 +386,6 @@
     "users_gender_diverse": { "other": "Farklı" },
     "users_gender_other": { "other": "Diğer" },
   
-    "plan_label_owned": { "other": "" },
   
     "pricing_quality_hd": { "other": "pricing_quality_hd" },
     "pricing_quality_sd": { "other": "pricing_quality_sd" },
@@ -404,21 +402,12 @@
   
     "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
   
-    "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-    "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-    "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
-  
-    "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
-  
+
     "shopping_action_credit": { "other": "shopping_action_credit" },
-    "shopping_action_plan": { "other": "shopping_action_plan" },
-  
-    "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-    "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
+
   
     "shopping_info_rental_period_coming_soon": { "other": "...şu tarih ve yayınlanma vaktinden başlayarak." },
-    "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-    "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
+
   
     "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
     "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
@@ -572,8 +561,6 @@
     "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
     "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
     
-    "plan_label_owned": { "other": "" },
-
     "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
 
     "account_form_pin_code": { "other": "PIN" },

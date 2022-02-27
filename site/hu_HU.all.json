@@ -81,7 +81,7 @@
     "social_media_buttons_copied_link": { "other": "Link a vágólapra másolva!" },
     "social_media_buttons_copy_link": { "other": "Másolja a vágólapra" },
 
-    "accept_invite_page_header": { "other": "Üdvözöljük" },
+    "accept_invite_page_header": { "other": "Üdvözöljük " },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Úgy tűnik, már felhasználtad a meghívódat, próbálj meg <a href=\"{{.SigninURL}}\">bejelentkezni</a>. Ha elfelejtetted a jelszavadat, <a href=\"{{.ForgotPasswordURL}}\">állíts be újat</a>." },
     "acceptinvite_complete": { "other": "Köszönjük. A fiókodat létrehoztuk." },
     "acceptinvite_form_submit": { "other": "Meghívó elfogadása" },
@@ -386,8 +386,6 @@
     "users_gender_diverse": { "other": "Diverz" },
     "users_gender_other": { "other": "Egyéb" },
   
-    "plan_label_owned": { "other": "" },
-  
     "pricing_quality_hd": { "other": "pricing_quality_hd" },
     "pricing_quality_sd": { "other": "pricing_quality_sd" },
     "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
@@ -403,21 +401,10 @@
   
     "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
   
-    "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-    "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-    "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
-  
-    "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
-  
     "shopping_action_credit": { "other": "shopping_action_credit" },
-    "shopping_action_plan": { "other": "shopping_action_plan" },
-  
-    "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-    "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
-  
+
     "shopping_info_rental_period_coming_soon": { "other": "a bemutató időpontjától." },
-    "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-    "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
+
   
     "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
     "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
@@ -568,7 +555,6 @@
     "shopping_payment_method_giropay": { "other": "Giropay" },
     "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
     "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
-    "plan_label_owned": { "other": "" },
 
     "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
 

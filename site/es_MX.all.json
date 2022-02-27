@@ -81,7 +81,7 @@
   "social_media_buttons_copied_link": { "other": "¡Link copiado al portapapeles!" },
   "social_media_buttons_copy_link": { "other": "Copiar al portapapeles" },
 
-  "accept_invite_page_header": { "other": "Bienvenido" },
+  "accept_invite_page_header": { "other": "Bienvenido " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Parece que ya ha canjeado esta invitación, debería  <a href=\"{{.SigninURL}}\">ingresar</a>. Si has olvidado tu contraseña, puedes también <a href=\"{{.ForgotPasswordURL}}\">reestablecer tu contraseña</a>." },
   "acceptinvite_complete": { "other": "Gracias. Se ha creado su cuenta." },
   "acceptinvite_form_submit": { "other": "Aceptar invitación" },

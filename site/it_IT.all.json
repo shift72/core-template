@@ -81,7 +81,7 @@
   "social_media_buttons_copied_link": { "other": "Link copiato negli appunti!" },
   "social_media_buttons_copy_link": { "other": "Copia negli appunti" },
 
-  "accept_invite_page_header": { "other": "Accoglienza" },
+  "accept_invite_page_header": { "other": "Accoglienza " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Questo Invito è già stato usato." },
   "acceptinvite_complete": { "other": "Grazie. Il tuo account è stato creato." },
   "acceptinvite_form_submit": { "other": "Accetta l'Invito" },
@@ -564,8 +564,6 @@
 "users_gender_male": { "other": "Male" },
 "users_gender_diverse": { "other": "Diverse" },
 "users_gender_other": { "other": "Other" },
-
-"plan_label_owned": { "other": "" },
 
 "pricing_quality_hd": { "other": "pricing_quality_hd" },
 "pricing_quality_sd": { "other": "pricing_quality_sd" },

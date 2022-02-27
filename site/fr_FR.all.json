@@ -79,7 +79,7 @@
   "social_media_buttons_copied_link": { "other": "Lien copié dans le presse-papiers !" },
   "social_media_buttons_copy_link": { "other": "Copier dans le presse-papier" },
 
-  "accept_invite_page_header": { "other": "Bienvenue" },
+  "accept_invite_page_header": { "other": "Bienvenue " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Il semble que vous ayez déjà utilisé ce lien, vous devriez essayer de <a href=\"{{.SigninURL}}\">vous connecter</a>. Si vous avez oublié votre mot de passe, vous pouvez aussi <a href=\"{{.ForgotPasswordURL}}\">réinitialiser votre mot de passe</a>." },
   "acceptinvite_complete": { "other": "Merci, votre compte a bien été créé." },
   "acceptinvite_form_submit": { "other": "Accepter l'invitation" },
@@ -561,8 +561,6 @@
 "users_gender_male": { "other": "Male" },
 "users_gender_diverse": { "other": "Diverse" },
 "users_gender_other": { "other": "Other" },
-
-"plan_label_owned": { "other": "" },
 
 "pricing_quality_hd": { "other": "pricing_quality_hd" },
   "pricing_quality_sd": { "other": "pricing_quality_sd" },

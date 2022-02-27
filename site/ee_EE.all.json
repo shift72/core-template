@@ -81,7 +81,7 @@
     "social_media_buttons_copied_link": { "other": "Link on lõikelauale kopeeritud!" },
     "social_media_buttons_copy_link": { "other": "Kopeerida lõikelauale" },
 
-    "accept_invite_page_header": { "other": "Tere tulemast" },
+    "accept_invite_page_header": { "other": "Tere tulemast " },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Näib, et sa oled kutse juba vastu võtnud. Sa peaksid hoopis <a href=\"{{.SigninURL}}\">sisse logima</a>. Kui oled salasõna unustanud, saad selle <a href=\"{{.ForgotPasswordURL}}\">uuendada</a>." },
     "acceptinvite_complete": { "other": "Aitäh! Sinu konto on loodud." },
     "acceptinvite_form_submit": { "other": "Võta kutse vastu." },
@@ -385,8 +385,7 @@
     "users_gender_male": { "other": "Mees" },
     "users_gender_diverse": { "other": "Sooneutraalne" },
     "users_gender_other": { "other": "Muu" },
-  
-    "plan_label_owned": { "other": "" },
+
   
     "pricing_quality_hd": { "other": "pricing_quality_hd" },
     "pricing_quality_sd": { "other": "pricing_quality_sd" },
@@ -403,21 +402,10 @@
   
     "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
   
-    "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-    "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-    "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
-  
-    "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
-  
     "shopping_action_credit": { "other": "shopping_action_credit" },
-    "shopping_action_plan": { "other": "shopping_action_plan" },
-  
-    "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-    "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
-  
+
     "shopping_info_rental_period_coming_soon": { "other": "alates avaldamise kuupäevast ja kellaajast." },
-    "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-    "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
+
   
     "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
     "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
@@ -569,7 +557,6 @@
     "shopping_payment_method_giropay": { "other": "Giropay" },
     "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
     "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
-    "plan_label_owned": { "other": "" },
 
     "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
 

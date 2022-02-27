@@ -147,7 +147,7 @@
   "social_media_buttons_copied_link": { "other": "Link copiado para a área de transferência!" },
   "social_media_buttons_copy_link": { "other": "Copiar para área de transferência" },
   "accept_invite_page_header": {
-   "other": "Acolher"
+   "other": "Acolher "
   },
   "acceptinvite_form_invalid_reset_password_token": {
    "other": "Parece que você já aceitou esse convite, você deve <a href=\"{{.SigninURL}}\">entrar em sua conta</a>. Se você esqueceu sua senha, você também pode <a href=\"{{.ForgotPasswordURL}}\">alterar sua senha</a>."
@@ -917,9 +917,6 @@
   "users_gender_other": {
    "other": "Outro"
   },
-  "plan_label_owned": {
-   "other": ""
-  },
   "pricing_quality_hd": {
    "other": "pricing_quality_hd"
   },
@@ -965,39 +962,13 @@
   "shopping_info_ownership_plan": {
    "other": "shopping_info_ownership_plan"
   },
-  "shopping_price_title_plan": {
-   "other": "shopping_price_title_plan"
-  },
-  "shopping_price_plan_note": {
-   "other": "shopping_price_plan_note"
-  },
-  "shopping_price_plan_note_interval": {
-   "other": "shopping_price_plan_note_interval"
-  },
-  "shopping_enter_card_prompt_plan": {
-   "other": "shopping_enter_card_prompt_plan"
-  },
   "shopping_action_credit": {
    "other": "shopping_action_credit"
-  },
-  "shopping_action_plan": {
-   "other": "shopping_action_plan"
-  },
-  "shopping_complete_subscription": {
-   "other": "shopping_complete_subscription"
-  },
-  "shopping_complete_subscription_browse": {
-   "other": "shopping_complete_subscription_browse"
   },
   "shopping_info_rental_period_coming_soon": {
    "other": "a partir da data e horário do lançamento.."
   },
-  "shopping_info_plan_offer": {
-   "other": "shopping_info_plan_offer"
-  },
-  "shopping_info_trial_period_offer": {
-   "other": "shopping_info_trial_period_offer"
-  },
+
   "usersubscriptions_change_payment_method_change": {
    "other": "usersubscriptions_change_payment_method_change"
   },

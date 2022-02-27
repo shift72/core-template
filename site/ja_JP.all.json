@@ -58,7 +58,7 @@
   "social_media_buttons_copied_link": { "other": "リンクがクリップボードにコピーされました！" },
   "social_media_buttons_copy_link": { "other": "クリップボードにコピー" },
 
-  "accept_invite_page_header": { "other": "ようこそ" },
+  "accept_invite_page_header": { "other": "ようこそ " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "すでに招待リクエスト済みですので、サインインしてください。" },
   "acceptinvite_complete": { "other": "ありがとうございます。アカウント登録は完了しました。" },
   "acceptinvite_form_submit": { "other": "招待を受け取る" },
@@ -475,7 +475,6 @@
   "shopping_payment_method_giropay": { "other": "Giropay" },
   "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
   "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
-  "plan_label_owned": { "other": "" },
 
   "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
 

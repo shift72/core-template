@@ -81,7 +81,7 @@
   "social_media_buttons_copied_link": { "other": "Link gekopieerd naar klembord!" },
   "social_media_buttons_copy_link": { "other": "Kopieer naar klembord" },
 
-  "accept_invite_page_header": { "other": "Welkom" },
+  "accept_invite_page_header": { "other": "Welkom " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Het lijkt erop dat u deze uitnodiging al hebt gebruikt. U dient zich hier <a href=\"{{.SigninURL}}\">in te loggen</a>. <a href=\"{{.ForgotPasswordURL}}\">Wachtwoord vergeten?</a>." },
   "acceptinvite_complete": { "other": "Bedankt. Uw account is aangemaakt." },
   "acceptinvite_form_submit": { "other": "Aanvaard uitnodiging" },
@@ -402,7 +402,6 @@
   "users_gender_diverse": { "other": "Non-binair" },
   "users_gender_other": { "other": "Ander" },
 
-  "plan_label_owned": { "other": "" },
 
   "pricing_quality_hd": { "other": "pricing_quality_hd" },
   "pricing_quality_sd": { "other": "pricing_quality_sd" },
@@ -422,21 +421,10 @@
 
   "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
 
-  "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-  "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-  "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
-
-  "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
-
   "shopping_action_credit": { "other": "shopping_action_credit" },
-  "shopping_action_plan": { "other": "shopping_action_plan" },
-
-  "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-  "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
 
   "shopping_info_rental_period_coming_soon": { "other": "vanaf de releasedatum." },
-  "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-  "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
+
 
   "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
   "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },

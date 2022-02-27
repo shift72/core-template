@@ -58,7 +58,7 @@
   "social_media_buttons_copied_link": { "other": "Link skopiowany do schowka!" },
   "social_media_buttons_copy_link": { "other": "Skopiuj do schowka" },
 
-  "accept_invite_page_header": { "other": "Witamy" },
+  "accept_invite_page_header": { "other": "Witamy " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Wygląda na to, że już odebrałeś to zaproszenie. Kliknij zatem <a href=\"{{.SigninURL}}\"> zaloguj się </a>. Jeśli zapomniałeś hasła, możesz je odzyskać <a href=\"{{.ForgotPasswordURL}}\"> resetując hasło </a>." },
   "acceptinvite_complete": { "other": "Dziękujemy. Twoje konto zostało utworzone." },
   "acceptinvite_form_submit": { "other": "Zaakceptuj zaproszenie." },
@@ -532,7 +532,6 @@
   "shopping_payment_method_giropay": { "other": "Giropay" },
   "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
   "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
-  "plan_label_owned": { "other": "" },
 
   "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
 

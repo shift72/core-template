@@ -415,7 +415,6 @@
   "users_gender_diverse": { "other": "Diverse" },
   "users_gender_other": { "other": "Other" },
 
-  "plan_label_owned": { "other": "" },
 
   "pricing_quality_hd": { "other": "pricing_quality_hd" },
   "pricing_quality_sd": { "other": "pricing_quality_sd" },
@@ -561,4 +560,5 @@
   "awards_winner_of": { "other": "Winner of" },
 
   "donate_button_text": { "other": "Donate" }
+
 }

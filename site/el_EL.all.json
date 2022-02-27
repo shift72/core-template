@@ -81,7 +81,7 @@
   "social_media_buttons_copied_link": { "other": "Ο σύνδεσμος αντιγράφηκε στο πρόχειρο!" },
   "social_media_buttons_copy_link": { "other": "Αντιγραφή στο πρόχειρο" },
 
-  "accept_invite_page_header": { "other": "Καλώς ορίσατε" },
+  "accept_invite_page_header": { "other": "Καλώς ορίσατε " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Φαίνεται πως έχετε ήδη αποδεχθεί αυτή την πρόσκληση, πρέπει να <a href=\"{{.SigninURL}}\">εισέλθετε</a> στο λογαριασμό σας." },
   "acceptinvite_complete": { "other": "Ευχαριστούμε πολύ. Ο λογαριασμός σας έχει δημιουργηθεί." },
   "acceptinvite_form_submit": { "other": "Αποδοχή πρόσκλησης" },
@@ -196,7 +196,7 @@
   "shopping_info_ownership_rent": { "other": "ενοικίαση" },
 
   "shopping_info_sd_only": { "other": "Limited to SD playback only." },
-  "shopping_info_release_date_title": { "other": "Κυκλοφορίες {{.Date}}." },
+  "shopping_info_release_date_title": { "other": "Κυκλοφορίες {{.Date}}. " },
   "shopping_info_release_date_explanation_rent": { "other": "Μπορείτε να το ενοικιάσετε τώρα, αλλά δεν θα μπορείτε να το δείτε μέχρι τότε." },
   "shopping_info_release_date_explanation_buy": { "other": "Μπορείτε να το αγοράσετε τώρα, αλλά δεν θα μπορείτε να το δείτε μέχρι τότε." },
 
@@ -368,7 +368,7 @@
   "pricing_ownership_buy": { "other": "Αγορά" },
   "pricing_ownership_rent": { "other": "Ενοικίαση" },
 
-  "classification_intro": { "other": "Κατηγοριοποίηση" },
+  "classification_intro": { "other": "Κατηγοριοποίηση " },
   "classification_divider": { "other": " - " },
   "classification_outro": { "other": "" },
 
@@ -382,8 +382,6 @@
   "users_gender_male": { "other": "Αρσενικό" },
   "users_gender_diverse": { "other": "LGBTQI+" },
   "users_gender_other": { "other": "Άλλο" },
-
-  "plan_label_owned": { "other": "" },
 
   "pricing_quality_hd": { "other": "pricing_quality_hd" },
   "pricing_quality_sd": { "other": "pricing_quality_sd" },
@@ -400,21 +398,10 @@
 
   "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
 
-  "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-  "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-  "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
-
-  "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
-
   "shopping_action_credit": { "other": "shopping_action_credit" },
-  "shopping_action_plan": { "other": "shopping_action_plan" },
 
-  "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-  "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
 
   "shopping_info_rental_period_coming_soon": { "other": "Από την ημέρα και ώρα της κυκλοφορίας." },
-  "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-  "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
 
   "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
   "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
@@ -565,7 +552,6 @@
   "shopping_payment_method_giropay": { "other": "Giropay" },
   "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
   "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
-  "plan_label_owned": { "other": "" },
 
   "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
 

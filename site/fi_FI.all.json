@@ -59,7 +59,7 @@
   "social_media_buttons_copied_link": { "other": "Linkki kopioitu leikepöydälle!" },
   "social_media_buttons_copy_link": { "other": "Kopioi leikepöydälle" },
 
-  "accept_invite_page_header": { "other": "Tervetuloa" },
+  "accept_invite_page_header": { "other": "Tervetuloa " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Vaikuttaa siltä, että olet jo käyttänyt tämän kutsun. Kokeile <a href=\"signin.html\">kirjautua sisään</a> palveluun. Jos olet unohtanut salasanasi, voit <a href=\"forgotpassword.html\">tilata uuden salasanan</a>." },
   "acceptinvite_complete": { "other": "Kiitos. Tilisi on luotu." },
   "acceptinvite_form_submit": { "other": "Hyväksy kutsu" },
@@ -475,7 +475,6 @@
   "shopping_payment_method_giropay": { "other": "Giropay" },
   "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
   "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
-  "plan_label_owned": { "other": "" },
 
   "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
 

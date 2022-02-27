@@ -81,7 +81,7 @@
   "social_media_buttons_copied_link": { "other": "Nuoroda nukopijuota į mainų sritį!" },
   "social_media_buttons_copy_link": { "other": "Nukopijuoti į iškarpinę" },
 
-  "accept_invite_page_header": { "other": "Sveiki" },
+  "accept_invite_page_header": { "other": "Sveiki " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Panašu, kad jau patvirtinote šį kvietimą, prašome <a href=\"{{.SigninURL}}\">prisijungti</a>. Pamiršus slaptažodį, galite <a href=\"{{.ForgotPasswordURL}}\">susikurti naują</a>." },
   "acceptinvite_complete": { "other": "Ačiū, jūsų paskyra sukurta." },
   "acceptinvite_form_submit": { "other": "Priimti kvietimą" },
@@ -401,7 +401,6 @@
   "users_gender_diverse": { "other": "Nedvinarė" },
   "users_gender_other": { "other": "Kita" },
 
-  "plan_label_owned": { "other": "" },
 
   "pricing_quality_hd": { "other": "pricing_quality_hd" },
   "pricing_quality_sd": { "other": "pricing_quality_sd" },
@@ -421,21 +420,10 @@
 
   "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
 
-  "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-  "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-  "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
-
-  "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
-
   "shopping_action_credit": { "other": "shopping_action_credit" },
-  "shopping_action_plan": { "other": "shopping_action_plan" },
 
-  "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-  "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
 
   "shopping_info_rental_period_coming_soon": { "other": "nuo išleidimo datos ir laiko." },
-  "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-  "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
 
   "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
   "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
@@ -596,7 +584,6 @@
   "shopping_payment_method_giropay": { "other": "Giropay" },
   "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
   "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
-  "plan_label_owned": { "other": "" },
 
   "validation_pincode1_required": { "other": "Please enter a valid PIN code." },
   "validation_pincode2_required": { "other": "Please enter a valid PIN code." },

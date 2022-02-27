@@ -132,7 +132,7 @@
   "social_media_buttons_copied_link": { "other": "Link kopieret til udklipsholder!" },
   "social_media_buttons_copy_link": { "other": "Kopier til udklipsholder" },
   "accept_invite_page_header": {
-    "other": "Velkommen"
+    "other": "Velkommen "
   },
   "acceptinvite_form_invalid_reset_password_token": {
     "other": "Det ser ud som om du allerede har accepteret denne invitation, du skal derfor <a href=\"signin.html\">logge ind</a> i stedet Hvis du har glemt dit kodeord, kan du også <a href=\"forgotpassword.html\">nulstille dit kodeord</a>."
@@ -882,9 +882,6 @@
   "users_gender_other": {
     "other": "Andet"
   },
-  "plan_label_owned": {
-    "other": ""
-  },
   "pricing_quality_hd": {
     "other": "pricing_quality_hd"
   },
@@ -930,38 +927,11 @@
   "shopping_info_ownership_plan": {
     "other": "shopping_info_ownership_plan"
   },
-  "shopping_price_title_plan": {
-    "other": "shopping_price_title_plan"
-  },
-  "shopping_price_plan_note": {
-    "other": "shopping_price_plan_note"
-  },
-  "shopping_price_plan_note_interval": {
-    "other": "shopping_price_plan_note_interval"
-  },
-  "shopping_enter_card_prompt_plan": {
-    "other": "shopping_enter_card_prompt_plan"
-  },
   "shopping_action_credit": {
     "other": "shopping_action_credit"
   },
-  "shopping_action_plan": {
-    "other": "shopping_action_plan"
-  },
-  "shopping_complete_subscription": {
-    "other": "shopping_complete_subscription"
-  },
-  "shopping_complete_subscription_browse": {
-    "other": "shopping_complete_subscription_browse"
-  },
   "shopping_info_rental_period_coming_soon": {
     "other": "fra premieredatoen og -tidspunktet."
-  },
-  "shopping_info_plan_offer": {
-    "other": "shopping_info_plan_offer"
-  },
-  "shopping_info_trial_period_offer": {
-    "other": "shopping_info_trial_period_offer"
   },
   "usersubscriptions_change_payment_method_change": {
     "other": "usersubscriptions_change_payment_method_change"
@@ -1176,7 +1146,6 @@
     "shopping_payment_method_giropay": { "other": "Giropay" },
     "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
     "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
-    "plan_label_owned": { "other": "" },
 
     "wcag_skip_links_header": { "other": "Accessibility Links" },
   "wcag_skip_links_content": { "other": "Skip to Content" },

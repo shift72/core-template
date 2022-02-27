@@ -81,7 +81,7 @@
   "social_media_buttons_copied_link": { "other": "¡Link copiado al portapapeles!" },
   "social_media_buttons_copy_link": { "other": "Copiar al portapapeles" },
 
-  "accept_invite_page_header": { "other": "Bienvenido" },
+  "accept_invite_page_header": { "other": "Bienvenido " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Parece que ya ha reclamado esta invitación, usted debe <a href=\"{{.SigninURL}}\">iniciar sesión</a> sin embargo. Si ha olvidado su contraseña, usted puede <a href=\"{{.ForgotPasswordURL}}\">recuperar su contraseña</a>." },
   "acceptinvite_complete": { "other": "Gracias. Su cuenta ha sido creada." },
   "acceptinvite_form_submit": { "other": "Aceptar invitación" },
@@ -565,7 +565,6 @@
 "users_gender_diverse": { "other": "Diverse" },
 "users_gender_other": { "other": "Other" },
 
-"plan_label_owned": { "other": "" },
 
 "pricing_quality_hd": { "other": "pricing_quality_hd" },
   "pricing_quality_sd": { "other": "pricing_quality_sd" },

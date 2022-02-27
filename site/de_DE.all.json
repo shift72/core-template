@@ -75,7 +75,7 @@
   "social_media_buttons_copied_link": { "other": "Link in die Zwischenablage kopiert!" },
   "social_media_buttons_copy_link": { "other": "In die Zwischenablage kopieren" },
 
-  "accept_invite_page_header": { "other": "Willkommen" },
+  "accept_invite_page_header": { "other": "Willkommen " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Sie haben diese Einladung bereits angenommen. <a href=\"{{.SigninURL}}\">Loggen Sie sich hier ein</a>. Falls Sie Ihr Passwort vergessen haben, können Sie es <a href=\"{{.ForgotPasswordURL}}\">hier zurücksetzen</a>." },
   "acceptinvite_complete": { "other": "Vielen Dank. Ihr Konto wurde erstellt." },
   "acceptinvite_form_submit": { "other": "Einladung annehmen" },
@@ -483,7 +483,6 @@
   }, 
   "shopping_error_plan_already_owned": { "other": "You already have this plan." },
   "shopping_error_plan_expired": { "other": "This plan is no longer available." },
-  "plan_label_owned": { "other": "" },
 
   "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
 
@@ -566,8 +565,6 @@
 "users_gender_male": { "other": "Male" },
 "users_gender_diverse": { "other": "Diverse" },
 "users_gender_other": { "other": "Other" },
-
-"plan_label_owned": { "other": "" },
 
 "pricing_quality_hd": { "other": "pricing_quality_hd" },
   "pricing_quality_sd": { "other": "pricing_quality_sd" },
