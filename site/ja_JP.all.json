@@ -266,7 +266,9 @@
   "shopping_complete_purchase_coming_soon": { "other": "{{.Date}}からご視聴いただけます。" },
   "shopping_complete_receipt": { "other": "領収証をEメールでお送りしました。" },
   "shopping_complete_library_link": { "other": "お客様のライブラリー内にある{{.BundleItems}} の作品をご視聴いただけます。" },
-
+  "shopping_complete_plan": {
+    "other": "{{ .Title }}購入は成功しました。"
+  },
   "shopping_complete_rental_watch_window_start": {
     "one": "本作品は明日中に限り視聴を開始いただけます。",
     "other": "本作品は{{.Count}} 日間、視聴を開始いただけます。"
@@ -436,5 +438,11 @@
   },
   "awards_in_competition": {
     "other": "競争中"
+  },
+  "awards_winner_of": {
+    "other": "の勝者"
+  },
+  "donate_button_text": {
+    "other": "寄付"
   }
 }

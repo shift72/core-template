@@ -301,7 +301,9 @@
   "shopping_complete_purchase_coming_soon": { "other": "Będzie można go oglądać od {{.Date}}." },
   "shopping_complete_receipt": { "other": "Potwierdzenie zostało wysłane do Ciebie e-mailem." },
   "shopping_complete_library_link": { "other": "Zacznij teraz oglądać dowolne z {{.BundleItems}} w swojej bibliotece." },
-
+  "shopping_complete_plan": {
+    "other": "Twój zakup {{ .Title }} powiódł się."
+  },
   "shopping_complete_rental_watch_window_start": {
     "one": "Możesz go obejrzeć do jutra.",
     "few": "Możesz zacząć go oglądać w ciągu następnych {{.Count}} dni.",
@@ -493,5 +495,11 @@
   },
   "awards_in_competition": {
     "other": "W zawodach"
+  },
+  "awards_winner_of": {
+    "other": "Zwycięzca"
+  },
+  "donate_button_text": {
+    "other": "Podarować"
   }
 }

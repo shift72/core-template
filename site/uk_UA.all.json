@@ -692,6 +692,9 @@
   "shopping_complete_library_link": {
    "other": "Подивитися вашу бібліотеку"
   },
+  "shopping_complete_plan": {
+    "other": "Ваша покупка {{ .Title }} була успішною."
+  },  
   "shopping_complete_rental_watch_window_start": {
    "one": "Тепер ви можете почати дивитися фільм протягом наступного дня.",
    "few": "Тепер ви можете почати дивитися фільм протягом наступних {{.Count}} днів.",
@@ -1185,5 +1188,11 @@
   },
   "awards_in_competition": {
     "other": "У конкурсі"
+  },
+  "awards_winner_of": {
+    "other": "Переможець"
+  },
+  "donate_button_text": {
+    "other": "Пожертвуйте"
   }
 }

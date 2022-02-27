@@ -3,6 +3,59 @@
 // This file contains any variables used by the site.
 // These variables should be reasonably generic so that overrides are placed in main.scss.
 
+:root {
+  --primary-rgb: 53, 160, 168;
+  --secondary-rgb: 76, 211, 221;
+  --body-color-rgb: 255, 255, 255;
+  --body-bg-rgb: 15, 15, 15;
+  --body-bg-accent-rgb: 25, 25, 25; // darken(body-bg, 10%) OR lighten(body-bg, 10%)
+  --link-color-hover-rgb: 217, 217, 217; // darken(body-color, 15%)
+  --input-focus-border-color-rgb: 131, 210, 216; // lighten(primary, 25%)
+
+  --primary: rgb(var(--primary-rgb));
+  --secondary: rgb(var(--secondary-rgb));
+  --body-color: rgb(var(--body-color-rgb));
+  --body-bg: rgb(var(--body-bg-rgb));
+  --body-bg-accent: rgb(var(--body-bg-accent-rgb));
+  --link-color: var(--body-color);
+  --link-color-hover: rgb(var(--link-color-hover-rgb));
+  --input-focus-border-color: rgb(var(--input-focus-border-color-rgb));
+
+  --navbar-brand-padding-y: 25px;
+  --navbar-brand-min-width: 126px;
+  --navbar-brand-min-width-md: 126px;
+  --navbar-brand-min-width-lg: 126px;
+  --navbar-brand-min-width-xl: 126px;
+
+  --carousel-height: 470px;
+  --carousel-height-sm: 470px;
+  --carousel-height-md: 620px;
+  --carousel-caption-top: 150px;
+  --carousel-caption-top-md: 175px;
+
+  --page-padding-top: 120px;
+  --page-padding-top-md: 120px;
+  --page-padding-top-lg: 180px;
+  --page-detail-padding-top: 120px;
+  --page-detail-padding-top-md: 120px;
+  --page-detail-padding-top-lg: 180px;
+}
+
+// Bootstrap 4 overrides START
+$input-btn-focus-color: rgba(var(--primary-rgb), 0.25) !default;
+$input-focus-border-color: var(--input-focus-border-color) !default;
+$custom-control-indicator-checked-disabled-bg: rgba(var(--primary-rgb), 0.5) !default;
+$progress-bar-bg: var(--primary) !default;
+$body-color: var(--body-color) !default;
+$body-bg: var(--body-bg) !default;
+$body-bg-accent: var(--body-bg-accent) !default;
+$error-color: var(--body-color) !default;
+$error-background: rgba(var(--body-color-rgb), 0.1) !default;
+$hr-border-color: rgba(var(--body-color-rgb), 0.5) !default;
+$list-group-bg: var(--body-bg) !default;
+$list-group-border-color: rgba(var(--body-color-rgb), 0.125) !default;
+// Bootstrap 4 overrides END
+
 // Bootstrap variables copied here, that some of the below are dependent on.
 $grid-gutter-width-base: 30px !default;
 
@@ -36,14 +89,22 @@ $spacer: math.div(5, 8) * 1rem; // 10px
 
 $spacers: (
   '0': 0,
-  'p5':  ($spacer * 0.5),  // 5px
-  'p75': ($spacer * 0.75), // 7.5px
-  '1':   $spacer,          // 10px
-  '2':   ($spacer * 2),    // 20px
-  '2p5': ($spacer * 2.5),  // 25px
-  '3':   ($spacer * 3),    // 30px
-  '4':   ($spacer * 4),    // 40px
-  '5':   ($spacer * 5),    // 50px
+  'p5': $spacer * 0.5,
+  // 5px
+  'p75': $spacer * 0.75,
+  // 7.5px
+  '1': $spacer,
+  // 10px
+  '2': $spacer * 2,
+  // 20px
+  '2p5': $spacer * 2.5,
+  // 25px
+  '3': $spacer * 3,
+  // 30px
+  '4': $spacer * 4,
+  // 40px
+  '5': $spacer * 5,
+  // 50px
 );
 
 // Neutral Colors
@@ -74,50 +135,43 @@ $border-radius: 4px !default;
 
 // Cookie Consent
 $cookie-consent-color: #000;
-$cookie-consent-link-color: $primary;
-$cookie-consent-hover-link-color: $secondary;
+$cookie-consent-link-color: var(--primary);
+$cookie-consent-hover-link-color: var(--secondary);
 
 // Nav
 // ------------------------------------
 $navbar-background-color: transparent !default;
-$navbar-show-background-color: $body-bg-accent !default;
-$navbar-dark-active-color: $primary !default;
+$navbar-show-background-color: var(--body-bg-accent) !default;
+$navbar-dark-active-color: var(--primary) !default;
 $navbar-nav-link-padding-x: 1em !default;
 $navbar-nav-link-padding-y: 1em !default;
-$navbar-search-background-color: $body-bg-accent !default;
+$navbar-search-background-color: var(--body-bg-accent) !default;
 
 // Uses navbar-dark theme so we can use variables for colouring
 $navbar-dark-active-color: #fd4766 !default;
-$navbar-dark-color: $body-color !default;
+$navbar-dark-color: var(--body-color) !default;
 $navbar-dark-hover-color: #fd4766 !default;
 
-// Navbar Logo (Brand)
-$navbar-brand-padding-y: 25px !default;
-$navbar-brand-min-width: 126px !default;
-$navbar-brand-min-width-md: 126px !default;
-$navbar-brand-min-width-lg: 126px !default;
-$navbar-brand-min-width-xl: 126px !default;
-
 // Sub Navivgation
-$subnav-nav-item-color: $body-color !default;
-$subnav-nav-item-hover-background-color: $primary !default;
-$subnav-nav-item-active-background-color: $primary !default;
-$subnav-dropdown-background: $body-bg-accent !default;
+$subnav-nav-item-color: var(--body-color) !default;
+$subnav-nav-item-hover-background-color: var(--primary) !default;
+$subnav-nav-item-active-background-color: var(--primary) !default;
+$subnav-dropdown-background: var(--body-bg-accent) !default;
 
 // Buttons
-$button-text-color: $body-color !default;
-$button-text-color-hover: $body-color !default;
-$button-background: $primary !default;
-$button-background-hover: $secondary !default;
-$trailer-button-text-color: $body-color !default;
-$mobile-nav-link-color: $body-color !default;
+$button-text-color: var(--body-color) !default;
+$button-text-color-hover: var(--body-color) !default;
+$button-background: var(--primary) !default;
+$button-background-hover: var(--secondary) !default;
+$trailer-button-text-color: var(--body-color) !default;
+$mobile-nav-link-color: var(--body-color) !default;
 
-$signin-text-color: $body-color !default;
-$signin-text-color-hover: $primary !default;
+$signin-text-color: var(--body-color) !default;
+$signin-text-color-hover: var(--primary) !default;
 $signin-border-color: transparent !default;
 $signin-border-color-hover: transparent !default;
-$signin-background: rgba($body-color, 0.1) !default;
-$signin-background-hover: rgba($body-color, 0.2) !default;
+$signin-background: rgba(var(--body-color-rgb), 0.1) !default;
+$signin-background-hover: rgba(var(--body-color-rgb), 0.2) !default;
 $signin-background-lg: transparent !default;
 $signin-background-hover-lg: transparent !default;
 
@@ -128,54 +182,39 @@ $signup-border-color-hover: transparent !default;
 $signup-background: $button-background !default;
 $signup-background-hover: $button-background-hover !default;
 
-$signout-background: rgba($body-color, 0.1) !default;
-$signout-background-hover: rgba($body-color, 0.2) !default;
-$signout-text-color: $body-color !default;
-$signout-text-color-hover: $body-color !default;
-
-$link-color: $body-color !default;
+$signout-background: rgba(var(--body-color-rgb), 0.1) !default;
+$signout-background-hover: rgba(var(--body-color-rgb), 0.2) !default;
+$signout-text-color: var(--body-color) !default;
+$signout-text-color-hover: var(--body-color) !default;
 
 // Image Gradient Overlays
-$top-gradient-color: $body-bg !default;
-$right-gradient-bg-color: $body-bg !default;
-$bottom-gradient-bg-color: $body-bg !default;
-$left-gradient-bg-color: $body-bg !default;
+$top-gradient-color: var(--body-bg-rgb) !default;
+$right-gradient-bg-color: var(--body-bg-rgb) !default;
+$bottom-gradient-bg-color: var(--body-bg-rgb) !default;
+$left-gradient-bg-color: var(--body-bg-rgb) !default;
 
 // Carousel
-$carousel-bg-color: $body-bg !default;
-$carousel-height: 470px !default;
-$carousel-height-sm: 470px !default;
-$carousel-height-md: 620px !default;
-$carousel-caption-top: 150px !default;
-$carousel-caption-top-md: 175px !default;
-
-// Pages
-$page-padding-top: 120px !default;
-$page-padding-top-md: 120px !default;
-$page-padding-top-lg: 180px !default;
-$page-detail-padding-top: 120px !default;
-$page-detail-padding-top-md: 120px !default;
-$page-detail-padding-top-lg: 180px !default;
+$carousel-bg-color: var(--body-bg) !default;
 
 // Footer
 $footer-brand-min-width: 100px !default;
 $footer-brand-min-width-md: 100px !default;
-$footer-bar-background-color: $body-bg-accent !default;
+$footer-bar-background-color: var(--body-bg-accent) !default;
 
 // Social
 // ------------------------------------
-$facebook-color: $body-color !default;
-$instagram-color: $body-color !default;
-$twitter-color: $body-color !default;
-$youtube-color: $body-color !default;
-$linkedin-color: $body-color !default;
-$letterboxd-color: $body-color !default;
+$facebook-color: var(--body-color) !default;
+$instagram-color: var(--body-color) !default;
+$twitter-color: var(--body-color) !default;
+$youtube-color: var(--body-color) !default;
+$linkedin-color: var(--body-color) !default;
+$letterboxd-color: var(--body-color) !default;
 
 // Meta Items
 // ------------------------------------
 $meta-item-border-radius: 3px !default;
 $featured-meta-item-body-padding: 10px !default;
-$meta-item-body-color: $body-color !default;
+$meta-item-body-color: var(--body-color) !default;
 $meta-item-tagline-classification-border-radius: $meta-item-border-radius !default;
 $meta-item-availability-tag-margin: 5px !default;
 

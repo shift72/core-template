@@ -265,6 +265,9 @@
   "shopping_complete_purchase_coming_soon": { "other": "Voit katsoa elokuvaa {{.Date}} alkaen." },
   "shopping_complete_receipt": { "other": "Kuitti on lähetetty sähköpostiisi." },
   "shopping_complete_library_link": { "other": "Selaa kirjastoasi" },
+  "shopping_complete_plan": {
+    "other": "{{ .Title }} onnistui."
+  },
 
   "shopping_complete_rental_watch_window_start": {
     "one": "Voit aloittaa katsomisen seuraavan päivän aikana.",
@@ -435,5 +438,11 @@
   },
   "awards_in_competition": {
     "other": "Kilpailussa"
+  },
+  "awards_winner_of": {
+    "other": "Voittaja"
+  },
+  "donate_button_text": {
+    "other": "Lahjoittaa"
   }
 }

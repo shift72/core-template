@@ -269,7 +269,9 @@
   "shopping_complete_rental_watch_window_end": { "other": "Kad započnete reprodukciju, imate {{.Count}} jedan sat za gledanje sadržaja, koliko puta želite." },
   "shopping_complete_rental_coming_soon": { "other": "Sadržaj možete gledati od {{.Date}} i vaša posudba traje {{.Count}} dana." },
   "shopping_complete_rental_coming_soon_watch_window_start": { "other": "Sadržaj možete gledati od {{.Date}} i vaša posudba traje {{.Count}} dana." },
-  
+  "shopping_complete_plan": {
+    "other": "Vaša kupnja {{ .Title }} je uspjela."
+  },
   "shopping_action_rent": { "other": "Posudi" },
   "shopping_action_buy": { "other": "Kupi" },
   
@@ -478,5 +480,11 @@
   },
   "awards_in_competition": {
     "other": "U natjecanju"
+  },
+  "awards_winner_of": {
+    "other": "Pobjednik od"
+  },
+  "donate_button_text": {
+    "other": "Donirajte"
   }
 }

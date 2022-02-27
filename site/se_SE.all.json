@@ -307,7 +307,9 @@
     "shopping_complete_purchase_coming_soon": { "other": "Моћи ћете да гледате од {{.Date}}." },
     "shopping_complete_receipt": { "other": "Рачун вам је послат имејлом." },
     "shopping_complete_library_link": { "other": "Почните са гледањем {{.BundleItems}} у вашој библиотеци." },
-  
+    "shopping_complete_plan": {
+      "other": "Ваша куповина {{ .Title }} је била успешна."
+    },
     "shopping_complete_rental_watch_window_start": {
       "one": "Можете да почнете са гледањем до краја наредног дана.",
       "other": "Можете да почнете са гледањем одмах или у наредних {{.Count}} дана."
@@ -559,10 +561,16 @@
     "plan_free_link_text": {
       "other": "Бесплатно се пријави"
     },
-  "awards_nominated_for": {
-    "other": "Номинован за"
-  },
-  "awards_in_competition": {
-    "other": "Ин Цомпетитион"
-  }
+    "awards_nominated_for": {
+      "other": "Номинован за"
+    },
+    "awards_in_competition": {
+      "other": "Ин Цомпетитион"
+    },
+    "awards_winner_of": {
+      "other": "Победник од"
+    },
+    "donate_button_text": {
+      "other": "Донирајте"
+    }
   }

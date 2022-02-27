@@ -1,7 +1,7 @@
 s72-slider .s72-slider-control,
 s72-userwishlist .s72-slider-control {
-  background-color: $primary;
-  border: 1px solid $primary;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
   border-radius: 50%;
   font-family: $font-family-base;
   height: $slider-control-height;
@@ -30,12 +30,6 @@ s72-userwishlist .s72-slider-control {
     position: absolute;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
-  }
-
-  &:hover,
-  &:active,
-  &:focus {
-    background: darken($primary, 7.5%);
   }
 }
 
@@ -72,7 +66,7 @@ s72-slider.has-next.s72-slider-scroll::after {
 /* stylelint-enable selector-no-qualifying-type */
 
 .slider-fade-in {
-  @include gradient-x(rgba($body-bg, 0.9), transparent, 0%, 100%);
+  @include gradient-x(rgba(var(--body-bg-rgb), 0.9), transparent, 0%, 100%);
   content: '';
   display: block;
   height: 100%;
@@ -86,7 +80,7 @@ s72-slider.has-next.s72-slider-scroll::after {
 
 .slider-fade-out {
   @extend .slider-fade-in;
-  @include gradient-x(transparent, rgba($body-bg, 0.9), 0%, 100%);
+  @include gradient-x(transparent, rgba(var(--body-bg-rgb), 0.9), 0%, 100%);
   left: auto;
   right: 0;
 }

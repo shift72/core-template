@@ -307,7 +307,10 @@
   "shopping_complete_purchase_coming_soon": { "other": "U kunt de film bekijken vanaf {{.Date}}." },
   "shopping_complete_receipt": { "other": "Er werd een ontvangstbewijs naar uw e-mailadres verstuurd." },
   "shopping_complete_library_link": { "other": "Begin nu met het bekijken van een van de {{.BundleItems}} in je bibliotheek." },
-
+  "shopping_complete_plan": {
+    "other": "Uw aankoop van {{ .Title }} was succesvol."
+  },
+  
   "shopping_complete_rental_watch_window_start": {
     "one": "U kunt nu binnen de volgende dag beginnen met kijken.",
     "other": "U kunt nu binnen de komende {{.Count}} dagen beginnen met kijken."
@@ -557,5 +560,11 @@
   },
   "awards_in_competition": {
     "other": "in competitie"
+  },
+  "awards_winner_of": {
+    "other": "Winnaar van"
+  },
+  "donate_button_text": {
+    "other": "Doneren"
   }
 }

@@ -699,6 +699,9 @@
   "shopping_complete_library_link": {
    "other": "Ver sua biblioteca"
   },
+  "shopping_complete_plan": {
+    "other": "Sua compra de {{ .Title }} foi bem-sucedida."
+  },  
   "shopping_complete_rental_watch_window_start": {
    "one": "Você pode começar a assistir durante o próximo dia.",
    "other": "Você pode começar a assistir durante os próximos{{.Count}} dias."
@@ -1255,5 +1258,11 @@
   },
   "awards_in_competition": {
     "other": "Em competição"
+  },
+  "awards_winner_of": {
+    "other": "Vencedor de"
+  },
+  "donate_button_text": {
+    "other": "Doar"
   }
  }

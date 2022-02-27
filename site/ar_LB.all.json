@@ -312,7 +312,9 @@
     "shopping_complete_purchase_coming_soon": { "other": "يمكن المشاهدة ابتداء من {{.Date}}." },
     "shopping_complete_receipt": { "other": "تم إرسال الإيصال عبر البريد الإلكتروني." },
     "shopping_complete_library_link": { "other": "عرض المكتبة" },
-  
+    "shopping_complete_plan": {
+      "other": "لقد نجحت عملية شرائك لـ {{ .Title }}"
+    },
     "shopping_complete_rental_watch_window_start": {
       "one": "يمكن الآن بدء المشاهدة حتى اليوم التالي.",
       "other": "يمكن الآن بدء المشاهدة في غضون الأيام الـ {{.Count}} القادمة."
@@ -588,5 +590,8 @@
     },
     "awards_in_competition": {
       "other": "في المنافسة"
+    },
+    "donate_button_text": {
+      "other": "يتبرع"
     }
   } 

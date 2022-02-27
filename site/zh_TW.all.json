@@ -693,6 +693,9 @@
   "shopping_complete_library_link": {
    "other": "瀏覽已付費影片"
   },
+  "shopping_complete_plan": {
+    "other": "您已成功{{ .Title }}"
+  },  
   "shopping_complete_rental_watch_window_start": {
    "one": "可於 1 天內開始觀看。",
    "other": "您可於 {{.Count}} 天內開始觀看。"
@@ -1248,5 +1251,11 @@
   },
   "awards_in_competition": {
     "other": "比賽中"
+  },
+  "awards_winner_of": {
+    "other": "获奖者"
+  },
+  "donate_button_text": {
+    "other": "捐"
   }
 }

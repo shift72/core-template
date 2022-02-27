@@ -1,15 +1,17 @@
 {
   "name": "@shift72/core-template",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Shift72 core template",
   "license": "MIT",
   "scripts": {
     "start": "npm run init && npm-run-all --parallel css:watch js:watch kibble:watch",
-    "init": "npm-run-all css js",
+    "init": "npm-run-all css css:local:get js",
     "css": "sass ./site/styles/main.scss ./site/static/styles/main.css --load-path=node_modules",
     "css:lint": "prettier 'site/styles/*.scss' --write && stylelint ./site/styles/*.scss --fix",
     "css:watch": "npm run css -- --watch",
     "css:build": "postcss ./site/static/styles/main.css --use autoprefixer --use cssnano -r",
+    "css:local:get": "node scripts/css-local-get.js",
+    "css:local:put": "node scripts/css-local-put.js",
     "js": "rollup -c",
     "js:lint": "prettier '{scripts,site/static/js}/**/!(modernizr-custom).js' --write && eslint ./site/static/js/*.js ./scripts --fix",
     "js:watch": "rollup -c -w",
@@ -34,7 +36,7 @@
   "dependencies": {
     "@rollup/plugin-buble": "^0.21.3",
     "autoprefixer": "^7.1.2",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.6.1",
     "concat": "^1.0.3",
     "cssnano": "^5.0.8",
     "del": "^6.0.0",
@@ -45,7 +47,7 @@
     "postcss-cli": "^9.0.1",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
-    "s72-kibble": "^0.15.22",
+    "s72-kibble": "^0.16.4",
     "sass": "^1.36.0"
   },
   "devDependencies": {
@@ -55,6 +57,7 @@
     "eslint-plugin-compat": "^3.13.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "form-data": "^4.0.0",
     "prettier": "^2.3.2",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",

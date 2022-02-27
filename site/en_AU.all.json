@@ -430,7 +430,7 @@
   "shopping_card_use_other": { "other": "Use a new card" },
   "shopping_card_use_new_card": { "other": "Change card" },
   "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
-  "shopping_card_new_subscription": { "other": "This card will saved and be charged regularly" },
+  "shopping_card_new_subscription": { "other": "This card will be saved and charged regularly" },
   "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 
   "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
@@ -453,6 +453,8 @@
 
   "shopping_complete_subscription": { "other": "Your subscription purchase was successful. You are now subscribed to {{.Title}}." },
   "shopping_complete_subscription_browse": { "other": "Feel free to <a href=\"/\">browse around</a> the site, or <a href=\"/search.html\">search</a> for something specific." },
+
+  "shopping_complete_plan": { "other": "Your purchase of {{.Title}} was successful." },
 
   "shopping_info_rental_period_coming_soon": { "other": "from the date and time of release." },
   "shopping_info_plan_offer": {
@@ -555,5 +557,8 @@
   "plan_free_link_text": { "other": "Sign up for free" },
 
   "awards_nominated_for": { "other": "Nominated for" },
-  "awards_in_competition": { "other": "In Competition" }
+  "awards_in_competition": { "other": "In Competition" },
+  "awards_winner_of": { "other": "Winner of" },
+
+  "donate_button_text": { "other": "Donate" }
 }

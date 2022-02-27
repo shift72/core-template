@@ -693,6 +693,9 @@
   "shopping_complete_purchase_coming_soon": {
    "other": "Podreu veure-ho des de {{.Date}}."
   },
+  "shopping_complete_plan": {
+    "other": "La teva compra de {{ .Title }} estat correcta."
+  },  
   "shopping_complete_receipt": {
    "other": "S'ha enviat un rebut per correu electrònic."
   },
@@ -1255,5 +1258,11 @@
   },
   "awards_in_competition": {
     "other": "En Competició"
+  },
+  "awards_winner_of": {
+    "other": "Guanyador de"
+  },
+  "donate_button_text": {
+    "other": "Donar"
   }
 }

@@ -287,6 +287,9 @@
   "shopping_complete_purchase_coming_soon": { "other": "Ab dem {{.Date}} können Sie den Film ansehen." },
   "shopping_complete_receipt": { "other": "Die Rechnung wurde Ihnen per Email zugeschickt." },
   "shopping_complete_library_link": { "other": "Sehen Sie Ihre Bibliothek" },
+  "shopping_complete_plan": {
+    "other": "Ihr Kauf von {{ .Title }} war erfolgreich."
+  },  
 
   "shopping_complete_rental_watch_window_start": {
     "one": "Ab jetzt können Sie den geliehenen Film bis zum nächsten Tag ansehen.",
@@ -471,5 +474,11 @@
   },
   "awards_in_competition": {
     "other": "Im Wettbewerb"
+  },
+  "awards_winner_of": {
+    "other": "Gewinner von"
+  },
+  "donate_button_text": {
+    "other": "Spenden"
   }
 }
