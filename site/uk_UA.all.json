@@ -748,6 +748,7 @@
   "meta_detail_subtitles": {
    "other": "Субтитри"
   },
+  "meta_detail_captions": { "other": "Субтитри [CC]" },
   "meta_detail_episodes_title": {
    "other": "Епізоди"
   },

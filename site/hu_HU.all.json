@@ -323,6 +323,7 @@
     "meta_detail_studios": { "one": "Gyártó", "other": "Gyártó" },
     "meta_detail_countries": { "one": "Ország", "other": "Ország" },
     "meta_detail_subtitles": { "other": "Felirat" },
+    "meta_detail_captions": { "other": "Felirat [CC]" },
     "meta_detail_episodes_title": { "other": "Epizódok" },
     "meta_detail_bonus_title": { "other": "Extra tartalom" },
     "meta_detail_recommendations_title": { "other": "Talán ez is tetszene" },

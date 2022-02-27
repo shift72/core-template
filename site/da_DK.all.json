@@ -725,6 +725,7 @@
   "meta_detail_subtitles": {
     "other": "Undertekster"
   },
+  "meta_detail_captions": { "other": "Undertekster [CC]" },
   "meta_detail_episodes_title": {
     "other": "Episodes"
   },

@@ -336,6 +336,7 @@
     "meta_detail_studios": { "one": "Студио", "other": "Студији" },
     "meta_detail_countries": { "one": "Држава", "other": "Државе" },
     "meta_detail_subtitles": { "other": "Титлови" },
+    "meta_detail_captions": { "other": "Титлови [CC]" },
     "meta_detail_episodes_title": { "other": "Епизоде" },
     "meta_detail_bonus_title": { "other": "Додатни садржај" },
     "meta_detail_recommendations_title": { "other": "Можда Вам се допадне" },

@@ -760,6 +760,9 @@
   "meta_detail_subtitles": {
    "other": "Legendas"
   },
+  "meta_detail_captions": {
+    "other": "Legendas [CC]"
+   },
   "meta_detail_episodes_title": {
    "other": "Episódios"
   },

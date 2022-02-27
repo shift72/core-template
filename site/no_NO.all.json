@@ -323,6 +323,7 @@
     "meta_detail_studios": { "one": "Distributører", "other": "Distributør" },
     "meta_detail_countries": { "one": "Land", "other": "Land" },
     "meta_detail_subtitles": { "other": "Undertekster" },
+    "meta_detail_captions": { "other": "Undertekster [CC]" },
     "meta_detail_episodes_title": { "other": "Episoder" },
     "meta_detail_bonus_title": { "other": "Bonusinnhold" },
     "meta_detail_recommendations_title": { "other": "Relaterte filmer" },

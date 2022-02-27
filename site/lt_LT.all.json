@@ -336,6 +336,7 @@
   "meta_detail_studios": { "one": "Kompanija", "other": "Kompanijos" },
   "meta_detail_countries": { "one": "Šalis", "other": "Šalys" },
   "meta_detail_subtitles": { "other": "Subtitrai" },
+  "meta_detail_captions": { "other": "Subtitrai [CC]" },
   "meta_detail_episodes_title": { "other": "Epizodai" },
   "meta_detail_bonus_title": { "other": "Specialus papildomas turinys" },
   "meta_detail_recommendations_title": { "other": "Taip pat gali patikti" },

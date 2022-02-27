@@ -320,6 +320,7 @@
     "meta_detail_studios": { "one": "Estúdio", "other": "Estúdios" },
     "meta_detail_countries": { "one": "País", "other": "Países" },
     "meta_detail_subtitles": { "other": "Legendas" },
+    "meta_detail_captions": { "other": "Legendas [CC]" },
     "meta_detail_episodes_title": { "other": "Episódios" },
     "meta_detail_bonus_title": { "other": "Conteúdo Adicional" },
     "meta_detail_recommendations_title": { "other": "Você também pode gostar de..." },

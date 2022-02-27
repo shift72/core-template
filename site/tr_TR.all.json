@@ -324,6 +324,7 @@
     "meta_detail_studios": { "one": "Stüdyo", "other": "Stüdyolar" },
     "meta_detail_countries": { "one": "Ülke", "other": "Ülkeler" },
     "meta_detail_subtitles": { "other": "Altyazılar" },
+    "meta_detail_captions": { "other": "Altyazılar [CC]" },
     "meta_detail_episodes_title": { "other": "Bölümler" },
     "meta_detail_bonus_title": { "other": "Bonus İçerik" },
     "meta_detail_recommendations_title": { "other": "Bunu da beğenebilirsiniz" },

@@ -323,6 +323,7 @@
     "meta_detail_studios": { "one": "Stuudiod", "other": "Stuudiod" },
     "meta_detail_countries": { "one": "Riigid", "other": "Riigid" },
     "meta_detail_subtitles": { "other": "Subtiitrid" },
+    "meta_detail_captions": { "other": "Subtiitrid [CC]" },
     "meta_detail_episodes_title": { "other": "Episoodid" },
     "meta_detail_bonus_title": { "other": "Lisasisu" },
     "meta_detail_recommendations_title": { "other": "Sulle võib veel meeldida" },

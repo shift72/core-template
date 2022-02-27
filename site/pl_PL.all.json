@@ -336,6 +336,7 @@
   "meta_detail_studios": { "one": "Studio", "other": "Studio" },
   "meta_detail_countries": { "one": "Kraj", "other": "Kraje" },
   "meta_detail_subtitles": { "other": "Napisy" },
+  "meta_detail_captions": { "other": "Napisy [CC]" },
   "meta_detail_episodes_title": { "other": "Odcinki" },
   "meta_detail_bonus_title": { "other": "Materiał dodatkowy" },
   "meta_detail_recommendations_title": { "other": "Propozycje dla Ciebie" },

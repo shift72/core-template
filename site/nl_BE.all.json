@@ -337,6 +337,7 @@
   "meta_detail_studios": { "one": "Studio", "other": "Studios" },
   "meta_detail_countries": { "one": "Land", "other": "Landen" },
   "meta_detail_subtitles": { "other": "Ondertitels" },
+  "meta_detail_captions": { "other": "Ondertitels [CC]" },
   "meta_detail_episodes_title": { "other": "Afleveringen" },
   "meta_detail_bonus_title": { "other": "Bonusinhoud" },
   "meta_detail_recommendations_title": { "other": "Dit vindt u misschien ook leuk" },

@@ -320,6 +320,7 @@
   "meta_detail_studios": { "one": "Productora", "other": "Productoras" },
   "meta_detail_countries": { "one": "País", "other": "Países" },
   "meta_detail_subtitles": { "other": "Subtítulos" },
+  "meta_detail_captions": { "other": "Subtítulos [CC]" },
   "meta_detail_episodes_title": { "other": "Capítulos" },
   "meta_detail_bonus_title": { "other": "Contenido adicional" },
   "meta_detail_recommendations_title": { "other": "Te podría interesar" },
