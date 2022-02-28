@@ -168,11 +168,11 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     font-size: 12px;
+    font-weight: $font-weight-bold;
     margin-left: 0;
     padding-bottom: 0;
     padding-left: 8px;
     padding-top: 0;
-    font-weight: $font-weight-bold;
 
     &::before {
       display: none;

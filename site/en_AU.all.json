@@ -416,12 +416,11 @@
   "users_gender_diverse": { "other": "Diverse" },
   "users_gender_other": { "other": "Other" },
 
-  "plan_label_owned": { "other": "" },
 
-  "pricing_quality_hd": { "other": "pricing_quality_hd" },
-  "pricing_quality_sd": { "other": "pricing_quality_sd" },
-  "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
-  "pricing_quality_sd_only": { "other": "pricing_quality_sd_only" },
+  "pricing_quality_hd": { "other": "HD" },
+  "pricing_quality_sd": { "other": "SD" },
+  "pricing_quality_hd_only": { "other": "HD Only" },
+  "pricing_quality_sd_only": { "other": "SD Only" },
 
   "shopping_card_save_card": { "other": "Save this card for future use" },
   "shopping_card_button_change": { "other": "Show all saved cards" },
@@ -434,7 +433,7 @@
   "shopping_card_new_subscription": { "other": "This card will be saved and charged regularly" },
   "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 
-  "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
+  "shopping_info_ownership_plan": { "other": "Subscription"},
 
   "shopping_price_title_plan": { "other": "Price" },
   "shopping_price_plan_note": {
@@ -449,7 +448,7 @@
 
   "shopping_enter_card_prompt_plan": { "other": "Enter your credit card details below in order start your subscription." },
 
-  "shopping_action_credit": { "other": "shopping_action_credit" },
+  "shopping_action_credit": { "other": "Top up" },
   "shopping_action_plan": { "other": "Complete" },
 
   "shopping_complete_subscription": { "other": "Your subscription purchase was successful. You are now subscribed to {{.Title}}." },
@@ -467,20 +466,20 @@
     "other": "Try your free {{.Count}} day trial!"
   },
 
-  "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
-  "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
-  "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
+  "usersubscriptions_change_payment_method_change": { "other": "Change Credit Card" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "Update credit card details" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "Update" },
 
-  "usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
+  "usersubscriptions_subscription_expiry": { "other": "Expires {{.Expiry}}" },
   "usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
   "usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
   "usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
-  "usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
-  "usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
-  "usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
-  "usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
-  "usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
-  "usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
+  "usersubscriptions_subscription_status_trialing": { "other": "Trial Period" },
+  "usersubscriptions_subscription_unsubscribe": { "other": "Cancel my subscription" },
+  "usersubscriptions_unsubscribe_modal_cancel": { "other": "Cancel" },
+  "usersubscriptions_unsubscribe_modal_confirm": { "other": "Yes, cancel my subscription" },
+  "usersubscriptions_unsubscribe_modal_title": { "other": "Cancel subscription?" },
+  "usersubscriptions_unsubscribe_modal_body": { "other": "This will cancel the subscription to the {{.Name}} plan. You will still be able to watch the content in the plan until it expires {{.Expiry}}." },
 
 
   "availability_coming_soon": { "other": "Coming soon" },
@@ -562,4 +561,5 @@
   "awards_winner_of": { "other": "Winner of" },
 
   "donate_button_text": { "other": "Donate" }
+
 }
