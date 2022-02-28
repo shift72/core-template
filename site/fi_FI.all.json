@@ -59,7 +59,7 @@
   "social_media_buttons_copied_link": { "other": "Linkki kopioitu leikepöydälle!" },
   "social_media_buttons_copy_link": { "other": "Kopioi leikepöydälle" },
 
-  "accept_invite_page_header": { "other": "Tervetuloa" },
+  "accept_invite_page_header": { "other": "Tervetuloa " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Vaikuttaa siltä, että olet jo käyttänyt tämän kutsun. Kokeile <a href=\"signin.html\">kirjautua sisään</a> palveluun. Jos olet unohtanut salasanasi, voit <a href=\"forgotpassword.html\">tilata uuden salasanan</a>." },
   "acceptinvite_complete": { "other": "Kiitos. Tilisi on luotu." },
   "acceptinvite_form_submit": { "other": "Hyväksy kutsu" },
@@ -445,5 +445,157 @@
   },
   "donate_button_text": {
     "other": "Lahjoittaa"
-  }
+  },
+  "wcag_skip_links_header": { "other": "Accessibility Links" },
+  "wcag_skip_links_content": { "other": "Skip to Content" },
+  "wcag_skip_links_footer": { "other": "Skip to Footer" },
+
+  "wcag_homepage_h1": { "other": "Homepage" },
+  "wcag_carousel_h2": { "other": "Carousel" },
+  "wcag_collections_h2": { "other": "Collections" },
+
+  "wcag_aria_label_footer": { "other": "Footer" },
+  "wcag_aria_label_nav_main": { "other": "Main" },
+  "wcag_aria_label_nav_sub": { "other": "Sub" },
+  "wcag_aria_label_toggle_nav": { "other": "Toggle Navigation" },
+  "wcag_aria_label_bundle_items": { "other": "Bundle Items" },
+  "wcag_aria_label_carousel": { "other": "Carousel" },
+  "wcag_aria_label_page_collection": { "other": "Page Collection" },
+  "wcag_aria_label_collection_list": { "other": "Collection List" },
+  "wcag_aria_label_collection_slider": { "other": "Collection Slider" },
+  "wcag_aria_label_wishlist": { "other": "Wishlist" },
+  "wcag_aria_label_facebook": { "other": "Share on Facebook" },
+  "wcag_aria_label_twitter": { "other": "Share on Twitter" },
+  "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
+  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+  
+  "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+  "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+  "shopping_payment_method_header": { "other": "Payment methods" },
+  "shopping_payment_method_credit_card": { "other": "Credit card" },
+  "shopping_payment_method_giropay": { "other": "Giropay" },
+  "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
+  "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
+
+  "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
+
+  "account_form_pin_code": { "other": "PIN" },
+  "account_form_pin_code_not_set": { "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles."},
+  "account_form_set_pin": { "other": "Set PIN" },
+  "account_form_pin_changed": { "other": "Updated" },
+  "account_form_change_pin": { "other": "Change PIN" },
+
+  "user_set_pin_header": { "other": "Set your PIN" },
+  "user_set_pin_button": { "other": "Set PIN" },
+  "user_submit_pin_heading": { "other": "Enter your PIN to {{.Action}} this restricted content" },
+  "user_error_wrong_pin_retry": { "other": "Oops, you have entered an incorrect PIN" },
+  "user_submit_pin_button": { "other": "Enter" },
+  "user_reset_pin_button": { "other": "Reset PIN" },
+
+  "validation_pincode1_required": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_required": { "other": "Please enter a valid PIN code." },
+  "validation_pincode1_pattern": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_pattern": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_match": { "other": "PIN code does not match." },
+
+  "userdevices_delete_limits": { "other": "You can remove {{.Limit}} device(s) from this list every {{.Period}} day(s)."},
+  "userdevices_delete_limit_reached": { "other": "You have reached this limit and can't remove any devices right now. You can delete a device in {{.Days}} day(s)." },
+  "shopping_card_new_subscription": { "other": "This card will be saved and charged regularly" },
+
+"changepincode_modal_header": { "other": "Change your PIN" },
+"changepincode_modal_currentpassword": { "other": "Your current password" },
+"changepincode_modal_pincode1": { "other": "Your new 4 digit PIN" },
+"changepincode_modal_pincode2": { "other": "Confirm your new 4 digit PIN" },
+"changepincode_modal_submit": { "other": "Set PIN" },
+"changepincode_modal_error_wrong_password": { "other": "That password is incorrect." },
+
+"user_set_pin_intro": { "other": "You need a PIN to {{.Action}} restricted content"},
+"user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
+"user_error_too_many_pin_errors_help_page_link": { "other": "" },
+"shopping_error_age_restricted": { "other": "This content is age restricted." },
+"shopping_error_close_button": { "other": "OK" }, 
+
+"usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
+"usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
+"usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
+"usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
+"usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
+"usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
+"usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
+"usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
+"usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
+"usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
+
+"signin_form_error_account_suspended": { "other": "Your account has been temporarily suspended. Please contact an admin if you believe this is in error." },
+
+
+
+
+"pricing_quality_hd": { "other": "pricing_quality_hd" },
+  "pricing_quality_sd": { "other": "pricing_quality_sd" },
+  "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
+  "pricing_quality_sd_only": { "other": "pricing_quality_sd_only" },
+
+  "shopping_card_save_card": { "other": "Save this card for future use" },
+  "shopping_card_button_change": { "other": "Show all saved cards" },
+  "shopping_card_existing_description": { "other": "{{.Card.Brand}} ending in {{.Card.Number}}" },
+  "shopping_card_existing_expiry": { "other": "(expires {{.Card.Expiry}})" },
+  "shopping_card_existing_expired": { "other": "(expired)" },
+  "shopping_card_use_other": { "other": "Use a new card" },
+  "shopping_card_use_new_card": { "other": "Change card" },
+  "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
+  "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
+  "shopping_action_credit": { "other": "shopping_action_credit" },
+
+  "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
+
+  "seasons":{
+    "one": "one season",
+    "other": "{{.Count}} seasons"
+  },"tvseason": {
+    "other": "{{.ShowInfo.Title}} Season {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>Season {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "Season {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "1 Episode",
+    "other": "{{.Count}} Episodes"
+  },
+
+  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+  "validation_pincode_required": { "other": "Please enter a PIN code." },
+
+  "shopping_info_subtitle_hd": { "other": "HD Video on Demand." },
+  "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
+  "shopping_info_subtitle_wallet": { "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus." },
+ 
+  "shopping_info_sd_only": { "other": "Limited to SD playback only." },
+  "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
+
+  "activatedevice_page_header": { "other": "Activate Device" },
+  "activatedevice_page_content": { "other": "Follow the instructions on your device to get a PIN code. Your computer and device must both be connected to the internet to activate." },
+  "activatedevice_form_pin": { "other": "PIN Code" },
+  "activatedevice_form_submit": { "other": "Activate" },
+  "activatedevice_form_error_invalid_code": { "other": "PIN Code not found, please try again." },
+  "activatedevice_form_error_pin_not_found": { "other": "PIN Code not found, please try again." },
+  "activatedevice_signin_prompt": { "other": "Please sign in before activating your device." },
+  "activatedevice_page_activated": { "other": "Thank you for activating {{.DeviceName}}. You should now be able to browse your library on your television or device." },
+
+  "playlist_page_header": { "other": "Playlist" },
+  "playlist_sign_in_warning": { "other": "Please sign in to watch live TV."},
+  "playlist_share_title": { "other": "Playlist" },
+  "playlist_up_next_title": { "other": "Up Next" },
+  "classification_divider": { "other": " - " },
+  "classification_outro": { "other": "" },
+  "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" }
+
 }

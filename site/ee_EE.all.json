@@ -81,7 +81,7 @@
     "social_media_buttons_copied_link": { "other": "Link on lõikelauale kopeeritud!" },
     "social_media_buttons_copy_link": { "other": "Kopeerida lõikelauale" },
 
-    "accept_invite_page_header": { "other": "Tere tulemast" },
+    "accept_invite_page_header": { "other": "Tere tulemast " },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Näib, et sa oled kutse juba vastu võtnud. Sa peaksid hoopis <a href=\"{{.SigninURL}}\">sisse logima</a>. Kui oled salasõna unustanud, saad selle <a href=\"{{.ForgotPasswordURL}}\">uuendada</a>." },
     "acceptinvite_complete": { "other": "Aitäh! Sinu konto on loodud." },
     "acceptinvite_form_submit": { "other": "Võta kutse vastu." },
@@ -386,8 +386,7 @@
     "users_gender_male": { "other": "Mees" },
     "users_gender_diverse": { "other": "Sooneutraalne" },
     "users_gender_other": { "other": "Muu" },
-  
-    "plan_label_owned": { "other": "" },
+
   
     "pricing_quality_hd": { "other": "pricing_quality_hd" },
     "pricing_quality_sd": { "other": "pricing_quality_sd" },
@@ -404,21 +403,10 @@
   
     "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
   
-    "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-    "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-    "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
-  
-    "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
-  
     "shopping_action_credit": { "other": "shopping_action_credit" },
-    "shopping_action_plan": { "other": "shopping_action_plan" },
-  
-    "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-    "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
-  
+
     "shopping_info_rental_period_coming_soon": { "other": "alates avaldamise kuupäevast ja kellaajast." },
-    "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-    "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
+
   
     "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
     "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
@@ -539,6 +527,76 @@
     },
     "donate_button_text": {
       "other": "Anneta"
-    }
+    },
+    "wcag_skip_links_header": { "other": "Accessibility Links" },
+    "wcag_skip_links_content": { "other": "Skip to Content" },
+    "wcag_skip_links_footer": { "other": "Skip to Footer" },
+  
+    "wcag_homepage_h1": { "other": "Homepage" },
+    "wcag_carousel_h2": { "other": "Carousel" },
+    "wcag_collections_h2": { "other": "Collections" },
+  
+    "wcag_aria_label_footer": { "other": "Footer" },
+    "wcag_aria_label_nav_main": { "other": "Main" },
+    "wcag_aria_label_nav_sub": { "other": "Sub" },
+    "wcag_aria_label_toggle_nav": { "other": "Toggle Navigation" },
+    "wcag_aria_label_bundle_items": { "other": "Bundle Items" },
+    "wcag_aria_label_carousel": { "other": "Carousel" },
+    "wcag_aria_label_page_collection": { "other": "Page Collection" },
+    "wcag_aria_label_collection_list": { "other": "Collection List" },
+    "wcag_aria_label_collection_slider": { "other": "Collection Slider" },
+    "wcag_aria_label_wishlist": { "other": "Wishlist" },
+    "wcag_aria_label_facebook": { "other": "Share on Facebook" },
+    "wcag_aria_label_twitter": { "other": "Share on Twitter" },
+    "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
+    "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+    
+    "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+    "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+    "shopping_payment_method_header": { "other": "Payment methods" },
+    "shopping_payment_method_credit_card": { "other": "Credit card" },
+    "shopping_payment_method_giropay": { "other": "Giropay" },
+    "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
+    "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
+
+    "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
+
+    "account_form_pin_code": { "other": "PIN" },
+    "account_form_pin_code_not_set": { "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles."},
+    "account_form_set_pin": { "other": "Set PIN" },
+    "account_form_pin_changed": { "other": "Updated" },
+    "account_form_change_pin": { "other": "Change PIN" },
+
+    "user_set_pin_header": { "other": "Set your PIN" },
+    "user_set_pin_button": { "other": "Set PIN" },
+    "user_submit_pin_heading": { "other": "Enter your PIN to {{.Action}} this restricted content" },
+    "user_error_wrong_pin_retry": { "other": "Oops, you have entered an incorrect PIN" },
+    "user_submit_pin_button": { "other": "Enter" },
+    "user_reset_pin_button": { "other": "Reset PIN" },
+
+    "validation_pincode1_required": { "other": "Please enter a valid PIN code." },
+    "validation_pincode2_required": { "other": "Please enter a valid PIN code." },
+    "validation_pincode1_pattern": { "other": "Please enter a valid PIN code." },
+    "validation_pincode2_pattern": { "other": "Please enter a valid PIN code." },
+    "validation_pincode2_match": { "other": "PIN code does not match." },
+  
+    "userdevices_delete_limits": { "other": "You can remove {{.Limit}} device(s) from this list every {{.Period}} day(s)."},
+    "userdevices_delete_limit_reached": { "other": "You have reached this limit and can't remove any devices right now. You can delete a device in {{.Days}} day(s)." },
+    "shopping_card_new_subscription": { "other": "This card will be saved and charged regularly" },
+
+  "changepincode_modal_header": { "other": "Change your PIN" },
+  "changepincode_modal_currentpassword": { "other": "Your current password" },
+  "changepincode_modal_pincode1": { "other": "Your new 4 digit PIN" },
+  "changepincode_modal_pincode2": { "other": "Confirm your new 4 digit PIN" },
+  "changepincode_modal_submit": { "other": "Set PIN" },
+  "changepincode_modal_error_wrong_password": { "other": "That password is incorrect." },
+
+  "user_set_pin_intro": { "other": "You need a PIN to {{.Action}} restricted content"},
+  "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
+  "user_error_too_many_pin_errors_help_page_link": { "other": "" },
+  "shopping_error_age_restricted": { "other": "This content is age restricted." },
+  "shopping_error_close_button": { "other": "OK" },
+
+  "availability_expired": { "other": "Expired"}
   }
   
