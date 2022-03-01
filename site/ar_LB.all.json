@@ -1,14 +1,14 @@
 {
     "site_owner": { "other": "ABC Cinemas" },
-    "settings_title": { "other": "Settings" },
+    "settings_title": { "other": "إعدادات" },
     "powered_by": { "other": "مشغل بواسطة" },
     "powered_by_name": { "other": "Shift72" },
     "powered_by_url": { "other": "https://www.shift72.com" },
     "in_partnership_with": { "other": "بالشراكة مع/ بالتعاون مع" },
     "festival_scope": { "other": "Festival Scope" },
     "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
-    "en": { "other": "English" },
-    "fr": { "other": "French" },
+    "en": { "other": "إنجليزي" },
+    "fr": { "other": "الفرنسية" },
   
     "episode_name": {
       "other": "حلقة"
@@ -217,18 +217,18 @@
     "shopping_info_ownership_rent": { "other": "استئجار" },
   
     "shopping_info_sd_only": { "other": "يقتصر على تشغيل SD فقط." },
-    "shopping_info_release_date_title": { "other": "الإصدارات  {{.Date}}." },
+    "shopping_info_release_date_title": { "other": "الإصدارات  {{.Date}}. " },
     "shopping_info_release_date_explanation_rent": { "other": "يمكنك الاستئجار الآن ، لكنك لن تتمكن من المشاهدة حتى ذلك الحين." },
     "shopping_info_release_date_explanation_buy": { "other": "يمكنك الشراء الآن ، لكنك لن تتمكن من المشاهدة حتى ذلك الحين." },
   
-    "shopping_info_available_until_date_title": { "other": "صالح لغاية {{.Date}}." },
+    "shopping_info_available_until_date_title": { "other": "صالح لغاية {{.Date}}. " },
     "shopping_info_available_until_date_explanation_rent": { "other": "لن تتمكن من عرض المحتوى بعد ذلك." },
     "shopping_info_available_until_date_explanation_buy": { "other": "لن تتمكن من عرض المحتوى بعد ذلك." },
   
     "duration_hour": { "one": "1 ساعة", "other": "{{.Count}} ساعة" },
     "duration_day": { "one": "1 يوم", "other": "{{.Count}} يوما" },
-    "shopping_info_rental_period_duration": { "other": "تأجير لمدة {{.ValueUnit}}" },
-    "shopping_info_watch_window_duration": { "other": "تشغيل لمدة {{.Count}} ساعة." },
+    "shopping_info_rental_period_duration": { "other": "تأجير لمدة {{.ValueUnit}} " },
+    "shopping_info_watch_window_duration": { "other": "تشغيل لمدة {{.Count}} ساعة. " },
     "shopping_info_watch_window_explanation_film": {
       "one": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة {{.ValueUnit}}.",
       "other": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة {{.ValueUnit}}."
@@ -586,7 +586,7 @@
 
     "wcag_aria_label_letterboxd": { "other": "عرض على Letterboxd" },
 
-    "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
+    "header_banner": { "other": "سينما ABC - مهرجان الفيلم الحادي والعشرون ، 1-6 يونيو 2021" },
     "app_badge_title": { "other": "قم بتنزيل التطبيق لعرض المحتوى الذي اشتريته!" },
     "app_badge_ios": { "other": "قم بالتحميل من متجر البرامج" },
     "app_badge_android": { "other": "احصل عليه من متجر جوجل للتطبيقات" },
