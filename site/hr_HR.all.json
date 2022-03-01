@@ -1,8 +1,14 @@
 {
   "site_owner": { "other": "ABC Cinemas" },
-    "settings_title": { "other": "Settings" },
+  "settings_title": { "other": "Settings" },
   "powered_by": { "other": "Sadržaj omogućio" },
+  "powered_by_name": { "other": "Shift72" },
+  "powered_by_url": { "other": "https://www.screenplus.com" },
   "in_partnership_with": { "other": "u suradnji s" },
+  "festival_scope": { "other": "Festival Scope" },
+  "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
+  "en": { "other": "English" },
+  "fr": { "other": "French" },
 
   "episode_name": { "other": "Epizoda" },
 
@@ -32,6 +38,7 @@
   "nav_account": { "other": "Moj račun" },
   "nav_signout": { "other": "Odjava" },
   "play_trailer": { "other": "Trailer" },
+  "header_banner": { "other": "ABC Cinemas – 21. filmski festival, 1. – 6. lipnja 2021" },
   "runtime_hours": { "other": "h" },
   "runtime_minutes": { "other": "min" },
 
@@ -161,7 +168,7 @@
   "searchresults_total": { "other": "Pronađeno {{.Count}} rezultata za \"{{.Query}}\"." },
   "searchresults_empty_header": { "other": "Nema rezultata pretrage za \"{{.Query}}\"" },
   "searchresults_empty_content": { "other": "Pokušajte s drugim terminom za pretragu ili <a href=\"{{.HomeURL}}\">pretražite sadržaje</a> kako bi pronašli ono što tražite." },
-  
+
   "validation_name_required": { "other": "Molimo unesite ime." },
   "validation_email_required": { "other": "Molimo unesite email adresu." },
   "validation_email_email": { "other": "Molimo unesite valjanu email adresu." },
@@ -213,9 +220,10 @@
   "shopping_info_watch_window_explanation2_season": { "other": "Nakon pokretanja epizode, otvara se prozor prikazivanja i imate na raspolaganju {{.Count}} sati za gledanje epizode, koliko puta želite." },
   
   "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },
-  "shopping_enter_card_prompt": { "other": "Unesite podatke s vaše kreditne kartice za završetak {{.Verb}}." },
-  "shopping_terms": { "other": "Izvršavanjem transakcije, prihvaćam <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">uvjete korištenja</a>." },
 
+  "shopping_enter_card_prompt": { "other": "Unesite podatke s vaše kreditne kartice za završetak {{.Verb}}." },
+
+  "shopping_terms": { "other": "Izvršavanjem transakcije, prihvaćam <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">uvjete korištenja</a>." },
   "shopping_discount_applied": { "other": "{{.DiscountAmount}} popust iskorišten." },
   "shopping_discount_apply": { "other": "Iskoristi" },
   "shopping_discount_code": { "other": "Unesite promotivni kod." },
@@ -224,6 +232,7 @@
   "shopping_price_you_pay": { "other": "Plaćate" },
   "shopping_price_nothing": { "other": "Ništa" },
   "shopping_price_free": { "other": "Besplatno" },
+  
   "shopping_auth_directions": { "other": "Potreban je korisnički račun. Molimo unesite email adresu." },
 
   "shopping_error_in_library": { "other": "{{.Title}} se već nalazi u vašoj zbirci." },
@@ -493,28 +502,23 @@
   "shopping_error_plan_expired": { "other": "This plan is no longer available." },
 
   "usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
-"usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
-"usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
-"usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
-"usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
-"usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
-"usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
-"usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
-"usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
-"usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
+  "usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
+  "usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
+  "usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
+  "usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
+  "usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
+  "usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
+  "usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
+  "usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
+  "usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
 
-"powered_by_name": { "other": "Shift72" },
-"powered_by_url": { "other": "https://www.screenplus.com" },
-"festival_scope": { "other": "Festival Scope" },
-"festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
-"en": { "other": "English" },
-"fr": { "other": "French" },
 
-"nav_homepage": { "other": "ABC Cinemas" },
-"header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
 
-"classification_divider": { "other": " - " },
-"classification_outro": { "other": "" },
+  "nav_homepage": { "other": "ABC Cinemas" },
+
+
+  "classification_divider": { "other": " - " },
+  "classification_outro": { "other": "" },
 
   "pricing_quality_hd": { "other": "pricing_quality_hd" },
   "pricing_quality_sd": { "other": "pricing_quality_sd" },
