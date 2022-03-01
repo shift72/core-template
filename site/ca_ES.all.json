@@ -147,7 +147,7 @@
   "social_media_buttons_copied_link": { "other": "S'ha copiat l'enllaç al porta-retalls!" },
   "social_media_buttons_copy_link": { "other": "Copiar al portapapers" },
   "accept_invite_page_header": {
-   "other": "Benvingut"
+   "other": "Benvingut "
   },
   "acceptinvite_form_invalid_reset_password_token": {
    "other": "Sembla que ja heu reclamat aquesta invitació, haureu de fer <a href=\"{{.SigninURL}}\">inicia la sessió</a> en canvi. Si heu oblidat la vostra contrasenya, també podeu <a href=\"{{.ForgotPasswordURL}}\">restablir la contrasenya</a>."
@@ -760,6 +760,7 @@
   "meta_detail_subtitles": {
    "other": "Subtítols"
   },
+  "meta_detail_captions": { "other": "Subtítols [CC]" },
   "meta_detail_episodes_title": {
    "other": "Episodis"
   },
@@ -917,9 +918,6 @@
   "users_gender_other": {
    "other": "Altre"
   },
-  "plan_label_owned": {
-   "other": ""
-  },
   "pricing_quality_hd": {
    "other": "pricing_quality_hd"
   },
@@ -965,38 +963,11 @@
   "shopping_info_ownership_plan": {
    "other": "shopping_info_ownership_plan"
   },
-  "shopping_price_title_plan": {
-   "other": "shopping_price_title_plan"
-  },
-  "shopping_price_plan_note": {
-   "other": "shopping_price_plan_note"
-  },
-  "shopping_price_plan_note_interval": {
-   "other": "shopping_price_plan_note_interval"
-  },
-  "shopping_enter_card_prompt_plan": {
-   "other": "shopping_enter_card_prompt_plan"
-  },
   "shopping_action_credit": {
    "other": "shopping_action_credit"
   },
-  "shopping_action_plan": {
-   "other": "shopping_action_plan"
-  },
-  "shopping_complete_subscription": {
-   "other": "shopping_complete_subscription"
-  },
-  "shopping_complete_subscription_browse": {
-   "other": "shopping_complete_subscription_browse"
-  },
   "shopping_info_rental_period_coming_soon": {
    "other": "des de la data i l'hora de l'alliberament."
-  },
-  "shopping_info_plan_offer": {
-   "other": "shopping_info_plan_offer"
-  },
-  "shopping_info_trial_period_offer": {
-   "other": "shopping_info_trial_period_offer"
   },
   "usersubscriptions_change_payment_method_change": {
    "other": "usersubscriptions_change_payment_method_change"
@@ -1258,5 +1229,15 @@
   },
   "awards_in_competition": {
     "other": "En Competició"
-  }
+  },
+  "awards_winner_of": {
+    "other": "Guanyador de"
+  },
+  "donate_button_text": {
+    "other": "Donar"
+  },
+  "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+  "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+
+  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" }
 }

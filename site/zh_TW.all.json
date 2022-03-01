@@ -147,7 +147,7 @@
   "social_media_buttons_copied_link": { "other": "链接已复制到剪贴板！" },
   "social_media_buttons_copy_link": { "other": "复制到剪贴板" },
   "accept_invite_page_header": {
-   "other": "歡迎"
+   "other": "歡迎 "
   },
   "acceptinvite_form_invalid_reset_password_token": {
    "other": "您已接受過此邀請，請從 <a href=\"{{.SigninURL}}\">登入</a> 。若忘記密碼，請至 <a href=\"{{.ForgotPasswordURL}}\">重設密碼</a>。"
@@ -499,7 +499,7 @@
    "other": "僅限以SD畫質播放"
   },
   "shopping_info_release_date_title": {
-   "other": "上線日期 {{.Date}}."
+   "other": "上線日期 {{.Date}}. "
   },
   "shopping_info_release_date_explanation_rent": {
    "other": "可先租借，並於影片上線後開始觀看。"
@@ -508,7 +508,7 @@
    "other": "可先購買，並於影片上線後開始觀看。"
   },
   "shopping_info_available_until_date_title": {
-   "other": "影片可觀看至 {{.Date}}."
+   "other": "影片可觀看至 {{.Date}}. "
   },
   "shopping_info_available_until_date_explanation_rent": {
    "other": "影片下線後將無法觀看。"
@@ -522,7 +522,7 @@
    "other": "租借天數 {{.ValueUnit}} "
   },
   "shopping_info_watch_window_duration": {
-   "other": "觀影期限 {{.Count}} 小時。"
+   "other": "觀影期限 {{.Count}} 小時。  "
   },
   "shopping_info_watch_window_explanation_film": {
    "one": "完成租借後，影片將在帳號中保留 {{.ValueUnit}}。",
@@ -754,6 +754,7 @@
   "meta_detail_subtitles": {
    "other": "字幕"
   },
+  "meta_detail_captions": { "other": "字幕 [CC]" },
   "meta_detail_episodes_title": {
    "other": "集數"
   },
@@ -879,7 +880,7 @@
    "other": "租借"
   },
   "classification_intro": {
-   "other": "評分："
+   "other": "評分：  "
   },
   "classification_divider": {
    "other": " - "
@@ -910,9 +911,6 @@
   },
   "users_gender_other": {
    "other": "其他"
-  },
-  "plan_label_owned": {
-   "other": ""
   },
   "pricing_quality_hd": {
    "other": "pricing_quality_hd"
@@ -959,38 +957,11 @@
   "shopping_info_ownership_plan": {
    "other": "shopping_info_ownership_plan"
   },
-  "shopping_price_title_plan": {
-   "other": "shopping_price_title_plan"
-  },
-  "shopping_price_plan_note": {
-   "other": "shopping_price_plan_note"
-  },
-  "shopping_price_plan_note_interval": {
-   "other": "shopping_price_plan_note_interval"
-  },
-  "shopping_enter_card_prompt_plan": {
-   "other": "shopping_enter_card_prompt_plan"
-  },
   "shopping_action_credit": {
    "other": "shopping_action_credit"
   },
-  "shopping_action_plan": {
-   "other": "shopping_action_plan"
-  },
-  "shopping_complete_subscription": {
-   "other": "shopping_complete_subscription"
-  },
-  "shopping_complete_subscription_browse": {
-   "other": "shopping_complete_subscription_browse"
-  },
   "shopping_info_rental_period_coming_soon": {
    "other": "自上架時間起"
-  },
-  "shopping_info_plan_offer": {
-   "other": "shopping_info_plan_offer"
-  },
-  "shopping_info_trial_period_offer": {
-   "other": "shopping_info_trial_period_offer"
   },
   "usersubscriptions_change_payment_method_change": {
    "other": "usersubscriptions_change_payment_method_change"
@@ -1251,5 +1222,14 @@
   },
   "awards_in_competition": {
     "other": "比賽中"
-  }
+  },
+  "awards_winner_of": {
+    "other": "获奖者"
+  },
+  "donate_button_text": {
+    "other": "捐"
+  },
+  "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+  "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" }
 }

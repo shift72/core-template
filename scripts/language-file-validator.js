@@ -10,7 +10,6 @@ const languageFiles = openFiles(languageFilenames);
 let errors = [];
 
 const whitespacePaddedKeys = [
-  'accept_invite_page_header',
   'shopping_info_release_date_title',
   'shopping_info_available_until_date_title',
   'shopping_info_rental_period_duration',
@@ -18,7 +17,7 @@ const whitespacePaddedKeys = [
   'classification_intro',
   'classification_divider',
 ];
-const emptyKeys = ['classification_outro', 'plan_label_owned'];
+const emptyKeys = ['classification_outro'];
 
 languageFilenames.forEach(language => {
   console.log(`===== TESTING: ${language} =====`);
@@ -39,6 +38,7 @@ languageFilenames.forEach(language => {
 
     if (keys.includes(key)) {
       testKeyNotEnglish(masterFile[key], file[key], key);
+      testValueNotKey(file[key], key);
     }
   });
 
@@ -100,6 +100,20 @@ function testKeyNotEnglish(englishValue, translatedValue, key) {
     });
   } catch (e) {
     console.error(`${key} - should be translated.`);
+    errors.push(e);
+  }
+}
+
+function testValueNotKey(translation, key) {
+  try {
+    assert.ok(translation['zero'] != key);
+    assert.ok(translation['one'] != key);
+    assert.ok(translation['two'] != key);
+    assert.ok(translation['few'] != key);
+    assert.ok(translation['many'] != key);
+    assert.ok(translation['other'] != key);
+  } catch(e) {
+    console.error(`${key} - key is value.`);
     errors.push(e);
   }
 }

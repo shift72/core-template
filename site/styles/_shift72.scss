@@ -12,15 +12,15 @@
 }
 
 .s72-btn-search {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-purchase {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-rent {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-close {
@@ -28,47 +28,47 @@
 }
 
 .s72-btn-purchase-card {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-purchase-free {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-changepassword {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-updateaccount {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-signup {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-signin {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-signin-vip {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-forgotpassword {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-resetpassword {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-activatedevice {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-modal-action {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-modal-cancel {
@@ -76,19 +76,19 @@
 }
 
 .s72-btn-combined-auth {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-combined-auth-change {
-  @extend .btn-primary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-applydiscount {
-  @extend .btn-secondary;
+  @extend .btn-primary-override;
 }
 
 .s72-btn-next-page {
-  @extend .btn-secondary;
+  @extend .btn-primary-override;
   @extend .btn-lg;
   width: 100%;
 }
@@ -181,7 +181,7 @@
 }
 
 .s72-dropdown-item {
-  @extend .dropdown-item;
+  @extend .dropdown-item-override;
 }
 
 // s72-sign-out             { @extend li; }
@@ -224,7 +224,7 @@
   @extend .form-control-plaintext;
 
   .form-page & {
-    color: $body-color;
+    color: var(--body-color);
   }
 }
 
@@ -322,7 +322,7 @@ s72-cant-be-watched {
   @extend .position-relative;
   &::after {
     @extend .position-absolute;
-    background-color: $primary;
+    background-color: var(--primary);
     bottom: 0 !important;
     content: '';
     height: 3px;
@@ -334,5 +334,5 @@ s72-cant-be-watched {
 
 .s72-view-all-passes {
   @extend .py-4;
-  background-color: mix(invert($body-bg), $body-bg, 4.5%);
+  background-color: var(--body-bg-accent);
 }

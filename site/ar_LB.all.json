@@ -348,6 +348,7 @@
     "meta_detail_studios": { "one": "الاستديو", "other": "الاستوديوهات" },
     "meta_detail_countries": { "one": "البلد", "other": "البلدان" },
     "meta_detail_subtitles": { "other": "الترجمة" },
+    "meta_detail_captions": { "other": "الترجمة [CC]" },
     "meta_detail_episodes_title": { "other": "الحلفات" },
     "meta_detail_bonus_title": { "other": "محتوى إضافي" },
     "meta_detail_recommendations_title": { "other": "قد يعجبك أيضا" },
@@ -413,7 +414,6 @@
     "users_gender_diverse": { "other": "مختلف" },
     "users_gender_other": { "other": "غير محدد" },
   
-    "plan_label_owned": { "other": "" },
   
     "pricing_quality_hd": { "other": "pricing_quality_hd" },
     "pricing_quality_sd": { "other": "pricing_quality_sd" },
@@ -433,22 +433,8 @@
   
     "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
   
-    "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-    "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-    "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
-  
-    "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
-  
-    "shopping_action_credit": { "other": "shopping_action_credit" },
-    "shopping_action_plan": { "other": "shopping_action_plan" },
-  
-    "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-    "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
-  
     "shopping_info_rental_period_coming_soon": { "other": "من تاريخ ووقت الإصدار." },
-    "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-    "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
-  
+
     "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
     "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
     "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
@@ -540,6 +526,7 @@
     "shopping_action_plan": {
         "other": "مكتمل"
     },
+    "shopping_action_credit": { "other": "shopping_action_credit" },
     "shopping_complete_subscription": {
         "other": "تم شراء اشتراكك بنجاح. أنت الآن مشترك في {{ .Title }} ."
     },
@@ -590,5 +577,20 @@
     },
     "awards_in_competition": {
       "other": "في المنافسة"
-    }
+    },
+    "donate_button_text": {
+      "other": "يتبرع"
+    },
+    "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+    "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+
+    "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+
+    "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
+    "app_badge_title": { "other": "Download the app to view your purchased content!" },
+    "app_badge_ios": { "other": "Download on the App Store" },
+    "app_badge_android": { "other": "Get it on Google Play" },
+
+    "awards_winner_of": { "other": "Winner of" }
+
   } 

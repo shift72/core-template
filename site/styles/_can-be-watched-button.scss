@@ -24,8 +24,10 @@
 
 .meta-detail-content .meta-detail-buttons,
 .meta-item-buttons {
+  align-items: center;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 
   .owned-custom-container {
     display: none;

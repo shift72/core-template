@@ -1,6 +1,7 @@
 .kibble
 node_modules
 npm-debug.log
+site/static/styles/local.css
 site/static/styles/main.css
 site/static/styles/main.css.map
 site/static/scripts/main.js

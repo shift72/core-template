@@ -35,25 +35,24 @@
               {{ if item.ItemType == "film" }}
                 <can-be-watched-button data-slug="{{item.InnerItem.Slug}}" data-url="{{ item.InnerItem.CustomFields.GetString("can_be_watched_button_link", "") }}" data-label="{{ item.InnerItem.CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text") }}"></can-be-watched-button>
               {{ end }}
+              <div class="meta-item-extras">
+                {{if len(trailer) > 0 }}
+                  <div class="s72-btn-trailer btn-trailer" data-url="{{routeToSlug(item.Slug)}}?autoplay">
+                    <button class="s72-btn s72-btn-play btn-sm s72-btn-trailer">
+                      <span class="s72-btn-play-icon"><s72-play-icon></s72-play-icon></span>
+                      <span class="verb s72-btn-play-label">{{i18n("play_trailer")}}</span>
+                    </button>
+                  </div>
+                {{end}}
+                <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
+                <s72-share-buttons item="::item.meta" class="hidden-sm hidden-xs pull-right"></s72-share-buttons>
+              </div>
             </div>
 
             <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
 
             <div class="meta-item-synopsis">
               <p>{{item.InnerItem.Tagline | stripHTML}}</p>
-            </div>
-
-            <div class="meta-item-extras">
-              {{if len(trailer) > 0 }}
-                <div class="s72-btn-trailer btn-trailer" data-url="{{routeToSlug(item.Slug)}}?autoplay">
-                  <button class="s72-btn s72-btn-play btn-sm s72-btn-trailer">
-                    <span class="s72-btn-play-icon"><s72-play-icon></s72-play-icon></span>
-                    <span class="verb s72-btn-play-label">{{i18n("play_trailer")}}</span>
-                  </button>
-                </div>
-              {{end}}
-              <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
-              <s72-share-buttons item="::item.meta" class="hidden-sm hidden-xs pull-right"></s72-share-buttons>
             </div>
             {{yield awardsCarousel() item.InnerItem}}
           </div>
