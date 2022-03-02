@@ -136,12 +136,12 @@ s72-classification-label {
   }
 
   .s72-classification-label {
-    border: 1px solid rgba(var(--body-color-rgb), 0.8);
-    border-radius: 0;
+    background-color: rgba(var(--body-color-rgb), 0.15);
+    border-radius: $border-radius-sm;
+    @extend .border-0;
+    letter-spacing: 1px;
+    padding: 3px 4px 1px 5px; // rm letter spacing after last character via 4px instead of 5px
     color: rgba(var(--body-color-rgb), 0.8);
-    font-size: 12px;
-    font-weight: $font-weight-bold;
-    padding: 1px 5px;
     @include media-breakpoint-up(xxxl) {
       font-size: 14px;
     }

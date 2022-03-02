@@ -12,7 +12,6 @@ s72-availability-label {
 
   .availability-state {
     font-size: 12px;
-    font-weight: $font-weight-bold;
     text-transform: none;
   }
 }
@@ -23,8 +22,7 @@ s72-availability-label {
 }
 
 .availability-state {
-  color: #fff;
-  font-weight: $font-weight-bold;
+  color: rgba(var(--body-color-rgb), 0.8);
   text-transform: uppercase;
 }
 
