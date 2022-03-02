@@ -4,7 +4,7 @@ const assert = require('assert');
 const masterFilename = 'en_AU.all.json';
 const masterFile = openFile(masterFilename);
 const masterFileKeys = Object.keys(masterFile);
-const languageFilenames = ['hu_HU.all.json'];
+const languageFilenames = ['it_IT.all.json'];
 console.log(languageFilenames);
 const languageFiles = openFiles(languageFilenames);
 
