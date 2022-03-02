@@ -3,8 +3,8 @@
     <s72-dropdown class="navbar-nav-user-nav">
       <div>
         <a href="#" class="s72-btn s72-dropdown-toggle">
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="user-icon" width="24" height="24" x="0px" y="0px" viewBox="-241 245 24 24" xml:space="preserve">
-            <path d="M-231,247c-5.5,0-10,4.5-10,10c0,5.5,4.5,10,10,10s10-4.5,10-10C-221,251.5-225.5,247-231,247 M-224.6,261.8c-1.4-1.7-4.9-2.3-6.4-2.3s-4.9,0.6-6.4,2.3c-1-1.3-1.6-3-1.6-4.8c0-4.4,3.6-8,8-8s8,3.6,8,8C-223,258.8-223.6,260.5-224.6,261.8M-231,251c-1.9,0-3.5,1.6-3.5,3.5s1.6,3.5,3.5,3.5s3.5-1.6,3.5-3.5S-229.1,251-231,251"/>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 5C13.66 5 15 6.34 15 8C15 9.66 13.66 11 12 11C10.34 11 9 9.66 9 8C9 6.34 10.34 5 12 5ZM12 19.2C9.5 19.2 7.29 17.92 6 15.98C6.03 13.99 10 12.9 12 12.9C13.99 12.9 17.97 13.99 18 15.98C16.71 17.92 14.5 19.2 12 19.2Z" fill="#F8F8F8"/>
           </svg>
           <s72-username class="username-mobile"></s72-username>
         </a>

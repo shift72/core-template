@@ -364,7 +364,7 @@
   "userwishlist_empty_header":  { "other": "Your list is empty." },
   "userwishlist_empty_content": { "other": "Fill it by <a href=\"{{.HomeURL}}\">browsing</a> our great selection." },
   "userwishlist_button_add": { "other": "Add to My List" },
-  "userwishlist_button_remove": { "other": "My List" },
+  "userwishlist_button_remove": { "other": "Remove from My List" },
   "userwishlist_button_add_compact": { "other": "My List" },
   "userwishlist_button_remove_compact": { "other": "My List" },
 

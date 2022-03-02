@@ -275,14 +275,6 @@ s72-carousel {
       color: var(--primary);
     }
 
-    .fa {
-      @extend .fa-circle;
-      font-size: 12px;
-      padding: 0 3px;
-      @include media-breakpoint-up(md) {
-        font-size: 14px;
-      }
-    }
   }
 }
 

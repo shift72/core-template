@@ -14,7 +14,7 @@
 
 		<div class="s72-carousel-pagination">
 			{{range index, item := .Items}}
-				<div class="s72-carousel-page" data-page-index="{{index}}" data-slug="{{item.Slug}}"><span class="fa fa-circle"></span></div>
+				<div class="s72-carousel-page" data-page-index="{{index}}" data-slug="{{item.Slug}}"><span class="pagination-rectangle"></span></div>
 			{{end}}
 		</div>
 
