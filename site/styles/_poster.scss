@@ -6,22 +6,11 @@
   width: 100%;
   z-index: 1;
 
-  s72-availability-status {
-    left: $meta-item-availability-tag-margin;
-    top: $meta-item-availability-tag-margin;
-  }
-
-  s72-availability-label {
-    bottom: $meta-item-availability-tag-margin;
-    left: $meta-item-availability-tag-margin;
-  }
-
   .poster-overlay-top {
     @extend .d-flex;
     @extend .justify-content-between;
     @extend .position-absolute;
 
-    @extend .p-p5;
     @extend .mw-100;
     width: 100%;
 
@@ -40,6 +29,10 @@
       /* stylelint-enable selector-max-compound-selectors */
     }
   }
+
+  s72-image {
+    vertical-align: top;
+  }
 }
 
 .poster-image {
@@ -47,4 +40,20 @@
   max-width: 100%;
   position: relative;
   width: 100%;
+}
+
+
+.s72-playback-progress-bar {
+  background-color: var(--primary);
+  height: 6px;
+}
+
+.s72-playback-progress {
+  background-color: #828282;
+  height: 6px;
+}
+
+s72-playback-progress {
+  top: 100%;
+  position: static;
 }

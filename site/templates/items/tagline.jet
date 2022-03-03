@@ -1,5 +1,5 @@
 {{block metaItemTagline(genres=true, genresLimit=-1, classification=true)}}
-  <div class="meta-item-tagline">
+  <div class="meta-item-tagline d-flex">
     {{itemGenres := makeSlice()}}
     {{if genres}}
       {{if isset(.Genres)}}
@@ -33,6 +33,7 @@
       <s72-classification-label data-slug="{{.Slug}}" data-layout="tooltip"></s72-classification-label>
     {{end}}
 
+    <div>
     {{if isset(.Runtime)}}
       {{yield taglineItem() content}}
         {{if .Runtime > 60}}
@@ -79,6 +80,7 @@
       {{yield taglineDivider(dividers=dividers)}}
       {{dividers = dividers - 1}}
     {{end}}
+    </div>
   </div>
 {{end}}
 

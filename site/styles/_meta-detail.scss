@@ -148,7 +148,7 @@
 
 .meta-detail-content {
   @include media-breakpoint-up(md) {
-    width: 563px;
+    width: 700px;
   }
   @include media-breakpoint-up(xl) {
     width: 1100px;
@@ -191,7 +191,11 @@
   }
 
   .meta-detail-buttons {
-    margin-left: -0.5rem;
+    width: 100%;
+
+    @include media-breakpoint-up(xs) {
+      flex-direction: row;
+      margin-left: -0.5rem;
 
     // Purchase, play, trailer, wishlist are all in one group now
     // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
@@ -209,6 +213,39 @@
       margin-right: 0.5rem;
     }
 
+
+      // Handles spacing when there is only rent, only buy, or only play button
+      s72-pricing-buttons .s72-btn,
+      s72-play-button {
+        &:nth-child(1) {
+          margin-right: 0;
+        }
+        &:only-child {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+
+    @include media-breakpoint-down(xs) {
+      flex-direction: column;
+      s72-pricing-buttons, s72-play-button {
+        width: 100%;
+        .s72-btn {
+          width: 100%;
+        }
+        margin-bottom: 15px;
+      }
+
+      .s72-btn {
+        margin-left: 0px!important;
+      }
+
+      .meta-detail-extras {
+        width: 100%;
+        justify-content: space-around;
+      }
+    }
+
     s72-modal-player,
     s72-userwishlist-button,
     s72-pricing-buttons .s72-btn,
@@ -218,16 +255,6 @@
       margin-bottom: 10px;
     }
 
-    // Handles spacing when there is only rent, only buy, or only play button
-    s72-pricing-buttons .s72-btn,
-    s72-play-button {
-      &:nth-child(1) {
-        margin-right: 0;
-      }
-      &:only-child {
-        margin-right: 0.5rem;
-      }
-    }
     /* stylelint-enable selector-max-compound-selectors */
   }
 
@@ -240,25 +267,15 @@
       padding: 10px 0;
     }
 
-    .availability-state {
-      color: var(--body-color);
-      font-size: 17px;
-    }
   }
 
   .meta-detail-synopsis {
     padding-top: 10px;
+    font-weight: $font-weight-light;
 
     p {
       animation: fadein 2s;
-      font-size: 12px;
-      font-weight: $font-weight-normal;
-      @include media-breakpoint-up(lg) {
-        font-size: 14px;
-      }
-      @include media-breakpoint-up(xxxl) {
-        font-size: 18px;
-      }
+      font-size: 18px;
     }
 
     a {
@@ -294,30 +311,24 @@
     h4 {
       animation: fadein 2s;
       color: var(--body-color);
-      font-size: 8px;
+      font-size: 18px;
       font-weight: $font-weight-bold;
-      margin-bottom: 0;
+      margin-bottom: 5px;
       padding-bottom: 0;
-      @include media-breakpoint-up(md) {
-        font-size: 12px;
-      }
     }
 
     p {
       animation: fadein 2s;
       color: var(--body-color);
-      font-size: 12px;
+      font-size: 18px;
       font-weight: $font-weight-light;
       margin-bottom: 0;
-      @include media-breakpoint-up(md) {
-        font-size: 12px;
-      }
     }
 
     a {
       @include a;
       animation: fadein 2s;
-      font-size: 12px;
+      font-size: 18px;
     }
   }
 
@@ -342,8 +353,8 @@
   h2,
   h4 {
     align-self: stretch;
-    font-size: 14px;
-    font-weight: $font-weight-bold;
+    font-size: 22px;
+    font-weight: $font-weight-light;
   }
 
   .list {
@@ -366,10 +377,6 @@
           width: 118px;
           @include media-breakpoint-up(md) {
             width: 158px;
-          }
-
-          .poster-image {
-            border-radius: $poster-border-radius;
           }
 
           .s72-btn-play {
@@ -590,8 +597,21 @@
 
 .meta-detail-episodes-content,
 .meta-detail-bonus-content {
-  .poster .s72-btn-play {
-    padding-right: 3px;
+  .poster {
+    border-radius: $poster-border-radius;
+  }
+  .s72-btn-play {
+    @extend .border-0;
+    border-radius: 999px;
+
+    &:not(:hover) {
+      background-color: $icon-play-bg;
+
+      path {
+        stroke: white;
+        fill: white;
+      }
+    }
   }
 }
 
