@@ -5,7 +5,6 @@ const masterFilename = 'en_AU.all.json';
 const masterFile = openFile(masterFilename);
 const masterFileKeys = Object.keys(masterFile);
 const languageFilenames = getFilenames();
-console.log(languageFilenames);
 const languageFiles = openFiles(languageFilenames);
 
 let errors = [];
