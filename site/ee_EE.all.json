@@ -421,7 +421,7 @@
   "usersubscriptions_unsubscribe_modal_cancel": { "other": "Tühista" },
   "usersubscriptions_unsubscribe_modal_confirm": { "other": "Jah, tühistage minu tellimus" },
   "usersubscriptions_unsubscribe_modal_title": { "other": "Kas tühistada tellimus?" },
-  "usersubscriptions_unsubscribe_modal_body": { "other": "See tühistab paketi {{.Name}} tellimuse. Saate vaadata paketi sisu, kuni see aegub {{.Aeguv}}." },
+  "usersubscriptions_unsubscribe_modal_body": { "other": "See tühistab paketi {{.Name}} tellimuse. Saate vaadata paketi sisu, kuni see aegub {{.Expiry}}." },
 
   "shopping_card_update_reason_none": { "other": "Värskendage oma krediitkaarti. Toetatud kaardid on Visa, Mastercard ja American Express." },
 
