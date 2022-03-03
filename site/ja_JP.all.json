@@ -553,7 +553,7 @@
     "other": "{{.ShowInfo.Title}}シーズン{{.Season.SeasonNumber}}"
   },
   "tvseason_html": {
-    "other": "{{.ShowInfo.Title}} <span>シーズン{{.Season.SeasonNumber}} </ span>"
+    "other": "{{.ShowInfo.Title}} <span>シーズン{{.Season.SeasonNumber}}</span>"
   },
   "tvepisode": {
     "other": "{{.Episode.Title}}"
@@ -582,7 +582,7 @@
   "activatedevice_form_error_invalid_code": { "other": "PINコードが見つかりません。もう一度やり直してください。" },
   "activatedevice_form_error_pin_not_found": { "other": "PINコードが見つかりません。もう一度やり直してください。" },
   "activatedevice_signin_prompt": { "other": "デバイスをアクティブ化する前にサインインしてください。" },
-  "activatedevice_page_activated": { "other": "{{。DeviceName}}を有効にしていただきありがとうございます。 これで、テレビまたはデバイスでライブラリを閲覧できるようになります。" },
+  "activatedevice_page_activated": { "other": "{{.DeviceName}}を有効にしていただきありがとうございます。 これで、テレビまたはデバイスでライブラリを閲覧できるようになります。" },
 
   "playlist_page_header": { "other": "プレイリスト" },
   "playlist_sign_in_warning": { "other": "サインインしてテレビの生放送をご覧ください。"},
