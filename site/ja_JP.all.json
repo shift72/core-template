@@ -592,6 +592,4 @@
   "classification_outro": { "other": "" },
   "shopping_card_change": { "other": "クレジットカードが正しくありませんか？ <a href = \"{{.SubscriptionsURL}}\">カードを更新するにはここをクリックしてください。</a>" },
   "shopping_complete_credit_purchase": { "other": "{{.Title}}をご購入いただきありがとうございます。{{.CreditTotal}}がアカウントに追加されました。" }
-
- 
 }
