@@ -70,6 +70,24 @@ s72-plan-label {
 }
 
 .curated-plan-page {
+  .page-header {
+    @extend .pb-0;
+
+    h1 {
+      line-height: 1;
+    }
+
+    .alert {
+      @extend .p-0;
+      @extend .border-0;
+    }
+
+    .alert, .plan-buttons {
+      @extend .mt-1rem;
+      @extend .mb-0;
+    }
+  }
+
   // Hide the separator if this is a curated collection page
   + .separator {
     @extend .border-0;
