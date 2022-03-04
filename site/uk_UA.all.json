@@ -134,7 +134,7 @@
   "social_media_buttons_copied_link": { "other": "Посилання скопійовано в буфер обміну!" },
   "social_media_buttons_copy_link": { "other": "Копіювати в буфер обміну" },
   "accept_invite_page_header": {
-   "other": "Ласкаво просимо"
+   "other": "Ласкаво просимо "
   },
   "acceptinvite_form_invalid_reset_password_token": {
    "other": "Здається, ви вже використали це запрошення. Спробуйте <a href=\"signin.html\">увійти</a>. Якщо ви забули свій пароль, ви можете <a href=\"forgotpassword.html\">скинути свій пароль</a>."
@@ -489,7 +489,7 @@
    "other": "Limited to SD playback only."
   },
   "shopping_info_release_date_title": {
-   "other": "Дата релізу {{.Date}}."
+   "other": "Дата релізу {{.Date}}. "
   },
   "shopping_info_release_date_explanation_rent": {
    "other": "Ви можете взяти фільм напрокат вже зараз, але ви не зможете переглянути його до дати релізу."
@@ -748,6 +748,7 @@
   "meta_detail_subtitles": {
    "other": "Субтитри"
   },
+  "meta_detail_captions": { "other": "Субтитри [CC]" },
   "meta_detail_episodes_title": {
    "other": "Епізоди"
   },
@@ -877,7 +878,7 @@
    "other": "Взяти напрокат"
   },
   "classification_intro": {
-   "other": "Класифікація:"
+   "other": "Класифікація: "
   },
   "classification_divider": {
    "other": " - "
@@ -908,9 +909,6 @@
   },
   "users_gender_other": {
    "other": "Інша"
-  },
-  "plan_label_owned": {
-   "other": ""
   },
   "pricing_quality_hd": {
    "other": "pricing_quality_hd"
@@ -957,39 +955,15 @@
   "shopping_info_ownership_plan": {
    "other": "shopping_info_ownership_plan"
   },
-  "shopping_price_title_plan": {
-   "other": "shopping_price_title_plan"
-  },
-  "shopping_price_plan_note": {
-   "other": "shopping_price_plan_note"
-  },
-  "shopping_price_plan_note_interval": {
-   "other": "shopping_price_plan_note_interval"
-  },
-  "shopping_enter_card_prompt_plan": {
-   "other": "shopping_enter_card_prompt_plan"
-  },
+
   "shopping_action_credit": {
    "other": "shopping_action_credit"
   },
-  "shopping_action_plan": {
-   "other": "shopping_action_plan"
-  },
-  "shopping_complete_subscription": {
-   "other": "shopping_complete_subscription"
-  },
-  "shopping_complete_subscription_browse": {
-   "other": "shopping_complete_subscription_browse"
-  },
+
   "shopping_info_rental_period_coming_soon": {
    "other": "з дати та часу релізу."
   },
-  "shopping_info_plan_offer": {
-   "other": "shopping_info_plan_offer"
-  },
-  "shopping_info_trial_period_offer": {
-   "other": "shopping_info_trial_period_offer"
-  },
+
   "usersubscriptions_change_payment_method_change": {
    "other": "usersubscriptions_change_payment_method_change"
   },
@@ -1194,5 +1168,38 @@
   },
   "donate_button_text": {
     "other": "Пожертвуйте"
-  }
+  },
+
+  "wcag_skip_links_header": { "other": "Accessibility Links" },
+  "wcag_skip_links_content": { "other": "Skip to Content" },
+  "wcag_skip_links_footer": { "other": "Skip to Footer" },
+
+  "wcag_homepage_h1": { "other": "Homepage" },
+  "wcag_carousel_h2": { "other": "Carousel" },
+  "wcag_collections_h2": { "other": "Collections" },
+
+  "wcag_aria_label_footer": { "other": "Footer" },
+  "wcag_aria_label_nav_main": { "other": "Main" },
+  "wcag_aria_label_nav_sub": { "other": "Sub" },
+  "wcag_aria_label_toggle_nav": { "other": "Toggle Navigation" },
+  "wcag_aria_label_bundle_items": { "other": "Bundle Items" },
+  "wcag_aria_label_carousel": { "other": "Carousel" },
+  "wcag_aria_label_page_collection": { "other": "Page Collection" },
+  "wcag_aria_label_collection_list": { "other": "Collection List" },
+  "wcag_aria_label_collection_slider": { "other": "Collection Slider" },
+  "wcag_aria_label_wishlist": { "other": "Wishlist" },
+  "wcag_aria_label_facebook": { "other": "Share on Facebook" },
+  "wcag_aria_label_twitter": { "other": "Share on Twitter" },
+  "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
+  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+  "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+  "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+  "shopping_payment_method_header": { "other": "Payment methods" },
+  "shopping_payment_method_credit_card": { "other": "Credit card" },
+  "shopping_payment_method_giropay": { "other": "Giropay" },
+  "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
+  "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
+
+
+  "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" }
 }

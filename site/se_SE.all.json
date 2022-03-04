@@ -81,7 +81,7 @@
     "social_media_buttons_copied_link": { "other": "Линк је копиран у међуспремник!" },
     "social_media_buttons_copy_link": { "other": "Копирај у међуспремник" },
   
-    "accept_invite_page_header": { "other": "Добродошли" },
+    "accept_invite_page_header": { "other": "Добродошли " },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Изгледа да сте већ активирали овај позив. Потребно је да се <a href=\"{{.SigninURL}}\">пријавите</a>. Ако сте заборавили лозинку, можете и да <a href=\"{{.ForgotPasswordURL}}\">ресетујете лозинку</a>." },
     "acceptinvite_complete": { "other": "Хвала Вам. Ваш налог је направљен." },
     "acceptinvite_form_submit": { "other": "Прихватите позив." },
@@ -156,13 +156,7 @@
     "account_form_pin_changed": { "other": "Updated" },
     "account_form_change_pin": { "other": "Change PIN" },
   
-    "user_set_pin_header": { "other": "user_set_pin_header" },
-    "user_set_pin_button": { "other": "user_set_pin_button" },
-    "user_submit_pin_heading": { "other": "user_submit_pin_heading" },
-    "user_error_wrong_pin_retry": { "other": "user_error_wrong_pin_retry" },
-    "user_error_too_many_pin_errors": { "other": "user_error_too_many_pin_errors" },
-    "user_submit_pin_button": { "other": "user_submit_pin_button" },
-    "user_reset_pin_button": { "other": "user_reset_pin_button" },
+
   
     "signup_form_optin": {"other": "Пријавите се за бесплатни билтен"},
   
@@ -212,11 +206,11 @@
     "shopping_info_ownership_rent": { "other": "изнајмљивање" },
   
     "shopping_info_sd_only": { "other": "Limited to SD playback only." },
-    "shopping_info_release_date_title": { "other": "Излази {{.Date}}." },
+    "shopping_info_release_date_title": { "other": "Излази {{.Date}}. " },
     "shopping_info_release_date_explanation_rent": { "other": "Можете одмах да изнајмите, али нећете моћи да гледате пре тога." },
     "shopping_info_release_date_explanation_buy": { "other": "Можете одмах да купите, али нећете моћи да гледате пре тога." },
   
-    "shopping_info_available_until_date_title": { "other": "Доступно до {{.Date}}." },
+    "shopping_info_available_until_date_title": { "other": "Доступно до {{.Date}}. " },
     "shopping_info_available_until_date_explanation_rent": { "other": "Нећете моћи да гледате садржај након тога." },
     "shopping_info_available_until_date_explanation_buy": { "other": "Нећете моћи да гледате садржај након тога." },
   
@@ -336,6 +330,7 @@
     "meta_detail_studios": { "one": "Студио", "other": "Студији" },
     "meta_detail_countries": { "one": "Држава", "other": "Државе" },
     "meta_detail_subtitles": { "other": "Титлови" },
+    "meta_detail_captions": { "other": "Титлови [CC]" },
     "meta_detail_episodes_title": { "other": "Епизоде" },
     "meta_detail_bonus_title": { "other": "Додатни садржај" },
     "meta_detail_recommendations_title": { "other": "Можда Вам се допадне" },
@@ -400,8 +395,7 @@
     "users_gender_male": { "other": "Мушки" },
     "users_gender_diverse": { "other": "Свакојаки" },
     "users_gender_other": { "other": "Друго" },
-  
-    "plan_label_owned": { "other": "" },
+
   
     "pricing_quality_hd": { "other": "pricing_quality_hd" },
     "pricing_quality_sd": { "other": "pricing_quality_sd" },
@@ -421,22 +415,14 @@
   
     "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
   
-    "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-    "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-    "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
+
   
-    "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
+
   
     "shopping_action_credit": { "other": "shopping_action_credit" },
-    "shopping_action_plan": { "other": "shopping_action_plan" },
-  
-    "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-    "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
-  
+
     "shopping_info_rental_period_coming_soon": { "other": "fод датума и времена " },
-    "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-    "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
-  
+
     "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
     "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
     "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
@@ -572,5 +558,44 @@
     },
     "donate_button_text": {
       "other": "Донирајте"
-    }
+    },
+    "wcag_skip_links_header": { "other": "Accessibility Links" },
+    "wcag_skip_links_content": { "other": "Skip to Content" },
+    "wcag_skip_links_footer": { "other": "Skip to Footer" },
+  
+    "wcag_homepage_h1": { "other": "Homepage" },
+    "wcag_carousel_h2": { "other": "Carousel" },
+    "wcag_collections_h2": { "other": "Collections" },
+  
+    "wcag_aria_label_footer": { "other": "Footer" },
+    "wcag_aria_label_nav_main": { "other": "Main" },
+    "wcag_aria_label_nav_sub": { "other": "Sub" },
+    "wcag_aria_label_toggle_nav": { "other": "Toggle Navigation" },
+    "wcag_aria_label_bundle_items": { "other": "Bundle Items" },
+    "wcag_aria_label_carousel": { "other": "Carousel" },
+    "wcag_aria_label_page_collection": { "other": "Page Collection" },
+    "wcag_aria_label_collection_list": { "other": "Collection List" },
+    "wcag_aria_label_collection_slider": { "other": "Collection Slider" },
+    "wcag_aria_label_wishlist": { "other": "Wishlist" },
+    "wcag_aria_label_facebook": { "other": "Share on Facebook" },
+    "wcag_aria_label_twitter": { "other": "Share on Twitter" },
+    "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
+    "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+
+    "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+    "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+    "shopping_payment_method_header": { "other": "Payment methods" },
+    "shopping_payment_method_credit_card": { "other": "Credit card" },
+    "shopping_payment_method_giropay": { "other": "Giropay" },
+    "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
+    "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
+
+    "validation_pincode1_required": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_required": { "other": "Please enter a valid PIN code." },
+  "validation_pincode1_pattern": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_pattern": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_match": { "other": "PIN code does not match." },
+
+  "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" }
+  
   }

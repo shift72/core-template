@@ -1,8 +1,18 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.4.2...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.4.4...HEAD)
+
+## [0.4.4](https://github.com/shift72/core-template/compare/0.4.3...0.4.4)
+- Fixed usage of obsolete $primary var for trailer button
 
 ### Added
+- Awards categories
+
+## [0.4.3](https://github.com/shift72/core-template/compare/0.4.2...0.4.3)
+
+### Added
+- Awards categories
+- Floating donate button
 - External custom CSS link in head.
 - Scripts for downloading/uploading custom CSS files for use with local development.
 
@@ -10,6 +20,8 @@
 - Replaced various SASS variables with CSS variables.
 - Added workarounds for SASS and Bootstrap functions that don't understand CSS variables.
 - Kibble 0.16.4
+- Split CC and Subtitles
+- Moved engagement icons
 
 ## [0.4.2](https://github.com/shift72/core-template/compare/0.4.1...0.4.2)
 

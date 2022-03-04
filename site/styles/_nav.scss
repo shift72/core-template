@@ -420,7 +420,7 @@
 
   &.search-show {
     background-color: $navbar-search-background-color;
-    height: calc(var(--navbar-brand-padding-y) * 2) + 20px;
+    height: calc(calc(var(--navbar-brand-padding-y) * 2) + 20px);
     margin: 0;
     position: absolute;
     right: 0;
