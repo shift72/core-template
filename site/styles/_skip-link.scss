@@ -1,0 +1,19 @@
+.skip-link {
+  align-items: center;
+  background-color: var(--body-bg);
+  border: 2px dashed var(--body-color);
+  color: var(--body-color);
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  left: -9999px;
+  outline: none;
+  position: absolute;
+  text-decoration: underline;
+  width: 100%;
+  z-index: 12;
+  &:focus {
+    left: 0;
+    position: fixed;
+  }
+}

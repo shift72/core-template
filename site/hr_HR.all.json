@@ -396,7 +396,6 @@
   
   "wcag_skip_links_header": { "other": "Poveznice pristupačnosti" },
   "wcag_skip_links_content": { "other": "Idi na sadržaj" },
-  "wcag_skip_links_footer": { "other": "Idi na podnožje" },
   "wcag_homepage_h1": { "other": "Početna stranica" },
   "wcag_carousel_h2": { "other": "Kružni prikaz" },
   "wcag_collections_h2": { "other": "Zbirke" },
