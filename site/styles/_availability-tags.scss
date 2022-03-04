@@ -1,41 +1,61 @@
-s72-availability-status,
 s72-availability-label {
-  position: absolute;
-  z-index: 99;
-}
-
-.availability-bg {
-  background: rgba(0, 0, 0, 0.8);
-  display: block;
-  padding: 5px 8px;
-  text-align: center;
-
+  font-weight: $font-weight-light;
   .availability-state {
-    font-size: 12px;
-    text-transform: none;
+    @extend .d-flex;
+    line-height: 24px;
+    @extend .mb-2;
+    font-size: 17px;
+
+    &:before {
+      @extend .fa;
+      @extend .fa-exclamation-circle;
+      @extend .mr-1;
+      color: var(--body-color);
+      line-height: 24px;
+      font-size: 24px;
+    }
   }
 }
 
-.availability-bg,
-.availability-state {
-  font-size: 12px;
-}
-
-.availability-state {
-  color: rgba(var(--body-color-rgb), 0.8);
-  text-transform: uppercase;
-}
-
 .poster {
+  s72-availability-status,
   s72-availability-label {
-    left: 0 !important;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 10px 5px;
-    right: 0;
+    position: absolute;
+    z-index: 99;
+  }
 
+  s72-availability-label {
+    background-color: rgba(255,255,255,0.5);
+    font-weight: $font-weight-normal;
+    @extend .w-100;
+    bottom: 0;
     .availability-state {
-      text-align: center;
+      line-height: 17px;
+      @extend .mb-0;
+      &:before {
+        content: none;
+      }
     }
+  }
+
+  s72-availability-status .availability-bg {
+    background-color: var(--primary);
+    display: block;
+    padding: 0 5px;
+    text-align: center;
+    border-bottom-right-radius: $meta-item-border-radius;
+  }
+
+  .availability-expired {
+    @extend .d-none;
+  }
+
+  .availability-state {
+    @extend .justify-content-center;
+    color: var(--body-bg);
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
   }
 }

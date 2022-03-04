@@ -6,7 +6,7 @@
   width: 100%;
   z-index: 1;
 
-  .poster-overlay-top {
+  .poster-overlay {
     @extend .d-flex;
     @extend .justify-content-between;
     @extend .position-absolute;
@@ -14,6 +14,7 @@
     @extend .mw-100;
     width: 100%;
 
+    @extend .h-100;
     z-index: 99;
 
     s72-availability-status {

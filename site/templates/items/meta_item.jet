@@ -39,7 +39,7 @@
   {{end}}
   <a href="{{routeToSlug(item.Slug)}}" class="meta-item-link" aria-label="{{item.Title}}" target="{{isExternalPage ? "_blank" : ""}}">
     <div class="poster poster-{{layout}}">
-      <div class="poster-overlay poster-overlay-top">
+      <div class="poster-overlay">
         <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
         <s72-availability-status data-slug="{{item.Slug}}"></s72-availability-status>
         {{ yield awardsPosterOverlay() item.InnerItem }}
