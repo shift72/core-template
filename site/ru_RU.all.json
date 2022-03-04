@@ -561,7 +561,6 @@
   },
   "wcag_skip_links_header": { "other": "Ссылки на доступность" },
   "wcag_skip_links_content": { "other": "Перейти к содержанию" },
-  "wcag_skip_links_footer": { "other": "Перейти к нижнему футу" },
 
   "wcag_homepage_h1": { "other": "Главная страница" },
   "wcag_carousel_h2": { "other": "Карусель" },
