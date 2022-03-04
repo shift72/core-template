@@ -101,6 +101,7 @@ s72-activatedevice-form,
   font-weight: $font-weight-normal;
   height: var(--input-height);
 
+  /* stylelint-disable-next-line */
   &:not(.StripeElement--empty) {
     background-color: $body-bg-accent;
     border-color: rgba(var(--body-color-rgb), 0.1);
@@ -250,12 +251,14 @@ s72-signup-form {
     &:hover {
       background-color: transparent;
     }
-    
+
+    /* stylelint-disable selector-no-qualifying-type */
     i.fa.fa-trash {
       color: $error-color;
       &:hover {
         opacity: 0.8;
       }
     }
+    /* stylelint-enable selector-no-qualifying-type */
   }
 }
