@@ -103,14 +103,14 @@ s72-activatedevice-form,
 
   &:not(.StripeElement--empty) {
     background-color: $body-bg-accent;
-    border-color: rgba($color: var(--body-color-rgb), $alpha: 0.1);
+    border-color: rgba(var(--body-color-rgb), 0.1);
     color: var(--body-color);
     &:focus {
       border-color: $input-focus-border-color;
       color: var(--body-color);
     }
     &::placeholder {
-      color: rgba($color: var(--body-color-rgb), $alpha: 0.8);
+      color: rgba(var(--body-color-rgb), 0.8);
     }
   }
 }
@@ -232,7 +232,7 @@ s72-signup-form {
 .is-invalid.s72-pincode,
 .s72-has-error .s72-form-control,
 .s72-has-error .s72-pincode {
-  border: 2px solid rgba($color: var(--body-color-rgb), $alpha: 0.5) !important;
+  border: 2px solid rgba(var(--body-color-rgb), 0.5) !important;
   box-shadow: none !important;
 }
 
