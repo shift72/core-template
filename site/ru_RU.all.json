@@ -436,9 +436,9 @@
   "shopping_card_use_other": { "other": "Использовать новую карту" },
   "shopping_card_use_new_card": { "other": "Изменить карту" },
 
-  "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
+  "shopping_info_ownership_plan": { "other": "Подписка" },
 
-  "shopping_action_credit": { "other": "shopping_action_credit" },
+  "shopping_action_credit": { "other": "Пополнить" },
 
   "shopping_info_rental_period_coming_soon": { "other": "с указанием даты и времени выпуска." },
 
@@ -460,7 +460,7 @@
   "availability_coming_soon": { "other": "Скоро в онлайне" },
   "availability_renting": { "other": "аренда" },
   "availability_not_available": { "other": "Недоступен" },
-  "availability_in_watch_window": { "other": "availability_in_watch_window" },
+  "availability_in_watch_window": { "other": "Доступен в окне часов" },
   "availability_sold_out": { "other": "Продано" },
   "availability_available_till": { "other": "Доступно до {{.ExpiryDate}}" },
   "availability_not_available_in_country": { "other": "Недоступно" },

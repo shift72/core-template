@@ -106,8 +106,8 @@
     "signup_page_alreadyhaveanaccount": { "other": "Већ имате налог? Пријавите се" },
     "signup_form_error_email_already_in_use": { "other": "Ова имејл адреса је већ употребљена." },
     "signin_form_error_incorrect_credentials": { "other": "Корисничко име или лозинка нису тачни." },
-    "signin_form_error_ip_throttled": { "other": "You have failed to sign in too many times. Please try again later." },
-    "signin_form_error_account_suspended": { "other": "Your account has been temporarily suspended. Please contact an admin if you believe this is in error." },
+    "signin_form_error_ip_throttled": { "other": "Не успели сте да се пријавите превише пута.Покушајте поново касније." },
+    "signin_form_error_account_suspended": { "other": "Ваш налог је привремено суспендован.Молимо контактирајте администратора ако верујете да је то грешка." },
   
     "signup_form_error_forbidden": { "other": "Догодила се грешка." },
   
@@ -193,7 +193,7 @@
     "validation_password2_match": { "other": "Лозинке се не подударају." },
     "validation_password_minlength": { "other": "Молимо Вас упишите најмање {{.Count}} карактера. " },
     "validation_promocode_required": { "other": "Молимо Вас упишите промотивни код." },
-    "validation_pincode_required": { "other": "Please enter a PIN code." },
+    "validation_pincode_required": { "other": "Унесите ПИН код." },
     "validation_gender_required": { "other": "Молимо Вас да одаберете пол са којим се идентификујете." },
     "validation_dob_required": { "other": "Молимо Вас упишите свој датум рођења." },
     "validation_dob_date": { "other": "Молимо Вас упишите исправан датум рођења." },
@@ -273,7 +273,7 @@
     "shopping_error_creditcard_country_mismatch": { "other": "Ваш {{.Ownership}} није довршен. Морате бити у земљи у којој је кредитна картицаиздата. Молимо Вас користите другу картицу за плаћање." },
     "shopping_error_proxy_detected": { "other": "Ваш {{.Ownership}} није довршен. Препознали смо да користите деблокатор или прокси сервис. Молимо Вас искључите ове сервисе и покушајте поново." },
   
-    "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
+    "shopping_error_discount_worn_out": { "other": "Тај промо код се више не може користити." },
     "shopping_error_discount_blank": { "other": "Молимо Вас унесите промотивни код." },
     "shopping_error_discount_not_applied": { "other": "Молимо Вас унесите исправан промотивни код." },
     "shopping_error_discount_invalid": { "other": "Молимо Вас унесите исправан промотивни код." },

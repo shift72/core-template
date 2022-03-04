@@ -913,16 +913,16 @@
    "other": "其他"
   },
   "pricing_quality_hd": {
-   "other": "pricing_quality_hd"
+   "other": "HD"
   },
   "pricing_quality_sd": {
-   "other": "pricing_quality_sd"
+   "other": "SD"
   },
   "pricing_quality_hd_only": {
-   "other": "pricing_quality_hd_only"
+   "other": "HD 只要"
   },
   "pricing_quality_sd_only": {
-   "other": "pricing_quality_sd_only"
+   "other": "SD 只要"
   },
   "shopping_card_save_card": {
    "other": "儲存此信用卡資訊，供日後使用"
@@ -955,10 +955,10 @@
    "other": "信用卡錯誤 <a href=\"{{.SubscriptionsURL}}\">請按此更新。</a>"
   },
   "shopping_info_ownership_plan": {
-   "other": "shopping_info_ownership_plan"
+   "other": "訂閱"
   },
   "shopping_action_credit": {
-   "other": "shopping_action_credit"
+   "other": "頂尖"
   },
   "shopping_info_rental_period_coming_soon": {
    "other": "自上架時間起"
