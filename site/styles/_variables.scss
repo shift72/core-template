@@ -21,6 +21,8 @@
   --link-color-hover: rgb(var(--link-color-hover-rgb));
   --input-focus-border-color: rgb(var(--input-focus-border-color-rgb));
 
+  --input-height: 40px;
+
   --navbar-brand-padding-y: 25px;
   --navbar-brand-min-width: 126px;
   --navbar-brand-min-width-md: 126px;
@@ -106,27 +108,6 @@ $spacers: (
   '5': $spacer * 5,
   // 50px
 );
-
-// Body / Core
-// ------------------------------------
-
-$primary: #35a0a8 !default;
-$secondary: #4cd3dd !default;
-$body-color: #fff !default;
-$body-bg: #0f0f0f !default;
-$body-bg-accent: get-accent-color($body-bg) !default;
-$error-color: $body-color !default;
-$error-background: rgba($body-color, 0.1) !default;
-$hr-border-color: rgba($body-color, 0.5) !default;
-$list-group-bg: $body-bg !default;
-$list-group-border-color: rgba($body-color, 0.125) !default;
-
-// Text Colors
-$text-high-emphasis: $body-color;
-$text-low-emphasis: rgba(var(--body-color-rgb), .8);
-$text-disabled: rgba(var(--body-color-rgb), .6);
-
-$border-radius: 4px !default;
 
 // Cookie Consent
 $cookie-consent-color: #000;
@@ -266,6 +247,3 @@ $font-family-base: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Hel
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 500 !default;
-
-// Input Fields
-$input-height: 40px;

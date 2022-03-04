@@ -224,7 +224,7 @@
   @extend .form-control-plaintext;
 
   .form-page & {
-    color: $text-disabled;
+    color: rgba($color: var(--body-color-rgb), $alpha: 0.5);
   }
 }
 

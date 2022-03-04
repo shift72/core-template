@@ -99,29 +99,29 @@ s72-activatedevice-form,
 // Form Control Default
 .s72-form-control {
   font-weight: $font-weight-normal;
-  height: $input-height;
+  height: var(--input-height);
 
   &:not(#new-card-container) {
     background-color: $body-bg-accent;
     border-color: rgba($color: var(--body-color-rgb), $alpha: 0.1);
-    color: $text-low-emphasis;
+    color: var(--body-color);
     &:focus {
-      color: $text-high-emphasis;
-      border-color: $primary;
+      color: var(--body-color);
+      border-color: $input-focus-border-color;
     }
     &::placeholder {
-      color: $text-low-emphasis;
+      color: rgba($color: var(--body-color-rgb), $alpha: 0.8);
     }
   }
 }
 // Account Page Change Password Field
 .s72-form-control-static {
   background: $body-bg-accent;
-  color: $text-disabled;
+  color: var(--body-color);
   display: inline-block;
   font-size: 1rem;
   line-height: 1rem;
-  height: $input-height;
+  height: var(--input-height);
   padding: 0.375rem 0.75rem;
   outline: none;
   cursor: not-allowed;
@@ -140,7 +140,7 @@ s72-activatedevice-form,
     }
   }
   .s72-form-control {
-    height: $input-height;
+    height: var(--input-height);
   }
 }
 
@@ -250,9 +250,5 @@ s72-signup-form {
         }
       }
     }
-  }
-  // 'Change Card' Button
-  .s72-btn {
-    border-radius: $border-radius;
   }
 }
