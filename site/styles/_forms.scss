@@ -62,12 +62,12 @@ s72-activatedevice-form,
 // Error Messaging
 .s72-error-message {
   background: $error-background;
+  border-radius: $border-radius;
   color: $error-color;
+  font-size: 0.875rem;
   letter-spacing: 0.02em;
   margin-top: 10px;
   padding: 4px 8px;
-  border-radius: $border-radius;
-  font-size: 0.875rem;
   position: relative;
 
   &::before {
@@ -92,8 +92,8 @@ s72-activatedevice-form,
     flex-shrink: 0;
   }
   .s72-datepicker-month {
-    width: 100%;
     margin: 0 4px;
+    width: 100%;
   }
 }
 // Form Control Default
@@ -101,13 +101,13 @@ s72-activatedevice-form,
   font-weight: $font-weight-normal;
   height: var(--input-height);
 
-  &:not(#new-card-container) {
+  &:not(.StripeElement--empty) {
     background-color: $body-bg-accent;
     border-color: rgba($color: var(--body-color-rgb), $alpha: 0.1);
     color: var(--body-color);
     &:focus {
-      color: var(--body-color);
       border-color: $input-focus-border-color;
+      color: var(--body-color);
     }
     &::placeholder {
       color: rgba($color: var(--body-color-rgb), $alpha: 0.8);
@@ -118,13 +118,13 @@ s72-activatedevice-form,
 .s72-form-control-static {
   background: $body-bg-accent;
   color: var(--body-color);
+  cursor: not-allowed;
   display: inline-block;
   font-size: 1rem;
-  line-height: 1rem;
   height: var(--input-height);
-  padding: 0.375rem 0.75rem;
+  line-height: 1rem;
   outline: none;
-  cursor: not-allowed;
+  padding: 0.375rem 0.75rem;
 }
 .s72-modal-sm .s72-modal-dialog {
   max-width: 400px;
@@ -222,32 +222,39 @@ s72-signup-form {
   }
 }
 
-// Error 
-.was-validated .form-control:invalid, .was-validated .s72-form-control:invalid, 
-.was-validated .s72-pincode:invalid, .form-control.is-invalid, .s72-has-error 
-.form-control, .is-invalid.s72-form-control, .is-invalid.s72-pincode, .s72-has-error 
-.s72-form-control, .s72-has-error .s72-pincode {
+// Error
+.was-validated .form-control:invalid,
+.was-validated .s72-form-control:invalid,
+.was-validated .s72-pincode:invalid,
+.form-control.is-invalid,
+.s72-has-error .form-control,
+.is-invalid.s72-form-control,
+.is-invalid.s72-pincode,
+.s72-has-error .s72-form-control,
+.s72-has-error .s72-pincode {
   border: 2px solid rgba($color: var(--body-color-rgb), $alpha: 0.5) !important;
   box-shadow: none !important;
 }
 
 // Stripe Inputs
-#stripe-payment-options {
+.s72-payment-option-group {
   .existing-card {
     padding: 0.125rem 0 0.125rem 0.75rem;
-
-    // List of Saved Cards
-    &.s72-form-control.selectable {
+  }
+  // List of Saved Cards
+  .s72-form-control.existing-card.selectable {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 12px;
+    padding-left: 0;
+    &:hover {
       background-color: transparent;
-      padding-left: 0;
-      border-color: transparent;
-      margin-bottom: 12px;
-
-      i.fa.fa-trash {
-        color: $error-color;
-        &:hover {
-          opacity: .8;
-        }
+    }
+    
+    i.fa.fa-trash {
+      color: $error-color;
+      &:hover {
+        opacity: 0.8;
       }
     }
   }
