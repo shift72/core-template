@@ -81,7 +81,7 @@
   "social_media_buttons_copied_link": { "other": "¡Link copiado al portapapeles!" },
   "social_media_buttons_copy_link": { "other": "Copiar al portapapeles" },
 
-  "accept_invite_page_header": { "other": "Bienvenido" },
+  "accept_invite_page_header": { "other": "Bienvenido " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Parece que ya ha reclamado esta invitación, usted debe <a href=\"{{.SigninURL}}\">iniciar sesión</a> sin embargo. Si ha olvidado su contraseña, usted puede <a href=\"{{.ForgotPasswordURL}}\">recuperar su contraseña</a>." },
   "acceptinvite_complete": { "other": "Gracias. Su cuenta ha sido creada." },
   "acceptinvite_form_submit": { "other": "Aceptar invitación" },
@@ -328,6 +328,7 @@
   "meta_detail_studios": { "one": "Estudio", "other": "Estudios" },
   "meta_detail_countries": { "one": "País", "other": "Países" },
   "meta_detail_subtitles": { "other": "Subtítulos" },
+  "meta_detail_captions": { "other": "Subtítulos [CC]" },
   "meta_detail_episodes_title": { "other": "Episodios" },
   "meta_detail_bonus_title": { "other": "Contenido extra" },
   "meta_detail_recommendations_title": { "other": "También le puede interesar" },
@@ -474,5 +475,127 @@
   },
   "awards_in_competition": {
     "other": "En competición"
-  }
+  },
+  "awards_winner_of": {
+    "other": "Ganador de"
+  },
+  "donate_button_text": {
+    "other": "Donar"
+  },
+  "wcag_skip_links_header": { "other": "Accessibility Links" },
+  "wcag_skip_links_content": { "other": "Skip to Content" },
+  "wcag_skip_links_footer": { "other": "Skip to Footer" },
+
+  "wcag_homepage_h1": { "other": "Homepage" },
+  "wcag_carousel_h2": { "other": "Carousel" },
+  "wcag_collections_h2": { "other": "Collections" },
+
+  "wcag_aria_label_footer": { "other": "Footer" },
+  "wcag_aria_label_nav_main": { "other": "Main" },
+  "wcag_aria_label_nav_sub": { "other": "Sub" },
+  "wcag_aria_label_toggle_nav": { "other": "Toggle Navigation" },
+  "wcag_aria_label_bundle_items": { "other": "Bundle Items" },
+  "wcag_aria_label_carousel": { "other": "Carousel" },
+  "wcag_aria_label_page_collection": { "other": "Page Collection" },
+  "wcag_aria_label_collection_list": { "other": "Collection List" },
+  "wcag_aria_label_collection_slider": { "other": "Collection Slider" },
+  "wcag_aria_label_wishlist": { "other": "Wishlist" },
+  "wcag_aria_label_facebook": { "other": "Share on Facebook" },
+  "wcag_aria_label_twitter": { "other": "Share on Twitter" },
+  "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
+  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+  
+  "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+  "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+  "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
+
+  "account_form_pin_code": { "other": "PIN" },
+  "account_form_pin_code_not_set": { "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles."},
+  "account_form_set_pin": { "other": "Set PIN" },
+  "account_form_pin_changed": { "other": "Updated" },
+  "account_form_change_pin": { "other": "Change PIN" },
+
+  "user_set_pin_header": { "other": "Set your PIN" },
+  "user_set_pin_button": { "other": "Set PIN" },
+  "user_submit_pin_heading": { "other": "Enter your PIN to {{.Action}} this restricted content" },
+  "user_error_wrong_pin_retry": { "other": "Oops, you have entered an incorrect PIN" },
+  "user_submit_pin_button": { "other": "Enter" },
+  "user_reset_pin_button": { "other": "Reset PIN" },
+
+  "validation_pincode1_required": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_required": { "other": "Please enter a valid PIN code." },
+  "validation_pincode1_pattern": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_pattern": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_match": { "other": "PIN code does not match." },
+
+  "userdevices_delete_limits": { "other": "You can remove {{.Limit}} device(s) from this list every {{.Period}} day(s)."},
+  "userdevices_delete_limit_reached": { "other": "You have reached this limit and can't remove any devices right now. You can delete a device in {{.Days}} day(s)." },
+  "shopping_card_new_subscription": { "other": "This card will be saved and charged regularly" },
+
+"changepincode_modal_header": { "other": "Change your PIN" },
+"changepincode_modal_currentpassword": { "other": "Your current password" },
+"changepincode_modal_pincode1": { "other": "Your new 4 digit PIN" },
+"changepincode_modal_pincode2": { "other": "Confirm your new 4 digit PIN" },
+"changepincode_modal_submit": { "other": "Set PIN" },
+"changepincode_modal_error_wrong_password": { "other": "That password is incorrect." },
+
+"user_set_pin_intro": { "other": "You need a PIN to {{.Action}} restricted content"},
+"user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
+"user_error_too_many_pin_errors_help_page_link": { "other": "" },
+"shopping_error_age_restricted": { "other": "This content is age restricted." },
+"shopping_error_close_button": { "other": "OK" }, 
+
+"usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
+"usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
+"usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
+"usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
+"usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
+"usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
+"usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
+"usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
+"usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
+"usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" }, 
+
+"signin_form_error_ip_throttled": { "other": "You have failed to sign in too many times. Please try again later." },
+"signin_form_error_account_suspended": { "other": "Your account has been temporarily suspended. Please contact an admin if you believe this is in error." },
+
+
+"users_gender_none": { "other": "Not specified" },
+"users_gender_female": { "other": "Female" },
+"users_gender_male": { "other": "Male" },
+"users_gender_diverse": { "other": "Diverse" },
+"users_gender_other": { "other": "Other" },
+
+
+"pricing_quality_hd": { "other": "pricing_quality_hd" },
+  "pricing_quality_sd": { "other": "pricing_quality_sd" },
+  "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
+  "pricing_quality_sd_only": { "other": "pricing_quality_sd_only" },
+
+  "shopping_card_save_card": { "other": "Save this card for future use" },
+  "shopping_card_button_change": { "other": "Show all saved cards" },
+  "shopping_card_existing_description": { "other": "{{.Card.Brand}} ending in {{.Card.Number}}" },
+  "shopping_card_existing_expiry": { "other": "(expires {{.Card.Expiry}})" },
+  "shopping_card_existing_expired": { "other": "(expired)" },
+  "shopping_card_use_other": { "other": "Use a new card" },
+  "shopping_card_use_new_card": { "other": "Change card" },
+  "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
+  "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
+  "shopping_action_credit": { "other": "shopping_action_credit" },
+
+  "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
+
+  "availability_renting": { "other": "Renting" },
+  "availability_not_available": { "other": "Not available" },
+  "availability_in_watch_window": { "other": "availability_in_watch_window" },
+
+  "modal_cancel": { "other": "Cancel" },
+  "play": { "other": "Play" },
+
+  "combined_auth_signin_prompt": { "other": "Sign in" },
+  "combined_auth_signup_prompt": { "other": "Create Account" },
+
+  "shopping_error_item_limit_exceeded": { "other": "Unfortunately, {{.Title}} has sold out." }
 }

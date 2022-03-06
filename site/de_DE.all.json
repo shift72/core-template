@@ -1,17 +1,17 @@
 {
   "site_owner": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Einstelllungen" },
-  "powered_by": { "other": "Powered by" },
-  "powered_by_name": { "other": "ScreenPlus" },
+  "powered_by": { "other": "Bereitgestellt von" },
+  "powered_by_name": { "other": "Shift72" },
   "powered_by_url": { "other": "https://www.screenplus.com" },
-  "in_partnership_with": { "other": "in partnership with" },
+  "in_partnership_with": { "other": "in einer Beziehung mit" },
   "festival_scope": { "other": "Festival Scope" },
   "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
-  "en": { "other": "English" },
-  "fr": { "other": "French" },
+  "en": { "other": "Englisch" },
+  "fr": { "other": "Französisch" },
 
   "episode_name": {
-    "other": "Episode"
+    "other": "Folge"
   },
 
   "season_name": {
@@ -35,8 +35,8 @@
     "other": "Staffel {{.Season.SeasonNumber}}"
   },
   "episode_count": {
-    "one": "1 Episode",
-    "other": "{{.Count}} Episoden"
+    "one": "1 Folge",
+    "other": "{{.Count}} Folgen"
   },
 
   "date_day": { "other": "Tag" },
@@ -75,7 +75,7 @@
   "social_media_buttons_copied_link": { "other": "Link in die Zwischenablage kopiert!" },
   "social_media_buttons_copy_link": { "other": "In die Zwischenablage kopieren" },
 
-  "accept_invite_page_header": { "other": "Willkommen" },
+  "accept_invite_page_header": { "other": "Willkommen " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Sie haben diese Einladung bereits angenommen. <a href=\"{{.SigninURL}}\">Loggen Sie sich hier ein</a>. Falls Sie Ihr Passwort vergessen haben, können Sie es <a href=\"{{.ForgotPasswordURL}}\">hier zurücksetzen</a>." },
   "acceptinvite_complete": { "other": "Vielen Dank. Ihr Konto wurde erstellt." },
   "acceptinvite_form_submit": { "other": "Einladung annehmen" },
@@ -167,7 +167,7 @@
     "other": "{{.Count}} Ergebnisse gefunden: \"{{.Query}}\"."
   },
   "searchresults_empty_header":  { "other": "Keine Ergebnisse gefunden für {{.Query}}" },
-  "searchresults_empty_content": { "other": "Try another search or <a href=\"{{.HomeURL}}\">browse our content</a> to find what you're looking for." },
+  "searchresults_empty_content": { "other": "Probieren Sie eine andere Suche aus oder <a href=\"{{.HomeURL}}\">durchsuchen Sie unsere Inhalte</a>, um zu finden, wonach Sie suchen." },
 
   "validation_name_required": { "other": "Bitte geben Sie Ihren Namen ein." },
   "validation_email_required": { "other": "Bitte geben Sie eine gültige Emailadresse ein." },
@@ -184,7 +184,7 @@
   "validation_dob_date": { "other": "Bitte geben Sie ein gültiges Geburtsdatum ein." },
 
   "shopping_info_subtitle_hd": { "other": "Film in HD leihen." },
-  "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
+  "shopping_info_subtitle_sd": { "other": "SD-Video-on-Demand." },
   "shopping_info_subtitle_wallet": { "other": "Ihr Guthaben kann für den Kauf oder die Leihe genutzt werden." },
   "shopping_info_subtitle_help": { "other": "Technische Voraussetzungen." },
   "shopping_info_ownership_buy": { "other": "kaufen" },
@@ -318,12 +318,13 @@
   "shopping_error_stripe_unknown_error": { "other": "Mit dieser Zahlung ist leider etwas schief gelaufen. Bitte versuchen Sie es zu einem späteren Zeitpunkt noch einmal." },
   "shopping_error_payment_complete_failed": { "other": "Die Zahlung wurde nicht akzeptiert. Bitte schließen Sie das Fenster und versuchen Sie es noch einmal." },
 
-  "meta_detail_cast_title": { "other": "Cast" },
-  "meta_detail_crew_title": { "other": "Crew" },
+  "meta_detail_cast_title": { "other": "Gießen" },
+  "meta_detail_crew_title": { "other": "Besatzung" },
   "meta_detail_languages": { "one": "Sprache", "other": "Sprachen" },
   "meta_detail_studios": { "one": "Studio", "other": "Studios" },
   "meta_detail_countries": { "one": "Land", "other": "Länder" },
   "meta_detail_subtitles": { "other": "Untertitel" },
+  "meta_detail_captions": { "other": "Untertitel [CC]" },
   "meta_detail_episodes_title": { "other": "Episoden" },
   "meta_detail_bonus_title": { "other": "Bonusinhalt" },
   "meta_detail_recommendations_title": { "other": "Das könnte Ihnen auch gefallen" },
@@ -343,7 +344,7 @@
 
   "activatedevice_page_header": { "other": "Gerät aktivieren" },
   "activatedevice_page_content": { "other": "Folgen Sie den Anleitungen auf Ihrem Gerät um einen PIN-Code zu bekommen. Dafür müssen Ihr Computer und Ihr Gerät mit dem Internet verbunden sein." },
-  "activatedevice_form_pin": { "other": "PIN Code" },
+  "activatedevice_form_pin": { "other": "Geheimzahl" },
   "activatedevice_form_submit": { "other": "Aktivieren" },
   "activatedevice_form_error_invalid_code": { "other": "PIN-Code nicht gefunden. Bitte versuchen Sie es noch einmal." },
   "activatedevice_form_error_pin_not_found": { "other": "PIN-Code nicht gefunden. Bitte versuchen Sie es noch einmal." },
@@ -364,15 +365,15 @@
   "userdevices_device_actions_confirm": { "other": "Ja, Gerät entfernen" },
   "userdevices_device_deleted": { "other": "(Entfernt)" },
 
-  "playlist_page_header": { "other": "Playlist" },
-  "playlist_sign_in_warning": { "other": "Please sign in to watch live TV."},
-  "playlist_share_title": { "other": "Playlist" },
+  "playlist_page_header": { "other": "Wiedergabeliste" },
+  "playlist_sign_in_warning": { "other": "Bitte melden Sie sich an, um Live-TV zu sehen."},
+  "playlist_share_title": { "other": "Wiedergabeliste" },
   "playlist_up_next_title": { "other": "Nächster Titel" },
 
   "pricing_ownership_buy": { "other": "Kaufen" },
   "pricing_ownership_rent": { "other": "Ausleihen" },
 
-  "classification_intro": { "other": "Rating: " },
+  "classification_intro": { "other": "Bewertung: " },
   "classification_divider": { "other": " - " },
   "classification_outro": { "other": "" },
 
@@ -397,15 +398,15 @@
 
   "combined_auth_signin_prompt": { "other": "Anmelden" },
   "combined_auth_signup_prompt": { "other": "Konto anlegen" },
-  "combined_auth_terms": { "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>." },
+  "combined_auth_terms": { "other": "Ich stimme allen <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Nutzungsbedingungen &amp; Bedingungen</a>." },
 
-  "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+  "shopping_card_change": { "other": "Kreditkarte nicht korrekt? <a href=\"{{.SubscriptionsURL}}\">Klicken Sie hier, um Ihre Karte zu aktualisieren.</a>" },
 
   "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
 
-  "app_badge_title": { "other": "Download the app to view your purchased content!" },
-  "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" },
+  "app_badge_title": { "other": "Laden Sie die App herunter, um Ihre gekauften Inhalte anzuzeigen!" },
+  "app_badge_ios": { "other": "Herunterladen im App Store" },
+  "app_badge_android": { "other": "Bekomm es auf Google Play" },
 
   "shopping_price_title_plan": {
     "other": "Preis"
@@ -474,5 +475,129 @@
   },
   "awards_in_competition": {
     "other": "Im Wettbewerb"
-  }
+  },
+  "awards_winner_of": {
+    "other": "Gewinner von"
+  },
+  "donate_button_text": {
+    "other": "Spenden"
+  }, 
+  "shopping_error_plan_already_owned": { "other": "Sie haben diesen Plan bereits." },
+  "shopping_error_plan_expired": { "other": "Dieser Plan ist nicht mehr verfügbar." },
+
+  "header_banner": { "other": "ABC Cinemas – 21. Filmfestival, 1. – 6. Juni 2021" },
+
+  "account_form_pin_code": { "other": "PIN" },
+  "account_form_pin_code_not_set": { "other": "Sie haben keinen PIN-Satz, der zum Kaufen, Ausleihen und Ansehen einiger Titel erforderlich ist."},
+  "account_form_set_pin": { "other": "PIN festlegen" },
+  "account_form_pin_changed": { "other": "Aktualisiert" },
+  "account_form_change_pin": { "other": "PIN ändern" },
+
+  "user_set_pin_header": { "other": "Legen Sie Ihre PIN fest" },
+  "user_set_pin_button": { "other": "PIN festlegen" },
+  "user_submit_pin_heading": { "other": "Geben Sie Ihre PIN für diesen eingeschränkten Inhalt {{.Action}} ein" },
+  "user_error_wrong_pin_retry": { "other": "Hoppla, Sie haben eine falsche PIN eingegeben" },
+  "user_submit_pin_button": { "other": "Eingeben" },
+  "user_reset_pin_button": { "other": "PIN zurücksetzen" },
+
+  "validation_pincode1_required": { "other": "Bitte geben Sie einen gültigen PIN-Code ein." },
+  "validation_pincode2_required": { "other": "Bitte geben Sie einen gültigen PIN-Code ein." },
+  "validation_pincode1_pattern": { "other": "Bitte geben Sie einen gültigen PIN-Code ein." },
+  "validation_pincode2_pattern": { "other": "Bitte geben Sie einen gültigen PIN-Code ein." },
+  "validation_pincode2_match": { "other": "PIN-Code stimmt nicht überein." },
+
+  "userdevices_delete_limits": { "other": "Sie können alle {{.Period}} Tag(e) {{.Limit}} Gerät(e) aus dieser Liste entfernen."},
+  "userdevices_delete_limit_reached": { "other": "Sie haben dieses Limit erreicht und können derzeit keine Geräte entfernen. Sie können ein Gerät in {{.Days}} Tag(en) löschen." },
+  "shopping_card_new_subscription": { "other": "Diese Karte wird gespeichert und regelmäßig belastet" },
+
+  "changepincode_modal_header": { "other": "Ändern Sie Ihre PIN" },
+  "changepincode_modal_currentpassword": { "other": "Dein aktuelles Passwort" },
+  "changepincode_modal_pincode1": { "other": "Ihre neue 4-stellige PIN" },
+  "changepincode_modal_pincode2": { "other": "Bestätigen Sie Ihre neue 4-stellige PIN" },
+  "changepincode_modal_submit": { "other": "PIN festlegen" },
+  "changepincode_modal_error_wrong_password": { "other": "Dieses Passwort ist falsch." },
+
+  "user_set_pin_intro": { "other": "Sie benötigen eine PIN für {{.Action}} eingeschränkte Inhalte"},
+  "user_error_wrong_pin_reset": { "other": "Klicken Sie hier, um Ihre PIN zurückzusetzen" },
+  "user_error_too_many_pin_errors_help_page_link": { "other": "" },
+  "shopping_error_age_restricted": { "other": "Dieser Inhalt ist altersbeschränkt." },
+  "shopping_error_close_button": { "other": "OK" }, 
+
+  "usersubscriptions_subscription_expiry": { "other": "Läuft ab {{.Expiry}}" },
+  "usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
+  "usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
+  "usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
+  "usersubscriptions_subscription_status_trialing": { "other": "Probezeit" },
+  "usersubscriptions_subscription_unsubscribe": { "other": "Mein Abonnement kündigen" },
+  "usersubscriptions_unsubscribe_modal_cancel": { "other": "Stornieren" },
+  "usersubscriptions_unsubscribe_modal_confirm": { "other": "Ja, mein Abonnement kündigen" },
+  "usersubscriptions_unsubscribe_modal_title": { "other": "Abonnement beenden?" },
+  "usersubscriptions_unsubscribe_modal_body": { "other": "Dadurch wird das Abonnement des Plans {{.Name}} gekündigt. Sie können den Inhalt des Plans weiterhin ansehen, bis er abläuft {{.Expiry}}." },
+
+  "wcag_skip_links_header": { "other": "Zugänglichkeitslinks" },
+  "wcag_skip_links_content": { "other": "Zum Inhalt springen" },
+  "wcag_skip_links_footer": { "other": "Zur Fußzeile springen" },
+
+  "wcag_homepage_h1": { "other": "Startseite" },
+  "wcag_carousel_h2": { "other": "Karussell" },
+  "wcag_collections_h2": { "other": "Sammlungen" },
+
+  "wcag_aria_label_footer": { "other": "Fusszeile" },
+  "wcag_aria_label_nav_main": { "other": "Hauptsächlich" },
+  "wcag_aria_label_nav_sub": { "other": "Sub" },
+  "wcag_aria_label_toggle_nav": { "other": "Navigation umschalten" },
+  "wcag_aria_label_bundle_items": { "other": "Bundle-Artikel" },
+  "wcag_aria_label_carousel": { "other": "Karussell" },
+  "wcag_aria_label_page_collection": { "other": "Seitensammlung" },
+  "wcag_aria_label_collection_list": { "other": "Sammlungsliste" },
+  "wcag_aria_label_collection_slider": { "other": "Sammlungsschieber" },
+  "wcag_aria_label_wishlist": { "other": "Wunschzettel" },
+  "wcag_aria_label_facebook": { "other": "Auf Facebook teilen" },
+  "wcag_aria_label_twitter": { "other": "Auf Twitter teilen" },
+  "wcag_aria_label_linkedin": { "other": "Auf LinkedIn teilen" },
+  "wcag_aria_label_letterboxd": { "other": "Ansicht auf Letterboxd" },
+
+  "signin_form_error_ip_throttled": { "other": "Sie haben sich zu oft nicht angemeldet. Bitte versuchen Sie es später erneut." },
+  "signin_form_error_account_suspended": { "other": "Dein Account wurde vorrübergehend gesperrt. Bitte wenden Sie sich an einen Administrator, wenn Sie glauben, dass dies ein Fehler ist." },
+
+
+  "users_gender_none": { "other": "Keine Angabe" },
+  "users_gender_female": { "other": "Weiblich" },
+  "users_gender_male": { "other": "Männlich" },
+  "users_gender_diverse": { "other": "Vielfältig" },
+  "users_gender_other": { "other": "Andere" },
+
+  "pricing_quality_hd": { "other": "HD" },
+  "pricing_quality_sd": { "other": "SD" },
+  "pricing_quality_hd_only": { "other": "Nur HD" },
+  "pricing_quality_sd_only": { "other": "Nur SD" },
+
+  "shopping_card_save_card": { "other": "Bewahren Sie diese Karte zur späteren Verwendung auf" },
+  "shopping_card_button_change": { "other": "Alle gespeicherten Karten anzeigen" },
+  "shopping_card_existing_description": { "other": "{{.Card.Brand}} endet in {{.Card.Number}}" },
+  "shopping_card_existing_expiry": { "other": "(läuft ab {{.Card.Expiry}})" },
+  "shopping_card_existing_expired": { "other": "(abgelaufen)" },
+  "shopping_card_use_other": { "other": "Verwenden Sie eine neue Karte" },
+  "shopping_card_use_new_card": { "other": "Karte wechseln" },
+  "shopping_card_update_reason_none": { "other": "Aktualisieren Sie Ihre Kreditkarte. Unterstützte Karten sind Visa, Mastercard und American Express." },
+  "shopping_info_ownership_plan": { "other": "Abonnement" },
+  "shopping_action_credit": { "other": "Nachfüllen" },
+
+  "usersubscriptions_change_payment_method_change": { "other": "Kreditkarte ändern" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "Kreditkartendaten aktualisieren" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "Aktualisieren" },
+
+  "availability_renting": { "other": "Vermietung" },
+  "availability_not_available": { "other": "Nicht verfügbar" },
+  "availability_in_watch_window": { "other": "Verfügbar im Uhrenfenster" },
+
+  "play": { "other": "Spiel" },
+
+
+  "shopping_error_item_limit_exceeded": { "other": "Leider ist {{.Title}} ausverkauft." },
+
+  "availability_expires": { "other": "Läuft ab {{.Expiry}}" },
+  "availability_available_till": { "other": "Verfügbar bis zum {{.ExpiryDate}}" },
+
+  "validation_terms_required": { "other": "Sie müssen den Nutzungsbedingungen zustimmen." }
 }

@@ -104,10 +104,8 @@
 .curated-page {
   .page-content {
     max-width: 1100px;
-    min-height: 220px;
     padding: 20px 20px 0;
     @include media-breakpoint-up(lg) {
-      min-height: 600px;
       padding: 20px 50px 0;
     }
 

@@ -81,7 +81,7 @@
   "social_media_buttons_copied_link": { "other": "Nuoroda nukopijuota į mainų sritį!" },
   "social_media_buttons_copy_link": { "other": "Nukopijuoti į iškarpinę" },
 
-  "accept_invite_page_header": { "other": "Sveiki" },
+  "accept_invite_page_header": { "other": "Sveiki " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Panašu, kad jau patvirtinote šį kvietimą, prašome <a href=\"{{.SigninURL}}\">prisijungti</a>. Pamiršus slaptažodį, galite <a href=\"{{.ForgotPasswordURL}}\">susikurti naują</a>." },
   "acceptinvite_complete": { "other": "Ačiū, jūsų paskyra sukurta." },
   "acceptinvite_form_submit": { "other": "Priimti kvietimą" },
@@ -336,6 +336,7 @@
   "meta_detail_studios": { "one": "Kompanija", "other": "Kompanijos" },
   "meta_detail_countries": { "one": "Šalis", "other": "Šalys" },
   "meta_detail_subtitles": { "other": "Subtitrai" },
+  "meta_detail_captions": { "other": "Subtitrai [CC]" },
   "meta_detail_episodes_title": { "other": "Epizodai" },
   "meta_detail_bonus_title": { "other": "Specialus papildomas turinys" },
   "meta_detail_recommendations_title": { "other": "Taip pat gali patikti" },
@@ -401,7 +402,6 @@
   "users_gender_diverse": { "other": "Nedvinarė" },
   "users_gender_other": { "other": "Kita" },
 
-  "plan_label_owned": { "other": "" },
 
   "pricing_quality_hd": { "other": "pricing_quality_hd" },
   "pricing_quality_sd": { "other": "pricing_quality_sd" },
@@ -421,21 +421,10 @@
 
   "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
 
-  "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-  "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-  "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
-
-  "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
-
   "shopping_action_credit": { "other": "shopping_action_credit" },
-  "shopping_action_plan": { "other": "shopping_action_plan" },
 
-  "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-  "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
 
   "shopping_info_rental_period_coming_soon": { "other": "nuo išleidimo datos ir laiko." },
-  "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-  "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
 
   "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
   "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
@@ -559,5 +548,49 @@
   },
   "awards_in_competition": {
     "other": "Varžybose"
-  }
+  },
+  "awards_winner_of": {
+    "other": "Nugalėtojas iš"
+  },
+  "donate_button_text": {
+    "other": "Paaukoti"
+  },
+  "wcag_skip_links_header": { "other": "Accessibility Links" },
+  "wcag_skip_links_content": { "other": "Skip to Content" },
+  "wcag_skip_links_footer": { "other": "Skip to Footer" },
+
+  "wcag_homepage_h1": { "other": "Homepage" },
+  "wcag_carousel_h2": { "other": "Carousel" },
+  "wcag_collections_h2": { "other": "Collections" },
+
+  "wcag_aria_label_footer": { "other": "Footer" },
+  "wcag_aria_label_nav_main": { "other": "Main" },
+  "wcag_aria_label_nav_sub": { "other": "Sub" },
+  "wcag_aria_label_toggle_nav": { "other": "Toggle Navigation" },
+  "wcag_aria_label_bundle_items": { "other": "Bundle Items" },
+  "wcag_aria_label_carousel": { "other": "Carousel" },
+  "wcag_aria_label_page_collection": { "other": "Page Collection" },
+  "wcag_aria_label_collection_list": { "other": "Collection List" },
+  "wcag_aria_label_collection_slider": { "other": "Collection Slider" },
+  "wcag_aria_label_wishlist": { "other": "Wishlist" },
+  "wcag_aria_label_facebook": { "other": "Share on Facebook" },
+  "wcag_aria_label_twitter": { "other": "Share on Twitter" },
+  "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
+  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+
+  "shopping_error_plan_already_owned": { "other": "You already have this plan." },
+  "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+  "shopping_payment_method_header": { "other": "Payment methods" },
+  "shopping_payment_method_credit_card": { "other": "Credit card" },
+  "shopping_payment_method_giropay": { "other": "Giropay" },
+  "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
+  "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
+
+  "validation_pincode1_required": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_required": { "other": "Please enter a valid PIN code." },
+  "validation_pincode1_pattern": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_pattern": { "other": "Please enter a valid PIN code." },
+  "validation_pincode2_match": { "other": "PIN code does not match." },
+
+  "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" }
 }

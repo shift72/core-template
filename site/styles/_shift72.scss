@@ -224,7 +224,7 @@
   @extend .form-control-plaintext;
 
   .form-page & {
-    color: var(--body-color);
+    color: rgba(var(--body-color-rgb), 0.5);
   }
 }
 
@@ -232,7 +232,7 @@
 .s72-readonly-text .s72-form-control-readonly {
   @extend .py-0;
   border: 1px solid transparent;
-  border-radius: $border-radius !important;
+  border-radius: $border-radius;
 
   font-size: unset;
 }
@@ -240,7 +240,7 @@
 s72-useraccount-form {
   .s72-form-control-readonly {
     @extend .s72-form-control-static;
-    border-radius: 6px !important;
+    border-radius: $border-radius;
   }
 
   .s72-account-password-form-group,
