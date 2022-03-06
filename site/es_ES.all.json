@@ -547,7 +547,7 @@
 
 "usersubscriptions_subscription_expiry": { "other": "Caduca {{.Expiry}}" },
 "usersubscriptions_subscription_status_trialing": { "other": "Periodo de prueba" },
-"usersubscriptions_subscription_unsubscribe": { "other": "Cancel my subscription" },
+"usersubscriptions_subscription_unsubscribe": { "other": "Cancelar mi suscripción" },
 "usersubscriptions_unsubscribe_modal_cancel": { "other": "Cancelar" },
 "usersubscriptions_unsubscribe_modal_confirm": { "other": "Sí, cancelar mi suscripción"},
 "usersubscriptions_unsubscribe_modal_title": { "other": "¿Cancelar suscripción?" },
