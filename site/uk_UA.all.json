@@ -619,7 +619,7 @@
    "other": "Ваше {{.Ownership}} не встановлено. Здається ви використовуєте розблокувальник або проксі. Будь ласка, вимкніть ці сервіси та спробуйте ще раз."
   },
   "shopping_error_discount_worn_out": {
-   "other": "That promo code can no longer be used."
+   "other": "Цей промо-код більше не може бути використаний."
   },
   "shopping_error_discount_blank": {
    "other": "Будь ласка, введіть промокод."
