@@ -108,7 +108,7 @@
   "signin_form_error_incorrect_credentials": { "other": "El usuario o contraseña son incorrectos." },
   "signup_form_error_forbidden": { "other": "Un error ha ocurrido." },
 
-  "combined_auth_continue": { "other": "Continue" },
+  "combined_auth_continue": { "other": "Continuar" },
   "combined_auth_change": { "other": "cambiar" },
   "combined_auth_signin": { "other": "Iniciar sesión" },
   "combined_auth_signup": { "other": "Crear cuenta" },
@@ -578,9 +578,9 @@
   "shopping_info_ownership_plan": { "other": "Suscripción" },
   "shopping_action_credit": { "other": "añadir crédito" },
 
-  "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
-  "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
-  "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
+  "usersubscriptions_change_payment_method_change": { "other": "Cambiar tarjeta de credito" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "Actualizar los datos de la tarjeta de crédito" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "Actualizar" },
 
   "availability_renting": { "other": "Alquiler" },
   "availability_not_available": { "other": "No disponible" },

@@ -232,7 +232,7 @@
     "one": "Una vez que seleccionas reproducir en un capítulo, se inicia la ventana de reproducción y tienes hora para ver ese capítulo las veces que quieras.",
     "other": "Una vez que seleccionas reproducir en un capítulo, se inicia la ventana de reproducción y tienes {{.Count}} horas para ver ese capítulo las veces que quieras."
   },
-  "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },
+  "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Primo" },
 
   "shopping_enter_card_prompt": { "other": "Ingresa los datos de tu tarjeta de crédito para completar tu {{.Verb}}." },
 
@@ -315,7 +315,7 @@
   "shopping_action_buy": { "other": "Comprar" },
 
   "meta_detail_cast_title": { "other": "Reparto" },
-  "meta_detail_crew_title": { "other": "Crew" },
+  "meta_detail_crew_title": { "other": "Tripulación" },
   "meta_detail_languages": { "one": "Idioma", "other": "Idiomas" },
   "meta_detail_studios": { "one": "Productora", "other": "Productoras" },
   "meta_detail_countries": { "one": "País", "other": "Países" },
@@ -519,9 +519,9 @@
   "shopping_info_ownership_plan": { "other": "Suscripción" },
   "shopping_action_credit": { "other": "añadir crédito" },
 
-  "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
-  "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
-  "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
+  "usersubscriptions_change_payment_method_change": { "other": "Cambiar tarjeta de credito" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "Actualizar los datos de la tarjeta de crédito" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "Actualizar" },
 
 
   "availability_not_available": { "other": "No disponible" },
@@ -544,8 +544,8 @@
   "shopping_complete_subscription_browse": { "other": "No dude en <a href=\"/\">navegar por</a> el sitio o <a href=\"/search.html\">buscar</a> algo específico." },
 
   "shopping_info_plan_offer": {
-    "one": "Automatically renews every {{.Interval}}",
-    "other": "Automatically renews every {{.Count}} {{.Interval}}s"
+    "one": "Se renueva automáticamente cada {{.Interval}}",
+    "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}s"
   },
   "shopping_info_trial_period_offer": {
     "one": "Renueva automáticamente cada {{ .Interval }}",

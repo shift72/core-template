@@ -36,7 +36,7 @@
     "other": "Séries {{.Season.SeasonNumber}}"
   },
   "episode_count": {
-    "one": "1 Episode",
+    "one": "1 Épisode",
     "other": "{{.Count}} Épisodes"
   },
 
@@ -244,7 +244,7 @@
     "one": "Une fois que vous lancez la lecture d'un épisode, la fenêtre de lecture commence et vous avez une heure pour regarder l'épisode autant de vois que vous le souhaitez.",
     "other": "Une fois que vous lancez la lecture d'un épisode, la fenêtre de lecture commence et vous avez {{.Count}} heures pour regarder l'épisode autant de vois que vous le souhaitez."
   },
-  "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },
+  "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Prime" },
 
   "shopping_enter_card_prompt": { "other": "Veuillez saisir les détails de votre carte bancaire ci-dessous pour compléter votre {{.Verb}}." },
 

@@ -103,7 +103,7 @@
   "forgotpassword_form_error_email_doesnt_exist": { "other": "Tätä sähköpostiosoitetta vastaavaa tiliä ei ole olemassa." },
   "forgotpassword_form_error_account_suspended": { "other": "Tämä tili on jäädytetty." },
   "forgotpassword_complete": { "other": "Kiitos. Saat pian sähköpostiisi linkin salasanasi vaihtamiseksi." },
-  "forgotpassword_form_error_forbidden": { "other": "An error has occurred." },
+  "forgotpassword_form_error_forbidden": { "other": "Tapahtui virhe." },
   "forgotpassword_form_error_too_many_requests": { "other": "Liikaa pyyntöjä, yritä myöhemmin uudelleen." },
 
   "resetpassword_page_header": { "other": "Vaihda salasana" },
@@ -503,7 +503,7 @@
 
 "changepincode_modal_header": { "other": "Vaihda PIN-koodisi" },
 "changepincode_modal_currentpassword": { "other": "Nykyinen salasanasi" },
-"changepincode_modal_pincode1": { "other": "Your new 4 digit PIN" },
+"changepincode_modal_pincode1": { "other": "Uusi 4-numeroinen PIN-koodisi" },
 "changepincode_modal_pincode2": { "other": "Vahvista uusi 4-numeroinen PIN-koodisi" },
 "changepincode_modal_submit": { "other": "Aseta PIN-koodi" },
 "changepincode_modal_error_wrong_password": { "other": "Salasana on väärä." },

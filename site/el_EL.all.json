@@ -1,6 +1,6 @@
 {
   "site_owner": { "other": "ABC Cinemas" },
-  "settings_title": { "other": "Settings" },
+  "settings_title": { "other": "Ρυθμίσεις" },
   "powered_by": { "other": "Powered by" },
   "powered_by_name": { "other": "Shift72" },
   "powered_by_url": { "other": "https://www.shift72.com" },
@@ -183,14 +183,14 @@
   "validation_password2_match": { "other": "Οι κωδικοί δεν ταιριάζουν. " },
   "validation_password_minlength": { "other": "Παρακαλώ εισάγετε τουλάχιστον {{.Count}} χαρακτήρες." },
   "validation_promocode_required": { "other": "Παρακαλώ εισάγετε τον κωδικό έκπτωσης." },
-  "validation_pincode_required": { "other": "Please enter a PIN code." },
+  "validation_pincode_required": { "other": "Εισαγάγετε ένα PIN." },
   "validation_gender_required": { "other": "Παρακαλώ εισάγετε το φύλο που σας εκφράζει περισσότερο." },
   "validation_dob_required": { "other": "Παρακαλώ εισάγετε την ημ/νία γέννησής σας. " },
   "validation_dob_date": { "other": "Παρακαλώ εισάγετε μια έγκυρη ημ/νία." },
 
   "shopping_info_subtitle_hd": { "other": "Βίντεο HD on Demand." },
   "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
-  "shopping_info_subtitle_wallet": { "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus." },
+  "shopping_info_subtitle_wallet": { "other": "Τα χρήματα στο Πορτοφόλι σας μπορούν να χρησιμοποιηθούν για την αγορά ή την ενοικίαση οποιουδήποτε περιεχομένου ScreenPlus." },
   "shopping_info_subtitle_help": { "other": "Δείτε εδώ για απαιτήσεις συστήματος." },
   "shopping_info_ownership_buy": { "other": "αγορά" },
   "shopping_info_ownership_rent": { "other": "ενοικίαση" },
@@ -590,6 +590,8 @@
 "user_error_too_many_pin_errors_help_page_link": { "other": "" },
 "shopping_error_age_restricted": { "other": "Αυτό το περιεχόμενο είναι περιορισμένο ηλικίας." },
 "shopping_error_close_button": { "other": "εντάξει" }, 
+
+"shopping_card_update_reason_none": { "other": "Ενημερώστε την πιστωτική σας κάρτα. Οι υποστηριζόμενες κάρτες είναι Visa, Mastercard και American Express." },
 
 "availability_expires": { "other": "λήγει {{.Expiry}}" },
 "availability_expired": { "other": "έχει λήξει"},
