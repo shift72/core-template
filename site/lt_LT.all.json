@@ -555,7 +555,6 @@
   },
   "wcag_skip_links_header": { "other": "Prieinamumo nuorodos" },
   "wcag_skip_links_content": { "other": "Pereiti prie turinio" },
-  "wcag_skip_links_footer": { "other": "Pereiti prie poraštės" },
 
   "wcag_homepage_h1": { "other": "Pagrindinis puslapis" },
   "wcag_carousel_h2": { "other": "Karuselė" },

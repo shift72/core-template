@@ -528,7 +528,6 @@
     },
     "wcag_skip_links_header": { "other": "Kisegítő lehetőségek linkek" },
     "wcag_skip_links_content": { "other": "Ugrás a tartalomra" },
-    "wcag_skip_links_footer": { "other": "Ugrás a lábléchez" },
   
     "wcag_homepage_h1": { "other": "Kezdőlap" },
     "wcag_carousel_h2": { "other": "Körhinta" },

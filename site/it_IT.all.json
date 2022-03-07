@@ -484,7 +484,6 @@
   },
   "wcag_skip_links_header": { "other": "Collegamenti di accessibilità" },
   "wcag_skip_links_content": { "other": "Salta al contenuto" },
-  "wcag_skip_links_footer": { "other": "Passa al piè di pagina" },
 
   "wcag_homepage_h1": { "other": "Pagina iniziale" },
   "wcag_carousel_h2": { "other": "Giostra" },

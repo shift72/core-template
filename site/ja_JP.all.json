@@ -448,7 +448,6 @@
   },
   "wcag_skip_links_header": { "other": "アクセシビリティリンク" },
   "wcag_skip_links_content": { "other": "コンテンツにスキップ" },
-  "wcag_skip_links_footer": { "other": "フッターにスキップ" },
 
   "wcag_homepage_h1": { "other": "ホームページ" },
   "wcag_carousel_h2": { "other": "カルーセル" },
