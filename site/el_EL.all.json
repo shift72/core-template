@@ -525,7 +525,6 @@
   },
   "wcag_skip_links_header": { "other": "Σύνδεσμοι προσβασιμότητας" },
   "wcag_skip_links_content": { "other": "Μετάβαση στο Περιεχόμενο" },
-  "wcag_skip_links_footer": { "other": "Μεταβείτε στο υποσέλιδο" },
 
   "wcag_homepage_h1": { "other": "Σπίτι" },
   "wcag_carousel_h2": { "other": "Στροβιλοδρόμιο" },

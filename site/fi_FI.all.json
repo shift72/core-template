@@ -84,7 +84,7 @@
   "signup_page_alreadyhaveanaccount": { "other": "Onko sinulla jo tili? Kirjaudu sisään" },
   "signup_form_error_email_already_in_use": { "other": "Sähköpostiosoite on jo käytössä." },
   "signin_form_error_incorrect_credentials": { "other": "Virheellinen käyttäjätunnus tai salasana." },
-  "signin_form_error_ip_throttled": { "other": "You have failed to sign in too many times. Please try again later." },
+  "signin_form_error_ip_throttled": { "other": "Et ole kirjautunut sisään liian monta kertaa. Yritä uudelleen myöhemmin." },
 
   "signup_form_error_forbidden": { "other": "Tapahtui virhe." },
 
@@ -368,9 +368,9 @@
 
   "shopping_error_item_limit_exceeded": { "other": "Valitettavasti {{.Title}} on loppuunmyyty." },
 
-  "app_badge_title": { "other": "Download the app to view your purchased content!" },
-  "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" },
+  "app_badge_title": { "other": "Lataa sovellus nähdäksesi ostamasi sisällön!" },
+  "app_badge_ios": { "other": "Lataa App Storesta" },
+  "app_badge_android": { "other": "Hanki se Google Playsta" },
 
   "shopping_price_title_plan": {
     "other": "Hinta"
@@ -448,7 +448,6 @@
   },
   "wcag_skip_links_header": { "other": "Esteettömyyslinkit" },
   "wcag_skip_links_content": { "other": "Siirry sisältöön" },
-  "wcag_skip_links_footer": { "other": "Siirry alatunnisteeseen" },
 
   "wcag_homepage_h1": { "other": "Kotisivu" },
   "wcag_carousel_h2": { "other": "Karuselli" },

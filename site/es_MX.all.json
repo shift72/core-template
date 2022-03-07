@@ -423,7 +423,6 @@
   "donate_button_text": { "other": "Donar" },
   "wcag_skip_links_header": { "other": "Enlaces de accesibilidad" },
   "wcag_skip_links_content": { "other": "Saltar al contenido" },
-  "wcag_skip_links_footer": { "other": "Saltar al pie de página" },
 
   "wcag_homepage_h1": { "other": "Página principal" },
   "wcag_carousel_h2": { "other": "Carrusel" },
