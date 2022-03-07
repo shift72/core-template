@@ -43,6 +43,7 @@
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,fetch" defer></script>
     <script src="{{CDN}}/s72.core.js" defer></script>
     <script src="{{CDN}}/s72.ui.js" defer></script>
+    <script src="https://unpkg.com/i18next/dist/umd/i18next.js" defer></script>
 
     <script src="/scripts/main.js" defer></script>    
 

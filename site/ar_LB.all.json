@@ -1,4 +1,12 @@
 {
+  "test_pluralities": {
+    "zero": "I do zero plurality!",
+    "one": "I do one plurality!",
+    "two": "I do two plurality!",
+    "few": "I do few plurality!",
+    "many": "I do many plurality!",
+    "other": "I do other plurality!"
+  },
     "site_owner": { "other": "ABC Cinemas" },
     "settings_title": { "other": "إعدادات" },
     "powered_by": { "other": "مشغل بواسطة" },

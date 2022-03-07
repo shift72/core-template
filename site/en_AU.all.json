@@ -1,4 +1,11 @@
 {
+  "test_pluralities": {
+    "one": "I do one plurality!",
+    "other": "I do other plurality!"
+  },
+  "test_interpolation": {
+    "other": "I {{.Value}} other interpolation!"
+  },
   "site_owner": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Settings" },
   "powered_by": { "other": "Powered by" },
