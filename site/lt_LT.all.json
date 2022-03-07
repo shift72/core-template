@@ -430,7 +430,7 @@
   "usersubscriptions_change_payment_method_modal_title": { "other": "Atnaujinkite kredito kortelės duomenis" },
   "usersubscriptions_change_payment_method_modal_submit": { "other": "Atnaujinkite" },
 
-  "usersubscriptions_subscription_expiry": { "other": "Baigiasi {{.Galiojimo laikas}}" },
+  "usersubscriptions_subscription_expiry": { "other": "Baigiasi {{.Expiry}}" },
   "usersubscriptions_subscription_status_trialing": { "other": "Bandomasis laikotarpis" },
   "usersubscriptions_subscription_unsubscribe": { "other": "Atšaukti mano prenumeratą" },
   "usersubscriptions_unsubscribe_modal_cancel": { "other": "Atšaukti" },
