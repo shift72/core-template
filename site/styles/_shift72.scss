@@ -11,8 +11,11 @@
   }
 }
 
+ // exists once in <s72-searchresults/>
 .s72-btn-search {
   @extend .btn-primary-override;
+  font-size: 24px;
+  height: var(--input-height);
 }
 
 .s72-btn-purchase {
