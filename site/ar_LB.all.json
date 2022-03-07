@@ -1,14 +1,14 @@
 {
     "site_owner": { "other": "ABC Cinemas" },
-    "settings_title": { "other": "Settings" },
+    "settings_title": { "other": "إعدادات" },
     "powered_by": { "other": "مشغل بواسطة" },
     "powered_by_name": { "other": "Shift72" },
     "powered_by_url": { "other": "https://www.shift72.com" },
     "in_partnership_with": { "other": "بالشراكة مع/ بالتعاون مع" },
     "festival_scope": { "other": "Festival Scope" },
     "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
-    "en": { "other": "English" },
-    "fr": { "other": "French" },
+    "en": { "other": "إنجليزي" },
+    "fr": { "other": "الفرنسية" },
   
     "episode_name": {
       "other": "حلقة"
@@ -26,7 +26,7 @@
       "other": "مسلسل {{.ShowInfo.Title}} {{.Season.SeasonNumber}}"
     },
     "tvseason_html": {
-      "other": "{{.ShowInfo.Title}} <span>Series {{.Season.SeasonNumber}}</span>مسلسل "
+      "other": "<span>{{.Season.SeasonNumber}}</span> مسلسل {{.ShowInfo.Title}}"
     },
     "tvepisode": {
       "other": "{{.Episode.Title}}"
@@ -217,18 +217,18 @@
     "shopping_info_ownership_rent": { "other": "استئجار" },
   
     "shopping_info_sd_only": { "other": "يقتصر على تشغيل SD فقط." },
-    "shopping_info_release_date_title": { "other": "الإصدارات  {{.Date}}." },
+    "shopping_info_release_date_title": { "other": "الإصدارات  {{.Date}}. " },
     "shopping_info_release_date_explanation_rent": { "other": "يمكنك الاستئجار الآن ، لكنك لن تتمكن من المشاهدة حتى ذلك الحين." },
     "shopping_info_release_date_explanation_buy": { "other": "يمكنك الشراء الآن ، لكنك لن تتمكن من المشاهدة حتى ذلك الحين." },
   
-    "shopping_info_available_until_date_title": { "other": "صالح لغاية {{.Date}}." },
+    "shopping_info_available_until_date_title": { "other": "صالح لغاية {{.Date}}. " },
     "shopping_info_available_until_date_explanation_rent": { "other": "لن تتمكن من عرض المحتوى بعد ذلك." },
     "shopping_info_available_until_date_explanation_buy": { "other": "لن تتمكن من عرض المحتوى بعد ذلك." },
   
     "duration_hour": { "one": "1 ساعة", "other": "{{.Count}} ساعة" },
     "duration_day": { "one": "1 يوم", "other": "{{.Count}} يوما" },
-    "shopping_info_rental_period_duration": { "other": "تأجير لمدة {{.ValueUnit}}" },
-    "shopping_info_watch_window_duration": { "other": "تشغيل لمدة {{.Count}} ساعة." },
+    "shopping_info_rental_period_duration": { "other": "تأجير لمدة {{.ValueUnit}} " },
+    "shopping_info_watch_window_duration": { "other": "تشغيل لمدة {{.Count}} ساعة. " },
     "shopping_info_watch_window_explanation_film": {
       "one": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة {{.ValueUnit}}.",
       "other": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة {{.ValueUnit}}."
@@ -415,10 +415,10 @@
     "users_gender_other": { "other": "غير محدد" },
   
   
-    "pricing_quality_hd": { "other": "pricing_quality_hd" },
-    "pricing_quality_sd": { "other": "pricing_quality_sd" },
-    "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
-    "pricing_quality_sd_only": { "other": "pricing_quality_sd_only" },
+    "pricing_quality_hd": { "other": "HD" },
+    "pricing_quality_sd": { "other": "SD" },
+    "pricing_quality_hd_only": { "other": "HD فقط" },
+    "pricing_quality_sd_only": { "other": "SD فقط" },
   
     "shopping_card_save_card": { "other": "احفظ(ي) هذه البطاقة لاستخدامها في المستقبل" },
     "shopping_card_button_change": { "other": "إظهار كل البطاقات المحفوظة" },
@@ -431,24 +431,24 @@
     "shopping_card_new_subscription": { "other": "سيتم حفظ هذه البطاقة وإعادة تعبئتها بانتظام" },
     "shopping_card_change": { "other": "بطاقة الائتمان غير صحيحة؟ <a href=\"{{.SubscriptionsURL}}\"> انقر(ي) هنا لتحديث بطاقتك. </a>" },
   
-    "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
+    "shopping_info_ownership_plan": { "other": "الاشتراك" },
   
     "shopping_info_rental_period_coming_soon": { "other": "من تاريخ ووقت الإصدار." },
 
-    "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
-    "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
-    "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
+    "usersubscriptions_change_payment_method_change": { "other": "تغيير بطاقة الائتمان" },
+    "usersubscriptions_change_payment_method_modal_title": { "other": "تحديث تفاصيل بطاقة الائتمان" },
+    "usersubscriptions_change_payment_method_modal_submit": { "other": "تحديث" },
   
-    "usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
+    "usersubscriptions_subscription_expiry": { "other": "تنتهي {{.Expiry}}" },
     "usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
     "usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
     "usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
-    "usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
-    "usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
-    "usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
-    "usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
-    "usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
-    "usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
+    "usersubscriptions_subscription_status_trialing": { "other": "فترة النسخة التجريبية" },
+    "usersubscriptions_subscription_unsubscribe": { "other": "إلغاء اشتراكي" },
+    "usersubscriptions_unsubscribe_modal_cancel": { "other": "يلغي" },
+    "usersubscriptions_unsubscribe_modal_confirm": { "other": "نعم ، إلغاء اشتراكي" },
+    "usersubscriptions_unsubscribe_modal_title": { "other": "إلغاء الاشتراك؟" },
+    "usersubscriptions_unsubscribe_modal_body": { "other": "سيؤدي هذا إلى إلغاء الاشتراك في خطة {{.Name}}. ستظل قادرًا على مشاهدة المحتوى في الخطة حتى انتهاء صلاحيتها {{.Expiry}}." },
   
   
     "availability_coming_soon": { "other": "قريبا" },
@@ -525,7 +525,7 @@
     "shopping_action_plan": {
         "other": "مكتمل"
     },
-    "shopping_action_credit": { "other": "shopping_action_credit" },
+    "shopping_action_credit": { "other": "فوق حتى" },
     "shopping_complete_subscription": {
         "other": "تم شراء اشتراكك بنجاح. أنت الآن مشترك في {{ .Title }} ."
     },
@@ -538,7 +538,7 @@
     },
     "shopping_info_trial_period_offer": {
         "one": "جرب الإصدار التجريبي المجاني لمدة 24 ساعة الآن!",
-        "other": "{{ .Count }} التجريبي المجاني من .Count day!"
+        "other": "{{ .Count }} التجريبي المجاني من {{ .Count }} day!"
     },
     "plans_page_header": {
         "other": "الخطط المتاحة"
@@ -580,16 +580,16 @@
     "donate_button_text": {
       "other": "يتبرع"
     },
-    "shopping_error_plan_already_owned": { "other": "You already have this plan." },
-    "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+    "shopping_error_plan_already_owned": { "other": "لديك بالفعل هذه الخطة" },
+    "shopping_error_plan_expired": { "other": "هذه الخطة لم تعد متوفرة" },
 
-    "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+    "wcag_aria_label_letterboxd": { "other": "عرض على Letterboxd" },
 
-    "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
-    "app_badge_title": { "other": "Download the app to view your purchased content!" },
-    "app_badge_ios": { "other": "Download on the App Store" },
-    "app_badge_android": { "other": "Get it on Google Play" },
+    "header_banner": { "other": "سينما ABC - مهرجان الفيلم الحادي والعشرون ، 1-6 يونيو 2021" },
+    "app_badge_title": { "other": "قم بتنزيل التطبيق لعرض المحتوى الذي اشتريته!" },
+    "app_badge_ios": { "other": "قم بالتحميل من متجر البرامج" },
+    "app_badge_android": { "other": "احصل عليه من متجر جوجل للتطبيقات" },
 
-    "awards_winner_of": { "other": "Winner of" }
+    "awards_winner_of": { "other": "الفائز ب" }
 
   } 
