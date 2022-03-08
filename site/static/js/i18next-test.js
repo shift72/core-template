@@ -119,8 +119,7 @@ Promise.all([xhrRequest('/en_AU.all.json'), xhrRequest('/ar_LB.all.json')]).then
       etc...
 
     Count is required with ALL pluralities.
-    This means we need to know valid count values to fallback onto 'other' as we currently do.
-    So maybe i18next is not viable.
+    This means we need to manually pass a defaultValue of the 'other' translation to use as a fallback.
 
     In the above example I have called i18next.init twice... the documentation says not to do this... it has a changeLanguage function instead.
     However, the Relish language selector would fire a redirect if this were integrated so not really an issue.
