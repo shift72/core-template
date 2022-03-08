@@ -76,18 +76,20 @@ Promise.all([xhrRequest('/en_AU.all.json'), xhrRequest('/ar_LB.all.json')]).then
 
   // Init English translations
   initI18n('en', en);
-  addRow(tbody, 'en', 'test_pluralities', 0, i18next.t('test_pluralities', {count: 0}));
-  addRow(tbody, 'en', 'test_pluralities', 1, i18next.t('test_pluralities', {count: 1}));
+  addRow(tbody, 'en', 'test_pluralities',   0, i18next.t('test_pluralities',   {count: 0})             );
+  addRow(tbody, 'en', 'test_pluralities',   1, i18next.t('test_pluralities',   {count: 1})             );
   addRow(tbody, 'en', 'test_interpolation', 0, i18next.t('test_interpolation', {count: 0, Value: 'do'}));
 
   // Switch to Arabic translations
   initI18n('ar', ar);
-  addRow(tbody, 'ar', 'test_pluralities', 0,   i18next.t('test_pluralities', {count: 0})  );
-  addRow(tbody, 'ar', 'test_pluralities', 1,   i18next.t('test_pluralities', {count: 1})  );
-  addRow(tbody, 'ar', 'test_pluralities', 2,   i18next.t('test_pluralities', {count: 2})  );
-  addRow(tbody, 'ar', 'test_pluralities', 3,   i18next.t('test_pluralities', {count: 3})  );
-  addRow(tbody, 'ar', 'test_pluralities', 11,  i18next.t('test_pluralities', {count: 11}) );
-  addRow(tbody, 'ar', 'test_pluralities', 100, i18next.t('test_pluralities', {count: 100}));
+  addRow(tbody, 'ar', 'test_pluralities', 0,      i18next.t('test_pluralities', {count: 0})  );
+  addRow(tbody, 'ar', 'test_pluralities', 1,      i18next.t('test_pluralities', {count: 1})  );
+  addRow(tbody, 'ar', 'test_pluralities', 2,      i18next.t('test_pluralities', {count: 2})  );
+  addRow(tbody, 'ar', 'test_pluralities', 3,      i18next.t('test_pluralities', {count: 3})  );
+  addRow(tbody, 'ar', 'test_pluralities', 11,     i18next.t('test_pluralities', {count: 11}) );
+  addRow(tbody, 'ar', 'test_pluralities', 100,    i18next.t('test_pluralities', {count: 100}));
+  addRow(tbody, 'ar', 'test_pluralities', 'none', i18next.t('test_pluralities', {defaultValue: i18next.t('test_pluralities_other')}));
+
 
   let table = document.createElement('table');
   table.appendChild(thead);
@@ -103,8 +105,9 @@ Promise.all([xhrRequest('/en_AU.all.json'), xhrRequest('/ar_LB.all.json')]).then
     ar	  test_pluralities    1	     I do one plurality!
     ar	  test_pluralities    2	     I do two plurality!
     ar	  test_pluralities    3	     I do few plurality!
-    ar	  test_pluralities    11	   I do many plurality!
-    ar	  test_pluralities    100	   I do other plurality!
+    ar    test_pluralities    11     I do many plurality!
+    ar    test_pluralities    100	   I do other plurality!
+    ar    test_pluralities    none   I do other plurality!
   */
 
   /*
