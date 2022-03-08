@@ -257,24 +257,37 @@ s72-carousel {
 }
 
 .s72-carousel-pagination {
-  @extend .d-flex;
-  bottom: 2px;
-  height: 60px;
+  @extend .d-none;
+  @extend .d-md-flex;
+  @extend .justify-content-center;
+  @extend .mx-auto;
+  @extend .px-2;
+  max-width: 100%;
+  bottom: 60px;
   left: 50%;
   line-height: 60px;
   position: absolute;
   transform: translateX(-50%);
 
   .s72-carousel-page {
-    color: rgba(var(--body-color-rgb), 0.2);
-    @include media-breakpoint-up(md) {
-      margin: 0 5px;
-    }
-
+    @extend .border-0;
+    @extend .p-0;
+    @extend .rounded-pill;
+    @extend .mx-p5;
+    background-color: rgba(var(--body-color-rgb), 0.2);
+    height: 6px;
+    width: 50px;
     &.current {
-      color: var(--primary);
-    }
-
+      @extend .overflow-hidden;
+      background-color: rgba(var(--body-color-rgb), 0.2);
+        &::before {
+          content: "";
+          @extend .w-100;
+          @extend .h-100;
+          @extend .d-block;
+          background-color: var(--primary);
+        }
+      }
   }
 }
 

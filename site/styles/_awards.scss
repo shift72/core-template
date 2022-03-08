@@ -22,7 +22,8 @@
 
 .meta-awards-icon-overlay {
   @extend .text-center;
-
+  @extend .d-flex;
+  @extend .align-items-center;
   background: rgba(0, 0, 0, 0.8);
   border-radius: $meta-item-border-radius;
   height: 16px + (3px * 2);
