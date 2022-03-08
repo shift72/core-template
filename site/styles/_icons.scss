@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "fa-s72";
   src:url("/fonts/fa-s72.woff") format("woff");
@@ -16,6 +15,10 @@
   vertical-align: middle;
 }
 
+.fa-credit-card:before, .fa-trash:before {
+  font-size: 18px;
+}
+
 .fa-angle-down, .fa-angle-left, .fa-angle-right, .fa-angle-up {
   &:before {
     content: "\e017";
@@ -29,11 +32,10 @@
 .fa-angle-up{
   transform: rotate(180deg);
 }
+
 .fa-angle-right{
   transform: rotate(270deg);
 }
-
-
 
 .fa-cc-visa:before {
   content: "\e000";
@@ -115,10 +117,6 @@
 }
 .fa-spinner:before {
   content: "\e01b";
-}
-
-.fa-credit-card:before, .fa-trash:before {
-    font-size: 18px;
 }
 
 @keyframes fa-spin {
