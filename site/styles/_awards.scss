@@ -8,6 +8,7 @@
 
   .meta-award-nomination {
     @extend .d-flex;
+    max-width: 320px;
   }
 
   .meta-award-nomination-icon {
