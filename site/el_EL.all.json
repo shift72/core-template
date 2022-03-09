@@ -523,6 +523,7 @@
   "donate_button_text": {
     "other": "Προσφέρω"
   },
+
   "wcag_skip_links_header": { "other": "Σύνδεσμοι προσβασιμότητας" },
   "wcag_skip_links_content": { "other": "Μετάβαση στο Περιεχόμενο" },
 
@@ -549,6 +550,7 @@
   "shopping_error_plan_expired": { "other": "Αυτό το αντικείμενο δεν είναι πλέον διαθέσιμο." },
   "shopping_payment_method_header": { "other": "Μέθοδοι πληρωμής" },
   "shopping_payment_method_credit_card": { "other": "Πιστωτική κάρτα" },
+
   "shopping_payment_method_giropay": { "other": "Giropay" },
   "shopping_error_stripe_unknown_error": { "other": "Κάτι πήγε στραβά με αυτήν την πληρωμή. Παρακαλώ δοκιμάστε ξανά αργότερα." },
   "shopping_error_payment_complete_failed": { "other": "Η πληρωμή απορρίφθηκε. Κλείστε αυτό το παράθυρο και δοκιμάστε ξανά." },

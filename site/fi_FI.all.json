@@ -446,6 +446,7 @@
   "donate_button_text": {
     "other": "Lahjoittaa"
   },
+
   "wcag_skip_links_header": { "other": "Esteettömyyslinkit" },
   "wcag_skip_links_content": { "other": "Siirry sisältöön" },
 
