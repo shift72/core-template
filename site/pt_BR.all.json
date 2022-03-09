@@ -336,37 +336,37 @@
     "other": "PIN"
   },
   "account_form_pin_code_not_set": {
-    "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles."
+    "other": "Você não tem um PIN definido, que é necessário para comprar, alugar e assistir a alguns títulos."
   },
   "account_form_set_pin": {
-    "other": "Set PIN"
+    "other": "Definir PIN"
   },
   "account_form_pin_changed": {
-    "other": "Updated"
+    "other": "Atualizada"
   },
   "account_form_change_pin": {
-    "other": "Change PIN"
+    "other": "Mudar PIN"
   },
   "user_set_pin_header": {
-    "other": "Set your PIN"
+    "other": "Defina seuPIN"
   },
   "user_set_pin_button": {
-    "other": "Set PIN"
+    "other": "Definir PIN"
   },
   "user_submit_pin_heading": {
-    "other": "Enter your PIN to {{.Action}} this restricted content"
+    "other": "Digite seu PIN para {{.Action}} este conteúdo restrito"
   },
   "user_error_wrong_pin_retry": {
-    "other": "Oops, you have entered an incorrect PIN"
+    "other": "Ops, você digitou um PIN incorreto"
   },
   "user_error_too_many_pin_errors": {
     "other": "<p> Parece que você está tendo problemas. </p> <p> Redefina seu PIN ou entre em contato conosco para <a href=\"{{.HelpURL}}\" target=\"_blank\"> ajuda </a>"
   },
   "user_submit_pin_button": {
-    "other": "Enter"
+    "other": "Entrar"
   },
   "user_reset_pin_button": {
-    "other": "Reset PIN"
+    "other": "Redefinir PIN"
   },
   "signup_form_optin": {
     "other": "Inscreva-se na nossa newsletter"
@@ -454,19 +454,19 @@
     "other": "Por favor, insira um código PIN."
   },
   "validation_pincode1_required": {
-    "other": "Please enter a valid PIN code."
+    "other": "Insira um código PIN válido."
   },
   "validation_pincode2_required": {
-    "other": "Please enter a valid PIN code."
+    "other": "Insira um código PIN válido."
   },
   "validation_pincode1_pattern": {
-    "other": "Please enter a valid PIN code."
+    "other": "Insira um código PIN válido."
   },
   "validation_pincode2_pattern": {
-    "other": "Please enter a valid PIN code."
+    "other": "Insira um código PIN válido."
   },
   "validation_pincode2_match": {
-    "other": "PIN code does not match."
+    "other": "O código PIN não corresponde."
   },
   "validation_gender_required": {
     "other": "Por favor, selecione o gênero com o qual você se identifica mais."
@@ -721,19 +721,19 @@
     "other": "Comprar"
   },
   "shopping_payment_method_header": {
-    "other": "Payment methods"
+    "other": "Métodos de Pagamento"
   },
   "shopping_payment_method_credit_card": {
-    "other": "Credit card"
+    "other": "Cartão de crédito"
   },
   "shopping_payment_method_giropay": {
     "other": "Giropay"
   },
   "shopping_error_stripe_unknown_error": {
-    "other": "Something went wrong with this payment. Please try again later."
+    "other": "Algo deu errado com este pagamento. Por favor, tente novamente mais tarde."
   },
   "shopping_error_payment_complete_failed": {
-    "other": "The payment was declined. Close this window and try again."
+    "other": "O pagamento foi recusado. Feche esta janela e tente novamente."
   },
   "meta_detail_cast_title": {
     "other": "Elenco"
@@ -1009,10 +1009,10 @@
     "other": "Disponível em {{.ReleaseDate}}"
   },
   "availability_expires": {
-    "other": "Expires {{.Expiry}}"
+    "other": "Expira {{.Expiry}}"
   },
   "availability_expired": {
-    "other": "Expired"
+    "other": "Expirada"
   },
   "modal_cancel": {
     "other": "Cancelar"
@@ -1154,5 +1154,4 @@
   "shopping_error_plan_already_owned": { "other": "Você já tem este plano." },
   "shopping_error_plan_expired": { "other": "Este plano não está mais disponível." },
 
-  "plan_label_owned": { "other": "" }
 }
