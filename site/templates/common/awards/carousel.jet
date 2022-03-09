@@ -3,7 +3,7 @@
     <div class="meta-awards">
       <div class="meta-award-nomination">
         <span><i class="meta-award-nomination-icon"></i></span>
-        <span class="font-weight-bold">{{ i18n("awards_in_competition") }}</span>
+        <span>{{ i18n("awards_in_competition") }}</span>
       </div>
     </div>
   {{ end }}

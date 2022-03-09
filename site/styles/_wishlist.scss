@@ -26,24 +26,29 @@
 .s72-userwishlist-buttons {
   .s72-btn-wishlist {
     @extend .btn;
-    font-size: 12px;
-    font-weight: $font-weight-bold;
-    margin-right: 0.5rem;
-    padding-bottom: 3px;
     padding-left: 0;
-    padding-top: 3px;
 
-    span {
-      @extend .d-flex;
-      align-items: center;
-      flex-direction: row;
-      justify-content: center;
-    }
 
     .s72-icon {
       font-size: 32px !important;
       opacity: 0.8;
     }
+  }
+}
+
+.s72-userwishlist-buttons .s72-btn-wishlist,
+.meta-award-nomination {
+  font-size: 12px;
+  font-weight: $font-weight-bold;
+  margin-right: 0.5rem;
+  padding-bottom: 3px;
+  padding-top: 3px;
+
+  span {
+    @extend .d-flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
   }
 }
 
