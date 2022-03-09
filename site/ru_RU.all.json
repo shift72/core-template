@@ -194,7 +194,7 @@
     "many": "Введите по крайней мере, {{.Count}} символов."
   },
   "validation_promocode_required": { "other": "Введите промо-код." },
-  "validation_pincode_required": { "other": "Please enter a PIN code." },
+  "validation_pincode_required": { "other": "Пожалуйста, введите PIN-код." },
   "validation_gender_required": { "other": "Выберите тот гендер, с которым вы себя идентифицируете." },
   "validation_dob_required": { "other": "Введите дату рождения." },
   "validation_dob_date": { "other": "Введите правильную дату рождения." },
@@ -286,7 +286,7 @@
   "shopping_error_creditcard_country_mismatch": { "other": "Ваше {{.Ownership}} не подтвреждена. Вы должны быть в стране, где была выдана ваша кредитная карта. Используйте другую карту для совершения платежа." },
   "shopping_error_proxy_detected": { "other": "Ваше {{.Ownership}} не подтвреждена.  Мы обнаружили, что вы используете Unblocker или прокси-сервис. Выключите любой из этих услуг и попробуйте еще раз." },
 
-  "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
+  "shopping_error_discount_worn_out": { "other": "Этот промо-код больше не может быть использован." },
   "shopping_error_discount_blank": { "other": "Пожалуйста, введите промо-код." },
   "shopping_error_discount_not_applied": { "other": "Пожалуйста, введите действительный промо код." },
   "shopping_error_discount_invalid": { "other": "Пожалуйста, введите действительный промо код." },
