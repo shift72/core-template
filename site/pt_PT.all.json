@@ -527,6 +527,7 @@
     "wcag_skip_links_header": { "other": "Links de acessibilidade" },
     "wcag_skip_links_content": { "other": "Ir para o conteúdo" },
     "wcag_skip_links_footer": { "other": "Pular para o rodapér" },
+
   
     "wcag_homepage_h1": { "other": "Pagina inicial" },
     "wcag_carousel_h2": { "other": "Carrossel" },

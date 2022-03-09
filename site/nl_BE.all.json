@@ -553,9 +553,10 @@
   "donate_button_text": {
     "other": "Doneren"
   },
-  "wcag_skip_links_header": { "other": "Accessibility Links" },
+  "wcag_skip_links_header": { "other": "Toegankelijkheidslinks" },
   "wcag_skip_links_content": { "other": "Skip naar Inhoudd" },
   "wcag_skip_links_footer": { "other": "Ga naar voettekst" },
+  "wcag_skip_links_content": { "other": "Doorgaan naar artike" },
 
   "wcag_homepage_h1": { "other": "Startpagina" },
   "wcag_carousel_h2": { "other": "Carrousel" },

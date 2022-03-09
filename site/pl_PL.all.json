@@ -530,6 +530,7 @@
   "shopping_error_plan_expired": { "other": "Ten plan nie jest już dostępny." },
   "shopping_payment_method_header": { "other": "Metody Płatności" },
   "shopping_payment_method_credit_card": { "other": "Karta kredytowa" },
+
   "shopping_payment_method_giropay": { "other": "Giropay" },
   "shopping_error_stripe_unknown_error": { "other": "Coś poszło nie tak z tą płatnością. Spróbuj ponownie później." },
   "shopping_error_payment_complete_failed": { "other": "Płatność została odrzucona. Zamknij to okno i spróbuj ponownie." },
