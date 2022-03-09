@@ -106,8 +106,8 @@
     "signup_page_alreadyhaveanaccount": { "other": "Har du allerede en konto? Logg inn." },
     "signup_form_error_email_already_in_use": { "other": "E-postadressen er allerede i bruk." },
     "signin_form_error_incorrect_credentials": { "other": "Brukernavn eller passord er feil." },
-    "signin_form_error_ip_throttled": { "other": "You have failed to sign in too many times. Please try again later." },
-    "signin_form_error_account_suspended": { "other": "Your account has been temporarily suspended. Please contact an admin if you believe this is in error." },
+    "signin_form_error_ip_throttled": { "other": "Du har mislyktes i å logge på for mange ganger. Prøv igjen senere." },
+    "signin_form_error_account_suspended": { "other": "Kontoen din er midlertidig stengt. Ta kontakt med en administrator hvis du mener dette er feil." },
   
     "signup_form_error_forbidden": { "other": "Det har oppstått en feil." },
   
@@ -240,7 +240,7 @@
     "shopping_enter_card_prompt": { "other": "Skriv inn kredittkortopplysningene dine nedenfor for å fullføre ditt {{.Verb}}." },
   
     "shopping_terms": { "other": "Ved å fullføre denne transaksjonen godtar jeg<a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">vilkår og betingelser</a>."},
-    "shopping_discount_applied": { "other": "{{.DiscountAmount}} discount applied." },
+    "shopping_discount_applied": { "other": "{{.DiscountAmount}} rabatt brukt." },
     "shopping_discount_apply": { "other": "Søke om" },
     "shopping_discount_code": { "other": "Tast inn en promo-kode. " },
     "shopping_discount_have_code": { "other": "Jeg har en promo-kode. " },
@@ -266,7 +266,7 @@
     "shopping_error_creditcard_country_mismatch": { "other": "Ditt {{.Ownership}} er ikke fullført. Du må befinne deg i landet kredittkortet ditt ble utstedt. Vennligst bruk et annet kort for å gjennomføre betalingen." },
     "shopping_error_proxy_detected": { "other": "Ditt {{.Ownership}} er ikke fullført. Det ble oppdaget bruk av en unblocker eller en proxytjeneste. Vennligst slå av noen av disse tjenestene og prøv på nytt." },
   
-    "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
+    "shopping_error_discount_worn_out": { "other": "Den kampanjekoden kan ikke lenger brukes." },
     "shopping_error_discount_blank": { "other": "Vennligst skriv inn en promo-kode." },
     "shopping_error_discount_not_applied": { "other": "Vennligst skriv inn en gyldig promo-kode." },
     "shopping_error_discount_invalid": { "other": "Vennligst skriv inn en gyldig promo-kode." },
@@ -395,8 +395,8 @@
     "shopping_card_save_card": { "other": "Lagre dette kortet for fremtidig bruk" },
     "shopping_card_button_change": { "other": "Vis alle lagrede kort" },
     "shopping_card_existing_description": { "other": "{{.Card.Brand}} slutter om {{.Card.Number}}" },
-    "shopping_card_existing_expiry": { "other": "(expires {{.Card.Expiry}})" },
-    "shopping_card_existing_expired": { "other": "(expired)" },
+    "shopping_card_existing_expiry": { "other": "(utløper {{.Card.Expiry}})" },
+    "shopping_card_existing_expired": { "other": "(utløpt)" },
     "shopping_card_use_other": { "other": "Bruk et nytt kort" },
     "shopping_card_use_new_card": { "other": "Bytt kort" },
   
