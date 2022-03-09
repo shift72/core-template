@@ -583,7 +583,6 @@
   "shopping_payment_method_giropay": { "other": "Giropay" },
   "shopping_error_stripe_unknown_error": { "other": "Er is iets misgegaan met deze betaling. Probeer het later opnieuw." },
   "shopping_error_payment_complete_failed": { "other": "De betaling is geweigerd. Sluit dit venster en probeer het opnieuw." },
-  "plan_label_owned": { "other": "" },
 
   "validation_pincode1_required": { "other": "Voer een geldig PIN code." },
   "validation_pincode2_required": { "other": "Voer een geldig PIN code." },
