@@ -596,13 +596,13 @@
   "shopping_card_save_card": { "other": "Zapisz tę kartę do wykorzystania w przyszłości" },
   "shopping_card_button_change": { "other": "Pokaż wszystkie zapisane karty" },
   "shopping_card_existing_description": { "other": "{{.Card.Brand}} kończący się na{{.Card.Number}}" },
-  "shopping_card_existing_expiry": { "other": "(expires {{.Card.Expiry}})" },
-  "shopping_card_existing_expired": { "other": "(expired)" },
+  "shopping_card_existing_expiry": { "other": "(wygasa {{.Card.Expiry}})" },
+  "shopping_card_existing_expired": { "other": "(wygasły)" },
   "shopping_card_use_other": { "other": "Użyj nowej karty" },
   "shopping_card_use_new_card": { "other": "Zmień kartę" },
-  "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
-  "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
-  "shopping_action_credit": { "other": "shopping_action_credit" },
+  "shopping_card_update_reason_none": { "other": "Zaktualizuj swoją kartę kredytową. Obsługiwane karty to Visa, Mastercard i American Express." },
+  "shopping_info_ownership_plan": { "other": "Subskrypcja" },
+  "shopping_action_credit": { "other": "Uzupełniać" },
 
   "seasons":{
     "one": "jeden sezon",
