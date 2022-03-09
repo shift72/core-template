@@ -8,7 +8,6 @@ s72-carousel {
 .s72-carousel-slides {
   background: $carousel-bg-color;
   height: var(--carousel-height) !important;
-  overflow: hidden;
   position: relative;
   width: 100%;
   @include media-breakpoint-up(sm) {
@@ -64,6 +63,10 @@ s72-carousel {
       }
     }
   }
+
+  .s72-pricing-button-container {
+    white-space: nowrap;
+  }
 }
 
 .s72-carousel-item {
@@ -104,6 +107,11 @@ s72-carousel {
   position: absolute;
   top: var(--carousel-caption-top);
   z-index: 999;
+  @include media-breakpoint-up(xs) {
+    left: 60px;
+    top: var(--carousel-caption-top-xs);
+    width: 70%;
+  }
   @include media-breakpoint-up(md) {
     left: 60px;
     top: var(--carousel-caption-top-md);
