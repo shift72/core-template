@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "npm run init && npm-run-all --parallel css:watch js:watch kibble:watch",
+    "start-admin": "npm run init && npm-run-all --parallel css:watch js:watch kibble:dir kibble:watch-admin",
     "init": "npm-run-all css css:local:get js",
     "css": "sass ./site/styles/main.scss ./site/static/styles/main.css --load-path=node_modules",
     "css:lint": "prettier 'site/styles/*.scss' --write && stylelint ./site/styles/*.scss --fix",
@@ -18,7 +19,9 @@
     "js:build": "rollup -c",
     "kibble": "kibble render",
     "kibble:watch": "kibble render --watch --port 8081",
+    "kibble:watch-admin": "kibble render --watch --admin --port 8081",
     "kibble:build": "kibble publish",
+    "kibble:dir": "mkdir -p .kibble",
     "build": "npm-run-all css js:build css:build kibble:build",
     "language:csv": "node scripts/language-file-to-csv/language-file-to-csv.js site/en_AU.all.json",
     "language:validate": "node scripts/language-file-validator.js"

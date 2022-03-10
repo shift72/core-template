@@ -1,7 +1,7 @@
 {
   "name": "core-template",
   "version": "0.0.1",
-  "siteUrl": "https://abccinemas.screenplus.co",
+  "siteUrl": "https://staging-test.shift72.com",
   "builderVersion": "0.16.4",
   "defaultLanguage": "en",
   "languages": {
@@ -27,7 +27,7 @@
     "pt": { "code": "pt_PT", "name": "Português" },
     "pt-br": { "code": "pt_BR", "name": "Português do Brasil" },
     "ru": { "code": "ru_RU", "name": "Pусский" },
-    "se": { "code": "se_SE", "name": "Српски" },
+    "sr": { "code": "sr_SR", "name": "Српски" },
     "tr": { "code": "tr_TR", "name": "Türk" },
     "uk": { "code": "uk_UA", "name": "Український" },
     "zh-tw": { "code": "zh_TW", "name": "中文" }
