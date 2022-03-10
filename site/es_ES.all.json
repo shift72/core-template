@@ -543,7 +543,7 @@
 "user_error_wrong_pin_reset": { "other": "Haga clic aquí para restablecer su PIN" },
 "user_error_too_many_pin_errors_help_page_link": { "other": "" },
 "shopping_error_age_restricted": { "other": "Este contenido tiene restricción de edad." },
-"shopping_error_close_button": { "other": "OK" }, 
+"shopping_error_close_button": { "other": "Bueno" }, 
 
 "usersubscriptions_subscription_expiry": { "other": "Caduca {{.Expiry}}" },
 "usersubscriptions_subscription_status_trialing": { "other": "Periodo de prueba" },
