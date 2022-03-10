@@ -515,8 +515,7 @@
   "shopping_error_close_button": { "other": "OK" },
 
   "wcag_skip_links_header": { "other": "Accessibility Links" },
-  "wcag_skip_links_content": { "other": "Skip to Content" },
-  "wcag_skip_links_footer": { "other": "Skip to Footer" },
+  "wcag_skip_links_content": { "other": "Skip to main content" },
 
   "wcag_homepage_h1": { "other": "Homepage" },
   "wcag_carousel_h2": { "other": "Carousel" },
