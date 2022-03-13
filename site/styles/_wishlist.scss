@@ -40,9 +40,6 @@
 .meta-award-nomination {
   font-size: 12px;
   font-weight: $font-weight-bold;
-  margin-right: 0.5rem;
-  padding-bottom: 3px;
-  padding-top: 3px;
 
   span {
     @extend .d-flex;
@@ -50,6 +47,12 @@
     flex-direction: row;
     justify-content: center;
   }
+}
+
+.s72-userwishlist-buttons .s72-btn-wishlist {
+  margin-right: 0.5rem;
+  padding-bottom: 3px;
+  padding-top: 3px;
 }
 
 .poster .s72-userwishlist-buttons .s72-btn-wishlist {
