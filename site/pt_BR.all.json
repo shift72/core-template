@@ -1151,6 +1151,6 @@
   },
 
   "shopping_error_plan_already_owned": { "other": "Você já tem este plano." },
-  "shopping_error_plan_expired": { "other": "Este plano não está mais disponível." },
+  "shopping_error_plan_expired": { "other": "Este plano não está mais disponível." }
 
 }
