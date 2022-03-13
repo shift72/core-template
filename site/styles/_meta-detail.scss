@@ -161,13 +161,7 @@
     margin-bottom: 5px;
     text-shadow: none;
     @include media-breakpoint-up(md) {
-      font-size: 34px;
-    }
-    @include media-breakpoint-up(lg) {
-      font-size: 38px;
-    }
-    @include media-breakpoint-up(xxxl) {
-      font-size: 54px;
+      font-size: 46px;
     }
 
     small {
@@ -249,7 +243,6 @@
 
     p {
       animation: fadein 2s;
-      font-size: 18px;
     }
 
     a {
@@ -294,7 +287,6 @@
     p {
       animation: fadein 2s;
       color: var(--body-color);
-      font-size: 18px;
       font-weight: $font-weight-light;
       margin-bottom: 0;
     }
@@ -302,7 +294,6 @@
     a {
       @include a;
       animation: fadein 2s;
-      font-size: 18px;
     }
   }
 
