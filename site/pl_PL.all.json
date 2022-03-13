@@ -505,7 +505,6 @@
   },
   "wcag_skip_links_header": { "other": "Linki ułatwień dostępu" },
   "wcag_skip_links_content": { "other": "Przejdź do treści" },
-  "wcag_skip_links_footer": { "other": "Przejdź do stopki" },
 
   "wcag_homepage_h1": { "other": "Strona główna" },
   "wcag_carousel_h2": { "other": "Karuzela" },

@@ -555,7 +555,6 @@
   },
   "wcag_skip_links_header": { "other": "Toegankelijkheidslinks" },
   "wcag_skip_links_content": { "other": "Skip naar Inhoudd" },
-  "wcag_skip_links_footer": { "other": "Ga naar voettekst" },
 
   "wcag_homepage_h1": { "other": "Startpagina" },
   "wcag_carousel_h2": { "other": "Carrousel" },

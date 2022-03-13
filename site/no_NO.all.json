@@ -524,7 +524,6 @@
 
     "wcag_skip_links_header": { "other": "Tilgjengelighetslenker" },
     "wcag_skip_links_content": { "other": "Hopp til innholdet" },
-    "wcag_skip_links_footer": { "other": "Gå til bunntekst" },
   
     "wcag_homepage_h1": { "other": "Hjemmeside" },
     "wcag_carousel_h2": { "other": "Karusell" },
