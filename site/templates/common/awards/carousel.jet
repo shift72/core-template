@@ -9,7 +9,7 @@
     <div class="meta-awards">
       <div class="meta-award-nomination">
         <span><i class="meta-award-nomination-icon"></i></span>
-        <span>{{ i18n("awards_in_competition") }}{{award_winner ? " - " + i18n("winner") : ""}}</span>
+        <span>{{ i18n("awards_in_competition") }}{{award_winner ? " - " + i18n("awards_winner") : ""}}</span>
       </div>
     </div>
   {{ end }}

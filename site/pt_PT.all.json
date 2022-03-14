@@ -523,6 +523,9 @@
     "awards_winner_of": {
       "other": "Vencedor de"
     },
+    "awards_winner": {
+      "other": "Vencedora"
+    },
     "donate_button_text": {
       "other": "Doar"
     },

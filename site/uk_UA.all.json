@@ -1166,6 +1166,9 @@
   "awards_winner_of": {
     "other": "Переможець"
   },
+  "awards_winner": {
+    "other": "Переможець"
+  },
   "donate_button_text": {
     "other": "Пожертвуйте"
   },
