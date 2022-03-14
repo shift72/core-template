@@ -2,7 +2,7 @@
   "site_owner": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Impostazioni" },
   "powered_by": { "other": "Powered by" },
-  "powered_by_name": { "other": "ScreenPlus" },
+  "powered_by_name": { "other": "Shift72" },
   "powered_by_url": { "other": "https://www.screenplus.com" },
   "in_partnership_with": { "other": "in partnership with" },
   "festival_scope": { "other": "Festival Scope" },
@@ -81,7 +81,7 @@
   "social_media_buttons_copied_link": { "other": "Link copiato negli appunti!" },
   "social_media_buttons_copy_link": { "other": "Copia negli appunti" },
 
-  "accept_invite_page_header": { "other": "Accoglienza" },
+  "accept_invite_page_header": { "other": "Accoglienza " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Questo Invito è già stato usato." },
   "acceptinvite_complete": { "other": "Grazie. Il tuo account è stato creato." },
   "acceptinvite_form_submit": { "other": "Accetta l'Invito" },
@@ -217,7 +217,7 @@
     "other": "Una volta noleggiato, il film sarà disponibile nel tuo account per {{.ValueUnit}}. "
   },
   "shopping_info_watch_window_explanation2_film": {
-    "one": "Once you press play, the watch window begins and you have an hour to watch the film as many times as you like.",
+    "one": "Dopo aver premuto play, inizia la finestra di visualizzazione e hai un'ora per guardare il film tutte le volte che vuoi.",
     "other": "Una volta premuto play, inizia la finestra di riproduzione e avete {{.Count}} ore di tempo per completare la visione e guardare il film tutte le volte che vorrete."
   },
   "shopping_info_watch_window_explanation_bundle": {
@@ -225,7 +225,7 @@
     "other": "Una volta noleggiati, gli oggetti del vostro bundle saranno disponibili nel tuo account utente per {{.Count}} giorni "
   },
   "shopping_info_watch_window_explanation2_bundle": {
-    "one": "Once you press play on a specific film, the watch window begins and you have an hour to watch that film as many times as you like.",
+    "one": "Dopo aver premuto Play su un film specifico, inizia la finestra di visualizzazione e hai un'ora per guardare quel film tutte le volte che vuoi.",
     "other": "Una volta che premi “Play” su un film specifico, ha inizio la watch window e hai disposizione {{.Count}} ore per guardare il film quante volte vuoi."
   },
   "shopping_info_watch_window_explanation_season": {
@@ -233,7 +233,7 @@
     "other": "Una volta noleggiata, la stagione sarà disponibile nel tuo account utente per {{.Count}} giorni. "
   },
   "shopping_info_watch_window_explanation2_season": {
-    "one": "Once you press play on an episode, the watch window begins and you have an hour to watch that episode as many times as you like.",
+    "one": "Dopo aver premuto Play su un episodio, inizia la finestra di visualizzazione e hai un'ora per guardare quell'episodio tutte le volte che vuoi.",
     "other": "Una volta che premi Play su un episodio, la watch window ha inizio e hai {{.Count}} ore a disposizione per guardare quell'episodio quante volte vorrai."
   },
   "shopping_info_credit_bonus_title": { "other": "Bonus {{.BonusPercentage}}%" },
@@ -247,7 +247,7 @@
   "shopping_discount_have_code": { "other": "Ho un codice promozionale." },
 
   "shopping_price_you_pay": { "other": "Paghi" },
-  "shopping_price_nothing": { "other": "Nothing" },
+  "shopping_price_nothing": { "other": "Nulla" },
   "shopping_price_free": { "other": "Gratuito" },
 
   "shopping_auth_directions": { "other": "È necessario avere un Account. Inserisci il tuo indirizzo email." },
@@ -287,7 +287,7 @@
 
   "shopping_complete_rental": { "other": "Fatto!" },
   "shopping_complete_rental_period": {
-    "one": "You are now able to watch it as often as you like over the next day.",
+    "one": "Ora puoi guardarlo tutte le volte che vuoi il giorno successivo.",
     "other": "Ora puoi rivederlo quante volte vuoi nei prossimi {{.Count}} giorni."
   },
   "shopping_complete_purchase": { "other": "Grazie per aver acquistato {{.Title}}." },
@@ -299,19 +299,19 @@
     "other": "L'acquisto di {{ .Title }} buon fine."
   },
   "shopping_complete_rental_watch_window_start": {
-    "one": "You are now able to start watching it within the next day.",
+    "one": "Ora puoi iniziare a guardarlo entro il giorno successivo.",
     "other": "Potrai vederlo entro i prossimi {{.Count}} giorni."
   },
   "shopping_complete_rental_watch_window_end": {
-    "one": "When playback is started you will then have an hour to watch the item as many times as you like.",
+    "one": "Quando la riproduzione viene avviata, avrai un'ora per guardare l'elemento tutte le volte che vuoi.",
     "other": "Dopo aver cliccato su Guarda Ora hai {{.Count}} ore a disposizione per vedere il film."
   },
   "shopping_complete_rental_coming_soon": {
-    "one": "You will be able to watch it from {{.Date}} and your rental will remain active for a day.",
+    "one": "Potrai guardarlo da {{.Date}} e il tuo noleggio rimarrà attivo per un giorno.",
     "other": "Potrai vederlo a partire da {{.Date}} e il tuo noleggio rimarrà attivo per {{.Count}} giorni."
   },
   "shopping_complete_rental_coming_soon_watch_window_start": {
-    "one": "You will be able to watch it from {{.Date}} and your rental will remain active for a day.",
+    "one": "Potrai guardarlo da {{.Date}} e il tuo noleggio rimarrà attivo per un giorno.",
     "other": "Potrai vederlo a partire da {{.Date}} e il tuo noleggio rimarrà attivo per {{.Count}} giorni."
   },
 
@@ -331,6 +331,7 @@
   "meta_detail_studios": { "one": "Studio", "other": "Studios" },
   "meta_detail_countries": { "one": "Paese", "other": "Paese" },
   "meta_detail_subtitles": { "other": "Sottotitoli" },
+  "meta_detail_captions": { "other": "Sottotitoli [CC]" },
   "meta_detail_episodes_title": { "other": "Episodi" },
   "meta_detail_bonus_title": { "other": "Contenuti Extra" },
   "meta_detail_recommendations_title": { "other": "Potrebbe piacerti anche" },
@@ -396,16 +397,16 @@
   "availability_expired": { "other": "Scaduto" },
   "availability_coming_soon": { "other": "Presto Disponibile" },
   "availability_not_available": { "other": "Non Disponibile" },
-  "availability_in_watch_window": { "other": "availability_in_watch_window" },
+  "availability_in_watch_window": { "other": "Disponibile nella finestra dell'orologio" },
   "availability_sold_out": { "other": "Esaurito" },
 
-  "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+  "shopping_card_change": { "other": "Carta di credito non corretta? <a href=\"{{.SubscriptionsURL}}\">Fai clic qui per aggiornare la tua carta.</a>" },
 
-  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+  "user_error_too_many_pin_errors": { "other": "<p>Sembra che tu abbia problemi.</p><p>Reimposta il PIN o contattaci per <a href=\"{{.HelpURL}}\" target=\"_blank\">aiuto</a>" },
 
-  "app_badge_title": { "other": "Download the app to view your purchased content!" },
-  "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" },
+  "app_badge_title": { "other": "Scarica l'app per visualizzare i contenuti acquistati!" },
+  "app_badge_ios": { "other": "Scarica dall'App Store" },
+  "app_badge_android": { "other": "Scaricalo su Google Play" },
 
   "shopping_price_title_plan": {
     "other": "Prezzo"
@@ -474,5 +475,123 @@
   },
   "awards_in_competition": {
     "other": "In Concorso"
-  }
+  },
+  "awards_winner_of": {
+    "other": "Vincitore di"
+  },
+  "donate_button_text": {
+    "other": "Donare"
+  },
+  "wcag_skip_links_header": { "other": "Collegamenti di accessibilità" },
+  "wcag_skip_links_content": { "other": "Salta al contenuto" },
+
+  "wcag_homepage_h1": { "other": "Pagina iniziale" },
+  "wcag_carousel_h2": { "other": "Giostra" },
+  "wcag_collections_h2": { "other": "Collezioni" },
+
+  "wcag_aria_label_footer": { "other": "Piè di pagina" },
+  "wcag_aria_label_nav_main": { "other": "Principale" },
+  "wcag_aria_label_nav_sub": { "other": "Sub" },
+  "wcag_aria_label_toggle_nav": { "other": "Attiva/disattiva navigazione" },
+  "wcag_aria_label_bundle_items": { "other": "Articoli in bundle" },
+  "wcag_aria_label_carousel": { "other": "Giostra" },
+  "wcag_aria_label_page_collection": { "other": "Collezione di pagine" },
+  "wcag_aria_label_collection_list": { "other": "Elenco di raccolta" },
+  "wcag_aria_label_collection_slider": { "other": "Dispositivo di scorrimento della raccolta" },
+  "wcag_aria_label_wishlist": { "other": "Lista dei desideri" },
+  "wcag_aria_label_facebook": { "other": "Condividi su Facebook" },
+  "wcag_aria_label_twitter": { "other": "Condividi su Twitter" },
+  "wcag_aria_label_linkedin": { "other": "Condividi su LinkedIn" },
+  "wcag_aria_label_letterboxd": { "other": "Visualizza su Letterboxdd" },
+
+  "header_banner": { "other": "ABC Cinemas – 21° Festival del Cinema, 1 – 6 giugno 2021" },
+
+  "account_form_pin_code": { "other": "PIN" },
+  "account_form_pin_code_not_set": { "other": "Non hai un PIN impostato, necessario per l'acquisto, il noleggio e la visione di alcuni titoli."},
+  "account_form_set_pin": { "other": "Imposta PIN" },
+  "account_form_pin_changed": { "other": "Aggiornata" },
+  "account_form_change_pin": { "other": "Cambia PIN" },
+
+  "user_set_pin_header": { "other": "Imposta il tuo PIN" },
+  "user_set_pin_button": { "other": "Imposta PIN" },
+  "user_submit_pin_heading": { "other": "Inserisci il tuo PIN per {{.Action}} questo contenuto con restrizioni" },
+  "user_error_wrong_pin_retry": { "other": "Spiacenti, hai inserito un PIN errato" },
+  "user_submit_pin_button": { "other": "Accedere" },
+  "user_reset_pin_button": { "other": "Reimposta PIN" },
+
+  "validation_pincode1_required": { "other": "Si prega di inserire un codice PIN valido." },
+  "validation_pincode2_required": { "other": "Si prega di inserire un codice PIN valido." },
+  "validation_pincode1_pattern": { "other": "Si prega di inserire un codice PIN valido." },
+  "validation_pincode2_pattern": { "other": "Si prega di inserire un codice PIN valido." },
+  "validation_pincode2_match": { "other": "Il codice PIN non corrisponde." },
+
+  "userdevices_delete_limits": { "other": "Puoi rimuovere {{.Limit}} dispositivo/i da questo elenco ogni {{.Period}} giorno/i."},
+  "userdevices_delete_limit_reached": { "other": "Hai raggiunto questo limite e al momento non puoi rimuovere alcun dispositivo. Puoi eliminare un dispositivo tra {{.Days}} giorno/i." },
+  "shopping_card_new_subscription": { "other": "Questa carta verrà salvata e addebitata regolarmente" },
+
+"changepincode_modal_header": { "other": "Cambia il tuo PIN" },
+"changepincode_modal_currentpassword": { "other": "la tua password attuale" },
+"changepincode_modal_pincode1": { "other": "Il tuo nuovo PIN a 4 cifre" },
+"changepincode_modal_pincode2": { "other": "Conferma il tuo nuovo PIN a 4 cifre" },
+"changepincode_modal_submit": { "other": "Imposta PIN" },
+"changepincode_modal_error_wrong_password": { "other": "Quella password non è corretta." },
+
+"user_set_pin_intro": { "other": "Hai bisogno di un PIN per {{.Action}} contenuto limitato"},
+"user_error_wrong_pin_reset": { "other": "Clicca qui per reimpostare il PIN" },
+"user_error_too_many_pin_errors_help_page_link": { "other": "" },
+"shopping_error_age_restricted": { "other": "Questo contenuto è soggetto a limiti di età." },
+"shopping_error_close_button": { "other": "OK" }, 
+
+"usersubscriptions_subscription_expiry": { "other": "Scade {{.Expiry}}" },
+"usersubscriptions_subscription_status_trialing": { "other": "Periodo di prova" },
+"usersubscriptions_subscription_unsubscribe": { "other": "Annulla il mio abbonamento" },
+"usersubscriptions_unsubscribe_modal_cancel": { "other": "Annulla" },
+"usersubscriptions_unsubscribe_modal_confirm": { "other": "Sì, cancella il mio abbonamento" },
+"usersubscriptions_unsubscribe_modal_title": { "other": "Annullare l'iscrizione?" },
+"usersubscriptions_unsubscribe_modal_body": { "other": "Questo annullerà l'abbonamento al piano {{.Name}}. Potrai comunque guardare i contenuti del piano fino alla scadenza {{.Expiry}}." },
+
+
+"signin_form_error_ip_throttled": { "other": "Non sei riuscito ad accedere troppe volte. Per favore riprova più tardi." },
+"signin_form_error_account_suspended": { "other": "Il tuo account è stato temporaneamente sospeso. Contatta un amministratore se ritieni che si tratti di un errore." },
+
+"shopping_error_plan_already_owned": { "other": "Hai già questo piano." },
+"shopping_error_plan_expired": { "other": "Questo piano non è più disponibile." },
+
+"users_gender_none": { "other": "Non specificato" },
+"users_gender_female": { "other": "Femmina" },
+"users_gender_male": { "other": "Maschio" },
+"users_gender_diverse": { "other": "Diverse" },
+"users_gender_other": { "other": "Altro" },
+
+"pricing_quality_hd": { "other": "HD" },
+"pricing_quality_sd": { "other": "SD" },
+"pricing_quality_hd_only": { "other": "Solo HD" },
+"pricing_quality_sd_only": { "other": "Solo SD" },
+
+"shopping_card_save_card": { "other": "Salva questa carta per un uso futuro" },
+  "shopping_card_button_change": { "other": "Mostra tutte le carte salvate" },
+  "shopping_card_existing_description": { "other": "{{.Card.Brand}} che termina con {{.Card.Number}}" },
+  "shopping_card_existing_expiry": { "other": "(scade {{.Card.Expiry}})" },
+  "shopping_card_existing_expired": { "other": "(scaduta)" },
+  "shopping_card_use_other": { "other": "Usa una nuova carta" },
+  "shopping_card_use_new_card": { "other": "Cambia carta" },
+  "shopping_card_update_reason_none": { "other": "Aggiorna la tua carta di credito. Le carte supportate sono Visa, Mastercard e American Express." },
+  "shopping_action_credit": { "other": "Riempire" },
+  "shopping_info_ownership_plan": { "other": "Sottoscrizione" },
+
+  "usersubscriptions_change_payment_method_change": { "other": "Cambia carta di credito" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "Aggiorna i dettagli della carta di credito" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "Aggiornare" },
+
+  "modal_cancel": { "other": "Annulla" },
+
+  "play": { "other": "Giocare" },
+
+  "combined_auth_signin_prompt": { "other": "Accedi" },
+  "combined_auth_signup_prompt": { "other": "Registrati" },
+
+  "validation_terms_required": { "other": "Devi accettare i termini e le condizioni." },
+  "shopping_error_item_limit_exceeded": { "other": "Sfortunatamente, {{.Title}} è esaurito." }
+
+
 }
