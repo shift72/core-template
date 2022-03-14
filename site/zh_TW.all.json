@@ -3,7 +3,7 @@
    "other": "ABC Cinemas"
   },
   "settings_title": {
-   "other": "Settings"
+   "other": "設置"
   },
   "powered_by": {
    "other": "指定網站服務商"
@@ -12,7 +12,7 @@
    "other": "Shift72"
   },
   "powered_by_url": {
-   "other": "https://www.screenplus.com"
+   "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
    "other": "合作單位"
@@ -24,10 +24,10 @@
    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
   },
   "en": {
-   "other": "English"
+   "other": "英語"
   },
   "fr": {
-   "other": "French"
+   "other": "法語"
   },
   "episode_name": {
    "other": "集"
@@ -98,7 +98,7 @@
    "other": "登出"
   },
   "header_banner": {
-   "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021"
+   "other": "標題橫幅"
   },
   "play_trailer": {
    "other": "預告"
@@ -159,7 +159,7 @@
    "other": "接受邀請"
   },
   "acceptinvite_agreement": {
-   "other": "按下「接受邀請」前，請先確認已閱讀並詳細了解我們的服務條款<a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a> and <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">privacy policy</a>。"
+   "other": "按下「接受邀請」前，請先確認已閱讀並詳細了解我們的服務條款<a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">條款 &amp; 狀況</a> 和 <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">隱私政策</a>。"
   },
   "signup_page_header": {
    "other": "建立新帳號"
@@ -360,7 +360,7 @@
    "other": "輸入PIN碼錯誤"
   },
   "user_error_too_many_pin_errors": {
-   "other": "<p>PIN碼多次輸入錯誤。</p><p>請重設PIN碼或與我們聯繫 <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>"
+   "other": "<p>PIN碼多次輸入錯誤。</p><p>請重設PIN碼或與我們聯繫 <a href=\"{{.HelpURL}}\" target=\"_blank\">幫助</a>"
   },
   "user_submit_pin_button": {
    "other": "輸入"
@@ -913,16 +913,16 @@
    "other": "其他"
   },
   "pricing_quality_hd": {
-   "other": "pricing_quality_hd"
+   "other": "HD"
   },
   "pricing_quality_sd": {
-   "other": "pricing_quality_sd"
+   "other": "SD"
   },
   "pricing_quality_hd_only": {
-   "other": "pricing_quality_hd_only"
+   "other": "HD 只要"
   },
   "pricing_quality_sd_only": {
-   "other": "pricing_quality_sd_only"
+   "other": "SD 只要"
   },
   "shopping_card_save_card": {
    "other": "儲存此信用卡資訊，供日後使用"
@@ -955,53 +955,26 @@
    "other": "信用卡錯誤 <a href=\"{{.SubscriptionsURL}}\">請按此更新。</a>"
   },
   "shopping_info_ownership_plan": {
-   "other": "shopping_info_ownership_plan"
+   "other": "訂閱"
   },
   "shopping_action_credit": {
-   "other": "shopping_action_credit"
+   "other": "頂尖"
   },
   "shopping_info_rental_period_coming_soon": {
    "other": "自上架時間起"
   },
-  "usersubscriptions_change_payment_method_change": {
-   "other": "usersubscriptions_change_payment_method_change"
-  },
-  "usersubscriptions_change_payment_method_modal_title": {
-   "other": "usersubscriptions_change_payment_method_modal_title"
-  },
-  "usersubscriptions_change_payment_method_modal_submit": {
-   "other": "usersubscriptions_change_payment_method_modal_submit"
-  },
-  "usersubscriptions_subscription_expiry": {
-   "other": "usersubscriptions_subscription_expiry"
-  },
-  "usersubscriptions_subscription_status_cancelled": {
-   "other": "usersubscriptions_subscription_status_cancelled"
-  },
-  "usersubscriptions_subscription_status_errored": {
-   "other": "usersubscriptions_subscription_status_errored"
-  },
-  "usersubscriptions_subscription_status_past_due": {
-   "other": "usersubscriptions_subscription_status_past_due"
-  },
-  "usersubscriptions_subscription_status_trialing": {
-   "other": "usersubscriptions_subscription_status_trialing"
-  },
-  "usersubscriptions_subscription_unsubscribe": {
-   "other": "usersubscriptions_subscription_unsubscribe"
-  },
-  "usersubscriptions_unsubscribe_modal_cancel": {
-   "other": "usersubscriptions_unsubscribe_modal_cancel"
-  },
-  "usersubscriptions_unsubscribe_modal_confirm": {
-   "other": "usersubscriptions_unsubscribe_modal_confirm"
-  },
-  "usersubscriptions_unsubscribe_modal_title": {
-   "other": "usersubscriptions_unsubscribe_modal_title"
-  },
-  "usersubscriptions_unsubscribe_modal_body": {
-   "other": "usersubscriptions_unsubscribe_modal_body"
-  },
+  "usersubscriptions_change_payment_method_change": { "other": "改變信用卡" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "更新信用卡詳細信息" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "更新" },
+
+  "usersubscriptions_subscription_expiry": { "other": "到期 {{.Expiry}}" },
+  "usersubscriptions_subscription_status_trialing": { "other": "試用期" },
+  "usersubscriptions_subscription_unsubscribe": { "other": "取消我的訂閱" },
+  "usersubscriptions_unsubscribe_modal_cancel": { "other": "取消" },
+  "usersubscriptions_unsubscribe_modal_confirm": { "other": "是的，取消我的訂閱" },
+  "usersubscriptions_unsubscribe_modal_title": { "other": "取消訂閱？" },
+  "usersubscriptions_unsubscribe_modal_body": { "other": "這將取消訂閱 {{.Name}} 計劃. 您仍然能夠在計劃到期之前觀看計劃中的內容 {{.Expiry}}." },
+
   "availability_coming_soon": {
    "other": "即將播映"
   },
@@ -1144,13 +1117,13 @@
    "other": "分享至LinkedIn"
   },
   "app_badge_title": {
-   "other": "Download the app to view your purchased content!"
+   "other": "下載應用程序以查看購買的內容！"
   },
   "app_badge_ios": {
-   "other": "Download on the App Store"
+   "other": "在App Store上下載"
   },
   "app_badge_android": {
-   "other": "Get it on Google Play"
+   "other": "在Google Play上獲取它"
   },
   "shopping_price_title_plan": {
     "other": "價錢"
@@ -1229,7 +1202,7 @@
   "donate_button_text": {
     "other": "捐"
   },
-  "shopping_error_plan_already_owned": { "other": "You already have this plan." },
-  "shopping_error_plan_expired": { "other": "This plan is no longer available." },
-  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" }
+  "shopping_error_plan_already_owned": { "other": "你已經擁有這個計劃." },
+  "shopping_error_plan_expired": { "other": "該計劃不再可用." },
+  "wcag_aria_label_letterboxd": { "other": "在letterboxd上查看" }
 }
