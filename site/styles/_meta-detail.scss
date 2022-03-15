@@ -227,7 +227,6 @@
 
     s72-modal-player,
     s72-userwishlist-button,
-    s72-pricing-buttons .s72-btn,
     s72-play-button,
     .social-media-buttons,
     can-be-watched-button:not(:empty) {
@@ -309,7 +308,9 @@
   }
 }
 
-
+s72-pricing-buttons .s72-btn {
+  margin-bottom: 10px;
+}
 
 .buttons {
   flex-direction: column;
