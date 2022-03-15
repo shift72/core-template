@@ -1,7 +1,12 @@
 # Changelog
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.4.4...HEAD)
-- Removed minimum page height from content pages
+
+### Added
+- Start the site with an admin build: `npm start --admin`.
+
+### Fixed
+- Removed minimum page height from content pages.
 
 ## [0.4.4](https://github.com/shift72/core-template/compare/0.4.3...0.4.4)
 - Fixed usage of obsolete $primary var for trailer button
