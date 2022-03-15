@@ -2,6 +2,7 @@
   text-transform: uppercase;
   letter-spacing: 0.6px;
   color: var(--body-color);
+  @extend .mb-1;
 
   .meta-item-tagline-item,
   .meta-item-tagline-divider {

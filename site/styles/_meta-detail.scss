@@ -146,6 +146,16 @@
   }
 }
 
+h1 {
+      font-size: 35px;
+    font-weight: $font-weight-normal;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+    small {
+      font-size: 24px;
+    }
+}
+
 .meta-detail-content {
   @include media-breakpoint-up(md) {
     width: 700px;
@@ -156,25 +166,14 @@
 
   h1 {
     animation: fadein 2s;
-    font-size: 40px;
-    font-weight: $font-weight-normal;
-    margin-bottom: 5px;
-    text-shadow: none;
-    @include media-breakpoint-up(md) {
-      font-size: 46px;
-    }
-
-    small {
-      font-size: 24px;
-    }
   }
 
   .meta-detail-buttons {
     width: 100%;
+    margin-left: -0.5rem;
 
-    @include media-breakpoint-up(xs) {
-      flex-direction: row;
-      margin-left: -0.5rem;
+    // @include media-breakpoint-up(sm) {
+      // flex-direction: row;
 
     // Purchase, play, trailer, wishlist are all in one group now
     // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
@@ -186,12 +185,10 @@
     .meta-detail-extras,
     s72-play-button,
     can-be-watched-button:not(:empty) {
-
       animation: fadein 2s;
       margin-left: 0.5rem;
       margin-right: 0.5rem;
     }
-
 
       // Handles spacing when there is only rent, only buy, or only play button
       s72-pricing-buttons .s72-btn,
@@ -203,27 +200,35 @@
           margin-right: 0.5rem;
         }
       }
-    }
+    // }
+    // @include media-breakpoint-up(sm) {
+    //   s72-pricing-buttons .s72-btn-rent {
+    //     margin-left: 1rem;
+    //   }
+    // }
 
-    @include media-breakpoint-down(xs) {
-      flex-direction: column;
+    // @include media-breakpoint-down(xs) {
+    //   flex-direction: column;
       s72-pricing-buttons, s72-play-button {
         width: 100%;
         .s72-btn {
           width: 100%;
+
+          @include media-breakpoint-up(xs) {
+            width: auto;
+            &:nth-child(2) {
+              margin-left: 20px;
+            }
+          }
         }
-        margin-bottom: 15px;
+    //     margin-bottom: 15px;
       }
 
-      .s72-btn {
-        margin-left: 0px!important;
-      }
-
-      .meta-detail-extras {
-        width: 100%;
-        justify-content: space-around;
-      }
-    }
+    //   .meta-detail-extras {
+    //     width: 100%;
+    //     justify-content: space-around;
+    //   }
+    // }
 
     s72-modal-player,
     s72-userwishlist-button,

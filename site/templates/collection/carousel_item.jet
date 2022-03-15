@@ -20,11 +20,11 @@
       {{if !isset(item["PageType"]) || item.PageType != "external"}}
         <div class="carousel-item-caption">
           <div class="meta-item-content">
-            <h3>{{item.GetTitle(i18n)}}
+            <h1>{{item.GetTitle(i18n)}}
               {{if isset(item.InnerItem["ReleaseDate"]) && item.InnerItem.ReleaseDate.Year() > 1}}
                 <small>({{item.InnerItem.ReleaseDate.Year()}})</small>
               {{end}}
-            </h3>
+            </h1>
             <div class="meta-item-tagline-and-classification">
               {{yield metaItemTagline() item.InnerItem}}
             </div>
@@ -45,7 +45,6 @@
                   </div>
                 {{end}}
                 <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
-                <s72-share-buttons item="::item.meta" class="hidden-sm hidden-xs pull-right"></s72-share-buttons>
               </div>
             </div>
             <div class="meta-item-synopsis">

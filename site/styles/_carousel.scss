@@ -102,30 +102,32 @@ s72-carousel {
   left: 0;
   padding: 0 20px;
   position: absolute;
-  top: var(--carousel-caption-top);
+  bottom: 50px;
+  // top: var(--carousel-caption-top);
   z-index: 999;
-  @include media-breakpoint-up(md) {
-    left: 60px;
-    top: var(--carousel-caption-top-md);
-    width: 70%;
-  }
-  @include media-breakpoint-up(lg) {
-    left: 70px;
-    top: var(--carousel-caption-top-md);
-    width: 70%;
-  }
-  @include media-breakpoint-up(xl) {
-    left: 120px;
-    top: var(--carousel-caption-top-md);
-    width: 50%;
-  }
-  @include media-breakpoint-up(xxxl) {
-    top: var(--carousel-caption-top-md);
-    width: 50%;
-  }
+  // @include media-breakpoint-up(md) {
+  //   left: 60px;
+  //   top: var(--carousel-caption-top-md);
+  //   width: 70%;
+  // }
+  // @include media-breakpoint-up(lg) {
+  //   left: 70px;
+  //   top: var(--carousel-caption-top-md);
+  //   width: 70%;
+  // }
+  // @include media-breakpoint-up(xl) {
+  //   left: 120px;
+  //   top: var(--carousel-caption-top-md);
+  //   width: 50%;
+  // }
+  // @include media-breakpoint-up(xxxl) {
+  //   top: var(--carousel-caption-top-md);
+  //   width: 50%;
+  // }
 
   .meta-item-content {
     color: #fff;
+    min-height: 185px;
 
     h3 {
       color: var(--body-color);
@@ -161,16 +163,20 @@ s72-carousel {
       color: rgba(var(--body-color-rgb), 0.8);
       font-size: 14px;
       font-weight: $font-weight-normal;
+      @extend .mb-2;
       @include media-breakpoint-up(xxxl) {
         font-size: 18px;
       }
     }
 
     .meta-item-synopsis {
-      display: block;
+      display: none;
       font-size: 12px;
       font-weight: $font-weight-normal;
       padding-top: 10px;
+      @include media-breakpoint-up(xs) {
+        display: block;
+      }
       @include media-breakpoint-up(md) {
         font-size: 16px;
       }
@@ -184,6 +190,9 @@ s72-carousel {
 
     .meta-item-extras {
       @extend .d-flex;
+      @extend .w-100;
+      // @extend .w-md-auto;
+      @extend .justify-content-around;
     }
 
     .btn-wishlist {
@@ -233,7 +242,8 @@ s72-carousel {
 }
 
 .s72-carousel-pagination {
-  @extend .d-flex;
+  @extend .d-none;
+  @extend .d-xs-flex;
   bottom: 2px;
   height: 60px;
   left: 50%;
