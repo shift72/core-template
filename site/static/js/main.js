@@ -1,5 +1,6 @@
 import './modernizr-custom.js';
 import './can-be-watched-button.component.js';
+import './theme-editor.js';
 
 /*global Swiper, Modernizr, s72*/
 

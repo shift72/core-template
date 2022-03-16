@@ -1,0 +1,53 @@
+{{extends "templates/application/application.jet"}}
+
+{{block head()}}
+  {{yield seo(title=i18n("404_page_header"), index=false)}}
+{{end}}
+
+{{block body()}}
+<main id="main" class="container page not-found">
+
+  <div class="page-header text-center">
+    <h1> Style Guide </h1>
+  </div>
+
+  <div class="text-center">
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <br>
+    <p>
+      Page content <br>
+      <a href="https://google.com">In page link</a>
+    </p>
+    <br>
+    <a href="/signup.html" class="btn btn-signup">Sign up button</a>
+    <br>
+    <div class="meta-detail-extras">
+        <div class="social-media-buttons">
+        <button class="s72-btn s72-btn-play s72-btn-trailer"><span class="s72-btn-play-icon"><svg version="1.1" x="0px" y="0px" viewBox="0 0 32 32" class="s72-icon-play"><circle cx="16" cy="16" r="14"></circle><path d="M14 12 L20 16 L14 20 Z"></path></svg></span><span class="verb s72-btn-play-label">Trailer</span></button>
+
+  			<div class="social-media-buttons-title">
+  				<h2 style="font-size: 12px;">Share</h2>
+  			</div>
+			  <div class="social-media-buttons-container">
+					<a class="btn btn-social btn-social-facebook" aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fabccinemas.screenplus.co%2Ffilm%2Fparasite%2F" target="_blank">
+						<i class="fa fa-facebook" title="Share on Facebook" aria-hidden="true"></i>
+					</a>
+					<a class="btn btn-social btn-social-twitter" aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=+https%3A%2F%2Fabccinemas.screenplus.co%2Ffilm%2Fparasite%2F" target="_blank">
+						<i class="fa fa-twitter" title="Share on Twitter" aria-hidden="true"></i>
+					</a>
+          <a class="btn btn-social btn-social-linkedin" aria-label="Share on LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fabccinemas.screenplus.co%2Ffilm%2Fparasite%2F&amp;title=" target="_blank">
+						<i class="fa fa-linkedin" title="Share on LinkedIn" aria-hidden="true"></i>
+					</a>
+        </div>
+        <div class="s72-userwishlist-buttons">
+          <button class="s72-btn s72-btn-wishlist" type="button"><span><i class="s72-icon s72-icon-wishlist-add"></i> Add to My List</span></button>
+          <button class="s72-btn s72-btn-wishlist" type="button"><span><i class="s72-icon s72-icon-wishlist-remove"></i> My List </span></button>
+	      </div>
+      </div>
+      <br>
+    <div class="s72-pricing-buttons"><div class="s72-pricing-button-container"><button class="s72-btn s72-btn-purchase" type="button"><span class="verb s72-btn-buy-label"><span>Buy&nbsp;</span></span><span class="price s72-btn-buy-price">$13.00</span></button><button class="s72-btn s72-btn-rent" type="button"><span class="verb s72-btn-rent-label"><span>Rent&nbsp;</span></span><span class="price s72-btn-rent-price">$5.00</span></button></div>
+  </div>
+</main>
+{{end}}
