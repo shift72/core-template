@@ -261,24 +261,24 @@ s72-carousel {
 .s72-carousel-pagination {
   @extend .d-flex;
   justify-content: center;
-  height: 60px;
+  margin-top: 40px;
   .s72-carousel-page {
-    color: rgba(var(--body-color-rgb), 0.2);
+       
     @include media-breakpoint-up(md) {
-      margin: 0 5px;
+      padding: 10px 4px;
+    }
+    .s72-carousel-line {
+      width: 47px;
+      height: 6px;
+      border-radius: 6px;
+      background-color: rgba(var(--body-color-rgb), 0.2);
+    }
+    &:hover {
+      cursor: pointer;
     }
 
-    &.current {
-      color: var(--primary);
-    }
-
-    .fa {
-      @extend .fa-circle;
-      font-size: 12px;
-      padding: 0 3px;
-      @include media-breakpoint-up(md) {
-        font-size: 14px;
-      }
+    &.current .s72-carousel-line{
+      background-color: var(--primary);
     }
   }
 }
