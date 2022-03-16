@@ -58,9 +58,6 @@
           </div>
         </div>
       {{end}}
-      <div class="left-gradient"></div>
-      <div class="right-gradient"></div>
-      <div class="bottom-gradient"></div>
     </a>
   </div>
 {{end}}

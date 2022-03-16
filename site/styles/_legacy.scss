@@ -306,3 +306,32 @@ p,
     overflow-y: visible;
   }
 }
+
+.navigation {
+  position: relative;
+}
+.other-sliders {
+  padding-top: calc(var(--carousel-height-md) - (var(--navbar-brand-padding-y) * 2));
+}
+
+/*
+s72-carousel {
+  position: static !important;
+}
+.page-collection-carousel {
+  position: static !important;
+}
+.s72-carousel-slides {
+  position: static;
+}
+.s72-carousel-item {
+  position: static !important;
+}
+.carousel-item-link {
+  position: static !important;
+  s72-image {
+    position: absolute;
+    top: 0px;
+  }
+}
+*/

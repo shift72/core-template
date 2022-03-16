@@ -17,10 +17,6 @@
 				<div class="s72-carousel-page" data-page-index="{{index}}" data-slug="{{item.Slug}}"><span class="fa fa-circle"></span></div>
 			{{end}}
 		</div>
-
-		<!-- Controls -->
-		<a class="left s72-carousel-control"><span class="fa fa-angle-left"></span></a>
-		<a class="right s72-carousel-control"><span class="fa fa-angle-right"></span></a>
 	</section>
 </s72-carousel>
 {{end}}
