@@ -93,11 +93,12 @@ s72-carousel {
   padding-top: 100px;
   //https://via.placeholder.com/3000/FFFFFF
   //@include gradient-y(rgba($bottom-gradient-bg-color, 0),rgba($bottom-gradient-bg-color, 1),0%,40%);
-  //@include gradient-y(rgba($bottom-gradient-bg-color, 0),rgba($bottom-gradient-bg-color, 1),0%,100%);
+  @include gradient-y(rgba($bottom-gradient-bg-color, 0),rgba($bottom-gradient-bg-color, 1),0%,100%);
   //background: linear-gradient(180deg, rgba($bottom-gradient-bg-color, 0) 0%, rgba($bottom-gradient-bg-color, 0.7) 51%, rgba($bottom-gradient-bg-color, 1) 100%);
   //background: linear-gradient(180deg, rgba($bottom-gradient-bg-color, 0) 0%, rgba($bottom-gradient-bg-color, 0.3) 40%, rgba($bottom-gradient-bg-color, 1) 77%);
   
   // Created using this tool: https://larsenwork.com/easing-gradients/#editor
+  /*
     background: linear-gradient(
           to bottom,
           hsla(0, 0%, 0%, 0) 0%,
@@ -117,7 +118,7 @@ s72-carousel {
           hsla(0, 0%, 0%, 0.987) 84.6%,
           hsl(0, 0%, 0%) 100%
         );
-  
+  */
 
   @include media-breakpoint-up(lg) {
     padding: 100px 50px 0 50px;
@@ -147,9 +148,10 @@ s72-carousel {
     h3 {
       color: var(--body-color);
       font-size: 28px;
-      font-weight: $font-weight-bold;
+      font-weight: $font-weight-normal;
       margin-bottom: 0;
       padding-bottom: 0;
+      max-width: 930px;
       @include media-breakpoint-up(md) {
         font-size: 38px;
       }
@@ -177,7 +179,6 @@ s72-carousel {
     .meta-item-tagline-and-classification {
       @extend .d-flex;
       align-items: center;
-      padding-bottom: 8px;
       padding-top: 8px;
     }
 
@@ -198,7 +199,8 @@ s72-carousel {
       display: block;
       font-size: 12px;
       font-weight: $font-weight-normal;
-      padding-top: 10px;
+      padding-top: 8px;
+      max-width: 600px;
       @include media-breakpoint-up(md) {
         font-size: 16px;
       }
