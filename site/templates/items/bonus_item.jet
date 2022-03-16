@@ -7,17 +7,15 @@
         <s72-playback-progress slug="{{item.Slug}}"></s72-playback-progress>
       </div>
       <div class="caption">
-        <div class="bonus-item-title">
           <h3>{{item.Title}}</h3>
-          {{if item.Runtime > 0 }}
             <span class="runtime">
-              {{if item.Runtime.Hours() > 0}}
-                {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
+              {{if item.Runtime > 0 }}
+                  {{if item.Runtime.Hours() > 0}}
+                    {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
+                  {{end}}
+                  {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
               {{end}}
-              {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
             </span>
-          {{end}}
-        </div>
         <div class="synopsis">{{item.Overview | raw}}</div>
       </div>
     </div>

@@ -8,15 +8,15 @@
     </div>
     <div class="caption">
       <h3>{{item.Title}}</h3>
-      <div class="synopsis">{{item.Overview | raw}}</div>
-      {{if item.Runtime > 0 }}
         <span class="runtime">
-          {{if item.Runtime.Hours() > 0}}
-            {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
+          {{if item.Runtime > 0 }}
+            {{if item.Runtime.Hours() > 0}}
+              {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
+            {{end}}
+            {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
           {{end}}
-          {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
         </span>
-      {{end}}
+      <div class="synopsis">{{item.Overview | raw}}</div>
     </div>
   </div>
 {{end}}

@@ -122,11 +122,11 @@
   flex-direction: column;
   padding: var(--page-detail-padding-top) 20px 0 20px;
   @include media-breakpoint-up(md) {
-    flex-direction: row;
     padding-bottom: 0;
     padding-top: var(--page-detail-padding-top-md);
   }
   @include media-breakpoint-up(lg) {
+    flex-direction: row;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: var(--page-detail-padding-top-lg);
@@ -137,7 +137,7 @@
     display: block;
     width: 140px;
     @include media-breakpoint-up(md) {
-      width: 200px;
+      width: 175px;
     }
   }
   > .poster {
@@ -147,13 +147,27 @@
 }
 
 h1 {
-      font-size: 35px;
+    font-size: 35px;
     font-weight: $font-weight-normal;
     letter-spacing: 0.8px;
     margin-bottom: 8px;
     small {
       font-size: 24px;
     }
+    @include media-breakpoint-up(sm) {
+      font-size: 45px;
+    }
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: $font-weight-normal;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: $font-weight-normal;
 }
 
 .meta-detail-content {
@@ -232,10 +246,13 @@ h1 {
 
     s72-modal-player,
     s72-userwishlist-button,
-    s72-play-button,
     .social-media-buttons,
     can-be-watched-button:not(:empty) {
       margin-bottom: 10px;
+    }
+
+    s72-play-button,s72-pricing-buttons {
+      margin-bottom: 20px;
     }
 
     /* stylelint-enable selector-max-compound-selectors */
@@ -244,6 +261,9 @@ h1 {
   .meta-detail-synopsis {
     padding-top: 10px;
     font-weight: $font-weight-light;
+    letter-spacing: 0.6px;
+    line-height: 1.45;
+    margin-bottom: 25px;
 
     p {
       animation: fadein 2s;
@@ -277,13 +297,18 @@ h1 {
   .meta-detail-subtitle {
     padding-bottom: 20px;
 
+    &:empty {
+      display: none!important;
+    }
+
     h2,
     h3,
     h4 {
       animation: fadein 2s;
       color: var(--body-color);
-      font-size: 18px;
-      font-weight: $font-weight-bold;
+      font-size: 16px;
+      letter-spacing: 0.8px;
+      font-weight: $font-weight-normal;
       margin-bottom: 5px;
       padding-bottom: 0;
     }
@@ -297,26 +322,27 @@ h1 {
 
     a {
       @include a;
+      letter-spacing: 0.6px;
       animation: fadein 2s;
     }
   }
 
-  .meta-detail-crew {
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0;
-
-    .crew-member {
-      padding-bottom: 20px;
-      padding-right: 20px;
-    }
-  }
 }
 
+.meta-detail-other {
+  display: flex;
+  flex-wrap: wrap;
+  > div {
+    width: 50%;
+  }
+}
 s72-pricing-buttons .s72-btn {
   margin-bottom: 10px;
 }
 
+s72-btn-play-icon .s72-btn-play-icon {
+  @extend .d-none;
+}
 .buttons {
   flex-direction: column;
   s72-pricing-buttons, s72-play-button {
@@ -513,21 +539,60 @@ s72-pricing-buttons .s72-btn {
 }
 
 .meta-detail-bonus-content .synopsis {
-  font-size: 12px;
-  @include media-breakpoint-up(lg) {
-    font-size: 12px;
+  font-weight: $font-weight-light;
+}
+
+.bonus-item, .episode-item  {
+  &:not(:last-of-type) {
+    border-bottom: 1px solid $list-group-border-color;
   }
 }
 
+.bonus-item {
+  @extend .d-table;
+  @extend .w-100;
+}
 .bonus,
 .episode {
-  @extend .d-flex;
-  flex-direction: row;
+  @extend .my-1;
+  @extend .d-block;
 
+
+  .caption {
+    @extend .d-sm-flex;
+    @extend .flex-column;
+  }
+  
+  .synopsis {
+    @extend .pl-sm-1;
+    @extend .w-100;
+  }
+
+  h3 {
+    margin-bottom: 0;
+    min-height: 42px;
+    margin-left: 112px;
+    @extend .pl-1;
+    @extend .ml-sm-0;
+
+  }
+  .runtime {
+    font-size: 14px;
+    @extend .pl-1;
+    @extend .ml-sm-0;
+    margin-left: 112px;
+    display: block;
+    @extend .clearfix;
+    min-height: 1px;
+    @include media-breakpoint-up(sm) {
+      order: 1;
+    }
+  }
   .poster {
-    flex-shrink: 0;
     height: 100%;
-    width: 210px;
+    width: 112px;
+    @extend .mb-1;
+    float: left;
 
     .s72-btn-play {
       left: 50%;
