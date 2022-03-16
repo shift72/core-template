@@ -16,7 +16,8 @@ s72-carousel {
     height: var(--carousel-height-sm) !important;
   }
   @include media-breakpoint-up(md) {
-    height: calc(var(--carousel-height-md) + 80px) !important;
+    //height: calc(var(--carousel-height-md) + 80px) !important;
+    height: var(--carousel-height-md) !important;
   }
 
   s72-image {
@@ -81,6 +82,7 @@ s72-carousel {
 }
 
 .carousel-item-caption {
+
   left: 0;
   position: absolute;
   bottom: 0;
@@ -88,10 +90,39 @@ s72-carousel {
   width: 100%;
   display: flex;
   padding: 0 20px;
-  @include gradient-y(rgba($bottom-gradient-bg-color, 0),rgba($bottom-gradient-bg-color, 1),0%,40%);
+  padding-top: 100px;
+  //https://via.placeholder.com/3000/FFFFFF
+  //@include gradient-y(rgba($bottom-gradient-bg-color, 0),rgba($bottom-gradient-bg-color, 1),0%,40%);
+  //@include gradient-y(rgba($bottom-gradient-bg-color, 0),rgba($bottom-gradient-bg-color, 1),0%,100%);
+  //background: linear-gradient(180deg, rgba($bottom-gradient-bg-color, 0) 0%, rgba($bottom-gradient-bg-color, 0.7) 51%, rgba($bottom-gradient-bg-color, 1) 100%);
+  //background: linear-gradient(180deg, rgba($bottom-gradient-bg-color, 0) 0%, rgba($bottom-gradient-bg-color, 0.3) 40%, rgba($bottom-gradient-bg-color, 1) 77%);
+  
+  // Created using this tool: https://larsenwork.com/easing-gradients/#editor
+    background: linear-gradient(
+          to bottom,
+          hsla(0, 0%, 0%, 0) 0%,
+          hsla(0, 0%, 0%, 0.013) 7.5%,
+          hsla(0, 0%, 0%, 0.049) 13.6%,
+          hsla(0, 0%, 0%, 0.104) 18.5%,
+          hsla(0, 0%, 0%, 0.175) 22.5%,
+          hsla(0, 0%, 0%, 0.259) 25.9%,
+          hsla(0, 0%, 0%, 0.352) 29.2%,
+          hsla(0, 0%, 0%, 0.45) 32.5%,
+          hsla(0, 0%, 0%, 0.55) 36.2%,
+          hsla(0, 0%, 0%, 0.648) 40.6%,
+          hsla(0, 0%, 0%, 0.741) 46.1%,
+          hsla(0, 0%, 0%, 0.825) 52.9%,
+          hsla(0, 0%, 0%, 0.896) 61.4%,
+          hsla(0, 0%, 0%, 0.951) 71.8%,
+          hsla(0, 0%, 0%, 0.987) 84.6%,
+          hsl(0, 0%, 0%) 100%
+        );
+  
+
   @include media-breakpoint-up(lg) {
-    padding: 0 50px;
+    padding: 100px 50px 0 50px;
   }
+  //  background-image: linear-gradient(to bottom, rgba(2, 2, 2, 0) 0%, rgba(2, 2, 2, 0.29) 40%, var(--surface-dark-001) 77%);
 
   s72-availability-status,
   s72-availability-label {
