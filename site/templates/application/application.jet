@@ -21,8 +21,11 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="preload" href="/{{lang.DefinitionFilePath}}" as="fetch" crossorigin type="application/json">
     <link rel="preload" href="/classifications.all.json" as="fetch" crossorigin type="application/json">
-    <!-- Kibble:{{ version }} -->
-    <!-- Template:{{site.SiteConfig.Version}} -->
+    <!-- Kibble: {{version}} -->
+    {{if site.SiteConfig.CoreTemplateVersion != ""}}
+      <!-- Core-Template: {{site.SiteConfig.CoreTemplateVersion}} -->
+    {{end}}
+    <!-- Template: {{site.SiteConfig.Version}} -->
     <link rel="stylesheet" href="{{CDN}}/s72.ui.css">
     <link rel="stylesheet" href="{{CDN}}/s72.transactional.css">
     <link rel="stylesheet" href="/styles/swiper.css">
