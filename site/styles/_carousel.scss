@@ -163,10 +163,8 @@ s72-carousel {
       font-size: 12px;
       font-weight: $font-weight-normal;
       padding-top: 10px;
-      @include media-breakpoint-up(xs) {
+      @include media-breakpoint-up(sm) {
         display: block;
-      }
-      @include media-breakpoint-up(md) {
         font-size: 16px;
       }
       @include media-breakpoint-up(xxxl) {
