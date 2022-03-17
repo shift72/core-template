@@ -135,6 +135,7 @@
   .poster {
     animation: fadein 2s;
     display: block;
+    flex-shrink: 0;
     width: 140px;
     @include media-breakpoint-up(md) {
       width: 175px;
@@ -160,22 +161,46 @@
 
   .meta-detail-buttons {
     width: 100%;
-    margin-left: -0.5rem;
+    
 
-    // Purchase, play, trailer, wishlist are all in one group now
-    // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
-    margin-right: -0.5rem;
-    min-height: 45px;
+    .s72-pricing-button-container {
+      @extend .d-flex;
+      @extend .flex-column;
+      @extend .d-xs-block;
+    }
 
     /* stylelint-disable selector-max-compound-selectors */
-    s72-pricing-buttons .s72-btn,
-    .meta-detail-extras,
-    s72-play-button,
-    can-be-watched-button:not(:empty) {
-      animation: fadein 2s;
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
+
+      .s72-pricing-button-container .s72-btn:nth-child(2) {
+       @extend .ml-0; //override relish
+       @extend .ml-xs-1; //override relish
+      }
+    // Purchase, play, trailer, wishlist are all in one group now
+    // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
+    s72-pricing-buttons {
+      width: 100%;
     }
+    @include media-breakpoint-up(xs) {
+      margin-right: -0.5rem;
+      margin-left: -0.5rem;
+      s72-pricing-buttons {
+        width: auto;
+      }
+
+
+      s72-pricing-buttons .s72-btn,
+      .meta-detail-extras,
+      s72-play-button,
+      can-be-watched-button:not(:empty) {
+        animation: fadein 2s;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+      }
+
+    }
+
+    min-height: 45px;
+
 
     s72-modal-player,
     s72-userwishlist-button,
