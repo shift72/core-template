@@ -525,6 +525,9 @@
   "awards_winner_of": {
     "other": "Võitja"
   },
+  "awards_winner": {
+    "other": "Võitja"
+  },
   "donate_button_text": {
     "other": "Anneta"
   },

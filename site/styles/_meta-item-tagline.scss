@@ -7,7 +7,7 @@
 
   .meta-item-tagline-item,
   .meta-item-tagline-divider {
-    @extend .list-inline-item;
+    @extend .d-inline;
 
     &:not(:last-child) {
       margin-right: map-get($spacers, 1); // Currently 0.25rem

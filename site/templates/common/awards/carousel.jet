@@ -1,9 +1,15 @@
 {{block awardsCarousel()}}
   {{ if isset(.AwardCategories) && (len(.AwardCategories) > 0) }}
+
+    {{award_winner := false}}
+    {{ range .AwardCategories }}
+      {{ if .IsWinner}}{{award_winner = true}}{{end}}
+    {{ end }}
+
     <div class="meta-awards">
       <div class="meta-award-nomination">
         <span><i class="meta-award-nomination-icon"></i></span>
-        <span class="font-weight-bold">{{ i18n("awards_in_competition") }}</span>
+        <span>{{ i18n("awards_in_competition") }}{{award_winner ? " - " + i18n("awards_winner") : ""}}</span>
       </div>
     </div>
   {{ end }}
