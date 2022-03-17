@@ -147,6 +147,13 @@
   }
 }
 
+s72-carousel, .meta-detail{
+  .s72-pricing-button-container .s72-btn:nth-child(2) {
+    @extend .ml-0; //override relish
+    @extend .ml-xs-2; //override relish
+  }
+ }
+
 .meta-detail-content {
   @include media-breakpoint-up(md) {
     width: 700px;
@@ -171,10 +178,6 @@
 
     /* stylelint-disable selector-max-compound-selectors */
 
-      .s72-pricing-button-container .s72-btn:nth-child(2) {
-       @extend .ml-0; //override relish
-       @extend .ml-xs-1; //override relish
-      }
     // Purchase, play, trailer, wishlist are all in one group now
     // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
     s72-pricing-buttons {
@@ -313,10 +316,11 @@
 s72-pricing-buttons, s72-play-button {
   .s72-btn {
     margin-bottom: 10px;
-  }
-  
+  }  
 }
+
 s72-play-button .s72-btn-play-icon {
+  
   @extend .d-none;
 }
 
@@ -513,9 +517,8 @@ s72-play-button .s72-btn-play-icon {
   }
 }
 
-
-
 .bonus-item, .episode-item  {
+  @extend .clearfix;
   &:not(:last-of-type) {
     @extend .mb-1p5;
     border-bottom: 1px solid $list-group-border-color;

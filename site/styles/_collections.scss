@@ -65,6 +65,11 @@
         transition: opacity 0.25s ease-in;
         z-index: 100;
 
+        s72-userwishlist-button {
+          @extend .position-absolute;
+          bottom: 10px;
+        }
+
         .buttons {
           @extend .d-flex;
           align-items: center;
@@ -76,10 +81,6 @@
 
           s72-can-be-watched-now {
             margin-left: auto;
-          }
-
-          s72-userwishlist-button {
-            flex-shrink: 0;
           }
 
           .btn-wishlist .s72-btn-wishlist {
@@ -201,7 +202,6 @@
 
               &:nth-child(2) {
                 margin-left: 0;
-                margin-top: 10px;
               }
             }
           }

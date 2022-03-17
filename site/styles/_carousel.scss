@@ -227,9 +227,6 @@ s72-carousel {
   font-size: 14px;
   font-weight: $font-weight-normal;
   @extend .mb-1p5;
-  @include media-breakpoint-up(xxxl) {
-    font-size: 18px;
-  }
 }
 
 .s72-classification {
