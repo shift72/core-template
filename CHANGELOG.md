@@ -1,6 +1,19 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.4.2...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.4.4...HEAD)
+
+### Added
+- Added Core Template version to head.
+- Added script which pulls Core Template version from package.json and adds it to kibble.json during builds/releases.
+
+### Changed
+- Removed minimum page height from content pages
+
+## [0.4.4](https://github.com/shift72/core-template/compare/0.4.3...0.4.4)
+- Fixed usage of obsolete $primary var for trailer button
+
+### Added
+- Awards categories
 
 ## [0.4.3](https://github.com/shift72/core-template/compare/0.4.2...0.4.3)
 
