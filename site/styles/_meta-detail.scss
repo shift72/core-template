@@ -220,17 +220,8 @@ h3 {
           margin-right: 0.5rem;
         }
       }
-    // }
-    // @include media-breakpoint-up(sm) {
-    //   s72-pricing-buttons .s72-btn-rent {
-    //     margin-left: 1rem;
-    //   }
-    // }
-
-    // @include media-breakpoint-down(xs) {
-    //   flex-direction: column;
-      s72-pricing-buttons, s72-play-button {
-        width: 100%;
+  
+       s72-play-button {
         .s72-btn {
           width: 100%;
 
@@ -241,14 +232,7 @@ h3 {
             }
           }
         }
-    //     margin-bottom: 15px;
       }
-
-    //   .meta-detail-extras {
-    //     width: 100%;
-    //     justify-content: space-around;
-    //   }
-    // }
 
     s72-modal-player,
     s72-userwishlist-button,
@@ -349,6 +333,7 @@ s72-pricing-buttons .s72-btn {
 s72-btn-play-icon .s72-btn-play-icon {
   @extend .d-none;
 }
+
 .buttons {
   flex-direction: column;
   s72-pricing-buttons, s72-play-button {
@@ -368,10 +353,6 @@ s72-btn-play-icon .s72-btn-play-icon {
     justify-content: space-around;
   }
 }
-
-/* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
-
-/* stylelint-enable selector-max-compound-selectors, max-nesting-depth */
 
 .recommendations-collection {
   padding-top: 20px;
