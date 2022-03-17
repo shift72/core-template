@@ -65,7 +65,7 @@
           {{yield awardNominations() film}}
 
           <div class="meta-detail-synopsis">{{film.Overview | raw}}</div>
-          <div class="row">
+          <div class="mb-2 row">
             <div class="meta-detail-cast col-lg-6">{{if len(film.Cast) > 0 }}
               <h2>{{i18n("meta_detail_cast_title")}}</h2>
               <p>

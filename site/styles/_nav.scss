@@ -929,3 +929,7 @@ s72-dropdown,
     width: 100%;
   }
 }
+
+s72-donate-button a{
+  @extend .shadow;
+}
