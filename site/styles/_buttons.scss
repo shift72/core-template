@@ -67,38 +67,12 @@
   border: 3px solid $button-background;
   justify-content: center;
   padding-bottom: 3px;
-  padding-left: 0;
   padding-top: 3px;
   @include hover-focus {
     background: $button-background-hover;
     border: 3px solid $button-background-hover;
-
-    .s72-icon-play {
-      circle {
-        fill: none;
-        stroke: none;
-      }
-
-      path {
-        fill: $button-text-color-hover;
-        stroke: $button-text-color-hover;
-      }
-    }
-
     .s72-btn-play-label {
       color: $button-text-color-hover;
-    }
-  }
-
-  .s72-icon-play {
-    circle {
-      fill: none;
-      stroke: none;
-    }
-
-    path {
-      fill: $button-text-color;
-      stroke: $button-text-color;
     }
   }
 

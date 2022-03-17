@@ -146,36 +146,6 @@
   }
 }
 
-h1 {
-    font-size: 35px;
-    font-weight: $font-weight-normal;
-    letter-spacing: 0.8px;
-    margin-bottom: 8px;
-    small {
-      font-size: 24px;
-    }
-    @include media-breakpoint-up(sm) {
-      font-size: 45px;
-    }
-}
-
-h2 {
-  font-size: 20px;
-  margin-bottom: 15px;
-  font-weight: $font-weight-normal;
-
-  @include media-breakpoint-up(sm) {
-    font-size: 23px;
-    letter-spacing: 0.6px;
-  }
-}
-
-h3 {
-  font-size: 16px;
-  font-weight: $font-weight-normal;
-  letter-spacing: 0.4px;
-}
-
 .meta-detail-content {
   @include media-breakpoint-up(md) {
     width: 700px;
@@ -192,9 +162,6 @@ h3 {
     width: 100%;
     margin-left: -0.5rem;
 
-    // @include media-breakpoint-up(sm) {
-      // flex-direction: row;
-
     // Purchase, play, trailer, wishlist are all in one group now
     // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
     margin-right: -0.5rem;
@@ -210,30 +177,6 @@ h3 {
       margin-right: 0.5rem;
     }
 
-      // Handles spacing when there is only rent, only buy, or only play button
-      s72-pricing-buttons .s72-btn,
-      s72-play-button {
-        &:nth-child(1) {
-          margin-right: 0;
-        }
-        &:only-child {
-          margin-right: 0.5rem;
-        }
-      }
-  
-       s72-play-button {
-        .s72-btn {
-          width: 100%;
-
-          @include media-breakpoint-up(xs) {
-            width: auto;
-            &:nth-child(2) {
-              margin-left: 20px;
-            }
-          }
-        }
-      }
-
     s72-modal-player,
     s72-userwishlist-button,
     .social-media-buttons,
@@ -241,6 +184,29 @@ h3 {
       margin-bottom: 10px;
     }
 
+    // Handles spacing when there is only rent, only buy, or only play button
+    s72-pricing-buttons .s72-btn,
+    s72-play-button {
+      &:nth-child(1) {
+        margin-right: 0;
+      } 
+      &:only-child {
+        margin-right: 0.5rem;
+      }
+    }
+
+      s72-play-button {
+      .s72-btn {
+        width: 100%;
+
+        @include media-breakpoint-up(xs) {
+          width: auto;
+          &:nth-child(2) {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
     /* stylelint-enable selector-max-compound-selectors */
   }
 
@@ -308,25 +274,18 @@ h3 {
 
     a {
       @include a;
-      letter-spacing: 0.6px;
       animation: fadein 2s;
+      letter-spacing: 0.6px;
     }
   }
 
 }
 
-.meta-detail-other {
-  display: flex;
-  flex-wrap: wrap;
-  > div {
-    width: 50%;
-  }
-}
 s72-pricing-buttons .s72-btn {
   margin-bottom: 10px;
 }
 
-s72-btn-play-icon .s72-btn-play-icon {
+s72-play-button .s72-btn-play-icon {
   @extend .d-none;
 }
 

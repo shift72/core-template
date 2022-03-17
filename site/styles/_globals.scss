@@ -5,3 +5,33 @@ small {
 a:not([class]) {
   text-decoration: underline;
 }
+
+h1 {
+  font-size: 35px;
+  font-weight: $font-weight-normal;
+  letter-spacing: 0.8px;
+  margin-bottom: 8px;
+  small {
+    font-size: 24px;
+  }
+  @include media-breakpoint-up(sm) {
+    font-size: 45px;
+  }
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: $font-weight-normal;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 23px;
+    letter-spacing: 0.6px;
+  }
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: $font-weight-normal;
+  letter-spacing: 0.4px;
+}
