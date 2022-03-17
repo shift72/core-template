@@ -15,6 +15,10 @@
   @extend .btn-primary-override;
 }
 
+.s72-btn-play:not(.s72-btn-trailer) {
+  @extend .btn-primary-override;
+}
+
 .s72-btn-purchase {
   @extend .btn-primary-override;
 }

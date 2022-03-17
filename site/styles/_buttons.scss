@@ -4,6 +4,14 @@
   font-size: 1.1rem;
 }
 
+.s72-btn {
+  background-color: fuchsia;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
 .btn-primary {
   background-color: $button-background;
   color: $button-text-color;
@@ -60,28 +68,6 @@
   }
 }
 
-.s72-btn-play {
-  @extend .d-flex;
-  align-items: center;
-  background: $button-background;
-  border: 3px solid $button-background;
-  justify-content: center;
-  padding-bottom: 3px;
-  padding-top: 3px;
-  @include hover-focus {
-    background: $button-background-hover;
-    border: 3px solid $button-background-hover;
-    .s72-btn-play-label {
-      color: $button-text-color-hover;
-    }
-  }
-
-  .verb {
-    color: $button-text-color;
-    font-size: 18px;
-    font-weight: $font-weight-normal;
-  }
-}
 
 .s72-btn-play.s72-btn-trailer {
   background: transparent;
@@ -156,7 +142,8 @@
 }
 
 .s72-btn-rent,
-.s72-btn-purchase {
+.s72-btn-purchase,
+.s72-btn-play:not(.s72-btn-trailer)  {
   background: $button-background;
   border: 3px solid $button-background;
   min-width: 140px;
