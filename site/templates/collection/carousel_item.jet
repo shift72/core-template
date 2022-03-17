@@ -29,7 +29,7 @@
               {{yield metaItemTagline() item.InnerItem}}
             </div>
 
-            <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
+            
 
             <div class="meta-item-synopsis">
               <p>{{item.InnerItem.Tagline | stripHTML}}</p>
@@ -54,6 +54,8 @@
                 <s72-share-buttons item="::item.meta" class="hidden-sm hidden-xs pull-right"></s72-share-buttons>
               </div>
             </div>
+
+            <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
 
             {{yield awardsCarousel() item.InnerItem}}
           </div>
