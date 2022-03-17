@@ -221,6 +221,22 @@
     }
   }
 
+  .caption {
+    padding: 4px 0;
+    @include media-breakpoint-up(md) {
+      padding: 8px 0;
+    }
+
+    .title,
+    .runtime {
+      font-size: 12px;
+      font-weight: $font-weight-bold;
+      @include media-breakpoint-up(md) {
+        font-size: 14px;
+      }
+    }
+  }
+
 }
 /* stylelint-enable selector-max-compound-selectors, max-nesting-depth */
 

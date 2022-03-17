@@ -197,6 +197,16 @@
         margin-right: 0.5rem;
       }
 
+    // Handles spacing when there is only rent, only buy, or only play button
+    s72-pricing-buttons .s72-btn,
+    s72-play-button {
+      &:nth-child(1) {
+        margin-right: 0;
+      } 
+      &:only-child {
+        margin-right: 0.5rem;
+      }
+    }
     }
 
     min-height: 45px;
@@ -209,23 +219,17 @@
       margin-bottom: 10px;
     }
 
-    // Handles spacing when there is only rent, only buy, or only play button
-    s72-pricing-buttons .s72-btn,
-    s72-play-button {
-      &:nth-child(1) {
-        margin-right: 0;
-      } 
-      &:only-child {
-        margin-right: 0.5rem;
-      }
-    }
 
       s72-play-button {
+        width: 100%;
+        @include media-breakpoint-up(xs) {
+          width: auto;
+     
+        }
       .s72-btn {
         width: 100%;
 
         @include media-breakpoint-up(xs) {
-          width: auto;
           &:nth-child(2) {
             margin-left: 20px;
           }
@@ -306,10 +310,12 @@
 
 }
 
-s72-pricing-buttons .s72-btn {
-  margin-bottom: 10px;
+s72-pricing-buttons, s72-play-button {
+  .s72-btn {
+    margin-bottom: 10px;
+  }
+  
 }
-
 s72-play-button .s72-btn-play-icon {
   @extend .d-none;
 }
