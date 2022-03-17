@@ -159,16 +159,6 @@ s72-carousel {
       }
     }
 
-    .meta-item-tagline {
-      color: rgba(var(--body-color-rgb), 0.8);
-      font-size: 14px;
-      font-weight: $font-weight-normal;
-      @extend .mb-2;
-      @include media-breakpoint-up(xxxl) {
-        font-size: 18px;
-      }
-    }
-
     .meta-item-synopsis {
       display: none;
       font-size: 12px;
@@ -234,6 +224,16 @@ s72-carousel {
     circle {
       fill: transparent;
     }
+  }
+}
+
+.meta-item-tagline {
+  color: rgba(var(--body-color-rgb), 0.8);
+  font-size: 14px;
+  font-weight: $font-weight-normal;
+  @extend .mb-1p5;
+  @include media-breakpoint-up(xxxl) {
+    font-size: 18px;
   }
 }
 
