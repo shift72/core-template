@@ -143,7 +143,8 @@
 
 .s72-btn-rent,
 .s72-btn-purchase,
-.s72-btn-play:not(.s72-btn-trailer)  {
+.s72-btn-play:not(.s72-btn-trailer),
+.s72-btn-can-be-watched  {
   background: $button-background;
   border: 3px solid $button-background;
   min-width: 140px;

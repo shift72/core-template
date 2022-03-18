@@ -319,8 +319,7 @@ s72-pricing-buttons, s72-play-button {
   }  
 }
 
-s72-play-button .s72-btn-play-icon {
-  
+.s72-btn-play:not(.s72-btn-trailer) .s72-btn-play-icon {
   @extend .d-none;
 }
 

@@ -27,6 +27,11 @@
   @extend .btn-primary-override;
 }
 
+.s72-btn-can-be-watched {
+  @extend .btn-primary-override;
+
+}
+
 .s72-btn-close {
   @extend .close;
 }
