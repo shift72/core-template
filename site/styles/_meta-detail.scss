@@ -148,8 +148,15 @@
 }
 
 s72-carousel, .meta-detail{
+  s72-modal-player,
+  s72-userwishlist-button,
+  .social-media-buttons,
+  can-be-watched-button:not(:empty) {
+    margin-bottom: 10px;
+  }
+
   .s72-pricing-button-container .s72-btn:nth-child(2) {
-    @extend .ml-0; //override relish
+    @extend .ml-1; //override relish
     @extend .ml-xs-2; //override relish
   }
  }
@@ -215,15 +222,9 @@ s72-carousel, .meta-detail{
     min-height: 45px;
 
 
-    s72-modal-player,
-    s72-userwishlist-button,
-    .social-media-buttons,
-    can-be-watched-button:not(:empty) {
-      margin-bottom: 10px;
-    }
 
 
-      s72-play-button {
+      s72-play-button, can-be-watched-button {
         width: 100%;
         @include media-breakpoint-up(xs) {
           width: auto;
@@ -325,7 +326,7 @@ s72-pricing-buttons, s72-play-button {
 
 .buttons {
   flex-direction: column;
-  s72-pricing-buttons, s72-play-button {
+  s72-pricing-buttons, s72-play-button, can-be-watched-button {
     width: 100%;
     .s72-btn {
       width: 100%;
