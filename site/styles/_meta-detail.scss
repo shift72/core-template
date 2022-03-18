@@ -518,6 +518,13 @@ s72-pricing-buttons, s72-play-button {
 }
 
 .bonus-item, .episode-item  {
+
+  h3 {
+    font-size: 16px;
+    font-weight: $font-weight-normal;
+    letter-spacing: 0.4px;
+  }
+
   @extend .clearfix;
   &:not(:last-of-type) {
     @extend .mb-1p5;
