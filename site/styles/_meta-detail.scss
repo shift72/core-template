@@ -189,28 +189,35 @@
   }
 
   .meta-detail-buttons {
-    min-height: 45px;
-
-
-  // Purchase, play, trailer, wishlist are all in one group now
-  // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
-    margin-right: -0.5rem;
     margin-left: -0.5rem;
 
-    /* stylelint-disable selector-max-compound-selectors */
-    s72-pricing-buttons .s72-btn, .meta-detail-extras, s72-play-button, can-be-watched-button:not(:empty) {
-      margin-right: 0.5rem;
-      margin-left: 0.5rem;
+    // Purchase, play, trailer, wishlist are all in one group now
+    // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
+    margin-right: -0.5rem;
+    min-height: 45px;
 
+    /* stylelint-disable selector-max-compound-selectors */
+    s72-pricing-buttons .s72-btn,
+    .meta-detail-extras,
+    s72-play-button,
+    can-be-watched-button:not(:empty) {
       animation: fadein 2s;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
     }
 
-    s72-modal-player, s72-userwishlist-button, s72-pricing-buttons .s72-btn, s72-play-button, .social-media-buttons, can-be-watched-button:not(:empty) {
+    s72-modal-player,
+    s72-userwishlist-button,
+    s72-pricing-buttons .s72-btn,
+    s72-play-button,
+    .social-media-buttons,
+    can-be-watched-button:not(:empty) {
       margin-bottom: 10px;
     }
 
     // Handles spacing when there is only rent, only buy, or only play button
-    s72-pricing-buttons .s72-btn, s72-play-button {
+    s72-pricing-buttons .s72-btn,
+    s72-play-button {
       &:nth-child(1) {
         margin-right: 0;
       }

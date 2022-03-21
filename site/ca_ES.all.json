@@ -3,7 +3,7 @@
    "other": "ABC Cinemas"
   },
   "settings_title": {
-   "other": "Settings"
+   "other": "Configuració"
   },
   "powered_by": {
    "other": "Ofert per"
@@ -24,10 +24,10 @@
    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
   },
   "en": {
-   "other": "English"
+   "other": "Anglès"
   },
   "fr": {
-   "other": "French"
+   "other": "Francès"
   },
   "episode_name": {
    "other": "Episodi"
@@ -98,7 +98,7 @@
    "other": "Tanca sessió"
   },
   "header_banner": {
-   "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021"
+   "other": "ABC Cinemas - 21è Festival de Cinema, de l'1 al 6 de juny de 2021"
   },
   "play_trailer": {
    "other": "Tràiler"
@@ -147,7 +147,7 @@
   "social_media_buttons_copied_link": { "other": "S'ha copiat l'enllaç al porta-retalls!" },
   "social_media_buttons_copy_link": { "other": "Copiar al portapapers" },
   "accept_invite_page_header": {
-   "other": "Benvingut"
+   "other": "Benvingut "
   },
   "acceptinvite_form_invalid_reset_password_token": {
    "other": "Sembla que ja heu reclamat aquesta invitació, haureu de fer <a href=\"{{.SigninURL}}\">inicia la sessió</a> en canvi. Si heu oblidat la vostra contrasenya, també podeu <a href=\"{{.ForgotPasswordURL}}\">restablir la contrasenya</a>."
@@ -555,7 +555,7 @@
    "other": "Un cop premuda la reproducció d'un episodi, comença la finestra de visionat i teniu {{.Count}} hores per veure aquest episodi tantes vegades com vulgueu."
   },
   "shopping_info_credit_bonus_title": {
-   "other": "{{.BonusPercentage}}% Bonus"
+   "other": "{{.BonusPercentage}}% Bonificació"
   },
   "shopping_enter_card_prompt": {
    "other": "Introduïu les dades de la vostra targeta de crèdit a continuació per completar el vostre {{.Verb}}."
@@ -760,6 +760,7 @@
   "meta_detail_subtitles": {
    "other": "Subtítols"
   },
+  "meta_detail_captions": { "other": "Subtítols [CC]" },
   "meta_detail_episodes_title": {
    "other": "Episodis"
   },
@@ -917,20 +918,17 @@
   "users_gender_other": {
    "other": "Altre"
   },
-  "plan_label_owned": {
-   "other": ""
-  },
   "pricing_quality_hd": {
-   "other": "pricing_quality_hd"
+   "other": "HD"
   },
   "pricing_quality_sd": {
-   "other": "pricing_quality_sd"
+   "other": "SD"
   },
   "pricing_quality_hd_only": {
-   "other": "pricing_quality_hd_only"
+   "other": "Només HD"
   },
   "pricing_quality_sd_only": {
-   "other": "pricing_quality_sd_only"
+   "other": "Només SD"
   },
   "shopping_card_save_card": {
    "other": "Deseu aquesta targeta per a un ús futur"
@@ -963,52 +961,25 @@
    "other": "La targeta de crèdit no és correcta? <a href=\"{{.SubscriptionsURL}}\">Feu clic aquí per actualitzar la vostra targeta.</a>"
   },
   "shopping_info_ownership_plan": {
-   "other": "shopping_info_ownership_plan"
-  },
-  "shopping_price_title_plan": {
-   "other": "shopping_price_title_plan"
-  },
-  "shopping_price_plan_note": {
-   "other": "shopping_price_plan_note"
-  },
-  "shopping_price_plan_note_interval": {
-   "other": "shopping_price_plan_note_interval"
-  },
-  "shopping_enter_card_prompt_plan": {
-   "other": "shopping_enter_card_prompt_plan"
+   "other": "Subscripció"
   },
   "shopping_action_credit": {
-   "other": "shopping_action_credit"
-  },
-  "shopping_action_plan": {
-   "other": "shopping_action_plan"
-  },
-  "shopping_complete_subscription": {
-   "other": "shopping_complete_subscription"
-  },
-  "shopping_complete_subscription_browse": {
-   "other": "shopping_complete_subscription_browse"
+   "other": "Omplir"
   },
   "shopping_info_rental_period_coming_soon": {
    "other": "des de la data i l'hora de l'alliberament."
   },
-  "shopping_info_plan_offer": {
-   "other": "shopping_info_plan_offer"
-  },
-  "shopping_info_trial_period_offer": {
-   "other": "shopping_info_trial_period_offer"
-  },
   "usersubscriptions_change_payment_method_change": {
-   "other": "usersubscriptions_change_payment_method_change"
+   "other": "Canviar targeta de crèdit"
   },
   "usersubscriptions_change_payment_method_modal_title": {
-   "other": "usersubscriptions_change_payment_method_modal_title"
+   "other": "Actualitza els detalls de la targeta de crèdit"
   },
   "usersubscriptions_change_payment_method_modal_submit": {
-   "other": "usersubscriptions_change_payment_method_modal_submit"
+   "other": "Actualització"
   },
   "usersubscriptions_subscription_expiry": {
-   "other": "usersubscriptions_subscription_expiry"
+   "other": "Caduca {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
    "other": "usersubscriptions_subscription_status_cancelled"
@@ -1020,22 +991,22 @@
    "other": "usersubscriptions_subscription_status_past_due"
   },
   "usersubscriptions_subscription_status_trialing": {
-   "other": "usersubscriptions_subscription_status_trialing"
+   "other": "Període de prova"
   },
   "usersubscriptions_subscription_unsubscribe": {
-   "other": "usersubscriptions_subscription_unsubscribe"
+   "other": "Cancel·la la meva subscripció"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-   "other": "usersubscriptions_unsubscribe_modal_cancel"
+   "other": "Cancel · lar"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-   "other": "usersubscriptions_unsubscribe_modal_confirm"
+   "other": "Sí, cancel·lar la meva subscripció"
   },
   "usersubscriptions_unsubscribe_modal_title": {
-   "other": "usersubscriptions_unsubscribe_modal_title"
+   "other": "Cancel·lar la subscripció?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-   "other": "usersubscriptions_unsubscribe_modal_body"
+   "other": "Això cancel·larà la subscripció al pla {{.Name}}. Encara podreu veure el contingut del pla fins que caduqui {{.Expiry}}."
   },
   "availability_coming_soon": {
    "other": "Pròximament"
@@ -1130,9 +1101,6 @@
   "wcag_skip_links_content": {
    "other": "Saltar al contingut"
   },
-  "wcag_skip_links_footer": {
-   "other": "Saltar a peu de pàgina"
-  },
   "wcag_homepage_h1": {
    "other": "Pàgina principal"
   },
@@ -1182,13 +1150,13 @@
    "other": "Comparteix a LinkedIn"
   },
   "app_badge_title": {
-   "other": "Download the app to view your purchased content!"
+   "other": "Descarrega l'aplicació per veure el contingut comprat!"
   },
   "app_badge_ios": {
-   "other": "Download on the App Store"
+   "other": "Descarrega a l'App Store"
   },
   "app_badge_android": {
-   "other": "Get it on Google Play"
+   "other": "Aconsegueix-ho a Google Play"
   },
 
   "shopping_price_title_plan": {
@@ -1261,5 +1229,12 @@
   },
   "awards_winner_of": {
     "other": "Guanyador de"
-  }
+  },
+  "donate_button_text": {
+    "other": "Donar"
+  },
+  "shopping_error_plan_already_owned": { "other": "Ja tens aquest pla." },
+  "shopping_error_plan_expired": { "other": "Aquest pla ja no està disponible." },
+
+  "wcag_aria_label_letterboxd": { "other": "Veure a Letterboxd" }
 }

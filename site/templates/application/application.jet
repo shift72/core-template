@@ -21,8 +21,11 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="preload" href="/{{lang.DefinitionFilePath}}" as="fetch" crossorigin type="application/json">
     <link rel="preload" href="/classifications.all.json" as="fetch" crossorigin type="application/json">
-    <!-- Kibble:{{ version }} -->
-    <!-- Template:{{site.SiteConfig.Version}} -->
+    <!-- Kibble: {{version}} -->
+    {{if site.SiteConfig.CoreTemplateVersion != ""}}
+      <!-- Core-Template: {{site.SiteConfig.CoreTemplateVersion}} -->
+    {{end}}
+    <!-- Template: {{site.SiteConfig.Version}} -->
     <link rel="stylesheet" href="{{CDN}}/s72.ui.css">
     <link rel="stylesheet" href="{{CDN}}/s72.transactional.css">
     <link rel="stylesheet" href="/styles/swiper.css">
@@ -64,19 +67,11 @@
     <script type="text/javascript" src="/scripts/swiper.min.js"></script>
   </head>
   <body>
-    <s72-cookie-consent></s72-cookie-consent>
 
-    <section class="sr-only">
-      <h2>{{i18n("wcag_skip_links_header")}}</h2>
-      <ul>
-        <li>
-          <a href="#main">{{i18n("wcag_skip_links_content")}}</a>
-        </li>
-        <li>
-          <a href="#footer">{{i18n("wcag_skip_links_footer")}}</a>
-        </li>
-      </ul>
-    </section>
+    <h2 class="sr-only">{{i18n("wcag_skip_links_header")}}</h2>
+    <a class="skip-link" href="#main">{{i18n("wcag_skip_links_content")}}</a>
+
+    <s72-cookie-consent></s72-cookie-consent>
 
     {{yield googleTagManagerNoScript()}}
 
@@ -89,5 +84,6 @@
     {{yield footer()}}
 
     {{yield googleScripts()}}
+    <s72-donate-button></s72-donate-button>
   </body>
 </html>

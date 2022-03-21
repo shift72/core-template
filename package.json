@@ -1,6 +1,6 @@
 {
   "name": "@shift72/core-template",
-  "version": "0.4.2",
+  "version": "0.4.4",
   "description": "Shift72 core template",
   "license": "MIT",
   "scripts": {
@@ -21,7 +21,11 @@
     "kibble:build": "kibble publish",
     "build": "npm-run-all css js:build css:build kibble:build",
     "language:csv": "node scripts/language-file-to-csv/language-file-to-csv.js site/en_AU.all.json",
-    "language:validate": "node scripts/language-file-validator.js"
+    "language:validate": "node scripts/language-file-validator.js",
+    "version": "node scripts/core-template-version.js",
+    "prestart": "npm run version",
+    "prebuild": "npm run version",
+    "prepare": "npm run version"
   },
   "repository": {
     "type": "git",
@@ -47,7 +51,7 @@
     "postcss-cli": "^9.0.1",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
-    "s72-kibble": "^0.16.4",
+    "s72-kibble": "^0.16.5",
     "sass": "^1.36.0"
   },
   "devDependencies": {
