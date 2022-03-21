@@ -38,6 +38,12 @@
     text-decoration: inherit;
     line-height: 3rem;
   }
+
+  [type="button"] { // for testers on their ipod touch
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-appearance: none;
+    appearance: none;
+  }
 }
 
 // Close gap if wishlist button isn't present
