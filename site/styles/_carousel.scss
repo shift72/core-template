@@ -157,17 +157,16 @@ s72-carousel {
   // Purchase, play, trailer, wishlist and share are all in one group now
   // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
   .meta-item-buttons {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
 
     /* stylelint-disable selector-max-compound-selectors */
     s72-pricing-buttons .s72-btn,
-    .meta-detail-extras,
     .meta-item-extras,
     s72-play-button,
     can-be-watched-button:not(:empty) {
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
     }
 
     // Handles spacing when there is only rent, only buy, or only play button

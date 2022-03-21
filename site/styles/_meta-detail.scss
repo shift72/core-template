@@ -191,8 +191,8 @@ s72-carousel, .meta-detail{
       width: 100%;
     }
     @include media-breakpoint-up(xs) {
-      margin-right: -0.5rem;
-      margin-left: -0.5rem;
+      margin-right: -1rem;
+      margin-left: -1rem;
       s72-pricing-buttons {
         width: auto;
       }
@@ -203,8 +203,8 @@ s72-carousel, .meta-detail{
       s72-play-button,
       can-be-watched-button:not(:empty) {
         animation: fadein 2s;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
       }
 
     // Handles spacing when there is only rent, only buy, or only play button
