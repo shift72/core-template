@@ -1,6 +1,7 @@
 .meta-awards {
   @extend .d-flex;
   @extend .align-items-center;
+  @extend .mt-1;
 
   &.meta-awards-all {
     @extend .align-items-start;
