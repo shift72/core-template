@@ -324,14 +324,15 @@ s72-pricing-buttons, s72-play-button {
   @extend .d-none;
 }
 
+// slider item hover buttons
 .buttons {
   flex-direction: column;
   s72-pricing-buttons, s72-play-button, can-be-watched-button {
     width: 100%;
     .s72-btn {
+      margin-bottom: 15px;
       width: 100%;
     }
-    margin-bottom: 15px;
   }
 
   .s72-btn {
