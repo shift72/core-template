@@ -105,6 +105,9 @@ s72-carousel {
   bottom: 50px;
   top: var(--carousel-caption-top);
   z-index: 999;
+
+  width: 100%;
+
   @include media-breakpoint-up(md) {
     left: 60px;
     top: var(--carousel-caption-top-md);
@@ -123,6 +126,25 @@ s72-carousel {
   @include media-breakpoint-up(xxxl) {
     top: var(--carousel-caption-top-md);
     width: 50%;
+  }
+
+
+  s72-pricing-buttons, .s72-pricing-buttons {
+    width: 100%;
+    @include media-breakpoint-up(xs) {
+      width: auto;
+    }
+  }
+  s72-pricing-buttons .s72-btn:not(:only-child) {
+    width: 50%;
+    min-width: 0;
+    @include media-breakpoint-up(xs) {
+      width: 100%;
+    }
+  }
+
+  .s72-pricing-button-container {
+    display: flex
   }
 
   .meta-item-content {
