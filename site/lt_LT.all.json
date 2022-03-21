@@ -550,6 +550,9 @@
   "awards_winner_of": {
     "other": "Nugalėtojas iš"
   },
+  "awards_winner": {
+    "other": "Nugalėtojas"
+  },
   "donate_button_text": {
     "other": "Paaukoti"
   },

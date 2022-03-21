@@ -29,10 +29,11 @@
   --navbar-brand-min-width-lg: 126px;
   --navbar-brand-min-width-xl: 126px;
 
-  --carousel-height: 470px;
-  --carousel-height-sm: 470px;
+  --carousel-height: 560px;
+  --carousel-height-sm: 560px;
   --carousel-height-md: 620px;
-  --carousel-caption-top: 150px;
+  --carousel-caption-top: 125px;
+  --carousel-caption-top-xs: 150px;
   --carousel-caption-top-md: 175px;
 
   --page-padding-top: 120px;
@@ -107,6 +108,7 @@ $spacers: (
   // 40px
   '5': $spacer * 5,
   // 50px
+  '1rem': 1rem
 );
 
 // Cookie Consent

@@ -493,6 +493,9 @@
   "awards_winner_of": {
     "other": "Pobjednik od"
   },
+  "awards_winner": {
+    "other": "Pobjednik"
+  },
   "donate_button_text": {
     "other": "Donirajte"
   },

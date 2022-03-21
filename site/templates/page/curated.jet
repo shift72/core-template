@@ -20,7 +20,7 @@
 
     {{yield pageHeader(title=page.Title, plan=plan)}}
 
-    {{yield pageContent(text=page.Content, plan=plan)}}
+    {{yield pageContent(text=page.Content)}}
 
     <div class="page-collections">
       <h2 class="sr-only">{{i18n("wcag_collections_h2")}}</h2>
