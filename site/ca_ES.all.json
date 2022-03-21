@@ -1128,6 +1128,7 @@
   "wcag_aria_label_carousel": {
    "other": "Carrusel"
   },
+  "wcag_aria_label_carousel_pagination": { "other": "Paginació" },
   "wcag_aria_label_page_collection": {
    "other": "Col·lecció de pàgines"
   },

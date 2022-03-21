@@ -542,6 +542,7 @@
     "wcag_aria_label_toggle_nav": { "other": "Kapcsolja be a navigációt" },
     "wcag_aria_label_bundle_items": { "other": "Csomag tételek" },
     "wcag_aria_label_carousel": { "other": "Körhinta" },
+    "wcag_aria_label_carousel_pagination": { "other": "Lapszámozás" },
     "wcag_aria_label_page_collection": { "other": "Oldalgyűjtemény" },
     "wcag_aria_label_collection_list": { "other": "Gyűjteménylista" },
     "wcag_aria_label_collection_slider": { "other": "Gyűjteménycsúszka" },

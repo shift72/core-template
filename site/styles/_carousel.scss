@@ -98,6 +98,16 @@ s72-carousel {
   .carousel-item-link {
     display: block;
     height: 500px;
+
+    &:focus-visible {
+      outline: none;
+
+      .carousel-item-caption {
+        border-radius: 4px; 
+        outline: 1px solid var(--body-color);
+        
+      }
+    }
   }
 }
 
@@ -274,7 +284,11 @@ s72-carousel {
   transform: translateX(-50%);
 
   .s72-carousel-page {
+    background: none;
+    border: none;
     color: rgba(var(--body-color-rgb), 0.2);
+    padding: 0px;
+
     @include media-breakpoint-up(md) {
       margin: 0 5px;
     }

@@ -1062,6 +1062,7 @@
   "wcag_aria_label_toggle_nav": { "other": "Alternar de navegação" },
   "wcag_aria_label_bundle_items": { "other": "Itens do pacote" },
   "wcag_aria_label_carousel": { "other": "Carrossel" },
+  "wcag_aria_label_carousel_pagination": { "other": "Paginação" },
   "wcag_aria_label_page_collection": { "other": "Página Coleções" },
   "wcag_aria_label_collection_list": { "other": "Coleções Lista" },
   "wcag_aria_label_collection_slider": { "other": "Coleções Controle deslizante" },

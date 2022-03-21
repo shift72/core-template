@@ -569,6 +569,7 @@
   "wcag_aria_label_toggle_nav": { "other": "Perjungti navigaciją" },
   "wcag_aria_label_bundle_items": { "other": "Supakuoti daiktai" },
   "wcag_aria_label_carousel": { "other": "Karuselė" },
+  "wcag_aria_label_carousel_pagination": { "other": "Puslapių rašymas" },
   "wcag_aria_label_page_collection": { "other": "Puslapių kolekcija" },
   "wcag_aria_label_collection_list": { "other": "Kolekcijos sąrašas" },
   "wcag_aria_label_collection_slider": { "other": "Kolekcijos slankiklis" },

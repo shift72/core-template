@@ -498,6 +498,7 @@
   "wcag_aria_label_toggle_nav": { "other": "Attiva/disattiva navigazione" },
   "wcag_aria_label_bundle_items": { "other": "Articoli in bundle" },
   "wcag_aria_label_carousel": { "other": "Giostra" },
+  "wcag_aria_label_carousel_pagination": { "other": "Impaginazione" },
   "wcag_aria_label_page_collection": { "other": "Collezione di pagine" },
   "wcag_aria_label_collection_list": { "other": "Elenco di raccolta" },
   "wcag_aria_label_collection_slider": { "other": "Dispositivo di scorrimento della raccolta" },

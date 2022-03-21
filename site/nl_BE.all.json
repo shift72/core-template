@@ -569,6 +569,7 @@
   "wcag_aria_label_toggle_nav": { "other": "Navigatie wisselen" },
   "wcag_aria_label_bundle_items": { "other": "Bundelartikelen" },
   "wcag_aria_label_carousel": { "other": "Carrousel" },
+  "wcag_aria_label_carousel_pagination": { "other": "Paginering" },
   "wcag_aria_label_page_collection": { "other": "Page Collecties" },
   "wcag_aria_label_collection_list": { "other": "Collecties List" },
   "wcag_aria_label_collection_slider": { "other": "Collecties Slider" },
