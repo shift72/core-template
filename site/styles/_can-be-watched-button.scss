@@ -1,8 +1,8 @@
 .meta-detail-content .meta-detail-buttons,
 .meta-item-buttons {
-  align-items: center;
+  @extend .align-items-sm-center;
   display: flex;
-  flex-direction: row;
+  @extend .flex-xs-row;
   flex-wrap: wrap;
 
   .owned-custom-container {
