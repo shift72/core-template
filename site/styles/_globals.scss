@@ -11,6 +11,8 @@ h1 {
   font-weight: $font-weight-normal;
   letter-spacing: 0.8px;
   margin-bottom: 8px;
+  color: var(--body-color);
+
   small {
     font-size: 24px;
   }

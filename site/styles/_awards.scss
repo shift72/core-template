@@ -2,6 +2,7 @@
   @extend .d-flex;
   @extend .align-items-center;
   @extend .mt-1;
+  color: var(--body-color);
 
   &.meta-awards-all {
     @extend .align-items-start;

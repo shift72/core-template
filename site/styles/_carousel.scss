@@ -126,37 +126,6 @@ s72-carousel {
   }
 
   .meta-item-content {
-    color: #fff;
-
-    h3 {
-      color: var(--body-color);
-      font-size: 28px;
-      font-weight: $font-weight-bold;
-      margin-bottom: 0;
-      padding-bottom: 0;
-      @include media-breakpoint-up(md) {
-        font-size: 38px;
-      }
-      @include media-breakpoint-up(lg) {
-        font-size: 48px;
-      }
-      @include media-breakpoint-up(xxxl) {
-        font-size: 54px;
-      }
-    }
-
-    h4 {
-      background: var(--primary);
-      color: #000;
-      display: inline-block;
-      font-size: 6px;
-      font-weight: $font-weight-bold;
-      padding: 2px 4px;
-      text-transform: uppercase;
-      @include media-breakpoint-up(md) {
-        font-size: 12px;
-      }
-    }
 
     .meta-item-synopsis {
       display: none;
