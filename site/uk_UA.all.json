@@ -1159,6 +1159,7 @@
   "wcag_aria_label_toggle_nav": { "other": "Перемикання навігації" },
   "wcag_aria_label_bundle_items": { "other": "Пункти пучки" },
   "wcag_aria_label_carousel": { "other": "Карусель" },
+  "wcag_aria_label_carousel_pagination": { "other": "Пагінація" },
   "wcag_aria_label_page_collection": { "other": "Колекція сторінок" },
   "wcag_aria_label_collection_list": { "other": "Список зборів"},
   "wcag_aria_label_collection_slider": { "other": "Колекція слайдер" },

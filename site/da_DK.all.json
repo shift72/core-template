@@ -1164,6 +1164,7 @@
   "wcag_aria_label_toggle_nav": { "other": "Slå navigation til/fra" },
   "wcag_aria_label_bundle_items": { "other": "Pak varer" },
   "wcag_aria_label_carousel": { "other": "Karrusel" },
+  "wcag_aria_label_carousel_pagination": { "other": "Sideinddeling" },
   "wcag_aria_label_page_collection": { "other": "Sidesamling" },
   "wcag_aria_label_collection_list": { "other": "Samlingsliste" },
   "wcag_aria_label_collection_slider": { "other": "Indsamlingsskyder" },

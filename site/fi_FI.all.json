@@ -463,6 +463,7 @@
   "wcag_aria_label_toggle_nav": { "other": "Navigointi päälle/pois" },
   "wcag_aria_label_bundle_items": { "other": "Niputa kohteita" },
   "wcag_aria_label_carousel": { "other": "Karuselli" },
+  "wcag_aria_label_carousel_pagination": { "other": "Sivunumerointi" },
   "wcag_aria_label_page_collection": { "other": "Sivujen kokoelma" },
   "wcag_aria_label_collection_list": { "other": "Kokoelmaluettelo" },
   "wcag_aria_label_collection_slider": { "other": "Kokoelman liukusäädin" },

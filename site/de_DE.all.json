@@ -550,6 +550,7 @@
   "wcag_aria_label_toggle_nav": { "other": "Navigation umschalten" },
   "wcag_aria_label_bundle_items": { "other": "Bundle-Artikel" },
   "wcag_aria_label_carousel": { "other": "Karussell" },
+  "wcag_aria_label_carousel_pagination": { "other": "Seitennummerierung" },
   "wcag_aria_label_page_collection": { "other": "Seitensammlung" },
   "wcag_aria_label_collection_list": { "other": "Sammlungsliste" },
   "wcag_aria_label_collection_slider": { "other": "Sammlungsschieber" },

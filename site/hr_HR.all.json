@@ -414,6 +414,7 @@
   "wcag_aria_label_toggle_nav": { "other": "Način prikaza" },
   "wcag_aria_label_bundle_items": { "other": "Naslovi iz paketa" },
   "wcag_aria_label_carousel": { "other": "Kružni prikaz" },
+  "wcag_aria_label_carousel_pagination": { "other": "Paginacija" },
   "wcag_aria_label_page_collection": { "other": "Zbirka stranica" },
   "wcag_aria_label_collection_list": { "other": "Popis zbirki" },
   "wcag_aria_label_collection_slider": { "other": "Klizač s naslovima iz zbirke" },

@@ -527,6 +527,7 @@
   "wcag_aria_label_toggle_nav": { "other": "Toggle Navigation" },
   "wcag_aria_label_bundle_items": { "other": "Bundle Items" },
   "wcag_aria_label_carousel": { "other": "Carousel" },
+  "wcag_aria_label_carousel_pagination": { "other": "Pagination" },
   "wcag_aria_label_page_collection": { "other": "Page Collection" },
   "wcag_aria_label_collection_list": { "other": "Collection List" },
   "wcag_aria_label_collection_slider": { "other": "Collection Slider" },

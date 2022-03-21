@@ -499,6 +499,7 @@
     "wcag_aria_label_toggle_nav": { "other": "تبديل التنقل" },
     "wcag_aria_label_bundle_items": { "other": "عناصر الحزمات" },
     "wcag_aria_label_carousel": { "other": "المشاركات الدائرية" },
+    "wcag_aria_label_carousel_pagination": { "other": "ترقيم الصفحات" },
     "wcag_aria_label_page_collection": { "other": "صفحة المجموعات" },
     "wcag_aria_label_collection_list": { "other": "لائحة المجموعات" },
     "wcag_aria_label_collection_slider": { "other": "شريط تمرير المجموعات" },

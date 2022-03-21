@@ -14,11 +14,11 @@
 
 		<div class="s72-carousel-pagination">
 			{{range index, item := .Items}}
-				<div class="s72-carousel-page" data-page-index="{{index}}" data-slug="{{item.Slug}}">
+				<button class="s72-carousel-page" data-page-index="{{index}}" data-slug="{{item.Slug}}" aria-label="{{i18n("wcag_aria_label_carousel_pagination")}} {{item.Title}}">
 					<div class="s72-carousel-line">
 						<div class="s72-carousel-line-current"></div>
 					</div>
-				</div>
+				</button>
 			{{end}}
 		</div>
 	</section>
