@@ -214,6 +214,7 @@ s72-carousel {
       font-weight: $font-weight-normal;
       padding-top: 8px;
       max-width: 600px;
+
       @include media-breakpoint-up(md) {
         font-size: 16px;
       }
@@ -352,56 +353,5 @@ s72-carousel {
     @include media-breakpoint-up(md) {
       font-size: inherit;
     }
-  }
-}
-
-.right-gradient {
-  @extend .right-gradient-bg;
-  bottom: 0;
-  display: none;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  width: 500px;
-  z-index: 9;
-  @include media-breakpoint-up(lg) {
-    display: none;
-  }
-}
-
-.bottom-gradient {
-  @extend .bottom-gradient-bg;
-  bottom: 0;
-  height: 350px;
-  left: 0;
-  position: absolute;
-  width: 100%;
-  z-index: 8;
-  @include media-breakpoint-up(lg) {
-    display: block;
-    height: 500px;
-    width: 100%;
-  }
-}
-
-.left-gradient {
-  @extend .left-gradient-bg;
-  bottom: 0;
-  display: none;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 60%;
-  z-index: 8;
-  @include media-breakpoint-up(md) {
-    display: block;
-  }
-  @include media-breakpoint-up(lg) {
-    width: 100%;
-  }
-  @include media-breakpoint-up(xl) {
-    display: none;
-    width: 100%;
   }
 }
