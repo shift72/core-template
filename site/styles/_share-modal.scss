@@ -19,6 +19,10 @@
     border: unset;
   }
 
+  h5 {
+    @extend .text-dark;
+  }
+
   ul {
     @extend .mb-0;
   }
@@ -35,6 +39,7 @@
   a {
     @extend .d-flex;
     @extend .align-items-center;
+    @extend .text-dark;
     text-decoration: inherit;
     line-height: 3rem;
   }
@@ -49,20 +54,4 @@
 // Close gap if wishlist button isn't present
 s72-userwishlist-button:empty + .social-media-buttons {
   margin-left: -10px;
-}
-
-.modal-header {
-  border-bottom-color: var(--body-bg-accent);
-}
-
-.modal-content {
-  background-color: var(--body-bg);
-}
-
-.close {
-  opacity: 1;
-  color: var(--body-color);
-  &:hover {
-    color: var(--body-color);
-  }
 }
