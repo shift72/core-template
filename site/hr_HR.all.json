@@ -61,7 +61,7 @@
   "social_media_buttons_email": { "other": "Podijelite putem e-pošte" },
   "social_media_buttons_email_subject": { "other": "Dijeljenje veze" },
   "social_media_buttons_copied_link": { "other": "Veza je kopirana u međuspremnik!" },
-  "social_media_buttons_copy_link": { "other": "Kopirati u međuspremnikKopirati u međuspremnik" },
+  "social_media_buttons_copy_link": { "other": "Kopiraj link" },
 
   "accept_invite_page_header": { "other": "Dobrodošli " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Ovaj pozivni kod je već iskorišten i potrebna je ponovna <a href=\"{{.SigninURL}}\">prijava</a>. Ako ste zaboravili lozinku, možete je <a href=\"{{.ForgotPasswordURL}}\">resetirati</a>." },

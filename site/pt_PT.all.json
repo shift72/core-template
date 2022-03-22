@@ -79,7 +79,7 @@
     "social_media_buttons_email": { "other": "Compartilhe via e-mail" },
     "social_media_buttons_email_subject": { "other": "Compartilhamento de link" },
     "social_media_buttons_copied_link": { "other": "Link copiado para a área de transferência!" },
-    "social_media_buttons_copy_link": { "other": "Copiar para área de transferência" },
+    "social_media_buttons_copy_link": { "other": "Link de cópia" },
 
     "accept_invite_page_header": { "other": "Acolher " },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Parece que você já aceitou esse convite, você deve <a href=\"{{.SigninURL}}\">entrar em sua conta</a>. Se você esqueceu sua senha, você também pode <a href=\"{{.ForgotPasswordURL}}\">alterar sua senha</a>." },

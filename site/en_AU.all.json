@@ -80,7 +80,7 @@
   "social_media_buttons_email": { "other": "Share via email" },
   "social_media_buttons_email_subject": { "other": "Link share" },
   "social_media_buttons_copied_link": { "other": "Link copied to clipboard!" },
-  "social_media_buttons_copy_link": { "other": "Copy to clipboard" },
+  "social_media_buttons_copy_link": { "other": "Copy link" },
 
   "accept_invite_page_header": { "other": "Welcome" },
   "acceptinvite_form_invalid_reset_password_token": { "other": "It looks like you have already claimed this invite, you should <a href=\"{{.SigninURL}}\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"{{.ForgotPasswordURL}}\">reset your password</a>." },
