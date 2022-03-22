@@ -5,110 +5,33 @@
   "builderVersion": "0.16.5",
   "defaultLanguage": "en",
   "languages": {
-    "ar": {
-      "code": "ar_LB",
-      "name": "عربى"
-    },
-    "ca": {
-      "code": "ca_ES",
-      "name": "Català"
-    },
-    "da": {
-      "code": "da_DK",
-      "name": "Dansk"
-    },
-    "de": {
-      "code": "de_DE",
-      "name": "Deutsch"
-    },
-    "ee": {
-      "code": "ee_EE",
-      "name": "Eestlane"
-    },
-    "el": {
-      "code": "el_EL",
-      "name": "Ελληνικά"
-    },
-    "en": {
-      "code": "en_AU",
-      "name": "English"
-    },
-    "es": {
-      "code": "es_ES",
-      "name": "Español"
-    },
-    "es-mx": {
-      "code": "es_MX",
-      "name": "Español"
-    },
-    "fi": {
-      "code": "fi_FI",
-      "name": "Suomi"
-    },
-    "fr": {
-      "code": "fr_FR",
-      "name": "Français"
-    },
-    "hr": {
-      "code": "hr_HR",
-      "name": "Hrvatski"
-    },
-    "hu": {
-      "code": "hu_HU",
-      "name": "Magyar"
-    },
-    "it": {
-      "code": "it_IT",
-      "name": "Italiano"
-    },
-    "ja": {
-      "code": "ja_JP",
-      "name": "日本語"
-    },
-    "lt": {
-      "code": "lt_LT",
-      "name": "Lietuvių Kalba"
-    },
-    "nl": {
-      "code": "nl_BE",
-      "name": "Nederlands"
-    },
-    "no": {
-      "code": "no_NO",
-      "name": "Norsk"
-    },
-    "pl": {
-      "code": "pl_PL",
-      "name": "Polski"
-    },
-    "pt": {
-      "code": "pt_PT",
-      "name": "Português"
-    },
-    "pt-br": {
-      "code": "pt_BR",
-      "name": "Português do Brasil"
-    },
-    "ru": {
-      "code": "ru_RU",
-      "name": "Pусский"
-    },
-    "se": {
-      "code": "se_SE",
-      "name": "Српски"
-    },
-    "tr": {
-      "code": "tr_TR",
-      "name": "Türk"
-    },
-    "uk": {
-      "code": "uk_UA",
-      "name": "Український"
-    },
-    "zh-tw": {
-      "code": "zh_TW",
-      "name": "中文"
-    }
+    "ar": { "code": "ar_LB", "name": "عربى" },
+    "ca": { "code": "ca_ES", "name": "Català" },
+    "da": { "code": "da_DK", "name": "Dansk" },
+    "de": { "code": "de_DE", "name": "Deutsch" },
+    "ee": { "code": "ee_EE", "name": "Eestlane" },
+    "el": { "code": "el_EL", "name": "Ελληνικά" },
+    "en": { "code": "en_AU", "name": "English" },
+    "es": { "code": "es_ES", "name": "Español" },
+    "es-mx": { "code": "es_MX", "name": "Español" },
+    "fi": { "code": "fi_FI", "name": "Suomi" },
+    "fr": { "code": "fr_FR", "name": "Français" },
+    "hr": { "code": "hr_HR", "name": "Hrvatski" },
+    "hu": { "code": "hu_HU", "name": "Magyar" },
+    "it": { "code": "it_IT", "name": "Italiano" },
+    "ja": { "code": "ja_JP", "name": "日本語" },
+    "lt": { "code": "lt_LT", "name": "Lietuvių Kalba" },
+    "nl": { "code": "nl_BE", "name": "Nederlands" },
+    "no": { "code": "no_NO", "name": "Norsk" },
+    "pl": { "code": "pl_PL", "name": "Polski" },
+    "pt": { "code": "pt_PT", "name": "Português" },
+    "pt-br": { "code": "pt_BR", "name": "Português do Brasil" },
+    "ru": { "code": "ru_RU", "name": "Pусский" },
+    "sr": { "code": "sr_SR", "name": "Српски" },
+    "tr": { "code": "tr_TR", "name": "Türk" },
+    "uk": { "code": "uk_UA", "name": "Український" },
+    "zh-tw": { "code": "zh_TW", "name": "中文" }
+
   },
   "siteRootPath": "site",
   "liveReload": {

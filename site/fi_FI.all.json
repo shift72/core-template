@@ -443,6 +443,9 @@
   "awards_winner_of": {
     "other": "Voittaja"
   },
+  "awards_winner": {
+    "other": "Voittaja"
+  },
   "donate_button_text": {
     "other": "Lahjoittaa"
   },

@@ -21,7 +21,10 @@
 .meta-item-tagline, .caption {
   font-size: 14px;
 }
-
+  .meta-item-tagline-item,
+  .meta-item-tagline-divider {
+    @extend .d-inline;
+  }
 .meta-item-tagline-item, .meta-item-divider, .availability-state, .caption {
   color: rgba(var(--body-color-rgb), 0.8);
 }

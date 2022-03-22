@@ -550,6 +550,9 @@
   "awards_winner_of": {
     "other": "Winnaar van"
   },
+  "awards_winner": {
+    "other": "Winnaar"
+  },
   "donate_button_text": {
     "other": "Doneren"
   },

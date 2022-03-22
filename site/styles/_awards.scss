@@ -3,6 +3,8 @@
   @extend .align-items-center;
   @extend .mt-1;
   color: var(--body-color);
+  margin-left: -25px;
+  margin-right: -25px;
 
   &.meta-awards-all {
     @extend .align-items-start;
@@ -10,6 +12,9 @@
 
   .meta-award-nomination {
     @extend .d-flex;
+    max-width: 370px;
+    padding-right: 25px;
+    padding-left: 25px;
   }
 
   .meta-award-nomination-icon {
