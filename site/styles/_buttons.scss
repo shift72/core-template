@@ -206,3 +206,9 @@
     border-color: $gray-200;
   }
 }
+
+.s72-shopping-done, .meta-detail-buttons, .meta-item-content {
+  .s72-btn-play:not(.s72-btn-trailer) .s72-btn-play-icon {
+    @extend .d-none;
+  }
+}

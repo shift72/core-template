@@ -139,7 +139,7 @@ s72-carousel {
     width: 50%;
     min-width: 0;
     @include media-breakpoint-up(xs) {
-      width: 100%;
+      width: auto;
     }
   }
 

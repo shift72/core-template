@@ -320,10 +320,6 @@ s72-pricing-buttons, s72-play-button {
   }  
 }
 
-.s72-btn-play:not(.s72-btn-trailer) .s72-btn-play-icon {
-  @extend .d-none;
-}
-
 // slider item hover buttons
 .buttons {
   flex-direction: column;
@@ -506,14 +502,17 @@ s72-pricing-buttons, s72-play-button {
   .s72-btn-play {
     @extend .border-0;
     border-radius: 999px;
+    background-color: unset!important;
+    box-shadow: none!important;
 
-    &:not(:hover) {
-      background-color: $icon-play-bg;
-
-      path {
-        stroke: white;
-        fill: white;
-      }
+    .s72-icon-play circle {
+      stroke: unset;
+    }
+    circle {
+      fill: rgba(0, 0, 0, 0.8);
+    }
+    path {
+      fill: white;
     }
   }
 }
