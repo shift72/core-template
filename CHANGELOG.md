@@ -2,6 +2,10 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.4.4...HEAD)
 
+### Changed
+- Upgrade kibble to version 0.16.6
+- Moved references to film.Images to film.ImageMap
+
 ### Added
 - Start the site with an admin build: `npm start --admin`.
 - Added Core Template version to head.
