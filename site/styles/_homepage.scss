@@ -1,3 +1,6 @@
-.other-sliders {
-  padding-top: 20px;
+s72-carousel + .other-sliders {
+  padding-top: calc(var(--carousel-height) + 40px);
+  @include media-breakpoint-up(lg) {
+    padding-top: calc(var(--carousel-height-lg) - 40px);
+  }
 }

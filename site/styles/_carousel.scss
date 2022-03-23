@@ -12,41 +12,20 @@ s72-carousel {
   height: var(--carousel-height) !important;
   overflow: hidden;
   width: 100%;
-  @include media-breakpoint-up(sm) {
-    height: var(--carousel-height-sm) !important;
-  }
-  @include media-breakpoint-up(md) {
-    //height: calc(var(--carousel-height-md) + 80px) !important;
-    height: var(--carousel-height-md) !important;
+  @include media-breakpoint-up(lg) {
+    height: var(--carousel-height-lg) !important;
   }
 
   s72-image {
-    float: right;
-    height: var(--carousel-height);
     width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
-    @include media-breakpoint-up(sm) {
-      height: var(--carousel-height-sm);
-    }
-    @include media-breakpoint-up(md) {
-      height: var(--carousel-height-md);
-    }
 
     img {
       object-fit: cover;
       width: 100%;
       height: 100%;
-      height: var(--carousel-height);
-      margin-left: 50%;
-      transform: translateX(-50%);
-
-      @include media-breakpoint-up(sm) {
-        height: var(--carousel-height-sm);
-      }
-      @include media-breakpoint-up(md) {
-        height: var(--carousel-height-md);
-      }
     }
   }
 
