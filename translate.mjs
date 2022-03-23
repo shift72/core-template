@@ -30,7 +30,7 @@ glob('./site/*.json', {}, (err, files) => {
         if (translated) {
           const translatedValue = translated[0][0][0];
           content[key] = { other: translatedValue };
-          fs.writeFileSync(pathName, JSON.stringify(content, null, 1));
+          fs.writeFileSync(pathName, JSON.stringify(content, null, 2));
         }
       });
   });
