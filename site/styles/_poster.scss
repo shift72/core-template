@@ -11,11 +11,6 @@
     top: $meta-item-availability-tag-margin;
   }
 
-  s72-availability-label {
-    bottom: $meta-item-availability-tag-margin;
-    left: $meta-item-availability-tag-margin;
-  }
-
   .poster-overlay-top {
     @extend .d-flex;
     @extend .justify-content-between;

@@ -98,3 +98,11 @@
 .meta-item-buttons {
   margin-top: 5px;
 }
+
+// both meta detail and carousel
+.meta-item-tagline {
+  color: rgba(var(--body-color-rgb), 0.8);
+  font-size: 14px;
+  font-weight: $font-weight-normal;
+  @extend .mb-1p5;
+}

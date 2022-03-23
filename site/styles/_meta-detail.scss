@@ -228,22 +228,6 @@
     /* stylelint-enable selector-max-compound-selectors */
   }
 
-  s72-availability-label {
-    position: relative;
-
-    .availability-bg {
-      background: transparent;
-      display: inline-block;
-      padding: 10px 0;
-    }
-
-    .availability-state {
-      color: var(--body-color);
-      font-size: 12px;
-      text-transform: none;
-    }
-  }
-
   .meta-detail-synopsis {
     padding-top: 10px;
 
