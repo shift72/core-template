@@ -244,3 +244,24 @@
     border-color: $gray-200;
   }
 }
+
+s72-donate-button:not(:empty) {
+  :hover {
+    background-color: $button-background-hover;
+    color: $button-text-color-hover;
+    svg {
+      g {
+        fill: $button-text-color-hover;
+      }
+    }
+  }
+  a {
+    color: $button-text-color;
+    background-color: $button-background;
+  }
+  svg {
+    g {
+      fill: $button-text-color;
+    }
+  }
+}
