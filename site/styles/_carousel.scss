@@ -106,32 +106,31 @@ s72-carousel {
   padding-top: 100px;
   //https://via.placeholder.com/3000/FFFFFF
   //@include gradient-y(rgba($bottom-gradient-bg-color, 0),rgba($bottom-gradient-bg-color, 1),0%,40%);
-  @include gradient-y(rgba($bottom-gradient-bg-color, 0),rgba($bottom-gradient-bg-color, 1),0%,100%);
+  //@include gradient-y(rgba($bottom-gradient-bg-color, 0),rgba($bottom-gradient-bg-color, 1),0%,100%);
   //background: linear-gradient(180deg, rgba($bottom-gradient-bg-color, 0) 0%, rgba($bottom-gradient-bg-color, 0.7) 51%, rgba($bottom-gradient-bg-color, 1) 100%);
   //background: linear-gradient(180deg, rgba($bottom-gradient-bg-color, 0) 0%, rgba($bottom-gradient-bg-color, 0.3) 40%, rgba($bottom-gradient-bg-color, 1) 77%);
   
   // Created using this tool: https://larsenwork.com/easing-gradients/#editor
-  /*
+  
     background: linear-gradient(
           to bottom,
-          hsla(0, 0%, 0%, 0) 0%,
-          hsla(0, 0%, 0%, 0.013) 7.5%,
-          hsla(0, 0%, 0%, 0.049) 13.6%,
-          hsla(0, 0%, 0%, 0.104) 18.5%,
-          hsla(0, 0%, 0%, 0.175) 22.5%,
-          hsla(0, 0%, 0%, 0.259) 25.9%,
-          hsla(0, 0%, 0%, 0.352) 29.2%,
-          hsla(0, 0%, 0%, 0.45) 32.5%,
-          hsla(0, 0%, 0%, 0.55) 36.2%,
-          hsla(0, 0%, 0%, 0.648) 40.6%,
-          hsla(0, 0%, 0%, 0.741) 46.1%,
-          hsla(0, 0%, 0%, 0.825) 52.9%,
-          hsla(0, 0%, 0%, 0.896) 61.4%,
-          hsla(0, 0%, 0%, 0.951) 71.8%,
-          hsla(0, 0%, 0%, 0.987) 84.6%,
-          hsl(0, 0%, 0%) 100%
+          rgba(var(--body-bg-rgb), 0) 0%,
+          rgba(var(--body-bg-rgb), 0.013) 7.5%,
+          rgba(var(--body-bg-rgb), 0.049) 13.6%,
+          rgba(var(--body-bg-rgb), 0.104) 18.5%,
+          rgba(var(--body-bg-rgb), 0.175) 22.5%,
+          rgba(var(--body-bg-rgb), 0.259) 25.9%,
+          rgba(var(--body-bg-rgb), 0.352) 29.2%,
+          rgba(var(--body-bg-rgb), 0.45) 32.5%,
+          rgba(var(--body-bg-rgb), 0.55) 36.2%,
+          rgba(var(--body-bg-rgb), 0.648) 40.6%,
+          rgba(var(--body-bg-rgb), 0.741) 46.1%,
+          rgba(var(--body-bg-rgb), 0.825) 52.9%,
+          rgba(var(--body-bg-rgb), 0.896) 61.4%,
+          rgba(var(--body-bg-rgb), 0.951) 71.8%,
+          rgba(var(--body-bg-rgb), 0.987) 84.6%,
+          rgb(var(--body-bg-rgb)) 100%
         );
-  */
 
   @include media-breakpoint-up(lg) {
     padding: 100px 50px 1px 50px;
@@ -145,7 +144,7 @@ s72-carousel {
     .availability-bg {
       background: transparent;
       display: inline-block;
-      padding: 10px 0;
+      padding: 0 0 10px 0;
     }
 
     .availability-state {
@@ -165,14 +164,15 @@ s72-carousel {
       margin-bottom: 0;
       padding-bottom: 0;
       max-width: 930px;
+      padding-bottom: 8px;
       @include media-breakpoint-up(md) {
         font-size: 38px;
       }
       @include media-breakpoint-up(lg) {
-        font-size: 48px;
+        font-size: 46px;
       }
       @include media-breakpoint-up(xxxl) {
-        font-size: 54px;
+        font-size: 46px;
       }
     }
 
@@ -192,7 +192,7 @@ s72-carousel {
     .meta-item-tagline-and-classification {
       @extend .d-flex;
       align-items: center;
-      padding-top: 8px;
+      padding-bottom: 8px;
     }
 
     .s72-classification {
@@ -203,26 +203,20 @@ s72-carousel {
       color: rgba(var(--body-color-rgb), 0.8);
       font-size: 14px;
       font-weight: $font-weight-normal;
-      @include media-breakpoint-up(xxxl) {
-        font-size: 18px;
-      }
     }
 
     .meta-item-synopsis {
-      display: block;
-      font-size: 12px;
+      display: none;
       font-weight: $font-weight-normal;
-      padding-top: 8px;
+      padding-bottom: 22px;
+      padding-top: 0;
       max-width: 600px;
-
-      @include media-breakpoint-up(md) {
-        font-size: 16px;
+      font-size: 16px;
+      p {
+        margin-bottom: 0;
       }
-      @include media-breakpoint-up(xxxl) {
-        font-size: 16px;
-      }
-      @include media-breakpoint-up(xxxl) {
-        font-size: 18px;
+      @include media-breakpoint-up(lg) {
+        display: block;
       }
     }
 
@@ -234,35 +228,21 @@ s72-carousel {
       position: relative;
     }
   }
-
-  // Purchase, play, trailer, wishlist and share are all in one group now
-  // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
+  
   .meta-item-buttons {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
-
-    /* stylelint-disable selector-max-compound-selectors */
-    s72-pricing-buttons .s72-btn,
-    .meta-detail-extras,
-    .meta-item-extras,
-    s72-play-button,
-    can-be-watched-button:not(:empty) {
-      margin-bottom: 10px;
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
+    s72-pricing-buttons {
+      padding-right: 12px;
+      padding-bottom: 8px;
     }
-
-    // Handles spacing when there is only rent, only buy, or only play button
-    s72-pricing-buttons .s72-btn,
-    s72-play-button {
-      &:nth-child(1) {
-        margin-right: 0;
-      }
-      &:only-child {
-        margin-right: 0.5rem;
-      }
+    .meta-item-extras {
+      padding-bottom: 8px;
     }
-    /* stylelint-enable selector-max-compound-selectors */
+  }
+  .s72-btn-rent {
+    margin-left: 0 !important;
+  }
+  .s72-btn-purchase {
+    margin-right: 8px;
   }
 
   .s72-btn-play {
