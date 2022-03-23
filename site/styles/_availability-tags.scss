@@ -26,12 +26,12 @@ s72-availability-label {
   }
 
   s72-availability-label {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(var(--body-bg-rgb),0.5);
     font-weight: $font-weight-normal;
     @extend .w-100;
     bottom: 0;
     .availability-state {
-      line-height: 17px;
+      line-height: 18px;
       @extend .mb-0;
       &:before {
         content: none;
@@ -53,7 +53,7 @@ s72-availability-label {
 
   .availability-state {
     @extend .justify-content-center;
-    color: var(--body-bg);
+    color: var(--body-color-rgb);
     font-weight: $font-weight-bold;
     text-transform: uppercase;
     text-align: center;
