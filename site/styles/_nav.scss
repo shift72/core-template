@@ -1,5 +1,5 @@
 .navigation {
-  //@extend .top-gradient-bg;
+  @extend .navigation-gradient;
   background-color: transparent;
   display: flex;
   flex-direction: column;
@@ -11,8 +11,6 @@
   top: 0;
   width: 100%;
   z-index: 9;
-
-  @include navigation-gradient;
   
   &.show {
     min-height: 100%;
@@ -262,8 +260,7 @@
 }
 
 .navbar-brand-container-tablet {
-  //background: linear-gradient(rgba($top-gradient-color, 1) 0%, rgba($top-gradient-color, 0) 100%);
-  @include navigation-gradient;
+  @extend .navigation-gradient;
   background-color: $navbar-background-color;
   display: none;
   padding: 10px 20px 40px 20px;

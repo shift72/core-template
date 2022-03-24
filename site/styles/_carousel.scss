@@ -74,7 +74,7 @@ s72-carousel {
 }
 
 .carousel-item-caption {
-  @include carousel-bottom-gradient;
+  @extend .carousel-bottom-gradient;
   left: 0;
   position: absolute;
   bottom: 0;
