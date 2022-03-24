@@ -1,5 +1,5 @@
 .navigation {
-  @extend .top-gradient-bg;
+  //@extend .top-gradient-bg;
   background-color: transparent;
   display: flex;
   flex-direction: column;
@@ -12,8 +12,14 @@
   width: 100%;
   z-index: 9;
 
+  @include navigation-gradient;
+  
   &.show {
-    height: 100%;
+    min-height: 100%;
+    @include media-breakpoint-up(sm) {
+      min-height: auto;
+    }
+    
     @include media-breakpoint-between(sm, md) {
       background: none;
     }
@@ -118,7 +124,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   height: 100%;
-  padding: 10px 20px;
+  padding: 10px 20px 40px 20px;
   position: relative;
   transition: background-color 0.25s ease-out;
   width: 100%;
@@ -135,6 +141,7 @@
     justify-content: flex-end;
     overflow: visible;
     padding: 20px 50px;
+    padding: 20px 50px 40px 50px;
   }
 }
 
@@ -255,10 +262,11 @@
 }
 
 .navbar-brand-container-tablet {
-  background: linear-gradient(rgba($top-gradient-color, 1) 0%, rgba($top-gradient-color, 0) 100%);
+  //background: linear-gradient(rgba($top-gradient-color, 1) 0%, rgba($top-gradient-color, 0) 100%);
+  @include navigation-gradient;
   background-color: $navbar-background-color;
   display: none;
-  padding: 10px 20px;
+  padding: 10px 20px 40px 20px;
   pointer-events: none;
   position: relative;
   width: 100%;
@@ -923,7 +931,7 @@ s72-dropdown,
   @include media-breakpoint-between(sm, md) {
     background-color: rgba(0, 0, 0);
     display: block;
-    height: 100%;
+    height: 100vh;
     opacity: 0.4;
     position: absolute;
     width: 100%;

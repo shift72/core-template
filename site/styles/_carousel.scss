@@ -74,47 +74,18 @@ s72-carousel {
 }
 
 .carousel-item-caption {
-
+  @include carousel-bottom-gradient;
   left: 0;
   position: absolute;
   bottom: 0;
   z-index: 999;
   width: 100%;
   display: flex;
-  padding: 0 20px;
-  padding-top: 100px;
-  //https://via.placeholder.com/3000/FFFFFF
-  //@include gradient-y(rgba($bottom-gradient-bg-color, 0),rgba($bottom-gradient-bg-color, 1),0%,40%);
-  //@include gradient-y(rgba($bottom-gradient-bg-color, 0),rgba($bottom-gradient-bg-color, 1),0%,100%);
-  //background: linear-gradient(180deg, rgba($bottom-gradient-bg-color, 0) 0%, rgba($bottom-gradient-bg-color, 0.7) 51%, rgba($bottom-gradient-bg-color, 1) 100%);
-  //background: linear-gradient(180deg, rgba($bottom-gradient-bg-color, 0) 0%, rgba($bottom-gradient-bg-color, 0.3) 40%, rgba($bottom-gradient-bg-color, 1) 77%);
-  
-  // Created using this tool: https://larsenwork.com/easing-gradients/#editor
-  
-    background: linear-gradient(
-          to bottom,
-          rgba(var(--body-bg-rgb), 0) 0%,
-          rgba(var(--body-bg-rgb), 0.013) 7.5%,
-          rgba(var(--body-bg-rgb), 0.049) 13.6%,
-          rgba(var(--body-bg-rgb), 0.104) 18.5%,
-          rgba(var(--body-bg-rgb), 0.175) 22.5%,
-          rgba(var(--body-bg-rgb), 0.259) 25.9%,
-          rgba(var(--body-bg-rgb), 0.352) 29.2%,
-          rgba(var(--body-bg-rgb), 0.45) 32.5%,
-          rgba(var(--body-bg-rgb), 0.55) 36.2%,
-          rgba(var(--body-bg-rgb), 0.648) 40.6%,
-          rgba(var(--body-bg-rgb), 0.741) 46.1%,
-          rgba(var(--body-bg-rgb), 0.825) 52.9%,
-          rgba(var(--body-bg-rgb), 0.896) 61.4%,
-          rgba(var(--body-bg-rgb), 0.951) 71.8%,
-          rgba(var(--body-bg-rgb), 0.987) 84.6%,
-          rgb(var(--body-bg-rgb)) 100%
-        );
-
+  padding: 400px 20px 0 20px; 
+ 
   @include media-breakpoint-up(lg) {
-    padding: 100px 50px 1px 50px;
+    padding: 400px 50px 1px 50px;
   }
-  //  background-image: linear-gradient(to bottom, rgba(2, 2, 2, 0) 0%, rgba(2, 2, 2, 0.29) 40%, var(--surface-dark-001) 77%);
 
   s72-availability-status,
   s72-availability-label {
