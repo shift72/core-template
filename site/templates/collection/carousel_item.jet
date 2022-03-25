@@ -29,8 +29,6 @@
               {{yield metaItemTagline() item.InnerItem}}
             </div>
 
-            
-
             <div class="meta-item-synopsis">
               <p>{{item.InnerItem.Tagline | stripHTML}}</p>
             </div>

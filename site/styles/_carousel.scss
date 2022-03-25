@@ -142,7 +142,10 @@ s72-carousel {
     .meta-item-tagline-and-classification {
       @extend .d-flex;
       align-items: center;
-      padding-bottom: 8px;
+      padding-bottom: 22px;
+      @include media-breakpoint-up(xs) {
+        padding-bottom: 8px;
+      }
     }
 
     .s72-classification {
@@ -165,7 +168,7 @@ s72-carousel {
       p {
         margin-bottom: 0;
       }
-      @include media-breakpoint-up(lg) {
+      @include media-breakpoint-up(xs) {
         display: block;
       }
     }
@@ -184,8 +187,28 @@ s72-carousel {
       padding-right: 12px;
       padding-bottom: 8px;
     }
+
+    s72-play-button {
+      padding-right: 0;
+      padding-bottom: 8px;
+      width: 100%;
+      @include media-breakpoint-up(xs) {
+        width: auto;
+        padding-right: 12px;
+      }
+      .s72-btn-play {
+        width: 100%;
+        @include media-breakpoint-up(xs) {
+          width: auto;
+        }
+      }
+    }
+
     .meta-item-extras {
       padding-bottom: 8px;
+    }
+    .s72-btn-play {
+      margin-right: 0;
     }
   }
   .s72-btn-rent {
