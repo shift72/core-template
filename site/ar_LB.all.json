@@ -79,7 +79,7 @@
     "social_media_buttons_email": { "other": "سهم عبر البريد الإلكتروني" },
     "social_media_buttons_email_subject": { "other": "مشاركة الارتباط" },
     "social_media_buttons_copied_link": { "other": "تم نسخ الرابط إلى الحافظة!" },
-    "social_media_buttons_copy_link": { "other": "نسخ الوصلة" },
+    "social_media_buttons_copy_link": { "other": "نسخ إلى الحافظة" },
   
     "accept_invite_page_header": { "other": "أهلا بك" },
     "acceptinvite_form_invalid_reset_password_token": { "other": "يبدو أنك طالبت بهذه الدعوة من قبل ، يجب عليك <a href=\"{{.SigninURL}}\"> تسجيل الدخول </a> بدلاً من ذلك. إذا نسيت كلمة المرور ، فيمكنك أيضًا <a href=\"{{.ForgotPasswordURL}}\"> إعادة تعيين كلمة المرور </a>." },

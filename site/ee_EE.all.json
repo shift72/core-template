@@ -79,7 +79,7 @@
   "social_media_buttons_email": { "other": "Jaga meili teel" },
   "social_media_buttons_email_subject": { "other": "Lingi jagamine" },
   "social_media_buttons_copied_link": { "other": "Link on lõikelauale kopeeritud!" },
-  "social_media_buttons_copy_link": { "other": "Kopeeri link" },
+  "social_media_buttons_copy_link": { "other": "Kopeerida lõikelauale" },
 
   "accept_invite_page_header": { "other": "Tere tulemast " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Näib, et sa oled kutse juba vastu võtnud. Sa peaksid hoopis <a href=\"{{.SigninURL}}\">sisse logima</a>. Kui oled salasõna unustanud, saad selle <a href=\"{{.ForgotPasswordURL}}\">uuendada</a>." },

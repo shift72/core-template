@@ -73,7 +73,7 @@
   "social_media_buttons_email": { "other": "Per E-Mail teilen" },
   "social_media_buttons_email_subject": { "other": "Link teilen" },
   "social_media_buttons_copied_link": { "other": "Link in die Zwischenablage kopiert!" },
-  "social_media_buttons_copy_link": { "other": "Link kopieren" },
+  "social_media_buttons_copy_link": { "other": "In die Zwischenablage kopieren" },
 
   "accept_invite_page_header": { "other": "Willkommen " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Sie haben diese Einladung bereits angenommen. <a href=\"{{.SigninURL}}\">Loggen Sie sich hier ein</a>. Falls Sie Ihr Passwort vergessen haben, können Sie es <a href=\"{{.ForgotPasswordURL}}\">hier zurücksetzen</a>." },

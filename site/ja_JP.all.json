@@ -56,7 +56,7 @@
   "social_media_buttons_email": { "other": "メールで共有する" },
   "social_media_buttons_email_subject": { "other": "リンクシェア" },
   "social_media_buttons_copied_link": { "other": "リンクがクリップボードにコピーされました！" },
-  "social_media_buttons_copy_link": { "other": "リンクをコピーする" },
+  "social_media_buttons_copy_link": { "other": "クリップボードにコピー" },
 
   "accept_invite_page_header": { "other": "ようこそ " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "すでに招待リクエスト済みですので、サインインしてください。" },

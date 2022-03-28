@@ -79,7 +79,7 @@
   "social_media_buttons_email": { "other": "Compartir via correo electrónico" },
   "social_media_buttons_email_subject": { "other": "Compartir enlace" },
   "social_media_buttons_copied_link": { "other": "¡Link copiado al portapapeles!" },
-  "social_media_buttons_copy_link": { "other": "Copiar link" },
+  "social_media_buttons_copy_link": { "other": "Copiar al portapapeles" },
 
   "accept_invite_page_header": { "other": "Bienvenido " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Parece que ya ha reclamado esta invitación, usted debe <a href=\"{{.SigninURL}}\">iniciar sesión</a> sin embargo. Si ha olvidado su contraseña, usted puede <a href=\"{{.ForgotPasswordURL}}\">recuperar su contraseña</a>." },

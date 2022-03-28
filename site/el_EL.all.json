@@ -79,7 +79,7 @@
   "social_media_buttons_email": { "other": "Κοινοποίηση μέσω email" },
   "social_media_buttons_email_subject": { "other": "Κοινή χρήση συνδέσμου" },
   "social_media_buttons_copied_link": { "other": "Ο σύνδεσμος αντιγράφηκε στο πρόχειρο!" },
-  "social_media_buttons_copy_link": { "other": "Αντιγραφή συνδέσμου" },
+  "social_media_buttons_copy_link": { "other": "Αντιγραφή στο πρόχειρο" },
 
   "accept_invite_page_header": { "other": "Καλώς ορίσατε " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Φαίνεται πως έχετε ήδη αποδεχθεί αυτή την πρόσκληση, πρέπει να <a href=\"{{.SigninURL}}\">εισέλθετε</a> στο λογαριασμό σας." },

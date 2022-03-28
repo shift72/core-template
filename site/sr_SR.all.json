@@ -79,7 +79,7 @@
     "social_media_buttons_email": { "other": "Делите путем е-поште" },
     "social_media_buttons_email_subject": { "other": "Дељење везе" },
     "social_media_buttons_copied_link": { "other": "Линк је копиран у међуспремник!" },
-    "social_media_buttons_copy_link": { "other": "Копирај линк" },
+    "social_media_buttons_copy_link": { "other": "Копирај у међуспремник" },
   
     "accept_invite_page_header": { "other": "Добродошли " },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Изгледа да сте већ активирали овај позив. Потребно је да се <a href=\"{{.SigninURL}}\">пријавите</a>. Ако сте заборавили лозинку, можете и да <a href=\"{{.ForgotPasswordURL}}\">ресетујете лозинку</a>." },

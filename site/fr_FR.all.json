@@ -77,7 +77,7 @@
   "social_media_buttons_email": { "other": "Partager par e-mail" },
   "social_media_buttons_email_subject": { "other": "Lien de partage" },
   "social_media_buttons_copied_link": { "other": "Lien copié dans le presse-papiers !" },
-  "social_media_buttons_copy_link": { "other": "Copier le lien" },
+  "social_media_buttons_copy_link": { "other": "Copier dans le presse-papier" },
 
   "accept_invite_page_header": { "other": "Bienvenue " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Il semble que vous ayez déjà utilisé ce lien, vous devriez essayer de <a href=\"{{.SigninURL}}\">vous connecter</a>. Si vous avez oublié votre mot de passe, vous pouvez aussi <a href=\"{{.ForgotPasswordURL}}\">réinitialiser votre mot de passe</a>." },

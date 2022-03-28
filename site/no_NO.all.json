@@ -79,7 +79,7 @@
     "social_media_buttons_email": { "other": "Del via e-post" },
     "social_media_buttons_email_subject": { "other": "Linkdeling" },
     "social_media_buttons_copied_link": { "other": "Linken er kopiert til utklippstavlen!" },
-    "social_media_buttons_copy_link": { "other": "Kopier link" },
+    "social_media_buttons_copy_link": { "other": "Kopiere til utklippstavle" },
 
     "accept_invite_page_header": { "other": "Velkommen " },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Det ser ut til at du allerede har godtatt denne invitasjonen, forsøk i stedet å <a href=\"{{.SigninURL}}\">logge inn</a>. Hvis du har glemt passordet kan du også <a href=\"{{.ForgotPasswordURL}}\">tilbakestille passordet</a>." },

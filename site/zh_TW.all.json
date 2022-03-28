@@ -145,7 +145,7 @@
   "social_media_buttons_email": { "other": "通过电子邮件分享" },
   "social_media_buttons_email_subject": { "other": "链接分享" },
   "social_media_buttons_copied_link": { "other": "链接已复制到剪贴板！" },
-  "social_media_buttons_copy_link": { "other": "复制链接" },
+  "social_media_buttons_copy_link": { "other": "复制到剪贴板" },
   "accept_invite_page_header": {
    "other": "歡迎 "
   },

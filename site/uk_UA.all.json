@@ -132,7 +132,7 @@
   "social_media_buttons_email": { "other": "Поділіться електронною поштою" },
   "social_media_buttons_email_subject": { "other": "Поділитися посиланням" },
   "social_media_buttons_copied_link": { "other": "Посилання скопійовано в буфер обміну!" },
-  "social_media_buttons_copy_link": { "other": "Скопіюйте посилання" },
+  "social_media_buttons_copy_link": { "other": "Копіювати в буфер обміну" },
   "accept_invite_page_header": {
    "other": "Ласкаво просимо "
   },

@@ -80,7 +80,7 @@
   "social_media_buttons_email": { "other": "Поделиться по электронной почте" },
   "social_media_buttons_email_subject": { "other": "Поделиться ссылкой" },
   "social_media_buttons_copied_link": { "other": "Ссылка скопирована в буфер обмена!" },
-  "social_media_buttons_copy_link": { "other": "Копировать ссылку" },
+  "social_media_buttons_copy_link": { "other": "Скопировать в буфер обмена" },
 
   "accept_invite_page_header": { "other": "Добро пожаловать " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Вы уже подтвердили регистрацию, вам надо <a href=\"{{.SigninURL}}\">войти</a> . Если вы забыли свой пароль, вы можете <a href=\"{{.ForgotPasswordURL}}\">сбросить пароль</a>." },
