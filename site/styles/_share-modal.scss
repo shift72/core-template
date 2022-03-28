@@ -1,3 +1,7 @@
+s72-share-modal .fa-share-alt {
+  font-size: 20px;
+}
+
 .s72-share-modal {
   .s72-modal-dialog {
     top: 50%;
@@ -33,6 +37,10 @@
     i {
       @extend .position-absolute;
       left: -30px;
+      font-size: 20px;
+      svg {
+        height: 20px;
+      }
     }
   }
 
