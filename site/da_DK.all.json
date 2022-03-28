@@ -1136,6 +1136,9 @@
   "awards_winner_of": {
     "other": "Vinder af"
   },
+  "awards_winner": {
+    "other": "Vinder"
+  },
   "donate_button_text": {
     "other": "Doner"
   },

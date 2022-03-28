@@ -500,6 +500,9 @@
   "awards_winner_of": {
     "other": "Zwycięzca"
   },
+  "awards_winner": {
+    "other": "Zwycięzca"
+  },
   "donate_button_text": {
     "other": "Podarować"
   },

@@ -523,6 +523,9 @@
     "awards_winner_of": {
       "other": "nyertese"
     },
+    "awards_winner": {
+      "other": "Győztes"
+    },
     "donate_button_text": {
       "other": "Dhuroni"
     },

@@ -420,6 +420,7 @@
   },
 
   "awards_winner_of": { "other": "Ganador de" },
+  "awards_winner": { "other": "Ganador" },
   "donate_button_text": { "other": "Donar" },
 
   "wcag_skip_links_header": { "other": "Enlaces de accesibilidad" },

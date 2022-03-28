@@ -1230,6 +1230,9 @@
   "awards_winner_of": {
     "other": "Guanyador de"
   },
+  "awards_winner": {
+    "other": "Guanyador"
+  },
   "donate_button_text": {
     "other": "Donar"
   },

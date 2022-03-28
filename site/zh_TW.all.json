@@ -1196,6 +1196,9 @@
   "awards_winner_of": {
     "other": "获奖者"
   },
+  "awards_winner": {
+    "other": "优胜者"
+  },
   "donate_button_text": {
     "other": "捐"
   },

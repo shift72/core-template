@@ -590,6 +590,7 @@
     "app_badge_ios": { "other": "قم بالتحميل من متجر البرامج" },
     "app_badge_android": { "other": "احصل عليه من متجر جوجل للتطبيقات" },
 
-    "awards_winner_of": { "other": "الفائز ب" }
+    "awards_winner_of": { "other": "الفائز ب" },
+    "awards_winner": { "other": "الفائز" }
 
   } 

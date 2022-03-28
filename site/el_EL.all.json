@@ -520,6 +520,9 @@
   "awards_winner_of": {
     "other": "Νικητής του"
   },
+  "awards_winner": {
+    "other": "Νικητής"
+  },
   "donate_button_text": {
     "other": "Προσφέρω"
   },

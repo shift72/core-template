@@ -1144,7 +1144,10 @@
     "other": "Em competição"
   },
   "awards_winner_of": {
-    "other": "Vencedor de"
+    "other": "Vencedora de"
+  },
+  "awards_winner": {
+    "other": "Vencedora"
   },
   "donate_button_text": {
     "other": "Doar"
