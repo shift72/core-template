@@ -2,7 +2,7 @@
     "site_owner": { "other": "ABC Cinemas" },
     "settings_title": { "other": "Settings" },
     "powered_by": { "other": "Powered by" },
-    "powered_by_name": { "other": "ScreenPlus" },
+    "powered_by_name": { "other": "Shift72" },
     "powered_by_url": { "other": "https://www.screenplus.com" },
     "in_partnership_with": { "other": "in partnership with" },
     "festival_scope": { "other": "Festival Scope" },
@@ -19,14 +19,14 @@
     },
   
     "seasons":{
-      "one": "one season",
-      "other": "{{.Count}} seasons"
+      "one": "egy szezont",
+      "other": "{{.Count}} évszakok"
     },
     "tvseason": {
-      "other": "{{.ShowInfo.Title}} Series {{.Season.SeasonNumber}}"
+      "other": "{{.ShowInfo.Title}} Sorozat {{.Season.SeasonNumber}}"
     },
     "tvseason_html": {
-      "other": "{{.ShowInfo.Title}} <span>Series {{.Season.SeasonNumber}}</span>"
+      "other": "{{.ShowInfo.Title}} <span>Sorozat {{.Season.SeasonNumber}}</span>"
     },
     "tvepisode": {
       "other": "{{.Episode.Title}}"
@@ -35,8 +35,8 @@
       "other": "Series {{.Season.SeasonNumber}}"
     },
     "episode_count": {
-      "one": "1 Episode",
-      "other": "{{.Count}} Episodes"
+      "one": "1 Epizód",
+      "other": "{{.Count}} Epizódok"
     },
   
     "date_day": { "other": "Nap" },
@@ -79,7 +79,7 @@
     "social_media_buttons_email": { "other": "Oszd meg e-mailben" },
     "social_media_buttons_email_subject": { "other": "Link megosztás" },
     "social_media_buttons_copied_link": { "other": "Link a vágólapra másolva!" },
-    "social_media_buttons_copy_link": { "other": "Másolja a vágólapra" },
+    "social_media_buttons_copy_link": { "other": "Link másolása" },
 
     "accept_invite_page_header": { "other": "Üdvözöljük " },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Úgy tűnik, már felhasználtad a meghívódat, próbálj meg <a href=\"{{.SigninURL}}\">bejelentkezni</a>. Ha elfelejtetted a jelszavadat, <a href=\"{{.ForgotPasswordURL}}\">állíts be újat</a>." },
@@ -106,8 +106,8 @@
     "signup_page_alreadyhaveanaccount": { "other": "Már van fiókod? Bejelentkezés" },
     "signup_form_error_email_already_in_use": { "other": "Ezt az e-mail címet már használják." },
     "signin_form_error_incorrect_credentials": { "other": "A felhasználónév vagy jelszó hibás." },
-    "signin_form_error_ip_throttled": { "other": "You have failed to sign in too many times. Please try again later." },
-    "signin_form_error_account_suspended": { "other": "Your account has been temporarily suspended. Please contact an admin if you believe this is in error." },
+    "signin_form_error_ip_throttled": { "other": "Túl sokszor nem sikerült bejelentkeznie. Kérlek, próbáld újra később." },
+    "signin_form_error_account_suspended": { "other": "A fiókod ideiglenesen fel lett függesztve. Kérjük, forduljon egy adminisztrátorhoz, ha úgy gondolja, hogy ez tévedés." },
   
     "signup_form_error_forbidden": { "other": "Hiba történt." },
   
@@ -186,19 +186,19 @@
     "validation_password2_match": { "other": "A két jelszó nem egyezik." },
     "validation_password_minlength": { "other": "Kérjük, adj meg legalább {{.Count}} karaktert." },
     "validation_promocode_required": { "other": "Kérjük, adj meg egy promókódot." },
-    "validation_pincode_required": { "other": "Please enter a PIN code." },
+    "validation_pincode_required": { "other": "Kérjük, adjon meg egy PIN kódot." },
     "validation_gender_required": { "other": "Kérjük válaszd ki azt a nemet, mellyel a leginkább azonosulsz." },
     "validation_dob_required": { "other": "Kérjük, add meg a születési dátumodat." },
     "validation_dob_date": { "other": "Kérjük, adj meg egy érvényes születési dátumot." },
   
     "shopping_info_subtitle_hd": { "other": "HD Videoszolgáltatás." },
     "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
-    "shopping_info_subtitle_wallet": { "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus." },
+    "shopping_info_subtitle_wallet": { "other": "A Pénztárcájában lévő pénzeszközök felhasználhatók a ScreenPlus-on található bármely tartalom megvásárlására vagy kölcsönzésére." },
     "shopping_info_subtitle_help": { "other": "Nézd át a rendszerkövetelményeket." },
     "shopping_info_ownership_buy": { "other": "vásárlás" },
     "shopping_info_ownership_rent": { "other": "kölcsönzés" },
   
-    "shopping_info_sd_only": { "other": "Limited to SD playback only." },
+    "shopping_info_sd_only": { "other": "Csak SD lejátszásra korlátozva." },
     "shopping_info_release_date_title": { "other": "Bemutató napja {{.Date}}. " },
     "shopping_info_release_date_explanation_rent": { "other": "Már most kölcsönözhető, de a megjelenés dátumáig nem nézhető meg." },
     "shopping_info_release_date_explanation_buy": { "other": "Már most megvásárolható, de a megjelenés dátumáig nem nézhető meg." },
@@ -266,7 +266,7 @@
     "shopping_error_creditcard_country_mismatch": { "other": "A {{.Ownership}} nem sikerült. Abban az országban kell tartózkodnod, ahol a bankkártyát kiállították. Kérjük, használj másik bankkártyát." },
     "shopping_error_proxy_detected": { "other": "A {{.Ownership}} nem sikerült. Észleltük, hogy egy unblocker-t vagy proxy szolgáltatást használsz. Kérjük, kapcsold ki ezeket a szolgáltatásokat és próbálkozz újra." },
   
-    "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
+    "shopping_error_discount_worn_out": { "other": "Ez a promóciós kód már nem használható." },
     "shopping_error_discount_blank": { "other": "Kérjük, adj meg egy promókódot." },
     "shopping_error_discount_not_applied": { "other": "Kérjük, adj meg egy érvényes promókódot." },
     "shopping_error_discount_invalid": { "other": "Kérjük, adj meg egy érvényes promókódot." },
@@ -290,7 +290,7 @@
       "other": "Mostantól akárhányszor megnézheted a következő {{.Count}} napban."
     },
     "shopping_complete_purchase": { "other": "Köszönjük a {.Title}} megvásárlását." },
-    "shopping_complete_credit_purchase": { "other": "Thank you for purchasing {{.Title}}, {{.CreditTotal}} has been added to your account." },
+    "shopping_complete_credit_purchase": { "other": "Köszönjük, hogy megvásárolta a(z) {{.Title}} összeget, a(z) {{.CreditTotal}} hozzáadva a fiókjához." },
     "shopping_complete_purchase_coming_soon": { "other": "{{.Date}}-tól megtekinthető." },
     "shopping_complete_receipt": { "other": "A bizonylatot e-mailben elküldtük számodra." },
     "shopping_complete_library_link": { "other": "Kezd el nézni bármelyiket a {{.BundleItems}} filmjei közül, melyeket mostantól megtalálsz a könyvtáradban." },
@@ -341,14 +341,14 @@
     "userwishlist_button_add_compact": { "other": "Listám" },
     "userwishlist_button_remove_compact": { "other": "Listám" },
   
-    "activatedevice_page_header": { "other": "Activate Device" },
-    "activatedevice_page_content": { "other": "Follow the instructions on your device to get a PIN code. Your computer and device must both be connected to the internet to activate." },
-    "activatedevice_form_pin": { "other": "PIN Code" },
-    "activatedevice_form_submit": { "other": "Activate" },
-    "activatedevice_form_error_invalid_code": { "other": "PIN Code not found, please try again." },
-    "activatedevice_form_error_pin_not_found": { "other": "PIN Code not found, please try again." },
-    "activatedevice_signin_prompt": { "other": "Please sign in before activating your device." },
-    "activatedevice_page_activated": { "other": "Thank you for activating {{.DeviceName}}. You should now be able to browse your library on your television or device." },
+    "activatedevice_page_header": { "other": "Eszköz aktiválása" },
+    "activatedevice_page_content": { "other": "Kövesse az eszközén megjelenő utasításokat a PIN-kód megszerzéséhez. Az aktiváláshoz számítógépének és eszközének egyaránt csatlakoznia kell az internethez." },
+    "activatedevice_form_pin": { "other": "PIN-kód" },
+    "activatedevice_form_submit": { "other": "Aktiválja" },
+    "activatedevice_form_error_invalid_code": { "other": "A PIN kód nem található, próbálja újra." },
+    "activatedevice_form_error_pin_not_found": { "other": "A PIN kód nem található, próbálja újra." },
+    "activatedevice_signin_prompt": { "other": "Kérjük, jelentkezzen be az eszköz aktiválása előtt." },
+    "activatedevice_page_activated": { "other": "Köszönjük a {{.DeviceName}} aktiválását. Most már képesnek kell lennie böngészni a könyvtárában televízióján vagy eszközén." },
   
     "userdevices_page_header": { "other": "Eszközök" },
     "userdevices_page_content": {
@@ -364,10 +364,10 @@
     "userdevices_device_actions_confirm": { "other": "Igen, töröld az eszközt" },
     "userdevices_device_deleted": { "other": "(Törölve)" },
   
-    "playlist_page_header": { "other": "Playlist" },
-    "playlist_sign_in_warning": { "other": "Please sign in to watch live TV."},
-    "playlist_share_title": { "other": "Playlist" },
-    "playlist_up_next_title": { "other": "Up Next" },
+    "playlist_page_header": { "other": "lejátszási lista" },
+    "playlist_sign_in_warning": { "other": "Kérjük, jelentkezzen be, hogy élő tévéadást nézhessen."},
+    "playlist_share_title": { "other": "lejátszási lista" },
+    "playlist_up_next_title": { "other": "Fel Következő" },
   
     "pricing_ownership_buy": { "other": "Megveszem" },
     "pricing_ownership_rent": { "other": "Kikölcsönzöm" },
@@ -387,42 +387,42 @@
     "users_gender_diverse": { "other": "Diverz" },
     "users_gender_other": { "other": "Egyéb" },
   
-    "pricing_quality_hd": { "other": "pricing_quality_hd" },
-    "pricing_quality_sd": { "other": "pricing_quality_sd" },
-    "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
-    "pricing_quality_sd_only": { "other": "pricing_quality_sd_only" },
+    "pricing_quality_hd": { "other": "HD" },
+    "pricing_quality_sd": { "other": "SD" },
+    "pricing_quality_hd_only": { "other": "Csak HD" },
+    "pricing_quality_sd_only": { "other": "Csak SD" },
   
-    "shopping_card_save_card": { "other": "Save this card for future use" },
-    "shopping_card_button_change": { "other": "Show all saved cards" },
-    "shopping_card_existing_description": { "other": "{{.Card.Brand}} ending in {{.Card.Number}}" },
-    "shopping_card_existing_expiry": { "other": "(expires {{.Card.Expiry}})" },
-    "shopping_card_existing_expired": { "other": "(expired)" },
-    "shopping_card_use_other": { "other": "Use a new card" },
-    "shopping_card_use_new_card": { "other": "Change card" },
+    "shopping_card_save_card": { "other": "Őrizze meg ezt a kártyát későbbi használatra" },
+    "shopping_card_button_change": { "other": "Az összes mentett kártya megjelenítése" },
+    "shopping_card_existing_description": { "other": "{{.Card.Brand}}, amely a következőre végződik: {{.Card.Number}}" },
+    "shopping_card_existing_expiry": { "other": "(lejár: {{.Card.Expiry}})" },
+    "shopping_card_existing_expired": { "other": "(lejárt)" },
+    "shopping_card_use_other": { "other": "Használjon új kártyát" },
+    "shopping_card_use_new_card": { "other": "Válts kártyát" },
   
-    "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
+    "shopping_info_ownership_plan": { "other": "Feliratkozás" },
   
-    "shopping_action_credit": { "other": "shopping_action_credit" },
+    "shopping_action_credit": { "other": "Feltölt" },
 
     "shopping_info_rental_period_coming_soon": { "other": "a bemutató időpontjától." },
 
   
-    "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
-    "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
-    "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
+    "usersubscriptions_change_payment_method_change": { "other": "Hitelkártya módosítása" },
+    "usersubscriptions_change_payment_method_modal_title": { "other": "Frissítse a hitelkártya adatait" },
+    "usersubscriptions_change_payment_method_modal_submit": { "other": "Frissítés" },
   
-    "usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
+    "usersubscriptions_subscription_expiry": { "other": "Lejár: {{.Expiry}}" },
     "usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
     "usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
     "usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
-    "usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
-    "usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
-    "usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
-    "usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
-    "usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
-    "usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
+    "usersubscriptions_subscription_status_trialing": { "other": "Próbaidő" },
+    "usersubscriptions_subscription_unsubscribe": { "other": "Lemondom az előfizetésemet" },
+    "usersubscriptions_unsubscribe_modal_cancel": { "other": "Megszünteti" },
+    "usersubscriptions_unsubscribe_modal_confirm": { "other": "Igen, mondd le az előfizetésemet" },
+    "usersubscriptions_unsubscribe_modal_title": { "other": "Feliratkozás visszavonása?" },
+    "usersubscriptions_unsubscribe_modal_body": { "other": "Ezzel törli az előfizetést a {{.Name}} csomagra. Továbbra is megtekintheti a csomag tartalmát, amíg le nem jár {{.Expiry}}." },
   
-    "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
+    "shopping_card_update_reason_none": { "other": "Frissítse hitelkártyáját. A támogatott kártyák a Visa, Mastercard és az American Express." },
   
     "availability_coming_soon": { "other": "Hamarosan" },
     "availability_renting": { "other": "Kölcsönözve" },
@@ -444,13 +444,13 @@
     "validation_terms_required": { "other": "Kérjük, fogadd el a Felhasználói szabályzatot." },
     "shopping_error_item_limit_exceeded": { "other": "Sajnáljuk, de {{.Title}} tételre már minden jegy elkelt." },
 
-    "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+    "shopping_card_change": { "other": "Hitelkártya nem megfelelő? <a href=\"{{.SubscriptionsURL}}\">Kattintson ide a kártya frissítéséhez.</a>" },
 
-    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+    "user_error_too_many_pin_errors": { "other": "<p>Úgy tűnik, hogy problémái vannak.</p><p>Állítsa vissza PIN-kódját, vagy forduljon hozzánk <a href=\"{{.HelpURL}}\" target=\"_blank\">segítségért</. a>" },
     
-    "app_badge_title": { "other": "Download the app to view your purchased content!" },
-    "app_badge_ios": { "other": "Download on the App Store" },
-    "app_badge_android": { "other": "Get it on Google Play" },
+    "app_badge_title": { "other": "Töltse le az alkalmazást a megvásárolt tartalmak megtekintéséhez!" },
+    "app_badge_ios": { "other": "Töltse le az App Store-ból" },
+    "app_badge_android": { "other": "Szerezd meg a Google Play" },
 
     "shopping_price_title_plan": {
       "other": "Ár"
@@ -526,76 +526,75 @@
     "donate_button_text": {
       "other": "Dhuroni"
     },
-    "wcag_skip_links_header": { "other": "Accessibility Links" },
-    "wcag_skip_links_content": { "other": "Skip to Content" },
-    "wcag_skip_links_footer": { "other": "Skip to Footer" },
+    "wcag_skip_links_header": { "other": "Kisegítő lehetőségek linkek" },
+    "wcag_skip_links_content": { "other": "Ugrás a tartalomra" },
   
-    "wcag_homepage_h1": { "other": "Homepage" },
-    "wcag_carousel_h2": { "other": "Carousel" },
-    "wcag_collections_h2": { "other": "Collections" },
+    "wcag_homepage_h1": { "other": "Kezdőlap" },
+    "wcag_carousel_h2": { "other": "Körhinta" },
+    "wcag_collections_h2": { "other": "Gyűjtemények" },
   
-    "wcag_aria_label_footer": { "other": "Footer" },
-    "wcag_aria_label_nav_main": { "other": "Main" },
-    "wcag_aria_label_nav_sub": { "other": "Sub" },
-    "wcag_aria_label_toggle_nav": { "other": "Toggle Navigation" },
-    "wcag_aria_label_bundle_items": { "other": "Bundle Items" },
-    "wcag_aria_label_carousel": { "other": "Carousel" },
-    "wcag_aria_label_page_collection": { "other": "Page Collection" },
-    "wcag_aria_label_collection_list": { "other": "Collection List" },
-    "wcag_aria_label_collection_slider": { "other": "Collection Slider" },
-    "wcag_aria_label_wishlist": { "other": "Wishlist" },
-    "wcag_aria_label_facebook": { "other": "Share on Facebook" },
-    "wcag_aria_label_twitter": { "other": "Share on Twitter" },
-    "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
-    "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+    "wcag_aria_label_footer": { "other": "Lábléc" },
+    "wcag_aria_label_nav_main": { "other": "Fő" },
+    "wcag_aria_label_nav_sub": { "other": "Alatti" },
+    "wcag_aria_label_toggle_nav": { "other": "Kapcsolja be a navigációt" },
+    "wcag_aria_label_bundle_items": { "other": "Csomag tételek" },
+    "wcag_aria_label_carousel": { "other": "Körhinta" },
+    "wcag_aria_label_page_collection": { "other": "Oldalgyűjtemény" },
+    "wcag_aria_label_collection_list": { "other": "Gyűjteménylista" },
+    "wcag_aria_label_collection_slider": { "other": "Gyűjteménycsúszka" },
+    "wcag_aria_label_wishlist": { "other": "Kívánság lista" },
+    "wcag_aria_label_facebook": { "other": "Megosztani Facebook" },
+    "wcag_aria_label_twitter": { "other": "Oszd meg a Twitter" },
+    "wcag_aria_label_linkedin": { "other": "Oszd meg a LinkedIn" },
+    "wcag_aria_label_letterboxd": { "other": "Megtekintés a Letterboxd" },
 
-    "shopping_error_plan_already_owned": { "other": "You already have this plan." },
-    "shopping_error_plan_expired": { "other": "This plan is no longer available." },
-    "shopping_payment_method_header": { "other": "Payment methods" },
-    "shopping_payment_method_credit_card": { "other": "Credit card" },
+    "shopping_error_plan_already_owned": { "other": "Már megvan ez a terv." },
+    "shopping_error_plan_expired": { "other": "Ez a terv már nem elérhető." },
+    "shopping_payment_method_header": { "other": "Fizetési módok" },
+    "shopping_payment_method_credit_card": { "other": "Hitelkártya" },
     "shopping_payment_method_giropay": { "other": "Giropay" },
-    "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
-    "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
+    "shopping_error_stripe_unknown_error": { "other": "Hiba történt ezzel a fizetéssel. Kérlek, próbáld újra később." },
+    "shopping_error_payment_complete_failed": { "other": "A fizetést elutasították. Zárja be ezt az ablakot, és próbálja újra." },
 
-    "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
+    "header_banner": { "other": "ABC Cinemas – 21. Filmfesztivál, 2021. június 1. és 6. között" },
 
     "account_form_pin_code": { "other": "PIN" },
-    "account_form_pin_code_not_set": { "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles."},
-    "account_form_set_pin": { "other": "Set PIN" },
-    "account_form_pin_changed": { "other": "Updated" },
-    "account_form_change_pin": { "other": "Change PIN" },
+    "account_form_pin_code_not_set": { "other": "Nincs beállítva PIN-kód, amely bizonyos címek megvásárlásához, kölcsönzéséhez és megtekintéséhez szükséges."},
+    "account_form_set_pin": { "other": "Állítsa be a PIN-kódot" },
+    "account_form_pin_changed": { "other": "Frissítve" },
+    "account_form_change_pin": { "other": "PIN módosítása" },
 
-    "user_set_pin_header": { "other": "Set your PIN" },
-    "user_set_pin_button": { "other": "Set PIN" },
-    "user_submit_pin_heading": { "other": "Enter your PIN to {{.Action}} this restricted content" },
-    "user_error_wrong_pin_retry": { "other": "Oops, you have entered an incorrect PIN" },
-    "user_submit_pin_button": { "other": "Enter" },
-    "user_reset_pin_button": { "other": "Reset PIN" },
+    "user_set_pin_header": { "other": "Állítsa be a PIN-kódot" },
+    "user_set_pin_button": { "other": "Állítsa be a PIN-kódot" },
+    "user_submit_pin_heading": { "other": "Adja meg PIN-kódját ehhez a korlátozott tartalomhoz {{.Action}}" },
+    "user_error_wrong_pin_retry": { "other": "Hoppá, hibás PIN-kódot adott meg" },
+    "user_submit_pin_button": { "other": "Belép" },
+    "user_reset_pin_button": { "other": "Állítsa vissza a PIN-kódot" },
 
-    "validation_pincode1_required": { "other": "Please enter a valid PIN code." },
-    "validation_pincode2_required": { "other": "Please enter a valid PIN code." },
-    "validation_pincode1_pattern": { "other": "Please enter a valid PIN code." },
-    "validation_pincode2_pattern": { "other": "Please enter a valid PIN code." },
-    "validation_pincode2_match": { "other": "PIN code does not match." },
+    "validation_pincode1_required": { "other": "Kérjük, adjon meg egy érvényes PIN kódot." },
+    "validation_pincode2_required": { "other": "Kérjük, adjon meg egy érvényes PIN kódot" },
+    "validation_pincode1_pattern": { "other": "Kérjük, adjon meg egy érvényes PIN kódot" },
+    "validation_pincode2_pattern": { "other": "Kérjük, adjon meg egy érvényes PIN kódot" },
+    "validation_pincode2_match": { "other": "A PIN kód nem egyezik." },
   
-    "userdevices_delete_limits": { "other": "You can remove {{.Limit}} device(s) from this list every {{.Period}} day(s)."},
-    "userdevices_delete_limit_reached": { "other": "You have reached this limit and can't remove any devices right now. You can delete a device in {{.Days}} day(s)." },
-    "shopping_card_new_subscription": { "other": "This card will be saved and charged regularly" },
+    "userdevices_delete_limits": { "other": "{{.Limit}} eszközt eltávolíthat a listáról minden {{.Period}} napon."},
+    "userdevices_delete_limit_reached": { "other": "Elérte ezt a korlátot, és jelenleg nem távolíthat el egyetlen eszközt sem. Egy eszközt {{.Days}} napon belül törölhet." },
+    "shopping_card_new_subscription": { "other": "Ezt a kártyát a rendszer elmenti és rendszeresen megterheli" },
 
-  "changepincode_modal_header": { "other": "Change your PIN" },
-  "changepincode_modal_currentpassword": { "other": "Your current password" },
-  "changepincode_modal_pincode1": { "other": "Your new 4 digit PIN" },
-  "changepincode_modal_pincode2": { "other": "Confirm your new 4 digit PIN" },
-  "changepincode_modal_submit": { "other": "Set PIN" },
-  "changepincode_modal_error_wrong_password": { "other": "That password is incorrect." },
+  "changepincode_modal_header": { "other": "Módosítsa a PIN-kódot" },
+  "changepincode_modal_currentpassword": { "other": "Az aktuális jelszavad" },
+  "changepincode_modal_pincode1": { "other": "Az új 4 számjegyű PIN-kód" },
+  "changepincode_modal_pincode2": { "other": "Erősítse meg új 4 számjegyű PIN-kódját" },
+  "changepincode_modal_submit": { "other": "Állítsa be a PIN-kódot" },
+  "changepincode_modal_error_wrong_password": { "other": "Ez a jelszó helytelen." },
 
-  "user_set_pin_intro": { "other": "You need a PIN to {{.Action}} restricted content"},
-  "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
+  "user_set_pin_intro": { "other": "A {{.Action}} korlátozott tartalomhoz PIN-kódra van szüksége"},
+  "user_error_wrong_pin_reset": { "other": "Kattintson ide a PIN-kód visszaállításához" },
   "user_error_too_many_pin_errors_help_page_link": { "other": "" },
-  "shopping_error_age_restricted": { "other": "This content is age restricted." },
+  "shopping_error_age_restricted": { "other": "Ez a tartalom korhatáros." },
   "shopping_error_close_button": { "other": "OK" }, 
 
-  "availability_expires": { "other": "Expires {{.Expiry}}" },
-  "availability_expired": { "other": "Expired"}
+  "availability_expires": { "other": "Lejár {{.Expiry}}" },
+  "availability_expired": { "other": "Lejárt"}
   }
   

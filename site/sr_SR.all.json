@@ -2,13 +2,13 @@
     "site_owner": { "other": "ABC Cinemas" },
     "settings_title": { "other": "Settings" },
     "powered_by": { "other": "Powered by" },
-    "powered_by_name": { "other": "ScreenPlus" },
-    "powered_by_url": { "other": "https://www.screenplus.com" },
-    "in_partnership_with": { "other": "in partnership with" },
+    "powered_by_name": { "other": "Shift72" },
+    "powered_by_url": { "other": "https://www.shift72.com" },
+    "in_partnership_with": { "other": "у сарадњи са" },
     "festival_scope": { "other": "Festival Scope" },
     "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
-    "en": { "other": "English" },
-    "fr": { "other": "French" },
+    "en": { "other": "английский" },
+    "fr": { "other": "Французский" },
   
     "episode_name": {
       "other": "Епизода"
@@ -19,24 +19,24 @@
     },
   
     "seasons":{
-      "one": "one season",
-      "other": "{{.Count}} seasons"
+      "one": "один сезон",
+      "other": "{{.Count}} сезоны"
     },
     "tvseason": {
-      "other": "{{.ShowInfo.Title}} Series {{.Season.SeasonNumber}}"
+      "other": "{{.ShowInfo.Title}} Ряд {{.Season.SeasonNumber}}"
     },
     "tvseason_html": {
-      "other": "{{.ShowInfo.Title}} <span>Series {{.Season.SeasonNumber}}</span>"
+      "other": "{{.ShowInfo.Title}} <span>Ряд {{.Season.SeasonNumber}}</span>"
     },
     "tvepisode": {
       "other": "{{.Episode.Title}}"
     },
     "tvseason_number": {
-      "other": "Series {{.Season.SeasonNumber}}"
+      "other": "Ряд {{.Season.SeasonNumber}}"
     },
     "episode_count": {
-      "one": "1 Episode",
-      "other": "{{.Count}} Episodes"
+      "one": "1 Эпизод",
+      "other": "{{.Count}} Эпизоды"
     },
   
     "date_day": { "other": "Дан" },
@@ -79,7 +79,7 @@
     "social_media_buttons_email": { "other": "Делите путем е-поште" },
     "social_media_buttons_email_subject": { "other": "Дељење везе" },
     "social_media_buttons_copied_link": { "other": "Линк је копиран у међуспремник!" },
-    "social_media_buttons_copy_link": { "other": "Копирај у међуспремник" },
+    "social_media_buttons_copy_link": { "other": "Копирај линк" },
   
     "accept_invite_page_header": { "other": "Добродошли " },
     "acceptinvite_form_invalid_reset_password_token": { "other": "Изгледа да сте већ активирали овај позив. Потребно је да се <a href=\"{{.SigninURL}}\">пријавите</a>. Ако сте заборавили лозинку, можете и да <a href=\"{{.ForgotPasswordURL}}\">ресетујете лозинку</a>." },
@@ -106,8 +106,8 @@
     "signup_page_alreadyhaveanaccount": { "other": "Већ имате налог? Пријавите се" },
     "signup_form_error_email_already_in_use": { "other": "Ова имејл адреса је већ употребљена." },
     "signin_form_error_incorrect_credentials": { "other": "Корисничко име или лозинка нису тачни." },
-    "signin_form_error_ip_throttled": { "other": "You have failed to sign in too many times. Please try again later." },
-    "signin_form_error_account_suspended": { "other": "Your account has been temporarily suspended. Please contact an admin if you believe this is in error." },
+    "signin_form_error_ip_throttled": { "other": "Не успели сте да се пријавите превише пута.Покушајте поново касније." },
+    "signin_form_error_account_suspended": { "other": "Ваш налог је привремено суспендован.Молимо контактирајте администратора ако верујете да је то грешка." },
   
     "signup_form_error_forbidden": { "other": "Догодила се грешка." },
   
@@ -150,11 +150,11 @@
     "account_form_submitted": { "other": "Ажурирано" },
     "account_form_password_changed": { "other": "Ажурирано" },
     "account_form_error_incorrect_password": { "other": "Лозинка је нетачна." },
-    "account_form_pin_code": { "other": "PIN" },
-    "account_form_pin_code_not_set": { "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles."},
-    "account_form_set_pin": { "other": "Set PIN" },
-    "account_form_pin_changed": { "other": "Updated" },
-    "account_form_change_pin": { "other": "Change PIN" },
+    "account_form_pin_code": { "other": "ПРИКОЛОТЬ" },
+    "account_form_pin_code_not_set": { "other": "У вас нет набора PIN, который требуется для покупки, аренды и наблюдения за некоторыми названиями."},
+    "account_form_set_pin": { "other": "Установить PIN-код" },
+    "account_form_pin_changed": { "other": "Обновленный" },
+    "account_form_change_pin": { "other": "Изменить PIN-код" },
   
 
   
@@ -175,7 +175,7 @@
     "userlibrary_empty_header":  { "other": "Ваша библиотека је празна." },
     "userlibrary_empty_content": { "other": "<a href=\"{{.HomeURL}}\">Прелистајте</a> нашу селекцију да је попуните." },
   
-    "searchresults_page_header": { "other": "Search Results" },
+    "searchresults_page_header": { "other": "результаты поиска" },
     "searchresults_load_more": { "other": "Учитај још {{.Count}} " },
     "searchresults_total": {
       "one": "Пронађен је 1 резултат за \"{{.Query}}\".",
@@ -193,19 +193,19 @@
     "validation_password2_match": { "other": "Лозинке се не подударају." },
     "validation_password_minlength": { "other": "Молимо Вас упишите најмање {{.Count}} карактера. " },
     "validation_promocode_required": { "other": "Молимо Вас упишите промотивни код." },
-    "validation_pincode_required": { "other": "Please enter a PIN code." },
+    "validation_pincode_required": { "other": "Унесите ПИН код." },
     "validation_gender_required": { "other": "Молимо Вас да одаберете пол са којим се идентификујете." },
     "validation_dob_required": { "other": "Молимо Вас упишите свој датум рођења." },
     "validation_dob_date": { "other": "Молимо Вас упишите исправан датум рођења." },
   
     "shopping_info_subtitle_hd": { "other": "ХД видео на захтев." },
-    "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
-    "shopping_info_subtitle_wallet": { "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus." },
+    "shopping_info_subtitle_sd": { "other": "SD видео по требованию." },
+    "shopping_info_subtitle_wallet": { "other": "Средства в вашем кошельке могут использоваться для покупки или аренда любого содержимого на ScreenPlus." },
     "shopping_info_subtitle_help": { "other": "Погледајте системске захтеве." },
     "shopping_info_ownership_buy": { "other": "куповина" },
     "shopping_info_ownership_rent": { "other": "изнајмљивање" },
   
-    "shopping_info_sd_only": { "other": "Limited to SD playback only." },
+    "shopping_info_sd_only": { "other": "Ограничено только для воспроизведения SD." },
     "shopping_info_release_date_title": { "other": "Излази {{.Date}}. " },
     "shopping_info_release_date_explanation_rent": { "other": "Можете одмах да изнајмите, али нећете моћи да гледате пре тога." },
     "shopping_info_release_date_explanation_buy": { "other": "Можете одмах да купите, али нећете моћи да гледате пре тога." },
@@ -273,7 +273,7 @@
     "shopping_error_creditcard_country_mismatch": { "other": "Ваш {{.Ownership}} није довршен. Морате бити у земљи у којој је кредитна картицаиздата. Молимо Вас користите другу картицу за плаћање." },
     "shopping_error_proxy_detected": { "other": "Ваш {{.Ownership}} није довршен. Препознали смо да користите деблокатор или прокси сервис. Молимо Вас искључите ове сервисе и покушајте поново." },
   
-    "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
+    "shopping_error_discount_worn_out": { "other": "Тај промо код се више не може користити." },
     "shopping_error_discount_blank": { "other": "Молимо Вас унесите промотивни код." },
     "shopping_error_discount_not_applied": { "other": "Молимо Вас унесите исправан промотивни код." },
     "shopping_error_discount_invalid": { "other": "Молимо Вас унесите исправан промотивни код." },
@@ -348,14 +348,14 @@
     "userwishlist_button_add_compact": { "other": "Моја листа" },
     "userwishlist_button_remove_compact": { "other": "Моја листа" },
   
-    "activatedevice_page_header": { "other": "Activate Device" },
-    "activatedevice_page_content": { "other": "Follow the instructions on your device to get a PIN code. Your computer and device must both be connected to the internet to activate." },
-    "activatedevice_form_pin": { "other": "PIN Code" },
-    "activatedevice_form_submit": { "other": "Activate" },
-    "activatedevice_form_error_invalid_code": { "other": "PIN Code not found, please try again." },
-    "activatedevice_form_error_pin_not_found": { "other": "PIN Code not found, please try again." },
-    "activatedevice_signin_prompt": { "other": "Please sign in before activating your device." },
-    "activatedevice_page_activated": { "other": "Thank you for activating {{.DeviceName}}. You should now be able to browse your library on your television or device." },
+    "activatedevice_page_header": { "other": "Активировать устройство" },
+    "activatedevice_page_content": { "other": "Следуйте инструкциям на вашем устройстве, чтобы получить PIN-код.Ваш компьютер и устройство должны быть подключены к Интернету для активации." },
+    "activatedevice_form_pin": { "other": "Пин-код" },
+    "activatedevice_form_submit": { "other": "Активировать" },
+    "activatedevice_form_error_invalid_code": { "other": "PIN-код не найден, пожалуйста, попробуйте еще раз." },
+    "activatedevice_form_error_pin_not_found": { "other": "PIN-код не найден, пожалуйста, попробуйте еще раз." },
+    "activatedevice_signin_prompt": { "other": "Пожалуйста, войдите, прежде чем активировать ваше устройство." },
+    "activatedevice_page_activated": { "other": "Спасибо за активируемость {{.DeviceName}}. Теперь вы должны иметь возможность просматривать вашу библиотеку на вашем телевизоре или устройстве." },
   
     "userdevices_page_header": { "other": "Уређаји" },
     "userdevices_page_content": {
@@ -370,13 +370,13 @@
     "userdevices_device_actions_cancel": { "other": "Откажите" },
     "userdevices_device_actions_confirm": { "other": "Да, уклони уређај" },
     "userdevices_device_deleted": { "other": "(Уклоњено)" },
-    "userdevices_delete_limits": { "other": "userdevices_delete_limits" },
-    "userdevices_delete_limit_reached": { "other": "userdevices_delete_limit_reached" },
+    "userdevices_delete_limits": { "other": "Вы можете удалить {{.Limit}} Устройство (ы) из этого списка каждый {{.Period}} День (ы)." },
+    "userdevices_delete_limit_reached": { "other": "Вы достигли этого предела и не можете удалить какие-либо устройства прямо сейчас.Вы можете удалить устройство в {{.Days}} День (ы)." },
   
-    "playlist_page_header": { "other": "Playlist" },
-    "playlist_sign_in_warning": { "other": "Please sign in to watch live TV."},
-    "playlist_share_title": { "other": "Playlist" },
-    "playlist_up_next_title": { "other": "Up Next" },
+    "playlist_page_header": { "other": "Плейлист" },
+    "playlist_sign_in_warning": { "other": "Пожалуйста, войдите, чтобы смотреть живое телевидение."},
+    "playlist_share_title": { "other": "Плейлист" },
+    "playlist_up_next_title": { "other": "Следующий" },
   
     "pricing_ownership_buy": { "other": "Купите" },
     "pricing_ownership_rent": { "other": "Изнајмите" },
@@ -397,46 +397,43 @@
     "users_gender_other": { "other": "Друго" },
 
   
-    "pricing_quality_hd": { "other": "pricing_quality_hd" },
-    "pricing_quality_sd": { "other": "pricing_quality_sd" },
-    "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
-    "pricing_quality_sd_only": { "other": "pricing_quality_sd_only" },
+    "pricing_quality_hd": { "other": "HD" },
+    "pricing_quality_sd": { "other": "SD" },
+    "pricing_quality_hd_only": { "other": "HD только" },
+    "pricing_quality_sd_only": { "other": "Только SD" },
   
-    "shopping_card_save_card": { "other": "Save this card for future use" },
-    "shopping_card_button_change": { "other": "Show all saved cards" },
-    "shopping_card_existing_description": { "other": "{{.Card.Brand}} ending in {{.Card.Number}}" },
-    "shopping_card_existing_expiry": { "other": "(expires {{.Card.Expiry}})" },
-    "shopping_card_existing_expired": { "other": "(expired)" },
-    "shopping_card_use_other": { "other": "Use a new card" },
-    "shopping_card_use_new_card": { "other": "Change card" },
-    "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
-    "shopping_card_new_subscription": { "other": "This card will saved and be charged regularly" },
-    "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+    "shopping_card_save_card": { "other": "Сохраните эту карту для будущего использования" },
+    "shopping_card_button_change": { "other": "Показать все сохраненные карты" },
+    "shopping_card_existing_description": { "other": "{{.Card.Brand}} кончающийся на {{.Card.Number}}" },
+    "shopping_card_existing_expiry": { "other": "(истекает {{.Card.Expiry}})" },
+    "shopping_card_existing_expired": { "other": "(истекший)" },
+    "shopping_card_use_other": { "other": "Использовать новую карту" },
+    "shopping_card_use_new_card": { "other": "Изменить карту" },
+    "shopping_card_update_reason_none": { "other": "Обновите свою кредитную карту.Поддерживаемые карты - виза, MasterCard и American Express." },
+    "shopping_card_new_subscription": { "other": "Эта карта будет спасена и регулярно планировать" },
+    "shopping_card_change": { "other": "Кредитная карта не правильная? <a href=\"{{.SubscriptionsURL}}\">Нажмите здесь, чтобы обновить свою карту.</a>" },
   
-    "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
-  
-
+    "shopping_info_ownership_plan": { "other": "Подписка" },
   
 
   
-    "shopping_action_credit": { "other": "shopping_action_credit" },
+
+  
+    "shopping_action_credit": { "other": "Пополнить" },
 
     "shopping_info_rental_period_coming_soon": { "other": "fод датума и времена " },
 
-    "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
-    "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
-    "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
-  
-    "usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
-    "usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
-    "usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
-    "usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
-    "usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
-    "usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
-    "usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
-    "usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
-    "usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
-    "usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
+    "usersubscriptions_change_payment_method_change": { "other": "Изменить кредитную карту" },
+    "usersubscriptions_change_payment_method_modal_title": { "other": "Обновить данные кредитной карты" },
+    "usersubscriptions_change_payment_method_modal_submit": { "other": "Обновлять" },
+
+    "usersubscriptions_subscription_expiry": { "other": "Истекает {{.Expiry}}" },
+    "usersubscriptions_subscription_status_trialing": { "other": "Испытательный срок" },
+    "usersubscriptions_subscription_unsubscribe": { "other": "Отменить мою подписку" },
+    "usersubscriptions_unsubscribe_modal_cancel": { "other": "Отмена" },
+    "usersubscriptions_unsubscribe_modal_confirm": { "other": "Да, отмените мою подписку" },
+    "usersubscriptions_unsubscribe_modal_title": { "other": "Отменить подписку?" },
+    "usersubscriptions_unsubscribe_modal_body": { "other": "Это отменит подписку на{{.Name}} строить планы.Вы все равно сможете посмотреть контент в плане, пока он не истечет {{.Expiry}}." },
   
   
     "availability_coming_soon": { "other": "Ускоро" },
@@ -461,29 +458,29 @@
     "validation_terms_required": { "other": "Потребно је да се сагласите са одредбама и условима." },
     "shopping_error_item_limit_exceeded": { "other": "Нажалост, {{.Title}} је распродат." },
   
-    "changepincode_modal_header": { "other": "Change your PIN" },
-    "changepincode_modal_currentpassword": { "other": "Your current password" },
-    "changepincode_modal_pincode1": { "other": "Your new 4 digit PIN" },
-    "changepincode_modal_pincode2": { "other": "Confirm your new 4 digit PIN" },
-    "changepincode_modal_submit": { "other": "Set PIN" },
-    "changepincode_modal_error_wrong_password": { "other": "That password is incorrect." },
+    "changepincode_modal_header": { "other": "Изменить свой PIN-код" },
+    "changepincode_modal_currentpassword": { "other": "ваш текущий пароль" },
+    "changepincode_modal_pincode1": { "other": "Ваш новый 4-значный PIN-код" },
+    "changepincode_modal_pincode2": { "other": "Подтвердите свой новый 4-значный PIN-код" },
+    "changepincode_modal_submit": { "other": "Установить PIN-код" },
+    "changepincode_modal_error_wrong_password": { "other": "Этот пароль неверный." },
   
-    "user_submit_pin_heading": { "other": "Enter your PIN to {{.Action}} this restricted content"},
-    "user_submit_pin_button": { "other": "Enter" },
-    "user_set_pin_intro": { "other": "You need a PIN to {{.Action}} restricted content"},
-    "user_set_pin_header": { "other": "Set your PIN" },
-    "user_set_pin_button": { "other": "Set PIN" },
-    "user_reset_pin_button": { "other": "Reset PIN" },
-    "user_error_wrong_pin_retry": { "other": "Oops, you have entered an incorrect PIN" },
-    "user_error_wrong_pin_reset": { "other": "Click here to reset your PIN" },
-    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+    "user_submit_pin_heading": { "other": "Введите свой PIN-код в {{.Action}} Это ограниченный контент"},
+    "user_submit_pin_button": { "other": "Войти" },
+    "user_set_pin_intro": { "other": "Вам нужен PIN-код до {{.Action}} Ограниченный контент"},
+    "user_set_pin_header": { "other": "Установите свой PIN-код" },
+    "user_set_pin_button": { "other": "Установить PIN-код" },
+    "user_reset_pin_button": { "other": "Сбросить PIN-код" },
+    "user_error_wrong_pin_retry": { "other": "Упс, вы ввели неверный PIN-код" },
+    "user_error_wrong_pin_reset": { "other": "Нажмите здесь, чтобы сбросить PIN-код" },
+    "user_error_too_many_pin_errors": { "other": "<p>Похоже, у тебя проблемы.</p><p>Сбросьте свой PIN-код или свяжитесь с нами для <a href=\"{{.HelpURL}}\" target=\"_blank\">помощь</a>" },
     "user_error_too_many_pin_errors_help_page_link": { "other": "" },
-    "shopping_error_age_restricted": { "other": "This content is age restricted." },
-    "shopping_error_close_button": { "other": "OK" },
+    "shopping_error_age_restricted": { "other": "Этот контент ограничен возрастом." },
+    "shopping_error_close_button": { "other": "Ok" },
 
-    "app_badge_title": { "other": "Download the app to view your purchased content!" },
-    "app_badge_ios": { "other": "Download on the App Store" },
-    "app_badge_android": { "other": "Get it on Google Play" },
+    "app_badge_title": { "other": "Загрузите приложение для просмотра вашего приобретенного контента!" },
+    "app_badge_ios": { "other": "Загрузить в App Store" },
+    "app_badge_android": { "other": "Получить его в Google Play" },
 
     "shopping_price_title_plan": {
       "other": "Цена"
@@ -559,43 +556,42 @@
     "donate_button_text": {
       "other": "Донирајте"
     },
-    "wcag_skip_links_header": { "other": "Accessibility Links" },
-    "wcag_skip_links_content": { "other": "Skip to Content" },
-    "wcag_skip_links_footer": { "other": "Skip to Footer" },
+    "wcag_skip_links_header": { "other": "Ссылки на доступность" },
+    "wcag_skip_links_content": { "other": "Перейти к содержанию" },
   
-    "wcag_homepage_h1": { "other": "Homepage" },
-    "wcag_carousel_h2": { "other": "Carousel" },
-    "wcag_collections_h2": { "other": "Collections" },
+    "wcag_homepage_h1": { "other": "Главная страница" },
+    "wcag_carousel_h2": { "other": "Карусель" },
+    "wcag_collections_h2": { "other": "Коллекции" },
   
-    "wcag_aria_label_footer": { "other": "Footer" },
-    "wcag_aria_label_nav_main": { "other": "Main" },
-    "wcag_aria_label_nav_sub": { "other": "Sub" },
-    "wcag_aria_label_toggle_nav": { "other": "Toggle Navigation" },
-    "wcag_aria_label_bundle_items": { "other": "Bundle Items" },
-    "wcag_aria_label_carousel": { "other": "Carousel" },
-    "wcag_aria_label_page_collection": { "other": "Page Collection" },
-    "wcag_aria_label_collection_list": { "other": "Collection List" },
-    "wcag_aria_label_collection_slider": { "other": "Collection Slider" },
-    "wcag_aria_label_wishlist": { "other": "Wishlist" },
-    "wcag_aria_label_facebook": { "other": "Share on Facebook" },
-    "wcag_aria_label_twitter": { "other": "Share on Twitter" },
-    "wcag_aria_label_linkedin": { "other": "Share on LinkedIn" },
-    "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+    "wcag_aria_label_footer": { "other": "Нижний колонтин" },
+    "wcag_aria_label_nav_main": { "other": "Основной" },
+    "wcag_aria_label_nav_sub": { "other": "Подразделение" },
+    "wcag_aria_label_toggle_nav": { "other": "Переключить навигацию" },
+    "wcag_aria_label_bundle_items": { "other": "Пучок предметаs" },
+    "wcag_aria_label_carousel": { "other": "Карусель" },
+    "wcag_aria_label_page_collection": { "other": "Коллекция страницы" },
+    "wcag_aria_label_collection_list": { "other": "Список коллекции" },
+    "wcag_aria_label_collection_slider": { "other": "Сладер коллекции" },
+    "wcag_aria_label_wishlist": { "other": "Список желаний" },
+    "wcag_aria_label_facebook": { "other": "Поделиться через фейсбук" },
+    "wcag_aria_label_twitter": { "other": "Поделиться в Twitter" },
+    "wcag_aria_label_linkedin": { "other": "Поделиться на LinkedIn" },
+    "wcag_aria_label_letterboxd": { "other": "Просмотр на letterboxd" },
 
-    "shopping_error_plan_already_owned": { "other": "You already have this plan." },
-    "shopping_error_plan_expired": { "other": "This plan is no longer available." },
-    "shopping_payment_method_header": { "other": "Payment methods" },
-    "shopping_payment_method_credit_card": { "other": "Credit card" },
-    "shopping_payment_method_giropay": { "other": "Giropay" },
-    "shopping_error_stripe_unknown_error": { "other": "Something went wrong with this payment. Please try again later." },
-    "shopping_error_payment_complete_failed": { "other": "The payment was declined. Close this window and try again." },
+    "shopping_error_plan_already_owned": { "other": "У вас уже есть этот план." },
+    "shopping_error_plan_expired": { "other": "Этот план больше не доступен." },
+    "shopping_payment_method_header": { "other": "Способы оплаты" },
+    "shopping_payment_method_credit_card": { "other": "Кредитная карта" },
+    "shopping_payment_method_giropay": { "other": "Гиропай" },
+    "shopping_error_stripe_unknown_error": { "other": "Что-то пошло не так с этим платежом.Пожалуйста, попробуйте позже." },
+    "shopping_error_payment_complete_failed": { "other": "Оплата была отклонена.Закройте это окно и попробуйте снова." },
 
-    "validation_pincode1_required": { "other": "Please enter a valid PIN code." },
-  "validation_pincode2_required": { "other": "Please enter a valid PIN code." },
-  "validation_pincode1_pattern": { "other": "Please enter a valid PIN code." },
-  "validation_pincode2_pattern": { "other": "Please enter a valid PIN code." },
-  "validation_pincode2_match": { "other": "PIN code does not match." },
+    "validation_pincode1_required": { "other": "Пожалуйста, введите действительный PIN-код." },
+  "validation_pincode2_required": { "other": "Пожалуйста, введите действительный PIN-код." },
+  "validation_pincode1_pattern": { "other": "Пожалуйста, введите действительный PIN-код." },
+  "validation_pincode2_pattern": { "other": "Пожалуйста, введите действительный PIN-код." },
+  "validation_pincode2_match": { "other": "PIN-код не совпадает." },
 
-  "header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" }
+  "header_banner": { "other": "Знамя заголовка" }
   
   }

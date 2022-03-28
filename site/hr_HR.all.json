@@ -1,8 +1,14 @@
 {
   "site_owner": { "other": "ABC Cinemas" },
-    "settings_title": { "other": "Settings" },
+  "settings_title": { "other": "Settings" },
   "powered_by": { "other": "Sadržaj omogućio" },
+  "powered_by_name": { "other": "Shift72" },
+  "powered_by_url": { "other": "https://www.screenplus.com" },
   "in_partnership_with": { "other": "u suradnji s" },
+  "festival_scope": { "other": "Festival Scope" },
+  "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
+  "en": { "other": "English" },
+  "fr": { "other": "French" },
 
   "episode_name": { "other": "Epizoda" },
 
@@ -31,7 +37,8 @@
   "nav_wishlist": { "other": "Moj popis" },
   "nav_account": { "other": "Moj račun" },
   "nav_signout": { "other": "Odjava" },
-  "play_trailer": { "other": "Trailer" },
+  "play_trailer": { "other": "Prikolica" },
+  "header_banner": { "other": "ABC Cinemas – 21. filmski festival, 1. – 6. lipnja 2021" },
   "runtime_hours": { "other": "h" },
   "runtime_minutes": { "other": "min" },
 
@@ -54,7 +61,7 @@
   "social_media_buttons_email": { "other": "Podijelite putem e-pošte" },
   "social_media_buttons_email_subject": { "other": "Dijeljenje veze" },
   "social_media_buttons_copied_link": { "other": "Veza je kopirana u međuspremnik!" },
-  "social_media_buttons_copy_link": { "other": "Kopirati u međuspremnikKopirati u međuspremnik" },
+  "social_media_buttons_copy_link": { "other": "Kopiraj link" },
 
   "accept_invite_page_header": { "other": "Dobrodošli " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Ovaj pozivni kod je već iskorišten i potrebna je ponovna <a href=\"{{.SigninURL}}\">prijava</a>. Ako ste zaboravili lozinku, možete je <a href=\"{{.ForgotPasswordURL}}\">resetirati</a>." },
@@ -161,7 +168,7 @@
   "searchresults_total": { "other": "Pronađeno {{.Count}} rezultata za \"{{.Query}}\"." },
   "searchresults_empty_header": { "other": "Nema rezultata pretrage za \"{{.Query}}\"" },
   "searchresults_empty_content": { "other": "Pokušajte s drugim terminom za pretragu ili <a href=\"{{.HomeURL}}\">pretražite sadržaje</a> kako bi pronašli ono što tražite." },
-  
+
   "validation_name_required": { "other": "Molimo unesite ime." },
   "validation_email_required": { "other": "Molimo unesite email adresu." },
   "validation_email_email": { "other": "Molimo unesite valjanu email adresu." },
@@ -213,9 +220,10 @@
   "shopping_info_watch_window_explanation2_season": { "other": "Nakon pokretanja epizode, otvara se prozor prikazivanja i imate na raspolaganju {{.Count}} sati za gledanje epizode, koliko puta želite." },
   
   "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },
-  "shopping_enter_card_prompt": { "other": "Unesite podatke s vaše kreditne kartice za završetak {{.Verb}}." },
-  "shopping_terms": { "other": "Izvršavanjem transakcije, prihvaćam <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">uvjete korištenja</a>." },
 
+  "shopping_enter_card_prompt": { "other": "Unesite podatke s vaše kreditne kartice za završetak {{.Verb}}." },
+
+  "shopping_terms": { "other": "Izvršavanjem transakcije, prihvaćam <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">uvjete korištenja</a>." },
   "shopping_discount_applied": { "other": "{{.DiscountAmount}} popust iskorišten." },
   "shopping_discount_apply": { "other": "Iskoristi" },
   "shopping_discount_code": { "other": "Unesite promotivni kod." },
@@ -224,6 +232,7 @@
   "shopping_price_you_pay": { "other": "Plaćate" },
   "shopping_price_nothing": { "other": "Ništa" },
   "shopping_price_free": { "other": "Besplatno" },
+  
   "shopping_auth_directions": { "other": "Potreban je korisnički račun. Molimo unesite email adresu." },
 
   "shopping_error_in_library": { "other": "{{.Title}} se već nalazi u vašoj zbirci." },
@@ -355,7 +364,7 @@
   "shopping_card_existing_expired": { "other": "(istekla)" },
   "shopping_card_use_other": { "other": "Koristite novu karticu" },
   "shopping_card_use_new_card": { "other": "Promijenite karticu" },
-  "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
+  "shopping_card_update_reason_none": { "other": "Ažurirajte svoju kreditnu karticu. Podržane kartice su Visa, Mastercard i American Express." },
   "shopping_card_new_subscription": { "other": "Ova kartica će biti pohranjena za redovitu naplatu" },
   "shopping_card_change": { "other": "Kreditna kartica nije ispravna? <a href=\"{{.SubscriptionsURL}}\">Pritisnite ovdje za ažuriranje kartice.</a>" },
   "shopping_info_rental_period_coming_soon": { "other": "od datuma i sata objavljivanja." },
@@ -363,7 +372,7 @@
   "availability_coming_soon": { "other": "Uskoro dostupno" },
   "availability_renting": { "other": "Posudba" },
   "availability_not_available": { "other": "Nije dostupno" },
-  "availability_in_watch_window": { "other": "availability_in_watch_window" },
+  "availability_in_watch_window": { "other": "Dostupno u prozoru sata" },
   "availability_sold_out": { "other": "Rasprodano" },
   "availability_available_till": { "other": "Dostupno do {{.ExpiryDate}}" },
   "availability_not_available_in_country": { "other": "Nije dostupno u vašoj zemlji" },
@@ -396,7 +405,6 @@
   
   "wcag_skip_links_header": { "other": "Poveznice pristupačnosti" },
   "wcag_skip_links_content": { "other": "Idi na sadržaj" },
-  "wcag_skip_links_footer": { "other": "Idi na podnožje" },
   "wcag_homepage_h1": { "other": "Početna stranica" },
   "wcag_carousel_h2": { "other": "Kružni prikaz" },
   "wcag_collections_h2": { "other": "Zbirke" },
@@ -489,50 +497,45 @@
     "other": "Donirajte"
   },
 
-  "shopping_error_plan_already_owned": { "other": "You already have this plan." },
-  "shopping_error_plan_expired": { "other": "This plan is no longer available." },
+  "shopping_error_plan_already_owned": { "other": "Već imate ovaj plan." },
+  "shopping_error_plan_expired": { "other": "Ovaj plan više nije dostupan." },
 
-  "usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
-"usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
-"usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
-"usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
-"usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
-"usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
-"usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
-"usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
-"usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
-"usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
+  "usersubscriptions_subscription_expiry": { "other": "Istječe {{.Expiry}}" },
+  "usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
+  "usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
+  "usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
+  "usersubscriptions_subscription_status_trialing": { "other": "Probni rok" },
+  "usersubscriptions_subscription_unsubscribe": { "other": "Otkaži moju pretplatu" },
+  "usersubscriptions_unsubscribe_modal_cancel": { "other": "Otkazati" },
+  "usersubscriptions_unsubscribe_modal_confirm": { "other": "Da, otkaži moju pretplatu" },
+  "usersubscriptions_unsubscribe_modal_title": { "other": "Otkazati pretplatu?" },
+  "usersubscriptions_unsubscribe_modal_body": { "other": "Time će se otkazati pretplata na plan {{.Name}}. I dalje ćete moći gledati sadržaj u planu dok ne istekne {{.Expiry}}." },
 
-"powered_by_name": { "other": "Shift72" },
-"powered_by_url": { "other": "https://www.screenplus.com" },
-"festival_scope": { "other": "Festival Scope" },
-"festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
-"en": { "other": "English" },
-"fr": { "other": "French" },
 
-"nav_homepage": { "other": "ABC Cinemas" },
-"header_banner": { "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021" },
 
-"classification_divider": { "other": " - " },
-"classification_outro": { "other": "" },
+  "nav_homepage": { "other": "ABC Cinemas" },
 
-  "pricing_quality_hd": { "other": "pricing_quality_hd" },
-  "pricing_quality_sd": { "other": "pricing_quality_sd" },
-  "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
-  "pricing_quality_sd_only": { "other": "pricing_quality_sd_only" },
 
-  "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
-  "shopping_action_credit": { "other": "shopping_action_credit" },
+  "classification_divider": { "other": " - " },
+  "classification_outro": { "other": "" },
 
-  "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
-  "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
-  "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
+  "pricing_quality_hd": { "other": "HD" },
+  "pricing_quality_sd": { "other": "SD" },
+  "pricing_quality_hd_only": { "other": "HD Only" },
+  "pricing_quality_sd_only": { "other": "SD Only" },
 
-  "app_badge_title": { "other": "Download the app to view your purchased content!" },
-  "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" }, 
+  "shopping_info_ownership_plan": { "other": "Pretplata" },
+  "shopping_action_credit": { "other": "Dopuniti" },
 
-  "wcag_aria_label_letterboxd": { "other": "View on Letterboxd" },
+  "usersubscriptions_change_payment_method_change": { "other": "Promjena kreditne kartice" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "Ažurirajte podatke o kreditnoj kartici" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "Ažuriraj" },
+
+  "app_badge_title": { "other": "Preuzmite aplikaciju za pregled kupljenog sadržaja!" },
+  "app_badge_ios": { "other": "Preuzmite na App Storeu" },
+  "app_badge_android": { "other": "Nabavite ga na Google Playu" }, 
+
+  "wcag_aria_label_letterboxd": { "other": "Pogled na Letterboxd" },
 
   "user_error_too_many_pin_errors_help_page_link": { "other": "" }
 
