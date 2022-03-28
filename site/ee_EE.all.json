@@ -525,12 +525,14 @@
   "awards_winner_of": {
     "other": "Võitja"
   },
+  "awards_winner": {
+    "other": "Võitja"
+  },
   "donate_button_text": {
     "other": "Anneta"
   },
   "wcag_skip_links_header": { "other": "Juurdepääsetavuse lingid" },
   "wcag_skip_links_content": { "other": "Jätke sisu juurde" },
-  "wcag_skip_links_footer": { "other": "Jätke jaluse juurde" },
 
   "wcag_homepage_h1": { "other": "Koduleht" },
   "wcag_carousel_h2": { "other": "Karussell" },

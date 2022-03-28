@@ -1101,9 +1101,6 @@
   "wcag_skip_links_content": {
    "other": "Saltar al contingut"
   },
-  "wcag_skip_links_footer": {
-   "other": "Saltar a peu de pàgina"
-  },
   "wcag_homepage_h1": {
    "other": "Pàgina principal"
   },
@@ -1232,6 +1229,9 @@
   },
   "awards_winner_of": {
     "other": "Guanyador de"
+  },
+  "awards_winner": {
+    "other": "Guanyador"
   },
   "donate_button_text": {
     "other": "Donar"

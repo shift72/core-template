@@ -530,8 +530,7 @@
   "shopping_error_close_button": { "other": "OK" },
 
   "wcag_skip_links_header": { "other": "Accessibility Links" },
-  "wcag_skip_links_content": { "other": "Skip to Content" },
-  "wcag_skip_links_footer": { "other": "Skip to Footer" },
+  "wcag_skip_links_content": { "other": "Skip to main content" },
 
   "wcag_homepage_h1": { "other": "Homepage" },
   "wcag_carousel_h2": { "other": "Carousel" },
@@ -569,5 +568,9 @@
   "plan_free_link_text": { "other": "Sign up for free" },
 
   "awards_nominated_for": { "other": "Nominated for" },
-  "awards_in_competition": { "other": "In Competition" }
+  "awards_in_competition": { "other": "In Competition" },
+  "awards_winner_of": { "other": "Winner of" },
+  "awards_winner": { "other": "Winner" },
+
+  "donate_button_text": { "other": "Donate" }
 }

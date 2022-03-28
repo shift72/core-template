@@ -488,7 +488,6 @@
   
     "wcag_skip_links_header": { "other": "روابط الوصول" },
     "wcag_skip_links_content": { "other": "روابط الوصول" },
-    "wcag_skip_links_footer": { "other": "التخطي حتى الأسفل" },
   
     "wcag_homepage_h1": { "other": "الصفحة الرئيسية" },
     "wcag_carousel_h2": { "other": "المشاركات الدائرية" },
@@ -591,6 +590,7 @@
     "app_badge_ios": { "other": "قم بالتحميل من متجر البرامج" },
     "app_badge_android": { "other": "احصل عليه من متجر جوجل للتطبيقات" },
 
-    "awards_winner_of": { "other": "الفائز ب" }
+    "awards_winner_of": { "other": "الفائز ب" },
+    "awards_winner": { "other": "الفائز" }
 
   } 
