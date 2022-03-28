@@ -8,7 +8,6 @@ s72-carousel {
 .s72-carousel-slides {
   background: $carousel-bg-color;
   height: var(--carousel-height) !important;
-  overflow: hidden;
   position: relative;
   width: 100%;
   @include media-breakpoint-up(sm) {
@@ -64,6 +63,10 @@ s72-carousel {
       }
     }
   }
+
+  .s72-pricing-button-container {
+    white-space: nowrap;
+  }
 }
 
 .s72-carousel-item {
@@ -104,6 +107,11 @@ s72-carousel {
   position: absolute;
   top: var(--carousel-caption-top);
   z-index: 999;
+  @include media-breakpoint-up(xs) {
+    left: 60px;
+    top: var(--carousel-caption-top-xs);
+    width: 70%;
+  }
   @include media-breakpoint-up(md) {
     left: 60px;
     top: var(--carousel-caption-top-md);
@@ -212,7 +220,6 @@ s72-carousel {
 
     .meta-item-extras {
       @extend .d-flex;
-      padding: 0 0 20px;
     }
 
     .btn-wishlist {
@@ -220,18 +227,34 @@ s72-carousel {
     }
   }
 
-  .s72-pricing-button-container {
-    .s72-btn {
-      margin-bottom: 10px;
+  // Purchase, play, trailer, wishlist and share are all in one group now
+  // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
+  .meta-item-buttons {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
 
+    /* stylelint-disable selector-max-compound-selectors */
+    s72-pricing-buttons .s72-btn,
+    .meta-detail-extras,
+    .meta-item-extras,
+    s72-play-button,
+    can-be-watched-button:not(:empty) {
+      margin-bottom: 10px;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+
+    // Handles spacing when there is only rent, only buy, or only play button
+    s72-pricing-buttons .s72-btn,
+    s72-play-button {
       &:nth-child(1) {
+        margin-right: 0;
+      }
+      &:only-child {
         margin-right: 0.5rem;
       }
-
-      &:nth-child(2) {
-        margin-left: 0;
-      }
     }
+    /* stylelint-enable selector-max-compound-selectors */
   }
 
   .s72-btn-play {

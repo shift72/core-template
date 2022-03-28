@@ -1,14 +1,14 @@
 {
     "site_owner": { "other": "ABC Cinemas" },
     "settings_title": { "other": "Settings" },
-    "powered_by": { "other": "Powered by" },
-    "powered_by_name": { "other": "ScreenPlus" },
-    "powered_by_url": { "other": "https://www.screenplus.com" },
-    "in_partnership_with": { "other": "in partnership with" },
+    "powered_by": { "other": "Tarafından desteklenmektedir" },
+    "powered_by_name": { "other": "Shift72" },
+    "powered_by_url": { "other": "https://www.shift72.com" },
+    "in_partnership_with": { "other": "İle ortaklığa" },
     "festival_scope": { "other": "Festival Scope" },
     "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
-    "en": { "other": "English" },
-    "fr": { "other": "French" },
+    "en": { "other": "ingilizce" },
+    "fr": { "other": "Fransızca" },
   
     "episode_name": {
       "other": "Bölüm"
@@ -19,24 +19,24 @@
     },
   
     "seasons":{
-      "one": "one season",
-      "other": "{{.Count}} seasons"
+      "one": "bir sezon",
+      "other": "{{.Count}} sezon"
     },
     "tvseason": {
-      "other": "{{.ShowInfo.Title}} Series {{.Season.SeasonNumber}}"
+      "other": "{{.ShowInfo.Title}} Dizi {{.Season.SeasonNumber}}"
     },
     "tvseason_html": {
-      "other": "{{.ShowInfo.Title}} <span>Series {{.Season.SeasonNumber}}</span>"
+      "other": "{{.ShowInfo.Title}} <span>Dizi {{.Season.SeasonNumber}}</span>"
     },
     "tvepisode": {
       "other": "{{.Episode.Title}}"
     },
     "tvseason_number": {
-      "other": "Series {{.Season.SeasonNumber}}"
+      "other": "Dizi {{.Season.SeasonNumber}}"
     },
     "episode_count": {
-      "one": "1 Episode",
-      "other": "{{.Count}} Episodes"
+      "one": "1 Bölüm",
+      "other": "{{.Count}} Epizotlar"
     },
   
     "date_day": { "other": "Gün" },
@@ -44,7 +44,7 @@
     "date_year": { "other": "Yıl" },
   
     "404_page_header": { "other": "Sayfa bulunamadı…" },
-    "404_page_content": { "other": "<p>Sorry, it looks like the page that you're looking for doesn't exist.</p><p>It could have been moved or deleted, or perhaps you misspelled something.</p><p>Try going back to the homepage to find what you were looking for.</p><p><a href=\"{{.URL}}\">Back to the Homepage</a></p>" },
+    "404_page_content": { "other": "<p>Üzgünüz, aradığınız sayfa var gibi görünmüyor.</p><p>Taşınmış veya silinmiş olabilir veya belki bir şey yanlış yazdı.</p><p>Aradığınızı bulmak için ana sayfaya geri dönmeyi deneyin.</p><p><a href=\"{{.URL}}\">Ana sayfaya geri dön</a></p>" },
   
   
     "nav_homepage": { "other": "ABC Cinemas" },
@@ -81,11 +81,11 @@
     "social_media_buttons_copied_link": { "other": "Link kopyalandı!" },
     "social_media_buttons_copy_link": { "other": "Panoya kopyala" },
 
-    "accept_invite_page_header": { "other": "Hoşgeldiniz" },
-    "acceptinvite_form_invalid_reset_password_token": { "other": "Görünüşe göre bu davet talebini zaten yapmışsınız, onun yerine <a href=\"{{.SigninURL}}\">sign in</a> denemelisiniz. Parolanızı unuttuysanız, parolanızı ayrıca <a href=\"{{.ForgotPasswordURL}}\"> sıfırlayabilirsiniz." },
+    "accept_invite_page_header": { "other": "Hoşgeldiniz " },
+    "acceptinvite_form_invalid_reset_password_token": { "other": "Görünüşe göre bu davet talebini zaten yapmışsınız, onun yerine <a href=\"{{.SigninURL}}\">kayıt olmak</a> denemelisiniz. Parolanızı unuttuysanız, parolanızı ayrıca <a href=\"{{.ForgotPasswordURL}}\"> sıfırlayabilirsiniz</a>." },
     "acceptinvite_complete": { "other": "Teşekkürler. Hesabınız oluşturuldu." },
     "acceptinvite_form_submit": { "other": "Daveti Kabul Et." },
-    "acceptinvite_agreement": { "other": "Daveti Kabul Et butonuna tıklayarak, <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a> and <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">privacy policy</a> okuyup anladığınızı kabul etmiş olacaksınız." },
+    "acceptinvite_agreement": { "other": "Daveti Kabul Et butonuna tıklayarak, <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terimler &amp; koşullar</a> ve <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">Gizlilik Politikası</a> okuyup anladığınızı kabul etmiş olacaksınız." },
   
     "signup_page_header": { "other": "Yeni Hesap Oluştur" },
     "signup_form_name": { "other": "İsim" },
@@ -106,8 +106,8 @@
     "signup_page_alreadyhaveanaccount": { "other": "Zaten bir hesabınız var mı? Oturum Aç" },
     "signup_form_error_email_already_in_use": { "other": "Bu e-posta adresi zaten kullanılıyor." },
     "signin_form_error_incorrect_credentials": { "other": "Kullanıcı adı veya parola yanlış." },
-    "signin_form_error_ip_throttled": { "other": "You have failed to sign in too many times. Please try again later." },
-    "signin_form_error_account_suspended": { "other": "Your account has been temporarily suspended. Please contact an admin if you believe this is in error." },
+    "signin_form_error_ip_throttled": { "other": "Çok fazla giriş yapamadınız.Lütfen daha sonra tekrar deneyiniz." },
+    "signin_form_error_account_suspended": { "other": "Hesabınız geçici olarak askıya alındı.Lütfen bunun hatalı olduğuna inanıyorsanız, lütfen bir yönetici ile iletişime geçin. "},
   
     "signup_form_error_forbidden": { "other": "Bir hata oluştu." },
   
@@ -186,19 +186,19 @@
     "validation_password2_match": { "other": "Parola eşleşmemektedir." },
     "validation_password_minlength": { "other": "Lütfen en az (sayı) karakter giriniz." },
     "validation_promocode_required": { "other": "Lütfen bir promosyon kodu giriniz." },
-    "validation_pincode_required": { "other": "Please enter a PIN code." },
+    "validation_pincode_required": { "other": "Lütfen bir PIN kodu girin." },
     "validation_gender_required": { "other": "Lütfen size en yakın cinsiyeti belirtiniz." },
     "validation_dob_required": { "other": "Lütfen doğum tarihinizi giriniz." },
     "validation_dob_date": { "other": "Lütfen geçerli bir doğum tarihi giriniz." },
 
     "shopping_info_subtitle_hd": { "other": "Talep Üzerine HD Video." },
-    "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
-    "shopping_info_subtitle_wallet": { "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus." },
+    "shopping_info_subtitle_sd": { "other": "Talep üzerine SD video." },
+    "shopping_info_subtitle_wallet": { "other": "Cüzdanınızdaki fonlar, ekrandaki herhangi bir içeriğin satın alınması veya kiralanması için kullanılabilir." },
     "shopping_info_subtitle_help": { "other": "Sistem gereksinimleri için buraya bakınız." },
     "shopping_info_ownership_buy": { "other": "satın al" },
     "shopping_info_ownership_rent": { "other": "kirala" },
 
-    "shopping_info_sd_only": { "other": "Limited to SD playback only." },
+    "shopping_info_sd_only": { "other": "Sadece SD oynatma ile sınırlıdır. " },
     "shopping_info_release_date_title": { "other": "Yayın {{.Date}}. " },
     "shopping_info_release_date_explanation_rent": { "other": " Şu an kiralayabilirsiniz ama o zamana kadar izleyemeyeceksiniz." },
     "shopping_info_release_date_explanation_buy": { "other": "Şu an satın alabilirsiniz ama o zamana kadar izleyemeyeceksiniz." },
@@ -266,7 +266,7 @@
     "shopping_error_creditcard_country_mismatch": { "other": "niz {{.Ownership}} tamamlanmadı. Kredi kartınızın basıldığı ülkede olmanız gerekiyor. Lütfen ödemeyi yapmak için başka bir kart kullanın." },
     "shopping_error_proxy_detected": { "other": "niz {{.Ownership}} tamamlanmadı. Blok kaldırıcı ya da proxy hizmeti kullandığınızı tespit ettik. Lütfen bu hizmetlerin hepsini kapatıp tekrar deneyin." },
 
-    "shopping_error_discount_worn_out": { "other": "That promo code can no longer be used." },
+    "shopping_error_discount_worn_out": { "other": "Bu promosyon kodu artık kullanılamaz." },
     "shopping_error_discount_blank": { "other": "Lütfen promosyon kodu girin." },
     "shopping_error_discount_not_applied": { "other": "Lütfen geçerli bir promosyon kodu girin." },
     "shopping_error_discount_invalid": { "other": "Lütfen geçerli bir promosyon kodu girin." },
@@ -283,7 +283,6 @@
     "shopping_error_discounts_not_allowed": { "other": "Bu promosyon kodu kullanılamaz." },
     "shopping_error_discount_disallowed_on_bundles": { "other": "That promo code can not be used on bundles." },
     "shopping_error_payment_intent_authentication_failure": { "other": "Kredi Kartınız reddedildi. Lütfen tekrar deneyin." },
-    "shopping_error_item_limit_exceeded": { "other": "{{.Title}} için sınırlı sayıdaki izleme kapasitemiz dolmuştur." },
 
     "shopping_complete_rental": { "other": "Başardınız!" },
     "shopping_complete_rental_period": {
@@ -324,6 +323,7 @@
     "meta_detail_studios": { "one": "Stüdyo", "other": "Stüdyolar" },
     "meta_detail_countries": { "one": "Ülke", "other": "Ülkeler" },
     "meta_detail_subtitles": { "other": "Altyazılar" },
+    "meta_detail_captions": { "other": "Altyazılar [CC]" },
     "meta_detail_episodes_title": { "other": "Bölümler" },
     "meta_detail_bonus_title": { "other": "Bonus İçerik" },
     "meta_detail_recommendations_title": { "other": "Bunu da beğenebilirsiniz" },
@@ -341,14 +341,14 @@
     "userwishlist_button_add_compact": { "other": "Benim Listem" },
     "userwishlist_button_remove_compact": { "other": "Benim Listem" },
   
-    "activatedevice_page_header": { "other": "Activate Device" },
-    "activatedevice_page_content": { "other": "Follow the instructions on your device to get a PIN code. Your computer and device must both be connected to the internet to activate." },
-    "activatedevice_form_pin": { "other": "PIN Code" },
-    "activatedevice_form_submit": { "other": "Activate" },
-    "activatedevice_form_error_invalid_code": { "other": "PIN Code not found, please try again." },
-    "activatedevice_form_error_pin_not_found": { "other": "PIN Code not found, please try again." },
-    "activatedevice_signin_prompt": { "other": "Please sign in before activating your device." },
-    "activatedevice_page_activated": { "other": "Thank you for activating {{.DeviceName}}. You should now be able to browse your library on your television or device." },
+    "activatedevice_page_header": { "other": "Cihazı Etkinleştir" },
+    "activatedevice_page_content": { "other": "PIN kodu almak için cihazınızdaki talimatları izleyin.Bilgisayarınız ve cihazınızın etkinleştirmek için İnternet'e bağlanması gerekir." },
+    "activatedevice_form_pin": { "other": "PIN kodu" },
+    "activatedevice_form_submit": { "other": "Aktif hale getirmek" },
+    "activatedevice_form_error_invalid_code": { "other": "PIN kodu bulunamadı, lütfen tekrar deneyin." },
+    "activatedevice_form_error_pin_not_found": { "other": "PIN kodu bulunamadı, lütfen tekrar deneyin." },
+    "activatedevice_signin_prompt": { "other": "Cihazınızı etkinleştirmeden önce lütfen giriş yapın." },
+    "activatedevice_page_activated": { "other": "Etkinleştirdiğiniz için teşekkür ederiz{{.DeviceName}}. Artık kütüphanenize televizyonunuzda veya cihazınıza gözden geçirmeniz gerekir." },
   
     "userdevices_page_header": { "other": "Cihazlar" },
     "userdevices_page_content": {
@@ -364,10 +364,10 @@
     "userdevices_device_actions_confirm": { "other": "Evet, cihazı çıkar" },
     "userdevices_device_deleted": { "other": "(Çıkarıldı)" },
   
-    "playlist_page_header": { "other": "Playlist" },
-    "playlist_sign_in_warning": { "other": "Please sign in to watch live TV."},
-    "playlist_share_title": { "other": "Playlist" },
-    "playlist_up_next_title": { "other": "Up Next" },
+    "playlist_page_header": { "other": "Çalma listesi" },
+    "playlist_sign_in_warning": { "other": "Canlı TV izlemek için lütfen oturum açın."},
+    "playlist_share_title": { "other": "Çalma listesi" },
+    "playlist_up_next_title": { "other": "Bir sonraki" },
   
     "pricing_ownership_buy": { "other": "Satın Al" },
     "pricing_ownership_rent": { "other": "Kirala" },
@@ -387,55 +387,42 @@
     "users_gender_diverse": { "other": "Farklı" },
     "users_gender_other": { "other": "Diğer" },
   
-    "plan_label_owned": { "other": "" },
   
-    "pricing_quality_hd": { "other": "pricing_quality_hd" },
-    "pricing_quality_sd": { "other": "pricing_quality_sd" },
-    "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
-    "pricing_quality_sd_only": { "other": "pricing_quality_sd_only" },
+    "pricing_quality_hd": { "other": "HD" },
+    "pricing_quality_sd": { "other": "SD" },
+    "pricing_quality_hd_only": { "other": "HD Sadece" },
+    "pricing_quality_sd_only": { "other": "SD Sadece" },
   
-    "shopping_card_save_card": { "other": "Save this card for future use" },
-    "shopping_card_button_change": { "other": "Show all saved cards" },
-    "shopping_card_existing_description": { "other": "{{.Card.Brand}} ending in {{.Card.Number}}" },
-    "shopping_card_existing_expiry": { "other": "(expires {{.Card.Expiry}})" },
-    "shopping_card_existing_expired": { "other": "(expired)" },
-    "shopping_card_use_other": { "other": "Use a new card" },
-    "shopping_card_use_new_card": { "other": "Change card" },
+    "shopping_card_save_card": { "other": "Gelecekteki kullanım için bu kartı kaydet " },
+    "shopping_card_button_change": { "other": "Tüm kayıtlı kartları göster" },
+    "shopping_card_existing_description": { "other": "{{.Card.Brand}} bitirmek {{.Card.Number}}" },
+    "shopping_card_existing_expiry": { "other": "(sona ermek {{.Card.Expiry}})" },
+    "shopping_card_existing_expired": { "other": "(günü geçmiş)" },
+    "shopping_card_use_other": { "other": "Yeni bir kart kullanın" },
+    "shopping_card_use_new_card": { "other": "Kartı değiştir " },
   
-    "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
+    "shopping_info_ownership_plan": { "other": "Abonelik" },
   
-    "shopping_price_title_plan": { "other": "shopping_price_title_plan" },
-    "shopping_price_plan_note": { "other": "shopping_price_plan_note" },
-    "shopping_price_plan_note_interval": { "other": "shopping_price_plan_note_interval" },
-  
-    "shopping_enter_card_prompt_plan": { "other": "shopping_enter_card_prompt_plan" },
-  
-    "shopping_action_credit": { "other": "shopping_action_credit" },
-    "shopping_action_plan": { "other": "shopping_action_plan" },
-  
-    "shopping_complete_subscription": { "other": "shopping_complete_subscription" },
-    "shopping_complete_subscription_browse": { "other": "shopping_complete_subscription_browse" },
+
+    "shopping_action_credit": { "other": "Doldurmak" },
+
   
     "shopping_info_rental_period_coming_soon": { "other": "...şu tarih ve yayınlanma vaktinden başlayarak." },
-    "shopping_info_plan_offer": { "other": "shopping_info_plan_offer" },
-    "shopping_info_trial_period_offer": { "other": "shopping_info_trial_period_offer" },
+
   
-    "usersubscriptions_change_payment_method_change": { "other": "usersubscriptions_change_payment_method_change" },
-    "usersubscriptions_change_payment_method_modal_title": { "other": "usersubscriptions_change_payment_method_modal_title" },
-    "usersubscriptions_change_payment_method_modal_submit": { "other": "usersubscriptions_change_payment_method_modal_submit" },
+    "usersubscriptions_change_payment_method_change": { "other": "Kredi kartını değiştir" },
+    "usersubscriptions_change_payment_method_modal_title": { "other": "Kredi kartı bilgilerini güncelle" },
+    "usersubscriptions_change_payment_method_modal_submit": { "other": "Güncelleme" },
   
-    "usersubscriptions_subscription_expiry": { "other": "usersubscriptions_subscription_expiry" },
-    "usersubscriptions_subscription_status_cancelled": { "other": "usersubscriptions_subscription_status_cancelled" },
-    "usersubscriptions_subscription_status_errored": { "other": "usersubscriptions_subscription_status_errored" },
-    "usersubscriptions_subscription_status_past_due": { "other": "usersubscriptions_subscription_status_past_due" },
-    "usersubscriptions_subscription_status_trialing": { "other": "usersubscriptions_subscription_status_trialing" },
-    "usersubscriptions_subscription_unsubscribe": { "other": "usersubscriptions_subscription_unsubscribe" },
-    "usersubscriptions_unsubscribe_modal_cancel": { "other": "usersubscriptions_unsubscribe_modal_cancel" },
-    "usersubscriptions_unsubscribe_modal_confirm": { "other": "usersubscriptions_unsubscribe_modal_confirm" },
-    "usersubscriptions_unsubscribe_modal_title": { "other": "usersubscriptions_unsubscribe_modal_title" },
-    "usersubscriptions_unsubscribe_modal_body": { "other": "usersubscriptions_unsubscribe_modal_body" },
+    "usersubscriptions_subscription_expiry": { "other": "Sona ermek {{.Expiry}}" },
+    "usersubscriptions_subscription_status_trialing": { "other": "Deneme süresi" },
+    "usersubscriptions_subscription_unsubscribe": { "other": "Aboneliğimi iptal et" },
+    "usersubscriptions_unsubscribe_modal_cancel": { "other": "İptal" },
+    "usersubscriptions_unsubscribe_modal_confirm": { "other": "Evet, aboneliğimi iptal et " },
+    "usersubscriptions_unsubscribe_modal_title": { "other": "Aboneliği iptal et?" },
+    "usersubscriptions_unsubscribe_modal_body": { "other": "Bu, aboneliği iptal edecektir.{{.Name}} plan.Yine de plandaki içeriği sona erene kadar izleyebileceksiniz. {{.Expiry}}." },
   
-    "shopping_card_update_reason_none": { "other": "shopping_card_update_reason_none" },
+    "shopping_card_update_reason_none": { "other": "Kredi kartınızı güncelleyin.Desteklenen kartlar Visa, MasterCard ve American Express'dir." },
   
     "availability_coming_soon": { "other": "Yakında" },
     "availability_renting": { "other": "Kiralama" },
@@ -455,18 +442,18 @@
 
     "combined_auth_signin_prompt": { "other": "Oturum Aç" },
     "combined_auth_signup_prompt": { "other": "Kaydol" },
-    "combined_auth_terms": { "other": "Tüm <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a> kabul ediyorum." },
-    "signup_terms": { "other": "Tüm <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a> kabul ediyorum." },
+    "combined_auth_terms": { "other": "Tüm <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terimler &amp; koşullar</a> kabul ediyorum." },
+    "signup_terms": { "other": "Tüm <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terimler &amp; koşullar</a> kabul ediyorum." },
     "validation_terms_required": { "other": "Hüküm ve şartları kabul etmelisiniz." },
     "shopping_error_item_limit_exceeded": { "other": " Ne yazık ki{{.Title}} tükendi. ." },
 
-    "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+    "shopping_card_change": { "other": "Kredi kartı doğru değil? <a href=\"{{.SubscriptionsURL}}\">Kartınızı güncellemek için buraya tıklayın.</a>" },
 
-    "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+    "user_error_too_many_pin_errors": { "other": "<p>Sorun yaşıyor gibi görünüyor.</p><p>PIN'inizi sıfırlayın veya bizimle iletişime geçin. <a href=\"{{.HelpURL}}\" target=\"_blank\">Yardım Edin</a>" },
 
-    "app_badge_title": { "other": "Download the app to view your purchased content!" },
-    "app_badge_ios": { "other": "Download on the App Store" },
-    "app_badge_android": { "other": "Get it on Google Play" },
+    "app_badge_title": { "other": "Satın alınan içeriğinizi görüntülemek için uygulamayı indirin!" },
+    "app_badge_ios": { "other": "App Store'da indirin" },
+    "app_badge_android": { "other": "Google Play'den indirin" },
 
     "shopping_price_title_plan": {
       "other": "Fiyat"
@@ -530,11 +517,87 @@
     "plan_free_link_text": {
       "other": "Ücretsiz kaydol"
     },
-  "awards_nominated_for": {
-    "other": "Aday için"
-  },
-  "awards_in_competition": {
-    "other": "Rekabette"
-  }
+    "awards_nominated_for": {
+      "other": "Aday için"
+    },
+    "awards_in_competition": {
+      "other": "Rekabette"
+    },
+    "awards_winner_of": {
+      "other": "kazanan"
+    },
+    "awards_winner": {
+      "other": "kazanan"
+    },
+    "donate_button_text": {
+      "other": "Bağış yapmak"
+    },
+    "wcag_skip_links_header": { "other": "Erişilebilirlik Bağlantıları " },
+    "wcag_skip_links_content": { "other": "İçeriğe atla" },
+  
+    "wcag_homepage_h1": { "other": "Ana sayfa" },
+    "wcag_carousel_h2": { "other": "Atlıkarınca" },
+    "wcag_collections_h2": { "other": "Koleksiyonlar" },
+  
+    "wcag_aria_label_footer": { "other": "Altbilgi" },
+    "wcag_aria_label_nav_main": { "other": "Ana" },
+    "wcag_aria_label_nav_sub": { "other": "Alt" },
+    "wcag_aria_label_toggle_nav": { "other": "Gezinme geçişi" },
+    "wcag_aria_label_bundle_items": { "other": "Paket eşyaları" },
+    "wcag_aria_label_carousel": { "other": "Atlıkarınca" },
+    "wcag_aria_label_page_collection": { "other": "Sayfa Koleksiyonu" },
+    "wcag_aria_label_collection_list": { "other": "Koleksiyon Listesi" },
+    "wcag_aria_label_collection_slider": { "other": "Toplama kaydırıcısı" },
+    "wcag_aria_label_wishlist": { "other": "İstek listesi" },
+    "wcag_aria_label_facebook": { "other": "Facebook'ta Paylaş" },
+    "wcag_aria_label_twitter": { "other": "Twitter'da paylaş" },
+    "wcag_aria_label_linkedin": { "other": "LinkedIn'de Paylaş" },
+    "wcag_aria_label_letterboxd": { "other": "MektupBoxd'da Görüntüle" },
+    "shopping_error_plan_already_owned": { "other": "Zaten bu planın var." },
+    "shopping_error_plan_expired": { "other": "Bu plan artık mevcut değil." },
+    "shopping_payment_method_header": { "other": "Ödeme metodları" },
+    "shopping_payment_method_credit_card": { "other": "Kredi kartı" },
+    "shopping_payment_method_giropay": { "other": "GIROPAY" },
+    "shopping_error_stripe_unknown_error": { "other": "Bu ödeme ile bir şeyler ters gitti.Lütfen daha sonra tekrar deneyiniz." },
+    "shopping_error_payment_complete_failed": { "other": "Ödeme reddedildi.Bu pencereyi kapatın ve tekrar deneyin." },
+    
+    "header_banner": { "other": "Başlık afişi" },
+
+    "account_form_pin_code": { "other": "TOPLU İĞNE" },
+    "account_form_pin_code_not_set": { "other": "Bazı başlıkları satın almak, kiralamak ve izlemek için gerekli olan bir PIN setiniz yoktur."},
+    "account_form_set_pin": { "other": "Pim koymak" },
+    "account_form_pin_changed": { "other": "Güncellenmiş" },
+    "account_form_change_pin": { "other": "Pin'i değiştir" },
+
+    "user_set_pin_header": { "other": "PIN'inizi ayarlayın" },
+    "user_set_pin_button": { "other": "Pim koymak" },
+    "user_submit_pin_heading": { "other": "Bu sınırlı içerik için PIN'inizi {{.Action}} öğesine girin." },
+    "user_error_wrong_pin_retry": { "other": "Hata, yanlış bir pim girdiniz" },
+    "user_submit_pin_button": { "other": "Giriş" },
+    "user_reset_pin_button": { "other": "Sıfırlama pimi" },
+
+    "validation_pincode1_required": { "other": "Lütfen geçerli bir PIN kodu girin." },
+    "validation_pincode2_required": { "other": "Lütfen geçerli bir PIN kodu girin." },
+    "validation_pincode1_pattern": { "other": "Lütfen geçerli bir PIN kodu girin." },
+    "validation_pincode2_pattern": { "other": "Lütfen geçerli bir PIN kodu girin." },
+    "validation_pincode2_match": { "other": "PIN kodu eşleşmiyor." },
+  
+    "userdevices_delete_limits": { "other": "Kaldırabilirsin {{.Limit}} Bu listeden cihaz (lar) her {{.Period}} gün (ler)."},
+    "userdevices_delete_limit_reached": { "other": "Bu sınıra ulaştınız ve şu anda cihazları kaldıramazsınız.Bir cihazı silinebilirsiniz {{.Days}} gün (ler)." },
+    "shopping_card_new_subscription": { "other": "Bu kart düzenli olarak kaydedilir ve tahsil edilecektir." },
+
+  "changepincode_modal_header": { "other": "PIN'inizi değiştirin" },
+  "changepincode_modal_currentpassword": { "other": "mevcut şifreniz" },
+  "changepincode_modal_pincode1": { "other": "Yeni 4 basamaklı piminiz" },
+  "changepincode_modal_pincode2": { "other": "Yeni 4 basamaklı piminizi onaylayın " },
+  "changepincode_modal_submit": { "other": "Pim koymak" },
+  "changepincode_modal_error_wrong_password": { "other": "Bu şifre yanlış." },
+
+  "user_set_pin_intro": { "other": "Bir pim gerekir {{.Action}} Sınırlı içerik"},
+  "user_error_wrong_pin_reset": { "other": "PIN'inizi sıfırlamak için buraya tıklayın" },
+  "user_error_too_many_pin_errors_help_page_link": { "other": "" },
+  "shopping_error_age_restricted": { "other": "Bu içerik yaşı sınırlıdır." },
+  "shopping_error_close_button": { "other": "Tamam" }
+    
   }
   

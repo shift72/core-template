@@ -2,8 +2,8 @@
   "site_owner": { "other": "ABC Cinemas" },
   "settings_title": { "other": "Configuración" },
   "powered_by": { "other": "Powered by" },
-  "powered_by_name": { "other": "ScreenPlus" },
-  "powered_by_url": { "other": "https://www.screenplus.com" },
+  "powered_by_name": { "other": "Shift72" },
+  "powered_by_url": { "other": "https://www.shift72.com" },
   "in_partnership_with": { "other": "in partnership with" },
   "festival_scope": { "other": "Festival Scope" },
   "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
@@ -81,7 +81,7 @@
   "social_media_buttons_copied_link": { "other": "¡Link copiado al portapapeles!" },
   "social_media_buttons_copy_link": { "other": "Copiar al portapapeles" },
 
-  "accept_invite_page_header": { "other": "Bienvenido" },
+  "accept_invite_page_header": { "other": "Bienvenido " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Parece que ya ha canjeado esta invitación, debería  <a href=\"{{.SigninURL}}\">ingresar</a>. Si has olvidado tu contraseña, puedes también <a href=\"{{.ForgotPasswordURL}}\">reestablecer tu contraseña</a>." },
   "acceptinvite_complete": { "other": "Gracias. Se ha creado su cuenta." },
   "acceptinvite_form_submit": { "other": "Aceptar invitación" },
@@ -232,7 +232,7 @@
     "one": "Una vez que seleccionas reproducir en un capítulo, se inicia la ventana de reproducción y tienes hora para ver ese capítulo las veces que quieras.",
     "other": "Una vez que seleccionas reproducir en un capítulo, se inicia la ventana de reproducción y tienes {{.Count}} horas para ver ese capítulo las veces que quieras."
   },
-  "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Bonus" },
+  "shopping_info_credit_bonus_title": { "other": "{{.BonusPercentage}}% Primo" },
 
   "shopping_enter_card_prompt": { "other": "Ingresa los datos de tu tarjeta de crédito para completar tu {{.Verb}}." },
 
@@ -315,11 +315,12 @@
   "shopping_action_buy": { "other": "Comprar" },
 
   "meta_detail_cast_title": { "other": "Reparto" },
-  "meta_detail_crew_title": { "other": "Crew" },
+  "meta_detail_crew_title": { "other": "Tripulación" },
   "meta_detail_languages": { "one": "Idioma", "other": "Idiomas" },
   "meta_detail_studios": { "one": "Productora", "other": "Productoras" },
   "meta_detail_countries": { "one": "País", "other": "Países" },
   "meta_detail_subtitles": { "other": "Subtítulos" },
+  "meta_detail_captions": { "other": "Subtítulos [CC]" },
   "meta_detail_episodes_title": { "other": "Capítulos" },
   "meta_detail_bonus_title": { "other": "Contenido adicional" },
   "meta_detail_recommendations_title": { "other": "Te podría interesar" },
@@ -403,11 +404,168 @@
   "shopping_info_rental_period_coming_soon": {"other": "desde la fecha y hora de lanzamiento."},
   "shopping_error_item_limit_exceeded": {"other": "Lamentablemente, {{.Title}} está agotada."},
 
-  "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
+  "shopping_card_change": { "other": "¿La tarjeta de crédito no es correcta? <a href=\"{{.SubscriptionsURL}}\">Haga clic aquí para actualizar su tarjeta.</a>" },
 
-  "user_error_too_many_pin_errors": { "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>" },
+  "user_error_too_many_pin_errors": { "other": "<p>Parece que estás teniendo problemas.</p><p>Restablezca su PIN o contáctenos para <a href=\"{{.HelpURL}}\" target=\"_blank\">ayuda</a>" },
 
-  "app_badge_title": { "other": "Download the app to view your purchased content!" },
-  "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" }
+  "app_badge_title": { "other": "¡Descarga la aplicación para ver el contenido comprado!" },
+  "app_badge_ios": { "other": "Descargar en la App Store" },
+  "app_badge_android": { "other": "Consiguelo en google play" },
+
+  "awards_nominated_for": {
+    "other": "Nominado a"
+  },
+  "awards_in_competition": {
+    "other": "En competición"
+  },
+
+  "awards_winner_of": { "other": "Ganador de" },
+  "awards_winner": { "other": "Ganador" },
+  "donate_button_text": { "other": "Donar" },
+
+  "wcag_skip_links_header": { "other": "Enlaces de accesibilidad" },
+  "wcag_skip_links_content": { "other": "Saltar al contenido" },
+
+  "wcag_homepage_h1": { "other": "Página principal" },
+  "wcag_carousel_h2": { "other": "Carrusel" },
+  "wcag_collections_h2": { "other": "Colecciones" },
+
+  "wcag_aria_label_footer": { "other": "Pie de página" },
+  "wcag_aria_label_nav_main": { "other": "Principal" },
+  "wcag_aria_label_nav_sub": { "other": "Sub" },
+  "wcag_aria_label_toggle_nav": { "other": "Navegación de palanca" },
+  "wcag_aria_label_bundle_items": { "other": "Paquete de artículos" },
+  "wcag_aria_label_carousel": { "other": "Carrusel" },
+  "wcag_aria_label_page_collection": { "other": "Colección de páginas" },
+  "wcag_aria_label_collection_list": { "other": "Lista de colecciones" },
+  "wcag_aria_label_collection_slider": { "other": "Control deslizante de colección" },
+  "wcag_aria_label_wishlist": { "other": "Lista de deseos" },
+  "wcag_aria_label_facebook": { "other": "Compartir en Facebook" },
+  "wcag_aria_label_twitter": { "other": "Compartir en Twitter" },
+  "wcag_aria_label_linkedin": { "other": "Compartir en LinkedIn" },
+  "wcag_aria_label_letterboxd": { "other": "Ver en Letterboxd" },
+  
+  "shopping_error_plan_already_owned": { "other": "Ya tienes este plan." },
+  "shopping_error_plan_expired": { "other": "Este plan ya no está disponible." },
+  "shopping_payment_method_header": { "other": "Métodos de pago" },
+  "shopping_payment_method_credit_card": { "other": "Tarjeta de crédito" },
+  "shopping_payment_method_giropay": { "other": "Giropay (Alemania)" },
+  "shopping_error_stripe_unknown_error": { "other": "Hubo un error con este pago. Por favor, intente más tarde." },
+  "shopping_error_payment_complete_failed": { "other": "Este pago fue rechazado. Cierre esta ventana e inténtelo de nuevo." },
+  "plan_label_owned": { "other": "" },
+
+  "header_banner": { "other": "banner de encabezado" },
+
+  "account_form_pin_code": { "other": "PIN" },
+  "account_form_pin_code_not_set": { "other": "No tiene un PIN establecido, que se requiere para comprar, alquilar y mirar algunos títulos."},
+  "account_form_set_pin": { "other": "Establecer PIN" },
+  "account_form_pin_changed": { "other": "Actualizada" },
+  "account_form_change_pin": { "other": "Cambiar PIN" },
+
+  "user_set_pin_header": { "other": "Establezca su PIN" },
+  "user_set_pin_button": { "other":  "Establecer PIN" },
+  "user_submit_pin_heading": { "other": "Introduzca su PIN para {{.Action}} este contenido restringido" },
+  "user_error_wrong_pin_retry": { "other": "Ups, ingresaste un PIN incorrecto" },
+  "user_submit_pin_button": { "other": "Meterse en" },
+  "user_reset_pin_button": { "other": "Restablecer PIN" },
+
+  "validation_pincode1_required": { "other": "Introduzca un código PIN válido." },
+  "validation_pincode2_required": { "other": "Introduzca un código PIN válido." },
+  "validation_pincode1_pattern": { "other": "Introduzca un código PIN válido." },
+  "validation_pincode2_pattern": { "other": "Introduzca un código PIN válido." },
+  "validation_pincode2_match": { "other": "El código PIN no coincide." },
+
+  "userdevices_delete_limits": { "other": "Puedes borrar {{.Limit}} dispositivo(s) de esta lista cada uno {{.Period}} días."},
+  "userdevices_delete_limit_reached": { "other": "Ha alcanzado este límite y no puede eliminar ningún dispositivo en este momento. Puede eliminar un dispositivo en {{.Days}} días." },
+  "shopping_card_new_subscription": { "other": "Esta tarjeta será guardada y cargada regularmente." },
+
+"changepincode_modal_header": { "other": "Cambia tu PIN" },
+"changepincode_modal_currentpassword": { "other": "tu contraseña actual" },
+"changepincode_modal_pincode1": { "other": "Su nuevo PIN de 4 dígitos" },
+"changepincode_modal_pincode2": { "other": "Confirma tu nuevo PIN de 4 dígitos" },
+"changepincode_modal_submit": { "other": "Establecer PIN" },
+"changepincode_modal_error_wrong_password": { "other": "Esa contraseña es incorrecta." },
+
+"user_set_pin_intro": { "other": "Necesitas un PIN para {{.Action}} contenido restringido"},
+"user_error_wrong_pin_reset": { "other": "Haga clic aquí para restablecer su PIN" },
+"user_error_too_many_pin_errors_help_page_link": { "other": "" },
+"shopping_error_age_restricted": { "other": "Este contenido tiene restricción de edad." },
+"shopping_error_close_button": { "other": "OK" }, 
+
+"usersubscriptions_subscription_expiry": { "other": "Caduca {{.Expiry}}" },
+"usersubscriptions_subscription_status_trialing": { "other": "Periodo de prueba" },
+"usersubscriptions_subscription_unsubscribe": { "other": "Cancelar mi suscripción" },
+"usersubscriptions_unsubscribe_modal_cancel": { "other": "Cancelar" },
+"usersubscriptions_unsubscribe_modal_confirm": { "other": "Sí, cancelar mi suscripción" },
+"usersubscriptions_unsubscribe_modal_title": { "other": "¿Cancelar suscripción?" },
+"usersubscriptions_unsubscribe_modal_body": { "other": "Esto cancelará la suscripción a la {{.Name}} plan. Aún podrá ver el contenido del plan hasta que caduque {{.Expiry}}." },
+
+"signin_form_error_ip_throttled": { "other": "Ha fallado al iniciar sesión demasiadas veces. Por favor, inténtelo de nuevo más tarde." },
+"signin_form_error_account_suspended": { "other": "Su cuenta ha sido suspendida temporalmente. Póngase en contacto con un administrador si cree que se trata de un error." },
+
+
+
+"pricing_quality_hd": { "other": "HD" },
+  "pricing_quality_sd": { "other": "SD" },
+  "pricing_quality_hd_only": { "other": "HD solamente" },
+  "pricing_quality_sd_only": { "other": "SD solamente" },
+
+  "shopping_card_save_card": { "other": "Guarda esta tarjeta para uso futuro" },
+  "shopping_card_button_change": { "other": "Mostrar todas las tarjetas guardadas" },
+  "shopping_card_existing_description": { "other": "{{.Card.Brand}} terminando en {{.Card.Number}}" },
+  "shopping_card_existing_expiry": { "other": "(caduca {{.Card.Expiry}})" },
+  "shopping_card_existing_expired": { "other": "(caducada)" },
+  "shopping_card_use_other": { "other": "Usar una nueva tarjeta" },
+  "shopping_card_use_new_card": { "other": "Cambiar tarjeta" },
+  "shopping_card_update_reason_none": { "other": "Actualice su tarjeta de crédito. Las tarjetas aceptadas son Visa, Mastercard y American Express." },
+  "shopping_info_ownership_plan": { "other": "Suscripción" },
+  "shopping_action_credit": { "other": "añadir crédito" },
+
+  "usersubscriptions_change_payment_method_change": { "other": "Cambiar tarjeta de credito" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "Actualizar los datos de la tarjeta de crédito" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "Actualizar" },
+
+
+  "availability_not_available": { "other": "No disponible" },
+  "shopping_price_title_plan": { "other": "Precio" },
+  "shopping_price_plan_note": {
+    "zero": "Cargado cada {{.Interval}}.",
+    "one": "Se {{ .Interval }} cada intervalo después de que finaliza la prueba gratuita de 24 horas.",
+    "other": "Se {{ .Interval }} cada .Interval después de que finaliza la prueba gratuita de {{ .Count }}"
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}s"
+  },
+
+  "shopping_enter_card_prompt_plan": { "other": "Ingrese los detalles de su tarjeta de crédito a continuación para comenzar su suscripción." },
+
+  "shopping_action_plan": { "other": "Completo" },
+
+  "shopping_complete_subscription": { "other": "La compra de su suscripción se realizó correctamente. Ahora estás suscrito a {{ .Title }}." },
+  "shopping_complete_subscription_browse": { "other": "No dude en <a href=\"/\">navegar por</a> el sitio o <a href=\"/search.html\">buscar</a> algo específico." },
+
+  "shopping_info_plan_offer": {
+    "one": "Se renueva automáticamente cada {{.Interval}}",
+    "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}s"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Renueva automáticamente cada {{ .Interval }}",
+    "other": "Renueva automáticamente cada {{ .Count }} {{ .Interval }}"
+  },
+
+  "availability_expires": { "other": "Caducó {{.Expiry}}" },
+  "availability_expired": { "other": "Caducada"},
+
+  "plans_page_header": { "other": "Planes Disponibles" },
+
+  "plan_expiry_date" : { "other": "Cierre de ventas: "},
+  "plan_read_more"   : { "other": "Saber más" },
+  
+  "plan_page_read_more": { "other": "Lee mas" },
+  "plan_page_header_text": { "other": "Disfruta {{.Name}}" },
+  "page_plan_explore_intro": { "other": "O" },
+  "page_plan_explore_link": { "other": "Explore otros pases" },
+  "plan_showcase_page_ownership_button_buy": { "other": "Compra ahora" },
+  "plan_free_link_text": { "other": "Registrate gratis" }
 }

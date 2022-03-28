@@ -115,8 +115,8 @@
     background: transparent;
 
     .s72-icon-play circle {
-      fill: $primary;
-      stroke: $primary;
+      fill: var(--primary);
+      stroke: var(--primary);
       stroke-width: 3px;
     }
 
@@ -136,7 +136,7 @@
 
     .verb {
       background: transparent;
-      color: $primary;
+      color:var(--primary);
     }
   }
 
@@ -152,7 +152,7 @@
 
     circle {
       fill: transparent;
-      stroke: $primary;
+      stroke: var(--primary);
       stroke-width: 3px;
     }
 
@@ -168,6 +168,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     font-size: 12px;
+    font-weight: $font-weight-bold;
     margin-left: 0;
     padding-bottom: 0;
     padding-left: 8px;

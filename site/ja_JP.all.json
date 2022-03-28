@@ -58,7 +58,7 @@
   "social_media_buttons_copied_link": { "other": "リンクがクリップボードにコピーされました！" },
   "social_media_buttons_copy_link": { "other": "クリップボードにコピー" },
 
-  "accept_invite_page_header": { "other": "ようこそ" },
+  "accept_invite_page_header": { "other": "ようこそ " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "すでに招待リクエスト済みですので、サインインしてください。" },
   "acceptinvite_complete": { "other": "ありがとうございます。アカウント登録は完了しました。" },
   "acceptinvite_form_submit": { "other": "招待を受け取る" },
@@ -297,6 +297,7 @@
   "meta_detail_studios": { "one": "製作", "other": "製作" },
   "meta_detail_countries": { "one": "製作国", "other": "製作国" },
   "meta_detail_subtitles": { "other": "字幕" },
+  "meta_detail_captions": { "other": "字幕 [CC]" },
   "meta_detail_episodes_title": { "other": "エピソード" },
   "meta_detail_bonus_title": { "other": "特典映像" },
   "meta_detail_recommendations_title": { "other": "おすすめ作品" },
@@ -367,9 +368,9 @@
   "validation_terms_required": { "other": "利用規約に同意してください。" },
   "shopping_error_item_limit_exceeded": { "other": "申し訳ありません。{{.Title}} は完売しました。" },
 
-  "app_badge_title": { "other": "Download the app to view your purchased content!" },
-  "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" },
+  "app_badge_title": { "other": "アプリをダウンロードして、購入したコンテンツを表示してください。" },
+  "app_badge_ios": { "other": "AppStoreでダウンロード" },
+  "app_badge_android": { "other": "Google Playで入手する" },
 
   "shopping_price_title_plan": {
     "other": "価格"
@@ -438,5 +439,159 @@
   },
   "awards_in_competition": {
     "other": "競争中"
-  }
+  },
+  "awards_winner_of": {
+    "other": "の勝者"
+  },
+  "awards_winner": {
+    "other": "勝者"
+  },
+  "donate_button_text": {
+    "other": "寄付"
+  },
+  "wcag_skip_links_header": { "other": "アクセシビリティリンク" },
+  "wcag_skip_links_content": { "other": "コンテンツにスキップ" },
+
+  "wcag_homepage_h1": { "other": "ホームページ" },
+  "wcag_carousel_h2": { "other": "カルーセル" },
+  "wcag_collections_h2": { "other": "コレクション" },
+
+  "wcag_aria_label_footer": { "other": "フッター" },
+  "wcag_aria_label_nav_main": { "other": "主要" },
+  "wcag_aria_label_nav_sub": { "other": "サブ" },
+  "wcag_aria_label_toggle_nav": { "other": "ナビゲーションの切り替え" },
+  "wcag_aria_label_bundle_items": { "other": "バンドルアイテム" },
+  "wcag_aria_label_carousel": { "other": "カルーセル" },
+  "wcag_aria_label_page_collection": { "other": "ページコレクション" },
+  "wcag_aria_label_collection_list": { "other": "コレクションリスト" },
+  "wcag_aria_label_collection_slider": { "other": "コレクションスライダー" },
+  "wcag_aria_label_wishlist": { "other": "ウィッシュリスト" },
+  "wcag_aria_label_facebook": { "other": "Facebookでシェア" },
+  "wcag_aria_label_twitter": { "other": "Twitterで共有する" },
+  "wcag_aria_label_linkedin": { "other": "LinkedInで共有する" },
+  "wcag_aria_label_letterboxd": { "other": "Letterboxdで見る" },
+
+  "shopping_error_plan_already_owned": { "other": "あなたはすでにこの計画を持っています。" },
+  "shopping_error_plan_expired": { "other": "このプランはご利用いただけなくなりました。" },
+  "shopping_payment_method_header": { "other": "お支払い方法" },
+  "shopping_payment_method_credit_card": { "other": "クレジットカード" },
+  "shopping_payment_method_giropay": { "other": "Giropay" },
+  "shopping_error_stripe_unknown_error": { "other": "この支払いで問題が発生しました。 後でもう一度やり直してください。" },
+  "shopping_error_payment_complete_failed": { "other": "支払いは拒否されました。 このウィンドウを閉じて、再試行してください。" },
+
+  "header_banner": { "other": "ABCシネマ–第21回映画祭、2021年6月1日– 6日" },
+
+  "account_form_pin_code": { "other": "PIN" },
+  "account_form_pin_code_not_set": { "other": "一部のタイトルの購入、レンタル、視聴に必要なPINセットがありません。"},
+  "account_form_set_pin": { "other": "PINを設定する" },
+  "account_form_pin_changed": { "other": "更新しました" },
+  "account_form_change_pin": { "other": "PINを変更する" },
+
+  "user_set_pin_header": { "other": "PINを設定する" },
+  "user_set_pin_button": { "other": "PINを設定する" },
+  "user_submit_pin_heading": { "other": "この制限されたコンテンツの{{.Action}}にPINを入力してください" },
+  "user_error_wrong_pin_retry": { "other": "間違ったPINを入力しました" },
+  "user_submit_pin_button": { "other": "入力" },
+  "user_reset_pin_button": { "other": "PINをリセット" },
+
+  "validation_pincode1_required": { "other": "有効なPINコードを入力してください。" },
+  "validation_pincode2_required": { "other": "有効なPINコードを入力してください。" },
+  "validation_pincode1_pattern": { "other": "有効なPINコードを入力してください。" },
+  "validation_pincode2_pattern": { "other": "有効なPINコードを入力してください。" },
+  "validation_pincode2_match": { "other": "PINコードが一致しません。" },
+
+  "userdevices_delete_limits": { "other": "このリストから{{.Limit}}デバイスを{{.Period}}日ごとに削除できます。"},
+  "userdevices_delete_limit_reached": { "other": "この制限に達しており、現在デバイスを削除できません。 {{.Days}}日以内にデバイスを削除できます。" },
+  "shopping_card_new_subscription": { "other": "このカードは定期的に保存され、請求されます" },
+
+"changepincode_modal_header": { "other": "PINを変更する" },
+"changepincode_modal_currentpassword": { "other": "あなたの現在のパスワード" },
+"changepincode_modal_pincode1": { "other": "新しい4桁のPIN" },
+"changepincode_modal_pincode2": { "other": "新しい4桁のPINを確認します" },
+"changepincode_modal_submit": { "other": "PINを設定する" },
+"changepincode_modal_error_wrong_password": { "other": "そのパスワードは正しくありません。" },
+
+"user_set_pin_intro": { "other": "{{.Action}}制限付きコンテンツへのPINが必要です"},
+"user_error_wrong_pin_reset": { "other": "PINをリセットするには、ここをクリックしてください" },
+"user_error_too_many_pin_errors_help_page_link": { "other": "" },
+"shopping_error_age_restricted": { "other": "このコンテンツは年齢制限があります。" },
+"shopping_error_close_button": { "other": "わかった" }, 
+
+"usersubscriptions_subscription_expiry": { "other": "有効期限{{.Expiry}}" },
+"usersubscriptions_subscription_status_trialing": { "other": "トライアル期間" },
+"usersubscriptions_subscription_unsubscribe": { "other": "サブスクリプションをキャンセルする" },
+"usersubscriptions_unsubscribe_modal_cancel": { "other": "キャンセル" },
+"usersubscriptions_unsubscribe_modal_confirm": { "other": "はい、サブスクリプションをキャンセルします" },
+"usersubscriptions_unsubscribe_modal_title": { "other": "サブスクリプションをキャンセルしますか？" },
+"usersubscriptions_unsubscribe_modal_body": { "other": "これにより、{{.Name}}プランのサブスクリプションがキャンセルされます。 {{.Expiry}}の有効期限が切れるまで、プランのコンテンツを引き続き視聴できます。" },
+
+"signin_form_error_ip_throttled": { "other": "サインインに何度も失敗しました。 後でもう一度やり直してください。" },
+"signin_form_error_account_suspended": { "other": "あなたのアカウントは一時的に停止されています。 これがエラーであると思われる場合は、管理者に連絡してください。" },
+
+  "pricing_quality_hd": { "other": "HD" },
+  "pricing_quality_sd": { "other": "SD" },
+  "pricing_quality_hd_only": { "other": "HDのみ" },
+  "pricing_quality_sd_only": { "other": "SDのみ" },
+
+  "shopping_card_save_card": { "other": "将来の使用のためにこのカードを保存します" },
+  "shopping_card_button_change": { "other": "保存したカードをすべて表示" },
+  "shopping_card_existing_description": { "other": "{{.Card.Brand}}で終わる{{.Card.Number}}" },
+  "shopping_card_existing_expiry": { "other": "（有効期限{{.Card.Expiry}}）" },
+  "shopping_card_existing_expired": { "other": "（期限切れ）" },
+  "shopping_card_use_other": { "other": "新しいカードを使用する" },
+  "shopping_card_use_new_card": { "other": "カードを変更する" },
+  "shopping_card_update_reason_none": { "other": "クレジットカードを更新します。 サポートされているカードは、Visa、Mastercard、AmericanExpressです。" },
+  "shopping_info_ownership_plan": { "other": "サブスクリプション" },
+  "shopping_action_credit": { "other": "補充" },
+
+  "usersubscriptions_change_payment_method_change": { "other": "クレジットカードを変更する" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "クレジットカードの詳細を更新する" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "アップデート" },
+
+  "seasons":{
+    "one": "ワンシーズン",
+    "other": "{{.Count}}シーズン"
+  },"tvseason": {
+    "other": "{{.ShowInfo.Title}}シーズン{{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>シーズン{{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "シーズン{{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "1話",
+    "other": "{{.Count}}エピソード"
+  },
+
+  "user_error_too_many_pin_errors": { "other": "<p>問題が発生しているようです。</p> <p> PINをリセットするか、<a href=\"{{.HelpURL}}\" target=\"_blank\">ヘルプ</a>" },
+  "validation_pincode_required": { "other": "PINコードを入力してください。" },
+
+  "shopping_info_subtitle_sd": { "other": "SDビデオオンデマンド。" },
+  "shopping_info_subtitle_wallet": { "other": "ウォレットの資金は、ScreenPlusのコンテンツの購入またはレンタルに使用される場合があります。" },
+ 
+  "shopping_info_sd_only": { "other": "Limited to SD playback only." },
+  "shopping_error_discount_worn_out": { "other": "そのプロモーションコードは使用できなくなります。" },
+
+  "activatedevice_page_header": { "other": "デバイスをアクティブ化" },
+  "activatedevice_page_content": { "other": "デバイスの指示に従ってPINコードを取得します。 アクティベートするには、コンピューターとデバイスの両方がインターネットに接続されている必要があります。" },
+  "activatedevice_form_pin": { "other": "ピンコード" },
+  "activatedevice_form_submit": { "other": "活性化" },
+  "activatedevice_form_error_invalid_code": { "other": "PINコードが見つかりません。もう一度やり直してください。" },
+  "activatedevice_form_error_pin_not_found": { "other": "PINコードが見つかりません。もう一度やり直してください。" },
+  "activatedevice_signin_prompt": { "other": "デバイスをアクティブ化する前にサインインしてください。" },
+  "activatedevice_page_activated": { "other": "{{.DeviceName}}を有効にしていただきありがとうございます。 これで、テレビまたはデバイスでライブラリを閲覧できるようになります。" },
+
+  "playlist_page_header": { "other": "プレイリスト" },
+  "playlist_sign_in_warning": { "other": "サインインしてテレビの生放送をご覧ください。"},
+  "playlist_share_title": { "other": "プレイリスト" },
+  "playlist_up_next_title": { "other": "次に" },
+  "classification_divider": { "other": " - " },
+  "classification_outro": { "other": "" },
+  "shopping_card_change": { "other": "クレジットカードが正しくありませんか？ <a href = \"{{.SubscriptionsURL}}\">カードを更新するにはここをクリックしてください。</a>" },
+  "shopping_complete_credit_purchase": { "other": "{{.Title}}をご購入いただきありがとうございます。{{.CreditTotal}}がアカウントに追加されました。" }
 }

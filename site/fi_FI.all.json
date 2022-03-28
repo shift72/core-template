@@ -1,9 +1,9 @@
 {
   "site_owner": { "other": "ABC Cinemas" },
-  "settings_title": { "other": "Settings" },
+  "settings_title": { "other": "Asetukset" },
   "powered_by": { "other": "Powered by" },
-  "powered_by_name": { "other": "ScreenPlus" },
-  "powered_by_url": { "other": "https://www.screenplus.com" },
+  "powered_by_name": { "other": "Shift72" },
+  "powered_by_url": { "other": "https://www.shift72.com" },
   "in_partnership_with": { "other": "in partnership with" },
   "festival_scope": { "other": "Festival Scope" },
   "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
@@ -59,7 +59,7 @@
   "social_media_buttons_copied_link": { "other": "Linkki kopioitu leikepöydälle!" },
   "social_media_buttons_copy_link": { "other": "Kopioi leikepöydälle" },
 
-  "accept_invite_page_header": { "other": "Tervetuloa" },
+  "accept_invite_page_header": { "other": "Tervetuloa " },
   "acceptinvite_form_invalid_reset_password_token": { "other": "Vaikuttaa siltä, että olet jo käyttänyt tämän kutsun. Kokeile <a href=\"signin.html\">kirjautua sisään</a> palveluun. Jos olet unohtanut salasanasi, voit <a href=\"forgotpassword.html\">tilata uuden salasanan</a>." },
   "acceptinvite_complete": { "other": "Kiitos. Tilisi on luotu." },
   "acceptinvite_form_submit": { "other": "Hyväksy kutsu" },
@@ -84,7 +84,7 @@
   "signup_page_alreadyhaveanaccount": { "other": "Onko sinulla jo tili? Kirjaudu sisään" },
   "signup_form_error_email_already_in_use": { "other": "Sähköpostiosoite on jo käytössä." },
   "signin_form_error_incorrect_credentials": { "other": "Virheellinen käyttäjätunnus tai salasana." },
-  "signin_form_error_ip_throttled": { "other": "You have failed to sign in too many times. Please try again later." },
+  "signin_form_error_ip_throttled": { "other": "Et ole kirjautunut sisään liian monta kertaa. Yritä uudelleen myöhemmin." },
 
   "signup_form_error_forbidden": { "other": "Tapahtui virhe." },
 
@@ -103,7 +103,7 @@
   "forgotpassword_form_error_email_doesnt_exist": { "other": "Tätä sähköpostiosoitetta vastaavaa tiliä ei ole olemassa." },
   "forgotpassword_form_error_account_suspended": { "other": "Tämä tili on jäädytetty." },
   "forgotpassword_complete": { "other": "Kiitos. Saat pian sähköpostiisi linkin salasanasi vaihtamiseksi." },
-  "forgotpassword_form_error_forbidden": { "other": "An error has occurred." },
+  "forgotpassword_form_error_forbidden": { "other": "Tapahtui virhe." },
   "forgotpassword_form_error_too_many_requests": { "other": "Liikaa pyyntöjä, yritä myöhemmin uudelleen." },
 
   "resetpassword_page_header": { "other": "Vaihda salasana" },
@@ -295,6 +295,7 @@
   "meta_detail_studios": { "one": "Tuotantoyhtiö", "other": "Tuotantoyhtiöt" },
   "meta_detail_countries": { "one": "Maa", "other": "Maat" },
   "meta_detail_subtitles": { "other": "Tekstitys" },
+  "meta_detail_captions": { "other": "Tekstitys [CC]" },
   "meta_detail_episodes_title": { "other": "Jaksot" },
   "meta_detail_bonus_title": { "other": "Bonusmateriaali" },
   "meta_detail_recommendations_title": { "other": "Saatat pitää myös:" },
@@ -367,9 +368,9 @@
 
   "shopping_error_item_limit_exceeded": { "other": "Valitettavasti {{.Title}} on loppuunmyyty." },
 
-  "app_badge_title": { "other": "Download the app to view your purchased content!" },
-  "app_badge_ios": { "other": "Download on the App Store" },
-  "app_badge_android": { "other": "Get it on Google Play" },
+  "app_badge_title": { "other": "Lataa sovellus nähdäksesi ostamasi sisällön!" },
+  "app_badge_ios": { "other": "Lataa App Storesta" },
+  "app_badge_android": { "other": "Hanki se Google Playsta" },
 
   "shopping_price_title_plan": {
     "other": "Hinta"
@@ -438,5 +439,163 @@
   },
   "awards_in_competition": {
     "other": "Kilpailussa"
-  }
+  },
+  "awards_winner_of": {
+    "other": "Voittaja"
+  },
+  "awards_winner": {
+    "other": "Voittaja"
+  },
+  "donate_button_text": {
+    "other": "Lahjoittaa"
+  },
+
+  "wcag_skip_links_header": { "other": "Esteettömyyslinkit" },
+  "wcag_skip_links_content": { "other": "Siirry sisältöön" },
+
+  "wcag_homepage_h1": { "other": "Kotisivu" },
+  "wcag_carousel_h2": { "other": "Karuselli" },
+  "wcag_collections_h2": { "other": "kokoelma" },
+
+  "wcag_aria_label_footer": { "other": "Alatunniste" },
+  "wcag_aria_label_nav_main": { "other": "Tärkein" },
+  "wcag_aria_label_nav_sub": { "other": "Sub" },
+  "wcag_aria_label_toggle_nav": { "other": "Navigointi päälle/pois" },
+  "wcag_aria_label_bundle_items": { "other": "Niputa kohteita" },
+  "wcag_aria_label_carousel": { "other": "Karuselli" },
+  "wcag_aria_label_page_collection": { "other": "Sivujen kokoelma" },
+  "wcag_aria_label_collection_list": { "other": "Kokoelmaluettelo" },
+  "wcag_aria_label_collection_slider": { "other": "Kokoelman liukusäädin" },
+  "wcag_aria_label_wishlist": { "other": "Toivelista" },
+  "wcag_aria_label_facebook": { "other": "Jaa Facebookissa" },
+  "wcag_aria_label_twitter": { "other": "Jaa Twitterissä" },
+  "wcag_aria_label_linkedin": { "other": "Jaa LinkedInissä" },
+  "wcag_aria_label_letterboxd": { "other": "Katso Letterboxd" },
+  
+  "shopping_error_plan_already_owned": { "other": "Sinulla on jo tämä suunnitelma." },
+  "shopping_error_plan_expired": { "other": "Tämä suunnitelma ei ole enää saatavilla." },
+  "shopping_payment_method_header": { "other": "Maksutavat" },
+  "shopping_payment_method_credit_card": { "other": "Luottokortti" },
+  "shopping_payment_method_giropay": { "other": "Giropay" },
+  "shopping_error_stripe_unknown_error": { "other": "Jotain meni pieleen tässä maksussa. Yritä uudelleen myöhemmin." },
+  "shopping_error_payment_complete_failed": { "other": "Maksu hylätty. Sulje tämä ikkuna ja yritä uudelleen." },
+
+  "header_banner": { "other": "otsikkobanneri" },
+
+  "account_form_pin_code": { "other": "Pin-koodi" },
+  "account_form_pin_code_not_set": { "other": "Luo PIN-koodi nähdäksesi tämän sisällön"},
+  "account_form_set_pin": { "other": "Aseta PIN-koodi" },
+  "account_form_pin_changed": { "other": "Päivitetty" },
+  "account_form_change_pin": { "other": "Vaihda PIN" },
+
+  "user_set_pin_header": { "other": "Aseta PIN-koodi" },
+  "user_set_pin_button": { "other": "Aseta PIN" },
+  "user_submit_pin_heading": { "other": "Kirjoita PIN-koodisi {{.Action}} tälle rajoitetulle sisällölle" },
+  "user_error_wrong_pin_retry": { "other": "Hups, annoit väärän PIN-koodin" },
+  "user_submit_pin_button": { "other": "Mennä" },
+  "user_reset_pin_button": { "other": "Palauta PIN" },
+
+  "validation_pincode1_required": { "other": "Anna kelvollinen PIN-koodi." },
+  "validation_pincode2_required": { "other": "Anna kelvollinen PIN-koodi." },
+  "validation_pincode1_pattern": { "other": "Anna kelvollinen PIN-koodi." },
+  "validation_pincode2_pattern": { "other": "Anna kelvollinen PIN-koodi." },
+  "validation_pincode2_match": { "other": "PIN-koodi ei täsmää." },
+
+  "userdevices_delete_limits": { "other": "Voit poistaa {{.Limit}} laite(t) tästä luettelosta {{.Period}} päivässä."},
+  "userdevices_delete_limit_reached": { "other": "Olet saavuttanut tämän rajan, etkä voi poistaa laitteita juuri nyt. Voit poistaa laitteesi {{.Days}} päivässä." },
+  "shopping_card_new_subscription": { "other": "Tämä kortti tallennetaan ja sitä veloitetaan säännöllisesti" },
+
+"changepincode_modal_header": { "other": "Vaihda PIN-koodisi" },
+"changepincode_modal_currentpassword": { "other": "Nykyinen salasanasi" },
+"changepincode_modal_pincode1": { "other": "Uusi 4-numeroinen PIN-koodisi" },
+"changepincode_modal_pincode2": { "other": "Vahvista uusi 4-numeroinen PIN-koodisi" },
+"changepincode_modal_submit": { "other": "Aseta PIN-koodi" },
+"changepincode_modal_error_wrong_password": { "other": "Salasana on väärä." },
+
+"user_set_pin_intro": { "other": "Tarvitset PIN-koodin {{.Action}} ikärajoitettu sisältö"},
+"user_error_wrong_pin_reset": { "other": "Napsauta tätä nollataksesi PIN-koodisi" },
+"user_error_too_many_pin_errors_help_page_link": { "other": "" },
+"shopping_error_age_restricted": { "other": "Tämä sisältö on ikärajoitettu." },
+"shopping_error_close_button": { "other": "OK" }, 
+
+"usersubscriptions_subscription_expiry": { "other": "Vanhenee {{.Expiry}}" },
+"usersubscriptions_subscription_status_trialing": { "other": "Testijakso" },
+"usersubscriptions_subscription_unsubscribe": { "other": "Peruuta tilaukseni" },
+"usersubscriptions_unsubscribe_modal_cancel": { "other": "Peruuttaa" },
+"usersubscriptions_unsubscribe_modal_confirm": { "other": "Kyllä, peruuta tilaukseni" },
+"usersubscriptions_unsubscribe_modal_title": { "other": "Peruuta tilaus?" },
+"usersubscriptions_unsubscribe_modal_body": { "other": "Tämä peruuttaa {{.Name}}-tilauksen. Voit silti tarkastella suunnitelman sisältöä sen voimassaolon päättymiseen asti {{.Expiry}}." },
+
+"signin_form_error_account_suspended": { "other": "Tilisi on väliaikaisesti jäädytetty. Ota yhteyttä järjestelmänvalvojaan, jos uskot tämän olevan virhe." },
+
+
+
+
+"pricing_quality_hd": { "other": "HD" },
+  "pricing_quality_sd": { "other": "SD" },
+  "pricing_quality_hd_only": { "other": "Vain HD" },
+  "pricing_quality_sd_only": { "other": "Vain SD" },
+
+  "shopping_card_save_card": { "other": "Säilytä tämä kortti tulevaa tarvetta varten" },
+  "shopping_card_button_change": { "other": "Näytä kaikki tallennetut kortit" },
+  "shopping_card_existing_description": { "other": "{{.Card.Brand}} päättyy {{.Card.Number}}" },
+  "shopping_card_existing_expiry": { "other": "(päättyy {{.Card.Expiry}})" },
+  "shopping_card_existing_expired": { "other": "(vanhentunut)" },
+  "shopping_card_use_other": { "other": "Käytä uutta korttia" },
+  "shopping_card_use_new_card": { "other": "Vaihda kortti" },
+  "shopping_card_update_reason_none": { "other": "Päivitä luottokorttisi. Tuetut kortit ovat Visa, Mastercard ja American Express." },
+  "shopping_info_ownership_plan": { "other": "Tilaus" },
+  "shopping_action_credit": { "other": "Täytä" },
+
+  "usersubscriptions_change_payment_method_change": { "other": "Vaihda luottokorttisi" },
+  "usersubscriptions_change_payment_method_modal_title": { "other": "Päivitä luottokorttitietosi" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "Päivittää" },
+
+  "seasons":{
+    "one": "yksi kausi",
+    "other": "{{.Count}} vuodenajat"
+  },"tvseason": {
+    "other": "{{.ShowInfo.Title}} Kausi {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>Kausi {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "Kausi {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "1 Jakso",
+    "other": "{{.Count}} Jaksot"
+  },
+
+  "user_error_too_many_pin_errors": { "other": "<p>Sinulla näyttää olevan ongelmia.</p><p>Nollaa PIN-koodi tai ota meihin yhteyttä saadaksesi apua <a href=\"{{.HelpURL}}\" target=\"_blank\">apua</a>" },
+  "validation_pincode_required": { "other": "Anna PIN-koodi." },
+
+  "shopping_info_subtitle_hd": { "other": "HD Video on Demand." },
+  "shopping_info_subtitle_sd": { "other": "SD Video on Demand." },
+  "shopping_info_subtitle_wallet": { "other": "Walletissasi olevia varoja voidaan käyttää minkä tahansa sisällön ostamiseen tai vuokraamiseen ScreenPlus." },
+ 
+  "shopping_info_sd_only": { "other": "Rajoitettu vain SD-toistoon." },
+  "shopping_error_discount_worn_out": { "other": "Tätä tarjouskoodia ei voi enää käyttää." },
+
+  "activatedevice_page_header": { "other": "Aktivoi laite" },
+  "activatedevice_page_content": { "other": "Hanki PIN-koodi noudattamalla laitteesi ohjeita. Sekä tietokoneesi että laitteesi on oltava yhteydessä Internetiin aktivoimista varten." },
+  "activatedevice_form_pin": { "other": "Pin-koodi" },
+  "activatedevice_form_submit": { "other": "Aktivoida" },
+  "activatedevice_form_error_invalid_code": { "other": "PIN-koodia ei löydy, yritä uudelleen." },
+  "activatedevice_form_error_pin_not_found": { "other": "PIN-koodia ei löydy, yritä uudelleen." },
+  "activatedevice_signin_prompt": { "other": "Kirjaudu sisään ennen laitteesi aktivoimista." },
+  "activatedevice_page_activated": { "other": "Kiitos aktivoinnistasi {{.DeviceName}}. Sinun pitäisi nyt pystyä selaamaan kirjastoasi televisiollasi tai laitteellasi." },
+
+  "playlist_page_header": { "other": "Soittolista" },
+  "playlist_sign_in_warning": { "other": "Kirjaudu sisään katsoaksesi live-TV:tä."},
+  "playlist_share_title": { "other": "Soittolista" },
+  "playlist_up_next_title": { "other": "Seuraava" },
+  "classification_divider": { "other": " - " },
+  "classification_outro": { "other": "" },
+  "shopping_card_change": { "other": "Luottokortti ei ole oikea?? <a href=\"{{.SubscriptionsURL}}\">Napsauta tätä päivittääksesi korttisi</a>" }
+
 }
