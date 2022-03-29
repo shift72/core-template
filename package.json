@@ -113,7 +113,6 @@
   },
   "eslintIgnore": [
     "modernizr-custom.js",
-    "language-file-to-csv.js",
     "./site/static/scripts/*.js",
     "./site/static/scripts/*.map"
   ],
