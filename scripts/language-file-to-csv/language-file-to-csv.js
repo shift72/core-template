@@ -7,7 +7,7 @@ if (!fs.existsSync(outputDir)) {
 
 if (process.argv.length < 3) {
   console.error('ERROR - Language file path argument missing!');
-  return;
+  process.exit();
 }
 
 let languageFilePath = process.argv[2];
@@ -15,7 +15,7 @@ let validLanguageFilePath = /site\/[a-z]{2}_[A-Z]{2}.all.json/;
 
 if (!languageFilePath.match(validLanguageFilePath)) {
   console.error(`ERROR - Language file path argument '${languageFilePath}' invalid!`);
-  return;
+  process.exit();
 }
 
 let rawdata = fs.readFileSync(languageFilePath);
