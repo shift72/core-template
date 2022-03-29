@@ -13,7 +13,7 @@
     "css:local:get": "node scripts/css-local-get.js",
     "css:local:put": "node scripts/css-local-put.js",
     "js": "rollup -c",
-    "js:lint": "prettier '{scripts,site/static/js}/**/!(modernizr-custom).js' --write && eslint ./site/static/js/*.js ./scripts --fix",
+    "js:lint": "prettier '{scripts,site/static/js}/**/!(modernizr-custom).*js' --write && eslint ./site/static/js/*.*js ./scripts --fix",
     "js:watch": "rollup -c -w",
     "js:build": "rollup -c",
     "kibble": "kibble render",
