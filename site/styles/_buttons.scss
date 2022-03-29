@@ -246,7 +246,7 @@
 }
 
 s72-donate-button:not(:empty) {
-  :hover {
+   &:hover a {
     background-color: $button-background-hover;
     color: $button-text-color-hover;
     svg {
