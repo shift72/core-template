@@ -27,10 +27,13 @@ s72-availability-label {
 
   s72-availability-label {
     @extend .w-100;
-    @extend .px-p5;
-    background-color: rgba(var(--body-bg-rgb), 0.7);
     bottom: 0;
     font-weight: $font-weight-normal;
+
+    .availability-bg {
+      @extend .px-p5;
+      background-color: rgba(var(--body-bg-rgb), 0.7);
+    }
 
     .availability-state {
       @extend .mb-0;

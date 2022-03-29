@@ -6,6 +6,10 @@
   width: 100%;
   z-index: 1;
 
+  s72-availability-status {
+    color: $button-text-color;
+  }
+
   .poster-overlay-top {
     @extend .d-flex;
     @extend .justify-content-between;
@@ -18,7 +22,6 @@
 
     s72-availability-status {
       @extend .pr-p5;
-      color: $button-text-color;
       min-width: 0;
       position: unset;
       z-index: unset;
