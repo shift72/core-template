@@ -114,9 +114,9 @@ $spacers: (
 );
 
 // Cookie Consent
-$cookie-consent-color: #000;
-$cookie-consent-link-color: var(--primary);
-$cookie-consent-hover-link-color: var(--secondary);
+$cookie-consent-color: #000 !default;
+$cookie-consent-link-color: var(--primary) !default;
+$cookie-consent-hover-link-color: var(--secondary) !default;
 
 // Nav
 // ------------------------------------
