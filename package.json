@@ -20,7 +20,7 @@
     "kibble:start": "mkdir -p .kibble && test -n \"$npm_config_admin\" && npm run kibble:watch -- --admin || npm run kibble:watch",
     "kibble:watch": "kibble render --watch --port 8081",
     "kibble:build": "kibble publish",
-    "build": "npm-s -l css js:build css:build kibble:build",
+    "build": "run-s -l css js:build css:build kibble:build",
     "language:csv": "node scripts/language-file-to-csv/language-file-to-csv.js site/en_AU.all.json",
     "language:validate": "node scripts/language-file-validator.js",
     "version": "node scripts/core-template-version.js",
@@ -52,7 +52,7 @@
     "postcss-cli": "^9.0.1",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
-    "s72-kibble": "^0.16.5",
+    "s72-kibble": "^0.16.6",
     "sass": "^1.36.0"
   },
   "devDependencies": {

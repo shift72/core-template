@@ -21,16 +21,15 @@
   <main id="main" class="page page-film meta-detail meta-detail-film">
     <div class="meta-detail-bg">
       <div class="right-gradient"></div>
-      <s72-image src="{{film.Images.Background}}" alt="" class="meta-detail-bg-img"></s72-image>
+      <s72-image src="{{film.ImageMap["Background"]}}" alt="" class="meta-detail-bg-img"></s72-image>
     </div>
     <div class="container">
       <div class="meta-detail-main">
         {{if config("default_image_type") == "portrait"}}
             <div class="poster poster-portrait">
               <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
-              <s72-image src="{{film.Images.Classification}}" alt="" class="classification-image">
-
-              <s72-image src="{{film.Images.Portrait}}" alt="{{film.Title}}" class="poster poster-image poster-image-portrait"></s72-image>
+              <s72-image src="{{film.ImageMap["Classification"]}}" alt="" class="classification-image">
+              <s72-image src="{{film.ImageMap["Portrait"]}}" alt="{{film.Title}}" class="poster poster-image poster-image-portrait"></s72-image>
 
             </div>
         {{end}}
