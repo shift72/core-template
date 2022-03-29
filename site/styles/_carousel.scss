@@ -165,6 +165,13 @@ s72-carousel {
       }
     }
 
+    .meta-item-tagline-and-classification {
+      @extend .d-flex;
+      align-items: center;
+      padding-bottom: 14px;
+      padding-top: 8px;
+    }
+
     .s72-classification {
       margin-right: 5px;
     }
