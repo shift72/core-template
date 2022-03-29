@@ -1,5 +1,9 @@
 {{block googleScripts(tagManagerId=config("google_tag_manager_id"), analyticsId=config("google_analytics_id"))}}
   <!-- Google integration scripts -->
+  <!-- GA4 script if G tracking code is provided -->
+  {{ if hasPrefix(analyticsId,"G")}}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{analyticsId}}"></script>
+  {{ end }}
   <script>
     function loadGoogleTagManager() {
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -9,8 +13,16 @@
       })(window,document,'script','dataLayer','{{ tagManagerId }}')
     }
 
+    <!-- GA4 code snippet if G tracking code is provided, else use legacy UA code snippet -->
+    {{ if hasPrefix(analyticsId,"G")}}
+      function loadGoogleAnalytics() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    {{ if hasPrefix(analyticsId,"UA")}}
+        gtag('config', '{{analyticsId}}');
+      }
+    {{else}}
       function loadGoogleAnalytics() {
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,17 +32,6 @@
         ga('create', '{{analyticsId}}', 'auto');
         ga('require', 'ecommerce');
         ga('send', 'pageview');
-      }
-    {{else}}
-      function loadGoogleAnalytics() {
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{analyticsId}}"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', '{{analyticsId}}');
-        </script>
       }
     {{end}}
 
