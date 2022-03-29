@@ -479,6 +479,9 @@
   "awards_winner_of": {
     "other": "Gewinner von"
   },
+  "awards_winner": {
+    "other": "Gewinner"
+  },
   "donate_button_text": {
     "other": "Spenden"
   }, 
@@ -536,7 +539,6 @@
 
   "wcag_skip_links_header": { "other": "Zugänglichkeitslinks" },
   "wcag_skip_links_content": { "other": "Zum Inhalt springen" },
-  "wcag_skip_links_footer": { "other": "Zur Fußzeile springen" },
 
   "wcag_homepage_h1": { "other": "Startseite" },
   "wcag_carousel_h2": { "other": "Karussell" },

@@ -1136,6 +1136,9 @@
   "awards_winner_of": {
     "other": "Vinder af"
   },
+  "awards_winner": {
+    "other": "Vinder"
+  },
   "donate_button_text": {
     "other": "Doner"
   },
@@ -1148,9 +1151,8 @@
   "shopping_error_stripe_unknown_error": { "other": "Der gik noget galt med denne betaling. Prøv igen senere." },
   "shopping_error_payment_complete_failed": { "other": "Betalingen blev afvist. Luk dette vindue og prøv igen." },
 
-  "wcag_skip_links_header": { "other": "Tilgængelighedslinks" },
-  "wcag_skip_links_content": { "other": "Gå til indhold" },
-  "wcag_skip_links_footer": { "other": "Gå til sidefod" },
+  "wcag_skip_links_header": { "other": "Accessibility Links" },
+  "wcag_skip_links_content": { "other": "Skip to Content" },
 
   "wcag_homepage_h1": { "other": "Hjemmeside" },
   "wcag_carousel_h2": { "other": "Karrusel" },
