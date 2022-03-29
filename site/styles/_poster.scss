@@ -6,17 +6,11 @@
   width: 100%;
   z-index: 1;
 
-  s72-availability-status {
-    left: $meta-item-availability-tag-margin;
-    top: $meta-item-availability-tag-margin;
-  }
-
   .poster-overlay-top {
     @extend .d-flex;
     @extend .justify-content-between;
     @extend .position-absolute;
 
-    @extend .p-p5;
     @extend .mw-100;
     width: 100%;
 
