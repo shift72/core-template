@@ -3,10 +3,11 @@ import glob from 'glob';
 import * as fs from 'fs';
 const key = process.argv[2];
 const value = process.argv[3];
+const nestedKey = process.argv[4];
 
 if (!key || !value) {
-    console.log("Should be 'npm run translate key value'")
-    process.exit(1)
+  console.log('Should be \'npm run translate key value\'');
+  process.exit(1);
 }
 glob('./site/*.json', {}, (err, files) => {
   files.forEach(pathName => {
@@ -29,7 +30,12 @@ glob('./site/*.json', {}, (err, files) => {
       .then(translated => {
         if (translated) {
           const translatedValue = translated[0][0][0];
-          content[key] = { other: translatedValue };
+
+          if (!content[key]) {
+            content[key] = {};
+          }
+
+          content[key][nestedKey ? nestedKey : 'other'] = translatedValue;
           fs.writeFileSync(pathName, JSON.stringify(content, null, 2));
         }
       });
