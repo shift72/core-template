@@ -1,9 +1,11 @@
+{{block googleGa4Script(analyticsId=config("google_analytics_id"))}}
+  {{if hasPrefix(analyticsId,"G")}}
+  <!-- GA4 script if G tracking code is provided -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{analyticsId}}"></script>
+  {{end}}
+{{end}}
 {{block googleScripts(tagManagerId=config("google_tag_manager_id"), analyticsId=config("google_analytics_id"))}}
   <!-- Google integration scripts -->
-  <!-- GA4 script if G tracking code is provided -->
-  {{ if hasPrefix(analyticsId,"G")}}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{analyticsId}}"></script>
-  {{ end }}
   <script>
     function loadGoogleTagManager() {
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -14,7 +16,7 @@
     }
 
     <!-- GA4 code snippet if G tracking code is provided, else use legacy UA code snippet -->
-    {{ if hasPrefix(analyticsId,"G")}}
+    {{if hasPrefix(analyticsId,"G")}}
       function loadGoogleAnalytics() {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
