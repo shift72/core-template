@@ -2,18 +2,18 @@ s72-availability-label {
   font-weight: $font-weight-light;
   .availability-state {
     @extend .d-flex;
-    line-height: 24px;
     @extend .mb-2;
     font-size: 16px;
     letter-spacing: 0.4px;
+    line-height: 24px;
 
-    &:before {
+    &::before {
       @extend .fa;
       @extend .fa-exclamation-circle;
       @extend .mr-1;
       color: var(--body-color);
-      line-height: 24px;
       font-size: 24px;
+      line-height: 24px;
     }
   }
 }
@@ -26,16 +26,16 @@ s72-availability-label {
   }
 
   s72-availability-label {
-    background-color: rgba(var(--body-bg-rgb),0.7);
-    font-weight: $font-weight-normal;
     @extend .w-100;
     @extend .px-p5;
+    background-color: rgba(var(--body-bg-rgb), 0.7);
     bottom: 0;
+    font-weight: $font-weight-normal;
 
     .availability-state {
-      line-height: 18px;
       @extend .mb-0;
-      &:before {
+      line-height: 18px;
+      &::before {
         content: none;
       }
     }
@@ -43,11 +43,11 @@ s72-availability-label {
 
   s72-availability-status .availability-bg {
     background-color: var(--primary);
+    border-bottom-right-radius: $meta-item-border-radius;
     display: block;
+    line-height: 20px;
     padding: 0 5px;
     text-align: center;
-    border-bottom-right-radius: $meta-item-border-radius;
-    line-height: 20px;
   }
 
   .availability-expired {
@@ -57,8 +57,8 @@ s72-availability-label {
   .availability-state {
     @extend .justify-content-center;
     color: var(--body-color-rgb);
-    text-transform: uppercase;
-    text-align: center;
     font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
   }
 }

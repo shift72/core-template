@@ -18,10 +18,10 @@
 
     s72-availability-status {
       @extend .pr-p5;
+      color: $button-text-color;
       min-width: 0;
       position: unset;
       z-index: unset;
-      color: $button-text-color;
 
       /* stylelint-disable selector-max-compound-selectors */
       .availability-bg {
