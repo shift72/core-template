@@ -27,7 +27,7 @@
     "prestart": "npm run version",
     "prebuild": "npm run version",
     "prepare": "npm run version",
-    "translate": "node translate.mjs"
+    "translate": "node scripts/translate.mjs"
   },
   "repository": {
     "type": "git",
