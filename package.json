@@ -74,6 +74,11 @@
     "node-fetch": "^3.2.3"
   },
   "eslintConfig": {
+    "settings": {
+      "jest": {
+        "version": 26
+      }
+    },
     "env": {
       "browser": true,
       "es6": true
