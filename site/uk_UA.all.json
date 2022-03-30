@@ -1130,13 +1130,16 @@
   "plan_free_link_text": {
     "other": "Зареєструйтеся безкоштовно"
   },
-  "awards_nominated_for": {
-    "other": "Номінований за"
-  },
   "awards_in_competition": {
     "other": "У конкурсі"
   },
-  "awards_winner_of": {
+  "meta_description_expand": {
+    "other": "Показати більше"
+  },
+  "meta_description_collapse": {
+    "other": "Показати менше"
+  },
+  "awards_winner": {
     "other": "Переможець"
   },
   "donate_button_text": {

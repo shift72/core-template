@@ -509,14 +509,17 @@
     "plan_free_link_text": {
       "other": "Registrer deg gratis"
     },
-    "awards_nominated_for": {
-      "other": "Nominert til"
-    },
     "awards_in_competition": {
       "other": "I konkurranse"
     },
-    "awards_winner_of": {
-      "other": "Vinner av"
+    "meta_description_expand": {
+      "other": "Vis mer"
+    },
+    "meta_description_collapse": {
+      "other": "Vis mindre"
+    },
+    "awards_winner": {
+      "other": "Vinner"
     },
     "donate_button_text": {
       "other": "Doneren"

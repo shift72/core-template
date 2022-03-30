@@ -470,14 +470,17 @@
   "plan_free_link_text": {
     "other": "Melde dich kostenlos an"
   },
-  "awards_nominated_for": {
-    "other": "Nominiert für"
-  },
   "awards_in_competition": {
     "other": "Im Wettbewerb"
   },
-  "awards_winner_of": {
-    "other": "Gewinner von"
+  "meta_description_expand": {
+    "other": "Zeig mehr"
+  },
+  "meta_description_collapse": {
+    "other": "Zeige weniger"
+  },
+  "awards_winner": {
+    "other": "Gewinner"
   },
   "donate_button_text": {
     "other": "Spenden"

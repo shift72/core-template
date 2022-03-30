@@ -1127,14 +1127,11 @@
     "other": "Gratis tilmelding"
   },
 
-  "awards_nominated_for": {
-    "other": "Nomineret til"
-  },
   "awards_in_competition": {
     "other": "I Konkurrence"
   },
-  "awards_winner_of": {
-    "other": "Vinder af"
+  "awards_winner": {
+    "other": "Vinder"
   },
   "donate_button_text": {
     "other": "Doner"
@@ -1169,6 +1166,11 @@
   "wcag_aria_label_twitter": { "other": "Del på Twitter" },
   "wcag_aria_label_linkedin": { "other": "Del på LinkedIn" },
   "wcag_aria_label_letterboxd": { "other": "Se på Letterboxd" },
-
+  "meta_description_expand": {
+    "other": "Vis mere"
+  },
+  "meta_description_collapse": {
+    "other": "Vis mindre"
+  },
   "header_banner": { "other": "ABC Cinemas – 21. filmfestival, 1. – 6. juni 2021" }
 }

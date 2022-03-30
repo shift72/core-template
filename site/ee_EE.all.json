@@ -516,13 +516,10 @@
   "plan_free_link_text": {
     "other": "Registreeru tasuta"
   },
-  "awards_nominated_for": {
-    "other": "Kandideeritud"
-  },
   "awards_in_competition": {
     "other": "Võistluses"
   },
-  "awards_winner_of": {
+  "awards_winner": {
     "other": "Võitja"
   },
   "donate_button_text": {
@@ -596,6 +593,12 @@
   "shopping_error_age_restricted": { "other": "Sellel sisul on vanusepiirang." },
   "shopping_error_close_button": { "other": "Okei" },
 
-  "availability_expired": { "other": "Aegunud"}
+  "availability_expired": { "other": "Aegunud"},
+  "meta_description_expand": {
+    "other": "Näita rohkem"
+  },
+  "meta_description_collapse": {
+    "other": "Näita vähem"
+  }
 }
   

@@ -517,13 +517,16 @@
     "plan_free_link_text": {
       "other": "Ücretsiz kaydol"
     },
-    "awards_nominated_for": {
-      "other": "Aday için"
-    },
     "awards_in_competition": {
       "other": "Rekabette"
     },
-    "awards_winner_of": {
+    "meta_description_expand": {
+      "other": "Daha fazla göster"
+    },
+    "meta_description_collapse": {
+      "other": "Daha az göster"
+    },
+    "awards_winner": {
       "other": "kazanan"
     },
     "donate_button_text": {

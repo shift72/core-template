@@ -544,14 +544,17 @@
     "plan_free_link_text": {
       "other": "Бесплатно се пријави"
     },
-    "awards_nominated_for": {
-      "other": "Номинован за"
-    },
     "awards_in_competition": {
       "other": "Ин Цомпетитион"
     },
-    "awards_winner_of": {
-      "other": "Победник од"
+    "meta_description_expand": {
+      "other": "Прикажи више"
+    },
+    "meta_description_collapse": {
+      "other": "Прикажи мање"
+    },
+    "awards_winner": {
+      "other": "Победник"
     },
     "donate_button_text": {
       "other": "Донирајте"

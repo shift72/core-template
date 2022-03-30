@@ -434,13 +434,16 @@
   "plan_free_link_text": {
     "other": "Kirjaudu sisään ilmaiseksi"
   },
-  "awards_nominated_for": {
-    "other": "Ehdolla"
-  },
   "awards_in_competition": {
     "other": "Kilpailussa"
   },
-  "awards_winner_of": {
+  "meta_description_expand": {
+    "other": "Näytä lisää"
+  },
+  "meta_description_collapse": {
+    "other": "Näytä vähemmän"
+  },
+  "awards_winner": {
     "other": "Voittaja"
   },
   "donate_button_text": {

@@ -484,14 +484,17 @@
   "plan_free_link_text": {
     "other": "Prijavite se besplatno"
   },
-  "awards_nominated_for": {
-    "other": "Nominiran za"
-  },
   "awards_in_competition": {
     "other": "U natjecanju"
   },
-  "awards_winner_of": {
-    "other": "Pobjednik od"
+  "meta_description_expand": {
+    "other": "Prikaži više"
+  },
+  "meta_description_collapse": {
+    "other": "Pokažite manje"
+  },
+  "awards_winner": {
+    "other": "Pobjednik"
   },
   "donate_button_text": {
     "other": "Donirajte"

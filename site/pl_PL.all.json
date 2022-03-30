@@ -491,13 +491,16 @@
   "plan_free_link_text": {
     "other": "Zarejestruj się za darmo"
   },
-  "awards_nominated_for": {
-    "other": "Nominowany do"
-  },
   "awards_in_competition": {
     "other": "W zawodach"
   },
-  "awards_winner_of": {
+  "meta_description_expand": {
+    "other": "Pokaż więcej"
+  },
+  "meta_description_collapse": {
+    "other": "Pokaż mniej"
+  },
+  "awards_winner": {
     "other": "Zwycięzca"
   },
   "donate_button_text": {
