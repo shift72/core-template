@@ -1224,6 +1224,12 @@
   "awards_in_competition": {
     "other": "En Competició"
   },
+  "meta_description_expand": {
+    "other": "Mostra més"
+  },
+  "meta_description_collapse": {
+    "other": "Mostra menys"
+  },
   "awards_winner": {
     "other": "Guanyador"
   },

@@ -555,6 +555,8 @@
   "awards_in_competition": { "other": "In Competition" },
   "awards_winner": { "other": "Winner" },
 
+  "meta_description_expand": { "other": "Show more" },
+  "meta_description_collapse": { "other": "Show less" },
   "donate_button_text": { "other": "Donate" }
 
 }

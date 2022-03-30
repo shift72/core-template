@@ -1166,6 +1166,11 @@
   "wcag_aria_label_twitter": { "other": "Del på Twitter" },
   "wcag_aria_label_linkedin": { "other": "Del på LinkedIn" },
   "wcag_aria_label_letterboxd": { "other": "Se på Letterboxd" },
-
+  "meta_description_expand": {
+    "other": "Vis mere"
+  },
+  "meta_description_collapse": {
+    "other": "Vis mindre"
+  },
   "header_banner": { "other": "ABC Cinemas – 21. filmfestival, 1. – 6. juni 2021" }
 }

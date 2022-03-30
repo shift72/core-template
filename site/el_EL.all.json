@@ -514,6 +514,12 @@
   "awards_in_competition": {
     "other": "Σε Διαγωνισμό"
   },
+  "meta_description_expand": {
+    "other": "Δείτε περισσότερα"
+  },
+  "meta_description_collapse": {
+    "other": "Δείξε λιγότερο"
+  },
   "awards_winner": {
     "other": "Νικητής"
   },

@@ -520,6 +520,12 @@
     "awards_in_competition": {
       "other": "Rekabette"
     },
+    "meta_description_expand": {
+      "other": "Daha fazla göster"
+    },
+    "meta_description_collapse": {
+      "other": "Daha az göster"
+    },
     "awards_winner": {
       "other": "kazanan"
     },

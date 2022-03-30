@@ -437,6 +437,12 @@
   "awards_in_competition": {
     "other": "Kilpailussa"
   },
+  "meta_description_expand": {
+    "other": "Näytä lisää"
+  },
+  "meta_description_collapse": {
+    "other": "Näytä vähemmän"
+  },
   "awards_winner": {
     "other": "Voittaja"
   },

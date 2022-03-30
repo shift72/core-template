@@ -547,6 +547,12 @@
     "awards_in_competition": {
       "other": "Ин Цомпетитион"
     },
+    "meta_description_expand": {
+      "other": "Прикажи више"
+    },
+    "meta_description_collapse": {
+      "other": "Прикажи мање"
+    },
     "awards_winner": {
       "other": "Победник"
     },

@@ -517,6 +517,12 @@
     "awards_in_competition": {
       "other": "Versenyben"
     },
+    "meta_description_expand": {
+      "other": "Mutass többet"
+    },
+    "meta_description_collapse": {
+      "other": "Mutass kevesebbet"
+    },
     "awards_winner": {
       "other": "Győztes"
     },

@@ -544,6 +544,12 @@
   "awards_in_competition": {
     "other": "Varžybose"
   },
+  "meta_description_expand": {
+    "other": "Rodyti daugiau"
+  },
+  "meta_description_collapse": {
+    "other": "Rodyti mažiau"
+  },
   "awards_winner": {
     "other": "Nugalėtojas"
   },

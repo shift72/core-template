@@ -593,6 +593,12 @@
   "shopping_error_age_restricted": { "other": "Sellel sisul on vanusepiirang." },
   "shopping_error_close_button": { "other": "Okei" },
 
-  "availability_expired": { "other": "Aegunud"}
+  "availability_expired": { "other": "Aegunud"},
+  "meta_description_expand": {
+    "other": "Näita rohkem"
+  },
+  "meta_description_collapse": {
+    "other": "Näita vähem"
+  }
 }
   

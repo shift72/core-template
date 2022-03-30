@@ -544,6 +544,12 @@
   "awards_in_competition": {
     "other": "in competitie"
   },
+  "meta_description_expand": {
+    "other": "Laat meer zien"
+  },
+  "meta_description_collapse": {
+    "other": "Laat minder zien"
+  },
   "awards_winner": {
     "other": "Winnaar"
   },

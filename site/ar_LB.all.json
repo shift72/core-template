@@ -574,6 +574,12 @@
     "awards_in_competition": {
       "other": "في المنافسة"
     },
+    "meta_description_expand": {
+      "other": "أظهر المزيد"
+    },
+    "meta_description_collapse": {
+      "other": "عرض أقل"
+    },
     "donate_button_text": {
       "other": "يتبرع"
     },

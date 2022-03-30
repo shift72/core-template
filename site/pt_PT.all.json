@@ -515,6 +515,12 @@
     "awards_in_competition": {
       "other": "Em competição"
     },
+    "meta_description_expand": {
+      "other": "Mostre mais"
+    },
+    "meta_description_collapse": {
+      "other": "Mostre menos"
+    },
     "awards_winner": {
       "other": "Vencedora"
     },

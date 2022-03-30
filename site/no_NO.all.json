@@ -512,6 +512,12 @@
     "awards_in_competition": {
       "other": "I konkurranse"
     },
+    "meta_description_expand": {
+      "other": "Vis mer"
+    },
+    "meta_description_collapse": {
+      "other": "Vis mindre"
+    },
     "awards_winner": {
       "other": "Vinner"
     },

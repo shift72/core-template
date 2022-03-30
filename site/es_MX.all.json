@@ -418,7 +418,12 @@
 
   "awards_winner": { "other": "Ganador" },
   "donate_button_text": { "other": "Donar" },
-
+  "meta_description_expand": {
+    "other": "Mostrar más"
+  },
+  "meta_description_collapse": {
+    "other": "Muestra menos"
+  },
   "wcag_skip_links_header": { "other": "Enlaces de accesibilidad" },
   "wcag_skip_links_content": { "other": "Saltar al contenido" },
 
