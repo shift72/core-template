@@ -1186,6 +1186,12 @@
   "awards_in_competition": {
     "other": "У конкурсі"
   },
+  "meta_description_expand": {
+    "other": "Показати більше"
+  },
+  "meta_description_collapse": {
+    "other": "Показати менше"
+  },
   "awards_winner": {
     "other": "Переможець"
   },

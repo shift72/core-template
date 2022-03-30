@@ -972,6 +972,12 @@
   "awards_in_competition": {
     "other": "In Concorso"
   },
+  "meta_description_expand": {
+    "other": "Mostra di più"
+  },
+  "meta_description_collapse": {
+    "other": "Mostra meno"
+  },
   "awards_winner": {
     "other": "Vincitore"
   },

@@ -1244,5 +1244,11 @@
   },
   "shopping_error_close_button": {
     "other": "Tamam"
+  },
+  "meta_description_expand": {
+    "other": "Daha fazla göster"
+  },
+  "meta_description_collapse": {
+    "other": "Daha az göster"
   }
 }

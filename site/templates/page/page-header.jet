@@ -35,7 +35,7 @@
               </s72-user-anon>
             {{ end }}
           {{ else }}
-          <s72-pricing-buttons data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" data-ownership-label-prefix={{ i18n("plan_showcase_page_ownership_button_") }} data-hide-price="true" />
+          <s72-pricing-buttons data-slug="{{plan.Slug}}" data-title="{{plan.Name}}" />
           {{ end }}
         </div>
       {{end}}

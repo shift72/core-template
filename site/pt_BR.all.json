@@ -1236,6 +1236,12 @@
   "awards_winner": {
     "other": "Vencedora"
   },
+  "meta_description_expand": {
+    "other": "Mostre mais"
+  },
+  "meta_description_collapse": {
+    "other": "Mostre menos"
+  },
   "donate_button_text": {
     "other": "Doar"
   },

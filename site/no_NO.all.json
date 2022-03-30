@@ -1244,5 +1244,11 @@
   },
   "availability_expired": {
     "other": "Utløpt"
+  },
+  "meta_description_expand": {
+    "other": "Vis mer"
+  },
+  "meta_description_collapse": {
+    "other": "Vis mindre"
   }
 }

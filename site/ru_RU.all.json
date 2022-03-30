@@ -1084,6 +1084,12 @@
   "awards_in_competition": {
     "other": "В соревновании"
   },
+  "meta_description_expand": {
+    "other": "Показать больше"
+  },
+  "meta_description_collapse": {
+    "other": "Показывай меньше"
+  },
   "awards_winner": {
     "other": "победитель"
   },

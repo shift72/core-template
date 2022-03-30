@@ -1144,6 +1144,12 @@
   "awards_in_competition": {
     "other": "U natjecanju"
   },
+  "meta_description_expand": {
+    "other": "Prikaži više"
+  },
+  "meta_description_collapse": {
+    "other": "Pokažite manje"
+  },
   "awards_winner": {
     "other": "Pobjednik"
   },

@@ -1253,5 +1253,11 @@
   },
   "awards_winner": {
     "other": "الفائز"
+  },
+  "meta_description_expand": {
+    "other": "أظهر المزيد"
+  },
+  "meta_description_collapse": {
+    "other": "عرض أقل"
   }
 }

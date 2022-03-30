@@ -904,6 +904,12 @@
   "awards_in_competition": {
     "other": "競争中"
   },
+  "meta_description_expand": {
+    "other": "もっと見せる"
+  },
+  "meta_description_collapse": {
+    "other": "表示を減らす"
+  },
   "awards_winner": {
     "other": "勝者"
   },

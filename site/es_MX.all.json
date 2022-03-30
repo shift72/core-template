@@ -1244,5 +1244,11 @@
   },
   "plan_free_link_text": {
     "other": "Registrate gratis"
+  },
+  "meta_description_expand": {
+    "other": "Mostrar más"
+  },
+  "meta_description_collapse": {
+    "other": "Muestra menos"
   }
 }
