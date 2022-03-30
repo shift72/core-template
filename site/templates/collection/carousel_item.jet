@@ -26,7 +26,7 @@
               {{end}}
             </h3>
             <div class="meta-item-tagline-and-classification">
-              {{yield metaItemTagline() item.InnerItem}}
+              {{yield metaItemTagline(genresLimit=1) item.InnerItem}}
             </div>
 
             <div class="meta-item-synopsis">
