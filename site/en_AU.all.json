@@ -351,6 +351,7 @@
   "meta_detail_studios": { "one": "Studio", "other": "Studios" },
   "meta_detail_countries": { "one": "Country", "other": "Countries" },
   "meta_detail_subtitles": { "other": "Subtitles" },
+  "meta_detail_captions": { "other": "Closed Captions [CC]" },
   "meta_detail_episodes_title": { "other": "Episodes" },
   "meta_detail_bonus_title": { "other": "Bonus Content" },
   "meta_detail_recommendations_title": { "other": "You may also like" },
@@ -436,19 +437,10 @@
   "usersubscriptions_no_subscriptions_content": { "other": "Discover great content at great prices, easily managed here." },
   "usersubscriptions_no_subscriptions_button_title": { "other": "Explore subscriptions" },
 
-  "usersubscriptions_subscription_unsubscribe": { "other": "Cancel my subscription" },
-  "usersubscriptions_unsubscribe_modal_cancel": { "other": "Cancel" },
-  "usersubscriptions_unsubscribe_modal_confirm": { "other": "Yes, cancel my subscription" },
-  "usersubscriptions_unsubscribe_modal_title": { "other": "Cancel subscription?" },
-  "usersubscriptions_unsubscribe_modal_body": { "other": "This will cancel the subscription to the {{.Name}} plan. You will still be able to watch the content in the plan until it expires {{.Expiry}}." },
-
-  "usersubscriptions_change_payment_method_modal_title": { "other": "Update credit card details" },
-  "usersubscriptions_change_payment_method_modal_submit": { "other": "Update" },
-
-  "pricing_quality_hd": { "other": "pricing_quality_hd" },
-  "pricing_quality_sd": { "other": "pricing_quality_sd" },
-  "pricing_quality_hd_only": { "other": "pricing_quality_hd_only" },
-  "pricing_quality_sd_only": { "other": "pricing_quality_sd_only" },
+  "pricing_quality_hd": { "other": "HD" },
+  "pricing_quality_sd": { "other": "SD" },
+  "pricing_quality_hd_only": { "other": "HD Only" },
+  "pricing_quality_sd_only": { "other": "SD Only" },
 
   "shopping_card_save_card": { "other": "Save this card for future use" },
   "shopping_card_button_change": { "other": "Show all saved cards" },
@@ -461,7 +453,7 @@
   "shopping_card_new_subscription": { "other": "This card will be saved and charged regularly" },
   "shopping_card_change": { "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>" },
 
-  "shopping_info_ownership_plan": { "other": "shopping_info_ownership_plan" },
+  "shopping_info_ownership_plan": { "other": "Subscription"},
 
   "shopping_price_title_plan": { "other": "Price" },
   "shopping_price_plan_note": {
@@ -476,7 +468,7 @@
 
   "shopping_enter_card_prompt_plan": { "other": "Enter your credit card details below in order start your subscription." },
 
-  "shopping_action_credit": { "other": "shopping_action_credit" },
+  "shopping_action_credit": { "other": "Top up" },
   "shopping_action_plan": { "other": "Complete" },
 
   "shopping_complete_subscription": { "other": "Your subscription purchase was successful. You are now subscribed to {{.Title}}." },
@@ -497,7 +489,7 @@
   "availability_coming_soon": { "other": "Coming soon" },
   "availability_renting": { "other": "Renting" },
   "availability_not_available": { "other": "Not available" },
-  "availability_in_watch_window": { "other": "availability_in_watch_window" },
+  "availability_in_watch_window": { "other": "Available in watch window" },
   "availability_sold_out": { "other": "Sold Out" },
   "availability_available_till": { "other": "Available until {{.ExpiryDate}}" },
   "availability_not_available_in_country": { "other": "Not available in your country" },
