@@ -223,9 +223,12 @@ s72-carousel {
 }
 
 .s72-carousel-pagination {
-  @extend .d-flex;
+  display: none;
   justify-content: center;
   margin-top: 40px;
+  @include media-breakpoint-up(sm) {
+    display: flex;
+  }
 }
 .s72-carousel-page {
   border: 0;
