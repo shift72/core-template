@@ -435,6 +435,15 @@
   "usersubscriptions_no_subscriptions_content": { "other": "Discover great content at great prices, easily managed here." },
   "usersubscriptions_no_subscriptions_button_title": { "other": "Explore subscriptions" },
 
+  "usersubscriptions_subscription_unsubscribe": { "other": "Cancel my subscription" },
+  "usersubscriptions_unsubscribe_modal_cancel": { "other": "Cancel" },
+  "usersubscriptions_unsubscribe_modal_confirm": { "other": "Yes, cancel my subscription" },
+  "usersubscriptions_unsubscribe_modal_title": { "other": "Cancel subscription?" },
+  "usersubscriptions_unsubscribe_modal_body": { "other": "This will cancel the subscription to the {{.Name}} plan. You will still be able to watch the content in the plan until it expires {{.Expiry}}." },
+
+  "usersubscriptions_change_payment_method_modal_title": { "other": "Update credit card details" },
+  "usersubscriptions_change_payment_method_modal_submit": { "other": "Update" },
+
   "pricing_quality_hd": { "other": "HD" },
   "pricing_quality_sd": { "other": "SD" },
   "pricing_quality_hd_only": { "other": "HD Only" },
