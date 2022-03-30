@@ -412,14 +412,10 @@
   "app_badge_ios": { "other": "Descargar en la App Store" },
   "app_badge_android": { "other": "Consiguelo en google play" },
 
-  "awards_nominated_for": {
-    "other": "Nominado a"
-  },
   "awards_in_competition": {
     "other": "En competición"
   },
 
-  "awards_winner_of": { "other": "Ganador de" },
   "awards_winner": { "other": "Ganador" },
   "donate_button_text": { "other": "Donar" },
   "meta_description_expand": {
