@@ -229,7 +229,8 @@
     /* stylelint-enable selector-max-compound-selectors */
   }
 
-  .meta-detail-synopsis {
+  .meta-detail-synopsis,
+  .meta-detail-switcher-tagline {
     padding-top: 10px;
 
     p {
