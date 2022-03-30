@@ -417,8 +417,6 @@
   "users_gender_diverse": { "other": "Diverse" },
   "users_gender_other": { "other": "Other" },
 
-  "plan_label_owned": { "other": "" },
-
   "usersubscriptions_page_header": { "other": "Subscriptions and Billing" },
   "usersubscriptions_page_content": { "other": " " },
   "usersubscriptions_payment_section_title": { "other": "Payment Method" },
