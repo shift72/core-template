@@ -201,7 +201,6 @@
     .meta-detail-extras,
     s72-play-button,
     can-be-watched-button:not(:empty) {
-
       animation: fadein 2s;
       margin-left: 0.5rem;
       margin-right: 0.5rem;
@@ -245,7 +244,8 @@
     }
   }
 
-  .meta-detail-synopsis {
+  .meta-detail-synopsis,
+  .meta-detail-switcher-tagline {
     padding-top: 10px;
 
     p {

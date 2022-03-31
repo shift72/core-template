@@ -70,6 +70,11 @@ s72-plan-label {
 }
 
 .curated-plan-page {
+  // Fix some spacing under the h1
+  h1 {
+    line-height: 1;
+  }
+
   // Hide the separator if this is a curated collection page
   + .separator {
     @extend .border-0;

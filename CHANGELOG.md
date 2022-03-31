@@ -1,36 +1,57 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.4.4...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.5.0...HEAD)
 
-## [0.4.4](https://github.com/shift72/core-template/compare/0.4.3...0.4.4)
-- Fixed usage of obsolete $primary var for trailer button
+
+## [0.5.0](https://github.com/shift72/core-template/compare/0.4.4...0.5.0)
+### Changed
+- Upgrade to kibble `0.16.6`.
+- Moved references from `film.Images` to `film.ImageMap`.
+- Removed minimum page height from content pages.
+- Moved skip link above cookie consent banner
 
 ### Added
-- Awards categories
+- Start the site with an admin build: `npm start --admin`.
+- Added Core template version to `<head>` and `kibble.json`.
+- Added styling for floating donate button to use button sass variables.
+- A bunch of missing language keys across language files.
+- Automated translation command
+
+### Fixed
+- Can now override the cookie consent styling.
+- Can now send analytics data to both GA4 and UA Legacy google analytics (GA4 previously not supported)
+
+
+## [0.4.4](https://github.com/shift72/core-template/compare/0.4.3...0.4.4)
+### Fixed
+- Fixed obsolete `$primary` var for trailer button.
+
+### Added
+- Awards categories.
 
 ## [0.4.3](https://github.com/shift72/core-template/compare/0.4.2...0.4.3)
 
 ### Added
-- Awards categories
-- Floating donate button
+- Awards categories.
+- Floating donate button.
 - External custom CSS link in head.
 - Scripts for downloading/uploading custom CSS files for use with local development.
 
 ### Changed
-- Replaced various SASS variables with CSS variables.
-- Added workarounds for SASS and Bootstrap functions that don't understand CSS variables.
-- Kibble 0.16.4
-- Split CC and Subtitles
-- Moved engagement icons
+- Replaced various Sass variables with CSS variables.
+- Added workarounds for Sass and Bootstrap functions that don't understand CSS variables.
+- Kibble `0.16.4`.
+- Split CC and Subtitles.
+- Moved engagement icons.
 
 ## [0.4.2](https://github.com/shift72/core-template/compare/0.4.1...0.4.2)
 
 ### Added
-- Lang files updated with entries for purchasing one-off passes
-- Sponsor banner that can be enabled/disabled in Uber Admin
+- Lang files updated with entries for purchasing one-off passes.
+- Sponsor banner.
 
-### Changed
-- Typo in English lang file
+### Fixed
+- Typo in English language file.
 
 ## [0.4.1](https://github.com/shift72/core-template/compare/0.4.0...0.4.1)
 
@@ -51,11 +72,11 @@ No changes from RC0.
 
 ### Changed
 - Moved separator line from footer jet into app badge jet.
-- Kibble upgraded to v0.15.22.
+- Kibble upgraded to `0.15.22`.
 - Application templates moved to `/site/templates/application/`.
 - Links (`<a>` tags) without a `class` attribute have `text-decoration: underline`.
 
-## Fixed
+### Fixed
 - Curated pages with a collection no longer has a `min-height` that was forcing a gap before the collection.
 
 ## [0.3.8](https://github.com/shift72/core-template/compare/0.3.7...0.3.8)

@@ -1,11 +1,11 @@
 {
   "name": "@shift72/core-template",
-  "version": "0.4.4",
+  "version": "0.5.0",
   "description": "Shift72 core template",
   "license": "MIT",
   "scripts": {
-    "start": "npm run init && npm-run-all --parallel css:watch js:watch kibble:watch",
-    "init": "npm-run-all css css:local:get js",
+    "start": "run-s -l init && run-p -l css:watch js:watch kibble:start",
+    "init": "run-p -l css css:local:get js",
     "css": "sass ./site/styles/main.scss ./site/static/styles/main.css --load-path=node_modules",
     "css:lint": "prettier 'site/styles/*.scss' --write && stylelint ./site/styles/*.scss --fix",
     "css:watch": "npm run css -- --watch",
@@ -13,15 +13,21 @@
     "css:local:get": "node scripts/css-local-get.js",
     "css:local:put": "node scripts/css-local-put.js",
     "js": "rollup -c",
-    "js:lint": "prettier '{scripts,site/static/js}/**/!(modernizr-custom).js' --write && eslint ./site/static/js/*.js ./scripts --fix",
+    "js:lint": "prettier '{scripts,site/static/js}/**/!(modernizr-custom).*js' --write && eslint ./site/static/js/*.*js ./scripts --fix",
     "js:watch": "rollup -c -w",
     "js:build": "rollup -c",
     "kibble": "kibble render",
+    "kibble:start": "mkdir -p .kibble && test -n \"$npm_config_admin\" && npm run kibble:watch -- --admin || npm run kibble:watch",
     "kibble:watch": "kibble render --watch --port 8081",
     "kibble:build": "kibble publish",
-    "build": "npm-run-all css js:build css:build kibble:build",
+    "build": "run-s -l css js:build css:build kibble:build",
     "language:csv": "node scripts/language-file-to-csv/language-file-to-csv.js site/en_AU.all.json",
-    "language:validate": "node scripts/language-file-validator.js"
+    "language:validate": "node scripts/language-file-validator.js",
+    "version": "node scripts/core-template-version.js",
+    "prestart": "npm run version",
+    "prebuild": "npm run version",
+    "prepare": "npm run version",
+    "translate": "node scripts/translate.mjs"
   },
   "repository": {
     "type": "git",
@@ -47,7 +53,7 @@
     "postcss-cli": "^9.0.1",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
-    "s72-kibble": "^0.16.4",
+    "s72-kibble": "^0.16.6",
     "sass": "^1.36.0"
   },
   "devDependencies": {
@@ -63,9 +69,16 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-prettier": "^1.2.0",
-    "stylelint-scss": "^3.19.0"
+    "stylelint-scss": "^3.19.0",
+    "glob": "^7.2.0",
+    "node-fetch": "^3.2.3"
   },
   "eslintConfig": {
+    "settings": {
+      "jest": {
+        "version": 26
+      }
+    },
     "env": {
       "browser": true,
       "es6": true
