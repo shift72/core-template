@@ -1256,5 +1256,32 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Maksutapa"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Luottokorttimaksutapasi muutokset tulevat voimaan seuraavalla laskutusjaksollasi."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Tilauksen tiedot"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktiivinen"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Vanhentunut"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Tutustu tilauksiin"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Löydä mahtavaa sisältöä edulliseen hintaan, jota on helppo hallita täällä."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Tutustu tilauksiin"
   }
 }

@@ -1265,5 +1265,32 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Makseviis"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Teie krediitkaardimaksemeetodi muudatused jõustuvad teie järgmisel arveldustsüklil."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Tellimuse üksikasjad"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktiivne"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Aegunud"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Avastage tellimusi"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Avastage suurepärast sisu suurepäraste hindadega, mida siin on lihtne hallata."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Uurige tellimusi"
   }
 }

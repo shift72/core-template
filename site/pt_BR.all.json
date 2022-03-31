@@ -1256,5 +1256,32 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Forma de pagamento"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "As alterações na forma de pagamento com cartão de crédito entrarão em vigor no próximo ciclo de cobrança."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Detalhes da assinatura"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Ativo"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Expirado"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Descubra assinaturas"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Descubra ótimos conteúdos a ótimos preços, facilmente gerenciados aqui."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Explorar assinaturas"
   }
 }

@@ -1256,5 +1256,32 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "付款方法"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "对信用卡付款方式的更改将在您的下一个结算周期生效。"
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "订阅详情"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "积极的"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "已到期"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "发现订阅"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "以优惠的价格发现精彩的内容，在此处轻松管理。"
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "探索订阅"
   }
 }
