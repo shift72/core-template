@@ -15,29 +15,38 @@ glob('./site/*.json', {}, (err, files) => {
     const content = JSON.parse(file_content);
     let languageCode = pathName.slice(7, 9);
     if (languageCode == 'ee') languageCode = 'et';
-    fetch(
-      `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${languageCode}&dt=t&q=${encodeURI(
-        value
-      )}`
-    )
-      .then(res => {
-        const contentType = res.headers.get('content-type');
-        if (contentType && contentType.indexOf('application/json') !== -1) {
-          return res.json();
-        }
-        console.log(`translation failed for ${languageCode}`);
-      })
-      .then(translated => {
-        if (translated) {
-          const translatedValue = translated[0][0][0];
-
-          if (!content[key]) {
-            content[key] = {};
+    if (value.trim() === '') {
+      if (!content[key]) {
+        content[key] = {};
+      }
+      content[key][nestedKey ? nestedKey : 'other'] = value;
+      fs.writeFileSync(pathName, JSON.stringify(content, null, 2));
+    } else {
+      fetch(
+        `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${languageCode}&dt=t&q=${encodeURI(
+          value
+        )}`
+      )
+        .then(res => {
+          const contentType = res.headers.get('content-type');
+          if (contentType && contentType.indexOf('application/json') !== -1) {
+            return res.json();
           }
+          console.log(`translation failed for ${languageCode}`);
+        })
+        .then(translated => {
+          if (translated) {
+            const translatedValue = translated[0][0][0];
 
-          content[key][nestedKey ? nestedKey : 'other'] = translatedValue;
-          fs.writeFileSync(pathName, JSON.stringify(content, null, 2));
-        }
-      });
+            if (!content[key]) {
+              content[key] = {};
+            }
+
+            content[key][nestedKey ? nestedKey : 'other'] = translatedValue;
+            fs.writeFileSync(pathName, JSON.stringify(content, null, 2));
+          }
+        });
+    }
+
   });
 });
