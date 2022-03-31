@@ -5,12 +5,24 @@
   "settings_title": {
     "other": "Indstillinger"
   },
-  "powered_by": { "other": "Drevet af" },
-  "powered_by_name": { "other": "Shift72" },
-  "powered_by_url": { "other": "https://www.screenplus.com" },
-  "in_partnership_with": { "other": "i samarbejde med" },
-  "festival_scope": { "other": "Festival Scope" },
-  "festival_scope_url": { "other": "https://www.festivalscope.com/page/create-your-online-film-festival/" },
+  "powered_by": {
+    "other": "Drevet af"
+  },
+  "powered_by_name": {
+    "other": "Shift72"
+  },
+  "powered_by_url": {
+    "other": "https://www.screenplus.com"
+  },
+  "in_partnership_with": {
+    "other": "i samarbejde med"
+  },
+  "festival_scope": {
+    "other": "Festival Scope"
+  },
+  "festival_scope_url": {
+    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
+  },
   "en": {
     "other": "Engelsk"
   },
@@ -124,13 +136,27 @@
   "social_media_buttons_title": {
     "other": "Del"
   },
-  "social_media_buttons_facebook": { "other": "Del på facebook" },
-  "social_media_buttons_twitter": { "other": "Del på Twitter" },
-  "social_media_buttons_linkedin": { "other": "Del på Linkedin" },
-  "social_media_buttons_email": { "other": "Del via e-mail" },
-  "social_media_buttons_email_subject": { "other": "Linkdeling" },
-  "social_media_buttons_copied_link": { "other": "Link kopieret til udklipsholder!" },
-  "social_media_buttons_copy_link": { "other": "Kopier link" },
+  "social_media_buttons_facebook": {
+    "other": "Del på facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Del på Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Del på Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "Del via e-mail"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "Linkdeling"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "Link kopieret til udklipsholder!"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "Kopier til udklipsholder"
+  },
   "accept_invite_page_header": {
     "other": "Velkommen "
   },
@@ -233,7 +259,6 @@
   "combined_auth_error_too_many_requests": {
     "other": "For mange anmodninger, prøv venligst igen senere."
   },
-
   "forgotpassword_page_header": {
     "other": "Nulstil dit kodeord"
   },
@@ -502,8 +527,14 @@
   "shopping_info_available_until_date_explanation_buy": {
     "other": "Du vil ikke kunne se indholdet efter dette."
   },
-  "duration_hour": { "one": "1 time", "other": "{{.Count}} timer" },
-  "duration_day": { "one": "1 dag", "other": "{{.Count}} dage" },
+  "duration_hour": {
+    "one": "1 time",
+    "other": "{{.Count}} timer"
+  },
+  "duration_day": {
+    "one": "1 dag",
+    "other": "{{.Count}} dage"
+  },
   "shopping_info_rental_period_duration": {
     "other": "{{.ValueUnit}} leje "
   },
@@ -678,7 +709,7 @@
   },
   "shopping_complete_plan": {
     "other": "Dit køb af {{ .Title }} blev gennemført."
-  },  
+  },
   "shopping_complete_library_link": {
     "other": "Se dit bibliotek"
   },
@@ -725,7 +756,9 @@
   "meta_detail_subtitles": {
     "other": "Undertekster"
   },
-  "meta_detail_captions": { "other": "Undertekster [CC]" },
+  "meta_detail_captions": {
+    "other": "Undertekster [CC]"
+  },
   "meta_detail_episodes_title": {
     "other": "Episoder"
   },
@@ -1060,73 +1093,77 @@
   "shopping_error_close_button": {
     "other": "Okay"
   },
-  "app_badge_title": { "other": "Download appen for at se dit købte indhold!" },
-  "app_badge_ios": { "other": "Download på App Store" },
-  "app_badge_android": { "other": "Få det på Google Play" },
-
+  "app_badge_title": {
+    "other": "Download appen for at se dit købte indhold!"
+  },
+  "app_badge_ios": {
+    "other": "Download på App Store"
+  },
+  "app_badge_android": {
+    "other": "Få det på Google Play"
+  },
   "shopping_price_title_plan": {
-      "other": "Pris"
+    "other": "Pris"
   },
   "shopping_price_plan_note": {
-      "zero": "Opkræves hvert {{ .Interval }} .",
-      "one": "Opkræves hvert {{ .Interval }} efter din 24 timers gratis prøveperiode slutter.",
-      "other": "Opkræves hvert {{ .Interval }} efter din {{ .Count }} dages gratis prøveperiode slutter."
+    "zero": "Opkræves hvert {{ .Interval }} .",
+    "one": "Opkræves hvert {{ .Interval }} efter din 24 timers gratis prøveperiode slutter.",
+    "other": "Opkræves hvert {{ .Interval }} efter din {{ .Count }} dages gratis prøveperiode slutter."
   },
   "shopping_price_plan_note_interval": {
-      "one": "{{ .Interval }}",
-      "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{ .Interval }}",
+    "other": "{{ .Count }} {{ .Interval }}"
   },
   "shopping_enter_card_prompt_plan": {
-      "other": "Indtast dine kreditkortoplysninger nedenfor for at starte dit abonnement."
+    "other": "Indtast dine kreditkortoplysninger nedenfor for at starte dit abonnement."
   },
   "shopping_action_plan": {
-      "other": "Komplet"
+    "other": "Komplet"
   },
   "shopping_complete_subscription": {
-      "other": "Dit abonnementskøb blev gennemført. Du abonnerer nu på {{ .Title }} ."
+    "other": "Dit abonnementskøb blev gennemført. Du abonnerer nu på {{ .Title }} ."
   },
   "shopping_complete_subscription_browse": {
-      "other": "Du er velkommen til at <a href=\"/\">browse rundt</a> på siden, eller <a href=\"/search.html\">søg</a> efter noget specifikt."
+    "other": "Du er velkommen til at <a href=\"/\">browse rundt</a> på siden, eller <a href=\"/search.html\">søg</a> efter noget specifikt."
   },
   "shopping_info_plan_offer": {
-      "one": "{{ .Interval }} automatisk hvert .Interval",
-      "other": "{{ .Count }} automatisk hver {{ .Interval }}"
+    "one": "{{ .Interval }} automatisk hvert .Interval",
+    "other": "{{ .Count }} automatisk hver {{ .Interval }}"
   },
   "shopping_info_trial_period_offer": {
-      "one": "Prøv din gratis 24 timers prøveperiode nu!",
-      "other": "Prøv din gratis {{ .Count }} day prøveperiode!"
+    "one": "Prøv din gratis 24 timers prøveperiode nu!",
+    "other": "Prøv din gratis {{ .Count }} day prøveperiode!"
   },
   "plans_page_header": {
-      "other": "Tilgængelige planer"
+    "other": "Tilgængelige planer"
   },
   "plan_label_owned": {
-      "other": "Du ejer denne plan"
+    "other": "Du ejer denne plan"
   },
   "plan_expiry_date": {
-      "other": "Salg lukker:"
+    "other": "Salg lukker:"
   },
   "plan_read_more": {
-      "other": "Find ud af mere"
+    "other": "Find ud af mere"
   },
   "plan_page_read_more": {
-      "other": "Læs mere"
+    "other": "Læs mere"
   },
   "plan_page_header_text": {
-      "other": "Nyd {{ .Name }}"
+    "other": "Nyd {{ .Name }}"
   },
   "page_plan_explore_intro": {
-      "other": "ELLER"
+    "other": "ELLER"
   },
   "page_plan_explore_link": {
-      "other": "Udforsk andre pas"
+    "other": "Udforsk andre pas"
   },
   "plan_showcase_page_ownership_button_buy": {
-      "other": "Køb nu"
+    "other": "Køb nu"
   },
   "plan_free_link_text": {
     "other": "Gratis tilmelding"
   },
-
   "awards_in_competition": {
     "other": "I Konkurrence"
   },
@@ -1136,41 +1173,91 @@
   "donate_button_text": {
     "other": "Doner"
   },
-
-  "shopping_error_plan_already_owned": { "other": "Du har allerede denne plan." },
-  "shopping_error_plan_expired": { "other": "Denne plan er ikke længere tilgængelig." },
-  "shopping_payment_method_header": { "other": "Betalingsmetoder" },
-  "shopping_payment_method_credit_card": { "other": "Kreditkort" },
-  "shopping_payment_method_giropay": { "other": "Giropay" },
-  "shopping_error_stripe_unknown_error": { "other": "Der gik noget galt med denne betaling. Prøv igen senere." },
-  "shopping_error_payment_complete_failed": { "other": "Betalingen blev afvist. Luk dette vindue og prøv igen." },
-
-  "wcag_skip_links_header": { "other": "Accessibility Links" },
-  "wcag_skip_links_content": { "other": "Skip to Content" },
-
-  "wcag_homepage_h1": { "other": "Hjemmeside" },
-  "wcag_carousel_h2": { "other": "Karrusel" },
-  "wcag_collections_h2": { "other": "Samlinger" },
-
-  "wcag_aria_label_footer": { "other": "Sidefod" },
-  "wcag_aria_label_nav_main": { "other": "Hoved" },
-  "wcag_aria_label_nav_sub": { "other": "Sub" },
-  "wcag_aria_label_toggle_nav": { "other": "Slå navigation til/fra" },
-  "wcag_aria_label_bundle_items": { "other": "Pak varer" },
-  "wcag_aria_label_carousel": { "other": "Karrusel" },
-  "wcag_aria_label_page_collection": { "other": "Sidesamling" },
-  "wcag_aria_label_collection_list": { "other": "Samlingsliste" },
-  "wcag_aria_label_collection_slider": { "other": "Indsamlingsskyder" },
-  "wcag_aria_label_wishlist": { "other": "Ønskeliste" },
-  "wcag_aria_label_facebook": { "other": "Del på Facebook" },
-  "wcag_aria_label_twitter": { "other": "Del på Twitter" },
-  "wcag_aria_label_linkedin": { "other": "Del på LinkedIn" },
-  "wcag_aria_label_letterboxd": { "other": "Se på Letterboxd" },
+  "shopping_error_plan_already_owned": {
+    "other": "Du har allerede denne plan."
+  },
+  "shopping_error_plan_expired": {
+    "other": "Denne plan er ikke længere tilgængelig."
+  },
+  "shopping_payment_method_header": {
+    "other": "Betalingsmetoder"
+  },
+  "shopping_payment_method_credit_card": {
+    "other": "Kreditkort"
+  },
+  "shopping_payment_method_giropay": {
+    "other": "Giropay"
+  },
+  "shopping_error_stripe_unknown_error": {
+    "other": "Der gik noget galt med denne betaling. Prøv igen senere."
+  },
+  "shopping_error_payment_complete_failed": {
+    "other": "Betalingen blev afvist. Luk dette vindue og prøv igen."
+  },
+  "wcag_skip_links_header": {
+    "other": "Accessibility Links"
+  },
+  "wcag_skip_links_content": {
+    "other": "Skip to Content"
+  },
+  "wcag_homepage_h1": {
+    "other": "Hjemmeside"
+  },
+  "wcag_carousel_h2": {
+    "other": "Karrusel"
+  },
+  "wcag_collections_h2": {
+    "other": "Samlinger"
+  },
+  "wcag_aria_label_footer": {
+    "other": "Sidefod"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "Hoved"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "Sub"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "Slå navigation til/fra"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "Pak varer"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "Karrusel"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "Sidesamling"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "Samlingsliste"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "Indsamlingsskyder"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "Ønskeliste"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "Del på Facebook"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "Del på Twitter"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "Del på LinkedIn"
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "Se på Letterboxd"
+  },
+  "header_banner": {
+    "other": "ABC Cinemas – 21. filmfestival, 1. – 6. juni 2021"
+  },
   "meta_description_expand": {
     "other": "Vis mere"
   },
   "meta_description_collapse": {
     "other": "Vis mindre"
-  },
-  "header_banner": { "other": "ABC Cinemas – 21. filmfestival, 1. – 6. juni 2021" }
+  }
 }

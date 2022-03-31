@@ -139,13 +139,27 @@
   "social_media_buttons_title": {
     "other": "Compartilhar"
   },
-  "social_media_buttons_facebook": { "other": "Compartilhar no Facebook" },
-  "social_media_buttons_twitter": { "other": "Compartilhar no Twitter" },
-  "social_media_buttons_linkedin": { "other": "Compartilhar no Linkedin" },
-  "social_media_buttons_email": { "other": "Compartilhe via e-mail" },
-  "social_media_buttons_email_subject": { "other": "Compartilhamento de link" },
-  "social_media_buttons_copied_link": { "other": "Link copiado para a área de transferência!" },
-  "social_media_buttons_copy_link": { "other": "Link de cópia" },
+  "social_media_buttons_facebook": {
+    "other": "Compartilhar no Facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Compartilhar no Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Compartilhar no Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "Compartilhe via e-mail"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "Compartilhamento de link"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "Link copiado para a área de transferência!"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "Copiar para área de transferência"
+  },
   "accept_invite_page_header": {
     "other": "Acolher "
   },
@@ -477,8 +491,12 @@
   "validation_dob_date": {
     "other": "Por favor, insira uma data de nascimento válida."
   },
-  "shopping_info_subtitle_hd": { "other": "HD Vídeo sob demanda." },
-  "shopping_info_subtitle_sd": { "other": "SD Vídeo sob demanda." },
+  "shopping_info_subtitle_hd": {
+    "other": "HD Vídeo sob demanda."
+  },
+  "shopping_info_subtitle_sd": {
+    "other": "SD Vídeo sob demanda."
+  },
   "shopping_info_subtitle_wallet": {
     "other": "Os créditos em sua Carteira podem ser usados para a compra ou aluguel de qualquer conteúdo no ScreenPlus."
   },
@@ -967,23 +985,36 @@
   "shopping_info_rental_period_coming_soon": {
     "other": "a partir da data e horário do lançamento.."
   },
-
-  "usersubscriptions_change_payment_method_change": { "other": "Alterar cartão de crédito" },
+  "usersubscriptions_change_payment_method_change": {
+    "other": "Alterar cartão de crédito"
+  },
   "usersubscriptions_change_payment_method_modal_title": {
     "other": "Atualizar detalhes do cartão de crédito"
   },
-  "usersubscriptions_change_payment_method_modal_submit": { "other": "Atualizar" },
-
-  "usersubscriptions_subscription_expiry": { "other": "Expira {{.Expiry}}" },
-  "usersubscriptions_subscription_status_trialing": { "other": "Período de teste" },
-  "usersubscriptions_subscription_unsubscribe": { "other": "Cancelar minha assinaturan" },
-  "usersubscriptions_unsubscribe_modal_cancel": { "other": "Cancelar" },
-  "usersubscriptions_unsubscribe_modal_confirm": { "other": "Sim, cancelar minha assinatura" },
-  "usersubscriptions_unsubscribe_modal_title": { "other": "Cancelar assinatura?" },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "Atualizar"
+  },
+  "usersubscriptions_subscription_expiry": {
+    "other": "Expira {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "Período de teste"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+    "other": "Cancelar minha assinaturan"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+    "other": "Cancelar"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+    "other": "Sim, cancelar minha assinatura"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+    "other": "Cancelar assinatura?"
+  },
   "usersubscriptions_unsubscribe_modal_body": {
     "other": "Isso cancelará a assinatura do plano {{.Name}}. Você ainda poderá assistir ao conteúdo do plano até que expire {{.Expiry}}."
   },
-
   "availability_coming_soon": {
     "other": "Em breve"
   },
@@ -1038,43 +1069,105 @@
   "shopping_error_item_limit_exceeded": {
     "other": "Infelizmente, {{.Title}} já está esgotado."
   },
-  "changepincode_modal_header": { "other": "Alterar seu PIN" },
-  "changepincode_modal_currentpassword": { "other": "Sua senha atual" },
-  "changepincode_modal_pincode1": { "other": "Seus novos 4 dígitos" },
-  "changepincode_modal_pincode2": { "other": "Confirme seus novos 4 dígitos PIN" },
-  "changepincode_modal_submit": { "other": "Definir PIN" },
-  "changepincode_modal_error_wrong_password": { "other": "Essa senha está incorreta." },
-  "user_set_pin_intro": { "other": "Você precisa de um PIN para {{.Action}} conteúdo restrito" },
-  "user_error_wrong_pin_reset": { "other": "Clique aqui para redefinir seu PIN" },
-  "user_error_too_many_pin_errors_help_page_link": { "other": "" },
-  "shopping_error_age_restricted": { "other": "Este conteúdo tem restrição de idade." },
-  "shopping_error_close_button": { "other": "OK" },
-  "wcag_skip_links_header": { "other": "Links de acessibilidade" },
-  "wcag_skip_links_content": { "other": "Ir para o conteúdo" },
-
-  "wcag_homepage_h1": { "other": "Pagina inicial" },
-  "wcag_carousel_h2": { "other": "Carrossel" },
-  "wcag_collections_h2": { "other": "Coleções" },
-
-  "wcag_aria_label_footer": { "other": "Rodapé" },
-  "wcag_aria_label_nav_main": { "other": "Principal" },
-  "wcag_aria_label_nav_sub": { "other": "Sub" },
-  "wcag_aria_label_toggle_nav": { "other": "Alternar de navegação" },
-  "wcag_aria_label_bundle_items": { "other": "Itens do pacote" },
-  "wcag_aria_label_carousel": { "other": "Carrossel" },
-  "wcag_aria_label_page_collection": { "other": "Página Coleções" },
-  "wcag_aria_label_collection_list": { "other": "Coleções Lista" },
-  "wcag_aria_label_collection_slider": { "other": "Coleções Controle deslizante" },
-  "wcag_aria_label_wishlist": { "other": "Lista de Desejos" },
-  "wcag_aria_label_facebook": { "other": "Compartilhar no Facebook" },
-  "wcag_aria_label_twitter": { "other": "Compartilhar no Twitter" },
-  "wcag_aria_label_linkedin": { "other": "Compartilhar no LinkedIn" },
-  "wcag_aria_label_letterboxd": { "other": "Visualizar no Letterboxd" },
-
-  "app_badge_title": { "other": "Baixe o aplicativo para visualizar o conteúdo adquirido!" },
-  "app_badge_ios": { "other": "Baixar na loja de aplicativos" },
-  "app_badge_android": { "other": "Obtê-lo no Google Play" },
-
+  "changepincode_modal_header": {
+    "other": "Alterar seu PIN"
+  },
+  "changepincode_modal_currentpassword": {
+    "other": "Sua senha atual"
+  },
+  "changepincode_modal_pincode1": {
+    "other": "Seus novos 4 dígitos"
+  },
+  "changepincode_modal_pincode2": {
+    "other": "Confirme seus novos 4 dígitos PIN"
+  },
+  "changepincode_modal_submit": {
+    "other": "Definir PIN"
+  },
+  "changepincode_modal_error_wrong_password": {
+    "other": "Essa senha está incorreta."
+  },
+  "user_set_pin_intro": {
+    "other": "Você precisa de um PIN para {{.Action}} conteúdo restrito"
+  },
+  "user_error_wrong_pin_reset": {
+    "other": "Clique aqui para redefinir seu PIN"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+    "other": ""
+  },
+  "shopping_error_age_restricted": {
+    "other": "Este conteúdo tem restrição de idade."
+  },
+  "shopping_error_close_button": {
+    "other": "OK"
+  },
+  "wcag_skip_links_header": {
+    "other": "Links de acessibilidade"
+  },
+  "wcag_skip_links_content": {
+    "other": "Ir para o conteúdo"
+  },
+  "wcag_homepage_h1": {
+    "other": "Pagina inicial"
+  },
+  "wcag_carousel_h2": {
+    "other": "Carrossel"
+  },
+  "wcag_collections_h2": {
+    "other": "Coleções"
+  },
+  "wcag_aria_label_footer": {
+    "other": "Rodapé"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "Principal"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "Sub"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "Alternar de navegação"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "Itens do pacote"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "Carrossel"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "Página Coleções"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "Coleções Lista"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "Coleções Controle deslizante"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "Lista de Desejos"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "Compartilhar no Facebook"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "Compartilhar no Twitter"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "Compartilhar no LinkedIn"
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "Visualizar no Letterboxd"
+  },
+  "app_badge_title": {
+    "other": "Baixe o aplicativo para visualizar o conteúdo adquirido!"
+  },
+  "app_badge_ios": {
+    "other": "Baixar na loja de aplicativos"
+  },
+  "app_badge_android": {
+    "other": "Obtê-lo no Google Play"
+  },
   "shopping_price_title_plan": {
     "other": "Preço"
   },
@@ -1152,8 +1245,10 @@
   "donate_button_text": {
     "other": "Doar"
   },
-
-  "shopping_error_plan_already_owned": { "other": "Você já tem este plano." },
-  "shopping_error_plan_expired": { "other": "Este plano não está mais disponível." }
-
+  "shopping_error_plan_already_owned": {
+    "other": "Você já tem este plano."
+  },
+  "shopping_error_plan_expired": {
+    "other": "Este plano não está mais disponível."
+  }
 }
