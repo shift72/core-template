@@ -899,13 +899,13 @@
     "other": "Αλλαγή πιστωτικής κάρτας"
   },
   "usersubscriptions_change_payment_method_modal_title": {
-    "other": "Ενημερώστε τα στοιχεία της πιστωτικής σας κάρτας"
+    "other": "Ενημερώστε τα στοιχεία της πιστωτικής κάρτας"
   },
   "usersubscriptions_change_payment_method_modal_submit": {
-    "other": "Αλλαγή"
+    "other": "Εκσυγχρονίζω"
   },
   "usersubscriptions_subscription_expiry": {
-    "other": "Τελειώνει {{.Expiry}}"
+    "other": "Λήγει {{.Λήξη}}"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Δοκιμαστική περίοδος"
@@ -923,7 +923,7 @@
     "other": "Ακύρωση συνδρομής;"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Αυτό θα ακυρώσει τη συνδρομή στο {{.Name}} σχέδιο. Θα εξακολουθείτε να μπορείτε να παρακολουθείτε το περιεχόμενο του προγράμματος έως και {{.Expiry}}."
+    "other": "Αυτό θα ακυρώσει τη συνδρομή στο πρόγραμμα {{.Name}}. "
   },
   "availability_coming_soon": {
     "other": "Προσεχώς"
@@ -1256,5 +1256,32 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Μέθοδος πληρωμής"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Οι αλλαγές στον τρόπο πληρωμής με πιστωτική κάρτα θα τεθούν σε ισχύ στον επόμενο κύκλο χρέωσής σας."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Στοιχεία συνδρομής"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Ενεργός"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "έχει λήξει"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Ανακαλύψτε τις συνδρομές"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Ανακαλύψτε εξαιρετικό περιεχόμενο σε εξαιρετικές τιμές, εύκολα διαχειρίσιμο εδώ."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Εξερευνήστε τις συνδρομές"
   }
 }

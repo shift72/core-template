@@ -1001,7 +1001,7 @@
     "other": "Período de teste"
   },
   "usersubscriptions_subscription_unsubscribe": {
-    "other": "Cancelar minha assinaturan"
+    "other": "Cancelar minha assinatura"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
     "other": "Cancelar"
@@ -1013,7 +1013,7 @@
     "other": "Cancelar assinatura?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Isso cancelará a assinatura do plano {{.Name}}. Você ainda poderá assistir ao conteúdo do plano até que expire {{.Expiry}}."
+    "other": "Isso cancelará a assinatura do plano {{.Name}}. "
   },
   "availability_coming_soon": {
     "other": "Em breve"
@@ -1256,5 +1256,32 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Forma de pagamento"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "As alterações na forma de pagamento com cartão de crédito entrarão em vigor no próximo ciclo de cobrança."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Detalhes da assinatura"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Ativo"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Expirado"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Descubra assinaturas"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Descubra ótimos conteúdos a ótimos preços, facilmente gerenciados aqui."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Explorar assinaturas"
   }
 }

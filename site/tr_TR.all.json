@@ -902,7 +902,7 @@
     "other": "...şu tarih ve yayınlanma vaktinden başlayarak."
   },
   "usersubscriptions_change_payment_method_change": {
-    "other": "Kredi kartını değiştir"
+    "other": "Kredi Kartını Değiştir"
   },
   "usersubscriptions_change_payment_method_modal_title": {
     "other": "Kredi kartı bilgilerini güncelle"
@@ -911,25 +911,25 @@
     "other": "Güncelleme"
   },
   "usersubscriptions_subscription_expiry": {
-    "other": "Sona ermek {{.Expiry}}"
+    "other": "{{.Expiry}} sona eriyor"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Deneme süresi"
   },
   "usersubscriptions_subscription_unsubscribe": {
-    "other": "Aboneliğimi iptal et"
+    "other": "aboneliğimi iptal et"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
     "other": "İptal"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Evet, aboneliğimi iptal et "
+    "other": "Evet, aboneliğimi iptal et"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Aboneliği iptal et?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Bu, aboneliği iptal edecektir.{{.Name}} plan.Yine de plandaki içeriği sona erene kadar izleyebileceksiniz. {{.Expiry}}."
+    "other": "Bu, {{.Name}} planına olan aboneliği iptal eder. "
   },
   "shopping_card_update_reason_none": {
     "other": "Kredi kartınızı güncelleyin.Desteklenen kartlar Visa, MasterCard ve American Express'dir."
@@ -1256,5 +1256,32 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Ödeme şekli"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Kredi kartı ödeme yönteminizde yapacağınız değişiklikler bir sonraki faturalandırma döngünüzde geçerli olacaktır."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Abonelik Ayrıntıları"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktif"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Günü geçmiş"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Abonelikleri Keşfedin"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Burada kolayca yönetilen harika içerikleri harika fiyatlarla keşfedin."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Abonelikleri keşfedin"
   }
 }
