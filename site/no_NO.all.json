@@ -911,7 +911,7 @@
     "other": "Oppdater"
   },
   "usersubscriptions_subscription_expiry": {
-    "other": "Utløper"
+    "other": "Utløper {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Prøveperiode"
@@ -929,7 +929,7 @@
     "other": "Avbestille abonnementet?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Dette vil kansellere abonnementet på {{.Name}} Du vil fortsatt kunne se innholdet i planen til den utløper {{.Expiry}}."
+    "other": "Dette vil kansellere abonnementet på {{.Name}}-planen. "
   },
   "shopping_card_update_reason_none": {
     "other": "Oppdater kredittkortet ditt. Støttede kort er Visa, Mastercard og American Expresse"
@@ -1256,5 +1256,32 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Betalingsmetode"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Endringer i betalingsmåten for kredittkort trer i kraft neste faktureringssyklus."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Abonnementsdetaljer"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktiv"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Utløpt"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Oppdag abonnementer"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Oppdag flott innhold til gode priser, enkelt administrert her."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Utforsk abonnementer"
   }
 }

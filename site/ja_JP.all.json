@@ -1106,7 +1106,7 @@
     "other": "サブスクリプションをキャンセルしますか？"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "これにより、{{.Name}}プランのサブスクリプションがキャンセルされます。 {{.Expiry}}の有効期限が切れるまで、プランのコンテンツを引き続き視聴できます。"
+    "other": "これにより、{{。Name}}プランのサブスクリプションがキャンセルされます。 "
   },
   "signin_form_error_ip_throttled": {
     "other": "サインインに何度も失敗しました。 後でもう一度やり直してください。"
@@ -1256,5 +1256,32 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "支払方法"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "クレジットカードのお支払い方法の変更は、次の請求サイクルで有効になります。"
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "サブスクリプションの詳細"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "アクティブ"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "期限切れ"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "サブスクリプションの検出"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "ここで簡単に管理できる、優れたコンテンツを手頃な価格で見つけてください。"
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "サブスクリプションを調べる"
   }
 }

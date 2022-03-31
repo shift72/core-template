@@ -1004,7 +1004,7 @@
     "other": "Vil du opsige abonnement?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Dette vil annullere abonnementet på {{.Name}}-planen. Du vil stadig være i stand til at se indholdet i planen, indtil det udløber {{.Expiry}}."
+    "other": "Dette vil annullere abonnementet på {{.Name}}-planen. "
   },
   "availability_coming_soon": {
     "other": "Kommer snart"
@@ -1265,5 +1265,32 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Betalingsmetode"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Ændringer af din kreditkortbetalingsmetode træder i kraft på din næste faktureringsperiode."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Abonnementsoplysninger"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktiv"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Udløbet"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Opdag abonnementer"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Oplev fantastisk indhold til fantastiske priser, nemt at administrere her."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Udforsk abonnementer"
   }
 }

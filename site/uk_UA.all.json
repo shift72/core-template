@@ -999,19 +999,19 @@
     "other": "Змінити кредитну картку"
   },
   "usersubscriptions_change_payment_method_modal_title": {
-    "other": "Оновлення деталей кредитної картки"
+    "other": "Оновіть дані кредитної картки"
   },
   "usersubscriptions_change_payment_method_modal_submit": {
     "other": "Оновлення"
   },
   "usersubscriptions_subscription_expiry": {
-    "other": "Закінчується {{.Expiry}}"
+    "other": "Термін дії закінчується {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Пробний період"
   },
   "usersubscriptions_subscription_unsubscribe": {
-    "other": "Скасувати мою підписку"
+    "other": "Скасуйте мою підписку"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
     "other": "Скасувати"
@@ -1023,7 +1023,7 @@
     "other": "Скасувати підписку?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Це скасує підписку на {{.Name}} план.Ви все одно зможете подивитися вміст у плані, поки не закінчується {{.Expiry}}."
+    "other": "Це призведе до скасування підписки на план {{.Name}}. "
   },
   "availability_coming_soon": {
     "other": "Скоро у доступі"
@@ -1284,5 +1284,32 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Спосіб оплати"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Зміни в способі оплати кредитною карткою набудуть чинності під час наступного платіжного циклу."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Деталі підписки"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Активний"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Термін дії закінчився"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Відкрийте для себе підписки"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Відкрийте для себе чудовий вміст за чудовими цінами, яким легко керувати тут."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Перегляньте підписки"
   }
 }
