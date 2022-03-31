@@ -1250,5 +1250,11 @@
   },
   "meta_description_collapse": {
     "other": "Daha az göster"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonelikler ve Faturalandırma"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

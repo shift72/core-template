@@ -1250,5 +1250,11 @@
   },
   "header_banner": {
     "other": "ABC Cinemas – 21-asis kino festivalis, 2021 m. birželio 1–6 d"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Prenumeratos ir atsiskaitymas"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

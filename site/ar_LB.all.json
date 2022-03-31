@@ -1259,5 +1259,11 @@
   },
   "meta_description_collapse": {
     "other": "عرض أقل"
+  },
+  "usersubscriptions_page_header": {
+    "other": "الاشتراكات والفواتير"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

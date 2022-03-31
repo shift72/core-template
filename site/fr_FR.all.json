@@ -1250,5 +1250,11 @@
   },
   "shopping_error_plan_expired": {
     "other": "Ce forfait n'est plus disponible."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonnements et facturation"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

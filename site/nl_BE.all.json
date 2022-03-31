@@ -1250,5 +1250,11 @@
   },
   "header_banner": {
     "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonnementen en facturering"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

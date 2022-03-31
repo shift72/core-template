@@ -1259,5 +1259,11 @@
   },
   "meta_description_collapse": {
     "other": "Näita vähem"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Tellimused ja arveldamine"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

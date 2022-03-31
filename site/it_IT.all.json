@@ -1250,5 +1250,11 @@
   },
   "shopping_error_item_limit_exceeded": {
     "other": "Sfortunatamente, {{.Title}} è esaurito."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abbonamenti e fatturazione"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

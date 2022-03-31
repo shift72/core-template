@@ -1080,7 +1080,6 @@
   "usersubscriptions_unsubscribe_modal_body": {
     "other": "This will cancel the subscription to the {{.Name}} plan. You will still be able to watch the content in the plan until it expires {{.Expiry}}."
   },
-
   "usersubscriptions_change_payment_method_modal_title": {
     "other": "Update credit card details"
   },

@@ -1250,5 +1250,11 @@
   },
   "shopping_card_change": {
     "other": "Luottokortti ei ole oikea?? <a href=\"{{.SubscriptionsURL}}\">Napsauta tätä päivittääksesi korttisi</a>"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Tilaukset ja laskutus"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

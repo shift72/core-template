@@ -1250,5 +1250,11 @@
   },
   "meta_description_collapse": {
     "other": "Прикажи мање"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Претплате и наплата"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

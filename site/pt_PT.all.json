@@ -1250,5 +1250,11 @@
   },
   "meta_description_collapse": {
     "other": "Mostre menos"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Assinaturas e cobrança"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

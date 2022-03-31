@@ -1259,5 +1259,11 @@
   },
   "validation_terms_required": {
     "other": "Sie müssen den Nutzungsbedingungen zustimmen."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonnements und Abrechnung"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

@@ -1278,5 +1278,11 @@
   },
   "header_banner": {
     "other": "Головний банер"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Підписки та виставлення рахунків"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

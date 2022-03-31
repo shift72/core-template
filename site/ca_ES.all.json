@@ -1259,5 +1259,11 @@
   },
   "wcag_aria_label_letterboxd": {
     "other": "Veure a Letterboxd"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Subscripcions i facturació"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

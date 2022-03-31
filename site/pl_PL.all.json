@@ -1295,5 +1295,11 @@
   },
   "shopping_card_change": {
     "other": "Karta kredytowa jest nieprawidłowa? <a href=\"{{.SubscriptionsURL}}\">Kliknij tutaj, aby zaktualizować swoją kartę.</a>"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Subskrypcje i rozliczenia"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

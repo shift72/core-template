@@ -1272,5 +1272,11 @@
   },
   "availability_expired": {
     "other": "Истекший"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Подписки и выставление счетов"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

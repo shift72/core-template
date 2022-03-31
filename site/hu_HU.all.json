@@ -1259,5 +1259,11 @@
   },
   "meta_description_collapse": {
     "other": "Mutass kevesebbet"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Előfizetések és számlázás"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

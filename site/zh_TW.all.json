@@ -1250,5 +1250,11 @@
   },
   "wcag_aria_label_letterboxd": {
     "other": "在letterboxd上查看"
+  },
+  "usersubscriptions_page_header": {
+    "other": "订阅和计费"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

@@ -1259,5 +1259,11 @@
   },
   "meta_description_collapse": {
     "other": "Vis mindre"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonnementer og fakturering"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

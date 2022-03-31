@@ -1250,5 +1250,11 @@
   },
   "signin_form_error_account_suspended": {
     "other": "Ο λογαριασμός σας έχει τεθεί προσωρινά σε αναστολή. Επικοινωνήστε με έναν διαχειριστή εάν πιστεύετε ότι πρόκειται για λάθος."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Συνδρομές και Χρεώσεις"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

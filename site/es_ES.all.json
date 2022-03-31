@@ -1250,5 +1250,11 @@
   },
   "shopping_error_item_limit_exceeded": {
     "other": "Desafortunadamente, {{.Title}} se ha vendido."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Suscripciones y Facturación"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

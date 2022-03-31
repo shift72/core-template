@@ -1250,5 +1250,11 @@
   },
   "shopping_complete_credit_purchase": {
     "other": "{{.Title}}をご購入いただきありがとうございます。{{.CreditTotal}}がアカウントに追加されました。"
+  },
+  "usersubscriptions_page_header": {
+    "other": "サブスクリプションと請求"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }

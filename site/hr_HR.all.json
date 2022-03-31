@@ -1242,5 +1242,11 @@
   },
   "user_error_too_many_pin_errors_help_page_link": {
     "other": ""
+  },
+  "usersubscriptions_page_header": {
+    "other": "Pretplate i naplata"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
   }
 }
