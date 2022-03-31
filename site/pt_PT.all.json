@@ -134,7 +134,7 @@
     "other": "Continuar"
   },
   "social_media_buttons_title": {
-    "other": "Compartilhar"
+    "other": "Participação"
   },
   "social_media_buttons_facebook": {
     "other": "Compartilhar no Facebook"
@@ -143,10 +143,10 @@
     "other": "Compartilhar no Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Compartilhar no Linkedin"
+    "other": "Compartilhe no Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Compartilhe via e-mail"
+    "other": "Compartilhar por e-mail"
   },
   "social_media_buttons_email_subject": {
     "other": "Compartilhamento de link"
@@ -155,7 +155,7 @@
     "other": "Link copiado para a área de transferência!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Copiar para área de transferência"
+    "other": "Link de cópia"
   },
   "accept_invite_page_header": {
     "other": "Acolher "
