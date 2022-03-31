@@ -44,7 +44,8 @@ s72-availability-label {
     }
   }
 
-  s72-availability-status .availability-bg {
+  s72-availability-status .availability-bg,
+  s72-plan-label {
     background-color: var(--primary);
     border-bottom-right-radius: $meta-item-border-radius;
     display: block;
@@ -63,4 +64,12 @@ s72-availability-label {
     font-size: 12px;
     text-align: center;
   }
+}
+
+.poster .availability-state,
+s72-plan-label {
+  @extend .justify-content-center;
+  color: var(--body-color-rgb);
+  font-size: 12px;
+  text-align: center;
 }

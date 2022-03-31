@@ -30,22 +30,18 @@ s72-plan-label {
           p {
             @extend .mb-p75;
           }
+          .s72-plan-owned {
+            line-height: 20px;
+          }
         }
 
         .poster {
           s72-plan-label {
             @extend .position-absolute;
             @extend .mx-auto;
-            left: 5px !important;
-            top: 5px;
-
+            left: 0px;
+            top: 0px;
             z-index: 99;
-
-            .s72-plan-owned {
-              @extend .availability-bg;
-
-              background-color: $button-background;
-            }
           }
         }
 
@@ -57,6 +53,8 @@ s72-plan-label {
           @extend .d-inline-block;
           @extend .availability-bg;
           @extend .mb-p5;
+          @extend .px-p5;
+          border-radius: 5px 0 5px 0;
 
           background-color: $button-background;
         }
