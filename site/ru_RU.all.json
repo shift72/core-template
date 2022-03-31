@@ -136,7 +136,7 @@
     "other": "Поделиться"
   },
   "social_media_buttons_title": {
-    "other": "Поделиться"
+    "other": "Делиться"
   },
   "social_media_buttons_facebook": {
     "other": "Поделиться через фейсбук"
@@ -145,7 +145,7 @@
     "other": "Поделиться в Твиттере"
   },
   "social_media_buttons_linkedin": {
-    "other": "Поделиться в Linkedin"
+    "other": "Поделиться на Linkedin"
   },
   "social_media_buttons_email": {
     "other": "Поделиться по электронной почте"
@@ -157,7 +157,7 @@
     "other": "Ссылка скопирована в буфер обмена!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Скопировать в буфер обмена"
+    "other": "Копировать ссылку"
   },
   "accept_invite_page_header": {
     "other": "Добро пожаловать "
