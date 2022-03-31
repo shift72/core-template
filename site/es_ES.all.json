@@ -1141,7 +1141,7 @@
     "other": "Periodo de prueba"
   },
   "usersubscriptions_subscription_unsubscribe": {
-    "other": "cancelar mi suscripción"
+    "other": "Cancelar mi suscripción"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
     "other": "Cancelar"
@@ -1153,7 +1153,7 @@
     "other": "¿Cancelar suscripción?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Esto cancelará la suscripción al plan {{.Name}}. "
+    "other": "Esto cancelará la suscripción a la {{.Name}} plan. Aún podrá ver el contenido del plan hasta que caduque {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "Ha fallado al iniciar sesión demasiadas veces. Por favor, inténtelo de nuevo más tarde."
@@ -1219,7 +1219,7 @@
     "other": "añadir crédito"
   },
   "usersubscriptions_change_payment_method_change": {
-    "other": "Cambiar tarjeta de crédito"
+    "other": "Cambiar tarjeta de credito"
   },
   "usersubscriptions_change_payment_method_modal_title": {
     "other": "Actualizar los datos de la tarjeta de crédito"
@@ -1256,32 +1256,5 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
-  },
-  "usersubscriptions_payment_section_title": {
-    "other": "Método de pago"
-  },
-  "usersubscriptions_payment_section_content": {
-    "other": "Los cambios en el método de pago de su tarjeta de crédito entrarán en vigencia en su próximo ciclo de facturación."
-  },
-  "usersubscriptions_subscriptions_section_title": {
-    "other": "Detalles de suscripción"
-  },
-  "usersubscriptions_subscriptions_section_content": {
-    "other": " "
-  },
-  "usersubscriptions_subscription_status_active": {
-    "other": "Activo"
-  },
-  "usersubscriptions_subscription_expired": {
-    "other": "Caducado"
-  },
-  "usersubscriptions_no_subscriptions_section_title": {
-    "other": "Descubrir suscripciones"
-  },
-  "usersubscriptions_no_subscriptions_content": {
-    "other": "Descubra excelente contenido a excelentes precios, administrado fácilmente aquí."
-  },
-  "usersubscriptions_no_subscriptions_button_title": {
-    "other": "Explorar suscripciones"
   }
 }

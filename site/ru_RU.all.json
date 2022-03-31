@@ -927,7 +927,7 @@
     "other": "Изменить кредитную карту"
   },
   "usersubscriptions_change_payment_method_modal_title": {
-    "other": "Обновите данные кредитной карты"
+    "other": "Обновить данные кредитной карты"
   },
   "usersubscriptions_change_payment_method_modal_submit": {
     "other": "Обновлять"
@@ -945,13 +945,13 @@
     "other": "Отмена"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Да, отменить мою подписку"
+    "other": "Да, отмените мою подписку"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Отменить подписку?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Это отменит подписку на план {{.Name}}. "
+    "other": "Это отменит подписку на {{.Name}} строить планы. Вы все равно сможете посмотреть контент в плане, пока он не истечет {{.Expiry}}."
   },
   "shopping_card_update_reason_none": {
     "other": "Обновите свою кредитную карту.Поддерживаемые карты - виза, MasterCard и American Express."
@@ -1278,32 +1278,5 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
-  },
-  "usersubscriptions_payment_section_title": {
-    "other": "Способ оплаты"
-  },
-  "usersubscriptions_payment_section_content": {
-    "other": "Изменения в способе оплаты кредитной картой вступят в силу в следующем платежном цикле."
-  },
-  "usersubscriptions_subscriptions_section_title": {
-    "other": "Сведения о подписке"
-  },
-  "usersubscriptions_subscriptions_section_content": {
-    "other": " "
-  },
-  "usersubscriptions_subscription_status_active": {
-    "other": "Активный"
-  },
-  "usersubscriptions_subscription_expired": {
-    "other": "Истекший"
-  },
-  "usersubscriptions_no_subscriptions_section_title": {
-    "other": "Откройте для себя подписки"
-  },
-  "usersubscriptions_no_subscriptions_content": {
-    "other": "Откройте для себя отличный контент по отличным ценам, которым легко управлять здесь."
-  },
-  "usersubscriptions_no_subscriptions_button_title": {
-    "other": "Изучите подписки"
   }
 }

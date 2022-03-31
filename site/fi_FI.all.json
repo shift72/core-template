@@ -1094,7 +1094,7 @@
     "other": "Vanhenee {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_trialing": {
-    "other": "Koeaika"
+    "other": "Testijakso"
   },
   "usersubscriptions_subscription_unsubscribe": {
     "other": "Peruuta tilaukseni"
@@ -1106,10 +1106,10 @@
     "other": "Kyllä, peruuta tilaukseni"
   },
   "usersubscriptions_unsubscribe_modal_title": {
-    "other": "Perutaanko tilaus?"
+    "other": "Peruuta tilaus?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Tämä peruuttaa tilauksen {{.Name}}. "
+    "other": "Tämä peruuttaa {{.Name}}-tilauksen. Voit silti tarkastella suunnitelman sisältöä sen voimassaolon päättymiseen asti {{.Expiry}}."
   },
   "signin_form_error_account_suspended": {
     "other": "Tilisi on väliaikaisesti jäädytetty. Ota yhteyttä järjestelmänvalvojaan, jos uskot tämän olevan virhe."
@@ -1157,10 +1157,10 @@
     "other": "Täytä"
   },
   "usersubscriptions_change_payment_method_change": {
-    "other": "Vaihda luottokortti"
+    "other": "Vaihda luottokorttisi"
   },
   "usersubscriptions_change_payment_method_modal_title": {
-    "other": "Päivitä luottokorttitiedot"
+    "other": "Päivitä luottokorttitietosi"
   },
   "usersubscriptions_change_payment_method_modal_submit": {
     "other": "Päivittää"
@@ -1256,32 +1256,5 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
-  },
-  "usersubscriptions_payment_section_title": {
-    "other": "Maksutapa"
-  },
-  "usersubscriptions_payment_section_content": {
-    "other": "Luottokorttimaksutapasi muutokset tulevat voimaan seuraavalla laskutusjaksollasi."
-  },
-  "usersubscriptions_subscriptions_section_title": {
-    "other": "Tilauksen tiedot"
-  },
-  "usersubscriptions_subscriptions_section_content": {
-    "other": " "
-  },
-  "usersubscriptions_subscription_status_active": {
-    "other": "Aktiivinen"
-  },
-  "usersubscriptions_subscription_expired": {
-    "other": "Vanhentunut"
-  },
-  "usersubscriptions_no_subscriptions_section_title": {
-    "other": "Tutustu tilauksiin"
-  },
-  "usersubscriptions_no_subscriptions_content": {
-    "other": "Löydä mahtavaa sisältöä edulliseen hintaan, jota on helppo hallita täällä."
-  },
-  "usersubscriptions_no_subscriptions_button_title": {
-    "other": "Tutustu tilauksiin"
   }
 }

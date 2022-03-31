@@ -932,34 +932,34 @@
     "other": "fод датума и времена "
   },
   "usersubscriptions_change_payment_method_change": {
-    "other": "Промените кредитну картицу"
+    "other": "Изменить кредитную карту"
   },
   "usersubscriptions_change_payment_method_modal_title": {
-    "other": "Ажурирајте податке о кредитној картици"
+    "other": "Обновить данные кредитной карты"
   },
   "usersubscriptions_change_payment_method_modal_submit": {
-    "other": "ажурирање"
+    "other": "Обновлять"
   },
   "usersubscriptions_subscription_expiry": {
-    "other": "Истиче {{.Екпири}}"
+    "other": "Истекает {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_trialing": {
-    "other": "Пробног периода"
+    "other": "Испытательный срок"
   },
   "usersubscriptions_subscription_unsubscribe": {
-    "other": "Откажи моју претплату"
+    "other": "Отменить мою подписку"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Поништити, отказати"
+    "other": "Отмена"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Да, откажи моју претплату"
+    "other": "Да, отмените мою подписку"
   },
   "usersubscriptions_unsubscribe_modal_title": {
-    "other": "Отказати претплату?"
+    "other": "Отменить подписку?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Ово ће отказати претплату на {{.Наме}} план. "
+    "other": "Это отменит подписку на{{.Name}} строить планы.Вы все равно сможете посмотреть контент в плане, пока он не истечет {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Ускоро"
@@ -1256,32 +1256,5 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
-  },
-  "usersubscriptions_payment_section_title": {
-    "other": "Начин плаћања"
-  },
-  "usersubscriptions_payment_section_content": {
-    "other": "Промене у начину плаћања кредитном картицом ступиће на снагу у следећем обрачунском циклусу."
-  },
-  "usersubscriptions_subscriptions_section_title": {
-    "other": "Детаљи претплате"
-  },
-  "usersubscriptions_subscriptions_section_content": {
-    "other": " "
-  },
-  "usersubscriptions_subscription_status_active": {
-    "other": "Ацтиве"
-  },
-  "usersubscriptions_subscription_expired": {
-    "other": "истекао"
-  },
-  "usersubscriptions_no_subscriptions_section_title": {
-    "other": "Откријте претплате"
-  },
-  "usersubscriptions_no_subscriptions_content": {
-    "other": "Откријте одличан садржај по одличним ценама, којим се лако управља овде."
-  },
-  "usersubscriptions_no_subscriptions_button_title": {
-    "other": "Истражите претплате"
   }
 }

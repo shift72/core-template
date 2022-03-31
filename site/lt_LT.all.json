@@ -953,16 +953,16 @@
     "other": "nuo išleidimo datos ir laiko."
   },
   "usersubscriptions_change_payment_method_change": {
-    "other": "Keisti kredito kortelę"
+    "other": "Pakeiskite kredito kortelę"
   },
   "usersubscriptions_change_payment_method_modal_title": {
-    "other": "Atnaujinkite kredito kortelės informaciją"
+    "other": "Atnaujinkite kredito kortelės duomenis"
   },
   "usersubscriptions_change_payment_method_modal_submit": {
-    "other": "Atnaujinti"
+    "other": "Atnaujinkite"
   },
   "usersubscriptions_subscription_expiry": {
-    "other": "Baigiasi {{.Galiojimo laikas}}"
+    "other": "Baigiasi {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Bandomasis laikotarpis"
@@ -974,13 +974,13 @@
     "other": "Atšaukti"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Taip, atšaukti mano prenumeratą"
+    "other": "Taip, atšaukite mano prenumeratą"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Atšaukti prenumeratą?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Taip bus atšaukta {{.Name}} plano prenumerata. "
+    "other": "Taip bus atšaukta {{.Name}} plano prenumerata. Vis tiek galėsite žiūrėti plano turinį, kol baigsis {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Jau greitai"
@@ -1256,32 +1256,5 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
-  },
-  "usersubscriptions_payment_section_title": {
-    "other": "Mokėjimo būdas"
-  },
-  "usersubscriptions_payment_section_content": {
-    "other": "Mokėjimo kredito kortele metodo pakeitimai įsigalios kitą atsiskaitymo ciklą."
-  },
-  "usersubscriptions_subscriptions_section_title": {
-    "other": "Informacija apie prenumeratą"
-  },
-  "usersubscriptions_subscriptions_section_content": {
-    "other": " "
-  },
-  "usersubscriptions_subscription_status_active": {
-    "other": "Aktyvus"
-  },
-  "usersubscriptions_subscription_expired": {
-    "other": "Baigėsi galiojimo laikas"
-  },
-  "usersubscriptions_no_subscriptions_section_title": {
-    "other": "Atraskite prenumeratas"
-  },
-  "usersubscriptions_no_subscriptions_content": {
-    "other": "Atraskite puikų turinį puikiomis kainomis, nesunkiai valdykite čia."
-  },
-  "usersubscriptions_no_subscriptions_button_title": {
-    "other": "Naršykite prenumeratas"
   }
 }
