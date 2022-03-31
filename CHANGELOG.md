@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.5.0...HEAD)
 
+### Fixed
+- Removed some redundant wishlist CSS.
+
 
 ## [0.5.0](https://github.com/shift72/core-template/compare/0.4.4...0.5.0)
 ### Changed
