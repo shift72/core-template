@@ -953,7 +953,7 @@
     "other": "vanaf de releasedatum."
   },
   "usersubscriptions_change_payment_method_change": {
-    "other": "Creditcard wijzigen"
+    "other": "Creditcard wijzigen "
   },
   "usersubscriptions_change_payment_method_modal_title": {
     "other": "Creditcardgegevens bijwerken"
@@ -962,10 +962,10 @@
     "other": "Bijwerken"
   },
   "usersubscriptions_subscription_expiry": {
-    "other": "Verloopt {{.Vervaldatum}}"
+    "other": "uVerloopt  {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_trialing": {
-    "other": "Proefperiode"
+    "other": "Proeftijd"
   },
   "usersubscriptions_subscription_unsubscribe": {
     "other": "Mijn abonnement opzeggen"
@@ -977,10 +977,10 @@
     "other": "Ja, zeg mijn abonnement op"
   },
   "usersubscriptions_unsubscribe_modal_title": {
-    "other": "Annuleer abonnement?"
+    "other": "Annuleer abonnement"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Hiermee wordt het abonnement op het {{.Name}}-abonnement opgezegd. "
+    "other": "Hiermee wordt het abonnement op {{.Name}} maak plannen opgezegd. U kunt de inhoud van het abonnement nog steeds bekijken totdat deze verloopt {{.Expiry}}"
   },
   "availability_coming_soon": {
     "other": "Binnenkort"
@@ -1256,32 +1256,5 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
-  },
-  "usersubscriptions_payment_section_title": {
-    "other": "Betalingswijze"
-  },
-  "usersubscriptions_payment_section_content": {
-    "other": "Wijzigingen in uw creditcardbetaalmethode worden van kracht tijdens uw volgende betalingscyclus."
-  },
-  "usersubscriptions_subscriptions_section_title": {
-    "other": "Abonnementsgegevens"
-  },
-  "usersubscriptions_subscriptions_section_content": {
-    "other": " "
-  },
-  "usersubscriptions_subscription_status_active": {
-    "other": "Actief"
-  },
-  "usersubscriptions_subscription_expired": {
-    "other": "Verlopen"
-  },
-  "usersubscriptions_no_subscriptions_section_title": {
-    "other": "Ontdek abonnementen"
-  },
-  "usersubscriptions_no_subscriptions_content": {
-    "other": "Ontdek geweldige inhoud tegen geweldige prijzen, gemakkelijk te beheren hier."
-  },
-  "usersubscriptions_no_subscriptions_button_title": {
-    "other": "Ontdek abonnementen"
   }
 }

@@ -986,34 +986,34 @@
     "other": "自上架時間起"
   },
   "usersubscriptions_change_payment_method_change": {
-    "other": "更改信用卡"
+    "other": "改變信用卡"
   },
   "usersubscriptions_change_payment_method_modal_title": {
-    "other": "更新信用卡详细信息"
+    "other": "更新信用卡詳細信息"
   },
   "usersubscriptions_change_payment_method_modal_submit": {
     "other": "更新"
   },
   "usersubscriptions_subscription_expiry": {
-    "other": "过期 {{.Expiry}}"
+    "other": "到期 {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_trialing": {
-    "other": "试用期"
+    "other": "試用期"
   },
   "usersubscriptions_subscription_unsubscribe": {
-    "other": "取消我的订阅"
+    "other": "取消我的訂閱"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
     "other": "取消"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "是的，取消我的订阅"
+    "other": "是的，取消我的訂閱"
   },
   "usersubscriptions_unsubscribe_modal_title": {
-    "other": "取消订阅？"
+    "other": "取消訂閱？"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "这将取消对 {{.Name}} 计划的订阅。"
+    "other": "這將取消訂閱 {{.Name}} 計劃. 您仍然能夠在計劃到期之前觀看計劃中的內容 {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "即將播映"
@@ -1256,32 +1256,5 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
-  },
-  "usersubscriptions_payment_section_title": {
-    "other": "付款方法"
-  },
-  "usersubscriptions_payment_section_content": {
-    "other": "对信用卡付款方式的更改将在您的下一个结算周期生效。"
-  },
-  "usersubscriptions_subscriptions_section_title": {
-    "other": "订阅详情"
-  },
-  "usersubscriptions_subscriptions_section_content": {
-    "other": " "
-  },
-  "usersubscriptions_subscription_status_active": {
-    "other": "积极的"
-  },
-  "usersubscriptions_subscription_expired": {
-    "other": "已到期"
-  },
-  "usersubscriptions_no_subscriptions_section_title": {
-    "other": "发现订阅"
-  },
-  "usersubscriptions_no_subscriptions_content": {
-    "other": "以优惠的价格发现精彩的内容，在此处轻松管理。"
-  },
-  "usersubscriptions_no_subscriptions_button_title": {
-    "other": "探索订阅"
   }
 }

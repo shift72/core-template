@@ -1022,7 +1022,7 @@
     "other": "Cancel·lar la subscripció?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Això cancel·larà la subscripció al pla {{.Name}}. "
+    "other": "Això cancel·larà la subscripció al pla {{.Name}}. Encara podreu veure el contingut del pla fins que caduqui {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Pròximament"
@@ -1265,32 +1265,5 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
-  },
-  "usersubscriptions_payment_section_title": {
-    "other": "Mètode de pagament"
-  },
-  "usersubscriptions_payment_section_content": {
-    "other": "Els canvis al mètode de pagament de la vostra targeta de crèdit tindran efecte el proper cicle de facturació."
-  },
-  "usersubscriptions_subscriptions_section_title": {
-    "other": "Detalls de la subscripció"
-  },
-  "usersubscriptions_subscriptions_section_content": {
-    "other": " "
-  },
-  "usersubscriptions_subscription_status_active": {
-    "other": "Actiu"
-  },
-  "usersubscriptions_subscription_expired": {
-    "other": "Caducat"
-  },
-  "usersubscriptions_no_subscriptions_section_title": {
-    "other": "Descobriu les subscripcions"
-  },
-  "usersubscriptions_no_subscriptions_content": {
-    "other": "Descobriu contingut fantàstic a preus fantàstics, fàcil de gestionar aquí."
-  },
-  "usersubscriptions_no_subscriptions_button_title": {
-    "other": "Exploreu les subscripcions"
   }
 }

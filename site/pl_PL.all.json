@@ -1160,7 +1160,7 @@
     "other": "Anuluj subskrypcje?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "To anuluje subskrypcję planu {{.Name}}. "
+    "other": "To anuluje subskrypcję planu {{.Name}}. Nadal będziesz mógł oglądać zawartość planu do czasu jego wygaśnięcia {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "nie logowałeś się zbyt wiele razy. Spróbuj ponownie później."
@@ -1301,32 +1301,5 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
-  },
-  "usersubscriptions_payment_section_title": {
-    "other": "Metoda płatności"
-  },
-  "usersubscriptions_payment_section_content": {
-    "other": "Zmiany metody płatności kartą kredytową zaczną obowiązywać w następnym cyklu rozliczeniowym."
-  },
-  "usersubscriptions_subscriptions_section_title": {
-    "other": "Szczegóły subskrypcji"
-  },
-  "usersubscriptions_subscriptions_section_content": {
-    "other": " "
-  },
-  "usersubscriptions_subscription_status_active": {
-    "other": "Aktywny"
-  },
-  "usersubscriptions_subscription_expired": {
-    "other": "Wygasły"
-  },
-  "usersubscriptions_no_subscriptions_section_title": {
-    "other": "Odkryj subskrypcje"
-  },
-  "usersubscriptions_no_subscriptions_content": {
-    "other": "Odkryj wspaniałe treści w atrakcyjnych cenach, którymi łatwo zarządzasz tutaj."
-  },
-  "usersubscriptions_no_subscriptions_button_title": {
-    "other": "Przeglądaj subskrypcje"
   }
 }

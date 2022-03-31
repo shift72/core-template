@@ -911,7 +911,7 @@
     "other": "Frissítés"
   },
   "usersubscriptions_subscription_expiry": {
-    "other": "Lejár: {{.Lejárat}}"
+    "other": "Lejár: {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
     "other": "usersubscriptions_subscription_status_cancelled"
@@ -938,7 +938,7 @@
     "other": "Feliratkozás visszavonása?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Ezzel törli az előfizetést a {{.Name}} csomagra. "
+    "other": "Ezzel törli az előfizetést a {{.Name}} csomagra. Továbbra is megtekintheti a csomag tartalmát, amíg le nem jár {{.Expiry}}."
   },
   "shopping_card_update_reason_none": {
     "other": "Frissítse hitelkártyáját. A támogatott kártyák a Visa, Mastercard és az American Express."
@@ -1265,32 +1265,5 @@
   },
   "usersubscriptions_page_content": {
     "other": " "
-  },
-  "usersubscriptions_payment_section_title": {
-    "other": "Fizetési mód"
-  },
-  "usersubscriptions_payment_section_content": {
-    "other": "A hitelkártyás fizetési mód módosításai a következő számlázási ciklusban lépnek életbe."
-  },
-  "usersubscriptions_subscriptions_section_title": {
-    "other": "Előfizetés részletei"
-  },
-  "usersubscriptions_subscriptions_section_content": {
-    "other": " "
-  },
-  "usersubscriptions_subscription_status_active": {
-    "other": "Aktív"
-  },
-  "usersubscriptions_subscription_expired": {
-    "other": "Lejárt"
-  },
-  "usersubscriptions_no_subscriptions_section_title": {
-    "other": "Fedezze fel az előfizetéseket"
-  },
-  "usersubscriptions_no_subscriptions_content": {
-    "other": "Fedezzen fel nagyszerű tartalmat nagyszerű áron, könnyen kezelhető itt."
-  },
-  "usersubscriptions_no_subscriptions_button_title": {
-    "other": "Fedezze fel az előfizetéseket"
   }
 }
