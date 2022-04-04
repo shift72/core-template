@@ -34,6 +34,7 @@
           <div class="meta-detail-tagline">
             {{yield metaItemTagline() tvseason}}
           </div>
+          <s72-availability-label data-slug="{{tvseason.Slug}}"></s72-availability-label>
           <div class="meta-detail-buttons">
             <s72-play-button data-slug="{{tvseason.Slug}}" data-title="{{tvseason.Title}}"></s72-play-button>
             <s72-pricing-buttons data-slug="{{tvseason.Slug}}" data-title="{{tvseason.Title}}"></s72-pricing-buttons>
@@ -45,7 +46,6 @@
               {{yield socialMediaButtons(path=currentUrlPath)}}
             </div>
           </div>
-          <s72-availability-label data-slug="{{tvseason.Slug}}"></s72-availability-label>
           <div class="meta-detail-synopsis">{{tvseason.Overview | raw}}</div>
           <div class="meta-detail-cast">
           {{if len(tvseason.Cast) > 0 }}

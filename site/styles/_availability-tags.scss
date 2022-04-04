@@ -1,43 +1,75 @@
-s72-availability-status,
 s72-availability-label {
-  position: absolute;
-  z-index: 99;
-}
-
-.availability-bg {
-  background: rgba(0, 0, 0, 0.8);
-  display: block;
-  padding: 5px 8px;
-  text-align: center;
-
+  font-weight: $font-weight-light;
   .availability-state {
-    font-size: 12px;
-    font-weight: $font-weight-bold;
-    text-transform: none;
+    @extend .d-flex;
+    @extend .mb-2;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+
+    &::before {
+      @extend .fa;
+      @extend .fa-exclamation-circle;
+      @extend .mr-1;
+      color: var(--body-color);
+      font-size: 24px;
+      line-height: 24px;
+    }
   }
-}
-
-.availability-bg,
-.availability-state {
-  font-size: 12px;
-}
-
-.availability-state {
-  color: #fff;
-  font-weight: $font-weight-bold;
-  text-transform: uppercase;
 }
 
 .poster {
+  s72-availability-status,
   s72-availability-label {
-    left: 0 !important;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 10px 5px;
-    right: 0;
+    position: absolute;
+    z-index: 99;
+  }
+
+  s72-availability-label {
+    @extend .w-100;
+    bottom: 0;
+    font-weight: $font-weight-normal;
+
+    .availability-bg {
+      @extend .px-p5;
+      background-color: rgba(var(--body-bg-rgb), 0.7);
+    }
 
     .availability-state {
-      text-align: center;
+      @extend .mb-0;
+      line-height: 18px;
+      &::before {
+        content: none;
+      }
     }
   }
+
+  s72-availability-status .availability-bg,
+  s72-plan-label {
+    background-color: var(--primary);
+    border-bottom-right-radius: $meta-item-border-radius;
+    display: block;
+    line-height: 20px;
+    padding: 0 5px;
+    text-align: center;
+  }
+
+  .availability-expired {
+    @extend .d-none;
+  }
+
+  .availability-state {
+    @extend .justify-content-center;
+    color: var(--body-color-rgb);
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+.poster .availability-state,
+s72-plan-label {
+  @extend .justify-content-center;
+  color: var(--body-color-rgb);
+  font-size: 12px;
+  text-align: center;
 }
