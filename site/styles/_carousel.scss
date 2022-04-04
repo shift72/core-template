@@ -105,7 +105,7 @@ s72-carousel {
   }
 
   .meta-item-content {
-    color: #fff;
+    color: rgb(var(--body-color-rgb));
 
     h3 {
       color: var(--body-color);
@@ -142,14 +142,9 @@ s72-carousel {
     .meta-item-tagline-and-classification {
       @extend .d-flex;
       align-items: center;
-      padding-bottom: 22px;
       @include media-breakpoint-up(xs) {
         padding-bottom: 8px;
       }
-    }
-
-    .s72-classification {
-      margin-right: 5px;
     }
 
     .meta-item-tagline {

@@ -1,8 +1,8 @@
 {
   "name": "core-template",
   "version": "0.0.1",
-  "siteUrl": "https://staging-test.shift72.com",
-  "builderVersion": "0.16.5",
+  "siteUrl": "https://abccinemas.screenplus.co",
+  "builderVersion": "0.16.6",
   "defaultLanguage": "en",
   "languages": {
     "ar": {
@@ -185,5 +185,5 @@
       "pageSize": 0
     }
   ],
-  "coreTemplateVersion": "0.4.4"
+  "coreTemplateVersion": "0.5.0"
 }

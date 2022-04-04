@@ -1,0 +1,56 @@
+.s72-share-modal {
+  .s72-modal-dialog {
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 320px;
+    @extend .p-0;
+
+    @include media-breakpoint-up(sm){
+      top: 90px;
+      transform: none;
+    }
+    .s72-modal-content {
+      @extend .p-0;
+    }
+  }
+
+  .s72-modal-content {
+    background: none;
+    border: unset;
+  }
+
+  h5 {
+    @extend .text-dark;
+  }
+
+  ul {
+    @extend .mb-0;
+  }
+
+  li {
+    @extend .list-unstyled;
+    @extend .position-relative;
+    i {
+      @extend .position-absolute;
+      left: -30px;
+    }
+  }
+
+  a {
+    @extend .d-flex;
+    @extend .align-items-center;
+    @extend .text-dark;
+    text-decoration: inherit;
+    line-height: 3rem;
+  }
+
+  [type="button"] { // for testers on their ipod touch
+    -webkit-appearance: none;
+    appearance: none;
+  }
+}
+
+// Close gap if wishlist button isn't present
+s72-userwishlist-button:empty + .social-media-buttons {
+  margin-left: -10px;
+}
