@@ -202,24 +202,11 @@
 
 .s72-btn.s72-btn-unsubscribe,
 .s72-btn.s72-btn-updatecreditcard {
-  background: #3f3f3f;
-  border: 3px solid #3f3f3f;
-  min-width: 140px;
-  @include hover-focus {
-    background: $gray-700;
-    border-color: $gray-700;
-  }
+  @extend .btn-secondary;
 }
 
-.s72-btn.s72-btn-explore-subs {
-  background: #1aa3ff;
-  border: 3px solid #1aa3ff;
-  min-width: 140px;
-  @include hover-focus {
-    background: #55bbff;
-    border-color: #55bbff;
-  }
-}
+.s72-btn.s72-btn-explore-subs { @extend .btn-primary; }
+
 .btn-wishlist {
   p {
     margin: 0;
