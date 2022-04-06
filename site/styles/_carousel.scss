@@ -132,25 +132,8 @@ s72-carousel {
     width: 50%;
   }
 
-  s72-availability-status,
-  s72-availability-label {
-    position: relative;
-
-    .availability-bg {
-      background: transparent;
-      display: inline-block;
-      padding: 10px 0;
-    }
-
-    .availability-state {
-      color: var(--body-color);
-      font-size: 12px;
-      text-transform: none;
-    }
-  }
-
   .meta-item-content {
-    color: #fff;
+    color: rgb(var(--body-color-rgb));
 
     h3 {
       color: var(--body-color);
@@ -185,7 +168,7 @@ s72-carousel {
     .meta-item-tagline-and-classification {
       @extend .d-flex;
       align-items: center;
-      padding-bottom: 8px;
+      padding-bottom: 14px;
       padding-top: 8px;
     }
 
