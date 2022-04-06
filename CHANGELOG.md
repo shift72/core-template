@@ -1,7 +1,14 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.5.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.5.1...HEAD)
 
+## [0.5.1](https://github.com/shift72/core-template/compare/0.5.0...0.5.1)
+
+### Changed
+- Upgrade to kibble `0.16.7`.
+
+### Fixed
+- Sentence casing for `en_AU` translation about passes.
 
 ## [0.5.0](https://github.com/shift72/core-template/compare/0.4.4...0.5.0)
 ### Changed
@@ -20,7 +27,6 @@
 ### Fixed
 - Can now override the cookie consent styling.
 - Can now send analytics data to both GA4 and UA Legacy google analytics (GA4 previously not supported)
-
 
 ## [0.4.4](https://github.com/shift72/core-template/compare/0.4.3...0.4.4)
 ### Fixed
