@@ -1275,5 +1275,8 @@
   },
   "usersubscriptions_no_subscriptions_button_title": {
     "other": "Istražite pretplate"
+  },
+  "nav_subscriptions": {
+    "other": "Moje pretplate"
   }
 }

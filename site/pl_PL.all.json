@@ -1328,5 +1328,8 @@
   },
   "usersubscriptions_no_subscriptions_button_title": {
     "other": "Przeglądaj subskrypcje"
+  },
+  "nav_subscriptions": {
+    "other": "moje subskrypcje"
   }
 }

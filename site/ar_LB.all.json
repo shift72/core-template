@@ -1292,5 +1292,8 @@
   },
   "usersubscriptions_no_subscriptions_button_title": {
     "other": "اكتشف الاشتراكات"
+  },
+  "nav_subscriptions": {
+    "other": "اشتراكاتي"
   }
 }

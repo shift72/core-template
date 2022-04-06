@@ -1311,5 +1311,8 @@
   },
   "usersubscriptions_no_subscriptions_button_title": {
     "other": "Перегляньте підписки"
+  },
+  "nav_subscriptions": {
+    "other": "Мої підписки"
   }
 }

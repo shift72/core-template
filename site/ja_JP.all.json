@@ -1283,5 +1283,8 @@
   },
   "usersubscriptions_no_subscriptions_button_title": {
     "other": "サブスクリプションを調べる"
+  },
+  "nav_subscriptions": {
+    "other": "私のサブスクリプション"
   }
 }

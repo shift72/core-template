@@ -88,6 +88,9 @@
   "nav_devices": {
     "other": "My Devices"
   },
+  "nav_subscriptions": {
+    "other": "My Subscriptions"
+  },
   "nav_wishlist": {
     "other": "My List"
   },

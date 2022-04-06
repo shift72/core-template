@@ -1283,5 +1283,8 @@
   },
   "usersubscriptions_no_subscriptions_button_title": {
     "other": "Naršykite prenumeratas"
+  },
+  "nav_subscriptions": {
+    "other": "Mano prenumeratos"
   }
 }

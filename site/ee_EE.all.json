@@ -1292,5 +1292,8 @@
   },
   "usersubscriptions_no_subscriptions_button_title": {
     "other": "Uurige tellimusi"
+  },
+  "nav_subscriptions": {
+    "other": "Minu tellimused"
   }
 }

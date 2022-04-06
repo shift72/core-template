@@ -1283,5 +1283,8 @@
   },
   "usersubscriptions_no_subscriptions_button_title": {
     "other": "Ontdek abonnementen"
+  },
+  "nav_subscriptions": {
+    "other": "mijn abonnementen"
   }
 }

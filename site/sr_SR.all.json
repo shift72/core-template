@@ -1283,5 +1283,8 @@
   },
   "usersubscriptions_no_subscriptions_button_title": {
     "other": "Истражите претплате"
+  },
+  "nav_subscriptions": {
+    "other": "Моје претплате"
   }
 }

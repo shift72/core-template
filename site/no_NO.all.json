@@ -1283,5 +1283,8 @@
   },
   "usersubscriptions_no_subscriptions_button_title": {
     "other": "Utforsk abonnementer"
+  },
+  "nav_subscriptions": {
+    "other": "Mine abonnementer"
   }
 }

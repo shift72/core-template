@@ -1283,5 +1283,8 @@
   },
   "usersubscriptions_no_subscriptions_button_title": {
     "other": "Εξερευνήστε τις συνδρομές"
+  },
+  "nav_subscriptions": {
+    "other": "οι εγγραφές μου"
   }
 }

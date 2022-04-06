@@ -1305,5 +1305,8 @@
   },
   "usersubscriptions_no_subscriptions_button_title": {
     "other": "Изучите подписки"
+  },
+  "nav_subscriptions": {
+    "other": "Мои подписки"
   }
 }
