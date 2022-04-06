@@ -136,7 +136,7 @@
 
     .verb {
       background: transparent;
-      color:var(--primary);
+      color: var(--primary);
     }
   }
 
@@ -253,6 +253,9 @@
 }
 
 s72-donate-button:not(:empty) {
+   :hover {
+     background-color: $button-background-hover;
+   }
    &:hover a {
     background-color: $button-background-hover;
     color: $button-text-color-hover;
