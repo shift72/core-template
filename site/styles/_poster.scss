@@ -6,14 +6,8 @@
   width: 100%;
   z-index: 1;
 
-  s72-availability-status {
-    left: $meta-item-availability-tag-margin;
-    top: $meta-item-availability-tag-margin;
-  }
-
-  s72-availability-label {
-    bottom: $meta-item-availability-tag-margin;
-    left: $meta-item-availability-tag-margin;
+  s72-availability-status, s72-plan-label {
+    color: $button-text-color;
   }
 
   .poster-overlay-top {
@@ -21,7 +15,6 @@
     @extend .justify-content-between;
     @extend .position-absolute;
 
-    @extend .p-p5;
     @extend .mw-100;
     width: 100%;
 
