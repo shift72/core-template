@@ -33,18 +33,6 @@
     }
   }
 
-  h2 {
-    font-size: 30px;
-    font-weight: $font-weight-bold;
-    margin-bottom: 0;
-    @include media-breakpoint-up(md) {
-      font-size: 36px;
-    }
-    @include media-breakpoint-up(xl) {
-      font-size: 38px;
-    }
-  }
-
   p {
     font-size: 14px;
     font-weight: normal;
@@ -61,29 +49,6 @@
 
 .page-content {
   margin-bottom: $headings-margin-bottom * 4;
-
-  h3 {
-    font-size: 20px;
-    font-weight: $font-weight-bold;
-    margin-bottom: 0;
-    @include media-breakpoint-up(md) {
-      font-size: 22px;
-    }
-    @include media-breakpoint-up(xl) {
-      font-size: 24px;
-    }
-  }
-
-  h4 {
-    font-size: 12px;
-    margin-bottom: 0;
-    @include media-breakpoint-up(md) {
-      font-size: 16px;
-    }
-    @include media-breakpoint-up(xl) {
-      font-size: 18px;
-    }
-  }
 }
 
 .separator {
