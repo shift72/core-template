@@ -1,5 +1,6 @@
 {{import "../items/tagline.jet"}}
 {{import "../common/awards/carousel.jet"}}
+{{import "../common/social-media-buttons.jet"}}
 
 {{block carouselItem(item)}}
   {{ trailer := "" }}
@@ -32,7 +33,6 @@
             <div class="meta-item-synopsis">
               <p>{{item.InnerItem.Tagline | stripHTML}}</p>
             </div>
-            <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
             <div class="meta-item-buttons">
               <s72-play-button data-slug="{{item.Slug}}"></s72-play-button>
               <s72-pricing-buttons data-slug="{{item.Slug}}"></s72-pricing-buttons>
