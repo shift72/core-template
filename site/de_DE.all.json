@@ -122,16 +122,16 @@
     "other": "Teilen"
   },
   "social_media_buttons_facebook": {
-    "other": "Auf Facebook teilen"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Auf Twitter teilen"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Auf Linkedin teilen"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Per E-Mail teilen"
+    "other": "Email"
   },
   "social_media_buttons_email_subject": {
     "other": "Link teilen"

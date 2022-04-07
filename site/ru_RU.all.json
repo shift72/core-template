@@ -139,16 +139,16 @@
     "other": "Делиться"
   },
   "social_media_buttons_facebook": {
-    "other": "Поделиться через фейсбук"
+    "other": "Фейсбук"
   },
   "social_media_buttons_twitter": {
-    "other": "Поделиться в Твиттере"
+    "other": "Твиттер"
   },
   "social_media_buttons_linkedin": {
-    "other": "Поделиться на Linkedin"
+    "other": "Линкедин"
   },
   "social_media_buttons_email": {
-    "other": "Поделиться по электронной почте"
+    "other": "Эл. адрес"
   },
   "social_media_buttons_email_subject": {
     "other": "Поделиться ссылкой"

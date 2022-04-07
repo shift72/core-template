@@ -140,16 +140,16 @@
     "other": "Share"
   },
   "social_media_buttons_facebook": {
-    "other": "Share on Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Share on Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Share on Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Share via email"
+    "other": "Email"
   },
   "social_media_buttons_email_subject": {
     "other": "Link share"
@@ -158,7 +158,7 @@
     "other": "Link copied to clipboard!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Copy link"
+    "other": "Copy Link"
   },
   "accept_invite_page_header": {
     "other": "Welcome"

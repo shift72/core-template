@@ -135,16 +135,16 @@
     "other": "Udio"
   },
   "social_media_buttons_facebook": {
-    "other": "Podijeli na Facebooku"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Podijelite na Twitteru"
+    "other": "Cvrkut"
   },
   "social_media_buttons_linkedin": {
-    "other": "Podijelite na Linkedinu"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Podijelite putem e-pošte"
+    "other": "E-mail"
   },
   "social_media_buttons_email_subject": {
     "other": "Dijeljenje veze"

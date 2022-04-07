@@ -140,16 +140,16 @@
     "other": "Compartir"
   },
   "social_media_buttons_facebook": {
-    "other": "Comparteix a Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Comparteix a Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Comparteix a Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Comparteix per correu electrònic"
+    "other": "Correu electrònic"
   },
   "social_media_buttons_email_subject": {
     "other": "Comparteix l'enllaç"
