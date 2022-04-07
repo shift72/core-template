@@ -1,7 +1,7 @@
 # Changelog
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.5.0...HEAD)
-- Dropdown menu has My Subscriptions (if account_show_plans toggle is on), with addition of subscriptions.html.jet file
+- Dropdown menu has My Subscriptions (if account_show_subscriptions toggle is on), with addition of subscriptions.html.jet file
 - Added styling for the self subscription (SVOD)
 - User Subscription (SVOD) translations added.
 
