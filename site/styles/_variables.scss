@@ -1,4 +1,4 @@
-@use "sass:math";
+@use 'sass:math';
 
 // This file contains any variables used by the site.
 // These variables should be reasonably generic so that overrides are placed in main.scss.
@@ -192,7 +192,7 @@ $letterboxd-color: var(--body-color) !default;
 
 // Meta Items
 // ------------------------------------
-$meta-item-border-radius: 5px !default;
+$meta-item-border-radius: 4px !default;
 $featured-meta-item-body-padding: 10px !default;
 $meta-item-body-color: var(--body-color) !default;
 $meta-item-tagline-classification-border-radius: $meta-item-border-radius !default;
