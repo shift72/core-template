@@ -1264,7 +1264,7 @@
     "other": "OR"
   },
   "page_plan_explore_link": {
-    "other": "Explore other passes"
+    "other": "Explore other Passes"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Buy now"
@@ -1282,9 +1282,9 @@
     "other": "Donate"
   },
   "meta_description_expand": {
-    "other": "Show more"
+    "other": "See more"
   },
   "meta_description_collapse": {
-    "other": "Show less"
+    "other": "See less"
   }
 }

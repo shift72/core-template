@@ -42,6 +42,7 @@
           </div>
 
           <!-- {{film.CustomFields|json}} -->
+          <s72-availability-label data-slug="{{film.Slug}}"></s72-availability-label>
 
           <div class="meta-detail-buttons">
             <s72-play-button data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-play-button>
@@ -59,7 +60,6 @@
             <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
             <br>
           {{end}}
-          <s72-availability-label data-slug="{{film.Slug}}"></s72-availability-label>
 
           {{yield awardNominations() film}}
           <s72-element-switcher>
