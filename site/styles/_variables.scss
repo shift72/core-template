@@ -1,11 +1,11 @@
-@use "sass:math";
+@use 'sass:math';
 
 // This file contains any variables used by the site.
 // These variables should be reasonably generic so that overrides are placed in main.scss.
 
 :root {
-  --primary-rgb: 53, 160, 168;
-  --secondary-rgb: 76, 211, 221;
+  --primary-rgb: 0, 163, 255;
+  --secondary-rgb: 102, 199, 255;
   --body-color-rgb: 255, 255, 255;
   --body-bg-rgb: 15, 15, 15;
   --body-bg-accent-rgb: 25, 25, 25; // darken(body-bg, 10%) OR lighten(body-bg, 10%)
@@ -98,6 +98,8 @@ $spacers: (
   // 7.5px
   '1': $spacer,
   // 10px
+  '1p5': $spacer * 1.5,
+  // 15px
   '2': $spacer * 2,
   // 20px
   '2p5': $spacer * 2.5,
@@ -108,7 +110,7 @@ $spacers: (
   // 40px
   '5': $spacer * 5,
   // 50px
-  '1rem': 1rem
+  '1rem': 1rem,
 );
 
 // Cookie Consent
@@ -137,8 +139,8 @@ $subnav-nav-item-active-background-color: var(--primary) !default;
 $subnav-dropdown-background: var(--body-bg-accent) !default;
 
 // Buttons
-$button-text-color: var(--body-color) !default;
-$button-text-color-hover: var(--body-color) !default;
+$button-text-color: var(--body-bg) !default;
+$button-text-color-hover: var(--body-bg) !default;
 $button-background: var(--primary) !default;
 $button-background-hover: var(--secondary) !default;
 $trailer-button-text-color: var(--body-color) !default;
@@ -190,11 +192,10 @@ $letterboxd-color: var(--body-color) !default;
 
 // Meta Items
 // ------------------------------------
-$meta-item-border-radius: 3px !default;
+$meta-item-border-radius: 4px !default;
 $featured-meta-item-body-padding: 10px !default;
 $meta-item-body-color: var(--body-color) !default;
 $meta-item-tagline-classification-border-radius: $meta-item-border-radius !default;
-$meta-item-availability-tag-margin: 5px !default;
 
 // Posters
 // ------------------------------------

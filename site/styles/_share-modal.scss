@@ -4,12 +4,12 @@ s72-share-modal .fa-share-alt {
 
 .s72-share-modal {
   .s72-modal-dialog {
+    @extend .p-0;
+    max-width: 320px;
     top: 50%;
     transform: translateY(-50%);
-    max-width: 320px;
-    @extend .p-0;
 
-    @include media-breakpoint-up(sm){
+    @include media-breakpoint-up(sm) {
       top: 90px;
       transform: none;
     }
@@ -48,11 +48,11 @@ s72-share-modal .fa-share-alt {
     @extend .d-flex;
     @extend .align-items-center;
     @extend .text-dark;
-    text-decoration: inherit;
     line-height: 3rem;
+    text-decoration: inherit;
   }
 
-  [type="button"] { // for testers on their ipod touch
+  [type='button'] {
     -webkit-appearance: none;
     appearance: none;
   }
