@@ -16,6 +16,7 @@
   @extend .btn-primary-override;
   font-size: 24px;
   height: var(--input-height);
+  line-height: 0;
 }
 
 .s72-btn-purchase {
