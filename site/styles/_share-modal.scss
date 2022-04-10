@@ -1,26 +1,36 @@
 .s72-share-modal {
   .s72-modal-dialog {
-    @extend .p-0;
-    max-width: 320px;
     top: 50%;
     transform: translateY(-50%);
+    max-width: 320px;
+    @extend .p-0;
 
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(sm){
       top: 90px;
       transform: none;
     }
     .s72-modal-content {
       @extend .p-0;
+      border: 1px solid rgba(255, 255, 255, 0.1);
     }
+  }
+
+  .modal-header {
+    border-bottom: 1px solid rgba(var(--body-color-rgb), 0.2);
+  }
+
+  .modal-title {
+    word-break: break-word;
+    color: var(--body-color);
   }
 
   .s72-modal-content {
     background: none;
-    border: unset;
   }
 
-  h5 {
-    @extend .text-dark;
+  .modal-content {
+    background-color: var(--body-bg);
+    border: 0;
   }
 
   ul {
@@ -39,14 +49,28 @@
   a {
     @extend .d-flex;
     @extend .align-items-center;
-    @extend .text-dark;
-    line-height: 3rem;
+    color: var(--body-color);
+    padding: 0.7rem 0;
     text-decoration: inherit;
+    word-break: break-word;
+    &:hover {
+      color: var(--link-color-hover);
+    }
   }
 
-  [type='button'] {
+  [type="button"] { // for testers on their ipod touch
     -webkit-appearance: none;
     appearance: none;
+  }
+
+  .close {
+    align-self: center;
+    text-shadow: none;
+    color: var(--body-color);
+    opacity: 1;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
 
