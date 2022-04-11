@@ -1,18 +1,37 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.4.4...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.5.1...HEAD)
 
+### Fixed
+- Removed some redundant wishlist CSS.
+- Lots of minor styling tweaks around availability labels and status.
+- Reworded & translated element switcher controls
+
+## [0.5.1](https://github.com/shift72/core-template/compare/0.5.0...0.5.1)
+
+### Changed
+- Upgrade to kibble `0.16.7`.
+
+### Fixed
+- Sentence casing for `en_AU` translation about passes.
+
+## [0.5.0](https://github.com/shift72/core-template/compare/0.4.4...0.5.0)
 ### Changed
 - Upgrade to kibble `0.16.6`.
 - Moved references from `film.Images` to `film.ImageMap`.
 - Removed minimum page height from content pages.
+- Moved skip link above cookie consent banner
 
 ### Added
 - Start the site with an admin build: `npm start --admin`.
-- Added version to `<head>` and `kibble.json`.
+- Added Core template version to `<head>` and `kibble.json`.
+- Added styling for floating donate button to use button sass variables.
+- A bunch of missing language keys across language files.
+- Automated translation command
 
 ### Fixed
 - Can now override the cookie consent styling.
+- Can now send analytics data to both GA4 and UA Legacy google analytics (GA4 previously not supported)
 
 ## [0.4.4](https://github.com/shift72/core-template/compare/0.4.3...0.4.4)
 ### Fixed

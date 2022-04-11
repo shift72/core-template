@@ -96,7 +96,7 @@
 
     .verb {
       background: transparent;
-      color:var(--primary);
+      color: var(--primary);
     }
   }
 
@@ -210,5 +210,31 @@
 .s72-shopping-done, .meta-detail-buttons, .meta-item-content, .content {
   .s72-btn-play:not(.s72-btn-trailer) .s72-btn-play-icon {
     @extend .d-none;
+  }
+}
+
+s72-donate-button:not(:empty) {
+  :hover {
+    background-color: $button-background-hover;
+  }
+  &:hover a {
+    background-color: $button-background-hover;
+    color: $button-text-color-hover;
+    /* stylelint-disable selector-max-compound-selectors */
+    svg {
+      g {
+        fill: $button-text-color-hover;
+      }
+    }
+    /* stylelint-enable selector-max-compound-selectors */
+  }
+  a {
+    background-color: $button-background;
+    color: $button-text-color;
+  }
+  svg {
+    g {
+      fill: $button-text-color;
+    }
   }
 }
