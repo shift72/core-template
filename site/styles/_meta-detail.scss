@@ -309,25 +309,11 @@
       font-size: 12px;
     }
   }
-
-  .meta-detail-crew {
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0;
-
-    .crew-member {
-      padding-bottom: 20px;
-      padding-right: 20px;
-    }
-  }
 }
 
 /* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
 .meta-detail-bonus-content,
 .meta-detail-episodes-content {
-  padding: 0;
-  padding-top: 20px;
-
   h2,
   h4 {
     align-self: stretch;
@@ -589,4 +575,9 @@
   @include media-breakpoint-up(lg) {
     font-size: 12px;
   }
+}
+
+
+s72-element-switcher {
+  @extend .mb-5;
 }
