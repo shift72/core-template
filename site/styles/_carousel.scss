@@ -262,23 +262,22 @@ s72-carousel {
 
   .s72-carousel-page {
     @extend .border-0;
-    @extend .p-0;
-    @extend .rounded-pill;
-    @extend .mx-p5;
-    background-color: rgba(var(--body-color-rgb), 0.2);
-    height: 6px;
-    width: 50px;
-    &.current {
-      @extend .overflow-hidden;
+    height: 38px;
+    width: 62px;
+    background-color: unset;
+
+    &::before {
+      content: "";
+      @extend .w-100;
+      @extend .d-block;
       background-color: rgba(var(--body-color-rgb), 0.2);
-        &::before {
-          content: "";
-          @extend .w-100;
-          @extend .h-100;
-          @extend .d-block;
-          background-color: var(--primary);
-        }
-      }
+      @extend .rounded-pill;
+      height: 6px;
+    }
+
+    &.current::before {
+      background-color: var(--primary);
+    }
   }
 }
 
