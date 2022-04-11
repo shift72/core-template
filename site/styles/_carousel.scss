@@ -253,25 +253,25 @@ s72-carousel {
   @extend .justify-content-center;
   @extend .mx-auto;
   @extend .px-2;
-  max-width: 100%;
   bottom: 60px;
   left: 50%;
   line-height: 60px;
+  max-width: 100%;
   position: absolute;
   transform: translateX(-50%);
 
   .s72-carousel-page {
     @extend .border-0;
+    background-color: unset;
     height: 38px;
     width: 62px;
-    background-color: unset;
 
     &::before {
-      content: "";
       @extend .w-100;
       @extend .d-block;
-      background-color: rgba(var(--body-color-rgb), 0.2);
       @extend .rounded-pill;
+      background-color: rgba(var(--body-color-rgb), 0.2);
+      content: '';
       height: 6px;
     }
 

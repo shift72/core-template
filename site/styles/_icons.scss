@@ -1,152 +1,156 @@
 @font-face {
-  font-family: "fa-s72";
-  src:url("/fonts/fa-s72.woff") format("woff");
-  font-weight: normal;
+  font-family: 'fa-s72';
   font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/fa-s72.woff') format('woff');
 }
 
 .fa {
-  font-family: "fa-s72" !important;
+  font-family: 'fa-s72' !important;
   font-style: normal !important;
-  font-weight: normal !important;
   font-variant: normal !important;
-  text-transform: none !important;
+  font-weight: normal !important;
   line-height: 1;
+  text-transform: none !important;
   vertical-align: middle;
 }
 
-.fa-credit-card:before, .fa-trash:before {
+.fa-credit-card::before,
+.fa-trash::before {
   font-size: 18px;
 }
 
-.fa-angle-down, .fa-angle-left, .fa-angle-right, .fa-angle-up {
-  &:before {
-    content: "\e017";
+.fa-angle-down,
+.fa-angle-left,
+.fa-angle-right,
+.fa-angle-up {
+  &::before {
+    content: '\e017';
   }
 }
 
-.fa-angle-left{
+.fa-angle-left {
   transform: rotate(90deg);
 }
 
-.fa-angle-up{
+.fa-angle-up {
   transform: rotate(180deg);
 }
 
-.fa-angle-right{
+.fa-angle-right {
   transform: rotate(270deg);
 }
 
-.fa-cc-visa:before {
-  content: "\e000";
+.fa-cc-visa::before {
+  content: '\e000';
 }
 
-.fa-cc-stripe:before {
-  content: "\e001";
+.fa-cc-stripe::before {
+  content: '\e001';
 }
 
-.fa-cc-paypal:before {
-  content: "\e002";
+.fa-cc-paypal::before {
+  content: '\e002';
 }
 
-.fa-cc-mastercard:before {
-  content: "\e003";
+.fa-cc-mastercard::before {
+  content: '\e003';
 }
 
-.fa-cc-jcb:before {
-  content: "\e004";
+.fa-cc-jcb::before {
+  content: '\e004';
 }
 
-.fa-cc-discover:before {
-  content: "\e005";
+.fa-cc-discover::before {
+  content: '\e005';
 }
 
-.fa-cc-diners-club:before {
-  content: "\e006";
+.fa-cc-diners-club::before {
+  content: '\e006';
 }
 
-.fa-cc-amex:before {
-  content: "\e007";
+.fa-cc-amex::before {
+  content: '\e007';
 }
 
-.fa-twitter:before {
-  content: "\e008";
+.fa-twitter::before {
+  content: '\e008';
 }
 
-.fa-star:before {
-  content: "\e009";
+.fa-star::before {
+  content: '\e009';
 }
 
-.fa-error:before {
-  content: "\e00a";
+.fa-error::before {
+  content: '\e00a';
 }
 
-.fa-circle-o:before {
-  content: "\e00b";
+.fa-circle-o::before {
+  content: '\e00b';
 }
 
-.fa-check:before {
-  content: "\e00c";
+.fa-check::before {
+  content: '\e00c';
 }
 
-.fa-times:before {
-  content: "\e00d";
+.fa-times::before {
+  content: '\e00d';
 }
 
-.fa-trash:before {
-  content: "\e00e";
+.fa-trash::before {
+  content: '\e00e';
 }
 
-.fa-facebook:before {
-  content: "\e00f";
+.fa-facebook::before {
+  content: '\e00f';
 }
 
-.fa-link:before {
-  content: "\e010";
+.fa-link::before {
+  content: '\e010';
 }
 
-.fa-linkedin:before {
-  content: "\e011";
+.fa-linkedin::before {
+  content: '\e011';
 }
 
-.fa-envelope:before {
-  content: "\e012";
+.fa-envelope::before {
+  content: '\e012';
 }
 
-.fa-ellipsis-v:before {
-  content: "\e013";
+.fa-ellipsis-v::before {
+  content: '\e013';
 }
 
-.fa-check-circle:before {
-  content: "\e015";
+.fa-check-circle::before {
+  content: '\e015';
 }
 
-.fa-search:before {
-  content: "\e016";
+.fa-search::before {
+  content: '\e016';
 }
 
-.fa-angle-down:before {
-  content: "\e017";
+.fa-angle-down::before {
+  content: '\e017';
 }
 
-.fa-credit-card:before {
-  content: "\e018";
+.fa-credit-card::before {
+  content: '\e018';
 }
 
-.fa-globe:before {
-  content: "\e019";
+.fa-globe::before {
+  content: '\e019';
 }
 
-.fa-share-alt:before {
-  content: "\e01a";
+.fa-share-alt::before {
+  content: '\e01a';
 }
 
-s72-availability-label .availability-state:before {
-  content: "\e00a";
+s72-availability-label .availability-state::before {
+  content: '\e00a';
 }
 
-.fa-spinner:before {
-  content: "\e014";
+.fa-spinner::before {
+  content: '\e014';
 }
 
 @keyframes fa-spin {
