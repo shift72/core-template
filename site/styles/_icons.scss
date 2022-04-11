@@ -141,6 +141,10 @@
   content: "\e01a";
 }
 
+s72-availability-label .availability-state:before {
+  content: "\e00a";
+}
+
 .fa-spinner:before {
   content: "\e014";
 }
