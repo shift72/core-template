@@ -48,7 +48,7 @@
           </div>
           <div class="meta-detail-synopsis">{{tvseason.Overview | raw}}</div>
           <div class="mb-2 row">
-            <div class="meta-detail-cast col-lg-6"">
+            <div class="meta-detail-cast col-lg-6">
             {{if len(tvseason.Cast) > 0 }}
               <h2>{{i18n("meta_detail_cast_title")}}</h2>
             {{end}}
