@@ -246,10 +246,10 @@
 }
 
 s72-donate-button:not(:empty) {
-   :hover {
-     background-color: $button-background-hover;
-   }
-   &:hover a {
+  :hover {
+    background-color: $button-background-hover;
+  }
+  &:hover a {
     background-color: $button-background-hover;
     color: $button-text-color-hover;
     /* stylelint-disable selector-max-compound-selectors */
@@ -261,8 +261,8 @@ s72-donate-button:not(:empty) {
     /* stylelint-enable selector-max-compound-selectors */
   }
   a {
-    color: $button-text-color;
     background-color: $button-background;
+    color: $button-text-color;
   }
   svg {
     g {
