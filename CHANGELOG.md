@@ -5,7 +5,8 @@
 ### Fixed
 - Removed some redundant wishlist CSS.
 - Lots of minor styling tweaks around availability labels and status.
-- Reworded & translated element switcher controls
+- Reworded & translated element switcher controls.
+- Reworded the share modal text.
 
 ## [0.5.1](https://github.com/shift72/core-template/compare/0.5.0...0.5.1)
 
