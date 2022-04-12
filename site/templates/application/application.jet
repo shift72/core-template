@@ -65,8 +65,6 @@
     </script>
 
     <script type="text/javascript" src="/scripts/swiper.min.js"></script>
-
-    {{yield googleGa4Script()}}
   </head>
   <body>
 
