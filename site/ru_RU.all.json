@@ -139,16 +139,16 @@
     "other": "Делиться"
   },
   "social_media_buttons_facebook": {
-    "other": "Поделиться через фейсбук"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Поделиться в Твиттере"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Поделиться на Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Поделиться по электронной почте"
+    "other": "Эл. адрес"
   },
   "social_media_buttons_email_subject": {
     "other": "Поделиться ссылкой"
@@ -1142,10 +1142,10 @@
     "other": "Список желаний"
   },
   "wcag_aria_label_facebook": {
-    "other": "Поделиться через фейсбук"
+    "other": "Поделиться на Facebook"
   },
   "wcag_aria_label_twitter": {
-    "other": "Поделиться в Твиттере"
+    "other": "Поделиться на Twitter"
   },
   "wcag_aria_label_linkedin": {
     "other": "Поделиться на LinkedIn"

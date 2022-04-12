@@ -117,16 +117,16 @@
     "other": "Jaa"
   },
   "social_media_buttons_facebook": {
-    "other": "Jaa Facebookissa"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Jaa Twitterissä"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Jaa Linkedinissä"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Jaa sähköpostilla"
+    "other": "Sähköposti"
   },
   "social_media_buttons_email_subject": {
     "other": "Linkin jakaminen"
@@ -965,13 +965,13 @@
     "other": "Toivelista"
   },
   "wcag_aria_label_facebook": {
-    "other": "Jaa Facebookissa"
+    "other": "Jaa Facebook"
   },
   "wcag_aria_label_twitter": {
-    "other": "Jaa Twitterissä"
+    "other": "Jaa Twitter"
   },
   "wcag_aria_label_linkedin": {
-    "other": "Jaa LinkedInissä"
+    "other": "Jaa LinkedIn"
   },
   "wcag_aria_label_letterboxd": {
     "other": "Katso Letterboxd"

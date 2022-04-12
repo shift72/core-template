@@ -117,16 +117,16 @@
     "other": "共有"
   },
   "social_media_buttons_facebook": {
-    "other": "Facebookでシェア"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Twitterで共有する"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Linkedinで共有する"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "メールで共有する"
+    "other": "メール"
   },
   "social_media_buttons_email_subject": {
     "other": "リンクシェア"

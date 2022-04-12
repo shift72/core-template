@@ -140,16 +140,16 @@
     "other": "分享"
   },
   "social_media_buttons_facebook": {
-    "other": "在脸书上分享"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "分享到Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "在领英上分享"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "通过电子邮件分享"
+    "other": "电子邮件"
   },
   "social_media_buttons_email_subject": {
     "other": "链接分享"
