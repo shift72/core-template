@@ -74,6 +74,15 @@
   }
 }
 
+s72-share-modal button {
+  &:focus {
+    box-shadow: none;
+  }
+  &:focus-visible {
+    box-shadow: $btn-focus-box-shadow;
+  }
+}
+
 // Close gap if wishlist button isn't present
 s72-userwishlist-button:empty + .social-media-buttons {
   margin-left: -10px;
