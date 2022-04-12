@@ -120,7 +120,7 @@
     "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Viserrys"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
     "other": "Linkedin"
@@ -965,13 +965,13 @@
     "other": "Toivelista"
   },
   "wcag_aria_label_facebook": {
-    "other": "Jaa Facebookissa"
+    "other": "Jaa Facebook"
   },
   "wcag_aria_label_twitter": {
-    "other": "Jaa Twitterissä"
+    "other": "Jaa Twitter"
   },
   "wcag_aria_label_linkedin": {
-    "other": "Jaa LinkedInissä"
+    "other": "Jaa LinkedIn"
   },
   "wcag_aria_label_letterboxd": {
     "other": "Katso Letterboxd"
