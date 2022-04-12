@@ -248,35 +248,31 @@ s72-carousel {
 }
 
 .s72-carousel-pagination {
-  @extend .d-none;
-  @extend .d-md-flex;
-  @extend .justify-content-center;
-  @extend .mx-auto;
-  @extend .px-2;
-  bottom: 60px;
+  @extend .d-flex;
+  bottom: 2px;
+  height: 60px;
   left: 50%;
   line-height: 60px;
-  max-width: 100%;
   position: absolute;
   transform: translateX(-50%);
 
   .s72-carousel-page {
-    @extend .border-0;
-    background-color: unset;
-    height: 38px;
-    width: 62px;
-
-    &::before {
-      @extend .w-100;
-      @extend .d-block;
-      @extend .rounded-pill;
-      background-color: rgba(var(--body-color-rgb), 0.2);
-      content: '';
-      height: 6px;
+    color: rgba(var(--body-color-rgb), 0.2);
+    @include media-breakpoint-up(md) {
+      margin: 0 5px;
     }
 
-    &.current::before {
-      background-color: var(--primary);
+    &.current {
+      color: var(--primary);
+    }
+
+    .fa {
+      @extend .fa-circle;
+      font-size: 12px;
+      padding: 0 3px;
+      @include media-breakpoint-up(md) {
+        font-size: 14px;
+      }
     }
   }
 }

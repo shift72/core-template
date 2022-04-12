@@ -145,6 +145,10 @@
   content: '\e01a';
 }
 
+.fa-circle:before {
+  content: "\e01c";
+}
+
 s72-availability-label .availability-state::before {
   content: "\e01b";
 }
