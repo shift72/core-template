@@ -1250,5 +1250,41 @@
   },
   "header_banner": {
     "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonnementen en facturering"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Betalingswijze"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Wijzigingen in uw creditcardbetaalmethode worden van kracht tijdens uw volgende betalingscyclus."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Abonnementsgegevens"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Actief"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Verlopen"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Ontdek abonnementen"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Ontdek geweldige inhoud tegen geweldige prijzen, gemakkelijk te beheren hier."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Ontdek abonnementen"
+  },
+  "nav_subscriptions": {
+    "other": "mijn abonnementen"
   }
 }

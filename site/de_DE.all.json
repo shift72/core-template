@@ -1259,5 +1259,41 @@
   },
   "validation_terms_required": {
     "other": "Sie müssen den Nutzungsbedingungen zustimmen."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonnements und Abrechnung"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Zahlungsmethode"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Änderungen an Ihrer Kreditkartenzahlungsmethode werden in Ihrem nächsten Abrechnungszeitraum wirksam."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Abonnementdetails"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktiv"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Abgelaufen"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Entdecken Sie Abonnements"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Entdecken Sie großartige Inhalte zu großartigen Preisen, die hier einfach verwaltet werden."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Entdecken Sie Abonnements"
+  },
+  "nav_subscriptions": {
+    "other": "Meine Abonnements"
   }
 }

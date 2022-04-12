@@ -1250,5 +1250,41 @@
   },
   "shopping_error_plan_expired": {
     "other": "Ce forfait n'est plus disponible."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonnements et facturation"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Mode de paiement"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Les modifications apportées à votre mode de paiement par carte de crédit prendront effet lors de votre prochain cycle de facturation."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Détails de l'abonnement"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "actif"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Expiré"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Découvrir les abonnements"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Découvrez un excellent contenu à des prix avantageux, facilement géré ici."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Explorer les abonnements"
+  },
+  "nav_subscriptions": {
+    "other": "Mes abonnements"
   }
 }

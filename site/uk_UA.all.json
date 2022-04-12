@@ -1278,5 +1278,41 @@
   },
   "header_banner": {
     "other": "Головний банер"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Підписки та виставлення рахунків"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Спосіб оплати"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Зміни в способі оплати кредитною карткою набудуть чинності під час наступного платіжного циклу."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Деталі підписки"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Активний"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Термін дії закінчився"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Відкрийте для себе підписки"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Відкрийте для себе чудовий вміст за чудовими цінами, яким легко керувати тут."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Перегляньте підписки"
+  },
+  "nav_subscriptions": {
+    "other": "Мої підписки"
   }
 }

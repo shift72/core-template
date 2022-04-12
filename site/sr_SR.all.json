@@ -1250,5 +1250,41 @@
   },
   "meta_description_collapse": {
     "other": "Видите мање"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Претплате и наплата"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Начин плаћања"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Промене у начину плаћања кредитном картицом ступиће на снагу у следећем обрачунском циклусу."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Детаљи претплате"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Ацтиве"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "истекао"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Откријте претплате"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Откријте одличан садржај по одличним ценама, којим се лако управља овде."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Истражите претплате"
+  },
+  "nav_subscriptions": {
+    "other": "Моје претплате"
   }
 }

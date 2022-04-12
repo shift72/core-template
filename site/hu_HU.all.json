@@ -1259,5 +1259,41 @@
   },
   "meta_description_collapse": {
     "other": "Kevesebbet látni"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Előfizetések és számlázás"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Fizetési mód"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "A hitelkártyás fizetési mód módosításai a következő számlázási ciklusban lépnek életbe."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Előfizetés részletei"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktív"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Lejárt"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Fedezze fel az előfizetéseket"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Fedezzen fel nagyszerű tartalmat nagyszerű áron, könnyen kezelhető itt."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Fedezze fel az előfizetéseket"
+  },
+  "nav_subscriptions": {
+    "other": "a Feliratkozásaim"
   }
 }

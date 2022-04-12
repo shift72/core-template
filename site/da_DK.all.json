@@ -1259,5 +1259,41 @@
   },
   "meta_description_collapse": {
     "other": "Se mindre"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonnementer og fakturering"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Betalingsmetode"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Ændringer af din kreditkortbetalingsmetode træder i kraft på din næste faktureringsperiode."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Abonnementsoplysninger"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktiv"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Udløbet"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Opdag abonnementer"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Oplev fantastisk indhold til fantastiske priser, nemt at administrere her."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Udforsk abonnementer"
+  },
+  "nav_subscriptions": {
+    "other": "Mine abonnementer"
   }
 }
