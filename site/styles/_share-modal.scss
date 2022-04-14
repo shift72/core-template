@@ -1,11 +1,11 @@
 .s72-share-modal {
   .s72-modal-dialog {
+    @extend .p-0;
+    max-width: 320px;
     top: 50%;
     transform: translateY(-50%);
-    max-width: 320px;
-    @extend .p-0;
 
-    @include media-breakpoint-up(sm){
+    @include media-breakpoint-up(sm) {
       top: 90px;
       transform: none;
     }
@@ -20,8 +20,8 @@
   }
 
   .modal-title {
-    word-break: break-word;
     color: var(--body-color);
+    word-break: break-word;
   }
 
   .s72-modal-content {
@@ -58,16 +58,17 @@
     }
   }
 
-  [type="button"] { // for testers on their ipod touch
-    -webkit-appearance: none;
+  [type='button'] {
+    // for testers on their ipod touch
+    appearance: none;
     appearance: none;
   }
 
   .close {
     align-self: center;
-    text-shadow: none;
     color: var(--body-color);
     opacity: 1;
+    text-shadow: none;
     &:hover {
       opacity: 0.8;
     }
