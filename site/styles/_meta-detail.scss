@@ -135,12 +135,17 @@
   .poster {
     animation: fadein 2s;
     display: block;
-    width: 140px;
+    width: 110px;
+
+    @include media-breakpoint-up(xs) {
+      width: 155px;
+    }
 
     @include media-breakpoint-up(md) {
-      width: 180px;
+      width: 208px;
     }
   }
+
   > .poster {
     margin-right: 20px;
   }
@@ -176,7 +181,7 @@
   }
 
   .meta-item-tagline {
-    color: var(--body-color);
+    color: rgba(var(--body-color-rgb), 0.8);
     font-size: 14px;
     font-weight: $font-weight-normal;
     @include media-breakpoint-up(xxxl) {

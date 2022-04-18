@@ -137,16 +137,16 @@
     "other": "Részvény"
   },
   "social_media_buttons_facebook": {
-    "other": "Megosztani Facebookon"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Oszd meg a Twitteren"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Oszd meg a Linkedin-en"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Oszd meg e-mailben"
+    "other": "Email"
   },
   "social_media_buttons_email_subject": {
     "other": "Link megosztás"
@@ -1255,9 +1255,45 @@
     "other": "Lejárt"
   },
   "meta_description_expand": {
-    "other": "Mutass többet"
+    "other": "Többet látni"
   },
   "meta_description_collapse": {
-    "other": "Mutass kevesebbet"
+    "other": "Kevesebbet látni"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Előfizetések és számlázás"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Fizetési mód"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "A hitelkártyás fizetési mód módosításai a következő számlázási ciklusban lépnek életbe."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Előfizetés részletei"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktív"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Lejárt"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Fedezze fel az előfizetéseket"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Fedezzen fel nagyszerű tartalmat nagyszerű áron, könnyen kezelhető itt."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Fedezze fel az előfizetéseket"
+  },
+  "nav_subscriptions": {
+    "other": "a Feliratkozásaim"
   }
 }

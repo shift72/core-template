@@ -26,6 +26,11 @@
         <li>
           <a class="s72-dropdown-item" href="{{ routeToPath("/devices.html") }}">{{i18n("nav_devices")}}</a>
         </li>
+        {{if config("account_show_plans") == "true" }}
+          <li>
+            <a class="s72-dropdown-item" href="{{ routeToPath("/subscriptions.html") }}">{{i18n("nav_subscriptions")}}</a>
+          </li>
+        {{ end }}
         <li>
           <a class="s72-dropdown-item" href="{{ routeToPath("/account.html") }}">{{i18n("nav_account")}}</a>
         </li>

@@ -137,16 +137,16 @@
     "other": "Cuota"
   },
   "social_media_buttons_facebook": {
-    "other": "Compartir en Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Compartir en Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Compartir en Linkedin"
+    "other": "LinkedIn"
   },
   "social_media_buttons_email": {
-    "other": "Compartir via correo electrónico"
+    "other": "Correo electrónico"
   },
   "social_media_buttons_email_subject": {
     "other": "Compartir enlace"
@@ -1169,7 +1169,7 @@
     "other": "añadir crédito"
   },
   "usersubscriptions_change_payment_method_change": {
-    "other": "Cambiar tarjeta de credito"
+    "other": "Cambiar tarjeta de crédito"
   },
   "usersubscriptions_change_payment_method_modal_title": {
     "other": "Actualizar los datos de la tarjeta de crédito"
@@ -1246,9 +1246,45 @@
     "other": "Registrate gratis"
   },
   "meta_description_expand": {
-    "other": "Mostrar más"
+    "other": "Ver más"
   },
   "meta_description_collapse": {
-    "other": "Muestra menos"
+    "other": "Ver menos"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Suscripciones y Facturación"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Método de pago"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Los cambios en el método de pago de su tarjeta de crédito entrarán en vigencia en su próximo ciclo de facturación."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Detalles de suscripción"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Activo"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Caducado"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Descubrir suscripciones"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Descubra excelente contenido a excelentes precios, administrado fácilmente aquí."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Explorar suscripciones"
+  },
+  "nav_subscriptions": {
+    "other": "mis Suscripciónes"
   }
 }

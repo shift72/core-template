@@ -137,16 +137,16 @@
     "other": "Jaga"
   },
   "social_media_buttons_facebook": {
-    "other": "Jaga Facebookis"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Jaga Twitteris"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Jaga Linkedinis"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Jaga meili teel"
+    "other": "Meil"
   },
   "social_media_buttons_email_subject": {
     "other": "Lingi jagamine"
@@ -1255,9 +1255,45 @@
     "other": "Aegunud"
   },
   "meta_description_expand": {
-    "other": "Näita rohkem"
+    "other": "Näe rohkem"
   },
   "meta_description_collapse": {
-    "other": "Näita vähem"
+    "other": "Vaadake vähem"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Tellimused ja arveldamine"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Makseviis"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Teie krediitkaardimaksemeetodi muudatused jõustuvad teie järgmisel arveldustsüklil."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Tellimuse üksikasjad"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktiivne"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Aegunud"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Avastage tellimusi"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Avastage suurepärast sisu suurepäraste hindadega, mida siin on lihtne hallata."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Uurige tellimusi"
+  },
+  "nav_subscriptions": {
+    "other": "Minu tellimused"
   }
 }

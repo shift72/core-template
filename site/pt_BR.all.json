@@ -140,16 +140,16 @@
     "other": "Participação"
   },
   "social_media_buttons_facebook": {
-    "other": "Compartilhar no Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Compartilhar no Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Compartilhe no Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Compartilhar por e-mail"
+    "other": "E-mail"
   },
   "social_media_buttons_email_subject": {
     "other": "Compartilhamento de link"
@@ -1237,10 +1237,10 @@
     "other": "Vencedora"
   },
   "meta_description_expand": {
-    "other": "Mostre mais"
+    "other": "Ver mais"
   },
   "meta_description_collapse": {
-    "other": "Mostre menos"
+    "other": "Ver menos"
   },
   "donate_button_text": {
     "other": "Doar"
@@ -1250,5 +1250,41 @@
   },
   "shopping_error_plan_expired": {
     "other": "Este plano não está mais disponível."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Assinaturas e cobrança"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Forma de pagamento"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "As alterações na forma de pagamento com cartão de crédito entrarão em vigor no próximo ciclo de cobrança."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Detalhes da assinatura"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Ativo"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Expirado"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Descubra assinaturas"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Descubra ótimos conteúdos a ótimos preços, facilmente gerenciados aqui."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Explorar assinaturas"
+  },
+  "nav_subscriptions": {
+    "other": "Minhas assinaturas"
   }
 }

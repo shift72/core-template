@@ -117,16 +117,16 @@
     "other": "共有"
   },
   "social_media_buttons_facebook": {
-    "other": "Facebookでシェア"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Twitterで共有する"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Linkedinで共有する"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "メールで共有する"
+    "other": "メール"
   },
   "social_media_buttons_email_subject": {
     "other": "リンクシェア"
@@ -905,10 +905,10 @@
     "other": "競争中"
   },
   "meta_description_expand": {
-    "other": "もっと見せる"
+    "other": "続きを見る"
   },
   "meta_description_collapse": {
-    "other": "表示を減らす"
+    "other": "あまり見ない"
   },
   "awards_winner": {
     "other": "勝者"
@@ -1250,5 +1250,41 @@
   },
   "shopping_complete_credit_purchase": {
     "other": "{{.Title}}をご購入いただきありがとうございます。{{.CreditTotal}}がアカウントに追加されました。"
+  },
+  "usersubscriptions_page_header": {
+    "other": "サブスクリプションと請求"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "支払方法"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "クレジットカードのお支払い方法の変更は、次の請求サイクルで有効になります。"
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "サブスクリプションの詳細"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "アクティブ"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "期限切れ"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "サブスクリプションの検出"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "ここで簡単に管理できる、優れたコンテンツを手頃な価格で見つけてください。"
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "サブスクリプションを調べる"
+  },
+  "nav_subscriptions": {
+    "other": "私のサブスクリプション"
   }
 }

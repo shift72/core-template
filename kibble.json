@@ -21,8 +21,8 @@
       "code": "de_DE",
       "name": "Deutsch"
     },
-    "ee": {
-      "code": "ee_EE",
+    "et": {
+      "code": "et_ET",
       "name": "Eestlane"
     },
     "el": {
@@ -185,5 +185,5 @@
       "pageSize": 0
     }
   ],
-  "coreTemplateVersion": "0.5.0"
+  "coreTemplateVersion": "0.5.1"
 }

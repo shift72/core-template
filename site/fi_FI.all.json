@@ -117,16 +117,16 @@
     "other": "Jaa"
   },
   "social_media_buttons_facebook": {
-    "other": "Jaa Facebookissa"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Jaa Twitterissä"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Jaa Linkedinissä"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Jaa sähköpostilla"
+    "other": "Sähköposti"
   },
   "social_media_buttons_email_subject": {
     "other": "Linkin jakaminen"
@@ -908,10 +908,10 @@
     "other": "Kilpailussa"
   },
   "meta_description_expand": {
-    "other": "Näytä lisää"
+    "other": "Katso lisää"
   },
   "meta_description_collapse": {
-    "other": "Näytä vähemmän"
+    "other": "Katso vähemmän"
   },
   "awards_winner": {
     "other": "Voittaja"
@@ -965,13 +965,13 @@
     "other": "Toivelista"
   },
   "wcag_aria_label_facebook": {
-    "other": "Jaa Facebookissa"
+    "other": "Jaa Facebook"
   },
   "wcag_aria_label_twitter": {
-    "other": "Jaa Twitterissä"
+    "other": "Jaa Twitter"
   },
   "wcag_aria_label_linkedin": {
-    "other": "Jaa LinkedInissä"
+    "other": "Jaa LinkedIn"
   },
   "wcag_aria_label_letterboxd": {
     "other": "Katso Letterboxd"
@@ -1250,5 +1250,41 @@
   },
   "shopping_card_change": {
     "other": "Luottokortti ei ole oikea?? <a href=\"{{.SubscriptionsURL}}\">Napsauta tätä päivittääksesi korttisi</a>"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Tilaukset ja laskutus"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Maksutapa"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Luottokorttimaksutapasi muutokset tulevat voimaan seuraavalla laskutusjaksollasi."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Tilauksen tiedot"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktiivinen"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Vanhentunut"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Tutustu tilauksiin"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Löydä mahtavaa sisältöä edulliseen hintaan, jota on helppo hallita täällä."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Tutustu tilauksiin"
+  },
+  "nav_subscriptions": {
+    "other": "Omat tilaukset"
   }
 }

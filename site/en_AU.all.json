@@ -88,6 +88,9 @@
   "nav_devices": {
     "other": "My Devices"
   },
+  "nav_subscriptions": {
+    "other": "My Subscriptions"
+  },
   "nav_wishlist": {
     "other": "My List"
   },
@@ -140,16 +143,16 @@
     "other": "Share"
   },
   "social_media_buttons_facebook": {
-    "other": "Share on Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Share on Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Share on Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Share via email"
+    "other": "Email"
   },
   "social_media_buttons_email_subject": {
     "other": "Link share"
@@ -158,7 +161,7 @@
     "other": "Link copied to clipboard!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Copy link"
+    "other": "Copy Link"
   },
   "accept_invite_page_header": {
     "other": "Welcome"
@@ -1023,20 +1026,47 @@
     "one": "Try your free 24hr trial now!",
     "other": "Try your free {{.Count}} day trial!"
   },
+  "usersubscriptions_page_header": {
+    "other": "Subscriptions and Billing"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Payment Method"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Changes to your credit card payment method will take effect on your next billing cycle."
+  },
   "usersubscriptions_change_payment_method_change": {
     "other": "Change Credit Card"
   },
-  "usersubscriptions_change_payment_method_modal_title": {
-    "other": "Update credit card details"
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Subscription Details"
   },
-  "usersubscriptions_change_payment_method_modal_submit": {
-    "other": "Update"
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Active"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "Trial Period"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Expired"
   },
   "usersubscriptions_subscription_expiry": {
     "other": "Expires {{.Expiry}}"
   },
-  "usersubscriptions_subscription_status_trialing": {
-    "other": "Trial Period"
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Discover Subscriptions"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Discover great content at great prices, easily managed here."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Explore subscriptions"
   },
   "usersubscriptions_subscription_unsubscribe": {
     "other": "Cancel my subscription"
@@ -1052,6 +1082,12 @@
   },
   "usersubscriptions_unsubscribe_modal_body": {
     "other": "This will cancel the subscription to the {{.Name}} plan. You will still be able to watch the content in the plan until it expires {{.Expiry}}."
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+    "other": "Update credit card details"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "Update"
   },
   "availability_coming_soon": {
     "other": "Coming soon"
@@ -1228,7 +1264,7 @@
     "other": "OR"
   },
   "page_plan_explore_link": {
-    "other": "Explore other passes"
+    "other": "Explore other Passes"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Buy now"
@@ -1246,9 +1282,9 @@
     "other": "Donate"
   },
   "meta_description_expand": {
-    "other": "Show more"
+    "other": "See more"
   },
   "meta_description_collapse": {
-    "other": "Show less"
+    "other": "See less"
   }
 }

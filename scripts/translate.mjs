@@ -11,16 +11,20 @@ if (!key || !value) {
 }
 glob('./site/*.json', {}, (err, files) => {
   files.forEach(pathName => {
+    function writeTranslationFile(translatedValue) {
+      if (!content[key]) {
+        content[key] = {};
+      }
+
+      content[key][nestedKey ? nestedKey : 'other'] = translatedValue;
+      fs.writeFileSync(pathName, JSON.stringify(content, null, 2));
+    }
     const file_content = fs.readFileSync(pathName);
     const content = JSON.parse(file_content);
     let languageCode = pathName.slice(7, 9);
     if (languageCode == 'ee') languageCode = 'et';
     if (value.trim() === '') {
-      if (!content[key]) {
-        content[key] = {};
-      }
-      content[key][nestedKey ? nestedKey : 'other'] = value;
-      fs.writeFileSync(pathName, JSON.stringify(content, null, 2));
+      writeTranslationFile(value);
     } else {
       fetch(
         `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${languageCode}&dt=t&q=${encodeURI(
@@ -37,13 +41,7 @@ glob('./site/*.json', {}, (err, files) => {
         .then(translated => {
           if (translated) {
             const translatedValue = translated[0][0][0];
-
-            if (!content[key]) {
-              content[key] = {};
-            }
-
-            content[key][nestedKey ? nestedKey : 'other'] = translatedValue;
-            fs.writeFileSync(pathName, JSON.stringify(content, null, 2));
+            writeTranslationFile(translatedValue);
           }
         });
     }
