@@ -580,3 +580,11 @@
 s72-element-switcher {
   @extend .mb-5;
 }
+
+.meta-detail-infos {
+  @include media-breakpoint-up(lg) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
