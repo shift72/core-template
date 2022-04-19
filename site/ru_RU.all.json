@@ -139,16 +139,16 @@
     "other": "Делиться"
   },
   "social_media_buttons_facebook": {
-    "other": "Поделиться через фейсбук"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Поделиться в Твиттере"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Поделиться на Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Поделиться по электронной почте"
+    "other": "Эл. адрес"
   },
   "social_media_buttons_email_subject": {
     "other": "Поделиться ссылкой"
@@ -1142,10 +1142,10 @@
     "other": "Список желаний"
   },
   "wcag_aria_label_facebook": {
-    "other": "Поделиться через фейсбук"
+    "other": "Поделиться на Facebook"
   },
   "wcag_aria_label_twitter": {
-    "other": "Поделиться в Твиттере"
+    "other": "Поделиться на Twitter"
   },
   "wcag_aria_label_linkedin": {
     "other": "Поделиться на LinkedIn"
@@ -1272,5 +1272,41 @@
   },
   "availability_expired": {
     "other": "Истекший"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Подписки и выставление счетов"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Способ оплаты"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Изменения в способе оплаты кредитной картой вступят в силу в следующем платежном цикле."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Сведения о подписке"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Активный"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Истекший"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Откройте для себя подписки"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Откройте для себя отличный контент по отличным ценам, которым легко управлять здесь."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Изучите подписки"
+  },
+  "nav_subscriptions": {
+    "other": "Мои подписки"
   }
 }
