@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "οι εγγραφές μου"
+  },
+  "sponsor_logo_prefix": {
+    "other": "Σας προσφέρθηκε από:"
   }
 }

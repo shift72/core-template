@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "aboneliklerim"
+  },
+  "sponsor_logo_prefix": {
+    "other": "Tarafından getirildi:"
   }
 }

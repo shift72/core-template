@@ -1286,5 +1286,8 @@
   },
   "meta_description_collapse": {
     "other": "See less"
+  },
+  "sponsor_logo_prefix": {
+    "other": "Brought to you by:"
   }
 }

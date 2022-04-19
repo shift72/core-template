@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "我的订阅"
+  },
+  "sponsor_logo_prefix": {
+    "other": "为您带来："
   }
 }

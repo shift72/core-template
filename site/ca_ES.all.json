@@ -1295,5 +1295,8 @@
   },
   "nav_subscriptions": {
     "other": "Les meves subscripcions"
+  },
+  "sponsor_logo_prefix": {
+    "other": "Portat a vostè per:"
   }
 }

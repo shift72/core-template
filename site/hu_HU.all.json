@@ -1295,5 +1295,8 @@
   },
   "nav_subscriptions": {
     "other": "a Feliratkozásaim"
+  },
+  "sponsor_logo_prefix": {
+    "other": "Elhozta neked:"
   }
 }

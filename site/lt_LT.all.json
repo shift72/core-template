@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "Mano prenumeratos"
+  },
+  "sponsor_logo_prefix": {
+    "other": "Jums atnešė:"
   }
 }

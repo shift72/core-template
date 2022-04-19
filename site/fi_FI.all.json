@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "Omat tilaukset"
+  },
+  "sponsor_logo_prefix": {
+    "other": "Tuotu sinulle:"
   }
 }

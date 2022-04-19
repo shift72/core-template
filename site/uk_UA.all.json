@@ -1314,5 +1314,8 @@
   },
   "nav_subscriptions": {
     "other": "Мої підписки"
+  },
+  "sponsor_logo_prefix": {
+    "other": "Надано вам:"
   }
 }

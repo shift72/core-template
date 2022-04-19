@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "mis Suscripciónes"
+  },
+  "sponsor_logo_prefix": {
+    "other": "Traído a usted por:"
   }
 }

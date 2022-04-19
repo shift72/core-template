@@ -1278,5 +1278,8 @@
   },
   "nav_subscriptions": {
     "other": "Moje pretplate"
+  },
+  "sponsor_logo_prefix": {
+    "other": "Donio vam:"
   }
 }

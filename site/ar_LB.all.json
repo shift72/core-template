@@ -1295,5 +1295,8 @@
   },
   "nav_subscriptions": {
     "other": "اشتراكاتي"
+  },
+  "sponsor_logo_prefix": {
+    "other": "جلب لك بواسطة:"
   }
 }

@@ -1295,5 +1295,8 @@
   },
   "nav_subscriptions": {
     "other": "Meine Abonnements"
+  },
+  "sponsor_logo_prefix": {
+    "other": "Zur Verfügung gestellt von:"
   }
 }
