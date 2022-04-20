@@ -1,0 +1,7 @@
+.s72-tooltip {
+  display: none;
+
+  @include media-breakpoint-up(lg) {
+    display: block;
+  }
+}
