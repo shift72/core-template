@@ -18,6 +18,12 @@
 {{end}}
 
 {{block body()}}
+
+{{ sponsorText := film.CustomFields.GetString("sponsor_image_text_film", "") }}
+{{ sponsorlink := film.CustomFields.GetString("sponsor_image_link_film", "") }}
+{{ sponsorImage := film.ImageMap["Sponsor"] }}
+
+
   <main id="main" class="page page-film meta-detail meta-detail-film">
     <div class="meta-detail-bg">
       <div class="right-gradient"></div>
@@ -26,10 +32,12 @@
     <div class="container">
       <div class="meta-detail-main">
         <div class="sponsor-poster">
-          {{if isset(film.ImageMap["Sponsor"])}}
+          {{if sponsorText && isset(sponsorImage)}}
             <div class="sponsor d-xl-none">
-              {{ i18n("sponsor_logo_prefix") }}
-              <s72-image src="{{film.ImageMap["Sponsor"]}}"></s72-image>
+              <span>{{ sponsorText }}</span>
+              <a {{ if sponsorlink }} href="{{ sponsorlink }}" target="_blank" {{ end }}>
+                <s72-image src="{{sponsorImage}}"></s72-image>
+              </a>
             </div>
           {{end}}
           {{if config("default_image_type") == "portrait"}}
@@ -71,7 +79,7 @@
 
           {{yield awardNominations() film}}
           <div class="element-switcher-sponsor">
-            <s72-element-switcher>
+            <s72-element-switcher class="meta-detail-info-width">
               {{if isEnabled("element_switcher_enabled")}}
                 <div class="meta-detail-switcher-tagline">
                   <p>{{film.Tagline}}</p>
@@ -157,15 +165,17 @@
                 {{end}}
               </div>
             </s72-element-switcher>
-            {{if isset(film.ImageMap["Sponsor"])}}
+            {{if sponsorText && isset(sponsorImage)}}
               <div class="sponsor d-none d-xl-flex">
-                {{ i18n("sponsor_logo_prefix") }}
-                <s72-image src="{{film.ImageMap["Sponsor"]}}"></s72-image>
+                <span>{{sponsorText}}</span>
+                <a {{ if sponsorlink }} href="{{ sponsorlink }}" target="_blank" {{ end }}>
+                  <s72-image src="{{sponsorImage}}"></s72-image>
+                </a>
               </div>
             {{end}}
           </div>
           {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}
-            <section class="meta-detail-bonus-content" aria-label="{{i18n("meta_detail_bonus_title")}}">
+            <section class="meta-detail-bonus-content meta-detail-info-width" aria-label="{{i18n("meta_detail_bonus_title")}}">
               <h2>{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := film.Bonuses}}

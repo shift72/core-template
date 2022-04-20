@@ -29,7 +29,7 @@
             <s72-image src="{{tvseason.Images.Portrait}}" alt="{{tvseason.Title}}" class="poster poster-image poster-image-portrait"></s72-image>
           </div>
         {{end}}
-        <div class="meta-detail-content">
+        <div class="meta-detail-content meta-detail-info-width">
           <h1>{{tvseason.GetTitle(i18n)}}</h1>
           <div class="meta-detail-tagline">
             {{yield metaItemTagline() tvseason}}
