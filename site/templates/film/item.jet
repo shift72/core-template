@@ -21,6 +21,8 @@
 
 {{ sponsorText := film.CustomFields.GetString("sponsor_image_text_film", "") }}
 {{ sponsorLink := film.CustomFields.GetString("sponsor_image_link_film", "") }}
+{{ sponsorLinkIsExternal := film.CustomFields.GetBool("sponsor_image_link_external_film", false) }}
+
 {{ sponsorImage := film.ImageMap["Sponsor"] }}
 
 
@@ -37,7 +39,7 @@
               {{ if sponsorText }}
                 <span>{{sponsorText}}</span>
               {{ end }}
-              <a {{ if sponsorLink }} href="{{ sponsorLink }}" target="_blank" {{ end }}>
+              <a {{ if sponsorLink }} href="{{ sponsorLink }}" {{ if sponsorLinkIsExternal }} target="_blank" {{ end }} {{ end }}>
                 <s72-image src="{{sponsorImage}}"></s72-image>
               </a>
             </div>
@@ -172,7 +174,7 @@
                 {{ if sponsorText }}
                   <span>{{sponsorText}}</span>
                 {{ end }}
-                <a {{ if sponsorLink }} href="{{ sponsorLink }}" target="_blank" {{ end }}>
+                <a {{ if sponsorLink }} href="{{ sponsorLink }}" {{ if sponsorLinkIsExternal }} target="_blank" {{ end }} {{ end }}>
                   <s72-image src="{{sponsorImage}}"></s72-image>
                 </a>
               </div>
