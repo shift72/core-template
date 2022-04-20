@@ -20,7 +20,7 @@
 {{block body()}}
 
 {{ sponsorText := film.CustomFields.GetString("sponsor_image_text_film", "") }}
-{{ sponsorlink := film.CustomFields.GetString("sponsor_image_link_film", "") }}
+{{ sponsorLink := film.CustomFields.GetString("sponsor_image_link_film", "") }}
 {{ sponsorImage := film.ImageMap["Sponsor"] }}
 
 
@@ -32,10 +32,12 @@
     <div class="container">
       <div class="meta-detail-main">
         <div class="sponsor-poster">
-          {{if sponsorText && isset(sponsorImage)}}
+          {{if isset(sponsorImage)}}
             <div class="sponsor d-xl-none">
-              <span>{{ sponsorText }}</span>
-              <a {{ if sponsorlink }} href="{{ sponsorlink }}" target="_blank" {{ end }}>
+              {{ if sponsorText }}
+                <span>{{sponsorText}}</span>
+              {{ end }}
+              <a {{ if sponsorLink }} href="{{ sponsorLink }}" target="_blank" {{ end }}>
                 <s72-image src="{{sponsorImage}}"></s72-image>
               </a>
             </div>
@@ -165,10 +167,12 @@
                 {{end}}
               </div>
             </s72-element-switcher>
-            {{if sponsorText && isset(sponsorImage)}}
+            {{if isset(sponsorImage)}}
               <div class="sponsor d-none d-xl-flex">
-                <span>{{sponsorText}}</span>
-                <a {{ if sponsorlink }} href="{{ sponsorlink }}" target="_blank" {{ end }}>
+                {{ if sponsorText }}
+                  <span>{{sponsorText}}</span>
+                {{ end }}
+                <a {{ if sponsorLink }} href="{{ sponsorLink }}" target="_blank" {{ end }}>
                   <s72-image src="{{sponsorImage}}"></s72-image>
                 </a>
               </div>
