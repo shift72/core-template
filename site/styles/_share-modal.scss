@@ -14,13 +14,22 @@
     }
   }
 
-  .s72-modal-content {
-    background: none;
-    border: unset;
+  .modal-header {
+    border-bottom: 1px solid rgba(var(--body-color-rgb), 0.2);
   }
 
-  h5 {
-    @extend .text-dark;
+  .modal-title {
+    color: var(--body-color);
+    word-break: break-word;
+  }
+
+  .s72-modal-content {
+    background: none;
+  }
+
+  .modal-content {
+    background-color: var(--body-bg);
+    border: 0;
   }
 
   ul {
@@ -39,14 +48,30 @@
   a {
     @extend .d-flex;
     @extend .align-items-center;
-    @extend .text-dark;
-    line-height: 3rem;
+    color: var(--body-color);
+    padding: 0.7rem 0;
     text-decoration: inherit;
+    word-break: break-word;
+
+    &:hover {
+      color: var(--link-color-hover);
+    }
   }
 
   [type='button'] {
-    -webkit-appearance: none;
+    // for testers on their ipod touch
     appearance: none;
+  }
+
+  .close {
+    align-self: center;
+    color: var(--body-color);
+    opacity: 1;
+    text-shadow: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
 
