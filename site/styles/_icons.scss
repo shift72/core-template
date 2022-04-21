@@ -145,16 +145,16 @@
   content: '\e01a';
 }
 
-.fa-circle:before {
-  content: "\e01c";
+.fa-circle::before {
+  content: '\e01c';
 }
 
-.fa-warning:before {
-  content: "\e01b";
+.fa-warning::before {
+  content: '\e01b';
 }
 
 s72-availability-label .availability-state::before {
-  content: "\e01b";
+  content: '\e01b';
 }
 
 .fa-spinner::before {
