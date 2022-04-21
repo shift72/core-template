@@ -38,12 +38,6 @@ s72-share-modal .fa-share-alt {
       @extend .position-absolute;
       font-size: 20px;
       left: -30px;
-
-      /* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
-      svg {
-        height: 20px;
-      }
-      /* stylelint-enable selector-max-compound-selectors, max-nesting-depth */
     }
   }
 
