@@ -149,6 +149,10 @@
   content: "\e01c";
 }
 
+.fa-warning:before {
+  content: "\e01b";
+}
+
 s72-availability-label .availability-state::before {
   content: "\e01b";
 }
@@ -178,7 +182,7 @@ s72-availability-label .availability-state::before {
 
 .icon-errored {
   @extend .fa;
-  @extend .fa-exclamation-circle;
+  @extend .fa-warning;
 }
 
 .icon-warning {
