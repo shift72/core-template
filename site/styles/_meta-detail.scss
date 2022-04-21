@@ -582,9 +582,11 @@ s72-element-switcher {
 }
 
 .meta-detail-infos {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+
   @include media-breakpoint-up(lg) {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
   }
 }
