@@ -1,26 +1,28 @@
 .navigation {
   @extend .navigation-gradient;
+
   background-color: transparent;
   display: flex;
   flex-direction: column;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  position: absolute;
   right: 0;
   top: 0;
   width: 100%;
   z-index: 9;
-  
+
   &.show {
     min-height: 100%;
+
     @include media-breakpoint-up(sm) {
       min-height: auto;
     }
-    
+
     @include media-breakpoint-between(sm, md) {
       background: none;
     }
+
     @include media-breakpoint-up(lg) {
       height: auto;
     }
@@ -122,7 +124,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   height: 100%;
-  padding: 10px 20px 40px 20px;
+  padding: 10px 20px 40px;
   position: relative;
   transition: background-color 0.25s ease-out;
   width: 100%;
@@ -139,7 +141,7 @@
     justify-content: flex-end;
     overflow: visible;
     padding: 20px 50px;
-    padding: 20px 50px 40px 50px;
+    padding: 20px 50px 40px;
   }
 }
 
@@ -261,9 +263,10 @@
 
 .navbar-brand-container-tablet {
   @extend .navigation-gradient;
+
   background-color: $navbar-background-color;
   display: none;
-  padding: 10px 20px 40px 20px;
+  padding: 10px 20px 40px;
   pointer-events: none;
   position: relative;
   width: 100%;

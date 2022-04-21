@@ -116,49 +116,6 @@ s72-classification-label {
   display: inline-block;
 }
 
-.s72-classification {
-  @extend .d-flex;
-  display: inline-block;
-  margin-top: 0;
-  padding: 0;
-
-  .s72-classification-intro,
-  .s72-classification-divider {
-    display: none;
-  }
-
-  .s72-classification-description {
-    color: rgba(255, 255, 255, 0.8);
-    display: none;
-    font-size: 14px;
-    font-weight: $font-weight-normal;
-    margin-left: 5px;
-  }
-
-  .s72-classification-label {
-    border: 1px solid rgba(var(--body-color-rgb), 0.8);
-    border-radius: 0;
-    color: rgba(var(--body-color-rgb), 0.8);
-    font-size: 12px;
-    font-weight: $font-weight-bold;
-    padding: 1px 5px;
-    @include media-breakpoint-up(xxxl) {
-      font-size: 14px;
-    }
-  }
-}
-
-.meta-detail-content .meta-detail-tagline-and-classification {
-  align-items: center;
-  display: flex !important;
-  padding-bottom: 14px;
-  padding-top: 8px;
-}
-
-.meta-detail-content .meta-detail-tagline-and-classification .s72-classification {
-  margin-right: 5px;
-}
-
 .wishlist-page-landscape .s72-userwishlist-items {
   @extend .d-flex;
   flex-wrap: wrap;
@@ -295,33 +252,8 @@ p,
 
 .no-scroll {
   overflow-y: hidden;
+
   @include media-breakpoint-up(lg) {
     overflow-y: visible;
   }
 }
-
-.navigation {
-  position: relative;
-}
-
-/*
-s72-carousel {
-  position: static !important;
-}
-.page-collection-carousel {
-  position: static !important;
-}
-.s72-carousel-slides {
-  position: static;
-}
-.s72-carousel-item {
-  position: static !important;
-}
-.carousel-item-link {
-  position: static !important;
-  s72-image {
-    position: absolute;
-    top: 0px;
-  }
-}
-*/
