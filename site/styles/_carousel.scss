@@ -75,16 +75,18 @@ s72-carousel {
 
 .carousel-item-caption {
   @extend .carousel-bottom-gradient;
+
   bottom: 0;
-  display: flex;
-
+  // display: flex;
   left: 0;
-
-  // This top padding controls the gradient height?!?!
-  padding: 400px 20px 0;
+  padding: 400px 20px 1px; // This top padding controls the gradient height?!?!
   position: absolute;
   width: 100%;
   z-index: 999;
+
+  @include media-breakpoint-up(md) {
+    display: flex;
+  }
 
   @include media-breakpoint-up(lg) {
     padding: 400px 50px 1px;
@@ -171,53 +173,88 @@ s72-carousel {
         margin-bottom: 0;
       }
     }
-
-    .meta-item-extras {
-      display: flex;
-    }
-
-    .btn-wishlist {
-      position: relative;
-    }
   }
 
   .meta-item-buttons {
-    s72-pricing-buttons {
-      padding-bottom: 22px;
-      padding-right: 12px;
+    gap: 20px 16px;
+    margin-bottom: 20px;
+
+    .meta-item-extras {
+      display: flex;
+      gap: 20px 16px;
+    }
+
+    // Remove unwanted margins from stuff.
+    .s72-btn-purchase,
+    .s72-btn-rent,
+    .s72-btn-trailer .s72-btn-trailer,
+    .s72-btn-wishlist {
+      margin: 0;
+    }
+
+    // Empty relish components still have gaps applied so hide them.
+    can-be-watched-button,
+    s72-userwishlist-button {
+      &:empty {
+        display: none;
+      }
     }
 
     s72-play-button {
-      padding-bottom: 22px;
-      padding-right: 0;
-      width: 100%;
-      @include media-breakpoint-up(xs) {
-        padding-right: 12px;
-        width: auto;
-      }
+      flex-grow: 1;
+
       .s72-btn-play {
+        margin: 0;
+        min-width: 140px;
+        padding: 6px 12px;
         width: 100%;
-        @include media-breakpoint-up(xs) {
-          width: auto;
+      }
+
+      .s72-btn-play-icon {
+        display: none;
+      }
+
+      .verb {
+        font-size: 1rem;
+      }
+    }
+
+    s72-pricing-buttons {
+      width: 100%;
+
+      @include media-breakpoint-up(sm) {
+        width: unset;
+      }
+
+      .s72-pricing-button-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+
+      .s72-btn-purchase,
+      .s72-btn-rent {
+        flex-grow: 1;
+      }
+    }
+
+    can-be-watched-button {
+      flex-grow: 1;
+
+      .s72-btn-can-be-watched {
+        flex-grow: 1;
+        min-width: 140px;
+        padding: 6px 12px;
+
+        .padder {
+          display: none;
+        }
+
+        .s72-btn-can-be-watched-label {
+          font-size: 1rem;
+          font-weight: 400;
         }
       }
-    }
-    .s72-btn-play,
-    .s72-btn-wishlist {
-      margin: 0;
-      padding: 0 12px 14px 0;
-    }
-  }
-  .s72-btn-rent {
-    margin-left: 0 !important;
-  }
-  .s72-btn-purchase {
-    margin-right: 8px;
-  }
-
-  .s72-btn-play {
-    circle {
-      fill: transparent;
     }
   }
 }
@@ -230,6 +267,7 @@ s72-carousel {
     display: flex;
   }
 }
+
 .s72-carousel-page {
   background: none;
   border: 0;
