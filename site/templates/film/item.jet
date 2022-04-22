@@ -102,7 +102,6 @@
                       <a href="{{ routeToPath(path) }}">{{member.Name}}</a>
                     </div>
                   {{end}}
-                </div>
                 {{if len(film.Languages) > 0 }}
                   <div class="meta-detail-language">
                     <h2>{{i18n("meta_detail_languages", len(film.Languages))}}</h2>
@@ -160,6 +159,7 @@
                   </div>
                 {{end}}
               </div>
+            </div>
             </s72-element-switcher>
             {{if isset(sponsorImage)}}
               {{yield sponsor(text=sponsorText, link=sponsorLink, external=sponsorLinkIsExternal, img=sponsorImage)}}
