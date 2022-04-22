@@ -7,6 +7,7 @@
 {{import "../common/list.jet"}}
 {{import "../common/social-media-buttons.jet"}}
 {{import "../common/awards/item.jet"}}
+{{import "../common/sponsor-image.jet"}}
 
 {{block head()}}
   {{yield seo() film}}
@@ -33,14 +34,7 @@
       <div class="meta-detail-main">
         <div class="sponsor-poster">
           {{if isset(sponsorImage)}}
-            <div class="sponsor d-xl-none">
-              {{ if sponsorText }}
-                <span>{{sponsorText}}</span>
-              {{ end }}
-              <a {{ if sponsorLink }} href="{{ sponsorLink }}" {{ if sponsorLinkIsExternal }} target="_blank" {{ end }} {{ end }}>
-                <s72-image src="{{sponsorImage}}"></s72-image>
-              </a>
-            </div>
+            {{ yield sponsor(text=sponsorText, link=sponsorLink, external=sponsorLinkIsExternal, img=sponsorImage)}}
           {{end}}
           {{if config("default_image_type") == "portrait"}}
               <div class="poster poster-portrait">
@@ -168,14 +162,7 @@
               </div>
             </s72-element-switcher>
             {{if isset(sponsorImage)}}
-              <div class="sponsor d-none d-xl-flex">
-                {{ if sponsorText }}
-                  <span>{{sponsorText}}</span>
-                {{ end }}
-                <a {{ if sponsorLink }} href="{{ sponsorLink }}" {{ if sponsorLinkIsExternal }} target="_blank" {{ end }} {{ end }}>
-                  <s72-image src="{{sponsorImage}}"></s72-image>
-                </a>
-              </div>
+              {{ yield sponsor(text=sponsorText, link=sponsorLink, external=sponsorLinkIsExternal, img=sponsorImage)}}
             {{end}}
           </div>
           {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}

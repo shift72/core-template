@@ -1,0 +1,10 @@
+{{ block sponsor(text, link, external, img) }}
+  <div class="sponsor">
+    {{ if text }}
+      <span>{{text}}</span>
+    {{ end }}
+    <a {{ if link }} href="{{ link }}" {{ if external }} target="_blank" {{ end }} {{ end }}>
+      <s72-image src="{{img}}"></s72-image>
+    </a>
+  </div>
+{{ end }}
