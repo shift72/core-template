@@ -146,7 +146,7 @@
     }
   }
 
-  > .sponsor-poster {
+  > .poster-wrapper {
     margin-right: 20px;
   }
 }
@@ -623,7 +623,7 @@ s72-element-switcher {
   }
 }
 
-.sponsor-poster .sponsor {
+.poster-wrapper .sponsor {
   @media (min-width: 1200px) {
     display: none;
   }
