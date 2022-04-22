@@ -1,5 +1,6 @@
-{{import "./carousel_item.jet"}}
+{{import "./item.jet"}}
 {{import "./pagination.jet"}}
+{{import "./controls.jet"}}
 
 {{block carousel()}}
 	{{maxSlides := 7}}
@@ -29,6 +30,8 @@
 				</div>
 
 				{{yield carouselPagination(items=items)}}
+
+				{{yield carouselControls()}}
 			</section>
 		</s72-carousel>
 	{{end}}

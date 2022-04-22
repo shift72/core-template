@@ -1,4 +1,3 @@
-.carousel,
 s72-carousel {
   display: block;
   margin: 0 auto;
@@ -10,6 +9,7 @@ s72-carousel {
 .s72-carousel-slides {
   background: $carousel-bg-color;
   height: var(--carousel-height) !important;
+  margin-bottom: 40px;
   overflow: hidden;
   width: 100%;
 
@@ -240,20 +240,20 @@ s72-carousel {
 
     can-be-watched-button {
       flex-grow: 1;
+    }
 
-      .s72-btn-can-be-watched {
-        flex-grow: 1;
-        min-width: 140px;
-        padding: 6px 12px;
+    .s72-btn-can-be-watched {
+      flex-grow: 1;
+      min-width: 140px;
+      padding: 6px 12px;
 
-        .padder {
-          display: none;
-        }
+      .padder {
+        display: none;
+      }
 
-        .s72-btn-can-be-watched-label {
-          font-size: 1rem;
-          font-weight: 400;
-        }
+      .s72-btn-can-be-watched-label {
+        font-size: 1rem;
+        font-weight: 400;
       }
     }
   }
@@ -262,7 +262,7 @@ s72-carousel {
 .s72-carousel-pagination {
   display: none;
   justify-content: center;
-  margin-top: 40px;
+
   @include media-breakpoint-up(sm) {
     display: flex;
   }
@@ -271,15 +271,12 @@ s72-carousel {
 .s72-carousel-page {
   background: none;
   border: 0;
-  cursor: pointer;
   padding: 10px 4px;
 
   .s72-carousel-line {
     background-color: rgba(var(--body-color-rgb), 0.2);
     border-radius: 6px;
     height: 6px;
-    overflow: hidden;
-    position: relative;
     width: 47px;
   }
 
@@ -289,52 +286,32 @@ s72-carousel {
 }
 
 .s72-carousel-control {
-  @extend .d-flex;
-  bottom: 0;
+  display: flex;
   flex-direction: column;
   height: 60px;
   justify-content: center;
-  line-height: 60px;
-  position: absolute;
-  text-align: center;
   top: auto;
   width: 50px;
   z-index: 6;
-  @include media-breakpoint-down(sm) {
-    :hover {
-      color: var(--primary);
-    }
 
-    :active {
-      opacity: 0.8;
-    }
-  }
-  @include media-breakpoint-up(md) {
-    background: none;
-    top: 53%;
+  @include media-breakpoint-up(sm) {
+    display: none;
   }
 
   &.left {
     left: 0;
-    right: auto;
   }
 
   &.right {
-    left: auto;
     right: 0;
   }
 
-  &:hover,
-  &:active {
+  &:hover {
     text-decoration: none;
   }
 
   span {
     font-size: 32px;
     text-align: center;
-    width: 100%;
-    @include media-breakpoint-up(md) {
-      font-size: inherit;
-    }
   }
 }
