@@ -3,8 +3,8 @@
     {{if text}}
       <span>{{text}}</span>
     {{end}}
-    <a {{if link}} href="{{link}}" {{if external}} target="_blank" {{end}} {{end}}>
+    {{if link}}<a href="{{link}}" {{if external}} target="_blank" {{end}}>{{end}}
       <s72-image src="{{img}}"></s72-image>
-    </a>
+    {{if link}}</a>{{end}}
   </div>
 {{end}}
