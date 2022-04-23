@@ -74,7 +74,7 @@
           {{end}}
 
           {{yield awardNominations() film}}
-          <div class="element-switcher-sponsor">
+          <div class="element-switcher-wrapper">
             <s72-element-switcher class="meta-detail-info-width">
               {{if isEnabled("element_switcher_enabled")}}
                 <div class="meta-detail-switcher-tagline">
