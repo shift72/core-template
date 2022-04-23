@@ -33,16 +33,15 @@
     <div class="container">
       <div class="meta-detail-main">
         <div class="poster-wrapper">
-          {{if isset(sponsorImage)}}
-            {{yield sponsor(text=sponsorText, link=sponsorLink, external=sponsorLinkIsExternal, img=sponsorImage)}}
-          {{end}}
           {{if config("default_image_type") == "portrait"}}
-              <div class="poster poster-portrait">
-                <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
-                <s72-image src="{{film.ImageMap["Classification"]}}" alt="" class="classification-image">
-                <s72-image src="{{film.ImageMap["Portrait"]}}" alt="{{film.Title}}" class="poster poster-image poster-image-portrait"></s72-image>
-
-              </div>
+            {{if isset(sponsorImage)}}
+              {{yield sponsor(text=sponsorText, link=sponsorLink, external=sponsorLinkIsExternal, img=sponsorImage)}}
+            {{end}}
+            <div class="poster poster-portrait">
+              <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
+              <s72-image src="{{film.ImageMap["Classification"]}}" alt="" class="classification-image">
+              <s72-image src="{{film.ImageMap["Portrait"]}}" alt="{{film.Title}}" class="poster poster-image poster-image-portrait"></s72-image>
+            </div>
           {{end}}
         </div>
         <div class="meta-detail-content">
