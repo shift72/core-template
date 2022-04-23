@@ -1278,5 +1278,8 @@
   },
   "nav_subscriptions": {
     "other": "Moje pretplate"
+  },
+  "sponsor_image_alt": {
+    "other": "logotip sponzora"
   }
 }
