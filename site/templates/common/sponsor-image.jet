@@ -4,7 +4,7 @@
       <span>{{text}}</span>
     {{end}}
     {{if link}}<a href="{{link}}" {{if external}} target="_blank" {{end}}>{{end}}
-      <s72-image src="{{img}}"></s72-image>
+      <s72-image src="{{img}}" alt="{{ i18n("sponsor_image_alt") }}" ></s72-image>
     {{if link}}</a>{{end}}
   </div>
 {{end}}
