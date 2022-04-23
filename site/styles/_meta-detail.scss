@@ -151,7 +151,9 @@
   }
 }
 
-.meta-detail-info-width {
+.element-switcher-wrapper,
+.meta-detail-bonus-content,
+.meta-detail-episodes-content {
   flex: 1 1 100%;
 
   @include media-breakpoint-up(md) {

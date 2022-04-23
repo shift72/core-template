@@ -75,7 +75,7 @@
 
           {{yield awardNominations() film}}
           <div class="element-switcher-wrapper">
-            <s72-element-switcher class="meta-detail-info-width">
+            <s72-element-switcher>
               {{if isEnabled("element_switcher_enabled")}}
                 <div class="meta-detail-switcher-tagline">
                   <p>{{film.Tagline}}</p>
@@ -166,7 +166,7 @@
             {{end}}
           </div>
           {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}
-            <section class="meta-detail-bonus-content meta-detail-info-width" aria-label="{{i18n("meta_detail_bonus_title")}}">
+            <section class="meta-detail-bonus-content" aria-label="{{i18n("meta_detail_bonus_title")}}">
               <h2>{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := film.Bonuses}}
