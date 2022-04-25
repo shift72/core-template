@@ -137,16 +137,16 @@
     "other": "Condividere"
   },
   "social_media_buttons_facebook": {
-    "other": "Condividi su Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Condividi su Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Condividi su Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Condividi via e-mail"
+    "other": "E-mail"
   },
   "social_media_buttons_email_subject": {
     "other": "Condividi link"
@@ -1250,5 +1250,41 @@
   },
   "shopping_error_item_limit_exceeded": {
     "other": "Sfortunatamente, {{.Title}} è esaurito."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abbonamenti e fatturazione"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Metodo di pagamento"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Le modifiche al metodo di pagamento con carta di credito avranno effetto nel prossimo ciclo di fatturazione."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Dettagli dell'abbonamento"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Attivo"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Scaduto"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Scopri gli abbonamenti"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Scopri fantastici contenuti a ottimi prezzi, facilmente gestibili qui."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Esplora gli abbonamenti"
+  },
+  "nav_subscriptions": {
+    "other": "le mie sottoscrizioni"
   }
 }

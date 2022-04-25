@@ -140,16 +140,16 @@
     "other": "分享"
   },
   "social_media_buttons_facebook": {
-    "other": "在脸书上分享"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "分享到Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "在领英上分享"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "通过电子邮件分享"
+    "other": "电子邮件"
   },
   "social_media_buttons_email_subject": {
     "other": "链接分享"
@@ -1250,5 +1250,41 @@
   },
   "wcag_aria_label_letterboxd": {
     "other": "在letterboxd上查看"
+  },
+  "usersubscriptions_page_header": {
+    "other": "订阅和计费"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "付款方法"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "对信用卡付款方式的更改将在您的下一个结算周期生效。"
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "订阅详情"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "积极的"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "已到期"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "发现订阅"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "以优惠的价格发现精彩的内容，在此处轻松管理。"
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "探索订阅"
+  },
+  "nav_subscriptions": {
+    "other": "我的订阅"
   }
 }

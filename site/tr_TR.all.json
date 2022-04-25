@@ -137,16 +137,16 @@
     "other": "Paylaş"
   },
   "social_media_buttons_facebook": {
-    "other": "Facebook'ta Paylaş"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Twitter'da paylaş"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Linkedin'de paylaş"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "E-mail ile paylaş"
+    "other": "E-posta"
   },
   "social_media_buttons_email_subject": {
     "other": "Bağlantı paylaşımı"
@@ -1250,5 +1250,41 @@
   },
   "meta_description_collapse": {
     "other": "Daha az gör"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonelikler ve Faturalandırma"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Ödeme şekli"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Kredi kartı ödeme yönteminizde yapacağınız değişiklikler bir sonraki faturalandırma döngünüzde geçerli olacaktır."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Abonelik Ayrıntıları"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktif"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Günü geçmiş"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Abonelikleri Keşfedin"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Burada kolayca yönetilen harika içerikleri harika fiyatlarla keşfedin."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Abonelikleri keşfedin"
+  },
+  "nav_subscriptions": {
+    "other": "aboneliklerim"
   }
 }

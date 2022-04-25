@@ -114,16 +114,16 @@
     "other": "Dzielić"
   },
   "social_media_buttons_facebook": {
-    "other": "Udostępnij na Facebooku"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Podziel się na Twitterze"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Udostępnij na Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Udostępnij przez e-mail"
+    "other": "E-mail"
   },
   "social_media_buttons_email_subject": {
     "other": "Udostępnianie linków"
@@ -1295,5 +1295,41 @@
   },
   "shopping_card_change": {
     "other": "Karta kredytowa jest nieprawidłowa? <a href=\"{{.SubscriptionsURL}}\">Kliknij tutaj, aby zaktualizować swoją kartę.</a>"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Subskrypcje i rozliczenia"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Metoda płatności"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Zmiany metody płatności kartą kredytową zaczną obowiązywać w następnym cyklu rozliczeniowym."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Szczegóły subskrypcji"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktywny"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Wygasły"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Odkryj subskrypcje"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Odkryj wspaniałe treści w atrakcyjnych cenach, którymi łatwo zarządzasz tutaj."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Przeglądaj subskrypcje"
+  },
+  "nav_subscriptions": {
+    "other": "moje subskrypcje"
   }
 }
