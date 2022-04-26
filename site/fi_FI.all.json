@@ -1109,7 +1109,7 @@
     "other": "Peruuta tilaus?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Tämä peruuttaa {{.Name}}-tilauksen. Voit silti tarkastella suunnitelman sisältöä sen voimassaolon päättymiseen asti {{.Expiry}}."
+    "other": "Tämä peruuttaa tuotteen {{.Name}} tilauksen. Voit silti katsoa sisältöä, kunnes se vanhenee {{.Expiry}}."
   },
   "signin_form_error_account_suspended": {
     "other": "Tilisi on väliaikaisesti jäädytetty. Ota yhteyttä järjestelmänvalvojaan, jos uskot tämän olevan virhe."

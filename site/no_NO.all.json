@@ -929,7 +929,7 @@
     "other": "Avbestille abonnementet?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Dette vil kansellere abonnementet på {{.Name}} Du vil fortsatt kunne se innholdet i planen til den utløper {{.Expiry}}."
+    "other": "Dette vil kansellere abonnementet på {{.Name}}. Du vil fortsatt kunne se innholdet til det utløper {{.Expiry}}."
   },
   "shopping_card_update_reason_none": {
     "other": "Oppdater kredittkortet ditt. Støttede kort er Visa, Mastercard og American Expresse"

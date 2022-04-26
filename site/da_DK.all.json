@@ -1004,7 +1004,7 @@
     "other": "Vil du opsige abonnement?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Dette vil annullere abonnementet på {{.Name}}-planen. Du vil stadig være i stand til at se indholdet i planen, indtil det udløber {{.Expiry}}."
+    "other": "Dette vil annullere abonnementet på {{.Name}}. Du vil stadig kunne se indholdet, indtil det udløber {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Kommer snart"
