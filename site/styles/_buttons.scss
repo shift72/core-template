@@ -179,6 +179,13 @@
     }
   }
 }
+.s72-subscribe-button-container{
+  display: inline-block;
+}
+
+.s72-btn-svod-cta{
+  @extend .btn-primary;
+}
 
 .s72-btn-rent,
 .s72-btn-purchase {
