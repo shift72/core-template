@@ -159,7 +159,7 @@
                 {{end}}
               {{end}}
             </section>
-        {{end}}
+          {{end}}
         </div>
       </div>
     </div>
