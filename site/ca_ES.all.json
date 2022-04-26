@@ -140,16 +140,16 @@
     "other": "Compartir"
   },
   "social_media_buttons_facebook": {
-    "other": "Comparteix a Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Comparteix a Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Comparteix a Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Comparteix per correu electrònic"
+    "other": "Correu electrònic"
   },
   "social_media_buttons_email_subject": {
     "other": "Comparteix l'enllaç"
@@ -1259,5 +1259,41 @@
   },
   "wcag_aria_label_letterboxd": {
     "other": "Veure a Letterboxd"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Subscripcions i facturació"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Mètode de pagament"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Els canvis al mètode de pagament de la vostra targeta de crèdit tindran efecte el proper cicle de facturació."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Detalls de la subscripció"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Actiu"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Caducat"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Descobriu les subscripcions"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Descobriu contingut fantàstic a preus fantàstics, fàcil de gestionar aquí."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Exploreu les subscripcions"
+  },
+  "nav_subscriptions": {
+    "other": "Les meves subscripcions"
   }
 }

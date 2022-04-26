@@ -291,7 +291,6 @@ s72-carousel{
   .meta-detail-studio,
   .meta-detail-country,
   .meta-detail-subtitle {
-    padding-bottom: 20px;
 
     &:empty {
       display: none!important;
@@ -322,8 +321,9 @@ s72-carousel{
       letter-spacing: 0.6px;
     }
   }
-
 }
+
+
 
 s72-pricing-buttons, s72-play-button {
   .s72-btn {
@@ -340,6 +340,17 @@ s72-pricing-buttons, s72-play-button {
       margin-bottom: 15px;
       width: 100%;
     }
+  }
+}
+
+/* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
+.meta-detail-bonus-content,
+.meta-detail-episodes-content {
+  h2,
+  h4 {
+    align-self: stretch;
+    font-size: 14px;
+    font-weight: $font-weight-bold;
   }
 
   .s72-btn {
@@ -621,4 +632,18 @@ s72-pricing-buttons, s72-play-button {
 
 .s72-playback-progress, .s72-playback-progress {
   height: 6px;
+}
+
+s72-element-switcher {
+  margin-bottom: 50px;
+}
+
+.meta-detail-info {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

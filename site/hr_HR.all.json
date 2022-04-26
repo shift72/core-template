@@ -135,16 +135,16 @@
     "other": "Udio"
   },
   "social_media_buttons_facebook": {
-    "other": "Podijeli na Facebooku"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Podijelite na Twitteru"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Podijelite na Linkedinu"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Podijelite putem e-pošte"
+    "other": "E-mail"
   },
   "social_media_buttons_email_subject": {
     "other": "Dijeljenje veze"
@@ -1242,5 +1242,41 @@
   },
   "user_error_too_many_pin_errors_help_page_link": {
     "other": ""
+  },
+  "usersubscriptions_page_header": {
+    "other": "Pretplate i naplata"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Način plaćanja"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Promjene vašeg načina plaćanja kreditnom karticom stupit će na snagu u vašem sljedećem ciklusu naplate."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Pojedinosti o pretplati"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktivan"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Istekao"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Otkrijte pretplate"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Otkrijte sjajan sadržaj po odličnim cijenama, kojima se ovdje lako upravlja."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Istražite pretplate"
+  },
+  "nav_subscriptions": {
+    "other": "Moje pretplate"
   }
 }

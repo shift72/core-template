@@ -162,6 +162,13 @@
   }
 }
 
+.s72-btn.s72-btn-unsubscribe,
+.s72-btn.s72-btn-updatecreditcard {
+  @extend .btn-secondary;
+}
+
+.s72-btn.s72-btn-explore-subs { @extend .btn-primary; }
+
 .btn-wishlist {
   p {
     margin: 0;

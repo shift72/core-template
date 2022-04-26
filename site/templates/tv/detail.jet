@@ -46,23 +46,36 @@
               {{yield socialMediaButtons(path=currentUrlPath)}}
             </div>
           </div>
-          <div class="meta-detail-synopsis">{{tvseason.Overview | raw}}</div>
-          <div class="meta-detail-cast">{{if len(tvseason.Cast) > 0 }}
-            <h2>{{i18n("meta_detail_cast_title")}}</h2>
-            <p>
-              {{range index, member := tvseason.Cast}}
-                {{ path := "/search.html?q=" + member.Name }}
-                <a href="{{ routeToPath(path) }}">{{member.Name}}</a>{{if index < len(tvseason.Cast) - 1}}, {{end}}
-              {{end}}
-            </p>
-          {{end}}</div>
-          <div class="meta-detail-crew d-flex">{{range index, member := tvseason.Crew}}
-              <div class="crew-member">
-                <h2>{{member.Job}}</h2>
-                {{ path := "/search.html?q=" + member.Name }}
-                <a href="{{ routeToPath(path) }}"">{{member.Name}}</a>
+          <s72-element-switcher>
+            {{if isEnabled("element_switcher_enabled")}}
+              <div class="meta-detail-switcher-tagline">
+                <p>{{tvseason.Tagline}}</p>
               </div>
-   {{end}}</div>
+            {{end}}
+            <div class="{{ isEnabled("element_switcher_enabled") ? "s72-hide" : "" }}"> {* hide class prevents FOUC *}
+              <div class="meta-detail-synopsis">{{tvseason.Overview | raw}}</div>
+              <div class="meta-detail-info">
+                {{if len(tvseason.Cast) > 0 }}
+                  <div class="meta-detail-cast">
+                    <h2>{{i18n("meta_detail_cast_title")}}</h2>
+                    <p>
+                      {{range index, member := tvseason.Cast}}
+                        {{ path := "/search.html?q=" + member.Name }}
+                        <a href="{{ routeToPath(path) }}">{{member.Name}}</a>{{if index < len(tvseason.Cast) - 1}}, {{end}}
+                      {{end}}
+                    </p>
+                  </div>
+                {{end}}
+                {{range index, member := tvseason.Crew}}
+                  <div class="meta-detail-crew">
+                    <h2>{{member.Job}}</h2>
+                    {{ path := "/search.html?q=" + member.Name }}
+                    <a href="{{ routeToPath(path) }}"">{{member.Name}}</a>
+                  </div>
+                {{end}}
+              </div>
+            </div>
+          </s72-element-switcher>
 
           {{if len(tvseason.Episodes) > 0}}
             <div class="meta-detail-episodes-content">
