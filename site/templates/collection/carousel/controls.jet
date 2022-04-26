@@ -1,4 +1,0 @@
-{{block carouselControls()}}
-  <a class="left s72-carousel-control"><span class="fa fa-angle-left"></span></a>
-	<a class="right s72-carousel-control"><span class="fa fa-angle-right"></span></a>
-{{end}}

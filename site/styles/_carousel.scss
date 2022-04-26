@@ -9,9 +9,13 @@ s72-carousel {
 .s72-carousel-slides {
   background: $carousel-bg-color;
   height: var(--carousel-height) !important;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   overflow: hidden;
   width: 100%;
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 40px;
+  }
+  
 
   @include media-breakpoint-up(lg) {
     height: var(--carousel-height-lg) !important;
@@ -260,58 +264,25 @@ s72-carousel {
 }
 
 .s72-carousel-pagination {
-  display: none;
+  display: flex;
   justify-content: center;
-
-  @include media-breakpoint-up(sm) {
-    display: flex;
-  }
+  padding: 0 16px;
 }
 
 .s72-carousel-page {
   background: none;
   border: 0;
   padding: 10px 4px;
+  width: 100%;
+  max-width: 60px;
 
   .s72-carousel-line {
     background-color: rgba(var(--body-color-rgb), 0.2);
     border-radius: 6px;
     height: 6px;
-    width: 47px;
   }
 
   &.current .s72-carousel-line {
     background-color: var(--primary);
-  }
-}
-
-.s72-carousel-control {
-  display: flex;
-  flex-direction: column;
-  height: 60px;
-  justify-content: center;
-  top: auto;
-  width: 50px;
-  z-index: 6;
-
-  @include media-breakpoint-up(sm) {
-    display: none;
-  }
-
-  &.left {
-    left: 0;
-  }
-
-  &.right {
-    right: 0;
-  }
-
-  &:hover {
-    text-decoration: none;
-  }
-
-  span {
-    font-size: 32px;
-    text-align: center;
   }
 }

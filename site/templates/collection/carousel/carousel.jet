@@ -31,7 +31,6 @@
 
 				{{yield carouselPagination(items=items)}}
 
-				{{yield carouselControls()}}
 			</section>
 		</s72-carousel>
 	{{end}}
