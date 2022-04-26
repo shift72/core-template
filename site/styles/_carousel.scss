@@ -17,6 +17,10 @@ s72-carousel {
     height: var(--carousel-height-md) !important;
   }
 
+  .s72-subscription-trial-period{
+    display: block;
+  }
+
   s72-image {
     float: right;
     height: var(--carousel-height);
@@ -378,3 +382,4 @@ s72-carousel {
     width: 100%;
   }
 }
+
