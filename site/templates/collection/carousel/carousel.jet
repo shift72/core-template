@@ -1,6 +1,5 @@
 {{import "./item.jet"}}
 {{import "./pagination.jet"}}
-{{import "./controls.jet"}}
 
 {{block carousel()}}
 	{{maxSlides := 7}}
