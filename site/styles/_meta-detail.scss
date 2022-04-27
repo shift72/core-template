@@ -147,6 +147,12 @@
       width: 208px;
     }
   }
+
+  .poster-wrapper .sponsor {
+    @media (min-width: 1200px) {
+      display: none;
+    }
+  }
 }
 
 s72-element-switcher,
@@ -620,11 +626,5 @@ s72-element-switcher {
 
   @include media-breakpoint-up(lg) {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.poster-wrapper .sponsor {
-  @media (min-width: 1200px) {
-    display: none;
   }
 }
