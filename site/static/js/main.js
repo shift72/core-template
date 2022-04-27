@@ -463,6 +463,7 @@ function documentReady(app) {
   initializeWishlist();
 
   app.classificationsService.load('/classifications.all.json');
+  app.urlmapService.load('/urlmap.json');
 
   detectTouchscreen();
 
