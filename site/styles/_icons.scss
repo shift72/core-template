@@ -157,7 +157,7 @@
   content: '\e01c';
 }
 
-.fa-warning::before {
+.fa-warning::before, .fa-exclamation-circle::before, .fa-exclamation-triangle::before {
   content: '\e01b';
 }
 
