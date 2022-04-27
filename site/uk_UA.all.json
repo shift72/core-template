@@ -1314,5 +1314,20 @@
   },
   "nav_subscriptions": {
     "other": "Мої підписки"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Перший платіж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Наступний платіж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Закінчується {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Завершено {{ .Expiry }} закінчився"
   }
 }

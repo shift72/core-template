@@ -1286,5 +1286,20 @@
   },
   "nav_subscriptions": {
     "other": "Mine abonnementer"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Første betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Neste betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Forfaller betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Slutter {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Avsluttet {{ .Expiry }}"
   }
 }

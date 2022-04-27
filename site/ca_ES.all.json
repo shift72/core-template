@@ -1295,5 +1295,20 @@
   },
   "nav_subscriptions": {
     "other": "Les meves subscripcions"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Primer pagament {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Pròxim pagament {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Pagament vençut {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Finalitza {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Finalitzat {{ .Expiry }}"
   }
 }

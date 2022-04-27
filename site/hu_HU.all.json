@@ -1295,5 +1295,20 @@
   },
   "nav_subscriptions": {
     "other": "a Feliratkozásaim"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Első fizetés {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Következő fizetés {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Fizetési esedékesség {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Vége {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Befejeződött {{ .Expiry }}"
   }
 }

@@ -1286,5 +1286,20 @@
   },
   "nav_subscriptions": {
     "other": "Моје претплате"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Прва уплата {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Следећа уплата {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Рок за плаћање {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Завршава {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Ендед {{ .Expiry }}"
   }
 }

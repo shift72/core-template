@@ -1295,5 +1295,20 @@
   },
   "nav_subscriptions": {
     "other": "Minu tellimused"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Esimene makse {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Järgmine makse {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Maksetähtaeg {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Lõpeb {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Lõppenud {{ .Expiry }}"
   }
 }

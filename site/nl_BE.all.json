@@ -1286,5 +1286,20 @@
   },
   "nav_subscriptions": {
     "other": "mijn abonnementen"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Eerste betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Volgende betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Betaling verschuldigd {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Eindigt {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Beëindigd {{ .Expiry }}"
   }
 }

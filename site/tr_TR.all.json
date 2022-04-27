@@ -1286,5 +1286,20 @@
   },
   "nav_subscriptions": {
     "other": "aboneliklerim"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "İlk ödeme {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Sonraki {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Ödeme vadesi {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Sona {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Sona {{ .Expiry }}"
   }
 }

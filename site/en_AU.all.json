@@ -1059,6 +1059,21 @@
   "usersubscriptions_subscription_expiry": {
     "other": "Expires {{.Expiry}}"
   },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "First payment {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Next payment {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Payment due {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Ends {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Ended {{.Expiry}}"
+  },
   "usersubscriptions_no_subscriptions_section_title": {
     "other": "Discover Subscriptions"
   },

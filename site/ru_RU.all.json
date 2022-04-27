@@ -1308,5 +1308,20 @@
   },
   "nav_subscriptions": {
     "other": "Мои подписки"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Первый платеж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Следующий платеж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Причитающийся платеж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Заканчивается {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Завершено {{ .Expiry }}"
   }
 }
