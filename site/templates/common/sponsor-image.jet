@@ -8,7 +8,7 @@
 
     <div class="sponsor">
       {{if sponsorText}}
-        <span>{{sponsorText}}</span>
+        <div>{{sponsorText}}</div>
       {{end}}
       {{if sponsorLink}}<a href="{{sponsorLink}}" {{if sponsorLinkIsExternal}} target="_blank" {{end}}>{{end}}
         <s72-image src="{{sponsorImage}}" alt="{{ i18n("sponsor_image_alt") }}" ></s72-image>

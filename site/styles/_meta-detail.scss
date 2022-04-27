@@ -597,15 +597,13 @@ s72-element-switcher,
   .sponsor {
     display: none;
     @include media-breakpoint-up(xl) {
-      display: flex;
+      display: block;
     }
     padding-top: 10px;
   }
 }
 
 .sponsor {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 25px;
   max-width: 250px;
 }
