@@ -149,7 +149,7 @@
   }
 
   .poster-wrapper .sponsor {
-    @media (min-width: 1200px) {
+    @include media-breakpoint-up(xl) {
       display: none;
     }
   }
