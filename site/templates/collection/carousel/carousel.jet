@@ -1,0 +1,36 @@
+{{import "./item.jet"}}
+{{import "./pagination.jet"}}
+
+{{block carousel()}}
+	{{maxSlides := 7}}
+	{{numSlides := len(.Items)}}
+
+	{*{ Allows max number of slides to be overridden with a config. }*}
+	{{configuredMaxSlides := configInt("carousel_max_slides", -1)}}
+	{{if configuredMaxSlides > -1}}
+		{{maxSlides = configuredMaxSlides}}
+	{{end}}
+
+	{*{ Makes sure max number of slides isn't greater than length of collection. }*}
+	{{if numSlides < maxSlides}}
+		{{maxSlides = numSlides}}
+	{{end}}
+	{{items := .Items[0:maxSlides]}}
+
+	{{if len(items) > 0}}
+		<s72-carousel>
+			<section class="page-collection page-collection-carousel" aria-label="{{i18n("wcag_aria_label_carousel")}}">
+				<h2 class="sr-only">{{i18n("wcag_carousel_h2")}}</h2>
+
+				<div class="s72-carousel-slides">
+					{{range index, item := items}}
+						{{yield carouselItem(item=item)}}
+					{{end}}
+				</div>
+
+				{{yield carouselPagination(items=items)}}
+
+			</section>
+		</s72-carousel>
+	{{end}}
+{{end}}

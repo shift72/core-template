@@ -36,6 +36,7 @@
 ### Fixed
 - Can now override the cookie consent styling.
 - Can now send analytics data to both GA4 and UA Legacy google analytics (GA4 previously not supported)
+- Carousel keyboard control.
 
 ## [0.4.4](https://github.com/shift72/core-template/compare/0.4.3...0.4.4)
 ### Fixed

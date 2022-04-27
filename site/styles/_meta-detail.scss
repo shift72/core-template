@@ -10,7 +10,6 @@
 
 .meta-detail {
   padding-bottom: 0;
-  position: relative;
 
   > .container {
     padding-left: 0;
@@ -119,17 +118,16 @@
 
 .meta-detail-main {
   @extend .d-flex;
+
   flex-direction: column;
-  padding: var(--page-detail-padding-top) 20px 0 20px;
+  padding: 0 20px;
+
   @include media-breakpoint-up(md) {
     flex-direction: row;
-    padding-bottom: 0;
-    padding-top: var(--page-detail-padding-top-md);
   }
+
   @include media-breakpoint-up(lg) {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: var(--page-detail-padding-top-lg);
+    padding: 0 50px;
   }
 
   .poster {
@@ -478,18 +476,10 @@
 
   .meta-detail-main {
     flex-direction: column;
-    padding-top: var(--page-detail-padding-top);
-
-    @include media-breakpoint-up(md) {
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: var(--page-detail-padding-top-md);
-    }
+    padding: 0 20px;
 
     @include media-breakpoint-up(lg) {
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: var(--page-detail-padding-top-lg);
+      padding: 0 50px;
     }
   }
 
