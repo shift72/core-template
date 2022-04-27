@@ -121,6 +121,8 @@
   @extend .d-flex;
   flex-direction: column;
   padding: var(--page-detail-padding-top) 20px 0 20px;
+  gap: 0 20px;
+
   @include media-breakpoint-up(md) {
     flex-direction: row;
     padding-bottom: 0;
@@ -144,10 +146,6 @@
     @include media-breakpoint-up(md) {
       width: 208px;
     }
-  }
-
-  > .poster-wrapper {
-    margin-right: 20px;
   }
 }
 
