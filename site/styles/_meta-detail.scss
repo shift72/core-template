@@ -592,6 +592,7 @@ s72-element-switcher,
   width: 100%;
   display: flex;
   justify-content: space-between;
+  gap: 50px;
 
   .sponsor {
     display: none;
@@ -599,7 +600,6 @@ s72-element-switcher,
       display: flex;
     }
     padding-top: 10px;
-    margin-left: 50px;
   }
 }
 
