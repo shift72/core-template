@@ -980,7 +980,7 @@
     "other": "Atšaukti prenumeratą?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Taip bus atšaukta {{.Name}} prenumerata. Vis tiek galėsite žiūrėti turinį, kol baigsis {{.Galiojimo laikas}}."
+    "other": "Taip bus atšaukta {{.Name}} prenumerata. Vis tiek galėsite žiūrėti turinį, kol baigsis {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Jau greitai"

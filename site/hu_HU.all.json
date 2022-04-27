@@ -938,7 +938,7 @@
     "other": "Feliratkozás visszavonása?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Ezzel törli a(z) {{.Name}} előfizetését. Továbbra is megtekintheti a tartalmat, amíg le nem jár {{.Lejárat}}."
+    "other": "Ezzel törli a(z) {{.Name}} előfizetését. Továbbra is megtekintheti a tartalmat, amíg le nem jár {{.Expiry}}."
   },
   "shopping_card_update_reason_none": {
     "other": "Frissítse hitelkártyáját. A támogatott kártyák a Visa, Mastercard és az American Express."
