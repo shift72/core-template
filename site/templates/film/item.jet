@@ -20,10 +20,10 @@
 
 {{block body()}}
 
-{{sponsorText := film.CustomFields.GetString("sponsor_image_text_film", "")}}
-{{sponsorLink := film.CustomFields.GetString("sponsor_image_link_film", "")}}
-{{sponsorLinkIsExternal := film.CustomFields.GetBool("sponsor_image_link_external_film", false)}}
-{{sponsorImage := film.ImageMap["Sponsor"]}}
+  {{sponsorText := film.CustomFields.GetString("sponsor_image_text_film", "")}}
+  {{sponsorLink := film.CustomFields.GetString("sponsor_image_link_film", "")}}
+  {{sponsorLinkIsExternal := film.CustomFields.GetBool("sponsor_image_link_external_film", false)}}
+  {{sponsorImage := film.ImageMap["Sponsor"]}}
 
   <main id="main" class="page page-film meta-detail meta-detail-film">
     <div class="meta-detail-bg">
