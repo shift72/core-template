@@ -175,8 +175,7 @@
                 {{end}}
               {{end}}
             </section>
-          </div>
-        {{end}}
+          {{end}}
         </div>
       </div>
     </div>

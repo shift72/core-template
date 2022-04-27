@@ -106,8 +106,6 @@
           {{end}}
         </div>
       </div>
-        </div>
-      </div>
     </div>
     {{if len(tvseason.Recommendations) > 0 }}
       <section class="page-collection recommendations-collection" aria-label="{{i18n("meta_detail_recommendations_title")}}">
