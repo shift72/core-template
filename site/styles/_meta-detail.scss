@@ -276,7 +276,6 @@
   .meta-detail-studio,
   .meta-detail-country,
   .meta-detail-subtitle {
-
     h2,
     h3,
     h4 {
@@ -582,8 +581,8 @@ s72-element-switcher {
 
 .meta-detail-info {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
 
   @include media-breakpoint-up(lg) {
     grid-template-columns: repeat(2, 1fr);
