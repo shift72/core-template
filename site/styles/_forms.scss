@@ -155,11 +155,16 @@ s72-activatedevice-form,
 
 .s72-modal-container {
   .s72-buttons {
+
+    .fa-ellipsis-v {
+      opacity: 0.7;
+    }
+
     .s72-btn {
-      color: $button-text-color;
+      color: var(--body-color);
 
       &:hover {
-        color: $button-text-color-hover;
+        color: var(--body-color);
       }
     }
   }
