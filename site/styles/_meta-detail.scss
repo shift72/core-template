@@ -120,8 +120,8 @@
 .meta-detail-main {
   @extend .d-flex;
   flex-direction: column;
-  padding: var(--page-detail-padding-top) 20px 0 20px;
   gap: 0 20px;
+  padding: var(--page-detail-padding-top) 20px 0 20px;
 
   @include media-breakpoint-up(md) {
     flex-direction: row;
@@ -288,7 +288,6 @@ s72-element-switcher,
   .meta-detail-studio,
   .meta-detail-country,
   .meta-detail-subtitle {
-
     h2,
     h3,
     h4 {
@@ -589,17 +588,17 @@ s72-element-switcher,
 }
 
 .element-switcher-wrapper {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
   gap: 50px;
+  justify-content: space-between;
+  width: 100%;
 
   .sponsor {
     display: none;
+    padding-top: 10px;
     @include media-breakpoint-up(xl) {
       display: block;
     }
-    padding-top: 10px;
   }
 }
 
@@ -619,8 +618,8 @@ s72-element-switcher {
 
 .meta-detail-info {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
 
   @include media-breakpoint-up(lg) {
     grid-template-columns: repeat(2, 1fr);
