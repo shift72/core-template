@@ -405,6 +405,7 @@
     top: 50%;
     transform: translateY(-50%);
     width: 32px;
+    line-height: 0;
 
     @include media-breakpoint-up(lg) {
       right: 5px;
