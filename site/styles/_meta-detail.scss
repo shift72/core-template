@@ -595,7 +595,7 @@ s72-element-switcher,
 
   .sponsor {
     display: none;
-    @media (min-width: 1200px) {
+    @include media-breakpoint-up(xl) {
       display: flex;
     }
     padding-top: 10px;
