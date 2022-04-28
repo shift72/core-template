@@ -160,11 +160,11 @@ s72-activatedevice-form,
       opacity: 0.7;
     }
 
-    .s72-btn {
-      color: var(--body-color);
+    .s72-btn:not(.s72-btn-show-saved-cards) {
+      color: $button-text-color;
 
       &:hover {
-        color: var(--body-color);
+        color: $button-text-color;
       }
     }
   }
