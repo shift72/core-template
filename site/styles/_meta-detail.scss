@@ -482,19 +482,20 @@
     border-radius: $poster-border-radius;
   }
   .s72-btn-play {
-    border: 0 !important;
+    border: 0;
     border-radius: 999px;
-    background-color: unset!important;
-    box-shadow: none!important;
+    background-color: unset;
+    box-shadow: none;
 
     .s72-icon-play circle {
       stroke: unset;
     }
     circle {
-      fill: rgba(0, 0, 0, 0.8);
+      fill: rgba(0, 0, 0, 0.8)!important;
     }
     path {
-      fill: white;
+      fill: white!important;
+      stroke: white!important;
     }
   }
 }
