@@ -112,7 +112,7 @@
               &:nth-child(2), &:nth-child(3) {
                 margin-left: 0;
                 margin-top: 10px;
-              }
+              }           
             }
           }
 
@@ -241,6 +241,11 @@
             }
           }
         }
+      }
+      
+      .s72-subscribe-trial-label{
+        display: none;
+        font-size: 1rem;
       }
     }
 

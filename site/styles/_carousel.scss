@@ -193,6 +193,7 @@ s72-carousel {
     }
 
     // Remove unwanted margins from stuff.
+    .s72-btn-subscribe,
     .s72-btn-purchase,
     .s72-btn-rent,
     .s72-btn-trailer .s72-btn-trailer,
@@ -238,6 +239,14 @@ s72-carousel {
         display: flex;
         flex-wrap: wrap;
         gap: 16px;
+      }
+
+      .s72-btn-subscribe{
+        flex-grow: 1;
+
+        @include media-breakpoint-down(sm) {
+          flex-basis: 100%
+        }
       }
 
       .s72-btn-purchase,

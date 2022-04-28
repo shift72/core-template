@@ -23,6 +23,10 @@
   @extend .btn-primary-override;
 }
 
+.s72-btn-subscribe {
+  @extend .btn-primary-override;
+}
+
 .s72-btn-close {
   @extend .close;
 }
@@ -335,4 +339,15 @@ s72-cant-be-watched {
 .s72-view-all-passes {
   @extend .py-4;
   background-color: var(--body-bg-accent);
+}
+
+.s72-subscribe-trial-label{
+  display:  block;
+  font-size: 12px;
+  margin-left: 10px;
+  min-width: 140px;
+  
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
 }
