@@ -310,19 +310,6 @@
   }
 }
 
-/* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
-.meta-detail-bonus-content,
-.meta-detail-episodes-content {
-  h2,
-  h4 {
-    align-self: stretch;
-    font-size: 14px;
-    font-weight: $font-weight-bold;
-  }
-
-}
-/* stylelint-enable selector-max-compound-selectors, max-nesting-depth */
-
 .recommendations-collection {
   padding-top: 20px;
   @include media-breakpoint-up(md) {
@@ -477,6 +464,15 @@
 .meta-detail-episodes-content,
 .meta-detail-bonus-content {
   margin-bottom: 40px;
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 22px;
+    }
+  }
 
   .poster {
     border-radius: $poster-border-radius;
