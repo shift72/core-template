@@ -114,10 +114,9 @@ s72-carousel {
       color: var(--body-color);
       font-size: 28px;
       font-weight: $font-weight-normal;
-      margin-bottom: 0;
       max-width: 930px;
       padding-bottom: 0;
-      padding-bottom: 8px;
+      margin-bottom: 8px;
 
       @include media-breakpoint-up(md) {
         font-size: 38px;
@@ -165,8 +164,8 @@ s72-carousel {
       display: none;
       font-size: 16px;
       font-weight: $font-weight-normal;
+      margin-bottom: 8px;
       max-width: 600px;
-      padding-bottom: 22px;
       padding-top: 0;
 
       @include media-breakpoint-up(xs) {
@@ -181,7 +180,7 @@ s72-carousel {
 
   .meta-item-buttons {
     gap: 20px 16px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 
     .meta-item-extras {
       display: flex;
