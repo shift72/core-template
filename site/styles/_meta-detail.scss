@@ -320,7 +320,6 @@
     font-weight: $font-weight-bold;
   }
 
- 
 }
 /* stylelint-enable selector-max-compound-selectors, max-nesting-depth */
 
@@ -478,9 +477,11 @@
 .meta-detail-episodes-content,
 .meta-detail-bonus-content {
   margin-bottom: 40px;
+
   .poster {
     border-radius: $poster-border-radius;
   }
+
   .s72-btn-play {
     border: 0;
     border-radius: 999px;
@@ -515,15 +516,8 @@
   }
 }
 
-.bonus-item, .episode-item {
-  display: table;
-  width: 100%;
-}
-
 .bonus,
 .episode {
-  display: block;
-
   .caption {
     flex-direction: column;
   }
@@ -531,7 +525,6 @@
   .synopsis {
     margin-top: 5px;
     margin-bottom: 10px;
-    width: 100%;
     line-height: 1.25;
     font-size: 16px;
     letter-spacing: 0.6px;
@@ -548,6 +541,7 @@
     margin-left: 112px;
     padding-left: 15px;
   }
+
   .runtime {
     font-size: 14px;
     padding-left: 15px;
