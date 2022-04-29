@@ -9,6 +9,10 @@
   .s72-icon {
     margin-left: 0.3em;
   }
+
+  &:focus:not(:focus-visible) {
+    box-shadow: none;
+  }
 }
 
 // exists once in <s72-searchresults/>
