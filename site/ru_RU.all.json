@@ -1308,5 +1308,8 @@
   },
   "nav_subscriptions": {
     "other": "Мои подписки"
+  },
+  "sponsor_image_alt": {
+    "other": "логотип спонсора"
   }
 }

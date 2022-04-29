@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "mis Suscripciónes"
+  },
+  "sponsor_image_alt": {
+    "other": "logotipo del patrocinador"
   }
 }

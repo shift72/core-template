@@ -1295,5 +1295,8 @@
   },
   "nav_subscriptions": {
     "other": "Meine Abonnements"
+  },
+  "sponsor_image_alt": {
+    "other": "Sponsorenlogo"
   }
 }

@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "我的订阅"
+  },
+  "sponsor_image_alt": {
+    "other": "赞助商标志"
   }
 }

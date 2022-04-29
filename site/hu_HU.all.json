@@ -1295,5 +1295,8 @@
   },
   "nav_subscriptions": {
     "other": "a Feliratkozásaim"
+  },
+  "sponsor_image_alt": {
+    "other": "szponzor logó"
   }
 }

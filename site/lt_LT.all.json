@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "Mano prenumeratos"
+  },
+  "sponsor_image_alt": {
+    "other": "rėmėjo logotipas"
   }
 }
