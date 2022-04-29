@@ -205,7 +205,9 @@
   @extend .btn-secondary;
 }
 
-.s72-btn.s72-btn-explore-subs { @extend .btn-primary; }
+.s72-btn.s72-btn-explore-subs {
+  @extend .btn-primary;
+}
 
 .btn-wishlist {
   p {
