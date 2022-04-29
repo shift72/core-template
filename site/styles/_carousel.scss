@@ -4,21 +4,26 @@ s72-carousel {
   position: absolute;
   top: 0;
   width: 100%;
+  height: var(--carousel-height) !important;
+  @include media-breakpoint-up(lg) {
+    height: var(--carousel-height-lg) !important;
+  }
+}
+
+.page-collection-carousel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .s72-carousel-slides {
   background: $carousel-bg-color;
-  height: var(--carousel-height) !important;
+  height: 100% !important;
   margin-bottom: 10px;
   overflow: hidden;
   width: 100%;
   @include media-breakpoint-up(sm) {
     margin-bottom: 40px;
-  }
-  
-
-  @include media-breakpoint-up(lg) {
-    height: var(--carousel-height-lg) !important;
   }
 
   s72-image {
@@ -147,11 +152,7 @@ s72-carousel {
 
     .meta-item-tagline-and-classification {
       display: flex;
-      margin-bottom: 22px;
-
-      @include media-breakpoint-up(md) {
-        margin-bottom: 8px;
-      }
+      margin-bottom: 8px;
     }
 
     .meta-item-tagline {
