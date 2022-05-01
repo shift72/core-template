@@ -484,15 +484,18 @@
     background-color: unset;
     box-shadow: none;
 
+    /* stylelint-disable selector-max-compound-selectors */
     .s72-icon-play circle {
       stroke: unset;
     }
+    /* stylelint-enable selector-max-compound-selectors */
+
     circle {
       fill: rgba(0, 0, 0, 0.8)!important;
     }
     path {
-      fill: white!important;
-      stroke: white!important;
+      fill: #fff!important;
+      stroke: #fff!important;
     }
   }
 }
@@ -561,9 +564,12 @@
       top: 50%;
       transform: translateX(-50%) translateY(-50%);
       z-index: 2;
+
+      /* stylelint-disable selector-max-compound-selectors */
       .verb {
         display: none;
       }
+      /* stylelint-enable selector-max-compound-selectors */
     }
   }
 
