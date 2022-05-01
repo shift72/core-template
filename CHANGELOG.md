@@ -10,6 +10,7 @@
 - Lots of minor styling tweaks around availability labels and status.
 - Reworded & translated element switcher controls.
 - Reworded the share modal text.
+- Removed suffixed `plan` from subscription translations.
 
 ## [0.5.1](https://github.com/shift72/core-template/compare/0.5.0...0.5.1)
 
