@@ -1,25 +1,21 @@
+$homepage-slider-padding: 20px;
+$homepage-slider-padding-sm: 20px;
+$homepage-slider-padding-lg: 20px;
+
+.other-sliders {
+  padding-top: 0;
+}
+
+// These calculations are needed because the carousel breaks the page flow. The top padding is 
+// calculated by subracting the height of the navigation from the carousel height.
 s72-carousel + .other-sliders {
-  padding-top: calc(var(--carousel-height) - 40px);
+  padding-top: calc(var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 50px + $homepage-slider-padding);
 
   @include media-breakpoint-up(sm) {
-    padding-top: calc(var(--carousel-height) + 10px);
+    padding-top: calc(var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 50px + $homepage-slider-padding-sm);
   }
 
   @include media-breakpoint-up(lg) {
-    padding-top: calc(var(--carousel-height-lg) - 40px);
+    padding-top: calc(var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 60px + $homepage-slider-padding-lg);
   }
 }
-
-/*
-s72-carousel + .other-sliders {
-  padding-top: calc(var(--carousel-height) - 40px);
-
-  @include media-breakpoint-up(sm) {
-    padding-top: calc(var(--carousel-height) + 10px);
-  }
-
-  @include media-breakpoint-up(lg) {
-    padding-top: calc(var(--carousel-height-lg) - 40px);
-  }
-}
-*/
