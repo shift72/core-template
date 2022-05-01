@@ -40,7 +40,8 @@ glob('./site/*.json', {}, (err, files) => {
         })
         .then(translated => {
           if (translated) {
-            const translatedValue = translated[0][0][0];
+            let translatedValue = '';
+            translated[0].forEach(each => translatedValue += each[0]);
             writeTranslationFile(translatedValue);
           }
         });
