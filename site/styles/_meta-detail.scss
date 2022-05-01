@@ -276,7 +276,6 @@
   .meta-detail-studio,
   .meta-detail-country,
   .meta-detail-subtitle {
-
     h2,
     h3,
     h4 {
@@ -479,9 +478,9 @@
   }
 
   .s72-btn-play {
+    background-color: unset;
     border: 0;
     border-radius: 999px;
-    background-color: unset;
     box-shadow: none;
 
     /* stylelint-disable selector-max-compound-selectors */
@@ -491,43 +490,45 @@
     /* stylelint-enable selector-max-compound-selectors */
 
     circle {
-      fill: rgba(0, 0, 0, 0.8)!important;
+      fill: rgba(0, 0, 0, 0.8) !important;
     }
     path {
-      fill: #fff!important;
-      stroke: #fff!important;
+      fill: #fff !important;
+      stroke: #fff !important;
     }
   }
 }
 
-.bonus-item, .episode-item  {
+.bonus-item,
+.episode-item {
+
+  @extend .clearfix;
   h3 {
     font-size: 16px;
     font-weight: $font-weight-normal;
     letter-spacing: 0.4px;
   }
 
-  @extend .clearfix;
-
   &:not(:last-of-type) {
-    margin-bottom: 15px;
     border-bottom: 1px solid $list-group-border-color;
+    margin-bottom: 15px;
   }
 }
 
 .bonus,
 .episode {
+
   .caption {
     flex-direction: column;
   }
 
   .synopsis {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    line-height: 1.25;
     font-size: 16px;
-    letter-spacing: 0.6px;
     font-weight: $font-weight-light;
+    letter-spacing: 0.6px;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    margin-top: 5px;
     p {
       margin-bottom: 0;
     }
@@ -536,25 +537,25 @@
   h3 {
     color: var(--body-color);
     margin-bottom: 0;
-    min-height: 42px;
     margin-left: 112px;
+    min-height: 42px;
     padding-left: 15px;
   }
 
   .runtime {
-    font-size: 14px;
-    padding-left: 15px;
-    margin-left: 112px;
-    display: block;
     @extend .clearfix;
+    display: block;
+    font-size: 14px;
     line-height: 30px;
+    margin-left: 112px;
+    padding-left: 15px;
   }
 
   .poster {
-    height: 100%;
-    width: 112px;
-    margin-bottom: 10px;
     float: left;
+    height: 100%;
+    margin-bottom: 10px;
+    width: 112px;
 
     .s72-btn-play {
       left: 50%;
@@ -578,9 +579,9 @@
       width: 175px;
     }
     .runtime {
+      margin-bottom: 10px;
       margin-left: 0;
       order: 1;
-      margin-bottom: 10px;
     }
 
     h3 {
@@ -605,8 +606,8 @@ s72-element-switcher {
 
 .meta-detail-info {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
 
   @include media-breakpoint-up(lg) {
     grid-template-columns: repeat(2, 1fr);
