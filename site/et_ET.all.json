@@ -938,7 +938,7 @@
     "other": "Kas tühistada tellimus?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "See tühistab paketi {{.Name}} tellimuse. Saate vaadata paketi sisu, kuni see aegub {{.Expiry}}."
+    "other": "See tühistab {{.Name}} tellimuse. Saate sisu endiselt vaadata, kuni see aegub {{.Expiry}}."
   },
   "shopping_card_update_reason_none": {
     "other": "Värskendage oma krediitkaarti. Toetatud kaardid on Visa, Mastercard ja American Express."

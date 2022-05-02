@@ -1105,7 +1105,7 @@
     "other": "Abonnement beenden?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Dadurch wird das Abonnement des Plans {{.Name}} gekündigt. Sie können den Inhalt des Plans weiterhin ansehen, bis er abläuft {{.Expiry}}."
+    "other": "Dadurch wird das Abonnement für {{.Name}} gekündigt. Sie können den Inhalt weiterhin ansehen, bis er abläuft {{.Expiry}}."
   },
   "wcag_skip_links_header": {
     "other": "Zugänglichkeitslinks"

@@ -1190,7 +1190,7 @@
     "other": "Otkazati pretplatu?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Time će se otkazati pretplata na plan {{.Name}}. I dalje ćete moći gledati sadržaj u planu dok ne istekne {{.Expiry}}."
+    "other": "Ovo će otkazati pretplatu na {{.Name}}. I dalje ćete moći gledati sadržaj dok ne istekne {{.Expiry}}."
   },
   "nav_homepage": {
     "other": "ABC Cinemas"

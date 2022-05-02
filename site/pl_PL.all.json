@@ -1160,7 +1160,7 @@
     "other": "Anuluj subskrypcje?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "To anuluje subskrypcję planu {{.Name}}. Nadal będziesz mógł oglądać zawartość planu do czasu jego wygaśnięcia {{.Expiry}}."
+    "other": "To anuluje subskrypcję {{.Name}}. Nadal będziesz mógł oglądać zawartość, dopóki nie wygaśnie {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "nie logowałeś się zbyt wiele razy. Spróbuj ponownie później."

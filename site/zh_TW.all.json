@@ -1013,7 +1013,7 @@
     "other": "取消訂閱？"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "這將取消訂閱 {{.Name}} 計劃. 您仍然能夠在計劃到期之前觀看計劃中的內容 {{.Expiry}}."
+    "other": "这将取消对 {{.Name}} 的订阅。在内容到期 {{.Expiry}} 之前，您仍然可以观看内容。"
   },
   "availability_coming_soon": {
     "other": "即將播映"
