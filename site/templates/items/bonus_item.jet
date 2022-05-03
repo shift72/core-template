@@ -1,21 +1,17 @@
 {{ block bonusItem(item) }}
-    <div class="bonus">
-      <div class="poster">
-        <s72-availability-status slug="{{item.Slug}}"></s72-availability-status>
-        <s72-image src="{{item.Images.Landscape}}" alt="" class="poster-image poster-image-landscape"></s72-image>
-        <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
-      </div>
-      <div class="caption">
-        <h3>{{item.Title}}</h3>
-        {{if item.Runtime > 0 }}
-          <span class="runtime">
-            {{if item.Runtime.Hours() > 0}}
-              {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
-            {{end}}
-            {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
-          </span>
-        {{end}}
-        <div class="synopsis">{{item.Overview | raw}}</div>
-      </div>
-    </div>
+  <div class="poster">
+    <s72-availability-status slug="{{item.Slug}}"></s72-availability-status>
+    <s72-image src="{{item.Images.Landscape}}" alt="" class="poster-image poster-image-landscape"></s72-image>
+    <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
+  </div>
+  <h3>{{item.Title}}</h3>
+  {{if item.Runtime > 0 }}
+    <span class="runtime">
+      {{if item.Runtime.Hours() > 0}}
+        {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
+      {{end}}
+      {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
+    </span>
+  {{end}}
+  <div class="synopsis">{{item.Overview | raw}}</div>
 {{ end }}

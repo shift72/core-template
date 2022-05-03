@@ -1,21 +1,17 @@
 {{block episodeCollectionItem(item)}}
-  <div class="episode">
-    <div class="poster">
-      <s72-availability-status data-slug="{{item.Slug}}"></s72-availability-status>
-      <s72-image src="{{item.Images.Landscape}}" alt="{{item.Title}}" class="poster-image poster-image-landscape" border="0"></s72-image>
-      <s72-play-button data-slug="{{item.Slug}}" data-title="{{item.Title}}" data-label="false"></s72-play-button>
-    </div>
-    <div class="caption">
-      <h3>{{item.Title}}</h3>
-      {{if item.Runtime > 0 }}
-        <span class="runtime">
-          {{if item.Runtime.Hours() > 0}}
-            {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
-          {{end}}
-          {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
-        </span>
-      {{end}}
-      <div class="synopsis">{{item.Overview | raw}}</div>
-    </div>
+  <div class="poster">
+    <s72-availability-status data-slug="{{item.Slug}}"></s72-availability-status>
+    <s72-image src="{{item.Images.Landscape}}" alt="{{item.Title}}" class="poster-image poster-image-landscape" border="0"></s72-image>
+    <s72-play-button data-slug="{{item.Slug}}" data-title="{{item.Title}}" data-label="false"></s72-play-button>
   </div>
+  <h3>{{item.Title}}</h3>
+  {{if item.Runtime > 0 }}
+    <span class="runtime">
+      {{if item.Runtime.Hours() > 0}}
+        {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
+      {{end}}
+      {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
+    </span>
+  {{end}}
+  <div class="synopsis">{{item.Overview | raw}}</div>
 {{end}}
