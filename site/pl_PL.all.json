@@ -1332,6 +1332,21 @@
   "nav_subscriptions": {
     "other": "moje subskrypcje"
   },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Pierwsza płatność {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Następna płatność {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "{{ .Expiry }} płatność. Termin ważności"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Kończy {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Zakończony {{ .Expiry }}"
+  },
   "sponsor_image_alt": {
     "other": "logo sponsora"
   }

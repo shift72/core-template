@@ -1296,6 +1296,21 @@
   "nav_subscriptions": {
     "other": "Mine abonnementer"
   },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Første betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Næste betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Forfalden betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Slutter {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Afsluttet {{ .Expiry }}"
+  },
   "sponsor_image_alt": {
     "other": "sponsor logo"
   }

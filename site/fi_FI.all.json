@@ -1287,6 +1287,21 @@
   "nav_subscriptions": {
     "other": "Omat tilaukset"
   },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Ensimmäinen maksu {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Seuraava maksu {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Maksu eräpäivänä {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Päättyy {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Päättynyt {{ .Expiry }}"
+  },
   "sponsor_image_alt": {
     "other": "sponsorin logo"
   }

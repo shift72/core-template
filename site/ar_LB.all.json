@@ -1296,6 +1296,21 @@
   "nav_subscriptions": {
     "other": "اشتراكاتي"
   },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "الدفعة {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "الدفعة {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "الدفع {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "{{ .Expiry }}"
+  },
   "sponsor_image_alt": {
     "other": "شعار الراعي"
   }

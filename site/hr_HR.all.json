@@ -1279,6 +1279,21 @@
   "nav_subscriptions": {
     "other": "Moje pretplate"
   },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Prva uplata {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Sljedeća uplata {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Rok za plaćanje {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Završava {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Završeno {{ .Expiry }}"
+  },
   "sponsor_image_alt": {
     "other": "logotip sponzora"
   }

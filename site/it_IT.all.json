@@ -1287,6 +1287,21 @@
   "nav_subscriptions": {
     "other": "le mie sottoscrizioni"
   },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Primo pagamento {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Prossimo pagamento {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Pagamento dovuto {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Termina {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Terminato {{ .Expiry }}"
+  },
   "sponsor_image_alt": {
     "other": "logo dello sponsor"
   }
