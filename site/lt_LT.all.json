@@ -980,7 +980,7 @@
     "other": "Atšaukti prenumeratą?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Taip bus atšaukta {{.Name}} plano prenumerata. Vis tiek galėsite žiūrėti plano turinį, kol baigsis {{.Expiry}}."
+    "other": "Taip bus atšaukta {{.Name}} prenumerata. Vis tiek galėsite žiūrėti turinį, kol baigsis {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Jau greitai"
@@ -1301,5 +1301,8 @@
   },
   "usersubscriptions_subscription_expiry_expired": {
     "other": "Baigėsi {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "rėmėjo logotipas"
   }
 }

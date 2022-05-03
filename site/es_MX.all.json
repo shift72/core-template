@@ -1118,7 +1118,7 @@
     "other": "¿Cancelar suscripción?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Esto cancelará la suscripción a la {{.Name}} plan. Aún podrá ver el contenido del plan hasta que caduque {{.Expiry}}."
+    "other": "Esto cancelará la suscripción a {{.Name}}. Aún podrá ver el contenido hasta que caduque {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "Ha fallado al iniciar sesión demasiadas veces. Por favor, inténtelo de nuevo más tarde."
@@ -1301,5 +1301,8 @@
   },
   "usersubscriptions_subscription_expiry_expired": {
     "other": "{{ .Expiry }} finalizada"
+  },
+  "sponsor_image_alt": {
+    "other": "logotipo del patrocinador"
   }
 }

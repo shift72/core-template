@@ -980,7 +980,7 @@
     "other": "Annuleer abonnement"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Hiermee wordt het abonnement op {{.Name}} maak plannen opgezegd. U kunt de inhoud van het abonnement nog steeds bekijken totdat deze verloopt {{.Expiry}}"
+    "other": "Hiermee wordt het abonnement op de {{.Name}} opgezegd. U kunt de inhoud nog steeds bekijken totdat deze verloopt {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Binnenkort"
@@ -1301,5 +1301,8 @@
   },
   "usersubscriptions_subscription_expiry_expired": {
     "other": "Beëindigd {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "sponsorlogo"
   }
 }

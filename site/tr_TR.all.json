@@ -929,7 +929,7 @@
     "other": "Aboneliği iptal et?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Bu, aboneliği iptal edecektir.{{.Name}} plan.Yine de plandaki içeriği sona erene kadar izleyebileceksiniz. {{.Expiry}}."
+    "other": "Bu, {{.Name}} aboneliğini iptal eder. {{.Expiry}} sona erene kadar içeriği izlemeye devam edebileceksiniz."
   },
   "shopping_card_update_reason_none": {
     "other": "Kredi kartınızı güncelleyin.Desteklenen kartlar Visa, MasterCard ve American Express'dir."
@@ -1301,5 +1301,8 @@
   },
   "usersubscriptions_subscription_expiry_expired": {
     "other": "Sona {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "sponsor logosu"
   }
 }

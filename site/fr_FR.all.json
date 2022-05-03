@@ -1141,7 +1141,7 @@
     "other": "Se désabonner?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Cela annulera l'abonnement au package {{.Name}}. Vous pourrez toujours regarder le contenu du paquet jusqu'à son expiration {{.Expiry}}. "
+    "other": "Cela annulera l'abonnement à {{.Name}}. Vous pourrez toujours regarder le contenu jusqu'à ce qu'il expire {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "Vous n'avez pas réussi à vous connecter trop de fois. Veuillez réessayer plus tard."
@@ -1301,5 +1301,8 @@
   },
   "usersubscriptions_subscription_expiry_expired": {
     "other": "Terminé {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logo du sponsor"
   }
 }

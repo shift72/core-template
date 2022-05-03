@@ -959,7 +959,7 @@
     "other": "Отменить подписку?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Это отменит подписку на{{.Name}} строить планы.Вы все равно сможете посмотреть контент в плане, пока он не истечет {{.Expiry}}."
+    "other": "Ово ће отказати претплату на {{.Name}}. И даље ћете моћи да гледате садржај док не истекне {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Ускоро"
@@ -1301,5 +1301,8 @@
   },
   "usersubscriptions_subscription_expiry_expired": {
     "other": "Ендед {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "логотип спонзора"
   }
 }

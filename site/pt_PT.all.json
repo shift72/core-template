@@ -923,7 +923,7 @@
     "other": "Cancelar assinatura?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Isso cancelará a assinatura do plano {{.Name}}. Você ainda poderá assistir ao conteúdo do plano até que expire {{.Expiry}}."
+    "other": "Isso cancelará a assinatura do {{.Name}}. Você ainda poderá assistir ao conteúdo até que expire {{.Expiry}}."
   },
   "shopping_card_update_reason_none": {
     "other": "Atualize seu cartão de crédito. Os cartões suportados são Visa, Mastercard e American Express"
@@ -1300,6 +1300,9 @@
     "other": "Termina {{ .Expiry }}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Terminado {{ .Expiry }}"
+    "other": "Terminado {{ .Expiry }}",
+  }
+  "sponsor_image_alt": {
+    "other": "logotipo do patrocinador"
   }
 }

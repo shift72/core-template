@@ -1022,7 +1022,7 @@
     "other": "Cancel·lar la subscripció?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Això cancel·larà la subscripció al pla {{.Name}}. Encara podreu veure el contingut del pla fins que caduqui {{.Expiry}}."
+    "other": "Això cancel·larà la subscripció a {{.Name}}. Encara podreu veure el contingut fins que caduqui {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Pròximament"
@@ -1310,5 +1310,8 @@
   },
   "usersubscriptions_subscription_expiry_expired": {
     "other": "Finalitzat {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logotip del patrocinador"
   }
 }

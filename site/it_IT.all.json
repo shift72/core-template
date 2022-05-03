@@ -1153,7 +1153,7 @@
     "other": "Annullare l'iscrizione?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Questo annullerà l'abbonamento al piano {{.Name}}. Potrai comunque guardare i contenuti del piano fino alla scadenza {{.Expiry}}."
+    "other": "Questo annullerà l'abbonamento a {{.Name}}. Potrai comunque guardare il contenuto fino alla scadenza {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "Non sei riuscito ad accedere troppe volte. Per favore riprova più tardi."
@@ -1301,5 +1301,8 @@
   },
   "usersubscriptions_subscription_expiry_expired": {
     "other": "Terminato {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logo dello sponsor"
   }
 }

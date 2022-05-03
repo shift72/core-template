@@ -1013,7 +1013,7 @@
     "other": "Cancelar assinatura?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Isso cancelará a assinatura do plano {{.Name}}. Você ainda poderá assistir ao conteúdo do plano até que expire {{.Expiry}}."
+    "other": "Isso cancelará a assinatura do {{.Name}}. Você ainda poderá assistir ao conteúdo até que expire {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Em breve"
@@ -1301,5 +1301,8 @@
   },
   "usersubscriptions_subscription_expiry_expired": {
     "other": "Terminado {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logotipo do patrocinador"
   }
 }

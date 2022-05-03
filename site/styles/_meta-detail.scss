@@ -120,7 +120,9 @@
 .meta-detail-main {
   @extend .d-flex;
   flex-direction: column;
+  gap: 0 20px;
   padding: var(--page-detail-padding-top) 20px 0 20px;
+
   @include media-breakpoint-up(md) {
     flex-direction: row;
     padding-bottom: 0;
@@ -146,18 +148,28 @@
     }
   }
 
-  > .poster {
-    margin-right: 20px;
+  .poster-wrapper .sponsor {
+    @include media-breakpoint-up(xl) {
+      display: none;
+    }
+  }
+}
+
+s72-element-switcher,
+.meta-detail-bonus-content,
+.meta-detail-episodes-content {
+  flex: 1 1 100%;
+
+  @include media-breakpoint-up(md) {
+    max-width: 563px;
+  }
+  @include media-breakpoint-up(xl) {
+    max-width: 1100px;
   }
 }
 
 .meta-detail-content {
-  @include media-breakpoint-up(md) {
-    width: 563px;
-  }
-  @include media-breakpoint-up(xl) {
-    width: 1100px;
-  }
+  width: 100%;
 
   h1 {
     animation: fadein 2s;
@@ -276,7 +288,6 @@
   .meta-detail-studio,
   .meta-detail-country,
   .meta-detail-subtitle {
-
     h2,
     h3,
     h4 {
@@ -576,14 +587,39 @@
   }
 }
 
+.element-switcher-wrapper {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  width: 100%;
+
+  .sponsor {
+    display: none;
+    padding-top: 10px;
+    @include media-breakpoint-up(xl) {
+      display: block;
+    }
+  }
+}
+
+.sponsor {
+  margin-bottom: 25px;
+  max-width: 250px;
+}
+
+.meta-detail-content .sponsor {
+  flex: 0 0 auto;
+  text-align: right;
+}
+
 s72-element-switcher {
   margin-bottom: 50px;
 }
 
 .meta-detail-info {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
 
   @include media-breakpoint-up(lg) {
     grid-template-columns: repeat(2, 1fr);
