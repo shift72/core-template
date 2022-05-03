@@ -1300,8 +1300,8 @@
     "other": "Termina {{ .Expiry }}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Terminado {{ .Expiry }}",
-  }
+    "other": "Terminado {{ .Expiry }}"
+  },
   "sponsor_image_alt": {
     "other": "logotipo do patrocinador"
   }
