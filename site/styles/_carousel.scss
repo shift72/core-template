@@ -88,7 +88,7 @@ s72-carousel {
   bottom: 0;
   // display: flex;
   left: 0;
-  padding: 400px 20px 1px; // This top padding controls the gradient height?!?!
+  padding: 220px 20px 1px; // This top padding controls the gradient height?!?!
   position: absolute;
   width: 100%;
   z-index: 999;
@@ -98,7 +98,7 @@ s72-carousel {
   }
 
   @include media-breakpoint-up(lg) {
-    padding: 400px 50px 1px;
+    padding: 220px 50px 1px;
   }
 
   .availability-bg {
@@ -226,10 +226,6 @@ s72-carousel {
     s72-pricing-buttons {
       width: 100%;
 
-      @include media-breakpoint-up(sm) {
-        width: unset;
-      }
-
       .s72-pricing-button-container {
         display: flex;
         flex-wrap: wrap;
@@ -239,6 +235,10 @@ s72-carousel {
       .s72-btn-purchase,
       .s72-btn-rent {
         flex-grow: 1;
+        @include media-breakpoint-up(sm) {
+          flex-grow: unset;
+          width: 140px;
+        }
       }
     }
 
