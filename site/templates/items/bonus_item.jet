@@ -15,5 +15,7 @@
       {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
     </span>
   {{end}}
-  <div class="synopsis">{{item.Overview | raw}}</div>
+  {{if item.Overview}}
+    <div class="synopsis">{{item.Overview | raw}}</div>
+  {{end}}
 {{ end }}
