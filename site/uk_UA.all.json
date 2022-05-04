@@ -1136,6 +1136,9 @@
   "shopping_enter_card_prompt_subscription": {
     "other": "Введіть дані своєї кредитної картки нижче, щоб розпочати підписку."
   },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Введіть дані своєї кредитної картки нижче, щоб розпочати свій план."
+  },
   "shopping_action_plan": {
     "other": "Завершено"
   },

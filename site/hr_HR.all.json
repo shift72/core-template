@@ -1094,6 +1094,9 @@
   "shopping_enter_card_prompt_subscription": {
     "other": "Unesite podatke svoje kreditne kartice ispod kako biste započeli svoju pretplatu."
   },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Unesite podatke svoje kreditne kartice ispod kako biste započeli svoj plan."
+  },
   "shopping_action_plan": {
     "other": "Dovršeno"
   },

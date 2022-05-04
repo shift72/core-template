@@ -899,6 +899,9 @@
   "shopping_enter_card_prompt_subscription": {
     "other": "Wprowadź poniżej dane karty kredytowej, aby rozpocząć subskrypcję."
   },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Wprowadź dane swojej karty kredytowej poniżej, aby rozpocząć swój plan."
+  },
   "shopping_action_plan": {
     "other": "Kompletny"
   },

@@ -1093,6 +1093,9 @@
   "shopping_enter_card_prompt_subscription": {
     "other": "Унесите податке о својој кредитној картици испод да бисте започели претплату."
   },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Унесите детаље своје кредитне картице испод да бисте започели свој план."
+  },
   "shopping_action_plan": {
     "other": "комплетан"
   },

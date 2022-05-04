@@ -1174,6 +1174,9 @@
   "shopping_enter_card_prompt_subscription": {
     "other": "أدخل تفاصيل بطاقة الائتمان الخاصة بك أدناه لبدء اشتراكك."
   },
+  "shopping_enter_card_prompt_plan": {
+    "other": "أدخل تفاصيل بطاقة الائتمان الخاصة بك أدناه لبدء خطتك."
+  },
   "shopping_action_plan": {
     "other": "مكتمل"
   },

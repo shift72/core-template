@@ -1024,6 +1024,9 @@
   "shopping_enter_card_prompt_subscription": {
     "other": "Tellimuse alustamiseks sisestage allpool oma krediitkaardi andmed."
   },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Plaani alustamiseks sisestage allpool oma krediitkaardi andmed."
+  },
   "shopping_action_plan": {
     "other": "Täielik"
   },

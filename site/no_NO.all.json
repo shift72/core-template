@@ -1012,6 +1012,9 @@
   "shopping_enter_card_prompt_subscription": {
     "other": "Skriv inn kredittkortopplysningene dine nedenfor for å starte abonnementet."
   },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Skriv inn kredittkortopplysningene dine nedenfor for å starte planen din."
+  },
   "shopping_action_plan": {
     "other": "Fullstendig"
   },

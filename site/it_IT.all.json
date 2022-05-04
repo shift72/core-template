@@ -922,6 +922,9 @@
   "shopping_enter_card_prompt_subscription": {
     "other": "Inserisci i dati della tua carta di credito qui sotto per iniziare il tuo abbonamento."
   },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Inserisci i dettagli della tua carta di credito qui sotto per iniziare il tuo piano."
+  },
   "shopping_action_plan": {
     "other": "Completare"
   },

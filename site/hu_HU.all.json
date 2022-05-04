@@ -1021,6 +1021,9 @@
   "shopping_enter_card_prompt_subscription": {
     "other": "Az előfizetés megkezdéséhez adja meg alább hitelkártyaadatait."
   },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Adja meg hitelkártya adatait alább a terv elindításához."
+  },
   "shopping_action_plan": {
     "other": "teljes"
   },

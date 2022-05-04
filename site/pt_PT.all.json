@@ -1006,6 +1006,9 @@
   "shopping_enter_card_prompt_subscription": {
     "other": "Insira os dados do seu cartão de crédito abaixo para iniciar a sua assinatura."
   },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Insira os dados do seu cartão de crédito abaixo para iniciar seu plano."
+  },
   "shopping_action_plan": {
     "other": "Completo"
   },

@@ -910,6 +910,9 @@
   "shopping_enter_card_prompt_subscription": {
     "other": "Entrez les détails de votre carte de crédit ci-dessous afin de commencer votre abonnement."
   },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Entrez les détails de votre carte de crédit ci-dessous afin de commencer votre plan."
+  },
   "shopping_action_plan": {
     "other": "Compléter"
   },

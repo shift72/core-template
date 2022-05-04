@@ -1018,6 +1018,9 @@
   "shopping_enter_card_prompt_subscription": {
     "other": "Aboneliğinizi başlatmak için aşağıya kredi kartı bilgilerinizi girin."
   },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Planınızı başlatmak için aşağıya kredi kartı bilgilerinizi girin."
+  },
   "shopping_action_plan": {
     "other": "Tamamlayınız"
   },
