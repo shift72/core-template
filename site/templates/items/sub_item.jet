@@ -1,9 +1,9 @@
-{{block episodeCollectionItem(item)}}
+{{ block subItem(item) }}
   <div class="poster-container">
     <div class="poster">
-      <s72-availability-status data-slug="{{item.Slug}}"></s72-availability-status>
-      <s72-image src="{{item.Images.Landscape}}" alt="{{item.Title}}" class="poster-image poster-image-landscape" border="0"></s72-image>
-      <s72-play-button data-slug="{{item.Slug}}" data-title="{{item.Title}}" data-label="false"></s72-play-button>
+      <s72-availability-status slug="{{item.Slug}}"></s72-availability-status>
+      <s72-image src="{{item.Images.Landscape}}" alt="{{item.Title}}" class="poster-image poster-image-landscape"></s72-image>
+      <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
     </div>
   </div>
   <h3>{{item.Title}}</h3>
@@ -18,4 +18,4 @@
   {{if item.Overview}}
     <div class="synopsis">{{item.Overview | raw}}</div>
   {{end}}
-{{end}}
+{{ end }}
