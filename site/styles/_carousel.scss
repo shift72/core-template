@@ -104,11 +104,11 @@ s72-carousel {
 }
 
 .carousel-item-caption {
-  left: 0;
-  right: 0;
   bottom: 0;
+  left: 0;
   padding: 0 20px;
   position: absolute;
+  right: 0;
   top: var(--carousel-caption-top);
   z-index: 999;
   @include media-breakpoint-up(xs) {
@@ -253,9 +253,9 @@ s72-carousel {
 
   .sponsor {
     @include media-breakpoint-up(xl) {
+      bottom: 140px;
       position: absolute;
       right: 140px;
-      bottom: 140px;
       text-align: right;
     }
   }
