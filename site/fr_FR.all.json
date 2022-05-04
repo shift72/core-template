@@ -907,7 +907,7 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Entrez les détails de votre carte de crédit ci-dessous afin de commencer votre abonnement."
   },
   "shopping_action_plan": {

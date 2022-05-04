@@ -1180,7 +1180,7 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Insira os dados do seu cartão de crédito abaixo para iniciar a sua assinatura."
   },
   "shopping_action_plan": {

@@ -851,7 +851,7 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "サブスクリプションを開始するには、以下にクレジットカードの詳細を入力してください。"
   },
   "shopping_action_plan": {

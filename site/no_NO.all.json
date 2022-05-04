@@ -1009,7 +1009,7 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Skriv inn kredittkortopplysningene dine nedenfor for å starte abonnementet."
   },
   "shopping_action_plan": {

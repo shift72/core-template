@@ -1186,7 +1186,7 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Introduïu les dades de la vostra targeta de crèdit a continuació per iniciar la vostra subscripció."
   },
   "shopping_action_plan": {

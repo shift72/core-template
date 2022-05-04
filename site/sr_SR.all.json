@@ -1090,7 +1090,7 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }} а"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Унесите податке о својој кредитној картици испод да бисте започели претплату."
   },
   "shopping_action_plan": {

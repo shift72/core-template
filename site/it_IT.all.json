@@ -919,7 +919,7 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Inserisci i dati della tua carta di credito qui sotto per iniziare il tuo abbonamento."
   },
   "shopping_action_plan": {
