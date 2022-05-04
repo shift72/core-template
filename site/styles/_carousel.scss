@@ -49,6 +49,7 @@ s72-carousel {
       }
     }
 
+    /* stylelint-disable selector-max-compound-selectors */
     img {
       height: var(--carousel-height);
       margin-left: 50%;
@@ -62,6 +63,7 @@ s72-carousel {
         width: auto;
       }
     }
+    /* stylelint-enable selector-max-compound-selectors */
   }
 
   .s72-pricing-button-container {
