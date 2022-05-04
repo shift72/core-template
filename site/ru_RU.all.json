@@ -1308,5 +1308,8 @@
   },
   "nav_subscriptions": {
     "other": "Мои подписки"
+  },
+  "subscribe_to_watch": {
+    "other": "Подпишитесь, чтобы смотреть"
   }
 }

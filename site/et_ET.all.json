@@ -1295,5 +1295,8 @@
   },
   "nav_subscriptions": {
     "other": "Minu tellimused"
+  },
+  "subscribe_to_watch": {
+    "other": "Tellige vaatamiseks"
   }
 }

@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "Omat tilaukset"
+  },
+  "subscribe_to_watch": {
+    "other": "Tilaa katsoaksesi"
   }
 }

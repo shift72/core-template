@@ -1295,5 +1295,8 @@
   },
   "nav_subscriptions": {
     "other": "a Feliratkozásaim"
+  },
+  "subscribe_to_watch": {
+    "other": "Iratkozz fel a nézéshez"
   }
 }

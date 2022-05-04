@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "私のサブスクリプション"
+  },
+  "subscribe_to_watch": {
+    "other": "視聴するために購読する"
   }
 }

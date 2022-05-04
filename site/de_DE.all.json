@@ -1295,5 +1295,8 @@
   },
   "nav_subscriptions": {
     "other": "Meine Abonnements"
+  },
+  "subscribe_to_watch": {
+    "other": "Zum Ansehen abonnieren"
   }
 }

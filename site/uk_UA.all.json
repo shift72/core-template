@@ -1314,5 +1314,8 @@
   },
   "nav_subscriptions": {
     "other": "Мої підписки"
+  },
+  "subscribe_to_watch": {
+    "other": "Підпишіться на перегляд"
   }
 }

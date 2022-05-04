@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "Minhas assinaturas"
+  },
+  "subscribe_to_watch": {
+    "other": "Inscreva-se para assistir"
   }
 }

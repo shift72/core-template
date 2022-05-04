@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "οι εγγραφές μου"
+  },
+  "subscribe_to_watch": {
+    "other": "Εγγραφείτε για να παρακολουθήσετε"
   }
 }

@@ -1295,5 +1295,8 @@
   },
   "nav_subscriptions": {
     "other": "Les meves subscripcions"
+  },
+  "subscribe_to_watch": {
+    "other": "Subscriu-te per veure'l"
   }
 }

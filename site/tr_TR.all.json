@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "aboneliklerim"
+  },
+  "subscribe_to_watch": {
+    "other": "izlemek için abone ol"
   }
 }

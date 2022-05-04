@@ -1286,5 +1286,8 @@
   },
   "nav_subscriptions": {
     "other": "Моје претплате"
+  },
+  "subscribe_to_watch": {
+    "other": "Претплатите се на гледање"
   }
 }
