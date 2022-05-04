@@ -17,7 +17,7 @@ s72-carousel {
     height: var(--carousel-height-md) !important;
   }
 
-  s72-image {
+  .carousel-item-link > s72-image {
     float: right;
     height: var(--carousel-height);
     max-width: 1600px;
@@ -103,6 +103,8 @@ s72-carousel {
 
 .carousel-item-caption {
   left: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 20px;
   position: absolute;
   top: var(--carousel-caption-top);
@@ -110,30 +112,31 @@ s72-carousel {
   @include media-breakpoint-up(xs) {
     left: 60px;
     top: var(--carousel-caption-top-xs);
-    width: 70%;
   }
   @include media-breakpoint-up(md) {
     left: 60px;
     top: var(--carousel-caption-top-md);
-    width: 70%;
   }
   @include media-breakpoint-up(lg) {
     left: 70px;
     top: var(--carousel-caption-top-md);
-    width: 70%;
   }
   @include media-breakpoint-up(xl) {
     left: 120px;
     top: var(--carousel-caption-top-md);
-    width: 50%;
   }
   @include media-breakpoint-up(xxxl) {
     top: var(--carousel-caption-top-md);
-    width: 50%;
   }
 
   .meta-item-content {
     color: var(--body-color);
+    @include media-breakpoint-up(xs) {
+      width: 70%;
+    }
+    @include media-breakpoint-up(xl) {
+      width: 50%;
+    }
 
     h3 {
       color: var(--body-color);
@@ -243,6 +246,15 @@ s72-carousel {
   .s72-btn-play {
     circle {
       fill: transparent;
+    }
+  }
+
+  .sponsor {
+    @include media-breakpoint-up(xl) {
+      position: absolute;
+      right: 140px;
+      bottom: 140px;
+      text-align: right;
     }
   }
 }
