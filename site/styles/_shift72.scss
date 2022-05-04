@@ -341,12 +341,12 @@ s72-cant-be-watched {
   background-color: var(--body-bg-accent);
 }
 
-.s72-subscribe-trial-label{
-  display:  block;
+.s72-subscribe-trial-label {
+  display: block;
   font-size: 12px;
   margin-left: 10px;
   min-width: 140px;
-  
+
   @include media-breakpoint-down(sm) {
     display: none;
   }
