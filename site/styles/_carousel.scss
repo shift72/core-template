@@ -1,26 +1,34 @@
 s72-carousel {
   display: block;
+  height: calc(
+    var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 50px + var(--s72-carousel-height)
+  );
   margin: 0 auto;
   position: static;
   width: 100%;
-  height: calc(var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 50px + var(--s72-carousel-height));
   @include media-breakpoint-up(sm) {
-    height: calc(var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 50px + var(--s72-carousel-height));
+    height: calc(
+      var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 50px +
+        var(--s72-carousel-height)
+    );
   }
 
   @include media-breakpoint-up(lg) {
-    height: calc(var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 60px + var(--s72-carousel-height));
+    height: calc(
+      var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 60px +
+        var(--s72-carousel-height)
+    );
   }
 }
 
 .page-collection-carousel {
-  position: absolute;
-  top: 0;
-  left: 0;
   display: flex;
   flex-direction: column;
-  width: 100%;
   height: var(--carousel-height);
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
   @include media-breakpoint-up(lg) {
     height: var(--carousel-height-lg);
   }
@@ -124,151 +132,148 @@ s72-carousel {
 
   .meta-item-content {
     color: var(--body-color);
+  }
 
-    h3 {
-      color: var(--body-color);
-      font-size: 28px;
-      font-weight: $font-weight-normal;
-      max-width: 930px;
-      padding-bottom: 0;
-      margin-bottom: 8px;
+  h3 {
+    color: var(--body-color);
+    font-size: 28px;
+    font-weight: $font-weight-normal;
+    margin-bottom: 8px;
+    max-width: 930px;
+    padding-bottom: 0;
 
-      @include media-breakpoint-up(md) {
-        font-size: 38px;
-      }
-
-      @include media-breakpoint-up(lg) {
-        font-size: 46px;
-      }
-
-      @include media-breakpoint-up(xxxl) {
-        font-size: 46px;
-      }
+    @include media-breakpoint-up(md) {
+      font-size: 38px;
     }
 
-    h4 {
-      background: var(--primary);
-      color: #000;
-      display: inline-block;
-      font-size: 6px;
-      font-weight: $font-weight-bold;
-      padding: 2px 4px;
-      text-transform: uppercase;
-
-      @include media-breakpoint-up(md) {
-        font-size: 12px;
-      }
+    @include media-breakpoint-up(lg) {
+      font-size: 46px;
     }
 
-    .meta-item-tagline-and-classification {
-      display: flex;
-      margin-bottom: 8px;
+    @include media-breakpoint-up(xxxl) {
+      font-size: 46px;
     }
+  }
 
-    .meta-item-tagline {
-      color: rgba(var(--body-color-rgb), 0.8);
-      font-size: 14px;
-      font-weight: $font-weight-normal;
+  h4 {
+    background: var(--primary);
+    color: #000;
+    display: inline-block;
+    font-size: 6px;
+    font-weight: $font-weight-bold;
+    padding: 2px 4px;
+    text-transform: uppercase;
+
+    @include media-breakpoint-up(md) {
+      font-size: 12px;
     }
+  }
 
-    .meta-item-synopsis {
-      display: none;
-      font-size: 16px;
-      font-weight: $font-weight-normal;
-      margin-bottom: 8px;
-      max-width: 600px;
-      padding-top: 0;
+  .meta-item-tagline-and-classification {
+    display: flex;
+    margin-bottom: 8px;
+  }
 
-      @include media-breakpoint-up(xs) {
-        display: block;
-      }
+  .meta-item-tagline {
+    color: rgba(var(--body-color-rgb), 0.8);
+    font-size: 14px;
+    font-weight: $font-weight-normal;
+  }
 
-      p {
-        margin-bottom: 0;
-      }
+  .meta-item-synopsis {
+    display: none;
+    font-size: 16px;
+    font-weight: $font-weight-normal;
+    margin-bottom: 8px;
+    max-width: 600px;
+    padding-top: 0;
+
+    @include media-breakpoint-up(xs) {
+      display: block;
     }
+  }
+
+  .meta-item-synopsis p {
+    margin-bottom: 0;
   }
 
   .meta-item-buttons {
     gap: 20px 16px;
     margin-bottom: 8px;
-
-    .meta-item-extras {
-      display: flex;
-      gap: 20px 16px;
-    }
-
     // Remove unwanted margins from stuff.
     .s72-btn-purchase,
     .s72-btn-rent,
-    .s72-btn-trailer .s72-btn-trailer,
+    .s72-btn-trailer,
     .s72-btn-wishlist {
       margin: 0;
     }
+  }
+  .meta-item-extras {
+    display: flex;
+    gap: 20px 16px;
+  }
 
-    // Empty relish components still have gaps applied so hide them.
-    can-be-watched-button,
-    s72-userwishlist-button {
-      &:empty {
-        display: none;
-      }
+  // Empty relish components still have gaps applied so hide them.
+  can-be-watched-button,
+  s72-userwishlist-button {
+    &:empty {
+      display: none;
     }
+  }
 
-    s72-play-button {
-      flex-grow: 1;
-
-      .s72-btn-play {
-        margin: 0;
-        min-width: 140px;
-        padding: 6px 12px;
-        width: 100%;
-      }
-
-      .s72-btn-play-icon {
-        display: none;
-      }
-
-      .verb {
-        font-size: 1rem;
-      }
-    }
-
-    s72-pricing-buttons {
-      width: 100%;
-
-      .s72-pricing-button-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 16px;
-      }
-
-      .s72-btn-purchase,
-      .s72-btn-rent {
-        flex-grow: 1;
-        @include media-breakpoint-up(sm) {
-          flex-grow: unset;
-          width: 140px;
-        }
-      }
-    }
-
-    can-be-watched-button {
-      flex-grow: 1;
-    }
-
-    .s72-btn-can-be-watched {
-      flex-grow: 1;
+  s72-play-button {
+    flex-grow: 1;
+    .s72-btn-play {
+      margin: 0;
       min-width: 140px;
       padding: 6px 12px;
+      width: 100%;
+    }
 
-      .padder {
-        display: none;
-      }
+    .s72-btn-play-icon {
+      display: none;
+    }
 
-      .s72-btn-can-be-watched-label {
-        font-size: 1rem;
-        font-weight: 400;
-      }
+    .verb {
+      font-size: 1rem;
+    }
+  }
+
+  s72-pricing-buttons {
+    width: 100%;
+  }
+
+  .s72-pricing-button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .s72-btn-purchase,
+  .s72-btn-rent {
+    flex-grow: 1;
+    @include media-breakpoint-up(sm) {
+      flex-grow: unset;
+      width: 140px;
+    }
+  }
+
+  can-be-watched-button {
+    flex-grow: 1;
+  }
+
+  .s72-btn-can-be-watched {
+    flex-grow: 1;
+    min-width: 140px;
+    padding: 6px 12px;
+
+    .padder {
+      display: none;
+    }
+
+    .s72-btn-can-be-watched-label {
+      font-size: 1rem;
+      font-weight: 400;
     }
   }
 }
@@ -282,9 +287,9 @@ s72-carousel {
 .s72-carousel-page {
   background: none;
   border: 0;
+  max-width: 60px;
   padding: 10px 4px;
   width: 100%;
-  max-width: 60px;
 
   .s72-carousel-line {
     background-color: rgba(var(--body-color-rgb), 0.2);
