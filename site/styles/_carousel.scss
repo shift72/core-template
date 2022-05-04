@@ -1,19 +1,29 @@
 s72-carousel {
   display: block;
   margin: 0 auto;
-  position: absolute;
-  top: 0;
+  position: static;
   width: 100%;
-  height: var(--carousel-height) !important;
+  height: calc(var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 50px + var(--s72-carousel-height));
+  @include media-breakpoint-up(sm) {
+    height: calc(var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 50px + var(--s72-carousel-height));
+  }
+
   @include media-breakpoint-up(lg) {
-    height: var(--carousel-height-lg) !important;
+    height: calc(var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 60px + var(--s72-carousel-height));
   }
 }
 
 .page-collection-carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  width: 100%;
+  height: var(--carousel-height);
+  @include media-breakpoint-up(lg) {
+    height: var(--carousel-height-lg);
+  }
 }
 
 .s72-carousel-slides {

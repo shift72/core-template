@@ -31,9 +31,7 @@
 
   --carousel-height: 560px;
   --carousel-height-lg: 620px;
-  --carousel-caption-top: 125px;
-  --carousel-caption-top-xs: 150px;
-  --carousel-caption-top-md: 175px;
+  --s72-carousel-height: 20px; // Adds additional height to s72-carousel in carousel.scss. 
 }
 
 // Bootstrap 4 overrides START
@@ -167,6 +165,7 @@ $left-gradient-bg-color: var(--body-bg-rgb) !default;
 
 // Carousel
 $carousel-bg-color: var(--body-bg) !default;
+
 
 // Footer
 $footer-brand-min-width: 100px !default;
