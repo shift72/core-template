@@ -1304,5 +1304,8 @@
   },
   "sponsor_image_alt": {
     "other": "logo du sponsor"
+  },
+  "subscribe_to_watch": {
+    "other": "Abonnez-vous pour regarder"
   }
 }
