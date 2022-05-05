@@ -5,6 +5,9 @@
 - Added styling for the self subscription (SVOD)
 - User Subscription (SVOD) translations added.
 
+### Changed
+- Reworked carousel UI.
+
 ### Fixed
 - Removed some redundant wishlist CSS.
 - Lots of minor styling tweaks around availability labels and status.
@@ -20,7 +23,7 @@
 - Sentence casing for `en_AU` translation about passes.
 
 ## [0.5.0](https://github.com/shift72/core-template/compare/0.4.4...0.5.0)
-### Changed
+
 - Upgrade to kibble `0.16.6`.
 - Moved references from `film.Images` to `film.ImageMap`.
 - Removed minimum page height from content pages.
