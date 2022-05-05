@@ -980,7 +980,7 @@
     "other": "Annuleer abonnement"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Hiermee wordt het abonnement op {{.Name}} maak plannen opgezegd. U kunt de inhoud van het abonnement nog steeds bekijken totdat deze verloopt {{.Expiry}}"
+    "other": "Hiermee wordt het abonnement op de {{.Name}} opgezegd. U kunt de inhoud nog steeds bekijken totdat deze verloopt {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Binnenkort"
@@ -1132,7 +1132,7 @@
     "other": "OF"
   },
   "page_plan_explore_link": {
-    "other": "Ontdek andere passen"
+    "other": "Meer ontdekken"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Nu kopen"
@@ -1287,7 +1287,22 @@
   "nav_subscriptions": {
     "other": "mijn abonnementen"
   },
-  "subscribe_to_watch": {
-    "other": "Abonneer om te kijken"
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Eerste betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Volgende betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Betaling verschuldigd {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Eindigt {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Beëindigd {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "sponsorlogo"
   }
 }

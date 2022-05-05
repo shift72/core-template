@@ -896,7 +896,7 @@
     "other": "TAI"
   },
   "page_plan_explore_link": {
-    "other": "Tutustu muihin passeihin"
+    "other": "Tutustu lisää"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Osta nyt"
@@ -1109,7 +1109,7 @@
     "other": "Peruuta tilaus?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Tämä peruuttaa {{.Name}}-tilauksen. Voit silti tarkastella suunnitelman sisältöä sen voimassaolon päättymiseen asti {{.Expiry}}."
+    "other": "Tämä peruuttaa tuotteen {{.Name}} tilauksen. Voit silti katsoa sisältöä, kunnes se vanhenee {{.Expiry}}."
   },
   "signin_form_error_account_suspended": {
     "other": "Tilisi on väliaikaisesti jäädytetty. Ota yhteyttä järjestelmänvalvojaan, jos uskot tämän olevan virhe."
@@ -1287,7 +1287,22 @@
   "nav_subscriptions": {
     "other": "Omat tilaukset"
   },
-  "subscribe_to_watch": {
-    "other": "Tilaa katsoaksesi"
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Ensimmäinen maksu {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Seuraava maksu {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Maksu eräpäivänä {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Päättyy {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Päättynyt {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "sponsorin logo"
   }
 }

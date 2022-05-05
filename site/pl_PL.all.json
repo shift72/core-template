@@ -938,7 +938,7 @@
     "other": "LUB"
   },
   "page_plan_explore_link": {
-    "other": "Poznaj inne karnety"
+    "other": "Dowiedz się więcej"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Kup Teraz"
@@ -1160,7 +1160,7 @@
     "other": "Anuluj subskrypcje?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "To anuluje subskrypcję planu {{.Name}}. Nadal będziesz mógł oglądać zawartość planu do czasu jego wygaśnięcia {{.Expiry}}."
+    "other": "To anuluje subskrypcję {{.Name}}. Nadal będziesz mógł oglądać zawartość, dopóki nie wygaśnie {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "nie logowałeś się zbyt wiele razy. Spróbuj ponownie później."
@@ -1332,7 +1332,22 @@
   "nav_subscriptions": {
     "other": "moje subskrypcje"
   },
-  "subscribe_to_watch": {
-    "other": "Zapisz się do oglądania"
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Pierwsza płatność {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Następna płatność {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "{{ .Expiry }} płatność. Termin ważności"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Kończy {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Zakończony {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logo sponsora"
   }
 }

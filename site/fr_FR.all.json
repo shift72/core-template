@@ -949,7 +949,7 @@
     "other": "OU"
   },
   "page_plan_explore_link": {
-    "other": "Découvrir d'autres pass"
+    "other": "Explore plus"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Acheter maintenant"
@@ -1141,7 +1141,7 @@
     "other": "Se désabonner?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Cela annulera l'abonnement au package {{.Name}}. Vous pourrez toujours regarder le contenu du paquet jusqu'à son expiration {{.Expiry}}. "
+    "other": "Cela annulera l'abonnement à {{.Name}}. Vous pourrez toujours regarder le contenu jusqu'à ce qu'il expire {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "Vous n'avez pas réussi à vous connecter trop de fois. Veuillez réessayer plus tard."
@@ -1287,7 +1287,22 @@
   "nav_subscriptions": {
     "other": "Mes abonnements"
   },
-  "subscribe_to_watch": {
-    "other": "Abonnez-vous pour regarder"
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Premier paiement {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Prochain paiement {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Paiement dû {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Se termine {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Terminé {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logo du sponsor"
   }
 }

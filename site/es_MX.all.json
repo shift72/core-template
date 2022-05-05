@@ -1118,7 +1118,7 @@
     "other": "¿Cancelar suscripción?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Esto cancelará la suscripción a la {{.Name}} plan. Aún podrá ver el contenido del plan hasta que caduque {{.Expiry}}."
+    "other": "Esto cancelará la suscripción a {{.Name}}. Aún podrá ver el contenido hasta que caduque {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "Ha fallado al iniciar sesión demasiadas veces. Por favor, inténtelo de nuevo más tarde."
@@ -1237,7 +1237,7 @@
     "other": "O"
   },
   "page_plan_explore_link": {
-    "other": "Explore otros pases"
+    "other": "Explora más"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Compra ahora"
@@ -1287,7 +1287,22 @@
   "nav_subscriptions": {
     "other": "mis Suscripciónes"
   },
-  "subscribe_to_watch": {
-    "other": "Suscríbete para ver"
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Primer pago {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Próximo pago {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Pago adeudado {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Finaliza {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "{{ .Expiry }} finalizada"
+  },
+  "sponsor_image_alt": {
+    "other": "logotipo del patrocinador"
   }
 }

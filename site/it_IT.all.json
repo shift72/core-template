@@ -961,7 +961,7 @@
     "other": "O"
   },
   "page_plan_explore_link": {
-    "other": "Esplora altri pass"
+    "other": "Esplora di più"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Acquista ora"
@@ -1153,7 +1153,7 @@
     "other": "Annullare l'iscrizione?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Questo annullerà l'abbonamento al piano {{.Name}}. Potrai comunque guardare i contenuti del piano fino alla scadenza {{.Expiry}}."
+    "other": "Questo annullerà l'abbonamento a {{.Name}}. Potrai comunque guardare il contenuto fino alla scadenza {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "Non sei riuscito ad accedere troppe volte. Per favore riprova più tardi."
@@ -1287,7 +1287,22 @@
   "nav_subscriptions": {
     "other": "le mie sottoscrizioni"
   },
-  "subscribe_to_watch": {
-    "other": "Iscriviti per guardare"
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Primo pagamento {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Prossimo pagamento {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Pagamento dovuto {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Termina {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Terminato {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logo dello sponsor"
   }
 }

@@ -923,7 +923,7 @@
     "other": "Ακύρωση συνδρομής;"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Αυτό θα ακυρώσει τη συνδρομή στο {{.Name}} σχέδιο. Θα εξακολουθείτε να μπορείτε να παρακολουθείτε το περιεχόμενο του προγράμματος έως και {{.Expiry}}."
+    "other": "Αυτό θα ακυρώσει τη συνδρομή στο {{.Name}}. Θα εξακολουθείτε να μπορείτε να παρακολουθείτε το περιεχόμενο μέχρι να λήξει {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Προσεχώς"
@@ -1042,7 +1042,7 @@
     "other": "Ή"
   },
   "page_plan_explore_link": {
-    "other": "Εξερευνήστε άλλα περάσματα"
+    "other": "Εξερευνήστε περισσότερα"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Αγορασε τωρα"
@@ -1287,7 +1287,22 @@
   "nav_subscriptions": {
     "other": "οι εγγραφές μου"
   },
-  "subscribe_to_watch": {
-    "other": "Εγγραφείτε για να παρακολουθήσετε"
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Πρώτη πληρωμή {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Επόμενη πληρωμή {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Οφειλόμενη πληρωμή {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Λήγει {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Έληξε {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "λογότυπο χορηγού"
   }
 }

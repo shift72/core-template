@@ -938,7 +938,7 @@
     "other": "Kas tühistada tellimus?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "See tühistab paketi {{.Name}} tellimuse. Saate vaadata paketi sisu, kuni see aegub {{.Expiry}}."
+    "other": "See tühistab {{.Name}} tellimuse. Saate sisu endiselt vaadata, kuni see aegub {{.Expiry}}."
   },
   "shopping_card_update_reason_none": {
     "other": "Värskendage oma krediitkaarti. Toetatud kaardid on Visa, Mastercard ja American Express."
@@ -1063,7 +1063,7 @@
     "other": "VÕI"
   },
   "page_plan_explore_link": {
-    "other": "Avastage teisi pääsmeid"
+    "other": "Uurige rohkem"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Osta kohe"
@@ -1296,7 +1296,22 @@
   "nav_subscriptions": {
     "other": "Minu tellimused"
   },
-  "subscribe_to_watch": {
-    "other": "Tellige vaatamiseks"
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Esimene makse {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Järgmine makse {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Maksetähtaeg {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Lõpeb {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Lõppenud {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "sponsori logo"
   }
 }

@@ -923,7 +923,7 @@
     "other": "Cancelar assinatura?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Isso cancelará a assinatura do plano {{.Name}}. Você ainda poderá assistir ao conteúdo do plano até que expire {{.Expiry}}."
+    "other": "Isso cancelará a assinatura do {{.Name}}. Você ainda poderá assistir ao conteúdo até que expire {{.Expiry}}."
   },
   "shopping_card_update_reason_none": {
     "other": "Atualize seu cartão de crédito. Os cartões suportados são Visa, Mastercard e American Express"
@@ -1045,7 +1045,7 @@
     "other": "OU"
   },
   "page_plan_explore_link": {
-    "other": "Explore outros passes"
+    "other": "Explore mais"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Compre Agora"
@@ -1287,7 +1287,22 @@
   "nav_subscriptions": {
     "other": "Minhas assinaturas"
   },
-  "subscribe_to_watch": {
-    "other": "Inscreva-se para assistir"
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Primeiro pagamento {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Próximo pagamento {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Pagamento devido. {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Termina {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Terminado {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logotipo do patrocinador"
   }
 }

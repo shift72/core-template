@@ -959,7 +959,7 @@
     "other": "Отменить подписку?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Это отменит подписку на{{.Name}} строить планы.Вы все равно сможете посмотреть контент в плане, пока он не истечет {{.Expiry}}."
+    "other": "Ово ће отказати претплату на {{.Name}}. И даље ћете моћи да гледате садржај док не истекне {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Ускоро"
@@ -1132,7 +1132,7 @@
     "other": "ИЛИ"
   },
   "page_plan_explore_link": {
-    "other": "Истражите друге пролазе"
+    "other": "Истражите више"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Купите сада"
@@ -1287,7 +1287,22 @@
   "nav_subscriptions": {
     "other": "Моје претплате"
   },
-  "subscribe_to_watch": {
-    "other": "Претплатите се на гледање"
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Прва уплата {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Следећа уплата {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Рок за плаћање {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Завршава {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Ендед {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "логотип спонзора"
   }
 }
