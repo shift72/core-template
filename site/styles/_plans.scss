@@ -83,3 +83,17 @@ s72-plan-label {
     display: inline !important;
   }
 }
+
+
+.s72-subscribe-trial-label {
+  display: block;
+  font-size: 12px;
+  margin-left: 10px;
+  min-width: 140px;
+  padding-left: 15px;
+
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+

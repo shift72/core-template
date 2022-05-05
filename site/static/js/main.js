@@ -465,7 +465,6 @@ function documentReady(app) {
   app.classificationsService.load('/classifications.all.json');
   app.urlMapService.load('/urlmap.json');
 
-
   detectTouchscreen();
 
   let swipers = document.getElementsByClassName('swiper-container');

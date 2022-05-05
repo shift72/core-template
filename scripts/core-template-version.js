@@ -4,13 +4,13 @@ let version, kibbleJSON;
 
 try {
   version = JSON.parse(fs.readFileSync('package.json'))['version'];
-} catch(e) {
+} catch (e) {
   exitWithError(`Failed to parse package.json: ${e}`);
 }
 
 try {
   kibbleJSON = JSON.parse(fs.readFileSync('kibble.json'));
-} catch(e) {
+} catch (e) {
   exitWithError(`Failed to parse kibble.json: ${e}`);
 }
 
@@ -18,7 +18,7 @@ kibbleJSON['coreTemplateVersion'] = version;
 
 try {
   fs.writeFileSync('kibble.json', JSON.stringify(kibbleJSON, null, 2));
-} catch(e) {
+} catch (e) {
   exitWithError(`Failed to write kibble.json: ${e}`);
 }
 
