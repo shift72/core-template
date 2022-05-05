@@ -938,7 +938,7 @@
     "other": "Feliratkozás visszavonása?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Ezzel törli az előfizetést a {{.Name}} csomagra. Továbbra is megtekintheti a csomag tartalmát, amíg le nem jár {{.Expiry}}."
+    "other": "Ezzel törli a(z) {{.Name}} előfizetését. Továbbra is megtekintheti a tartalmat, amíg le nem jár {{.Expiry}}."
   },
   "shopping_card_update_reason_none": {
     "other": "Frissítse hitelkártyáját. A támogatott kártyák a Visa, Mastercard és az American Express."
@@ -1060,7 +1060,7 @@
     "other": "VAGY"
   },
   "page_plan_explore_link": {
-    "other": "Fedezzen fel más bérleteket"
+    "other": "Fedezzen fel többet"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Vásárolj most"
@@ -1295,5 +1295,23 @@
   },
   "nav_subscriptions": {
     "other": "a Feliratkozásaim"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Első fizetés {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Következő fizetés {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Fizetési esedékesség {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Vége {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Befejeződött {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "szponzor logó"
   }
 }

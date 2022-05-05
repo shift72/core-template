@@ -1004,7 +1004,7 @@
     "other": "Vil du opsige abonnement?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Dette vil annullere abonnementet på {{.Name}}-planen. Du vil stadig være i stand til at se indholdet i planen, indtil det udløber {{.Expiry}}."
+    "other": "Dette vil annullere abonnementet på {{.Name}}. Du vil stadig kunne se indholdet, indtil det udløber {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Kommer snart"
@@ -1156,7 +1156,7 @@
     "other": "ELLER"
   },
   "page_plan_explore_link": {
-    "other": "Udforsk andre pas"
+    "other": "Udforsk mere"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Køb nu"
@@ -1295,5 +1295,23 @@
   },
   "nav_subscriptions": {
     "other": "Mine abonnementer"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Første betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Næste betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Forfalden betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Slutter {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Afsluttet {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "sponsor logo"
   }
 }

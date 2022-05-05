@@ -1016,7 +1016,7 @@
     "other": "إلغاء الاشتراك؟"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "سيؤدي هذا إلى إلغاء الاشتراك في خطة {{.Name}}. ستظل قادرًا على مشاهدة المحتوى في الخطة حتى انتهاء صلاحيتها {{.Expiry}}."
+    "other": "سيؤدي هذا إلى إلغاء الاشتراك في {{.Name}}. ستظل قادرًا على مشاهدة المحتوى حتى انتهاء صلاحيته {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "قريبا"
@@ -1216,7 +1216,7 @@
     "other": "أو"
   },
   "page_plan_explore_link": {
-    "other": "استكشف ممرات أخرى"
+    "other": "استكشاف المزيد"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "اشتري الآن"
@@ -1295,5 +1295,23 @@
   },
   "nav_subscriptions": {
     "other": "اشتراكاتي"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "الدفعة {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "الدفعة {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "الدفع {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "{{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "شعار الراعي"
   }
 }

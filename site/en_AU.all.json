@@ -1059,6 +1059,21 @@
   "usersubscriptions_subscription_expiry": {
     "other": "Expires {{.Expiry}}"
   },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "First payment {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Next payment {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Payment due {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Ends {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Ended {{.Expiry}}"
+  },
   "usersubscriptions_no_subscriptions_section_title": {
     "other": "Discover Subscriptions"
   },
@@ -1081,7 +1096,7 @@
     "other": "Cancel subscription?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "This will cancel the subscription to the {{.Name}} plan. You will still be able to watch the content in the plan until it expires {{.Expiry}}."
+    "other": "This will cancel the subscription to the {{.Name}}. You will still be able to watch the content until it expires {{.Expiry}}."
   },
   "usersubscriptions_change_payment_method_modal_title": {
     "other": "Update credit card details"
@@ -1264,7 +1279,7 @@
     "other": "OR"
   },
   "page_plan_explore_link": {
-    "other": "Explore other Passes"
+    "other": "Explore more"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Buy now"
@@ -1286,5 +1301,8 @@
   },
   "meta_description_collapse": {
     "other": "See less"
+  },
+  "sponsor_image_alt": {
+    "other": "sponsor logo"
   }
 }

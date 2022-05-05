@@ -1022,7 +1022,7 @@
     "other": "Cancel·lar la subscripció?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Això cancel·larà la subscripció al pla {{.Name}}. Encara podreu veure el contingut del pla fins que caduqui {{.Expiry}}."
+    "other": "Això cancel·larà la subscripció a {{.Name}}. Encara podreu veure el contingut fins que caduqui {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Pròximament"
@@ -1229,7 +1229,7 @@
     "other": "O"
   },
   "page_plan_explore_link": {
-    "other": "Exploreu altres passis"
+    "other": "Exploreu més"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Compra ara"
@@ -1296,5 +1296,23 @@
   },
   "nav_subscriptions": {
     "other": "Les meves subscripcions"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Primer pagament {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Pròxim pagament {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Pagament vençut {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Finalitza {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Finalitzat {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logotip del patrocinador"
   }
 }

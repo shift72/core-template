@@ -1,14 +1,185 @@
-// These icons mostly build off fontawesome
-// to help with common UX class combinations.
-//--------------------------------------------------
+@font-face {
+  font-family: 'fa-s72';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/fa-s72.woff') format('woff');
+}
 
-.icon-navbar-toggler {
-  @extend .fa;
-  @extend .fa-bars;
+.fa {
+  font-family: 'fa-s72' !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  font-weight: normal !important;
+  line-height: 1;
+  text-transform: none !important;
+  vertical-align: middle;
+}
 
-  &.toggled {
-    @extend .fa-close;
+.fa-credit-card::before,
+.fa-trash::before {
+  font-size: 18px;
+}
+
+.fa-ellipsis-v {
+  font-size: 26px;
+}
+
+.fa-credit-card {
+  line-height: 0;
+}
+
+.fa-angle-down,
+.fa-angle-left,
+.fa-angle-right,
+.fa-angle-up {
+  &::before {
+    content: '\e017';
   }
+}
+
+.fa-angle-left {
+  transform: rotate(90deg);
+}
+
+.fa-angle-up {
+  transform: rotate(180deg);
+}
+
+.fa-angle-right {
+  transform: rotate(270deg);
+}
+
+.fa-cc-visa::before {
+  content: '\e000';
+}
+
+.fa-cc-stripe::before {
+  content: '\e001';
+}
+
+.fa-cc-paypal::before {
+  content: '\e002';
+}
+
+.fa-cc-mastercard::before {
+  content: '\e003';
+}
+
+.fa-cc-jcb::before {
+  content: '\e004';
+}
+
+.fa-cc-discover::before {
+  content: '\e005';
+}
+
+.fa-cc-diners-club::before {
+  content: '\e006';
+}
+
+.fa-cc-amex::before {
+  content: '\e007';
+}
+
+.fa-twitter::before {
+  content: '\e008';
+}
+
+.fa-star::before {
+  content: '\e009';
+}
+
+.fa-error::before {
+  content: '\e00a';
+}
+
+.fa-circle-o::before {
+  content: '\e00b';
+}
+
+.fa-check::before {
+  content: '\e00c';
+}
+
+.fa-times::before {
+  content: '\e00d';
+}
+
+.fa-trash::before {
+  content: '\e00e';
+}
+
+.fa-facebook::before {
+  content: '\e00f';
+}
+
+.fa-link::before {
+  content: '\e010';
+}
+
+.fa-linkedin::before {
+  content: '\e011';
+}
+
+.fa-envelope::before {
+  content: '\e012';
+}
+
+.fa-ellipsis-v::before {
+  content: '\e013';
+}
+
+.fa-check-circle::before {
+  content: '\e015';
+}
+
+.fa-search::before {
+  content: '\e016';
+}
+
+.fa-angle-down::before {
+  content: '\e017';
+}
+
+.fa-credit-card::before {
+  content: '\e018';
+}
+
+.fa-globe::before {
+  content: '\e019';
+}
+
+.fa-share-alt::before {
+  content: '\e01a';
+}
+
+.fa-circle::before {
+  content: '\e01c';
+}
+
+.fa-warning::before, .fa-exclamation-circle::before, .fa-exclamation-triangle::before {
+  content: '\e01b';
+}
+
+s72-availability-label .availability-state::before {
+  content: '\e01b';
+}
+
+.fa-spinner::before {
+  content: '\e014';
+}
+
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.fa-spin {
+  animation: fa-spin 2s linear infinite;
 }
 
 .icon-loading {
@@ -19,7 +190,7 @@
 
 .icon-errored {
   @extend .fa;
-  @extend .fa-exclamation-circle;
+  @extend .fa-warning;
 }
 
 .icon-warning {
