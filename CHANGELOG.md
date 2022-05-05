@@ -1,12 +1,16 @@
 # Changelog
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.5.0...HEAD)
+
+### Added
 - Dropdown menu has My Subscriptions (if account_show_plans toggle is on), with addition of subscriptions.html.jet file
 - Added styling for the self subscription (SVOD)
 - User Subscription (SVOD) translations added.
+- Keyboard controls for the carousel.
 
 ### Changed
-- Reworked carousel UI.
+- Reworked the carousel UI.
+- Carousel background now extends the full width of the window.
 
 ### Fixed
 - Removed some redundant wishlist CSS.
