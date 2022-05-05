@@ -893,7 +893,7 @@
     "other": "また"
   },
   "page_plan_explore_link": {
-    "other": "他のパスを探す"
+    "other": "詳細を見る"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "今買う"
@@ -1106,7 +1106,7 @@
     "other": "サブスクリプションをキャンセルしますか？"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "これにより、{{.Name}}プランのサブスクリプションがキャンセルされます。 {{.Expiry}}の有効期限が切れるまで、プランのコンテンツを引き続き視聴できます。"
+    "other": "これにより、{{.Name}}へのサブスクリプションがキャンセルされます。 {{.Expiry}}の有効期限が切れるまで、コンテンツを引き続き視聴できます。"
   },
   "signin_form_error_ip_throttled": {
     "other": "サインインに何度も失敗しました。 後でもう一度やり直してください。"
@@ -1286,5 +1286,23 @@
   },
   "nav_subscriptions": {
     "other": "私のサブスクリプション"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "最初の支払い{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "次の支払い{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "支払{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "終了{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "終了{{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "スポンサーロゴ"
   }
 }

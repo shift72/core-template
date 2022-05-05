@@ -1013,7 +1013,7 @@
     "other": "取消訂閱？"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "這將取消訂閱 {{.Name}} 計劃. 您仍然能夠在計劃到期之前觀看計劃中的內容 {{.Expiry}}."
+    "other": "这将取消对 {{.Name}} 的订阅。在内容到期 {{.Expiry}} 之前，您仍然可以观看内容。"
   },
   "availability_coming_soon": {
     "other": "即將播映"
@@ -1220,7 +1220,7 @@
     "other": "或者"
   },
   "page_plan_explore_link": {
-    "other": "探索其他通行證"
+    "other": "探索更多"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "立即購買"
@@ -1287,5 +1287,23 @@
   },
   "nav_subscriptions": {
     "other": "我的订阅"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "第一次付款{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "下次付款{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "到期付款{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "結束{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "結束{{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "赞助商标志"
   }
 }

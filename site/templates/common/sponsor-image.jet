@@ -1,0 +1,18 @@
+{{block sponsor()}}
+  {{sponsorImage := .ImageMap["Sponsor"]}}
+
+  {{if isset(sponsorImage)}}
+    {{sponsorText := .CustomFields.GetString("sponsor_image_text_film", "")}}
+    {{sponsorLink := .CustomFields.GetString("sponsor_image_link_film", "")}}
+    {{sponsorLinkIsExternal := .CustomFields.GetBool("sponsor_image_link_external_film", false)}}
+
+    <div class="sponsor">
+      {{if sponsorText}}
+        <div>{{sponsorText}}</div>
+      {{end}}
+      {{if sponsorLink}}<a href="{{sponsorLink}}" {{if sponsorLinkIsExternal}} target="_blank" {{end}}>{{end}}
+        <s72-image src="{{sponsorImage}}" alt="{{ i18n("sponsor_image_alt") }}" ></s72-image>
+      {{if sponsorLink}}</a>{{end}}
+    </div>
+  {{end}}
+{{end}}

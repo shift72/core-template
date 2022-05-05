@@ -951,7 +951,7 @@
     "other": "Отменить подписку?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Это отменит подписку на {{.Name}} строить планы. Вы все равно сможете посмотреть контент в плане, пока он не истечет {{.Expiry}}."
+    "other": "Это отменит подписку на {{.Name}}. Вы по-прежнему сможете просматривать контент до истечения срока его действия {{.Expiry}}."
   },
   "shopping_card_update_reason_none": {
     "other": "Обновите свою кредитную карту.Поддерживаемые карты - виза, MasterCard и American Express."
@@ -1073,7 +1073,7 @@
     "other": "ИЛИ"
   },
   "page_plan_explore_link": {
-    "other": "Исследуйте другие перевалы"
+    "other": "Узнайте больше"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Купи сейчас"
@@ -1308,5 +1308,23 @@
   },
   "nav_subscriptions": {
     "other": "Мои подписки"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Первый платеж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Следующий платеж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Причитающийся платеж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Заканчивается {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Завершено {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "логотип спонсора"
   }
 }

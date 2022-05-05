@@ -955,7 +955,7 @@
     "other": "ODER"
   },
   "page_plan_explore_link": {
-    "other": "Entdecken Sie andere Pässe"
+    "other": "Erkunde mehr"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Kaufe jetzt"
@@ -1105,7 +1105,7 @@
     "other": "Abonnement beenden?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Dadurch wird das Abonnement des Plans {{.Name}} gekündigt. Sie können den Inhalt des Plans weiterhin ansehen, bis er abläuft {{.Expiry}}."
+    "other": "Dadurch wird das Abonnement für {{.Name}} gekündigt. Sie können den Inhalt weiterhin ansehen, bis er abläuft {{.Expiry}}."
   },
   "wcag_skip_links_header": {
     "other": "Zugänglichkeitslinks"
@@ -1295,5 +1295,23 @@
   },
   "nav_subscriptions": {
     "other": "Meine Abonnements"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Erste Zahlung {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Nächste Zahlung {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Zahlung fällig {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Endet {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Beendet {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "Sponsorenlogo"
   }
 }

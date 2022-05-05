@@ -980,7 +980,7 @@
     "other": "Atšaukti prenumeratą?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Taip bus atšaukta {{.Name}} plano prenumerata. Vis tiek galėsite žiūrėti plano turinį, kol baigsis {{.Expiry}}."
+    "other": "Taip bus atšaukta {{.Name}} prenumerata. Vis tiek galėsite žiūrėti turinį, kol baigsis {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Jau greitai"
@@ -1132,7 +1132,7 @@
     "other": "ARBA"
   },
   "page_plan_explore_link": {
-    "other": "Naršykite kitus leidimus"
+    "other": "Naršyti daugiau"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Pirkti dabar"
@@ -1286,5 +1286,23 @@
   },
   "nav_subscriptions": {
     "other": "Mano prenumeratos"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Pirmas mokėjimas {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Kitas mokėjimas {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Mokėjimo {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Baigiasi {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Baigėsi {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "rėmėjo logotipas"
   }
 }

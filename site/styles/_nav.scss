@@ -172,7 +172,7 @@
 }
 
 .navbar-toggler {
-  height: 16px;
+  height: 19px;
   padding: 0;
   position: relative;
   width: 24px;
@@ -391,7 +391,7 @@
 
   .search-icon {
     color: var(--body-color);
-    font-size: 18px;
+    font-size: 24px;
     left: 5px;
     pointer-events: none;
     position: absolute;
@@ -405,7 +405,8 @@
     border: 0;
     border-radius: 50%;
     color: rgba(var(--body-color-rgb), 0.7);
-    height: 32px;
+    font-size: 24px;
+    line-height: 0;
     opacity: 0;
     pointer-events: none;
     position: absolute;
@@ -899,9 +900,9 @@ s72-dropdown,
   display: flex;
   justify-content: center;
   min-height: 26px;
+  padding: 8px 0;
   text-align: center;
   z-index: 10;
-
   .header-banner-message {
     font-size: 12px;
     margin-bottom: 0;

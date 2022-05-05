@@ -1133,7 +1133,7 @@
     "other": "ILI"
   },
   "page_plan_explore_link": {
-    "other": "Istražite druge prolaze"
+    "other": "Istražite više"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Kupi sada"
@@ -1190,7 +1190,7 @@
     "other": "Otkazati pretplatu?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Time će se otkazati pretplata na plan {{.Name}}. I dalje ćete moći gledati sadržaj u planu dok ne istekne {{.Expiry}}."
+    "other": "Ovo će otkazati pretplatu na {{.Name}}. I dalje ćete moći gledati sadržaj dok ne istekne {{.Expiry}}."
   },
   "nav_homepage": {
     "other": "ABC Cinemas"
@@ -1278,5 +1278,23 @@
   },
   "nav_subscriptions": {
     "other": "Moje pretplate"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Prva uplata {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Sljedeća uplata {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Rok za plaćanje {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Završava {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Završeno {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logotip sponzora"
   }
 }
