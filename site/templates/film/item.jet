@@ -38,122 +38,124 @@
           {{end}}
         </div>
         <div class="meta-detail-content">
-          <h1>{{ film.Title }}</h1>
-          <div class="meta-detail-tagline-and-classification">
-            <div class="meta-detail-tagline">
-              {{yield metaItemTagline() film}}
+          <div class="meta-detail-inner-wrapper">
+            <h1>{{ film.Title }}</h1>
+            <div class="meta-detail-tagline-and-classification">
+              <div class="meta-detail-tagline">
+                {{yield metaItemTagline() film}}
+              </div>
             </div>
-          </div>
 
-          <!-- {{film.CustomFields|json}} -->
-          <s72-availability-label data-slug="{{film.Slug}}"></s72-availability-label>
+            <!-- {{film.CustomFields|json}} -->
+            <s72-availability-label data-slug="{{film.Slug}}"></s72-availability-label>
 
-          <div class="meta-detail-buttons">
-            <s72-play-button data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-play-button>
-            <s72-pricing-buttons data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-pricing-buttons>
-            <can-be-watched-button data-slug="{{film.Slug}}" data-url="{{ film.CustomFields.GetString("can_be_watched_button_link", "") }}" data-label="{{ film.CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text") }}"></can-be-watched-button>
-            <div class="meta-detail-extras">
-              {{if len(film.Trailers) > 0 }}
-                  <s72-modal-player src="{{film.Trailers[0].URL}}" class="s72-btn-trailer" data-slug="{{film.Slug}}" data-label="{{i18n("play_trailer")}}" autoplay="querystring"></s72-modal-player>
-              {{end}}
-              <s72-userwishlist-button data-slug="{{film.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
-              {{yield socialMediaButtons(path=currentUrlPath, letterboxdID=film.Refs.LetterboxdID)}}
+            <div class="meta-detail-buttons">
+              <s72-play-button data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-play-button>
+              <s72-pricing-buttons data-slug="{{film.Slug}}" data-title="{{film.Title}}"></s72-pricing-buttons>
+              <can-be-watched-button data-slug="{{film.Slug}}" data-url="{{ film.CustomFields.GetString("can_be_watched_button_link", "") }}" data-label="{{ film.CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text") }}"></can-be-watched-button>
+              <div class="meta-detail-extras">
+                {{if len(film.Trailers) > 0 }}
+                    <s72-modal-player src="{{film.Trailers[0].URL}}" class="s72-btn-trailer" data-slug="{{film.Slug}}" data-label="{{i18n("play_trailer")}}" autoplay="querystring"></s72-modal-player>
+                {{end}}
+                <s72-userwishlist-button data-slug="{{film.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
+                {{yield socialMediaButtons(path=currentUrlPath, letterboxdID=film.Refs.LetterboxdID)}}
+              </div>
             </div>
-          </div>
-          {{if config("default_image_type") != "portrait"}}
-            <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
-            <br>
-          {{end}}
+            {{if config("default_image_type") != "portrait"}}
+              <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
+              <br>
+            {{end}}
 
-          {{yield awardNominations() film}}
-          <div class="element-switcher-wrapper">
-            <s72-element-switcher>
-              {{if isEnabled("element_switcher_enabled")}}
-                <div class="meta-detail-switcher-tagline">
-                  <p>{{film.Tagline}}</p>
-                </div>
-              {{end}}
-              <div class="{{ isEnabled("element_switcher_enabled") ? "s72-hide" : "" }}"> {* hide class prevents FOUC *}
-                <div class="meta-detail-synopsis">{{film.Overview | raw}}</div>
-                <div class="meta-detail-info">
-                  {{if len(film.Cast) > 0 }}
-                    <div class="meta-detail-cast">
-                      <h2>{{i18n("meta_detail_cast_title")}}</h2>
-                      <p>
-                        {{range index, member := film.Cast}}
-                          {{ path := "/search.html?q=" + member.Name }}
-                          <a href="{{ routeToPath(path) }}">{{member.Name}}</a>{{if index < len(film.Cast) - 1}}, {{end}}
-                        {{end}}
-                      </p>
-                    </div>
-                  {{end}}
-                  {{range index, member := film.Crew}}
-                    <div class="meta-detail-crew">
-                      <h2>{{member.Job}}</h2>
-                      {{ path := "/search.html?q=" + member.Name }}
-                      <a href="{{ routeToPath(path) }}">{{member.Name}}</a>
-                    </div>
-                  {{end}}
-                  {{if len(film.Languages) > 0 }}
-                    <div class="meta-detail-language">
-                      <h2>{{i18n("meta_detail_languages", len(film.Languages))}}</h2>
-                      <p>{{ film.Languages }}</p>
-                    </div>
-                  {{end}}
-                  {{allSubtitles := film.GetSubtitles()}}
-                  {{if len(allSubtitles) > 0 }}
-                    {{subtitles := ""}}
-                    {{captions := ""}}
-                    {{if len(film.SubtitleTracks) == 0}}
-                      {{subtitles = allSubtitles}}
-                    {{else}}
-                      {{range subTrack := film.SubtitleTracks}}
-                        {{if len(subTrack) >= 3}}
-                          {{if subTrack[2] == "caption"}}
-                              {{captions = captions ? captions + ", " + subTrack[1] : subTrack[1]}}
-                          {{else}}
-                              {{subtitles = subtitles ? subtitles + ", " + subTrack[1] : subTrack[1]}}
+            {{yield awardNominations() film}}
+            <div class="element-switcher-wrapper">
+              <s72-element-switcher>
+                {{if isEnabled("element_switcher_enabled")}}
+                  <div class="meta-detail-switcher-tagline">
+                    <p>{{film.Tagline}}</p>
+                  </div>
+                {{end}}
+                <div class="{{ isEnabled("element_switcher_enabled") ? "s72-hide" : "" }}"> {* hide class prevents FOUC *}
+                  <div class="meta-detail-synopsis">{{film.Overview | raw}}</div>
+                  <div class="meta-detail-info">
+                    {{if len(film.Cast) > 0 }}
+                      <div class="meta-detail-cast">
+                        <h2>{{i18n("meta_detail_cast_title")}}</h2>
+                        <p>
+                          {{range index, member := film.Cast}}
+                            {{ path := "/search.html?q=" + member.Name }}
+                            <a href="{{ routeToPath(path) }}">{{member.Name}}</a>{{if index < len(film.Cast) - 1}}, {{end}}
+                          {{end}}
+                        </p>
+                      </div>
+                    {{end}}
+                    {{range index, member := film.Crew}}
+                      <div class="meta-detail-crew">
+                        <h2>{{member.Job}}</h2>
+                        {{ path := "/search.html?q=" + member.Name }}
+                        <a href="{{ routeToPath(path) }}">{{member.Name}}</a>
+                      </div>
+                    {{end}}
+                    {{if len(film.Languages) > 0 }}
+                      <div class="meta-detail-language">
+                        <h2>{{i18n("meta_detail_languages", len(film.Languages))}}</h2>
+                        <p>{{ film.Languages }}</p>
+                      </div>
+                    {{end}}
+                    {{allSubtitles := film.GetSubtitles()}}
+                    {{if len(allSubtitles) > 0 }}
+                      {{subtitles := ""}}
+                      {{captions := ""}}
+                      {{if len(film.SubtitleTracks) == 0}}
+                        {{subtitles = allSubtitles}}
+                      {{else}}
+                        {{range subTrack := film.SubtitleTracks}}
+                          {{if len(subTrack) >= 3}}
+                            {{if subTrack[2] == "caption"}}
+                                {{captions = captions ? captions + ", " + subTrack[1] : subTrack[1]}}
+                            {{else}}
+                                {{subtitles = subtitles ? subtitles + ", " + subTrack[1] : subTrack[1]}}
+                            {{end}}
                           {{end}}
                         {{end}}
                       {{end}}
+                      {{if subtitles}}
+                        <div class="meta-detail-subtitle">
+                          <h2>{{i18n("meta_detail_subtitles")}}</h2>
+                          <p>{{subtitles}}</p>
+                        </div>
+                      {{end}}
+                      {{if captions}}
+                        <div class="meta-detail-subtitle">
+                          <h2>{{i18n("meta_detail_captions")}}</h2>
+                          <p>{{captions}}</p>
+                        </div>
+                      {{end}}
                     {{end}}
-                    {{if subtitles}}
-                      <div class="meta-detail-subtitle">
-                        <h2>{{i18n("meta_detail_subtitles")}}</h2>
-                        <p>{{subtitles}}</p>
+                    {{if len(film.Countries) > 0 }}
+                      <div class="meta-detail-country">
+                        <h2>{{i18n("meta_detail_countries", len(film.Countries))}}</h2>
+                        <p>{{ film.Countries }}</p>
                       </div>
                     {{end}}
-                    {{if captions}}
-                      <div class="meta-detail-subtitle">
-                        <h2>{{i18n("meta_detail_captions")}}</h2>
-                        <p>{{captions}}</p>
+                    {{if len(film.Studio) > 0 }}
+                      <div class="meta-detail-studio">
+                        <h2>{{i18n("meta_detail_studios", len(film.Studio))}}</h2>
+                        {*{ FORMAT STUDIOS }*}
+                        {{ studios := "" }}
+                        {{ range studio := film.Studio }}
+                          {{ studios = studios + studio + ", "}}
+                        {{ end }}
+                        {{ if len(studios) > 0 }}
+                          {{ studios = studios[0:len(studios) - 2] }}
+                        {{ end }}
+                        <p>{{ studios }}</p>
                       </div>
                     {{end}}
-                  {{end}}
-                  {{if len(film.Countries) > 0 }}
-                    <div class="meta-detail-country">
-                      <h2>{{i18n("meta_detail_countries", len(film.Countries))}}</h2>
-                      <p>{{ film.Countries }}</p>
-                    </div>
-                  {{end}}
-                  {{if len(film.Studio) > 0 }}
-                    <div class="meta-detail-studio">
-                      <h2>{{i18n("meta_detail_studios", len(film.Studio))}}</h2>
-                      {*{ FORMAT STUDIOS }*}
-                      {{ studios := "" }}
-                      {{ range studio := film.Studio }}
-                        {{ studios = studios + studio + ", "}}
-                      {{ end }}
-                      {{ if len(studios) > 0 }}
-                        {{ studios = studios[0:len(studios) - 2] }}
-                      {{ end }}
-                      <p>{{ studios }}</p>
-                    </div>
-                  {{end}}
+                  </div>
                 </div>
-              </div>
-            </s72-element-switcher>
-            {{yield sponsor() film}}
+              </s72-element-switcher>
+              {{yield sponsor() film}}
+            </div>
           </div>
           {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}
             <section class="meta-detail-bonus-content" aria-label="{{i18n("meta_detail_bonus_title")}}">
