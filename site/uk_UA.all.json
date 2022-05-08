@@ -1023,7 +1023,7 @@
     "other": "Скасувати підписку?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Це скасує підписку на {{.Name}} план.Ви все одно зможете подивитися вміст у плані, поки не закінчується {{.Expiry}}."
+    "other": "Це скасує підписку на {{.Name}}. Ви все одно зможете переглядати вміст, доки термін його дії не закінчиться {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Скоро у доступі"
@@ -1175,7 +1175,7 @@
     "other": "АБО"
   },
   "page_plan_explore_link": {
-    "other": "Дослідіть інші перевали"
+    "other": "Досліджуйте більше"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Придбайте зараз"
@@ -1314,5 +1314,23 @@
   },
   "nav_subscriptions": {
     "other": "Мої підписки"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Перший платіж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Наступний платіж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Закінчується {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Завершено {{ .Expiry }} закінчився"
+  },
+  "sponsor_image_alt": {
+    "other": "логотип спонсора"
   }
 }

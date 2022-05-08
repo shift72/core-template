@@ -929,7 +929,7 @@
     "other": "Avbestille abonnementet?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Dette vil kansellere abonnementet på {{.Name}} Du vil fortsatt kunne se innholdet i planen til den utløper {{.Expiry}}."
+    "other": "Dette vil kansellere abonnementet på {{.Name}}. Du vil fortsatt kunne se innholdet til det utløper {{.Expiry}}."
   },
   "shopping_card_update_reason_none": {
     "other": "Oppdater kredittkortet ditt. Støttede kort er Visa, Mastercard og American Expresse"
@@ -1051,7 +1051,7 @@
     "other": "ELLER"
   },
   "page_plan_explore_link": {
-    "other": "Utforsk andre pass"
+    "other": "Utforsk mer"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Kjøp nå"
@@ -1286,5 +1286,23 @@
   },
   "nav_subscriptions": {
     "other": "Mine abonnementer"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Første betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Neste betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Forfaller betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Slutter {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Avsluttet {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "sponsorlogo"
   }
 }
