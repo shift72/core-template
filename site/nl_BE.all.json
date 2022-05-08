@@ -1188,6 +1188,9 @@
   "wcag_aria_label_carousel": {
     "other": "Carrousel"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginering"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Page Collecties"
   },

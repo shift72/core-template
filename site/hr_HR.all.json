@@ -1058,6 +1058,9 @@
   "wcag_aria_label_carousel": {
     "other": "Kružni prikaz"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginacija"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Zbirka stranica"
   },

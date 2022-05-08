@@ -1138,6 +1138,9 @@
   "wcag_aria_label_carousel": {
     "other": "المشاركات الدائرية"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "ترقيم الصفحات"
+  },
   "wcag_aria_label_page_collection": {
     "other": "صفحة المجموعات"
   },

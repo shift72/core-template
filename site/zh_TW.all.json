@@ -1135,7 +1135,9 @@
   "wcag_aria_label_carousel": {
     "other": "輪播"
   },
-  "wcag_aria_label_carousel_pagination": { "other": "分页" },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "分页"
+  },
   "wcag_aria_label_page_collection": {
     "other": "收藏頁面"
   },

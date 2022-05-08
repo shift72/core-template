@@ -1231,6 +1231,9 @@
   "wcag_aria_label_carousel": {
     "other": "Карусель"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Пагінація"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Колекція сторінок"
   },

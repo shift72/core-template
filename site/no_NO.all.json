@@ -1101,6 +1101,9 @@
   "wcag_aria_label_carousel": {
     "other": "Karusell"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginering"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Page Karusell"
   },

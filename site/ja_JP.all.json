@@ -949,6 +949,9 @@
   "wcag_aria_label_carousel": {
     "other": "カルーセル"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "ページ付け"
+  },
   "wcag_aria_label_page_collection": {
     "other": "ページコレクション"
   },
