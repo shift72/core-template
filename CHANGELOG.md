@@ -29,17 +29,18 @@
 
 ## [0.5.0](https://github.com/shift72/core-template/compare/0.4.4...0.5.0)
 
-- Upgrade to kibble `0.16.6`.
-- Moved references from `film.Images` to `film.ImageMap`.
-- Removed minimum page height from content pages.
-- Moved skip link above cookie consent banner
-
 ### Added
 - Start the site with an admin build: `npm start --admin`.
 - Added Core template version to `<head>` and `kibble.json`.
 - Added styling for floating donate button to use button sass variables.
 - A bunch of missing language keys across language files.
 - Automated translation command
+
+### Changed
+- Upgrade to kibble `0.16.6`.
+- Moved references from `film.Images` to `film.ImageMap`.
+- Removed minimum page height from content pages.
+- Moved skip link above cookie consent banner
 
 ### Fixed
 - Can now override the cookie consent styling.
