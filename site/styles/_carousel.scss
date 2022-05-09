@@ -219,6 +219,10 @@ s72-carousel {
     
 
     /* stylelint-disable selector-max-compound-selectors */
+
+    .s72-btn-purchase, .s72-btn-rent{
+      align-self: flex-start;
+    }
     .meta-detail-extras,
     .meta-item-extras,
     s72-play-button,
@@ -226,9 +230,14 @@ s72-carousel {
       margin-bottom: 10px;
       margin-left: 0.5rem;
       margin-right: 0.5rem;
+      align-self: flex-start;
+
     }
-    s72-pricing-buttons .s72-btn {
-      margin-bottom: 10px;
+    s72-pricing-buttons {
+      width: 100%;
+      .s72-btn {
+        margin-bottom: 10px;
+      }
     }
     // Handles spacing when there is only rent, only buy, or only play button
     s72-play-button {
@@ -245,6 +254,10 @@ s72-carousel {
       margin-left: 0; //override relish
     }
 
+    .s72-pricing-button-container .s72-btn:only-of-type {
+      grid-column: 1 / 3;
+    }
+
     .s72-pricing-button-container {
       display: grid;
       grid-gap: 0 10px;
@@ -252,9 +265,14 @@ s72-carousel {
       padding-left: 0.5rem;
       padding-right: 0.5rem;
 
-      .s72-btn-subscribe {
+      .s72-subscribe-wrapper {
         grid-column: 1 / 3;
-        white-space: nowrap;
+        width: 100%;
+      }
+
+      &:empty {
+        padding-left: 0;
+        padding-right: 0;
       }
     }
 

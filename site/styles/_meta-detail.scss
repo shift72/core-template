@@ -215,6 +215,10 @@ s72-element-switcher,
     min-height: 45px;
    
     /* stylelint-disable selector-max-compound-selectors */
+    .s72-btn-purchase, .s72-btn-rent{
+      align-self: flex-start;
+    }
+
     .meta-detail-extras,
     s72-play-button,
     can-be-watched-button:not(:empty) {
@@ -232,6 +236,13 @@ s72-element-switcher,
       margin-bottom: 10px;
     }
 
+    s72-pricing-buttons{
+      width: 100%;
+
+      &:only-child {
+        grid-column: 1 / 3;
+      }
+    }
     // Handles spacing when there is only rent, only buy, or only play button
     s72-play-button {
       &:nth-child(1) {
@@ -246,6 +257,10 @@ s72-element-switcher,
       margin-left: 0; //override relish
     }
 
+    .s72-pricing-button-container .s72-btn:only-of-type {
+      grid-column: 1 / 3;
+    }
+
     .s72-pricing-button-container {
       display: grid;
       grid-gap: 0 10px;
@@ -253,9 +268,14 @@ s72-element-switcher,
       padding-left: 0.5rem;
       padding-right: 0.5rem;
 
-      .s72-btn-subscribe {
+      .s72-subscribe-wrapper {
         grid-column: 1 / 3;
-        white-space: nowrap;
+        width: 100%;
+      }
+
+      &:empty {
+        padding-left: 0;
+        padding-right: 0;
       }
     }
 
@@ -296,6 +316,7 @@ s72-element-switcher,
     @extend .d-flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-self: flex-start;
     @include media-breakpoint-up(md) {
       flex-direction: row;
     }

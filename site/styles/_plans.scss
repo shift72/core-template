@@ -84,16 +84,16 @@ s72-plan-label {
   }
 }
 
-
 .s72-subscribe-trial-label {
   display: block;
   font-size: 12px;
   margin-left: 10px;
   min-width: 140px;
   padding-left: 15px;
+  white-space: nowrap;
+  width: 0;
 
   @include media-breakpoint-down(sm) {
     display: none;
   }
 }
-
