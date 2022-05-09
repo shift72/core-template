@@ -46,7 +46,7 @@
     {{end}}
 
     {{if isset(.Items)}}
-      {{itemCount := .Items.IsMovie()}}
+      {{itemCount := .Items.GetCount()}}
       {{allFilms := itemCount.film > 0 && itemCount.tvseason == 0}}
       {{allSeasons := itemCount.film == 0 && itemCount.tvseason > 0}}
       {{yield taglineItem() content}}
