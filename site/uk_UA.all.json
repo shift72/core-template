@@ -805,7 +805,7 @@
     "other": "Контент, що входить до цього комплекту."
   },
   "bundle_items_mixed": {
-    "many": "{{.FilmCount}} і {{.SeasonCount}}"
+    "other": "{{.FilmCount}} і {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Мій список"
