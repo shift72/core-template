@@ -46,12 +46,22 @@
     {{end}}
 
     {{if isset(.Items)}}
+      {{itemCount := .Items.IsMovie()}}
+      {{allFilms := itemCount.film > 0 && itemCount.tvseason == 0}}
+      {{allSeasons := itemCount.film == 0 && itemCount.tvseason > 0}}
       {{yield taglineItem() content}}
-        {{i18n("bundle_items_all_films", len(.Items))}}
-      {{end}}
-      {{yield taglineDivider(dividers=dividers)}}
-      {{dividers = dividers - 1}}
+        {{if allFilms  }}
+          {{i18n("film_count", itemCount.film)}}
+        {{ else if allSeasons }}
+          {{i18n("season_count", itemCount.tvseason)}}
+        {{ else }}
+          {{i18n("bundle_items_mixed", map("FilmCount", i18n("film_count", itemCount.film), "SeasonCount", i18n("season_count",itemCount.tvseason)))}}
+        {{end}}
     {{end}}
+    {{yield taglineDivider(dividers=dividers)}}
+    {{dividers = dividers - 1}}
+    {{end}}
+
 
     {{if isset(.Episodes)}}
       {{yield taglineItem() content}}
