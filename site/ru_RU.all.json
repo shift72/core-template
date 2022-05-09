@@ -747,7 +747,7 @@
     "other": "Фильм включен в этот абонемент"
   },
   "bundle_items_mixed": {
-    "many": "{{.FilmCount}} и {{.SeasonCount}}"
+    "other": "{{.FilmCount}} и {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Мой список"
