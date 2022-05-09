@@ -1,5 +1,6 @@
 {{import "../items/tagline.jet"}}
 {{import "../common/awards/carousel.jet"}}
+{{import "../common/sponsor-image.jet"}}
 
 {{block carouselItem(item)}}
   {{ trailer := "" }}
@@ -19,6 +20,9 @@
 
       {{if !isset(item["PageType"]) || item.PageType != "external"}}
         <div class="carousel-item-caption">
+          {{if item.ItemType == "film"}}
+            {{yield sponsor(hideLink="true") item.InnerItem}}
+          {{end}}
           <div class="meta-item-content">
             <h3>{{item.GetTitle(i18n)}}
               {{if isset(item.InnerItem["ReleaseDate"]) && item.InnerItem.ReleaseDate.Year() > 1}}
