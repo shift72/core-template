@@ -6,7 +6,7 @@
 
 ### Added
 - If the signed in user has plans to show, they will now be visible in `subscriptions.html.jet` with a link from "My Subscriptions" in the menu.
-- Styling and translations to support subscriptions (SVOD).
+- Styling and translations to support SVOD subscriptions.
 - `.nvmrc` to pin versions of Node/NPM.
 - Developer tool to fetch translations from Google Translate.
 - Social media buttons replaced with share modal.
@@ -15,12 +15,11 @@
 
 ### Changed
 - Default Font Awesome removed. A trimmed icons file is now in `fa-s72.woff` being used by `_icons.scss`.
-- Styling changes to awards, availability label/status
+- Styling changes to awards and availability label/status.
 
 ### Fixed
 - Removed some redundant wishlist CSS.
 - Improved and translated element switcher.
-- Reworded the share modal text.
 - Removed suffixed `plan` from subscription translations.
 - Changed incorrect language code for Estonia.
 - Donate button hover color.
