@@ -639,10 +639,3 @@ s72-element-switcher {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-// keep the bonus/episode items below poster per designs
-.meta-detail-inner-wrapper {
-  @include media-breakpoint-up(md) {
-    min-height: 340px;
-  }
-}
