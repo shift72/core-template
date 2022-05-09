@@ -31,7 +31,12 @@
 
   --carousel-height: 560px;
   --carousel-height-lg: 620px;
-  --s72-carousel-height: 20px; // Adds additional height to s72-carousel in carousel.scss.
+
+  // "Empty" container used to push down content below the carousel. 
+  // Carousel height - Height of anything above the carousel + 30px.
+  --s72-carousel-height: 480px;
+  --s72-carousel-height-sm: 480px; // 550 - 100 + 30
+  --s72-carousel-height-lg: 478px; // 620 - 172 + 30
 }
 
 // Bootstrap 4 overrides START

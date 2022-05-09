@@ -1,23 +1,14 @@
 s72-carousel {
   display: block;
-  height: calc(
-    var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 50px + var(--s72-carousel-height)
-  );
+  height: var(--s72-carousel-height);
   margin: 0 auto;
   position: static;
   width: 100%;
   @include media-breakpoint-up(sm) {
-    height: calc(
-      var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 50px +
-        var(--s72-carousel-height)
-    );
+    height: var(--s72-carousel-height-sm);
   }
-
   @include media-breakpoint-up(lg) {
-    height: calc(
-      var(--carousel-height) - (var(--navbar-brand-padding-y) * 2) - 60px +
-        var(--s72-carousel-height)
-    );
+    height: var(--s72-carousel-height-lg);
   }
 }
 
