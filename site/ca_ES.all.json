@@ -29,6 +29,10 @@
   "fr": {
     "other": "Francès"
   },
+  "film_count": {
+    "one": "1 pel·lícula",
+    "other": "{{.Count}} pel·lícules"
+  },
   "episode_name": {
     "other": "Episodi"
   },
@@ -37,6 +41,10 @@
   },
   "seasons": {
     "one": "una temporada",
+    "other": "{{.Count}} temporades"
+  },
+  "season_count": {
+    "one": "1 temporada",
     "other": "{{.Count}} temporades"
   },
   "tvseason": {
@@ -796,7 +804,7 @@
     "other": "{{.Count}} Temporades"
   },
   "bundle_items_mixed": {
-    "other": "{{.Count}} Films i temporades"
+    "other": "{{.FilmCount}} i {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "La meva llista"

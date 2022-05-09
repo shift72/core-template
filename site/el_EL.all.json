@@ -29,6 +29,10 @@
   "fr": {
     "other": "French"
   },
+  "film_count": {
+    "one": "1 ταινία",
+    "other": "{{.Count}} ταινίες"
+  },
   "episode_name": {
     "other": "Επεισόδιο"
   },
@@ -37,6 +41,10 @@
   },
   "seasons": {
     "one": "one εποχές",
+    "other": "{{.Count}} εποχές"
+  },
+  "season_count": {
+    "one": "1 εποχές",
     "other": "{{.Count}} εποχές"
   },
   "tvseason": {
@@ -714,14 +722,8 @@
   "meta_detail_bundle_items_title": {
     "other": "Περιεχόμενο σε αυτό το πακέτο."
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} ταινίες"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} σεζόν"
-  },
   "bundle_items_mixed": {
-    "other": "{{.Count}} ταινιών και σεζόν"
+    "other": "{{.FilmCount}} και {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Η λίστα μου."

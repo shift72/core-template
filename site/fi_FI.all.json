@@ -35,6 +35,10 @@
   "season_name": {
     "other": "Kausi"
   },
+  "film_count": {
+    "one": "1 elokuva",
+    "other": "{{.Count}} elokuvia"
+  },
   "date_day": {
     "other": "Päivä"
   },
@@ -679,14 +683,8 @@
   "meta_detail_bundle_items_title": {
     "other": "Tämän paketin sisältämät tuotteet"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} elokuvaa"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} kautta"
-  },
   "bundle_items_mixed": {
-    "other": "{{.Count}} elokuvaa ja kautta"
+    "other": "{{.FilmCount}} ja {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Listani"
@@ -1167,6 +1165,10 @@
   },
   "seasons": {
     "one": "yksi kausi",
+    "other": "{{.Count}} vuodenajat"
+  },
+  "season_count": {
+    "one": "1 kausi",
     "other": "{{.Count}} vuodenajat"
   },
   "tvseason": {

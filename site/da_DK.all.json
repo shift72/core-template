@@ -29,6 +29,10 @@
   "fr": {
     "other": "Fransk"
   },
+  "film_count": {
+    "one": "1 film",
+    "other": "{{.Count}} film"
+  },
   "episode_name": {
     "other": "Episode"
   },
@@ -37,6 +41,10 @@
   },
   "seasons": {
     "one": "en sæson",
+    "other": "{{.Count}} sæsoner"
+  },
+  "season_count": {
+    "one": "1 sæson",
     "other": "{{.Count}} sæsoner"
   },
   "tvseason": {
@@ -771,14 +779,8 @@
   "meta_detail_bundle_items_title": {
     "other": "Film man kan se i denne filmpakke"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} film"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} film"
-  },
   "bundle_items_mixed": {
-    "other": "{{.Count}} film"
+    "other": "{{.FilmCount}} og {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Min liste"

@@ -29,6 +29,10 @@
   "fr": {
     "other": "الفرنسية"
   },
+  "film_count": {
+    "one": "1 فيلم",
+    "other": "{{.Count}} أفلام"
+  },
   "episode_name": {
     "other": "حلقة"
   },
@@ -36,6 +40,10 @@
     "other": "موسم"
   },
   "seasons": {
+    "one": "مواسم",
+    "other": "{{.Count}} مواسم"
+  },
+  "season_count": {
     "one": "مواسم",
     "other": "{{.Count}} مواسم"
   },
@@ -793,7 +801,7 @@
     "other": "{{.Count}} مواسم"
   },
   "bundle_items_mixed": {
-    "other": "{{.Count}} أفلام ومواسم"
+    "other": "{{.FilmCount}} و {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "قائمتي"

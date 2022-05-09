@@ -29,6 +29,10 @@
   "fr": {
     "other": "French"
   },
+  "film_count": {
+    "one": "1 映画",
+    "other": "{{.Count}} 映画"
+  },
   "episode_name": {
     "other": "シーズン"
   },
@@ -679,14 +683,8 @@
   "meta_detail_bundle_items_title": {
     "other": "このパックに含まれる作品"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} 作品"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} シーズン"
-  },
   "bundle_items_mixed": {
-    "other": "{{.Count}} 作品およびシーズン"
+    "other": "{{.FilmCount}}および{{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "マイリスト"
@@ -1167,6 +1165,10 @@
   },
   "seasons": {
     "one": "ワンシーズン",
+    "other": "{{.Count}}シーズン"
+  },
+  "season_count": {
+    "one": "1シーズン",
     "other": "{{.Count}}シーズン"
   },
   "tvseason": {

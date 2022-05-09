@@ -29,6 +29,10 @@
   "fr": {
     "other": "French"
   },
+  "film_count": {
+    "one": "1 film",
+    "other": "{{.Count}} filmer"
+  },
   "episode_name": {
     "other": "Episode"
   },
@@ -37,6 +41,10 @@
   },
   "seasons": {
     "one": "one årstid",
+    "other": "{{.Count}} årstid"
+  },
+  "season_count": {
+    "one": "1 årstid",
     "other": "{{.Count}} årstid"
   },
   "tvseason": {
@@ -727,7 +735,7 @@
     "other": "{{.Count}} sesonger"
   },
   "bundle_items_mixed": {
-    "other": "{{.Count}} filmer og sesonger"
+    "other": "{{.FilmCount}} og {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Min liste"

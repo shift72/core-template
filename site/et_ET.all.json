@@ -29,6 +29,10 @@
   "fr": {
     "other": "prantsuse keel"
   },
+  "film_count": {
+    "one": "1 film",
+    "other": "{{.Count}} filmid"
+  },
   "episode_name": {
     "other": "Episood"
   },
@@ -37,6 +41,10 @@
   },
   "seasons": {
     "one": "üks hooaeg",
+    "other": "{{.Count}} hooaega"
+  },
+  "season_count": {
+    "one": "1 hooaeg",
     "other": "{{.Count}} hooaega"
   },
   "tvseason": {
@@ -727,7 +735,7 @@
     "other": "{{.Count}} hooaega"
   },
   "bundle_items_mixed": {
-    "other": "{{.Count}} filmi ja hooaega"
+    "other": "{{.FilmCount}} ja {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Minu nimekiri"

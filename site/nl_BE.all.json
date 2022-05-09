@@ -29,6 +29,10 @@
   "fr": {
     "other": "French"
   },
+  "film_count": {
+    "one": "1 film",
+    "other": "{{.Count}} films"
+  },
   "episode_name": {
     "other": "Aflevering"
   },
@@ -37,6 +41,10 @@
   },
   "seasons": {
     "one": "one seizoen",
+    "other": "{{.Count}} seizoen"
+  },
+  "season_count": {
+    "one": "1 seizoen",
     "other": "{{.Count}} seizoen"
   },
   "tvseason": {
@@ -756,14 +764,8 @@
   "meta_detail_bundle_items_title": {
     "other": "Inhoud van de bundel"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} films"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} seizoenen"
-  },
   "bundle_items_mixed": {
-    "other": "{{.Count}} films and seizoenen"
+    "other": "{{.FilmCount}} en {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Mijn Lijst"

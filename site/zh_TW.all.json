@@ -29,6 +29,10 @@
   "fr": {
     "other": "法語"
   },
+  "film_count": {
+    "one": "1 部電影",
+    "other": "{{.Count}} 電影"
+  },
   "episode_name": {
     "other": "集"
   },
@@ -36,6 +40,10 @@
     "other": "季"
   },
   "seasons": {
+    "one": "共 1 季",
+    "other": "共 {{.Count}} 季"
+  },
+  "season_count": {
     "one": "共 1 季",
     "other": "共 {{.Count}} 季"
   },
@@ -789,14 +797,8 @@
   "meta_detail_bundle_items_title": {
     "other": "此影片合輯包括以下內容"
   },
-  "bundle_items_all_films": {
-    "other": "共 {{.Count}} 部影片"
-  },
-  "bundle_items_all_seasons": {
-    "other": "共 {{.Count}} 部影集"
-  },
   "bundle_items_mixed": {
-    "other": "共 {{.Count}} 部影片與影集"
+    "other": "{{.FilmCount}} 和 {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "我的追蹤片單"

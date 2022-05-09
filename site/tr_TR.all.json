@@ -29,6 +29,10 @@
   "fr": {
     "other": "Fransızca"
   },
+  "film_count": {
+    "one": "1 film",
+    "other": "{{.Count}} filmler"
+  },
   "episode_name": {
     "other": "Bölüm"
   },
@@ -37,6 +41,10 @@
   },
   "seasons": {
     "one": "bir sezon",
+    "other": "{{.Count}} sezon"
+  },
+  "season_count": {
+    "one": "1 sezon",
     "other": "{{.Count}} sezon"
   },
   "tvseason": {
@@ -720,14 +728,8 @@
   "meta_detail_bundle_items_title": {
     "other": "Content included in this bundle"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} film"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} sezon"
-  },
   "bundle_items_mixed": {
-    "other": "{{.Count}} film ve sezon"
+    "other": "{{.FilmCount}} ve {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Benim Listem"

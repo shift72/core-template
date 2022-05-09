@@ -29,6 +29,10 @@
   "fr": {
     "other": "Французский"
   },
+  "film_count": {
+    "one": "1 филм",
+    "other": "{{.Count}} филмовима"
+  },
   "episode_name": {
     "other": "Епизода"
   },
@@ -37,6 +41,10 @@
   },
   "seasons": {
     "one": "один сезон",
+    "other": "{{.Count}} сезоны"
+  },
+  "season_count": {
+    "one": "1 сезон",
     "other": "{{.Count}} сезоны"
   },
   "tvseason": {
@@ -735,14 +743,8 @@
   "meta_detail_bundle_items_title": {
     "other": "Садржај овог пакета"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} филмова"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} сезона"
-  },
   "bundle_items_mixed": {
-    "other": "{{.Count}} филмова и сезона"
+    "other": "{{.ФилмЦоунт}} и {{.СеасонЦоунт}}"
   },
   "userwishlist_page_header": {
     "other": "Моја листа"

@@ -29,6 +29,10 @@
   "fr": {
     "other": "French"
   },
+  "film_count": {
+    "one": "1 film",
+    "other": "{{.Count}} filmovima"
+  },
   "episode_name": {
     "other": "Epizoda"
   },
@@ -36,6 +40,10 @@
     "other": "Sezona"
   },
   "seasons": {
+    "other": "{{.Count}} sezona"
+  },
+  "season_count": {
+    "one": "1 sezona",
     "other": "{{.Count}} sezona"
   },
   "tvseason": {
@@ -770,14 +778,8 @@
   "meta_detail_bundle_items_title": {
     "other": "Sadržaj uključen u ovaj paket"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} filmova"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} sezona"
-  },
   "bundle_items_mixed": {
-    "other": "{{.Count}} filmova i sezona"
+    "other": "{{.FilmCount}} i {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Moj popis"

@@ -32,6 +32,10 @@
   "fr": {
     "other": "Français"
   },
+  "film_count": {
+    "one": "1 film",
+    "other": "{{.Count}} films"
+  },
   "episode_name": {
     "other": "Épisode"
   },
@@ -40,6 +44,10 @@
   },
   "seasons": {
     "one": "un saison",
+    "other": "{{.Count}} saisons"
+  },
+  "season_count": {
+    "one": "1 saison",
     "other": "{{.Count}} saisons"
   },
   "tvseason": {
@@ -750,14 +758,8 @@
   "meta_detail_bundle_items_title": {
     "other": "Contenus inclus dans le forfait"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} films"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} séries"
-  },
   "bundle_items_mixed": {
-    "other": "{{.Count}} films et séries"
+    "other": "{{.FilmCount}} et {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Ma liste"

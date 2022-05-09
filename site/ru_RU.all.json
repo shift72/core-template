@@ -32,6 +32,10 @@
   "fr": {
     "other": "Французский"
   },
+  "film_count": {
+    "one": "1 фильм",
+    "other": "{{.Count}} фильмы"
+  },
   "episode_name": {
     "other": "Эпизод"
   },
@@ -41,6 +45,10 @@
   "seasons": {
     "one": "один сезон",
     "few": "{{.Count}} сезоны",
+    "many": "{{.Count}} сезоны"
+  },
+  "season_count": {
+    "one": "1 сезон",
     "many": "{{.Count}} сезоны"
   },
   "tvseason": {
@@ -738,17 +746,8 @@
   "meta_detail_bundle_items_title": {
     "other": "Фильм включен в этот абонемент"
   },
-  "bundle_items_all_films": {
-    "few": "{{.Count}} фильмы",
-    "many": "{{.Count}} фильмы"
-  },
-  "bundle_items_all_seasons": {
-    "few": "{{.Count}} сезоны",
-    "many": "{{.Count}} сезоны"
-  },
   "bundle_items_mixed": {
-    "few": "{{.Count}} фильмы и сезоны",
-    "many": "{{.Count}} фильмы и сезоны"
+    "many": "{{.FilmCount}} и {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Мой список"

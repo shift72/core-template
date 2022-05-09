@@ -29,6 +29,10 @@
   "fr": {
     "other": "French"
   },
+  "film_count": {
+    "one": "1 film",
+    "other": "{{.Count}} filmeket"
+  },
   "episode_name": {
     "other": "Epizód"
   },
@@ -37,6 +41,10 @@
   },
   "seasons": {
     "one": "egy szezont",
+    "other": "{{.Count}} évszakok"
+  },
+  "season_count": {
+    "one": "1 évad",
     "other": "{{.Count}} évszakok"
   },
   "tvseason": {
@@ -720,14 +728,8 @@
   "meta_detail_bundle_items_title": {
     "other": "A válogatásban szereplő filmek"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} film"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} évad"
-  },
   "bundle_items_mixed": {
-    "other": "{{.Count}} film és évad"
+    "other": "{{.FilmCount}} és {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Listám"

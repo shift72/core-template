@@ -29,6 +29,10 @@
   "fr": {
     "other": "French"
   },
+  "film_count": {
+    "one": "1 film",
+    "other": "{{.Count}} filmy"
+  },
   "episode_name": {
     "other": "Odcinek"
   },
@@ -723,10 +727,7 @@
     "other": "{{.Count}} odcinków"
   },
   "bundle_items_mixed": {
-    "one": "{{.Count}} filmów i odcinków",
-    "few": "{{.Count}} filmów i odcinków",
-    "many": "{{.Count}} filmów i odcinków",
-    "other": "{{.Count}} filmów i odcinków"
+    "other": "{{.FilmCount}} i {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Moja lista"
@@ -1212,6 +1213,10 @@
   },
   "seasons": {
     "one": "jeden sezon",
+    "other": "{{.Count}} pory roku"
+  },
+  "season_count": {
+    "one": "1 sezon",
     "other": "{{.Count}} pory roku"
   },
   "tvseason": {

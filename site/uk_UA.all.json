@@ -29,6 +29,10 @@
   "fr": {
     "other": "Французький"
   },
+  "film_count": {
+    "one": "1 фільм",
+    "other": "{{.Count}} фільми"
+  },
   "episode_name": {
     "other": "Епізод"
   },
@@ -37,6 +41,11 @@
   },
   "seasons": {
     "one": "один сезон",
+    "few": "{{.Count}} сезони",
+    "many": "{{.Count}} сезони"
+  },
+  "season_count": {
+    "one": "1 сезон",
     "few": "{{.Count}} сезони",
     "many": "{{.Count}} сезони"
   },
@@ -795,17 +804,8 @@
   "meta_detail_bundle_items_title": {
     "other": "Контент, що входить до цього комплекту."
   },
-  "bundle_items_all_films": {
-    "few": "{{.Count}} фільмів",
-    "many": "{{.Count}} фільмів"
-  },
-  "bundle_items_all_seasons": {
-    "few": "{{.Count}} сезонів",
-    "many": "{{.Count}} сезонів"
-  },
   "bundle_items_mixed": {
-    "few": "{{.Count}} фільмів і сезонів",
-    "many": "{{.Count}} фільмів і сезонів"
+    "many": "{{.FilmCount}} і {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Мій список"

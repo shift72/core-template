@@ -29,6 +29,10 @@
   "fr": {
     "other": "French"
   },
+  "film_count": {
+    "one": "1 filme",
+    "other": "{{.Count}} filmes"
+  },
   "episode_name": {
     "other": "Episódio"
   },
@@ -37,6 +41,10 @@
   },
   "seasons": {
     "one": "uma temporada",
+    "other": "{{.Count}} temporadas"
+  },
+  "season_count": {
+    "one": "1 temporada",
     "other": "{{.Count}} temporadas"
   },
   "tvseason": {
@@ -789,14 +797,8 @@
   "meta_detail_bundle_items_title": {
     "other": "Conteúdo incluso nesse pacote"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} filmes"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} temporada"
-  },
   "bundle_items_mixed": {
-    "other": "{{.Count}} filmes e temporadas"
+    "other": "{{.FilmCount}} e {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Minha Lista"

@@ -29,6 +29,10 @@
   "fr": {
     "other": "French"
   },
+  "film_count": {
+    "one": "1 filmas",
+    "other": "{{.Count}} filmai"
+  },
   "episode_name": {
     "other": "Epizodas"
   },
@@ -37,6 +41,10 @@
   },
   "seasons": {
     "one": "vieną sezoną",
+    "other": "{{.Count}} sezonai"
+  },
+  "season_count": {
+    "one": "1 sezoną",
     "other": "{{.Count}} sezonai"
   },
   "tvseason": {
@@ -756,14 +764,8 @@
   "meta_detail_bundle_items_title": {
     "other": "Šiame rinkinyje rasite"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} filmų (-us)"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} sezonus (-ų)"
-  },
   "bundle_items_mixed": {
-    "other": "{{.Count}} filmus (-ų) ir sezonus (-ų)"
+    "other": "{{.FilmCount}} ir {{.SeasonCount}}"
   },
   "userwishlist_page_header": {
     "other": "Noriu pamatyti"
