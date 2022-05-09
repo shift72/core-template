@@ -794,12 +794,6 @@
   "meta_detail_bundle_items_title": {
     "other": "المحتوى المتضمن في هذه الحزمة"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} أفلام"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} مواسم"
-  },
   "bundle_items_mixed": {
     "other": "{{.FilmCount}} و {{.SeasonCount}}"
   },

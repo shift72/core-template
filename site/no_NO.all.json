@@ -728,12 +728,6 @@
   "meta_detail_bundle_items_title": {
     "other": "Innholdet i denne samlingen"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} filmer"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} sesonger"
-  },
   "bundle_items_mixed": {
     "other": "{{.FilmCount}} og {{.SeasonCount}}"
   },

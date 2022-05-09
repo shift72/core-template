@@ -797,12 +797,6 @@
   "meta_detail_bundle_items_title": {
     "other": "Contingut inclòs en aquest paquet"
   },
-  "bundle_items_all_films": {
-    "other": "{{.Count}} Films"
-  },
-  "bundle_items_all_seasons": {
-    "other": "{{.Count}} Temporades"
-  },
   "bundle_items_mixed": {
     "other": "{{.FilmCount}} i {{.SeasonCount}}"
   },
