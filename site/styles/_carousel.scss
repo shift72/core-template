@@ -20,6 +20,9 @@ s72-carousel {
   position: absolute;
   top: 0;
   width: 100%;
+  @include media-breakpoint-up(sm) {
+    height: var(--carousel-height-sm);
+  }
   @include media-breakpoint-up(lg) {
     height: var(--carousel-height-lg);
   }
