@@ -1001,9 +1001,11 @@
     "other": "Pris"
   },
   "shopping_price_plan_note": {
-    "zero": "Lades hvert {{ .Interval }} .",
     "one": "Belastet hvert {{ .Interval }} etter at den 24-timers gratis prøveperioden er over.",
     "other": "Belastet hvert {{ .Interval }} etter at {{ .Count }} dager avsluttes."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Lades hvert {{ .Interval }} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",

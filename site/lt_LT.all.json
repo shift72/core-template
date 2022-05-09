@@ -1082,9 +1082,11 @@
     "other": "Kaina"
   },
   "shopping_price_plan_note": {
-    "zero": "Įkraunama kas {{ .Interval }} .",
     "one": "{{ .Interval }} kas .Intervalas pasibaigus 24 valandų nemokamam bandomajam laikotarpiui.",
     "other": "{{ .Interval }} kas .Intervalas pasibaigus {{ .Count }} dienų bandomajam laikotarpiui."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Įkraunama kas {{ .Interval }} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",

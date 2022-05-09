@@ -1125,9 +1125,11 @@
     "other": "Ціна"
   },
   "shopping_price_plan_note": {
-    "zero": "Стягується через кожний {{ .Interval }} .",
     "one": "Стягується кожні {{ .Interval }} після закінчення 24-годинної безкоштовної пробної версії.",
     "other": "Заряджені кожен {{ .Interval }} після вашого {{ .Count }} дня закінчується безкоштовно суд."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Стягується через кожний {{ .Interval }} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",

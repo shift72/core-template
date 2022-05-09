@@ -1082,9 +1082,11 @@
     "other": "Prijs"
   },
   "shopping_price_plan_note": {
-    "zero": "Elk {{ .Interval }} opgeladen.",
     "one": "Elke {{ .Interval }} nadat uw gratis proefperiode van 24 uur is afgelopen.",
     "other": "Elk {{ .Interval }} nadat uw {{ .Count }} dag is afgelopen."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Elk {{ .Interval }} opgeladen."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",

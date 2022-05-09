@@ -1169,9 +1169,11 @@
     "other": "價錢"
   },
   "shopping_price_plan_note": {
-    "zero": "每隔{{ .Interval }}充電。",
     "one": "24 小時免費試用期結束後， {{ .Interval }}收費一次。",
     "other": "{{ .Count }}天免費試用期結束後， {{ .Interval }}收費一次。"
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "每隔{{ .Interval }}充電。"
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",

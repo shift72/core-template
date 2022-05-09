@@ -992,9 +992,11 @@
     "other": "Τιμή"
   },
   "shopping_price_plan_note": {
-    "zero": "Χρεώνεται κάθε {{ .Interval }} .",
     "one": "Χρεώνεται κάθε {{ .Interval }} μετά τη λήξη της δωρεάν δοκιμής 24 ωρών.",
     "other": "Χρεώνεται κάθε {{ .Interval }} μετά τη {{ .Count }} δωρεάν δοκιμής .Count day."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Χρεώνεται κάθε {{ .Interval }} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",

@@ -1082,9 +1082,11 @@
     "other": "Цена"
   },
   "shopping_price_plan_note": {
-    "zero": "Наплаћује се сваки {{ .Interval }} .",
     "one": "Наплаћује се сваки {{ .Interval }} након завршетка бесплатног пробног периода од 24 сата.",
     "other": "Оптужен сваки {{ .Interval }} после ваших {{ .Count }} дневни бесплатни пробни крајевима."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Наплаћује се сваки {{ .Interval }} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",
