@@ -846,7 +846,6 @@
     "other": "Hinta"
   },
   "shopping_price_plan_note": {
-    "zero": "{{ .Interval }} joka .intervalli .",
     "one": "{{ .Interval }} joka .väli 24 tunnin ilmaisen kokeilujakson päätyttyä.",
     "other": "Veloitetaan joka {{ .Interval }} {{ .Count }} päivän ilmaisen kokeilujakson päätyttyä."
   },

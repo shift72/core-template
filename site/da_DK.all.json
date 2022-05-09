@@ -1106,9 +1106,11 @@
     "other": "Pris"
   },
   "shopping_price_plan_note": {
-    "zero": "Opkræves hvert {{ .Interval }} .",
     "one": "Opkræves hvert {{ .Interval }} efter din 24 timers gratis prøveperiode slutter.",
     "other": "Opkræves hvert {{ .Interval }} efter din {{ .Count }} dages gratis prøveperiode slutter."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Opkræves hvert {{ .Interval }} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",

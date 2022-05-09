@@ -843,7 +843,6 @@
     "other": "価格"
   },
   "shopping_price_plan_note": {
-    "zero": "{{ .Interval }}ごとに課金されます。",
     "one": "24時間の無料トライアルが終了した後、.Intervalごとに{{ .Interval }}",
     "other": "{{ .Count }}日の無料トライアルが終了した後、.Intervalごとに{{ .Interval }}"
   },
