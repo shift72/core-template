@@ -186,6 +186,7 @@
   background: $button-background;
   border: 3px solid $button-background;
   min-width: 140px;
+  white-space: nowrap;
   @include hover-focus {
     background: $button-background-hover;
     border-color: $button-background-hover;
@@ -211,6 +212,7 @@
 }
 
 .btn-wishlist {
+  padding-top: 2px;
   p {
     margin: 0;
   }
