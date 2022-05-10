@@ -136,19 +136,19 @@
     "other": "Продовжити"
   },
   "social_media_buttons_title": {
-    "other": "Поділитися"
+    "other": "Поділіться"
   },
   "social_media_buttons_facebook": {
-    "other": "Поділіться на Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Поділіться у Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Поділіться на Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Поділіться електронною поштою"
+    "other": "Електронна пошта"
   },
   "social_media_buttons_email_subject": {
     "other": "Поділитися посиланням"
@@ -157,7 +157,7 @@
     "other": "Посилання скопійовано в буфер обміну!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Копіювати в буфер обміну"
+    "other": "Копіювати посилання"
   },
   "accept_invite_page_header": {
     "other": "Ласкаво просимо "
@@ -1023,7 +1023,7 @@
     "other": "Скасувати підписку?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Це скасує підписку на {{.Name}} план.Ви все одно зможете подивитися вміст у плані, поки не закінчується {{.Expiry}}."
+    "other": "Це скасує підписку на {{.Name}}. Ви все одно зможете переглядати вміст, доки термін його дії не закінчиться {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Скоро у доступі"
@@ -1175,7 +1175,7 @@
     "other": "АБО"
   },
   "page_plan_explore_link": {
-    "other": "Дослідіть інші перевали"
+    "other": "Досліджуйте більше"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Придбайте зараз"
@@ -1187,10 +1187,10 @@
     "other": "У конкурсі"
   },
   "meta_description_expand": {
-    "other": "Показати більше"
+    "other": "Побачити більше"
   },
   "meta_description_collapse": {
-    "other": "Показати менше"
+    "other": "Дивіться менше"
   },
   "awards_winner": {
     "other": "Переможець"
@@ -1278,5 +1278,59 @@
   },
   "header_banner": {
     "other": "Головний банер"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Підписки та виставлення рахунків"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Спосіб оплати"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Зміни в способі оплати кредитною карткою набудуть чинності під час наступного платіжного циклу."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Деталі підписки"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Активний"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Термін дії закінчився"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Відкрийте для себе підписки"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Відкрийте для себе чудовий вміст за чудовими цінами, яким легко керувати тут."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Перегляньте підписки"
+  },
+  "nav_subscriptions": {
+    "other": "Мої підписки"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Перший платіж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Наступний платіж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Закінчується {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Завершено {{ .Expiry }} закінчився"
+  },
+  "sponsor_image_alt": {
+    "other": "логотип спонсора"
   }
 }

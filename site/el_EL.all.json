@@ -134,19 +134,19 @@
     "other": "Συνέχιση"
   },
   "social_media_buttons_title": {
-    "other": "Μοιράσου το"
+    "other": "Μερίδιο"
   },
   "social_media_buttons_facebook": {
-    "other": "Κοινοποίηση στο Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Μοιραστείτε το στο Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Κοινή χρήση στο Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Κοινοποίηση μέσω email"
+    "other": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ"
   },
   "social_media_buttons_email_subject": {
     "other": "Κοινή χρήση συνδέσμου"
@@ -155,7 +155,7 @@
     "other": "Ο σύνδεσμος αντιγράφηκε στο πρόχειρο!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Αντιγραφή στο πρόχειρο"
+    "other": "Αντιγραφή συνδέσμου"
   },
   "accept_invite_page_header": {
     "other": "Καλώς ορίσατε "
@@ -923,7 +923,7 @@
     "other": "Ακύρωση συνδρομής;"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Αυτό θα ακυρώσει τη συνδρομή στο {{.Name}} σχέδιο. Θα εξακολουθείτε να μπορείτε να παρακολουθείτε το περιεχόμενο του προγράμματος έως και {{.Expiry}}."
+    "other": "Αυτό θα ακυρώσει τη συνδρομή στο {{.Name}}. Θα εξακολουθείτε να μπορείτε να παρακολουθείτε το περιεχόμενο μέχρι να λήξει {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Προσεχώς"
@@ -1042,7 +1042,7 @@
     "other": "Ή"
   },
   "page_plan_explore_link": {
-    "other": "Εξερευνήστε άλλα περάσματα"
+    "other": "Εξερευνήστε περισσότερα"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Αγορασε τωρα"
@@ -1057,7 +1057,7 @@
     "other": "Δείτε περισσότερα"
   },
   "meta_description_collapse": {
-    "other": "Δείξε λιγότερο"
+    "other": "Δείτε λιγότερο"
   },
   "awards_winner": {
     "other": "Νικητής"
@@ -1250,5 +1250,59 @@
   },
   "signin_form_error_account_suspended": {
     "other": "Ο λογαριασμός σας έχει τεθεί προσωρινά σε αναστολή. Επικοινωνήστε με έναν διαχειριστή εάν πιστεύετε ότι πρόκειται για λάθος."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Συνδρομές και Χρεώσεις"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Μέθοδος πληρωμής"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Οι αλλαγές στον τρόπο πληρωμής με πιστωτική κάρτα θα τεθούν σε ισχύ στον επόμενο κύκλο χρέωσής σας."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Στοιχεία συνδρομής"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Ενεργός"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "έχει λήξει"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Ανακαλύψτε τις συνδρομές"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Ανακαλύψτε εξαιρετικό περιεχόμενο σε εξαιρετικές τιμές, εύκολα διαχειρίσιμο εδώ."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Εξερευνήστε τις συνδρομές"
+  },
+  "nav_subscriptions": {
+    "other": "οι εγγραφές μου"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Πρώτη πληρωμή {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Επόμενη πληρωμή {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Οφειλόμενη πληρωμή {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Λήγει {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Έληξε {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "λογότυπο χορηγού"
   }
 }

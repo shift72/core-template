@@ -134,19 +134,19 @@
     "other": "تابع "
   },
   "social_media_buttons_title": {
-    "other": "النشر "
+    "other": "يشارك"
   },
   "social_media_buttons_facebook": {
-    "other": "انشر في الفيسبوك"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "حصة على التغريد"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "انشر على لينكد إن"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "سهم عبر البريد الإلكتروني"
+    "other": "بريد الالكتروني"
   },
   "social_media_buttons_email_subject": {
     "other": "مشاركة الارتباط"
@@ -155,7 +155,7 @@
     "other": "تم نسخ الرابط إلى الحافظة!"
   },
   "social_media_buttons_copy_link": {
-    "other": "نسخ إلى الحافظة"
+    "other": "نسخ الوصلة"
   },
   "accept_invite_page_header": {
     "other": "أهلا بك"
@@ -1016,7 +1016,7 @@
     "other": "إلغاء الاشتراك؟"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "سيؤدي هذا إلى إلغاء الاشتراك في خطة {{.Name}}. ستظل قادرًا على مشاهدة المحتوى في الخطة حتى انتهاء صلاحيتها {{.Expiry}}."
+    "other": "سيؤدي هذا إلى إلغاء الاشتراك في {{.Name}}. ستظل قادرًا على مشاهدة المحتوى حتى انتهاء صلاحيته {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "قريبا"
@@ -1216,7 +1216,7 @@
     "other": "أو"
   },
   "page_plan_explore_link": {
-    "other": "استكشف ممرات أخرى"
+    "other": "استكشاف المزيد"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "اشتري الآن"
@@ -1255,9 +1255,63 @@
     "other": "الفائز"
   },
   "meta_description_expand": {
-    "other": "أظهر المزيد"
+    "other": "شاهد المزيد"
   },
   "meta_description_collapse": {
-    "other": "عرض أقل"
+    "other": "رؤية أقل"
+  },
+  "usersubscriptions_page_header": {
+    "other": "الاشتراكات والفواتير"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "طريقة الدفع او السداد"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "تسري التغييرات التي تم إجراؤها على طريقة الدفع ببطاقتك الائتمانية في دورة الفوترة التالية."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "تفاصيل الاشتراك"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "نشيط"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "منتهية الصلاحية"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "اكتشف الاشتراكات"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "اكتشف محتوى رائعًا بأسعار رائعة ، ويمكن إدارته بسهولة هنا."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "اكتشف الاشتراكات"
+  },
+  "nav_subscriptions": {
+    "other": "اشتراكاتي"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "الدفعة {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "الدفعة {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "الدفع {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "{{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "{{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "شعار الراعي"
   }
 }

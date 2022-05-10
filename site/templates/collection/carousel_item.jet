@@ -1,5 +1,6 @@
 {{import "../items/tagline.jet"}}
 {{import "../common/awards/carousel.jet"}}
+{{import "../common/sponsor-image.jet"}}
 
 {{block carouselItem(item)}}
   {{ trailer := "" }}
@@ -19,6 +20,9 @@
 
       {{if !isset(item["PageType"]) || item.PageType != "external"}}
         <div class="carousel-item-caption">
+          {{if item.ItemType == "film"}}
+            {{yield sponsor(hideLink="true") item.InnerItem}}
+          {{end}}
           <div class="meta-item-content">
             <h3>{{item.GetTitle(i18n)}}
               {{if isset(item.InnerItem["ReleaseDate"]) && item.InnerItem.ReleaseDate.Year() > 1}}
@@ -28,7 +32,7 @@
             <div class="meta-item-tagline-and-classification">
               {{yield metaItemTagline() item.InnerItem}}
             </div>
-
+            <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
             <div class="meta-item-buttons">
               <s72-play-button data-slug="{{item.Slug}}"></s72-play-button>
               <s72-pricing-buttons data-slug="{{item.Slug}}"></s72-pricing-buttons>
@@ -48,8 +52,6 @@
                 <s72-share-buttons item="::item.meta" class="hidden-sm hidden-xs pull-right"></s72-share-buttons>
               </div>
             </div>
-
-            <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
 
             <div class="meta-item-synopsis">
               <p>{{item.InnerItem.Tagline | stripHTML}}</p>

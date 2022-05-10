@@ -134,19 +134,19 @@
     "other": "Наставите"
   },
   "social_media_buttons_title": {
-    "other": "Поделите"
+    "other": "Објави"
   },
   "social_media_buttons_facebook": {
-    "other": "Поделите на Фејсбуку"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Делите на Твитеру"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Делите на Линкедину"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Делите путем е-поште"
+    "other": "Емаил"
   },
   "social_media_buttons_email_subject": {
     "other": "Дељење везе"
@@ -155,7 +155,7 @@
     "other": "Линк је копиран у међуспремник!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Копирај у међуспремник"
+    "other": "Копирај везу"
   },
   "accept_invite_page_header": {
     "other": "Добродошли "
@@ -959,7 +959,7 @@
     "other": "Отменить подписку?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Это отменит подписку на{{.Name}} строить планы.Вы все равно сможете посмотреть контент в плане, пока он не истечет {{.Expiry}}."
+    "other": "Ово ће отказати претплату на {{.Name}}. И даље ћете моћи да гледате садржај док не истекне {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Ускоро"
@@ -1132,7 +1132,7 @@
     "other": "ИЛИ"
   },
   "page_plan_explore_link": {
-    "other": "Истражите друге пролазе"
+    "other": "Истражите више"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Купите сада"
@@ -1195,10 +1195,10 @@
     "other": "Список желаний"
   },
   "wcag_aria_label_facebook": {
-    "other": "Поделиться через фейсбук"
+    "other": "Поделиться на Facebok"
   },
   "wcag_aria_label_twitter": {
-    "other": "Поделиться в Twitter"
+    "other": "Поделиться на Twitter"
   },
   "wcag_aria_label_linkedin": {
     "other": "Поделиться на LinkedIn"
@@ -1246,9 +1246,63 @@
     "other": "Знамя заголовка"
   },
   "meta_description_expand": {
-    "other": "Прикажи више"
+    "other": "Види више"
   },
   "meta_description_collapse": {
-    "other": "Прикажи мање"
+    "other": "Видите мање"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Претплате и наплата"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Начин плаћања"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Промене у начину плаћања кредитном картицом ступиће на снагу у следећем обрачунском циклусу."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Детаљи претплате"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Ацтиве"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "истекао"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Откријте претплате"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Откријте одличан садржај по одличним ценама, којим се лако управља овде."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Истражите претплате"
+  },
+  "nav_subscriptions": {
+    "other": "Моје претплате"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Прва уплата {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Следећа уплата {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Рок за плаћање {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Завршава {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Ендед {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "логотип спонзора"
   }
 }

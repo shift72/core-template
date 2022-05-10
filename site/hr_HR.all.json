@@ -132,19 +132,19 @@
     "other": "Nastavi"
   },
   "social_media_buttons_title": {
-    "other": "Podijeli"
+    "other": "Udio"
   },
   "social_media_buttons_facebook": {
-    "other": "Podijeli na Facebooku"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Podijelite na Twitteru"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Podijelite na Linkedinu"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Podijelite putem e-pošte"
+    "other": "E-mail"
   },
   "social_media_buttons_email_subject": {
     "other": "Dijeljenje veze"
@@ -153,7 +153,7 @@
     "other": "Veza je kopirana u međuspremnik!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Kopirati u međuspremnikKopirati u međuspremnik"
+    "other": "Kopiraj link"
   },
   "accept_invite_page_header": {
     "other": "Dobrodošli "
@@ -1133,7 +1133,7 @@
     "other": "ILI"
   },
   "page_plan_explore_link": {
-    "other": "Istražite druge prolaze"
+    "other": "Istražite više"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Kupi sada"
@@ -1145,10 +1145,10 @@
     "other": "U natjecanju"
   },
   "meta_description_expand": {
-    "other": "Prikaži više"
+    "other": "Vidi više"
   },
   "meta_description_collapse": {
-    "other": "Pokažite manje"
+    "other": "Vidite manje"
   },
   "awards_winner": {
     "other": "Pobjednik"
@@ -1190,7 +1190,7 @@
     "other": "Otkazati pretplatu?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Time će se otkazati pretplata na plan {{.Name}}. I dalje ćete moći gledati sadržaj u planu dok ne istekne {{.Expiry}}."
+    "other": "Ovo će otkazati pretplatu na {{.Name}}. I dalje ćete moći gledati sadržaj dok ne istekne {{.Expiry}}."
   },
   "nav_homepage": {
     "other": "ABC Cinemas"
@@ -1242,5 +1242,59 @@
   },
   "user_error_too_many_pin_errors_help_page_link": {
     "other": ""
+  },
+  "usersubscriptions_page_header": {
+    "other": "Pretplate i naplata"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Način plaćanja"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Promjene vašeg načina plaćanja kreditnom karticom stupit će na snagu u vašem sljedećem ciklusu naplate."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Pojedinosti o pretplati"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktivan"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Istekao"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Otkrijte pretplate"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Otkrijte sjajan sadržaj po odličnim cijenama, kojima se ovdje lako upravlja."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Istražite pretplate"
+  },
+  "nav_subscriptions": {
+    "other": "Moje pretplate"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Prva uplata {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Sljedeća uplata {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Rok za plaćanje {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Završava {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Završeno {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logotip sponzora"
   }
 }

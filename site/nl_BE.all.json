@@ -134,19 +134,19 @@
     "other": "Ga verder"
   },
   "social_media_buttons_title": {
-    "other": "Deel"
+    "other": "Delen"
   },
   "social_media_buttons_facebook": {
-    "other": "Delen op Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Delen op Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Deel op Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Deel via e-mail"
+    "other": "E-mail"
   },
   "social_media_buttons_email_subject": {
     "other": "Link delen"
@@ -155,7 +155,7 @@
     "other": "Link gekopieerd naar klembord!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Kopieer naar klembord"
+    "other": "Kopieer link"
   },
   "accept_invite_page_header": {
     "other": "Welkom "
@@ -980,7 +980,7 @@
     "other": "Annuleer abonnement"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Hiermee wordt het abonnement op {{.Name}} maak plannen opgezegd. U kunt de inhoud van het abonnement nog steeds bekijken totdat deze verloopt {{.Expiry}}"
+    "other": "Hiermee wordt het abonnement op de {{.Name}} opgezegd. U kunt de inhoud nog steeds bekijken totdat deze verloopt {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Binnenkort"
@@ -1132,7 +1132,7 @@
     "other": "OF"
   },
   "page_plan_explore_link": {
-    "other": "Ontdek andere passen"
+    "other": "Meer ontdekken"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Nu kopen"
@@ -1144,10 +1144,10 @@
     "other": "in competitie"
   },
   "meta_description_expand": {
-    "other": "Laat meer zien"
+    "other": "Bekijk meer"
   },
   "meta_description_collapse": {
-    "other": "Laat minder zien"
+    "other": "Minder zien"
   },
   "awards_winner": {
     "other": "Winnaar"
@@ -1250,5 +1250,59 @@
   },
   "header_banner": {
     "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonnementen en facturering"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Betalingswijze"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Wijzigingen in uw creditcardbetaalmethode worden van kracht tijdens uw volgende betalingscyclus."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Abonnementsgegevens"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Actief"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Verlopen"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Ontdek abonnementen"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Ontdek geweldige inhoud tegen geweldige prijzen, gemakkelijk te beheren hier."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Ontdek abonnementen"
+  },
+  "nav_subscriptions": {
+    "other": "mijn abonnementen"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Eerste betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Volgende betaling {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Betaling verschuldigd {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Eindigt {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Beëindigd {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "sponsorlogo"
   }
 }

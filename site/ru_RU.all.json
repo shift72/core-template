@@ -136,19 +136,19 @@
     "other": "Поделиться"
   },
   "social_media_buttons_title": {
-    "other": "Поделиться"
+    "other": "Делиться"
   },
   "social_media_buttons_facebook": {
-    "other": "Поделиться через фейсбук"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Поделиться в Твиттере"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Поделиться в Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Поделиться по электронной почте"
+    "other": "Эл. адрес"
   },
   "social_media_buttons_email_subject": {
     "other": "Поделиться ссылкой"
@@ -157,7 +157,7 @@
     "other": "Ссылка скопирована в буфер обмена!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Скопировать в буфер обмена"
+    "other": "Копировать ссылку"
   },
   "accept_invite_page_header": {
     "other": "Добро пожаловать "
@@ -951,7 +951,7 @@
     "other": "Отменить подписку?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Это отменит подписку на {{.Name}} строить планы. Вы все равно сможете посмотреть контент в плане, пока он не истечет {{.Expiry}}."
+    "other": "Это отменит подписку на {{.Name}}. Вы по-прежнему сможете просматривать контент до истечения срока его действия {{.Expiry}}."
   },
   "shopping_card_update_reason_none": {
     "other": "Обновите свою кредитную карту.Поддерживаемые карты - виза, MasterCard и American Express."
@@ -1073,7 +1073,7 @@
     "other": "ИЛИ"
   },
   "page_plan_explore_link": {
-    "other": "Исследуйте другие перевалы"
+    "other": "Узнайте больше"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Купи сейчас"
@@ -1085,10 +1085,10 @@
     "other": "В соревновании"
   },
   "meta_description_expand": {
-    "other": "Показать больше"
+    "other": "Узнать больше"
   },
   "meta_description_collapse": {
-    "other": "Показывай меньше"
+    "other": "Увидеть меньше"
   },
   "awards_winner": {
     "other": "победитель"
@@ -1142,10 +1142,10 @@
     "other": "Список желаний"
   },
   "wcag_aria_label_facebook": {
-    "other": "Поделиться через фейсбук"
+    "other": "Поделиться на Facebook"
   },
   "wcag_aria_label_twitter": {
-    "other": "Поделиться в Твиттере"
+    "other": "Поделиться на Twitter"
   },
   "wcag_aria_label_linkedin": {
     "other": "Поделиться на LinkedIn"
@@ -1272,5 +1272,59 @@
   },
   "availability_expired": {
     "other": "Истекший"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Подписки и выставление счетов"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Способ оплаты"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Изменения в способе оплаты кредитной картой вступят в силу в следующем платежном цикле."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Сведения о подписке"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Активный"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Истекший"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Откройте для себя подписки"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Откройте для себя отличный контент по отличным ценам, которым легко управлять здесь."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Изучите подписки"
+  },
+  "nav_subscriptions": {
+    "other": "Мои подписки"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Первый платеж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Следующий платеж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Причитающийся платеж {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Заканчивается {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Завершено {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "логотип спонсора"
   }
 }

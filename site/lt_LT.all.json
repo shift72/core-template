@@ -137,16 +137,16 @@
     "other": "Dalintis"
   },
   "social_media_buttons_facebook": {
-    "other": "Dalintis Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Bendrinti Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Dalintis Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Bendrinkite el. paštu"
+    "other": "El. paštas"
   },
   "social_media_buttons_email_subject": {
     "other": "Nuorodos bendrinimas"
@@ -155,7 +155,7 @@
     "other": "Nuoroda nukopijuota į mainų sritį!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Nukopijuoti į iškarpinę"
+    "other": "Nukopijuoti nuorodą"
   },
   "accept_invite_page_header": {
     "other": "Sveiki "
@@ -980,7 +980,7 @@
     "other": "Atšaukti prenumeratą?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Taip bus atšaukta {{.Name}} plano prenumerata. Vis tiek galėsite žiūrėti plano turinį, kol baigsis {{.Expiry}}."
+    "other": "Taip bus atšaukta {{.Name}} prenumerata. Vis tiek galėsite žiūrėti turinį, kol baigsis {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Jau greitai"
@@ -1132,7 +1132,7 @@
     "other": "ARBA"
   },
   "page_plan_explore_link": {
-    "other": "Naršykite kitus leidimus"
+    "other": "Naršyti daugiau"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Pirkti dabar"
@@ -1144,10 +1144,10 @@
     "other": "Varžybose"
   },
   "meta_description_expand": {
-    "other": "Rodyti daugiau"
+    "other": "Žiūrėti daugiau"
   },
   "meta_description_collapse": {
-    "other": "Rodyti mažiau"
+    "other": "Mažiau matyti"
   },
   "awards_winner": {
     "other": "Nugalėtojas"
@@ -1250,5 +1250,59 @@
   },
   "header_banner": {
     "other": "ABC Cinemas – 21-asis kino festivalis, 2021 m. birželio 1–6 d"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Prenumeratos ir atsiskaitymas"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Mokėjimo būdas"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Mokėjimo kredito kortele metodo pakeitimai įsigalios kitą atsiskaitymo ciklą."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Informacija apie prenumeratą"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktyvus"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Baigėsi galiojimo laikas"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Atraskite prenumeratas"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Atraskite puikų turinį puikiomis kainomis, nesunkiai valdykite čia."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Naršykite prenumeratas"
+  },
+  "nav_subscriptions": {
+    "other": "Mano prenumeratos"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Pirmas mokėjimas {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Kitas mokėjimas {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Mokėjimo {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Baigiasi {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Baigėsi {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "rėmėjo logotipas"
   }
 }

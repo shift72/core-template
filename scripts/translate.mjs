@@ -11,33 +11,41 @@ if (!key || !value) {
 }
 glob('./site/*.json', {}, (err, files) => {
   files.forEach(pathName => {
+    function writeTranslationFile(translatedValue) {
+      if (!content[key]) {
+        content[key] = {};
+      }
+
+      content[key][nestedKey ? nestedKey : 'other'] = translatedValue;
+      fs.writeFileSync(pathName, JSON.stringify(content, null, 2));
+    }
     const file_content = fs.readFileSync(pathName);
     const content = JSON.parse(file_content);
     let languageCode = pathName.slice(7, 9);
     if (languageCode == 'ee') languageCode = 'et';
-    fetch(
-      `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${languageCode}&dt=t&q=${encodeURI(
-        value
-      )}`
-    )
-      .then(res => {
-        const contentType = res.headers.get('content-type');
-        if (contentType && contentType.indexOf('application/json') !== -1) {
-          return res.json();
-        }
-        console.log(`translation failed for ${languageCode}`);
-      })
-      .then(translated => {
-        if (translated) {
-          const translatedValue = translated[0][0][0];
-
-          if (!content[key]) {
-            content[key] = {};
+    if (value.trim() === '') {
+      writeTranslationFile(value);
+    } else {
+      fetch(
+        `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${languageCode}&dt=t&q=${encodeURI(
+          value
+        )}`
+      )
+        .then(res => {
+          const contentType = res.headers.get('content-type');
+          if (contentType && contentType.indexOf('application/json') !== -1) {
+            return res.json();
           }
+          console.log(`translation failed for ${languageCode}`);
+        })
+        .then(translated => {
+          if (translated) {
+            let translatedValue = '';
+            translated[0].forEach(each => translatedValue += each[0]);
+            writeTranslationFile(translatedValue);
+          }
+        });
+    }
 
-          content[key][nestedKey ? nestedKey : 'other'] = translatedValue;
-          fs.writeFileSync(pathName, JSON.stringify(content, null, 2));
-        }
-      });
   });
 });

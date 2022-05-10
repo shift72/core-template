@@ -11,8 +11,8 @@
   .meta-award-nomination {
     @extend .d-flex;
     max-width: 370px;
-    padding-right: 25px;
     padding-left: 25px;
+    padding-right: 25px;
   }
 
   .meta-award-nomination-icon {
@@ -26,13 +26,14 @@
 }
 
 .meta-awards-icon-overlay {
-  @extend .text-center;
-
+  align-items: center;
   background: rgba(0, 0, 0, 0.8);
   border-radius: $meta-item-border-radius;
+  display: flex;
   height: 16px + (3px * 2);
   padding-left: 3px;
   padding-right: 3px;
+  text-align: center;
   width: 16px + (3px * 2);
 
   .meta-award-nomination-icon {

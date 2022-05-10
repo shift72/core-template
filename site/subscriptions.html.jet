@@ -1,0 +1,11 @@
+{{extends "templates/application/application.jet"}}
+
+{{block head()}}
+  {{yield seo(title=i18n("usersubscriptions_page_header"), index=false)}}
+{{end}}
+
+{{block body()}}
+  <div class="page form-page usersubscriptions-page">
+    <s72-usersubscription></s72-usersubscription>
+  </div>
+{{end}}

@@ -1,6 +1,29 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.5.1...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/0.6.0-alpha.0...HEAD)
+
+## [0.6.0-alpha.0](https://github.com/shift72/core-template/compare/0.5.1...0.6.0-alpha.0)
+
+### Added
+- If the signed in user has plans to show, they will now be visible in `subscriptions.html.jet` with a link from "My Subscriptions" in the menu.
+- Styling and translations to support SVOD subscriptions.
+- `.nvmrc` to pin versions of Node/NPM.
+- Developer tool to fetch translations from Google Translate.
+- Social media buttons replaced with share modal.
+- Relish now loads the `urlmap.json`.
+- Sponsor image in carousel and meta detail.
+
+### Changed
+- Default Font Awesome removed. A trimmed icons file is now in `fa-s72.woff` being used by `_icons.scss`.
+- Styling changes to awards and availability label/status.
+
+### Fixed
+- Removed some redundant wishlist CSS.
+- Improved and translated element switcher.
+- Removed suffixed `plan` from subscription translations.
+- Changed incorrect language code for Estonia.
+- Donate button hover color.
+- Google scripts respect cookie consents and only load when accepted.
 
 ## [0.5.1](https://github.com/shift72/core-template/compare/0.5.0...0.5.1)
 
@@ -11,29 +34,31 @@
 - Sentence casing for `en_AU` translation about passes.
 
 ## [0.5.0](https://github.com/shift72/core-template/compare/0.4.4...0.5.0)
-### Changed
-- Upgrade to kibble `0.16.6`.
-- Moved references from `film.Images` to `film.ImageMap`.
-- Removed minimum page height from content pages.
-- Moved skip link above cookie consent banner
 
 ### Added
 - Start the site with an admin build: `npm start --admin`.
 - Added Core template version to `<head>` and `kibble.json`.
 - Added styling for floating donate button to use button sass variables.
 - A bunch of missing language keys across language files.
-- Automated translation command
+- Automated translation command.
+
+### Changed
+- Upgrade to kibble `0.16.6`.
+- Moved references from `film.Images` to `film.ImageMap`.
+- Removed minimum page height from content pages.
+- Moved skip link above cookie consent banner
 
 ### Fixed
 - Can now override the cookie consent styling.
-- Can now send analytics data to both GA4 and UA Legacy google analytics (GA4 previously not supported)
+- Can now send analytics data to both GA4 and UA Legacy google analytics (GA4 previously not supported).
 
 ## [0.4.4](https://github.com/shift72/core-template/compare/0.4.3...0.4.4)
-### Fixed
-- Fixed obsolete `$primary` var for trailer button.
 
 ### Added
 - Awards categories.
+
+### Fixed
+- Fixed obsolete `$primary` var for trailer button.
 
 ## [0.4.3](https://github.com/shift72/core-template/compare/0.4.2...0.4.3)
 

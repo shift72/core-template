@@ -122,16 +122,16 @@
     "other": "Teilen"
   },
   "social_media_buttons_facebook": {
-    "other": "Auf Facebook teilen"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Auf Twitter teilen"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Auf Linkedin teilen"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Per E-Mail teilen"
+    "other": "Email"
   },
   "social_media_buttons_email_subject": {
     "other": "Link teilen"
@@ -140,7 +140,7 @@
     "other": "Link in die Zwischenablage kopiert!"
   },
   "social_media_buttons_copy_link": {
-    "other": "In die Zwischenablage kopieren"
+    "other": "Link kopieren"
   },
   "accept_invite_page_header": {
     "other": "Willkommen "
@@ -955,7 +955,7 @@
     "other": "ODER"
   },
   "page_plan_explore_link": {
-    "other": "Entdecken Sie andere Pässe"
+    "other": "Erkunde mehr"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Kaufe jetzt"
@@ -967,10 +967,10 @@
     "other": "Im Wettbewerb"
   },
   "meta_description_expand": {
-    "other": "Zeig mehr"
+    "other": "Mehr sehen"
   },
   "meta_description_collapse": {
-    "other": "Zeige weniger"
+    "other": "Weniger sehen"
   },
   "awards_winner": {
     "other": "Gewinner"
@@ -1105,7 +1105,7 @@
     "other": "Abonnement beenden?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Dadurch wird das Abonnement des Plans {{.Name}} gekündigt. Sie können den Inhalt des Plans weiterhin ansehen, bis er abläuft {{.Expiry}}."
+    "other": "Dadurch wird das Abonnement für {{.Name}} gekündigt. Sie können den Inhalt weiterhin ansehen, bis er abläuft {{.Expiry}}."
   },
   "wcag_skip_links_header": {
     "other": "Zugänglichkeitslinks"
@@ -1259,5 +1259,59 @@
   },
   "validation_terms_required": {
     "other": "Sie müssen den Nutzungsbedingungen zustimmen."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonnements und Abrechnung"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Zahlungsmethode"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Änderungen an Ihrer Kreditkartenzahlungsmethode werden in Ihrem nächsten Abrechnungszeitraum wirksam."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Abonnementdetails"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktiv"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Abgelaufen"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Entdecken Sie Abonnements"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Entdecken Sie großartige Inhalte zu großartigen Preisen, die hier einfach verwaltet werden."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Entdecken Sie Abonnements"
+  },
+  "nav_subscriptions": {
+    "other": "Meine Abonnements"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Erste Zahlung {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Nächste Zahlung {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Zahlung fällig {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Endet {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Beendet {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "Sponsorenlogo"
   }
 }

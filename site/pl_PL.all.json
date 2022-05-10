@@ -111,19 +111,19 @@
     "other": "Kontynuuj"
   },
   "social_media_buttons_title": {
-    "other": "Udostępnij"
+    "other": "Dzielić"
   },
   "social_media_buttons_facebook": {
-    "other": "Udostępnij na Facebooku"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Podziel się na Twitterze"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Udostępnij na Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Udostępnij przez e-mail"
+    "other": "E-mail"
   },
   "social_media_buttons_email_subject": {
     "other": "Udostępnianie linków"
@@ -132,7 +132,7 @@
     "other": "Link skopiowany do schowka!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Skopiuj do schowka"
+    "other": "Skopiuj link"
   },
   "accept_invite_page_header": {
     "other": "Witamy "
@@ -938,7 +938,7 @@
     "other": "LUB"
   },
   "page_plan_explore_link": {
-    "other": "Poznaj inne karnety"
+    "other": "Dowiedz się więcej"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Kup Teraz"
@@ -950,10 +950,10 @@
     "other": "W zawodach"
   },
   "meta_description_expand": {
-    "other": "Pokaż więcej"
+    "other": "Zobacz więcej"
   },
   "meta_description_collapse": {
-    "other": "Pokaż mniej"
+    "other": "Zobacz mniej"
   },
   "awards_winner": {
     "other": "Zwycięzca"
@@ -1160,7 +1160,7 @@
     "other": "Anuluj subskrypcje?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "To anuluje subskrypcję planu {{.Name}}. Nadal będziesz mógł oglądać zawartość planu do czasu jego wygaśnięcia {{.Expiry}}."
+    "other": "To anuluje subskrypcję {{.Name}}. Nadal będziesz mógł oglądać zawartość, dopóki nie wygaśnie {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "nie logowałeś się zbyt wiele razy. Spróbuj ponownie później."
@@ -1295,5 +1295,59 @@
   },
   "shopping_card_change": {
     "other": "Karta kredytowa jest nieprawidłowa? <a href=\"{{.SubscriptionsURL}}\">Kliknij tutaj, aby zaktualizować swoją kartę.</a>"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Subskrypcje i rozliczenia"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Metoda płatności"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Zmiany metody płatności kartą kredytową zaczną obowiązywać w następnym cyklu rozliczeniowym."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Szczegóły subskrypcji"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktywny"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Wygasły"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Odkryj subskrypcje"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Odkryj wspaniałe treści w atrakcyjnych cenach, którymi łatwo zarządzasz tutaj."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Przeglądaj subskrypcje"
+  },
+  "nav_subscriptions": {
+    "other": "moje subskrypcje"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Pierwsza płatność {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Następna płatność {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "{{ .Expiry }} płatność. Termin ważności"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Kończy {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Zakończony {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logo sponsora"
   }
 }

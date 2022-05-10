@@ -140,25 +140,25 @@
     "other": "Compartir"
   },
   "social_media_buttons_facebook": {
-    "other": "Comparteix a Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Comparteix a Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Comparteix a Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Comparteix per correu electrònic"
+    "other": "Correu electrònic"
   },
   "social_media_buttons_email_subject": {
-    "other": "Compartir enllaç"
+    "other": "Comparteix l'enllaç"
   },
   "social_media_buttons_copied_link": {
     "other": "S'ha copiat l'enllaç al porta-retalls!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Copiar al portapapers"
+    "other": "Copia l'enllaç"
   },
   "accept_invite_page_header": {
     "other": "Benvingut "
@@ -1022,7 +1022,7 @@
     "other": "Cancel·lar la subscripció?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Això cancel·larà la subscripció al pla {{.Name}}. Encara podreu veure el contingut del pla fins que caduqui {{.Expiry}}."
+    "other": "Això cancel·larà la subscripció a {{.Name}}. Encara podreu veure el contingut fins que caduqui {{.Expiry}}."
   },
   "availability_coming_soon": {
     "other": "Pròximament"
@@ -1228,7 +1228,7 @@
     "other": "O"
   },
   "page_plan_explore_link": {
-    "other": "Exploreu altres passis"
+    "other": "Exploreu més"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Compra ara"
@@ -1240,10 +1240,10 @@
     "other": "En Competició"
   },
   "meta_description_expand": {
-    "other": "Mostra més"
+    "other": "Veure més"
   },
   "meta_description_collapse": {
-    "other": "Mostra menys"
+    "other": "Veure menys"
   },
   "awards_winner": {
     "other": "Guanyador"
@@ -1259,5 +1259,59 @@
   },
   "wcag_aria_label_letterboxd": {
     "other": "Veure a Letterboxd"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Subscripcions i facturació"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Mètode de pagament"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Els canvis al mètode de pagament de la vostra targeta de crèdit tindran efecte el proper cicle de facturació."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Detalls de la subscripció"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Actiu"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Caducat"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Descobriu les subscripcions"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Descobriu contingut fantàstic a preus fantàstics, fàcil de gestionar aquí."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Exploreu les subscripcions"
+  },
+  "nav_subscriptions": {
+    "other": "Les meves subscripcions"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Primer pagament {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Pròxim pagament {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Pagament vençut {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Finalitza {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Finalitzat {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logotip del patrocinador"
   }
 }

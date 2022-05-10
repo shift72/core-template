@@ -159,13 +159,6 @@ s72-classification-label {
   margin-right: 5px;
 }
 
-.meta-detail-content .meta-detail-tagline-and-classification .meta-item-tagline {
-  align-self: center;
-  color: rgba(var(--body-color-rgb), 0.8);
-  font-weight: $font-weight-normal;
-  margin-bottom: 0;
-}
-
 .wishlist-page-landscape .s72-userwishlist-items {
   @extend .d-flex;
   flex-wrap: wrap;

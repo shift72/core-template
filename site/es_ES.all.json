@@ -134,19 +134,19 @@
     "other": "Reproducir"
   },
   "social_media_buttons_title": {
-    "other": "Compartir"
+    "other": "Cuota"
   },
   "social_media_buttons_facebook": {
-    "other": "Compartir en Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Compartir en Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Compartir en Linkedin"
+    "other": "LinkedIn"
   },
   "social_media_buttons_email": {
-    "other": "Compartir via correo electrónico"
+    "other": "Correo electrónico"
   },
   "social_media_buttons_email_subject": {
     "other": "Compartir enlace"
@@ -155,7 +155,7 @@
     "other": "¡Link copiado al portapapeles!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Copiar al portapapeles"
+    "other": "Copiar link"
   },
   "accept_invite_page_header": {
     "other": "Bienvenido "
@@ -955,7 +955,7 @@
     "other": "O"
   },
   "page_plan_explore_link": {
-    "other": "Explore otros pases"
+    "other": "Explora más"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Compra ahora"
@@ -967,10 +967,10 @@
     "other": "En competición"
   },
   "meta_description_expand": {
-    "other": "Mostrar más"
+    "other": "Ver más"
   },
   "meta_description_collapse": {
-    "other": "Muestra menos"
+    "other": "Ver menos"
   },
   "awards_winner": {
     "other": "Ganador"
@@ -1153,7 +1153,7 @@
     "other": "¿Cancelar suscripción?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Esto cancelará la suscripción a la {{.Name}} plan. Aún podrá ver el contenido del plan hasta que caduque {{.Expiry}}."
+    "other": "Esto cancelará la suscripción a {{.Name}}. Aún podrá ver el contenido hasta que caduque {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "Ha fallado al iniciar sesión demasiadas veces. Por favor, inténtelo de nuevo más tarde."
@@ -1219,7 +1219,7 @@
     "other": "añadir crédito"
   },
   "usersubscriptions_change_payment_method_change": {
-    "other": "Cambiar tarjeta de credito"
+    "other": "Cambiar tarjeta de crédito"
   },
   "usersubscriptions_change_payment_method_modal_title": {
     "other": "Actualizar los datos de la tarjeta de crédito"
@@ -1250,5 +1250,59 @@
   },
   "shopping_error_item_limit_exceeded": {
     "other": "Desafortunadamente, {{.Title}} se ha vendido."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Suscripciones y Facturación"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Método de pago"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Los cambios en el método de pago de su tarjeta de crédito entrarán en vigencia en su próximo ciclo de facturación."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Detalles de suscripción"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Activo"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Caducado"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Descubrir suscripciones"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Descubra excelente contenido a excelentes precios, administrado fácilmente aquí."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Explorar suscripciones"
+  },
+  "nav_subscriptions": {
+    "other": "mis Suscripciónes"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Primer pago {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Próximo pago {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Pago adeudado {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Finaliza {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "{{ .Expiry }} finalizada"
+  },
+  "sponsor_image_alt": {
+    "other": "logotipo del patrocinador"
   }
 }

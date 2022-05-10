@@ -134,19 +134,19 @@
     "other": "Continua"
   },
   "social_media_buttons_title": {
-    "other": "Condividi"
+    "other": "Condividere"
   },
   "social_media_buttons_facebook": {
-    "other": "Condividi su Facebook"
+    "other": "Facebook"
   },
   "social_media_buttons_twitter": {
-    "other": "Condividi su Twitter"
+    "other": "Twitter"
   },
   "social_media_buttons_linkedin": {
-    "other": "Condividi su Linkedin"
+    "other": "Linkedin"
   },
   "social_media_buttons_email": {
-    "other": "Condividi via e-mail"
+    "other": "E-mail"
   },
   "social_media_buttons_email_subject": {
     "other": "Condividi link"
@@ -155,7 +155,7 @@
     "other": "Link copiato negli appunti!"
   },
   "social_media_buttons_copy_link": {
-    "other": "Copia negli appunti"
+    "other": "Copia link"
   },
   "accept_invite_page_header": {
     "other": "Accoglienza "
@@ -961,7 +961,7 @@
     "other": "O"
   },
   "page_plan_explore_link": {
-    "other": "Esplora altri pass"
+    "other": "Esplora di più"
   },
   "plan_showcase_page_ownership_button_buy": {
     "other": "Acquista ora"
@@ -973,10 +973,10 @@
     "other": "In Concorso"
   },
   "meta_description_expand": {
-    "other": "Mostra di più"
+    "other": "Vedi altro"
   },
   "meta_description_collapse": {
-    "other": "Mostra meno"
+    "other": "Vedi di meno"
   },
   "awards_winner": {
     "other": "Vincitore"
@@ -1153,7 +1153,7 @@
     "other": "Annullare l'iscrizione?"
   },
   "usersubscriptions_unsubscribe_modal_body": {
-    "other": "Questo annullerà l'abbonamento al piano {{.Name}}. Potrai comunque guardare i contenuti del piano fino alla scadenza {{.Expiry}}."
+    "other": "Questo annullerà l'abbonamento a {{.Name}}. Potrai comunque guardare il contenuto fino alla scadenza {{.Expiry}}."
   },
   "signin_form_error_ip_throttled": {
     "other": "Non sei riuscito ad accedere troppe volte. Per favore riprova più tardi."
@@ -1250,5 +1250,59 @@
   },
   "shopping_error_item_limit_exceeded": {
     "other": "Sfortunatamente, {{.Title}} è esaurito."
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abbonamenti e fatturazione"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Metodo di pagamento"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Le modifiche al metodo di pagamento con carta di credito avranno effetto nel prossimo ciclo di fatturazione."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Dettagli dell'abbonamento"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Attivo"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Scaduto"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Scopri gli abbonamenti"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Scopri fantastici contenuti a ottimi prezzi, facilmente gestibili qui."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Esplora gli abbonamenti"
+  },
+  "nav_subscriptions": {
+    "other": "le mie sottoscrizioni"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Primo pagamento {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Prossimo pagamento {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Pagamento dovuto {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Termina {{ .Expiry }}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Terminato {{ .Expiry }}"
+  },
+  "sponsor_image_alt": {
+    "other": "logo dello sponsor"
   }
 }

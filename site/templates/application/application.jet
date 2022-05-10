@@ -21,6 +21,8 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="preload" href="/{{lang.DefinitionFilePath}}" as="fetch" crossorigin type="application/json">
     <link rel="preload" href="/classifications.all.json" as="fetch" crossorigin type="application/json">
+    <link rel="preload" href="/urlmap.json" as="fetch" crossorigin type="application/json">
+
     <!-- Kibble: {{version}} -->
     {{if site.SiteConfig.CoreTemplateVersion != ""}}
       <!-- Core-Template: {{site.SiteConfig.CoreTemplateVersion}} -->
@@ -65,8 +67,6 @@
     </script>
 
     <script type="text/javascript" src="/scripts/swiper.min.js"></script>
-
-    {{yield googleGa4Script()}}
   </head>
   <body>
 
