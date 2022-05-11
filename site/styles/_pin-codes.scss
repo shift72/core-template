@@ -27,6 +27,7 @@ s72-useraccount-form {
     }
 
     .s72-btn-submit-pin {
+      @extend .btn-link-override;
       @extend .order-2;
     }
   }
