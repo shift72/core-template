@@ -1332,5 +1332,8 @@
   },
   "sponsor_image_alt": {
     "other": "логотип спонсора"
+  },
+  "subscribe_to_watch": {
+    "other": "Підпишіться на перегляд"
   }
 }
