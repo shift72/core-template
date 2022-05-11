@@ -2,18 +2,9 @@
 {{import "./pagination.jet"}}
 
 {{block carousel()}}
-	{{maxSlides := 7}}
-	{{numSlides := len(.Items)}}
-
-	{*{ Allows max number of slides to be overridden with a config. }*}
-	{{configuredMaxSlides := configInt("carousel_max_slides", -1)}}
-	{{if configuredMaxSlides > -1}}
-		{{maxSlides = configuredMaxSlides}}
-	{{end}}
-
-	{*{ Makes sure max number of slides isn't greater than length of collection. }*}
-	{{if numSlides < maxSlides}}
-		{{maxSlides = numSlides}}
+	{{maxSlides := configInt("carousel_max_slides", 7)}}
+	{{if len(.Items) < maxSlides}}
+		{{maxSlides = len(.Items)}}
 	{{end}}
 	{{items := .Items[0:maxSlides]}}
 
