@@ -83,7 +83,7 @@
               <h2>{{i18n("meta_detail_episodes_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="portrait") content}}
                 {{range episode := tvseason.Episodes}}
-                  <div class="episode-item">
+                  <div class="sub-item">
                     {{yield subItem(item=episode)}}
                   </div>
                 {{end}}
@@ -96,7 +96,7 @@
               <h2>{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := tvseason.Bonuses}}
-                  <div class="bonus-item">
+                  <div class="sub-item">
                     {{yield subItem(item=bonus)}}
                   </div>
                 {{end}}

@@ -511,8 +511,7 @@ s72-element-switcher,
   }
 }
 
-.bonus-item,
-.episode-item {
+.sub-item {
   display: grid;
   grid-gap: 15px;
   grid-template-columns: 112px minmax(100px, 1fr);
