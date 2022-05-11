@@ -1163,15 +1163,22 @@
     "other": "سعر"
   },
   "shopping_price_plan_note": {
-    "one": "يتم تحصيل الرسوم كل {{ .Interval }} بعد انتهاء الفترة التجريبية المجانية لمدة 24 ساعة.",
-    "other": "يتم تحصيل الرسوم كل {{ .Interval }} بعد انتهاء {{ .Count }} التجريبية المجانية .Count يوم."
+    "one": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية لمدة 24 ساعة.",
+    "two": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
+    "few": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
+    "many": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
+    "other": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "اتهم كل {{ .Interval }} ."
+    "other": "اتهم كل {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "zero": "{{.Interval}}",
+    "one": "{{.Interval}}",
+    "two": "{{.Count}} {{.Interval}}",
+    "few": "{{.Count}} {{.Interval}}",
+    "many": "{{.Count}} {{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_plan": {
     "other": "أدخل تفاصيل بطاقة الائتمان الخاصة بك أدناه لبدء اشتراكك."

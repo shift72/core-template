@@ -843,15 +843,13 @@
     "other": "価格"
   },
   "shopping_price_plan_note": {
-    "one": "24時間の無料トライアルが終了した後、.Intervalごとに{{ .Interval }}",
-    "other": "{{ .Count }}日の無料トライアルが終了した後、.Intervalごとに{{ .Interval }}"
+    "other": "{{.Count}}日の無料試用期間が終了すると、{{.Interval}}ごとに課金されます。"
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "{{ .Interval }}ごとに課金されます。"
+    "other": "{{.Interval}}ごとに課金されます。"
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_plan": {
     "other": "サブスクリプションを開始するには、以下にクレジットカードの詳細を入力してください。"
