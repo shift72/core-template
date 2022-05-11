@@ -221,12 +221,20 @@ s72-carousel {
     margin-left: -0.5rem;
     margin-right: -0.5rem;
 
+    .s72-subscribe{
+      margin-right: 0.5em;
+      .s72-btn-subscribe{
+        margin-bottom: 5px;
+      }
+    }
+
     /* stylelint-disable selector-max-compound-selectors */
     s72-pricing-buttons .s72-btn,
     .meta-detail-extras,
     .meta-item-extras,
     s72-play-button,
     can-be-watched-button:not(:empty) {
+      align-self: flex-start;
       margin-bottom: 10px;
       margin-left: 0.5rem;
       margin-right: 0.5rem;
