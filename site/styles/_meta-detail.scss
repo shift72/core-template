@@ -133,6 +133,7 @@
     animation: fadein 2s;
     display: block;
     width: 110px;
+    padding-right: 20px;
 
     @include media-breakpoint-up(xs) {
       width: 155px;

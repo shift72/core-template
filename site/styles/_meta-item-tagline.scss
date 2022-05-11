@@ -38,16 +38,8 @@
     display: none;
   }
 
-  .s72-classification-description {
-    color: rgba(255, 255, 255, 0.8);
-    display: none;
-    font-size: 14px;
-    font-weight: $font-weight-normal;
-    margin-left: 5px;
-  }
-
   .s72-classification-label {
-    background-color: rgba(var(--body-color-rgb), 0.2);
+    background-color: rgba(var(--body-color-rgb), 0.15);
     border: 0;
     border-radius: 5;
     color: rgba(var(--body-color-rgb), 0.8);
