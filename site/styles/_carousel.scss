@@ -221,6 +221,7 @@ s72-carousel {
     margin-left: -0.5rem;
     margin-right: -0.5rem;
 
+    /* stylelint-disable selector-max-compound-selectors */
     .s72-subscribe{
       margin-right: 0.5em;
       .s72-btn-subscribe{
@@ -228,7 +229,6 @@ s72-carousel {
       }
     }
 
-    /* stylelint-disable selector-max-compound-selectors */
     s72-pricing-buttons .s72-btn,
     .meta-detail-extras,
     .meta-item-extras,

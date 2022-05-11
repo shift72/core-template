@@ -209,16 +209,19 @@ s72-element-switcher,
   .meta-detail-buttons {
     margin-left: -0.5rem;
 
-    .s72-subscribe{
-      margin-right: 0.5em;
-    }
-
     // Purchase, play, trailer, wishlist are all in one group now
     // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
     margin-right: -0.5rem;
     min-height: 45px;
 
     /* stylelint-disable selector-max-compound-selectors */
+    .s72-subscribe{
+      margin-right: 0.5em;
+      .s72-btn-subscribe{
+        margin-bottom: 5px;
+      }
+    }
+
     s72-pricing-buttons .s72-btn,
     .meta-detail-extras,
     s72-play-button,
