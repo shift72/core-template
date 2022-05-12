@@ -4,6 +4,7 @@
 {{import "./item/image.jet"}}
 {{import "./item/synopsis.jet"}}
 {{import "./item/buttons.jet"}}
+{{import "../../common/sponsor-image.jet"}}
 
 {{block carouselItem(item)}}
   {{showItemContent := !isset(item["PageType"]) || item.PageType != "external"}}  
@@ -15,6 +16,9 @@
 
       {{if showItemContent}}
         <div class="carousel-item-caption">
+          {{if item.ItemType == "film"}}
+            {{yield sponsor(hideLink="true") item.InnerItem}}
+          {{end}}
           <div class="meta-item-content">
             {{yield carouselItemTitle(title=item.GetTitle(i18n))}}
 

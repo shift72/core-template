@@ -1000,8 +1000,11 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Εισαγάγετε τα στοιχεία της πιστωτικής σας κάρτας παρακάτω για να ξεκινήσετε τη συνδρομή σας."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Εισαγάγετε τα στοιχεία της πιστωτικής σας κάρτας παρακάτω για να ξεκινήσετε το σχέδιό σας."
   },
   "shopping_action_plan": {
     "other": "Πλήρης"

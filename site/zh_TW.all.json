@@ -1180,8 +1180,11 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "在下面輸入您的信用卡詳細信息以開始訂閱。"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "在下面输入您的信用卡详细信息以开始您的计划。"
   },
   "shopping_action_plan": {
     "other": "完全的"

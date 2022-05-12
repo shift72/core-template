@@ -1090,8 +1090,11 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Norėdami pradėti prenumeratą, žemiau įveskite savo kredito kortelės duomenis."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Norėdami pradėti planą, toliau įveskite savo kredito kortelės duomenis."
   },
   "shopping_action_plan": {
     "other": "Užbaigti"
