@@ -28,6 +28,7 @@ s72-carousel {
   }
 }
 
+
 .s72-carousel-slides {
   background: $carousel-bg-color;
   height: 100% !important;
@@ -37,27 +38,24 @@ s72-carousel {
   @include media-breakpoint-up(sm) {
     margin-bottom: 40px;
   }
-
-  s72-image {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    width: 100%;
-
-    /* stylelint-disable selector-max-compound-selectors */
-    img {
-      z-index: -1;
-      height: 100%;
-      object-fit: cover;
-      width: 100%;
-    }
-    /* stylelint-enable selector-max-compound-selectors */
-  }
-
   .s72-pricing-button-container {
     white-space: nowrap;
   }
 }
+.carousel-item-link > s72-image {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  img {
+    z-index: -1;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
 
 .s72-carousel-item {
   height: 100%;
@@ -99,20 +97,26 @@ s72-carousel {
 
 .carousel-item-caption {
   @extend .carousel-bottom-gradient;
-
+  display: flex;
   bottom: 0;
   left: 0;
   padding: var(--carousel-bottom-gradient-height) 20px 1px;
   position: absolute;
   width: 100%;
   z-index: 999;
-
-  @include media-breakpoint-up(md) {
-    display: flex;
-  }
+  flex-direction: column;
 
   @include media-breakpoint-up(lg) {
     padding: var(--carousel-bottom-gradient-height) 50px 1px;
+    flex-direction: row;
+  }
+
+  .sponsor {
+    @include media-breakpoint-up(lg) {
+      margin-left: auto;
+      align-self: flex-end;
+      order: 1;
+    }
   }
 
   .availability-bg {
