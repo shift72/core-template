@@ -854,8 +854,11 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Syötä luottokorttitietosi alle aloittaaksesi tilauksesi."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Syötä luottokorttitietosi alle aloittaaksesi suunnitelmasi."
   },
   "shopping_action_plan": {
     "other": "Saattaa loppuun"

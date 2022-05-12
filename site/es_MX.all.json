@@ -1192,8 +1192,11 @@
     "one": "{{.Interval}}",
     "other": "{{.Count}} {{.Interval}}s"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Ingrese los detalles de su tarjeta de crédito a continuación para comenzar su suscripción."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Ingrese los detalles de su tarjeta de crédito a continuación para comenzar su plan."
   },
   "shopping_action_plan": {
     "other": "Completo"

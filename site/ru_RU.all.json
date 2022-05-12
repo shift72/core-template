@@ -1031,8 +1031,11 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Введите данные своей кредитной карты ниже, чтобы начать подписку."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Введите данные своей кредитной карты ниже, чтобы начать план."
   },
   "shopping_action_plan": {
     "other": "Полный"

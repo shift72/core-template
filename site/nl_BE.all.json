@@ -1090,6 +1090,9 @@
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Voer hieronder uw creditcardgegevens in om uw abonnement te starten."
+  },
   "shopping_enter_card_prompt_plan": {
     "other": "Voer hieronder uw creditcardgegevens in om uw abonnement te starten."
   },

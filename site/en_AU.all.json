@@ -997,8 +997,11 @@
     "one": "{{.Interval}}",
     "other": "{{.Count}} {{.Interval}}s"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Enter your credit card details below in order start your subscription."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Enter your credit card details below in order start your plan."
   },
   "shopping_action_credit": {
     "other": "Top up"
