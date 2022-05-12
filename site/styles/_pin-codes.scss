@@ -48,4 +48,7 @@ s72-useraccount-form {
   .s72-user-reset-pin-form-header {
     @extend .font-weight-bold;
   }
+  .s72-buttons .s72-btn-submit-pin {
+    @extend .btn-link-override;
+  }
 }
