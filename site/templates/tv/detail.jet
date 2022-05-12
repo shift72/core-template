@@ -1,9 +1,8 @@
 {{extends "../application/application.jet"}}
 {{import "../common/slider.jet"}}
 {{import "../items/tagline.jet"}}
-{{import "../items/bonus_item.jet"}}
+{{import "../items/sub_item.jet"}}
 {{import "../collection/page_collection_item.jet"}}
-{{import "./episode.jet"}}
 {{import "../common/list.jet"}}
 {{import "../common/social-media-buttons.jet"}}
 {{block head()}}
@@ -84,8 +83,8 @@
               <h2>{{i18n("meta_detail_episodes_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="portrait") content}}
                 {{range episode := tvseason.Episodes}}
-                  <div class="episode-item">
-                    {{yield episodeCollectionItem(item=episode)}}
+                  <div class="sub-item">
+                    {{yield subItem(item=episode)}}
                   </div>
                 {{end}}
               {{end}}
@@ -97,8 +96,8 @@
               <h2>{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := tvseason.Bonuses}}
-                  <div class="bonus-item">
-                    {{yield bonusItem(item=bonus)}}
+                  <div class="sub-item">
+                    {{yield subItem(item=bonus)}}
                   </div>
                 {{end}}
               {{end}}
