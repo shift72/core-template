@@ -6,8 +6,8 @@
 :root {
   --primary-rgb: 0, 163, 255;
   --secondary-rgb: 102, 199, 255;
-  --body-color-rgb: 0, 0, 0;
-  --body-bg-rgb: 255, 255, 255;
+  --body-color-rgb: 255, 255, 255;
+  --body-bg-rgb: 15, 15, 15;
   --body-bg-accent-rgb: 25, 25, 25; // darken(body-bg, 10%) OR lighten(body-bg, 10%)
   --link-color-hover-rgb: 217, 217, 217; // darken(body-color, 15%)
   --input-focus-border-color-rgb: 131, 210, 216; // lighten(primary, 25%)
