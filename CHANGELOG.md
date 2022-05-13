@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.6.0-alpha.0...HEAD)
 
+### Added
+- Pull request template file.
+
 ## [0.6.0-alpha.0](https://github.com/shift72/core-template/compare/0.5.1...0.6.0-alpha.0)
 
 ### Added
