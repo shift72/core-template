@@ -1,0 +1,39 @@
+{{import "../../common/awards/carousel.jet"}}
+{{import "./item/title.jet"}}
+{{import "./item/tagline.jet"}}
+{{import "./item/image.jet"}}
+{{import "./item/synopsis.jet"}}
+{{import "./item/buttons.jet"}}
+{{import "../../common/sponsor-image.jet"}}
+
+{{block carouselItem(item)}}
+  {{showItemContent := !isset(item["PageType"]) || item.PageType != "external"}}  
+
+  <div class="s72-carousel-item" data-slug="{{item.Slug}}">
+    <a href="{{routeToSlug(item.Slug)}}" class="carousel-item-link" aria-label="{{item.Title}}">
+
+      {{yield carouselItemImage() item}}
+
+      {{if showItemContent}}
+        <div class="carousel-item-caption">
+          {{if item.ItemType == "film"}}
+            {{yield sponsor(hideLink="true") item.InnerItem}}
+          {{end}}
+          <div class="meta-item-content">
+            {{yield carouselItemTitle(title=item.GetTitle(i18n))}}
+
+            {{yield carouselItemTagline() item.InnerItem}}
+
+            {{yield carouselItemSynopsis(synopsis=item.InnerItem.Tagline)}}
+
+            {{yield carouselItemButtons() item}}
+
+            <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
+
+            {{yield awardsCarousel() item.InnerItem}}
+          </div>
+        </div>
+      {{end}}
+    </a>
+  </div>
+{{end}}

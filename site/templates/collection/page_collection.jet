@@ -1,10 +1,10 @@
-{{import "./carousel.jet"}}
+{{import "./carousel/carousel.jet"}}
 {{import "./slider.jet"}}
 {{import "./list.jet"}}
 
 {{block pageCollection(showTitle=true)}}
   {{if .Layout == "carousel"}}
-    {{yield pageCollectionCarousel()}}
+    {{yield carousel()}}
   {{else if .Layout == "slider"}}
     {{yield pageCollectionSlider()}}
   {{else}}

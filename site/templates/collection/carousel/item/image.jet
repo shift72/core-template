@@ -1,0 +1,5 @@
+{{block carouselItemImage()}}
+  {{if isset(.Images["Carousel"])}}
+    <s72-image src="{{.Images.Carousel}}" alt="{{.Title}}" class="carousel-item-image"></s72-image>
+  {{end}}
+{{end}}

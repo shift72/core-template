@@ -1116,6 +1116,9 @@
   "wcag_aria_label_carousel": {
     "other": "Karussell"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Leheküljed"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Lehekülje kollektsioon"
   },

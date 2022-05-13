@@ -955,6 +955,9 @@
   "wcag_aria_label_carousel": {
     "other": "Karuselli"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Sivunumerointi"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Sivujen kokoelma"
   },

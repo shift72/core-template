@@ -1113,6 +1113,9 @@
   "wcag_aria_label_carousel": {
     "other": "Körhinta"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Lapszámozás"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Oldalgyűjtemény"
   },

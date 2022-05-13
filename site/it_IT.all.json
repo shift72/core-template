@@ -1020,6 +1020,9 @@
   "wcag_aria_label_carousel": {
     "other": "Giostra"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Impaginazione"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Collezione di pagine"
   },
