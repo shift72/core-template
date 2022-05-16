@@ -846,15 +846,15 @@
     "other": "Hinta"
   },
   "shopping_price_plan_note": {
-    "one": "{{ .Interval }} joka .väli 24 tunnin ilmaisen kokeilujakson päätyttyä.",
-    "other": "Veloitetaan joka {{ .Interval }} {{ .Count }} päivän ilmaisen kokeilujakson päätyttyä."
+    "one": "{{.Interval}} joka .väli 24 tunnin ilmaisen kokeilujakson päätyttyä.",
+    "other": "Veloitetaan joka {{.Interval}} {{.Count}} päivän ilmaisen kokeilujakson päätyttyä."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "{{ .Interval }} joka .intervalli ."
+    "other": "Veloitetaan joka {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Syötä luottokorttitietosi alle aloittaaksesi tilauksesi."

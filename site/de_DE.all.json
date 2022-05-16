@@ -905,15 +905,15 @@
     "other": "Preis"
   },
   "shopping_price_plan_note": {
-    "one": "{{ .Interval }} jedes .Intervall nach Ablauf Ihrer kostenlosen 24-Stunden-Testversion berechnet.",
-    "other": "{{ .Interval }} jedes .Intervall nach {{ .Count }} Tages-Testversion berechnet."
+    "one": "{{.Interval}} jedes .Intervall nach Ablauf Ihrer kostenlosen 24-Stunden-Testversion berechnet.",
+    "other": "{{.Interval}} jedes .Intervall nach {{.Count}} Tages-Testversion berechnet."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Aufgeladen in jedem {{ .Interval }} ."
+    "other": "Aufgeladen in jedem {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Geben Sie unten Ihre Kreditkartendaten ein, um Ihr Abonnement zu starten."
