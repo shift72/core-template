@@ -905,8 +905,8 @@
     "other": "Preis"
   },
   "shopping_price_plan_note": {
-    "one": "{{.Interval}} jedes .Intervall nach Ablauf Ihrer kostenlosen 24-Stunden-Testversion berechnet.",
-    "other": "{{.Interval}} jedes .Intervall nach {{.Count}} Tages-Testversion berechnet."
+    "one": "Wird alle {{.Interval}} nach Ablauf Ihrer 24-stündigen kostenlosen Testversion berechnet.",
+    "other": "Wird alle {{.Interval}} nach Ablauf Ihrer {{.Count}}-tägigen kostenlosen Testversion berechnet."
   },
   "shopping_price_plan_note_without_trial": {
     "other": "Aufgeladen in jedem {{.Interval}} ."
@@ -931,7 +931,7 @@
     "other": "Fühlen Sie sich frei, <a href=\"/\">auf</a> der Website <a href=\"/search.html\">zu stöbern oder nach</a> etwas Bestimmtem zu suchen."
   },
   "shopping_info_plan_offer": {
-    "one": "{{ .Interval }} automatisch jedes .Intervall",
+    "one": "Erneuert automatisch alle {{.Interval}}",
     "other": "Erneuert automatisch alle {{ .Count }} {{ .Interval }}"
   },
   "shopping_info_trial_period_offer": {
