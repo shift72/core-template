@@ -1181,9 +1181,11 @@
     "other": "Preu"
   },
   "shopping_price_plan_note": {
-    "zero": "Es {{ .Interval }} cada .Interval .",
     "one": "Es {{ .Interval }} cada .Interval després que finalitzi la prova gratuïta de 24 hores.",
     "other": "Es {{ .Interval }} cada .Interval després que finalitzi la prova gratuïta de {{ .Count }}"
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Es {{ .Interval }} cada .Interval ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",

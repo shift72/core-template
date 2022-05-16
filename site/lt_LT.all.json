@@ -1082,13 +1082,19 @@
     "other": "Kaina"
   },
   "shopping_price_plan_note": {
-    "zero": "Įkraunama kas {{ .Interval }} .",
-    "one": "{{ .Interval }} kas .Intervalas pasibaigus 24 valandų nemokamam bandomajam laikotarpiui.",
-    "other": "{{ .Interval }} kas .Intervalas pasibaigus {{ .Count }} dienų bandomajam laikotarpiui."
+    "one": "{{.Interval}} kas .Intervalas pasibaigus 24 valandų nemokamam bandomajam laikotarpiui.",
+    "few": "{{.Interval}} kas .Intervalas pasibaigus {{.Count}} dienų bandomajam laikotarpiui.",
+    "many": "{{.Interval}} kas .Intervalas pasibaigus {{.Count}} dienų bandomajam laikotarpiui.",
+    "other": "{{.Interval}} kas .Intervalas pasibaigus {{.Count}} dienų bandomajam laikotarpiui."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Įkraunama kas {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "few": "{{.Count}} {{.Interval}}",
+    "many": "{{.Count}} {{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Norėdami pradėti prenumeratą, žemiau įveskite savo kredito kortelės duomenis."

@@ -989,9 +989,11 @@
     "other": "Price"
   },
   "shopping_price_plan_note": {
-    "zero": "Charged every {{.Interval}}.",
     "one": "Charged every {{.Interval}} after your 24 hour free trial ends.",
     "other": "Charged every {{.Interval}} after your {{.Count}} day free trial ends."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Charged every {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",

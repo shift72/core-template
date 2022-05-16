@@ -995,9 +995,11 @@
     "other": "Preço"
   },
   "shopping_price_plan_note": {
-    "zero": "Cobrado a cada {{ .Interval }} .",
     "one": "Cobrado a cada {{ .Interval }} após o término da avaliação gratuita de 24 horas.",
     "other": "Cobrado a cada {{ .Interval }} após o {{ .Count }} avaliação gratuita de .Count dias."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Cobrado a cada {{ .Interval }} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",

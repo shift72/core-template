@@ -1082,13 +1082,17 @@
     "other": "Цена"
   },
   "shopping_price_plan_note": {
-    "zero": "Наплаћује се сваки {{ .Interval }} .",
-    "one": "Наплаћује се сваки {{ .Interval }} након завршетка бесплатног пробног периода од 24 сата.",
-    "other": "Оптужен сваки {{ .Interval }} после ваших {{ .Count }} дневни бесплатни пробни крајевима."
+    "one": "Наплаћује се сваки {{.Interval}} након завршетка бесплатног пробног периода од 24 сата.",
+    "few": "Оптужен сваки {{.Interval}} после ваших {{.Count}} дневни бесплатни пробни крајевима.",
+    "other": "Оптужен сваки {{.Interval}} после ваших {{.Count}} дневни бесплатни пробни крајевима."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Наплаћује се сваки {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }} а"
+    "one": "{{.Interval}}",
+    "few": "{{.Count}} {{.Interval}} а",
+    "other": "{{.Count}} {{.Interval}} а"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Унесите податке о својој кредитној картици испод да бисте започели претплату."
