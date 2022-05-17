@@ -619,7 +619,7 @@
     "other": "Selaa kirjastoasi"
   },
   "shopping_complete_plan": {
-    "other": "{{ .Title }} onnistui."
+    "other": "{{.Title}} onnistui."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Voit aloittaa katsomisen seuraavan päivän aikana.",
@@ -866,18 +866,18 @@
     "other": "Saattaa loppuun"
   },
   "shopping_complete_subscription": {
-    "other": "Tilauksesi osto onnistui. Olet nyt tilannut {{ .Title }} ."
+    "other": "Tilauksesi osto onnistui. Olet nyt tilannut {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Voit vapaasti <a href=\"/\">selata</a> sivustoa tai <a href=\"/search.html\">etsiä</a> jotain tiettyä."
   },
   "shopping_info_plan_offer": {
-    "one": "{{ .Interval }} automaattisesti joka .intervalli",
-    "other": "{{ .Count }} automaattisesti joka {{ .Interval }}"
+    "one": "{{.Interval}} automaattisesti joka .intervalli",
+    "other": "{{.Count}} automaattisesti joka {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Kokeile ilmaista 24 tunnin kokeilua nyt!",
-    "other": "Kokeile ilmaista {{ .Count }} päivän kokeiluversiota!"
+    "other": "Kokeile ilmaista {{.Count}} päivän kokeiluversiota!"
   },
   "plans_page_header": {
     "other": "Saatavilla olevat suunnitelmat"
@@ -895,7 +895,7 @@
     "other": "Lue lisää"
   },
   "plan_page_header_text": {
-    "other": "Nauti {{ .Name }}"
+    "other": "Nauti {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "TAI"
@@ -1296,19 +1296,19 @@
     "other": "Omat tilaukset"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Ensimmäinen maksu {{ .Expiry }}"
+    "other": "Ensimmäinen maksu {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Seuraava maksu {{ .Expiry }}"
+    "other": "Seuraava maksu {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Maksu eräpäivänä {{ .Expiry }}"
+    "other": "Maksu eräpäivänä {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Päättyy {{ .Expiry }}"
+    "other": "Päättyy {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Päättynyt {{ .Expiry }}"
+    "other": "Päättynyt {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "sponsorin logo"

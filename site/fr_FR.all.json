@@ -675,7 +675,7 @@
     "other": "Voir votre bibliothèque"
   },
   "shopping_complete_plan": {
-    "other": "Votre achat de {{ .Title }} a réussi."
+    "other": "Votre achat de {{.Title}} a réussi."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Vous pouvez maintenant commencer la lecture jusqu'à demain",
@@ -899,15 +899,15 @@
     "other": "Prix"
   },
   "shopping_price_plan_note": {
-    "one": "Facturé tous les {{ .Interval }} après la fin de votre essai gratuit de 24 heures.",
-    "other": "Facturé chaque {{ .Interval }} après la {{ .Count }} votre essai gratuit de .Count day."
+    "one": "Facturé tous les {{.Interval}} après la fin de votre essai gratuit de 24 heures.",
+    "other": "Facturé chaque {{.Interval}} après la {{.Count}} votre essai gratuit de .Count day."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Chargé tous les {{ .Interval }} ."
+    "other": "Chargé tous les {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Entrez les détails de votre carte de crédit ci-dessous afin de commencer votre abonnement."
@@ -919,18 +919,18 @@
     "other": "Compléter"
   },
   "shopping_complete_subscription": {
-    "other": "Votre achat d&#39;abonnement a réussi. Vous êtes maintenant abonné à {{ .Title }} ."
+    "other": "Votre achat d&#39;abonnement a réussi. Vous êtes maintenant abonné à {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "N&#39;hésitez pas à <a href=\"/\">parcourir</a> le site ou à <a href=\"/search.html\">rechercher</a> quelque chose de spécifique."
   },
   "shopping_info_plan_offer": {
-    "one": "{{ .Interval }} automatiquement chaque .Interval",
-    "other": "{{ .Count }} automatiquement chaque {{ .Interval }}"
+    "one": "{{.Interval}} automatiquement chaque .Interval",
+    "other": "{{.Count}} automatiquement chaque {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Essayez votre essai gratuit de 24 heures maintenant !",
-    "other": "Essayez votre essai gratuit de {{ .Count }} day !"
+    "other": "Essayez votre essai gratuit de {{.Count}} day !"
   },
   "plans_page_header": {
     "other": "Forfaits disponibles"
@@ -948,7 +948,7 @@
     "other": "Lire la suite"
   },
   "plan_page_header_text": {
-    "other": "Profitez de {{ .Name }}"
+    "other": "Profitez de {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "OU"
@@ -1296,19 +1296,19 @@
     "other": "Mes abonnements"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Premier paiement {{ .Expiry }}"
+    "other": "Premier paiement {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Prochain paiement {{ .Expiry }}"
+    "other": "Prochain paiement {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Paiement dû {{ .Expiry }}"
+    "other": "Paiement dû {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Se termine {{ .Expiry }}"
+    "other": "Se termine {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Terminé {{ .Expiry }}"
+    "other": "Terminé {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "logo du sponsor"

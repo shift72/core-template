@@ -645,7 +645,7 @@
     "other": "Sehen Sie Ihre Bibliothek"
   },
   "shopping_complete_plan": {
-    "other": "Ihr Kauf von {{ .Title }} war erfolgreich."
+    "other": "Ihr Kauf von {{.Title}} war erfolgreich."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Ab jetzt können Sie den geliehenen Film bis zum nächsten Tag ansehen.",
@@ -925,18 +925,18 @@
     "other": "Vollständig"
   },
   "shopping_complete_subscription": {
-    "other": "Ihr Abonnementkauf war erfolgreich. Sie haben jetzt {{ .Title }} abonniert."
+    "other": "Ihr Abonnementkauf war erfolgreich. Sie haben jetzt {{.Title}} abonniert."
   },
   "shopping_complete_subscription_browse": {
     "other": "Fühlen Sie sich frei, <a href=\"/\">auf</a> der Website <a href=\"/search.html\">zu stöbern oder nach</a> etwas Bestimmtem zu suchen."
   },
   "shopping_info_plan_offer": {
     "one": "Erneuert automatisch alle {{.Interval}}",
-    "other": "Erneuert automatisch alle {{ .Count }} {{ .Interval }}"
+    "other": "Erneuert automatisch alle {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Testen Sie jetzt Ihre kostenlose 24-Stunden-Testversion!",
-    "other": "Testen Sie Ihre kostenlose {{ .Count }} Tage-Testversion!"
+    "other": "Testen Sie Ihre kostenlose {{.Count}} Tage-Testversion!"
   },
   "plans_page_header": {
     "other": "Verfügbare Pläne"
@@ -954,7 +954,7 @@
     "other": "Weiterlesen"
   },
   "plan_page_header_text": {
-    "other": "Viel {{ .Name }}"
+    "other": "Viel {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "ODER"
@@ -1305,19 +1305,19 @@
     "other": "Meine Abonnements"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Erste Zahlung {{ .Expiry }}"
+    "other": "Erste Zahlung {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Nächste Zahlung {{ .Expiry }}"
+    "other": "Nächste Zahlung {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Zahlung fällig {{ .Expiry }}"
+    "other": "Zahlung fällig {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Endet {{ .Expiry }}"
+    "other": "Endet {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Beendet {{ .Expiry }}"
+    "other": "Beendet {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "Sponsorenlogo"
