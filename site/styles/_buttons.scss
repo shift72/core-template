@@ -279,3 +279,8 @@ s72-donate-button:not(:empty) {
     }
   }
 }
+
+// sitewide we changed primary btn text to black, but these btns had no bg color, rendering text invisible
+.s72-btn-show-saved-cards, .s72-btn-submit-pin, .s72-btn-reset-pin {
+  color:var(--link-color)!important;
+}
