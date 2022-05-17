@@ -1010,11 +1010,11 @@
     "other": "Ár"
   },
   "shopping_price_plan_note": {
-    "one": "A 24 órás ingyenes próbaidőszak {{.Interval}} után minden .Intervallumonként felszámításra kerül.",
-    "other": "{{.Count}} napos ingyenes próbaidőszak {{.Interval}} után minden .Intervallum felszámításra kerül."
+    "one": "A 24 órás ingyenes próbaidőszak lejárta után minden {{.Interval}} felszámításra kerül.",
+    "other": "A {{.Count}} napos ingyenes próbaidőszak lejárta után minden {{.Interval}} felszámításra kerül."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "{{.Interval}} minden .Intervallum ."
+    "other": "minden {{.Interval}} felszámításra kerül."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
