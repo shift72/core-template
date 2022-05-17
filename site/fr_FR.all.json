@@ -900,7 +900,7 @@
   },
   "shopping_price_plan_note": {
     "one": "Facturé tous les {{.Interval}} après la fin de votre essai gratuit de 24 heures.",
-    "other": "Facturé chaque {{.Interval}} après la {{.Count}} votre essai gratuit de .Count day."
+    "other": "Facturé tous les {{.Interval}} après la fin de votre essai gratuit de {{.Count}} jours."
   },
   "shopping_price_plan_note_without_trial": {
     "other": "Chargé tous les {{.Interval}} ."
