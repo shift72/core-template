@@ -912,7 +912,7 @@
   },
   "shopping_price_plan_note": {
     "one": "Addebitato ogni {{.Interval}} termine della prova gratuita di 24 ore.",
-    "other": "Addebitato ogni {{.Interval}} dopo la {{.Count}} del periodo di prova gratuito di .Count."
+    "other": "Addebitato ogni {{.Interval}} al termine del periodo di prova gratuito di {{.Count}} giorni."
   },
   "shopping_price_plan_note_without_trial": {
     "other": "Addebitato ogni {{.Interval}} ."

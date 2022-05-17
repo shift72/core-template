@@ -1108,7 +1108,7 @@
     "other": "Kijk gerust <a href=\"/\">rond op</a> de site of <a href=\"/search.html\">zoek</a> naar iets specifieks."
   },
   "shopping_info_plan_offer": {
-    "one": "{{.Interval}} automatisch elk .Interval",
+    "one": "Vernieuwt automatisch elke {{.Interval}}",
     "other": "{{.Count}} automatisch elke {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
