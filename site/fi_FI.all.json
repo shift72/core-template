@@ -872,7 +872,7 @@
     "other": "Voit vapaasti <a href=\"/\">selata</a> sivustoa tai <a href=\"/search.html\">etsiä</a> jotain tiettyä."
   },
   "shopping_info_plan_offer": {
-    "one": "{{.Interval}} automaattisesti joka .intervalli",
+    "one": "Uusiutuu automaattisesti joka {{.Interval}}",
     "other": "{{.Count}} automaattisesti joka {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
