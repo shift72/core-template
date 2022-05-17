@@ -931,7 +931,7 @@
     "other": "Completare"
   },
   "shopping_complete_subscription": {
-    "other": "L&#39;acquisto dell&#39;abbonamento è andato a buon fine. Ora sei iscritto a {{.Title}} ."
+    "other": "L'acquisto dell'abbonamento è andato a buon fine. Ora sei iscritto a {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Sentiti libero di <a href=\"/\">navigare nel</a> sito o di <a href=\"/search.html\">cercare</a> qualcosa di specifico."
