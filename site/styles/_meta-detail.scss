@@ -211,6 +211,12 @@ s72-element-switcher,
     min-height: 45px;
 
     /* stylelint-disable selector-max-compound-selectors */
+    .meta-detail-extras{
+      @include media-breakpoint-up(md) {
+        margin-bottom: 15px;
+      }
+    }
+
     s72-pricing-buttons .s72-btn,
     .meta-detail-extras,
     s72-play-button,
@@ -227,6 +233,10 @@ s72-element-switcher,
     .social-media-buttons,
     can-be-watched-button:not(:empty) {
       margin-bottom: 10px;
+
+      .s72-btn-subscribe {
+        margin-bottom: 0px;
+      }
     }
 
     // Handles spacing when there is only rent, only buy, or only play button

@@ -201,6 +201,7 @@ s72-carousel {
     margin-bottom: 8px;
     .s72-btn-purchase,
     .s72-btn-rent,
+    .s72-btn-subscribe,
     .s72-btn-trailer,
     .s72-btn-wishlist {
       margin: 0;
@@ -241,6 +242,12 @@ s72-carousel {
     width: 100%;
   }
 
+  .s72-subscribe, .s72-btn-subscribe {
+    @include media-breakpoint-down(sm) {
+      width:100%
+    }
+  }
+
   .s72-pricing-button-container {
     display: flex;
     flex-wrap: wrap;
@@ -248,11 +255,12 @@ s72-carousel {
   }
 
   .s72-btn-purchase,
-  .s72-btn-rent {
+  .s72-btn-rent,
+  .s72-btn-subscribe {
     flex-grow: 1;
     @include media-breakpoint-up(sm) {
       flex-grow: unset;
-      width: 140px;
+      min-width: 140px;
     }
   }
 
