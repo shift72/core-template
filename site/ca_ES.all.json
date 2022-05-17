@@ -1181,7 +1181,7 @@
     "other": "Preu"
   },
   "shopping_price_plan_note": {
-    "one": "Es {{.Interval}} cada .Interval després que finalitzi la prova gratuïta de 24 hores.",
+    "one": "Se cobra cada {{.Interval}} después de que finaliza su prueba gratuita de 24 horas.",
     "other": "Es cobra cada {{.Interval}} un cop finalitza la prova gratuïta de {{.Count}} dies."
   },
   "shopping_price_plan_note_without_trial": {

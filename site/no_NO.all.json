@@ -1027,7 +1027,7 @@
     "other": "<a href=\"/\">Bla deg gjerne rundt</a> på siden, eller <a href=\"/search.html\">søk</a> etter noe spesifikt."
   },
   "shopping_info_plan_offer": {
-    "one": "{{.Interval}} automatisk hver .Interval",
+    "one": "Fornyes automatisk hver {{.Interval}}",
     "other": "{{.Count}} automatisk hver {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {

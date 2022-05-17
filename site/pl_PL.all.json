@@ -923,7 +923,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Wypróbuj bezpłatny 24-godzinny okres próbny już teraz!",
-    "other": "Wypróbuj bezpłatną {{.Count}} próbną programu .Count!"
+    "other": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!"
   },
   "plans_page_header": {
     "other": "Dostępne plany"
