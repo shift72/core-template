@@ -1,0 +1,5 @@
+{{block carouselItemSynopsis(synopsis)}}
+  <div class="meta-item-synopsis">
+    <p>{{synopsis | stripHTML}}</p>
+  </div>
+{{end}}

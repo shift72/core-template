@@ -152,7 +152,7 @@
     "other": "Дељење везе"
   },
   "social_media_buttons_copied_link": {
-    "other": "Линк је копиран у међуспремник!"
+    "other": "Линк је копиран"
   },
   "social_media_buttons_copy_link": {
     "other": "Копирај везу"
@@ -1082,16 +1082,23 @@
     "other": "Цена"
   },
   "shopping_price_plan_note": {
-    "zero": "Наплаћује се сваки {{ .Interval }} .",
-    "one": "Наплаћује се сваки {{ .Interval }} након завршетка бесплатног пробног периода од 24 сата.",
-    "other": "Оптужен сваки {{ .Interval }} после ваших {{ .Count }} дневни бесплатни пробни крајевима."
+    "one": "Наплаћује се сваки {{.Interval}} након завршетка бесплатног пробног периода од 24 сата.",
+    "few": "Оптужен сваки {{.Interval}} после ваших {{.Count}} дневни бесплатни пробни крајевима.",
+    "other": "Оптужен сваки {{.Interval}} после ваших {{.Count}} дневни бесплатни пробни крајевима."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Наплаћује се сваки {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }} а"
+    "one": "{{.Interval}}",
+    "few": "{{.Count}} {{.Interval}} а",
+    "other": "{{.Count}} {{.Interval}} а"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Унесите податке о својој кредитној картици испод да бисте започели претплату."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Унесите податке о својој кредитној картици испод да бисте започели претплату."
+    "other": "Унесите детаље своје кредитне картице испод да бисте започели свој план."
   },
   "shopping_action_plan": {
     "other": "комплетан"
@@ -1181,6 +1188,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Карусель"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Пагинација"
   },
   "wcag_aria_label_page_collection": {
     "other": "Коллекция страницы"

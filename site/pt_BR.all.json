@@ -155,7 +155,7 @@
     "other": "Compartilhamento de link"
   },
   "social_media_buttons_copied_link": {
-    "other": "Link copiado para a área de transferência!"
+    "other": "Link copiado"
   },
   "social_media_buttons_copy_link": {
     "other": "Link de cópia"
@@ -1135,6 +1135,9 @@
   "wcag_aria_label_carousel": {
     "other": "Carrossel"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginação"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Página Coleções"
   },
@@ -1172,16 +1175,21 @@
     "other": "Preço"
   },
   "shopping_price_plan_note": {
-    "zero": "Cobrado a cada {{ .Interval }} .",
     "one": "Cobrado a cada {{ .Interval }} após o término da avaliação gratuita de 24 horas.",
     "other": "Cobrado a cada {{ .Interval }} após o {{ .Count }} avaliação gratuita de .Count dias."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Cobrado a cada {{ .Interval }} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Insira os dados do seu cartão de crédito abaixo para iniciar a sua assinatura."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Insira os dados do seu cartão de crédito abaixo para iniciar seu plano."
   },
   "shopping_action_plan": {
     "other": "Completo"

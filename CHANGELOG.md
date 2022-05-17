@@ -3,7 +3,12 @@
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.6.0-alpha.0...HEAD)
 
 ### Added
+- Keyboard controls for the carousel.
 - Pull request template file.
+
+### Changed
+- Reworked the carousel UI.
+- Carousel background now extends the full width of the window.
 
 ## [0.6.0-alpha.0](https://github.com/shift72/core-template/compare/0.5.1...0.6.0-alpha.0)
 
@@ -44,6 +49,12 @@
 - Added styling for floating donate button to use button sass variables.
 - A bunch of missing language keys across language files.
 - Automated translation command.
+
+### Changed
+- Upgrade to kibble `0.16.6`.
+- Moved references from `film.Images` to `film.ImageMap`.
+- Removed minimum page height from content pages.
+- Moved skip link above cookie consent banner
 
 ### Changed
 - Upgrade to kibble `0.16.6`.

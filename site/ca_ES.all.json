@@ -155,7 +155,7 @@
     "other": "Comparteix l'enllaç"
   },
   "social_media_buttons_copied_link": {
-    "other": "S'ha copiat l'enllaç al porta-retalls!"
+    "other": "S'ha copiat l'enllaç"
   },
   "social_media_buttons_copy_link": {
     "other": "Copia l'enllaç"
@@ -1144,6 +1144,9 @@
   "wcag_aria_label_carousel": {
     "other": "Carrusel"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginació"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Col·lecció de pàgines"
   },
@@ -1178,16 +1181,21 @@
     "other": "Preu"
   },
   "shopping_price_plan_note": {
-    "zero": "Es {{ .Interval }} cada .Interval .",
     "one": "Es {{ .Interval }} cada .Interval després que finalitzi la prova gratuïta de 24 hores.",
     "other": "Es {{ .Interval }} cada .Interval després que finalitzi la prova gratuïta de {{ .Count }}"
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Es {{ .Interval }} cada .Interval ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Introduïu les dades de la vostra targeta de crèdit a continuació per iniciar la vostra subscripció."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Introduïu les dades de la vostra targeta de crèdit a continuació per iniciar el vostre pla."
   },
   "shopping_action_plan": {
     "other": "Completa"

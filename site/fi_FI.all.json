@@ -132,7 +132,7 @@
     "other": "Linkin jakaminen"
   },
   "social_media_buttons_copied_link": {
-    "other": "Linkki kopioitu leikepöydälle!"
+    "other": "Linkki kopioitu"
   },
   "social_media_buttons_copy_link": {
     "other": "Kopioi linkki"
@@ -846,16 +846,21 @@
     "other": "Hinta"
   },
   "shopping_price_plan_note": {
-    "zero": "{{ .Interval }} joka .intervalli .",
     "one": "{{ .Interval }} joka .väli 24 tunnin ilmaisen kokeilujakson päätyttyä.",
     "other": "Veloitetaan joka {{ .Interval }} {{ .Count }} päivän ilmaisen kokeilujakson päätyttyä."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "{{ .Interval }} joka .intervalli ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Syötä luottokorttitietosi alle aloittaaksesi tilauksesi."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Syötä luottokorttitietosi alle aloittaaksesi suunnitelmasi."
   },
   "shopping_action_plan": {
     "other": "Saattaa loppuun"
@@ -951,6 +956,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Karuselli"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Sivunumerointi"
   },
   "wcag_aria_label_page_collection": {
     "other": "Sivujen kokoelma"

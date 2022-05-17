@@ -158,7 +158,7 @@
     "other": "Link share"
   },
   "social_media_buttons_copied_link": {
-    "other": "Link copied to clipboard!"
+    "other": "Link copied"
   },
   "social_media_buttons_copy_link": {
     "other": "Copy Link"
@@ -989,16 +989,21 @@
     "other": "Price"
   },
   "shopping_price_plan_note": {
-    "zero": "Charged every {{.Interval}}.",
     "one": "Charged every {{.Interval}} after your 24 hour free trial ends.",
     "other": "Charged every {{.Interval}} after your {{.Count}} day free trial ends."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Charged every {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
     "other": "{{.Count}} {{.Interval}}s"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Enter your credit card details below in order start your subscription."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Enter your credit card details below in order start your plan."
   },
   "shopping_action_credit": {
     "other": "Top up"
@@ -1223,6 +1228,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Carousel"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Pagination"
   },
   "wcag_aria_label_page_collection": {
     "other": "Page Collection"

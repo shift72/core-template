@@ -152,7 +152,7 @@
     "other": "Condividi link"
   },
   "social_media_buttons_copied_link": {
-    "other": "Link copiato negli appunti!"
+    "other": "Link copiato"
   },
   "social_media_buttons_copy_link": {
     "other": "Copia link"
@@ -911,16 +911,21 @@
     "other": "Prezzo"
   },
   "shopping_price_plan_note": {
-    "zero": "Addebitato ogni {{ .Interval }} .",
     "one": "Addebitato ogni {{ .Interval }} termine della prova gratuita di 24 ore.",
     "other": "Addebitato ogni {{ .Interval }} dopo la {{ .Count }} del periodo di prova gratuito di .Count."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Addebitato ogni {{ .Interval }} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Inserisci i dati della tua carta di credito qui sotto per iniziare il tuo abbonamento."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Inserisci i dettagli della tua carta di credito qui sotto per iniziare il tuo piano."
   },
   "shopping_action_plan": {
     "other": "Completare"
@@ -1016,6 +1021,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Giostra"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Impaginazione"
   },
   "wcag_aria_label_page_collection": {
     "other": "Collezione di pagine"

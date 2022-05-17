@@ -152,7 +152,7 @@
     "other": "Lingi jagamine"
   },
   "social_media_buttons_copied_link": {
-    "other": "Link on lõikelauale kopeeritud!"
+    "other": "Link on kopeeritud"
   },
   "social_media_buttons_copy_link": {
     "other": "Kopeeri link"
@@ -1013,16 +1013,21 @@
     "other": "Hind"
   },
   "shopping_price_plan_note": {
-    "zero": "{{ .Interval }} iga .Intervall .",
     "one": "{{ .Interval }} iga .intervalli järel pärast 24-tunnise tasuta prooviperioodi lõppu.",
     "other": "{{ .Interval }} iga .intervalli järel pärast {{ .Count }} päeva tasuta prooviperioodi lõppu."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "{{ .Interval }} iga .Intervall ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
   },
-  "shopping_enter_card_prompt_plan": {
+  "shopping_enter_card_prompt_subscription": {
     "other": "Tellimuse alustamiseks sisestage allpool oma krediitkaardi andmed."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Plaani alustamiseks sisestage allpool oma krediitkaardi andmed."
   },
   "shopping_action_plan": {
     "other": "Täielik"
@@ -1112,6 +1117,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Karussell"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Leheküljed"
   },
   "wcag_aria_label_page_collection": {
     "other": "Lehekülje kollektsioon"

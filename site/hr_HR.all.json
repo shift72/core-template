@@ -150,7 +150,7 @@
     "other": "Dijeljenje veze"
   },
   "social_media_buttons_copied_link": {
-    "other": "Veza je kopirana u međuspremnik!"
+    "other": "Veza je kopirana"
   },
   "social_media_buttons_copy_link": {
     "other": "Kopiraj link"
@@ -1058,6 +1058,9 @@
   "wcag_aria_label_carousel": {
     "other": "Kružni prikaz"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginacija"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Zbirka stranica"
   },
@@ -1083,16 +1086,23 @@
     "other": "Cijena"
   },
   "shopping_price_plan_note": {
-    "zero": "Naplaćuje se svaki {{ .Interval }} .",
-    "one": "Naplaćuje se svaki {{ .Interval }} nakon što završi besplatno probno razdoblje od 24 sata.",
-    "other": "Naplaćuje se svaki {{ .Interval }} nakon što {{ .Count }} besplatno probno razdoblje od .Count day."
+    "one": "Naplaćuje se svaki {{.Interval}} nakon što završi besplatno probno razdoblje od 24 sata.",
+    "few": "Naplaćuje se svaki {{.Interval}} nakon {{.Count}}-dnevnog besplatnog probnog perioda.",
+    "other": "Naplaćuje se svaki {{.Interval}} nakon {{.Count}}-dnevnog besplatnog probnog perioda."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Naplaćuje se svaki {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "few": "{{.Count}} {{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Unesite podatke svoje kreditne kartice ispod kako biste započeli svoju pretplatu."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Unesite podatke svoje kreditne kartice ispod kako biste započeli svoju pretplatu."
+    "other": "Unesite podatke svoje kreditne kartice ispod kako biste započeli svoj plan."
   },
   "shopping_action_plan": {
     "other": "Dovršeno"

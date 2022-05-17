@@ -1,7 +1,3 @@
-.page-collection-carousel {
-  position: relative;
-}
-
 .page-collection {
   @extend .clearfix;
 }
@@ -176,13 +172,8 @@
             flex-wrap: wrap;
             justify-content: center;
             padding-top: 10px;
-
-            .s72-classification {
-              margin-right: 5px;
-
-              .s72-classification-label {
-                font-size: 12px;
-              }
+            .s72-classification-label {
+              font-size: 12px;
             }
           }
 

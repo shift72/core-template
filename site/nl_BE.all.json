@@ -152,7 +152,7 @@
     "other": "Link delen"
   },
   "social_media_buttons_copied_link": {
-    "other": "Link gekopieerd naar klembord!"
+    "other": "Link gekopieerd"
   },
   "social_media_buttons_copy_link": {
     "other": "Kopieer link"
@@ -1082,13 +1082,18 @@
     "other": "Prijs"
   },
   "shopping_price_plan_note": {
-    "zero": "Elk {{ .Interval }} opgeladen.",
     "one": "Elke {{ .Interval }} nadat uw gratis proefperiode van 24 uur is afgelopen.",
     "other": "Elk {{ .Interval }} nadat uw {{ .Count }} dag is afgelopen."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Elk {{ .Interval }} opgeladen."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{ .Interval }}",
     "other": "{{ .Count }} {{ .Interval }}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Voer hieronder uw creditcardgegevens in om uw abonnement te starten."
   },
   "shopping_enter_card_prompt_plan": {
     "other": "Voer hieronder uw creditcardgegevens in om uw abonnement te starten."
@@ -1187,6 +1192,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Carrousel"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginering"
   },
   "wcag_aria_label_page_collection": {
     "other": "Page Collecties"
