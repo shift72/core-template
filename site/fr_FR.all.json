@@ -925,7 +925,7 @@
     "other": "N&#39;hésitez pas à <a href=\"/\">parcourir</a> le site ou à <a href=\"/search.html\">rechercher</a> quelque chose de spécifique."
   },
   "shopping_info_plan_offer": {
-    "one": "{{.Interval}} automatiquement chaque .Interval",
+    "one": "Se renouvelle automatiquement tous les {{.Interval}}",
     "other": "{{.Count}} automatiquement chaque {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
