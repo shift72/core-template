@@ -993,7 +993,7 @@
   },
   "shopping_price_plan_note": {
     "one": "Χρεώνεται κάθε {{.Interval}} μετά τη λήξη της δωρεάν δοκιμής 24 ωρών.",
-    "other": "Χρεώνεται κάθε {{.Interval}} μετά τη {{.Count}} δωρεάν δοκιμής .Count day."
+    "other": "Χρεώνεται κάθε {{.Interval}} μετά τη λήξη της δωρεάν δοκιμής {{.Count}} ημερών."
   },
   "shopping_price_plan_note_without_trial": {
     "other": "Χρεώνεται κάθε {{.Interval}} ."
