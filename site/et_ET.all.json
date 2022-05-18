@@ -1014,7 +1014,7 @@
   },
   "shopping_price_plan_note": {
     "one": "Tasu võetakse iga {{.Interval}} järel pärast 24-tunnise tasuta prooviperioodi lõppu.",
-    "other": "{{.Interval}} iga .intervalli järel pärast {{.Count}} päeva tasuta prooviperioodi lõppu."
+    "other": "Tasu võetakse iga {{.Interval}} järel pärast teie {{.Count}}-päevase tasuta prooviperioodi lõppu."
   },
   "shopping_price_plan_note_without_trial": {
     "other": "Tasu võetakse iga {{.Interval}} järel."
