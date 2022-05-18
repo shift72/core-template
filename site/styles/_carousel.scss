@@ -210,6 +210,7 @@ s72-carousel {
   .meta-item-extras {
     display: flex;
     gap: 20px 16px;
+    align-self: flex-start;
   }
 
   // Empty relish components still have gaps applied so hide them.
@@ -240,6 +241,10 @@ s72-carousel {
 
   s72-pricing-buttons {
     width: 100%;
+
+    @include media-breakpoint-up(sm) {
+      width:  auto;
+    }
   }
 
   .s72-subscribe, .s72-btn-subscribe {
