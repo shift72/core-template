@@ -1338,5 +1338,8 @@
   },
   "sponsor_image_alt": {
     "other": "логотип спонсора"
+  },
+  "subscribe_to_watch": {
+    "other": "Подпишитесь, чтобы смотреть"
   }
 }

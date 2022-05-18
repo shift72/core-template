@@ -1312,5 +1312,8 @@
   },
   "sponsor_image_alt": {
     "other": "logotipo do patrocinador"
+  },
+  "subscribe_to_watch": {
+    "other": "Inscreva-se para assistir"
   }
 }
