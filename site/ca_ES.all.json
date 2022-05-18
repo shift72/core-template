@@ -708,7 +708,7 @@
     "other": "Podreu veure-ho des de {{.Date}}."
   },
   "shopping_complete_plan": {
-    "other": "La teva compra de {{ .Title }} estat correcta."
+    "other": "La teva compra de {{.Title}} estat correcta."
   },
   "shopping_complete_receipt": {
     "other": "S'ha enviat un rebut per correu electrònic."
@@ -1181,15 +1181,15 @@
     "other": "Preu"
   },
   "shopping_price_plan_note": {
-    "one": "Es {{ .Interval }} cada .Interval després que finalitzi la prova gratuïta de 24 hores.",
-    "other": "Es {{ .Interval }} cada .Interval després que finalitzi la prova gratuïta de {{ .Count }}"
+    "one": "Se cobra cada {{.Interval}} después de que finaliza su prueba gratuita de 24 horas.",
+    "other": "Es cobra cada {{.Interval}} un cop finalitza la prova gratuïta de {{.Count}} dies."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Es {{ .Interval }} cada .Interval ."
+    "other": "Es cobra cada {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Introduïu les dades de la vostra targeta de crèdit a continuació per iniciar la vostra subscripció."
@@ -1201,18 +1201,18 @@
     "other": "Completa"
   },
   "shopping_complete_subscription": {
-    "other": "La teva compra de subscripció ha estat correcta. Ara esteu subscrit a {{ .Title }} ."
+    "other": "La teva compra de subscripció ha estat correcta. Ara esteu subscrit a {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "No dubteu a <a href=\"/\">navegar pel</a> lloc o <a href=\"/search.html\">cercar</a> alguna cosa específica."
   },
   "shopping_info_plan_offer": {
-    "one": "Renova automàticament cada {{ .Interval }}",
-    "other": "Renova automàticament cada {{ .Count }} {{ .Interval }}"
+    "one": "Renova automàticament cada {{.Interval}}",
+    "other": "Renova automàticament cada {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Prova la teva prova gratuïta de 24 hores ara!",
-    "other": "Prova la teva prova gratuïta de {{ .Count }} day!"
+    "other": "Prova la teva prova gratuïta de {{.Count}} day!"
   },
   "plans_page_header": {
     "other": "Plans disponibles"
@@ -1230,7 +1230,7 @@
     "other": "Llegeix més"
   },
   "plan_page_header_text": {
-    "other": "Gaudeix {{ .Name }}"
+    "other": "Gaudeix {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "O"
@@ -1305,19 +1305,19 @@
     "other": "Les meves subscripcions"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Primer pagament {{ .Expiry }}"
+    "other": "Primer pagament {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Pròxim pagament {{ .Expiry }}"
+    "other": "Pròxim pagament {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Pagament vençut {{ .Expiry }}"
+    "other": "Pagament vençut {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Finalitza {{ .Expiry }}"
+    "other": "Finalitza {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Finalitzat {{ .Expiry }}"
+    "other": "Finalitzat {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "logotip del patrocinador"

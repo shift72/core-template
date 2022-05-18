@@ -654,7 +654,7 @@
     "other": "Δείτε την ταινιοθήκη σας"
   },
   "shopping_complete_plan": {
-    "other": "Η αγορά του {{ .Title }} ήταν επιτυχής."
+    "other": "Η αγορά του {{.Title}} ήταν επιτυχής."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Μπορείτε τώρα να ξεκινήσετε τη θέαση μέσα στις επόμενες {{.Count}} μέρες.",
@@ -992,15 +992,15 @@
     "other": "Τιμή"
   },
   "shopping_price_plan_note": {
-    "one": "Χρεώνεται κάθε {{ .Interval }} μετά τη λήξη της δωρεάν δοκιμής 24 ωρών.",
-    "other": "Χρεώνεται κάθε {{ .Interval }} μετά τη {{ .Count }} δωρεάν δοκιμής .Count day."
+    "one": "Χρεώνεται κάθε {{.Interval}} μετά τη λήξη της δωρεάν δοκιμής 24 ωρών.",
+    "other": "Χρεώνεται κάθε {{.Interval}} μετά τη λήξη της δωρεάν δοκιμής {{.Count}} ημερών."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Χρεώνεται κάθε {{ .Interval }} ."
+    "other": "Χρεώνεται κάθε {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Εισαγάγετε τα στοιχεία της πιστωτικής σας κάρτας παρακάτω για να ξεκινήσετε τη συνδρομή σας."
@@ -1012,18 +1012,18 @@
     "other": "Πλήρης"
   },
   "shopping_complete_subscription": {
-    "other": "Η αγορά της συνδρομής σας ήταν επιτυχής. Είστε πλέον εγγεγραμμένοι στο {{ .Title }} ."
+    "other": "Η αγορά της συνδρομής σας ήταν επιτυχής. Είστε πλέον εγγεγραμμένοι στο {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Μη διστάσετε να <a href=\"/\">περιηγηθείτε</a> στον ιστότοπο ή να <a href=\"/search.html\">αναζητήσετε</a> κάτι συγκεκριμένο."
   },
   "shopping_info_plan_offer": {
-    "one": "Ανανεώνει αυτόματα κάθε {{ .Interval }}",
-    "other": "Ανανεώνει αυτόματα κάθε {{ .Count }} {{ .Interval }}"
+    "one": "Ανανεώνει αυτόματα κάθε {{.Interval}}",
+    "other": "Ανανεώνει αυτόματα κάθε {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Δοκιμάστε τη δωρεάν δοκιμή 24 ωρών τώρα!",
-    "other": "Δοκιμάστε τη δωρεάν {{ .Count }} day!"
+    "other": "Δοκιμάστε τη δωρεάν {{.Count}} day!"
   },
   "plans_page_header": {
     "other": "Διαθέσιμα σχέδια"
@@ -1041,7 +1041,7 @@
     "other": "Διαβάστε περισσότερα"
   },
   "plan_page_header_text": {
-    "other": "Απολαύστε το {{ .Name }}"
+    "other": "Απολαύστε το {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "Ή"
@@ -1296,19 +1296,19 @@
     "other": "οι εγγραφές μου"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Πρώτη πληρωμή {{ .Expiry }}"
+    "other": "Πρώτη πληρωμή {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Επόμενη πληρωμή {{ .Expiry }}"
+    "other": "Επόμενη πληρωμή {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Οφειλόμενη πληρωμή {{ .Expiry }}"
+    "other": "Οφειλόμενη πληρωμή {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Λήγει {{ .Expiry }}"
+    "other": "Λήγει {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Έληξε {{ .Expiry }}"
+    "other": "Έληξε {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "λογότυπο χορηγού"

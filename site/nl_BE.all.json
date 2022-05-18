@@ -696,7 +696,7 @@
     "other": "Begin nu met het bekijken van een van de {{.BundleItems}} in je bibliotheek."
   },
   "shopping_complete_plan": {
-    "other": "Uw aankoop van {{ .Title }} was succesvol."
+    "other": "Uw aankoop van {{.Title}} was succesvol."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "U kunt nu binnen de volgende dag beginnen met kijken.",
@@ -1082,15 +1082,15 @@
     "other": "Prijs"
   },
   "shopping_price_plan_note": {
-    "one": "Elke {{ .Interval }} nadat uw gratis proefperiode van 24 uur is afgelopen.",
-    "other": "Elk {{ .Interval }} nadat uw {{ .Count }} dag is afgelopen."
+    "one": "Elke {{.Interval}} nadat uw gratis proefperiode van 24 uur is afgelopen.",
+    "other": "Elk {{.Interval}} nadat uw {{.Count}} dag is afgelopen."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Elk {{ .Interval }} opgeladen."
+    "other": "Elk {{.Interval}} opgeladen."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Voer hieronder uw creditcardgegevens in om uw abonnement te starten."
@@ -1102,18 +1102,18 @@
     "other": "Compleet"
   },
   "shopping_complete_subscription": {
-    "other": "Uw abonnementsaankoop is gelukt. U bent nu geabonneerd op {{ .Title }} ."
+    "other": "Uw abonnementsaankoop is gelukt. U bent nu geabonneerd op {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Kijk gerust <a href=\"/\">rond op</a> de site of <a href=\"/search.html\">zoek</a> naar iets specifieks."
   },
   "shopping_info_plan_offer": {
-    "one": "{{ .Interval }} automatisch elk .Interval",
-    "other": "{{ .Count }} automatisch elke {{ .Interval }}"
+    "one": "Vernieuwt automatisch elke {{.Interval}}",
+    "other": "{{.Count}} automatisch elke {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Probeer nu uw gratis proefperiode van 24 uur!",
-    "other": "Probeer uw gratis {{ .Count }} !"
+    "other": "Probeer uw gratis {{.Count}} !"
   },
   "plans_page_header": {
     "other": "Beschikbare abonnementen"
@@ -1131,7 +1131,7 @@
     "other": "Lees verder"
   },
   "plan_page_header_text": {
-    "other": "Geniet van {{ .Name }}"
+    "other": "Geniet van {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "OF"
@@ -1296,19 +1296,19 @@
     "other": "mijn abonnementen"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Eerste betaling {{ .Expiry }}"
+    "other": "Eerste betaling {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Volgende betaling {{ .Expiry }}"
+    "other": "Volgende betaling {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Betaling verschuldigd {{ .Expiry }}"
+    "other": "Betaling verschuldigd {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Eindigt {{ .Expiry }}"
+    "other": "Eindigt {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Beëindigd {{ .Expiry }}"
+    "other": "Beëindigd {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "sponsorlogo"

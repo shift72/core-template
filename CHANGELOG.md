@@ -9,6 +9,10 @@
 - Reworked the carousel UI.
 - Carousel background now extends the full width of the window.
 
+### Fixed
+- Remove whitespaces from mustaches variables in translations.
+- Fix unwanted variables in translations.
+
 ## [0.6.0-alpha.0](https://github.com/shift72/core-template/compare/0.5.1...0.6.0-alpha.0)
 
 ### Added
