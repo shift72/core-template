@@ -4,6 +4,7 @@
 
 ### Added
 - Keyboard controls for the carousel.
+- Pull request template file.
 
 ### Changed
 - Reworked the carousel UI.
