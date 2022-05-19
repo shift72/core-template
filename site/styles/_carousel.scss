@@ -206,6 +206,12 @@ s72-carousel {
     .s72-btn-wishlist {
       margin: 0;
     }
+
+    .s72-subscribe {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
   }
   .meta-item-extras {
     display: flex;
@@ -239,17 +245,12 @@ s72-carousel {
     }
   }
 
-  s72-pricing-buttons {
+  s72-pricing-buttons,
+  .s72-btn-subscribe 
+   {
     width: 100%;
-
     @include media-breakpoint-up(sm) {
       width:  auto;
-    }
-  }
-
-  .s72-subscribe, .s72-btn-subscribe {
-    @include media-breakpoint-down(sm) {
-      width:100%
     }
   }
 

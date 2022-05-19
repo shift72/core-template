@@ -88,9 +88,9 @@ s72-plan-label {
   display: none;
   font-size: 12px;
   min-width: 140px;
-  padding-left: 15px;
   white-space: nowrap;
   width: 0;
+  text-align: center;
 
   @include media-breakpoint-up(sm) {
     display: block;
