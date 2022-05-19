@@ -6,27 +6,6 @@
   margin-bottom: 15px;
   padding-bottom: 15px;
 
-  @include media-breakpoint-up(sm) {
-    grid-template-columns: 175px minmax(100px, 1fr);
-    grid-template-rows: auto auto minmax(0, 1fr);
-
-    .synopsis {
-      grid-column: auto;
-      grid-row: 2;
-      margin-bottom: 10px;
-    }
-    .poster-container {
-      grid-row: 1 / 4;
-    }
-    .runtime {
-      margin-bottom: 0;
-      margin-left: 0;
-    }
-    h3 {
-      margin-bottom: 0;
-    }
-  }
-
   h3 {
     color: var(--body-color);
     font-size: 16px;
@@ -101,4 +80,27 @@
       /* stylelint-enable selector-max-compound-selectors */
     }
   }
+
+  /* stylelint-disable */
+  @include media-breakpoint-up(sm) {
+    grid-template-columns: 175px minmax(100px, 1fr);
+    grid-template-rows: auto auto minmax(0, 1fr);
+
+    .synopsis {
+      grid-column: auto;
+      grid-row: 2;
+      margin-bottom: 10px;
+    }
+    .poster-container {
+      grid-row: 1 / 4;
+    }
+    .runtime {
+      margin-bottom: 0;
+      margin-left: 0;
+    }
+    h3 {
+      margin-bottom: 0;
+    }
+  }
+  /* stylelint-enable */
 }
