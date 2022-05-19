@@ -714,7 +714,7 @@
     "other": "瀏覽已付費影片"
   },
   "shopping_complete_plan": {
-    "other": "您已成功{{ .Title }}"
+    "other": "您已成功{{.Title}}"
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "可於 1 天內開始觀看。",
@@ -1190,18 +1190,18 @@
     "other": "完全的"
   },
   "shopping_complete_subscription": {
-    "other": "您的訂閱購買成功。您現在訂閱了{{ .Title }} 。"
+    "other": "您的訂閱購買成功。您現在訂閱了{{.Title}} 。"
   },
   "shopping_complete_subscription_browse": {
     "other": "隨意<a href=\"/\">瀏覽</a>網站，或<a href=\"/search.html\">搜索</a>特定內容。"
   },
   "shopping_info_plan_offer": {
-    "one": "{{ .Interval }}自動更新",
-    "other": "自動更新每個{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}自動更新",
+    "other": "自動更新每個{{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "立即試用您的 24 小時免費試用版！",
-    "other": "免費{{ .Count }}天！"
+    "other": "免費{{.Count}}天！"
   },
   "plans_page_header": {
     "other": "可用計劃"
@@ -1219,7 +1219,7 @@
     "other": "閱讀更多"
   },
   "plan_page_header_text": {
-    "other": "享受{{ .Name }}"
+    "other": "享受{{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "或者"
@@ -1294,19 +1294,19 @@
     "other": "我的订阅"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "第一次付款{{ .Expiry }}"
+    "other": "第一次付款{{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "下次付款{{ .Expiry }}"
+    "other": "下次付款{{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "到期付款{{ .Expiry }}"
+    "other": "到期付款{{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "結束{{ .Expiry }}"
+    "other": "結束{{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "結束{{ .Expiry }}"
+    "other": "結束{{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "赞助商标志"

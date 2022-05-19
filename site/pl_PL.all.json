@@ -644,7 +644,7 @@
     "other": "Zacznij teraz oglądać dowolne z {{.BundleItems}} w swojej bibliotece."
   },
   "shopping_complete_plan": {
-    "other": "Twój zakup {{ .Title }} powiódł się."
+    "other": "Twój zakup {{.Title}} powiódł się."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Możesz go obejrzeć do jutra.",
@@ -912,18 +912,18 @@
     "other": "Kompletny"
   },
   "shopping_complete_subscription": {
-    "other": "Twój zakup subskrypcji się powiódł. Subskrybujesz teraz {{ .Title }} ."
+    "other": "Twój zakup subskrypcji się powiódł. Subskrybujesz teraz {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Możesz swobodnie <a href=\"/\">przeglądać</a> witrynę lub <a href=\"/search.html\">szukać</a> czegoś konkretnego."
   },
   "shopping_info_plan_offer": {
-    "one": "Automatycznie odnawia co {{ .Interval }}",
-    "other": "Automatycznie odnawia co {{ .Count }} {{ .Interval }}"
+    "one": "Automatycznie odnawia co {{.Interval}}",
+    "other": "Automatycznie odnawia co {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Wypróbuj bezpłatny 24-godzinny okres próbny już teraz!",
-    "other": "Wypróbuj bezpłatną {{ .Count }} próbną programu .Count!"
+    "other": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!"
   },
   "plans_page_header": {
     "other": "Dostępne plany"
@@ -941,7 +941,7 @@
     "other": "Czytaj więcej"
   },
   "plan_page_header_text": {
-    "other": "Ciesz się {{ .Name }}"
+    "other": "Ciesz się {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "LUB"
@@ -1345,19 +1345,19 @@
     "other": "moje subskrypcje"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Pierwsza płatność {{ .Expiry }}"
+    "other": "Pierwsza płatność {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Następna płatność {{ .Expiry }}"
+    "other": "Następna płatność {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "{{ .Expiry }} płatność. Termin ważności"
+    "other": "{{.Expiry}} płatność. Termin ważności"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Kończy {{ .Expiry }}"
+    "other": "Kończy {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Zakończony {{ .Expiry }}"
+    "other": "Zakończony {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "logo sponsora"

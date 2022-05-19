@@ -711,7 +711,7 @@
     "other": "عرض المكتبة"
   },
   "shopping_complete_plan": {
-    "other": "لقد نجحت عملية شرائك لـ {{ .Title }}"
+    "other": "لقد نجحت عملية شرائك لـ {{.Title}}"
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "يمكن الآن بدء المشاهدة حتى اليوم التالي.",
@@ -1197,18 +1197,18 @@
     "other": "فوق حتى"
   },
   "shopping_complete_subscription": {
-    "other": "تم شراء اشتراكك بنجاح. أنت الآن مشترك في {{ .Title }} ."
+    "other": "تم شراء اشتراكك بنجاح. أنت الآن مشترك في {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "لا تتردد في <a href=\"/\">تصفح</a> الموقع ، أو <a href=\"/search.html\">البحث</a> عن شيء محدد."
   },
   "shopping_info_plan_offer": {
-    "one": "يجدد تلقائيا كل. {{ .Interval }}",
-    "other": "يجدد تلقائيا كل {{ .Count }} {{ .Interval }}"
+    "one": "يجدد تلقائيا كل. {{.Interval}}",
+    "other": "يجدد تلقائيا كل {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "جرب الإصدار التجريبي المجاني لمدة 24 ساعة الآن!",
-    "other": "{{ .Count }} التجريبي المجاني من {{ .Count }} day!"
+    "other": "{{.Count}} التجريبي المجاني من {{.Count}} day!"
   },
   "plans_page_header": {
     "other": "الخطط المتاحة"
@@ -1226,7 +1226,7 @@
     "other": "اقرأ أكثر"
   },
   "plan_page_header_text": {
-    "other": "استمتع {{ .Name }}"
+    "other": "استمتع {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "أو"
@@ -1313,19 +1313,19 @@
     "other": "اشتراكاتي"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "الدفعة {{ .Expiry }}"
+    "other": "الدفعة {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "الدفعة {{ .Expiry }}"
+    "other": "الدفعة {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "الدفع {{ .Expiry }}"
+    "other": "الدفع {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "{{ .Expiry }}"
+    "other": "{{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "{{ .Expiry }}"
+    "other": "{{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "شعار الراعي"

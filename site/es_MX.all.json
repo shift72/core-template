@@ -380,7 +380,7 @@
     "other": "Resultados de la busqueada"
   },
   "searchresults_load_more": {
-    "other": "Cargar {{.Count }} más"
+    "other": "Cargar {{.Count}} más"
   },
   "searchresults_total": {
     "one": "Encontrado 1 resultado para \"{{.Query}}\".",
@@ -654,7 +654,7 @@
     "other": "Ir a tu biblioteca."
   },
   "shopping_complete_plan": {
-    "other": "Su compra de {{ .Title }} fue exitosa."
+    "other": "Su compra de {{.Title}} fue exitosa."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Ahora puede ver dentro del próximo día.",
@@ -1187,8 +1187,8 @@
     "other": "Precio"
   },
   "shopping_price_plan_note": {
-    "one": "Se {{ .Interval }} cada intervalo después de que finaliza la prueba gratuita de 24 horas.",
-    "other": "Se {{ .Interval }} cada .Interval después de que finaliza la prueba gratuita de {{ .Count }}"
+    "one": "Se {{.Interval}} cada intervalo después de que finaliza la prueba gratuita de 24 horas.",
+    "other": "Se cobra cada {{.Interval}} después de que finaliza su prueba gratuita de {{.Count}} días."
   },
   "shopping_price_plan_note_without_trial": {
     "other": "Cargado cada {{.Interval}}."
@@ -1207,7 +1207,7 @@
     "other": "Completo"
   },
   "shopping_complete_subscription": {
-    "other": "La compra de su suscripción se realizó correctamente. Ahora estás suscrito a {{ .Title }}."
+    "other": "La compra de su suscripción se realizó correctamente. Ahora estás suscrito a {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "No dude en <a href=\"/\">navegar por</a> el sitio o <a href=\"/search.html\">buscar</a> algo específico."
@@ -1217,8 +1217,8 @@
     "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}s"
   },
   "shopping_info_trial_period_offer": {
-    "one": "Renueva automáticamente cada {{ .Interval }}",
-    "other": "Renueva automáticamente cada {{ .Count }} {{ .Interval }}"
+    "one": "Renueva automáticamente cada {{.Interval}}",
+    "other": "Renueva automáticamente cada {{.Count}} {{.Interval}}"
   },
   "availability_expires": {
     "other": "Caducó {{.Expiry}}"
@@ -1296,19 +1296,19 @@
     "other": "mis Suscripciónes"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Primer pago {{ .Expiry }}"
+    "other": "Primer pago {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Próximo pago {{ .Expiry }}"
+    "other": "Próximo pago {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Pago adeudado {{ .Expiry }}"
+    "other": "Pago adeudado {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Finaliza {{ .Expiry }}"
+    "other": "Finaliza {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "{{ .Expiry }} finalizada"
+    "other": "{{.Expiry}} finalizada"
   },
   "sponsor_image_alt": {
     "other": "logotipo del patrocinador"
