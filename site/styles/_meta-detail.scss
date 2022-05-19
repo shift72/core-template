@@ -203,29 +203,30 @@ s72-element-switcher,
   }
 
   .meta-detail-buttons {
-    .s72-subscribe {
-      display: flex;
-      flex-wrap: wrap;
-      margin-right: 1rem;
-      white-space: nowrap;
-      width: min-content;
-      .s72-btn-subscribe{
-        margin-bottom: 0px;
-      }
-    }
     // Purchase, play, trailer, wishlist are all in one group now
     // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
     margin-right: -0.5rem;
     min-height: 45px;
 
     /* stylelint-disable selector-max-compound-selectors */
+    .s72-subscribe {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 1rem;
+      white-space: nowrap;
+      width: min-content;
+      .s72-btn-subscribe {
+        margin-bottom: 0;
+      }
+    }
+
     s72-pricing-buttons .s72-btn,
     .meta-detail-extras,
     s72-play-button,
     can-be-watched-button:not(:empty) {
+      align-self: flex-start;
       animation: fadein 2s;
       margin-right: 0.5rem;
-      align-self: flex-start;
     }
 
     s72-modal-player,

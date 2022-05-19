@@ -112,8 +112,8 @@ s72-carousel {
   .sponsor {
     @include media-breakpoint-up(lg) {
       align-self: flex-end;
-      margin-left: auto;
       margin-bottom: 8px;
+      margin-left: auto;
       order: 1;
     }
   }
@@ -214,9 +214,9 @@ s72-carousel {
     }
   }
   .meta-item-extras {
+    align-self: flex-start;
     display: flex;
     gap: 20px 16px;
-    align-self: flex-start;
   }
 
   // Empty relish components still have gaps applied so hide them.
@@ -246,11 +246,10 @@ s72-carousel {
   }
 
   s72-pricing-buttons,
-  .s72-btn-subscribe 
-   {
+  .s72-btn-subscribe {
     width: 100%;
     @include media-breakpoint-up(sm) {
-      width:  auto;
+      width: auto;
     }
   }
 
