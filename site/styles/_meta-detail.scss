@@ -203,14 +203,12 @@ s72-element-switcher,
   }
 
   .meta-detail-buttons {
-    margin-left: -0.5rem;
-
     .s72-subscribe {
-      margin-right: 0.5rem;
       display: flex;
-      flex-flow: column;
-      align-items: center;
-
+      flex-wrap: wrap;
+      margin-right: 1rem;
+      white-space: nowrap;
+      width: min-content;
       .s72-btn-subscribe{
         margin-bottom: 0px;
       }
@@ -226,7 +224,6 @@ s72-element-switcher,
     s72-play-button,
     can-be-watched-button:not(:empty) {
       animation: fadein 2s;
-      margin-left: 0.5rem;
       margin-right: 0.5rem;
       align-self: flex-start;
     }

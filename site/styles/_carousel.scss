@@ -209,8 +209,8 @@ s72-carousel {
 
     .s72-subscribe {
       display: flex;
-      flex-flow: column;
-      align-items: center;
+      flex-wrap: wrap;
+      width: min-content;
     }
   }
   .meta-item-extras {
