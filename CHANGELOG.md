@@ -13,6 +13,7 @@
 ### Fixed
 - Remove whitespaces from mustaches variables in translations.
 - Fix unwanted variables in translations.
+- Sub-item CSS is no longer broken by the linter.
 
 ## [0.6.0-alpha.0](https://github.com/shift72/core-template/compare/0.5.1...0.6.0-alpha.0)
 
