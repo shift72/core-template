@@ -1,5 +1,15 @@
 {{block carouselItemImage()}}
   {{if isset(.Images["Carousel"])}}
-    <s72-image src="{{.Images.Carousel}}" alt="{{.Title}}" class="carousel-item-image"></s72-image>
+    {{alignment := "center"}}
+    {{if config("carousel_image_alignment") == "true"}}
+      {{alignment = "right"}}
+    {{end}}
+    <div class="carousel-item-image-container {{alignment}}">
+      <s72-image src="{{.Images.Carousel}}" alt="{{.Title}}" class="carousel-item-image">
+        {{if alignment == "right"}}
+          <div class="left-gradient-bg"></div>
+        {{end}}
+      </s72-image>
+    </div>
   {{end}}
 {{end}}

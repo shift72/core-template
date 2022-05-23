@@ -41,11 +41,30 @@ s72-carousel {
     white-space: nowrap;
   }
 }
-.carousel-item-link > s72-image {
+.carousel-item-image-container {
   height: 100%;
   position: absolute;
   top: 0;
   width: 100%;
+
+  s72-image {
+    position: relative;
+    height: 100%;
+  }
+
+  &.center s72-image {
+    width: 100%;
+  }
+
+  &.right s72-image {
+    width: auto;
+    float: right;
+  }
+
+  .left-gradient-bg {
+    height: 100%;
+    width: 60%;
+  }
 
   img {
     height: 100%;
