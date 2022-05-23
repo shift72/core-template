@@ -1,7 +1,7 @@
 {{block carouselItemImage()}}
   {{if isset(.Images["Carousel"])}}
     {{alignment := "center"}}
-    {{if config("carousel_image_alignment") == "true"}}
+    {{if config("carousel_image_right_aligned") == "true"}}
       {{alignment = "right"}}
     {{end}}
     <div class="carousel-item-image-container {{alignment}}">
