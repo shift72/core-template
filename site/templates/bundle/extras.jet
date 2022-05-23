@@ -8,6 +8,6 @@
 
     <s72-userwishlist-button data-slug="{{slug}}" class="btn-wishlist"></s72-userwishlist-button>
 
-    {{yield socialMediaButtons(path=currentUrlPath)}}
+    {{yield socialMediaButtons(path=site.SiteConfig.SiteURL + routeToSlug(slug))}}
   </div>
 {{end}}

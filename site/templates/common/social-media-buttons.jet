@@ -5,7 +5,7 @@
 
 	{{if show_facebook_share || show_twitter_share || show_linkedin_share || letterboxdID}}
 		<div class="social-media-buttons">
-			<s72-share-modal {{letterboxdID ? "letterboxd=" + letterboxdID : ""}}></s72-share-modal>
+			<s72-share-modal {{letterboxdID ? "letterboxd=" + letterboxdID : ""}} path="{{path}}"></s72-share-modal>
 		</div>
 	{{end}}
 {{end}}
