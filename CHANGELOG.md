@@ -5,6 +5,7 @@
 ### Added
 - Keyboard controls for the carousel.
 - Pull request template file.
+- Carousel background can now be right-aligned or centered.
 
 ### Changed
 - Reworked the carousel UI.
