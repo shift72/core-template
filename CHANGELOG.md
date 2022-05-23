@@ -9,6 +9,7 @@ No changes from `alpha-0`.
 ### Added
 - Keyboard controls for the carousel.
 - Pull request template file.
+- Playback progress component and style
 
 ### Changed
 - Reworked the carousel UI.
