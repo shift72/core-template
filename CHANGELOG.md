@@ -9,7 +9,7 @@ No changes from `alpha-0`.
 ### Added
 - Keyboard controls for the carousel.
 - Pull request template file.
-- `path` parameter in share modals
+- `url` parameter in share modals
 
 ### Changed
 - Reworked the carousel UI.
