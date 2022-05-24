@@ -63,7 +63,7 @@ s72-carousel {
 
   .left-gradient-bg {
     height: 100%;
-    width: 60%;
+    width: var(--carousel-left-gradient-width);
   }
 
   img {
