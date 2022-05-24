@@ -1324,5 +1324,8 @@
   },
   "subscribe_to_watch": {
     "other": "Iratkozz fel a nézéshez"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} elemeket"
   }
 }

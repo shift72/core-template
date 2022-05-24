@@ -1332,5 +1332,8 @@
   },
   "subscribe_to_watch": {
     "other": "اشترك للمشاهدة"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} أغراض"
   }
 }
