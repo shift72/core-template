@@ -209,9 +209,9 @@ s72-carousel {
 
     .s72-subscribe {
       display: flex;
+      flex-grow: 1;
       flex-wrap: wrap;
       width: min-content;
-      flex-grow: 1;
     }
   }
   .meta-item-extras {
