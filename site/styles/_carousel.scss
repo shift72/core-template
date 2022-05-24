@@ -4,9 +4,11 @@ s72-carousel {
   margin: 0 auto;
   position: static;
   width: 100%;
+
   @include media-breakpoint-up(sm) {
     height: var(--s72-carousel-container-height-sm);
   }
+
   @include media-breakpoint-up(lg) {
     height: var(--s72-carousel-container-height-lg);
   }
@@ -20,9 +22,11 @@ s72-carousel {
   position: absolute;
   top: 0;
   width: 100%;
+
   @include media-breakpoint-up(sm) {
     height: var(--carousel-height-sm);
   }
+
   @include media-breakpoint-up(lg) {
     height: var(--carousel-height-lg);
   }
@@ -34,13 +38,12 @@ s72-carousel {
   margin-bottom: 10px;
   overflow: hidden;
   width: 100%;
+
   @include media-breakpoint-up(sm) {
     margin-bottom: 40px;
   }
-  // .s72-pricing-button-container {
-  //   white-space: nowrap;
-  // }
 }
+
 .carousel-item-link > s72-image {
   height: 100%;
   position: absolute;
@@ -194,102 +197,6 @@ s72-carousel {
 
   .meta-item-synopsis p {
     margin-bottom: 0;
-  }
-
-  .meta-item-buttons {
-    gap: 20px 16px;
-    margin-bottom: 8px;
-    // .s72-btn-purchase,
-    // .s72-btn-rent,
-    // .s72-btn-subscribe,
-    .s72-btn-trailer,
-    .s72-btn-wishlist {
-      margin: 0;
-    }
-
-    .s72-subscribe {
-      display: flex;
-      flex-grow: 1;
-      flex-wrap: wrap;
-      width: min-content;
-    }
-  }
-  .meta-item-extras {
-    align-self: flex-start;
-    display: flex;
-    gap: 20px 16px;
-  }
-
-  // Empty relish components still have gaps applied so hide them.
-  can-be-watched-button,
-  s72-userwishlist-button {
-    &:empty {
-      display: none;
-    }
-  }
-
-  s72-play-button {
-    flex-grow: 1;
-    @include media-breakpoint-up(sm) {
-      flex-grow: unset;
-    }
-    .s72-btn-play {
-      margin: 0;
-      min-width: 140px;
-      padding: 6px 12px;
-      width: 100%;
-    }
-
-    .s72-btn-play-icon {
-      display: none;
-    }
-
-    .verb {
-      font-size: 1rem;
-    }
-  }
-
-  // s72-pricing-buttons,
-  // .s72-btn-subscribe {
-  //   width: 100%;
-  //   @include media-breakpoint-up(xs) {
-  //     width: auto;
-  //   }
-  // }
-
-  // .s72-pricing-button-container {
-  //   display: flex;
-  //   flex-wrap: wrap;
-  //   gap: 16px;
-  // }
-
-  // .s72-btn-purchase,
-  // .s72-btn-rent,
-  // .s72-btn-subscribe {
-  //   flex-grow: 1;
-  //   @include media-breakpoint-up(sm) {
-  //     flex-grow: unset;
-  //     min-width: 140px;
-  //   }
-  // }
-
-  can-be-watched-button {
-    flex-grow: 1;
-  }
-
-  .s72-btn-can-be-watched {
-    flex-grow: 1;
-    min-width: 140px;
-    padding: 6px 12px;
-
-    .padder {
-      display: none;
-    }
-
-    .s72-btn-can-be-watched-label {
-      font-size: 1rem;
-      font-weight: 400;
-    }
   }
 }
 

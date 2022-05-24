@@ -108,40 +108,43 @@
   }
 }
 
-.s72-btn-play.s72-btn-trailer {
+.s72-btn-trailer .s72-btn-play {
   background: transparent;
   border: 0 none;
+
+  @include media-breakpoint-up(md) {
+    margin-right: 10px;
+  }
+
   @include hover-focus {
     background: transparent;
 
-    .s72-icon-play circle {
+    circle {
       fill: var(--primary);
       stroke: var(--primary);
       stroke-width: 3px;
     }
 
-    .s72-icon-play path {
+    path {
       fill: #000;
       stroke: #000;
     }
   }
 
-  &.s72-btn-trailer {
+  .verb {
     background: transparent;
-    border: 0 none;
-
-    @include media-breakpoint-up(md) {
-      margin-right: 10px;
-    }
-
-    .verb {
-      background: transparent;
-      color: var(--primary);
-    }
+    color: var(--primary);
   }
 
-  .verb {
-    color: $trailer-button-text-color;
+  circle {
+    fill: transparent;
+    stroke: var(--primary);
+    stroke-width: 3px;
+  }
+
+  path {
+    fill: var(--body-color);
+    stroke: var(--body-color);
   }
 
   .s72-btn-play-icon {
@@ -149,17 +152,6 @@
     height: 32px;
     margin-right: 0;
     width: 32px;
-
-    circle {
-      fill: transparent;
-      stroke: var(--primary);
-      stroke-width: 3px;
-    }
-
-    path {
-      fill: var(--body-color);
-      stroke: var(--body-color);
-    }
   }
 
   .s72-btn-play-label {
@@ -211,7 +203,7 @@
 }
 
 .btn-wishlist {
-  padding-top: 2px;
+  // padding-top: 2px;
   p {
     margin: 0;
   }

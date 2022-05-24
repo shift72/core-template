@@ -478,7 +478,7 @@ function documentReady(app) {
     }
   }
 
-  document.querySelectorAll('.btn-trailer').forEach(btn => {
+  document.querySelectorAll('.s72-btn-trailer').forEach(btn => {
     btn.addEventListener('click', e => {
       e.preventDefault();
       e.stopPropagation();
