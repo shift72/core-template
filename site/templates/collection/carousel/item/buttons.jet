@@ -1,7 +1,8 @@
 {{import "./extras.jet"}}
+{{import "../../../common/cta_buttons.jet"}}
 
 {{block carouselItemButtons()}}
-  {{slug := .Slug}}
+  {*{{slug := .Slug}}
   {{isFilm := .ItemType == "film"}}
   {{hasTrailer := (isset(.InnerItem["Trailers"]) && len(.InnerItem.Trailers) > 0) || (.InnerItem["PromoURL"] && len(.InnerItem.PromoURL) > 0)}}
   {{letterboxdID := ""}}
@@ -22,5 +23,7 @@
     {{end}}
 
     {{yield carouselItemExtras(slug=slug, hasTrailer=hasTrailer, letterboxdID=letterboxdID)}}
-  </div>
+  </div>*}
+
+  {{yield ctaButtons(itemType=.ItemType) .InnerItem}}
 {{end}}

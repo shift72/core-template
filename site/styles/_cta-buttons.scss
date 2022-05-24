@@ -1,0 +1,26 @@
+.cta-buttons {
+  // display: grid;
+  // grid-template-columns: 1fr;
+  // grid-template-rows: 3fr;
+  gap: 16px;
+
+  .s72-pricing-button-container {
+    display: grid;
+    // grid-template-rows: [subscribe] auto [buy-or-rent] auto;
+    gap: 16px;
+
+    grid-template-rows: 1fr 1fr;
+
+    .s72-subscribe {
+      // grid-row: subscribe;
+      grid-row: 1 / 1;
+      grid-column: 1 / 2;
+    }
+
+    .s72-btn-purchase,
+    .s72-btn-rent {
+      // grid-row: buy-or-rent;
+      grid-row: 2 / 2;
+    }
+  }
+}

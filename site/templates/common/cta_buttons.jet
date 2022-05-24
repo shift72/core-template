@@ -1,0 +1,29 @@
+{{import "./extra_buttons.jet"}}
+
+{{block ctaButtons(wrapperClass="cta-buttons", itemType="", showExtras=true)}}
+  {{slug := .Slug}}
+  {{title := .Title}}
+  {{isFilm := itemType == "film"}}
+  {{hasTrailer := (isset(.["Trailers"]) && len(.Trailers) > 0) || (.["PromoURL"] && len(.PromoURL) > 0)}}
+  {{letterboxdID := ""}}
+
+  {{if isFilm}}
+    {{letterboxdID = .Refs.LetterboxdID}}
+  {{end}}
+
+  <div class="{{wrapperClass}}">
+    <s72-pricing-buttons data-slug="{{slug}}"></s72-pricing-buttons>
+
+    <s72-play-button data-slug="{{slug}}"></s72-play-button>
+
+    {{if isFilm}}
+      {{dataURL := .CustomFields.GetString("can_be_watched_button_link", "")}}
+      {{dataLabel := .CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text")}}
+      <can-be-watched-button data-slug="{{slug}}" data-url="{{dataURL}}" data-label="{{dataLabel}}"></can-be-watched-button>
+    {{end}}
+
+    {{if showExtras}}
+      {{yield extraButtons(slug=slug, title=title, hasTrailer=hasTrailer, letterboxdID=letterboxdID)}}
+    {{end}}
+  </div>
+{{end}}
