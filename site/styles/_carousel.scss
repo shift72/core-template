@@ -211,6 +211,7 @@ s72-carousel {
       display: flex;
       flex-wrap: wrap;
       width: min-content;
+      flex-grow: 1;
     }
   }
   .meta-item-extras {
@@ -229,6 +230,9 @@ s72-carousel {
 
   s72-play-button {
     flex-grow: 1;
+    @include media-breakpoint-up(sm) {
+      flex-grow: unset;
+    }
     .s72-btn-play {
       margin: 0;
       min-width: 140px;
@@ -248,7 +252,7 @@ s72-carousel {
   s72-pricing-buttons,
   .s72-btn-subscribe {
     width: 100%;
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(xs) {
       width: auto;
     }
   }
