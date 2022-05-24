@@ -83,3 +83,16 @@ s72-plan-label {
     display: inline !important;
   }
 }
+
+.s72-subscribe-trial-label {
+  display: none;
+  flex-grow: 1;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+  width: 1px;
+
+  @include media-breakpoint-up(sm) {
+    display: block;
+  }
+}

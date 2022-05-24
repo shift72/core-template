@@ -9,6 +9,8 @@ No changes from `alpha-0`.
 ### Added
 - Keyboard controls for the carousel.
 - Pull request template file.
+- Playback progress component and style
+- `url` parameter in share modals
 
 ### Changed
 - Reworked the carousel UI.
