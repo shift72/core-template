@@ -170,9 +170,9 @@ s72-element-switcher,
     font-size: 28px;
     font-weight: $font-weight-bold;
     margin-bottom: 0;
-    text-shadow: none;
     max-width: 728px;
-    
+    text-shadow: none;
+
     @include media-breakpoint-up(md) {
       font-size: 34px;
     }
