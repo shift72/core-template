@@ -37,7 +37,7 @@
   </a>
   {{ if config("media_item_caption") == "true" }}
     <div class="caption">
-      <div class="title" title="{{bundle.Title}}">{{bundle.Title}}</div>
+      <h4 class="title" title="{{bundle.Title}}">{{bundle.Title}}</h4>
       {{yield metaItemTagline(genres=false) bundle}}
     </div>
   {{ end }}

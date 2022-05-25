@@ -8,7 +8,7 @@
   <main id="main" class="page plans-page">
 
     <div class="page-header">
-      <h1>{{ i18n("plans_page_header") }}</h1>
+      <h1 class="h2-style">{{ i18n("plans_page_header") }}</h1>
     </div>
 
     <div class="container-xxxl px-2 px-lg-5">
@@ -36,7 +36,7 @@
                     <s72-plan-label data-slug="{{p.Slug}}" data-title="{{p.Name}}"></s72-plan-label>
                   {{ end }}
 
-                  <h3 class="plan-name">{{p.Name}}</h3>
+                  <h2 class="plan-name h3-style">{{p.Name}}</h2>
 
                   {{ if p.HasExpiryDate() }}
                     <p class="alert p-0 border-0">

@@ -121,8 +121,9 @@
   flex-direction: column;
   gap: 0 20px;
   padding: 0 20px;
+  margin-top: 140px;
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     flex-direction: row;
   }
 
@@ -139,14 +140,19 @@
       width: 155px;
     }
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       width: 208px;
     }
   }
 
-  .poster-wrapper .sponsor {
-    @include media-breakpoint-up(xl) {
-      display: none;
+  .poster-wrapper {
+    margin-bottom: 18px;
+    .sponsor {
+      position: absolute;
+      bottom: 100%;
+      @include media-breakpoint-up(xl) {
+        display: none;
+      }
     }
   }
 }
@@ -169,23 +175,7 @@ s72-element-switcher,
 
   h1 {
     animation: fadein 2s;
-    font-size: 28px;
-    font-weight: $font-weight-bold;
-    margin-bottom: 0;
-    text-shadow: none;
-    @include media-breakpoint-up(md) {
-      font-size: 34px;
-    }
-    @include media-breakpoint-up(lg) {
-      font-size: 38px;
-    }
-    @include media-breakpoint-up(xxxl) {
-      font-size: 54px;
-    }
 
-    small {
-      font-size: 24px;
-    }
   }
 
   .meta-item-tagline {
@@ -248,14 +238,6 @@ s72-element-switcher,
 
     p {
       animation: fadein 2s;
-      font-size: 12px;
-      font-weight: $font-weight-normal;
-      @include media-breakpoint-up(lg) {
-        font-size: 14px;
-      }
-      @include media-breakpoint-up(xxxl) {
-        font-size: 18px;
-      }
     }
 
     a {
@@ -289,30 +271,15 @@ s72-element-switcher,
     h4 {
       animation: fadein 2s;
       color: var(--body-color);
-      font-size: 8px;
-      font-weight: $font-weight-bold;
-      margin-bottom: 0;
-      padding-bottom: 0;
-      @include media-breakpoint-up(md) {
-        font-size: 12px;
-      }
     }
 
     p {
       animation: fadein 2s;
       color: var(--body-color);
-      font-size: 12px;
-      font-weight: $font-weight-light;
-      margin-bottom: 0;
-      @include media-breakpoint-up(md) {
-        font-size: 12px;
-      }
     }
 
     a {
-      @include a;
       animation: fadein 2s;
-      font-size: 12px;
     }
   }
 }

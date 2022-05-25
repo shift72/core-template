@@ -78,7 +78,7 @@
                 <div class="meta-detail-info">
                   {{if len(film.Cast) > 0 }}
                     <div class="meta-detail-cast">
-                      <h2>{{i18n("meta_detail_cast_title")}}</h2>
+                      <h2 class="caption-1-style">{{i18n("meta_detail_cast_title")}}</h2>
                       <p>
                         {{range index, member := film.Cast}}
                           {{ path := "/search.html?q=" + member.Name }}
@@ -89,14 +89,14 @@
                   {{end}}
                   {{range index, member := film.Crew}}
                     <div class="meta-detail-crew">
-                      <h2>{{member.Job}}</h2>
+                      <h2 class="caption-1-style">{{member.Job}}</h2>
                       {{ path := "/search.html?q=" + member.Name }}
-                      <a href="{{ routeToPath(path) }}">{{member.Name}}</a>
+                      <p><a href="{{ routeToPath(path) }}">{{member.Name}}</a></p>
                     </div>
                   {{end}}
                   {{if len(film.Languages) > 0 }}
                     <div class="meta-detail-language">
-                      <h2>{{i18n("meta_detail_languages", len(film.Languages))}}</h2>
+                      <h2 class="caption-1-style">{{i18n("meta_detail_languages", len(film.Languages))}}</h2>
                       <p>{{ film.Languages }}</p>
                     </div>
                   {{end}}
@@ -119,26 +119,26 @@
                     {{end}}
                     {{if subtitles}}
                       <div class="meta-detail-subtitle">
-                        <h2>{{i18n("meta_detail_subtitles")}}</h2>
+                        <h2 class="caption-1-style">{{i18n("meta_detail_subtitles")}}</h2>
                         <p>{{subtitles}}</p>
                       </div>
                     {{end}}
                     {{if captions}}
                       <div class="meta-detail-subtitle">
-                        <h2>{{i18n("meta_detail_captions")}}</h2>
+                        <h2 class="caption-1-style">{{i18n("meta_detail_captions")}}</h2>
                         <p>{{captions}}</p>
                       </div>
                     {{end}}
                   {{end}}
                   {{if len(film.Countries) > 0 }}
                     <div class="meta-detail-country">
-                      <h2>{{i18n("meta_detail_countries", len(film.Countries))}}</h2>
+                      <h2 class="caption-1-style">{{i18n("meta_detail_countries", len(film.Countries))}}</h2>
                       <p>{{ film.Countries }}</p>
                     </div>
                   {{end}}
                   {{if len(film.Studio) > 0 }}
                     <div class="meta-detail-studio">
-                      <h2>{{i18n("meta_detail_studios", len(film.Studio))}}</h2>
+                      <h2 class="caption-1-style">{{i18n("meta_detail_studios", len(film.Studio))}}</h2>
                       {*{ FORMAT STUDIOS }*}
                       {{ studios := "" }}
                       {{ range studio := film.Studio }}
@@ -157,7 +157,7 @@
           </div>
           {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}
             <section class="meta-detail-bonus-content" aria-label="{{i18n("meta_detail_bonus_title")}}">
-              <h2>{{i18n("meta_detail_bonus_title")}}</h2>
+              <h2 class="h3-style">{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := film.Bonuses}}
                   <div class="sub-item">
@@ -180,7 +180,7 @@
           <div class="swiper-container" data-items-per-row="4" data-layout="landscape">
         {{end}}
           <div class="swiper-title">
-              <h2>{{i18n("meta_detail_recommendations_title")}}</h2>
+              <h2 class="h3-style">{{i18n("meta_detail_recommendations_title")}}</h2>
           </div>
           <div class="swiper-wrapper">
             {{range item := film.Recommendations}}

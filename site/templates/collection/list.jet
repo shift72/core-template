@@ -6,7 +6,7 @@
 
   {{ if showTitle }}
   <div class="page-collection-list-title">
-    <h3>{{.DisplayName}}</h3>
+    <h2 class="h3-style">{{.DisplayName}}</h2>
   </div>
   {{ end }}
 

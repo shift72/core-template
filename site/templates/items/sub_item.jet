@@ -6,7 +6,7 @@
       <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
     </div>
   </div>
-  <h3>{{item.Title}}</h3>
+  <h3 class="subtitle-1-style">{{item.Title}}</h3>
   {{if item.Runtime > 0 }}
     <span class="runtime">
       {{if item.Runtime.Hours() > 0}}

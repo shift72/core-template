@@ -13,9 +13,6 @@
 
   h3 {
     color: var(--body-color);
-    font-size: 16px;
-    font-weight: $font-weight-normal;
-    letter-spacing: 0.4px;
     margin-bottom: 15px;
 
     @include media-breakpoint-up(sm) {

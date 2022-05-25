@@ -1,6 +1,6 @@
 label {
-  font-size: 1rem;
   margin-bottom: 0.25rem;
+  @extend .subtitle-1-style;
 }
 
 // Form Container Defaults
@@ -64,8 +64,7 @@ s72-activatedevice-form,
   background: $error-background;
   border-radius: $border-radius;
   color: $error-color;
-  font-size: 0.875rem;
-  letter-spacing: 0.02em;
+  @extend .body-2-style;
   margin-top: 10px;
   padding: 4px 8px;
   position: relative;
@@ -98,7 +97,6 @@ s72-activatedevice-form,
 }
 // Form Control Default
 .s72-form-control {
-  font-weight: $font-weight-normal;
   height: var(--input-height);
 
   /* stylelint-disable-next-line */

@@ -7,7 +7,7 @@
 {{block body()}}
 <main id="main" class="page search-page search-page-{{config("default_image_type")}}">
   <div class="page-header">
-    <h1>{{ i18n("searchresults_page_header") }}</h1>
+    <h1 class="h2-style">{{ i18n("searchresults_page_header") }}</h1>
   </div>
   <s72-searchresults search-param="q" partials-base-path="{{ routeToPath("/partials") }}" show-search-form="true" />
 </main>

@@ -5,3 +5,164 @@ small {
 a:not([class]) {
   text-decoration: underline;
 }
+
+h1 {
+  font-size: 35px;
+  font-weight: $font-weight-normal;
+  letter-spacing: 0.8px;
+  margin-bottom: 8px;
+  color: var(--body-color);
+
+  small {
+    font-size: 24px;
+  }
+  @include media-breakpoint-up(xs) {
+    font-size: 45px;
+  }
+}
+
+h2 {
+  font-size: 29px;
+  margin-bottom: 5px;
+  font-weight: $font-weight-normal;
+  letter-spacing: 0.6px;
+  @include media-breakpoint-up(sm) {
+    font-size: 35px;
+  }
+}
+
+h3 {
+  font-weight: $font-weight-normal;
+  font-size: 20px;
+  letter-spacing: 0px;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 23px;
+    letter-spacing: 0.4px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: $font-weight-light;
+  margin-bottom: 12px;
+}
+
+p {
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: $font-weight-light;
+}
+
+.h1-style{
+  @extend h1;
+}
+
+.h2-style{
+  @extend h2;
+}
+
+.h3-style{
+  @extend h3;
+}
+
+.h4-style{
+  @extend h4;
+}
+
+.paragraph-style{
+  @extend p;
+}
+
+.body-2-style{
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+
+.subtitle-1-style{
+  font-size: 16px;
+  font-weight: $font-weight-normal;
+  margin-bottom: 12px;
+  letter-spacing: 0.2px;
+}
+
+.subtitle-2-style{
+  font-size: 14px;
+  font-weight: $font-weight-normal;
+  margin-bottom: 12px;
+  letter-spacing: 0.2px;
+}
+
+.caption-1-style{
+  font-size: 16px;
+  font-weight: $font-weight-bold;
+  letter-spacing: 0.5px;
+}
+
+.overline-style{
+  font-size: 14px;
+  font-weight: $font-weight-normal;
+  letter-spacing: 0.8px;
+}
+// h1 {
+//   &:before{
+//     background-color: rgb(255, 0, 0);
+//     font-size: 10px;
+//     content: "h1";
+//     position: absolute;
+//   }
+//   background-color: rgb(255, 0, 0, 0.5);
+// }
+
+// h2 {
+//   &:before{
+//     background-color: rgb(0, 155, 255);
+//     font-size: 10px;
+//     content: "h2";
+//     position: absolute;
+//   }
+//   background-color: rgb(0, 155, 255,0.5);
+
+// }
+
+// h3 {
+//   &:before{
+//     color: black;
+//     background-color: rgb(0, 255, 0);
+//     font-size: 10px;
+//     content: "h3";
+//     position: absolute;
+//   }
+//   background-color: rgb(0, 255, 0, 0.5);
+
+// }
+
+// h4 {
+//   &:before{
+//     background-color: rgb(255, 0, 255);
+//     font-size: 10px;
+//     content: "h4";
+//     position: absolute;
+//   }
+//   background-color: rgb(255, 0, 255, 0.5);
+// }
+
+// p {
+//   &:before{
+//     background-color: rgb(255, 255, 0);
+//     font-size: 10px;
+//     content: "p";
+//     color: black;
+//     position: absolute;
+//   }
+//   background-color: rgb(255, 255, 0, 0.5);
+// }
+
+.acceptinvite-invalid-token {
+  @extend .h4-style;
+}
+
+.s72-form-check-label, .s72-form-control {
+  @extend .paragraph-style;
+}

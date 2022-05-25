@@ -28,7 +28,7 @@
     {{end}}
     {*{ There should be one less dividers than tagline items. }*}
     {{dividers = dividers - 1}}
-    
+
     {{if classification}}
       <s72-classification-label data-slug="{{.Slug}}" data-layout="tooltip"></s72-classification-label>
     {{end}}
@@ -83,7 +83,7 @@
 {{end}}
 
 {{block taglineItem()}}
-  <span class="meta-item-tagline-item">{{yield content}}</span>
+  <span class="overline-style meta-item-tagline-item">{{yield content}}</span>
 {{end}}
 
 {{block taglineDivider(dividers)}}
