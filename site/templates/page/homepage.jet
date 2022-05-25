@@ -1,6 +1,5 @@
 {{extends "templates/application/application.jet"}}
 {{import "templates/collection/page_collection.jet"}}
-{{import "templates/items/featured_item.jet"}}
 {{import "../collection/carousel/carousel.jet"}}
 {{import "templates/collection/wishlist.jet"}}
 
