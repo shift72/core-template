@@ -63,7 +63,7 @@
     }
 
     strong {
-      font-weight: $font-weight-bold;
+      @extend .caption-1-style;
     }
 
     a:not(.signup-link) {

@@ -8,7 +8,7 @@
   </div>
   <h3 class="subtitle-1-style">{{item.Title}}</h3>
   {{if item.Runtime > 0 }}
-    <span class="runtime">
+    <span class="subtitle-2-style runtime">
       {{if item.Runtime.Hours() > 0}}
         {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
       {{end}}
