@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   font-size: 29px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   font-weight: $font-weight-normal;
   letter-spacing: 0.6px;
   @include media-breakpoint-up(sm) {
@@ -63,7 +63,7 @@ h4 {
 .subtitle-1-style{
   font-size: 16px;
   font-weight: $font-weight-normal;
-  margin-bottom: 12px;
+  margin-bottom: 2px;
   letter-spacing: 0.2px;
 }
 
@@ -171,15 +171,15 @@ h4 {
 //   background-color: rgb(122, 55, 0, 0.5);
 // }
 
-// .subtitle-1-style{
-//   &:before{
-//     background-color: rgb(122, 55, 255);
-//     font-size: 10px;
-//     content: "subtitle-1";
-//     position: absolute;
-//   }
-//   background-color: rgb(122, 55, 255, 0.5);
-// }
+.subtitle-1-style{
+  &:before{
+    background-color: rgb(122, 55, 255);
+    font-size: 10px;
+    content: "subtitle-1";
+    position: absolute;
+  }
+  background-color: rgb(122, 55, 255, 0.5);
+}
 
 // .subtitle-2-style{
 //   &:before{
