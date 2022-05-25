@@ -280,3 +280,12 @@ s72-donate-button:not(:empty) {
 .s72-btn-reset-pin {
   color: var(--link-color) !important;
 }
+
+// Empty relish components still have gaps applied so hide them.
+s72-play-button,
+can-be-watched-button,
+s72-userwishlist-button {
+  &:empty {
+    display: none;
+  }
+}

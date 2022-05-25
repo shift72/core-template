@@ -202,55 +202,6 @@ s72-element-switcher,
     }
   }
 
-  .meta-detail-buttons {
-    // Purchase, play, trailer, wishlist are all in one group now
-    // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
-    margin-right: -0.5rem;
-    min-height: 45px;
-
-    /* stylelint-disable selector-max-compound-selectors */
-    .s72-subscribe {
-      display: flex;
-      flex-wrap: wrap;
-      margin-right: 1rem;
-      white-space: nowrap;
-      width: min-content;
-      .s72-btn-subscribe {
-        margin-bottom: 0;
-      }
-    }
-
-    s72-pricing-buttons .s72-btn,
-    .meta-detail-extras,
-    s72-play-button,
-    can-be-watched-button:not(:empty) {
-      align-self: flex-start;
-      animation: fadein 2s;
-      margin-right: 0.5rem;
-    }
-
-    s72-modal-player,
-    s72-userwishlist-button,
-    s72-pricing-buttons .s72-btn,
-    s72-play-button,
-    .social-media-buttons,
-    can-be-watched-button:not(:empty) {
-      margin-bottom: 5px;
-    }
-
-    // Handles spacing when there is only rent, only buy, or only play button
-    s72-pricing-buttons .s72-btn,
-    s72-play-button {
-      &:nth-child(1) {
-        margin-right: 0;
-      }
-      &:only-child {
-        margin-right: 0.5rem;
-      }
-    }
-    /* stylelint-enable selector-max-compound-selectors */
-  }
-
   .meta-detail-synopsis,
   .meta-detail-switcher-tagline {
     padding-top: 10px;
@@ -269,22 +220,6 @@ s72-element-switcher,
 
     a {
       @include a;
-    }
-  }
-
-  .meta-detail-extras {
-    @extend .d-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    @include media-breakpoint-up(md) {
-      flex-direction: row;
-    }
-
-    .s72-btn,
-    .s72-userwishlist-buttons,
-    .social-media-buttons {
-      animation: fadein 2s;
-      margin-top: 1px;
     }
   }
 
@@ -419,10 +354,6 @@ s72-element-switcher,
       margin: 0;
     }
 
-    .meta-detail-buttons {
-      margin-bottom: 35px;
-    }
-
     .meta-detail-synopsis {
       font-size: 12px;
       margin-bottom: 35px;
@@ -439,13 +370,6 @@ s72-element-switcher,
     p {
       animation: fadein 2s;
     }
-  }
-
-  .meta-detail-extras {
-    @extend .d-flex;
-
-    min-height: min-content;
-    padding: 0;
   }
 
   .page-collection-list {
