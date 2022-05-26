@@ -1,10 +1,5 @@
 .meta-item-tagline {
   @extend .list-inline;
-  font-size: 12px;
-  @include media-breakpoint-up(md) {
-    font-size: 14px;
-  }
-
   .meta-item-tagline-item,
   .meta-item-tagline-divider {
     @extend .d-inline;

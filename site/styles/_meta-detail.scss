@@ -121,14 +121,16 @@
   flex-direction: column;
   gap: 0 20px;
   padding: 0 20px;
-  margin-top: 140px;
+  margin-top: 150px;
 
-  @include media-breakpoint-up(lg) {
-    flex-direction: row;
+  @include media-breakpoint-up(md) {
+    margin-top: 285px;
   }
 
   @include media-breakpoint-up(lg) {
+    flex-direction: row;
     padding: 0 50px;
+    margin-top: 190px;
   }
 
   .poster {
@@ -184,13 +186,6 @@ s72-element-switcher,
   }
 
   .meta-item-tagline {
-    color: rgba(var(--body-color-rgb), 0.8);
-    font-size: 14px;
-    font-weight: $font-weight-normal;
-    @include media-breakpoint-up(xxxl) {
-      font-size: 18px;
-    }
-
     .meta-item-tagline-item,
     .meta-item-tagline-divider {
       animation: fadein 2s;

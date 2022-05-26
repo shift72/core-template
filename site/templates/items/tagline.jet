@@ -1,5 +1,5 @@
 {{block metaItemTagline(genres=true, genresLimit=-1, classification=true)}}
-  <div class="meta-item-tagline">
+  <div class="meta-item-tagline overline-style">
     {{itemGenres := makeSlice()}}
     {{if genres}}
       {{if isset(.Genres)}}
@@ -83,7 +83,7 @@
 {{end}}
 
 {{block taglineItem()}}
-  <span class="overline-style meta-item-tagline-item">{{yield content}}</span>
+  <span class="meta-item-tagline-item">{{yield content}}</span>
 {{end}}
 
 {{block taglineDivider(dividers)}}
