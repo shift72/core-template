@@ -7,41 +7,41 @@ a:not([class]) {
 }
 
 p {
-  letter-spacing: 0.5px;
   font-size: 16px;
-  line-height: 23px;
   font-weight: $font-weight-light;
+  letter-spacing: 0.5px;
+  line-height: 23px;
 }
 
 h1 {
+  color: var(--body-color);
   font-size: 35px;
   font-weight: $font-weight-normal;
   letter-spacing: 0.8px;
   margin-bottom: 8px;
-  color: var(--body-color);
+  @include media-breakpoint-up(xs) {
+    font-size: 45px;
+  }
 
   small {
     font-size: 24px;
-  }
-  @include media-breakpoint-up(xs) {
-    font-size: 45px;
   }
 }
 
 h2 {
   font-size: 29px;
-  margin-bottom: 4px;
   font-weight: $font-weight-normal;
   letter-spacing: 0.6px;
+  margin-bottom: 4px;
   @include media-breakpoint-up(sm) {
     font-size: 35px;
   }
 }
 
 h3 {
-  font-weight: $font-weight-normal;
   font-size: 20px;
-  letter-spacing: 0px;
+  font-weight: $font-weight-normal;
+  letter-spacing: 0;
 
   @include media-breakpoint-up(sm) {
     font-size: 23px;
@@ -55,52 +55,52 @@ h4 {
   margin-bottom: 12px;
 }
 
-.paragraph-style{
+.paragraph-style {
   @extend p;
 }
 
-.h1-style{
+.h1-style {
   @extend h1;
 }
 
-.h2-style{
+.h2-style {
   @extend h2;
 }
 
-.h3-style{
+.h3-style {
   @extend h3;
 }
 
-.h4-style{
+.h4-style {
   @extend h4;
 }
 
-.body-2-style{
+.body-2-style {
   font-size: 14px;
   letter-spacing: 0.4px;
 }
 
-.subtitle-1-style{
+.subtitle-1-style {
   font-size: 16px;
   font-weight: $font-weight-light;
-  margin-bottom: 2px;
   letter-spacing: 0.2px;
+  margin-bottom: 2px;
 }
 
-.subtitle-2-style{
+.subtitle-2-style {
   font-size: 14px;
   font-weight: $font-weight-normal;
-  margin-bottom: 12px;
   letter-spacing: 0.2px;
+  margin-bottom: 12px;
 }
 
-.caption-1-style{
+.caption-1-style {
   font-size: 16px;
   font-weight: $font-weight-bold;
   letter-spacing: 0.5px;
 }
 
-.overline-style{
+.overline-style {
   font-size: 14px;
   font-weight: $font-weight-light;
   letter-spacing: 0.8px;
@@ -110,6 +110,7 @@ h4 {
   @extend .h4-style;
 }
 
-.s72-form-check-label, .s72-form-control {
+.s72-form-check-label,
+.s72-form-control {
   @extend .paragraph-style;
 }

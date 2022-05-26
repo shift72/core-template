@@ -1,6 +1,6 @@
 label {
-  margin-bottom: 0.25rem;
   @extend .subtitle-1-style;
+  margin-bottom: 0.25rem;
 }
 
 // Form Container Defaults
@@ -61,10 +61,10 @@ s72-activatedevice-form,
 }
 // Error Messaging
 .s72-error-message {
+  @extend .body-2-style;
   background: $error-background;
   border-radius: $border-radius;
   color: $error-color;
-  @extend .body-2-style;
   margin-top: 10px;
   padding: 4px 8px;
   position: relative;
