@@ -161,11 +161,9 @@ s72-element-switcher,
 .meta-detail-bonus-content,
 .meta-detail-episodes-content {
   flex: 1 1 100%;
+  max-width: 728px;
 
-  @include media-breakpoint-up(md) {
-    max-width: 563px;
-  }
-  @include media-breakpoint-up(xl) {
+  @include media-breakpoint-up(xxxl) {
     max-width: 1100px;
   }
 }
@@ -175,6 +173,13 @@ s72-element-switcher,
 
   h1 {
     animation: fadein 2s;
+    margin-bottom: 0;
+    max-width: 728px;
+    text-shadow: none;
+
+    @include media-breakpoint-up(xxxl) {
+      max-width: 1100px;
+    }
 
   }
 
@@ -193,20 +198,29 @@ s72-element-switcher,
   }
 
   .meta-detail-buttons {
-    margin-left: -0.5rem;
-
     // Purchase, play, trailer, wishlist are all in one group now
     // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
     margin-right: -0.5rem;
     min-height: 45px;
 
     /* stylelint-disable selector-max-compound-selectors */
+    .s72-subscribe {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 1rem;
+      white-space: nowrap;
+      width: min-content;
+      .s72-btn-subscribe {
+        margin-bottom: 0;
+      }
+    }
+
     s72-pricing-buttons .s72-btn,
     .meta-detail-extras,
     s72-play-button,
     can-be-watched-button:not(:empty) {
+      align-self: flex-start;
       animation: fadein 2s;
-      margin-left: 0.5rem;
       margin-right: 0.5rem;
     }
 
@@ -216,7 +230,7 @@ s72-element-switcher,
     s72-play-button,
     .social-media-buttons,
     can-be-watched-button:not(:empty) {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
 
     // Handles spacing when there is only rent, only buy, or only play button
@@ -230,6 +244,13 @@ s72-element-switcher,
       }
     }
     /* stylelint-enable selector-max-compound-selectors */
+  }
+
+  .meta-detail-synopsis {
+    max-width: 728px;
+    @include media-breakpoint-up(xl) {
+      max-width: 1100px;
+    }
   }
 
   .meta-detail-synopsis,
@@ -257,6 +278,7 @@ s72-element-switcher,
     .s72-userwishlist-buttons,
     .social-media-buttons {
       animation: fadein 2s;
+      margin-top: 1px;
     }
   }
 

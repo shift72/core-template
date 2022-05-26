@@ -97,3 +97,16 @@
     }
   }
 }
+
+.s72-playback-progress,
+.s72-playback-progress-bar {
+  height: 6px;
+}
+
+.s72-playback-progress {
+  background-color: rgba(var(--body-bg-rgb), 0.5);
+}
+
+.s72-playback-progress-bar {
+  background-color: var(--secondary);
+}

@@ -4,6 +4,7 @@
       <s72-availability-status slug="{{item.Slug}}"></s72-availability-status>
       <s72-image src="{{item.Images.Landscape}}" alt="{{item.Title}}" class="poster-image poster-image-landscape"></s72-image>
       <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
+      <s72-playback-progress slug="{{item.Slug}}"></s72-playback-progress>
     </div>
   </div>
   <h3 class="subtitle-1-style">{{item.Title}}</h3>

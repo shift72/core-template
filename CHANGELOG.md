@@ -2,6 +2,8 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.6.0...HEAD)
 
+### Added
+* Subscribe to watch button
 ## [0.6.0](https://github.com/shift72/core-template/compare/0.6.0-alpha.0...0.6.0)
 
 No changes from `alpha-0`.
@@ -9,6 +11,8 @@ No changes from `alpha-0`.
 ### Added
 - Keyboard controls for the carousel.
 - Pull request template file.
+- Playback progress component and style
+- `url` parameter in share modals
 
 ### Changed
 - Reworked the carousel UI.

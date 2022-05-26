@@ -198,12 +198,21 @@ s72-carousel {
     margin-bottom: 8px;
     .s72-btn-purchase,
     .s72-btn-rent,
+    .s72-btn-subscribe,
     .s72-btn-trailer,
     .s72-btn-wishlist {
       margin: 0;
     }
+
+    .s72-subscribe {
+      display: flex;
+      flex-grow: 1;
+      flex-wrap: wrap;
+      width: min-content;
+    }
   }
   .meta-item-extras {
+    align-self: flex-start;
     display: flex;
     gap: 20px 16px;
   }
@@ -218,6 +227,9 @@ s72-carousel {
 
   s72-play-button {
     flex-grow: 1;
+    @include media-breakpoint-up(sm) {
+      flex-grow: unset;
+    }
     .s72-btn-play {
       margin: 0;
       min-width: 140px;
@@ -234,8 +246,12 @@ s72-carousel {
     }
   }
 
-  s72-pricing-buttons {
+  s72-pricing-buttons,
+  .s72-btn-subscribe {
     width: 100%;
+    @include media-breakpoint-up(xs) {
+      width: auto;
+    }
   }
 
   .s72-pricing-button-container {
@@ -245,11 +261,12 @@ s72-carousel {
   }
 
   .s72-btn-purchase,
-  .s72-btn-rent {
+  .s72-btn-rent,
+  .s72-btn-subscribe {
     flex-grow: 1;
     @include media-breakpoint-up(sm) {
       flex-grow: unset;
-      width: 140px;
+      min-width: 140px;
     }
   }
 
