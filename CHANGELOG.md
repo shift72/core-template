@@ -3,7 +3,11 @@
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.6.0...HEAD)
 
 ### Added
-* Subscribe to watch button
+- Subscribe to watch button
+
+### Changed
+- New Jet and CSS for reusable CTA buttons.  Used for consistent button appearance on film/tv/bundle pages and carousel slides.
+
 ## [0.6.0](https://github.com/shift72/core-template/compare/0.6.0-alpha.0...0.6.0)
 
 No changes from `alpha-0`.
