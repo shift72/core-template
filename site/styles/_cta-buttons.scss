@@ -1,3 +1,4 @@
+/* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
 .cta-buttons {
   display: flex;
   flex-direction: column;
@@ -250,3 +251,4 @@
     /*#endregion */
   }
 }
+/* stylelint-enable selector-max-compound-selectors, max-nesting-depth */
