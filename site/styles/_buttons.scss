@@ -112,10 +112,6 @@
   background: transparent;
   border: 0 none;
 
-  @include media-breakpoint-up(md) {
-    margin-right: 10px;
-  }
-
   @include hover-focus {
     background: transparent;
 
@@ -203,7 +199,6 @@
 }
 
 .btn-wishlist {
-  // padding-top: 2px;
   p {
     margin: 0;
   }
@@ -281,7 +276,7 @@ s72-donate-button:not(:empty) {
   color: var(--link-color) !important;
 }
 
-// Empty relish components still have gaps applied so hide them.
+// Empty relish components sometimes have structural CSS so hide them.
 s72-play-button,
 can-be-watched-button,
 s72-userwishlist-button {
