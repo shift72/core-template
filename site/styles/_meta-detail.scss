@@ -155,11 +155,9 @@ s72-element-switcher,
 .meta-detail-bonus-content,
 .meta-detail-episodes-content {
   flex: 1 1 100%;
+  max-width: 728px;
 
-  @include media-breakpoint-up(md) {
-    max-width: 563px;
-  }
-  @include media-breakpoint-up(xl) {
+  @include media-breakpoint-up(xxxl) {
     max-width: 1100px;
   }
 }
@@ -172,7 +170,9 @@ s72-element-switcher,
     font-size: 28px;
     font-weight: $font-weight-bold;
     margin-bottom: 0;
+    max-width: 728px;
     text-shadow: none;
+
     @include media-breakpoint-up(md) {
       font-size: 34px;
     }
@@ -181,6 +181,7 @@ s72-element-switcher,
     }
     @include media-breakpoint-up(xxxl) {
       font-size: 54px;
+      max-width: 1100px;
     }
 
     small {
@@ -199,6 +200,13 @@ s72-element-switcher,
     .meta-item-tagline-item,
     .meta-item-tagline-divider {
       animation: fadein 2s;
+    }
+  }
+
+  .meta-detail-synopsis {
+    max-width: 728px;
+    @include media-breakpoint-up(xl) {
+      max-width: 1100px;
     }
   }
 
