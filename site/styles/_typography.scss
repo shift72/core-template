@@ -55,6 +55,26 @@ h4 {
   margin-bottom: 12px;
 }
 
+.paragraph-style{
+  @extend p;
+}
+
+.h1-style{
+  @extend h1;
+}
+
+.h2-style{
+  @extend h2;
+}
+
+.h3-style{
+  @extend h3;
+}
+
+.h4-style{
+  @extend h4;
+}
+
 .body-2-style{
   font-size: 14px;
   letter-spacing: 0.4px;
@@ -84,26 +104,6 @@ h4 {
   font-size: 14px;
   font-weight: $font-weight-normal;
   letter-spacing: 0.8px;
-}
-
-.h1-style{
-  @extend h1;
-}
-
-.h2-style{
-  @extend h2;
-}
-
-.h3-style{
-  @extend h3;
-}
-
-.h4-style{
-  @extend h4;
-}
-
-.paragraph-style{
-  @extend p;
 }
 
 .acceptinvite-invalid-token {
