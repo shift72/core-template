@@ -1,10 +1,11 @@
 .cta-buttons {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 16px;
   margin-bottom: 8px;
 
   @include media-breakpoint-up(xs) {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 
