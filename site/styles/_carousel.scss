@@ -1,24 +1,7 @@
 s72-carousel {
-  display: block;
-  height: var(--s72-carousel-container-height);
-  margin: 0 auto;
-  position: static;
-  width: 100%;
-  @include media-breakpoint-up(sm) {
-    height: var(--s72-carousel-container-height-sm);
-  }
-  @include media-breakpoint-up(lg) {
-    height: var(--s72-carousel-container-height-lg);
-  }
-}
-
-.page-collection-carousel {
   display: flex;
-  flex-direction: column;
   height: var(--carousel-height);
-  left: 0;
-  position: absolute;
-  top: 0;
+  margin-bottom: 30px;
   width: 100%;
   @include media-breakpoint-up(sm) {
     height: var(--carousel-height-sm);
@@ -26,6 +9,12 @@ s72-carousel {
   @include media-breakpoint-up(lg) {
     height: var(--carousel-height-lg);
   }
+}
+
+.page-collection-carousel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .s72-carousel-slides {
