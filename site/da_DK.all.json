@@ -1324,5 +1324,8 @@
   },
   "subscribe_to_watch": {
     "other": "Abonner for at se"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} elementer"
   }
 }

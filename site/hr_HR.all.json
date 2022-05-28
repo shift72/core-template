@@ -1309,5 +1309,8 @@
   },
   "subscribe_to_watch": {
     "other": "Pretplatite se na gledanje"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} stavke"
   }
 }

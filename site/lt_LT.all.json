@@ -1319,5 +1319,8 @@
   },
   "subscribe_to_watch": {
     "other": "Prenumeruokite žiūrėti"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} elementai"
   }
 }
