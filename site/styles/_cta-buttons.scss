@@ -1,17 +1,23 @@
 /* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
 .cta-buttons {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 16px;
   margin-bottom: 8px;
 
   @include media-breakpoint-up(xs) {
-    flex-direction: row;
-    flex-wrap: wrap;
+    grid-auto-columns: min-content;
+    grid-template-rows: 1fr;
   }
 
-  > *:not(.extra-buttons) {
-    animation: fadein 2s;
+  > * {
+    &:not(.extra-buttons) {
+      animation: fadein 2s;
+    }
+
+    @include media-breakpoint-up(xs) {
+      grid-column: auto;
+      grid-row: 1;
+    }
   }
 
   .s72-pricing-button-container {
