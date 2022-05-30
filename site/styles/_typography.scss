@@ -1,3 +1,9 @@
+@mixin typography-style($font-size, $font-weight, $letter-spacing) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing;
+}
+
 small {
   font-size: 85%;
 }
@@ -7,17 +13,13 @@ a:not([class]) {
 }
 
 p {
-  font-size: 16px;
-  font-weight: $font-weight-light;
-  letter-spacing: 0.5px;
+  @include typography-style(16px, $font-weight-light, 0.5px);
   line-height: 23px;
 }
 
 h1 {
+  @include typography-style(35px, $font-weight-normal, 0.8px);
   color: var(--body-color);
-  font-size: 35px;
-  font-weight: $font-weight-normal;
-  letter-spacing: 0.8px;
   margin-bottom: 8px;
   @include media-breakpoint-up(xs) {
     font-size: 45px;
@@ -29,9 +31,7 @@ h1 {
 }
 
 h2 {
-  font-size: 29px;
-  font-weight: $font-weight-normal;
-  letter-spacing: 0.6px;
+  @include typography-style(29px, $font-weight-normal, 0.6px);
   margin-bottom: 4px;
   @include media-breakpoint-up(sm) {
     font-size: 35px;
@@ -39,9 +39,7 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
-  font-weight: $font-weight-normal;
-  letter-spacing: 0;
+  @include typography-style(20px, $font-weight-normal, 0);
 
   @include media-breakpoint-up(sm) {
     font-size: 23px;
@@ -50,8 +48,7 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
-  font-weight: $font-weight-light;
+  @include typography-style(18px, $font-weight-light, null);
   margin-bottom: 12px;
 }
 
