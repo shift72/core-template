@@ -1324,5 +1324,8 @@
   },
   "subscribe_to_watch": {
     "other": "Tellige vaatamiseks"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} üksused"
   }
 }

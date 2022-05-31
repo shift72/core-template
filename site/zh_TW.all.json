@@ -1313,5 +1313,8 @@
   },
   "subscribe_to_watch": {
     "other": "订阅观看"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} 项目"
   }
 }

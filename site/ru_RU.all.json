@@ -1341,5 +1341,8 @@
   },
   "subscribe_to_watch": {
     "other": "Подпишитесь, чтобы смотреть"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} Предметы"
   }
 }

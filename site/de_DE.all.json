@@ -1324,5 +1324,8 @@
   },
   "subscribe_to_watch": {
     "other": "Zum Ansehen abonnieren"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} Produkte"
   }
 }
