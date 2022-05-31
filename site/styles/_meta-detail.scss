@@ -120,16 +120,13 @@
   @extend .d-flex;
   flex-direction: column;
   gap: 0 20px;
-  margin-top: 150px;
   padding: 0 20px;
 
   @include media-breakpoint-up(md) {
-    margin-top: 285px;
+    flex-direction: row;
   }
 
   @include media-breakpoint-up(lg) {
-    flex-direction: row;
-    margin-top: 190px;
     padding: 0 50px;
   }
 
@@ -142,19 +139,14 @@
       width: 155px;
     }
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(md) {
       width: 208px;
     }
   }
 
-  .poster-wrapper {
-    margin-bottom: 18px;
-    .sponsor {
-      bottom: 100%;
-      position: absolute;
-      @include media-breakpoint-up(xl) {
-        display: none;
-      }
+  .poster-wrapper .sponsor {
+    @include media-breakpoint-up(xl) {
+      display: none;
     }
   }
 }
