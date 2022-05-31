@@ -1,7 +1,62 @@
-@mixin typography-style($font-size, $font-weight, $letter-spacing) {
+@mixin typography-style($font-size, $letter-spacing:null, $font-weight:null, $margin-bottom:null, $font-color:null, $line-height:null) {
   font-size: $font-size;
-  font-weight: $font-weight;
   letter-spacing: $letter-spacing;
+  font-weight: $font-weight;
+  margin-bottom: $margin-bottom;
+  color: $font-color;
+  line-height: $line-height;
+}
+
+@mixin h1-style() {
+  @include typography-style(35px, 0.8px, $font-weight-normal, 8px, var(--body-color));
+  @include media-breakpoint-up(xs) {
+    @include typography-style(45px);
+  }
+  small {
+    @include typography-style(24px);
+  }
+}
+
+@mixin h2-style() {
+  @include typography-style(29px, 0.6px, $font-weight-normal, 4px);
+  @include media-breakpoint-up(sm) {
+    @include typography-style(35px);
+  }
+}
+
+@mixin h3-style() {
+  @include typography-style(20px, 0, $font-weight-normal);
+  @include media-breakpoint-up(sm) {
+    @include typography-style(23px, 0.4px);
+  }
+}
+
+@mixin h4-style() {
+  @include typography-style(18px, null, $font-weight-light, 12px);
+}
+
+@mixin paragraph-style() {
+  @include typography-style(16px, 0.5px, $font-weight-light, null, null, 23px);
+}
+
+@mixin body-2-style() {
+  @include typography-style(14px, 0.4px);
+}
+
+@mixin subtitle-1-style() {
+  @include typography-style(16px, 0.2px, $font-weight-light, 2px);
+}
+
+@mixin subtitle-2-style() {
+  @include typography-style(14px, 0.2px, $font-weight-normal, 12px);
+}
+
+@mixin caption-1-style() {
+  @include typography-style(16px, 0.5px, $font-weight-bold);
+}
+
+@mixin overline-style() {
+  @include typography-style(14px, 0.8px, $font-weight-light);
 }
 
 small {
@@ -12,95 +67,52 @@ a:not([class]) {
   text-decoration: underline;
 }
 
-p {
-  @include typography-style(16px, $font-weight-light, 0.5px);
-  line-height: 23px;
-}
-
 h1 {
-  @include typography-style(35px, $font-weight-normal, 0.8px);
-  color: var(--body-color);
-  margin-bottom: 8px;
-  @include media-breakpoint-up(xs) {
-    font-size: 45px;
-  }
-
-  small {
-    font-size: 24px;
-  }
+  @include h1-style();
 }
 
-h2 {
-  @include typography-style(29px, $font-weight-normal, 0.6px);
-  margin-bottom: 4px;
-  @include media-breakpoint-up(sm) {
-    font-size: 35px;
-  }
-}
-
-h3 {
-  @include typography-style(20px, $font-weight-normal, 0);
-
-  @include media-breakpoint-up(sm) {
-    font-size: 23px;
-    letter-spacing: 0.4px;
-  }
-}
-
-h4 {
-  @include typography-style(18px, $font-weight-light, null);
-  margin-bottom: 12px;
+p {
+  @include paragraph-style();
 }
 
 .paragraph-style { // aka 'body-1' on style guide
-  @extend p;
+  @include paragraph-style();
 }
 
 .h1-style {
-  @extend h1;
+  @include h1-style();
 }
 
 .h2-style {
-  @extend h2;
+  @include h2-style();
 }
 
 .h3-style {
-  @extend h3;
+  @include h3-style();
 }
 
 .h4-style {
-  @extend h4;
+  @include h4-style();
 }
 
 .body-2-style {
-  font-size: 14px;
-  letter-spacing: 0.4px;
+  @include body-2-style();
 }
 
 .subtitle-1-style {
-  font-size: 16px;
-  font-weight: $font-weight-light;
-  letter-spacing: 0.2px;
-  margin-bottom: 2px;
+  @include subtitle-1-style();
 }
 
 .subtitle-2-style {
-  font-size: 14px;
-  font-weight: $font-weight-normal;
-  letter-spacing: 0.2px;
-  margin-bottom: 12px;
+  @include subtitle-2-style();
 }
 
 .caption-1-style {
-  font-size: 16px;
-  font-weight: $font-weight-bold;
-  letter-spacing: 0.5px;
+  @include caption-1-style();
 }
 
 .overline-style {
-  font-size: 14px;
-  font-weight: $font-weight-light;
-  letter-spacing: 0.8px;
+  @include overline-style();
 }
 
 .acceptinvite-invalid-token {
