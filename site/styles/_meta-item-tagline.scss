@@ -26,3 +26,36 @@
   background-color: #fdff5c;
   color: #000;
 }
+
+.s72-classification {
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 0;
+  padding: 0;
+
+  .s72-classification-intro,
+  .s72-classification-divider {
+    display: none;
+  }
+
+  .s72-classification-label {
+    background-color: rgba(var(--body-color-rgb), 0.15);
+    border: 0;
+    border-radius: 5;
+    color: rgba(var(--body-color-rgb), 0.8);
+    font-size: 12px;
+    font-weight: $font-weight-bold;
+    padding: 1px 5px;
+
+    @include media-breakpoint-up(xxxl) {
+      font-size: 14px;
+    }
+  }
+}
+
+.meta-detail-content .meta-detail-tagline-and-classification {
+  align-items: center;
+  display: flex !important;
+  padding-bottom: 14px;
+  padding-top: 8px;
+}

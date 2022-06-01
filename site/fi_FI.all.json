@@ -132,7 +132,7 @@
     "other": "Linkin jakaminen"
   },
   "social_media_buttons_copied_link": {
-    "other": "Linkki kopioitu leikepöydälle!"
+    "other": "Linkki kopioitu"
   },
   "social_media_buttons_copy_link": {
     "other": "Kopioi linkki"
@@ -619,7 +619,7 @@
     "other": "Selaa kirjastoasi"
   },
   "shopping_complete_plan": {
-    "other": "{{ .Title }} onnistui."
+    "other": "{{.Title}} onnistui."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Voit aloittaa katsomisen seuraavan päivän aikana.",
@@ -846,33 +846,38 @@
     "other": "Hinta"
   },
   "shopping_price_plan_note": {
-    "zero": "{{ .Interval }} joka .intervalli .",
-    "one": "{{ .Interval }} joka .väli 24 tunnin ilmaisen kokeilujakson päätyttyä.",
-    "other": "Veloitetaan joka {{ .Interval }} {{ .Count }} päivän ilmaisen kokeilujakson päätyttyä."
+    "one": "{{.Interval}} joka .väli 24 tunnin ilmaisen kokeilujakson päätyttyä.",
+    "other": "Veloitetaan joka {{.Interval}} {{.Count}} päivän ilmaisen kokeilujakson päätyttyä."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Veloitetaan joka {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Syötä luottokorttitietosi alle aloittaaksesi tilauksesi."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Syötä luottokorttitietosi alle aloittaaksesi tilauksesi."
+    "other": "Syötä luottokorttitietosi alle aloittaaksesi suunnitelmasi."
   },
   "shopping_action_plan": {
     "other": "Saattaa loppuun"
   },
   "shopping_complete_subscription": {
-    "other": "Tilauksesi osto onnistui. Olet nyt tilannut {{ .Title }} ."
+    "other": "Tilauksesi osto onnistui. Olet nyt tilannut {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Voit vapaasti <a href=\"/\">selata</a> sivustoa tai <a href=\"/search.html\">etsiä</a> jotain tiettyä."
   },
   "shopping_info_plan_offer": {
-    "one": "{{ .Interval }} automaattisesti joka .intervalli",
-    "other": "{{ .Count }} automaattisesti joka {{ .Interval }}"
+    "one": "Uusiutuu automaattisesti joka {{.Interval}}",
+    "other": "{{.Count}} automaattisesti joka {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Kokeile ilmaista 24 tunnin kokeilua nyt!",
-    "other": "Kokeile ilmaista {{ .Count }} päivän kokeiluversiota!"
+    "other": "Kokeile ilmaista {{.Count}} päivän kokeiluversiota!"
   },
   "plans_page_header": {
     "other": "Saatavilla olevat suunnitelmat"
@@ -890,7 +895,7 @@
     "other": "Lue lisää"
   },
   "plan_page_header_text": {
-    "other": "Nauti {{ .Name }}"
+    "other": "Nauti {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "TAI"
@@ -951,6 +956,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Karuselli"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Sivunumerointi"
   },
   "wcag_aria_label_page_collection": {
     "other": "Sivujen kokoelma"
@@ -1288,21 +1296,27 @@
     "other": "Omat tilaukset"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Ensimmäinen maksu {{ .Expiry }}"
+    "other": "Ensimmäinen maksu {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Seuraava maksu {{ .Expiry }}"
+    "other": "Seuraava maksu {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Maksu eräpäivänä {{ .Expiry }}"
+    "other": "Maksu eräpäivänä {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Päättyy {{ .Expiry }}"
+    "other": "Päättyy {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Päättynyt {{ .Expiry }}"
+    "other": "Päättynyt {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "sponsorin logo"
+  },
+  "subscribe_to_watch": {
+    "other": "Tilaa katsoaksesi"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} kohteita"
   }
 }

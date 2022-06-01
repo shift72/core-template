@@ -152,7 +152,7 @@
     "other": "مشاركة الارتباط"
   },
   "social_media_buttons_copied_link": {
-    "other": "تم نسخ الرابط إلى الحافظة!"
+    "other": "تم نسخ الرابط"
   },
   "social_media_buttons_copy_link": {
     "other": "نسخ الوصلة"
@@ -711,7 +711,7 @@
     "other": "عرض المكتبة"
   },
   "shopping_complete_plan": {
-    "other": "لقد نجحت عملية شرائك لـ {{ .Title }}"
+    "other": "لقد نجحت عملية شرائك لـ {{.Title}}"
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "يمكن الآن بدء المشاهدة حتى اليوم التالي.",
@@ -1138,6 +1138,9 @@
   "wcag_aria_label_carousel": {
     "other": "المشاركات الدائرية"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "ترقيم الصفحات"
+  },
   "wcag_aria_label_page_collection": {
     "other": "صفحة المجموعات"
   },
@@ -1163,16 +1166,29 @@
     "other": "سعر"
   },
   "shopping_price_plan_note": {
-    "zero": "اتهم كل {{ .Interval }} .",
-    "one": "يتم تحصيل الرسوم كل {{ .Interval }} بعد انتهاء الفترة التجريبية المجانية لمدة 24 ساعة.",
-    "other": "يتم تحصيل الرسوم كل {{ .Interval }} بعد انتهاء {{ .Count }} التجريبية المجانية .Count يوم."
+    "zero": "اتهم كل {{.Interval}} .",
+    "one": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية لمدة 24 ساعة.",
+    "two": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
+    "few": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
+    "many": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
+    "other": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "اتهم كل {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "zero": "{{.Interval}}",
+    "one": "{{.Interval}}",
+    "two": "{{.Count}} {{.Interval}}",
+    "few": "{{.Count}} {{.Interval}}",
+    "many": "{{.Count}} {{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "أدخل تفاصيل بطاقة الائتمان الخاصة بك أدناه لبدء اشتراكك."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "أدخل تفاصيل بطاقة الائتمان الخاصة بك أدناه لبدء اشتراكك."
+    "other": "أدخل تفاصيل بطاقة الائتمان الخاصة بك أدناه لبدء خطتك."
   },
   "shopping_action_plan": {
     "other": "مكتمل"
@@ -1181,18 +1197,18 @@
     "other": "فوق حتى"
   },
   "shopping_complete_subscription": {
-    "other": "تم شراء اشتراكك بنجاح. أنت الآن مشترك في {{ .Title }} ."
+    "other": "تم شراء اشتراكك بنجاح. أنت الآن مشترك في {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "لا تتردد في <a href=\"/\">تصفح</a> الموقع ، أو <a href=\"/search.html\">البحث</a> عن شيء محدد."
   },
   "shopping_info_plan_offer": {
-    "one": "يجدد تلقائيا كل. {{ .Interval }}",
-    "other": "يجدد تلقائيا كل {{ .Count }} {{ .Interval }}"
+    "one": "يجدد تلقائيا كل. {{.Interval}}",
+    "other": "يجدد تلقائيا كل {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "جرب الإصدار التجريبي المجاني لمدة 24 ساعة الآن!",
-    "other": "{{ .Count }} التجريبي المجاني من {{ .Count }} day!"
+    "other": "{{.Count}} التجريبي المجاني من {{.Count}} day!"
   },
   "plans_page_header": {
     "other": "الخطط المتاحة"
@@ -1210,7 +1226,7 @@
     "other": "اقرأ أكثر"
   },
   "plan_page_header_text": {
-    "other": "استمتع {{ .Name }}"
+    "other": "استمتع {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "أو"
@@ -1297,21 +1313,27 @@
     "other": "اشتراكاتي"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "الدفعة {{ .Expiry }}"
+    "other": "الدفعة {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "الدفعة {{ .Expiry }}"
+    "other": "الدفعة {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "الدفع {{ .Expiry }}"
+    "other": "الدفع {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "{{ .Expiry }}"
+    "other": "{{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "{{ .Expiry }}"
+    "other": "{{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "شعار الراعي"
+  },
+  "subscribe_to_watch": {
+    "other": "اشترك للمشاهدة"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} أغراض"
   }
 }

@@ -152,7 +152,7 @@
     "other": "Link megosztás"
   },
   "social_media_buttons_copied_link": {
-    "other": "Link a vágólapra másolva!"
+    "other": "Link másolva"
   },
   "social_media_buttons_copy_link": {
     "other": "Link másolása"
@@ -660,7 +660,7 @@
     "other": "Kezd el nézni bármelyiket a {{.BundleItems}} filmjei közül, melyeket mostantól megtalálsz a könyvtáradban."
   },
   "shopping_complete_plan": {
-    "other": "A {{ .Title }} vásárlása sikeres volt."
+    "other": "A {{.Title}} vásárlása sikeres volt."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Mostantól bármikor elkezdheted megnézni a következő {{.Count}} napban.",
@@ -1010,33 +1010,38 @@
     "other": "Ár"
   },
   "shopping_price_plan_note": {
-    "zero": "{{ .Interval }} minden .Intervallum .",
-    "one": "A 24 órás ingyenes próbaidőszak {{ .Interval }} után minden .Intervallumonként felszámításra kerül.",
-    "other": "{{ .Count }} napos ingyenes próbaidőszak {{ .Interval }} után minden .Intervallum felszámításra kerül."
+    "one": "A 24 órás ingyenes próbaidőszak lejárta után minden {{.Interval}} felszámításra kerül.",
+    "other": "A {{.Count}} napos ingyenes próbaidőszak lejárta után minden {{.Interval}} felszámításra kerül."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "minden {{.Interval}} felszámításra kerül."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Az előfizetés megkezdéséhez adja meg alább hitelkártyaadatait."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Az előfizetés megkezdéséhez adja meg alább hitelkártyaadatait."
+    "other": "Adja meg hitelkártya adatait alább a terv elindításához."
   },
   "shopping_action_plan": {
     "other": "teljes"
   },
   "shopping_complete_subscription": {
-    "other": "Az előfizetés vásárlása sikeres volt. Feliratkozott a {{ .Title }} ."
+    "other": "Az előfizetés vásárlása sikeres volt. Feliratkozott a {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Nyugodtan <a href=\"/\">böngésszen</a> az oldalon, vagy <a href=\"/search.html\">keressen</a> valami konkrétat."
   },
   "shopping_info_plan_offer": {
-    "one": "Automatikusan megújítja minden {{ .Interval }}",
-    "other": "Automatikusan {{ .Count }} {{ .Interval }}"
+    "one": "Automatikusan megújítja minden {{.Interval}}",
+    "other": "Automatikusan {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Próbálja ki most az ingyenes 24 órás próbaverziót!",
-    "other": "Próbálja ki ingyenes {{ .Count }} napos próbaverzióját!"
+    "other": "Próbálja ki ingyenes {{.Count}} napos próbaverzióját!"
   },
   "plans_page_header": {
     "other": "Rendelkezésre álló tervek"
@@ -1054,7 +1059,7 @@
     "other": "Olvass tovább"
   },
   "plan_page_header_text": {
-    "other": "Élvezze {{ .Name }}"
+    "other": "Élvezze {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "VAGY"
@@ -1109,6 +1114,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Körhinta"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Lapszámozás"
   },
   "wcag_aria_label_page_collection": {
     "other": "Oldalgyűjtemény"
@@ -1297,21 +1305,27 @@
     "other": "a Feliratkozásaim"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Első fizetés {{ .Expiry }}"
+    "other": "Első fizetés {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Következő fizetés {{ .Expiry }}"
+    "other": "Következő fizetés {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Fizetési esedékesség {{ .Expiry }}"
+    "other": "Fizetési esedékesség {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Vége {{ .Expiry }}"
+    "other": "Vége {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Befejeződött {{ .Expiry }}"
+    "other": "Befejeződött {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "szponzor logó"
+  },
+  "subscribe_to_watch": {
+    "other": "Iratkozz fel a nézéshez"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} elemeket"
   }
 }

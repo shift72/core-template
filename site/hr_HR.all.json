@@ -150,7 +150,7 @@
     "other": "Dijeljenje veze"
   },
   "social_media_buttons_copied_link": {
-    "other": "Veza je kopirana u međuspremnik!"
+    "other": "Veza je kopirana"
   },
   "social_media_buttons_copy_link": {
     "other": "Kopiraj link"
@@ -714,7 +714,7 @@
     "other": "Sadržaj možete gledati od {{.Date}} i vaša posudba traje {{.Count}} dana."
   },
   "shopping_complete_plan": {
-    "other": "Vaša kupnja {{ .Title }} je uspjela."
+    "other": "Vaša kupnja {{.Title}} je uspjela."
   },
   "shopping_action_rent": {
     "other": "Posudi"
@@ -1058,6 +1058,9 @@
   "wcag_aria_label_carousel": {
     "other": "Kružni prikaz"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginacija"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Zbirka stranica"
   },
@@ -1083,33 +1086,40 @@
     "other": "Cijena"
   },
   "shopping_price_plan_note": {
-    "zero": "Naplaćuje se svaki {{ .Interval }} .",
-    "one": "Naplaćuje se svaki {{ .Interval }} nakon što završi besplatno probno razdoblje od 24 sata.",
-    "other": "Naplaćuje se svaki {{ .Interval }} nakon što {{ .Count }} besplatno probno razdoblje od .Count day."
+    "one": "Naplaćuje se svaki {{.Interval}} nakon što završi besplatno probno razdoblje od 24 sata.",
+    "few": "Naplaćuje se svaki {{.Interval}} nakon {{.Count}}-dnevnog besplatnog probnog perioda.",
+    "other": "Naplaćuje se svaki {{.Interval}} nakon {{.Count}}-dnevnog besplatnog probnog perioda."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Naplaćuje se svaki {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "few": "{{.Count}} {{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Unesite podatke svoje kreditne kartice ispod kako biste započeli svoju pretplatu."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Unesite podatke svoje kreditne kartice ispod kako biste započeli svoju pretplatu."
+    "other": "Unesite podatke svoje kreditne kartice ispod kako biste započeli svoj plan."
   },
   "shopping_action_plan": {
     "other": "Dovršeno"
   },
   "shopping_complete_subscription": {
-    "other": "Vaša je kupnja pretplate uspjela. Sada ste pretplaćeni na {{ .Title }} ."
+    "other": "Vaša je kupnja pretplate uspjela. Sada ste pretplaćeni na {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Slobodno <a href=\"/\">pregledavajte</a> stranicu ili <a href=\"/search.html\">tražite</a> nešto specifično."
   },
   "shopping_info_plan_offer": {
-    "one": "Automatski obnavlja svaki {{ .Interval }}",
-    "other": "Automatski obnavlja svaki {{ .Count }} {{ .Interval }}"
+    "one": "Automatski obnavlja svaki {{.Interval}}",
+    "other": "Automatski obnavlja svaki {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Isprobajte svoju besplatnu probnu verziju od 24 sata sada!",
-    "other": "Isprobajte svoju besplatnu {{ .Count }} day!"
+    "other": "Isprobajte svoju besplatnu {{.Count}} day!"
   },
   "plans_page_header": {
     "other": "Dostupni planovi"
@@ -1127,7 +1137,7 @@
     "other": "Čitaj više"
   },
   "plan_page_header_text": {
-    "other": "Uživajte {{ .Name }}"
+    "other": "Uživajte {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "ILI"
@@ -1280,21 +1290,27 @@
     "other": "Moje pretplate"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Prva uplata {{ .Expiry }}"
+    "other": "Prva uplata {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Sljedeća uplata {{ .Expiry }}"
+    "other": "Sljedeća uplata {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Rok za plaćanje {{ .Expiry }}"
+    "other": "Rok za plaćanje {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Završava {{ .Expiry }}"
+    "other": "Završava {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Završeno {{ .Expiry }}"
+    "other": "Završeno {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "logotip sponzora"
+  },
+  "subscribe_to_watch": {
+    "other": "Pretplatite se na gledanje"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} stavke"
   }
 }

@@ -152,7 +152,7 @@
     "other": "Nuorodos bendrinimas"
   },
   "social_media_buttons_copied_link": {
-    "other": "Nuoroda nukopijuota į mainų sritį!"
+    "other": "Nuoroda nukopijuota"
   },
   "social_media_buttons_copy_link": {
     "other": "Nukopijuoti nuorodą"
@@ -696,7 +696,7 @@
     "other": "Pradėkite žiūrėti bet kurį iš savo įsigytų filmų."
   },
   "shopping_complete_plan": {
-    "other": "{{ .Title }} buvo sėkmingas."
+    "other": "{{.Title}} buvo sėkmingas."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Per ateinančią dieną galėsite pradėti žiūrėti filmą.",
@@ -1082,33 +1082,42 @@
     "other": "Kaina"
   },
   "shopping_price_plan_note": {
-    "zero": "Įkraunama kas {{ .Interval }} .",
-    "one": "{{ .Interval }} kas .Intervalas pasibaigus 24 valandų nemokamam bandomajam laikotarpiui.",
-    "other": "{{ .Interval }} kas .Intervalas pasibaigus {{ .Count }} dienų bandomajam laikotarpiui."
+    "one": "{{.Interval}} kas .Intervalas pasibaigus 24 valandų nemokamam bandomajam laikotarpiui.",
+    "few": "{{.Interval}} kas .Intervalas pasibaigus {{.Count}} dienų bandomajam laikotarpiui.",
+    "many": "{{.Interval}} kas .Intervalas pasibaigus {{.Count}} dienų bandomajam laikotarpiui.",
+    "other": "{{.Interval}} kas .Intervalas pasibaigus {{.Count}} dienų bandomajam laikotarpiui."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Įkraunama kas {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "few": "{{.Count}} {{.Interval}}",
+    "many": "{{.Count}} {{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Norėdami pradėti prenumeratą, žemiau įveskite savo kredito kortelės duomenis."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Norėdami pradėti prenumeratą, žemiau įveskite savo kredito kortelės duomenis."
+    "other": "Norėdami pradėti planą, toliau įveskite savo kredito kortelės duomenis."
   },
   "shopping_action_plan": {
     "other": "Užbaigti"
   },
   "shopping_complete_subscription": {
-    "other": "Prenumeratos įsigijimas buvo sėkmingas. Dabar esate užsiprenumeravę {{ .Title }} ."
+    "other": "Prenumeratos įsigijimas buvo sėkmingas. Dabar esate užsiprenumeravę {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Nedvejodami <a href=\"/\">naršykite</a> svetainėje arba <a href=\"/search.html\">ieškokite</a> ko nors konkretaus."
   },
   "shopping_info_plan_offer": {
-    "one": "Automatiškai atnaujina kiekvieną {{ .Interval }}",
-    "other": "Automatiškai atnaujina kiekvieną {{ .Count }} {{ .Interval }}"
+    "one": "Automatiškai atnaujina kiekvieną {{.Interval}}",
+    "other": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Išbandykite nemokamą 24 valandų bandomąją versiją dabar!",
-    "other": "Išbandykite nemokamą {{ .Count }} dienos bandomąją versiją!"
+    "other": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!"
   },
   "plans_page_header": {
     "other": "Galimi planai"
@@ -1126,7 +1135,7 @@
     "other": "Skaityti daugiau"
   },
   "plan_page_header_text": {
-    "other": "Mėgaukitės {{ .Name }}"
+    "other": "Mėgaukitės {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "ARBA"
@@ -1187,6 +1196,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Karuselė"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Puslapių rašymas"
   },
   "wcag_aria_label_page_collection": {
     "other": "Puslapių kolekcija"
@@ -1288,21 +1300,27 @@
     "other": "Mano prenumeratos"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Pirmas mokėjimas {{ .Expiry }}"
+    "other": "Pirmas mokėjimas {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Kitas mokėjimas {{ .Expiry }}"
+    "other": "Kitas mokėjimas {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Mokėjimo {{ .Expiry }}"
+    "other": "Mokėjimo {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Baigiasi {{ .Expiry }}"
+    "other": "Baigiasi {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Baigėsi {{ .Expiry }}"
+    "other": "Baigėsi {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "rėmėjo logotipas"
+  },
+  "subscribe_to_watch": {
+    "other": "Prenumeruokite žiūrėti"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} elementai"
   }
 }

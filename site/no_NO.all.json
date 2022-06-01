@@ -152,7 +152,7 @@
     "other": "Linkdeling"
   },
   "social_media_buttons_copied_link": {
-    "other": "Linken er kopiert til utklippstavlen!"
+    "other": "Linken er kopiert"
   },
   "social_media_buttons_copy_link": {
     "other": "Kopier link"
@@ -660,7 +660,7 @@
     "other": "Start med å se noe fra {{.BundleItems}} i biblioteket ditt nå."
   },
   "shopping_complete_plan": {
-    "other": "Kjøpet av {{ .Title }} var vellykket."
+    "other": "Kjøpet av {{.Title}} var vellykket."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Du kan nå se den om {{.Count}} dager.",
@@ -1001,33 +1001,38 @@
     "other": "Pris"
   },
   "shopping_price_plan_note": {
-    "zero": "Lades hvert {{ .Interval }} .",
-    "one": "Belastet hvert {{ .Interval }} etter at den 24-timers gratis prøveperioden er over.",
-    "other": "Belastet hvert {{ .Interval }} etter at {{ .Count }} dager avsluttes."
+    "one": "Belastet hvert {{.Interval}} etter at den 24-timers gratis prøveperioden er over.",
+    "other": "Belastet hvert {{.Interval}} etter at {{.Count}} dager avsluttes."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Lades hvert {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Skriv inn kredittkortopplysningene dine nedenfor for å starte abonnementet."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Skriv inn kredittkortopplysningene dine nedenfor for å starte abonnementet."
+    "other": "Skriv inn kredittkortopplysningene dine nedenfor for å starte planen din."
   },
   "shopping_action_plan": {
     "other": "Fullstendig"
   },
   "shopping_complete_subscription": {
-    "other": "Abonnementskjøpet var vellykket. Du abonnerer nå på {{ .Title }} ."
+    "other": "Abonnementskjøpet var vellykket. Du abonnerer nå på {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "<a href=\"/\">Bla deg gjerne rundt</a> på siden, eller <a href=\"/search.html\">søk</a> etter noe spesifikt."
   },
   "shopping_info_plan_offer": {
-    "one": "{{ .Interval }} automatisk hver .Interval",
-    "other": "{{ .Count }} automatisk hver {{ .Interval }}"
+    "one": "Fornyes automatisk hver {{.Interval}}",
+    "other": "{{.Count}} automatisk hver {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Prøv din gratis 24-timers prøveversjon nå!",
-    "other": "Prøv din gratis {{ .Count }} day prøveversjon!"
+    "other": "Prøv din gratis {{.Count}} day prøveversjon!"
   },
   "plans_page_header": {
     "other": "Tilgjengelige planer"
@@ -1045,7 +1050,7 @@
     "other": "Les mer"
   },
   "plan_page_header_text": {
-    "other": "Nyt {{ .Name }}"
+    "other": "Nyt {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "ELLER"
@@ -1100,6 +1105,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Karusell"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginering"
   },
   "wcag_aria_label_page_collection": {
     "other": "Page Karusell"
@@ -1288,21 +1296,27 @@
     "other": "Mine abonnementer"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Første betaling {{ .Expiry }}"
+    "other": "Første betaling {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Neste betaling {{ .Expiry }}"
+    "other": "Neste betaling {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Forfaller betaling {{ .Expiry }}"
+    "other": "Forfaller betaling {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Slutter {{ .Expiry }}"
+    "other": "Slutter {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Avsluttet {{ .Expiry }}"
+    "other": "Avsluttet {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "sponsorlogo"
+  },
+  "subscribe_to_watch": {
+    "other": "Abonner for å se"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} elementer"
   }
 }

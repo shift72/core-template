@@ -152,7 +152,7 @@
     "other": "Lingi jagamine"
   },
   "social_media_buttons_copied_link": {
-    "other": "Link on lõikelauale kopeeritud!"
+    "other": "Link on kopeeritud"
   },
   "social_media_buttons_copy_link": {
     "other": "Kopeeri link"
@@ -660,7 +660,7 @@
     "other": "Saad nüüd kogumikus olevaid filme vaatama hakata."
   },
   "shopping_complete_plan": {
-    "other": "Teie ost {{ .Title }} oli edukas."
+    "other": "Teie ost {{.Title}} oli edukas."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Saad filmi vaatamist alustada {{.Count}} päeva jooksul.",
@@ -1013,33 +1013,38 @@
     "other": "Hind"
   },
   "shopping_price_plan_note": {
-    "zero": "{{ .Interval }} iga .Intervall .",
-    "one": "{{ .Interval }} iga .intervalli järel pärast 24-tunnise tasuta prooviperioodi lõppu.",
-    "other": "{{ .Interval }} iga .intervalli järel pärast {{ .Count }} päeva tasuta prooviperioodi lõppu."
+    "one": "Tasu võetakse iga {{.Interval}} järel pärast 24-tunnise tasuta prooviperioodi lõppu.",
+    "other": "Tasu võetakse iga {{.Interval}} järel pärast teie {{.Count}}-päevase tasuta prooviperioodi lõppu."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Tasu võetakse iga {{.Interval}} järel."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Tellimuse alustamiseks sisestage allpool oma krediitkaardi andmed."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Tellimuse alustamiseks sisestage allpool oma krediitkaardi andmed."
+    "other": "Plaani alustamiseks sisestage allpool oma krediitkaardi andmed."
   },
   "shopping_action_plan": {
     "other": "Täielik"
   },
   "shopping_complete_subscription": {
-    "other": "Teie tellimuse ostmine õnnestus. Olete nüüd {{ .Title }} tellinud."
+    "other": "Teie tellimuse ostmine õnnestus. Olete nüüd {{.Title}} tellinud."
   },
   "shopping_complete_subscription_browse": {
     "other": "<a href=\"/\">Sirvige</a> saiti või <a href=\"/search.html\">otsige</a> midagi konkreetset."
   },
   "shopping_info_plan_offer": {
-    "one": "{{ .Interval }} automaatselt iga .intervall",
-    "other": "{{ .Count }} automaatselt iga {{ .Interval }}"
+    "one": "{{.Interval}} automaatselt iga .intervall",
+    "other": "{{.Count}} automaatselt iga {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Proovige oma tasuta 24-tunnist prooviperioodi kohe!",
-    "other": "Proovige oma tasuta {{ .Count }} päevast prooviversiooni!"
+    "other": "Proovige oma tasuta {{.Count}} päevast prooviversiooni!"
   },
   "plans_page_header": {
     "other": "Saadaolevad plaanid"
@@ -1057,7 +1062,7 @@
     "other": "Loe rohkem"
   },
   "plan_page_header_text": {
-    "other": "Nautige {{ .Name }}"
+    "other": "Nautige {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "VÕI"
@@ -1112,6 +1117,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Karussell"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Leheküljed"
   },
   "wcag_aria_label_page_collection": {
     "other": "Lehekülje kollektsioon"
@@ -1297,21 +1305,27 @@
     "other": "Minu tellimused"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Esimene makse {{ .Expiry }}"
+    "other": "Esimene makse {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Järgmine makse {{ .Expiry }}"
+    "other": "Järgmine makse {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Maksetähtaeg {{ .Expiry }}"
+    "other": "Maksetähtaeg {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Lõpeb {{ .Expiry }}"
+    "other": "Lõpeb {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Lõppenud {{ .Expiry }}"
+    "other": "Lõppenud {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "sponsori logo"
+  },
+  "subscribe_to_watch": {
+    "other": "Tellige vaatamiseks"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} üksused"
   }
 }

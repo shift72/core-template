@@ -8,7 +8,6 @@
 .form-page {
   @include media-breakpoint-up(md) {
     padding-bottom: $grid-gutter-width * 4;
-    padding-top: $grid-gutter-width * 4;
   }
 }
 
@@ -83,7 +82,6 @@
   @include media-breakpoint-up(xl) {
     padding: var(--page-padding-top-lg) 0 0 0;
   }
-
   .page-header {
     h1,
     p {
@@ -144,17 +142,6 @@
   }
 }
 
-.curated-page,
-.collection-page {
-  padding: var(--page-padding-top) 0 0 0;
-  @include media-breakpoint-up(md) {
-    padding: var(--page-padding-top-md) 0 0 0;
-  }
-  @include media-breakpoint-up(lg) {
-    padding: var(--page-padding-top-lg) 0 0 0;
-  }
-}
-
 .collection-page {
   .page-collections {
     @extend .d-flex;
@@ -188,6 +175,10 @@
       @extend .col-xl-2;
       padding: 0 5px 10px;
     }
+  }
+
+  .s72-subscribe-trial-label {
+    display: none;
   }
 }
 

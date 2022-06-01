@@ -152,7 +152,7 @@
     "other": "Linkdeling"
   },
   "social_media_buttons_copied_link": {
-    "other": "Link kopieret til udklipsholder!"
+    "other": "Linket er kopieret"
   },
   "social_media_buttons_copy_link": {
     "other": "Kopier link"
@@ -708,7 +708,7 @@
     "other": "En kvittering er blevet mailet til dig."
   },
   "shopping_complete_plan": {
-    "other": "Dit køb af {{ .Title }} blev gennemført."
+    "other": "Dit køb af {{.Title}} blev gennemført."
   },
   "shopping_complete_library_link": {
     "other": "Se dit bibliotek"
@@ -1106,33 +1106,38 @@
     "other": "Pris"
   },
   "shopping_price_plan_note": {
-    "zero": "Opkræves hvert {{ .Interval }} .",
-    "one": "Opkræves hvert {{ .Interval }} efter din 24 timers gratis prøveperiode slutter.",
-    "other": "Opkræves hvert {{ .Interval }} efter din {{ .Count }} dages gratis prøveperiode slutter."
+    "one": "Opkræves hvert {{.Interval}} efter din 24 timers gratis prøveperiode slutter.",
+    "other": "Opkræves hvert {{.Interval}} efter din {{.Count}} dages gratis prøveperiode slutter."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Opkræves hvert {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Indtast dine kreditkortoplysninger nedenfor for at starte dit abonnement."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Indtast dine kreditkortoplysninger nedenfor for at starte dit abonnement."
+    "other": "Indtast dine kreditkortoplysninger nedenfor for at starte din plan."
   },
   "shopping_action_plan": {
     "other": "Komplet"
   },
   "shopping_complete_subscription": {
-    "other": "Dit abonnementskøb blev gennemført. Du abonnerer nu på {{ .Title }} ."
+    "other": "Dit abonnementskøb blev gennemført. Du abonnerer nu på {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Du er velkommen til at <a href=\"/\">browse rundt</a> på siden, eller <a href=\"/search.html\">søg</a> efter noget specifikt."
   },
   "shopping_info_plan_offer": {
-    "one": "{{ .Interval }} automatisk hvert .Interval",
-    "other": "{{ .Count }} automatisk hver {{ .Interval }}"
+    "one": "Fornyer automatisk hver {{.Interval}}",
+    "other": "{{.Count}} automatisk hver {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Prøv din gratis 24 timers prøveperiode nu!",
-    "other": "Prøv din gratis {{ .Count }} day prøveperiode!"
+    "other": "Prøv din gratis {{.Count}} day prøveperiode!"
   },
   "plans_page_header": {
     "other": "Tilgængelige planer"
@@ -1150,7 +1155,7 @@
     "other": "Læs mere"
   },
   "plan_page_header_text": {
-    "other": "Nyd {{ .Name }}"
+    "other": "Nyd {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "ELLER"
@@ -1227,6 +1232,9 @@
   "wcag_aria_label_carousel": {
     "other": "Karrusel"
   },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Sideinddeling"
+  },
   "wcag_aria_label_page_collection": {
     "other": "Sidesamling"
   },
@@ -1297,21 +1305,27 @@
     "other": "Mine abonnementer"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Første betaling {{ .Expiry }}"
+    "other": "Første betaling {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Næste betaling {{ .Expiry }}"
+    "other": "Næste betaling {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Forfalden betaling {{ .Expiry }}"
+    "other": "Forfalden betaling {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Slutter {{ .Expiry }}"
+    "other": "Slutter {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Afsluttet {{ .Expiry }}"
+    "other": "Afsluttet {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "sponsor logo"
+  },
+  "subscribe_to_watch": {
+    "other": "Abonner for at se"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} elementer"
   }
 }

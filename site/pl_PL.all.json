@@ -129,7 +129,7 @@
     "other": "Udostępnianie linków"
   },
   "social_media_buttons_copied_link": {
-    "other": "Link skopiowany do schowka!"
+    "other": "Link skopiowany"
   },
   "social_media_buttons_copy_link": {
     "other": "Skopiuj link"
@@ -644,7 +644,7 @@
     "other": "Zacznij teraz oglądać dowolne z {{.BundleItems}} w swojej bibliotece."
   },
   "shopping_complete_plan": {
-    "other": "Twój zakup {{ .Title }} powiódł się."
+    "other": "Twój zakup {{.Title}} powiódł się."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Możesz go obejrzeć do jutra.",
@@ -888,33 +888,42 @@
     "other": "Cena"
   },
   "shopping_price_plan_note": {
-    "zero": "{{ .Interval }} co .Interwał .",
-    "one": "{{ .Interval }} co .Interwał po zakończeniu 24-godzinnego bezpłatnego okresu próbnego.",
-    "other": "{{ .Interval }} co .Interwał po {{ .Count }} bezpłatnego okresu próbnego .Count."
+    "one": "{{.Interval}} co .Interwał po zakończeniu 24-godzinnego bezpłatnego okresu próbnego.",
+    "few": "Naliczana co {{.Interval}} po zakończeniu {{.Count}}-dniowego bezpłatnego okresu próbnego.",
+    "many": "Naliczana co {{.Interval}} po zakończeniu {{.Count}}-dniowego bezpłatnego okresu próbnego.",
+    "other": "Naliczana co {{.Interval}} po zakończeniu {{.Count}}-dniowego bezpłatnego okresu próbnego."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "{{.Interval}} co .Interwał ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "few": "{{.Count}} {{.Interval}}",
+    "many": "{{.Count}} {{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Wprowadź poniżej dane karty kredytowej, aby rozpocząć subskrypcję."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Wprowadź poniżej dane karty kredytowej, aby rozpocząć subskrypcję."
+    "other": "Wprowadź dane swojej karty kredytowej poniżej, aby rozpocząć swój plan."
   },
   "shopping_action_plan": {
     "other": "Kompletny"
   },
   "shopping_complete_subscription": {
-    "other": "Twój zakup subskrypcji się powiódł. Subskrybujesz teraz {{ .Title }} ."
+    "other": "Twój zakup subskrypcji się powiódł. Subskrybujesz teraz {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Możesz swobodnie <a href=\"/\">przeglądać</a> witrynę lub <a href=\"/search.html\">szukać</a> czegoś konkretnego."
   },
   "shopping_info_plan_offer": {
-    "one": "Automatycznie odnawia co {{ .Interval }}",
-    "other": "Automatycznie odnawia co {{ .Count }} {{ .Interval }}"
+    "one": "Automatycznie odnawia co {{.Interval}}",
+    "other": "Automatycznie odnawia co {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Wypróbuj bezpłatny 24-godzinny okres próbny już teraz!",
-    "other": "Wypróbuj bezpłatną {{ .Count }} próbną programu .Count!"
+    "other": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!"
   },
   "plans_page_header": {
     "other": "Dostępne plany"
@@ -932,7 +941,7 @@
     "other": "Czytaj więcej"
   },
   "plan_page_header_text": {
-    "other": "Ciesz się {{ .Name }}"
+    "other": "Ciesz się {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "LUB"
@@ -993,6 +1002,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Karuzela"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginacja"
   },
   "wcag_aria_label_page_collection": {
     "other": "Kolekcja stron"
@@ -1333,21 +1345,27 @@
     "other": "moje subskrypcje"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Pierwsza płatność {{ .Expiry }}"
+    "other": "Pierwsza płatność {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Następna płatność {{ .Expiry }}"
+    "other": "Następna płatność {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "{{ .Expiry }} płatność. Termin ważności"
+    "other": "{{.Expiry}} płatność. Termin ważności"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Kończy {{ .Expiry }}"
+    "other": "Kończy {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Zakończony {{ .Expiry }}"
+    "other": "Zakończony {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "logo sponsora"
+  },
+  "subscribe_to_watch": {
+    "other": "Zapisz się do oglądania"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} rzeczy"
   }
 }

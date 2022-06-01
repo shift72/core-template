@@ -152,7 +152,7 @@
     "other": "Bağlantı paylaşımı"
   },
   "social_media_buttons_copied_link": {
-    "other": "Link kopyalandı!"
+    "other": "Bağlantı kopyalandı"
   },
   "social_media_buttons_copy_link": {
     "other": "Bağlantıyı kopyala"
@@ -660,7 +660,7 @@
     "other": "Kütüphanenizi görüntüle"
   },
   "shopping_complete_plan": {
-    "other": "{{ .Title }} satın alma işleminiz başarılı oldu."
+    "other": "{{.Title}} satın alma işleminiz başarılı oldu."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Artık önümüzdeki günde filmi izlemeye başlayabilirsiniz.",
@@ -1007,33 +1007,38 @@
     "other": "Fiyat"
   },
   "shopping_price_plan_note": {
-    "zero": "Her {{ .Interval }} .",
-    "one": "24 saatlik ücretsiz deneme süreniz sona erdikten sonra her {{ .Interval }}",
-    "other": "Her Ücretli {{ .Interval }} sizin sonra {{ .Count }} günlük ücretsiz deneme sürümü bitmeden."
+    "one": "24 saatlik ücretsiz deneme süreniz sona erdikten sonra her {{.Interval}}",
+    "other": "Her Ücretli {{.Interval}} sizin sonra {{.Count}} günlük ücretsiz deneme sürümü bitmeden."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Her {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Aboneliğinizi başlatmak için aşağıya kredi kartı bilgilerinizi girin."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Aboneliğinizi başlatmak için aşağıya kredi kartı bilgilerinizi girin."
+    "other": "Planınızı başlatmak için aşağıya kredi kartı bilgilerinizi girin."
   },
   "shopping_action_plan": {
     "other": "Tamamlayınız"
   },
   "shopping_complete_subscription": {
-    "other": "Abonelik satın alma işleminiz başarılı oldu. Artık {{ .Title }} ."
+    "other": "Abonelik satın alma işleminiz başarılı oldu. Artık {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Sitede <a href=\"/\">gezinmekten</a> veya belirli bir şey <a href=\"/search.html\">aramaktan</a> çekinmeyin."
   },
   "shopping_info_plan_offer": {
-    "one": "{{ .Interval }} otomatik olarak yeniler",
-    "other": "Otomatik olarak her yeniler {{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}} otomatik olarak yeniler",
+    "other": "Otomatik olarak her yeniler {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "24 saatlik ücretsiz denemenizi şimdi deneyin!",
-    "other": "Ücretsiz {{ .Count }} günlük denemenizi deneyin!"
+    "other": "Ücretsiz {{.Count}} günlük denemenizi deneyin!"
   },
   "plans_page_header": {
     "other": "Mevcut Planlar"
@@ -1051,7 +1056,7 @@
     "other": "Devamını oku"
   },
   "plan_page_header_text": {
-    "other": "Keyfini çıkarın {{ .Name }}"
+    "other": "Keyfini çıkarın {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "VEYA"
@@ -1106,6 +1111,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Atlıkarınca"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "sayfalandırma"
   },
   "wcag_aria_label_page_collection": {
     "other": "Sayfa Koleksiyonu"
@@ -1288,21 +1296,27 @@
     "other": "aboneliklerim"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "İlk ödeme {{ .Expiry }}"
+    "other": "İlk ödeme {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Sonraki {{ .Expiry }}"
+    "other": "Sonraki {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Ödeme vadesi {{ .Expiry }}"
+    "other": "Ödeme vadesi {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Sona {{ .Expiry }}"
+    "other": "Sona {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Sona {{ .Expiry }}"
+    "other": "Sona {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "sponsor logosu"
+  },
+  "subscribe_to_watch": {
+    "other": "izlemek için abone ol"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} öğeler"
   }
 }

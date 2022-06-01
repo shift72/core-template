@@ -1,6 +1,26 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.6.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...HEAD)
+
+## [1.0.0-alpha.0](https://github.com/shift72/core-template/compare/0.6.0...1.0.0-alpha.0)
+
+### Added
+- Subscribe to watch button.
+- Bundles tagline to show _n_ items rather than _n_ films.
+- Keyboard controls for the carousel.
+- Pull request template file.
+- Playback progress component and style.
+- `url` parameter in share modals.
+
+### Changed
+- New Jet and CSS for reusable CTA (call-to-action) buttons. Used for consistent button appearance on film/tv/bundle pages and carousel slides.
+- Reworked the carousel UI.
+- Carousel background now extends the full width of the window.
+
+### Fixed
+- Remove whitespaces from mustaches variables in translations.
+- Fix unwanted variables in translations.
+- Sub-item CSS is no longer broken by the linter.
 
 ## [0.6.0](https://github.com/shift72/core-template/compare/0.6.0-alpha.0...0.6.0)
 
@@ -45,6 +65,12 @@ No changes from `alpha-0`.
 - Added styling for floating donate button to use button sass variables.
 - A bunch of missing language keys across language files.
 - Automated translation command.
+
+### Changed
+- Upgrade to kibble `0.16.6`.
+- Moved references from `film.Images` to `film.ImageMap`.
+- Removed minimum page height from content pages.
+- Moved skip link above cookie consent banner
 
 ### Changed
 - Upgrade to kibble `0.16.6`.

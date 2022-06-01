@@ -1,11 +1,11 @@
 {{extends "../application/application.jet"}}
 {{import "../common/slider.jet"}}
 {{import "../items/tagline.jet"}}
-{{import "../items/bonus_item.jet"}}
+{{import "../items/sub_item.jet"}}
 {{import "../collection/page_collection_item.jet"}}
-{{import "./episode.jet"}}
 {{import "../common/list.jet"}}
-{{import "../common/social-media-buttons.jet"}}
+{{import "../common/cta_buttons.jet"}}
+
 {{block head()}}
   {{yield seo() tvseason}}
 {{end}}
@@ -35,17 +35,9 @@
             {{yield metaItemTagline() tvseason}}
           </div>
           <s72-availability-label data-slug="{{tvseason.Slug}}"></s72-availability-label>
-          <div class="meta-detail-buttons">
-            <s72-play-button data-slug="{{tvseason.Slug}}" data-title="{{tvseason.Title}}"></s72-play-button>
-            <s72-pricing-buttons data-slug="{{tvseason.Slug}}" data-title="{{tvseason.Title}}"></s72-pricing-buttons>
-            <div class="meta-detail-extras">
-              {{if len(tvseason.Trailers) > 0 }}
-                <s72-modal-player src="{{tvseason.Trailers[0].URL}}" class="s72-btn-trailer" data-slug="{{tvseason.Slug}}" data-label="{{i18n("play_trailer")}}" autoplay="querystring"></s72-modal-player>
-              {{end}}
-              <s72-userwishlist-button data-slug="{{tvseason.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
-              {{yield socialMediaButtons(path=currentUrlPath)}}
-            </div>
-          </div>
+
+          {{yield ctaButtons(itemType="tvseason") tvseason}}
+
           <div class="element-switcher-wrapper">
             <s72-element-switcher>
               {{if isEnabled("element_switcher_enabled")}}
@@ -84,8 +76,8 @@
               <h2>{{i18n("meta_detail_episodes_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="portrait") content}}
                 {{range episode := tvseason.Episodes}}
-                  <div class="episode-item">
-                    {{yield episodeCollectionItem(item=episode)}}
+                  <div class="sub-item">
+                    {{yield subItem(item=episode)}}
                   </div>
                 {{end}}
               {{end}}
@@ -97,8 +89,8 @@
               <h2>{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := tvseason.Bonuses}}
-                  <div class="bonus-item">
-                    {{yield bonusItem(item=bonus)}}
+                  <div class="sub-item">
+                    {{yield subItem(item=bonus)}}
                   </div>
                 {{end}}
               {{end}}

@@ -154,7 +154,7 @@
     "other": "Поділитися посиланням"
   },
   "social_media_buttons_copied_link": {
-    "other": "Посилання скопійовано в буфер обміну!"
+    "other": "Посилання скопійовано"
   },
   "social_media_buttons_copy_link": {
     "other": "Копіювати посилання"
@@ -725,7 +725,7 @@
     "other": "Подивитися вашу бібліотеку"
   },
   "shopping_complete_plan": {
-    "other": "Ваша покупка {{ .Title }} була успішною."
+    "other": "Ваша покупка {{.Title}} була успішною."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Тепер ви можете почати дивитися фільм протягом наступного дня.",
@@ -1125,33 +1125,42 @@
     "other": "Ціна"
   },
   "shopping_price_plan_note": {
-    "zero": "Стягується через кожний {{ .Interval }} .",
-    "one": "Стягується кожні {{ .Interval }} після закінчення 24-годинної безкоштовної пробної версії.",
-    "other": "Заряджені кожен {{ .Interval }} після вашого {{ .Count }} дня закінчується безкоштовно суд."
+    "one": "Стягується кожні {{.Interval}} після закінчення 24-годинної безкоштовної пробної версії.",
+    "few": "Заряджені кожен {{.Interval}} після вашого {{.Count}} дня закінчується безкоштовно суд.",
+    "many": "Заряджені кожен {{.Interval}} після вашого {{.Count}} дня закінчується безкоштовно суд.",
+    "other": "Заряджені кожен {{.Interval}} після вашого {{.Count}} дня закінчується безкоштовно суд."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Стягується через кожний {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "few": "{{.Count}} {{.Interval}}",
+    "many": "{{.Count}} {{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Введіть дані своєї кредитної картки нижче, щоб розпочати підписку."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Введіть дані своєї кредитної картки нижче, щоб розпочати підписку."
+    "other": "Введіть дані своєї кредитної картки нижче, щоб розпочати свій план."
   },
   "shopping_action_plan": {
     "other": "Завершено"
   },
   "shopping_complete_subscription": {
-    "other": "Ваша покупка підписки була успішною. Тепер ви підписані на {{ .Title }} ."
+    "other": "Ваша покупка підписки була успішною. Тепер ви підписані на {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Не соромтеся <a href=\"/\">переглядати</a> сайт або <a href=\"/search.html\">шукати</a> щось конкретне."
   },
   "shopping_info_plan_offer": {
-    "one": "Автоматично поновлюється через кожний {{ .Interval }}",
-    "other": "Автоматично оновлює кожні {{ .Count }} {{ .Interval }} сек"
+    "one": "Автоматично поновлюється через кожний {{.Interval}}",
+    "other": "Автоматично оновлює кожні {{.Count}} {{.Interval}} сек"
   },
   "shopping_info_trial_period_offer": {
     "one": "Спробуйте безкоштовну 24-годинну пробну версію зараз!",
-    "other": "Спробуйте безкоштовну пробну версію {{ .Count }}"
+    "other": "Спробуйте безкоштовну пробну версію {{.Count}}"
   },
   "plans_page_header": {
     "other": "Доступні плани"
@@ -1169,7 +1178,7 @@
     "other": "Детальніше"
   },
   "plan_page_header_text": {
-    "other": "Насолоджуйтесь {{ .Name }}"
+    "other": "Насолоджуйтесь {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "АБО"
@@ -1230,6 +1239,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Карусель"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Пагінація"
   },
   "wcag_aria_label_page_collection": {
     "other": "Колекція сторінок"
@@ -1316,21 +1328,27 @@
     "other": "Мої підписки"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Перший платіж {{ .Expiry }}"
+    "other": "Перший платіж {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Наступний платіж {{ .Expiry }}"
+    "other": "Наступний платіж {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "{{ .Expiry }}"
+    "other": "{{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Закінчується {{ .Expiry }}"
+    "other": "Закінчується {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Завершено {{ .Expiry }} закінчився"
+    "other": "Завершено {{.Expiry}} закінчився"
   },
   "sponsor_image_alt": {
     "other": "логотип спонсора"
+  },
+  "subscribe_to_watch": {
+    "other": "Підпишіться на перегляд"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} елементи"
   }
 }

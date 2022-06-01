@@ -152,7 +152,7 @@
     "other": "Compartilhamento de link"
   },
   "social_media_buttons_copied_link": {
-    "other": "Link copiado para a área de transferência!"
+    "other": "Link copiado"
   },
   "social_media_buttons_copy_link": {
     "other": "Link de cópia"
@@ -654,7 +654,7 @@
     "other": "Ver sua biblioteca"
   },
   "shopping_complete_plan": {
-    "other": "Sua compra de {{ .Title }} foi bem-sucedida."
+    "other": "Sua compra de {{.Title}} foi bem-sucedida."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Você pode começar a assistir durante o próximo dia.",
@@ -995,33 +995,38 @@
     "other": "Preço"
   },
   "shopping_price_plan_note": {
-    "zero": "Cobrado a cada {{ .Interval }} .",
-    "one": "Cobrado a cada {{ .Interval }} após o término da avaliação gratuita de 24 horas.",
-    "other": "Cobrado a cada {{ .Interval }} após o {{ .Count }} avaliação gratuita de .Count dias."
+    "one": "Cobrado a cada {{.Interval}} após o término da avaliação gratuita de 24 horas.",
+    "other": "Cobrado a cada {{.Interval}} após o término da avaliação gratuita de {{.Count}} dias."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Cobrado a cada {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Insira os dados do seu cartão de crédito abaixo para iniciar a sua assinatura."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Insira os dados do seu cartão de crédito abaixo para iniciar a sua assinatura."
+    "other": "Insira os dados do seu cartão de crédito abaixo para iniciar seu plano."
   },
   "shopping_action_plan": {
     "other": "Completo"
   },
   "shopping_complete_subscription": {
-    "other": "Sua compra de assinatura foi bem-sucedida. Agora você está inscrito em {{ .Title }} ."
+    "other": "Sua compra de assinatura foi bem-sucedida. Agora você está inscrito em {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Fique à vontade para <a href=\"/\">navegar pelo</a> site ou <a href=\"/search.html\">pesquisar</a> algo específico."
   },
   "shopping_info_plan_offer": {
-    "one": "Renova automaticamente a cada {{ .Interval }}",
-    "other": "Renova automaticamente cada {{ .Count }} {{ .Interval }}"
+    "one": "Renova automaticamente a cada {{.Interval}}",
+    "other": "Renova automaticamente cada {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Experimente agora o seu teste gratuito de 24 horas!",
-    "other": "Experimente o seu teste gratuito de {{ .Count }} dia!"
+    "other": "Experimente o seu teste gratuito de {{.Count}} dia!"
   },
   "plans_page_header": {
     "other": "Planos Disponíveis"
@@ -1039,7 +1044,7 @@
     "other": "Consulte Mais informação"
   },
   "plan_page_header_text": {
-    "other": "Aproveite {{ .Name }}"
+    "other": "Aproveite {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "OU"
@@ -1094,6 +1099,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Carrossel"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginação"
   },
   "wcag_aria_label_page_collection": {
     "other": "Página Coleções"
@@ -1288,21 +1296,27 @@
     "other": "Minhas assinaturas"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Primeiro pagamento {{ .Expiry }}"
+    "other": "Primeiro pagamento {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Próximo pagamento {{ .Expiry }}"
+    "other": "Próximo pagamento {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Pagamento devido. {{ .Expiry }}"
+    "other": "Pagamento devido. {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Termina {{ .Expiry }}"
+    "other": "Termina {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Terminado {{ .Expiry }}"
+    "other": "Terminado {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "logotipo do patrocinador"
+  },
+  "subscribe_to_watch": {
+    "other": "Inscreva-se para assistir"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} Itens"
   }
 }

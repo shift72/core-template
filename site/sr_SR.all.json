@@ -152,7 +152,7 @@
     "other": "Дељење везе"
   },
   "social_media_buttons_copied_link": {
-    "other": "Линк је копиран у међуспремник!"
+    "other": "Линк је копиран"
   },
   "social_media_buttons_copy_link": {
     "other": "Копирај везу"
@@ -675,7 +675,7 @@
     "other": "Почните са гледањем {{.BundleItems}} у вашој библиотеци."
   },
   "shopping_complete_plan": {
-    "other": "Ваша куповина {{ .Title }} је била успешна."
+    "other": "Ваша куповина {{.Title}} је била успешна."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Можете да почнете са гледањем до краја наредног дана.",
@@ -1082,33 +1082,40 @@
     "other": "Цена"
   },
   "shopping_price_plan_note": {
-    "zero": "Наплаћује се сваки {{ .Interval }} .",
-    "one": "Наплаћује се сваки {{ .Interval }} након завршетка бесплатног пробног периода од 24 сата.",
-    "other": "Оптужен сваки {{ .Interval }} после ваших {{ .Count }} дневни бесплатни пробни крајевима."
+    "one": "Наплаћује се сваки {{.Interval}} након завршетка бесплатног пробног периода од 24 сата.",
+    "few": "Оптужен сваки {{.Interval}} после ваших {{.Count}} дневни бесплатни пробни крајевима.",
+    "other": "Оптужен сваки {{.Interval}} после ваших {{.Count}} дневни бесплатни пробни крајевима."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Наплаћује се сваки {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }} а"
+    "one": "{{.Interval}}",
+    "few": "{{.Count}} {{.Interval}} а",
+    "other": "{{.Count}} {{.Interval}} а"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Унесите податке о својој кредитној картици испод да бисте започели претплату."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Унесите податке о својој кредитној картици испод да бисте започели претплату."
+    "other": "Унесите детаље своје кредитне картице испод да бисте започели свој план."
   },
   "shopping_action_plan": {
     "other": "комплетан"
   },
   "shopping_complete_subscription": {
-    "other": "Ваша куповина претплате је била успешна. Сада сте претплаћени на {{ .Title }} ."
+    "other": "Ваша куповина претплате је била успешна. Сада сте претплаћени на {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Слободно <a href=\"/\">претражујте по</a> сајту или <a href=\"/search.html\">тражите</a> нешто специфично."
   },
   "shopping_info_plan_offer": {
-    "one": "Аутоматски обнавља сваки {{ .Interval }}",
-    "other": "Аутоматски обнавља на сваких {{ .Count }} {{ .Interval }} с"
+    "one": "Аутоматски обнавља сваки {{.Interval}}",
+    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}} с"
   },
   "shopping_info_trial_period_offer": {
     "one": "Испробајте своју бесплатну пробну верзију од 24 сата сада!",
-    "other": "Испробајте своју бесплатну пробну верзију {{ .Count }}"
+    "other": "Испробајте своју бесплатну пробну верзију {{.Count}}"
   },
   "plans_page_header": {
     "other": "Доступни планови"
@@ -1126,7 +1133,7 @@
     "other": "Опширније"
   },
   "plan_page_header_text": {
-    "other": "Уживајте у {{ .Name }}"
+    "other": "Уживајте у {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "ИЛИ"
@@ -1181,6 +1188,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Карусель"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Пагинација"
   },
   "wcag_aria_label_page_collection": {
     "other": "Коллекция страницы"
@@ -1288,21 +1298,27 @@
     "other": "Моје претплате"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Прва уплата {{ .Expiry }}"
+    "other": "Прва уплата {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Следећа уплата {{ .Expiry }}"
+    "other": "Следећа уплата {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Рок за плаћање {{ .Expiry }}"
+    "other": "Рок за плаћање {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Завршава {{ .Expiry }}"
+    "other": "Завршава {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Ендед {{ .Expiry }}"
+    "other": "Ендед {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "логотип спонзора"
+  },
+  "subscribe_to_watch": {
+    "other": "Претплатите се на гледање"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} ставке"
   }
 }

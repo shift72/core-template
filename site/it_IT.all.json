@@ -152,7 +152,7 @@
     "other": "Condividi link"
   },
   "social_media_buttons_copied_link": {
-    "other": "Link copiato negli appunti!"
+    "other": "Link copiato"
   },
   "social_media_buttons_copy_link": {
     "other": "Copia link"
@@ -663,7 +663,7 @@
     "other": "Consulta la tua library"
   },
   "shopping_complete_plan": {
-    "other": "L'acquisto di {{ .Title }} buon fine."
+    "other": "L'acquisto di {{.Title}} buon fine."
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Ora puoi iniziare a guardarlo entro il giorno successivo.",
@@ -911,33 +911,38 @@
     "other": "Prezzo"
   },
   "shopping_price_plan_note": {
-    "zero": "Addebitato ogni {{ .Interval }} .",
-    "one": "Addebitato ogni {{ .Interval }} termine della prova gratuita di 24 ore.",
-    "other": "Addebitato ogni {{ .Interval }} dopo la {{ .Count }} del periodo di prova gratuito di .Count."
+    "one": "Addebitato ogni {{.Interval}} termine della prova gratuita di 24 ore.",
+    "other": "Addebitato ogni {{.Interval}} al termine del periodo di prova gratuito di {{.Count}} giorni."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Addebitato ogni {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
-    "one": "{{ .Interval }}",
-    "other": "{{ .Count }} {{ .Interval }}"
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Inserisci i dati della tua carta di credito qui sotto per iniziare il tuo abbonamento."
   },
   "shopping_enter_card_prompt_plan": {
-    "other": "Inserisci i dati della tua carta di credito qui sotto per iniziare il tuo abbonamento."
+    "other": "Inserisci i dettagli della tua carta di credito qui sotto per iniziare il tuo piano."
   },
   "shopping_action_plan": {
     "other": "Completare"
   },
   "shopping_complete_subscription": {
-    "other": "L&#39;acquisto dell&#39;abbonamento è andato a buon fine. Ora sei iscritto a {{ .Title }} ."
+    "other": "L'acquisto dell'abbonamento è andato a buon fine. Ora sei iscritto a {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Sentiti libero di <a href=\"/\">navigare nel</a> sito o di <a href=\"/search.html\">cercare</a> qualcosa di specifico."
   },
   "shopping_info_plan_offer": {
-    "one": "Si rinnova automaticamente ogni {{ .Interval }}",
-    "other": "Rinnova automaticamente ogni {{ .Count }} {{ .Interval }}"
+    "one": "Si rinnova automaticamente ogni {{.Interval}}",
+    "other": "Rinnova automaticamente ogni {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Prova subito la tua prova gratuita di 24 ore!",
-    "other": "Prova la tua prova gratuita di {{ .Count }} Day!"
+    "other": "Prova la tua prova gratuita di {{.Count}} Day!"
   },
   "plans_page_header": {
     "other": "Piani disponibili"
@@ -955,7 +960,7 @@
     "other": "Per saperne di più"
   },
   "plan_page_header_text": {
-    "other": "Divertiti con {{ .Name }}"
+    "other": "Divertiti con {{.Name}}"
   },
   "page_plan_explore_intro": {
     "other": "O"
@@ -1016,6 +1021,9 @@
   },
   "wcag_aria_label_carousel": {
     "other": "Giostra"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Impaginazione"
   },
   "wcag_aria_label_page_collection": {
     "other": "Collezione di pagine"
@@ -1288,21 +1296,27 @@
     "other": "le mie sottoscrizioni"
   },
   "usersubscriptions_subscription_expiry_trialing": {
-    "other": "Primo pagamento {{ .Expiry }}"
+    "other": "Primo pagamento {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_active": {
-    "other": "Prossimo pagamento {{ .Expiry }}"
+    "other": "Prossimo pagamento {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_past_due": {
-    "other": "Pagamento dovuto {{ .Expiry }}"
+    "other": "Pagamento dovuto {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_cancelled": {
-    "other": "Termina {{ .Expiry }}"
+    "other": "Termina {{.Expiry}}"
   },
   "usersubscriptions_subscription_expiry_expired": {
-    "other": "Terminato {{ .Expiry }}"
+    "other": "Terminato {{.Expiry}}"
   },
   "sponsor_image_alt": {
     "other": "logo dello sponsor"
+  },
+  "subscribe_to_watch": {
+    "other": "Iscriviti per guardare"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} Oggetti"
   }
 }

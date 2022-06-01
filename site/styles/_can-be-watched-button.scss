@@ -22,26 +22,6 @@
   }
 }
 
-.meta-detail-content .meta-detail-buttons,
-.meta-item-buttons {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  .owned-custom-container {
-    display: none;
-
-    &.s72-show {
-      display: block;
-    }
-  }
-
-  .s72-btn-play {
-    margin-right: 8px;
-  }
-}
-
 /* stylelint-disable selector-max-compound-selectors */
 .s72-userwishlist-items .partial > a,
 .s72-userlibrary-items .partial > a,
