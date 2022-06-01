@@ -3,23 +3,15 @@
 ## [Unreleased](https://github.com/shift72/core-template/compare/0.6.0...HEAD)
 
 ### Added
-* Subscribe to watch button
-* Bundles tagline to show n items rather than n films
-
-### Changed
-- New Jet and CSS for reusable CTA (call-to-action) buttons.  Used for consistent button appearance on film/tv/bundle pages and carousel slides.
-
-## [0.6.0](https://github.com/shift72/core-template/compare/0.6.0-alpha.0...0.6.0)
-
-No changes from `alpha-0`.
-
-### Added
+- Subscribe to watch button
+- Bundles tagline to show n items rather than n films
 - Keyboard controls for the carousel.
 - Pull request template file.
 - Playback progress component and style
 - `url` parameter in share modals
 
 ### Changed
+- New Jet and CSS for reusable CTA (call-to-action) buttons.  Used for consistent button appearance on film/tv/bundle pages and carousel slides.
 - Reworked the carousel UI.
 - Carousel background now extends the full width of the window.
 
@@ -27,6 +19,10 @@ No changes from `alpha-0`.
 - Remove whitespaces from mustaches variables in translations.
 - Fix unwanted variables in translations.
 - Sub-item CSS is no longer broken by the linter.
+
+## [0.6.0](https://github.com/shift72/core-template/compare/0.6.0-alpha.0...0.6.0)
+
+No changes from `alpha-0`.
 
 ## [0.6.0-alpha.0](https://github.com/shift72/core-template/compare/0.5.1...0.6.0-alpha.0)
 
