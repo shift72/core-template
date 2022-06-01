@@ -1,5 +1,5 @@
 label {
-  @extend .subtitle-1-style;
+  @include subtitle-1-style;
   margin-bottom: 0.25rem;
 }
 
@@ -61,7 +61,7 @@ s72-activatedevice-form,
 }
 // Error Messaging
 .s72-error-message {
-  @extend .body-2-style;
+  @include body-2-style;
   background: $error-background;
   border-radius: $border-radius;
   color: $error-color;
@@ -263,4 +263,9 @@ s72-signup-form {
     }
     /* stylelint-enable selector-no-qualifying-type */
   }
+}
+
+.s72-form-check-label,
+.s72-form-control {
+  @include paragraph-style;
 }

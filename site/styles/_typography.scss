@@ -59,14 +59,6 @@
   @include typography-style(14px, 0.8px, $font-weight-light);
 }
 
-small {
-  font-size: 85%;
-}
-
-a:not([class]) {
-  text-decoration: underline;
-}
-
 h1 {
   @include h1-style();
 }
@@ -77,55 +69,7 @@ h2 {
 h3 {
   @include h3-style();
 }
+
 p {
   @include paragraph-style();
-}
-
-.paragraph-style { // aka 'body-1' on style guide
-  @include paragraph-style();
-}
-
-.h1-style {
-  @include h1-style();
-}
-
-.h2-style {
-  @include h2-style();
-}
-
-.h3-style {
-  @include h3-style();
-}
-
-.h4-style {
-  @include h4-style();
-}
-
-.body-2-style {
-  @include body-2-style();
-}
-
-.subtitle-1-style {
-  @include subtitle-1-style();
-}
-
-.subtitle-2-style {
-  @include subtitle-2-style();
-}
-
-.caption-1-style {
-  @include caption-1-style();
-}
-
-.overline-style {
-  @include overline-style();
-}
-
-.s72-form-check-label,
-.s72-form-control {
-  @include paragraph-style;
-}
-
-.devices-helptext {
-  @include h4-style;
 }

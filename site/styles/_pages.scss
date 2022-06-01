@@ -70,7 +70,7 @@
     }
 
     strong {
-      @extend .caption-1-style;
+      @include caption-1-style;
     }
 
     a:not(.signup-link) {
