@@ -2,14 +2,19 @@ s72-carousel {
   display: flex;
   height: var(--carousel-height);
   margin-bottom: 30px;
+  max-height: 775px;
+  min-height: 600px;
   width: 100%;
+
 
   @include media-breakpoint-up(sm) {
     height: var(--carousel-height-sm);
+    max-height: 800px;
   }
 
   @include media-breakpoint-up(lg) {
     height: var(--carousel-height-lg);
+    max-height: 775px;
   }
 }
 
@@ -36,6 +41,14 @@ s72-carousel {
   position: absolute;
   top: 0;
   width: 100%;
+
+  @include media-breakpoint-up(sm) {
+    height: 75%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 100%;
+  }
 
   img {
     height: 100%;
@@ -94,9 +107,15 @@ s72-carousel {
   width: 100%;
   z-index: 999;
 
+  @include media-breakpoint-up(sm) {
+    flex-direction: row;
+    padding: var(--carousel-bottom-gradient-height-sm) 20px 1px;
+  }
+
+
   @include media-breakpoint-up(lg) {
     flex-direction: row;
-    padding: var(--carousel-bottom-gradient-height) 50px 1px;
+    padding: var(--carousel-bottom-gradient-height-lg) 50px 1px;
   }
 
   .sponsor {

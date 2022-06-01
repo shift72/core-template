@@ -10,13 +10,12 @@
   }
 
   > * {
-    &:not(.extra-buttons) {
-      animation: fadein 2s;
-    }
-
     @include media-breakpoint-up(xs) {
       grid-column: auto;
       grid-row: 1;
+    }
+    &:not(.extra-buttons) {
+      animation: fadein 2s;
     }
   }
 
