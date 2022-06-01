@@ -70,7 +70,13 @@ a:not([class]) {
 h1 {
   @include h1-style();
 }
+h2 {
+  @include h2-style();
+}
 
+h3 {
+  @include h3-style();
+}
 p {
   @include paragraph-style();
 }
@@ -115,11 +121,11 @@ p {
   @include overline-style();
 }
 
-.acceptinvite-invalid-token {
-  @extend .h4-style;
-}
-
 .s72-form-check-label,
 .s72-form-control {
-  @extend .paragraph-style;
+  @include paragraph-style;
+}
+
+.devices-helptext {
+  @include h4-style;
 }

@@ -1,9 +1,9 @@
 {{ block poweredBy() }}
   {{ festival_scope_footer := config("festival_scope_footer") == "true" }}
 
-  <p class="body-2-style powered-by">
-    {{ i18n("powered_by") }} <a class="caption-1-style" href="{{ i18n("powered_by_url") }}" target="_blank">{{ i18n("powered_by_name") }}</a>
+  <p class="powered-by">
+    {{ i18n("powered_by") }} <a href="{{ i18n("powered_by_url") }}" target="_blank">{{ i18n("powered_by_name") }}</a>
 
-    {{ if festival_scope_footer }}{{ i18n("in_partnership_with") }} <a class="caption-1-style" href="{{ i18n("festival_scope_url") }}" target="_blank">{{ i18n("festival_scope") }}</a>{{ end }}
+    {{ if festival_scope_footer }}{{ i18n("in_partnership_with") }} <a href="{{ i18n("festival_scope_url") }}" target="_blank">{{ i18n("festival_scope") }}</a>{{ end }}
   </p>
 {{ end }}

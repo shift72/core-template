@@ -1,5 +1,9 @@
 .page {
   flex: 1 0 auto;
+
+  h1 {
+    @include h2-style;
+  }
   @include media-breakpoint-up(md) {
     padding-bottom: $grid-gutter-width;
   }
@@ -243,4 +247,12 @@
       text-align: center;
     }
   }
+}
+
+.acceptinvite-invalid-token {
+  @include h4-style;
+}
+
+.page-heading-adjacent-link {
+  @include h4-style;
 }

@@ -440,12 +440,15 @@ s72-element-switcher,
   margin-bottom: 40px;
 
   h2 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    @include h3-style;
+  }
 
-    @include media-breakpoint-up(sm) {
-      font-size: 22px;
-    }
+  h3 {
+    @include subtitle-1-style;
+  }
+
+  .runtime {
+    @include subtitle-2-style;
   }
 }
 
@@ -489,5 +492,9 @@ s72-element-switcher {
 
   p {
     margin-bottom: 0;
+  }
+
+  h2 {
+    @include caption-1-style;
   }
 }

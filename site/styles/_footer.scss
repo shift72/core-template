@@ -62,6 +62,7 @@ footer {
 }
 
 .copyright-statement {
+  @include body-2-style;
   margin: 0 0 7px;
   text-align: center;
 
@@ -71,8 +72,13 @@ footer {
 }
 
 .powered-by {
+  @include body-2-style;
   margin: 0;
   text-align: center;
+
+  a {
+    @include caption-1-style;
+  }
 }
 
 .app-banner {
@@ -86,6 +92,11 @@ footer {
   }
   .app-badge-container {
     display: flex;
+  }
+
+  .app-badge-title {
+    @include paragraph-style;
+    text-align: center;
   }
 
   .app-badge-link {

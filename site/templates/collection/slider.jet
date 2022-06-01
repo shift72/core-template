@@ -7,7 +7,7 @@
     <div class="swiper-container" data-items-per-row="{{.ItemsPerRow}}" data-layout="{{.ItemLayout}}">
       {{if .DisplayName != ""}}
       <div class="swiper-title">
-          <h2 class="h3-style">{{.DisplayName}}</h2>
+          <h2>{{.DisplayName}}</h2>
       </div>
       {{end}}
       <div class="swiper-wrapper">

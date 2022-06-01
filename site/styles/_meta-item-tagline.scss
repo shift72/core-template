@@ -1,4 +1,5 @@
 .meta-item-tagline {
+  @include overline-style;
   @extend .list-inline;
   .meta-item-tagline-item,
   .meta-item-tagline-divider {

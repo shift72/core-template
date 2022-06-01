@@ -1,5 +1,9 @@
 .page-collection {
   @extend .clearfix;
+
+  h2 {
+    @include h3-style;
+  }
 }
 
 .page-collection-slider {
@@ -43,6 +47,11 @@
   &:first-child {
     margin-left: -5px;
   }
+
+  h3 {
+    @include subtitle-1-style;
+  }
+
   > a {
     .poster {
       .hover {

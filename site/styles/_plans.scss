@@ -30,6 +30,10 @@ s72-plan-label {
           p {
             @extend .mb-p75;
           }
+
+          h2 {
+            @include h3-style;
+          }
         }
 
         s72-plan-label {

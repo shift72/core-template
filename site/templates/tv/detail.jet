@@ -80,7 +80,7 @@
 
           {{if len(tvseason.Episodes) > 0}}
             <div class="meta-detail-episodes-content">
-              <h2 class="h3-style">{{i18n("meta_detail_episodes_title")}}</h2>
+              <h2>{{i18n("meta_detail_episodes_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="portrait") content}}
                 {{range episode := tvseason.Episodes}}
                   <div class="sub-item">
@@ -93,7 +93,7 @@
 
           {{if len(tvseason.Bonuses) > 0 }}
             <section class="meta-detail-bonus-content" aria-label="{{i18n("meta_detail_bonus_title")}}">
-              <h2 class="h3-style">{{i18n("meta_detail_bonus_title")}}</h2>
+              <h2>{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := tvseason.Bonuses}}
                   <div class="sub-item">
@@ -117,7 +117,7 @@
           {{end}}
 
             <div class="swiper-title">
-                <h2 class="h3-style">{{i18n("meta_detail_recommendations_title")}}</h2>
+                <h2>{{i18n("meta_detail_recommendations_title")}}</h2>
             </div>
             <div class="swiper-wrapper">
               {{range item := tvseason.Recommendations}}
