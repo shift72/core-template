@@ -119,20 +119,22 @@
 .meta-detail-main {
   @extend .d-flex;
   flex-direction: column;
-  gap: 0 20px;
-  padding: 0 20px;
+  padding: var(--page-detail-padding-top) 20px 0 20px;
 
   @include media-breakpoint-up(md) {
     flex-direction: row;
+    padding-bottom: 0;
+    padding-top: var(--page-detail-padding-top-md);
   }
 
   @include media-breakpoint-up(lg) {
-    padding: 0 50px;
+    padding: var(--page-detail-padding-top-lg) 50px 0 50px;
   }
 
   .poster {
     animation: fadein 2s;
     display: block;
+    margin-right: 20px;
     width: 110px;
 
     @include media-breakpoint-up(xs) {
@@ -396,11 +398,6 @@ s72-element-switcher,
 
   .meta-detail-main {
     flex-direction: column;
-    padding: 0 20px;
-
-    @include media-breakpoint-up(lg) {
-      padding: 0 50px;
-    }
   }
 
   .meta-detail-content {
