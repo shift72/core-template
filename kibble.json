@@ -2,7 +2,7 @@
   "name": "core-template",
   "version": "0.0.1",
   "siteUrl": "https://abccinemas.screenplus.co",
-  "builderVersion": "0.16.6",
+  "builderVersion": "0.16.7",
   "defaultLanguage": "en",
   "languages": {
     "ar": {
