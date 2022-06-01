@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...HEAD)
 
+### Changed
+- Awards icon from star to laurel
+
 ## [1.0.0-alpha.0](https://github.com/shift72/core-template/compare/0.6.0...1.0.0-alpha.0)
 
 ### Added
