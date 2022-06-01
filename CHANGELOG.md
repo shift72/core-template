@@ -5,6 +5,10 @@
 ### Added
 * Subscribe to watch button
 * Bundles tagline to show n items rather than n films
+
+### Changed
+- New Jet and CSS for reusable CTA (call-to-action) buttons.  Used for consistent button appearance on film/tv/bundle pages and carousel slides.
+
 ## [0.6.0](https://github.com/shift72/core-template/compare/0.6.0-alpha.0...0.6.0)
 
 No changes from `alpha-0`.

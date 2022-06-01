@@ -3,8 +3,8 @@
 {{import "./item/tagline.jet"}}
 {{import "./item/image.jet"}}
 {{import "./item/synopsis.jet"}}
-{{import "./item/buttons.jet"}}
 {{import "../../common/sponsor-image.jet"}}
+{{import "../../common/cta_buttons.jet"}}
 
 {{block carouselItem(item)}}
   {{showItemContent := !isset(item["PageType"]) || item.PageType != "external"}}  
@@ -24,9 +24,11 @@
 
             {{yield carouselItemTagline() item.InnerItem}}
 
-            {{yield carouselItemSynopsis(synopsis=item.InnerItem.Tagline)}}
+            {{if isset(item.InnerItem["Tagline"])}}
+              {{yield carouselItemSynopsis(synopsis=item.InnerItem.Tagline)}}
+            {{end}}
 
-            {{yield carouselItemButtons() item}}
+            {{yield ctaButtons(itemType=item.ItemType, trailerRedirect=true) item.InnerItem}}            
 
             <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
 

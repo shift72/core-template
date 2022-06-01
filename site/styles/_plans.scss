@@ -96,7 +96,8 @@ s72-plan-label {
   white-space: nowrap;
   width: 1px;
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     display: block;
+    margin: 4px 0 0 18px;
   }
 }

@@ -34,12 +34,12 @@
   --carousel-height-lg: 620px;
   --carousel-bottom-gradient-height: 220px; // Increase this to 800px for light theme.
 
-  // This changes the height of s72-carousel. We need this because the container inside s72-carousel is absolutely positioned.
-  // s72-carousel is being used to push down the content below the carousel. This is a temporary fix.
-  // Calculed by: carousel-height - height of anything above the carousel + 30px.
-  --s72-carousel-container-height: 480px;
-  --s72-carousel-container-height-sm: 480px; // 550 - 100 + 30
-  --s72-carousel-container-height-lg: 478px; // 620 - 172 + 30
+  --page-padding-top: 120px;
+  --page-padding-top-md: 120px;
+  --page-padding-top-lg: 180px;
+  --page-detail-padding-top: 120px;
+  --page-detail-padding-top-md: 120px;
+  --page-detail-padding-top-lg: 180px;
 }
 
 // Bootstrap 4 overrides START

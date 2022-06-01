@@ -38,7 +38,29 @@
   }
 }
 
+.curated-page,
+.library-page,
+.content-page,
+.form-page,
+.wishlist-page,
+.search-page,
+.collection-page,
+.devices-page,
+.plans-page,
+.carousel-len-0 {
+  padding-top: var(--page-padding-top);
+  @include media-breakpoint-up(md) {
+    padding: var(--page-padding-top-md) 0 0 0;
+  }
+  @include media-breakpoint-up(lg) {
+    padding: var(--page-padding-top-lg) 0 0 0;
+  }
+}
+
 .form-page {
+  @include media-breakpoint-up(xl) {
+    padding: var(--page-padding-top-lg) 0 0 0;
+  }
   .page-header {
     h1,
     p {
@@ -237,13 +259,14 @@
 .not-found {
   background: transparent;
   padding-bottom: $grid-gutter-width;
-
+  padding-top: var(--page-padding-top);
   @include media-breakpoint-up(md) {
     padding-bottom: $grid-gutter-width;
+    padding-top: var(--page-padding-top-md);
   }
-
   @include media-breakpoint-up(lg) {
     padding-bottom: $grid-gutter-width * 3;
+    padding-top: var(--page-padding-top-lg);
   }
 
   .text-center {
