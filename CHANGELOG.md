@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.6.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...HEAD)
+
+## [1.0.0-alpha.0](https://github.com/shift72/core-template/compare/0.6.0...1.0.0-alpha.0)
 
 ### Added
 - Subscribe to watch button
