@@ -46,6 +46,9 @@
       max-width: 400px;
       text-align: center;
     }
+    p {
+      @include h4-style;
+    }
   }
 
   s72-useraccount-form {
@@ -138,6 +141,10 @@
   .page-header {
     h1 {
       margin-bottom: $headings-margin-bottom;
+    }
+
+    p {
+      @include h4-style;
     }
   }
 

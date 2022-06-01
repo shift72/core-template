@@ -14,6 +14,5 @@
     <div class="page-form">
       <s72-acceptinvite-form acceptinvite-url="{{routeToPath("/acceptinvite.html")}}" />
     </div>
-
   </main>
 {{end}}

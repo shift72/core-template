@@ -7,7 +7,7 @@
     <div class="page-header">
       <h1>{{ i18n("userdevices_page_header") }}</h1>
       {{ if configInt("device_user_limit", 0) > 0 }}
-        <p class="devices-helptext">{{i18n("userdevices_page_content", configInt("device_user_limit"))}}</p>
+        <p>{{i18n("userdevices_page_content", configInt("device_user_limit"))}}</p>
       {{ end }}
     </div>
     <s72-userdevices signin-url="{{ routeToPath("/signin.html") }}" />

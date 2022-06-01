@@ -3,7 +3,7 @@
 
   <p class="powered-by">
     {{ i18n("powered_by") }} <a href="{{ i18n("powered_by_url") }}" target="_blank">{{ i18n("powered_by_name") }}</a>
-
+    
     {{ if festival_scope_footer }}{{ i18n("in_partnership_with") }} <a href="{{ i18n("festival_scope_url") }}" target="_blank">{{ i18n("festival_scope") }}</a>{{ end }}
   </p>
 {{ end }}
