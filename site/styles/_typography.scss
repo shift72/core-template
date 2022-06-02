@@ -71,6 +71,10 @@ h3 {
   @include h3-style();
 }
 
+h4 {
+  @include h4-style();
+}
+
 p {
   @include paragraph-style();
 }
