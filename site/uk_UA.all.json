@@ -1131,7 +1131,7 @@
     "other": "Заряджені кожен {{.Interval}} після вашого {{.Count}} дня закінчується безкоштовно суд."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Стягується через кожний {{.Interval}} ."
+    "other": "Стягується через кожний {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1149,7 +1149,7 @@
     "other": "Завершено"
   },
   "shopping_complete_subscription": {
-    "other": "Ваша покупка підписки була успішною. Тепер ви підписані на {{.Title}} ."
+    "other": "Ваша покупка підписки була успішною. Тепер ви підписані на {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Не соромтеся <a href=\"/\">переглядати</a> сайт або <a href=\"/search.html\">шукати</a> щось конкретне."
@@ -1350,5 +1350,20 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} елементи"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Код успішно застосовано."
+  },
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Введіть дійсний промо-код."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Успіху! Тепер ви можете дивитися {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Викупити"
+  },
+  "pricing_ownership_promo": {
+    "other": "Викупити"
   }
 }

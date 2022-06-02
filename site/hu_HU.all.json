@@ -1030,7 +1030,7 @@
     "other": "teljes"
   },
   "shopping_complete_subscription": {
-    "other": "Az előfizetés vásárlása sikeres volt. Feliratkozott a {{.Title}} ."
+    "other": "Az előfizetés vásárlása sikeres volt. Feliratkozott a {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Nyugodtan <a href=\"/\">böngésszen</a> az oldalon, vagy <a href=\"/search.html\">keressen</a> valami konkrétat."
@@ -1327,5 +1327,20 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} elemeket"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "A kód sikeresen alkalmazva."
+  },
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Adjon meg egy érvényes promóciós kódot."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Siker! Most megtekintheti a {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Beváltani"
+  },
+  "pricing_ownership_promo": {
+    "other": "Beváltani"
   }
 }

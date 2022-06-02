@@ -912,7 +912,7 @@
     "other": "Kompletny"
   },
   "shopping_complete_subscription": {
-    "other": "Twój zakup subskrypcji się powiódł. Subskrybujesz teraz {{.Title}} ."
+    "other": "Twój zakup subskrypcji się powiódł. Subskrybujesz teraz {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Możesz swobodnie <a href=\"/\">przeglądać</a> witrynę lub <a href=\"/search.html\">szukać</a> czegoś konkretnego."
@@ -1367,5 +1367,20 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} rzeczy"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Kod został pomyślnie zastosowany."
+  },
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Wprowadź prawidłowy kod promocyjny."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Powodzenie! Możesz teraz oglądać {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Odkupić"
+  },
+  "pricing_ownership_promo": {
+    "other": "Odkupić"
   }
 }

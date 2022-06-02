@@ -1166,7 +1166,7 @@
     "other": "سعر"
   },
   "shopping_price_plan_note": {
-    "zero": "اتهم كل {{.Interval}} .",
+    "zero": "اتهم كل {{.Interval}}.",
     "one": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية لمدة 24 ساعة.",
     "two": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
     "few": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
@@ -1174,7 +1174,7 @@
     "other": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "اتهم كل {{.Interval}} ."
+    "other": "اتهم كل {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "zero": "{{.Interval}}",
@@ -1197,7 +1197,7 @@
     "other": "فوق حتى"
   },
   "shopping_complete_subscription": {
-    "other": "تم شراء اشتراكك بنجاح. أنت الآن مشترك في {{.Title}} ."
+    "other": "تم شراء اشتراكك بنجاح. أنت الآن مشترك في {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "لا تتردد في <a href=\"/\">تصفح</a> الموقع ، أو <a href=\"/search.html\">البحث</a> عن شيء محدد."
@@ -1335,5 +1335,20 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} أغراض"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "تم تطبيق الكود بنجاح."
+  },
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "الرجاء إدخال رمز ترويجي صالح."
+  },
+  "shopping_complete_promo_only": {
+    "other": "النجاح! يمكنك الآن {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "يسترد"
+  },
+  "pricing_ownership_promo": {
+    "other": "يسترد"
   }
 }

@@ -1327,5 +1327,20 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} üksused"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Koodi rakendamine õnnestus."
+  },
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Sisestage kehtiv sooduskood."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Edu! Nüüd saate vaadata {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Lunastama"
+  },
+  "pricing_ownership_promo": {
+    "other": "Lunastama"
   }
 }
