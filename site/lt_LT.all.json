@@ -1106,7 +1106,7 @@
     "other": "Užbaigti"
   },
   "shopping_complete_subscription": {
-    "other": "Prenumeratos įsigijimas buvo sėkmingas. Dabar esate užsiprenumeravę {{.Title}}."
+    "other": "Prenumeratos įsigijimas buvo sėkmingas. Dabar esate užsiprenumeravę {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Nedvejodami <a href=\"/\">naršykite</a> svetainėje arba <a href=\"/search.html\">ieškokite</a> ko nors konkretaus."
@@ -1327,7 +1327,7 @@
     "other": "Įveskite galiojantį reklamos kredito kodą."
   },
   "shopping_complete_promo_only": {
-    "other": "Sėkmė! Dabar galite žiūrėti {{.Title}}."
+    "other": "Sėkmė! Dabar galite žiūrėti {{.Title}} ."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Išpirkti"

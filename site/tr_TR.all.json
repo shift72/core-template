@@ -1027,7 +1027,7 @@
     "other": "Tamamlayınız"
   },
   "shopping_complete_subscription": {
-    "other": "Abonelik satın alma işleminiz başarılı oldu. Artık {{.Title}}."
+    "other": "Abonelik satın alma işleminiz başarılı oldu. Artık {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Sitede <a href=\"/\">gezinmekten</a> veya belirli bir şey <a href=\"/search.html\">aramaktan</a> çekinmeyin."

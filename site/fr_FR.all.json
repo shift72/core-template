@@ -919,7 +919,7 @@
     "other": "Compléter"
   },
   "shopping_complete_subscription": {
-    "other": "Votre achat d&#39;abonnement a réussi. Vous êtes maintenant abonné à {{.Title}}."
+    "other": "Votre achat d&#39;abonnement a réussi. Vous êtes maintenant abonné à {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "N&#39;hésitez pas à <a href=\"/\">parcourir</a> le site ou à <a href=\"/search.html\">rechercher</a> quelque chose de spécifique."
@@ -1323,7 +1323,7 @@
     "other": "Veuillez saisir un code promotionnel valide."
   },
   "shopping_complete_promo_only": {
-    "other": "Succès! Vous pouvez maintenant regarder {{.Title}}."
+    "other": "Succès! Vous pouvez maintenant regarder {{.Title}} ."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Racheter"

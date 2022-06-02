@@ -1201,7 +1201,7 @@
     "other": "Completa"
   },
   "shopping_complete_subscription": {
-    "other": "La teva compra de subscripció ha estat correcta. Ara esteu subscrit a {{.Title}}."
+    "other": "La teva compra de subscripció ha estat correcta. Ara esteu subscrit a {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "No dubteu a <a href=\"/\">navegar pel</a> lloc o <a href=\"/search.html\">cercar</a> alguna cosa específica."
@@ -1332,7 +1332,7 @@
     "other": "Introduïu un codi promocional vàlid."
   },
   "shopping_complete_promo_only": {
-    "other": "Èxit! Ja podeu veure {{.Title}}."
+    "other": "Èxit! Ja podeu veure {{.Title}} ."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Redimir"

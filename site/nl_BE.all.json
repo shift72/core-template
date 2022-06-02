@@ -1102,7 +1102,7 @@
     "other": "Compleet"
   },
   "shopping_complete_subscription": {
-    "other": "Uw abonnementsaankoop is gelukt. U bent nu geabonneerd op {{.Title}}."
+    "other": "Uw abonnementsaankoop is gelukt. U bent nu geabonneerd op {{.Title}} ."
   },
   "shopping_complete_subscription_browse": {
     "other": "Kijk gerust <a href=\"/\">rond op</a> de site of <a href=\"/search.html\">zoek</a> naar iets specifieks."
