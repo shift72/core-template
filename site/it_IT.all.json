@@ -1323,7 +1323,7 @@
     "other": "Inserisci un codice promozionale valido."
   },
   "shopping_complete_promo_only": {
-    "other": "Successo! Ora puoi guardare {{.Title}} ."
+    "other": "Successo! Ora puoi guardare {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Riscattare"

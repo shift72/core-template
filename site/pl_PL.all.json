@@ -912,7 +912,7 @@
     "other": "Kompletny"
   },
   "shopping_complete_subscription": {
-    "other": "Twój zakup subskrypcji się powiódł. Subskrybujesz teraz {{.Title}} ."
+    "other": "Twój zakup subskrypcji się powiódł. Subskrybujesz teraz {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Możesz swobodnie <a href=\"/\">przeglądać</a> witrynę lub <a href=\"/search.html\">szukać</a> czegoś konkretnego."
@@ -1372,7 +1372,7 @@
     "other": "Wprowadź prawidłowy kod promocyjny."
   },
   "shopping_complete_promo_only": {
-    "other": "Powodzenie! Możesz teraz oglądać {{.Title}} ."
+    "other": "Powodzenie! Możesz teraz oglądać {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Odkupić"

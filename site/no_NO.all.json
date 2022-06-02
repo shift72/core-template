@@ -1021,7 +1021,7 @@
     "other": "Fullstendig"
   },
   "shopping_complete_subscription": {
-    "other": "Abonnementskjøpet var vellykket. Du abonnerer nå på {{.Title}} ."
+    "other": "Abonnementskjøpet var vellykket. Du abonnerer nå på {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "<a href=\"/\">Bla deg gjerne rundt</a> på siden, eller <a href=\"/search.html\">søk</a> etter noe spesifikt."
@@ -1323,7 +1323,7 @@
     "other": "Vennligst skriv inn en gyldig kampanjekode."
   },
   "shopping_complete_promo_only": {
-    "other": "Suksess! Du kan nå se {{.Title}} ."
+    "other": "Suksess! Du kan nå se {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Løs inn"

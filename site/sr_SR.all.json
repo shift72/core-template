@@ -1104,7 +1104,7 @@
     "other": "комплетан"
   },
   "shopping_complete_subscription": {
-    "other": "Ваша куповина претплате је била успешна. Сада сте претплаћени на {{.Title}} ."
+    "other": "Ваша куповина претплате је била успешна. Сада сте претплаћени на {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Слободно <a href=\"/\">претражујте по</a> сајту или <a href=\"/search.html\">тражите</a> нешто специфично."
@@ -1325,7 +1325,7 @@
     "other": "Унесите важећи промотивни код."
   },
   "shopping_complete_promo_only": {
-    "other": "Успех! Сада можете гледати {{.Title}} ."
+    "other": "Успех! Сада можете гледати {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Искупити"

@@ -1323,7 +1323,7 @@
     "other": "Por favor, introduzca un código de promoción válido."
   },
   "shopping_complete_promo_only": {
-    "other": "¡Éxito! Ahora puedes ver {{.Title}} ."
+    "other": "¡Éxito! Ahora puedes ver {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Redimir"
