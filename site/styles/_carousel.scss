@@ -100,9 +100,9 @@ s72-carousel {
   }
 
   .sponsor {
+    margin-bottom: 8px;
     @include media-breakpoint-up(lg) {
       align-self: flex-end;
-      margin-bottom: 8px;
       margin-left: auto;
       order: 1;
     }
