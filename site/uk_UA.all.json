@@ -1347,5 +1347,8 @@
   },
   "subscribe_to_watch": {
     "other": "Підпишіться на перегляд"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} елементи"
   }
 }

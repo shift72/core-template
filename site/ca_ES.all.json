@@ -1324,5 +1324,8 @@
   },
   "subscribe_to_watch": {
     "other": "Subscriu-te per veure'l"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} elements"
   }
 }
