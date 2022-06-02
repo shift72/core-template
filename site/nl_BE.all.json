@@ -1315,20 +1315,5 @@
   },
   "subscribe_to_watch": {
     "other": "Abonneer om te kijken"
-  },
-  "shopping_discount_applied_promo": {
-    "other": "Code succesvol toegepast."
-  },
-  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
-    "other": "Voer een geldige promotiecode in."
-  },
-  "shopping_complete_promo_only": {
-    "other": "Succes! Je kunt nu {{.Title}} bekijken."
-  },
-  "shopping_action_redeem_promo_code": {
-    "other": "Inwisselen"
-  },
-  "pricing_ownership_promo": {
-    "other": "Inwisselen"
   }
 }

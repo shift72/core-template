@@ -583,6 +583,9 @@
   "shopping_discount_applied": {
     "other": "{{.DiscountAmount}} discount applied."
   },
+  "shopping_discount_applied_promo": {
+    "other": "Code successfully applied."
+  },
   "shopping_discount_apply": {
     "other": "Apply"
   },
@@ -643,20 +646,8 @@
   "shopping_error_proxy_detected": {
     "other": "Your {{.Ownership}} has not been completed. We have detected that you are using an unblocker or proxy service. Please turn off any of these services and try again."
   },
-  "shopping_discount_applied_promo": {
-    "other": "Code successfully applied."
-  },
   "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Please enter a valid promo code."
-  },
-  "shopping_complete_promo_only": {
-    "other": "Success! You can now watch {{.Title}}."
-  },
-  "shopping_action_redeem_promo_code": {
-    "other": "Redeem"
-  },
-  "pricing_ownership_promo": {
-    "other": "Redeem"
   },
   "shopping_error_discount_worn_out": {
     "other": "That promo code can no longer be used."
@@ -725,6 +716,9 @@
   "shopping_complete_purchase": {
     "other": "Thank you for purchasing {{.Title}}."
   },
+  "shopping_complete_promo_only": {
+    "other": "Success! You can now watch {{.Title}}."
+  },
   "shopping_complete_credit_purchase": {
     "other": "Thank you for purchasing {{.Title}}, {{.CreditTotal}} has been added to your account."
   },
@@ -758,6 +752,9 @@
   },
   "shopping_action_buy": {
     "other": "Buy"
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Redeem"
   },
   "shopping_payment_method_header": {
     "other": "Payment methods"
@@ -921,6 +918,9 @@
   },
   "pricing_ownership_rent": {
     "other": "Rent"
+  },
+  "pricing_ownership_promo": {
+    "other": "Redeem"
   },
   "classification_intro": {
     "other": "Rating: "

@@ -1324,20 +1324,5 @@
   },
   "subscribe_to_watch": {
     "other": "Subscriu-te per veure'l"
-  },
-  "shopping_discount_applied_promo": {
-    "other": "El codi s'ha aplicat correctament."
-  },
-  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
-    "other": "Introduïu un codi promocional vàlid."
-  },
-  "shopping_complete_promo_only": {
-    "other": "Èxit! Ja podeu veure {{.Title}} ."
-  },
-  "shopping_action_redeem_promo_code": {
-    "other": "Redimir"
-  },
-  "pricing_ownership_promo": {
-    "other": "Redimir"
   }
 }

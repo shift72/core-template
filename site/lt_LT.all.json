@@ -1319,20 +1319,5 @@
   },
   "subscribe_to_watch": {
     "other": "Prenumeruokite žiūrėti"
-  },
-  "shopping_discount_applied_promo": {
-    "other": "Kodas sėkmingai pritaikytas."
-  },
-  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
-    "other": "Įveskite galiojantį reklamos kredito kodą."
-  },
-  "shopping_complete_promo_only": {
-    "other": "Sėkmė! Dabar galite žiūrėti {{.Title}} ."
-  },
-  "shopping_action_redeem_promo_code": {
-    "other": "Išpirkti"
-  },
-  "pricing_ownership_promo": {
-    "other": "Išpirkti"
   }
 }

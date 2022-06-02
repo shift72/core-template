@@ -1315,20 +1315,5 @@
   },
   "subscribe_to_watch": {
     "other": "Abonner for å se"
-  },
-  "shopping_discount_applied_promo": {
-    "other": "Koden ble brukt."
-  },
-  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
-    "other": "Vennligst skriv inn en gyldig kampanjekode."
-  },
-  "shopping_complete_promo_only": {
-    "other": "Suksess! Du kan nå se {{.Title}} ."
-  },
-  "shopping_action_redeem_promo_code": {
-    "other": "Løs inn"
-  },
-  "pricing_ownership_promo": {
-    "other": "Løs inn"
   }
 }

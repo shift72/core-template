@@ -1315,20 +1315,5 @@
   },
   "subscribe_to_watch": {
     "other": "Iscriviti per guardare"
-  },
-  "shopping_discount_applied_promo": {
-    "other": "Codice applicato correttamente."
-  },
-  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
-    "other": "Inserisci un codice promozionale valido."
-  },
-  "shopping_complete_promo_only": {
-    "other": "Successo! Ora puoi guardare {{.Title}} ."
-  },
-  "shopping_action_redeem_promo_code": {
-    "other": "Riscattare"
-  },
-  "pricing_ownership_promo": {
-    "other": "Riscattare"
   }
 }

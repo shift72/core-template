@@ -1317,20 +1317,5 @@
   },
   "subscribe_to_watch": {
     "other": "Претплатите се на гледање"
-  },
-  "shopping_discount_applied_promo": {
-    "other": "Код је успешно примењен."
-  },
-  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
-    "other": "Унесите важећи промотивни код."
-  },
-  "shopping_complete_promo_only": {
-    "other": "Успех! Сада можете гледати {{.Title}} ."
-  },
-  "shopping_action_redeem_promo_code": {
-    "other": "Искупити"
-  },
-  "pricing_ownership_promo": {
-    "other": "Искупити"
   }
 }
