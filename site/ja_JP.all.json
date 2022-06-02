@@ -1313,5 +1313,20 @@
   },
   "subscribe_to_watch": {
     "other": "視聴するために購読する"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "コードが正常に適用されました。"
+  },
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "有効なプロモーションコードを入力してください。"
+  },
+  "shopping_complete_promo_only": {
+    "other": "成功！これで、 {{.Title}}を見ることができます。"
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "償還"
+  },
+  "pricing_ownership_promo": {
+    "other": "償還"
   }
 }

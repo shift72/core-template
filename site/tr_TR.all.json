@@ -1315,5 +1315,20 @@
   },
   "subscribe_to_watch": {
     "other": "izlemek için abone ol"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Kod başarıyla uygulandı."
+  },
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Lütfen geçerli bir promosyon kodu girin."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Başarı! Artık {{.Title}} izleyebilirsiniz."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Tazmin etmek"
+  },
+  "pricing_ownership_promo": {
+    "other": "Tazmin etmek"
   }
 }

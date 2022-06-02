@@ -1315,5 +1315,20 @@
   },
   "subscribe_to_watch": {
     "other": "Εγγραφείτε για να παρακολουθήσετε"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Ο κωδικός εφαρμόστηκε με επιτυχία."
+  },
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Εισαγάγετε έναν έγκυρο κωδικό προσφοράς."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Επιτυχία! Τώρα μπορείτε να παρακολουθήσετε {{.Title}} ."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Εξαργυρώνω"
+  },
+  "pricing_ownership_promo": {
+    "other": "Εξαργυρώνω"
   }
 }

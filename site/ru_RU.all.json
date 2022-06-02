@@ -1341,5 +1341,20 @@
   },
   "subscribe_to_watch": {
     "other": "Подпишитесь, чтобы смотреть"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Код успешно применен."
+  },
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Пожалуйста, введите действительный промо-код."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Успех! Теперь вы можете смотреть {{.Title}} ."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Выкупать"
+  },
+  "pricing_ownership_promo": {
+    "other": "Выкупать"
   }
 }
