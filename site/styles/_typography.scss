@@ -7,7 +7,7 @@
   line-height: $line-height;
 }
 
-@mixin h1-style() {
+@mixin heading-1-style() {
   @include typography-style(35px, 0.8px, $font-weight-normal, 8px, var(--body-color));
   @include media-breakpoint-up(xs) {
     @include typography-style(45px);
@@ -17,21 +17,21 @@
   }
 }
 
-@mixin h2-style() {
+@mixin heading-2-style() {
   @include typography-style(29px, 0.6px, $font-weight-normal, 13px);
   @include media-breakpoint-up(sm) {
     @include typography-style(35px);
   }
 }
 
-@mixin h3-style() {
+@mixin heading-3-style() {
   @include typography-style(20px, 0, $font-weight-normal, 6px);
   @include media-breakpoint-up(sm) {
     @include typography-style(23px, 0.4px);
   }
 }
 
-@mixin h4-style() {
+@mixin heading-4-style() {
   @include typography-style(18px, null, $font-weight-light, 20px);
 }
 
@@ -60,19 +60,19 @@
 }
 
 h1 {
-  @include h1-style();
+  @include heading-1-style();
 }
 
 h2 {
-  @include h2-style();
+  @include heading-2-style();
 }
 
 h3 {
-  @include h3-style();
+  @include heading-3-style();
 }
 
 h4 {
-  @include h4-style();
+  @include heading-4-style();
 }
 
 p {

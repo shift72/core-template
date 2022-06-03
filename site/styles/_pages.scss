@@ -54,7 +54,7 @@
   }
 
   h1 {
-    @include h2-style;
+    @include heading-2-style;
   }
 }
 
@@ -71,7 +71,7 @@
       text-align: center;
     }
     p {
-      @include h4-style;
+      @include heading-4-style;
     }
   }
 
@@ -168,7 +168,7 @@
     }
 
     p {
-      @include h4-style;
+      @include heading-4-style;
     }
   }
 
@@ -282,5 +282,5 @@
 }
 
 .acceptinvite-invalid-token {
-  @include h4-style;
+  @include heading-4-style;
 }
