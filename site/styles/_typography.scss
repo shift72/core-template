@@ -35,7 +35,7 @@
   @include typography-style(18px, null, $font-weight-light, 20px);
 }
 
-@mixin paragraph-style() {
+@mixin body-1-style() {
   @include typography-style(16px, 0.5px, $font-weight-light, null, null, 23px);
 }
 
@@ -76,5 +76,5 @@ h4 {
 }
 
 p {
-  @include paragraph-style();
+  @include body-1-style();
 }

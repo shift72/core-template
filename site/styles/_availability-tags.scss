@@ -2,7 +2,7 @@ s72-availability-label {
   .availability-state {
     @extend .d-flex;
     @extend .mb-2;
-    @include paragraph-style;
+    @include body-1-style;
     line-height: 24px;
 
     &::before {
