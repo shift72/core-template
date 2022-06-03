@@ -18,21 +18,21 @@
 }
 
 @mixin h2-style() {
-  @include typography-style(29px, 0.6px, $font-weight-normal, 4px);
+  @include typography-style(29px, 0.6px, $font-weight-normal, 13px);
   @include media-breakpoint-up(sm) {
     @include typography-style(35px);
   }
 }
 
 @mixin h3-style() {
-  @include typography-style(20px, 0, $font-weight-normal);
+  @include typography-style(20px, 0, $font-weight-normal, 6px);
   @include media-breakpoint-up(sm) {
     @include typography-style(23px, 0.4px);
   }
 }
 
 @mixin h4-style() {
-  @include typography-style(18px, null, $font-weight-light, 12px);
+  @include typography-style(18px, null, $font-weight-light, 20px);
 }
 
 @mixin paragraph-style() {
@@ -52,7 +52,7 @@
 }
 
 @mixin caption-1-style() {
-  @include typography-style(16px, 0.5px, $font-weight-bold);
+  @include typography-style(16px, 0.5px, $font-weight-bold, 4px);
 }
 
 @mixin overline-style() {

@@ -399,7 +399,10 @@ s72-element-switcher,
 }
 
 s72-element-switcher {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 100px;
+  }
 }
 
 .meta-detail-info {

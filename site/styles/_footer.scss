@@ -96,6 +96,7 @@ footer {
 
   .app-badge-title {
     @include paragraph-style;
+    margin-bottom: 20px;
     text-align: center;
   }
 
