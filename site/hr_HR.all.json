@@ -1312,5 +1312,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} stavke"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Ažurirajte svoju kreditnu karticu. Podržane kartice su Visa, Mastercard i American Express."
   }
 }

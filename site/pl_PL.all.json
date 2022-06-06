@@ -1367,5 +1367,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} rzeczy"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Zaktualizuj swoją kartę kredytową. Obsługiwane karty to Visa, Mastercard i American Express."
   }
 }

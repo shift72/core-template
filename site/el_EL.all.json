@@ -1318,5 +1318,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} αντικείμενα"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Ενημερώστε την πιστωτική σας κάρτα. Οι υποστηριζόμενες κάρτες είναι Visa, Mastercard και American Express."
   }
 }

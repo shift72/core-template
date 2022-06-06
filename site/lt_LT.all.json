@@ -1322,5 +1322,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} elementai"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Atnaujinkite savo kredito kortelę. Palaikomos kortelės yra „Visa“, „Mastercard“ ir „American Express“."
   }
 }
