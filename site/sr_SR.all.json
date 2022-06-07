@@ -1320,5 +1320,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} ставке"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Ажурирајте своју кредитну картицу. Подржане картице су Виса, Мастерцард и Америцан Екпресс."
   }
 }

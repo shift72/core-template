@@ -1318,5 +1318,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} elementer"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Oppdater kredittkortet ditt. Støttede kort er Visa, Mastercard og American Express."
   }
 }
