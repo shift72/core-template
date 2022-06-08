@@ -1321,7 +1321,6 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Actualice su tarjeta de crédito. Las tarjetas admitidas son Visa, Mastercard y American Express."
-<<<<<<< HEAD
   },
   "shopping_discount_applied_promo": {
     "other": "Código aplicado con éxito."
@@ -1337,7 +1336,5 @@
   },
   "pricing_ownership_promo": {
     "other": "Redimir"
-=======
->>>>>>> d0e81909bbd28c8c4d8106f7ed9b12b512553ef8
   }
 }

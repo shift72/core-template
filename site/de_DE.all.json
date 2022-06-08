@@ -1330,7 +1330,6 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Aktualisieren Sie Ihre Kreditkarte. Unterstützte Karten sind Visa, Mastercard und American Express."
-<<<<<<< HEAD
   },
   "shopping_discount_applied_promo": {
     "other": "Code erfolgreich angewendet."
@@ -1346,7 +1345,5 @@
   },
   "pricing_ownership_promo": {
     "other": "Tilgen"
-=======
->>>>>>> d0e81909bbd28c8c4d8106f7ed9b12b512553ef8
   }
 }

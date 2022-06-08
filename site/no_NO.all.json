@@ -1321,7 +1321,6 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Oppdater kredittkortet ditt. Støttede kort er Visa, Mastercard og American Express."
-<<<<<<< HEAD
   },
   "shopping_discount_applied_promo": {
     "other": "Koden ble brukt."
@@ -1337,7 +1336,5 @@
   },
   "pricing_ownership_promo": {
     "other": "Løs inn"
-=======
->>>>>>> d0e81909bbd28c8c4d8106f7ed9b12b512553ef8
   }
 }

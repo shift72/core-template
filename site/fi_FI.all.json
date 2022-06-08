@@ -1321,7 +1321,6 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Päivitä luottokorttisi. Tuetut kortit ovat Visa, Mastercard ja American Express."
-<<<<<<< HEAD
   },
   "shopping_discount_applied_promo": {
     "other": "Koodi lisätty onnistuneesti."
@@ -1337,7 +1336,5 @@
   },
   "pricing_ownership_promo": {
     "other": "Lunastaa"
-=======
->>>>>>> d0e81909bbd28c8c4d8106f7ed9b12b512553ef8
-  }
+    }
 }

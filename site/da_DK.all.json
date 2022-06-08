@@ -1330,7 +1330,6 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Opdater dit kreditkort. Understøttede kort er Visa, Mastercard og American Express."
-<<<<<<< HEAD
   },
   "shopping_discount_applied_promo": {
     "other": "Koden blev anvendt."
@@ -1346,7 +1345,5 @@
   },
   "pricing_ownership_promo": {
     "other": "Indløs"
-=======
->>>>>>> d0e81909bbd28c8c4d8106f7ed9b12b512553ef8
   }
 }
