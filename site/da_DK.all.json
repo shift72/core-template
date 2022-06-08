@@ -1110,7 +1110,7 @@
     "other": "Opkræves hvert {{.Interval}} efter din {{.Count}} dages gratis prøveperiode slutter."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Opkræves hvert {{.Interval}}."
+    "other": "Opkræves hvert {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1327,6 +1327,9 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} elementer"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Opdater dit kreditkort. Understøttede kort er Visa, Mastercard og American Express."
   },
   "shopping_discount_applied_promo": {
     "other": "Koden blev anvendt."

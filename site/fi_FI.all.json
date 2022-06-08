@@ -1319,6 +1319,9 @@
   "bundle_items_generic": {
     "other": "{{.Count}} kohteita"
   },
+  "shopping_card_update_reason_expired": {
+    "other": "Päivitä luottokorttisi. Tuetut kortit ovat Visa, Mastercard ja American Express."
+  },
   "shopping_discount_applied_promo": {
     "other": "Koodi lisätty onnistuneesti."
   },

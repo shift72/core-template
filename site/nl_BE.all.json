@@ -1319,6 +1319,9 @@
   "bundle_items_generic": {
     "other": "{{.Count}} artikelen"
   },
+  "shopping_card_update_reason_expired": {
+    "other": "Werk uw creditcard bij. Ondersteunde kaarten zijn Visa, Mastercard en American Express."
+  },
   "shopping_discount_applied_promo": {
     "other": "Code succesvol toegepast."
   },

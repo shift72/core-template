@@ -1011,7 +1011,7 @@
     "other": "Her Ücretli {{.Interval}} sizin sonra {{.Count}} günlük ücretsiz deneme sürümü bitmeden."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Her {{.Interval}}."
+    "other": "Her {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1318,6 +1318,9 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} öğeler"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Kredi kartınızı güncelleyin. Desteklenen kartlar Visa, Mastercard ve American Express'tir."
   },
   "shopping_discount_applied_promo": {
     "other": "Kod başarıyla uygulandı."

@@ -999,7 +999,7 @@
     "other": "Cobrado a cada {{.Interval}} após o término da avaliação gratuita de {{.Count}} dias."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Cobrado a cada {{.Interval}}."
+    "other": "Cobrado a cada {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1318,6 +1318,9 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} Itens"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Atualize seu cartão de crédito. Os cartões suportados são Visa, Mastercard e American Express."
   },
   "shopping_discount_applied_promo": {
     "other": "Código aplicado com sucesso."

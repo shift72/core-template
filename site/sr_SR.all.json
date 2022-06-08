@@ -1087,7 +1087,7 @@
     "other": "Оптужен сваки {{.Interval}} после ваших {{.Count}} дневни бесплатни пробни крајевима."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Наплаћује се сваки {{.Interval}}."
+    "other": "Наплаћује се сваки {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1320,6 +1320,9 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} ставке"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Ажурирајте своју кредитну картицу. Подржане картице су Виса, Мастерцард и Америцан Екпресс."
   },
   "shopping_discount_applied_promo": {
     "other": "Код је успешно примењен."

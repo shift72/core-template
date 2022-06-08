@@ -1317,6 +1317,9 @@
   "bundle_items_generic": {
     "other": "{{.Count}}アイテム"
   },
+  "shopping_card_update_reason_expired": {
+    "other": "クレジットカードを更新します。サポートされているカードは、Visa、Mastercard、AmericanExpressです。"
+  },
   "shopping_discount_applied_promo": {
     "other": "コードが正常に適用されました。"
   },

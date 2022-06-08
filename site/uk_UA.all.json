@@ -1131,7 +1131,7 @@
     "other": "Заряджені кожен {{.Interval}} після вашого {{.Count}} дня закінчується безкоштовно суд."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Стягується через кожний {{.Interval}}."
+    "other": "Стягується через кожний {{.Interval}} ."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1350,6 +1350,9 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} елементи"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Оновіть свою кредитну картку. Підтримувані картки Visa, Mastercard та American Express."
   },
   "shopping_discount_applied_promo": {
     "other": "Код успішно застосовано."

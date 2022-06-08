@@ -1317,6 +1317,9 @@
   "bundle_items_generic": {
     "other": "{{.Count}} 项目"
   },
+  "shopping_card_update_reason_expired": {
+    "other": "更新您的信用卡。支持的卡是 Visa、Mastercard 和 American Express。"
+  },
   "shopping_discount_applied_promo": {
     "other": "代碼成功應用。"
   },

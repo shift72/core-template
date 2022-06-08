@@ -1328,6 +1328,9 @@
   "bundle_items_generic": {
     "other": "{{.Count}} elements"
   },
+  "shopping_card_update_reason_expired": {
+    "other": "Actualitza la teva targeta de crèdit. Les targetes admeses són Visa, Mastercard i American Express."
+  },
   "shopping_discount_applied_promo": {
     "other": "El codi s'ha aplicat correctament."
   },
