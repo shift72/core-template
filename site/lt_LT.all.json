@@ -1325,6 +1325,7 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Atnaujinkite savo kredito kortelę. Palaikomos kortelės yra „Visa“, „Mastercard“ ir „American Express“."
+<<<<<<< HEAD
   },
   "shopping_discount_applied_promo": {
     "other": "Kodas sėkmingai pritaikytas."
@@ -1340,5 +1341,7 @@
   },
   "pricing_ownership_promo": {
     "other": "Išpirkti"
+=======
+>>>>>>> d0e81909bbd28c8c4d8106f7ed9b12b512553ef8
   }
 }

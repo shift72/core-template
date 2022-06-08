@@ -1321,6 +1321,7 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Atualize seu cartão de crédito. Os cartões suportados são Visa, Mastercard e American Express."
+<<<<<<< HEAD
   },
   "shopping_discount_applied_promo": {
     "other": "Código aplicado com sucesso."
@@ -1336,5 +1337,7 @@
   },
   "pricing_ownership_promo": {
     "other": "Resgatar"
+=======
+>>>>>>> d0e81909bbd28c8c4d8106f7ed9b12b512553ef8
   }
 }

@@ -1321,6 +1321,7 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Ενημερώστε την πιστωτική σας κάρτα. Οι υποστηριζόμενες κάρτες είναι Visa, Mastercard και American Express."
+<<<<<<< HEAD
   },
   "shopping_discount_applied_promo": {
     "other": "Ο κωδικός εφαρμόστηκε με επιτυχία."
@@ -1336,5 +1337,7 @@
   },
   "pricing_ownership_promo": {
     "other": "Εξαργυρώνω"
+=======
+>>>>>>> d0e81909bbd28c8c4d8106f7ed9b12b512553ef8
   }
 }

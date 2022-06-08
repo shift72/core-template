@@ -1330,6 +1330,7 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Frissítse hitelkártyáját. A támogatott kártyák a Visa, Mastercard és az American Express."
+<<<<<<< HEAD
   },
   "shopping_discount_applied_promo": {
     "other": "A kód sikeresen alkalmazva."
@@ -1345,5 +1346,7 @@
   },
   "pricing_ownership_promo": {
     "other": "Beváltani"
+=======
+>>>>>>> d0e81909bbd28c8c4d8106f7ed9b12b512553ef8
   }
 }

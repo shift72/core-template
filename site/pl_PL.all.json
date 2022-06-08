@@ -1370,6 +1370,7 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Zaktualizuj swoją kartę kredytową. Obsługiwane karty to Visa, Mastercard i American Express."
+<<<<<<< HEAD
   },
   "shopping_discount_applied_promo": {
     "other": "Kod został pomyślnie zastosowany."
@@ -1385,5 +1386,7 @@
   },
   "pricing_ownership_promo": {
     "other": "Odkupić"
+=======
+>>>>>>> d0e81909bbd28c8c4d8106f7ed9b12b512553ef8
   }
 }

@@ -1321,6 +1321,7 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Kredi kartınızı güncelleyin. Desteklenen kartlar Visa, Mastercard ve American Express'tir."
+<<<<<<< HEAD
   },
   "shopping_discount_applied_promo": {
     "other": "Kod başarıyla uygulandı."
@@ -1336,5 +1337,7 @@
   },
   "pricing_ownership_promo": {
     "other": "Tazmin etmek"
+=======
+>>>>>>> d0e81909bbd28c8c4d8106f7ed9b12b512553ef8
   }
 }

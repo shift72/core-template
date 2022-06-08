@@ -1315,6 +1315,7 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Ažurirajte svoju kreditnu karticu. Podržane kartice su Visa, Mastercard i American Express."
+<<<<<<< HEAD
   },
   "shopping_discount_applied_promo": {
     "other": "Kôd je uspješno primijenjen."
@@ -1330,5 +1331,7 @@
   },
   "pricing_ownership_promo": {
     "other": "Otkupiti"
+=======
+>>>>>>> d0e81909bbd28c8c4d8106f7ed9b12b512553ef8
   }
 }
