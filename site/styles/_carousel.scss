@@ -2,7 +2,7 @@ s72-carousel {
   display: flex;
   height: var(--carousel-height);
   margin-bottom: 30px;
-  max-height: 775px;
+  max-height: 700px;
   min-height: 600px;
   width: 100%;
 
@@ -37,17 +37,17 @@ s72-carousel {
 }
 
 .carousel-item-link > s72-image {
-  height: 100%;
+  height: 85%;
   position: absolute;
   top: 0;
   width: 100%;
 
   @include media-breakpoint-up(sm) {
-    height: 75%;
+    height: 85%;
   }
 
   @include media-breakpoint-up(lg) {
-    height: 100%;
+    height: 85%;
   }
 
   img {
