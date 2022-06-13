@@ -37,18 +37,10 @@ s72-carousel {
 }
 
 .carousel-item-link > s72-image {
-  height: 85%;
+  height: 90%;
   position: absolute;
   top: 0;
   width: 100%;
-
-  @include media-breakpoint-up(sm) {
-    height: 85%;
-  }
-
-  @include media-breakpoint-up(lg) {
-    height: 85%;
-  }
 
   img {
     height: 100%;
