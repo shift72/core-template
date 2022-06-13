@@ -4,6 +4,7 @@
 
 ### Changed
 - Awards icon from star to laurel
+- Show play and pricing buttons based on item type on `meta_item.jet`
 
 ### Added
 - Language strings for shopping_card_update_reason_expired
