@@ -6,7 +6,6 @@ s72-carousel {
   min-height: 600px;
   width: 100%;
 
-
   @include media-breakpoint-up(sm) {
     height: var(--carousel-height-sm);
     max-height: 800px;
@@ -103,7 +102,6 @@ s72-carousel {
     flex-direction: column;
     padding: var(--carousel-bottom-gradient-height-sm) 20px 1px;
   }
-
 
   @include media-breakpoint-up(lg) {
     flex-direction: row;
