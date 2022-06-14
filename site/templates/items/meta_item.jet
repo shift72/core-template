@@ -5,6 +5,14 @@
   {{ displayTitleAndGenreBelowPosters = config("media_item_caption") == "true" }}
   {{ genresLimit = configInt("media_item_caption_genres_count") }}
 
+  {{isFilm := item.ItemType == "film"}}
+  {{isSeason := item.ItemType == "tvseason"}}
+  {{isEpisode := item.ItemType == "tvepisode"}}
+  {{isBundle := item.ItemType == "bundle"}}
+
+  {{showPlayButton := isFilm || isSeason || isEpisode}}
+  {{showPricingButtons := isFilm || isSeason || isBundle}}
+
   {{isPage := hasPrefix(item.Slug, "/page/")}}
   {{isExternalPage := isPage && item.InnerItem.PageType == "external"}}
   {{isCollection := hasPrefix(item.Slug, "/collection/")}}
@@ -22,14 +30,14 @@
   {{pill := ""}}
   {{pillSupplement := ""}}
   {{slugRoute := routeToSlug(item.Slug)}}
-  {{if item.ItemType == "tvepisode"}}
+  {{if isEpisode}}
     {{slugRoute = routeToSlug(item.InnerItem.Season.Slug) + "#episode-" + item.InnerItem.EpisodeNumber}}
     {{synopsis = item.InnerItem.Overview}}
     {{pill = i18n("episode_name") + " " + item.InnerItem.EpisodeNumber}}
     {{pillSupplement = "from " + i18n("season_name") + " " + item.InnerItem.Season.SeasonNumber}}
   {{end}}
   {{title := item.Title}}
-  {{if item.ItemType == "tvseason"}}
+  {{if isSeason}}
     {{synopsis = stripHTML(item.InnerItem.Tagline)}}
     {{title = item.InnerItem.ShowInfo.Title}}
     {{pill = i18n("season_name") + " " + item.InnerItem.SeasonNumber}}
@@ -61,11 +69,17 @@
             {{ end }}
 
             <div class="buttons">
-              <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
-              <s72-pricing-buttons data-slug="{{item.Slug}}" class="pricing-buttons-fit" title="{{item.Title}}"></s72-pricing-buttons>
-              {{ if item.ItemType == "film" }}
+              {{if showPlayButton}}
+                <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
+              {{end}}
+
+              {{if showPricingButtons}}
+                <s72-pricing-buttons data-slug="{{item.Slug}}" class="pricing-buttons-fit" title="{{item.Title}}"></s72-pricing-buttons>
+              {{end}}
+
+              {{if isFilm}}
                 <can-be-watched-button data-slug="{{item.InnerItem.Slug}}" data-url="{{ item.InnerItem.CustomFields.GetString("can_be_watched_button_link", "") }}" data-label="{{ item.InnerItem.CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text") }}"></can-be-watched-button>
-              {{ end }}
+              {{end}}
             </div>
           </div>
           <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist"></s72-userwishlist-button>

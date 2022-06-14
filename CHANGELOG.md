@@ -2,8 +2,13 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...HEAD)
 
-## Changed
+### Changed
+- Awards icon from star to laurel
+- Show play and pricing buttons based on item type on `meta_item.jet`
 - Carousel height now scales based on browser window height.
+
+### Added
+- Language strings for shopping_card_update_reason_expired
 
 ## [1.0.0-alpha.0](https://github.com/shift72/core-template/compare/0.6.0...1.0.0-alpha.0)
 

@@ -1327,5 +1327,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} Produkte"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Aktualisieren Sie Ihre Kreditkarte. Unterstützte Karten sind Visa, Mastercard und American Express."
   }
 }

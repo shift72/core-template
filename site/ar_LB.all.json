@@ -1335,5 +1335,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} أغراض"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "قم بتحديث بطاقتك الائتمانية. البطاقات المدعومة هي Visa و Mastercard و American Express."
   }
 }
