@@ -5,6 +5,10 @@
 ### Changed
 - Awards icon from star to laurel
 - Meta detail page poster width, layout direction, spacing between nav and start of content adjusted at different breakpoints
+- Show play and pricing buttons based on item type on `meta_item.jet`
+
+### Added
+- Language strings for shopping_card_update_reason_expired
 
 ## [1.0.0-alpha.0](https://github.com/shift72/core-template/compare/0.6.0...1.0.0-alpha.0)
 

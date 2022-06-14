@@ -1318,5 +1318,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} artículos"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Actualice su tarjeta de crédito. Las tarjetas admitidas son Visa, Mastercard y American Express."
   }
 }

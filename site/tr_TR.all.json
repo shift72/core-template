@@ -1318,5 +1318,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} öğeler"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Kredi kartınızı güncelleyin. Desteklenen kartlar Visa, Mastercard ve American Express'tir."
   }
 }
