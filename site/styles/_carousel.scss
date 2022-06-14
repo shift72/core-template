@@ -2,18 +2,16 @@ s72-carousel {
   display: flex;
   height: var(--carousel-height);
   margin-bottom: 30px;
-  max-height: 700px;
+  max-height: 800px;
   min-height: 600px;
   width: 100%;
 
   @include media-breakpoint-up(sm) {
     height: var(--carousel-height-sm);
-    max-height: 800px;
   }
 
   @include media-breakpoint-up(lg) {
     height: var(--carousel-height-lg);
-    max-height: 775px;
   }
 }
 
