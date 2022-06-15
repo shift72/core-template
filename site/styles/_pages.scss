@@ -13,9 +13,9 @@
 }
 
 .page-header {
+  padding-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 30px;
   @include media-breakpoint-up(lg) {
     padding-left: 50px;
     padding-right: 50px;

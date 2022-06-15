@@ -2,13 +2,20 @@
   @return ($pixels / 20) * 1rem;
 }
 
-@mixin typography-style($font-size, $letter-spacing:null, $font-weight:null, $margin-bottom:null, $font-color:null, $line-height:null) {
-  font-size: to_rem($font-size);
-  letter-spacing: $letter-spacing;
-  font-weight: $font-weight;
-  margin-bottom: $margin-bottom;
+@mixin typography-style(
+  $font-size,
+  $letter-spacing: null,
+  $font-weight: null,
+  $margin-bottom: null,
+  $font-color: null,
+  $line-height: null
+) {
   color: $font-color;
+  font-size: to_rem($font-size);
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing;
   line-height: $line-height;
+  margin-bottom: $margin-bottom;
 }
 
 @mixin heading-1-style() {
