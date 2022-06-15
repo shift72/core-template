@@ -1325,7 +1325,7 @@
   "shopping_discount_applied_promo": {
     "other": "Koodi lisätty onnistuneesti."
   },
-  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
+  "promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Anna kelvollinen tarjouskoodi."
   },
   "shopping_complete_promo_only": {

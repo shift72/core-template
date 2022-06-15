@@ -1325,7 +1325,7 @@
   "shopping_discount_applied_promo": {
     "other": "Koden ble brukt."
   },
-  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
+  "promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Vennligst skriv inn en gyldig kampanjekode."
   },
   "shopping_complete_promo_only": {

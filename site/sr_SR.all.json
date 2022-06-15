@@ -1327,7 +1327,7 @@
   "shopping_discount_applied_promo": {
     "other": "Код је успешно примењен."
   },
-  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
+  "promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Унесите важећи промотивни код."
   },
   "shopping_complete_promo_only": {
