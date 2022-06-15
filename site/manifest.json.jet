@@ -1,6 +1,6 @@
 {
-  "short_name": "Cinebuzz Home",
-  "name": "Cinebuzz Home",
+  "short_name": "{{site.Config.GetSiteName()}}",
+  "name": "{{site.Config.GetSiteName()}}",
   "icons": [
     {
       "src": "/images/common/icons-192.png",
