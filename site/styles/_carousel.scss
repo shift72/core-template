@@ -97,15 +97,21 @@ s72-carousel {
   @include media-breakpoint-up(lg) {
     flex-direction: row;
     padding: var(--carousel-bottom-gradient-height) 50px 1px;
-  }
 
-  .sponsor {
-    margin-bottom: 8px;
-    @include media-breakpoint-up(lg) {
+    .sponsor-awards-wrapper {
       align-self: flex-end;
       margin-left: auto;
       order: 1;
+      text-align: right;
     }
+
+    .meta-awards {
+      justify-content: end;
+    }
+  }
+
+  .sponsor {
+    margin-bottom: 25px;
   }
 
   .availability-bg {
