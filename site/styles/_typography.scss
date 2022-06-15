@@ -8,7 +8,7 @@
 }
 
 @mixin heading-1-style() {
-  @include typography-style(35px, 0.8px, $font-weight-normal, 8px, var(--body-color));
+  @include typography-style(32px, 0.4px, $font-weight-normal, 8px, var(--body-color));
   @include media-breakpoint-up(xs) {
     @include typography-style(45px);
   }
