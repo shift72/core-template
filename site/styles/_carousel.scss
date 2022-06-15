@@ -40,9 +40,9 @@ s72-carousel {
   img {
     height: 100%;
     object-fit: cover;
+    object-position: var(--carousel-image-object-position);
     width: 100%;
     z-index: -1;
-    object-position: var(--carousel-image-object-position);
     @include media-breakpoint-up(sm) {
       object-position: var(--carousel-image-object-position-sm);
     }
