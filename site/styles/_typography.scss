@@ -1,5 +1,5 @@
 @function to-rem($pixels) {
-  @return ($pixels / 20) * 1rem;
+  @return ($pixels / 16) * 1rem;
 }
 
 @mixin typography-style(
@@ -11,7 +11,7 @@
   $line-height: null
 ) {
   color: $font-color;
-  font-size: to_rem($font-size);
+  font-size: to-rem($font-size);
   font-weight: $font-weight;
   letter-spacing: $letter-spacing;
   line-height: $line-height;
