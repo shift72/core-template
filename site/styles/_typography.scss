@@ -1,4 +1,4 @@
-@function to_rem($pixels) {
+@function to-rem($pixels) {
   @return ($pixels / 20) * 1rem;
 }
 
