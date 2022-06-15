@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Indstillinger"
   },
@@ -69,9 +66,6 @@
   },
   "404_page_content": {
     "other": "<p>Beklager, det ser ud til, at den side, du leder efter, ikke eksisterer.</p><p>Den kunne være blevet flyttet eller slettet, eller måske har du stavet forkert.</p><p>Prøv gå tilbage til startsiden for at finde det, du ledte efter.</p><p><a href=\"{{.URL}}\">Tilbage til startsiden</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "Log ind"
