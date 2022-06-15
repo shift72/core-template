@@ -4,6 +4,7 @@
 
 ### Changed
 - Awards icon from star to laurel
+- Meta detail page poster width, layout direction, spacing between nav and start of content adjusted at different breakpoints
 - Show play and pricing buttons based on item type on `meta_item.jet`
 
 ### Added
