@@ -1344,5 +1344,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} Предметы"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Обновите свою кредитную карту. Поддерживаются карты Visa, Mastercard и American Express."
   }
 }

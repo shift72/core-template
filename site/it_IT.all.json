@@ -1318,5 +1318,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} Oggetti"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Aggiorna la tua carta di credito. Le carte supportate sono Visa, Mastercard e American Express."
   }
 }

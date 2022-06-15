@@ -121,14 +121,26 @@
   flex-direction: column;
   padding: var(--page-detail-padding-top) 20px 0 20px;
 
-  @include media-breakpoint-up(md) {
-    flex-direction: row;
-    padding-bottom: 0;
+  @include media-breakpoint-up(xs) {
     padding-top: var(--page-detail-padding-top-md);
   }
 
   @include media-breakpoint-up(lg) {
+    flex-direction: row;
+    padding-bottom: 0;
     padding: var(--page-detail-padding-top-lg) 50px 0 50px;
+  }
+
+  .poster-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+    .sponsor {
+      bottom: 100%;
+      position: absolute;
+      @include media-breakpoint-up(xs) {
+        position: relative;
+      }
+    }
   }
 
   .poster {
@@ -136,18 +148,19 @@
     display: block;
     margin-right: 20px;
     width: 110px;
+    flex-shrink: 0;
 
     @include media-breakpoint-up(xs) {
       width: 155px;
     }
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(xl) {
       width: 208px;
     }
   }
 
   .poster-wrapper .sponsor {
-    @include media-breakpoint-up(xl) {
+    @include media-breakpoint-up(lg) {
       display: none;
     }
   }
@@ -382,7 +395,7 @@ s72-element-switcher,
   .sponsor {
     display: none;
     padding-top: 10px;
-    @include media-breakpoint-up(xl) {
+    @include media-breakpoint-up(lg) {
       display: block;
     }
   }

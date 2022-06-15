@@ -1350,5 +1350,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} елементи"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Оновіть свою кредитну картку. Підтримувані картки Visa, Mastercard та American Express."
   }
 }

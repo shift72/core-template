@@ -1327,5 +1327,8 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} elemeket"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Frissítse hitelkártyáját. A támogatott kártyák a Visa, Mastercard és az American Express."
   }
 }
