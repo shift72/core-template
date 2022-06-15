@@ -866,7 +866,7 @@
     "other": "Saattaa loppuun"
   },
   "shopping_complete_subscription": {
-    "other": "Tilauksesi osto onnistui. Olet nyt tilannut {{.Title}} ."
+    "other": "Tilauksesi osto onnistui. Olet nyt tilannut {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Voit vapaasti <a href=\"/\">selata</a> sivustoa tai <a href=\"/search.html\">etsiä</a> jotain tiettyä."
@@ -1321,5 +1321,20 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Päivitä luottokorttisi. Tuetut kortit ovat Visa, Mastercard ja American Express."
-  }
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Koodi lisätty onnistuneesti."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Anna kelvollinen tarjouskoodi."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Menestys! Voit nyt katsoa {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Lunastaa"
+  },
+  "pricing_ownership_promo": {
+    "other": "Lunastaa"
+    }
 }

@@ -1149,7 +1149,7 @@
     "other": "Завершено"
   },
   "shopping_complete_subscription": {
-    "other": "Ваша покупка підписки була успішною. Тепер ви підписані на {{.Title}} ."
+    "other": "Ваша покупка підписки була успішною. Тепер ви підписані на {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Не соромтеся <a href=\"/\">переглядати</a> сайт або <a href=\"/search.html\">шукати</a> щось конкретне."
@@ -1353,5 +1353,20 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Оновіть свою кредитну картку. Підтримувані картки Visa, Mastercard та American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Код успішно застосовано."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Введіть дійсний промо-код."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Успіху! Тепер ви можете дивитися {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Викупити"
+  },
+  "pricing_ownership_promo": {
+    "other": "Викупити"
   }
 }

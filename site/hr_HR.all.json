@@ -1108,7 +1108,7 @@
     "other": "Dovršeno"
   },
   "shopping_complete_subscription": {
-    "other": "Vaša je kupnja pretplate uspjela. Sada ste pretplaćeni na {{.Title}} ."
+    "other": "Vaša je kupnja pretplate uspjela. Sada ste pretplaćeni na {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Slobodno <a href=\"/\">pregledavajte</a> stranicu ili <a href=\"/search.html\">tražite</a> nešto specifično."
@@ -1315,5 +1315,20 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Ažurirajte svoju kreditnu karticu. Podržane kartice su Visa, Mastercard i American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Kôd je uspješno primijenjen."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Unesite važeći promotivni kod."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Uspjeh! Sada možete gledati {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Otkupiti"
+  },
+  "pricing_ownership_promo": {
+    "other": "Otkupiti"
   }
 }
