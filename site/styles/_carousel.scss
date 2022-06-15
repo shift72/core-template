@@ -42,6 +42,13 @@ s72-carousel {
     object-fit: cover;
     width: 100%;
     z-index: -1;
+    object-position: var(--carousel-image-object-position);
+    @include media-breakpoint-up(sm) {
+      object-position: var(--carousel-image-object-position-sm);
+    }
+    @include media-breakpoint-up(lg) {
+      object-position: var(--carousel-image-object-position-lg);
+    }
   }
 }
 
