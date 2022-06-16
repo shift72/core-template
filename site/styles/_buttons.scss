@@ -200,7 +200,8 @@ s72-userwishlist-button {
   }
 }
 
-.meta-detail-extras, .meta-item-extras {
+.meta-detail-extras,
+.meta-item-extras {
   display: flex;
   gap: 10px;
   padding-bottom: 10px;
@@ -209,11 +210,11 @@ s72-userwishlist-button {
   }
 
   .s72-btn {
-    padding: 6px 10px;
     height: 100%;
+    padding: 6px 10px;
 
     &:hover {
-      opacity: .8;
+      opacity: 0.8;
     }
   }
 

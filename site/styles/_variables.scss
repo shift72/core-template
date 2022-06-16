@@ -251,7 +251,7 @@ $font-weight-bold: 500 !default;
 
 // Tooltip
 
-$tooltip-color:                     var(--body-bg, #000) !default;
-$tooltip-bg:                        var(--primary, #00a3ff) !default;
-$tooltip-opacity:                   1 !default;
-$tooltip-arrow-color:               $tooltip-bg !default;
+$tooltip-color: var(--body-bg, #000) !default;
+$tooltip-bg: var(--primary, #00a3ff) !default;
+$tooltip-opacity: 1 !default;
+$tooltip-arrow-color: $tooltip-bg !default;

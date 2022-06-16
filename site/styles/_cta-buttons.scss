@@ -10,7 +10,6 @@
   }
 
   > * {
-
     @include media-breakpoint-up(xs) {
       grid-column: auto;
       grid-row: 1;
@@ -191,8 +190,8 @@
     s72-share-modal .s72-btn,
     .s72-btn-wishlist {
       height: 42px;
-      width: 42px;
       padding: 0;
+      width: 42px;
       &:hover {
         opacity: 0.8;
       }

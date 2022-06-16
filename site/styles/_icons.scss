@@ -214,6 +214,6 @@ s72-availability-label .availability-state::before {
   font-size: 23px;
 }
 
-.fa-play-trailer:before {
-  content: "\e01d";
+.fa-play-trailer::before {
+  content: '\e01d';
 }
