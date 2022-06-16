@@ -90,7 +90,7 @@
 
   {{if displayTitleAndGenreBelowPosters}}
     <div class="caption">
-      <h3 class="title" title="{{item.Title}}">{{title|stripHTML}}</h3>
+      <h4 class="title" title="{{item.Title}}">{{title|stripHTML}}</h4>
       {{yield metaItemTagline(genres=true, genresLimit=genresLimit, classification=false) item.InnerItem}}
     </div>
   {{end}}
