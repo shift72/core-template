@@ -2,10 +2,6 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.0.0...HEAD)
 
-## [1.0.0](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...1.0.0)
-
-No changes from `alpha-0`.
-
 ### Changed
 - Awards icon from star to laurel
 - Meta detail page poster width, layout direction, spacing between nav and start of content adjusted at different breakpoints
@@ -14,6 +10,10 @@ No changes from `alpha-0`.
 
 ### Added
 - Language strings for shopping_card_update_reason_expired
+
+## [1.0.0](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...1.0.0)
+
+No changes from `alpha-0`.
 
 ## [1.0.0-alpha.0](https://github.com/shift72/core-template/compare/0.6.0...1.0.0-alpha.0)
 
