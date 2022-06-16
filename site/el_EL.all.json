@@ -1012,7 +1012,7 @@
     "other": "Πλήρης"
   },
   "shopping_complete_subscription": {
-    "other": "Η αγορά της συνδρομής σας ήταν επιτυχής. Είστε πλέον εγγεγραμμένοι στο {{.Title}} ."
+    "other": "Η αγορά της συνδρομής σας ήταν επιτυχής. Είστε πλέον εγγεγραμμένοι στο {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Μη διστάσετε να <a href=\"/\">περιηγηθείτε</a> στον ιστότοπο ή να <a href=\"/search.html\">αναζητήσετε</a> κάτι συγκεκριμένο."
@@ -1318,5 +1318,23 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} αντικείμενα"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Ενημερώστε την πιστωτική σας κάρτα. Οι υποστηριζόμενες κάρτες είναι Visa, Mastercard και American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Ο κωδικός εφαρμόστηκε με επιτυχία."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Εισαγάγετε έναν έγκυρο κωδικό προσφοράς."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Επιτυχία! Τώρα μπορείτε να παρακολουθήσετε {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Εξαργυρώνω"
+  },
+  "pricing_ownership_promo": {
+    "other": "Εξαργυρώνω"
   }
 }

@@ -1316,5 +1316,23 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} 项目"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "更新您的信用卡。支持的卡是 Visa、Mastercard 和 American Express。"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "代碼成功應用。"
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "請輸入有效的促銷代碼。"
+  },
+  "shopping_complete_promo_only": {
+    "other": "成功！您現在可以觀看{{.Title}}。"
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "贖回"
+  },
+  "pricing_ownership_promo": {
+    "other": "贖回"
   }
 }

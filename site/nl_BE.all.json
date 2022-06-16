@@ -1102,7 +1102,7 @@
     "other": "Compleet"
   },
   "shopping_complete_subscription": {
-    "other": "Uw abonnementsaankoop is gelukt. U bent nu geabonneerd op {{.Title}} ."
+    "other": "Uw abonnementsaankoop is gelukt. U bent nu geabonneerd op {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Kijk gerust <a href=\"/\">rond op</a> de site of <a href=\"/search.html\">zoek</a> naar iets specifieks."
@@ -1318,5 +1318,23 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} artikelen"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Werk uw creditcard bij. Ondersteunde kaarten zijn Visa, Mastercard en American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Code succesvol toegepast."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Voer een geldige promotiecode in."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Succes! Je kunt nu {{.Title}} bekijken."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Inwisselen"
+  },
+  "pricing_ownership_promo": {
+    "other": "Inwisselen"
   }
 }

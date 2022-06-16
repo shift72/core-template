@@ -1318,5 +1318,23 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} items"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Update your credit card. Supported cards are Visa, Mastercard and American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Code successfully applied."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Please enter a valid promo code."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Success! You can now watch {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Redeem"
+  },
+  "pricing_ownership_promo": {
+    "other": "Redeem"
   }
 }

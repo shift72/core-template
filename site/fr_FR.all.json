@@ -919,7 +919,7 @@
     "other": "Compléter"
   },
   "shopping_complete_subscription": {
-    "other": "Votre achat d&#39;abonnement a réussi. Vous êtes maintenant abonné à {{.Title}} ."
+    "other": "Votre achat d&#39;abonnement a réussi. Vous êtes maintenant abonné à {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "N&#39;hésitez pas à <a href=\"/\">parcourir</a> le site ou à <a href=\"/search.html\">rechercher</a> quelque chose de spécifique."
@@ -1318,5 +1318,23 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} éléments"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Mettez à jour votre carte de crédit. Les cartes acceptées sont Visa, Mastercard et American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Code appliqué avec succès."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Veuillez saisir un code promotionnel valide."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Succès! Vous pouvez maintenant regarder {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Racheter"
+  },
+  "pricing_ownership_promo": {
+    "other": "Racheter"
   }
 }

@@ -1106,7 +1106,7 @@
     "other": "Užbaigti"
   },
   "shopping_complete_subscription": {
-    "other": "Prenumeratos įsigijimas buvo sėkmingas. Dabar esate užsiprenumeravę {{.Title}} ."
+    "other": "Prenumeratos įsigijimas buvo sėkmingas. Dabar esate užsiprenumeravę {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Nedvejodami <a href=\"/\">naršykite</a> svetainėje arba <a href=\"/search.html\">ieškokite</a> ko nors konkretaus."
@@ -1322,5 +1322,23 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} elementai"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Atnaujinkite savo kredito kortelę. Palaikomos kortelės yra „Visa“, „Mastercard“ ir „American Express“."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Kodas sėkmingai pritaikytas."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Įveskite galiojantį reklamos kredito kodą."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Sėkmė! Dabar galite žiūrėti {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Išpirkti"
+  },
+  "pricing_ownership_promo": {
+    "other": "Išpirkti"
   }
 }

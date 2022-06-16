@@ -1126,7 +1126,7 @@
     "other": "Komplet"
   },
   "shopping_complete_subscription": {
-    "other": "Dit abonnementskøb blev gennemført. Du abonnerer nu på {{.Title}} ."
+    "other": "Dit abonnementskøb blev gennemført. Du abonnerer nu på {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Du er velkommen til at <a href=\"/\">browse rundt</a> på siden, eller <a href=\"/search.html\">søg</a> efter noget specifikt."
@@ -1327,5 +1327,23 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} elementer"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Opdater dit kreditkort. Understøttede kort er Visa, Mastercard og American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Koden blev anvendt."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Indtast venligst en gyldig kampagnekode."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Succes! Du kan nu se {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Indløs"
+  },
+  "pricing_ownership_promo": {
+    "other": "Indløs"
   }
 }
