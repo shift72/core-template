@@ -190,77 +190,17 @@
     .s72-btn-trailer,
     s72-share-modal .s72-btn,
     .s72-btn-wishlist {
+      height: 42px;
+      width: 42px;
+      padding: 0;
       &:hover {
         opacity: 0.8;
-      }
-    }
-
-    /*#region ICON HACKS.  TODO: CLEAN THIS MESS UP! */
-    // This region exists to override styles for the trailer button, wishlist button, and share modal button.
-    // Once the new icons have been committed to core-template, this region should be deleted from this file,
-    // and the new CSS for these icons should live in _buttons.scss (probably).
-    .s72-btn-play {
-      background: transparent;
-      border: 0;
-      height: 42px;
-      margin: 0;
-      padding: 0;
-      width: 42px;
-
-      @include hover-focus {
-        background: transparent;
-
-        circle {
-          fill: var(--primary);
-          stroke: var(--primary);
-          stroke-width: 3px;
-        }
-
-        path {
-          fill: #000;
-          stroke: #000;
-        }
-      }
-
-      circle {
-        fill: transparent;
-        stroke: var(--primary);
-        stroke-width: 3px;
-      }
-
-      path {
-        fill: var(--body-color);
-        stroke: var(--body-color);
-      }
-
-      .verb {
-        display: none;
-      }
-    }
-
-    .s72-userwishlist-buttons {
-      .s72-btn-wishlist {
-        height: 42px;
-        margin: 0;
-        padding: 0;
-        width: 42px;
       }
 
       i {
         margin: 0;
-        padding: 0;
       }
     }
-
-    .social-media-buttons {
-      .s72-btn {
-        border: 0;
-        height: 42px;
-        padding: 0;
-        width: 42px;
-      }
-    }
-    /*#endregion */
   }
 }
 /* stylelint-enable selector-max-compound-selectors, max-nesting-depth */
