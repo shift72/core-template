@@ -5,3 +5,16 @@
     display: block;
   }
 }
+
+.s72-tooltip-inner {
+  color: $tooltip-color;
+  background-color: $tooltip-bg;
+}
+
+.s72-tooltip-top .s72-tooltip-arrow::before {
+  border-top-color: $tooltip-arrow-color;
+}
+
+.s72-tooltip-bottom .s72-tooltip-arrow::before {
+  border-bottom-color: $tooltip-arrow-color;
+}

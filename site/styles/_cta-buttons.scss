@@ -181,7 +181,7 @@
     }
 
     > * {
-      align-self: start;
+      align-self: center;
       animation: fadein 2s;
       grid-column: auto;
       grid-row: 1;
@@ -241,10 +241,6 @@
       i {
         margin: 0;
         padding: 0;
-      }
-
-      span {
-        font-size: 0;
       }
     }
 

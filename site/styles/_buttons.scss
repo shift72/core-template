@@ -65,9 +65,6 @@
   background: $button-background;
   border: 3px solid $button-background;
   justify-content: center;
-  padding-bottom: 3px;
-  padding-left: 0;
-  padding-top: 3px;
   @include hover-focus {
     background: $button-background-hover;
     border: 3px solid $button-background-hover;
@@ -108,64 +105,8 @@
   }
 }
 
-.s72-btn-trailer .s72-btn-play {
-  background: transparent;
+.s72-btn-play.s72-btn-trailer {
   border: 0 none;
-
-  @include hover-focus {
-    background: transparent;
-
-    circle {
-      fill: var(--primary);
-      stroke: var(--primary);
-      stroke-width: 3px;
-    }
-
-    path {
-      fill: #000;
-      stroke: #000;
-    }
-  }
-
-  .verb {
-    background: transparent;
-    color: var(--primary);
-  }
-
-  circle {
-    fill: transparent;
-    stroke: var(--primary);
-    stroke-width: 3px;
-  }
-
-  path {
-    fill: var(--body-color);
-    stroke: var(--body-color);
-  }
-
-  .s72-btn-play-icon {
-    display: inline-block;
-    height: 32px;
-    margin-right: 0;
-    width: 32px;
-  }
-
-  .s72-btn-play-label {
-    background: transparent;
-    border-width: 0;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    font-size: 12px;
-    font-weight: $font-weight-bold;
-    margin-left: 0;
-    padding-bottom: 0;
-    padding-left: 8px;
-    padding-top: 0;
-
-    &::before {
-      display: none;
-    }
-  }
 }
 
 .s72-btn-rent,
@@ -201,32 +142,6 @@
 .btn-wishlist {
   p {
     margin: 0;
-  }
-
-  .btn-wishlist-quick {
-    left: 10px;
-    position: absolute;
-    top: 0;
-    // One more than the availability label
-    z-index: 100;
-  }
-
-  .s72-btn-wishlist {
-    background: transparent;
-    border: 0 none;
-    color: var(--body-color);
-    font-size: 14px;
-
-    .s72-icon-loading,
-    .s72-icon-errored {
-      display: none;
-    }
-  }
-
-  .s72-icon {
-    font-size: 16px !important;
-    margin-left: 0;
-    margin-right: 5px;
   }
 }
 
@@ -282,5 +197,27 @@ can-be-watched-button,
 s72-userwishlist-button {
   &:empty {
     display: none;
+  }
+}
+
+.meta-detail-extras, .meta-item-extras {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+  .s72-icon {
+    margin: 0;
+  }
+
+  .s72-btn {
+    padding: 6px 10px;
+    height: 100%;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+
+  .s72-btn-play-icon {
+    height: 25px;
   }
 }

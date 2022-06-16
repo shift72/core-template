@@ -40,20 +40,12 @@
         <div class="extra-buttons">
 
           {{if showTrailerButton}}
-            {{if trailerRedirect}}
-              <div class="s72-btn-trailer" data-url="{{routeToSlug(slug)}}?autoplay">
-                <button class="s72-btn s72-btn-play">
-                  <span class="s72-btn-play-icon"><s72-play-icon></s72-play-icon></span>
-                </button>
-              </div>
-            {{else}}
-              {{dataLabel := i18n("play_trailer")}}
-              <s72-modal-player src="{{trailerURL}}" class="s72-btn-trailer" data-slug="{{slug}}" data-label="{{dataLabel}}" autoplay="querystring"></s72-modal-player>
-            {{end}}
+            {{dataLabel := i18n("play_trailer")}}
+            <s72-modal-player src="{{trailerURL}}" class="s72-btn-trailer" data-slug="{{slug}}" data-label="{{dataLabel}}" autoplay="querystring" layout="tooltip"></s72-modal-player>
           {{end}}
 
           {{if showWishlistButton}}
-            <s72-userwishlist-button data-slug="{{slug}}" class="btn-wishlist"></s72-userwishlist-button>
+            <s72-userwishlist-button data-slug="{{slug}}" class="btn-wishlist" layout="tooltip"></s72-userwishlist-button>
           {{end}}
 
           {{if showShareButton}}

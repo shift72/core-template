@@ -248,3 +248,10 @@ $font-family-base: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Hel
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 500 !default;
+
+// Tooltip
+
+$tooltip-color:                     var(--body-bg, #000) !default;
+$tooltip-bg:                        var(--primary, #00a3ff) !default;
+$tooltip-opacity:                   1 !default;
+$tooltip-arrow-color:               $tooltip-bg !default;
