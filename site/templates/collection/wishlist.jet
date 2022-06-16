@@ -32,7 +32,7 @@
       {{end}}
             {{if i18n("userwishlist_slider_header") != ""}}
             <div class="swiper-title">
-                <h2>{{i18n("userwishlist_slider_header")}}</h2>
+                <h3>{{i18n("userwishlist_slider_header")}}</h3>
             </div>
             {{end}}
             <div class="swiper-wrapper">
