@@ -187,6 +187,14 @@
       grid-row: 1;
     }
 
+    .s72-btn-trailer,
+    s72-share-modal .s72-btn,
+    .s72-btn-wishlist {
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
     /*#region ICON HACKS.  TODO: CLEAN THIS MESS UP! */
     // This region exists to override styles for the trailer button, wishlist button, and share modal button.
     // Once the new icons have been committed to core-template, this region should be deleted from this file,
