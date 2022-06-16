@@ -3,7 +3,7 @@ s72-carousel {
   height: var(--carousel-height);
   margin-bottom: 30px;
   max-height: 800px;
-  min-height: 600px;
+  min-height: 550px;
   width: 100%;
 
   @include media-breakpoint-up(sm) {
