@@ -10,6 +10,7 @@
 
 ### Added
 - Language strings for shopping_card_update_reason_expired
+- Tooltips on meta detail/item CTA buttons
 
 ## [1.0.0](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...1.0.0)
 
