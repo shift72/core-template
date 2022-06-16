@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Settings"
   },
@@ -69,9 +66,6 @@
   },
   "404_page_content": {
     "other": "<p>Üzgünüz, aradığınız sayfa var gibi görünmüyor.</p><p>Taşınmış veya silinmiş olabilir veya belki bir şey yanlış yazdı.</p><p>Aradığınızı bulmak için ana sayfaya geri dönmeyi deneyin.</p><p><a href=\"{{.URL}}\">Ana sayfaya geri dön</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "Oturum Aç"

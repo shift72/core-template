@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Settings"
   },
@@ -49,9 +46,6 @@
   },
   "404_page_content": {
     "other": "<p>お探しのページは存在しないようです。移 動もしくは削除されたか、入力間違いかも しれません。ホーム画面でページを探して みてください。</p><p><a href=\"/\">ホーム 画面に戻る</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "サインイン"

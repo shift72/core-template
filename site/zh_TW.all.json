@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "設置"
   },
@@ -69,9 +66,6 @@
   },
   "404_page_content": {
     "other": "<p>很抱歉，此頁面不存在。</p><p>頁面可能已被移除，或輸入的資訊有誤。</p><p>請回到首頁重新搜尋。</p><p><a href=\"{{.URL}}\">回到首頁</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "登入"
