@@ -81,15 +81,6 @@
   }
 }
 
-@mixin line-clamp($number-of-lines) {
-  /* stylelint-disable */
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-line-clamp: $number-of-lines;
-  -webkit-box-orient: vertical;
-  /* stylelint-enable */
-}
-
 @keyframes slidein {
   0% {
     opacity: 0;

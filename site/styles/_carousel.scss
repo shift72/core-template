@@ -124,13 +124,19 @@ s72-carousel {
   }
 
   h3 {
-    @include line-clamp(3);
     color: var(--body-color);
     font-size: 28px;
     font-weight: $font-weight-normal;
     margin-bottom: 8px;
     max-width: 930px;
     padding-bottom: 0;
+
+    /* stylelint-disable */
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    /* stylelint-enable */
 
     @include media-breakpoint-up(md) {
       font-size: 38px;
