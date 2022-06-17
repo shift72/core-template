@@ -7,7 +7,7 @@
 {{import "../../common/cta_buttons.jet"}}
 
 {{block carouselItem(item)}}
-  {{showItemContent := !isset(item["PageType"]) || item.PageType != "external"}}  
+  {{showItemContent := !isset(item["PageType"]) || item.PageType != "external"}}
 
   <div class="s72-carousel-item" data-slug="{{item.Slug}}">
     <a href="{{routeToSlug(item.Slug)}}" class="carousel-item-link" aria-label="{{item.Title}}">
@@ -28,7 +28,7 @@
               {{yield carouselItemSynopsis(synopsis=item.InnerItem.Tagline)}}
             {{end}}
 
-            {{yield ctaButtons(itemType=item.ItemType, trailerRedirect=true) item.InnerItem}}            
+            {{yield ctaButtons(itemType=item.ItemType) item.InnerItem}}
 
             <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
 

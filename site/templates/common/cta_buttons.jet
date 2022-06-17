@@ -1,6 +1,6 @@
 {{import "./social-media-buttons.jet"}}
 
-{{block ctaButtons(itemType, trailerRedirect=false)}}
+{{block ctaButtons(itemType)}}
   {{isFilm := itemType == "film"}}
   {{isSeason := itemType == "tvseason"}}
   {{isEpisode := itemType == "tvepisode"}}
