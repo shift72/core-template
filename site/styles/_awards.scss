@@ -7,14 +7,17 @@
   &.meta-awards-all {
     @extend .align-items-start;
     justify-content: start;
+    margin-bottom: 25px;
+    @include media-breakpoint-up(xl) {
+      margin-bottom: 45px;
+    }
   }
 
   .meta-award-nomination {
-    @extend .d-flex;
+    display: flex;
     max-width: 370px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-bottom: 25px;
+    padding: 14px 25px;
+    margin-bottom: 12px;
   }
 
   .meta-award-nomination-icon {

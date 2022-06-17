@@ -102,6 +102,10 @@ s72-carousel {
       align-self: flex-end;
       margin-left: auto;
       order: 1;
+      flex-shrink: 0;
+    }
+
+    .sponsor {
       text-align: right;
     }
 
@@ -111,7 +115,7 @@ s72-carousel {
   }
 
   .sponsor {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
 
   .availability-bg {
