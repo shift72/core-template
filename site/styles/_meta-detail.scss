@@ -128,7 +128,6 @@
   @include media-breakpoint-up(lg) {
     flex-direction: row;
     padding: var(--page-detail-padding-top-lg) 50px 0 50px;
-    padding-bottom: 0;
   }
 
   .poster-wrapper {
