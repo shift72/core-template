@@ -189,26 +189,3 @@ s72-userwishlist-button {
     display: none;
   }
 }
-
-.meta-detail-extras,
-.meta-item-extras {
-  display: flex;
-  gap: 10px;
-  padding-bottom: 10px;
-  .s72-icon {
-    margin: 0;
-  }
-
-  .s72-btn {
-    height: 100%;
-    padding: 6px 10px;
-
-    &:hover {
-      opacity: 0.8;
-    }
-  }
-
-  .s72-btn-play-icon {
-    height: 25px;
-  }
-}
