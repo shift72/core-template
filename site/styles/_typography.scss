@@ -1,7 +1,3 @@
-@function to-rem($pixels) {
-  @return ($pixels / 16) * 1rem;
-}
-
 @mixin typography-style(
   $font-size,
   $letter-spacing: null,
@@ -11,7 +7,7 @@
   $line-height: null
 ) {
   color: $font-color;
-  font-size: to-rem($font-size);
+  font-size: $font-size;
   font-weight: $font-weight;
   letter-spacing: $letter-spacing;
   line-height: $line-height;
@@ -19,55 +15,55 @@
 }
 
 @mixin heading-1-style() {
-  @include typography-style(32, 0.4px, $font-weight-normal, 8px, var(--body-color));
+  @include typography-style(32px, 0.4px, $font-weight-normal, 8px, var(--body-color));
   @include media-breakpoint-up(xs) {
-    @include typography-style(45);
+    @include typography-style(45px);
   }
   small {
-    @include typography-style(24);
+    @include typography-style(24px);
   }
 }
 
 @mixin heading-2-style() {
-  @include typography-style(29, 0.6px, $font-weight-normal, 13px);
+  @include typography-style(29px, 0.6px, $font-weight-normal, 13px);
   @include media-breakpoint-up(sm) {
-    @include typography-style(35);
+    @include typography-style(35px);
   }
 }
 
 @mixin heading-3-style() {
-  @include typography-style(20, 0, $font-weight-normal, 6px);
+  @include typography-style(20px, 0, $font-weight-normal, 6px);
   @include media-breakpoint-up(sm) {
-    @include typography-style(23, 0.4px);
+    @include typography-style(23px, 0.4px);
   }
 }
 
 @mixin heading-4-style() {
-  @include typography-style(18, null, $font-weight-light, 20px);
+  @include typography-style(18px, null, $font-weight-light, 20px);
 }
 
 @mixin body-1-style() {
-  @include typography-style(16, 0.5px, $font-weight-light, null, null, 23px);
+  @include typography-style(16px, 0.5px, $font-weight-light, null, null, 23px);
 }
 
 @mixin body-2-style() {
-  @include typography-style(14, 0.4px);
+  @include typography-style(14px, 0.4px);
 }
 
 @mixin subtitle-1-style() {
-  @include typography-style(16, 0.2px, $font-weight-light, 2px);
+  @include typography-style(16px, 0.2px, $font-weight-light, 2px);
 }
 
 @mixin subtitle-2-style() {
-  @include typography-style(14, 0.2px, $font-weight-normal, 12px);
+  @include typography-style(14px, 0.2px, $font-weight-normal, 12px);
 }
 
 @mixin caption-1-style() {
-  @include typography-style(16, 0.5px, $font-weight-bold, 4px);
+  @include typography-style(16px, 0.5px, $font-weight-bold, 4px);
 }
 
 @mixin overline-style() {
-  @include typography-style(14, 0.8px, $font-weight-light);
+  @include typography-style(14px, 0.8px, $font-weight-light);
 }
 
 h1 {
