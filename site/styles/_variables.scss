@@ -42,6 +42,10 @@
   --page-detail-padding-top: 245px;
   --page-detail-padding-top-md: 290px;
   --page-detail-padding-top-lg: 360px;
+
+  --tooltip-color: var(--body-bg, #000);
+  --tooltip-bg: var(--primary, #00a3ff);
+  --tooltip-arrow-color: var(--tooltip-bg);
 }
 
 // Bootstrap 4 overrides START
@@ -250,10 +254,3 @@ $font-family-base: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Hel
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 500 !default;
-
-// Tooltip
-
-$tooltip-color: var(--body-bg, #000) !default;
-$tooltip-bg: var(--primary, #00a3ff) !default;
-$tooltip-opacity: 1 !default;
-$tooltip-arrow-color: $tooltip-bg !default;

@@ -7,14 +7,14 @@
 }
 
 .s72-tooltip-inner {
-  background-color: $tooltip-bg;
-  color: $tooltip-color;
+  background-color: var(--tooltip-bg);
+  color: var(--tooltip-color);
 }
 
 .s72-tooltip-top .s72-tooltip-arrow::before {
-  border-top-color: $tooltip-arrow-color;
+  border-top-color: var(--tooltip-arrow-color);
 }
 
 .s72-tooltip-bottom .s72-tooltip-arrow::before {
-  border-bottom-color: $tooltip-arrow-color;
+  border-bottom-color: var(--tooltip-arrow-color);
 }
