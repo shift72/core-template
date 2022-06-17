@@ -11,6 +11,7 @@
   --body-bg-accent-rgb: 25, 25, 25; // darken(body-bg, 10%) OR lighten(body-bg, 10%)
   --link-color-hover-rgb: 217, 217, 217; // darken(body-color, 15%)
   --input-focus-border-color-rgb: 131, 210, 216; // lighten(primary, 25%)
+  --main-content-icon-hover-rgb: 207, 207, 207; // white .8 opacity
 
   --primary: rgb(var(--primary-rgb));
   --secondary: rgb(var(--secondary-rgb));
@@ -20,6 +21,7 @@
   --link-color: var(--body-color);
   --link-color-hover: rgb(var(--link-color-hover-rgb));
   --input-focus-border-color: rgb(var(--input-focus-border-color-rgb));
+  --main-content-icon-hover: rgb(var(--main-content-icon-hover-rgb));
 
   --input-height: 40px;
 
