@@ -124,6 +124,7 @@ s72-carousel {
   }
 
   h3 {
+    @include line-clamp(3);
     color: var(--body-color);
     font-size: 28px;
     font-weight: $font-weight-normal;

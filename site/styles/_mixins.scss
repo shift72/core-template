@@ -81,6 +81,13 @@
   }
 }
 
+@mixin line-clamp($number-of-lines) {
+  box-orient: vertical;
+  display: box;
+  -webkit-line-clamp: $number-of-lines;
+  overflow: hidden;
+}
+
 @keyframes slidein {
   0% {
     opacity: 0;
