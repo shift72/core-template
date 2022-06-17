@@ -165,5 +165,26 @@
       font-weight: 400;
     }
   }
+
+  .extra-buttons {
+    align-items: center;
+    display: grid;
+    gap: 16px;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    padding: 0 36px;
+
+    @include media-breakpoint-up(xs) {
+      grid-template-columns: min-content min-content min-content;
+      padding: 0;
+    }
+
+    > * {
+      align-self: start;
+      animation: fadein 2s;
+      grid-column: auto;
+      grid-row: 1;
+    }
+  }
 }
 /* stylelint-enable selector-max-compound-selectors, max-nesting-depth */
