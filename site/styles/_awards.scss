@@ -6,7 +6,6 @@
 
   &.meta-awards-all {
     @extend .align-items-start;
-    justify-content: start;
     margin-bottom: 25px;
     @include media-breakpoint-up(xl) {
       margin-bottom: 45px;
