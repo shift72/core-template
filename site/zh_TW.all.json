@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "設置"
   },
@@ -69,9 +66,6 @@
   },
   "404_page_content": {
     "other": "<p>很抱歉，此頁面不存在。</p><p>頁面可能已被移除，或輸入的資訊有誤。</p><p>請回到首頁重新搜尋。</p><p><a href=\"{{.URL}}\">回到首頁</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "登入"
@@ -1319,5 +1313,20 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "更新您的信用卡。支持的卡是 Visa、Mastercard 和 American Express。"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "代碼成功應用。"
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "請輸入有效的促銷代碼。"
+  },
+  "shopping_complete_promo_only": {
+    "other": "成功！您現在可以觀看{{.Title}}。"
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "贖回"
+  },
+  "pricing_ownership_promo": {
+    "other": "贖回"
   }
 }

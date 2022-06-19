@@ -1,13 +1,20 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.0.0...HEAD)
 
 ### Changed
 - Awards icon from star to laurel
+- Meta detail page poster width, layout direction, spacing between nav and start of content adjusted at different breakpoints
 - Show play and pricing buttons based on item type on `meta_item.jet`
+- Fix font weight on the can-be-watched button to match primary button styling
+- Replaces nav_homepage and site_owner translations with dynamic data via Kibble function.
 
 ### Added
 - Language strings for shopping_card_update_reason_expired
+
+## [1.0.0](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...1.0.0)
+
+No changes from `alpha-0`.
 
 ## [1.0.0-alpha.0](https://github.com/shift72/core-template/compare/0.6.0...1.0.0-alpha.0)
 

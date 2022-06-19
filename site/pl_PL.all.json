@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Configuración"
   },
@@ -912,7 +909,7 @@
     "other": "Kompletny"
   },
   "shopping_complete_subscription": {
-    "other": "Twój zakup subskrypcji się powiódł. Subskrybujesz teraz {{.Title}} ."
+    "other": "Twój zakup subskrypcji się powiódł. Subskrybujesz teraz {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Możesz swobodnie <a href=\"/\">przeglądać</a> witrynę lub <a href=\"/search.html\">szukać</a> czegoś konkretnego."
@@ -1242,9 +1239,6 @@
     "one": "1 Epizod",
     "other": "{{.Count}} Epizod"
   },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
-  },
   "user_error_too_many_pin_errors": {
     "other": "<p>Wygląda na to, że masz problemy.</p><p>Zresetuj kod PIN lub skontaktuj się z nami w sprawie <a href=\"{{.HelpURL}}\" target=\"_blank\">Wsparcie</a>"
   },
@@ -1370,5 +1364,20 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Zaktualizuj swoją kartę kredytową. Obsługiwane karty to Visa, Mastercard i American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Kod został pomyślnie zastosowany."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Wprowadź prawidłowy kod promocyjny."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Powodzenie! Możesz teraz oglądać {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Odkupić"
+  },
+  "pricing_ownership_promo": {
+    "other": "Odkupić"
   }
 }
