@@ -8,6 +8,7 @@
 - Show play and pricing buttons based on item type on `meta_item.jet`
 - Fix font weight on the can-be-watched button to match primary button styling
 - Replaces nav_homepage and site_owner translations with dynamic data via Kibble function.
+- Grouped carousel awards component with sponsor logo
 
 ### Added
 - Language strings for shopping_card_update_reason_expired
