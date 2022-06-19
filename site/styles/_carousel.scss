@@ -97,7 +97,6 @@ s72-carousel {
   z-index: 999;
 
   @include media-breakpoint-up(sm) {
-    flex-direction: column;
     padding: var(--carousel-bottom-gradient-height-sm) 20px 1px;
   }
 
