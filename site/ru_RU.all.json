@@ -1,10 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Settings"
   },
@@ -1047,7 +1041,7 @@
     "other": "Полный"
   },
   "shopping_complete_subscription": {
-    "other": "Ваша подписка была приобретена. Теперь вы подписаны на {{.Title}} ."
+    "other": "Ваша подписка была приобретена. Теперь вы подписаны на {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Не стесняйтесь <a href=\"/\">просматривать</a> сайт или <a href=\"/search.html\">искать</a> что-то конкретное."
@@ -1347,5 +1341,20 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Обновите свою кредитную карту. Поддерживаются карты Visa, Mastercard и American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Код успешно применен."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Пожалуйста, введите действительный промо-код."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Успех! Теперь вы можете смотреть {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Выкупать"
+  },
+  "pricing_ownership_promo": {
+    "other": "Выкупать"
   }
 }

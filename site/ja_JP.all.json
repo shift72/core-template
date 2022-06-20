@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Settings"
   },
@@ -49,9 +46,6 @@
   },
   "404_page_content": {
     "other": "<p>お探しのページは存在しないようです。移 動もしくは削除されたか、入力間違いかも しれません。ホーム画面でページを探して みてください。</p><p><a href=\"/\">ホーム 画面に戻る</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "サインイン"
@@ -1319,5 +1313,20 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "クレジットカードを更新します。サポートされているカードは、Visa、Mastercard、AmericanExpressです。"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "コードが正常に適用されました。"
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "有効なプロモーションコードを入力してください。"
+  },
+  "shopping_complete_promo_only": {
+    "other": "成功！これで、 {{.Title}}を見ることができます。"
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "償還"
+  },
+  "pricing_ownership_promo": {
+    "other": "償還"
   }
 }
