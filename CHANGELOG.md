@@ -9,6 +9,7 @@
 - Carousel height now scales based on browser window height.
 - Fix font weight on the can-be-watched button to match primary button styling
 - Replaces nav_homepage and site_owner translations with dynamic data via Kibble function.
+- Carousel heading is limited to a maximum of 3 lines.
 
 ### Added
 - Language strings for shopping_card_update_reason_expired
