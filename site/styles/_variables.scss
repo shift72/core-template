@@ -29,10 +29,12 @@
   --navbar-brand-min-width-lg: 126px;
   --navbar-brand-min-width-xl: 126px;
 
-  --carousel-height: 560px;
-  --carousel-height-sm: 560px;
-  --carousel-height-lg: 620px;
-  --carousel-bottom-gradient-height: 220px; // Increase this to 800px for light theme.
+  --carousel-height: 75vh;
+  --carousel-height-sm: 75vh;
+  --carousel-height-lg: 75vh;
+  --carousel-bottom-gradient-height: 200px; // Increase this to 300px for light theme.
+  --carousel-bottom-gradient-height-sm: 200px; // Increase this to 300px for light theme.
+  --carousel-bottom-gradient-height-lg: 200px; // Increase this to 600px for light theme.
   --carousel-image-object-position: 50%;
   --carousel-image-object-position-sm: 50%;
   --carousel-image-object-position-lg: 50%;
@@ -40,9 +42,9 @@
   --page-padding-top: 120px;
   --page-padding-top-md: 120px;
   --page-padding-top-lg: 180px;
-  --page-detail-padding-top: 120px;
-  --page-detail-padding-top-md: 120px;
-  --page-detail-padding-top-lg: 180px;
+  --page-detail-padding-top: 245px;
+  --page-detail-padding-top-md: 290px;
+  --page-detail-padding-top-lg: 360px;
 }
 
 // Bootstrap 4 overrides START

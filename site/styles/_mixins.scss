@@ -25,25 +25,27 @@
 }
 
 // Easing gradients created using this tool: https://larsenwork.com/easing-gradients/#editor
+// This gradient has solid colour from 85% to 100%.
 .carousel-bottom-gradient {
   background: linear-gradient(
     to bottom,
     rgba(var(--body-bg-rgb), 0) 0%,
-    rgba(var(--body-bg-rgb), 0.013) 8.1%,
-    rgba(var(--body-bg-rgb), 0.049) 15.5%,
-    rgba(var(--body-bg-rgb), 0.104) 22.5%,
-    rgba(var(--body-bg-rgb), 0.175) 29%,
-    rgba(var(--body-bg-rgb), 0.259) 35.3%,
-    rgba(var(--body-bg-rgb), 0.352) 41.2%,
-    rgba(var(--body-bg-rgb), 0.45) 47.1%,
-    rgba(var(--body-bg-rgb), 0.55) 52.9%,
-    rgba(var(--body-bg-rgb), 0.648) 58.8%,
-    rgba(var(--body-bg-rgb), 0.741) 64.7%,
-    rgba(var(--body-bg-rgb), 0.825) 71%,
-    rgba(var(--body-bg-rgb), 0.896) 77.5%,
-    rgba(var(--body-bg-rgb), 0.951) 84.5%,
-    rgba(var(--body-bg-rgb), 0.987) 91.9%,
-    rgba(var(--body-bg-rgb)) 100%
+    rgba(var(--body-bg-rgb), 0.013) 6.9%,
+    rgba(var(--body-bg-rgb), 0.049) 13.2%,
+    rgba(var(--body-bg-rgb), 0.104) 19.1%,
+    rgba(var(--body-bg-rgb), 0.175) 24.7%,
+    rgba(var(--body-bg-rgb), 0.259) 30%,
+    rgba(var(--body-bg-rgb), 0.352) 35%,
+    rgba(var(--body-bg-rgb), 0.45) 40%,
+    rgba(var(--body-bg-rgb), 0.55) 45%,
+    rgba(var(--body-bg-rgb), 0.648) 50%,
+    rgba(var(--body-bg-rgb), 0.741) 55%,
+    rgba(var(--body-bg-rgb), 0.825) 60.4%,
+    rgba(var(--body-bg-rgb), 0.896) 65.9%,
+    rgba(var(--body-bg-rgb), 0.951) 71.8%,
+    rgba(var(--body-bg-rgb), 0.987) 78.1%,
+    rgb(var(--body-bg-rgb)) 85%,
+    rgb(var(--body-bg-rgb)) 100%
   );
 }
 
