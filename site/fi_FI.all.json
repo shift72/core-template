@@ -1319,7 +1319,7 @@
   "shopping_discount_applied_promo": {
     "other": "Koodi lisätty onnistuneesti."
   },
-  "promo_only_purchases_must_be_100_percent_discounted": {
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Anna kelvollinen tarjouskoodi."
   },
   "shopping_complete_promo_only": {

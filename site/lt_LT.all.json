@@ -1323,7 +1323,7 @@
   "shopping_discount_applied_promo": {
     "other": "Kodas sėkmingai pritaikytas."
   },
-  "promo_only_purchases_must_be_100_percent_discounted": {
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Įveskite galiojantį reklamos kredito kodą."
   },
   "shopping_complete_promo_only": {

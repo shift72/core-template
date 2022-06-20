@@ -1328,7 +1328,7 @@
   "shopping_discount_applied_promo": {
     "other": "Koodi rakendamine õnnestus."
   },
-  "promo_only_purchases_must_be_100_percent_discounted": {
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Sisestage kehtiv sooduskood."
   },
   "shopping_complete_promo_only": {

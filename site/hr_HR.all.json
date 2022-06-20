@@ -1313,7 +1313,7 @@
   "shopping_discount_applied_promo": {
     "other": "Kôd je uspješno primijenjen."
   },
-  "promo_only_purchases_must_be_100_percent_discounted": {
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Unesite važeći promotivni kod."
   },
   "shopping_complete_promo_only": {

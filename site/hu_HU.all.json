@@ -1328,7 +1328,7 @@
   "shopping_discount_applied_promo": {
     "other": "A kód sikeresen alkalmazva."
   },
-  "promo_only_purchases_must_be_100_percent_discounted": {
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Adjon meg egy érvényes promóciós kódot."
   },
   "shopping_complete_promo_only": {

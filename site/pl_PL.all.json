@@ -1368,7 +1368,7 @@
   "shopping_discount_applied_promo": {
     "other": "Kod został pomyślnie zastosowany."
   },
-  "promo_only_purchases_must_be_100_percent_discounted": {
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Wprowadź prawidłowy kod promocyjny."
   },
   "shopping_complete_promo_only": {

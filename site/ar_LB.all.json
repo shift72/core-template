@@ -1336,7 +1336,7 @@
   "shopping_discount_applied_promo": {
     "other": "تم تطبيق الكود بنجاح."
   },
-  "promo_only_purchases_must_be_100_percent_discounted": {
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
     "other": "الرجاء إدخال رمز ترويجي صالح."
   },
   "shopping_complete_promo_only": {

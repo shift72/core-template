@@ -1319,7 +1319,7 @@
   "shopping_discount_applied_promo": {
     "other": "Kod başarıyla uygulandı."
   },
-  "promo_only_purchases_must_be_100_percent_discounted": {
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Lütfen geçerli bir promosyon kodu girin."
   },
   "shopping_complete_promo_only": {

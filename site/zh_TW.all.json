@@ -1317,7 +1317,7 @@
   "shopping_discount_applied_promo": {
     "other": "代碼成功應用。"
   },
-  "promo_only_purchases_must_be_100_percent_discounted": {
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
     "other": "請輸入有效的促銷代碼。"
   },
   "shopping_complete_promo_only": {

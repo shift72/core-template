@@ -1319,7 +1319,7 @@
   "shopping_discount_applied_promo": {
     "other": "Código aplicado com sucesso."
   },
-  "promo_only_purchases_must_be_100_percent_discounted": {
+  "shopping_error_promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Insira um código promocional válido."
   },
   "shopping_complete_promo_only": {
