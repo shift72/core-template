@@ -6,6 +6,7 @@
 - Awards icon from star to laurel
 - Meta detail page poster width, layout direction, spacing between nav and start of content adjusted at different breakpoints
 - Show play and pricing buttons based on item type on `meta_item.jet`
+- Carousel height now scales based on browser window height.
 - Fix font weight on the can-be-watched button to match primary button styling
 - Replaces nav_homepage and site_owner translations with dynamic data via Kibble function.
 
