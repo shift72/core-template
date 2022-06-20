@@ -137,6 +137,13 @@ s72-carousel {
     max-width: 930px;
     padding-bottom: 0;
 
+    /* stylelint-disable */
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    /* stylelint-enable */
+
     @include media-breakpoint-up(md) {
       font-size: 38px;
     }
