@@ -127,13 +127,12 @@
 
   @include media-breakpoint-up(lg) {
     flex-direction: row;
-    padding-bottom: 0;
     padding: var(--page-detail-padding-top-lg) 50px 0 50px;
   }
 
   .poster-wrapper {
-    position: relative;
     margin-bottom: 20px;
+    position: relative;
     .sponsor {
       bottom: 100%;
       position: absolute;
@@ -146,9 +145,9 @@
   .poster {
     animation: fadein 2s;
     display: block;
+    flex-shrink: 0;
     margin-right: 20px;
     width: 110px;
-    flex-shrink: 0;
 
     @include media-breakpoint-up(xs) {
       width: 155px;

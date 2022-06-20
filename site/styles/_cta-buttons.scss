@@ -10,7 +10,6 @@
   }
 
   > * {
-
     @include media-breakpoint-up(xs) {
       grid-column: auto;
       grid-row: 1;
