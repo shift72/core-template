@@ -1,4 +1,6 @@
 {{block awardsCarousel()}}
+  {{ if isset(.AwardCategories) && (len(.AwardCategories) > 0) }}
+
     {{award_winner := false}}
     {{ range .AwardCategories }}
       {{ if .IsWinner}}{{award_winner = true}}{{end}}
@@ -10,4 +12,5 @@
         <span>{{ i18n("awards_in_competition") }}{{award_winner ? " - " + i18n("awards_winner") : ""}}</span>
       </div>
     </div>
+  {{ end }}
 {{end}}
