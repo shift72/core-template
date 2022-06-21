@@ -1,12 +1,13 @@
 .meta-awards {
-  @extend .d-flex;
-  @extend .align-items-center;
-  margin-left: -25px;
-  margin-right: -25px;
 
   &.meta-awards-all {
-    @extend .align-items-start;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-gap: 14px 50px;
     margin-bottom: 25px;
+    @include media-breakpoint-up(md) {
+      grid-template-columns: repeat(2, minmax(0, 320px));
+    }
     @include media-breakpoint-up(xl) {
       margin-bottom: 45px;
     }
@@ -15,7 +16,6 @@
   .meta-award-nomination {
     display: flex;
     max-width: 370px;
-    padding: 14px 25px;
     margin-bottom: 12px;
   }
 

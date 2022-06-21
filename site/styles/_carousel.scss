@@ -102,6 +102,7 @@ s72-carousel {
       align-self: flex-end;
       margin-left: auto;
       order: 1;
+      flex-shrink: 0;
     }
 
     .sponsor {
