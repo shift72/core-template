@@ -1,0 +1,14 @@
+{{block sponsorAwards()}}
+    {{sponsorImage := .ImageMap["Sponsor"]}}
+    {{showSponsorImage := isset(sponsorImage)}}
+    {{showAwardCategories := isset(.AwardCategories) && (len(.AwardCategories) > 0)}}
+    {{showWrapper := showSponsorImage || showAwardCategories}}
+    {{if showWrapper}}<div class="sponsor-awards-wrapper">{{end}}
+        {{if showSponsorImage}}
+            {{yield sponsor(hideLink="true", sponsorImage=sponsorImage) item.InnerItem}}
+        {{ end }}
+        {{ if showAwardCategories }}
+            {{yield awardsCarousel() item.InnerItem}}
+        {{ end }}
+    {{if showWrapper}}</div>{{end}}
+{{end}}

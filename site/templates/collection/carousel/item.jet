@@ -4,6 +4,7 @@
 {{import "./item/image.jet"}}
 {{import "./item/synopsis.jet"}}
 {{import "../../common/sponsor-image.jet"}}
+{{import "../../common/sponsor-awards.jet"}}
 {{import "../../common/cta_buttons.jet"}}
 
 {{block carouselItem(item)}}
@@ -18,8 +19,7 @@
         <div class="carousel-item-caption">
           {{if item.ItemType == "film"}}
             <div class="sponsor-awards-wrapper">
-              {{yield sponsor(hideLink="true") item.InnerItem}}
-              {{yield awardsCarousel() item.InnerItem}}
+              {{yield sponsorAwards() item.InnerItem}}
             </div>
           {{end}}
           <div class="meta-item-content">

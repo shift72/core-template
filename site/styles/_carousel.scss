@@ -98,28 +98,31 @@ s72-carousel {
     flex-direction: row;
     padding: var(--carousel-bottom-gradient-height) 50px 1px;
 
-    .sponsor-awards-wrapper {
+    .meta-awards {
+      justify-content: end;
+      margin-bottom: 8px;
+    }
+  }
+
+  .sponsor-awards-wrapper {
+    color: var(--body-color);
+    @include media-breakpoint-up(lg) {
       align-self: flex-end;
       margin-left: auto;
       order: 1;
       flex-shrink: 0;
     }
-
-    .sponsor {
-      text-align: right;
-    }
-
-    .meta-awards {
-      justify-content: end;
-    }
   }
 
   .sponsor {
-    margin-bottom: 10px;
+    margin-bottom: 24px;
+    @include media-breakpoint-up(lg) {
+      text-align: right;
+    }
   }
 
   .availability-bg {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .availability-state {
@@ -129,7 +132,7 @@ s72-carousel {
     text-transform: none;
   }
 
-  .meta-item-content, .sponsor-awards-wrapper {
+  .meta-item-content {
     color: var(--body-color);
   }
 
