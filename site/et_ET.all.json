@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Seaded"
   },
@@ -69,9 +66,6 @@
   },
   "404_page_content": {
     "other": "<p>Vabandame, näib, otsitud lehte ei eksisteeri.</p><p>Selle asukoht võib olla muutunud või on see kustutatud. Või tegid sa kirjutamisel vea.</p><p>Proovi minna tagasi avalehele ja otsi uuesti.</p><p><a href=\"{{.URL}}\">Tagasi lehele.</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "Logi sisse"
@@ -1327,5 +1321,23 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} üksused"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Värskendage oma krediitkaarti. Toetatud kaardid on Visa, Mastercard ja American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Koodi rakendamine õnnestus."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Sisestage kehtiv sooduskood."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Edu! Nüüd saate vaadata {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Lunastama"
+  },
+  "pricing_ownership_promo": {
+    "other": "Lunastama"
   }
 }

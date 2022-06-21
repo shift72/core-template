@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Einstelllungen"
   },
@@ -69,9 +66,6 @@
   },
   "404_page_content": {
     "other": "<p>Diese Seite existiert leider nicht.</p><p><a href=\"{{.URL}}\">Zurück zur Startseite</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "Anmelden"
@@ -1327,5 +1321,23 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} Produkte"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Aktualisieren Sie Ihre Kreditkarte. Unterstützte Karten sind Visa, Mastercard und American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Code erfolgreich angewendet."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Bitte geben Sie einen gültigen Aktionscode ein."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Erfolg! Sie können jetzt {{.Title}} ansehen."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Tilgen"
+  },
+  "pricing_ownership_promo": {
+    "other": "Tilgen"
   }
 }

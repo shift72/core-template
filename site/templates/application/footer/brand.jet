@@ -1,5 +1,5 @@
-{{ block footerBrand() }}
-  <a class="footer-brand-link" href="{{ routeToPath("/") }}" aria-label="{{ i18n("nav_homepage") }}">
-    <s72-image src="/images/common/logo.png" alt="{{ i18n("nav_homepage") }}" class="footer-brand-image"></s72-image>
+{{block footerBrand()}}
+  <a class="footer-brand-link" href="{{routeToPath("/")}}" aria-label="{{site.Config.GetSiteName()}}">
+    <s72-image class="footer-brand-image" src="/images/common/logo.png" alt="{{site.Config.GetSiteName()}}"></s72-image>
   </a>
-{{ end }}
+{{end}}

@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "إعدادات"
   },
@@ -69,9 +66,6 @@
   },
   "404_page_content": {
     "other": "<p> المعذرة ، يبدو أن الصفحة التي تبحث عنها غير موجودة. </ p> <p> ربما تم نقلها أو حذفها ، أو ربما أخطأت في الكتابة. </ p> <p> حاول العودة إلى الصفحة الرئيسية للعثور على ما كنت تبحث عنه. </ p> <p> <a href=\"{{.URL}}\"> الرجوع إلى الصفحة الرئيسية </a> </p>>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "تسجيل الدخول"
@@ -1197,7 +1191,7 @@
     "other": "فوق حتى"
   },
   "shopping_complete_subscription": {
-    "other": "تم شراء اشتراكك بنجاح. أنت الآن مشترك في {{.Title}} ."
+    "other": "تم شراء اشتراكك بنجاح. أنت الآن مشترك في {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "لا تتردد في <a href=\"/\">تصفح</a> الموقع ، أو <a href=\"/search.html\">البحث</a> عن شيء محدد."
@@ -1335,5 +1329,23 @@
   },
   "bundle_items_generic": {
     "other": "{{.Count}} أغراض"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "قم بتحديث بطاقتك الائتمانية. البطاقات المدعومة هي Visa و Mastercard و American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "تم تطبيق الكود بنجاح."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "الرجاء إدخال رمز ترويجي صالح."
+  },
+  "shopping_complete_promo_only": {
+    "other": "النجاح! يمكنك الآن {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "يسترد"
+  },
+  "pricing_ownership_promo": {
+    "other": "يسترد"
   }
 }
