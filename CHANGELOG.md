@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.0.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.1.0...HEAD)
+
+## [1.1.0](https://github.com/shift72/core-template/compare/1.0.0...1.1.0)
 
 ### Changed
 - Awards icon from star to laurel
