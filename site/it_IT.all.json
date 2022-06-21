@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Impostazioni"
   },
@@ -69,9 +66,6 @@
   },
   "404_page_content": {
     "other": "<p>Ci scusiamo, ma sembra che la pagina che stai cercando non esista.</p><p>Potrebbe essere stata spostata o cancellata, o forse potresti aver sbagliato qualcosa nella digitazione.</p><p>Prova a tornare alla homepage per trovare quello che stavi cercando.</p><p><a href=\"{{.URL}}\">Torna alla Homepage</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "Accedi"

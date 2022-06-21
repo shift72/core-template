@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Asetukset"
   },
@@ -49,9 +46,6 @@
   },
   "404_page_content": {
     "other": "<p> Valitettavasti hakemaasi sivua ei ole olemassa.</p><p>Sivu on voitu siirtää tai poistaa, tai osoiterivillä on virhe.</p><p>Palaa etusivulle löytääksesi hakemasi.</p><p><a href=\"/\">Takaisin etusivulle</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "Kirjaudu"

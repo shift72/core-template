@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Settings"
   },
@@ -69,9 +66,6 @@
   },
   "404_page_content": {
     "other": "<p>Sajnos úgy tűnik, hogy a keresett oldal nem létezik.</p><p>Talán törölték vagy áthelyezték, kérjük ellenőrizd, hogy helyesen írtad-e be a címet.</p><p>Próbálj visszamenni a kezdőlapra, hogy megtaláld, amit keresel.</p><p><a href=\"{{.URL}}\">Vissza a kezdőlapra</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "Bejelentkezés"

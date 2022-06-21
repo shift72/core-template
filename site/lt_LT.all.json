@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Settings"
   },
@@ -69,9 +66,6 @@
   },
   "404_page_content": {
     "other": "<p>Apgailestaujame, jūsų nurodytu adresu puslapio neradome.</p><p>Tikėtina, kad pasikeitė puslapio adresas, puslapis buvo ištrintas arba įsivėlė rašybos klaida.</p><p>Rekomenduojame reikalingos informacijos ieškoti grįžus į pagrindinį puslapį.</p><p><a href=\"{{.URL}}\">Grįžti į pagrindinį puslapį</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "Prisijungti"

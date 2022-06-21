@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Settings"
   },
@@ -1201,9 +1198,6 @@
   },
   "usersubscriptions_unsubscribe_modal_body": {
     "other": "Ovo će otkazati pretplatu na {{.Name}}. I dalje ćete moći gledati sadržaj dok ne istekne {{.Expiry}}."
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "classification_divider": {
     "other": " - "
