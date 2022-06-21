@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Settings"
   },
@@ -69,9 +66,6 @@
   },
   "404_page_content": {
     "other": "<p>Нажалост, изледа да страница коју тражите не постоји.</p><p>Можда је премештена или обрисана или сте направили грешку при писању.</p><p>Покушајте да се вратите на почетну страницу и пронађете то што тражите.</p><p><a href=\"{{.URL}}\">Назад на почетну страницу</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "Пријавите се"
@@ -1104,7 +1098,7 @@
     "other": "комплетан"
   },
   "shopping_complete_subscription": {
-    "other": "Ваша куповина претплате је била успешна. Сада сте претплаћени на {{.Title}} ."
+    "other": "Ваша куповина претплате је била успешна. Сада сте претплаћени на {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Слободно <a href=\"/\">претражујте по</a> сајту или <a href=\"/search.html\">тражите</a> нешто специфично."
@@ -1323,5 +1317,20 @@
   },
   "shopping_card_update_reason_expired": {
     "other": "Ажурирајте своју кредитну картицу. Подржане картице су Виса, Мастерцард и Америцан Екпресс."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Код је успешно примењен."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Унесите важећи промотивни код."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Успех! Сада можете гледати {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Искупити"
+  },
+  "pricing_ownership_promo": {
+    "other": "Искупити"
   }
 }
