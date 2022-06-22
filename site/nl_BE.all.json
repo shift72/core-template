@@ -1326,9 +1326,9 @@
     "other": "Je kunt nu {{.Title}} bekijken."
   },
   "shopping_action_redeem_promo_code": {
-    "other": "Redeem"
+    "other": "Inwisselen"
   },
   "pricing_ownership_promo": {
-    "other": "Redeem"
+    "other": "Inwisselen"
   }
 }
