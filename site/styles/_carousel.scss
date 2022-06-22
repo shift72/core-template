@@ -124,9 +124,9 @@ s72-carousel {
     color: var(--body-color);
     @include media-breakpoint-up(lg) {
       align-self: flex-end;
+      flex-shrink: 0;
       margin-left: auto;
       order: 1;
-      flex-shrink: 0;
     }
   }
 
