@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.1.0...HEAD)
 
+### Added
+- Tooltips on meta detail/item CTA buttons.
+
 ## [1.1.0](https://github.com/shift72/core-template/compare/1.0.0...1.1.0)
 
 ### Added
