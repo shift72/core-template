@@ -48,9 +48,13 @@
     margin-left: -5px;
   }
 
-  h2,
-  h4 {
+  h2{
     @include subtitle-1-style;
+  }
+
+  div.title {
+    @include subtitle-1-style;
+    line-height: 1.2;
   }
 
   > a {
