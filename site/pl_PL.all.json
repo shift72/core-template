@@ -1372,7 +1372,7 @@
     "other": "Wprowadź prawidłowy kod promocyjny."
   },
   "shopping_complete_promo_only": {
-    "other": "Powodzenie! Możesz teraz oglądać {{.Title}}."
+    "other": "Możesz teraz oglądać {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Odkupić"

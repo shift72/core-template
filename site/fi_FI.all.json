@@ -1317,18 +1317,18 @@
     "other": "Päivitä luottokorttisi. Tuetut kortit ovat Visa, Mastercard ja American Express."
   },
   "shopping_discount_applied_promo": {
-    "other": "Koodi lisätty onnistuneesti."
+    "other": "Koodi on otettu käyttöön."
   },
   "promo_only_purchases_must_be_100_percent_discounted": {
     "other": "Anna kelvollinen tarjouskoodi."
   },
   "shopping_complete_promo_only": {
-    "other": "Menestys! Voit nyt katsoa {{.Title}}."
+    "other": "Voit nyt katsoa {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Lunastaa"
   },
   "pricing_ownership_promo": {
     "other": "Lunastaa"
-    }
+  }
 }
