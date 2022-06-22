@@ -23,7 +23,7 @@
 
   {{ if config("media_item_caption") == "true" }}
     <div class="caption">
-      <h2 class="title" title="{{page.Title}}">{{page.Title}}</h2>
+      <div class="title" title="{{page.Title}}">{{page.Title}}</div>
     </div>
   {{ end }}
 </div>
