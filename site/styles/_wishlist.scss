@@ -25,13 +25,14 @@
 
 .s72-userwishlist-buttons {
   .s72-btn-wishlist {
-    @extend .btn;
-    padding-left: 0;
-
     .s72-icon {
-      font-size: 28px !important;
-      opacity: 0.8;
-      padding: 2px 0;
+      font-size: 25px !important;
+      margin: 0;
+    }
+
+    .s72-icon-loading,
+    .s72-icon-errored {
+      display: none;
     }
   }
 }
@@ -47,12 +48,6 @@
     flex-direction: row;
     justify-content: center;
   }
-}
-
-.s72-userwishlist-buttons .s72-btn-wishlist {
-  margin-right: 0.5rem;
-  padding-bottom: 3px;
-  padding-top: 3px;
 }
 
 .poster .s72-userwishlist-buttons .s72-btn-wishlist {
