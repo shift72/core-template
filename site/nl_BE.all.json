@@ -1323,7 +1323,7 @@
     "other": "Voer een geldige promotiecode in."
   },
   "shopping_complete_promo_only": {
-    "other": "Succes! Je kunt nu {{.Title}} bekijken."
+    "other": "Je kunt nu {{.Title}} bekijken."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Inwisselen"
