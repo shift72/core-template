@@ -13,6 +13,6 @@
   </a>
 
   <div class="caption">
-    <div class="title" title="{{collection.Title}}">{{collection.Title}}</hdiv>
+    <div class="title" title="{{collection.Title}}">{{collection.Title}}</div>
   </div>
 </div>
