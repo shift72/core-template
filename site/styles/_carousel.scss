@@ -2,6 +2,8 @@ s72-carousel {
   display: flex;
   height: var(--carousel-height);
   margin-bottom: 30px;
+  max-height: 800px;
+  min-height: 530px;
   width: 100%;
 
   @include media-breakpoint-up(sm) {
@@ -32,7 +34,7 @@ s72-carousel {
 }
 
 .carousel-item-link > s72-image {
-  height: 100%;
+  height: 90%;
   position: absolute;
   top: 0;
   width: 100%;
@@ -40,8 +42,15 @@ s72-carousel {
   img {
     height: 100%;
     object-fit: cover;
+    object-position: var(--carousel-image-object-position);
     width: 100%;
     z-index: -1;
+    @include media-breakpoint-up(sm) {
+      object-position: var(--carousel-image-object-position-sm);
+    }
+    @include media-breakpoint-up(lg) {
+      object-position: var(--carousel-image-object-position-lg);
+    }
   }
 }
 
@@ -94,9 +103,13 @@ s72-carousel {
   width: 100%;
   z-index: 999;
 
+  @include media-breakpoint-up(sm) {
+    padding: var(--carousel-bottom-gradient-height-sm) 20px 1px;
+  }
+
   @include media-breakpoint-up(lg) {
     flex-direction: row;
-    padding: var(--carousel-bottom-gradient-height) 50px 1px;
+    padding: var(--carousel-bottom-gradient-height-lg) 50px 1px;
   }
 
   .meta-awards {
@@ -146,6 +159,13 @@ s72-carousel {
     margin-bottom: 8px;
     max-width: 930px;
     padding-bottom: 0;
+
+    /* stylelint-disable */
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    /* stylelint-enable */
 
     @include media-breakpoint-up(md) {
       font-size: 38px;

@@ -1,17 +1,26 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.0.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.1.0...HEAD)
+
+## [1.1.0](https://github.com/shift72/core-template/compare/1.0.0...1.1.0)
+
+### Added
+- Language strings for shopping_card_update_reason_expired
+- Carousel images can now be positioned via variables.
 
 ### Changed
 - Awards icon from star to laurel
 - Meta detail page poster width, layout direction, spacing between nav and start of content adjusted at different breakpoints
 - Show play and pricing buttons based on item type on `meta_item.jet`
+- Carousel height now scales based on browser window height.
 - Fix font weight on the can-be-watched button to match primary button styling
 - Replaces nav_homepage and site_owner translations with dynamic data via Kibble function.
 - Grouped carousel awards component with sponsor logo
 
 ### Added
 - Language strings for shopping_card_update_reason_expired
+- Carousel heading is limited to a maximum of 3 lines.
+
 
 ## [1.0.0](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...1.0.0)
 
