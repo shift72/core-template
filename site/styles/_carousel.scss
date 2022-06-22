@@ -97,8 +97,11 @@ s72-carousel {
   @include media-breakpoint-up(lg) {
     flex-direction: row;
     padding: var(--carousel-bottom-gradient-height) 50px 1px;
+  }
 
-    .meta-awards {
+  .meta-awards {
+    margin-bottom: 20px;
+    @include media-breakpoint-up(lg) {
       justify-content: end;
       margin-bottom: 8px;
     }
