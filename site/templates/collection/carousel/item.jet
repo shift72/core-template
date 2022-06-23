@@ -5,7 +5,6 @@
 {{import "./item/synopsis.jet"}}
 {{import "../../common/sponsor-image.jet"}}
 {{import "../../common/cta_buttons.jet"}}
-{{import "../../common/carousel-sponsor-awards-wrapper.jet"}}
 
 {{block carouselItem(item)}}
   {{showItemContent := !isset(item["PageType"]) || item.PageType != "external"}}
@@ -18,9 +17,11 @@
       {{if showItemContent}}
         <div class="carousel-item-caption">
           {{if item.ItemType == "film"}}
-            {{yield carouselSponsorAwardsWrapper() content}}
-              {{yield sponsor(hideLink="true") item.InnerItem}}
-              {{yield awardsCarousel() item.InnerItem}}
+            {{if len(item.InnerItem.AwardCategories) > 0 || item.InnerItem.ImageMap["Sponsor"]}}
+              <div class="sponsor-awards-wrapper">
+                {{yield sponsor(hideLink="true") item.InnerItem}}
+                {{yield awardsCarousel() item.InnerItem}}
+              </div>
             {{end}}
           {{end}}
           <div class="meta-item-content">

@@ -1,9 +1,0 @@
-{{block carouselSponsorAwardsWrapper()}}
-  {{if len(item.InnerItem.AwardCategories) > 0 || item.InnerItem.ImageMap["Sponsor"]}}
-    <div class="sponsor-awards-wrapper">
-      {{yield content}}
-    </div>
-  {{else}}
-    {{yield content}}
-  {{end}}
-{{end}}
