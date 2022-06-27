@@ -4,6 +4,7 @@
 
 ### Added
 - Tooltips on meta detail/item CTA buttons.
+- Add translations for subscription recurrence on purchase CTA.
 
 ## [1.1.0](https://github.com/shift72/core-template/compare/1.0.0...1.1.0)
 
