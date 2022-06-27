@@ -1,5 +1,9 @@
 .page-collection {
   @extend .clearfix;
+
+  h2 {
+    @include heading-3-style;
+  }
 }
 
 .page-collection-slider {
@@ -21,20 +25,7 @@
   position: relative;
   z-index: 8;
   @include media-breakpoint-up(md) {
-    padding-bottom: $grid-gutter-width / 4;
     padding-left: 0;
-  }
-
-  h2,
-  h3 {
-    font-size: 16px;
-    font-weight: $font-weight-bold;
-    @include media-breakpoint-up(md) {
-      font-size: 18px;
-    }
-    @include media-breakpoint-up(lg) {
-      font-size: 20px;
-    }
   }
 }
 
@@ -56,6 +47,16 @@
   &:first-child {
     margin-left: -5px;
   }
+
+  h2{
+    @include subtitle-1-style;
+  }
+
+  .title {
+    @include subtitle-1-style;
+    line-height: 1.2;
+  }
+
   > a {
     .poster {
       .hover {
@@ -253,18 +254,6 @@
 
   .caption {
     padding: 4px 0;
-    @include media-breakpoint-up(md) {
-      padding: 8px 0;
-    }
-
-    .title,
-    .runtime {
-      font-size: 12px;
-      font-weight: $font-weight-bold;
-      @include media-breakpoint-up(md) {
-        font-size: 14px;
-      }
-    }
 
     .crumb {
       @extend .d-flex;
@@ -283,12 +272,7 @@
 
     .meta-item-tagline {
       .meta-item-tagline-item {
-        font-size: 12px;
-        font-weight: $font-weight-normal;
         text-transform: uppercase;
-        @include media-breakpoint-up(md) {
-          font-size: 12px;
-        }
       }
     }
   }
@@ -320,7 +304,7 @@
       @extend .col-6;
       @extend .col-md-4;
       @extend .col-lg-3;
-      padding: 0 5px;
+      padding: 5px 5px 10px;
     }
 
     .page-collection-list-item-landscape {
@@ -328,7 +312,7 @@
         @extend .col-6;
         @extend .col-md-4;
         @extend .col-lg-3;
-        padding: 0 5px;
+        padding: 5px 5px 10px;
       }
     }
 
@@ -338,7 +322,7 @@
         @extend .col-md-3;
         @extend .col-lg-3;
         @extend .col-xl-2;
-        padding: 0 5px;
+        padding: 5px 5px 10px;
       }
     }
   }

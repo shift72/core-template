@@ -23,6 +23,7 @@
 ### Added
 - Language strings for shopping_card_update_reason_expired
 - Carousel heading is limited to a maximum of 3 lines.
+- Language strings changed for shopping_complete_promo_only
 
 
 ## [1.0.0](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...1.0.0)

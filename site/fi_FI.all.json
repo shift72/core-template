@@ -1323,12 +1323,12 @@
     "other": "Anna kelvollinen tarjouskoodi."
   },
   "shopping_complete_promo_only": {
-    "other": "Menestys! Voit nyt katsoa {{.Title}}."
+    "other": "Voit nyt katsoa {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Lunastaa"
   },
   "pricing_ownership_promo": {
     "other": "Lunastaa"
-    }
+  }
 }
