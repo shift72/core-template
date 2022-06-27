@@ -1339,5 +1339,17 @@
   },
   "pricing_ownership_promo": {
     "other": "Redimir"
+  },
+  "subscription_recurrence_daily": {
+    "other": "diàriament"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "setmanalment"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "mensual"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "anualment"
   }
 }

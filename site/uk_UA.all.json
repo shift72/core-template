@@ -1362,5 +1362,17 @@
   },
   "pricing_ownership_promo": {
     "other": "Викупити"
+  },
+  "subscription_recurrence_daily": {
+    "other": "щоденно"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "щотижня"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "щомісячно"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "щорічно"
   }
 }

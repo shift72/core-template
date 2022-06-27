@@ -1334,5 +1334,17 @@
   },
   "pricing_ownership_promo": {
     "other": "Išpirkti"
+  },
+  "subscription_recurrence_daily": {
+    "other": "kasdien"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "kas savaitę"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "kas mėnesį"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "kasmet"
   }
 }

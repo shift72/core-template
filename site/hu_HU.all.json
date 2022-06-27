@@ -1339,5 +1339,17 @@
   },
   "pricing_ownership_promo": {
     "other": "Beváltani"
+  },
+  "subscription_recurrence_daily": {
+    "other": "napi"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "heti"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "havi"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "évi"
   }
 }

@@ -1328,5 +1328,17 @@
   },
   "pricing_ownership_promo": {
     "other": "贖回"
+  },
+  "subscription_recurrence_daily": {
+    "other": "日常的"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "每周"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "每月"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "每年"
   }
 }

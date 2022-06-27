@@ -1324,5 +1324,17 @@
   },
   "pricing_ownership_promo": {
     "other": "Otkupiti"
+  },
+  "subscription_recurrence_daily": {
+    "other": "dnevno"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "tjedni"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "mjesečno"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "godišnje"
   }
 }

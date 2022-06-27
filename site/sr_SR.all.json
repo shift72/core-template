@@ -1332,5 +1332,17 @@
   },
   "pricing_ownership_promo": {
     "other": "Искупити"
+  },
+  "subscription_recurrence_daily": {
+    "other": "дневно"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "недељно"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "месечно"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "годишње"
   }
 }

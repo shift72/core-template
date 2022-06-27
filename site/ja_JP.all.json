@@ -1328,5 +1328,17 @@
   },
   "pricing_ownership_promo": {
     "other": "償還"
+  },
+  "subscription_recurrence_daily": {
+    "other": "毎日"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "毎週"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "毎月"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "毎年"
   }
 }

@@ -1339,5 +1339,17 @@
   },
   "pricing_ownership_promo": {
     "other": "Tilgen"
+  },
+  "subscription_recurrence_daily": {
+    "other": "Täglich"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "wöchentlich"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "monatlich"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "jährlich"
   }
 }

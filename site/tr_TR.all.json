@@ -1330,5 +1330,17 @@
   },
   "pricing_ownership_promo": {
     "other": "Tazmin etmek"
+  },
+  "subscription_recurrence_daily": {
+    "other": "günlük"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "haftalık"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "aylık"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "yıllık"
   }
 }

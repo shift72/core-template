@@ -1339,5 +1339,17 @@
   },
   "pricing_ownership_promo": {
     "other": "Indløs"
+  },
+  "subscription_recurrence_daily": {
+    "other": "daglige"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "ugentlig"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "månedlige"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "årligt"
   }
 }

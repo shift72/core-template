@@ -1356,5 +1356,17 @@
   },
   "pricing_ownership_promo": {
     "other": "Выкупать"
+  },
+  "subscription_recurrence_daily": {
+    "other": "повседневная"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "еженедельно"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "ежемесячно"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "ежегодно"
   }
 }

@@ -1339,5 +1339,17 @@
   },
   "pricing_ownership_promo": {
     "other": "Lunastama"
+  },
+  "subscription_recurrence_daily": {
+    "other": "iga päev"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "iganädalane"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "igakuine"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "igal aastal"
   }
 }

@@ -1347,5 +1347,17 @@
   },
   "pricing_ownership_promo": {
     "other": "يسترد"
+  },
+  "subscription_recurrence_daily": {
+    "other": "اليومي"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "أسبوعي"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "شهريا"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "سنوي"
   }
 }

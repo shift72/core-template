@@ -1330,5 +1330,17 @@
   },
   "pricing_ownership_promo": {
     "other": "Racheter"
+  },
+  "subscription_recurrence_daily": {
+    "other": "du quotidien"
+  },
+  "subscription_recurrence_weekly": {
+    "other": "hebdomadaire"
+  },
+  "subscription_recurrence_monthly": {
+    "other": "mensuel"
+  },
+  "subscription_recurrence_yearly": {
+    "other": "annuel"
   }
 }
