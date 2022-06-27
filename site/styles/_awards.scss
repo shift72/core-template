@@ -1,21 +1,20 @@
 .meta-awards {
-
   &.meta-awards-all {
     display: grid;
     grid-auto-rows: 1fr;
     grid-gap: 12px 50px;
     margin-bottom: 25px;
 
-    .meta-award-nomination {
-      padding-top: 14px;
-      padding-bottom: 14px;
-    }
-
     @include media-breakpoint-up(md) {
       grid-template-columns: repeat(2, minmax(0, 320px));
     }
     @include media-breakpoint-up(xl) {
       margin-bottom: 45px;
+    }
+
+    .meta-award-nomination {
+      padding-bottom: 14px;
+      padding-top: 14px;
     }
   }
 
