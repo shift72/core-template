@@ -94,6 +94,7 @@ s72-carousel {
 
 .carousel-item-caption {
   @extend .carousel-bottom-gradient;
+
   bottom: 0;
   display: flex;
   flex-direction: column;
@@ -113,7 +114,6 @@ s72-carousel {
   }
 
   .meta-awards {
-    margin-bottom: 20px;
     @include media-breakpoint-up(lg) {
       justify-content: end;
       margin-bottom: 8px;
@@ -122,6 +122,7 @@ s72-carousel {
 
   .sponsor-awards-wrapper {
     color: var(--body-color);
+
     @include media-breakpoint-up(lg) {
       align-self: flex-end;
       flex-shrink: 0;
@@ -131,7 +132,6 @@ s72-carousel {
   }
 
   .sponsor {
-    margin-bottom: 24px;
     @include media-breakpoint-up(lg) {
       text-align: right;
     }
