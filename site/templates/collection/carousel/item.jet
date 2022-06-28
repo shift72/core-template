@@ -17,7 +17,12 @@
       {{if showItemContent}}
         <div class="carousel-item-caption">
           {{if item.ItemType == "film"}}
-            {{yield sponsor(hideLink="true") item.InnerItem}}
+            {{if len(item.InnerItem.AwardCategories) > 0 || item.InnerItem.ImageMap["Sponsor"]}}
+              <div class="sponsor-awards-wrapper">
+                {{yield sponsor(hideLink="true") item.InnerItem}}
+                {{yield awardsCarousel() item.InnerItem}}
+              </div>
+            {{end}}
           {{end}}
           <div class="meta-item-content">
             {{yield carouselItemTitle(title=item.GetTitle(i18n))}}
@@ -31,8 +36,6 @@
             {{yield ctaButtons(itemType=item.ItemType) item.InnerItem}}
 
             <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
-
-            {{yield awardsCarousel() item.InnerItem}}
           </div>
         </div>
       {{end}}

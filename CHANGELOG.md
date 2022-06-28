@@ -18,8 +18,13 @@
 - Carousel height now scales based on browser window height.
 - Fix font weight on the can-be-watched button to match primary button styling
 - Replaces nav_homepage and site_owner translations with dynamic data via Kibble function.
+- Grouped carousel awards component with sponsor logo
+
+### Added
+- Language strings for shopping_card_update_reason_expired
 - Carousel heading is limited to a maximum of 3 lines.
 - Language strings changed for shopping_complete_promo_only
+
 
 ## [1.0.0](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...1.0.0)
 
