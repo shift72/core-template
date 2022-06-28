@@ -1144,7 +1144,7 @@
     "other": "(vanhentunut)"
   },
   "shopping_card_use_other": {
-    "other": "Käytä uutta korttia"
+    "other": "Lisää uusi kortti"
   },
   "shopping_card_use_new_card": {
     "other": "Vaihda kortti"
@@ -1330,5 +1330,5 @@
   },
   "pricing_ownership_promo": {
     "other": "Lunastaa"
-    }
+  }
 }
