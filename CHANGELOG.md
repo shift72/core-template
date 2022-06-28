@@ -1,6 +1,7 @@
 # Changelog
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.0.0...HEAD)
+- Text label on save credit card component changed to "Add new card" 
 
 ### Changed
 - Awards icon from star to laurel
