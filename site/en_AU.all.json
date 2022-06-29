@@ -1323,7 +1323,7 @@
     "other": "Please enter a valid promo code."
   },
   "shopping_complete_promo_only": {
-    "other": "Success! You can now watch {{.Title}}."
+    "other": "You can now watch {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Redeem"

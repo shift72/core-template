@@ -83,14 +83,10 @@
 }
 
 .meta-item-synopsis {
-  color: $meta-item-body-color;
   display: none;
-  font-size: 12px;
-  font-weight: $font-weight-normal;
 
   @include media-breakpoint-up(lg) {
     display: block;
-    font-size: 12px;
     padding-top: 10px;
   }
 }

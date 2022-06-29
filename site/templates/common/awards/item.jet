@@ -1,8 +1,8 @@
 {{block awardNominations()}}
   {{ if isset(.AwardCategories) && (len(.AwardCategories) > 0) }}
-    <div class="meta-awards row mt-2p5 meta-awards-all">
+    <div class="meta-awards meta-awards-all">
     {{ range .AwardCategories }}
-      <div class="meta-award-nomination mb-3 col-12 col-sm-8 col-lg-6 col-xl-4">
+      <div class="meta-award-nomination">
         <span><i class="meta-award-nomination-icon"></i></span>
         <span>{{ .DisplayLabel }}</span>
       </div>

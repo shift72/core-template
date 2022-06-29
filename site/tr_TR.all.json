@@ -1323,7 +1323,7 @@
     "other": "Lütfen geçerli bir promosyon kodu girin."
   },
   "shopping_complete_promo_only": {
-    "other": "Başarı! Artık {{.Title}} izleyebilirsiniz."
+    "other": "Artık {{.Title}} izleyebilirsiniz."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Tazmin etmek"

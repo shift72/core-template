@@ -1332,7 +1332,7 @@
     "other": "Sisestage kehtiv sooduskood."
   },
   "shopping_complete_promo_only": {
-    "other": "Edu! Nüüd saate vaadata {{.Title}}."
+    "other": "Nüüd saate vaadata {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Lunastama"

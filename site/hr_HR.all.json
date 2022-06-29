@@ -1317,7 +1317,7 @@
     "other": "Unesite važeći promotivni kod."
   },
   "shopping_complete_promo_only": {
-    "other": "Uspjeh! Sada možete gledati {{.Title}}."
+    "other": "Sada možete gledati {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Otkupiti"

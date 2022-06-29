@@ -1,10 +1,8 @@
 s72-availability-label {
-  font-weight: $font-weight-light;
   .availability-state {
     @extend .d-flex;
     @extend .mb-2;
-    font-size: 16px;
-    letter-spacing: 0.4px;
+    @include body-1-style;
     line-height: 24px;
 
     &::before {
