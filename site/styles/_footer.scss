@@ -62,9 +62,8 @@ footer {
 }
 
 .copyright-statement {
-  font-size: 12px;
+  @include body-2-style;
   margin: 0 0 7px;
-  opacity: 0.8;
   text-align: center;
 
   @include media-breakpoint-up(xl) {
@@ -73,14 +72,12 @@ footer {
 }
 
 .powered-by {
-  color: rgba(var(--body-color-rgb), 0.8);
-  font-size: 12px;
-  font-weight: $font-weight-normal;
+  @include body-2-style;
   margin: 0;
   text-align: center;
 
   a {
-    font-weight: $font-weight-bold;
+    @include caption-1-style;
   }
 }
 
@@ -98,9 +95,8 @@ footer {
   }
 
   .app-badge-title {
-    font-size: 16px;
-    font-weight: $font-weight-normal;
-    margin-bottom: 12px;
+    @include body-1-style;
+    margin-bottom: 20px;
     text-align: center;
   }
 

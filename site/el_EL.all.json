@@ -733,7 +733,7 @@
     "other": "Πρόσθεσε στη λίστα μου."
   },
   "userwishlist_button_remove": {
-    "other": "Η λίστα μου."
+    "other": "Κατάργηση από τη λίστα μου"
   },
   "userwishlist_button_add_compact": {
     "other": "Η λίστα μου."
@@ -1323,7 +1323,7 @@
     "other": "Εισαγάγετε έναν έγκυρο κωδικό προσφοράς."
   },
   "shopping_complete_promo_only": {
-    "other": "Επιτυχία! Τώρα μπορείτε να παρακολουθήσετε {{.Title}}."
+    "other": "Τώρα μπορείτε να παρακολουθήσετε {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Εξαργυρώνω"

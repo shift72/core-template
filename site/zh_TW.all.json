@@ -808,7 +808,7 @@
     "other": "加入我的追蹤片單"
   },
   "userwishlist_button_remove": {
-    "other": "我的追蹤片單"
+    "other": "从我的列表中删除"
   },
   "userwishlist_button_add_compact": {
     "other": "我的追蹤片單"
@@ -1321,7 +1321,7 @@
     "other": "請輸入有效的促銷代碼。"
   },
   "shopping_complete_promo_only": {
-    "other": "成功！您現在可以觀看{{.Title}}。"
+    "other": "您現在可以觀看{{.Title}}。"
   },
   "shopping_action_redeem_promo_code": {
     "other": "贖回"

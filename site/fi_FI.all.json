@@ -698,7 +698,7 @@
     "other": "Lisää listaani"
   },
   "userwishlist_button_remove": {
-    "other": "Listani"
+    "other": "Poista listaltani"
   },
   "userwishlist_button_add_compact": {
     "other": "Listani"
@@ -1323,7 +1323,7 @@
     "other": "Anna kelvollinen tarjouskoodi."
   },
   "shopping_complete_promo_only": {
-    "other": "Menestys! Voit nyt katsoa {{.Title}}."
+    "other": "Voit nyt katsoa {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Lunastaa"

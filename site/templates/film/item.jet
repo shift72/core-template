@@ -55,7 +55,6 @@
             <br>
           {{end}}
 
-          {{yield awardNominations() film}}
           <div class="element-switcher-wrapper">
             <s72-element-switcher>
               {{if isEnabled("element_switcher_enabled")}}
@@ -81,7 +80,7 @@
                     <div class="meta-detail-crew">
                       <h2>{{member.Job}}</h2>
                       {{ path := "/search.html?q=" + member.Name }}
-                      <a href="{{ routeToPath(path) }}">{{member.Name}}</a>
+                      <p><a href="{{ routeToPath(path) }}">{{member.Name}}</a></p>
                     </div>
                   {{end}}
                   {{if len(film.Languages) > 0 }}
@@ -145,6 +144,7 @@
             </s72-element-switcher>
             {{yield sponsor() film}}
           </div>
+          {{yield awardNominations() film}}
           {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}
             <section class="meta-detail-bonus-content" aria-label="{{i18n("meta_detail_bonus_title")}}">
               <h2>{{i18n("meta_detail_bonus_title")}}</h2>

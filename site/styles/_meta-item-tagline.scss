@@ -1,10 +1,6 @@
 .meta-item-tagline {
   @extend .list-inline;
-  font-size: 12px;
-  @include media-breakpoint-up(md) {
-    font-size: 14px;
-  }
-
+  @include overline-style;
   .meta-item-tagline-item,
   .meta-item-tagline-divider {
     @extend .d-inline;
@@ -57,5 +53,5 @@
   align-items: center;
   display: flex !important;
   padding-bottom: 14px;
-  padding-top: 8px;
+  padding-top: 5px;
 }

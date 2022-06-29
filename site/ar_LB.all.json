@@ -805,7 +805,7 @@
     "other": "أضف إلى قائمتي"
   },
   "userwishlist_button_remove": {
-    "other": "قائمتي"
+    "other": "إزالة من قائمتي"
   },
   "userwishlist_button_add_compact": {
     "other": "قائمتي"
@@ -1340,7 +1340,7 @@
     "other": "الرجاء إدخال رمز ترويجي صالح."
   },
   "shopping_complete_promo_only": {
-    "other": "النجاح! يمكنك الآن {{.Title}}."
+    "other": "يمكنك الآن مشاهدة {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "يسترد"

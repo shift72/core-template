@@ -733,7 +733,7 @@
     "other": "Adicionar à minha lista"
   },
   "userwishlist_button_remove": {
-    "other": "Minha Lista"
+    "other": "Remover da minha lista"
   },
   "userwishlist_button_add_compact": {
     "other": "Minha Lista"
@@ -1323,7 +1323,7 @@
     "other": "Insira um código promocional válido."
   },
   "shopping_complete_promo_only": {
-    "other": "Sucesso! Agora você pode assistir {{.Title}}."
+    "other": "Agora você pode assistir {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Resgatar"

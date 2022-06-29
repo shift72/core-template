@@ -775,7 +775,7 @@
     "other": "Toevoegen aan Mijn Lijst"
   },
   "userwishlist_button_remove": {
-    "other": "Mijn Lijst"
+    "other": "Verwijderen uit mijn lijst"
   },
   "userwishlist_button_add_compact": {
     "other": "Mijn Lijst"
@@ -1323,7 +1323,7 @@
     "other": "Voer een geldige promotiecode in."
   },
   "shopping_complete_promo_only": {
-    "other": "Succes! Je kunt nu {{.Title}} bekijken."
+    "other": "Je kunt nu {{.Title}} bekijken."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Inwisselen"

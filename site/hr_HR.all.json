@@ -792,7 +792,7 @@
     "other": "Dodaj na moj popis"
   },
   "userwishlist_button_remove": {
-    "other": "Moj popis"
+    "other": "Ukloni s moje liste"
   },
   "userwishlist_button_add_compact": {
     "other": "Moj popis"
@@ -1317,7 +1317,7 @@
     "other": "Unesite važeći promotivni kod."
   },
   "shopping_complete_promo_only": {
-    "other": "Uspjeh! Sada možete gledati {{.Title}}."
+    "other": "Sada možete gledati {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Otkupiti"

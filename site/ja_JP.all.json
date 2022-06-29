@@ -698,7 +698,7 @@
     "other": "マイリストに追加"
   },
   "userwishlist_button_remove": {
-    "other": "マイリスト"
+    "other": "マイリストから削除"
   },
   "userwishlist_button_add_compact": {
     "other": "マイリスト"
@@ -1321,7 +1321,7 @@
     "other": "有効なプロモーションコードを入力してください。"
   },
   "shopping_complete_promo_only": {
-    "other": "成功！これで、 {{.Title}}を見ることができます。"
+    "other": "これで、 {{.Title}}を見ることができます。"
   },
   "shopping_action_redeem_promo_code": {
     "other": "償還"

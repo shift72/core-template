@@ -790,7 +790,7 @@
     "other": "Tilføj til Min liste"
   },
   "userwishlist_button_remove": {
-    "other": "Min liste"
+    "other": "Fjern fra Min liste"
   },
   "userwishlist_button_add_compact": {
     "other": "Min liste"
@@ -1332,7 +1332,7 @@
     "other": "Indtast venligst en gyldig kampagnekode."
   },
   "shopping_complete_promo_only": {
-    "other": "Succes! Du kan nu se {{.Title}}."
+    "other": "Du kan nu se {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Indløs"

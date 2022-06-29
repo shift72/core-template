@@ -817,7 +817,7 @@
     "other": "Додати до мого списку"
   },
   "userwishlist_button_remove": {
-    "other": "Мій список"
+    "other": "Видалити з мого списку"
   },
   "userwishlist_button_add_compact": {
     "other": "Мій список"
@@ -1355,7 +1355,7 @@
     "other": "Введіть дійсний промо-код."
   },
   "shopping_complete_promo_only": {
-    "other": "Успіху! Тепер ви можете дивитися {{.Title}}."
+    "other": "Тепер ви можете дивитися {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Викупити"
