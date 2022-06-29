@@ -19,6 +19,7 @@
 - Fix font weight on the can-be-watched button to match primary button styling
 - Replaces nav_homepage and site_owner translations with dynamic data via Kibble function.
 - Carousel heading is limited to a maximum of 3 lines.
+- Meta detail page pricing buttons full width stacked on mobile.
 
 ## [1.0.0](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...1.0.0)
 
