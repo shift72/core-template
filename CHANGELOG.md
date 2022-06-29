@@ -1,13 +1,11 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.1.0...HEAD)
+
+## [Unreleased](https://github.com/shift72/core-template/compare/1.0.0...HEAD)
+- Text label on save credit card component changed to "Add new card" 
 
 ### Added
 - Tooltips on meta detail/item CTA buttons.
-
-## [1.1.0](https://github.com/shift72/core-template/compare/1.0.0...1.1.0)
-
-### Added
 - Language strings for shopping_card_update_reason_expired
 - Carousel images can now be positioned via variables.
 
