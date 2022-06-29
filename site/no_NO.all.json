@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Innstillinger"
   },
@@ -69,9 +66,6 @@
   },
   "404_page_content": {
     "other": "<p>Beklager, det ser ut til at siden du forsøker å finne ikke eksisterer.</p><p>Den kan ha blitt flyttet eller slettet, eller kanskje adressen har blitt feilstavet.</p><p>Forsøk å gå tilbake til startsiden for å finne hva du leter etter.</p><p><a href=\"{{.URL}}\">Tilbake til startsiden</a></p>"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "nav_signin": {
     "other": "Logg inn"
@@ -745,7 +739,7 @@
     "other": "Legg til i listen min"
   },
   "userwishlist_button_remove": {
-    "other": "Min liste"
+    "other": "Fjern fra Min liste"
   },
   "userwishlist_button_add_compact": {
     "other": "Min liste"
@@ -887,7 +881,7 @@
     "other": "(utløpt)"
   },
   "shopping_card_use_other": {
-    "other": "Bruk et nytt kort"
+    "other": "Legg til nytt kort"
   },
   "shopping_card_use_new_card": {
     "other": "Bytt kort"
@@ -1021,7 +1015,7 @@
     "other": "Fullstendig"
   },
   "shopping_complete_subscription": {
-    "other": "Abonnementskjøpet var vellykket. Du abonnerer nå på {{.Title}} ."
+    "other": "Abonnementskjøpet var vellykket. Du abonnerer nå på {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "<a href=\"/\">Bla deg gjerne rundt</a> på siden, eller <a href=\"/search.html\">søk</a> etter noe spesifikt."
@@ -1312,5 +1306,29 @@
   },
   "sponsor_image_alt": {
     "other": "sponsorlogo"
+  },
+  "subscribe_to_watch": {
+    "other": "Abonner for å se"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} elementer"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Oppdater kredittkortet ditt. Støttede kort er Visa, Mastercard og American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Koden ble brukt."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Vennligst skriv inn en gyldig kampanjekode."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Du kan nå se {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Løs inn"
+  },
+  "pricing_ownership_promo": {
+    "other": "Løs inn"
   }
 }

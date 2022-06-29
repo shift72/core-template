@@ -26,8 +26,8 @@
     {{end}}
 
     {{if isset(.Items)}}
-      {{yield item(class="items") content}}
-        {{i18n("bundle_items_all_films", len(.Items))}}
+      {{yield taglineItem() content}}
+        {{i18n("bundle_items_generic", len(.Items))}}
       {{end}}
       {{showDivider = true}}
     {{end}}

@@ -18,27 +18,7 @@
   .verb {
     color: $button-text-color;
     font-size: 18px;
-    font-weight: $font-weight-bold;
-  }
-}
-
-.meta-detail-content .meta-detail-buttons,
-.meta-item-buttons {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  .owned-custom-container {
-    display: none;
-
-    &.s72-show {
-      display: block;
-    }
-  }
-
-  .s72-btn-play {
-    margin-right: 8px;
+    font-weight: $font-weight-normal;
   }
 }
 

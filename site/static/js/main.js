@@ -478,11 +478,10 @@ function documentReady(app) {
     }
   }
 
-  document.querySelectorAll('.btn-trailer').forEach(btn => {
+  document.querySelectorAll('.s72-btn-trailer:not(.s72-btn-play)').forEach(btn => {
     btn.addEventListener('click', e => {
       e.preventDefault();
       e.stopPropagation();
-      window.location = btn.getAttribute('data-url');
     });
   });
 

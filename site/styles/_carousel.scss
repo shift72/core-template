@@ -1,31 +1,24 @@
 s72-carousel {
-  display: block;
-  height: var(--s72-carousel-container-height);
-  margin: 0 auto;
-  position: static;
+  display: flex;
+  height: var(--carousel-height);
+  margin-bottom: 30px;
+  max-height: 800px;
+  min-height: 530px;
   width: 100%;
+
   @include media-breakpoint-up(sm) {
-    height: var(--s72-carousel-container-height-sm);
+    height: var(--carousel-height-sm);
   }
+
   @include media-breakpoint-up(lg) {
-    height: var(--s72-carousel-container-height-lg);
+    height: var(--carousel-height-lg);
   }
 }
 
 .page-collection-carousel {
   display: flex;
   flex-direction: column;
-  height: var(--carousel-height);
-  left: 0;
-  position: absolute;
-  top: 0;
   width: 100%;
-  @include media-breakpoint-up(sm) {
-    height: var(--carousel-height-sm);
-  }
-  @include media-breakpoint-up(lg) {
-    height: var(--carousel-height-lg);
-  }
 }
 
 .s72-carousel-slides {
@@ -34,15 +27,14 @@ s72-carousel {
   margin-bottom: 10px;
   overflow: hidden;
   width: 100%;
+
   @include media-breakpoint-up(sm) {
     margin-bottom: 40px;
   }
-  .s72-pricing-button-container {
-    white-space: nowrap;
-  }
 }
+
 .carousel-item-link > s72-image {
-  height: 100%;
+  height: 90%;
   position: absolute;
   top: 0;
   width: 100%;
@@ -50,8 +42,15 @@ s72-carousel {
   img {
     height: 100%;
     object-fit: cover;
+    object-position: var(--carousel-image-object-position);
     width: 100%;
     z-index: -1;
+    @include media-breakpoint-up(sm) {
+      object-position: var(--carousel-image-object-position-sm);
+    }
+    @include media-breakpoint-up(lg) {
+      object-position: var(--carousel-image-object-position-lg);
+    }
   }
 }
 
@@ -95,6 +94,7 @@ s72-carousel {
 
 .carousel-item-caption {
   @extend .carousel-bottom-gradient;
+
   bottom: 0;
   display: flex;
   flex-direction: column;
@@ -104,27 +104,45 @@ s72-carousel {
   width: 100%;
   z-index: 999;
 
-  @include media-breakpoint-up(lg) {
-    flex-direction: row;
-    padding: var(--carousel-bottom-gradient-height) 50px 1px;
+  @include media-breakpoint-up(sm) {
+    padding: var(--carousel-bottom-gradient-height-sm) 20px 1px;
   }
 
-  .sponsor {
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+    padding: var(--carousel-bottom-gradient-height-lg) 50px 1px;
+  }
+
+  .meta-awards {
+    @include media-breakpoint-up(lg) {
+      justify-content: end;
+      margin-bottom: 8px;
+    }
+  }
+
+  .sponsor-awards-wrapper {
+    color: var(--body-color);
+
     @include media-breakpoint-up(lg) {
       align-self: flex-end;
+      flex-shrink: 0;
       margin-left: auto;
-      margin-bottom: 8px;
       order: 1;
     }
   }
 
+  .sponsor {
+    @include media-breakpoint-up(lg) {
+      text-align: right;
+    }
+  }
+
   .availability-bg {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .availability-state {
     color: var(--body-color);
-    font-size: 12px;
     margin-bottom: 0 !important; // >:(
     text-transform: none;
   }
@@ -134,24 +152,15 @@ s72-carousel {
   }
 
   h3 {
-    color: var(--body-color);
-    font-size: 28px;
-    font-weight: $font-weight-normal;
-    margin-bottom: 8px;
+    @include heading-1-style;
     max-width: 930px;
-    padding-bottom: 0;
 
-    @include media-breakpoint-up(md) {
-      font-size: 38px;
-    }
-
-    @include media-breakpoint-up(lg) {
-      font-size: 46px;
-    }
-
-    @include media-breakpoint-up(xxxl) {
-      font-size: 46px;
-    }
+    /* stylelint-disable */
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    /* stylelint-enable */
   }
 
   h4 {
@@ -181,97 +190,12 @@ s72-carousel {
 
   .meta-item-synopsis {
     display: none;
-    font-size: 16px;
-    font-weight: $font-weight-normal;
     margin-bottom: 8px;
     max-width: 600px;
     padding-top: 0;
 
     @include media-breakpoint-up(xs) {
       display: block;
-    }
-  }
-
-  .meta-item-synopsis p {
-    margin-bottom: 0;
-  }
-
-  .meta-item-buttons {
-    gap: 20px 16px;
-    margin-bottom: 8px;
-    .s72-btn-purchase,
-    .s72-btn-rent,
-    .s72-btn-trailer,
-    .s72-btn-wishlist {
-      margin: 0;
-    }
-  }
-  .meta-item-extras {
-    display: flex;
-    gap: 20px 16px;
-  }
-
-  // Empty relish components still have gaps applied so hide them.
-  can-be-watched-button,
-  s72-userwishlist-button {
-    &:empty {
-      display: none;
-    }
-  }
-
-  s72-play-button {
-    flex-grow: 1;
-    .s72-btn-play {
-      margin: 0;
-      min-width: 140px;
-      padding: 6px 12px;
-      width: 100%;
-    }
-
-    .s72-btn-play-icon {
-      display: none;
-    }
-
-    .verb {
-      font-size: 1rem;
-    }
-  }
-
-  s72-pricing-buttons {
-    width: 100%;
-  }
-
-  .s72-pricing-button-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-
-  .s72-btn-purchase,
-  .s72-btn-rent {
-    flex-grow: 1;
-    @include media-breakpoint-up(sm) {
-      flex-grow: unset;
-      width: 140px;
-    }
-  }
-
-  can-be-watched-button {
-    flex-grow: 1;
-  }
-
-  .s72-btn-can-be-watched {
-    flex-grow: 1;
-    min-width: 140px;
-    padding: 6px 12px;
-
-    .padder {
-      display: none;
-    }
-
-    .s72-btn-can-be-watched-label {
-      font-size: 1rem;
-      font-weight: 400;
     }
   }
 }

@@ -11,6 +11,7 @@
   --body-bg-accent-rgb: 25, 25, 25; // darken(body-bg, 10%) OR lighten(body-bg, 10%)
   --link-color-hover-rgb: 217, 217, 217; // darken(body-color, 15%)
   --input-focus-border-color-rgb: 131, 210, 216; // lighten(primary, 25%)
+  --main-content-icon-hover-rgb: 207, 207, 207; // white .8 opacity
 
   --primary: rgb(var(--primary-rgb));
   --secondary: rgb(var(--secondary-rgb));
@@ -20,6 +21,10 @@
   --link-color: var(--body-color);
   --link-color-hover: rgb(var(--link-color-hover-rgb));
   --input-focus-border-color: rgb(var(--input-focus-border-color-rgb));
+  --main-content-icon-hover: rgb(var(--main-content-icon-hover-rgb));
+  --tooltip-color: var(--body-bg, #000);
+  --tooltip-bg: var(--primary, #00a3ff);
+  --tooltip-arrow-color: var(--tooltip-bg);
 
   --input-height: 40px;
 
@@ -29,17 +34,22 @@
   --navbar-brand-min-width-lg: 126px;
   --navbar-brand-min-width-xl: 126px;
 
-  --carousel-height: 560px;
-  --carousel-height-sm: 560px;
-  --carousel-height-lg: 620px;
-  --carousel-bottom-gradient-height: 220px; // Increase this to 800px for light theme.
+  --carousel-height: 75vh;
+  --carousel-height-sm: 75vh;
+  --carousel-height-lg: 75vh;
+  --carousel-bottom-gradient-height: 200px; // Increase this to 300px for light theme.
+  --carousel-bottom-gradient-height-sm: 200px; // Increase this to 300px for light theme.
+  --carousel-bottom-gradient-height-lg: 200px; // Increase this to 600px for light theme.
+  --carousel-image-object-position: center;
+  --carousel-image-object-position-sm: center;
+  --carousel-image-object-position-lg: center;
 
-  // This changes the height of s72-carousel. We need this because the container inside s72-carousel is absolutely positioned.
-  // s72-carousel is being used to push down the content below the carousel. This is a temporary fix.
-  // Calculed by: carousel-height - height of anything above the carousel + 30px.
-  --s72-carousel-container-height: 480px;
-  --s72-carousel-container-height-sm: 480px; // 550 - 100 + 30
-  --s72-carousel-container-height-lg: 478px; // 620 - 172 + 30
+  --page-padding-top: 120px;
+  --page-padding-top-md: 120px;
+  --page-padding-top-lg: 180px;
+  --page-detail-padding-top: 120px;
+  --page-detail-padding-top-md: 120px;
+  --page-detail-padding-top-lg: 180px;
 }
 
 // Bootstrap 4 overrides START

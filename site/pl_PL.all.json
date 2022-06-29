@@ -1,7 +1,4 @@
 {
-  "site_owner": {
-    "other": "ABC Cinemas"
-  },
   "settings_title": {
     "other": "Configuración"
   },
@@ -744,7 +741,7 @@
     "other": "Dodaj do mojej listy"
   },
   "userwishlist_button_remove": {
-    "other": "Moja lista"
+    "other": "Usuń z Mojej listy"
   },
   "userwishlist_button_add_compact": {
     "other": "Moja lista"
@@ -912,7 +909,7 @@
     "other": "Kompletny"
   },
   "shopping_complete_subscription": {
-    "other": "Twój zakup subskrypcji się powiódł. Subskrybujesz teraz {{.Title}} ."
+    "other": "Twój zakup subskrypcji się powiódł. Subskrybujesz teraz {{.Title}}."
   },
   "shopping_complete_subscription_browse": {
     "other": "Możesz swobodnie <a href=\"/\">przeglądać</a> witrynę lub <a href=\"/search.html\">szukać</a> czegoś konkretnego."
@@ -1208,7 +1205,7 @@
     "other": "(wygasły)"
   },
   "shopping_card_use_other": {
-    "other": "Użyj nowej karty"
+    "other": "Dodaj nową kartę"
   },
   "shopping_card_use_new_card": {
     "other": "Zmień kartę"
@@ -1241,9 +1238,6 @@
   "episode_count": {
     "one": "1 Epizod",
     "other": "{{.Count}} Epizod"
-  },
-  "nav_homepage": {
-    "other": "ABC Cinemas"
   },
   "user_error_too_many_pin_errors": {
     "other": "<p>Wygląda na to, że masz problemy.</p><p>Zresetuj kod PIN lub skontaktuj się z nami w sprawie <a href=\"{{.HelpURL}}\" target=\"_blank\">Wsparcie</a>"
@@ -1361,5 +1355,29 @@
   },
   "sponsor_image_alt": {
     "other": "logo sponsora"
+  },
+  "subscribe_to_watch": {
+    "other": "Zapisz się do oglądania"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} rzeczy"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Zaktualizuj swoją kartę kredytową. Obsługiwane karty to Visa, Mastercard i American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Kod został pomyślnie zastosowany."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Wprowadź prawidłowy kod promocyjny."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Możesz teraz oglądać {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Odkupić"
+  },
+  "pricing_ownership_promo": {
+    "other": "Odkupić"
   }
 }

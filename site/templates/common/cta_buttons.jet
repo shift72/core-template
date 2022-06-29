@@ -1,0 +1,62 @@
+{{import "./social-media-buttons.jet"}}
+
+{{block ctaButtons(itemType)}}
+  {{isFilm := itemType == "film"}}
+  {{isSeason := itemType == "tvseason"}}
+  {{isEpisode := itemType == "tvepisode"}}
+  {{isBundle := itemType == "bundle"}}
+
+  {{slug := .Slug}}
+  {{trailerURL := isBundle ? .PromoURL : (isFilm || isSeason) && len(.Trailers) > 0 ? .Trailers[0].URL : ""}}
+
+  {{showPricingButtons := isFilm || isSeason || isBundle}}
+  {{showPlayButton := isFilm || isSeason || isEpisode}}
+  {{showCanBeWatchedButton := isFilm}}
+  {{showTrailerButton := trailerURL != ""}}
+  {{showWishlistButton := isFilm || isSeason || isEpisode}}
+  {{showShareButton := isFilm || isSeason || isEpisode || isBundle}}
+
+  {{showCtaButtons := showPricingButtons || showPlayButton || showCanBeWatchedButton || showTrailerButton || showWishlistButton || showShareButton}}
+  {{showExtraButtons := showTrailerButton || showWishlistButton || showShareButton}}
+
+  {{if showCtaButtons}}
+    <div class="cta-buttons">
+
+      {{if showPricingButtons}}
+        <s72-pricing-buttons data-slug="{{slug}}"></s72-pricing-buttons>
+      {{end}}
+
+      {{if showPlayButton}}
+        <s72-play-button data-slug="{{slug}}"></s72-play-button>
+      {{end}}
+
+      {{if showCanBeWatchedButton}}
+        {{dataURL := .CustomFields.GetString("can_be_watched_button_link", "")}}
+        {{dataLabel := .CustomFields.GetString("can_be_watched_button_text", "")}}
+        <can-be-watched-button data-slug="{{slug}}" data-url="{{dataURL}}" data-label="{{dataLabel}}"></can-be-watched-button>
+      {{end}}
+
+      {{if showExtraButtons}}
+        <div class="extra-buttons">
+
+          {{if showTrailerButton}}
+            {{dataLabel := i18n("play_trailer")}}
+            <s72-modal-player src="{{trailerURL}}" class="s72-btn-trailer" data-slug="{{slug}}" data-label="{{dataLabel}}" autoplay="querystring" layout="tooltip"></s72-modal-player>
+          {{end}}
+
+          {{if showWishlistButton}}
+            <s72-userwishlist-button data-slug="{{slug}}" class="btn-wishlist" layout="tooltip"></s72-userwishlist-button>
+          {{end}}
+
+          {{if showShareButton}}
+            {{letterboxdID := isFilm ? .Refs.LetterboxdID : ""}}
+            {{shareURL := site.SiteConfig.SiteURL + routeToSlug(slug)}}
+            {{yield socialMediaButtons(url=shareURL, letterboxdID=letterboxdID)}}
+          {{end}}
+
+        </div>
+      {{end}}
+
+    </div>
+  {{end}}
+{{end}}

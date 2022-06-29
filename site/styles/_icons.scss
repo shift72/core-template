@@ -50,35 +50,35 @@
 }
 
 .fa-cc-visa::before {
-  content: '\e000';
+  content: '\e027';
 }
 
 .fa-cc-stripe::before {
-  content: '\e001';
+  content: '\e026';
 }
 
 .fa-cc-paypal::before {
-  content: '\e002';
+  content: '\e025';
 }
 
 .fa-cc-mastercard::before {
-  content: '\e003';
+  content: '\e024';
 }
 
 .fa-cc-jcb::before {
-  content: '\e004';
+  content: '\e023';
 }
 
 .fa-cc-discover::before {
-  content: '\e005';
+  content: '\e022';
 }
 
 .fa-cc-diners-club::before {
-  content: '\e006';
+  content: '\e000';
 }
 
 .fa-cc-amex::before {
-  content: '\e007';
+  content: '\e002';
 }
 
 .fa-twitter::before {
@@ -154,13 +154,17 @@
 }
 
 .fa-circle::before {
-  content: '\e01c';
+  content: '\e001';
 }
 
 .fa-warning::before,
 .fa-exclamation-circle::before,
 .fa-exclamation-triangle::before {
   content: '\e01b';
+}
+
+.existing-card-icon {
+  font-size: 1.2rem;
 }
 
 s72-availability-label .availability-state::before {
@@ -207,4 +211,13 @@ s72-availability-label .availability-state::before {
 
 .alert svg {
   fill: var(--primary);
+}
+
+.fa-play-trailer::before,
+.fa-share-alt::before {
+  font-size: 23px;
+}
+
+.fa-play-trailer::before {
+  content: '\e01d';
 }
