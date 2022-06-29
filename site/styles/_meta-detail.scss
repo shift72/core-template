@@ -283,6 +283,19 @@ s72-element-switcher,
       font-size: 12px;
     }
   }
+
+  .s72-pricing-button-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include media-breakpoint-up(xs) {
+      display: grid;
+    }
+
+    .s72-subscribe {
+      flex-grow: 1;
+    }
+  }
 }
 
 .recommendations-collection {
