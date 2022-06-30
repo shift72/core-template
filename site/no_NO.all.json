@@ -887,7 +887,7 @@
     "other": "Bytt kort"
   },
   "shopping_info_ownership_plan": {
-    "other": "Intekening"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "fylle opp"
@@ -1330,5 +1330,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Løs inn"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Abonnement"
   }
 }

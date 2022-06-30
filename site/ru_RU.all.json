@@ -909,7 +909,7 @@
     "other": "Изменить карту"
   },
   "shopping_info_ownership_plan": {
-    "other": "Подписка"
+    "other": "План"
   },
   "shopping_action_credit": {
     "other": "Пополнить"
@@ -1356,5 +1356,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Выкупать"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Подписка"
   }
 }

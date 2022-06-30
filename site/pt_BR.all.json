@@ -971,7 +971,7 @@
     "other": "O cartão de crédito não está correto? <a href=\"{{.SubscriptionsURL}}\"> Clique aqui para atualizar seu cartão. </a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Inscrição"
+    "other": "Plano"
   },
   "shopping_action_credit": {
     "other": "Completar"
@@ -1330,5 +1330,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Resgatar"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Inscrição"
   }
 }

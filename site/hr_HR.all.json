@@ -1218,7 +1218,7 @@
     "other": "SD Only"
   },
   "shopping_info_ownership_plan": {
-    "other": "Pretplata"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "Dopuniti"
@@ -1324,5 +1324,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Otkupiti"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Pretplata"
   }
 }

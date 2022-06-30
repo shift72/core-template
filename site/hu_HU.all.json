@@ -887,7 +887,7 @@
     "other": "Válts kártyát"
   },
   "shopping_info_ownership_plan": {
-    "other": "Feliratkozás"
+    "other": "Terv"
   },
   "shopping_action_credit": {
     "other": "Feltölt"
@@ -1339,5 +1339,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Beváltani"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Feliratkozás"
   }
 }

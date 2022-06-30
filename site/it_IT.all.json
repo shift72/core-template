@@ -1224,7 +1224,7 @@
     "other": "Riempire"
   },
   "shopping_info_ownership_plan": {
-    "other": "Sottoscrizione"
+    "other": "Piano"
   },
   "usersubscriptions_change_payment_method_change": {
     "other": "Cambia carta di credito"
@@ -1330,5 +1330,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Riscattare"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Sottoscrizione"
   }
 }

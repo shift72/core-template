@@ -981,7 +981,7 @@
     "other": "Кредитна картка не правильна? <a href=\"{{.SubscriptionsURL}}\">Натисніть тут, щоб оновити свою картку.</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Підписка"
+    "other": "План"
   },
   "shopping_action_credit": {
     "other": "Поповнити"
@@ -1362,5 +1362,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Викупити"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Підписка"
   }
 }

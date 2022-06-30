@@ -1224,7 +1224,7 @@
     "other": "Aktualisieren Sie Ihre Kreditkarte. Unterstützte Karten sind Visa, Mastercard und American Express."
   },
   "shopping_info_ownership_plan": {
-    "other": "Abonnement"
+    "other": "Planen"
   },
   "shopping_action_credit": {
     "other": "Nachfüllen"
@@ -1339,5 +1339,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Tilgen"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Abonnement"
   }
 }

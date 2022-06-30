@@ -971,7 +971,7 @@
     "other": "信用卡錯誤 <a href=\"{{.SubscriptionsURL}}\">請按此更新。</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "訂閱"
+    "other": "计划"
   },
   "shopping_action_credit": {
     "other": "頂尖"
@@ -1328,5 +1328,8 @@
   },
   "pricing_ownership_promo": {
     "other": "贖回"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "订阅"
   }
 }

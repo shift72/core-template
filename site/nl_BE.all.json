@@ -938,7 +938,7 @@
     "other": "Creditcard niet correct? <a href=\"{{.SubscriptionsURL}}\">Klik hier om uw kaart bij te werken.</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Abonnement"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "Opwaarderen"
@@ -1330,5 +1330,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Inwisselen"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Abonnement"
   }
 }

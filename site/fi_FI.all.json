@@ -1153,7 +1153,7 @@
     "other": "Päivitä luottokorttisi. Tuetut kortit ovat Visa, Mastercard ja American Express."
   },
   "shopping_info_ownership_plan": {
-    "other": "Tilaus"
+    "other": "Suunnitelma"
   },
   "shopping_action_credit": {
     "other": "Täytä"
@@ -1330,5 +1330,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Lunastaa"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Tilaus"
   }
 }

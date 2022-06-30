@@ -1214,7 +1214,7 @@
     "other": "Zaktualizuj swoją kartę kredytową. Obsługiwane karty to Visa, Mastercard i American Express."
   },
   "shopping_info_ownership_plan": {
-    "other": "Subskrypcja"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "Uzupełniać"
@@ -1379,5 +1379,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Odkupić"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Subskrypcja"
   }
 }
