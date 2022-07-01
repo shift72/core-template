@@ -63,7 +63,7 @@
                     <div class="meta-detail-crew">
                       <h2>{{member.Job}}</h2>
                       {{ path := "/search.html?q=" + member.Name }}
-                      <a href="{{ routeToPath(path) }}"">{{member.Name}}</a>
+                      <p><a href="{{ routeToPath(path) }}"">{{member.Name}}</a></p>
                     </div>
                   {{end}}
                 </div>

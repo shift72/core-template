@@ -741,7 +741,7 @@
     "other": "Dodaj do mojej listy"
   },
   "userwishlist_button_remove": {
-    "other": "Moja lista"
+    "other": "Usuń z Mojej listy"
   },
   "userwishlist_button_add_compact": {
     "other": "Moja lista"
@@ -1205,7 +1205,7 @@
     "other": "(wygasły)"
   },
   "shopping_card_use_other": {
-    "other": "Użyj nowej karty"
+    "other": "Dodaj nową kartę"
   },
   "shopping_card_use_new_card": {
     "other": "Zmień kartę"
@@ -1214,7 +1214,7 @@
     "other": "Zaktualizuj swoją kartę kredytową. Obsługiwane karty to Visa, Mastercard i American Express."
   },
   "shopping_info_ownership_plan": {
-    "other": "Subskrypcja"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "Uzupełniać"
@@ -1372,12 +1372,15 @@
     "other": "Wprowadź prawidłowy kod promocyjny."
   },
   "shopping_complete_promo_only": {
-    "other": "Powodzenie! Możesz teraz oglądać {{.Title}}."
+    "other": "Możesz teraz oglądać {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Odkupić"
   },
   "pricing_ownership_promo": {
     "other": "Odkupić"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Subskrypcja"
   }
 }

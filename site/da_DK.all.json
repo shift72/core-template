@@ -790,7 +790,7 @@
     "other": "Tilføj til Min liste"
   },
   "userwishlist_button_remove": {
-    "other": "Min liste"
+    "other": "Fjern fra Min liste"
   },
   "userwishlist_button_add_compact": {
     "other": "Min liste"
@@ -938,7 +938,7 @@
     "other": "(udløbet)"
   },
   "shopping_card_use_other": {
-    "other": "Brug et nyt kort"
+    "other": "Tilføj nyt kort"
   },
   "shopping_card_use_new_card": {
     "other": "Skift kort"
@@ -953,7 +953,7 @@
     "other": "Kreditkort ikke korrekt? <a href=\"{{.SubscriptionsURL}}\">Klik her for at opdatere dit kort.</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Abonnement"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "Fyld op"
@@ -1332,12 +1332,15 @@
     "other": "Indtast venligst en gyldig kampagnekode."
   },
   "shopping_complete_promo_only": {
-    "other": "Succes! Du kan nu se {{.Title}}."
+    "other": "Du kan nu se {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Indløs"
   },
   "pricing_ownership_promo": {
     "other": "Indløs"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Abonnement"
   }
 }

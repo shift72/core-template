@@ -808,7 +808,7 @@
     "other": "Afegeix a la meva llista"
   },
   "userwishlist_button_remove": {
-    "other": "La meva llista"
+    "other": "Elimina de la meva llista"
   },
   "userwishlist_button_add_compact": {
     "other": "La meva llista"
@@ -956,7 +956,7 @@
     "other": "(caducat)"
   },
   "shopping_card_use_other": {
-    "other": "Utilitzeu una targeta nova"
+    "other": "Afegeix una targeta nova"
   },
   "shopping_card_use_new_card": {
     "other": "Canvia la targeta"
@@ -971,7 +971,7 @@
     "other": "La targeta de crèdit no és correcta? <a href=\"{{.SubscriptionsURL}}\">Feu clic aquí per actualitzar la vostra targeta.</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Subscripció"
+    "other": "Pla"
   },
   "shopping_action_credit": {
     "other": "Omplir"
@@ -1332,12 +1332,15 @@
     "other": "Introduïu un codi promocional vàlid."
   },
   "shopping_complete_promo_only": {
-    "other": "Èxit! Ja podeu veure {{.Title}}."
+    "other": "Ja podeu veure {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Redimir"
   },
   "pricing_ownership_promo": {
     "other": "Redimir"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Subscripció"
   }
 }

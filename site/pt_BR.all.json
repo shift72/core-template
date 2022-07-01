@@ -808,7 +808,7 @@
     "other": "Adicionar à minha lista"
   },
   "userwishlist_button_remove": {
-    "other": "Minha Lista"
+    "other": "Remover da minha lista"
   },
   "userwishlist_button_add_compact": {
     "other": "Minha Lista"
@@ -956,7 +956,7 @@
     "other": "(expirado)"
   },
   "shopping_card_use_other": {
-    "other": "Use um novo cartão."
+    "other": "Adicionar novo cartão"
   },
   "shopping_card_use_new_card": {
     "other": "Mudar cartão."
@@ -971,7 +971,7 @@
     "other": "O cartão de crédito não está correto? <a href=\"{{.SubscriptionsURL}}\"> Clique aqui para atualizar seu cartão. </a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Inscrição"
+    "other": "Plano"
   },
   "shopping_action_credit": {
     "other": "Completar"
@@ -1323,12 +1323,15 @@
     "other": "Insira um código promocional válido."
   },
   "shopping_complete_promo_only": {
-    "other": "Sucesso! Agora você pode assistir {{.Title}}."
+    "other": "Agora você pode assistir {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Resgatar"
   },
   "pricing_ownership_promo": {
     "other": "Resgatar"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Inscrição"
   }
 }

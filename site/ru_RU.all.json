@@ -760,7 +760,7 @@
     "other": "Добавить в мой список"
   },
   "userwishlist_button_remove": {
-    "other": "Мой список"
+    "other": "Удалить из моего списка"
   },
   "userwishlist_button_add_compact": {
     "other": "Мой список"
@@ -903,13 +903,13 @@
     "other": "(истекший)"
   },
   "shopping_card_use_other": {
-    "other": "Использовать новую карту"
+    "other": "Добавить новую карту"
   },
   "shopping_card_use_new_card": {
     "other": "Изменить карту"
   },
   "shopping_info_ownership_plan": {
-    "other": "Подписка"
+    "other": "План"
   },
   "shopping_action_credit": {
     "other": "Пополнить"
@@ -1349,12 +1349,15 @@
     "other": "Пожалуйста, введите действительный промо-код."
   },
   "shopping_complete_promo_only": {
-    "other": "Успех! Теперь вы можете смотреть {{.Title}}."
+    "other": "Теперь вы можете смотреть {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Выкупать"
   },
   "pricing_ownership_promo": {
     "other": "Выкупать"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Подписка"
   }
 }
