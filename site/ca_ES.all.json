@@ -971,7 +971,7 @@
     "other": "La targeta de crèdit no és correcta? <a href=\"{{.SubscriptionsURL}}\">Feu clic aquí per actualitzar la vostra targeta.</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Subscripció"
+    "other": "Pla"
   },
   "shopping_action_credit": {
     "other": "Omplir"
@@ -1339,5 +1339,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Redimir"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Subscripció"
   }
 }

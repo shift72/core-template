@@ -1203,7 +1203,7 @@
     "other": "Mettez à jour votre carte de crédit. Les cartes acceptées sont Visa, Mastercard et American Express."
   },
   "shopping_info_ownership_plan": {
-    "other": "Abonnement"
+    "other": "Planifier"
   },
   "shopping_action_credit": {
     "other": "Ajouter un crédit"
@@ -1330,5 +1330,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Racheter"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Abonnement"
   }
 }

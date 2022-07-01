@@ -1151,7 +1151,7 @@
     "other": "クレジットカードを更新します。 サポートされているカードは、Visa、Mastercard、AmericanExpressです。"
   },
   "shopping_info_ownership_plan": {
-    "other": "サブスクリプション"
+    "other": "プラン"
   },
   "shopping_action_credit": {
     "other": "補充"
@@ -1328,5 +1328,8 @@
   },
   "pricing_ownership_promo": {
     "other": "償還"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "サブスクリプション"
   }
 }

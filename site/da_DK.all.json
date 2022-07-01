@@ -953,7 +953,7 @@
     "other": "Kreditkort ikke korrekt? <a href=\"{{.SubscriptionsURL}}\">Klik her for at opdatere dit kort.</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Abonnement"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "Fyld op"
@@ -1339,5 +1339,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Indløs"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Abonnement"
   }
 }

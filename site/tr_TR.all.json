@@ -887,7 +887,7 @@
     "other": "Kartı değiştir "
   },
   "shopping_info_ownership_plan": {
-    "other": "Abonelik"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "Doldurmak"
@@ -1330,5 +1330,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Tazmin etmek"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "abonelik"
   }
 }
