@@ -26,7 +26,7 @@
     {{end}}
 
     {{if isset(.Items)}}
-      {{yield taglineItem() content}}
+      {{yield item() content}}
         {{i18n("bundle_items_generic", len(.Items))}}
       {{end}}
       {{showDivider = true}}
