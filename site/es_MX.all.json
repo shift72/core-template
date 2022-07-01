@@ -1106,10 +1106,10 @@
     "other": "Cancelar mi suscripción"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Cancelar"
+    "other": "No, gracias"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Sí, cancelar mi suscripción"
+    "other": "Sí, cancelar"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "¿Cancelar suscripción?"

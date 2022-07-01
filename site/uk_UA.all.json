@@ -1008,10 +1008,10 @@
     "other": "Скасувати мою підписку"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Скасувати"
+    "other": "Ні, дякую"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Так, скасувати мою підписку"
+    "other": "Так, скасувати"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Скасувати підписку?"

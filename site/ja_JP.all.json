@@ -1097,10 +1097,10 @@
     "other": "サブスクリプションをキャンセルする"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "キャンセル"
+    "other": "結構です"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "はい、サブスクリプションをキャンセルします"
+    "other": "はい、キャンセルします"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "サブスクリプションをキャンセルしますか？"

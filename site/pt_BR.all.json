@@ -998,10 +998,10 @@
     "other": "Cancelar minha assinaturan"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Cancelar"
+    "other": "Não, obrigado"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Sim, cancelar minha assinatura"
+    "other": "Sim, cancelar"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Cancelar assinatura?"

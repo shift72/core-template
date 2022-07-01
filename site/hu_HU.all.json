@@ -923,10 +923,10 @@
     "other": "Lemondom az előfizetésemet"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Megszünteti"
+    "other": "Nem köszönöm"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Igen, mondd le az előfizetésemet"
+    "other": "Igen, mégsem"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Feliratkozás visszavonása?"

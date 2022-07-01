@@ -914,10 +914,10 @@
     "other": "Si opp abonnementet mitt"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Avbryt"
+    "other": "Nei takk"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Ja, kanseller abonnementet mitt"
+    "other": "Ja, avbryt"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Avbestille abonnementet?"

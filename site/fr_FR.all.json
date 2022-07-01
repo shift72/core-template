@@ -1134,10 +1134,10 @@
     "other": "Annuler mon abonnement"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Annuler"
+    "other": "Non merci"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Oui, résilier mon abonnement"
+    "other": "Oui, annuler"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Se désabonner?"

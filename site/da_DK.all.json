@@ -989,10 +989,10 @@
     "other": "Opsig mit abonnement"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Afbestille"
+    "other": "Nej tak"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Ja, opsige mit abonnement"
+    "other": "Ja, annuller"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Vil du opsige abonnement?"

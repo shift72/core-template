@@ -1095,10 +1095,10 @@
     "other": "Mein Abonnement kündigen"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Stornieren"
+    "other": "Nein Danke"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Ja, mein Abonnement kündigen"
+    "other": "Ja Abbrechen"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Abonnement beenden?"

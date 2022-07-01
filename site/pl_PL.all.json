@@ -1160,10 +1160,10 @@
     "other": "Anuluj moją subskrypcję"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Anulować"
+    "other": "Nie, dziękuję"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Tak, anuluj moją subskrypcję"
+    "other": "Tak, anuluj"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Anuluj subskrypcje?"
