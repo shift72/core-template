@@ -1340,16 +1340,23 @@
   "pricing_ownership_promo": {
     "other": "Indløs"
   },
-  "subscription_recurrence_daily": {
-    "other": "daglige"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "ugentlig"
+  "subscription_recurrence_year": {
+    "one": "År",
+    "other": "Flere år"
   },
-  "subscription_recurrence_monthly": {
-    "other": "månedlige"
+  "subscription_recurrence_month": {
+    "one": "Måned",
+    "other": "Måneder"
   },
-  "subscription_recurrence_yearly": {
-    "other": "årligt"
+  "subscription_recurrence_week": {
+    "one": "Uge",
+    "other": "Uger"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dag",
+    "other": "Dage"
   }
 }

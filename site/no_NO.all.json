@@ -1331,16 +1331,23 @@
   "pricing_ownership_promo": {
     "other": "Løs inn"
   },
-  "subscription_recurrence_daily": {
-    "other": "daglig"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "ukentlig"
+  "subscription_recurrence_year": {
+    "one": "År",
+    "other": "{{.Count}} år"
   },
-  "subscription_recurrence_monthly": {
-    "other": "månedlig"
+  "subscription_recurrence_month": {
+    "one": "Måned",
+    "other": "{{.Count}} Måneder"
   },
-  "subscription_recurrence_yearly": {
-    "other": "årlig"
+  "subscription_recurrence_week": {
+    "one": "Uke",
+    "other": "{{.Count}} Uker"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dag",
+    "other": "{{.Count}} Dager"
   }
 }

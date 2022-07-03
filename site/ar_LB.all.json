@@ -1348,16 +1348,39 @@
   "pricing_ownership_promo": {
     "other": "يسترد"
   },
-  "subscription_recurrence_daily": {
-    "other": "اليومي"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "أسبوعي"
+  "subscription_recurrence_year": {
+    "zero": "سنة",
+    "one": "سنة",
+    "two": "سنوات",
+    "few": "سنوات",
+    "many": "سنوات",
+    "other": "سنوات"
   },
-  "subscription_recurrence_monthly": {
-    "other": "شهريا"
+  "subscription_recurrence_month": {
+    "zero": "شهر",
+    "one": "شهر",
+    "two": "شهور",
+    "few": "شهور",
+    "many": "شهور",
+    "other": "شهور"
   },
-  "subscription_recurrence_yearly": {
-    "other": "سنوي"
+  "subscription_recurrence_week": {
+    "zero": "أسبوع",
+    "one": "أسبوع",
+    "two": "أسابيع",
+    "few": "أسابيع",
+    "many": "أسابيع",
+    "other": "أسابيع"
+  },
+  "subscription_recurrence_day": {
+    "zero": "يوم",
+    "one": "يوم",
+    "two": "أيام",
+    "few": "أيام",
+    "many": "أيام",
+    "other": "أيام"
   }
 }

@@ -1340,16 +1340,23 @@
   "pricing_ownership_promo": {
     "other": "Beváltani"
   },
-  "subscription_recurrence_daily": {
-    "other": "napi"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "heti"
+  "subscription_recurrence_year": {
+    "one": "Év",
+    "other": "{{.Count}} Évek"
   },
-  "subscription_recurrence_monthly": {
-    "other": "havi"
+  "subscription_recurrence_month": {
+    "one": "Hónap",
+    "other": "{{.Count}} Hónapok"
   },
-  "subscription_recurrence_yearly": {
-    "other": "évi"
+  "subscription_recurrence_week": {
+    "one": "Hét",
+    "other": "{{.Count}} Hetek"
+  },
+  "subscription_recurrence_day": {
+    "one": "Nap",
+    "other": "{{.Count}} Napok"
   }
 }

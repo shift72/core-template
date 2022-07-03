@@ -1331,16 +1331,27 @@
   "pricing_ownership_promo": {
     "other": "Riscattare"
   },
-  "subscription_recurrence_daily": {
-    "other": "quotidiano"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "settimanalmente"
+  "subscription_recurrence_year": {
+    "one": "Anno",
+    "many": "Anni",
+    "other": "Anni"
   },
-  "subscription_recurrence_monthly": {
-    "other": "mensile"
+  "subscription_recurrence_month": {
+    "one": "Mese",
+    "many": "Mesi",
+    "other": "Mesi"
   },
-  "subscription_recurrence_yearly": {
-    "other": "annuale"
+  "subscription_recurrence_week": {
+    "one": "Settimana",
+    "many": "Settimane",
+    "other": "Settimane"
+  },
+  "subscription_recurrence_day": {
+    "one": "Giorno",
+    "many": "Giorni",
+    "other": "Giorni"
   }
 }

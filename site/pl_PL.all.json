@@ -1380,16 +1380,31 @@
   "pricing_ownership_promo": {
     "other": "Odkupić"
   },
-  "subscription_recurrence_daily": {
-    "other": "codzienny"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "co tydzień"
+  "subscription_recurrence_year": {
+    "one": "Rok",
+    "few": "{{.Count}} Lata",
+    "many": "{{.Count}} Lata",
+    "other": "{{.Count}} Lata"
   },
-  "subscription_recurrence_monthly": {
-    "other": "miesięczny"
+  "subscription_recurrence_month": {
+    "one": "Miesiąc",
+    "few": "{{.Count}} Miesiące",
+    "many": "{{.Count}} Miesiące",
+    "other": "{{.Count}} Miesiące"
   },
-  "subscription_recurrence_yearly": {
-    "other": "rocznie"
+  "subscription_recurrence_week": {
+    "one": "Tydzień",
+    "few": "{{.Count}} Tygodnie",
+    "many": "{{.Count}} Tygodnie",
+    "other": "{{.Count}} Tygodnie"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dzień",
+    "few": "{{.Count}} Dni",
+    "many": "{{.Count}} Dni",
+    "other": "{{.Count}} Dni"
   }
 }

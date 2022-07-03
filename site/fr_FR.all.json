@@ -1331,16 +1331,27 @@
   "pricing_ownership_promo": {
     "other": "Racheter"
   },
-  "subscription_recurrence_daily": {
-    "other": "du quotidien"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "hebdomadaire"
+  "subscription_recurrence_year": {
+    "one": "An",
+    "many": "Années",
+    "other": "Années"
   },
-  "subscription_recurrence_monthly": {
-    "other": "mensuel"
+  "subscription_recurrence_month": {
+    "one": "Mois",
+    "many": "Mois",
+    "other": "Mois"
   },
-  "subscription_recurrence_yearly": {
-    "other": "annuel"
+  "subscription_recurrence_week": {
+    "one": "La semaine",
+    "many": "Semaines",
+    "other": "Semaines"
+  },
+  "subscription_recurrence_day": {
+    "one": "Jour",
+    "many": "Journées",
+    "other": "Journées"
   }
 }

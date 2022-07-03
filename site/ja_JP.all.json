@@ -1329,16 +1329,19 @@
   "pricing_ownership_promo": {
     "other": "償還"
   },
-  "subscription_recurrence_daily": {
-    "other": "毎日"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "毎週"
+  "subscription_recurrence_year": {
+    "other": "年"
   },
-  "subscription_recurrence_monthly": {
-    "other": "毎月"
+  "subscription_recurrence_month": {
+    "other": "月"
   },
-  "subscription_recurrence_yearly": {
-    "other": "毎年"
+  "subscription_recurrence_week": {
+    "other": "週"
+  },
+  "subscription_recurrence_day": {
+    "other": "日"
   }
 }

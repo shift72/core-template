@@ -1340,16 +1340,23 @@
   "pricing_ownership_promo": {
     "other": "Tilgen"
   },
-  "subscription_recurrence_daily": {
-    "other": "Täglich"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "wöchentlich"
+  "subscription_recurrence_year": {
+    "one": "Jahr",
+    "other": "Jahre"
   },
-  "subscription_recurrence_monthly": {
-    "other": "monatlich"
+  "subscription_recurrence_month": {
+    "one": "Monat",
+    "other": "Monate"
   },
-  "subscription_recurrence_yearly": {
-    "other": "jährlich"
+  "subscription_recurrence_week": {
+    "one": "Woche",
+    "other": "Wochen"
+  },
+  "subscription_recurrence_day": {
+    "one": "Tag",
+    "other": "Tage"
   }
 }

@@ -1331,16 +1331,23 @@
   "pricing_ownership_promo": {
     "other": "Lunastaa"
   },
-  "subscription_recurrence_daily": {
-    "other": "päivittäin"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "viikoittain"
+  "subscription_recurrence_year": {
+    "one": "vuosi",
+    "other": "Vuosia"
   },
-  "subscription_recurrence_monthly": {
-    "other": "kuukausittain"
+  "subscription_recurrence_month": {
+    "one": "Kuukausi",
+    "other": "Kuukaudet"
   },
-  "subscription_recurrence_yearly": {
-    "other": "vuosittain"
+  "subscription_recurrence_week": {
+    "one": "Viikko",
+    "other": "Viikot"
+  },
+  "subscription_recurrence_day": {
+    "one": "Päivä",
+    "other": "päivää"
   }
 }

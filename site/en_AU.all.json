@@ -1331,16 +1331,23 @@
   "pricing_ownership_promo": {
     "other": "Redeem"
   },
-  "subscription_recurrence_daily": {
-    "other": "daily"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "weekly"
+  "subscription_recurrence_day": {
+    "one": "Day",
+    "other": "{{.Count}} Days"
   },
-  "subscription_recurrence_monthly": {
-    "other": "monthly"
+  "subscription_recurrence_week": {
+    "one": "Week",
+    "other": "{{.Count}} Weeks"
   },
-  "subscription_recurrence_yearly": {
-    "other": "yearly"
+  "subscription_recurrence_month": {
+    "one": "Month",
+    "other": "{{.Count}} Months"
+  },
+  "subscription_recurrence_year": {
+    "one": "Year",
+    "other": "{{.Count}} Years"
   }
 }

@@ -1340,16 +1340,23 @@
   "pricing_ownership_promo": {
     "other": "Redimir"
   },
-  "subscription_recurrence_daily": {
-    "other": "diàriament"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "setmanalment"
+  "subscription_recurrence_year": {
+    "one": "Curs",
+    "other": "Anys"
   },
-  "subscription_recurrence_monthly": {
-    "other": "mensual"
+  "subscription_recurrence_month": {
+    "one": "Mes",
+    "other": "Mesos"
   },
-  "subscription_recurrence_yearly": {
-    "other": "anualment"
+  "subscription_recurrence_week": {
+    "one": "Setmana",
+    "other": "Setmanes"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dia",
+    "other": "Dies"
   }
 }

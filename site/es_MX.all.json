@@ -1331,16 +1331,27 @@
   "pricing_ownership_promo": {
     "other": "Redimir"
   },
-  "subscription_recurrence_daily": {
-    "other": "diariamente"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "semanalmente"
+  "subscription_recurrence_year": {
+    "one": "Año",
+    "many": "Años",
+    "other": "Años"
   },
-  "subscription_recurrence_monthly": {
-    "other": "mensual"
+  "subscription_recurrence_month": {
+    "one": "Mes",
+    "many": "Meses",
+    "other": "Meses"
   },
-  "subscription_recurrence_yearly": {
-    "other": "anual"
+  "subscription_recurrence_week": {
+    "one": "Semana",
+    "many": "Semanas",
+    "other": "Semanas"
+  },
+  "subscription_recurrence_day": {
+    "one": "Día",
+    "many": "Días",
+    "other": "Días"
   }
 }

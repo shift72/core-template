@@ -1357,16 +1357,31 @@
   "pricing_ownership_promo": {
     "other": "Выкупать"
   },
-  "subscription_recurrence_daily": {
-    "other": "повседневная"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "еженедельно"
+  "subscription_recurrence_year": {
+    "one": "Год",
+    "few": "{{.Count}} Годы",
+    "many": "{{.Count}} Годы",
+    "other": "{{.Count}} Годы"
   },
-  "subscription_recurrence_monthly": {
-    "other": "ежемесячно"
+  "subscription_recurrence_month": {
+    "one": "Месяц",
+    "few": "{{.Count}} Месяцы",
+    "many": "{{.Count}} Месяцы",
+    "other": "{{.Count}} Месяцы"
   },
-  "subscription_recurrence_yearly": {
-    "other": "ежегодно"
+  "subscription_recurrence_week": {
+    "one": "Неделя",
+    "few": "{{.Count}} Недели",
+    "many": "{{.Count}} Недели",
+    "other": "{{.Count}} Недели"
+  },
+  "subscription_recurrence_day": {
+    "one": "День",
+    "few": "{{.Count}} Дни",
+    "many": "{{.Count}} Дни",
+    "other": "{{.Count}} Дни"
   }
 }

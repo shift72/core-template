@@ -1333,16 +1333,27 @@
   "pricing_ownership_promo": {
     "other": "Искупити"
   },
-  "subscription_recurrence_daily": {
-    "other": "дневно"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "недељно"
+  "subscription_recurrence_year": {
+    "one": "Година",
+    "few": "{{.Count}} Године",
+    "other": "{{.Count}} Године"
   },
-  "subscription_recurrence_monthly": {
-    "other": "месечно"
+  "subscription_recurrence_month": {
+    "one": "Месец дана",
+    "few": "{{.Count}} месеци",
+    "other": "{{.Count}} месеци"
   },
-  "subscription_recurrence_yearly": {
-    "other": "годишње"
+  "subscription_recurrence_week": {
+    "one": "Недеља",
+    "few": "{{.Count}} Недеље",
+    "other": "{{.Count}} Недеље"
+  },
+  "subscription_recurrence_day": {
+    "one": "Дан",
+    "few": "{{.Count}} Дани",
+    "other": "{{.Count}} Дани"
   }
 }

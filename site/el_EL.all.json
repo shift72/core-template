@@ -1331,16 +1331,23 @@
   "pricing_ownership_promo": {
     "other": "Εξαργυρώνω"
   },
-  "subscription_recurrence_daily": {
-    "other": "καθημερινά"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "εβδομαδιαίος"
+  "subscription_recurrence_year": {
+    "one": "Ετος",
+    "other": "Χρόνια"
   },
-  "subscription_recurrence_monthly": {
-    "other": "Μηνιαίο"
+  "subscription_recurrence_month": {
+    "one": "Μήνας",
+    "other": "Μήνες"
   },
-  "subscription_recurrence_yearly": {
-    "other": "ετήσια"
+  "subscription_recurrence_week": {
+    "one": "Εβδομάδα",
+    "other": "Εβδομάδες"
+  },
+  "subscription_recurrence_day": {
+    "one": "Ημέρα",
+    "other": "Ημέρες"
   }
 }

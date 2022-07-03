@@ -1329,16 +1329,19 @@
   "pricing_ownership_promo": {
     "other": "贖回"
   },
-  "subscription_recurrence_daily": {
-    "other": "日常的"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "每周"
+  "subscription_recurrence_year": {
+    "other": "{{.Count}} 年"
   },
-  "subscription_recurrence_monthly": {
-    "other": "每月"
+  "subscription_recurrence_month": {
+    "other": "{{.Count}} 月"
   },
-  "subscription_recurrence_yearly": {
-    "other": "每年"
+  "subscription_recurrence_week": {
+    "other": "{{.Count}} 星期"
+  },
+  "subscription_recurrence_day": {
+    "other": "{{.Count}} 天"
   }
 }

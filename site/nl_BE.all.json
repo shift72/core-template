@@ -1331,16 +1331,23 @@
   "pricing_ownership_promo": {
     "other": "Inwisselen"
   },
-  "subscription_recurrence_daily": {
-    "other": "dagelijks"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "wekelijks"
+  "subscription_recurrence_year": {
+    "one": "Jaar",
+    "other": "{{.Count}} jaren"
   },
-  "subscription_recurrence_monthly": {
-    "other": "maandelijks"
+  "subscription_recurrence_month": {
+    "one": "Maand",
+    "other": "{{.Count}} Maanden"
   },
-  "subscription_recurrence_yearly": {
-    "other": "jaarlijks"
+  "subscription_recurrence_week": {
+    "one": "Week",
+    "other": "{{.Count}} Weken"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dag",
+    "other": "{{.Count}} dagen"
   }
 }

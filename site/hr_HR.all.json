@@ -1325,16 +1325,27 @@
   "pricing_ownership_promo": {
     "other": "Otkupiti"
   },
-  "subscription_recurrence_daily": {
-    "other": "dnevno"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "tjedni"
+  "subscription_recurrence_year": {
+    "one": "Godina",
+    "few": "Godine",
+    "other": "Godine"
   },
-  "subscription_recurrence_monthly": {
-    "other": "mjesečno"
+  "subscription_recurrence_month": {
+    "one": "Mjesec",
+    "few": "mjeseci",
+    "other": "mjeseci"
   },
-  "subscription_recurrence_yearly": {
-    "other": "godišnje"
+  "subscription_recurrence_week": {
+    "one": "Tjedan",
+    "few": "Tjedni",
+    "other": "Tjedni"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dan",
+    "few": "dana",
+    "other": "dana"
   }
 }

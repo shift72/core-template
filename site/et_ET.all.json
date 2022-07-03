@@ -1340,16 +1340,23 @@
   "pricing_ownership_promo": {
     "other": "Lunastama"
   },
-  "subscription_recurrence_daily": {
-    "other": "iga päev"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
-  "subscription_recurrence_weekly": {
-    "other": "iganädalane"
+  "subscription_recurrence_year": {
+    "one": "aasta",
+    "other": "Aastaid"
   },
-  "subscription_recurrence_monthly": {
-    "other": "igakuine"
+  "subscription_recurrence_month": {
+    "one": "Kuu",
+    "other": "Kuud"
   },
-  "subscription_recurrence_yearly": {
-    "other": "igal aastal"
+  "subscription_recurrence_week": {
+    "one": "Nädal",
+    "other": "Nädalad"
+  },
+  "subscription_recurrence_day": {
+    "one": "päev",
+    "other": "Päevad"
   }
 }

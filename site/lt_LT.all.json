@@ -1346,5 +1346,29 @@
   },
   "subscription_recurrence_yearly": {
     "other": "kasmet"
+  },
+  "subscription_recurrence_year": {
+    "other": "Metai"
+  },
+  "subscription_recurrence_years": {
+    "other": "Metai"
+  },
+  "subscription_recurrence_month": {
+    "other": "Mėnuo"
+  },
+  "subscription_recurrence_months": {
+    "other": "Mėnesių"
+  },
+  "subscription_recurrence_week": {
+    "other": "Savaitė"
+  },
+  "subscription_recurrence_weeks": {
+    "other": "Savaitės"
+  },
+  "subscription_recurrence_day": {
+    "other": "Diena"
+  },
+  "subscription_recurrence_days": {
+    "other": "Dienos"
   }
 }
