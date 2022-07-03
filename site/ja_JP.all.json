@@ -1333,15 +1333,15 @@
     "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
   "subscription_recurrence_year": {
-    "other": "年"
+    "other": "{{.Count}} 年"
   },
   "subscription_recurrence_month": {
-    "other": "月"
+    "other": "{{.Count}} 月"
   },
   "subscription_recurrence_week": {
-    "other": "週"
+    "other": "{{.Count}} 週"
   },
   "subscription_recurrence_day": {
-    "other": "日"
+    "other": "{{.Count}} 日"
   }
 }

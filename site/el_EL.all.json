@@ -1336,18 +1336,18 @@
   },
   "subscription_recurrence_year": {
     "one": "Ετος",
-    "other": "Χρόνια"
+    "other": "{{.Count}} Χρόνια"
   },
   "subscription_recurrence_month": {
     "one": "Μήνας",
-    "other": "Μήνες"
+    "other": "{{.Count}} Μήνες"
   },
   "subscription_recurrence_week": {
     "one": "Εβδομάδα",
-    "other": "Εβδομάδες"
+    "other": "{{.Count}} Εβδομάδες"
   },
   "subscription_recurrence_day": {
     "one": "Ημέρα",
-    "other": "Ημέρες"
+    "other": "{{.Count}} Ημέρες"
   }
 }

@@ -1345,18 +1345,18 @@
   },
   "subscription_recurrence_year": {
     "one": "Curs",
-    "other": "Anys"
+    "other": "{{.Count}} Anys"
   },
   "subscription_recurrence_month": {
     "one": "Mes",
-    "other": "Mesos"
+    "other": "{{.Count}} Mesos"
   },
   "subscription_recurrence_week": {
     "one": "Setmana",
-    "other": "Setmanes"
+    "other": "{{.Count}} Setmanes"
   },
   "subscription_recurrence_day": {
     "one": "Dia",
-    "other": "Dies"
+    "other": "{{.Count}} Dies"
   }
 }

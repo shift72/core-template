@@ -1335,40 +1335,31 @@
   "pricing_ownership_promo": {
     "other": "Išpirkti"
   },
-  "subscription_recurrence_daily": {
-    "other": "kasdien"
-  },
-  "subscription_recurrence_weekly": {
-    "other": "kas savaitę"
-  },
-  "subscription_recurrence_monthly": {
-    "other": "kas mėnesį"
-  },
-  "subscription_recurrence_yearly": {
-    "other": "kasmet"
+  "subscription_cta_label": {
+    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
   },
   "subscription_recurrence_year": {
-    "other": "Metai"
-  },
-  "subscription_recurrence_years": {
-    "other": "Metai"
+    "one": "Metai",
+    "few": "{{.Count}} Metai",
+    "many": "{{.Count}} Metai",
+    "other": "{{.Count}} Metai"
   },
   "subscription_recurrence_month": {
-    "other": "Mėnuo"
-  },
-  "subscription_recurrence_months": {
-    "other": "Mėnesių"
+    "one": "Mėnuo",
+    "few": "{{.Count}} Mėnesių",
+    "many": "{{.Count}} Mėnesių",
+    "other": "{{.Count}} Mėnesių"
   },
   "subscription_recurrence_week": {
-    "other": "Savaitė"
-  },
-  "subscription_recurrence_weeks": {
-    "other": "Savaitės"
+    "one": "Savaitė",
+    "few": "{{.Count}} Savaitės",
+    "many": "{{.Count}} Savaitės",
+    "other": "{{.Count}} Savaitės"
   },
   "subscription_recurrence_day": {
-    "other": "Diena"
-  },
-  "subscription_recurrence_days": {
-    "other": "Dienos"
+    "one": "Diena",
+    "few": "{{.Count}} Dienos",
+    "many": "{{.Count}} Dienos",
+    "other": "{{.Count}} Dienos"
   }
 }

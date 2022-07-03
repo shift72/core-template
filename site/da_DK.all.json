@@ -1345,18 +1345,18 @@
   },
   "subscription_recurrence_year": {
     "one": "År",
-    "other": "Flere år"
+    "other": "{{.Count}} Flere år"
   },
   "subscription_recurrence_month": {
     "one": "Måned",
-    "other": "Måneder"
+    "other": "{{.Count}} Måneder"
   },
   "subscription_recurrence_week": {
     "one": "Uge",
-    "other": "Uger"
+    "other": "{{.Count}} Uger"
   },
   "subscription_recurrence_day": {
     "one": "Dag",
-    "other": "Dage"
+    "other": "{{.Count}} Dage"
   }
 }

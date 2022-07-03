@@ -1330,22 +1330,22 @@
   },
   "subscription_recurrence_year": {
     "one": "Godina",
-    "few": "Godine",
-    "other": "Godine"
+    "few": "{{.Count}} Godine",
+    "other": "{{.Count}} Godine"
   },
   "subscription_recurrence_month": {
     "one": "Mjesec",
-    "few": "mjeseci",
-    "other": "mjeseci"
+    "few": "{{.Count}} mjeseci",
+    "other": "{{.Count}} mjeseci"
   },
   "subscription_recurrence_week": {
     "one": "Tjedan",
-    "few": "Tjedni",
-    "other": "Tjedni"
+    "few": "{{.Count}} Tjedni",
+    "other": "{{.Count}} Tjedni"
   },
   "subscription_recurrence_day": {
     "one": "Dan",
-    "few": "dana",
-    "other": "dana"
+    "few": "{{.Count}} dana",
+    "other": "{{.Count}} dana"
   }
 }

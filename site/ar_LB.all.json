@@ -1354,33 +1354,33 @@
   "subscription_recurrence_year": {
     "zero": "سنة",
     "one": "سنة",
-    "two": "سنوات",
-    "few": "سنوات",
-    "many": "سنوات",
-    "other": "سنوات"
+    "two": "{{.Count}} سنوات",
+    "few": "{{.Count}} سنوات",
+    "many": "{{.Count}} سنوات",
+    "other": "{{.Count}} سنوات"
   },
   "subscription_recurrence_month": {
     "zero": "شهر",
     "one": "شهر",
-    "two": "شهور",
-    "few": "شهور",
-    "many": "شهور",
-    "other": "شهور"
+    "two": "{{.Count}} شهور",
+    "few": "{{.Count}} شهور",
+    "many": "{{.Count}} شهور",
+    "other": "{{.Count}} شهور"
   },
   "subscription_recurrence_week": {
     "zero": "أسبوع",
     "one": "أسبوع",
-    "two": "أسابيع",
-    "few": "أسابيع",
-    "many": "أسابيع",
-    "other": "أسابيع"
+    "two": "{{.Count}} أسابيع",
+    "few": "{{.Count}} أسابيع",
+    "many": "{{.Count}} أسابيع",
+    "other": "{{.Count}} أسابيع"
   },
   "subscription_recurrence_day": {
     "zero": "يوم",
-    "one": "يوم",
-    "two": "أيام",
-    "few": "أيام",
-    "many": "أيام",
-    "other": "أيام"
+    "one": "{{.Count}} يوم",
+    "two": "{{.Count}} أيام",
+    "few": "{{.Count}} أيام",
+    "many": "{{.Count}} أيام",
+    "other": "{{.Count}} أيام"
   }
 }

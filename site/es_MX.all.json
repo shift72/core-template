@@ -1336,22 +1336,22 @@
   },
   "subscription_recurrence_year": {
     "one": "Año",
-    "many": "Años",
-    "other": "Años"
+    "many": "{{.Count}} Años",
+    "other": "{{.Count}} Años"
   },
   "subscription_recurrence_month": {
     "one": "Mes",
-    "many": "Meses",
-    "other": "Meses"
+    "many": "{{.Count}} Meses",
+    "other": "{{.Count}} Meses"
   },
   "subscription_recurrence_week": {
     "one": "Semana",
-    "many": "Semanas",
-    "other": "Semanas"
+    "many": "{{.Count}} Semanas",
+    "other": "{{.Count}} Semanas"
   },
   "subscription_recurrence_day": {
     "one": "Día",
-    "many": "Días",
-    "other": "Días"
+    "many": "{{.Count}} Días",
+    "other": "{{.Count}} Días"
   }
 }

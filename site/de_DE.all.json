@@ -1345,18 +1345,18 @@
   },
   "subscription_recurrence_year": {
     "one": "Jahr",
-    "other": "Jahre"
+    "other": "{{.Count}} Jahre"
   },
   "subscription_recurrence_month": {
     "one": "Monat",
-    "other": "Monate"
+    "other": "{{.Count}} Monate"
   },
   "subscription_recurrence_week": {
     "one": "Woche",
-    "other": "Wochen"
+    "other": "{{.Count}} Wochen"
   },
   "subscription_recurrence_day": {
     "one": "Tag",
-    "other": "Tage"
+    "other": "{{.Count}} Tage"
   }
 }

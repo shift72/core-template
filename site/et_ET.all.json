@@ -1345,18 +1345,18 @@
   },
   "subscription_recurrence_year": {
     "one": "aasta",
-    "other": "Aastaid"
+    "other": "{{.Count}} Aastaid"
   },
   "subscription_recurrence_month": {
     "one": "Kuu",
-    "other": "Kuud"
+    "other": "{{.Count}} Kuud"
   },
   "subscription_recurrence_week": {
     "one": "Nädal",
-    "other": "Nädalad"
+    "other": "{{.Count}} Nädalad"
   },
   "subscription_recurrence_day": {
     "one": "päev",
-    "other": "Päevad"
+    "other": "{{.Count}} Päevad"
   }
 }

@@ -1336,18 +1336,18 @@
   },
   "subscription_recurrence_year": {
     "one": "vuosi",
-    "other": "Vuosia"
+    "other": "{{.Count}} Vuosia"
   },
   "subscription_recurrence_month": {
     "one": "Kuukausi",
-    "other": "Kuukaudet"
+    "other": "{{.Count}} Kuukaudet"
   },
   "subscription_recurrence_week": {
     "one": "Viikko",
-    "other": "Viikot"
+    "other": "{{.Count}} Viikot"
   },
   "subscription_recurrence_day": {
     "one": "Päivä",
-    "other": "päivää"
+    "other": "{{.Count}} päivää"
   }
 }
