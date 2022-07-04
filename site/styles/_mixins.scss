@@ -72,11 +72,26 @@
 }
 
 .detail-page-gradient {
-  background: linear-gradient(to bottom, transparent  calc(var(--page-detail-padding-top-lg) - 100px),
-  rgba(var(--body-bg-rgb),0.7) calc(var(--page-detail-padding-top-lg)),
-  rgba(var(--body-bg-rgb),0.93) 60%,
+  background: linear-gradient(to bottom,
+  transparent  calc(245px + 170px - 100px),
+  rgba(var(--body-bg-rgb),0.93) calc(245px + 170px),
   rgba(var(--body-bg-rgb),0.93) 80% ,
   rgba(var(--body-bg-rgb),1) 100%);
+
+  @include media-breakpoint-up(md){
+    background: linear-gradient(to bottom,
+    transparent  calc(290px + 220px - 100px),
+    rgba(var(--body-bg-rgb),0.93) calc(290px + 220px),
+    rgba(var(--body-bg-rgb),0.93) 80% ,
+    rgba(var(--body-bg-rgb),1) 100%);
+  }
+  @include media-breakpoint-up(lg){
+    background: linear-gradient(to bottom,
+    transparent  calc(360px - 100px),
+    rgba(var(--body-bg-rgb),0.8) calc(360px),
+    rgba(var(--body-bg-rgb),0.8) 80% ,
+    rgba(var(--body-bg-rgb),1) 100%);
+  }
 }
 
 @mixin a {
