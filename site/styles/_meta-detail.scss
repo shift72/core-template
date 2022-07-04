@@ -49,48 +49,18 @@
     display: block;
     position: relative;
     width: 100%;
-    @include media-breakpoint-up(lg) {
-      width: 1600px;
-    }
-
-    &::before {
-      @extend .left-gradient-bg;
-      bottom: 0;
-      content: '';
-      height: 100%;
-      left: -1px;
-      position: absolute;
-      top: 0;
-      width: 60%;
-      z-index: 8;
-      @include media-breakpoint-up(md) {
-        width: 100%;
-      }
-    }
 
     img {
       animation: fadein 2s;
-      height: 500px;
-      max-width: 1600px;
-      width: auto;
-      @include media-breakpoint-up(md) {
-        float: right;
-        height: 700px;
-        margin-left: 0;
-      }
-      @include media-breakpoint-up(xl) {
-        float: right;
-        height: auto;
-      }
+      min-height: 100%;
+      object-fit: cover;
     }
   }
 
   &::after {
-    @extend .bottom-gradient-bg;
-    bottom: 0;
+    @extend .detail-page-gradient;
     content: '';
-    height: 350px;
-    left: 0;
+    height: 100%;
     position: absolute;
     width: 100%;
     z-index: 8;
