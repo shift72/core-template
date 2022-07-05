@@ -240,19 +240,6 @@ s72-element-switcher,
       animation: fadein 2s;
     }
   }
-
-  .s72-pricing-button-container {
-    display: flex;
-    flex-wrap: wrap;
-
-    @include media-breakpoint-up(xs) {
-      display: grid;
-    }
-
-    .s72-subscribe {
-      flex-grow: 1;
-    }
-  }
 }
 
 .recommendations-collection {
