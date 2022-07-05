@@ -71,27 +71,26 @@
   );
 }
 
-.detail-page-gradient {
-  background: linear-gradient(to bottom,
-  transparent  calc(245px + 170px - 100px),
-  rgba(var(--body-bg-rgb),0.93) calc(245px + 170px),
-  rgba(var(--body-bg-rgb),0.93) 80% ,
-  rgba(var(--body-bg-rgb),1) 100%);
-
-  @include media-breakpoint-up(md){
-    background: linear-gradient(to bottom,
-    transparent  calc(290px + 220px - 100px),
-    rgba(var(--body-bg-rgb),0.93) calc(290px + 220px),
-    rgba(var(--body-bg-rgb),0.93) 80% ,
-    rgba(var(--body-bg-rgb),1) 100%);
-  }
-  @include media-breakpoint-up(lg){
-    background: linear-gradient(to bottom,
-    transparent  calc(360px - 100px),
-    rgba(var(--body-bg-rgb),0.8) calc(360px),
-    rgba(var(--body-bg-rgb),0.8) 80% ,
-    rgba(var(--body-bg-rgb),1) 100%);
-  }
+@mixin detail-page-gradient-lg() {
+  background:   linear-gradient(
+    to bottom,
+    hsla(0, 0%, 0%, 0) 0%,
+    hsla(0, 0%, 0%, 0.068) 15.9%,
+    hsla(0, 0%, 0%, 0.138) 28%,
+    hsla(0, 0%, 0%, 0.211) 36.9%,
+    hsla(0, 0%, 0%, 0.285) 43.1%,
+    hsla(0, 0%, 0%, 0.359) 47.3%,
+    hsla(0, 0%, 0%, 0.434) 49.9%,
+    hsla(0, 0%, 0%, 0.508) 51.6%,
+    hsla(0, 0%, 0%, 0.581) 52.9%,
+    hsla(0, 0%, 0%, 0.652) 54.4%,
+    hsla(0, 0%, 0%, 0.721) 56.7%,
+    hsla(0, 0%, 0%, 0.786) 60.4%,
+    hsla(0, 0%, 0%, 0.847) 66%,
+    hsla(0, 0%, 0%, 0.904) 74.1%,
+    hsla(0, 0%, 0%, 0.955) 85.2%,
+    hsl(0, 0%, 0%) 100%
+  );
 }
 
 @mixin a {
