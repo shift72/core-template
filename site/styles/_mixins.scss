@@ -74,22 +74,22 @@
 @mixin detail-page-gradient-lg() {
   background:   linear-gradient(
     to bottom,
-    hsla(0, 0%, 0%, 0) 0%,
-    hsla(0, 0%, 0%, 0.068) 15.9%,
-    hsla(0, 0%, 0%, 0.138) 28%,
-    hsla(0, 0%, 0%, 0.211) 36.9%,
-    hsla(0, 0%, 0%, 0.285) 43.1%,
-    hsla(0, 0%, 0%, 0.359) 47.3%,
-    hsla(0, 0%, 0%, 0.434) 49.9%,
-    hsla(0, 0%, 0%, 0.508) 51.6%,
-    hsla(0, 0%, 0%, 0.581) 52.9%,
-    hsla(0, 0%, 0%, 0.652) 54.4%,
-    hsla(0, 0%, 0%, 0.721) 56.7%,
-    hsla(0, 0%, 0%, 0.786) 60.4%,
-    hsla(0, 0%, 0%, 0.847) 66%,
-    hsla(0, 0%, 0%, 0.904) 74.1%,
-    hsla(0, 0%, 0%, 0.955) 85.2%,
-    hsl(0, 0%, 0%) 100%
+    rgba(var(--body-bg-rgb), 0) 0%,
+    rgba(var(--body-bg-rgb), 0.068) 15.9%,
+    rgba(var(--body-bg-rgb), 0.138) 28%,
+    rgba(var(--body-bg-rgb), 0.211) 36.9%,
+    rgba(var(--body-bg-rgb), 0.285) 43.1%,
+    rgba(var(--body-bg-rgb), 0.359) 47.3%,
+    rgba(var(--body-bg-rgb), 0.434) 49.9%,
+    rgba(var(--body-bg-rgb), 0.508) 51.6%,
+    rgba(var(--body-bg-rgb), 0.581) 52.9%,
+    rgba(var(--body-bg-rgb), 0.652) 54.4%,
+    rgba(var(--body-bg-rgb), 0.721) 56.7%,
+    rgba(var(--body-bg-rgb), 0.786) 60.4%,
+    rgba(var(--body-bg-rgb), 0.847) 66%,
+    rgba(var(--body-bg-rgb), 0.904) 74.1%,
+    rgba(var(--body-bg-rgb), 0.955) 85.2%,
+    rgba(var(--body-bg-rgb)) 100%
   );
 }
 
