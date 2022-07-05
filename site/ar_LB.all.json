@@ -953,7 +953,7 @@
     "other": "(منتهية الصلاحية)"
   },
   "shopping_card_use_other": {
-    "other": "استخدام بطاقة جديدة"
+    "other": "أضف بطاقة جديدة"
   },
   "shopping_card_use_new_card": {
     "other": "تغيير البطاقة"
@@ -968,7 +968,7 @@
     "other": "بطاقة الائتمان غير صحيحة؟ <a href=\"{{.SubscriptionsURL}}\"> انقر(ي) هنا لتحديث بطاقتك. </a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "الاشتراك"
+    "other": "يخطط"
   },
   "shopping_info_rental_period_coming_soon": {
     "other": "من تاريخ ووقت الإصدار."
@@ -1347,5 +1347,8 @@
   },
   "pricing_ownership_promo": {
     "other": "يسترد"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "الاشتراك"
   }
 }

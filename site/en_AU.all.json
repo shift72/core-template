@@ -962,7 +962,7 @@
     "other": "(expired)"
   },
   "shopping_card_use_other": {
-    "other": "Use a new card"
+    "other": "Add new card"
   },
   "shopping_card_use_new_card": {
     "other": "Change card"
@@ -977,7 +977,7 @@
     "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Subscription"
+    "other": "Plan"
   },
   "shopping_price_title_plan": {
     "other": "Price"
@@ -1330,5 +1330,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Redeem"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Subscription"
   }
 }

@@ -956,7 +956,7 @@
     "other": "(expirado)"
   },
   "shopping_card_use_other": {
-    "other": "Use um novo cartão."
+    "other": "Adicionar novo cartão"
   },
   "shopping_card_use_new_card": {
     "other": "Mudar cartão."
@@ -971,7 +971,7 @@
     "other": "O cartão de crédito não está correto? <a href=\"{{.SubscriptionsURL}}\"> Clique aqui para atualizar seu cartão. </a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Inscrição"
+    "other": "Plano"
   },
   "shopping_action_credit": {
     "other": "Completar"
@@ -1330,5 +1330,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Resgatar"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Inscrição"
   }
 }

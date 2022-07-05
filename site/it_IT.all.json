@@ -1212,7 +1212,7 @@
     "other": "(scaduta)"
   },
   "shopping_card_use_other": {
-    "other": "Usa una nuova carta"
+    "other": "Aggiungi nuova carta"
   },
   "shopping_card_use_new_card": {
     "other": "Cambia carta"
@@ -1224,7 +1224,7 @@
     "other": "Riempire"
   },
   "shopping_info_ownership_plan": {
-    "other": "Sottoscrizione"
+    "other": "Piano"
   },
   "usersubscriptions_change_payment_method_change": {
     "other": "Cambia carta di credito"
@@ -1330,5 +1330,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Riscattare"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Sottoscrizione"
   }
 }

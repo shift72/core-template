@@ -881,13 +881,13 @@
     "other": "(lejárt)"
   },
   "shopping_card_use_other": {
-    "other": "Használjon új kártyát"
+    "other": "Új kártya hozzáadása"
   },
   "shopping_card_use_new_card": {
     "other": "Válts kártyát"
   },
   "shopping_info_ownership_plan": {
-    "other": "Feliratkozás"
+    "other": "Terv"
   },
   "shopping_action_credit": {
     "other": "Feltölt"
@@ -1339,5 +1339,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Beváltani"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Feliratkozás"
   }
 }

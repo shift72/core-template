@@ -881,13 +881,13 @@
     "other": "(aegunud)"
   },
   "shopping_card_use_other": {
-    "other": "Kasutage uut kaarti"
+    "other": "Lisa uus kaart"
   },
   "shopping_card_use_new_card": {
     "other": "Vaheta kaarti"
   },
   "shopping_info_ownership_plan": {
-    "other": "Tellimus"
+    "other": "Plaan"
   },
   "shopping_action_credit": {
     "other": "Täida"
@@ -1339,5 +1339,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Lunastama"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Tellimus"
   }
 }
