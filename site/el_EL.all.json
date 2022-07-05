@@ -875,13 +875,13 @@
     "other": "(έχει λήξει)"
   },
   "shopping_card_use_other": {
-    "other": "Χρησιμοποιήστε μια νέα κάρτα"
+    "other": "Προσθήκη νέας κάρτας"
   },
   "shopping_card_use_new_card": {
     "other": "Αλλαγή κάρτας"
   },
   "shopping_info_ownership_plan": {
-    "other": "Συνδρομή"
+    "other": "Σχέδιο"
   },
   "shopping_action_credit": {
     "other": "Προσθήκη πίστωσης"
@@ -1330,5 +1330,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Εξαργυρώνω"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Συνδρομή"
   }
 }

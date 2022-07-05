@@ -375,8 +375,12 @@ s72-element-switcher,
 }
 
 .sponsor {
-  margin-bottom: 25px;
+  margin-bottom: 24px;
   max-width: 250px;
+
+  div {
+    margin-bottom: 4px;
+  }
 }
 
 .meta-detail-content .sponsor {

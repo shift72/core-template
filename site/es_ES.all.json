@@ -1206,7 +1206,7 @@
     "other": "(caducada)"
   },
   "shopping_card_use_other": {
-    "other": "Usar una nueva tarjeta"
+    "other": "Agregar nueva tarjeta"
   },
   "shopping_card_use_new_card": {
     "other": "Cambiar tarjeta"
@@ -1215,7 +1215,7 @@
     "other": "Actualice su tarjeta de crédito. Las tarjetas aceptadas son Visa, Mastercard y American Express."
   },
   "shopping_info_ownership_plan": {
-    "other": "Suscripción"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "añadir crédito"
@@ -1330,5 +1330,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Redimir"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Suscripción"
   }
 }

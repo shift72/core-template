@@ -923,7 +923,7 @@
     "other": "(pasibaigęs)"
   },
   "shopping_card_use_other": {
-    "other": "Naudokite naują kortelę"
+    "other": "Pridėti naują kortelę"
   },
   "shopping_card_use_new_card": {
     "other": "Keisti kortelę"
@@ -938,7 +938,7 @@
     "other": "Netinkama kredito kortelė? <a href=\"{{.SubscriptionsURL}}\">Jei norite atnaujinti kortelę, spustelėkite čia.</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Prenumerata"
+    "other": "Planuoti"
   },
   "shopping_action_credit": {
     "other": "Prisipilti"
@@ -1334,5 +1334,8 @@
   },
   "pricing_ownership_promo": {
     "other": "Išpirkti"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Prenumerata"
   }
 }
