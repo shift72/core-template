@@ -902,7 +902,7 @@
     "other": "(истекший)"
   },
   "shopping_card_use_other": {
-    "other": "Использовать новую карту"
+    "other": "Додајте нову картицу"
   },
   "shopping_card_use_new_card": {
     "other": "Изменить карту"
@@ -917,7 +917,7 @@
     "other": "Кредитная карта не правильная? <a href=\"{{.SubscriptionsURL}}\">Нажмите здесь, чтобы обновить свою карту.</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Подписка"
+    "other": "План"
   },
   "shopping_action_credit": {
     "other": "Пополнить"
@@ -1355,5 +1355,8 @@
     "one": "Дан",
     "few": "{{.Count}} Дани",
     "other": "{{.Count}} Дани"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Претплата"
   }
 }

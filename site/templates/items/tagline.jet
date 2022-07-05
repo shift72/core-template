@@ -1,5 +1,9 @@
 {{block metaItemTagline(genres=true, genresLimit=-1, classification=true)}}
   <div class="meta-item-tagline">
+    {{if classification}}
+      <s72-classification-label data-slug="{{.Slug}}" data-layout="tooltip"></s72-classification-label>
+    {{end}}
+
     {{itemGenres := makeSlice()}}
     {{if genres}}
       {{if isset(.Genres)}}
@@ -9,85 +13,56 @@
       {{end}}
     {{end}}
 
-    {*{ Figure out how many dividers. }*}
-    {{dividers := 0}}
-    {{if genres && len(itemGenres) > 0}}
-      {{dividers = dividers + 1}}
-    {{end}}
-    {{if isset(.Runtime)}}
-      {{dividers = dividers + 1}}
-    {{end}}
-    {{if isset(.Items)}}
-      {{dividers = dividers + 1}}
-    {{end}}
-    {{if isset(.Episodes)}}
-      {{dividers = dividers + 1}}
-    {{end}}
-    {{if isset(.ReleaseDate) && .ReleaseDate.Year() > 1}}
-      {{dividers = dividers + 1}}
-    {{end}}
-    {*{ There should be one less dividers than tagline items. }*}
-    {{dividers = dividers - 1}}
-
-    {{if classification}}
-      <s72-classification-label data-slug="{{.Slug}}" data-layout="tooltip"></s72-classification-label>
-    {{end}}
+    {{showDivider := false}}
 
     {{if isset(.Runtime)}}
-      {{yield taglineItem() content}}
+      {{yield item(class="runtime") content}}
         {{if .Runtime > 60}}
-          {{.Runtime.Hours()}}{{i18n("runtime_hours")}} {{.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
-        {{else}}
-          {{.Runtime}}{{i18n("runtime_minutes")}}
+          {{.Runtime.Hours()}}{{i18n("runtime_hours")}}
         {{end}}
+        {{.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
       {{end}}
-      {{yield taglineDivider(dividers=dividers)}}
-      {{dividers = dividers - 1}}
+      {{showDivider = true}}
     {{end}}
 
     {{if isset(.Items)}}
-      {{yield taglineItem() content}}
+      {{yield item() content}}
         {{i18n("bundle_items_generic", len(.Items))}}
       {{end}}
-      {{yield taglineDivider(dividers=dividers)}}
-      {{dividers = dividers - 1}}
+      {{showDivider = true}}
     {{end}}
 
     {{if isset(.Episodes)}}
-      {{yield taglineItem() content}}
+      {{yield item(class="episodes") content}}
         {{i18n("episode_count", len(.Episodes))}}
       {{end}}
-      {{yield taglineDivider(dividers=dividers)}}
-      {{dividers = dividers - 1}}
+      {{showDivider = true}}
     {{end}}
 
     {{if genres && len(itemGenres) > 0}}
       {{if genresLimit > -1 && len(itemGenres) > genresLimit}}
         {{itemGenres = itemGenres[:genresLimit]}}
       {{end}}
-      {{yield taglineItem() content}}
+      {{yield item(class="genres") content}}
         {{itemGenres}}
       {{end}}
-      {{yield taglineDivider(dividers=dividers)}}
-      {{dividers = dividers - 1}}
+      {{showDivider = true}}
     {{end}}
 
-    {{if isset(.ReleaseDate) && .ReleaseDate.Year() > 1}}
-      {{yield taglineItem() content}}
+    {{if isset(.ReleaseDate) && .ReleaseDate.Year() > 1888}}
+      {{yield item(class="release-date") content}}
         {{.ReleaseDate.Year()}}
       {{end}}
-      {{yield taglineDivider(dividers=dividers)}}
-      {{dividers = dividers - 1}}
+      {{showDivider = true}}
     {{end}}
   </div>
 {{end}}
 
-{{block taglineItem()}}
-  <span class="meta-item-tagline-item">{{yield content}}</span>
-{{end}}
-
-{{block taglineDivider(dividers)}}
-  {{if dividers > 0}}
-    <span class="meta-item-tagline-divider">•</span>
-  {{end}}
+{{block item(class="missing", showDivider=showDivider)}}
+  <span class="{{class}}">
+    {{if showDivider}}
+      <span class="divider">•</span>
+    {{end}}
+    <span class="item">{{yield content}}</span>
+  </span>
 {{end}}

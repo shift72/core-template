@@ -881,13 +881,13 @@
     "other": "(utløpt)"
   },
   "shopping_card_use_other": {
-    "other": "Bruk et nytt kort"
+    "other": "Legg til nytt kort"
   },
   "shopping_card_use_new_card": {
     "other": "Bytt kort"
   },
   "shopping_info_ownership_plan": {
-    "other": "Intekening"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "fylle opp"
@@ -1349,5 +1349,8 @@
   "subscription_recurrence_day": {
     "one": "Dag",
     "other": "{{.Count}} Dager"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Abonnement"
   }
 }

@@ -1205,7 +1205,7 @@
     "other": "(wygasły)"
   },
   "shopping_card_use_other": {
-    "other": "Użyj nowej karty"
+    "other": "Dodaj nową kartę"
   },
   "shopping_card_use_new_card": {
     "other": "Zmień kartę"
@@ -1214,7 +1214,7 @@
     "other": "Zaktualizuj swoją kartę kredytową. Obsługiwane karty to Visa, Mastercard i American Express."
   },
   "shopping_info_ownership_plan": {
-    "other": "Subskrypcja"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "Uzupełniać"
@@ -1406,5 +1406,8 @@
     "few": "{{.Count}} Dni",
     "many": "{{.Count}} Dni",
     "other": "{{.Count}} Dni"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Subskrypcja"
   }
 }

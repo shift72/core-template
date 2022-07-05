@@ -1142,7 +1142,7 @@
     "other": "（期限切れ）"
   },
   "shopping_card_use_other": {
-    "other": "新しいカードを使用する"
+    "other": "新しいカードを追加する"
   },
   "shopping_card_use_new_card": {
     "other": "カードを変更する"
@@ -1151,7 +1151,7 @@
     "other": "クレジットカードを更新します。 サポートされているカードは、Visa、Mastercard、AmericanExpressです。"
   },
   "shopping_info_ownership_plan": {
-    "other": "サブスクリプション"
+    "other": "プラン"
   },
   "shopping_action_credit": {
     "other": "補充"
@@ -1343,5 +1343,8 @@
   },
   "subscription_recurrence_day": {
     "other": "{{.Count}} 日"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "サブスクリプション"
   }
 }

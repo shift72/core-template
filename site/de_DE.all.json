@@ -1215,7 +1215,7 @@
     "other": "(abgelaufen)"
   },
   "shopping_card_use_other": {
-    "other": "Verwenden Sie eine neue Karte"
+    "other": "Neue Karte hinzufügen"
   },
   "shopping_card_use_new_card": {
     "other": "Karte wechseln"
@@ -1224,7 +1224,7 @@
     "other": "Aktualisieren Sie Ihre Kreditkarte. Unterstützte Karten sind Visa, Mastercard und American Express."
   },
   "shopping_info_ownership_plan": {
-    "other": "Abonnement"
+    "other": "Planen"
   },
   "shopping_action_credit": {
     "other": "Nachfüllen"
@@ -1358,5 +1358,8 @@
   "subscription_recurrence_day": {
     "one": "Tag",
     "other": "{{.Count}} Tage"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Abonnement"
   }
 }

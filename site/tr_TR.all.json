@@ -881,13 +881,13 @@
     "other": "(günü geçmiş)"
   },
   "shopping_card_use_other": {
-    "other": "Yeni bir kart kullanın"
+    "other": "Yeni kart ekle"
   },
   "shopping_card_use_new_card": {
     "other": "Kartı değiştir "
   },
   "shopping_info_ownership_plan": {
-    "other": "Abonelik"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "Doldurmak"
@@ -1349,5 +1349,8 @@
   "subscription_recurrence_day": {
     "one": "Gün",
     "other": "{{.Count}} Günler"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "abonelik"
   }
 }

@@ -903,13 +903,13 @@
     "other": "(истекший)"
   },
   "shopping_card_use_other": {
-    "other": "Использовать новую карту"
+    "other": "Добавить новую карту"
   },
   "shopping_card_use_new_card": {
     "other": "Изменить карту"
   },
   "shopping_info_ownership_plan": {
-    "other": "Подписка"
+    "other": "План"
   },
   "shopping_action_credit": {
     "other": "Пополнить"
@@ -1383,5 +1383,8 @@
     "few": "{{.Count}} Дни",
     "many": "{{.Count}} Дни",
     "other": "{{.Count}} Дни"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Подписка"
   }
 }
