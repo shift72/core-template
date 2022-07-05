@@ -8,6 +8,7 @@
 - Text label on save credit card component changed to "Add new card".
 - Grouped carousel awards component with sponsor logo.
 - Separate translations for plans, subscriptions
+- Play button i18n changed to 'Watch now' instead of 'Play now'
 
 ### Changed
 - Taglines refactored with new DOM structure.
