@@ -19,6 +19,7 @@
   .meta-award-nomination {
     display: flex;
     max-width: 370px;
+    @include subtitle-1-style;
   }
 
   .meta-award-nomination-icon {
