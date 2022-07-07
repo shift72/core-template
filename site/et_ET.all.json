@@ -923,10 +923,10 @@
     "other": "Tühista minu tellimus"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Tühista"
+    "other": "Ei aitäh"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Jah, tühistage minu tellimus"
+    "other": "Jah, tühista"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Kas tühistada tellimus?"

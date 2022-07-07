@@ -965,10 +965,10 @@
     "other": "Atšaukti mano prenumeratą"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Atšaukti"
+    "other": "Ne, ačiū"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Taip, atšaukite mano prenumeratą"
+    "other": "Taip, atšaukti"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Atšaukti prenumeratą?"

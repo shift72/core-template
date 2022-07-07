@@ -1001,10 +1001,10 @@
     "other": "إلغاء اشتراكي"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "يلغي"
+    "other": "لا شكرا"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "نعم ، إلغاء اشتراكي"
+    "other": "نعم ، إلغاء"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "إلغاء الاشتراك؟"

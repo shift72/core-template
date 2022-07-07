@@ -1146,10 +1146,10 @@
     "other": "Annulla il mio abbonamento"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Annulla"
+    "other": "No grazie"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Sì, cancella il mio abbonamento"
+    "other": "Sì, annulla"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Annullare l'iscrizione?"

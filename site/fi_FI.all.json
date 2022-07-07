@@ -1102,10 +1102,10 @@
     "other": "Peruuta tilaukseni"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Peruuttaa"
+    "other": "Ei kiitos"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Kyllä, peruuta tilaukseni"
+    "other": "Kyllä, peruuta"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Peruuta tilaus?"

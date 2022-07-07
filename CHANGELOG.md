@@ -12,6 +12,7 @@
 
 ### Changed
 - Taglines refactored with new DOM structure.
+- Language strings for usersubscriptions_unsubscribe_modal_cancel and usersubscriptions_unsubscribe_modal_confirm
 
 ## [1.1.0](https://github.com/shift72/core-template/compare/1.0.0...1.1.0)
 

@@ -908,10 +908,10 @@
     "other": "Ακύρωση της συνδρομής μου"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Ματαίωση"
+    "other": "Οχι ευχαριστώ"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Ναι, ακυρώστε τη συνδρομή μου"
+    "other": "Ναι, ακύρωση"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Ακύρωση συνδρομής;"

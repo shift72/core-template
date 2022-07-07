@@ -914,10 +914,10 @@
     "other": "Aboneliğimi iptal et"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "İptal"
+    "other": "Hayır, teşekkürler"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Evet, aboneliğimi iptal et "
+    "other": "Evet İptal"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Aboneliği iptal et?"

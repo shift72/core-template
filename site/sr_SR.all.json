@@ -944,10 +944,10 @@
     "other": "Отменить мою подписку"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Отмена"
+    "other": "Не хвала"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Да, отмените мою подписку"
+    "other": "Да, откажи"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Отменить подписку?"

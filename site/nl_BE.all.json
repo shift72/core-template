@@ -965,10 +965,10 @@
     "other": "Mijn abonnement opzeggen"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Annuleren"
+    "other": "Nee, dank u wel"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Ja, zeg mijn abonnement op"
+    "other": "Ja, annuleren"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Annuleer abonnement"

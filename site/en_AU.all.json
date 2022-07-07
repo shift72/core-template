@@ -1086,10 +1086,10 @@
     "other": "Cancel my subscription"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Cancel"
+    "other": "No thanks"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Yes, cancel my subscription"
+    "other": "Yes, cancel"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Cancel subscription?"
