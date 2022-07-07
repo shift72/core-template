@@ -31,7 +31,6 @@
   }
 }
 
-
 @mixin heading-3-style() {
   @include typography-style(20px, 0, $font-weight-normal, 6px, null, 24px);
   @include media-breakpoint-up(sm) {
