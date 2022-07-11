@@ -1341,7 +1341,7 @@
     "other": "Beváltani"
   },
   "subscription_cta_label": {
-    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
+    "other": "Iratkozz fel {{.Price}}/{{.Recurrence}}"
   },
   "subscription_recurrence_year": {
     "one": "Év",

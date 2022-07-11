@@ -1332,7 +1332,7 @@
     "other": "Redeem"
   },
   "subscription_cta_label": {
-    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
+    "other": "Subscribe {{.Price}}/{{.Recurrence}}"
   },
   "subscription_recurrence_day": {
     "one": "Day",

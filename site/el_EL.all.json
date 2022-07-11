@@ -1332,7 +1332,7 @@
     "other": "Εξαργυρώνω"
   },
   "subscription_cta_label": {
-    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
+    "other": "Εγγραφείτε {{.Price}}/{{.Recurrence}}"
   },
   "subscription_recurrence_year": {
     "one": "Ετος",

@@ -1332,7 +1332,7 @@
     "other": "Tazmin etmek"
   },
   "subscription_cta_label": {
-    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
+    "other": "Abone olmak {{.Price}}/{{.Recurrence}}"
   },
   "subscription_recurrence_year": {
     "one": "Yıl",

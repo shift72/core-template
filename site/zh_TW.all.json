@@ -1330,7 +1330,7 @@
     "other": "贖回"
   },
   "subscription_cta_label": {
-    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
+    "other": "订阅 {{.Price}}/{{.Recurrence}}"
   },
   "subscription_recurrence_year": {
     "other": "{{.Count}} 年"

@@ -1332,7 +1332,7 @@
     "other": "Lunastaa"
   },
   "subscription_cta_label": {
-    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
+    "other": "Tilaa {{.Price}}/{{.Recurrence}}"
   },
   "subscription_recurrence_year": {
     "one": "vuosi",

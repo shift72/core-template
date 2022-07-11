@@ -1332,7 +1332,7 @@
     "other": "Racheter"
   },
   "subscription_cta_label": {
-    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
+    "other": "S'abonner {{.Price}}/{{.Recurrence}}"
   },
   "subscription_recurrence_year": {
     "one": "An",

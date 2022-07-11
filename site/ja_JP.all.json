@@ -1330,7 +1330,7 @@
     "other": "償還"
   },
   "subscription_cta_label": {
-    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
+    "other": "申し込む {{.Price}}/{{.Recurrence}}"
   },
   "subscription_recurrence_year": {
     "other": "{{.Count}} 年"

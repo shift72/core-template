@@ -1364,7 +1364,7 @@
     "other": "Викупити"
   },
   "subscription_cta_label": {
-    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
+    "other": "Підпишіться {{.Price}}/{{.Recurrence}}"
   },
   "subscription_recurrence_year": {
     "one": "рік",

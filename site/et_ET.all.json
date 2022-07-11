@@ -1341,7 +1341,7 @@
     "other": "Lunastama"
   },
   "subscription_cta_label": {
-    "other": "{{.Verb}} {{.Price}}/{{.Recurrence}}"
+    "other": "Telli {{.Price}}/{{.Recurrence}}"
   },
   "subscription_recurrence_year": {
     "one": "aasta",
