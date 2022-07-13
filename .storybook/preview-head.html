@@ -26,34 +26,7 @@ document.addEventListener('s72loaded', (event) => {
   console.log('s72loaded');
 });
 
-      // window.addEventListener('DOMContentLoaded', function(){
-
-
-        setTimeout(() => {
-
-          var script = document.createElement('script');
-          script.type = 'text/javascript';
-          script.src = '//localhost:3000/s72.core.js';
-
-          document.head.appendChild(script);
-                  }, 3333);
-
                   setTimeout(() => {
-
-          var script = document.createElement('script');
-          script.type = 'text/javascript';
-          script.src = '//localhost:3000/s72.ui.js';
-
-          document.head.appendChild(script);
-                  }, 4444);
-
-                  setTimeout(() => {
-
-          var script = document.createElement('script');
-          script.type = 'text/javascript';
-          script.src = '//localhost:3000/s72.transactional.js';
-
-          document.head.appendChild(script);
 
           s72.cfg(function(){
           return s72.i18n.load('en', '/en_AU.all.json');
@@ -64,7 +37,10 @@ document.addEventListener('s72loaded', (event) => {
           toggles: {"admin_add_external_pages":true,"admin_add_report_streams":true,"admin_add_report_time_watched":true,"admin_bg_image":true,"admin_bundles":true,"admin_carousel_image":true,"admin_cookie_consent":true,"admin_delete_meta":true,"admin_invite_admins":true,"admin_journal":true,"admin_live_events":true,"admin_meta_custom_fields":true,"admin_moviexchange_search":true,"admin_page_images":true,"admin_publishing_workflow":true,"admin_recommendation_collections":true,"admin_report_activity":true,"admin_report_credits":true,"admin_report_engagement":true,"admin_report_ingestions":true,"admin_report_streamers":true,"admin_seo_image":true,"admin_tags_editable":true,"admin_user_delete":true,"admin_user_devices":true,"admin_user_plans":true,"admin_v2":true,"classifications_enabled":true,"disable_sitemap":true,"donate_button":true,"element_switcher_enabled":true,"frontend_cookie_consent":true,"global_classification_enabled":true,"item_delivery_policy":true,"kibble":true,"language_selector":true,"meta_exclude_default_image_types":false,"plan_items_geoblock":true,"plan_items_geoblockss":false,"refund_disabled":false,"revenue_splits_extra_details":true,"saved_cards":true,"self_service_css":false,"self_service_site_images":true,"shopping_wizard":true,"show_social_settings":true,"show_user_stream_quality":true,"simple-mde-editor":true,"site_translations_api":false,"tax_settings":true,"tv_bonus_content":true,"uploader_v2":true,"use_new_license_server":true,"use_post_payment_worker":true,"user_invite":true},
           languages: [{"code":"","name":"English","label":"","locale":""}]
         });
-
-                  }, 5555);
+                  }, 2222);
 </script>
+
+<script src="//localhost:3000/s72.core.js" defer></script>
+    <script src="//localhost:3000/s72.ui.js" defer></script>
+    <script src="//localhost:3000/s72.transactional.js" defer></script>
 

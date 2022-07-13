@@ -28,7 +28,7 @@
     "prebuild": "npm run version",
     "prepare": "npm run version",
     "translate": "node scripts/translate.mjs",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006 --no-manager-cache",
     "build-storybook": "build-storybook"
   },
   "repository": {
