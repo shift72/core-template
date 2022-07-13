@@ -212,3 +212,12 @@ s72-availability-label .availability-state::before {
 .alert svg {
   fill: var(--primary);
 }
+
+.fa-play-trailer::before,
+.fa-share-alt::before {
+  font-size: 23px;
+}
+
+.fa-play-trailer::before {
+  content: '\e01d';
+}

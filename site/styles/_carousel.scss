@@ -94,6 +94,7 @@ s72-carousel {
 
 .carousel-item-caption {
   @extend .carousel-bottom-gradient;
+
   bottom: 0;
   display: flex;
   flex-direction: column;
@@ -112,22 +113,36 @@ s72-carousel {
     padding: var(--carousel-bottom-gradient-height-lg) 50px 1px;
   }
 
-  .sponsor {
-    margin-bottom: 8px;
+  .meta-awards {
+    @include media-breakpoint-up(lg) {
+      justify-content: end;
+      margin-bottom: 8px;
+    }
+  }
+
+  .sponsor-awards-wrapper {
+    color: var(--body-color);
+
     @include media-breakpoint-up(lg) {
       align-self: flex-end;
+      flex-shrink: 0;
       margin-left: auto;
       order: 1;
     }
   }
 
+  .sponsor {
+    @include media-breakpoint-up(lg) {
+      text-align: right;
+    }
+  }
+
   .availability-bg {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .availability-state {
     color: var(--body-color);
-    font-size: 12px;
     margin-bottom: 0 !important; // >:(
     text-transform: none;
   }
@@ -137,12 +152,8 @@ s72-carousel {
   }
 
   h3 {
-    color: var(--body-color);
-    font-size: 28px;
-    font-weight: $font-weight-normal;
-    margin-bottom: 8px;
+    @include heading-1-style;
     max-width: 930px;
-    padding-bottom: 0;
 
     /* stylelint-disable */
     display: -webkit-box;
@@ -150,18 +161,6 @@ s72-carousel {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     /* stylelint-enable */
-
-    @include media-breakpoint-up(md) {
-      font-size: 38px;
-    }
-
-    @include media-breakpoint-up(lg) {
-      font-size: 46px;
-    }
-
-    @include media-breakpoint-up(xxxl) {
-      font-size: 46px;
-    }
   }
 
   h4 {
@@ -191,8 +190,6 @@ s72-carousel {
 
   .meta-item-synopsis {
     display: none;
-    font-size: 16px;
-    font-weight: $font-weight-normal;
     margin-bottom: 8px;
     max-width: 600px;
     padding-top: 0;
@@ -200,10 +197,6 @@ s72-carousel {
     @include media-breakpoint-up(xs) {
       display: block;
     }
-  }
-
-  .meta-item-synopsis p {
-    margin-bottom: 0;
   }
 }
 

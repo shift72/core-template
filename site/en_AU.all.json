@@ -128,7 +128,7 @@
     "other": "Submit search"
   },
   "play_button_watch": {
-    "other": "Play Now"
+    "other": "Watch now"
   },
   "play_button_resume": {
     "other": "Continue"
@@ -814,7 +814,7 @@
     "other": "Add to My List"
   },
   "userwishlist_button_remove": {
-    "other": "My List"
+    "other": "Remove from My List"
   },
   "userwishlist_button_add_compact": {
     "other": "My List"
@@ -962,7 +962,7 @@
     "other": "(expired)"
   },
   "shopping_card_use_other": {
-    "other": "Use a new card"
+    "other": "Add new card"
   },
   "shopping_card_use_new_card": {
     "other": "Change card"
@@ -977,7 +977,7 @@
     "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Subscription"
+    "other": "Plan"
   },
   "shopping_price_title_plan": {
     "other": "Price"
@@ -1086,10 +1086,10 @@
     "other": "Cancel my subscription"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Cancel"
+    "other": "No thanks"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Yes, cancel my subscription"
+    "other": "Yes, cancel"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Cancel subscription?"
@@ -1323,12 +1323,15 @@
     "other": "Please enter a valid promo code."
   },
   "shopping_complete_promo_only": {
-    "other": "Success! You can now watch {{.Title}}."
+    "other": "You can now watch {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Redeem"
   },
   "pricing_ownership_promo": {
     "other": "Redeem"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Subscription"
   }
 }

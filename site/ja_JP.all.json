@@ -102,7 +102,7 @@
     "other": "検索する"
   },
   "play_button_watch": {
-    "other": "再生する"
+    "other": "今見る"
   },
   "play_button_resume": {
     "other": "続きから見る"
@@ -698,7 +698,7 @@
     "other": "マイリストに追加"
   },
   "userwishlist_button_remove": {
-    "other": "マイリスト"
+    "other": "マイリストから削除"
   },
   "userwishlist_button_add_compact": {
     "other": "マイリスト"
@@ -1097,10 +1097,10 @@
     "other": "サブスクリプションをキャンセルする"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "キャンセル"
+    "other": "結構です"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "はい、サブスクリプションをキャンセルします"
+    "other": "はい、キャンセルします"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "サブスクリプションをキャンセルしますか？"
@@ -1142,7 +1142,7 @@
     "other": "（期限切れ）"
   },
   "shopping_card_use_other": {
-    "other": "新しいカードを使用する"
+    "other": "新しいカードを追加する"
   },
   "shopping_card_use_new_card": {
     "other": "カードを変更する"
@@ -1151,7 +1151,7 @@
     "other": "クレジットカードを更新します。 サポートされているカードは、Visa、Mastercard、AmericanExpressです。"
   },
   "shopping_info_ownership_plan": {
-    "other": "サブスクリプション"
+    "other": "プラン"
   },
   "shopping_action_credit": {
     "other": "補充"
@@ -1321,12 +1321,15 @@
     "other": "有効なプロモーションコードを入力してください。"
   },
   "shopping_complete_promo_only": {
-    "other": "成功！これで、 {{.Title}}を見ることができます。"
+    "other": "これで、 {{.Title}}を見ることができます。"
   },
   "shopping_action_redeem_promo_code": {
     "other": "償還"
   },
   "pricing_ownership_promo": {
     "other": "償還"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "サブスクリプション"
   }
 }

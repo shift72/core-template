@@ -125,7 +125,7 @@
     "other": "送出"
   },
   "play_button_watch": {
-    "other": "播放"
+    "other": "立即观看"
   },
   "play_button_resume": {
     "other": "繼續播放"
@@ -808,7 +808,7 @@
     "other": "加入我的追蹤片單"
   },
   "userwishlist_button_remove": {
-    "other": "我的追蹤片單"
+    "other": "从我的列表中删除"
   },
   "userwishlist_button_add_compact": {
     "other": "我的追蹤片單"
@@ -956,7 +956,7 @@
     "other": "（已過期）"
   },
   "shopping_card_use_other": {
-    "other": "使用新的信用卡"
+    "other": "添加新卡"
   },
   "shopping_card_use_new_card": {
     "other": "換一張信用卡"
@@ -971,7 +971,7 @@
     "other": "信用卡錯誤 <a href=\"{{.SubscriptionsURL}}\">請按此更新。</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "訂閱"
+    "other": "计划"
   },
   "shopping_action_credit": {
     "other": "頂尖"
@@ -998,10 +998,10 @@
     "other": "取消我的訂閱"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "取消"
+    "other": "不，谢谢"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "是的，取消我的訂閱"
+    "other": "是的，取消"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "取消訂閱？"
@@ -1321,12 +1321,15 @@
     "other": "請輸入有效的促銷代碼。"
   },
   "shopping_complete_promo_only": {
-    "other": "成功！您現在可以觀看{{.Title}}。"
+    "other": "您現在可以觀看{{.Title}}。"
   },
   "shopping_action_redeem_promo_code": {
     "other": "贖回"
   },
   "pricing_ownership_promo": {
     "other": "贖回"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "订阅"
   }
 }

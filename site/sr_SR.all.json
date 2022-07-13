@@ -122,7 +122,7 @@
     "other": "Пошаљите претрагу"
   },
   "play_button_watch": {
-    "other": "Гледајте одмах"
+    "other": "Гледај сада"
   },
   "play_button_resume": {
     "other": "Наставите"
@@ -754,7 +754,7 @@
     "other": "Додај на Моју листу"
   },
   "userwishlist_button_remove": {
-    "other": "Моја листа"
+    "other": "Уклони са моје листе"
   },
   "userwishlist_button_add_compact": {
     "other": "Моја листа"
@@ -902,7 +902,7 @@
     "other": "(истекший)"
   },
   "shopping_card_use_other": {
-    "other": "Использовать новую карту"
+    "other": "Додајте нову картицу"
   },
   "shopping_card_use_new_card": {
     "other": "Изменить карту"
@@ -917,7 +917,7 @@
     "other": "Кредитная карта не правильная? <a href=\"{{.SubscriptionsURL}}\">Нажмите здесь, чтобы обновить свою карту.</a>"
   },
   "shopping_info_ownership_plan": {
-    "other": "Подписка"
+    "other": "План"
   },
   "shopping_action_credit": {
     "other": "Пополнить"
@@ -944,10 +944,10 @@
     "other": "Отменить мою подписку"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Отмена"
+    "other": "Не хвала"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Да, отмените мою подписку"
+    "other": "Да, откажи"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Отменить подписку?"
@@ -1325,12 +1325,15 @@
     "other": "Унесите важећи промотивни код."
   },
   "shopping_complete_promo_only": {
-    "other": "Успех! Сада можете гледати {{.Title}}."
+    "other": "Сада можете гледати {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Искупити"
   },
   "pricing_ownership_promo": {
     "other": "Искупити"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Претплата"
   }
 }

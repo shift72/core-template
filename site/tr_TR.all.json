@@ -122,7 +122,7 @@
     "other": "Aramayı gönder"
   },
   "play_button_watch": {
-    "other": "Şimdi Oynat"
+    "other": "İzle şimdi"
   },
   "play_button_resume": {
     "other": "Devam et"
@@ -739,7 +739,7 @@
     "other": "Listeme Ekle"
   },
   "userwishlist_button_remove": {
-    "other": "Benim Listem"
+    "other": "Listemden Kaldır"
   },
   "userwishlist_button_add_compact": {
     "other": "Benim Listem"
@@ -881,13 +881,13 @@
     "other": "(günü geçmiş)"
   },
   "shopping_card_use_other": {
-    "other": "Yeni bir kart kullanın"
+    "other": "Yeni kart ekle"
   },
   "shopping_card_use_new_card": {
     "other": "Kartı değiştir "
   },
   "shopping_info_ownership_plan": {
-    "other": "Abonelik"
+    "other": "Plan"
   },
   "shopping_action_credit": {
     "other": "Doldurmak"
@@ -914,10 +914,10 @@
     "other": "Aboneliğimi iptal et"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "İptal"
+    "other": "Hayır, teşekkürler"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Evet, aboneliğimi iptal et "
+    "other": "Evet İptal"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Aboneliği iptal et?"
@@ -1323,12 +1323,15 @@
     "other": "Lütfen geçerli bir promosyon kodu girin."
   },
   "shopping_complete_promo_only": {
-    "other": "Başarı! Artık {{.Title}} izleyebilirsiniz."
+    "other": "Artık {{.Title}} izleyebilirsiniz."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Tazmin etmek"
   },
   "pricing_ownership_promo": {
     "other": "Tazmin etmek"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "abonelik"
   }
 }

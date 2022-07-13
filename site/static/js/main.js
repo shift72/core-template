@@ -482,7 +482,6 @@ function documentReady(app) {
     btn.addEventListener('click', e => {
       e.preventDefault();
       e.stopPropagation();
-      window.location = btn.getAttribute('data-url');
     });
   });
 

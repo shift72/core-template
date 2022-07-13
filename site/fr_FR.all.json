@@ -119,7 +119,7 @@
     "other": "Rechercher"
   },
   "play_button_watch": {
-    "other": "Voir le film"
+    "other": "Regarde maintenant"
   },
   "play_button_resume": {
     "other": "Continuer"
@@ -769,7 +769,7 @@
     "other": "Ajouter à ma liste"
   },
   "userwishlist_button_remove": {
-    "other": "Ma liste"
+    "other": "Supprimer de ma liste"
   },
   "userwishlist_button_add_compact": {
     "other": "Ma liste"
@@ -1134,10 +1134,10 @@
     "other": "Annuler mon abonnement"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Annuler"
+    "other": "Non merci"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Oui, résilier mon abonnement"
+    "other": "Oui, annuler"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Se désabonner?"
@@ -1194,7 +1194,7 @@
     "other": "(expiré)"
   },
   "shopping_card_use_other": {
-    "other": "Utiliser une nouvelle carte"
+    "other": "Ajouter une nouvelle carte"
   },
   "shopping_card_use_new_card": {
     "other": "Modifier les informations de la carte"
@@ -1203,7 +1203,7 @@
     "other": "Mettez à jour votre carte de crédit. Les cartes acceptées sont Visa, Mastercard et American Express."
   },
   "shopping_info_ownership_plan": {
-    "other": "Abonnement"
+    "other": "Planifier"
   },
   "shopping_action_credit": {
     "other": "Ajouter un crédit"
@@ -1323,12 +1323,15 @@
     "other": "Veuillez saisir un code promotionnel valide."
   },
   "shopping_complete_promo_only": {
-    "other": "Succès! Vous pouvez maintenant regarder {{.Title}}."
+    "other": "Vous pouvez maintenant regarder {{.Title}}."
   },
   "shopping_action_redeem_promo_code": {
     "other": "Racheter"
   },
   "pricing_ownership_promo": {
     "other": "Racheter"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Abonnement"
   }
 }
