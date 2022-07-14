@@ -1,9 +1,9 @@
 import { createAvailabilityLabel } from './AvailabilityLabel';
 import withMock from 'storybook-addon-mock';
-import { itemLimitNotReached } from './mocks/item-limit-not-reached';
+import { itemLimitNotReached } from './mocks/shopping/v1/item_limit';
 import { genericPlans } from './mocks/pricing/v1/plans';
-import { showMultiple } from './mocks/show-multiple';
-import { getAvailabilities } from './mocks/get-availabilities';
+import { showMultiple } from './mocks/pricing/v2/prices/show_multiple';
+import { getAvailabilities } from './mocks/content/v1/availabilities';
 
 export default {
   title: 'Molecules/AvailabilityLabel',
@@ -24,12 +24,12 @@ const Template = ({ label, ...args }) => {
   return createAvailabilityLabel({ label, ...args });
 };
 
-export const Primary = Template.bind({});
-Primary.args = {
+export const AvailableUntil = Template.bind({});
+AvailableUntil.args = {
   primary: true,
   label: 'AvailabilityLabel',
 };
-Primary.parameters = {
+AvailableUntil.parameters = {
   mockData: [
     itemLimitNotReached,
     genericPlans,
