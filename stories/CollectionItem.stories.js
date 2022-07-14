@@ -1,7 +1,7 @@
 import { createCollectionItem } from './CollectionItem';
 import withMock from 'storybook-addon-mock';
 import { itemLimitNotReached } from './mocks/item-limit-not-reached';
-import { genericPlans } from './mocks/generic-plans';
+import { genericPlans } from './mocks/pricing/v1/plans';
 import { showMultiple } from './mocks/show-multiple';
 import { getAvailabilities } from './mocks/get-availabilities';
 

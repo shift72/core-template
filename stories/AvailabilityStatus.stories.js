@@ -3,7 +3,7 @@ import withMock from 'storybook-addon-mock';
 import { itemLimitNotReached2 } from './mocks/item-limit-not-reached2';
 import { itemLimitNotReached3 } from './mocks/item-limit-not-reached3';
 import { pricingV1PlansNoPlans } from './mocks/pricing-v1-plans--no-plans';
-import { contentV1UserPlansNoUserPlans } from './mocks/content-v1-userplans--no-userplans';
+import { NoUserPlans } from './mocks/content/v1/user_plans';
 import { usersV1WishlistNoWishlistItems } from './mocks/users-v1-wishlist--no-wishlist-items';
 import { showMultiple2 } from './mocks/show-multiple2';
 import { getAvailabilitiesx } from './mocks/get-availabilitiesx';
@@ -51,7 +51,7 @@ Renting.args = {
 Renting.parameters = {
   mockData: [
     pricingV1PlansNoPlans,
-    contentV1UserPlansNoUserPlans,
+    NoUserPlans,
     usersV1WishlistNoWishlistItems,
     showMultiple2,
     availabilitiesCurrentlyRenting,
