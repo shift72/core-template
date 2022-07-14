@@ -8,19 +8,15 @@ import { getAvailabilities } from './mocks/content/v1/availabilities';
 export default {
   title: 'Organisms/CollectionItem',
   argTypes: {
-    backgroundColor: { control: 'color' },
-    label: { control: 'text' },
-    onClick: { action: 'onClick' },
-    primary: { control: 'boolean' },
-    size: {
-      control: { type: 'select' },
-      options: ['small', 'medium', 'large'],
+    poster: {
+      control: 'text'
     },
   },
   decorators: [withMock],
 };
 
 const Template = ({ label, ...args }) => {
+
   return createCollectionItem({ label, ...args });
 };
 
@@ -34,7 +30,7 @@ Primary.parameters = {
     itemLimitNotReached,
     genericPlans,
     showMultiple,
-    getAvailabilities
+    getAvailabilities()
     ]
 };
 export const Secondary = Template.bind({});
@@ -46,7 +42,7 @@ Secondary.parameters = {
     itemLimitNotReached,
     genericPlans,
     showMultiple,
-    getAvailabilities
+    getAvailabilities()
     ]
 };
 export const Large = Template.bind({});

@@ -12,8 +12,3 @@ module.exports = {
   "framework": "@storybook/html",
   "staticDirs": ['../.kibble/build'],
 }
-
-Date.prototype.addHours= function(h){
-  this.setHours(this.getHours()+h);
-  return this;
-}

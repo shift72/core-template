@@ -1,4 +1,4 @@
-export const createCollectionItem = ({poster}) => {
+export const createAvailabilityStatusPoster = ({poster}) => {
   const btn = document.createElement('div');
   btn.innerHTML = `
   <main id="main" class="page">
