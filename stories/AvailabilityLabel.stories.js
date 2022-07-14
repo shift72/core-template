@@ -25,7 +25,6 @@ const Template = ({ label, ...args }) => {
 };
 
 export const Primary = Template.bind({});
-// More on args: https://storybook.js.org/docs/html/writing-stories/args
 Primary.args = {
   primary: true,
   label: 'AvailabilityLabel',

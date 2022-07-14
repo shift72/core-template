@@ -4,7 +4,7 @@ export const createAvailabilityLabel = ({
   const btn = document.createElement('div');
   btn.style.backgroundColor = 'red';
   btn.innerHTML = `
-  <main id="main" class="page collection-page">
+  <main id="main" class="page">
     <section class="page-collections" aria-label="Page Collection">
       <div class="page-collection-item">
         <a

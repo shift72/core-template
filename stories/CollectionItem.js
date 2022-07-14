@@ -3,7 +3,7 @@ export const createCollectionItem = ({
 }) => {
   const btn = document.createElement('div');
   btn.innerHTML = `
-  <main id="main" class="page collection-page">
+  <main id="main" class="page">
     <section class="page-collections" aria-label="Page Collection">
       <div class="page-collection-item">
         <a

@@ -1,10 +1,16 @@
 import { createAvailabilityStatus } from './AvailabilityStatus';
 import withMock from 'storybook-addon-mock';
 import { itemLimitNotReached2 } from './mocks/item-limit-not-reached2';
+import { itemLimitNotReached3 } from './mocks/item-limit-not-reached3';
 import { pricingV1PlansNoPlans } from './mocks/pricing-v1-plans--no-plans';
+import { contentV1UserPlansNoUserPlans } from './mocks/content-v1-userplans--no-userplans';
+import { usersV1WishlistNoWishlistItems } from './mocks/users-v1-wishlist--no-wishlist-items';
 import { showMultiple2 } from './mocks/show-multiple2';
 import { getAvailabilitiesx } from './mocks/get-availabilitiesx';
+import { currentlyRenting } from "./mocks/content/v3/user_library.js";
+import { availabilitiesCurrentlyRenting } from "./mocks/content/v1/availabilities.js";
 // import { storiesOf, forceReRender } from '@storybook';
+
 
 export default {
   title: 'Molecules/AvailabilityStatus',
@@ -25,12 +31,12 @@ const Template = ({ label, ...args }) => {
   return createAvailabilityStatus({ label, ...args });
 };
 
-export const Primary = Template.bind({});
-Primary.args = {
+export const SoldOut = Template.bind({});
+SoldOut.args = {
   primary: true,
   label: 'AvailabilityStatus',
 };
-Primary.parameters = {
+SoldOut.parameters = {
   mockData: [
     itemLimitNotReached2,
     pricingV1PlansNoPlans,
@@ -38,26 +44,18 @@ Primary.parameters = {
     getAvailabilitiesx
     ]
 };
-export const Secondary = Template.bind({});
-Secondary.args = {
+export const Renting = Template.bind({});
+Renting.args = {
   label: 'AvailabilityStatus',
 };
-Secondary.parameters = {
+Renting.parameters = {
   mockData: [
-    itemLimitNotReached2,
     pricingV1PlansNoPlans,
+    contentV1UserPlansNoUserPlans,
+    usersV1WishlistNoWishlistItems,
     showMultiple2,
-    getAvailabilitiesx
+    availabilitiesCurrentlyRenting,
+    itemLimitNotReached3,
+    currentlyRenting
     ]
-};
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'AvailabilityStatus',
-};
-
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'AvailabilityStatus',
 };
