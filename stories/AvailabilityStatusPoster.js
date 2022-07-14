@@ -56,30 +56,6 @@ export const createAvailabilityStatusPoster = ({poster}) => {
             </div>
           </div>
         </a>
-
-        <div class="caption">
-          <div class="title" title="Babe: Pig in the City">
-            Babe: Pig in the City
-          </div>
-
-          <div class="meta-item-tagline">
-            <span class="runtime">
-              <span class="item"> 1h 37m </span>
-            </span>
-
-            <span class="genres">
-              <span class="divider">•</span>
-
-              <span class="item"> Family, Adventure, Children’s </span>
-            </span>
-
-            <span class="release-date">
-              <span class="divider">•</span>
-
-              <span class="item"> 1998 </span>
-            </span>
-          </div>
-        </div>
       </div>
     </section>
 </main>`

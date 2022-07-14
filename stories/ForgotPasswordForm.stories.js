@@ -1,4 +1,4 @@
-import { createAvailabilityLabel } from './AvailabilityLabel';
+import { createForgotPasswordForm } from './ForgotPasswordForm';
 import withMock from 'storybook-addon-mock';
 import { itemLimitNotReached } from './mocks/shopping/v1/item_limit';
 import { genericPlans } from './mocks/pricing/v1/plans';
@@ -6,7 +6,7 @@ import { showMultiple } from './mocks/pricing/v2/prices/show_multiple';
 import { getAvailabilities } from './mocks/content/v1/availabilities';
 
 export default {
-  title: 'Molecules/AvailabilityLabel',
+  title: 'Molecules/ForgotPasswordForm',
   argTypes: {
     poster: {
       control: 'text'
@@ -17,16 +17,13 @@ export default {
 
 
 const Template = ({ label, ...args }) => {
-  return createAvailabilityLabel({ label, ...args });
+  return createForgotPasswordForm({ label, ...args });
 };
 
 
-export const AvailableUntil = Template.bind({});
-AvailableUntil.args = {
-  poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
-};
+export const Default = Template.bind({});
 
-AvailableUntil.parameters = {
+Default.parameters = {
   mockData: [
     itemLimitNotReached,
     genericPlans,
