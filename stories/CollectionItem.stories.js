@@ -1,9 +1,9 @@
 import { createCollectionItem } from './CollectionItem';
 import withMock from 'storybook-addon-mock';
 import { itemLimitNotReached } from './mocks/shopping/v1/item_limit';
-import { genericPlans } from './mocks/pricing/v1/plans';
+import { assortedPlans } from './mocks/pricing/v1/plans';
 import { showMultiple } from './mocks/pricing/v2/prices/show_multiple';
-import { getAvailabilities } from './mocks/content/v1/availabilities';
+import { availableNowUntil48Hours } from './mocks/content/v1/availabilities';
 
 export default {
   title: 'Organisms/CollectionItem',
@@ -28,9 +28,9 @@ Primary.args = {
 Primary.parameters = {
   mockData: [
     itemLimitNotReached,
-    genericPlans,
+    assortedPlans,
     showMultiple,
-    getAvailabilities()
+    availableNowUntil48Hours
     ]
 };
 export const Secondary = Template.bind({});
@@ -40,10 +40,10 @@ Secondary.args = {
 Secondary.parameters = {
   mockData: [
     itemLimitNotReached,
-    genericPlans,
+    assortedPlans,
     showMultiple,
-    getAvailabilities()
-    ]
+    availableNowUntil48Hours
+  ]
 };
 export const Large = Template.bind({});
 Large.args = {
