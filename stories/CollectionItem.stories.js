@@ -1,9 +1,13 @@
 import { createCollectionItem } from './CollectionItem';
 import withMock from 'storybook-addon-mock';
+
 import { itemLimitNotReached } from './mocks/shopping/v1/item_limit';
 import { assortedPlans } from './mocks/pricing/v1/plans';
-import { singleFilmRentOnly } from './mocks/pricing/v2/prices/show_multiple';
+import { singleFilmRentableInYourRegion } from './mocks/pricing/v2/prices/show_multiple';
 import { availableNowUntil48Hours } from './mocks/content/v1/availabilities';
+import { noUserPlans } from './mocks/content/v1/user_plans';
+import { emptyLibrary } from "./mocks/content/v3/user_library";
+import { emptyWishlist } from './mocks/users/v1/wishlist';
 
 export default {
   title: 'Organisms/CollectionItem',
@@ -20,39 +24,21 @@ const Template = ({ label, ...args }) => {
   return createCollectionItem({ label, ...args });
 };
 
-export const Primary = Template.bind({});
-Primary.args = {
-  primary: true,
+export const Default = Template.bind({});
+Default.args = {
+  Default: true,
   label: 'CollectionItem',
-};
-Primary.parameters = {
-  mockData: [
-    itemLimitNotReached,
-    assortedPlans,
-    singleFilmRentOnly,
-    availableNowUntil48Hours
-    ]
-};
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'CollectionItem',
-};
-Secondary.parameters = {
-  mockData: [
-    itemLimitNotReached,
-    assortedPlans,
-    singleFilmRentOnly,
-    availableNowUntil48Hours
-  ]
-};
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'CollectionItem',
+  poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'CollectionItem',
+Default.parameters = {
+  mockData: [
+    itemLimitNotReached,
+    assortedPlans,
+    singleFilmRentableInYourRegion,
+    availableNowUntil48Hours,
+    noUserPlans,
+    emptyLibrary,
+    emptyWishlist
+    ]
 };

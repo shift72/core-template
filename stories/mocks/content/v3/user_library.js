@@ -20,3 +20,10 @@ export const currentlyRenting = {
     }
   ]
 }
+
+export const emptyLibrary = {
+  url: `${window.location.origin}/services/content/v3/user_library/123/index?sort_by=relevance`,
+  method: 'GET',
+  status: 200,
+  response: []
+}

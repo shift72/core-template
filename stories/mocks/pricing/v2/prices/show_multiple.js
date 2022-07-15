@@ -1,4 +1,4 @@
-export const singleFilmRentOnly = {
+export const singleFilmRentableInYourRegion = {
     url: `${window.location.origin}/services/pricing/v2/prices/show_multiple?items=/film/28933`,
     method: 'GET',
     status: 200,
@@ -29,6 +29,16 @@ export const singleFilmRentOnly = {
               "promo_only": false
           }
       ],
+      "plans": []
+  }
+  }
+
+  export const noPricesInYourRegion = {
+    url: `${window.location.origin}/services/pricing/v2/prices/show_multiple?items=/film/28933`,
+    method: 'GET',
+    status: 200,
+    response: {
+      "prices": [],
       "plans": []
   }
   }

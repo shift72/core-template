@@ -1,4 +1,4 @@
-export const NoUserPlans = {
+export const noUserPlans = {
     url: `${window.location.origin}/services/content/v1/user_plans`,
     method: 'GET',
     status: 200,
