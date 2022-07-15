@@ -2,7 +2,7 @@ import { createForgotPasswordForm } from './ForgotPasswordForm';
 import withMock from 'storybook-addon-mock';
 import { itemLimitNotReached } from './mocks/shopping/v1/item_limit';
 import { assortedPlans } from './mocks/pricing/v1/plans';
-import { showMultiple } from './mocks/pricing/v2/prices/show_multiple';
+import { singleFilmRentOnly } from './mocks/pricing/v2/prices/show_multiple';
 import { availableNowUntil48Hours } from './mocks/content/v1/availabilities';
 
 export default {
@@ -25,7 +25,7 @@ Default.parameters = {
   mockData: [
     itemLimitNotReached,
     assortedPlans,
-    showMultiple,
+    singleFilmRentOnly,
     availableNowUntil48Hours
     ]
 };

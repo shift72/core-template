@@ -127,7 +127,7 @@ export const assortedPlans = {
       }
   ]
 }
-export const pricingV1PlansNoPlans = {
+export const noPlans = {
     url: `${window.location.origin}/services/pricing/v1/plans`,
     method: 'GET',
     status: 200,
