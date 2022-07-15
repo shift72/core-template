@@ -139,6 +139,7 @@ InWatchWindow.parameters = {
     singleFilmRentableInYourRegion,
     availableNowUntilIndefinate,
     noItemLimits,
-    currentlyRenting
+    currentlyRenting,
+    noPlaybackProgress
   ]
 };

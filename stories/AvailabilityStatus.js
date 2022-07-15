@@ -1,7 +1,7 @@
 export const createAvailabilityStatus = ({poster}) => {
   const btn = document.createElement('div');
   btn.innerHTML = `
-          <div class="poster">
+          <div class="poster" style="overflow: visible;">
               <s72-availability-status
                 data-slug="/film/28933"
               ></s72-availability-status>
