@@ -17,6 +17,7 @@
   }
 
   .meta-award-nomination {
+    @include subtitle-1-style;
     display: flex;
     max-width: 370px;
   }

@@ -15,55 +15,105 @@
 }
 
 @mixin heading-1-style() {
-  @include typography-style(32px, 0.4px, $font-weight-normal, 8px, var(--body-color));
+  @include typography-style(
+    $font-size: 32px,
+    $letter-spacing: 0.4px,
+    $font-weight: $font-weight-normal,
+    $margin-bottom: 8px,
+    $font-color: var(--body-color),
+    $line-height: 42px
+  );
   @include media-breakpoint-up(xs) {
-    @include typography-style(45px);
+    @include typography-style($font-size: 46px, $line-height: 56px);
   }
   small {
-    @include typography-style(24px);
+    @include typography-style($font-size: 24px);
   }
 }
 
 @mixin heading-2-style() {
-  @include typography-style(29px, 0.6px, $font-weight-normal, 13px);
+  @include typography-style(
+    $font-size: 29px,
+    $letter-spacing: 0.6px,
+    $font-weight: $font-weight-normal,
+    $margin-bottom: 13px
+  );
   @include media-breakpoint-up(sm) {
-    @include typography-style(35px);
+    @include typography-style($font-size: 35px);
   }
 }
 
 @mixin heading-3-style() {
-  @include typography-style(20px, 0, $font-weight-normal, 6px);
+  @include typography-style(
+    $font-size: 20px,
+    $letter-spacing: 0,
+    $font-weight: $font-weight-normal,
+    $margin-bottom: 6px,
+    $line-height: 24px
+  );
   @include media-breakpoint-up(sm) {
-    @include typography-style(23px, 0.4px);
+    @include typography-style($font-size: 24px, $letter-spacing: 0.4px, $line-height: 30px);
   }
 }
 
 @mixin heading-4-style() {
-  @include typography-style(18px, null, $font-weight-light, 20px);
+  @include typography-style(
+    $font-size: 18px,
+    $font-weight: $font-weight-light,
+    $margin-bottom: 20px
+  );
 }
 
 @mixin body-1-style() {
-  @include typography-style(16px, 0.5px, $font-weight-light, null, null, 23px);
+  @include typography-style(
+    $font-size: 16px,
+    $letter-spacing: 0.6px,
+    $font-weight: $font-weight-light,
+    $line-height: 23px
+  );
 }
 
 @mixin body-2-style() {
-  @include typography-style(14px, 0.4px);
+  @include typography-style($font-size: 14px, $letter-spacing: 0.4px);
 }
 
 @mixin subtitle-1-style() {
-  @include typography-style(16px, 0.2px, $font-weight-light, 2px);
+  @include typography-style(
+    $font-size: 16px,
+    $letter-spacing: 0.2px,
+    $font-weight: $font-weight-normal,
+    $margin-bottom: 2px,
+    $line-height: 20px
+  );
 }
 
 @mixin subtitle-2-style() {
-  @include typography-style(14px, 0.2px, $font-weight-normal, 12px);
+  @include typography-style(
+    $font-size: 14px,
+    $letter-spacing: 0.2px,
+    $font-weight: $font-weight-normal,
+    $margin-bottom: 12px,
+    $line-height: 18px
+  );
 }
 
 @mixin caption-1-style() {
-  @include typography-style(16px, 0.5px, $font-weight-bold, 4px);
+  @include typography-style(
+    $font-size: 16px,
+    $letter-spacing: 0.6px,
+    $font-weight: $font-weight-bold,
+    $margin-bottom: 4px,
+    $line-height: 20px
+  );
 }
 
 @mixin overline-style() {
-  @include typography-style(14px, 0.8px, $font-weight-light);
+  @include typography-style(
+    $font-size: 14px,
+    $letter-spacing: 1px,
+    $font-weight: $font-weight-normal,
+    $line-height: 18px
+  );
 }
 
 h1 {
