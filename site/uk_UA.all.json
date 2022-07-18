@@ -1363,6 +1363,33 @@
   "pricing_ownership_promo": {
     "other": "Викупити"
   },
+  "subscription_cta_label": {
+    "other": "Підпишіться {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "рік",
+    "few": "{{.Count}} років",
+    "many": "{{.Count}} років",
+    "other": "{{.Count}} років"
+  },
+  "subscription_recurrence_month": {
+    "one": "місяць",
+    "few": "{{.Count}} Місяці",
+    "many": "{{.Count}} Місяці",
+    "other": "{{.Count}} Місяці"
+  },
+  "subscription_recurrence_week": {
+    "one": "тиждень",
+    "few": "{{.Count}} тижнів",
+    "many": "{{.Count}} тижнів",
+    "other": "{{.Count}} тижнів"
+  },
+  "subscription_recurrence_day": {
+    "one": "День",
+    "few": "{{.Count}} днів",
+    "many": "{{.Count}} днів",
+    "other": "{{.Count}} днів"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Підписка"
   }

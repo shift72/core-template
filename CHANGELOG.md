@@ -10,6 +10,7 @@ No changes from `alpha-0`.
 
 ### Added
 - Tooltips on meta detail/item CTA buttons.
+- Add translations for subscription recurrence on purchase CTA.
 - Language strings changed for `shopping_complete_promo_only`.
 - Text label on save credit card component changed to "Add new card".
 - Grouped carousel awards component with sponsor logo.

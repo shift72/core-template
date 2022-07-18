@@ -1329,6 +1329,21 @@
   "pricing_ownership_promo": {
     "other": "償還"
   },
+  "subscription_cta_label": {
+    "other": "申し込む {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "other": "{{.Count}} 年"
+  },
+  "subscription_recurrence_month": {
+    "other": "{{.Count}} 月"
+  },
+  "subscription_recurrence_week": {
+    "other": "{{.Count}} 週"
+  },
+  "subscription_recurrence_day": {
+    "other": "{{.Count}} 日"
+  },
   "shopping_info_ownership_subscription": {
     "other": "サブスクリプション"
   }

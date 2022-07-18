@@ -1335,6 +1335,33 @@
   "pricing_ownership_promo": {
     "other": "Išpirkti"
   },
+  "subscription_cta_label": {
+    "other": "Prenumeruoti {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Metai",
+    "few": "{{.Count}} Metai",
+    "many": "{{.Count}} Metai",
+    "other": "{{.Count}} Metai"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mėnuo",
+    "few": "{{.Count}} Mėnesių",
+    "many": "{{.Count}} Mėnesių",
+    "other": "{{.Count}} Mėnesių"
+  },
+  "subscription_recurrence_week": {
+    "one": "Savaitė",
+    "few": "{{.Count}} Savaitės",
+    "many": "{{.Count}} Savaitės",
+    "other": "{{.Count}} Savaitės"
+  },
+  "subscription_recurrence_day": {
+    "one": "Diena",
+    "few": "{{.Count}} Dienos",
+    "many": "{{.Count}} Dienos",
+    "other": "{{.Count}} Dienos"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Prenumerata"
   }

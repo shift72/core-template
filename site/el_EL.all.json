@@ -1331,6 +1331,25 @@
   "pricing_ownership_promo": {
     "other": "Εξαργυρώνω"
   },
+  "subscription_cta_label": {
+    "other": "Εγγραφείτε {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Ετος",
+    "other": "{{.Count}} Χρόνια"
+  },
+  "subscription_recurrence_month": {
+    "one": "Μήνας",
+    "other": "{{.Count}} Μήνες"
+  },
+  "subscription_recurrence_week": {
+    "one": "Εβδομάδα",
+    "other": "{{.Count}} Εβδομάδες"
+  },
+  "subscription_recurrence_day": {
+    "one": "Ημέρα",
+    "other": "{{.Count}} Ημέρες"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Συνδρομή"
   }

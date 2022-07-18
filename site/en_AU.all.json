@@ -1331,6 +1331,25 @@
   "pricing_ownership_promo": {
     "other": "Redeem"
   },
+  "subscription_cta_label": {
+    "other": "Subscribe {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_day": {
+    "one": "Day",
+    "other": "{{.Count}} Days"
+  },
+  "subscription_recurrence_week": {
+    "one": "Week",
+    "other": "{{.Count}} Weeks"
+  },
+  "subscription_recurrence_month": {
+    "one": "Month",
+    "other": "{{.Count}} Months"
+  },
+  "subscription_recurrence_year": {
+    "one": "Year",
+    "other": "{{.Count}} Years"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Subscription"
   }

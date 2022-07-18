@@ -1331,6 +1331,25 @@
   "pricing_ownership_promo": {
     "other": "Løs inn"
   },
+  "subscription_cta_label": {
+    "other": "Abonnere {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "År",
+    "other": "{{.Count}} år"
+  },
+  "subscription_recurrence_month": {
+    "one": "Måned",
+    "other": "{{.Count}} Måneder"
+  },
+  "subscription_recurrence_week": {
+    "one": "Uke",
+    "other": "{{.Count}} Uker"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dag",
+    "other": "{{.Count}} Dager"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Abonnement"
   }

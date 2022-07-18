@@ -1331,6 +1331,29 @@
   "pricing_ownership_promo": {
     "other": "Racheter"
   },
+  "subscription_cta_label": {
+    "other": "S'abonner {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "An",
+    "many": "{{.Count}} Années",
+    "other": "{{.Count}} Années"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mois",
+    "many": "{{.Count}} Mois",
+    "other": "{{.Count}} Mois"
+  },
+  "subscription_recurrence_week": {
+    "one": "La semaine",
+    "many": "{{.Count}} Semaines",
+    "other": "{{.Count}} Semaines"
+  },
+  "subscription_recurrence_day": {
+    "one": "Jour",
+    "many": "{{.Count}} Journées",
+    "other": "{{.Count}} Journées"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Abonnement"
   }

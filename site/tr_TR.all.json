@@ -1331,6 +1331,25 @@
   "pricing_ownership_promo": {
     "other": "Tazmin etmek"
   },
+  "subscription_cta_label": {
+    "other": "Abone olmak {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Yıl",
+    "other": "{{.Count}} yıllar"
+  },
+  "subscription_recurrence_month": {
+    "one": "Ay",
+    "other": "{{.Count}} ay"
+  },
+  "subscription_recurrence_week": {
+    "one": "Hafta",
+    "other": "{{.Count}} Haftalar"
+  },
+  "subscription_recurrence_day": {
+    "one": "Gün",
+    "other": "{{.Count}} Günler"
+  },
   "shopping_info_ownership_subscription": {
     "other": "abonelik"
   }

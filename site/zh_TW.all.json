@@ -1329,6 +1329,21 @@
   "pricing_ownership_promo": {
     "other": "贖回"
   },
+  "subscription_cta_label": {
+    "other": "订阅 {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "other": "{{.Count}} 年"
+  },
+  "subscription_recurrence_month": {
+    "other": "{{.Count}} 月"
+  },
+  "subscription_recurrence_week": {
+    "other": "{{.Count}} 星期"
+  },
+  "subscription_recurrence_day": {
+    "other": "{{.Count}} 天"
+  },
   "shopping_info_ownership_subscription": {
     "other": "订阅"
   }
