@@ -1352,5 +1352,11 @@
   },
   "shopping_info_ownership_subscription": {
     "other": "Subscription"
+  },
+  "something_bad_happened": {
+    "other": "Please try again"
+  },
+  "stripe_card_not_supported": {
+    "other": "{{.Message}}"
   }
 }

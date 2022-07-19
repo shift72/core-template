@@ -1385,5 +1385,11 @@
   },
   "shopping_info_ownership_subscription": {
     "other": "الاشتراك"
+  },
+  "something_bad_happened": {
+    "other": "حاول مرة اخرى"
+  },
+  "stripe_card_not_supported": {
+    "other": "{{.Message}}"
   }
 }

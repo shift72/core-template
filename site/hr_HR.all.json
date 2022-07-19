@@ -1350,5 +1350,11 @@
   },
   "shopping_info_ownership_subscription": {
     "other": "Pretplata"
+  },
+  "something_bad_happened": {
+    "other": "Molim te pokušaj ponovno"
+  },
+  "stripe_card_not_supported": {
+    "other": "{{.Message}}"
   }
 }
