@@ -6,6 +6,7 @@
 }
 
 .fa {
+  display: inline-block;
   font-family: 'fa-s72' !important;
   font-style: normal !important;
   font-variant: normal !important;
@@ -13,7 +14,6 @@
   line-height: 1;
   text-transform: none !important;
   vertical-align: middle;
-  display: inline-block;
 }
 
 .fa-credit-card::before,

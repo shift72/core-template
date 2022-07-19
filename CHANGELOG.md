@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.2.0...HEAD)
 
+### Fixed
+- Spinner not rotating
+
 ## [1.2.0](https://github.com/shift72/core-template/compare/1.2.0-alpha.0...1.2.0)
 
 No changes from `alpha-0`.
