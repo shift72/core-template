@@ -1366,6 +1366,6 @@
     "other": "Palun proovi uuesti"
   },
   "stripe_card_not_supported": {
-    "other": "{{.Message}}"
+    "other": "Teie kaarti ei toetata."
   }
 }

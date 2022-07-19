@@ -1357,6 +1357,6 @@
     "other": "ΠΑΡΑΚΑΛΩ προσπαθησε ξανα"
   },
   "stripe_card_not_supported": {
-    "other": "{{.Message}}"
+    "other": "Η κάρτα σας δεν υποστηρίζεται."
   }
 }

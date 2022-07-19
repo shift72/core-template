@@ -1361,6 +1361,6 @@
     "other": "Per favore riprova"
   },
   "stripe_card_not_supported": {
-    "other": "{{.Message}}"
+    "other": "La tua carta non è supportata."
   }
 }

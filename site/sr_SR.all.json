@@ -1363,6 +1363,6 @@
     "other": "Молим вас, покушајте поново"
   },
   "stripe_card_not_supported": {
-    "other": "{{.Message}}"
+    "other": "Ваша картица није подржана."
   }
 }

@@ -1366,6 +1366,6 @@
     "other": "Kérlek próbáld újra"
   },
   "stripe_card_not_supported": {
-    "other": "{{.Message}}"
+    "other": "A kártya nem támogatott."
   }
 }

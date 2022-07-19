@@ -1357,6 +1357,6 @@
     "other": "Please try again"
   },
   "stripe_card_not_supported": {
-    "other": "{{.Message}}"
+    "other": "Your card is not supported."
   }
 }

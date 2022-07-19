@@ -1361,6 +1361,6 @@
     "other": "Inténtalo de nuevo"
   },
   "stripe_card_not_supported": {
-    "other": "{{.Message}}"
+    "other": "Su tarjeta no es compatible."
   }
 }

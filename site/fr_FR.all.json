@@ -1361,6 +1361,6 @@
     "other": "Veuillez réessayer"
   },
   "stripe_card_not_supported": {
-    "other": "{{.Message}}"
+    "other": "Votre carte n'est pas prise en charge."
   }
 }

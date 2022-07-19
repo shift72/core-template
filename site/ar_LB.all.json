@@ -1390,6 +1390,6 @@
     "other": "حاول مرة اخرى"
   },
   "stripe_card_not_supported": {
-    "other": "{{.Message}}"
+    "other": "بطاقتك غير مدعومة."
   }
 }

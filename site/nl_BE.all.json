@@ -1357,6 +1357,6 @@
     "other": "Probeer het opnieuw"
   },
   "stripe_card_not_supported": {
-    "other": "{{.Message}}"
+    "other": "Uw kaart wordt niet ondersteund."
   }
 }

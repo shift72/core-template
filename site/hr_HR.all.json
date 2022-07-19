@@ -1355,6 +1355,6 @@
     "other": "Molim te pokušaj ponovno"
   },
   "stripe_card_not_supported": {
-    "other": "{{.Message}}"
+    "other": "Vaša kartica nije podržana."
   }
 }

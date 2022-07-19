@@ -1397,6 +1397,6 @@
     "other": "Будь ласка спробуйте ще раз"
   },
   "stripe_card_not_supported": {
-    "other": "{{.Message}}"
+    "other": "Ваша картка не підтримується."
   }
 }
