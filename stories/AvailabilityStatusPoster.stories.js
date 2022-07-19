@@ -10,13 +10,56 @@ import { currentlyRenting, startedWatchWindow, emptyLibrary } from "./mocks/cont
 import { assortedPlans, noPlans } from './mocks/pricing/v1/plans';
 import { availableNowUntil48Hours, availableIn48Hours, availableNowUntilIndefinate, expired48HoursAgo } from './mocks/content/v1/availabilities';
 
+import React from "react";
+import {
+  Title,
+  Subtitle,
+  Description,
+  Primary,
+  ArgsTable,
+  Stories,
+  PRIMARY_STORY,
+} from '@storybook/addon-docs';
+
 export default {
   title: 'Molecules/AvailabilityStatusPoster',
   argTypes: {
     poster: {
       control: 'text'
     },
+
   },
+  parameters: {
+    docs: {
+      page: () =>
+      React.createElement(React.Fragment, null,
+        React.createElement(Title, null),
+        React.createElement(Subtitle, null),
+        React.createElement(Description, null),
+        React.createElement(Primary, null),
+        React.createElement(ArgsTable, {
+        story: PRIMARY_STORY
+      }),
+      React.createElement(Stories, null))
+    }
+  },
+  // parameters: {
+  //   docs: {
+  //     page: (a) => {
+  //     return React.createElement(
+  //       "div",
+  //       { style: { color: "red" } },
+  //       React.createElement(Title),
+  //       React.createElement(Subtitle),
+  //       React.createElement(Description),
+  //       React.createElement(Primary),
+  //       React.createElement(ArgsTable),
+  //       React.createElement(Stories,PRIMARY_STORY,PRIMARY_STORY)
+  //     );
+  //     return false
+  //     },
+  //   },
+  // },
   decorators: [withMock],
 };
 
@@ -97,6 +140,7 @@ Expired.args = {
 };
 
 Expired.parameters = {
+
   mockData: [
     itemLimitNotReached,
     assortedPlans,
@@ -105,7 +149,27 @@ Expired.parameters = {
     noUserPlans,
     emptyLibrary,
     emptyWishlist
-  ]
+  ],
+
+  // docs: {
+  //   page: (a) => {
+  //     console.log(a);
+  //     var wrapper = document.createElement('div');
+  //     // wrapper.appendChild(Title)
+  //     // wrapper.appendChild(Subtitle)
+  //     // wrapper.appendChild(Description)
+  //     // wrapper.appendChild(Primary)
+  //     // var content = document.createTextNode("cfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfd");
+  //     // wrapper.appendChild(content);
+  //     // console.log(ArgsTable);
+  //     // wrapper.appendChild(ArgsTable)
+  //     // wrapper.appendChild(Stories)
+  //     // wrapper.appendChild("fffffffffffff")
+
+  //     // <ArgsTable story={PRIMARY_STORY} />
+  //     // return wrapper
+  //   }
+  // }
 };
 
 export const NotAvailable = Template.bind({});
