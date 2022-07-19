@@ -9,6 +9,10 @@ export const parameters = {
     },
   },
 }
+Date.prototype.addHours= function(h){
+  this.setHours(this.getHours()+h);
+  return this;
+}
 
 addDecorator((story, context) => {
   var elem = document.createElement('div')
@@ -25,7 +29,7 @@ function waitForS72Global() {
     localStorage["shift72.authToken"] = "1234"
     localStorage["shift72.user"] = "{\"user_id\":123}"
     s72.cfg(function(){
-      return s72.i18n.load('en', '/en_AU.all.json');
+      return s72.i18n.load('en', 'en_AU.all.json');
     });
     s72.cfg(function(){ return s72.i18n.href.setLanguages('en', 'en'); });
     s72.boot({

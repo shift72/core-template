@@ -1,14 +1,9 @@
-Date.prototype.addHours= function(h){
-    this.setHours(this.getHours()+h);
-    return this;
-}
-
 export const availableNowUntilIndefinate = {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/28933`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/28933",
+        "slug": "/film/123",
         "from": `${new Date().toISOString()}`,
         "ms_from": 0,
         "to": null,
@@ -20,11 +15,11 @@ export const availableNowUntilIndefinate = {
 }
 
 export const availableIn48Hours = {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/28933`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/28933",
+        "slug": "/film/123",
         "from": `${new Date().addHours(48).toISOString()}`,
         "ms_from": 0,
         "to": null,
@@ -35,11 +30,11 @@ export const availableIn48Hours = {
     }]
 }
 export const availableNowUntil48Hours = {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/28933`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/28933",
+        "slug": "/film/123",
         "from": `${new Date().toISOString()}`,
         "ms_from": 0,
         "to": `${new Date().addHours(48).toISOString()}`,
@@ -51,11 +46,11 @@ export const availableNowUntil48Hours = {
 }
 
 export const expired48HoursAgo = {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/28933`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/28933",
+        "slug": "/film/123",
         "from": `${new Date(-96).toISOString()}`,
         "ms_from": 0,
         "to": `${new Date().addHours(-48).toISOString()}`,
@@ -67,11 +62,11 @@ export const expired48HoursAgo = {
 }
 
 export const noAvailabilitySet =   {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/28933`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/28933",
+        "slug": "/film/123",
         "from": null,
         "ms_from": null,
         "to": null,

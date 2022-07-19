@@ -7,7 +7,7 @@
     "start": "run-s -l init && run-p -l css:watch js:watch kibble:start",
     "init": "run-p -l css css:local:get js",
     "css": "sass ./site/styles/main.scss ./site/static/styles/main.css --load-path=node_modules",
-    "css:lint": "prettier 'site/styles/*.scss' --write && stylelint ./site/styles/*.scss --fix",
+    "css:lint": "prettier 'site/styles/*.scss' --write && stylelint ./site/styles/*.scss --fix  --formatter verbose",
     "css:watch": "npm run css -- --watch",
     "css:build": "postcss ./site/static/styles/main.css --use autoprefixer --use cssnano -r",
     "css:local:get": "node scripts/css-local-get.js",

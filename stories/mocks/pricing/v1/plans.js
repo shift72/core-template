@@ -1,3 +1,4 @@
+console.log();
 export const assortedPlans = {
     url: `${window.location.origin}/services/pricing/v1/plans`,
     method: 'GET',
@@ -29,7 +30,7 @@ export const assortedPlans = {
           "description": "Get this pass to watch some contents over lockdown!",
           "portrait_image": null,
           "plan_type": "free",
-          "expiry_date": "2022-08-04T19:16:00.000Z",
+          "expiry_date": `${new Date().addHours(24*7*52).toISOString()}`,
           "landscape_image": null
       },
       {
@@ -42,7 +43,7 @@ export const assortedPlans = {
           "description": "List of all the winners in our film festival",
           "portrait_image": "/images/282x422/plan/65/758f789b64c85e08ec408fbfca2af7c7.jpg",
           "plan_type": "one_off",
-          "expiry_date": "2022-12-31T09:10:00.000Z",
+          "expiry_date": `${new Date().addHours(24*7*52).toISOString()}`,
           "landscape_image": "/images/585x330/plan/65/fa33674916ad0c0d8a680ca2e235b337.jpg"
       },
       {
@@ -58,7 +59,7 @@ export const assortedPlans = {
           "trial_period_days": null,
           "portrait_image": "/images/282x422/plan/71/fb0d8a55caba4ae9155e07e213251b11.png",
           "plan_type": "recurring",
-          "expiry_date": "2023-12-30T23:30:00.000Z",
+          "expiry_date": `${new Date().addHours(24*7*52).toISOString()}`,
           "landscape_image": "/images/585x330/plan/71/8b5c1a7d171c9000b8c2bb015d38b0e1.png"
       },
       {
@@ -90,7 +91,7 @@ export const assortedPlans = {
           "trial_period_days": 2,
           "portrait_image": "/images/282x422/plan/80/b5018147de0e77af0d091c6d33183b82.jpg",
           "plan_type": "recurring",
-          "expiry_date": "2023-12-31T00:00:00.000Z",
+          "expiry_date": `${new Date().addHours(24*7*52).toISOString()}`,
           "landscape_image": "/images/585x330/plan/80/f776a647c2c632fcb0a555a217438aaf.png"
       },
       {

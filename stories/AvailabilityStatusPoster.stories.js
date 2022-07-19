@@ -2,11 +2,11 @@ import { createAvailabilityStatusPoster } from './AvailabilityStatusPoster';
 import withMock from 'storybook-addon-mock';
 
 import { itemLimitReached, itemLimitNotReached, noItemLimits } from './mocks/shopping/v1/item_limit';
-import { noPlaybackProgress } from './mocks/content/v1/playback_progress';
+import { noPlaybackProgress, playbackProgressExists } from './mocks/content/v1/playback_progress';
 import { noUserPlans } from './mocks/content/v1/user_plans';
 import { emptyWishlist } from './mocks/users/v1/wishlist';
 import { singleFilmRentableInYourRegion, noPricesInYourRegion } from './mocks/pricing/v2/prices/show_multiple';
-import { currentlyRenting, emptyLibrary } from "./mocks/content/v3/user_library";
+import { currentlyRenting, startedWatchWindow, emptyLibrary } from "./mocks/content/v3/user_library";
 import { assortedPlans, noPlans } from './mocks/pricing/v1/plans';
 import { availableNowUntil48Hours, availableIn48Hours, availableNowUntilIndefinate, expired48HoursAgo } from './mocks/content/v1/availabilities';
 
@@ -139,7 +139,7 @@ InWatchWindow.parameters = {
     singleFilmRentableInYourRegion,
     availableNowUntilIndefinate,
     noItemLimits,
-    currentlyRenting,
-    noPlaybackProgress
+    startedWatchWindow,
+    playbackProgressExists
   ]
 };

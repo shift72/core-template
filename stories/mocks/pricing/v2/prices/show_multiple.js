@@ -1,11 +1,11 @@
 export const singleFilmRentableInYourRegion = {
-    url: `${window.location.origin}/services/pricing/v2/prices/show_multiple?items=/film/28933`,
+    url: `${window.location.origin}/services/pricing/v2/prices/show_multiple?items=/film/123`,
     method: 'GET',
     status: 200,
     response: {
       "prices": [
           {
-              "item": "/film/28933",
+              "item": "/film/123",
               "currency": "NZD",
               "format": {
                   "decimal_separator": ".",
@@ -34,7 +34,7 @@ export const singleFilmRentableInYourRegion = {
   }
 
   export const noPricesInYourRegion = {
-    url: `${window.location.origin}/services/pricing/v2/prices/show_multiple?items=/film/28933`,
+    url: `${window.location.origin}/services/pricing/v2/prices/show_multiple?items=/film/123`,
     method: 'GET',
     status: 200,
     response: {
