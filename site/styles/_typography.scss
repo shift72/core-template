@@ -43,11 +43,11 @@
 }
 
 @mixin body-1-style() {
-  @include typography-style(16px, 0.5px, $font-weight-light, null, null, 23px);
+  @include typography-style($font-size-body-1-style, 0.5px, $font-weight-light, null, null, 23px);
 }
 
 @mixin body-2-style() {
-  @include typography-style(14px, 0.4px);
+  @include typography-style($font-size-body-2-style, 0.4px);
 }
 
 @mixin subtitle-1-style() {
