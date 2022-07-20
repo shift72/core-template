@@ -1,13 +1,15 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.2.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.3.0-alpha.0...HEAD)
+
+## [1.3.0-alpha.0](https://github.com/shift72/core-template/compare/1.2.0...1.3.0-alpha.0)
 
 ### Added
 - Add translations for subscription recurrence on purchase CTA.
 - Add translations for more friendlier stripe & error messages. (`stripe_card_not_supported`, `something_bad_happened`).
 
 ### Fixed
-- Spinner not rotating
+- Spinner not rotating.
 
 ## [1.2.0](https://github.com/shift72/core-template/compare/1.2.0-alpha.0...1.2.0)
 
