@@ -51,15 +51,15 @@
 }
 
 @mixin subtitle-1-style() {
-  @include typography-style(16px, 0.2px, $font-weight-light, 2px);
+  @include typography-style($font-size-subtitle-1-style, 0.2px, $font-weight-light, 2px);
 }
 
 @mixin subtitle-2-style() {
-  @include typography-style(14px, 0.2px, $font-weight-normal, 12px);
+  @include typography-style($font-size-subtitle-2-style, 0.2px, $font-weight-normal, 12px);
 }
 
 @mixin caption-1-style() {
-  @include typography-style(16px, 0.5px, $font-weight-bold, 4px);
+  @include typography-style($font-size-caption-1-style, 0.5px, $font-weight-bold, 4px);
 }
 
 @mixin overline-style() {
