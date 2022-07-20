@@ -65,7 +65,6 @@
 }
 
 @mixin body-1-style() {
-
   @include typography-style($font-size-body-1-style, 0.5px, $font-weight-light, null, null, 23px);
 }
 
