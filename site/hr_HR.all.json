@@ -1325,7 +1325,36 @@
   "pricing_ownership_promo": {
     "other": "Otkupiti"
   },
+  "subscription_cta_label": {
+    "other": "Pretplatite se {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Godina",
+    "few": "{{.Count}} Godine",
+    "other": "{{.Count}} Godine"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mjesec",
+    "few": "{{.Count}} mjeseci",
+    "other": "{{.Count}} mjeseci"
+  },
+  "subscription_recurrence_week": {
+    "one": "Tjedan",
+    "few": "{{.Count}} Tjedni",
+    "other": "{{.Count}} Tjedni"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dan",
+    "few": "{{.Count}} dana",
+    "other": "{{.Count}} dana"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Pretplata"
+  },
+  "something_bad_happened": {
+    "other": "Molim te pokušaj ponovno"
+  },
+  "stripe_card_not_supported": {
+    "other": "Vaša kartica nije podržana."
   }
 }

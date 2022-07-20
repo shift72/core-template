@@ -1340,7 +1340,32 @@
   "pricing_ownership_promo": {
     "other": "Indløs"
   },
+  "subscription_cta_label": {
+    "other": "Abonner {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "År",
+    "other": "{{.Count}} Flere år"
+  },
+  "subscription_recurrence_month": {
+    "one": "Måned",
+    "other": "{{.Count}} Måneder"
+  },
+  "subscription_recurrence_week": {
+    "one": "Uge",
+    "other": "{{.Count}} Uger"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dag",
+    "other": "{{.Count}} Dage"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Abonnement"
+  },
+  "something_bad_happened": {
+    "other": "Prøv igen"
+  },
+  "stripe_card_not_supported": {
+    "other": "Dit kort er ikke understøttet."
   }
 }

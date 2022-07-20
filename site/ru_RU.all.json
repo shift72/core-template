@@ -1357,7 +1357,40 @@
   "pricing_ownership_promo": {
     "other": "Выкупать"
   },
+  "subscription_cta_label": {
+    "other": "Подписывайся {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Год",
+    "few": "{{.Count}} Годы",
+    "many": "{{.Count}} Годы",
+    "other": "{{.Count}} Годы"
+  },
+  "subscription_recurrence_month": {
+    "one": "Месяц",
+    "few": "{{.Count}} Месяцы",
+    "many": "{{.Count}} Месяцы",
+    "other": "{{.Count}} Месяцы"
+  },
+  "subscription_recurrence_week": {
+    "one": "Неделя",
+    "few": "{{.Count}} Недели",
+    "many": "{{.Count}} Недели",
+    "other": "{{.Count}} Недели"
+  },
+  "subscription_recurrence_day": {
+    "one": "День",
+    "few": "{{.Count}} Дни",
+    "many": "{{.Count}} Дни",
+    "other": "{{.Count}} Дни"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Подписка"
+  },
+  "something_bad_happened": {
+    "other": "Пожалуйста, попробуйте еще раз"
+  },
+  "stripe_card_not_supported": {
+    "other": "Ваша карта не поддерживается."
   }
 }

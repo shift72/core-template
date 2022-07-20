@@ -1340,7 +1340,32 @@
   "pricing_ownership_promo": {
     "other": "Lunastama"
   },
+  "subscription_cta_label": {
+    "other": "Telli {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "aasta",
+    "other": "{{.Count}} Aastaid"
+  },
+  "subscription_recurrence_month": {
+    "one": "Kuu",
+    "other": "{{.Count}} Kuud"
+  },
+  "subscription_recurrence_week": {
+    "one": "Nädal",
+    "other": "{{.Count}} Nädalad"
+  },
+  "subscription_recurrence_day": {
+    "one": "päev",
+    "other": "{{.Count}} Päevad"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Tellimus"
+  },
+  "something_bad_happened": {
+    "other": "Palun proovi uuesti"
+  },
+  "stripe_card_not_supported": {
+    "other": "Teie kaarti ei toetata."
   }
 }
