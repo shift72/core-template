@@ -1356,5 +1356,11 @@
   },
   "shopping_info_ownership_subscription": {
     "other": "Inscrição"
+  },
+  "something_bad_happened": {
+    "other": "Por favor, tente novamente"
+  },
+  "stripe_card_not_supported": {
+    "other": "Seu cartão não é compatível."
   }
 }

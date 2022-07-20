@@ -1346,5 +1346,11 @@
   },
   "shopping_info_ownership_subscription": {
     "other": "订阅"
+  },
+  "something_bad_happened": {
+    "other": "请再试一次"
+  },
+  "stripe_card_not_supported": {
+    "other": "不支持您的卡。"
   }
 }

@@ -1361,5 +1361,11 @@
   },
   "shopping_info_ownership_subscription": {
     "other": "Feliratkozás"
+  },
+  "something_bad_happened": {
+    "other": "Kérlek próbáld újra"
+  },
+  "stripe_card_not_supported": {
+    "other": "A kártya nem támogatott."
   }
 }

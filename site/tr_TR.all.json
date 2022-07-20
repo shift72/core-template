@@ -1352,5 +1352,11 @@
   },
   "shopping_info_ownership_subscription": {
     "other": "abonelik"
+  },
+  "something_bad_happened": {
+    "other": "Lütfen tekrar deneyin"
+  },
+  "stripe_card_not_supported": {
+    "other": "Kartınız desteklenmiyor."
   }
 }

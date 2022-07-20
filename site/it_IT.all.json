@@ -1356,5 +1356,11 @@
   },
   "shopping_info_ownership_subscription": {
     "other": "Sottoscrizione"
+  },
+  "something_bad_happened": {
+    "other": "Per favore riprova"
+  },
+  "stripe_card_not_supported": {
+    "other": "La tua carta non è supportata."
   }
 }

@@ -1364,5 +1364,11 @@
   },
   "shopping_info_ownership_subscription": {
     "other": "Prenumerata"
+  },
+  "something_bad_happened": {
+    "other": "Prašau, pabandykite dar kartą"
+  },
+  "stripe_card_not_supported": {
+    "other": "Jūsų kortelė nepalaikoma."
   }
 }
