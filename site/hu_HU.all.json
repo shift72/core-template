@@ -1340,7 +1340,32 @@
   "pricing_ownership_promo": {
     "other": "Beváltani"
   },
+  "subscription_cta_label": {
+    "other": "Iratkozz fel {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Év",
+    "other": "{{.Count}} Évek"
+  },
+  "subscription_recurrence_month": {
+    "one": "Hónap",
+    "other": "{{.Count}} Hónapok"
+  },
+  "subscription_recurrence_week": {
+    "one": "Hét",
+    "other": "{{.Count}} Hetek"
+  },
+  "subscription_recurrence_day": {
+    "one": "Nap",
+    "other": "{{.Count}} Napok"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Feliratkozás"
+  },
+  "something_bad_happened": {
+    "other": "Kérlek próbáld újra"
+  },
+  "stripe_card_not_supported": {
+    "other": "A kártya nem támogatott."
   }
 }
