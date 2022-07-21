@@ -1,6 +1,10 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.3.0-alpha.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.3.0...HEAD)
+
+## [1.3.0](https://github.com/shift72/core-template/compare/1.3.0-alpha...1.3.0)
+
+No changes from `alpha-0`.
 
 ## [1.3.0-alpha.0](https://github.com/shift72/core-template/compare/1.2.0...1.3.0-alpha.0)
 
