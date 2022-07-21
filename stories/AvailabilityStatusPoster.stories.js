@@ -1,25 +1,14 @@
 import { createAvailabilityStatusPoster } from './AvailabilityStatusPoster';
 import withMock from 'storybook-addon-mock';
-
+import { customDocs } from './functions/customDocs'
 import { itemLimitReached, itemLimitNotReached, noItemLimits } from './mocks/shopping/v1/item_limit';
 import { noPlaybackProgress, playbackProgressExists } from './mocks/content/v1/playback_progress';
 import { noUserPlans } from './mocks/content/v1/user_plans';
 import { emptyWishlist } from './mocks/users/v1/wishlist';
 import { singleFilmRentableInYourRegion, noPricesInYourRegion } from './mocks/pricing/v2/prices/show_multiple';
-import { currentlyRenting, startedWatchWindow, emptyLibrary } from "./mocks/content/v3/user_library";
+import { currentlyRenting, startedWatchWindow, emptyLibrary, expiredWatchWindow } from "./mocks/content/v3/user_library";
 import { assortedPlans, noPlans } from './mocks/pricing/v1/plans';
 import { availableNowUntil48Hours, availableIn48Hours, availableNowUntilIndefinate, expired48HoursAgo } from './mocks/content/v1/availabilities';
-
-import React from "react";
-import {
-  Title,
-  Subtitle,
-  Description,
-  Primary,
-  ArgsTable,
-  Stories,
-  PRIMARY_STORY,
-} from '@storybook/addon-docs';
 
 export default {
   title: 'Molecules/AvailabilityStatusPoster',
@@ -30,36 +19,10 @@ export default {
 
   },
   parameters: {
-    docs: {
-      page: () =>
-      React.createElement(React.Fragment, null,
-        React.createElement(Title, null),
-        React.createElement(Subtitle, null),
-        React.createElement(Description, null),
-        React.createElement(Primary, null),
-        React.createElement(ArgsTable, {
-        story: PRIMARY_STORY
-      }),
-      React.createElement(Stories, null))
-    }
+
+    docs: { page:customDocs(`<h3>No description set<h3>`) }
+
   },
-  // parameters: {
-  //   docs: {
-  //     page: (a) => {
-  //     return React.createElement(
-  //       "div",
-  //       { style: { color: "red" } },
-  //       React.createElement(Title),
-  //       React.createElement(Subtitle),
-  //       React.createElement(Description),
-  //       React.createElement(Primary),
-  //       React.createElement(ArgsTable),
-  //       React.createElement(Stories,PRIMARY_STORY,PRIMARY_STORY)
-  //     );
-  //     return false
-  //     },
-  //   },
-  // },
   decorators: [withMock],
 };
 
@@ -80,7 +43,8 @@ SoldOut.parameters = {
     noUserPlans,
     emptyLibrary,
     emptyWishlist
-    ]
+    ],
+
 };
 
 export const Renting = Template.bind({});
@@ -97,7 +61,8 @@ Renting.parameters = {
     noItemLimits,
     currentlyRenting,
     noPlaybackProgress
-  ]
+  ],
+
 };
 
 export const AvailableUntil = Template.bind({});
@@ -114,7 +79,7 @@ AvailableUntil.parameters = {
     emptyWishlist,
     noUserPlans,
     emptyLibrary
-  ]
+  ],
 };
 
 export const ComingSoon = Template.bind({});
@@ -147,29 +112,10 @@ Expired.parameters = {
     singleFilmRentableInYourRegion,
     expired48HoursAgo,
     noUserPlans,
-    emptyLibrary,
+    expiredWatchWindow,
     emptyWishlist
   ],
-
-  // docs: {
-  //   page: (a) => {
-  //     console.log(a);
-  //     var wrapper = document.createElement('div');
-  //     // wrapper.appendChild(Title)
-  //     // wrapper.appendChild(Subtitle)
-  //     // wrapper.appendChild(Description)
-  //     // wrapper.appendChild(Primary)
-  //     // var content = document.createTextNode("cfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfdcfsgdfhgjgfd");
-  //     // wrapper.appendChild(content);
-  //     // console.log(ArgsTable);
-  //     // wrapper.appendChild(ArgsTable)
-  //     // wrapper.appendChild(Stories)
-  //     // wrapper.appendChild("fffffffffffff")
-
-  //     // <ArgsTable story={PRIMARY_STORY} />
-  //     // return wrapper
-  //   }
-  // }
+  docs: { page:customDocs(`<ul class="mb-0"><li>'Past available_to date'</li></ul>`) }
 };
 
 export const NotAvailable = Template.bind({});

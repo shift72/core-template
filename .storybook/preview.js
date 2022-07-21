@@ -14,6 +14,7 @@ Date.prototype.addHours= function(h){
   return this;
 }
 
+
 addDecorator((story, context) => {
   var elem = document.createElement('div')
   var storyElem = story();

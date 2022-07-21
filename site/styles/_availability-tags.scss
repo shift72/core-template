@@ -52,10 +52,6 @@ s72-availability-label {
     text-align: center;
   }
 
-  .availability-expired {
-    @extend .d-none;
-  }
-
   .availability-state {
     @extend .justify-content-center;
     color: var(--body-color-rgb);
