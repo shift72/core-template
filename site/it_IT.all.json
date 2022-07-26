@@ -1146,10 +1146,10 @@
     "other": "Annulla il mio abbonamento"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Annulla"
+    "other": "No grazie"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Sì, cancella il mio abbonamento"
+    "other": "Sì, annulla"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Annullare l'iscrizione?"
@@ -1331,7 +1331,36 @@
   "pricing_ownership_promo": {
     "other": "Riscattare"
   },
+  "subscription_cta_label": {
+    "other": "Sottoscrivi {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Anno",
+    "many": "{{.Count}} Anni",
+    "other": "{{.Count}} Anni"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mese",
+    "many": "{{.Count}} Mesi",
+    "other": "{{.Count}} Mesi"
+  },
+  "subscription_recurrence_week": {
+    "one": "Settimana",
+    "many": "{{.Count}} Settimane",
+    "other": "{{.Count}} Settimane"
+  },
+  "subscription_recurrence_day": {
+    "one": "Giorno",
+    "many": "{{.Count}} Giorni",
+    "other": "{{.Count}} Giorni"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Sottoscrizione"
+  },
+  "something_bad_happened": {
+    "other": "Per favore riprova"
+  },
+  "stripe_card_not_supported": {
+    "other": "La tua carta non è supportata."
   }
 }

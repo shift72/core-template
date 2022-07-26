@@ -122,7 +122,7 @@
     "other": "Keresés indítása"
   },
   "play_button_watch": {
-    "other": "Lejátszás"
+    "other": "Nézd meg most"
   },
   "play_button_resume": {
     "other": "Folytatás"
@@ -923,10 +923,10 @@
     "other": "Lemondom az előfizetésemet"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Megszünteti"
+    "other": "Nem köszönöm"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Igen, mondd le az előfizetésemet"
+    "other": "Igen, mégsem"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Feliratkozás visszavonása?"
@@ -1340,7 +1340,32 @@
   "pricing_ownership_promo": {
     "other": "Beváltani"
   },
+  "subscription_cta_label": {
+    "other": "Iratkozz fel {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Év",
+    "other": "{{.Count}} Évek"
+  },
+  "subscription_recurrence_month": {
+    "one": "Hónap",
+    "other": "{{.Count}} Hónapok"
+  },
+  "subscription_recurrence_week": {
+    "one": "Hét",
+    "other": "{{.Count}} Hetek"
+  },
+  "subscription_recurrence_day": {
+    "one": "Nap",
+    "other": "{{.Count}} Napok"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Feliratkozás"
+  },
+  "something_bad_happened": {
+    "other": "Kérlek próbáld újra"
+  },
+  "stripe_card_not_supported": {
+    "other": "A kártya nem támogatott."
   }
 }

@@ -965,10 +965,10 @@
     "other": "Mijn abonnement opzeggen"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Annuleren"
+    "other": "Nee, dank u wel"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Ja, zeg mijn abonnement op"
+    "other": "Ja, annuleren"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Annuleer abonnement"
@@ -1331,7 +1331,32 @@
   "pricing_ownership_promo": {
     "other": "Inwisselen"
   },
+  "subscription_cta_label": {
+    "other": "Abonneren {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Jaar",
+    "other": "{{.Count}} jaren"
+  },
+  "subscription_recurrence_month": {
+    "one": "Maand",
+    "other": "{{.Count}} Maanden"
+  },
+  "subscription_recurrence_week": {
+    "one": "Week",
+    "other": "{{.Count}} Weken"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dag",
+    "other": "{{.Count}} dagen"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Abonnement"
+  },
+  "something_bad_happened": {
+    "other": "Probeer het opnieuw"
+  },
+  "stripe_card_not_supported": {
+    "other": "Uw kaart wordt niet ondersteund."
   }
 }

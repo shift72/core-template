@@ -1,6 +1,25 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.1.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.3.0...HEAD)
+
+## [1.3.0](https://github.com/shift72/core-template/compare/1.3.0-alpha...1.3.0)
+
+No changes from `alpha-0`.
+
+## [1.3.0-alpha.0](https://github.com/shift72/core-template/compare/1.2.0...1.3.0-alpha.0)
+
+### Added
+- Add translations for subscription recurrence on purchase CTA.
+- Add translations for more friendlier stripe & error messages. (`stripe_card_not_supported`, `something_bad_happened`).
+
+### Fixed
+- Spinner not rotating.
+
+## [1.2.0](https://github.com/shift72/core-template/compare/1.2.0-alpha.0...1.2.0)
+
+No changes from `alpha-0`.
+
+## [1.2.0-alpha.0](https://github.com/shift72/core-template/compare/1.1.0...1.2.0-alpha.0)
 
 ### Added
 - Tooltips on meta detail/item CTA buttons.
@@ -8,9 +27,11 @@
 - Text label on save credit card component changed to "Add new card".
 - Grouped carousel awards component with sponsor logo.
 - Separate translations for plans, subscriptions
+- Play button i18n changed to 'Watch now' instead of 'Play now'
 
 ### Changed
 - Taglines refactored with new DOM structure.
+- Language strings for usersubscriptions_unsubscribe_modal_cancel and usersubscriptions_unsubscribe_modal_confirm
 
 ## [1.1.0](https://github.com/shift72/core-template/compare/1.0.0...1.1.0)
 

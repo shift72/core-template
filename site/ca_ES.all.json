@@ -125,7 +125,7 @@
     "other": "Envia la cerca"
   },
   "play_button_watch": {
-    "other": "Visualitza ara"
+    "other": "Veure ara"
   },
   "play_button_resume": {
     "other": "Continuar"
@@ -1007,10 +1007,10 @@
     "other": "Cancel·la la meva subscripció"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Cancel · lar"
+    "other": "No gràcies"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Sí, cancel·lar la meva subscripció"
+    "other": "Sí, cancel·la"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Cancel·lar la subscripció?"
@@ -1340,7 +1340,32 @@
   "pricing_ownership_promo": {
     "other": "Redimir"
   },
+  "subscription_cta_label": {
+    "other": "Subscriu-te {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Curs",
+    "other": "{{.Count}} Anys"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mes",
+    "other": "{{.Count}} Mesos"
+  },
+  "subscription_recurrence_week": {
+    "one": "Setmana",
+    "other": "{{.Count}} Setmanes"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dia",
+    "other": "{{.Count}} Dies"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Subscripció"
+  },
+  "something_bad_happened": {
+    "other": "Siusplau torna-ho a provar"
+  },
+  "stripe_card_not_supported": {
+    "other": "La teva targeta no és compatible."
   }
 }

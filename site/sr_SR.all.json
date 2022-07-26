@@ -122,7 +122,7 @@
     "other": "Пошаљите претрагу"
   },
   "play_button_watch": {
-    "other": "Гледајте одмах"
+    "other": "Гледај сада"
   },
   "play_button_resume": {
     "other": "Наставите"
@@ -944,10 +944,10 @@
     "other": "Отменить мою подписку"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Отмена"
+    "other": "Не хвала"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Да, отмените мою подписку"
+    "other": "Да, откажи"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Отменить подписку?"
@@ -1333,7 +1333,36 @@
   "pricing_ownership_promo": {
     "other": "Искупити"
   },
+  "subscription_cta_label": {
+    "other": "претплатити се {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Година",
+    "few": "{{.Count}} Године",
+    "other": "{{.Count}} Године"
+  },
+  "subscription_recurrence_month": {
+    "one": "Месец дана",
+    "few": "{{.Count}} месеци",
+    "other": "{{.Count}} месеци"
+  },
+  "subscription_recurrence_week": {
+    "one": "Недеља",
+    "few": "{{.Count}} Недеље",
+    "other": "{{.Count}} Недеље"
+  },
+  "subscription_recurrence_day": {
+    "one": "Дан",
+    "few": "{{.Count}} Дани",
+    "other": "{{.Count}} Дани"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Претплата"
+  },
+  "something_bad_happened": {
+    "other": "Молим вас, покушајте поново"
+  },
+  "stripe_card_not_supported": {
+    "other": "Ваша картица није подржана."
   }
 }

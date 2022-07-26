@@ -119,7 +119,7 @@
     "other": "Rechercher"
   },
   "play_button_watch": {
-    "other": "Voir le film"
+    "other": "Regarde maintenant"
   },
   "play_button_resume": {
     "other": "Continuer"
@@ -1134,10 +1134,10 @@
     "other": "Annuler mon abonnement"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Annuler"
+    "other": "Non merci"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Oui, résilier mon abonnement"
+    "other": "Oui, annuler"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Se désabonner?"
@@ -1331,7 +1331,36 @@
   "pricing_ownership_promo": {
     "other": "Racheter"
   },
+  "subscription_cta_label": {
+    "other": "S'abonner {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "An",
+    "many": "{{.Count}} Années",
+    "other": "{{.Count}} Années"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mois",
+    "many": "{{.Count}} Mois",
+    "other": "{{.Count}} Mois"
+  },
+  "subscription_recurrence_week": {
+    "one": "La semaine",
+    "many": "{{.Count}} Semaines",
+    "other": "{{.Count}} Semaines"
+  },
+  "subscription_recurrence_day": {
+    "one": "Jour",
+    "many": "{{.Count}} Journées",
+    "other": "{{.Count}} Journées"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Abonnement"
+  },
+  "something_bad_happened": {
+    "other": "Veuillez réessayer"
+  },
+  "stripe_card_not_supported": {
+    "other": "Votre carte n'est pas prise en charge."
   }
 }

@@ -391,6 +391,7 @@ s72-element-switcher,
 }
 
 .sponsor {
+  @include body-1-style();
   margin-bottom: 24px;
   max-width: 250px;
 

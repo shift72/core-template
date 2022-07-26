@@ -128,7 +128,7 @@
     "other": "Submit search"
   },
   "play_button_watch": {
-    "other": "Play Now"
+    "other": "Watch now"
   },
   "play_button_resume": {
     "other": "Continue"
@@ -1086,10 +1086,10 @@
     "other": "Cancel my subscription"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Cancel"
+    "other": "No thanks"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Yes, cancel my subscription"
+    "other": "Yes, cancel"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Cancel subscription?"
@@ -1331,7 +1331,32 @@
   "pricing_ownership_promo": {
     "other": "Redeem"
   },
+  "subscription_cta_label": {
+    "other": "Subscribe {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_day": {
+    "one": "Day",
+    "other": "{{.Count}} Days"
+  },
+  "subscription_recurrence_week": {
+    "one": "Week",
+    "other": "{{.Count}} Weeks"
+  },
+  "subscription_recurrence_month": {
+    "one": "Month",
+    "other": "{{.Count}} Months"
+  },
+  "subscription_recurrence_year": {
+    "one": "Year",
+    "other": "{{.Count}} Years"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Subscription"
+  },
+  "something_bad_happened": {
+    "other": "Please try again"
+  },
+  "stripe_card_not_supported": {
+    "other": "Your card is not supported."
   }
 }

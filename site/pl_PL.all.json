@@ -102,7 +102,7 @@
     "other": "Wyszukaj"
   },
   "play_button_watch": {
-    "other": "Odtwórz"
+    "other": "Patrz teraz"
   },
   "play_button_resume": {
     "other": "Kontynuuj"
@@ -1160,10 +1160,10 @@
     "other": "Anuluj moją subskrypcję"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Anulować"
+    "other": "Nie, dziękuję"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Tak, anuluj moją subskrypcję"
+    "other": "Tak, anuluj"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Anuluj subskrypcje?"
@@ -1380,7 +1380,40 @@
   "pricing_ownership_promo": {
     "other": "Odkupić"
   },
+  "subscription_cta_label": {
+    "other": "Subskrybuj {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Rok",
+    "few": "{{.Count}} Lata",
+    "many": "{{.Count}} Lata",
+    "other": "{{.Count}} Lata"
+  },
+  "subscription_recurrence_month": {
+    "one": "Miesiąc",
+    "few": "{{.Count}} Miesiące",
+    "many": "{{.Count}} Miesiące",
+    "other": "{{.Count}} Miesiące"
+  },
+  "subscription_recurrence_week": {
+    "one": "Tydzień",
+    "few": "{{.Count}} Tygodnie",
+    "many": "{{.Count}} Tygodnie",
+    "other": "{{.Count}} Tygodnie"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dzień",
+    "few": "{{.Count}} Dni",
+    "many": "{{.Count}} Dni",
+    "other": "{{.Count}} Dni"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Subskrypcja"
+  },
+  "something_bad_happened": {
+    "other": "Proszę spróbuj ponownie"
+  },
+  "stripe_card_not_supported": {
+    "other": "Twoja karta nie jest obsługiwana."
   }
 }

@@ -102,7 +102,7 @@
     "other": "Hae"
   },
   "play_button_watch": {
-    "other": "Toista"
+    "other": "Katso nyt"
   },
   "play_button_resume": {
     "other": "Jatka"
@@ -1102,10 +1102,10 @@
     "other": "Peruuta tilaukseni"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Peruuttaa"
+    "other": "Ei kiitos"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Kyllä, peruuta tilaukseni"
+    "other": "Kyllä, peruuta"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Peruuta tilaus?"
@@ -1331,7 +1331,32 @@
   "pricing_ownership_promo": {
     "other": "Lunastaa"
   },
+  "subscription_cta_label": {
+    "other": "Tilaa {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "vuosi",
+    "other": "{{.Count}} Vuosia"
+  },
+  "subscription_recurrence_month": {
+    "one": "Kuukausi",
+    "other": "{{.Count}} Kuukaudet"
+  },
+  "subscription_recurrence_week": {
+    "one": "Viikko",
+    "other": "{{.Count}} Viikot"
+  },
+  "subscription_recurrence_day": {
+    "one": "Päivä",
+    "other": "{{.Count}} päivää"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Tilaus"
+  },
+  "something_bad_happened": {
+    "other": "Yritä uudelleen"
+  },
+  "stripe_card_not_supported": {
+    "other": "Korttiasi ei tueta."
   }
 }

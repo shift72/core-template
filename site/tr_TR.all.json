@@ -122,7 +122,7 @@
     "other": "Aramayı gönder"
   },
   "play_button_watch": {
-    "other": "Şimdi Oynat"
+    "other": "İzle şimdi"
   },
   "play_button_resume": {
     "other": "Devam et"
@@ -914,10 +914,10 @@
     "other": "Aboneliğimi iptal et"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "İptal"
+    "other": "Hayır, teşekkürler"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Evet, aboneliğimi iptal et "
+    "other": "Evet İptal"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Aboneliği iptal et?"
@@ -1331,7 +1331,32 @@
   "pricing_ownership_promo": {
     "other": "Tazmin etmek"
   },
+  "subscription_cta_label": {
+    "other": "Abone olmak {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Yıl",
+    "other": "{{.Count}} yıllar"
+  },
+  "subscription_recurrence_month": {
+    "one": "Ay",
+    "other": "{{.Count}} ay"
+  },
+  "subscription_recurrence_week": {
+    "one": "Hafta",
+    "other": "{{.Count}} Haftalar"
+  },
+  "subscription_recurrence_day": {
+    "one": "Gün",
+    "other": "{{.Count}} Günler"
+  },
   "shopping_info_ownership_subscription": {
     "other": "abonelik"
+  },
+  "something_bad_happened": {
+    "other": "Lütfen tekrar deneyin"
+  },
+  "stripe_card_not_supported": {
+    "other": "Kartınız desteklenmiyor."
   }
 }

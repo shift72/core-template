@@ -122,7 +122,7 @@
     "other": "Enviar busqueda"
   },
   "play_button_watch": {
-    "other": "Reproducir"
+    "other": "Ver ahora"
   },
   "play_button_resume": {
     "other": "Continuar"
@@ -1106,10 +1106,10 @@
     "other": "Cancelar mi suscripción"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Cancelar"
+    "other": "No, gracias"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Sí, cancelar mi suscripción"
+    "other": "Sí, cancelar"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "¿Cancelar suscripción?"
@@ -1331,7 +1331,36 @@
   "pricing_ownership_promo": {
     "other": "Redimir"
   },
+  "subscription_cta_label": {
+    "other": "Suscribir {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Año",
+    "many": "{{.Count}} Años",
+    "other": "{{.Count}} Años"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mes",
+    "many": "{{.Count}} Meses",
+    "other": "{{.Count}} Meses"
+  },
+  "subscription_recurrence_week": {
+    "one": "Semana",
+    "many": "{{.Count}} Semanas",
+    "other": "{{.Count}} Semanas"
+  },
+  "subscription_recurrence_day": {
+    "one": "Día",
+    "many": "{{.Count}} Días",
+    "other": "{{.Count}} Días"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Suscripción"
+  },
+  "something_bad_happened": {
+    "other": "Inténtalo de nuevo"
+  },
+  "stripe_card_not_supported": {
+    "other": "Su tarjeta no es compatible."
   }
 }

@@ -107,7 +107,7 @@
     "other": "Suche einreichen"
   },
   "play_button_watch": {
-    "other": "Jetzt abspielen"
+    "other": "Schau jetzt"
   },
   "play_button_resume": {
     "other": "Fortsetzen"
@@ -1095,10 +1095,10 @@
     "other": "Mein Abonnement kündigen"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Stornieren"
+    "other": "Nein Danke"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Ja, mein Abonnement kündigen"
+    "other": "Ja Abbrechen"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Abonnement beenden?"
@@ -1340,7 +1340,32 @@
   "pricing_ownership_promo": {
     "other": "Tilgen"
   },
+  "subscription_cta_label": {
+    "other": "Abonnieren {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Jahr",
+    "other": "{{.Count}} Jahre"
+  },
+  "subscription_recurrence_month": {
+    "one": "Monat",
+    "other": "{{.Count}} Monate"
+  },
+  "subscription_recurrence_week": {
+    "one": "Woche",
+    "other": "{{.Count}} Wochen"
+  },
+  "subscription_recurrence_day": {
+    "one": "Tag",
+    "other": "{{.Count}} Tage"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Abonnement"
+  },
+  "something_bad_happened": {
+    "other": "Bitte versuche es erneut"
+  },
+  "stripe_card_not_supported": {
+    "other": "Ihre Karte wird nicht unterstützt."
   }
 }

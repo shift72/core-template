@@ -125,7 +125,7 @@
     "other": "送出"
   },
   "play_button_watch": {
-    "other": "播放"
+    "other": "立即观看"
   },
   "play_button_resume": {
     "other": "繼續播放"
@@ -998,10 +998,10 @@
     "other": "取消我的訂閱"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "取消"
+    "other": "不，谢谢"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "是的，取消我的訂閱"
+    "other": "是的，取消"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "取消訂閱？"
@@ -1329,7 +1329,28 @@
   "pricing_ownership_promo": {
     "other": "贖回"
   },
+  "subscription_cta_label": {
+    "other": "订阅 {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "other": "{{.Count}} 年"
+  },
+  "subscription_recurrence_month": {
+    "other": "{{.Count}} 月"
+  },
+  "subscription_recurrence_week": {
+    "other": "{{.Count}} 星期"
+  },
+  "subscription_recurrence_day": {
+    "other": "{{.Count}} 天"
+  },
   "shopping_info_ownership_subscription": {
     "other": "订阅"
+  },
+  "something_bad_happened": {
+    "other": "请再试一次"
+  },
+  "stripe_card_not_supported": {
+    "other": "不支持您的卡。"
   }
 }

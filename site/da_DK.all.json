@@ -122,7 +122,7 @@
     "other": "Søg nu"
   },
   "play_button_watch": {
-    "other": "Afspil nu"
+    "other": "Se nu"
   },
   "play_button_resume": {
     "other": "Fortsæt"
@@ -989,10 +989,10 @@
     "other": "Opsig mit abonnement"
   },
   "usersubscriptions_unsubscribe_modal_cancel": {
-    "other": "Afbestille"
+    "other": "Nej tak"
   },
   "usersubscriptions_unsubscribe_modal_confirm": {
-    "other": "Ja, opsige mit abonnement"
+    "other": "Ja, annuller"
   },
   "usersubscriptions_unsubscribe_modal_title": {
     "other": "Vil du opsige abonnement?"
@@ -1340,7 +1340,32 @@
   "pricing_ownership_promo": {
     "other": "Indløs"
   },
+  "subscription_cta_label": {
+    "other": "Abonner {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "År",
+    "other": "{{.Count}} Flere år"
+  },
+  "subscription_recurrence_month": {
+    "one": "Måned",
+    "other": "{{.Count}} Måneder"
+  },
+  "subscription_recurrence_week": {
+    "one": "Uge",
+    "other": "{{.Count}} Uger"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dag",
+    "other": "{{.Count}} Dage"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Abonnement"
+  },
+  "something_bad_happened": {
+    "other": "Prøv igen"
+  },
+  "stripe_card_not_supported": {
+    "other": "Dit kort er ikke understøttet."
   }
 }
