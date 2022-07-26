@@ -74,15 +74,15 @@
 
   &::after {
     @extend .bottom-gradient-bg;
-    @include media-breakpoint-up(lg){
-      @include detail-page-gradient-lg;
-      height: 100%;
-    }
     content: '';
     height: 350px;
     position: absolute;
     width: 100%;
     z-index: 8;
+    @include media-breakpoint-up(lg) {
+      @include detail-page-gradient-lg;
+      height: 100%;
+    }
   }
 }
 
