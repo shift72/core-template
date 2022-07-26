@@ -65,26 +65,8 @@
 }
 
 @mixin body-1-style() {
-  @include typography-style($font-size-body-1-style, 0.5px, $font-weight-light, null, null, 23px);
-}
-
-@mixin body-2-style() {
-  @include typography-style($font-size-body-2-style, 0.4px);
-}
-
-@mixin subtitle-1-style() {
-  @include typography-style($font-size-subtitle-1-style, 0.2px, $font-weight-light, 2px);
-}
-
-@mixin subtitle-2-style() {
-  @include typography-style($font-size-subtitle-2-style, 0.2px, $font-weight-normal, 12px);
-}
-
-@mixin caption-1-style() {
-  @include typography-style($font-size-caption-1-style, 0.5px, $font-weight-bold, 4px);
-
   @include typography-style(
-    $font-size: 16px,
+    $font-size: var(--font-size-body-1-style),
     $letter-spacing: 0.6px,
     $font-weight: $font-weight-light,
     $line-height: 23px
@@ -92,12 +74,12 @@
 }
 
 @mixin body-2-style() {
-  @include typography-style($font-size: 14px, $letter-spacing: 0.4px);
+  @include typography-style($font-size: var(--font-size-body-2-style), $letter-spacing: 0.4px);
 }
 
 @mixin subtitle-1-style() {
   @include typography-style(
-    $font-size: 16px,
+    $font-size: var(--font-size-subtitle-1-style),
     $letter-spacing: 0.2px,
     $font-weight: $font-weight-normal,
     $margin-bottom: 2px,
@@ -107,7 +89,7 @@
 
 @mixin subtitle-2-style() {
   @include typography-style(
-    $font-size: 14px,
+    $font-size: var(--font-size-subtitle-2-style),
     $letter-spacing: 0.2px,
     $font-weight: $font-weight-normal,
     $margin-bottom: 12px,
@@ -117,7 +99,7 @@
 
 @mixin caption-1-style() {
   @include typography-style(
-    $font-size: 16px,
+    $font-size: var(--font-size-caption-1-style),
     $letter-spacing: 0.6px,
     $font-weight: $font-weight-bold,
     $margin-bottom: 4px,

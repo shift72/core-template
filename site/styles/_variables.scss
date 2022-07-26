@@ -50,6 +50,12 @@
   --page-detail-padding-top: 120px;
   --page-detail-padding-top-md: 120px;
   --page-detail-padding-top-lg: 180px;
+
+  --font-size-body-1-style: 16px;
+  --font-size-body-2-style: 14px;
+  --font-size-subtitle-1-style: 16px;
+  --font-size-subtitle-2-style: 14px;
+  --font-size-caption-1-style: 16px;
 }
 
 // Bootstrap 4 overrides START
@@ -258,8 +264,3 @@ $font-family-base: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Hel
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 500 !default;
-$font-size-body-1-style: 16px !default;
-$font-size-body-2-style: 14px !default;
-$font-size-subtitle-1-style: 16px !default;
-$font-size-subtitle-2-style: 14px !default;
-$font-size-caption-1-style: 16px !default;
