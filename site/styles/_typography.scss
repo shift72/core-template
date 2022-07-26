@@ -109,7 +109,7 @@
 
 @mixin overline-style() {
   @include typography-style(
-    $font-size: 14px,
+    $font-size: var(--overline-style-font-size),
     $letter-spacing: 1px,
     $font-weight: $font-weight-normal,
     $line-height: 18px
