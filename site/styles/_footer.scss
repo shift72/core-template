@@ -44,7 +44,7 @@ footer {
     }
 
     &:hover {
-      color: var(--primary);
+      color: var(--body-color-hover);
     }
   }
 }
@@ -78,6 +78,10 @@ footer {
 
   a {
     @include caption-1-style;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 

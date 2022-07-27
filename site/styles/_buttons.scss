@@ -16,24 +16,27 @@
 
 .btn.btn-signin {
   align-items: center;
-  background-color: $signin-background;
-  border: 3px solid $signin-border-color;
-  color: $signin-text-color;
+  background-color: var(--signin-background);
+  border: 3px solid var(--signin-border-color);
+  color: var(--signin-text-color);
   display: flex;
   font-size: 14px;
   justify-content: center;
+
   @include hover-focus {
-    background: $signin-background-hover;
-    border: 3px solid $signin-border-color-hover;
-    color: var(--body-color);
+    background: var(--signin-background-hover);
+    border: 3px solid var(--signin-border-color-hover);
   }
+
   @include media-breakpoint-up(lg) {
-    background-color: $signin-background-lg;
+    background-color: var(--signin-background-lg);
+
     @include hover-focus {
-      background: $signin-background-hover-lg;
-      color: $signin-text-color-hover;
+      background: var(--signin-background-hover-lg);
+      color: var(--signin-text-color-hover);
     }
   }
+
   @include media-breakpoint-up(xl) {
     font-size: 16px;
   }
@@ -191,6 +194,13 @@ s72-userwishlist-button {
 }
 
 .extra-buttons {
+  > * {
+    &:hover {
+      background-color: var(--hover-background);
+      border-radius: 50%;
+    }
+  }
+
   .s72-btn-trailer,
   s72-share-modal .s72-btn,
   .s72-btn-wishlist {
@@ -198,7 +208,7 @@ s72-userwishlist-button {
     padding: 0;
     width: 42px;
     &:hover {
-      color: var(--main-content-icon-hover);
+      color: var(--body-color-hover);
     }
 
     /* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
