@@ -488,6 +488,7 @@ function documentReady(app) {
   document.querySelectorAll('.navbar-nav').forEach(nav => {
     nav.classList.remove('s72-hide');
   });
+
   if (document.querySelector('.navbar-nav-search')) {
     initSearch();
   }
