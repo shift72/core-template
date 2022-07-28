@@ -599,6 +599,8 @@ s72-dropdown,
     margin-top: auto;
 
     .btn-sign-out {
+      @extend .animate-this;
+
       background-color: transparent;
       border: 0;
       color: var(--body-color);
@@ -613,20 +615,14 @@ s72-dropdown,
         margin: 3px 5px;
         padding: 0;
       }
-    }
 
-    .btn-sign-out {
-      @extend .animate-this;
       @include hover-focus {
-        color: var(--primary);
-        text-decoration: none;
+        color: var(--body-color-hover);
       }
     }
 
     .btn-sign-out-desktop {
-      @include hover-focus {
-        color: var(--primary);
-      }
+      text-decoration: none;
 
       @include media-breakpoint-up(lg) {
         padding: 5px 15px 5px 10px;
@@ -641,10 +637,12 @@ s72-dropdown,
       padding: 8px 56px;
       text-align: center;
       width: 100%;
+
       @include hover-focus {
         background-color: var(--signout-background-hover);
         color: var(--signout-text-color-hover);
       }
+
       @include media-breakpoint-up(lg) {
         display: none;
       }
