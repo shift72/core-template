@@ -4,6 +4,7 @@
 
 ### Changed
 - Various links and buttons now use new colour variables.
+- Carousel availability label is now positioned above the CTA's.
 
 ### Fixed
 - Broken share modal styles.
