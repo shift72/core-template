@@ -193,12 +193,13 @@ s72-carousel {
     margin-bottom: 14px;
     max-width: 600px;
     padding-top: 0;
-    p {
-      margin-bottom: 0;
-    }
 
     @include media-breakpoint-up(xs) {
       display: block;
+    }
+
+    p {
+      margin-bottom: 0;
     }
   }
 }
