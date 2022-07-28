@@ -139,6 +139,7 @@ s72-carousel {
 
   .availability-bg {
     margin-bottom: 22px;
+
   }
 
   .availability-state {
@@ -190,9 +191,12 @@ s72-carousel {
 
   .meta-item-synopsis {
     display: none;
-    margin-bottom: 8px;
+    margin-bottom: 14px;
     max-width: 600px;
     padding-top: 0;
+    p {
+      margin-bottom: 0;
+    }
 
     @include media-breakpoint-up(xs) {
       display: block;
