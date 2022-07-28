@@ -17,7 +17,7 @@
 @mixin heading-1-style() {
   @include typography-style(
     $font-size: var(--heading-1-style-font-size),
-    $letter-spacing:var(--heading-1-style-letter-spacing),
+    $letter-spacing: var(--heading-1-style-letter-spacing),
     $font-weight: $font-weight-normal,
     $margin-bottom: 8px,
     $font-color: var(--body-color),
@@ -34,7 +34,7 @@
 @mixin heading-2-style() {
   @include typography-style(
     $font-size: var(--heading-2-style-font-size),
-    $letter-spacing:var(--heading-2-style-letter-spacing),
+    $letter-spacing: var(--heading-2-style-letter-spacing),
     $font-weight: $font-weight-normal,
     $margin-bottom: 13px
   );
@@ -46,13 +46,17 @@
 @mixin heading-3-style() {
   @include typography-style(
     $font-size: var(--heading-3-style-font-size),
-    $letter-spacing:var(--heading-3-style-letter-spacing),
+    $letter-spacing: var(--heading-3-style-letter-spacing),
     $font-weight: $font-weight-normal,
     $margin-bottom: 6px,
     $line-height: 24px
   );
   @include media-breakpoint-up(sm) {
-    @include typography-style($font-size: var(--heading-3-style-font-size-sm), $letter-spacing: var(--heading-3-style-letter-spacing-sm), $line-height: 30px);
+    @include typography-style(
+      $font-size: var(--heading-3-style-font-size-sm),
+      $letter-spacing: var(--heading-3-style-letter-spacing-sm),
+      $line-height: 30px
+    );
   }
 }
 
@@ -74,7 +78,10 @@
 }
 
 @mixin body-2-style() {
-  @include typography-style($font-size: var(--body-2-style-font-size), $letter-spacing:var(--body-2-style-letter-spacing));
+  @include typography-style(
+    $font-size: var(--body-2-style-font-size),
+    $letter-spacing: var(--body-2-style-letter-spacing)
+  );
 }
 
 @mixin subtitle-1-style() {
@@ -100,7 +107,7 @@
 @mixin caption-1-style() {
   @include typography-style(
     $font-size: var(--caption-1-style-font-size),
-    $letter-spacing:var(--caption-1-style-letter-spacing),
+    $letter-spacing: var(--caption-1-style-letter-spacing),
     $font-weight: $font-weight-bold,
     $margin-bottom: 4px,
     $line-height: 20px
