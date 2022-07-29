@@ -974,13 +974,13 @@
     "other": "Udløber {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
-    "other": "usersubscriptions_subscription_status_cancelled"
+    "other": "Annulleret"
   },
   "usersubscriptions_subscription_status_errored": {
     "other": "usersubscriptions_subscription_status_errored"
   },
   "usersubscriptions_subscription_status_past_due": {
-    "other": "usersubscriptions_subscription_status_past_due"
+    "other": "Ikke betalt til tiden"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Prøveperiode"
@@ -1367,5 +1367,11 @@
   },
   "stripe_card_not_supported": {
     "other": "Dit kort er ikke understøttet."
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Ubetalt"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Annullerer"
   }
 }

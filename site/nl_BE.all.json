@@ -1358,5 +1358,17 @@
   },
   "stripe_card_not_supported": {
     "other": "Uw kaart wordt niet ondersteund."
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Verlopen"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "onbetaald"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Geannuleerd"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Annuleren"
   }
 }

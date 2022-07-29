@@ -1358,5 +1358,17 @@
   },
   "stripe_card_not_supported": {
     "other": "Η κάρτα σας δεν υποστηρίζεται."
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Παρελθούσα"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Απλήρωτος"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Ακυρώθηκε"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Ακύρωση"
   }
 }

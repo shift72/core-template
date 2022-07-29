@@ -1370,5 +1370,17 @@
   },
   "stripe_card_not_supported": {
     "other": "Jūsų kortelė nepalaikoma."
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Pradelsta"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Neapmokėta"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Atšauktas"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Atšaukiamas"
   }
 }

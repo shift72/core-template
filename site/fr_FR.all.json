@@ -1362,5 +1362,17 @@
   },
   "stripe_card_not_supported": {
     "other": "Votre carte n'est pas prise en charge."
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "En souffrance"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Non payé"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Annulé"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Annulation"
   }
 }
