@@ -1353,6 +1353,23 @@
   "stripe_card_not_supported": {
     "other": "不支持您的卡。"
   },
+  "nav_search_control_placeholder":{
+    "other": "關鍵字搜尋"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "送出"
+  },
+  "shopping_info_plan_interval":{
+    "one": "{{.Interval}}自動更新",
+    "other": "自動更新每個{{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period":{
+    "one": "立即試用您的 24 小時免費試用版！",
+    "other": "免費{{.Count}}天！"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "订阅和计费"
+  },
   "usersubscriptions_subscription_status_past_due": {
     "other": "逾期"
   },
