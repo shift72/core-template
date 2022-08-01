@@ -988,9 +988,6 @@
   "usersubscriptions_subscription_status_cancelled": {
     "other": "ألغيت"
   },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
-  },
   "usersubscriptions_subscription_status_past_due": {
     "other": "فات موعد الاستحقاق"
   },

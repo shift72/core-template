@@ -1082,9 +1082,6 @@
   "usersubscriptions_subscription_status_cancelled": {
     "other": "Abgesagt"
   },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
-  },
   "usersubscriptions_subscription_status_past_due": {
     "other": "Überfällig"
   },

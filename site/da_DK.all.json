@@ -976,9 +976,6 @@
   "usersubscriptions_subscription_status_cancelled": {
     "other": "Annulleret"
   },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
-  },
   "usersubscriptions_subscription_status_past_due": {
     "other": "Ikke betalt til tiden"
   },
