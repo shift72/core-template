@@ -1367,5 +1367,22 @@
   },
   "stripe_card_not_supported": {
     "other": "Ihre Karte wird nicht unterstützt."
+  },
+  "nav_search_control_placeholder":{
+    "other": "Suche"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Suche einreichen"
+  },
+  "shopping_info_plan_interval":{
+    "one": "Erneuert automatisch alle {{.Interval}}",
+    "other": "Erneuert automatisch alle {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period":{
+    "one": "Testen Sie jetzt Ihre kostenlose 24-Stunden-Testversion!",
+    "other": "Testen Sie Ihre kostenlose {{.Count}} Tage-Testversion!"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "Abonnements und Abrechnung"
   }
 }

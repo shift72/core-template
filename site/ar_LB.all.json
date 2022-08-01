@@ -1391,5 +1391,22 @@
   },
   "stripe_card_not_supported": {
     "other": "بطاقتك غير مدعومة."
+  },
+  "nav_search_control_placeholder":{
+    "other": "البحث"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "تأكيد البحث"
+  },
+  "shopping_info_plan_interval":{
+    "one": "يجدد تلقائيا كل. {{.Interval}}",
+    "other": "يجدد تلقائيا كل {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period":{
+    "one": "جرب الإصدار التجريبي المجاني لمدة 24 ساعة الآن!",
+    "other": "{{.Count}} التجريبي المجاني من {{.Count}} day!"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "الاشتراكات والفواتير"
   }
 }
