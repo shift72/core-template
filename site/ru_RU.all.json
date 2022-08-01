@@ -1404,5 +1404,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Отмена"
+  },
+  "interval_day": {
+    "one": "день",
+    "other": "дни"
+  },
+  "interval_week": {
+    "one": "неделя",
+    "other": "недели"
+  },
+  "interval_month": {
+    "one": "месяц",
+    "other": "месяцы"
+  },
+  "interval_year": {
+    "one": "год",
+    "other": "годы"
   }
 }

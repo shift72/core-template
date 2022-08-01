@@ -1370,5 +1370,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Annullerer"
+  },
+  "interval_day": {
+    "one": "dag",
+    "other": "dage"
+  },
+  "interval_week": {
+    "one": "uge",
+    "other": "uger"
+  },
+  "interval_month": {
+    "one": "måned",
+    "other": "måneder"
+  },
+  "interval_year": {
+    "one": "år",
+    "other": "flere år"
   }
 }

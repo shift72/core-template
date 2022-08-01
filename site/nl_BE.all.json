@@ -1370,5 +1370,20 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Annuleren"
+  },
+  "interval_day": {
+    "one": "dag",
+    "other": "dagen"
+  },
+  "interval_week": {
+    "one": "week",
+    "other": "weken"
+  },
+  "interval_month": {
+    "one": "maand",
+    "other": "maanden"
+  },
+  "interval_year": {
+    "other": "jaar"
   }
 }

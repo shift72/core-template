@@ -1370,5 +1370,20 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Avbryter"
+  },
+  "interval_day": {
+    "one": "dag",
+    "other": "dager"
+  },
+  "interval_week": {
+    "one": "uke",
+    "other": "uker"
+  },
+  "interval_month": {
+    "one": "måned",
+    "other": "måneder"
+  },
+  "interval_year": {
+    "other": "år"
   }
 }

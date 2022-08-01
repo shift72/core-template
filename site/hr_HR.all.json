@@ -1359,5 +1359,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Otkazivanje"
+  },
+  "interval_day": {
+    "one": "dan",
+    "other": "dana"
+  },
+  "interval_week": {
+    "one": "tjedan",
+    "other": "tjedni"
+  },
+  "interval_month": {
+    "one": "mjesec",
+    "other": "mjeseca"
+  },
+  "interval_year": {
+    "one": "godina",
+    "other": "godine"
   }
 }

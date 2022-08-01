@@ -1374,5 +1374,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Cancellazione"
+  },
+  "interval_day": {
+    "one": "giorno",
+    "other": "giorni"
+  },
+  "interval_week": {
+    "one": "settimana",
+    "other": "settimane"
+  },
+  "interval_month": {
+    "one": "mese",
+    "other": "mesi"
+  },
+  "interval_year": {
+    "one": "anno",
+    "other": "anni"
   }
 }

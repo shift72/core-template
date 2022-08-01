@@ -1370,5 +1370,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "S'està cancel·lant"
+  },
+  "interval_day": {
+    "one": "dia",
+    "other": "dies"
+  },
+  "interval_week": {
+    "one": "setmana",
+    "other": "setmanes"
+  },
+  "interval_month": {
+    "one": "mes",
+    "other": "mesos"
+  },
+  "interval_year": {
+    "one": "curs",
+    "other": "anys"
   }
 }

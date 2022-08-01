@@ -1394,5 +1394,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "الإلغاء"
+  },
+  "interval_day": {
+    "one": "يوم",
+    "other": "أيام"
+  },
+  "interval_week": {
+    "one": "أسبوع",
+    "other": "أسابيع"
+  },
+  "interval_month": {
+    "one": "شهر",
+    "other": "الشهور"
+  },
+  "interval_year": {
+    "one": "عام",
+    "other": "سنوات"
   }
 }

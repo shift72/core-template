@@ -1410,5 +1410,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Скасування"
+  },
+  "interval_day": {
+    "one": "день",
+    "other": "днів"
+  },
+  "interval_week": {
+    "one": "тиждень",
+    "other": "тижнів"
+  },
+  "interval_month": {
+    "one": "місяць",
+    "other": "місяців"
+  },
+  "interval_year": {
+    "one": "рік",
+    "other": "років"
   }
 }

@@ -1370,5 +1370,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Ακύρωση"
+  },
+  "interval_day": {
+    "one": "ημέρα",
+    "other": "ημέρες"
+  },
+  "interval_week": {
+    "one": "εβδομάδα",
+    "other": "εβδομάδες"
+  },
+  "interval_month": {
+    "one": "μήνας",
+    "other": "μήνες"
+  },
+  "interval_year": {
+    "one": "έτος",
+    "other": "χρόνια"
   }
 }

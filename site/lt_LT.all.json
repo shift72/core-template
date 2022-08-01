@@ -1382,5 +1382,20 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Atšaukiamas"
+  },
+  "interval_day": {
+    "one": "dieną",
+    "other": "dienų"
+  },
+  "interval_week": {
+    "one": "savaitę",
+    "other": "savaites"
+  },
+  "interval_month": {
+    "one": "mėnuo",
+    "other": "mėnesių"
+  },
+  "interval_year": {
+    "other": "metų"
   }
 }

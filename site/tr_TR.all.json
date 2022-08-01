@@ -1370,5 +1370,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "İptal"
+  },
+  "interval_day": {
+    "one": "gün",
+    "other": "günler"
+  },
+  "interval_week": {
+    "one": "hafta",
+    "other": "haftalar"
+  },
+  "interval_month": {
+    "one": "ay",
+    "other": "aylar"
+  },
+  "interval_year": {
+    "one": "yıl",
+    "other": "yıllar"
   }
 }
