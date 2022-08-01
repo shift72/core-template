@@ -1364,5 +1364,17 @@
   },
   "stripe_card_not_supported": {
     "other": "Ваша картица није подржана."
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Касни рок"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Неплаћено"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Отказано"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Отказивање"
   }
 }

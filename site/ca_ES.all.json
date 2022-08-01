@@ -992,13 +992,10 @@
     "other": "Caduca {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
-    "other": "usersubscriptions_subscription_status_cancelled"
-  },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
+    "other": "Cancel·lat"
   },
   "usersubscriptions_subscription_status_past_due": {
-    "other": "usersubscriptions_subscription_status_past_due"
+    "other": "Vençuda"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Període de prova"
@@ -1367,5 +1364,11 @@
   },
   "stripe_card_not_supported": {
     "other": "La teva targeta no és compatible."
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Sense pagar"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "S'està cancel·lant"
   }
 }

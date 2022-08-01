@@ -1362,5 +1362,17 @@
   },
   "stripe_card_not_supported": {
     "other": "Su tarjeta no es compatible."
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Atrasado"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "No pagado"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancelado"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancelado"
   }
 }
