@@ -1385,28 +1385,24 @@
   },
   "interval_day": {
     "one": "dieną",
-    "two": "dienų",
     "few": "dienų",
     "many": "dienų",
     "other": "dienų"
   },
   "interval_week": {
     "one": "savaitę",
-    "two": "savaites",
     "few": "savaites",
     "many": "savaites",
     "other": "savaites"
   },
   "interval_month": {
     "one": "mėnuo",
-    "two": "mėnesių",
     "few": "mėnesių",
     "many": "mėnesių",
     "other": "mėnesių"
   },
   "interval_year": {
     "one": "metų",
-    "two": "metų",
     "few": "metų",
     "many": "metų",
     "other": "metų"

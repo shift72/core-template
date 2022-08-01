@@ -1373,30 +1373,18 @@
   },
   "interval_day": {
     "one": "päivä",
-    "two": "päivää",
-    "few": "päivää",
-    "many": "päivää",
     "other": "päivää"
   },
   "interval_week": {
     "one": "viikko",
-    "two": "viikkoa",
-    "few": "viikkoa",
-    "many": "viikkoa",
     "other": "viikkoa"
   },
   "interval_month": {
     "one": "kuukausi",
-    "two": "kuukaudet",
-    "few": "kuukaudet",
-    "many": "kuukaudet",
     "other": "kuukaudet"
   },
   "interval_year": {
     "one": "vuosi",
-    "two": "vuotta",
-    "few": "vuotta",
-    "many": "vuotta",
     "other": "vuotta"
   }
 }

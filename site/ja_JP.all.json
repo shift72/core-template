@@ -1366,31 +1366,15 @@
     "other": "キャンセル中"
   },
   "interval_day": {
-    "one": "日",
-    "two": "日々",
-    "few": "日々",
-    "many": "日々",
     "other": "日々"
   },
   "interval_week": {
-    "one": "週",
-    "two": "週間",
-    "few": "週間",
-    "many": "週間",
     "other": "週間"
   },
   "interval_month": {
-    "one": "月",
-    "two": "月",
-    "few": "月",
-    "many": "月",
     "other": "月"
   },
   "interval_year": {
-    "one": "年",
-    "two": "年",
-    "few": "年",
-    "many": "年",
     "other": "年"
   }
 }

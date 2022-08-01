@@ -1430,28 +1430,24 @@
   },
   "interval_day": {
     "one": "dzień",
-    "two": "dni",
     "few": "dni",
     "many": "dni",
     "other": "dni"
   },
   "interval_week": {
     "one": "tydzień",
-    "two": "tygodnie",
     "few": "tygodnie",
     "many": "tygodnie",
     "other": "tygodnie"
   },
   "interval_month": {
     "one": "miesiąc",
-    "two": "miesiące",
     "few": "miesiące",
     "many": "miesiące",
     "other": "miesiące"
   },
   "interval_year": {
     "one": "rok",
-    "two": "lat",
     "few": "lat",
     "many": "lat",
     "other": "lat"

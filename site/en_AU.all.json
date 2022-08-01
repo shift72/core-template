@@ -1370,30 +1370,18 @@
   },
   "interval_day": {
     "one": "day",
-    "two": "days",
-    "few": "days",
-    "many": "days",
     "other": "days"
   },
   "interval_week": {
     "one": "week",
-    "two": "weeks",
-    "few": "weeks",
-    "many": "weeks",
     "other": "weeks"
   },
   "interval_month": {
     "one": "month",
-    "two": "months",
-    "few": "months",
-    "many": "months",
     "other": "months"
   },
   "interval_year": {
     "one": "year",
-    "two": "years",
-    "few": "years",
-    "many": "years",
     "other": "years"
   }
 }

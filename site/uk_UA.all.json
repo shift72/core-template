@@ -1413,28 +1413,24 @@
   },
   "interval_day": {
     "one": "день",
-    "two": "днів",
     "few": "днів",
     "many": "днів",
     "other": "днів"
   },
   "interval_week": {
     "one": "тиждень",
-    "two": "тижнів",
     "few": "тижнів",
     "many": "тижнів",
     "other": "тижнів"
   },
   "interval_month": {
     "one": "місяць",
-    "two": "місяців",
     "few": "місяців",
     "many": "місяців",
     "other": "місяців"
   },
   "interval_year": {
     "one": "рік",
-    "two": "років",
     "few": "років",
     "many": "років",
     "other": "років"

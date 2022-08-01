@@ -1373,30 +1373,18 @@
   },
   "interval_day": {
     "one": "dia",
-    "two": "dies",
-    "few": "dies",
-    "many": "dies",
     "other": "dies"
   },
   "interval_week": {
     "one": "setmana",
-    "two": "setmanes",
-    "few": "setmanes",
-    "many": "setmanes",
     "other": "setmanes"
   },
   "interval_month": {
     "one": "mes",
-    "two": "mesos",
-    "few": "mesos",
-    "many": "mesos",
     "other": "mesos"
   },
   "interval_year": {
     "one": "curs",
-    "two": "anys",
-    "few": "anys",
-    "many": "anys",
     "other": "anys"
   }
 }

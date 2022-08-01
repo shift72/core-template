@@ -1377,30 +1377,18 @@
   },
   "interval_day": {
     "one": "giorno",
-    "two": "giorni",
-    "few": "giorni",
-    "many": "giorni",
     "other": "giorni"
   },
   "interval_week": {
     "one": "settimana",
-    "two": "settimane",
-    "few": "settimane",
-    "many": "settimane",
     "other": "settimane"
   },
   "interval_month": {
     "one": "mese",
-    "two": "mesi",
-    "few": "mesi",
-    "many": "mesi",
     "other": "mesi"
   },
   "interval_year": {
     "one": "anno",
-    "two": "anni",
-    "few": "anni",
-    "many": "anni",
     "other": "anni"
   }
 }

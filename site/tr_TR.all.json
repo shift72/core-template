@@ -1373,30 +1373,18 @@
   },
   "interval_day": {
     "one": "gün",
-    "two": "günler",
-    "few": "günler",
-    "many": "günler",
     "other": "günler"
   },
   "interval_week": {
     "one": "hafta",
-    "two": "haftalar",
-    "few": "haftalar",
-    "many": "haftalar",
     "other": "haftalar"
   },
   "interval_month": {
     "one": "ay",
-    "two": "aylar",
-    "few": "aylar",
-    "many": "aylar",
     "other": "aylar"
   },
   "interval_year": {
     "one": "yıl",
-    "two": "yıllar",
-    "few": "yıllar",
-    "many": "yıllar",
     "other": "yıllar"
   }
 }

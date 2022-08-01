@@ -1373,30 +1373,18 @@
   },
   "interval_day": {
     "one": "dag",
-    "two": "dager",
-    "few": "dager",
-    "many": "dager",
     "other": "dager"
   },
   "interval_week": {
     "one": "uke",
-    "two": "uker",
-    "few": "uker",
-    "many": "uker",
     "other": "uker"
   },
   "interval_month": {
     "one": "måned",
-    "two": "måneder",
-    "few": "måneder",
-    "many": "måneder",
     "other": "måneder"
   },
   "interval_year": {
     "one": "år",
-    "two": "år",
-    "few": "år",
-    "many": "år",
     "other": "år"
   }
 }
