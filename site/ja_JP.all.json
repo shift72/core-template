@@ -1369,5 +1369,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "サブスクリプションと請求"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "延滞"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "未払い"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "キャンセル"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "キャンセル中"
   }
 }

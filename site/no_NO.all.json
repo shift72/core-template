@@ -1375,5 +1375,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Abonnementer og fakturering"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Forfalt"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Ubetalt"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "avbrutt"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Avbryter"
   }
 }

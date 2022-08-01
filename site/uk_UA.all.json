@@ -1415,5 +1415,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Підписки та виставлення рахунків"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Прострочено"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Неоплачений"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Скасовано"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Скасування"
   }
 }

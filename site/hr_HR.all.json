@@ -1173,13 +1173,10 @@
     "other": "Istječe {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
-    "other": "usersubscriptions_subscription_status_cancelled"
-  },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
+    "other": "Otkazano"
   },
   "usersubscriptions_subscription_status_past_due": {
-    "other": "usersubscriptions_subscription_status_past_due"
+    "other": "Dospjelo"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Probni rok"
@@ -1373,5 +1370,11 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Pretplate i naplata"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Neplaćeno"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Otkazivanje"
   }
 }

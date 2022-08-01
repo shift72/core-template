@@ -1379,5 +1379,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Assinaturas e cobrança"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Vencido"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Não pago"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancelado"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancelando"
   }
 }

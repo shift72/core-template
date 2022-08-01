@@ -1432,5 +1432,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Subskrypcje i rozliczenia"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Termin przekroczony"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Nie zapłacony"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Anulowany"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Anulowanie"
   }
 }

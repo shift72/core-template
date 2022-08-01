@@ -1375,5 +1375,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Abonnementen en facturering"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Verlopen"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "onbetaald"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Geannuleerd"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Annuleren"
   }
 }

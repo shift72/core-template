@@ -1375,5 +1375,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Tilaukset ja laskutus"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Erääntynyt"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Palkaton"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Peruutettu"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Peruutetaan"
   }
 }

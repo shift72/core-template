@@ -1375,5 +1375,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Subscriptions and Billing"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Past due"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Unpaid"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancelled"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancelling"
   }
 }

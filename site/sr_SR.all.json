@@ -1381,5 +1381,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Претплате и наплата"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Касни рок"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Неплаћено"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Отказано"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Отказивање"
   }
 }

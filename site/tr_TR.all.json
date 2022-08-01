@@ -1375,5 +1375,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Abonelikler ve Faturalandırma"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "vadesi geçmiş"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "ödenmemiş"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "İptal edildi"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "İptal"
   }
 }

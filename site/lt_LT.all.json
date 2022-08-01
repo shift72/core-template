@@ -1387,5 +1387,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Prenumeratos ir atsiskaitymas"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Pradelsta"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Neapmokėta"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Atšauktas"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Atšaukiamas"
   }
 }

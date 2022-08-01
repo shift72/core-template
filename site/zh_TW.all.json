@@ -1369,5 +1369,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "订阅和计费"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "逾期"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "未付"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "取消"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "取消"
   }
 }

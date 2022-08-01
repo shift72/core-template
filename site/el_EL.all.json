@@ -1375,5 +1375,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Συνδρομές και Χρεώσεις"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Παρελθούσα"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Απλήρωτος"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Ακυρώθηκε"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Ακύρωση"
   }
 }

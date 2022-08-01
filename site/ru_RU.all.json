@@ -1409,5 +1409,17 @@
   },
   "usersubscriptions_page_header_seo":{
     "other": "Подписки и выставление счетов"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Просроченный"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Неоплачиваемый"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Отменено"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Отмена"
   }
 }
