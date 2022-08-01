@@ -1366,16 +1366,31 @@
     "other": "取消"
   },
   "interval_day": {
+    "one": "天",
+    "two": "天",
+    "few": "天",
+    "many": "天",
     "other": "天"
   },
   "interval_week": {
     "one": "星期",
+    "two": "週",
+    "few": "週",
+    "many": "週",
     "other": "週"
   },
   "interval_month": {
+    "one": "月",
+    "two": "月",
+    "few": "月",
+    "many": "月",
     "other": "月"
   },
   "interval_year": {
+    "one": "年",
+    "two": "年",
+    "few": "年",
+    "many": "年",
     "other": "年"
   }
 }

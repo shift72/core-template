@@ -1373,18 +1373,30 @@
   },
   "interval_day": {
     "one": "Tag",
+    "two": "Tage",
+    "few": "Tage",
+    "many": "Tage",
     "other": "Tage"
   },
   "interval_week": {
     "one": "Woche",
+    "two": "Wochen",
+    "few": "Wochen",
+    "many": "Wochen",
     "other": "Wochen"
   },
   "interval_month": {
     "one": "Monat",
+    "two": "Monate",
+    "few": "Monate",
+    "many": "Monate",
     "other": "Monate"
   },
   "interval_year": {
     "one": "Jahr",
+    "two": "Jahre",
+    "few": "Jahre",
+    "many": "Jahre",
     "other": "Jahre"
   }
 }

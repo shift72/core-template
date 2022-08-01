@@ -1397,18 +1397,30 @@
   },
   "interval_day": {
     "one": "يوم",
+    "two": "أيام",
+    "few": "أيام",
+    "many": "أيام",
     "other": "أيام"
   },
   "interval_week": {
     "one": "أسبوع",
+    "two": "أسابيع",
+    "few": "أسابيع",
+    "many": "أسابيع",
     "other": "أسابيع"
   },
   "interval_month": {
     "one": "شهر",
+    "two": "الشهور",
+    "few": "الشهور",
+    "many": "الشهور",
     "other": "الشهور"
   },
   "interval_year": {
     "one": "عام",
+    "two": "سنوات",
+    "few": "سنوات",
+    "many": "سنوات",
     "other": "سنوات"
   }
 }

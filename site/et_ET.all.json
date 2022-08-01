@@ -1373,18 +1373,30 @@
   },
   "interval_day": {
     "one": "päeval",
+    "two": "päevadel",
+    "few": "päevadel",
+    "many": "päevadel",
     "other": "päevadel"
   },
   "interval_week": {
     "one": "nädal",
+    "two": "nädalaid",
+    "few": "nädalaid",
+    "many": "nädalaid",
     "other": "nädalaid"
   },
   "interval_month": {
     "one": "kuu",
+    "two": "kuud",
+    "few": "kuud",
+    "many": "kuud",
     "other": "kuud"
   },
   "interval_year": {
     "one": "aastal",
+    "two": "aastat",
+    "few": "aastat",
+    "many": "aastat",
     "other": "aastat"
   }
 }

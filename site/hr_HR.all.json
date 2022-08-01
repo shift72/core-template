@@ -1362,18 +1362,30 @@
   },
   "interval_day": {
     "one": "dan",
+    "two": "dana",
+    "few": "dana",
+    "many": "dana",
     "other": "dana"
   },
   "interval_week": {
     "one": "tjedan",
+    "two": "tjedni",
+    "few": "tjedni",
+    "many": "tjedni",
     "other": "tjedni"
   },
   "interval_month": {
     "one": "mjesec",
+    "two": "mjeseca",
+    "few": "mjeseca",
+    "many": "mjeseca",
     "other": "mjeseca"
   },
   "interval_year": {
     "one": "godina",
+    "two": "godine",
+    "few": "godine",
+    "many": "godine",
     "other": "godine"
   }
 }

@@ -1407,18 +1407,30 @@
   },
   "interval_day": {
     "one": "день",
+    "two": "дни",
+    "few": "дни",
+    "many": "дни",
     "other": "дни"
   },
   "interval_week": {
     "one": "неделя",
+    "two": "недели",
+    "few": "недели",
+    "many": "недели",
     "other": "недели"
   },
   "interval_month": {
     "one": "месяц",
+    "two": "месяцы",
+    "few": "месяцы",
+    "many": "месяцы",
     "other": "месяцы"
   },
   "interval_year": {
     "one": "год",
+    "two": "годы",
+    "few": "годы",
+    "many": "годы",
     "other": "годы"
   }
 }

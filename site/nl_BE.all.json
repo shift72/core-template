@@ -1373,17 +1373,30 @@
   },
   "interval_day": {
     "one": "dag",
+    "two": "dagen",
+    "few": "dagen",
+    "many": "dagen",
     "other": "dagen"
   },
   "interval_week": {
     "one": "week",
+    "two": "weken",
+    "few": "weken",
+    "many": "weken",
     "other": "weken"
   },
   "interval_month": {
     "one": "maand",
+    "two": "maanden",
+    "few": "maanden",
+    "many": "maanden",
     "other": "maanden"
   },
   "interval_year": {
+    "one": "jaar",
+    "two": "jaar",
+    "few": "jaar",
+    "many": "jaar",
     "other": "jaar"
   }
 }

@@ -1373,18 +1373,30 @@
   },
   "interval_day": {
     "one": "nap",
+    "two": "napok",
+    "few": "napok",
+    "many": "napok",
     "other": "napok"
   },
   "interval_week": {
     "one": "hét",
+    "two": "hétig",
+    "few": "hétig",
+    "many": "hétig",
     "other": "hétig"
   },
   "interval_month": {
     "one": "hónap",
+    "two": "hónapok",
+    "few": "hónapok",
+    "many": "hónapok",
     "other": "hónapok"
   },
   "interval_year": {
     "one": "év",
+    "two": "évek",
+    "few": "évek",
+    "many": "évek",
     "other": "évek"
   }
 }
