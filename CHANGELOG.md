@@ -5,6 +5,7 @@
 ### Added
 - Add new variables to change the font sizes and letter spacing of headings, subtitles, body text, etc.
 - Add translations for intervals without counts
+- New keys for translations that were used by Relish and Core-template removing their overlapping usage
 
 ## Changed
 - Moved the carousel availability label above the CTA's.

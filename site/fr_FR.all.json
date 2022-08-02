@@ -1363,6 +1363,23 @@
   "stripe_card_not_supported": {
     "other": "Votre carte n'est pas prise en charge."
   },
+  "nav_search_control_placeholder":{
+    "other": "Rechercher"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Soumettre la recherche"
+  },
+  "shopping_info_plan_interval":{
+    "one": "Se renouvelle automatiquement tous les {{.Interval}}",
+    "other": "{{.Count}} automatiquement chaque {{.Interval}}"
+  },
+  "shopping_info_trial_period":{
+    "one": "Essayez votre essai gratuit de 24 heures maintenant !",
+    "other": "Essayez votre essai gratuit de {{.Count}} day !"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "Abonnements et facturation"
+  },
   "usersubscriptions_subscription_status_past_due": {
     "other": "En souffrance"
   },
