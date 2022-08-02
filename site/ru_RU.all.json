@@ -644,6 +644,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Кредитная карта была отклонена. Пожалуйста, попробуйте еще раз."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Ваша карта не поддерживается."
+  },
   "shopping_complete_rental": {
     "other": "Успех!"
   },

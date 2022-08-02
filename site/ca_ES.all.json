@@ -685,6 +685,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "S'ha rebutjat la targeta de crèdit. Siusplau torna-ho a provar."
   },
+  "shopping_error_card_not_supported": {
+    "other": "La teva targeta no és compatible."
+  },
   "shopping_complete_rental": {
     "other": "Èxit!"
   },

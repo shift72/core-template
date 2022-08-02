@@ -694,6 +694,9 @@
   "shopping_error_plan_expired": {
     "other": "This plan is no longer available."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Your card is not supported."
+  },
   "shopping_complete_rental": {
     "other": "Success!"
   },

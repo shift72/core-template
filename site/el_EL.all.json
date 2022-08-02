@@ -625,6 +625,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Η πιστωτική σας κάρτα δεν έγινε δεκτή. Παρακαλώ προσπαθήστε ξανά."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Η κάρτα σας δεν υποστηρίζεται."
+  },
   "shopping_complete_rental": {
     "other": "Επιτυχία!"
   },

@@ -667,6 +667,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Mokėjimo kortelė nepriimta. Prašome bandyti dar kartą."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Jūsų kortelė nepalaikoma."
+  },
   "shopping_complete_rental": {
     "other": "Pirkinys sėkmingas!"
   },

@@ -667,6 +667,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "De kredietkaart is geweigerd. Gelieve opnieuw te proberen."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Uw kaart wordt niet ondersteund."
+  },
   "shopping_complete_rental": {
     "other": "Gelukt !"
   },

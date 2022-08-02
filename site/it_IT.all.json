@@ -634,6 +634,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "La carta di credito è stata rifiutata. Ti prego di riprovare."
   },
+  "shopping_error_card_not_supported": {
+    "other": "La tua carta non è supportata."
+  },
   "shopping_complete_rental": {
     "other": "Fatto!"
   },

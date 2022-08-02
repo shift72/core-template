@@ -616,6 +616,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Die Kreditkarte wurde abgelehnt. Bitte versuchen Sie es noch einmal."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Ihre Karte wird nicht unterstützt."
+  },
   "shopping_complete_rental": {
     "other": "Kauf erfolgreich!"
   },

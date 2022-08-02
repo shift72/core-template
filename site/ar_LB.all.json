@@ -682,6 +682,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "تم رفض بطاقة الائتمان. الرجاء المحاولة مرة اخرى."
   },
+  "shopping_error_card_not_supported": {
+    "other": "بطاقتك غير مدعومة."
+  },
   "shopping_complete_rental": {
     "other": "نجاح!"
   },

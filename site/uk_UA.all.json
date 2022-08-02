@@ -695,6 +695,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Банківську картку відхилено. Спробуйте ще раз."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Ваша картка не підтримується."
+  },
   "shopping_complete_rental": {
     "other": "Успішно!"
   },

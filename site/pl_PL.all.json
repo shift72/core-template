@@ -616,6 +616,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Karta kredytowa została odrzucona. Proszę spróbuj ponownie."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Twoja karta nie jest obsługiwana."
+  },
   "shopping_complete_rental": {
     "other": "Udało się!"
   },
