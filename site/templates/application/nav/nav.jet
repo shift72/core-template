@@ -18,8 +18,8 @@
         <button type="button" class="btn-search-open" aria-label="open search" tabindex="-1">
           <i class="fa fa-search search-icon"></i>
         </button>
-        <input class="form-control form-control-search" type="search" placeholder="{{i18n("search_control_placeholder")}}" name="q" aria-label="{{i18n("search_control_placeholder")}}">
-        <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
+        <input class="form-control form-control-search" type="search" placeholder="{{i18n("nav_search_control_placeholder")}}" name="q" aria-label="{{i18n("nav_search_control_placeholder")}}">
+        <button class="sr-only" type="submit">{{i18n("nav_search_control_sr_submit")}}</button>
         <button type="button" class="btn-search-close" aria-label="close search" tabindex="-1">
           <i class="fa fa-times"></i>
         </button>

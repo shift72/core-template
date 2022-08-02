@@ -1361,5 +1361,34 @@
   },
   "stripe_card_not_supported": {
     "other": "Your card is not supported."
+  },
+  "nav_search_control_placeholder":{
+    "other": "Search"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Submit search"
+  },
+  "shopping_info_plan_interval":{
+    "one": "Automatically renews every {{.Interval}}",
+    "other": "Automatically renews every {{.Count}} {{.Interval}}s"
+  },
+  "shopping_info_trial_period":{
+    "one": "Try your free 24hr trial now!",
+    "other": "Try your free {{.Count}} day trial!"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "Subscriptions and Billing"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Past due"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Unpaid"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancelled"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancelling"
   }
 }
