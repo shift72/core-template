@@ -1392,5 +1392,34 @@
   },
   "stripe_card_not_supported": {
     "other": "Ваша карта не поддерживается."
+  },
+  "nav_search_control_placeholder":{
+    "other": "Поиск"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Начать поиск"
+  },
+  "shopping_info_plan_interval":{
+    "one": "Автоматически обновляется каждые {{.Interval}}",
+    "other": "Автоматически обновляется каждые {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period":{
+    "one": "Попробуйте бесплатную 24-часовую пробную версию прямо сейчас!",
+    "other": "Попробуйте бесплатную дневную пробную версию {{.Count}}"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "Подписки и выставление счетов"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Просроченный"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Неоплачиваемый"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Отменено"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Отмена"
   }
 }

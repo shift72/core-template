@@ -1364,5 +1364,34 @@
   },
   "stripe_card_not_supported": {
     "other": "Ваша картица није подржана."
+  },
+  "nav_search_control_placeholder":{
+    "other": "Претрага"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Пошаљите претрагу"
+  },
+  "shopping_info_plan_interval":{
+    "one": "Аутоматски обнавља сваки {{.Interval}}",
+    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}} с"
+  },
+  "shopping_info_trial_period":{
+    "one": "Испробајте своју бесплатну пробну верзију од 24 сата сада!",
+    "other": "Испробајте своју бесплатну пробну верзију {{.Count}}"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "Претплате и наплата"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Касни рок"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Неплаћено"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Отказано"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Отказивање"
   }
 }

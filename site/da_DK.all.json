@@ -974,13 +974,10 @@
     "other": "Udløber {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
-    "other": "usersubscriptions_subscription_status_cancelled"
-  },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
+    "other": "Annulleret"
   },
   "usersubscriptions_subscription_status_past_due": {
-    "other": "usersubscriptions_subscription_status_past_due"
+    "other": "Ikke betalt til tiden"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Prøveperiode"
@@ -1367,5 +1364,28 @@
   },
   "stripe_card_not_supported": {
     "other": "Dit kort er ikke understøttet."
+  },
+  "nav_search_control_placeholder":{
+    "other": "Søg"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Søg nu"
+  },
+  "shopping_info_plan_interval":{
+    "one": "Fornyer automatisk hver {{.Interval}}",
+    "other": "{{.Count}} automatisk hver {{.Interval}}"
+  },
+  "shopping_info_trial_period":{
+    "one": "Prøv din gratis 24 timers prøveperiode nu!",
+    "other": "Prøv din gratis {{.Count}} day prøveperiode!"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "Abonnementer og fakturering"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Ubetalt"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Annullerer"
   }
 }

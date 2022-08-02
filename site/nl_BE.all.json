@@ -1358,5 +1358,34 @@
   },
   "stripe_card_not_supported": {
     "other": "Uw kaart wordt niet ondersteund."
+  },
+  "nav_search_control_placeholder":{
+    "other": "Zoek"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Zoekopdracht indienen"
+  },
+  "shopping_info_plan_interval":{
+    "one": "Vernieuwt automatisch elke {{.Interval}}",
+    "other": "{{.Count}} automatisch elke {{.Interval}}"
+  },
+  "shopping_info_trial_period":{
+    "one": "Probeer nu uw gratis proefperiode van 24 uur!",
+    "other": "Probeer uw gratis {{.Count}} !"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "Abonnementen en facturering"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Verlopen"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "onbetaald"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Geannuleerd"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Annuleren"
   }
 }

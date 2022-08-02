@@ -1,7 +1,7 @@
 {{extends "templates/application/application.jet"}}
 
 {{block head()}}
-  {{yield seo(title=i18n("usersubscriptions_page_header"), index=false)}}
+  {{yield seo(title=i18n("usersubscriptions_page_header_seo"), index=false)}}
 {{end}}
 
 {{block body()}}

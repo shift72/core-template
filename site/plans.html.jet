@@ -55,9 +55,9 @@
 
                   <p class="plan-description">{{p.Description}}</p>
                   {{ if p.Interval }}
-                    <p class="plan-interval">{{i18n("shopping_info_plan_offer", map("Interval", p.Interval, "Count", p.IntervalCount))}}</p>
+                    <p class="plan-interval">{{i18n("shopping_info_plan_interval", map("Interval", p.Interval, "Count", p.IntervalCount))}}</p>
                     {{ if p.TrialPeriodDays }}
-                      <p class="plan-trial-period">{{i18n("shopping_info_trial_period_offer", p.TrialPeriodDays)}}</p>
+                      <p class="plan-trial-period">{{i18n("shopping_info_trial_period", p.TrialPeriodDays)}}</p>
                     {{ end }}
                   {{ end }}
                 </div>

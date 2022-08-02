@@ -1358,5 +1358,34 @@
   },
   "stripe_card_not_supported": {
     "other": "Kortet ditt støttes ikke."
+  },
+  "nav_search_control_placeholder":{
+    "other": "Søk"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Søk"
+  },
+  "shopping_info_plan_interval":{
+    "one": "Fornyes automatisk hver {{.Interval}}",
+    "other": "{{.Count}} automatisk hver {{.Interval}}"
+  },
+  "shopping_info_trial_period":{
+    "one": "Prøv din gratis 24-timers prøveversjon nå!",
+    "other": "Prøv din gratis {{.Count}} day prøveversjon!"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "Abonnementer og fakturering"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Forfalt"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Ubetalt"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "avbrutt"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Avbryter"
   }
 }

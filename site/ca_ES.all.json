@@ -992,13 +992,10 @@
     "other": "Caduca {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
-    "other": "usersubscriptions_subscription_status_cancelled"
-  },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
+    "other": "Cancel·lat"
   },
   "usersubscriptions_subscription_status_past_due": {
-    "other": "usersubscriptions_subscription_status_past_due"
+    "other": "Vençuda"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Període de prova"
@@ -1367,5 +1364,28 @@
   },
   "stripe_card_not_supported": {
     "other": "La teva targeta no és compatible."
+  },
+  "nav_search_control_placeholder":{
+    "other": "Cerca"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Envia la cerca"
+  },
+  "shopping_info_plan_interval":{
+    "one": "Renova automàticament cada {{.Interval}}",
+    "other": "Renova automàticament cada {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period":{
+    "one": "Prova la teva prova gratuïta de 24 hores ara!",
+    "other": "Prova la teva prova gratuïta de {{.Count}} day!"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "Subscripcions i facturació"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Sense pagar"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "S'està cancel·lant"
   }
 }
