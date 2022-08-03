@@ -1362,5 +1362,34 @@
   },
   "stripe_card_not_supported": {
     "other": "Seu cartão não é compatível."
+  },
+  "nav_search_control_placeholder":{
+    "other": "Buscar"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Buscar"
+  },
+  "shopping_info_plan_interval":{
+    "one": "Renova automaticamente a cada {{.Interval}}",
+    "other": "Renova automaticamente cada {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period":{
+    "one": "Experimente agora o seu teste gratuito de 24 horas!",
+    "other": "Experimente o seu teste gratuito de {{.Count}} dia!"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "Assinaturas e cobrança"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Vencido"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Não pago"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancelado"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancelando"
   }
 }

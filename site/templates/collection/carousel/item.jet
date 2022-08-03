@@ -33,9 +33,11 @@
               {{yield carouselItemSynopsis(synopsis=item.InnerItem.Tagline)}}
             {{end}}
 
+            <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
+            
             {{yield ctaButtons(itemType=item.ItemType) item.InnerItem}}
 
-            <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
+
           </div>
         </div>
       {{end}}

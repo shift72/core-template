@@ -908,13 +908,10 @@
     "other": "Lejár: {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
-    "other": "usersubscriptions_subscription_status_cancelled"
-  },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
+    "other": "Törölve"
   },
   "usersubscriptions_subscription_status_past_due": {
-    "other": "usersubscriptions_subscription_status_past_due"
+    "other": "Határidőn túl"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Próbaidő"
@@ -1367,5 +1364,28 @@
   },
   "stripe_card_not_supported": {
     "other": "A kártya nem támogatott."
+  },
+  "nav_search_control_placeholder":{
+    "other": "Keresés"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Keresés indítása"
+  },
+  "shopping_info_plan_interval":{
+    "one": "Automatikusan megújítja minden {{.Interval}}",
+    "other": "Automatikusan {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period":{
+    "one": "Próbálja ki most az ingyenes 24 órás próbaverziót!",
+    "other": "Próbálja ki ingyenes {{.Count}} napos próbaverzióját!"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "Előfizetések és számlázás"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Kifizetetlen"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Törlés"
   }
 }

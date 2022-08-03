@@ -1358,5 +1358,34 @@
   },
   "stripe_card_not_supported": {
     "other": "Kartınız desteklenmiyor."
+  },
+  "nav_search_control_placeholder":{
+    "other": "Arama"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Aramayı gönder"
+  },
+  "shopping_info_plan_interval":{
+    "one": "{{.Interval}} otomatik olarak yeniler",
+    "other": "Otomatik olarak her yeniler {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period":{
+    "one": "24 saatlik ücretsiz denemenizi şimdi deneyin!",
+    "other": "Ücretsiz {{.Count}} günlük denemenizi deneyin!"
+  },
+  "usersubscriptions_page_header_seo":{
+    "other": "Abonelikler ve Faturalandırma"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "vadesi geçmiş"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "ödenmemiş"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "İptal edildi"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "İptal"
   }
 }

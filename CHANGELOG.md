@@ -4,6 +4,11 @@
 
 ### Added
 - Add new variables to change the font sizes and letter spacing of headings, subtitles, body text, etc.
+- New keys for translations that were used by Relish and Core-template removing their overlapping usage
+
+## Changed
+- Moved the carousel availability label above the CTA's.
+- The site url in kibble.json now points to [tvoddemo.shift72.com](https://tvoddemo.shift72.com).
 
 ### Changed
 - Various links and buttons now use new colour variables.
