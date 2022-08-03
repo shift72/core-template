@@ -631,6 +631,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Kredittkortet har blitt avvist. Vennligst prøv igjen."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Kortet ditt støttes ikke."
+  },
   "shopping_complete_rental": {
     "other": "Vellykket!"
   },

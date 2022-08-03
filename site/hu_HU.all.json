@@ -631,6 +631,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "A bankkártyát visszautasították. Kérjük, próbálkozz újra."
   },
+  "shopping_error_card_not_supported": {
+    "other": "A kártya nem támogatott."
+  },
   "shopping_complete_rental": {
     "other": "Sikerült!"
   },

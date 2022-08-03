@@ -625,6 +625,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Esa tarjeta de crédito está declinada. Por favor intenta más tarde."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Su tarjeta no es compatible."
+  },
   "shopping_complete_rental": {
     "other": "¡Éxito!"
   },

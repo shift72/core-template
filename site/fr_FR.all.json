@@ -646,6 +646,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "La carte bancaire a été refusée. Veuillez réessayer."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Votre carte n'est pas prise en charge."
+  },
   "shopping_complete_rental": {
     "other": "Réussi!"
   },

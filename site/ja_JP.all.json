@@ -590,6 +590,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "このクレジットカードは拒否されました。もう一度お試しください。"
   },
+  "shopping_error_card_not_supported": {
+    "other": "お使いのカードはサポートされていません。"
+  },
   "shopping_complete_rental": {
     "other": "成功しました！"
   },

@@ -590,6 +590,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Kortti hylätty. Ole hyvä ja yritä uudestaan."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Korttiasi ei tueta."
+  },
   "shopping_complete_rental": {
     "other": "Tapahtuma hyväksytty"
   },

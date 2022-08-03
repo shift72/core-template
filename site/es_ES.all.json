@@ -625,6 +625,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "La tarjeta de crédito ha sido rechazada. Inténtelo de nuevo."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Su tarjeta no es compatible."
+  },
   "shopping_complete_rental": {
     "other": "¡Éxito!"
   },

@@ -646,6 +646,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Кредитна картица је одбијена. Молимо Вас покушајте поново."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Ваша картица није подржана."
+  },
   "shopping_complete_rental": {
     "other": "Успешно!"
   },

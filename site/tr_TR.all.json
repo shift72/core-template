@@ -631,6 +631,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Kredi Kartınız reddedildi. Lütfen tekrar deneyin."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Kartınız desteklenmiyor."
+  },
   "shopping_complete_rental": {
     "other": "Başardınız!"
   },
