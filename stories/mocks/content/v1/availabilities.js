@@ -21,12 +21,6 @@ export const availableIn48Hours = {
     response: [{
         "slug": "/film/123",
         "from": `${new Date().addHours(48).toISOString()}`,
-        "ms_from": 0,
-        "to": null,
-        "ms_to": null,
-        "rental_duration_minutes": 8640,
-        "rental_playback_duration_minutes": 1440,
-        "requires_pin_code":false
     }]
 }
 

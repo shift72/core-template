@@ -175,16 +175,13 @@ AvailableUntil.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Available Until' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v3/user_library/123/index</code>
+      <code>/services/content/v1/availabilities?items=/film/123</code>
       <pre>
         <code>
           [{
-            "item": "/film/123",
-            "info": {
-              ...
-              "expiry": "2040-04-17T07:00:00.000Z", //future date
-              ...
-            }
+            "slug": "/film/123",
+            "to": "2022-09-15T22:53:01.374Z", // some future date
+            ...
           }]
         </code>
       </pre>
@@ -206,7 +203,22 @@ ComingSoonWithinWeek.parameters = {
     emptyWishlist,
     noUserPlans,
     emptyLibrary
-  ]
+  ],
+  docs: {
+    page: customDocs(`
+      <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available {{weekday}} {{time}}' label:</h3>
+      <h4>APIs:</h4>
+      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <pre>
+        <code>
+        response: [{
+          "slug": "/film/123",
+          "from": "${new Date().addHours(48).toISOString()}", //now plus 48 hours, or anytime within one week
+      }]
+        </code>
+      </pre>
+    `)
+  }
 };
 
 export const ComingSoonMoreThan1Week = Template.bind({});
@@ -223,7 +235,22 @@ ComingSoonMoreThan1Week.parameters = {
     emptyWishlist,
     noUserPlans,
     emptyLibrary
-  ]
+  ],
+  docs: {
+    page: customDocs(`
+      <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available {{day month year}}' label:</h3>
+      <h4>APIs:</h4>
+      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <pre>
+        <code>
+        response: [{
+          "slug": "/film/123",
+          "from": "${new Date().addHours(24 * 8).toISOString()}", //now plus 8 days, or anytime over one week
+      }]
+        </code>
+      </pre>
+    `)
+  }
 };
 
 export const ComingSoon24Hours = Template.bind({});
@@ -240,7 +267,22 @@ ComingSoon24Hours.parameters = {
     emptyWishlist,
     noUserPlans,
     emptyLibrary
-  ]
+  ],
+  docs: {
+    page: customDocs(`
+      <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available tomorrow {{time}}' label:</h3>
+      <h4>APIs:</h4>
+      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <pre>
+        <code>
+        response: [{
+          "slug": "/film/123",
+          "from": "${new Date().addHours(24).toISOString()}", //now plus 24 hours
+      }]
+        </code>
+      </pre>
+    `)
+  }
 };
 
 export const ComingSoon3Hours = Template.bind({});
@@ -257,7 +299,24 @@ ComingSoon3Hours.parameters = {
     emptyWishlist,
     noUserPlans,
     emptyLibrary
-  ]
+  ],
+  docs: {
+    page: customDocs(`
+      <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available today {{time}}' label:</h3>
+      <h4>APIs:</h4>
+      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <pre>
+        <code>
+        response: [{
+          "slug": "/film/123",
+          "from": "${new Date().addHours(3).toISOString()}", //now plus 3 hours
+      }]
+        </code>
+      </pre>
+
+      Note: if you view this component after 9pm it will say 'tomorrow'
+    `)
+  }
 };
 
 export const ComingSoon1Hour = Template.bind({});
@@ -274,7 +333,25 @@ ComingSoon1Hour.parameters = {
     emptyWishlist,
     noUserPlans,
     emptyLibrary
-  ]
+  ],
+  docs: {
+    page: customDocs(`
+      <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available today {{time}}' label:</h3>
+      <h4>APIs:</h4>
+      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <pre>
+        <code>
+        response: [{
+          "slug": "/film/123",
+          "from": "${new Date().addHours(1).toISOString()}", //now plus 1 hours
+      }]
+        </code>
+      </pre>
+
+      Note: if you view this component after 11pm it will say 'tomorrow'
+
+    `)
+  }
 };
 
 
@@ -304,6 +381,21 @@ Expired.parameters = {
     expiredWatchWindow,
     emptyWishlist
   ],
+  docs: {
+    page: customDocs(`
+      <h3 class="mb-2">Key conditions that trigger 'Expired' labels:</h3>
+      <h4>APIs:</h4>
+      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <pre>
+        <code>
+        response: [{
+          "slug": "/film/123",
+          "from": "${new Date().addHours(-13).toISOString()}", // 13 hours ago
+      }]
+        </code>
+      </pre>
+    `)
+  }
 
 };
 
@@ -315,14 +407,28 @@ NotAvailable.args = {
 NotAvailable.parameters = {
   mockData: [
     noPlans,
-
     emptyWishlist,
     noPricesInYourRegion,
     availableNowUntilIndefinate,
     noItemLimits,
     noUserPlans,
     emptyLibrary
-  ]
+  ],
+  docs: {
+    page: customDocs(`
+      <h3 class="mb-2">Key conditions that trigger 'Not Available in your country' label:</h3>
+      <h4>APIs:</h4>
+      <code>/services/pricing/v2/prices/show_multiple?items=/film/123</code>
+      <pre>
+        <code>
+        {
+          "prices": [],
+          "plans": []
+      }
+        </code>
+      </pre>
+    `)
+  }
 };
 
 export const InWatchWindow = Template.bind({});
@@ -340,5 +446,28 @@ InWatchWindow.parameters = {
     noItemLimits,
     startedWatchWindow,
     playbackProgressExists
-  ]
+  ],
+  docs: {
+    page: customDocs(`
+      <h3 class="mb-2">Key conditions that trigger 'Continue' button:</h3>
+      <h4>APIs:</h4>
+      <code>/services/content/v1/playback_progress/123</code>
+      <pre>
+        <code>
+        {
+          "play_position": 50,
+          "item": "/film/123",
+      }
+        </code>
+      </pre>
+      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <pre>
+        <code>
+        response: [{
+          "slug": "/film/123",
+          "from": "${new Date().addHours(72).toISOString()}", // 72 hour watch window just started
+      }]
+        </code>
+    `)
+  }
 };
