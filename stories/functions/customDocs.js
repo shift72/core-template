@@ -6,23 +6,28 @@ import {
   Primary,
   ArgsTable,
   Stories,
-  PRIMARY_STORY,
+  Story,
+  CURRENT_SELECTION,
 } from '@storybook/addon-docs';
 export const customDocs = (content = `lorem ipsum`) => {
  return ()=>{
+
     return React.createElement(React.Fragment, null,
         // React.createElement(Title, null),
 
-        React.createElement(Subtitle, null),
-        React.createElement("div", { className: "alert alert-primary", dangerouslySetInnerHTML: {
+        // React.createElement(Subtitle, null),
+        React.createElement("p", { className: "none", dangerouslySetInnerHTML: {
             __html: content,
           }}),
-        React.createElement(Description, null),
-        React.createElement(Primary, null),
+        // React.createElement(Description, null),
 
-        React.createElement(ArgsTable, {
-        story: PRIMARY_STORY
-      }),
+        // React.createElement(Story,{
+        //     id: 1
+        //   }),
+
+        // React.createElement(ArgsTable, {
+        //   story: CURRENT_SELECTION
+        // }),
     //   React.createElement(Stories, null)
       )
  }

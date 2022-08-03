@@ -29,8 +29,8 @@ export const itemLimitReached = {
         "slug": "/film/123",
         "can_rent": false,
         "can_buy": false,
-        "level_rent": 1,
-        "level_buy": 1
+        "level_rent": 0,
+        "level_buy": 0
     }
       ]
 }

@@ -5,10 +5,11 @@ import { itemLimitReached, itemLimitNotReached, noItemLimits } from './mocks/sho
 import { noPlaybackProgress, playbackProgressExists } from './mocks/content/v1/playback_progress';
 import { noUserPlans } from './mocks/content/v1/user_plans';
 import { emptyWishlist } from './mocks/users/v1/wishlist';
-import { singleFilmRentableInYourRegion, noPricesInYourRegion } from './mocks/pricing/v2/prices/show_multiple';
+import { singleFilmRentableInYourRegion, noPricesInYourRegion, singleFilmBelongsToMultipleRecurringPlans } from './mocks/pricing/v2/prices/show_multiple';
 import { currentlyRenting, startedWatchWindow, emptyLibrary, expiredWatchWindow } from "./mocks/content/v3/user_library";
 import { assortedPlans, noPlans } from './mocks/pricing/v1/plans';
-import { availableNowUntil48Hours, availableIn48Hours, availableNowUntilIndefinate, expired48HoursAgo } from './mocks/content/v1/availabilities';
+import { availableNowUntil48Hours, availableIn48Hours, availableIn24Hours, availableIn3Hours, availableIn1Hour, availableIn8Days, availableNowUntilIndefinate, expired48HoursAgo, noAvailabilitySet } from './mocks/content/v1/availabilities';
+import { DocsPage, DocsContainer } from '@storybook/addon-docs';
 
 export default {
   title: 'Molecules/AvailabilityStatusPoster',
@@ -19,9 +20,7 @@ export default {
 
   },
   parameters: {
-
-    docs: { page:customDocs(`<h3>No description set<h3>`) }
-
+    docs: { page: customDocs(`<h3>No docs written yet<h3>`) }
   },
   decorators: [withMock],
 };
@@ -44,8 +43,82 @@ SoldOut.parameters = {
     emptyLibrary,
     emptyWishlist
     ],
-
+    docs: {
+      page: customDocs(`
+        <h3 class="mb-2 well">Key conditions that trigger 'Sold out':</h3>
+        <h4>APIs:</h4>
+        <code>/services/shopping/v1/item_limit</code>
+        <pre>
+          <code>
+          [{
+            ...
+            "can_rent": false,
+            "can_buy": false,
+            ...
+          }]
+          </code>
+        </pre>
+      `)
+    }
 };
+
+export const SubscribeToWatch = Template.bind({});
+SubscribeToWatch.args = {
+  poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
+};
+
+SubscribeToWatch.parameters = {
+  mockData: [
+    noItemLimits,
+    assortedPlans,
+    singleFilmBelongsToMultipleRecurringPlans,
+    noAvailabilitySet,
+    noUserPlans,
+    emptyLibrary,
+    emptyWishlist
+    ],
+    docs: {
+      page: customDocs(`
+        <h3 class="mb-2">Key conditions that trigger 'Subscribe to watch':</h3>
+        <h4>APIs:</h4>
+        <code>/services/pricing/v2/prices/show_multiple?items=/film/123</code>
+        <pre>
+          <code>
+          {
+            "prices": [],
+            "plans":[
+              {"item":"/film/123","plans":["/plan/56","/plan/79"]},
+            ]
+          }
+          </code>
+        </pre>
+        <code>/services/pricing/v1/plans</code>
+        <pre>
+          <code>
+          [
+            {
+              "id": 56,
+              "plan_type": "recurring",
+              ...
+            },
+            {
+              "id": 79,
+              "plan_type": "recurring",
+              ...
+            }
+          ]
+          </code>
+        </pre>
+        <h4>Configs:</h4>
+        <pre>
+          <code>
+          "subscribe_to_watch":"true"
+          </code>
+        </pre>
+      `)
+    }
+};
+
 
 export const Renting = Template.bind({});
 Renting.args = {
@@ -62,7 +135,25 @@ Renting.parameters = {
     currentlyRenting,
     noPlaybackProgress
   ],
-
+  docs: {
+    page: customDocs(`
+      <h3 class="mb-2">Key conditions that trigger 'Renting' label:</h3>
+      <h4>APIs:</h4>
+      <code>/services/content/v3/user_library/123/index</code>
+      <pre>
+        <code>
+          [{
+            "item": "/film/123",
+            "info": {
+              ...
+              "expiry": "2040-04-17T07:00:00.000Z", //future date
+              ...
+            }
+          }]
+        </code>
+      </pre>
+    `)
+  }
 };
 
 export const AvailableUntil = Template.bind({});
@@ -80,14 +171,33 @@ AvailableUntil.parameters = {
     noUserPlans,
     emptyLibrary
   ],
+  docs: {
+    page: customDocs(`
+      <h3 class="mb-2">Key conditions that trigger 'Available Until' label:</h3>
+      <h4>APIs:</h4>
+      <code>/services/content/v3/user_library/123/index</code>
+      <pre>
+        <code>
+          [{
+            "item": "/film/123",
+            "info": {
+              ...
+              "expiry": "2040-04-17T07:00:00.000Z", //future date
+              ...
+            }
+          }]
+        </code>
+      </pre>
+    `)
+  }
 };
 
-export const ComingSoon = Template.bind({});
-ComingSoon.args = {
+export const ComingSoonWithinWeek = Template.bind({});
+ComingSoonWithinWeek.args = {
   poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
 };
 
-ComingSoon.parameters = {
+ComingSoonWithinWeek.parameters = {
   mockData: [
     itemLimitNotReached,
     assortedPlans,
@@ -99,8 +209,87 @@ ComingSoon.parameters = {
   ]
 };
 
+export const ComingSoonMoreThan1Week = Template.bind({});
+ComingSoonMoreThan1Week.args = {
+  poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
+};
+
+ComingSoonMoreThan1Week.parameters = {
+  mockData: [
+    itemLimitNotReached,
+    assortedPlans,
+    singleFilmRentableInYourRegion,
+    availableIn8Days,
+    emptyWishlist,
+    noUserPlans,
+    emptyLibrary
+  ]
+};
+
+export const ComingSoon24Hours = Template.bind({});
+ComingSoon24Hours.args = {
+  poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
+};
+
+ComingSoon24Hours.parameters = {
+  mockData: [
+    itemLimitNotReached,
+    assortedPlans,
+    singleFilmRentableInYourRegion,
+    availableIn24Hours,
+    emptyWishlist,
+    noUserPlans,
+    emptyLibrary
+  ]
+};
+
+export const ComingSoon3Hours = Template.bind({});
+ComingSoon3Hours.args = {
+  poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
+};
+
+ComingSoon3Hours.parameters = {
+  mockData: [
+    itemLimitNotReached,
+    assortedPlans,
+    singleFilmRentableInYourRegion,
+    availableIn3Hours,
+    emptyWishlist,
+    noUserPlans,
+    emptyLibrary
+  ]
+};
+
+export const ComingSoon1Hour = Template.bind({});
+ComingSoon1Hour.args = {
+  poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
+};
+
+ComingSoon1Hour.parameters = {
+  mockData: [
+    itemLimitNotReached,
+    assortedPlans,
+    singleFilmRentableInYourRegion,
+    availableIn1Hour,
+    emptyWishlist,
+    noUserPlans,
+    emptyLibrary
+  ]
+};
+
+
+
+
 export const Expired = Template.bind({});
 Expired.args = {
+  warning: `<b>Note to Bex: </b>
+  <ul>
+    <li>The 'Expired' availability-status and availability-labels below are currently hidden in core-template.</li>
+    <li>Hidden as part of <a style="color:black" href="https://github.com/shift72/core-template/pull/292">this pr</a></li>
+    <li>Unsure if was a mistake</li>
+    <li>The only indication of expired is the exclamation mark+expired component on the detail page below the title</li>
+    <li>If you believe this is a mistake please let us know and we will unhide in core template</li>
+  </ul>`,
   poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
 };
 
@@ -115,7 +304,7 @@ Expired.parameters = {
     expiredWatchWindow,
     emptyWishlist
   ],
-  docs: { page:customDocs(`<ul class="mb-0"><li>'Past available_to date'</li></ul>`) }
+
 };
 
 export const NotAvailable = Template.bind({});

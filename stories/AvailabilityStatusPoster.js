@@ -1,6 +1,7 @@
-export const createAvailabilityStatusPoster = ({poster}) => {
+export const createAvailabilityStatusPoster = ({poster, warning}) => {
   const btn = document.createElement('div');
   btn.innerHTML = `
+  ${warning ? `<div class='alert alert-warning'>${warning}</div>` : ""}
   <main id="main" class="page">
     <section class="page-collections" aria-label="Page Collection">
       <div class="page-collection-item">
