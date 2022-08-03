@@ -311,7 +311,7 @@
     }
 
     &::placeholder {
-      color: rgba(var(--body-color-rgb), 0.8);
+      color: var(--body-color-hover);
       font-weight: $font-weight-normal;
       opacity: 0;
       transition: 0.25s ease-out;
@@ -357,7 +357,7 @@
 
         /* stylelint-disable-next-line */
         @include media-breakpoint-up(lg) {
-          color: var(--primary);
+          color: var(--body-color-hover);
         }
       }
     }
@@ -396,7 +396,7 @@
     background: transparent;
     border: 0;
     border-radius: 50%;
-    color: rgba(var(--body-color-rgb), 0.7);
+    color: var(--body-color);
     font-size: 24px;
     line-height: 0;
     opacity: 0;
@@ -414,13 +414,13 @@
     &:hover,
     &:focus,
     &:active {
-      color: rgba(var(--body-color-rgb), 1);
+      color: var(--body-color-hover);
       outline: 0;
     }
   }
 
   &.search-show {
-    background-color: $navbar-search-background-color;
+    background-color: var(--navbar-search-background-color);
     height: calc(calc(var(--navbar-brand-padding-y) * 2) + 20px);
     margin: 0;
     position: absolute;
@@ -448,7 +448,7 @@
     }
 
     .form-control-search {
-      border-bottom: 1px solid var(--body-color);
+      border-bottom: 1px solid var(--primary);
       box-shadow: none;
       padding-left: 32px;
       padding-right: 32px;
@@ -478,11 +478,17 @@ s72-dropdown,
 .s72-language-selector {
   position: relative;
 
-  &:hover,
+  &:hover {
+    .s72-dropdown-toggle,
+    .dropdown-caret {
+      color: var(--body-color-hover);
+    }
+  }
+
   &:focus-within {
     .s72-dropdown-toggle,
     .dropdown-caret {
-      color: var(--primary);
+      color: var(--body-color);
     }
   }
 
@@ -499,8 +505,8 @@ s72-dropdown,
     width: 100%;
 
     @include media-breakpoint-up(lg) {
-      background-color: $subnav-dropdown-background;
-      border: 4px solid $subnav-dropdown-background;
+      background-color: var(--navbar-dropdown-background);
+      border: 4px solid var(--navbar-dropdown-background);
       box-shadow: 0 0 0 1px rgba(var(--body-color-rgb), 0.12);
       max-height: 330px;
       max-width: 243px;
@@ -515,7 +521,7 @@ s72-dropdown,
       }
 
       &::-webkit-scrollbar-track {
-        background: $subnav-dropdown-background;
+        background: var(--navbar-dropdown-background);
       }
 
       &::-webkit-scrollbar-thumb {
@@ -536,16 +542,17 @@ s72-dropdown,
       color: var(--body-color);
       font-size: 16px;
       font-weight: $font-weight-normal;
-      padding: 8px 0;
+      margin: 3px 5px;
+      padding: 5px 10px;
+
       @include media-breakpoint-up(lg) {
-        margin: 3px 5px;
-        padding: 5px 15px 5px 10px;
         width: auto;
       }
 
       @include hover-focus {
-        background-color: transparent;
-        color: var(--primary);
+        background-color: var(--hover-background);
+        border-radius: 4px;
+        color: var(--body-color-hover);
       }
     }
   }
@@ -592,6 +599,8 @@ s72-dropdown,
     margin-top: auto;
 
     .btn-sign-out {
+      @extend .animate-this;
+
       background-color: transparent;
       border: 0;
       color: var(--body-color);
@@ -606,20 +615,14 @@ s72-dropdown,
         margin: 3px 5px;
         padding: 0;
       }
-    }
 
-    .btn-sign-out {
-      @extend .animate-this;
       @include hover-focus {
-        color: var(--primary);
-        text-decoration: none;
+        color: var(--body-color-hover);
       }
     }
 
     .btn-sign-out-desktop {
-      @include hover-focus {
-        color: var(--primary);
-      }
+      text-decoration: none;
 
       @include media-breakpoint-up(lg) {
         padding: 5px 15px 5px 10px;
@@ -628,16 +631,18 @@ s72-dropdown,
     }
 
     .btn-sign-out-mobile {
-      background-color: $signout-background;
+      background-color: var(--signout-background);
       border-radius: 4px;
-      color: $signout-text-color;
+      color: var(--signout-text-color);
       padding: 8px 56px;
       text-align: center;
       width: 100%;
+
       @include hover-focus {
-        background-color: $signout-background-hover;
-        color: $signout-text-color-hover;
+        background-color: var(--signout-background-hover);
+        color: var(--signout-text-color-hover);
       }
+
       @include media-breakpoint-up(lg) {
         display: none;
       }
@@ -730,7 +735,7 @@ s72-dropdown,
       path {
         @extend .animate-this;
 
-        fill: var(--primary);
+        fill: var(--body-color-hover);
       }
     }
   }
@@ -843,17 +848,21 @@ s72-dropdown,
     font-weight: $font-weight-normal;
 
     &.active .nav-link {
-      color: $subnav-nav-item-hover-background-color;
+      color: var(--body-color);
       opacity: 1;
 
       @include media-breakpoint-up(lg) {
-        border-bottom: 3px solid $subnav-nav-item-hover-background-color;
+        border-bottom: 3px solid var(--primary);
+      }
+
+      &:hover {
+        color: var(--navbar-link-hover-color);
       }
     }
   }
 
   .nav-link {
-    color: $subnav-nav-item-color;
+    color: var(--navbar-link-color);
     font-size: 16px;
     padding: 10px 0;
     transition: color 0.25s ease-out;
@@ -864,7 +873,7 @@ s72-dropdown,
     }
 
     &:hover {
-      color: $subnav-nav-item-hover-background-color;
+      color: var(--navbar-link-hover-color);
     }
   }
 

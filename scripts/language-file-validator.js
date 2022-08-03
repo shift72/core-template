@@ -112,7 +112,7 @@ function testValueNotKey(translation, key) {
     assert.ok(translation['few'] != key);
     assert.ok(translation['many'] != key);
     assert.ok(translation['other'] != key);
-  } catch(e) {
+  } catch (e) {
     console.error(`${key} - key is value.`);
     errors.push(e);
   }

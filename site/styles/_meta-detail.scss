@@ -238,6 +238,10 @@ s72-element-switcher,
 
     a {
       animation: fadein 2s;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }
@@ -418,8 +422,15 @@ s72-element-switcher,
 
 s72-element-switcher {
   margin-bottom: 60px;
+
   @include media-breakpoint-up(sm) {
     margin-bottom: 100px;
+  }
+
+  .s72-toggle {
+    &:hover {
+      color: var(--body-color-hover);
+    }
   }
 }
 
