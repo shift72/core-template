@@ -189,38 +189,6 @@ AvailableUntil.parameters = {
   }
 };
 
-export const ComingSoonWithinWeek = Template.bind({});
-ComingSoonWithinWeek.args = {
-  poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
-};
-
-ComingSoonWithinWeek.parameters = {
-  mockData: [
-    itemLimitNotReached,
-    assortedPlans,
-    singleFilmRentableInYourRegion,
-    availableIn48Hours,
-    emptyWishlist,
-    noUserPlans,
-    emptyLibrary
-  ],
-  docs: {
-    page: customDocs(`
-      <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available {{weekday}} {{time}}' label:</h3>
-      <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/123</code>
-      <pre>
-        <code>
-        response: [{
-          "slug": "/film/123",
-          "from": "${new Date().addHours(48).toISOString()}", //now plus 48 hours, or anytime within one week
-      }]
-        </code>
-      </pre>
-    `)
-  }
-};
-
 export const ComingSoonMoreThan1Week = Template.bind({});
 ComingSoonMoreThan1Week.args = {
   poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
@@ -243,10 +211,43 @@ ComingSoonMoreThan1Week.parameters = {
       <code>/services/content/v1/availabilities?items=/film/123</code>
       <pre>
         <code>
-        response: [{
+        [{
           "slug": "/film/123",
           "from": "${new Date().addHours(24 * 8).toISOString()}", //now plus 8 days, or anytime over one week
-      }]
+        }]
+        </code>
+      </pre>
+    `)
+  }
+};
+
+
+export const ComingSoonWithinWeek = Template.bind({});
+ComingSoonWithinWeek.args = {
+  poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
+};
+
+ComingSoonWithinWeek.parameters = {
+  mockData: [
+    itemLimitNotReached,
+    assortedPlans,
+    singleFilmRentableInYourRegion,
+    availableIn48Hours,
+    emptyWishlist,
+    noUserPlans,
+    emptyLibrary
+  ],
+  docs: {
+    page: customDocs(`
+      <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available {{weekday}} {{time}}' label:</h3>
+      <h4>APIs:</h4>
+      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <pre>
+        <code>
+        [{
+          "slug": "/film/123",
+          "from": "${new Date().addHours(48).toISOString()}", //now plus 48 hours, or anytime within one week
+        }]
         </code>
       </pre>
     `)
@@ -275,10 +276,10 @@ ComingSoon24Hours.parameters = {
       <code>/services/content/v1/availabilities?items=/film/123</code>
       <pre>
         <code>
-        response: [{
+        [{
           "slug": "/film/123",
           "from": "${new Date().addHours(24).toISOString()}", //now plus 24 hours
-      }]
+        }]
         </code>
       </pre>
     `)
@@ -307,10 +308,10 @@ ComingSoon3Hours.parameters = {
       <code>/services/content/v1/availabilities?items=/film/123</code>
       <pre>
         <code>
-        response: [{
+        [{
           "slug": "/film/123",
           "from": "${new Date().addHours(3).toISOString()}", //now plus 3 hours
-      }]
+        }]
         </code>
       </pre>
 
@@ -341,10 +342,10 @@ ComingSoon1Hour.parameters = {
       <code>/services/content/v1/availabilities?items=/film/123</code>
       <pre>
         <code>
-        response: [{
+        [{
           "slug": "/film/123",
           "from": "${new Date().addHours(1).toISOString()}", //now plus 1 hours
-      }]
+        }]
         </code>
       </pre>
 
@@ -359,7 +360,7 @@ ComingSoon1Hour.parameters = {
 
 export const Expired = Template.bind({});
 Expired.args = {
-  warning: `<b>Note to Bex: </b>
+  warning: `<b>Note: </b>
   <ul>
     <li>The 'Expired' availability-status and availability-labels below are currently hidden in core-template.</li>
     <li>Hidden as part of <a style="color:black" href="https://github.com/shift72/core-template/pull/292">this pr</a></li>
@@ -388,10 +389,10 @@ Expired.parameters = {
       <code>/services/content/v1/availabilities?items=/film/123</code>
       <pre>
         <code>
-        response: [{
+        [{
           "slug": "/film/123",
           "from": "${new Date().addHours(-13).toISOString()}", // 13 hours ago
-      }]
+        }]
         </code>
       </pre>
     `)
@@ -424,7 +425,7 @@ NotAvailable.parameters = {
         {
           "prices": [],
           "plans": []
-      }
+        }
         </code>
       </pre>
     `)
@@ -457,16 +458,16 @@ InWatchWindow.parameters = {
         {
           "play_position": 50,
           "item": "/film/123",
-      }
+        }
         </code>
       </pre>
       <code>/services/content/v1/availabilities?items=/film/123</code>
       <pre>
         <code>
-        response: [{
+        [{
           "slug": "/film/123",
           "from": "${new Date().addHours(72).toISOString()}", // 72 hour watch window just started
-      }]
+        }]
         </code>
     `)
   }
