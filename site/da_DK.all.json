@@ -1101,7 +1101,7 @@
     "other": "Opkræves hvert {{.Interval}} efter din {{.Count}} dages gratis prøveperiode slutter."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Opkræves hvert {{.Interval}} ."
+    "other": "Opkræves hvert {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",

@@ -993,7 +993,7 @@
     "other": "Cobrado a cada {{.Interval}} após o término da avaliação gratuita de {{.Count}} dias."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Cobrado a cada {{.Interval}} ."
+    "other": "Cobrado a cada {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",

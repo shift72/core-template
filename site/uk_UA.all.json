@@ -1125,7 +1125,7 @@
     "other": "Заряджені кожен {{.Interval}} після вашого {{.Count}} дня закінчується безкоштовно суд."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Стягується через кожний {{.Interval}} ."
+    "other": "Стягується через кожний {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",

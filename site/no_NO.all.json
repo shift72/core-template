@@ -999,7 +999,7 @@
     "other": "Belastet hvert {{.Interval}} etter at {{.Count}} dager avsluttes."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Lades hvert {{.Interval}} ."
+    "other": "Lades hvert {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",

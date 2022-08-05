@@ -897,7 +897,7 @@
     "other": "Facturé tous les {{.Interval}} après la fin de votre essai gratuit de {{.Count}} jours."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Chargé tous les {{.Interval}} ."
+    "other": "Chargé tous les {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",

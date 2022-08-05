@@ -990,7 +990,7 @@
     "other": "Χρεώνεται κάθε {{.Interval}} μετά τη λήξη της δωρεάν δοκιμής {{.Count}} ημερών."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Χρεώνεται κάθε {{.Interval}} ."
+    "other": "Χρεώνεται κάθε {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
