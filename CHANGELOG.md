@@ -11,12 +11,11 @@
 ## Changed
 - Moved the carousel availability label above the CTA's.
 - The site url in kibble.json now points to [tvoddemo.shift72.com](https://tvoddemo.shift72.com).
-
-### Changed
 - Various links and buttons now use new colour variables.
 
 ### Fixed
 - Broken share modal styles.
+- Fixed translation for plan frequency in plans.html
 
 ## [1.3.0](https://github.com/shift72/core-template/compare/1.3.0-alpha...1.3.0)
 
