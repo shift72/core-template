@@ -1128,7 +1128,7 @@
     "other": "Заряджені кожен {{.Interval}} після вашого {{.Count}} дня закінчується безкоштовно суд."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Стягується через кожний {{.Interval}} ."
+    "other": "Стягується через кожний {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1430,5 +1430,29 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Скасування"
+  },
+  "interval_day": {
+    "one": "день",
+    "few": "днів",
+    "many": "днів",
+    "other": "днів"
+  },
+  "interval_week": {
+    "one": "тиждень",
+    "few": "тижнів",
+    "many": "тижнів",
+    "other": "тижнів"
+  },
+  "interval_month": {
+    "one": "місяць",
+    "few": "місяців",
+    "many": "місяців",
+    "other": "місяців"
+  },
+  "interval_year": {
+    "one": "рік",
+    "few": "років",
+    "many": "років",
+    "other": "років"
   }
 }

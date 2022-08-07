@@ -1176,7 +1176,7 @@
     "other": "Cobrado a cada {{.Interval}} após o término da avaliação gratuita de {{.Count}} dias."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Cobrado a cada {{.Interval}} ."
+    "other": "Cobrado a cada {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1394,5 +1394,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Cancelando"
+  },
+  "interval_day": {
+    "one": "dia",
+    "other": "dias"
+  },
+  "interval_week": {
+    "one": "semana",
+    "other": "semanas"
+  },
+  "interval_month": {
+    "one": "mês",
+    "other": "meses"
+  },
+  "interval_year": {
+    "one": "ano",
+    "other": "anos"
   }
 }

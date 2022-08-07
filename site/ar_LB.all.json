@@ -1160,7 +1160,7 @@
     "other": "سعر"
   },
   "shopping_price_plan_note": {
-    "zero": "اتهم كل {{.Interval}} .",
+    "zero": "اتهم كل {{.Interval}}.",
     "one": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية لمدة 24 ساعة.",
     "two": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
     "few": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
@@ -1168,7 +1168,7 @@
     "other": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "اتهم كل {{.Interval}} ."
+    "other": "اتهم كل {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "zero": "{{.Interval}}",
@@ -1407,12 +1407,44 @@
     "other": "{{.Count}} التجريبي المجاني من {{.Count}} day!"
   },
   "usersubscriptions_page_header_seo":{
-    "other": "الاشتراكات والفواتير" 
+    "other": "الاشتراكات والفواتير"
   },
   "usersubscriptions_subscription_status_unpaid": {
     "other": "غير مدفوعة"
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "الإلغاء"
+  },
+  "interval_day": {
+    "zero": "أيام",
+    "one": "يوم",
+    "two": "أيام",
+    "few": "أيام",
+    "many": "أيام",
+    "other": "أيام"
+  },
+  "interval_week": {
+    "zero": "أسابيع",
+    "one": "أسبوع",
+    "two": "أسابيع",
+    "few": "أسابيع",
+    "many": "أسابيع",
+    "other": "أسابيع"
+  },
+  "interval_month": {
+    "zero": "الشهور",
+    "one": "شهر",
+    "two": "الشهور",
+    "few": "الشهور",
+    "many": "الشهور",
+    "other": "الشهور"
+  },
+  "interval_year": {
+    "zero": "سنوات",
+    "one": "عام",
+    "two": "سنوات",
+    "few": "سنوات",
+    "many": "سنوات",
+    "other": "سنوات"
   }
 }

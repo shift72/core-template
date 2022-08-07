@@ -906,7 +906,7 @@
     "other": "Wird alle {{.Interval}} nach Ablauf Ihrer {{.Count}}-tägigen kostenlosen Testversion berechnet."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Aufgeladen in jedem {{.Interval}} ."
+    "other": "Aufgeladen in jedem {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1390,5 +1390,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Stornieren"
+  },
+  "interval_day": {
+    "one": "Tag",
+    "other": "Tage"
+  },
+  "interval_week": {
+    "one": "Woche",
+    "other": "Wochen"
+  },
+  "interval_month": {
+    "one": "Monat",
+    "other": "Monate"
+  },
+  "interval_year": {
+    "one": "Jahr",
+    "other": "Jahre"
   }
 }

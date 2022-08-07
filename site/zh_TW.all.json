@@ -1384,5 +1384,17 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "取消"
+  },
+  "interval_day": {
+    "other": "天"
+  },
+  "interval_week": {
+    "other": "週"
+  },
+  "interval_month": {
+    "other": "月"
+  },
+  "interval_year": {
+    "other": "年"
   }
 }

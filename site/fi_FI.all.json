@@ -1390,5 +1390,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Peruutetaan"
+  },
+  "interval_day": {
+    "one": "päivä",
+    "other": "päivää"
+  },
+  "interval_week": {
+    "one": "viikko",
+    "other": "viikkoa"
+  },
+  "interval_month": {
+    "one": "kuukausi",
+    "other": "kuukaudet"
+  },
+  "interval_year": {
+    "one": "vuosi",
+    "other": "vuotta"
   }
 }

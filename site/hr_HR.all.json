@@ -1091,7 +1091,7 @@
     "other": "Naplaćuje se svaki {{.Interval}} nakon {{.Count}}-dnevnog besplatnog probnog perioda."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Naplaćuje se svaki {{.Interval}} ."
+    "other": "Naplaćuje se svaki {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1379,5 +1379,25 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Otkazivanje"
+  },
+  "interval_day": {
+    "one": "dan",
+    "few": "dana",
+    "other": "dana"
+  },
+  "interval_week": {
+    "one": "tjedan",
+    "few": "tjedni",
+    "other": "tjedni"
+  },
+  "interval_month": {
+    "one": "mjesec",
+    "few": "mjeseca",
+    "other": "mjeseca"
+  },
+  "interval_year": {
+    "one": "godina",
+    "few": "godine",
+    "other": "godine"
   }
 }

@@ -1002,7 +1002,7 @@
     "other": "Belastet hvert {{.Interval}} etter at {{.Count}} dager avsluttes."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Lades hvert {{.Interval}} ."
+    "other": "Lades hvert {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1390,5 +1390,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Avbryter"
+  },
+  "interval_day": {
+    "one": "dag",
+    "other": "dager"
+  },
+  "interval_week": {
+    "one": "uke",
+    "other": "uker"
+  },
+  "interval_month": {
+    "one": "måned",
+    "other": "måneder"
+  },
+  "interval_year": {
+    "one": "år",
+    "other": "år"
   }
 }

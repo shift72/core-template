@@ -1390,5 +1390,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Törlés"
+  },
+  "interval_day": {
+    "one": "nap",
+    "other": "napok"
+  },
+  "interval_week": {
+    "one": "hét",
+    "other": "hétig"
+  },
+  "interval_month": {
+    "one": "hónap",
+    "other": "hónapok"
+  },
+  "interval_year": {
+    "one": "év",
+    "other": "évek"
   }
 }

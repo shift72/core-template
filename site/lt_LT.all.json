@@ -1085,7 +1085,7 @@
     "other": "{{.Interval}} kas .Intervalas pasibaigus {{.Count}} dienų bandomajam laikotarpiui."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Įkraunama kas {{.Interval}} ."
+    "other": "Įkraunama kas {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1402,5 +1402,29 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Atšaukiamas"
+  },
+  "interval_day": {
+    "one": "dieną",
+    "few": "dienų",
+    "many": "dienų",
+    "other": "dienų"
+  },
+  "interval_week": {
+    "one": "savaitę",
+    "few": "savaites",
+    "many": "savaites",
+    "other": "savaites"
+  },
+  "interval_month": {
+    "one": "mėnuo",
+    "few": "mėnesių",
+    "many": "mėnesių",
+    "other": "mėnesių"
+  },
+  "interval_year": {
+    "one": "metų",
+    "few": "metų",
+    "many": "metų",
+    "other": "metų"
   }
 }

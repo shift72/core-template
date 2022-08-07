@@ -1390,5 +1390,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Tühistamine"
+  },
+  "interval_day": {
+    "one": "päeval",
+    "other": "päevadel"
+  },
+  "interval_week": {
+    "one": "nädal",
+    "other": "nädalaid"
+  },
+  "interval_month": {
+    "one": "kuu",
+    "other": "kuud"
+  },
+  "interval_year": {
+    "one": "aastal",
+    "other": "aastat"
   }
 }
