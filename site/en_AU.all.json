@@ -994,7 +994,7 @@
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
-    "other": "{{.Count}} {{.Interval}}s"
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Enter your credit card details below in order start your subscription."
@@ -1022,7 +1022,7 @@
   },
   "shopping_info_plan_offer": {
     "one": "Automatically renews every {{.Interval}}",
-    "other": "Automatically renews every {{.Count}} {{.Interval}}s"
+    "other": "Automatically renews every {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Try your free 24hr trial now!",
@@ -1370,7 +1370,7 @@
   },
   "shopping_info_plan_interval":{
     "one": "Automatically renews every {{.Interval}}",
-    "other": "Automatically renews every {{.Count}} {{.Interval}}s"
+    "other": "Automatically renews every {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period":{
     "one": "Try your free 24hr trial now!",
