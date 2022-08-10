@@ -11,6 +11,7 @@
 ## Changed
 - Moved the carousel availability label above the CTA's.
 - The site url in kibble.json now points to [tvoddemo.shift72.com](https://tvoddemo.shift72.com).
+- Full width background image and gradient on meta detail pages
 - Various links and buttons now use new colour variables.
 
 ### Fixed
