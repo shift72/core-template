@@ -204,7 +204,13 @@ s72-activatedevice-form,
 
     .s72-btn-modal-cancel {
       border-color: transparent;
+      color: var(--body-color);
       margin-right: $grid-gutter-width / 3;
+
+      &:hover {
+        background-color: var(--hover-background);
+        color: var(--body-color-hover);
+      }
     }
   }
 }
@@ -215,7 +221,12 @@ s72-activatedevice-form,
 
 .s72-btn {
   &.s72-btn-modal-close {
+    color: var(--body-color);
     top: 11px;
+
+    &:hover {
+      color: var(--body-color-hover);
+    }
   }
 }
 

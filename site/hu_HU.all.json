@@ -631,6 +631,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "A bankkártyát visszautasították. Kérjük, próbálkozz újra."
   },
+  "shopping_error_card_not_supported": {
+    "other": "A kártya nem támogatott."
+  },
   "shopping_complete_rental": {
     "other": "Sikerült!"
   },
@@ -1387,5 +1390,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Törlés"
+  },
+  "interval_day": {
+    "one": "nap",
+    "other": "napok"
+  },
+  "interval_week": {
+    "one": "hét",
+    "other": "hétig"
+  },
+  "interval_month": {
+    "one": "hónap",
+    "other": "hónapok"
+  },
+  "interval_year": {
+    "one": "év",
+    "other": "évek"
   }
 }

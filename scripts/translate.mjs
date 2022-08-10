@@ -6,7 +6,7 @@ const value = process.argv[3];
 const nestedKey = process.argv[4];
 
 if (!key || !value) {
-  console.log('Should be \'npm run translate key value\'');
+  console.log("Should be 'npm run translate key value'");
   process.exit(1);
 }
 glob('./site/*.json', {}, (err, files) => {
@@ -41,11 +41,10 @@ glob('./site/*.json', {}, (err, files) => {
         .then(translated => {
           if (translated) {
             let translatedValue = '';
-            translated[0].forEach(each => translatedValue += each[0]);
+            translated[0].forEach(each => (translatedValue += each[0]));
             writeTranslationFile(translatedValue);
           }
         });
     }
-
   });
 });

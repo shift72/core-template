@@ -685,6 +685,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "S'ha rebutjat la targeta de crèdit. Siusplau torna-ho a provar."
   },
+  "shopping_error_card_not_supported": {
+    "other": "La teva targeta no és compatible."
+  },
   "shopping_complete_rental": {
     "other": "Èxit!"
   },
@@ -1387,5 +1390,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "S'està cancel·lant"
+  },
+  "interval_day": {
+    "one": "dia",
+    "other": "dies"
+  },
+  "interval_week": {
+    "one": "setmana",
+    "other": "setmanes"
+  },
+  "interval_month": {
+    "one": "mes",
+    "other": "mesos"
+  },
+  "interval_year": {
+    "one": "curs",
+    "other": "anys"
   }
 }

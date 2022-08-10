@@ -631,6 +631,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Krediitkaart on tagasi lükatud. Palun proovi uuesti."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Teie kaarti ei toetata."
+  },
   "shopping_complete_rental": {
     "other": "Õnnestus!"
   },
@@ -1387,5 +1390,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Tühistamine"
+  },
+  "interval_day": {
+    "one": "päeval",
+    "other": "päevadel"
+  },
+  "interval_week": {
+    "one": "nädal",
+    "other": "nädalaid"
+  },
+  "interval_month": {
+    "one": "kuu",
+    "other": "kuud"
+  },
+  "interval_year": {
+    "one": "aastal",
+    "other": "aastat"
   }
 }

@@ -45,11 +45,11 @@
       {{yield seo()}}
     {{end}}
 
-    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,fetch" defer></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=Intl%2Cdefault%2Cfetch" defer></script>
     <script src="{{CDN}}/s72.core.js" defer></script>
     <script src="{{CDN}}/s72.ui.js" defer></script>
 
-    <script src="/scripts/main.js" defer></script>    
+    <script src="/scripts/main.js" defer></script>
 
     <script src="{{CDN}}/s72.transactional.js" defer></script>
     <script src="https://js.stripe.com/v3/" defer></script>

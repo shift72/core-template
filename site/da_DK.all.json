@@ -682,6 +682,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Kreditkortet er afvist. Prøv venligst igen."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Dit kort er ikke understøttet."
+  },
   "shopping_complete_rental": {
     "other": "Succes!"
   },
@@ -1101,7 +1104,7 @@
     "other": "Opkræves hvert {{.Interval}} efter din {{.Count}} dages gratis prøveperiode slutter."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Opkræves hvert {{.Interval}} ."
+    "other": "Opkræves hvert {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1387,5 +1390,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Annullerer"
+  },
+  "interval_day": {
+    "one": "dag",
+    "other": "dage"
+  },
+  "interval_week": {
+    "one": "uge",
+    "other": "uger"
+  },
+  "interval_month": {
+    "one": "måned",
+    "other": "måneder"
+  },
+  "interval_year": {
+    "one": "år",
+    "other": "flere år"
   }
 }

@@ -631,6 +631,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Kredittkortet har blitt avvist. Vennligst prøv igjen."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Kortet ditt støttes ikke."
+  },
   "shopping_complete_rental": {
     "other": "Vellykket!"
   },
@@ -999,7 +1002,7 @@
     "other": "Belastet hvert {{.Interval}} etter at {{.Count}} dager avsluttes."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Lades hvert {{.Interval}} ."
+    "other": "Lades hvert {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1387,5 +1390,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Avbryter"
+  },
+  "interval_day": {
+    "one": "dag",
+    "other": "dager"
+  },
+  "interval_week": {
+    "one": "uke",
+    "other": "uker"
+  },
+  "interval_month": {
+    "one": "måned",
+    "other": "måneder"
+  },
+  "interval_year": {
+    "one": "år",
+    "other": "år"
   }
 }

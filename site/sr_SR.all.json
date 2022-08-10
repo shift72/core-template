@@ -646,6 +646,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Кредитна картица је одбијена. Молимо Вас покушајте поново."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Ваша картица није подржана."
+  },
   "shopping_complete_rental": {
     "other": "Успешно!"
   },
@@ -1081,7 +1084,7 @@
     "other": "Оптужен сваки {{.Interval}} после ваших {{.Count}} дневни бесплатни пробни крајевима."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Наплаћује се сваки {{.Interval}} ."
+    "other": "Наплаћује се сваки {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1393,5 +1396,25 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Отказивање"
+  },
+  "interval_day": {
+    "one": "дан",
+    "few": "дана",
+    "other": "дана"
+  },
+  "interval_week": {
+    "one": "Недеља",
+    "few": "недеље",
+    "other": "недеље"
+  },
+  "interval_month": {
+    "one": "месец дана",
+    "few": "месеци",
+    "other": "месеци"
+  },
+  "interval_year": {
+    "one": "године",
+    "few": "године",
+    "other": "године"
   }
 }

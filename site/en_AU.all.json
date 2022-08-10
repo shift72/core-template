@@ -694,6 +694,9 @@
   "shopping_error_plan_expired": {
     "other": "This plan is no longer available."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Your card is not supported."
+  },
   "shopping_complete_rental": {
     "other": "Success!"
   },
@@ -1387,5 +1390,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Cancelling"
+  },
+  "interval_day": {
+    "one": "day",
+    "other": "days"
+  },
+  "interval_week": {
+    "one": "week",
+    "other": "weeks"
+  },
+  "interval_month": {
+    "one": "month",
+    "other": "months"
+  },
+  "interval_year": {
+    "one": "year",
+    "other": "years"
   }
 }

@@ -590,6 +590,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Kortti hylätty. Ole hyvä ja yritä uudestaan."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Korttiasi ei tueta."
+  },
   "shopping_complete_rental": {
     "other": "Tapahtuma hyväksytty"
   },
@@ -1387,5 +1390,21 @@
   },
   "usersubscriptions_subscription_status_cancelling": {
     "other": "Peruutetaan"
+  },
+  "interval_day": {
+    "one": "päivä",
+    "other": "päivää"
+  },
+  "interval_week": {
+    "one": "viikko",
+    "other": "viikkoa"
+  },
+  "interval_month": {
+    "one": "kuukausi",
+    "other": "kuukaudet"
+  },
+  "interval_year": {
+    "one": "vuosi",
+    "other": "vuotta"
   }
 }
