@@ -1131,7 +1131,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Prøv din gratis 24 timers prøveperiode nu!",
-    "other": "Prøv din gratis {{.Count}} day prøveperiode!"
+    "other": "Prøv din {{.Count}} dages gratis prøveperiode!"
   },
   "plans_page_header": {
     "other": "Tilgængelige planer"
@@ -1380,7 +1380,7 @@
   },
   "shopping_info_trial_period":{
     "one": "Prøv din gratis 24 timers prøveperiode nu!",
-    "other": "Prøv din gratis {{.Count}} day prøveperiode!"
+    "other": "Prøv din {{.Count}} dages gratis prøveperiode!"
   },
   "usersubscriptions_page_header_seo":{
     "other": "Abonnementer og fakturering"
