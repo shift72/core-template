@@ -16,6 +16,7 @@
 ### Fixed
 - Broken share modal styles.
 - Fixed translation for plan frequency in plans.html
+- Added Intl to polyfill to catch iOS devices.
 
 ## [1.3.0](https://github.com/shift72/core-template/compare/1.3.0-alpha...1.3.0)
 
