@@ -1404,7 +1404,7 @@
   },
   "shopping_info_trial_period":{
     "one": "جرب الإصدار التجريبي المجاني لمدة 24 ساعة الآن!",
-    "other": "{{.Count}} التجريبي المجاني من {{.Count}} day!"
+    "other": "جرب الإصدار التجريبي المجاني لمدة {{.Count}} أيام!"
   },
   "usersubscriptions_page_header_seo":{
     "other": "الاشتراكات والفواتير"

@@ -1119,7 +1119,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Isprobajte svoju besplatnu probnu verziju od 24 sata sada!",
-    "other": "Isprobajte svoju besplatnu {{.Count}} day!"
+    "other": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!"
   },
   "plans_page_header": {
     "other": "Dostupni planovi"
@@ -1369,7 +1369,7 @@
   },
   "shopping_info_trial_period":{
     "one": "Isprobajte svoju besplatnu probnu verziju od 24 sata sada!",
-    "other": "Isprobajte svoju besplatnu {{.Count}} day!"
+    "other": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!"
   },
   "usersubscriptions_page_header_seo":{
     "other": "Pretplate i naplata"

@@ -1206,7 +1206,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Prova la teva prova gratuïta de 24 hores ara!",
-    "other": "Prova la teva prova gratuïta de {{.Count}} day!"
+    "other": "Prova la teva prova gratuïta de {{.Count}} dies!"
   },
   "plans_page_header": {
     "other": "Plans disponibles"
@@ -1380,7 +1380,7 @@
   },
   "shopping_info_trial_period":{
     "one": "Prova la teva prova gratuïta de 24 hores ara!",
-    "other": "Prova la teva prova gratuïta de {{.Count}} day!"
+    "other": "Prova la teva prova gratuïta de {{.Count}} dies!"
   },
   "usersubscriptions_page_header_seo":{
     "other": "Subscripcions i facturació"
