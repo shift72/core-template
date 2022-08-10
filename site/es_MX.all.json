@@ -1214,8 +1214,8 @@
     "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
-    "one": "Renueva automáticamente cada {{.Interval}}",
-    "other": "Renueva automáticamente cada {{.Count}} {{.Interval}}"
+    "one": "¡Pruebe ahora su prueba gratuita de 24 horas!",
+    "other": "¡Pruebe su prueba gratuita de {{.Count}} días!"
   },
   "availability_expires": {
     "other": "Caducó {{.Expiry}}"
@@ -1377,8 +1377,8 @@
     "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period":{
-    "one": "Renueva automáticamente cada {{.Interval}}",
-    "other": "Renueva automáticamente cada {{.Count}} {{.Interval}}"
+    "one": "¡Pruebe ahora su prueba gratuita de 24 horas!",
+    "other": "¡Pruebe su prueba gratuita de {{.Count}} días!"
   },
   "usersubscriptions_page_header_seo":{
     "other": "Suscripciones y Facturación"
