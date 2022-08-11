@@ -1020,7 +1020,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Δοκιμάστε τη δωρεάν δοκιμή 24 ωρών τώρα!",
-    "other": "Δοκιμάστε τη δωρεάν {{.Count}} day!"
+    "other": "Δοκιμάστε τη δωρεάν ημερήσια δοκιμή {{.Count}}!"
   },
   "plans_page_header": {
     "other": "Διαθέσιμα σχέδια"
@@ -1374,7 +1374,7 @@
   },
   "shopping_info_trial_period":{
     "one": "Δοκιμάστε τη δωρεάν δοκιμή 24 ωρών τώρα!",
-    "other": "Δοκιμάστε τη δωρεάν {{.Count}} day!"
+    "other": "Δοκιμάστε τη δωρεάν ημερήσια δοκιμή {{.Count}}!"
   },
   "usersubscriptions_page_header_seo":{
     "other": "Συνδρομές και Χρεώσεις"

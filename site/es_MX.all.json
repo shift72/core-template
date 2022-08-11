@@ -1192,7 +1192,7 @@
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
-    "other": "{{.Count}} {{.Interval}}s"
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Ingrese los detalles de su tarjeta de crédito a continuación para comenzar su suscripción."
@@ -1211,11 +1211,11 @@
   },
   "shopping_info_plan_offer": {
     "one": "Se renueva automáticamente cada {{.Interval}}",
-    "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}s"
+    "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
-    "one": "Renueva automáticamente cada {{.Interval}}",
-    "other": "Renueva automáticamente cada {{.Count}} {{.Interval}}"
+    "one": "¡Pruebe ahora su prueba gratuita de 24 horas!",
+    "other": "¡Pruebe su prueba gratuita de {{.Count}} días!"
   },
   "availability_expires": {
     "other": "Caducó {{.Expiry}}"
@@ -1374,11 +1374,11 @@
   },
   "shopping_info_plan_interval":{
     "one": "Se renueva automáticamente cada {{.Interval}}",
-    "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}s"
+    "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period":{
-    "one": "Renueva automáticamente cada {{.Interval}}",
-    "other": "Renueva automáticamente cada {{.Count}} {{.Interval}}"
+    "one": "¡Pruebe ahora su prueba gratuita de 24 horas!",
+    "other": "¡Pruebe su prueba gratuita de {{.Count}} días!"
   },
   "usersubscriptions_page_header_seo":{
     "other": "Suscripciones y Facturación"

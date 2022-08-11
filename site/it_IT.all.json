@@ -939,7 +939,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Prova subito la tua prova gratuita di 24 ore!",
-    "other": "Prova la tua prova gratuita di {{.Count}} Day!"
+    "other": "Prova la tua prova gratuita di {{.Count}} giorni!"
   },
   "plans_page_header": {
     "other": "Piani disponibili"
@@ -1378,7 +1378,7 @@
   },
   "shopping_info_trial_period":{
     "one": "Prova subito la tua prova gratuita di 24 ore!",
-    "other": "Prova la tua prova gratuita di {{.Count}} Day!"
+    "other": "Prova la tua prova gratuita di {{.Count}} giorni!"
   },
   "usersubscriptions_page_header_seo":{
     "other": "Abbonamenti e fatturazione"

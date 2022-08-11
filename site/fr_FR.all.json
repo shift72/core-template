@@ -926,8 +926,8 @@
     "other": "{{.Count}} automatiquement chaque {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
-    "one": "Essayez votre essai gratuit de 24 heures maintenant !",
-    "other": "Essayez votre essai gratuit de {{.Count}} day !"
+    "one": "Essayez votre essai gratuit de 24 heures maintenant!",
+    "other": "Essayez votre essai gratuit de {{.Count}} jours!"
   },
   "plans_page_header": {
     "other": "Forfaits disponibles"
@@ -1377,8 +1377,8 @@
     "other": "{{.Count}} automatiquement chaque {{.Interval}}"
   },
   "shopping_info_trial_period":{
-    "one": "Essayez votre essai gratuit de 24 heures maintenant !",
-    "other": "Essayez votre essai gratuit de {{.Count}} day !"
+    "one": "Essayez votre essai gratuit de 24 heures maintenant!",
+    "other": "Essayez votre essai gratuit de {{.Count}} jours!"
   },
   "usersubscriptions_page_header_seo":{
     "other": "Abonnements et facturation"

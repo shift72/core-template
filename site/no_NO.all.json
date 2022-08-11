@@ -661,7 +661,7 @@
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Du kan nå se den om {{.Count}} dager.",
-    "other": "You are now able to start watching it within the next {{.Count}} days."
+    "other": "Du kan nå begynne å se den i løpet av de neste {{.Count}} dagene."
   },
   "shopping_complete_rental_watch_window_end": {
     "one": "Når du starter avspillingen, vil du ha {{.Count}} timer til å se filmen så mange ganger du vil.",
@@ -1029,7 +1029,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Prøv din gratis 24-timers prøveversjon nå!",
-    "other": "Prøv din gratis {{.Count}} day prøveversjon!"
+    "other": "Prøv din gratis prøveperiode på {{.Count}} dager!"
   },
   "plans_page_header": {
     "other": "Tilgjengelige planer"
@@ -1374,7 +1374,7 @@
   },
   "shopping_info_trial_period":{
     "one": "Prøv din gratis 24-timers prøveversjon nå!",
-    "other": "Prøv din gratis {{.Count}} day prøveversjon!"
+    "other": "Prøv din gratis prøveperiode på {{.Count}} dager!"
   },
   "usersubscriptions_page_header_seo":{
     "other": "Abonnementer og fakturering"
