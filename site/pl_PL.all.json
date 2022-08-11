@@ -923,6 +923,8 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Wypróbuj bezpłatny 24-godzinny okres próbny już teraz!",
+    "few": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!",
+    "many": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!",
     "other": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!"
   },
   "plans_page_header": {
@@ -1431,6 +1433,8 @@
   },
   "shopping_info_trial_period":{
     "one": "Wypróbuj bezpłatny 24-godzinny okres próbny już teraz!",
+    "few": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!",
+    "many": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!",
     "other": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!"
   },
   "usersubscriptions_page_header_seo":{

@@ -1120,6 +1120,7 @@
   "shopping_info_trial_period_offer": {
     "one": "Isprobajte svoju besplatnu probnu verziju od 24 sata sada!",
     "few": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!",
+    "many": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!",
     "other": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!"
   },
   "plans_page_header": {
@@ -1371,6 +1372,7 @@
   "shopping_info_trial_period":{
     "one": "Isprobajte svoju besplatnu probnu verziju od 24 sata sada!",
     "few": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!",
+    "many": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!",
     "other": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!"
   },
   "usersubscriptions_page_header_seo":{

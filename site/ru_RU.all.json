@@ -1055,7 +1055,9 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Попробуйте бесплатную 24-часовую пробную версию прямо сейчас!",
-    "other": "Попробуйте бесплатную дневную пробную версию {{.Count}}"
+    "few": "Попробуйте бесплатную {{.Count}}-дневную пробную версию!",
+    "many": "Попробуйте бесплатную {{.Count}}-дневную пробную версию!",
+    "other": "Попробуйте бесплатную {{.Count}}-дневную пробную версию!"
   },
   "plans_page_header": {
     "other": "Доступные планы"
@@ -1396,21 +1398,23 @@
   "stripe_card_not_supported": {
     "other": "Ваша карта не поддерживается."
   },
-  "nav_search_control_placeholder":{
+  "nav_search_control_placeholder": {
     "other": "Поиск"
   },
   "nav_search_control_sr_submit": {
     "other": "Начать поиск"
   },
-  "shopping_info_plan_interval":{
+  "shopping_info_plan_interval": {
     "one": "Автоматически обновляется каждые {{.Interval}}",
     "other": "Автоматически обновляется каждые {{.Count}} {{.Interval}}"
   },
-  "shopping_info_trial_period":{
+  "shopping_info_trial_period": {
     "one": "Попробуйте бесплатную 24-часовую пробную версию прямо сейчас!",
-    "other": "Попробуйте бесплатную дневную пробную версию {{.Count}}"
+    "few": "Попробуйте бесплатную {{.Count}}-дневную пробную версию!",
+    "many": "Попробуйте бесплатную {{.Count}}-дневную пробную версию!",
+    "other": "Попробуйте бесплатную {{.Count}}-дневную пробную версию!"
   },
-  "usersubscriptions_page_header_seo":{
+  "usersubscriptions_page_header_seo": {
     "other": "Подписки и выставление счетов"
   },
   "usersubscriptions_subscription_status_past_due": {
