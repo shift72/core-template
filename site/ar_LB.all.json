@@ -1403,7 +1403,11 @@
     "other": "تأكيد البحث"
   },
   "shopping_info_plan_interval":{
+    "zero": "يجدد تلقائيا كل. {{.Interval}}",
     "one": "يجدد تلقائيا كل. {{.Interval}}",
+    "two": "يجدد تلقائيا كل {{.Count}} {{.Interval}}",
+    "few": "يجدد تلقائيا كل {{.Count}} {{.Interval}}",
+    "many": "يجدد تلقائيا كل {{.Count}} {{.Interval}}",
     "other": "يجدد تلقائيا كل {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period":{
