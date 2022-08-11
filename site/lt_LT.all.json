@@ -1384,6 +1384,8 @@
   },
   "shopping_info_plan_interval": {
     "one": "Automatiškai atnaujina kiekvieną {{.Interval}}",
+    "few": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}",
+    "many": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}",
     "other": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period": {

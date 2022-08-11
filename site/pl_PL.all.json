@@ -1429,6 +1429,8 @@
   },
   "shopping_info_plan_interval":{
     "one": "Automatycznie odnawia co {{.Interval}}",
+    "few": "Automatycznie odnawia co {{.Count}} {{.Interval}}",
+    "many": "Automatycznie odnawia co {{.Count}} {{.Interval}}",
     "other": "Automatycznie odnawia co {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period":{

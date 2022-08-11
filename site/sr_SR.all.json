@@ -1108,7 +1108,7 @@
   },
   "shopping_info_plan_offer": {
     "one": "Аутоматски обнавља сваки {{.Interval}}",
-    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}} с"
+    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Испробајте своју бесплатну пробну верзију од 24 сата сада!",
@@ -1377,7 +1377,8 @@
   },
   "shopping_info_plan_interval": {
     "one": "Аутоматски обнавља сваки {{.Interval}}",
-    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}} с"
+    "few": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}}",
+    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period": {
     "one": "Испробајте своју бесплатну пробну верзију од 24 сата сада!",

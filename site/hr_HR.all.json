@@ -1367,6 +1367,8 @@
   },
   "shopping_info_plan_interval":{
     "one": "Automatski obnavlja svaki {{.Interval}}",
+    "few": "Automatski obnavlja svaki {{.Count}} {{.Interval}}",
+    "many": "Automatski obnavlja svaki {{.Count}} {{.Interval}}",
     "other": "Automatski obnavlja svaki {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period":{

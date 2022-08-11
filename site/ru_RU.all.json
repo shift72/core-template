@@ -1406,6 +1406,8 @@
   },
   "shopping_info_plan_interval": {
     "one": "Автоматически обновляется каждые {{.Interval}}",
+    "few": "Автоматически обновляется каждые {{.Count}} {{.Interval}}",
+    "many": "Автоматически обновляется каждые {{.Count}} {{.Interval}}",
     "other": "Автоматически обновляется каждые {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period": {
