@@ -968,7 +968,7 @@
     "other": "Atualize seu cartão de crédito. Os cartões suportados são Visa, Mastercard e American Express"
   },
   "shopping_card_new_subscription": {
-    "other": "This card will saved and be charged regularly"
+    "other": "Este cartão será salvo e cobrado regularmente"
   },
   "shopping_card_change": {
     "other": "O cartão de crédito não está correto? <a href=\"{{.SubscriptionsURL}}\"> Clique aqui para atualizar seu cartão. </a>"
