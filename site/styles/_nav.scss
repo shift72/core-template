@@ -154,7 +154,7 @@
   align-items: center;
   display: flex;
   flex-shrink: 0;
-  height: calc(var(--navbar-brand-padding-y) * 2);
+  height: var(--navbar-brand-height);
   position: relative;
   width: 24px;
   z-index: 10;
@@ -220,37 +220,12 @@
   }
 }
 
-.navbar-brand {
-  @extend .text-hide;
-
-  background: url('../images/common/logo.png') left center / contain no-repeat;
-  margin-right: auto;
-  min-width: var(--navbar-brand-min-width);
-  padding-bottom: var(--navbar-brand-padding-y);
-  padding-top: var(--navbar-brand-padding-y);
+.navbar-brand-logo {
+  height: var(--navbar-brand-height);
   z-index: 9;
 
-  @include media-breakpoint-up(lg) {
-    margin: 0;
-    padding-bottom: var(--navbar-brand-padding-y);
-    padding-top: var(--navbar-brand-padding-y);
-    z-index: 13;
-  }
-
-  @media only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-    background: url('../images/common/logo@2x.png') left center / contain no-repeat;
-  }
-
-  @include media-breakpoint-up(md) {
-    min-width: var(--navbar-brand-min-width-md);
-  }
-
-  @include media-breakpoint-up(lg) {
-    min-width: var(--navbar-brand-min-width-lg);
-  }
-
-  @include media-breakpoint-up(xl) {
-    min-width: var(--navbar-brand-min-width-xl);
+  img {
+    height: inherit;
   }
 }
 
@@ -268,7 +243,7 @@
   align-items: center;
   border-bottom: 1px solid transparent;
   display: flex;
-  height: calc(var(--navbar-brand-padding-y) * 2);
+  height: var(--navbar-brand-height);
   margin-right: 20px;
   position: relative;
   transition: none;
@@ -421,7 +396,7 @@
 
   &.search-show {
     background-color: var(--navbar-search-background-color);
-    height: calc(calc(var(--navbar-brand-padding-y) * 2) + 20px);
+    height: calc(var(--navbar-brand-height) + 20px);
     margin: 0;
     position: absolute;
     right: 0;

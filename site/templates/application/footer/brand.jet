@@ -1,5 +1,7 @@
+{{import "../brand/logo.jet"}}
+
 {{block footerBrand()}}
   <a class="footer-brand-link" href="{{routeToPath("/")}}" aria-label="{{site.Config.GetSiteName()}}">
-    <s72-image class="footer-brand-image" src="/images/common/logo.png" alt="{{site.Config.GetSiteName()}}"></s72-image>
+    {{yield logo(class="footer-brand-image")}}
   </a>
 {{end}}

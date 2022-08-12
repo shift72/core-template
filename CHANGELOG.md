@@ -7,6 +7,7 @@
 - Add translations for intervals without counts
 - New keys for translations that were used by Relish and Core-template removing their overlapping usage
 - Add translation for `shopping_error_card_not_supported`
+- Added support for self-service CSS and brand images.
 
 ## Changed
 - Moved the carousel availability label above the CTA's.
