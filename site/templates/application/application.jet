@@ -4,7 +4,7 @@
 {{import "./google.jet" }}
 {{import "./footer/footer.jet" }}
 
-{{CDN := "//cdn.shift72.com/1.3"}}
+{{CDN := "//cdn.shift72.com/latest"}}
 {*{CDN := "//localhost:3000"}*}
 
 {{CSSFileURL := site.SiteBrand.GetLink("css", "")}}

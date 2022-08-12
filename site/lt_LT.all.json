@@ -1114,6 +1114,8 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Išbandykite nemokamą 24 valandų bandomąją versiją dabar!",
+    "few": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
+    "many": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
     "other": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!"
   },
   "plans_page_header": {
@@ -1374,21 +1376,25 @@
   "stripe_card_not_supported": {
     "other": "Jūsų kortelė nepalaikoma."
   },
-  "nav_search_control_placeholder":{
+  "nav_search_control_placeholder": {
     "other": "Paieška"
   },
   "nav_search_control_sr_submit": {
     "other": "Pateikti paiešką"
   },
-  "shopping_info_plan_interval":{
+  "shopping_info_plan_interval": {
     "one": "Automatiškai atnaujina kiekvieną {{.Interval}}",
+    "few": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}",
+    "many": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}",
     "other": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}"
   },
-  "shopping_info_trial_period":{
+  "shopping_info_trial_period": {
     "one": "Išbandykite nemokamą 24 valandų bandomąją versiją dabar!",
+    "few": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
+    "many": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
     "other": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!"
   },
-  "usersubscriptions_page_header_seo":{
+  "usersubscriptions_page_header_seo": {
     "other": "Prenumeratos ir atsiskaitymas"
   },
   "usersubscriptions_subscription_status_past_due": {
