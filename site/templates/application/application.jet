@@ -8,7 +8,7 @@
 {*{CDN := "//localhost:3000"}*}
 
 {{CSSFileURL := site.SiteBrand.GetLink("css", "")}}
-{*{CSSFileURL = "local.css"}*}
+{*{CSSFileURL := "local.css"}*}
 
 <!DOCTYPE html>
 <html lang="{{lang.Code}}">
