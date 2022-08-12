@@ -894,7 +894,7 @@
     "other": "Naliczana co {{.Interval}} po zakończeniu {{.Count}}-dniowego bezpłatnego okresu próbnego."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "{{.Interval}} co .Interwał."
+    "other": "Naliczana co {{.Interval}}"
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -923,6 +923,8 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Wypróbuj bezpłatny 24-godzinny okres próbny już teraz!",
+    "few": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!",
+    "many": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!",
     "other": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!"
   },
   "plans_page_header": {
@@ -1427,10 +1429,14 @@
   },
   "shopping_info_plan_interval":{
     "one": "Automatycznie odnawia co {{.Interval}}",
+    "few": "Automatycznie odnawia co {{.Count}} {{.Interval}}",
+    "many": "Automatycznie odnawia co {{.Count}} {{.Interval}}",
     "other": "Automatycznie odnawia co {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period":{
     "one": "Wypróbuj bezpłatny 24-godzinny okres próbny już teraz!",
+    "few": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!",
+    "many": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!",
     "other": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!"
   },
   "usersubscriptions_page_header_seo":{
