@@ -376,16 +376,18 @@ s72-element-switcher,
 }
 
 .element-switcher-wrapper {
-  display: flex;
+  display: grid;
   gap: 50px;
-  justify-content: space-between;
+  grid-template-columns: auto auto;
   width: 100%;
 
   .sponsor {
     display: none;
     padding-top: 10px;
+
     @include media-breakpoint-up(lg) {
       display: block;
+      margin-left: auto;
     }
   }
 }
