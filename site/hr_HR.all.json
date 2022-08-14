@@ -597,10 +597,10 @@
     "other": "Došlo je do pogreške"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Molimo unesite valjan  CVV."
+    "other": "Molimo unesite valjan  CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Molimo unesite valjan CVV."
+    "other": "Molimo unesite valjan CVC."
   },
   "shopping_error_incorrect_number": {
     "other": "Molimo unesite valjan broj kreditne kartice."

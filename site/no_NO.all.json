@@ -551,10 +551,10 @@
     "other": "En feil har oppstått."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Skriv inn en gyldig CVV-kode."
+    "other": "Skriv inn en gyldig CVC-kode."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Skriv inn en gyldig CVV-kode."
+    "other": "Skriv inn en gyldig CVC-kode."
   },
   "shopping_error_incorrect_number": {
     "other": "Skriv inn et gyldig kredittkortnummer."

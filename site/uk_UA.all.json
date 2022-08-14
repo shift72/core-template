@@ -615,10 +615,10 @@
     "other": "Сталася помилка."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Будь ласка, введіть дійсний CVV."
+    "other": "Будь ласка, введіть дійсний CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Будь ласка, введіть дійсний CVV."
+    "other": "Будь ласка, введіть дійсний CVC."
   },
   "shopping_error_incorrect_number": {
     "other": "Будь ласка, введіть дійсний номер банківської картки."

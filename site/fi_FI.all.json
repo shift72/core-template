@@ -513,10 +513,10 @@
     "other": "Tapahtui virhe"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Syötä kelvollinen CVV-tunnus."
+    "other": "Syötä kelvollinen CVC-tunnus."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Syötä kelvollinen CVV-tunnus."
+    "other": "Syötä kelvollinen CVC-tunnus."
   },
   "shopping_error_incorrect_number": {
     "other": "Syötä voimassa olevan luottokortin numero."

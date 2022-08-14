@@ -551,10 +551,10 @@
     "other": "Hiba történt."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Kérjük, adj meg egy érvényes CVV számot."
+    "other": "Kérjük, adj meg egy érvényes CVC számot."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Kérjük, adj meg egy érvényes CVV számot."
+    "other": "Kérjük, adj meg egy érvényes CVC számot."
   },
   "shopping_error_incorrect_number": {
     "other": "Kérjük, adj meg egy érvényes bankkártya számot."

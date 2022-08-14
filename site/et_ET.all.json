@@ -551,10 +551,10 @@
     "other": "Juhtus viga. "
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Palun sisesta kehtiv CVV."
+    "other": "Palun sisesta kehtiv CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Palun sisesta kehtiv CVV."
+    "other": "Palun sisesta kehtiv CVC."
   },
   "shopping_error_incorrect_number": {
     "other": "Palun sisesta kehtiv krediitkaardi number."

@@ -539,10 +539,10 @@
     "other": "Wystąpił błąd"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Wprowadź prawidłowy kod CVV."
+    "other": "Wprowadź prawidłowy kod CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Wprowadź prawidłowy kod CVV."
+    "other": "Wprowadź prawidłowy kod CVC."
   },
   "shopping_error_incorrect_number": {
     "other": "Wprowadź prawidłowy numer karty kredytowej"

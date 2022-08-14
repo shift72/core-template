@@ -602,10 +602,10 @@
     "other": "حدث خطأ"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "الرجاء إدخال رمز CVV صالح."
+    "other": "الرجاء إدخال رمز CVC صالح."
   },
   "shopping_error_invalid_cvc": {
-    "other": "الرجاء إدخال رمز CVV صالح."
+    "other": "الرجاء إدخال رمز CVC صالح."
   },
   "shopping_error_incorrect_number": {
     "other": "الرجاء إدخال رقم بطاقة ائتمان صالحة."

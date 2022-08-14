@@ -572,10 +572,10 @@
     "other": "Une erreur est survenue"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Veuillez saisir un code CVV valide."
+    "other": "Veuillez saisir un code CVC valide."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Veuillez saisir un code CVV valide."
+    "other": "Veuillez saisir un code CVC valide."
   },
   "shopping_error_incorrect_number": {
     "other": "Veuillez saisir un numéro de carte bancaire valide."

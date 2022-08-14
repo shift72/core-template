@@ -551,10 +551,10 @@
     "other": "İlginiz için teşekkür ederiz."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Lütfen geçerli bir CVV girin."
+    "other": "Lütfen geçerli bir CVC girin."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Lütfen geçerli bir CVV girin."
+    "other": "Lütfen geçerli bir CVC girin."
   },
   "shopping_error_incorrect_number": {
     "other": "Lütfen geçerli bir Kredi Kart Numarası girin."
