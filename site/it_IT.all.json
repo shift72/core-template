@@ -1366,21 +1366,21 @@
   "stripe_card_not_supported": {
     "other": "La tua carta non è supportata."
   },
-  "nav_search_control_placeholder":{
+  "nav_search_control_placeholder": {
     "other": "Cerca"
   },
   "nav_search_control_sr_submit": {
     "other": "Invia la ricerca"
   },
-  "shopping_info_plan_interval":{
+  "shopping_info_plan_interval": {
     "one": "Si rinnova automaticamente ogni {{.Interval}}",
     "other": "Rinnova automaticamente ogni {{.Count}} {{.Interval}}"
   },
-  "shopping_info_trial_period":{
+  "shopping_info_trial_period": {
     "one": "Prova subito la tua prova gratuita di 24 ore!",
     "other": "Prova la tua prova gratuita di {{.Count}} giorni!"
   },
-  "usersubscriptions_page_header_seo":{
+  "usersubscriptions_page_header_seo": {
     "other": "Abbonamenti e fatturazione"
   },
   "usersubscriptions_subscription_status_past_due": {
@@ -1410,5 +1410,8 @@
   "interval_year": {
     "one": "anno",
     "other": "anni"
+  },
+  "shopping_error_processing_error": {
+    "other": "Si è verificato un errore durante l'elaborazione della carta. Riprova più tardi o con un metodo di pagamento diverso."
   }
 }

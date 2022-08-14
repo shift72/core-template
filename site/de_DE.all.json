@@ -1368,21 +1368,21 @@
   "stripe_card_not_supported": {
     "other": "Ihre Karte wird nicht unterstützt."
   },
-  "nav_search_control_placeholder":{
+  "nav_search_control_placeholder": {
     "other": "Suche"
   },
   "nav_search_control_sr_submit": {
     "other": "Suche einreichen"
   },
-  "shopping_info_plan_interval":{
+  "shopping_info_plan_interval": {
     "one": "Erneuert automatisch alle {{.Interval}}",
     "other": "Erneuert automatisch alle {{.Count}} {{.Interval}}"
   },
-  "shopping_info_trial_period":{
+  "shopping_info_trial_period": {
     "one": "Testen Sie jetzt Ihre kostenlose 24-Stunden-Testversion!",
     "other": "Testen Sie Ihre kostenlose {{.Count}} Tage-Testversion!"
   },
-  "usersubscriptions_page_header_seo":{
+  "usersubscriptions_page_header_seo": {
     "other": "Abonnements und Abrechnung"
   },
   "usersubscriptions_subscription_status_unpaid": {
@@ -1406,5 +1406,8 @@
   "interval_year": {
     "one": "Jahr",
     "other": "Jahre"
+  },
+  "shopping_error_processing_error": {
+    "other": "Bei der Verarbeitung Ihrer Karte ist ein Fehler aufgetreten. Versuchen Sie es später noch einmal oder mit einer anderen Zahlungsmethode."
   }
 }

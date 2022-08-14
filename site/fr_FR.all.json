@@ -1366,21 +1366,21 @@
   "stripe_card_not_supported": {
     "other": "Votre carte n'est pas prise en charge."
   },
-  "nav_search_control_placeholder":{
+  "nav_search_control_placeholder": {
     "other": "Rechercher"
   },
   "nav_search_control_sr_submit": {
     "other": "Soumettre la recherche"
   },
-  "shopping_info_plan_interval":{
+  "shopping_info_plan_interval": {
     "one": "Se renouvelle automatiquement tous les {{.Interval}}",
     "other": "{{.Count}} automatiquement chaque {{.Interval}}"
   },
-  "shopping_info_trial_period":{
+  "shopping_info_trial_period": {
     "one": "Essayez votre essai gratuit de 24 heures maintenant!",
     "other": "Essayez votre essai gratuit de {{.Count}} jours!"
   },
-  "usersubscriptions_page_header_seo":{
+  "usersubscriptions_page_header_seo": {
     "other": "Abonnements et facturation"
   },
   "usersubscriptions_subscription_status_past_due": {
@@ -1410,5 +1410,8 @@
   "interval_year": {
     "one": "an",
     "other": "années"
+  },
+  "shopping_error_processing_error": {
+    "other": "Une erreur s'est produite lors du traitement de votre carte. Réessayez plus tard ou avec un autre mode de paiement."
   }
 }

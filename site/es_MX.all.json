@@ -1366,21 +1366,21 @@
   "stripe_card_not_supported": {
     "other": "Su tarjeta no es compatible."
   },
-  "nav_search_control_placeholder":{
+  "nav_search_control_placeholder": {
     "other": "Buscar"
   },
   "nav_search_control_sr_submit": {
     "other": "Enviar busqueda"
   },
-  "shopping_info_plan_interval":{
+  "shopping_info_plan_interval": {
     "one": "Se renueva automáticamente cada {{.Interval}}",
     "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}"
   },
-  "shopping_info_trial_period":{
+  "shopping_info_trial_period": {
     "one": "¡Pruebe ahora su prueba gratuita de 24 horas!",
     "other": "¡Pruebe su prueba gratuita de {{.Count}} días!"
   },
-  "usersubscriptions_page_header_seo":{
+  "usersubscriptions_page_header_seo": {
     "other": "Suscripciones y Facturación"
   },
   "usersubscriptions_subscription_status_past_due": {
@@ -1410,5 +1410,8 @@
   "interval_year": {
     "one": "año",
     "other": "años"
+  },
+  "shopping_error_processing_error": {
+    "other": "Ocurrió un error al procesar su tarjeta. Vuelve a intentarlo más tarde o con otro método de pago."
   }
 }
