@@ -1432,5 +1432,8 @@
     "few": "metų",
     "many": "metų",
     "other": "metų"
+  },
+  "shopping_error_processing_error": {
+    "other": "Apdorojant kortelę įvyko klaida. Bandykite dar kartą vėliau arba naudodami kitą mokėjimo metodą."
   }
 }
