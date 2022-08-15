@@ -608,10 +608,10 @@
     "other": "An error occurred"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Please enter a valid CVV."
+    "other": "Please enter a valid CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Please enter a valid CVV."
+    "other": "Please enter a valid CVC."
   },
   "shopping_error_incorrect_number": {
     "other": "Please enter a valid Credit Card Number."

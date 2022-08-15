@@ -605,10 +605,10 @@
     "other": "發生錯誤"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "請輸入有效的CVV"
+    "other": "請輸入有效的CVC"
   },
   "shopping_error_invalid_cvc": {
-    "other": "請輸入有效的CVV"
+    "other": "請輸入有效的CVC"
   },
   "shopping_error_incorrect_number": {
     "other": "請輸入有效的信用卡卡號"

@@ -605,10 +605,10 @@
     "other": "Va ocórrer un error"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Introduïu un CVV vàlid."
+    "other": "Introduïu un CVC vàlid."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Introduïu un CVV vàlid."
+    "other": "Introduïu un CVC vàlid."
   },
   "shopping_error_incorrect_number": {
     "other": "Si us plau, introduïu un número de targeta de crèdit vàlid."

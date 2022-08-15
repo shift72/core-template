@@ -602,10 +602,10 @@
     "other": "Der er sket en fejl"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Indtast venligst et gyldigt CVV."
+    "other": "Indtast venligst et gyldigt CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Indtast venligst et gyldigt CVV."
+    "other": "Indtast venligst et gyldigt CVC."
   },
   "shopping_error_incorrect_number": {
     "other": "Indtast venligst et gyldigt kreditkortnummer"

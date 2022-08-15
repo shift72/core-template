@@ -536,10 +536,10 @@
     "other": "Es ist ein Fehler aufgetreten."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Bitte geben Sie eine gültige CVV-Nummer ein."
+    "other": "Bitte geben Sie eine gültige CVC-Nummer ein."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Bitte geben Sie eine CVV-Nummer ein."
+    "other": "Bitte geben Sie eine CVC-Nummer ein."
   },
   "shopping_error_incorrect_number": {
     "other": "Bitte geben Sie eine gültige Kreditkarten-Nummer ein."

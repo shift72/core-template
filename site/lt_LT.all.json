@@ -587,10 +587,10 @@
     "other": "Įvyko klaida"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVV)."
+    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVC)."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVV)."
+    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVC)."
   },
   "shopping_error_incorrect_number": {
     "other": "Prašome įvesti teisingą mokėjimo kortelės numerį."

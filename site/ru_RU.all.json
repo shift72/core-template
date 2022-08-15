@@ -564,10 +564,10 @@
     "other": "Произошла ошибка"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Пожалуйста, введите правильный код CVV."
+    "other": "Пожалуйста, введите правильный код CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Пожалуйста, введите правильный код CVV."
+    "other": "Пожалуйста, введите правильный код CVC."
   },
   "shopping_error_incorrect_number": {
     "other": "Пожалуйста, введите действительную кредитную карту Number."

@@ -545,10 +545,10 @@
     "other": "Ocurrió un error"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Por favor, introduzca una CVV válida."
+    "other": "Por favor, introduzca una CVC válida."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Por favor, introduzca una CVV válida."
+    "other": "Por favor, introduzca una CVC válida."
   },
   "shopping_error_incorrect_number": {
     "other": "Por favor, introduzca un número de  tarjeta de crédito válido."

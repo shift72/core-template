@@ -545,10 +545,10 @@
     "other": "Αντιμετωπίσαμε ένα σφάλμα. "
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVV. "
+    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVC. "
   },
   "shopping_error_invalid_cvc": {
-    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVV. "
+    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVC. "
   },
   "shopping_error_incorrect_number": {
     "other": "Παρακαλώ εισάγετε έναν έγκυρο αριθμό κάρτας."

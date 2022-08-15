@@ -554,10 +554,10 @@
     "other": "C'è stato un errore"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Prego, inserisci un CVV valido."
+    "other": "Prego, inserisci un CVC valido."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Prego, inserisci un CVV valido."
+    "other": "Prego, inserisci un CVC valido."
   },
   "shopping_error_incorrect_number": {
     "other": "Prego, inserisci un numero di carta di credito valido."
