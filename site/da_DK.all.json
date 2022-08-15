@@ -950,7 +950,7 @@
     "other": "Opdater dit kreditkort. Understøttede kort er Visa, Mastercard og American Express."
   },
   "shopping_card_new_subscription": {
-    "other": "This card will saved and be charged regularly"
+    "other": "Dette kort vil blive opbevaret og opkrævet regelmæssigt"
   },
   "shopping_card_change": {
     "other": "Kreditkort ikke korrekt? <a href=\"{{.SubscriptionsURL}}\">Klik her for at opdatere dit kort.</a>"
