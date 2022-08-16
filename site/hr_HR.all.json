@@ -597,10 +597,10 @@
     "other": "Došlo je do pogreške"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Molimo unesite valjan  CVV."
+    "other": "Molimo unesite valjan  CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Molimo unesite valjan CVV."
+    "other": "Molimo unesite valjan CVC."
   },
   "shopping_error_incorrect_number": {
     "other": "Molimo unesite valjan broj kreditne kartice."
@@ -1359,25 +1359,25 @@
   "stripe_card_not_supported": {
     "other": "Vaša kartica nije podržana."
   },
-  "nav_search_control_placeholder":{
+  "nav_search_control_placeholder": {
     "other": "Pretraživanje"
   },
   "nav_search_control_sr_submit": {
     "other": "Potvrdi pretraživanje"
   },
-  "shopping_info_plan_interval":{
+  "shopping_info_plan_interval": {
     "one": "Automatski obnavlja svaki {{.Interval}}",
     "few": "Automatski obnavlja svaki {{.Count}} {{.Interval}}",
     "many": "Automatski obnavlja svaki {{.Count}} {{.Interval}}",
     "other": "Automatski obnavlja svaki {{.Count}} {{.Interval}}"
   },
-  "shopping_info_trial_period":{
+  "shopping_info_trial_period": {
     "one": "Isprobajte svoju besplatnu probnu verziju od 24 sata sada!",
     "few": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!",
     "many": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!",
     "other": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!"
   },
-  "usersubscriptions_page_header_seo":{
+  "usersubscriptions_page_header_seo": {
     "other": "Pretplate i naplata"
   },
   "usersubscriptions_subscription_status_unpaid": {
@@ -1405,5 +1405,8 @@
     "one": "godina",
     "few": "godine",
     "other": "godine"
+  },
+  "shopping_error_processing_error": {
+    "other": "Došlo je do pogreške prilikom obrade vaše kartice. Pokušajte ponovno kasnije ili drugim načinom plaćanja."
   }
 }

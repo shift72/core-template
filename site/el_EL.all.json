@@ -545,10 +545,10 @@
     "other": "Αντιμετωπίσαμε ένα σφάλμα. "
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVV. "
+    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVC. "
   },
   "shopping_error_invalid_cvc": {
-    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVV. "
+    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVC. "
   },
   "shopping_error_incorrect_number": {
     "other": "Παρακαλώ εισάγετε έναν έγκυρο αριθμό κάρτας."
@@ -1362,21 +1362,21 @@
   "stripe_card_not_supported": {
     "other": "Η κάρτα σας δεν υποστηρίζεται."
   },
-  "nav_search_control_placeholder":{
+  "nav_search_control_placeholder": {
     "other": "Αναζήτηση"
   },
   "nav_search_control_sr_submit": {
     "other": "Υποβάλετε αναζήτηση"
   },
-  "shopping_info_plan_interval":{
+  "shopping_info_plan_interval": {
     "one": "Ανανεώνει αυτόματα κάθε {{.Interval}}",
     "other": "Ανανεώνει αυτόματα κάθε {{.Count}} {{.Interval}}"
   },
-  "shopping_info_trial_period":{
+  "shopping_info_trial_period": {
     "one": "Δοκιμάστε τη δωρεάν δοκιμή 24 ωρών τώρα!",
     "other": "Δοκιμάστε τη δωρεάν ημερήσια δοκιμή {{.Count}}!"
   },
-  "usersubscriptions_page_header_seo":{
+  "usersubscriptions_page_header_seo": {
     "other": "Συνδρομές και Χρεώσεις"
   },
   "usersubscriptions_subscription_status_past_due": {
@@ -1406,5 +1406,8 @@
   "interval_year": {
     "one": "έτος",
     "other": "χρόνια"
+  },
+  "shopping_error_processing_error": {
+    "other": "Παρουσιάστηκε σφάλμα κατά την επεξεργασία της κάρτας σας. Δοκιμάστε ξανά αργότερα ή με διαφορετικό τρόπο πληρωμής."
   }
 }

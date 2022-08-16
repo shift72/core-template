@@ -1356,21 +1356,21 @@
   "stripe_card_not_supported": {
     "other": "カードはサポートされていません。"
   },
-  "nav_search_control_placeholder":{
+  "nav_search_control_placeholder": {
     "other": "検索"
   },
   "nav_search_control_sr_submit": {
     "other": "検索する"
   },
-  "shopping_info_plan_interval":{
+  "shopping_info_plan_interval": {
     "one": "{{.Interval}}ごとに自動的に更新されます",
     "other": "{{.Count}} {{.Interval}}ごとに自動的に更新されます"
   },
-  "shopping_info_trial_period":{
+  "shopping_info_trial_period": {
     "one": "今すぐ無料の24時間トライアルをお試しください！",
     "other": "{{.Count}}日トライアルをお試しください！"
   },
-  "usersubscriptions_page_header_seo":{
+  "usersubscriptions_page_header_seo": {
     "other": "サブスクリプションと請求"
   },
   "usersubscriptions_subscription_status_past_due": {
@@ -1396,5 +1396,8 @@
   },
   "interval_year": {
     "other": "年"
+  },
+  "shopping_error_processing_error": {
+    "other": "カードの処理中にエラーが発生しました。しばらくしてからもう一度お試しいただくか、別のお支払い方法でお試しください。"
   }
 }

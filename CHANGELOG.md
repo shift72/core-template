@@ -6,7 +6,7 @@
 - Add new variables to change the font sizes and letter spacing of headings, subtitles, body text, etc.
 - Add translations for intervals without counts
 - New keys for translations that were used by Relish and Core-template removing their overlapping usage
-- Add translation for `shopping_error_card_not_supported`
+- Add translation for `shopping_error_card_not_supported` and `shopping_error_processing_error`
 - Added support for self-service CSS and brand images.
 - Added support for carousel_play_speed and carousel_fade_time configs.
 
@@ -15,6 +15,7 @@
 - The site url in kibble.json now points to [tvoddemo.shift72.com](https://tvoddemo.shift72.com).
 - Full width background image and gradient on meta detail pages
 - Various links and buttons now use new colour variables.
+- Translations refer to "CVC" rather than "CVV" at payment stage
 
 ### Fixed
 - Broken share modal styles.

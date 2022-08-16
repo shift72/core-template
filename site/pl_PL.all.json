@@ -539,10 +539,10 @@
     "other": "Wystąpił błąd"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Wprowadź prawidłowy kod CVV."
+    "other": "Wprowadź prawidłowy kod CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Wprowadź prawidłowy kod CVV."
+    "other": "Wprowadź prawidłowy kod CVC."
   },
   "shopping_error_incorrect_number": {
     "other": "Wprowadź prawidłowy numer karty kredytowej"
@@ -1421,25 +1421,25 @@
   "stripe_card_not_supported": {
     "other": "Twoja karta nie jest obsługiwana."
   },
-  "nav_search_control_placeholder":{
+  "nav_search_control_placeholder": {
     "other": "Szukaj"
   },
   "nav_search_control_sr_submit": {
     "other": "Wyszukaj"
   },
-  "shopping_info_plan_interval":{
+  "shopping_info_plan_interval": {
     "one": "Automatycznie odnawia co {{.Interval}}",
     "few": "Automatycznie odnawia co {{.Count}} {{.Interval}}",
     "many": "Automatycznie odnawia co {{.Count}} {{.Interval}}",
     "other": "Automatycznie odnawia co {{.Count}} {{.Interval}}"
   },
-  "shopping_info_trial_period":{
+  "shopping_info_trial_period": {
     "one": "Wypróbuj bezpłatny 24-godzinny okres próbny już teraz!",
     "few": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!",
     "many": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!",
     "other": "Wypróbuj bezpłatny {{.Count}}-dniowy okres próbny!"
   },
-  "usersubscriptions_page_header_seo":{
+  "usersubscriptions_page_header_seo": {
     "other": "Subskrypcje i rozliczenia"
   },
   "usersubscriptions_subscription_status_past_due": {
@@ -1477,5 +1477,8 @@
     "few": "lat",
     "many": "lat",
     "other": "lat"
+  },
+  "shopping_error_processing_error": {
+    "other": "Wystąpił błąd podczas przetwarzania Twojej karty. Spróbuj ponownie później lub przy użyciu innej metody płatności."
   }
 }
