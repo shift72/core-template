@@ -1409,5 +1409,8 @@
   "interval_year": {
     "one": "year",
     "other": "years"
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Shopping session expired, please try again."
   }
 }

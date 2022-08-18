@@ -1408,5 +1408,8 @@
   },
   "shopping_error_processing_error": {
     "other": "Došlo je do pogreške prilikom obrade vaše kartice. Pokušajte ponovno kasnije ili drugim načinom plaćanja."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Sesija kupnje je istekla, pokušajte ponovno."
   }
 }

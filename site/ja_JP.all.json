@@ -1399,5 +1399,8 @@
   },
   "shopping_error_processing_error": {
     "other": "カードの処理中にエラーが発生しました。しばらくしてからもう一度お試しいただくか、別のお支払い方法でお試しください。"
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "ショッピング セッションの有効期限が切れました。もう一度お試しください。"
   }
 }

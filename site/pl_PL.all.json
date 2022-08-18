@@ -1480,5 +1480,8 @@
   },
   "shopping_error_processing_error": {
     "other": "Wystąpił błąd podczas przetwarzania Twojej karty. Spróbuj ponownie później lub przy użyciu innej metody płatności."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Sesja zakupowa wygasła, spróbuj ponownie."
   }
 }

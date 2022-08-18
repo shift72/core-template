@@ -1461,5 +1461,8 @@
   },
   "shopping_error_processing_error": {
     "other": "حدث خطأ أثناء معالجة بطاقتك. حاول مرة أخرى لاحقًا أو باستخدام طريقة دفع مختلفة."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "انتهت جلسة التسوق ، يرجى المحاولة مرة أخرى."
   }
 }

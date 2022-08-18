@@ -1409,5 +1409,8 @@
   },
   "shopping_error_processing_error": {
     "other": "Der opstod en fejl under behandlingen af dit kort. Prøv igen senere eller med en anden betalingsmetode."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Shopping-sessionen er udløbet, prøv venligst igen."
   }
 }
