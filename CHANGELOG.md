@@ -8,6 +8,7 @@
 - New keys for translations that were used by Relish and Core-template removing their overlapping usage
 - Add translation for `shopping_error_card_not_supported` and `shopping_error_processing_error`
 - Added support for carousel_play_speed and carousel_fade_time configs.
+- Added support to toggle on cloudsearch via Meta > cloudsearch feature toggle.
 
 ## Changed
 - Moved the carousel availability label above the CTA's.
