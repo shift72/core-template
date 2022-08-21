@@ -1409,5 +1409,8 @@
   },
   "shopping_error_processing_error": {
     "other": "Kartınız işlenirken bir hata oluştu. Daha sonra veya farklı bir ödeme yöntemiyle tekrar deneyin."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Alışveriş oturumunun süresi doldu, lütfen tekrar deneyin."
   }
 }

@@ -1399,5 +1399,8 @@
   },
   "shopping_error_processing_error": {
     "other": "處理您的卡時發生錯誤。請稍後重試或使用其他付款方式。"
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "購物會話已過期，請重試。"
   }
 }

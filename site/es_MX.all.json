@@ -1413,5 +1413,8 @@
   },
   "shopping_error_processing_error": {
     "other": "Ocurrió un error al procesar su tarjeta. Vuelve a intentarlo más tarde o con otro método de pago."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "La sesión de compra expiró, inténtalo de nuevo."
   }
 }
