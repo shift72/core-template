@@ -1435,5 +1435,8 @@
   },
   "shopping_error_processing_error": {
     "other": "Apdorojant kortelę įvyko klaida. Bandykite dar kartą vėliau arba naudodami kitą mokėjimo metodą."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Apsipirkimo sesija baigėsi, bandykite dar kartą."
   }
 }

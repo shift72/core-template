@@ -1409,5 +1409,8 @@
   },
   "shopping_error_processing_error": {
     "other": "Korttiasi käsiteltäessä tapahtui virhe. Yritä myöhemmin uudelleen tai käytä toista maksutapaa."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Ostosistunto vanhentunut, yritä uudelleen."
   }
 }

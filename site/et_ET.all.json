@@ -1409,5 +1409,8 @@
   },
   "shopping_error_processing_error": {
     "other": "Teie kaardi töötlemisel ilmnes viga. Proovige hiljem uuesti või mõne muu makseviisiga."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Osteseanss aegus, proovige uuesti."
   }
 }

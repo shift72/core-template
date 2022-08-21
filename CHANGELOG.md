@@ -6,9 +6,10 @@
 - Add new variables to change the font sizes and letter spacing of headings, subtitles, body text, etc.
 - Add translations for intervals without counts
 - New keys for translations that were used by Relish and Core-template removing their overlapping usage
-- Add translation for `shopping_error_card_not_supported` and `shopping_error_processing_error`
+- Add translation for `shopping_error_card_not_supported`, `shopping_error_processing_error` and `shopping_error_invalid_session_token`
 - Added support for self-service CSS and brand images.
 - Added support for carousel_play_speed and carousel_fade_time configs.
+- Added support to toggle on cloudsearch via Meta > cloudsearch feature toggle.
 
 ## Changed
 - Moved the carousel availability label above the CTA's.

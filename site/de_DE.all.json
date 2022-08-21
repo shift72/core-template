@@ -1409,5 +1409,8 @@
   },
   "shopping_error_processing_error": {
     "other": "Bei der Verarbeitung Ihrer Karte ist ein Fehler aufgetreten. Versuchen Sie es später noch einmal oder mit einer anderen Zahlungsmethode."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Einkaufssitzung abgelaufen, bitte versuchen Sie es erneut."
   }
 }
