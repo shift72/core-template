@@ -1,16 +1,17 @@
 {{import "./user_logged_out.jet"}}
 {{import "./user_logged_in.jet"}}
 {{import "./header-banner.jet"}}
+{{import "../brand/logo.jet"}}
 
 {{block nav(showSubNav=true)}}
 <header class="navigation" data-toggle="affix">
   {{yield headerBanner()}}
   <div class="navbar-brand-container-tablet">
-    <a class="navbar-brand" href="{{routeToPath("/")}}">{{site.Config.GetSiteName()}}</a>
+    <a class="navbar-brand-logo" href="{{routeToPath("/")}}">{{yield logo()}}</a>
   </div>
   <div class="navbar" aria-label="{{i18n("wcag_aria_label_nav_main")}}">
     <div class="navbar-brand-container">
-      <a class="navbar-brand" href="{{routeToPath("/")}}">{{site.Config.GetSiteName()}}</a>
+      <a class="navbar-brand-logo" href="{{routeToPath("/")}}">{{yield logo()}}</a>
     </div>
 
     {{if config("search_disabled") != "true"}}

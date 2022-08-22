@@ -1,0 +1,11 @@
+{{block sponsors(class="")}}
+  {{sponsorsXXXS := site.SiteBrand.GetImage("sponsors-xxxs", "/images/common/sponsors-xxxs.png")}}
+  {{sponsorsXS := site.SiteBrand.GetImage("sponsors-xs", "/images/common/sponsors-xs.png")}}
+  {{sponsorsMD := site.SiteBrand.GetImage("sponsors-md", "/images/common/sponsors-md.png")}}
+
+  <picture class="{{class}}">
+    <source class="sponsor-image" srcset="{{sponsorsMD}}" media="(min-width: 768px)">
+    <source class="sponsor-image" srcset="{{sponsorsXS}}" media="(min-width: 475px)">
+    <img class="sponsor-image" src="{{sponsorsXXXS}}">
+  </picture>
+{{end}}

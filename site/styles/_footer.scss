@@ -15,7 +15,7 @@ footer {
 }
 
 .footer-brand-image {
-  height: 40px;
+  height: var(--footer-brand-height);
 }
 
 .footer-nav {
@@ -116,41 +116,16 @@ footer {
   display: flex;
   justify-content: center;
   padding: 60px 20px 0;
+
   @include media-breakpoint-up(lg) {
     padding: 60px 50px 0;
   }
 
-  img {
-    max-width: max-content;
-  }
-
-  .sponsors-xxxs {
+  .sponsor-picture {
     width: 100%;
 
-    @include media-breakpoint-up(xs) {
-      display: none;
-    }
-  }
-
-  .sponsors-xs {
-    display: none;
-    width: 100%;
-
-    @include media-breakpoint-up(xs) {
-      display: block;
-    }
-
-    @include media-breakpoint-up(md) {
-      display: none;
-    }
-  }
-
-  .sponsors-md {
-    display: none;
-    width: 100%;
-
-    @include media-breakpoint-up(md) {
-      display: block;
+    .sponsor-image {
+      width: 100%;
     }
   }
 }
