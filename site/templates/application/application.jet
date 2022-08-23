@@ -4,14 +4,11 @@
 {{import "./google.jet" }}
 {{import "./footer/footer.jet" }}
 
-{{CDN := "//cdn.shift72.com/1.3"}}
+{{CDN := "//cdn.shift72.com/latest"}}
 {*{CDN := "//localhost:3000"}*}
 
-{{CSSFilename := ""}}
-{{if isEnabled("self_service_css") && site.CSSFilename != "" }}
-  {{CSSFilename = site.CSSFilename}}
-{{end}}
-{*{CSSFilename = "local.css"}*}
+{{CSSFileURL := site.SiteBrand.GetLink("css", "")}}
+{*{CSSFileURL := "/styles/local.css"}*}
 
 <!DOCTYPE html>
 <html lang="{{lang.Code}}">
@@ -34,22 +31,23 @@
 
     {{yield font()}}
     <link rel="stylesheet" href="/styles/main.css">
-    {{if CSSFilename != "" }}
-      <link rel="stylesheet" href="/styles/{{CSSFilename}}">
+    {{if CSSFileURL != "" }}
+      <link rel="stylesheet" href="{{CSSFileURL}}">
     {{end}}
 
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    {{faviconURL := site.SiteBrand.GetImage("favicon", "/favicon.ico")}}
+    <link rel="shortcut icon" href="{{faviconURL}}" type="image/x-icon">
+    <link rel="icon" href="{{faviconURL}}" type="image/x-icon">
 
     {{block head()}}
       {{yield seo()}}
     {{end}}
 
-    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,fetch" defer></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=Intl%2Cdefault%2Cfetch" defer></script>
     <script src="{{CDN}}/s72.core.js" defer></script>
     <script src="{{CDN}}/s72.ui.js" defer></script>
 
-    <script src="/scripts/main.js" defer></script>    
+    <script src="/scripts/main.js" defer></script>
 
     <script src="{{CDN}}/s72.transactional.js" defer></script>
     <script src="https://js.stripe.com/v3/" defer></script>

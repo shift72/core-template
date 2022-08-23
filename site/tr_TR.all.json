@@ -551,10 +551,10 @@
     "other": "İlginiz için teşekkür ederiz."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Lütfen geçerli bir CVV girin."
+    "other": "Lütfen geçerli bir CVC girin."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Lütfen geçerli bir CVV girin."
+    "other": "Lütfen geçerli bir CVC girin."
   },
   "shopping_error_incorrect_number": {
     "other": "Lütfen geçerli bir Kredi Kart Numarası girin."
@@ -630,6 +630,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Kredi Kartınız reddedildi. Lütfen tekrar deneyin."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Kartınız desteklenmiyor."
   },
   "shopping_complete_rental": {
     "other": "Başardınız!"
@@ -980,7 +983,7 @@
     "other": "Hüküm ve şartları kabul etmelisiniz."
   },
   "shopping_error_item_limit_exceeded": {
-    "other": " Ne yazık ki{{.Title}} tükendi. ."
+    "other": " Ne yazık ki{{.Title}} tükendi."
   },
   "shopping_card_change": {
     "other": "Kredi kartı doğru değil? <a href=\"{{.SubscriptionsURL}}\">Kartınızı güncellemek için buraya tıklayın.</a>"
@@ -1005,7 +1008,7 @@
     "other": "Her Ücretli {{.Interval}} sizin sonra {{.Count}} günlük ücretsiz deneme sürümü bitmeden."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Her {{.Interval}} ."
+    "other": "Her {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1358,5 +1361,56 @@
   },
   "stripe_card_not_supported": {
     "other": "Kartınız desteklenmiyor."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Arama"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Aramayı gönder"
+  },
+  "shopping_info_plan_interval": {
+    "one": "{{.Interval}} otomatik olarak yeniler",
+    "other": "Otomatik olarak her yeniler {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "24 saatlik ücretsiz denemenizi şimdi deneyin!",
+    "other": "Ücretsiz {{.Count}} günlük denemenizi deneyin!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Abonelikler ve Faturalandırma"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "vadesi geçmiş"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "ödenmemiş"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "İptal edildi"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "İptal"
+  },
+  "interval_day": {
+    "one": "gün",
+    "other": "günler"
+  },
+  "interval_week": {
+    "one": "hafta",
+    "other": "haftalar"
+  },
+  "interval_month": {
+    "one": "ay",
+    "other": "aylar"
+  },
+  "interval_year": {
+    "one": "yıl",
+    "other": "yıllar"
+  },
+  "shopping_error_processing_error": {
+    "other": "Kartınız işlenirken bir hata oluştu. Daha sonra veya farklı bir ödeme yöntemiyle tekrar deneyin."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Alışveriş oturumunun süresi doldu, lütfen tekrar deneyin."
   }
 }

@@ -551,10 +551,10 @@
     "other": "En feil har oppstått."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Skriv inn en gyldig CVV-kode."
+    "other": "Skriv inn en gyldig CVC-kode."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Skriv inn en gyldig CVV-kode."
+    "other": "Skriv inn en gyldig CVC-kode."
   },
   "shopping_error_incorrect_number": {
     "other": "Skriv inn et gyldig kredittkortnummer."
@@ -631,6 +631,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Kredittkortet har blitt avvist. Vennligst prøv igjen."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Kortet ditt støttes ikke."
+  },
   "shopping_complete_rental": {
     "other": "Vellykket!"
   },
@@ -658,7 +661,7 @@
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Du kan nå se den om {{.Count}} dager.",
-    "other": "You are now able to start watching it within the next {{.Count}} days."
+    "other": "Du kan nå begynne å se den i løpet av de neste {{.Count}} dagene."
   },
   "shopping_complete_rental_watch_window_end": {
     "one": "Når du starter avspillingen, vil du ha {{.Count}} timer til å se filmen så mange ganger du vil.",
@@ -999,7 +1002,7 @@
     "other": "Belastet hvert {{.Interval}} etter at {{.Count}} dager avsluttes."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Lades hvert {{.Interval}} ."
+    "other": "Lades hvert {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1026,7 +1029,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Prøv din gratis 24-timers prøveversjon nå!",
-    "other": "Prøv din gratis {{.Count}} day prøveversjon!"
+    "other": "Prøv din gratis prøveperiode på {{.Count}} dager!"
   },
   "plans_page_header": {
     "other": "Tilgjengelige planer"
@@ -1358,5 +1361,56 @@
   },
   "stripe_card_not_supported": {
     "other": "Kortet ditt støttes ikke."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Søk"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Søk"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Fornyes automatisk hver {{.Interval}}",
+    "other": "{{.Count}} automatisk hver {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Prøv din gratis 24-timers prøveversjon nå!",
+    "other": "Prøv din gratis prøveperiode på {{.Count}} dager!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Abonnementer og fakturering"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Forfalt"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Ubetalt"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "avbrutt"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Avbryter"
+  },
+  "interval_day": {
+    "one": "dag",
+    "other": "dager"
+  },
+  "interval_week": {
+    "one": "uke",
+    "other": "uker"
+  },
+  "interval_month": {
+    "one": "måned",
+    "other": "måneder"
+  },
+  "interval_year": {
+    "one": "år",
+    "other": "år"
+  },
+  "shopping_error_processing_error": {
+    "other": "Det oppsto en feil under behandlingen av kortet ditt. Prøv igjen senere eller med en annen betalingsmetode."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Shoppingøkten er utløpt, prøv igjen."
   }
 }

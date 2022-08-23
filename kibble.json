@@ -1,8 +1,8 @@
 {
   "name": "core-template",
   "version": "0.0.1",
-  "siteUrl": "https://abccinemas.screenplus.co",
-  "builderVersion": "0.16.7",
+  "siteUrl": "https://tvoddemo.shift72.com",
+  "builderVersion": "0.17.0",
   "defaultLanguage": "en",
   "languages": {
     "ar": {
@@ -185,5 +185,5 @@
       "pageSize": 0
     }
   ],
-  "coreTemplateVersion": "1.3.0"
+  "coreTemplateVersion": "1.4.0"
 }

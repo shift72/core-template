@@ -545,10 +545,10 @@
     "other": "Αντιμετωπίσαμε ένα σφάλμα. "
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVV. "
+    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVC. "
   },
   "shopping_error_invalid_cvc": {
-    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVV. "
+    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVC. "
   },
   "shopping_error_incorrect_number": {
     "other": "Παρακαλώ εισάγετε έναν έγκυρο αριθμό κάρτας."
@@ -624,6 +624,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Η πιστωτική σας κάρτα δεν έγινε δεκτή. Παρακαλώ προσπαθήστε ξανά."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Η κάρτα σας δεν υποστηρίζεται."
   },
   "shopping_complete_rental": {
     "other": "Επιτυχία!"
@@ -990,7 +993,7 @@
     "other": "Χρεώνεται κάθε {{.Interval}} μετά τη λήξη της δωρεάν δοκιμής {{.Count}} ημερών."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Χρεώνεται κάθε {{.Interval}} ."
+    "other": "Χρεώνεται κάθε {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1017,7 +1020,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Δοκιμάστε τη δωρεάν δοκιμή 24 ωρών τώρα!",
-    "other": "Δοκιμάστε τη δωρεάν {{.Count}} day!"
+    "other": "Δοκιμάστε τη δωρεάν ημερήσια δοκιμή {{.Count}}!"
   },
   "plans_page_header": {
     "other": "Διαθέσιμα σχέδια"
@@ -1358,5 +1361,56 @@
   },
   "stripe_card_not_supported": {
     "other": "Η κάρτα σας δεν υποστηρίζεται."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Αναζήτηση"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Υποβάλετε αναζήτηση"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Ανανεώνει αυτόματα κάθε {{.Interval}}",
+    "other": "Ανανεώνει αυτόματα κάθε {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Δοκιμάστε τη δωρεάν δοκιμή 24 ωρών τώρα!",
+    "other": "Δοκιμάστε τη δωρεάν ημερήσια δοκιμή {{.Count}}!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Συνδρομές και Χρεώσεις"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Παρελθούσα"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Απλήρωτος"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Ακυρώθηκε"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Ακύρωση"
+  },
+  "interval_day": {
+    "one": "ημέρα",
+    "other": "ημέρες"
+  },
+  "interval_week": {
+    "one": "εβδομάδα",
+    "other": "εβδομάδες"
+  },
+  "interval_month": {
+    "one": "μήνας",
+    "other": "μήνες"
+  },
+  "interval_year": {
+    "one": "έτος",
+    "other": "χρόνια"
+  },
+  "shopping_error_processing_error": {
+    "other": "Παρουσιάστηκε σφάλμα κατά την επεξεργασία της κάρτας σας. Δοκιμάστε ξανά αργότερα ή με διαφορετικό τρόπο πληρωμής."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Η περίοδος αγορών έληξε, δοκιμάστε ξανά."
   }
 }

@@ -513,10 +513,10 @@
     "other": "Tapahtui virhe"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Syötä kelvollinen CVV-tunnus."
+    "other": "Syötä kelvollinen CVC-tunnus."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Syötä kelvollinen CVV-tunnus."
+    "other": "Syötä kelvollinen CVC-tunnus."
   },
   "shopping_error_incorrect_number": {
     "other": "Syötä voimassa olevan luottokortin numero."
@@ -589,6 +589,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Kortti hylätty. Ole hyvä ja yritä uudestaan."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Korttiasi ei tueta."
   },
   "shopping_complete_rental": {
     "other": "Tapahtuma hyväksytty"
@@ -1358,5 +1361,56 @@
   },
   "stripe_card_not_supported": {
     "other": "Korttiasi ei tueta."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Haku"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Hae"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Uusiutuu automaattisesti joka {{.Interval}}",
+    "other": "{{.Count}} automaattisesti joka {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Kokeile ilmaista 24 tunnin kokeilua nyt!",
+    "other": "Kokeile ilmaista {{.Count}} päivän kokeiluversiota!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Tilaukset ja laskutus"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Erääntynyt"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Palkaton"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Peruutettu"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Peruutetaan"
+  },
+  "interval_day": {
+    "one": "päivä",
+    "other": "päivää"
+  },
+  "interval_week": {
+    "one": "viikko",
+    "other": "viikkoa"
+  },
+  "interval_month": {
+    "one": "kuukausi",
+    "other": "kuukaudet"
+  },
+  "interval_year": {
+    "one": "vuosi",
+    "other": "vuotta"
+  },
+  "shopping_error_processing_error": {
+    "other": "Korttiasi käsiteltäessä tapahtui virhe. Yritä myöhemmin uudelleen tai käytä toista maksutapaa."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Ostosistunto vanhentunut, yritä uudelleen."
   }
 }

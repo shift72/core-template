@@ -8,8 +8,11 @@
 	{{end}}
 	{{items := .Items[0:maxSlides]}}
 
+	{{playSpeed := config("carousel_play_speed")}}
+	{{fadeTime := config("carousel_fade_time")}}
+
 	{{if len(items) > 0}}
-		<s72-carousel>
+		<s72-carousel play-speed="{{playSpeed}}" fade-time="{{fadeTime}}">
 			<section class="page-collection page-collection-carousel" aria-label="{{i18n("wcag_aria_label_carousel")}}">
 				<h2 class="sr-only">{{i18n("wcag_carousel_h2")}}</h2>
 

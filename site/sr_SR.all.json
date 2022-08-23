@@ -646,6 +646,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Кредитна картица је одбијена. Молимо Вас покушајте поново."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Ваша картица није подржана."
+  },
   "shopping_complete_rental": {
     "other": "Успешно!"
   },
@@ -1081,7 +1084,7 @@
     "other": "Оптужен сваки {{.Interval}} после ваших {{.Count}} дневни бесплатни пробни крајевима."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Наплаћује се сваки {{.Interval}} ."
+    "other": "Наплаћује се сваки {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1105,11 +1108,12 @@
   },
   "shopping_info_plan_offer": {
     "one": "Аутоматски обнавља сваки {{.Interval}}",
-    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}} с"
+    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Испробајте своју бесплатну пробну верзију од 24 сата сада!",
-    "other": "Испробајте своју бесплатну пробну верзију {{.Count}}"
+    "few": "Испробајте своју бесплатну пробну верзију од {{.Count}} дана!",
+    "other": "Испробајте своју бесплатну пробну верзију од {{.Count}} дана!"
   },
   "plans_page_header": {
     "other": "Доступни планови"
@@ -1364,5 +1368,62 @@
   },
   "stripe_card_not_supported": {
     "other": "Ваша картица није подржана."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Претрага"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Пошаљите претрагу"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Аутоматски обнавља сваки {{.Interval}}",
+    "few": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}}",
+    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Испробајте своју бесплатну пробну верзију од 24 сата сада!",
+    "few": "Испробајте своју бесплатну пробну верзију {{.Count}} даи!",
+    "other": "Испробајте своју бесплатну пробну верзију {{.Count}} даи!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Претплате и наплата"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Касни рок"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Неплаћено"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Отказано"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Отказивање"
+  },
+  "interval_day": {
+    "one": "дан",
+    "few": "дана",
+    "other": "дана"
+  },
+  "interval_week": {
+    "one": "Недеља",
+    "few": "недеље",
+    "other": "недеље"
+  },
+  "interval_month": {
+    "one": "месец дана",
+    "few": "месеци",
+    "other": "месеци"
+  },
+  "interval_year": {
+    "one": "године",
+    "few": "године",
+    "other": "године"
+  },
+  "shopping_error_processing_error": {
+    "other": "Дошло је до грешке приликом обраде ваше картице. Покушајте поново касније или са другим начином плаћања."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Сесија куповине је истекла, покушајте поново."
   }
 }

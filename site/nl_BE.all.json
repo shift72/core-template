@@ -667,6 +667,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "De kredietkaart is geweigerd. Gelieve opnieuw te proberen."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Uw kaart wordt niet ondersteund."
+  },
   "shopping_complete_rental": {
     "other": "Gelukt !"
   },
@@ -1358,5 +1361,56 @@
   },
   "stripe_card_not_supported": {
     "other": "Uw kaart wordt niet ondersteund."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Zoek"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Zoekopdracht indienen"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Vernieuwt automatisch elke {{.Interval}}",
+    "other": "{{.Count}} automatisch elke {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Probeer nu uw gratis proefperiode van 24 uur!",
+    "other": "Probeer uw gratis {{.Count}} !"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Abonnementen en facturering"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Verlopen"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "onbetaald"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Geannuleerd"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Annuleren"
+  },
+  "interval_day": {
+    "one": "dag",
+    "other": "dagen"
+  },
+  "interval_week": {
+    "one": "week",
+    "other": "weken"
+  },
+  "interval_month": {
+    "one": "maand",
+    "other": "maanden"
+  },
+  "interval_year": {
+    "one": "jaar",
+    "other": "jaar"
+  },
+  "shopping_error_processing_error": {
+    "other": "Er is een fout opgetreden tijdens het verwerken van uw kaart. Probeer het later opnieuw of met een andere betaalmethode."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Shopping-sessie is verlopen, probeer het opnieuw."
   }
 }

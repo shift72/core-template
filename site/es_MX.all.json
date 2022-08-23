@@ -545,10 +545,10 @@
     "other": "Ocurrió un error"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Por favor ingresa un CVV válido."
+    "other": "Por favor ingresa un CVC válido."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Por favor ingresa un CVV válido."
+    "other": "Por favor ingresa un CVC válido."
   },
   "shopping_error_incorrect_number": {
     "other": "Por favor ingresa un número de tarjeta de crédito válido."
@@ -624,6 +624,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Esa tarjeta de crédito está declinada. Por favor intenta más tarde."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Su tarjeta no es compatible."
   },
   "shopping_complete_rental": {
     "other": "¡Éxito!"
@@ -1189,7 +1192,7 @@
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
-    "other": "{{.Count}} {{.Interval}}s"
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Ingrese los detalles de su tarjeta de crédito a continuación para comenzar su suscripción."
@@ -1208,11 +1211,11 @@
   },
   "shopping_info_plan_offer": {
     "one": "Se renueva automáticamente cada {{.Interval}}",
-    "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}s"
+    "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
-    "one": "Renueva automáticamente cada {{.Interval}}",
-    "other": "Renueva automáticamente cada {{.Count}} {{.Interval}}"
+    "one": "¡Pruebe ahora su prueba gratuita de 24 horas!",
+    "other": "¡Pruebe su prueba gratuita de {{.Count}} días!"
   },
   "availability_expires": {
     "other": "Caducó {{.Expiry}}"
@@ -1362,5 +1365,56 @@
   },
   "stripe_card_not_supported": {
     "other": "Su tarjeta no es compatible."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Buscar"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Enviar busqueda"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Se renueva automáticamente cada {{.Interval}}",
+    "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "¡Pruebe ahora su prueba gratuita de 24 horas!",
+    "other": "¡Pruebe su prueba gratuita de {{.Count}} días!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Suscripciones y Facturación"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Atrasado"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "No pagado"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancelado"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancelado"
+  },
+  "interval_day": {
+    "one": "día",
+    "other": "días"
+  },
+  "interval_week": {
+    "one": "semana",
+    "other": "semanas"
+  },
+  "interval_month": {
+    "one": "mes",
+    "other": "meses"
+  },
+  "interval_year": {
+    "one": "año",
+    "other": "años"
+  },
+  "shopping_error_processing_error": {
+    "other": "Ocurrió un error al procesar su tarjeta. Vuelve a intentarlo más tarde o con otro método de pago."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "La sesión de compra expiró, inténtalo de nuevo."
   }
 }

@@ -605,10 +605,10 @@
     "other": "Ocorreu um erro."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Por favor, insira um CVV válido."
+    "other": "Por favor, insira um CVC válido."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Por favor, insira um CVV válido."
+    "other": "Por favor, insira um CVC válido."
   },
   "shopping_error_incorrect_number": {
     "other": "Por favor, insira um número de cartão de crédito válido."
@@ -684,6 +684,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Seu cartão de crédito foi recusado. Por favor, tente novamente."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Seu cartão não é compatível."
   },
   "shopping_complete_rental": {
     "other": "Successo!"
@@ -965,7 +968,7 @@
     "other": "Atualize seu cartão de crédito. Os cartões suportados são Visa, Mastercard e American Express"
   },
   "shopping_card_new_subscription": {
-    "other": "This card will saved and be charged regularly"
+    "other": "Este cartão será salvo e cobrado regularmente"
   },
   "shopping_card_change": {
     "other": "O cartão de crédito não está correto? <a href=\"{{.SubscriptionsURL}}\"> Clique aqui para atualizar seu cartão. </a>"
@@ -1173,7 +1176,7 @@
     "other": "Cobrado a cada {{.Interval}} após o término da avaliação gratuita de {{.Count}} dias."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Cobrado a cada {{.Interval}} ."
+    "other": "Cobrado a cada {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1362,5 +1365,56 @@
   },
   "stripe_card_not_supported": {
     "other": "Seu cartão não é compatível."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Buscar"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Buscar"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Renova automaticamente a cada {{.Interval}}",
+    "other": "Renova automaticamente cada {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Experimente agora o seu teste gratuito de 24 horas!",
+    "other": "Experimente o seu teste gratuito de {{.Count}} dia!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Assinaturas e cobrança"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Vencido"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Não pago"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancelado"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancelando"
+  },
+  "interval_day": {
+    "one": "dia",
+    "other": "dias"
+  },
+  "interval_week": {
+    "one": "semana",
+    "other": "semanas"
+  },
+  "interval_month": {
+    "one": "mês",
+    "other": "meses"
+  },
+  "interval_year": {
+    "one": "ano",
+    "other": "anos"
+  },
+  "shopping_error_processing_error": {
+    "other": "Ocorreu um erro ao processar seu cartão. Tente novamente mais tarde ou com outra forma de pagamento."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "A sessão de compras expirou. Tente novamente."
   }
 }

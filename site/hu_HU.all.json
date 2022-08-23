@@ -551,10 +551,10 @@
     "other": "Hiba történt."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Kérjük, adj meg egy érvényes CVV számot."
+    "other": "Kérjük, adj meg egy érvényes CVC számot."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Kérjük, adj meg egy érvényes CVV számot."
+    "other": "Kérjük, adj meg egy érvényes CVC számot."
   },
   "shopping_error_incorrect_number": {
     "other": "Kérjük, adj meg egy érvényes bankkártya számot."
@@ -630,6 +630,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "A bankkártyát visszautasították. Kérjük, próbálkozz újra."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "A kártya nem támogatott."
   },
   "shopping_complete_rental": {
     "other": "Sikerült!"
@@ -908,13 +911,10 @@
     "other": "Lejár: {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
-    "other": "usersubscriptions_subscription_status_cancelled"
-  },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
+    "other": "Törölve"
   },
   "usersubscriptions_subscription_status_past_due": {
-    "other": "usersubscriptions_subscription_status_past_due"
+    "other": "Határidőn túl"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Próbaidő"
@@ -1367,5 +1367,50 @@
   },
   "stripe_card_not_supported": {
     "other": "A kártya nem támogatott."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Keresés"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Keresés indítása"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Automatikusan megújítja minden {{.Interval}}",
+    "other": "Automatikusan {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Próbálja ki most az ingyenes 24 órás próbaverziót!",
+    "other": "Próbálja ki ingyenes {{.Count}} napos próbaverzióját!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Előfizetések és számlázás"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Kifizetetlen"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Törlés"
+  },
+  "interval_day": {
+    "one": "nap",
+    "other": "napok"
+  },
+  "interval_week": {
+    "one": "hét",
+    "other": "hétig"
+  },
+  "interval_month": {
+    "one": "hónap",
+    "other": "hónapok"
+  },
+  "interval_year": {
+    "one": "év",
+    "other": "évek"
+  },
+  "shopping_error_processing_error": {
+    "other": "Hiba történt a kártya feldolgozása közben. Próbálja újra később vagy másik fizetési móddal."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "A vásárlási munkamenet lejárt, próbálkozzon újra."
   }
 }

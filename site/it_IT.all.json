@@ -554,10 +554,10 @@
     "other": "C'è stato un errore"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Prego, inserisci un CVV valido."
+    "other": "Prego, inserisci un CVC valido."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Prego, inserisci un CVV valido."
+    "other": "Prego, inserisci un CVC valido."
   },
   "shopping_error_incorrect_number": {
     "other": "Prego, inserisci un numero di carta di credito valido."
@@ -633,6 +633,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "La carta di credito è stata rifiutata. Ti prego di riprovare."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "La tua carta non è supportata."
   },
   "shopping_complete_rental": {
     "other": "Fatto!"
@@ -909,7 +912,7 @@
     "other": "Addebitato ogni {{.Interval}} al termine del periodo di prova gratuito di {{.Count}} giorni."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Addebitato ogni {{.Interval}} ."
+    "other": "Addebitato ogni {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -936,7 +939,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Prova subito la tua prova gratuita di 24 ore!",
-    "other": "Prova la tua prova gratuita di {{.Count}} Day!"
+    "other": "Prova la tua prova gratuita di {{.Count}} giorni!"
   },
   "plans_page_header": {
     "other": "Piani disponibili"
@@ -1362,5 +1365,56 @@
   },
   "stripe_card_not_supported": {
     "other": "La tua carta non è supportata."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Cerca"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Invia la ricerca"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Si rinnova automaticamente ogni {{.Interval}}",
+    "other": "Rinnova automaticamente ogni {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Prova subito la tua prova gratuita di 24 ore!",
+    "other": "Prova la tua prova gratuita di {{.Count}} giorni!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Abbonamenti e fatturazione"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Scaduto"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Non pagato"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Annullato"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancellazione"
+  },
+  "interval_day": {
+    "one": "giorno",
+    "other": "giorni"
+  },
+  "interval_week": {
+    "one": "settimana",
+    "other": "settimane"
+  },
+  "interval_month": {
+    "one": "mese",
+    "other": "mesi"
+  },
+  "interval_year": {
+    "one": "anno",
+    "other": "anni"
+  },
+  "shopping_error_processing_error": {
+    "other": "Si è verificato un errore durante l'elaborazione della carta. Riprova più tardi o con un metodo di pagamento diverso."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Sessione di acquisto scaduta, riprova."
   }
 }

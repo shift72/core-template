@@ -587,10 +587,10 @@
     "other": "Įvyko klaida"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVV)."
+    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVC)."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVV)."
+    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVC)."
   },
   "shopping_error_incorrect_number": {
     "other": "Prašome įvesti teisingą mokėjimo kortelės numerį."
@@ -666,6 +666,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Mokėjimo kortelė nepriimta. Prašome bandyti dar kartą."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Jūsų kortelė nepalaikoma."
   },
   "shopping_complete_rental": {
     "other": "Pirkinys sėkmingas!"
@@ -1082,7 +1085,7 @@
     "other": "{{.Interval}} kas .Intervalas pasibaigus {{.Count}} dienų bandomajam laikotarpiui."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Įkraunama kas {{.Interval}} ."
+    "other": "Įkraunama kas {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1111,6 +1114,8 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Išbandykite nemokamą 24 valandų bandomąją versiją dabar!",
+    "few": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
+    "many": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
     "other": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!"
   },
   "plans_page_header": {
@@ -1370,5 +1375,68 @@
   },
   "stripe_card_not_supported": {
     "other": "Jūsų kortelė nepalaikoma."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Paieška"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Pateikti paiešką"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Automatiškai atnaujina kiekvieną {{.Interval}}",
+    "few": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}",
+    "many": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}",
+    "other": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Išbandykite nemokamą 24 valandų bandomąją versiją dabar!",
+    "few": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
+    "many": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
+    "other": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Prenumeratos ir atsiskaitymas"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Pradelsta"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Neapmokėta"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Atšauktas"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Atšaukiamas"
+  },
+  "interval_day": {
+    "one": "dieną",
+    "few": "dienų",
+    "many": "dienų",
+    "other": "dienų"
+  },
+  "interval_week": {
+    "one": "savaitę",
+    "few": "savaites",
+    "many": "savaites",
+    "other": "savaites"
+  },
+  "interval_month": {
+    "one": "mėnuo",
+    "few": "mėnesių",
+    "many": "mėnesių",
+    "other": "mėnesių"
+  },
+  "interval_year": {
+    "one": "metų",
+    "few": "metų",
+    "many": "metų",
+    "other": "metų"
+  },
+  "shopping_error_processing_error": {
+    "other": "Apdorojant kortelę įvyko klaida. Bandykite dar kartą vėliau arba naudodami kitą mokėjimo metodą."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Apsipirkimo sesija baigėsi, bandykite dar kartą."
   }
 }

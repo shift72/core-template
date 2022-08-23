@@ -17,6 +17,7 @@
       display: block;
       height: 30px;
       line-height: 30px;
+      opacity: 1;
       position: absolute;
       right: 0;
       text-shadow: none;
@@ -24,6 +25,10 @@
       top: 0;
       width: 30px;
       z-index: 999;
+
+      &:hover {
+        color: var(--body-color-hover);
+      }
     }
   }
 

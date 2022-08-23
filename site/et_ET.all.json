@@ -551,10 +551,10 @@
     "other": "Juhtus viga. "
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Palun sisesta kehtiv CVV."
+    "other": "Palun sisesta kehtiv CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Palun sisesta kehtiv CVV."
+    "other": "Palun sisesta kehtiv CVC."
   },
   "shopping_error_incorrect_number": {
     "other": "Palun sisesta kehtiv krediitkaardi number."
@@ -630,6 +630,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Krediitkaart on tagasi lükatud. Palun proovi uuesti."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Teie kaarti ei toetata."
   },
   "shopping_complete_rental": {
     "other": "Õnnestus!"
@@ -908,13 +911,10 @@
     "other": "Aegub {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
-    "other": "usersubscriptions_subscription_status_cancelled"
-  },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
+    "other": "Tühistatud"
   },
   "usersubscriptions_subscription_status_past_due": {
-    "other": "usersubscriptions_subscription_status_past_due"
+    "other": "Tähtaeg ületatud"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Prooviperiood"
@@ -1367,5 +1367,50 @@
   },
   "stripe_card_not_supported": {
     "other": "Teie kaarti ei toetata."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Otsing"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Otsi"
+  },
+  "shopping_info_plan_interval": {
+    "one": "{{.Interval}} automaatselt iga .intervall",
+    "other": "{{.Count}} automaatselt iga {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Proovige oma tasuta 24-tunnist prooviperioodi kohe!",
+    "other": "Proovige oma tasuta {{.Count}} päevast prooviversiooni!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Tellimused ja arveldamine"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Tasumata"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Tühistamine"
+  },
+  "interval_day": {
+    "one": "päeval",
+    "other": "päevadel"
+  },
+  "interval_week": {
+    "one": "nädal",
+    "other": "nädalaid"
+  },
+  "interval_month": {
+    "one": "kuu",
+    "other": "kuud"
+  },
+  "interval_year": {
+    "one": "aastal",
+    "other": "aastat"
+  },
+  "shopping_error_processing_error": {
+    "other": "Teie kaardi töötlemisel ilmnes viga. Proovige hiljem uuesti või mõne muu makseviisiga."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Osteseanss aegus, proovige uuesti."
   }
 }

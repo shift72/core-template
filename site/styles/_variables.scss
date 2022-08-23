@@ -4,35 +4,85 @@
 // These variables should be reasonably generic so that overrides are placed in main.scss.
 
 :root {
+  /*#region BASE COLOURS */
+  // Don't put derivative colour variables in this region.
+
   --primary-rgb: 0, 163, 255;
   --secondary-rgb: 102, 199, 255;
   --body-color-rgb: 255, 255, 255;
-  --body-bg-rgb: 15, 15, 15;
-  --body-bg-accent-rgb: 25, 25, 25; // darken(body-bg, 10%) OR lighten(body-bg, 10%)
-  --link-color-hover-rgb: 217, 217, 217; // darken(body-color, 15%)
-  --input-focus-border-color-rgb: 131, 210, 216; // lighten(primary, 25%)
-  --main-content-icon-hover-rgb: 207, 207, 207; // white .8 opacity
+  --body-bg-rgb: 0, 0, 0;
+
+  // To calculate --body-color-hover-rgb, do:
+  //   1.  Convert var(--body-color-rgb) to hex.
+  //   2a. If dark themed, run it through the Sass darken function:  darken(hex, 20%).
+  //   2b. If light themed, run it through the Sass lighten function:  lighten(hex, 20%).
+  //   3.  Convert the result back to RGB.
+  //   TODO(jackh): figure out a non-Sass way of calculating this.
+  --body-color-hover-rgb: 204, 204, 204;
+
+  // To calculate --input-focus-border-color-rgb, do:
+  //   1.  Convert var(--body-bg) to hex.
+  //   2a. If dark themed, run it through the Sass lighten function:  lighten(hex, 10%).
+  //   2b. If light themed, run it through the Sass darken function:  darken(hex, 10%).
+  //   3.  Convert the result back to RGB.
+  //   TODO(jackh): figure out a non-Sass way of calculating this.
+  --body-bg-accent-rgb: 25, 25, 25;
+
+  // To calculate --input-focus-border-color-rgb, do:
+  //   1.  Convert var(--primary-rgb) to hex.
+  //   2.  Run it through the Sass lighten function:  lighten(hex, 25%).
+  //   3.  Convert the result back to RGB.
+  //   TODO(jackh): figure out a non-Sass way of calculating this.
+  --input-focus-border-color-rgb: 131, 210, 216;
+
+  // To calculate --hover-background-rgb, do:
+  //   1.  Convert var(--body-bg-accent-rgb) to hex.
+  //   2a. If dark themed, run it through the Sass lighten function:  lighten(hex, 13%).
+  //   2b. If light themed, run it through the Sass darken function:  darken(hex, 13%).
+  //   3.  Convert the result back to RGB.
+  //   TODO(jackh): figure out a non-Sass way of calculating this.
+  --hover-background-rgb: 58, 58, 58;
 
   --primary: rgb(var(--primary-rgb));
   --secondary: rgb(var(--secondary-rgb));
   --body-color: rgb(var(--body-color-rgb));
+  --body-color-hover: rgb(var(--body-color-hover-rgb));
   --body-bg: rgb(var(--body-bg-rgb));
   --body-bg-accent: rgb(var(--body-bg-accent-rgb));
-  --link-color: var(--body-color);
-  --link-color-hover: rgb(var(--link-color-hover-rgb));
   --input-focus-border-color: rgb(var(--input-focus-border-color-rgb));
-  --main-content-icon-hover: rgb(var(--main-content-icon-hover-rgb));
+  --hover-background: rgb(var(--hover-background-rgb));
+  /*#endregion BASE COLOURS */
+
   --tooltip-color: var(--body-bg, #000);
   --tooltip-bg: var(--primary, #00a3ff);
   --tooltip-arrow-color: var(--tooltip-bg);
 
   --input-height: 40px;
 
-  --navbar-brand-padding-y: 25px;
-  --navbar-brand-min-width: 126px;
-  --navbar-brand-min-width-md: 126px;
-  --navbar-brand-min-width-lg: 126px;
-  --navbar-brand-min-width-xl: 126px;
+  --link-color: var(--body-color);
+  --link-color-hover: var(--body-color-hover);
+
+  --navbar-link-color: var(--body-color);
+  --navbar-link-hover-color: var(--body-color-hover);
+  --navbar-search-background-color: var(--body-bg-accent);
+  --navbar-dropdown-background: var(--body-bg-accent);
+  --navbar-brand-height: 50px;
+
+  --footer-brand-height: 50px;
+
+  --signin-text-color: var(--body-color);
+  --signin-text-color-hover: var(--body-color-hover);
+  --signin-border-color: transparent;
+  --signin-border-color-hover: transparent;
+  --signin-background: rgba(var(--body-color-rgb), 0.1);
+  --signin-background-hover: var(--hover-background);
+  --signin-background-lg: transparent;
+  --signin-background-hover-lg: transparent;
+
+  --signout-background: rgba(var(--body-color-rgb), 0.1);
+  --signout-background-hover: rgba(var(--body-color-rgb), 0.2);
+  --signout-text-color: var(--body-color);
+  --signout-text-color-hover: var(--body-color);
 
   --carousel-height: 75vh;
   --carousel-height-sm: 75vh;
@@ -47,9 +97,36 @@
   --page-padding-top: 120px;
   --page-padding-top-md: 120px;
   --page-padding-top-lg: 180px;
-  --page-detail-padding-top: 120px;
-  --page-detail-padding-top-md: 120px;
-  --page-detail-padding-top-lg: 180px;
+  --page-detail-padding-top: 245px;
+  --page-detail-padding-top-md: 290px;
+  --page-detail-padding-top-lg: 440px;
+
+  --heading-1-style-letter-spacing: normal;
+  --heading-2-style-letter-spacing: normal;
+  --heading-3-style-letter-spacing: normal;
+  --heading-3-style-letter-spacing-sm: normal;
+  --heading-4-style-letter-spacing: normal;
+  --body-1-style-letter-spacing: normal;
+  --body-2-style-letter-spacing: normal;
+  --subtitle-1-style-letter-spacing: normal;
+  --subtitle-2-style-letter-spacing: normal;
+  --caption-1-style-letter-spacing: normal;
+  --overline-style-letter-spacing: normal;
+
+  --heading-1-style-font-size: 32px;
+  --heading-1-style-font-size-xs: 46px;
+  --heading-1-style-font-size-small: 24px;
+  --heading-2-style-font-size: 29px;
+  --heading-2-style-font-size-sm: 35px;
+  --heading-3-style-font-size: 20px;
+  --heading-3-style-font-size-sm: 24px;
+  --heading-4-style-font-size: 18px;
+  --body-1-style-font-size: 16px;
+  --body-2-style-font-size: 14px;
+  --subtitle-1-style-font-size: 16px;
+  --subtitle-2-style-font-size: 14px;
+  --caption-1-style-font-size: 16px;
+  --overline-style-font-size: 14px;
 }
 
 // Bootstrap 4 overrides START
@@ -133,18 +210,11 @@ $navbar-show-background-color: var(--body-bg-accent) !default;
 $navbar-dark-active-color: var(--primary) !default;
 $navbar-nav-link-padding-x: 1em !default;
 $navbar-nav-link-padding-y: 1em !default;
-$navbar-search-background-color: var(--body-bg-accent) !default;
 
 // Uses navbar-dark theme so we can use variables for colouring
 $navbar-dark-active-color: #fd4766 !default;
 $navbar-dark-color: var(--body-color) !default;
 $navbar-dark-hover-color: #fd4766 !default;
-
-// Sub Navivgation
-$subnav-nav-item-color: var(--body-color) !default;
-$subnav-nav-item-hover-background-color: var(--primary) !default;
-$subnav-nav-item-active-background-color: var(--primary) !default;
-$subnav-dropdown-background: var(--body-bg-accent) !default;
 
 // Buttons
 $button-text-color: var(--body-bg) !default;
@@ -154,26 +224,12 @@ $button-background-hover: var(--secondary) !default;
 $trailer-button-text-color: var(--body-color) !default;
 $mobile-nav-link-color: var(--body-color) !default;
 
-$signin-text-color: var(--body-color) !default;
-$signin-text-color-hover: var(--primary) !default;
-$signin-border-color: transparent !default;
-$signin-border-color-hover: transparent !default;
-$signin-background: rgba(var(--body-color-rgb), 0.1) !default;
-$signin-background-hover: rgba(var(--body-color-rgb), 0.2) !default;
-$signin-background-lg: transparent !default;
-$signin-background-hover-lg: transparent !default;
-
 $signup-text-color: $button-text-color !default;
 $signup-text-color-hover: $button-text-color-hover !default;
 $signup-border-color: transparent !default;
 $signup-border-color-hover: transparent !default;
 $signup-background: $button-background !default;
 $signup-background-hover: $button-background-hover !default;
-
-$signout-background: rgba(var(--body-color-rgb), 0.1) !default;
-$signout-background-hover: rgba(var(--body-color-rgb), 0.2) !default;
-$signout-text-color: var(--body-color) !default;
-$signout-text-color-hover: var(--body-color) !default;
 
 // Image Gradient Overlays
 $top-gradient-color: var(--body-bg-rgb) !default;
@@ -188,15 +244,6 @@ $carousel-bg-color: var(--body-bg) !default;
 $footer-brand-min-width: 100px !default;
 $footer-brand-min-width-md: 100px !default;
 $footer-bar-background-color: var(--body-bg-accent) !default;
-
-// Social
-// ------------------------------------
-$facebook-color: var(--body-color) !default;
-$instagram-color: var(--body-color) !default;
-$twitter-color: var(--body-color) !default;
-$youtube-color: var(--body-color) !default;
-$linkedin-color: var(--body-color) !default;
-$letterboxd-color: var(--body-color) !default;
 
 // Meta Items
 // ------------------------------------

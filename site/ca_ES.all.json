@@ -605,10 +605,10 @@
     "other": "Va ocórrer un error"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Introduïu un CVV vàlid."
+    "other": "Introduïu un CVC vàlid."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Introduïu un CVV vàlid."
+    "other": "Introduïu un CVC vàlid."
   },
   "shopping_error_incorrect_number": {
     "other": "Si us plau, introduïu un número de targeta de crèdit vàlid."
@@ -684,6 +684,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "S'ha rebutjat la targeta de crèdit. Siusplau torna-ho a provar."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "La teva targeta no és compatible."
   },
   "shopping_complete_rental": {
     "other": "Èxit!"
@@ -992,13 +995,10 @@
     "other": "Caduca {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
-    "other": "usersubscriptions_subscription_status_cancelled"
-  },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
+    "other": "Cancel·lat"
   },
   "usersubscriptions_subscription_status_past_due": {
-    "other": "usersubscriptions_subscription_status_past_due"
+    "other": "Vençuda"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Període de prova"
@@ -1206,7 +1206,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Prova la teva prova gratuïta de 24 hores ara!",
-    "other": "Prova la teva prova gratuïta de {{.Count}} day!"
+    "other": "Prova la teva prova gratuïta de {{.Count}} dies!"
   },
   "plans_page_header": {
     "other": "Plans disponibles"
@@ -1367,5 +1367,50 @@
   },
   "stripe_card_not_supported": {
     "other": "La teva targeta no és compatible."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Cerca"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Envia la cerca"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Renova automàticament cada {{.Interval}}",
+    "other": "Renova automàticament cada {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Prova la teva prova gratuïta de 24 hores ara!",
+    "other": "Prova la teva prova gratuïta de {{.Count}} dies!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Subscripcions i facturació"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Sense pagar"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "S'està cancel·lant"
+  },
+  "interval_day": {
+    "one": "dia",
+    "other": "dies"
+  },
+  "interval_week": {
+    "one": "setmana",
+    "other": "setmanes"
+  },
+  "interval_month": {
+    "one": "mes",
+    "other": "mesos"
+  },
+  "interval_year": {
+    "one": "curs",
+    "other": "anys"
+  },
+  "shopping_error_processing_error": {
+    "other": "S'ha produït un error en processar la vostra targeta. Torna-ho a provar més tard o amb una altra forma de pagament."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "La sessió de compres ha caducat, torna-ho a provar."
   }
 }

@@ -3,12 +3,14 @@
   "name": "{{site.Config.GetSiteName()}}",
   "icons": [
     {
-      "src": "/images/common/icons-192.png",
+      {{icons192 := site.SiteBrand.GetImage("icons-192", "/images/common/icons-192.png")}}
+      "src": "{{icons192}}",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/common/icons-512.png",
+      {{icons512 := site.SiteBrand.GetImage("icons-512", "/images/common/icons-512.png")}}
+      "src": "{{icons512}}",
       "type": "image/png",
       "sizes": "512x512"
     }

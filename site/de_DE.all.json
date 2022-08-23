@@ -536,10 +536,10 @@
     "other": "Es ist ein Fehler aufgetreten."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Bitte geben Sie eine gültige CVV-Nummer ein."
+    "other": "Bitte geben Sie eine gültige CVC-Nummer ein."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Bitte geben Sie eine CVV-Nummer ein."
+    "other": "Bitte geben Sie eine CVC-Nummer ein."
   },
   "shopping_error_incorrect_number": {
     "other": "Bitte geben Sie eine gültige Kreditkarten-Nummer ein."
@@ -615,6 +615,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Die Kreditkarte wurde abgelehnt. Bitte versuchen Sie es noch einmal."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Ihre Karte wird nicht unterstützt."
   },
   "shopping_complete_rental": {
     "other": "Kauf erfolgreich!"
@@ -903,7 +906,7 @@
     "other": "Wird alle {{.Interval}} nach Ablauf Ihrer {{.Count}}-tägigen kostenlosen Testversion berechnet."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Aufgeladen in jedem {{.Interval}} ."
+    "other": "Aufgeladen in jedem {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1080,13 +1083,10 @@
     "other": "Läuft ab {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
-    "other": "usersubscriptions_subscription_status_cancelled"
-  },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
+    "other": "Abgesagt"
   },
   "usersubscriptions_subscription_status_past_due": {
-    "other": "usersubscriptions_subscription_status_past_due"
+    "other": "Überfällig"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Probezeit"
@@ -1367,5 +1367,50 @@
   },
   "stripe_card_not_supported": {
     "other": "Ihre Karte wird nicht unterstützt."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Suche"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Suche einreichen"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Erneuert automatisch alle {{.Interval}}",
+    "other": "Erneuert automatisch alle {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Testen Sie jetzt Ihre kostenlose 24-Stunden-Testversion!",
+    "other": "Testen Sie Ihre kostenlose {{.Count}} Tage-Testversion!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Abonnements und Abrechnung"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Unbezahlt"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Stornieren"
+  },
+  "interval_day": {
+    "one": "Tag",
+    "other": "Tage"
+  },
+  "interval_week": {
+    "one": "Woche",
+    "other": "Wochen"
+  },
+  "interval_month": {
+    "one": "Monat",
+    "other": "Monate"
+  },
+  "interval_year": {
+    "one": "Jahr",
+    "other": "Jahre"
+  },
+  "shopping_error_processing_error": {
+    "other": "Bei der Verarbeitung Ihrer Karte ist ein Fehler aufgetreten. Versuchen Sie es später noch einmal oder mit einer anderen Zahlungsmethode."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Einkaufssitzung abgelaufen, bitte versuchen Sie es erneut."
   }
 }

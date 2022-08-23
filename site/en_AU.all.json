@@ -608,10 +608,13 @@
     "other": "An error occurred"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Please enter a valid CVV."
+    "other": "Please enter a valid CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Please enter a valid CVV."
+    "other": "Please enter a valid CVC."
+  },
+  "shopping_error_processing_error": {
+    "other": "An error occurred while processing your card. Try again later or with a different payment method."
   },
   "shopping_error_incorrect_number": {
     "other": "Please enter a valid Credit Card Number."
@@ -693,6 +696,9 @@
   },
   "shopping_error_plan_expired": {
     "other": "This plan is no longer available."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Your card is not supported."
   },
   "shopping_complete_rental": {
     "other": "Success!"
@@ -991,7 +997,7 @@
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
-    "other": "{{.Count}} {{.Interval}}s"
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Enter your credit card details below in order start your subscription."
@@ -1019,7 +1025,7 @@
   },
   "shopping_info_plan_offer": {
     "one": "Automatically renews every {{.Interval}}",
-    "other": "Automatically renews every {{.Count}} {{.Interval}}s"
+    "other": "Automatically renews every {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Try your free 24hr trial now!",
@@ -1358,5 +1364,53 @@
   },
   "stripe_card_not_supported": {
     "other": "Your card is not supported."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Search"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Submit search"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Automatically renews every {{.Interval}}",
+    "other": "Automatically renews every {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Try your free 24hr trial now!",
+    "other": "Try your free {{.Count}} day trial!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Subscriptions and Billing"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Past due"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Unpaid"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancelled"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancelling"
+  },
+  "interval_day": {
+    "one": "day",
+    "other": "days"
+  },
+  "interval_week": {
+    "one": "week",
+    "other": "weeks"
+  },
+  "interval_month": {
+    "one": "month",
+    "other": "months"
+  },
+  "interval_year": {
+    "one": "year",
+    "other": "years"
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Shopping session expired, please try again."
   }
 }

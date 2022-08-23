@@ -615,10 +615,10 @@
     "other": "Сталася помилка."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Будь ласка, введіть дійсний CVV."
+    "other": "Будь ласка, введіть дійсний CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Будь ласка, введіть дійсний CVV."
+    "other": "Будь ласка, введіть дійсний CVC."
   },
   "shopping_error_incorrect_number": {
     "other": "Будь ласка, введіть дійсний номер банківської картки."
@@ -694,6 +694,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Банківську картку відхилено. Спробуйте ще раз."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Ваша картка не підтримується."
   },
   "shopping_complete_rental": {
     "other": "Успішно!"
@@ -1125,7 +1128,7 @@
     "other": "Заряджені кожен {{.Interval}} після вашого {{.Count}} дня закінчується безкоштовно суд."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Стягується через кожний {{.Interval}} ."
+    "other": "Стягується через кожний {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1154,7 +1157,9 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Спробуйте безкоштовну 24-годинну пробну версію зараз!",
-    "other": "Спробуйте безкоштовну пробну версію {{.Count}}"
+    "few": "Спробуйте {{.Count}}-денну безкоштовну пробну версію!",
+    "many": "Спробуйте {{.Count}}-денну безкоштовну пробну версію!",
+    "other": "Спробуйте {{.Count}}-денну безкоштовну пробну версію!"
   },
   "plans_page_header": {
     "other": "Доступні плани"
@@ -1398,5 +1403,68 @@
   },
   "stripe_card_not_supported": {
     "other": "Ваша картка не підтримується."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Пошук"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Шукати"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Автоматично поновлюється через кожний {{.Interval}}",
+    "few": "Автоматично оновлює кожні {{.Count}} {{.Interval}} сек",
+    "many": "Автоматично оновлює кожні {{.Count}} {{.Interval}} сек",
+    "other": "Автоматично оновлює кожні {{.Count}} {{.Interval}} сек"
+  },
+  "shopping_info_trial_period": {
+    "one": "Спробуйте безкоштовну 24-годинну пробну версію зараз!",
+    "few": "Спробуйте {{.Count}}-денну безкоштовну пробну версію!",
+    "many": "Спробуйте {{.Count}}-денну безкоштовну пробну версію!",
+    "other": "Спробуйте {{.Count}}-денну безкоштовну пробну версію!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Підписки та виставлення рахунків"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Прострочено"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Неоплачений"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Скасовано"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Скасування"
+  },
+  "interval_day": {
+    "one": "день",
+    "few": "днів",
+    "many": "днів",
+    "other": "днів"
+  },
+  "interval_week": {
+    "one": "тиждень",
+    "few": "тижнів",
+    "many": "тижнів",
+    "other": "тижнів"
+  },
+  "interval_month": {
+    "one": "місяць",
+    "few": "місяців",
+    "many": "місяців",
+    "other": "місяців"
+  },
+  "interval_year": {
+    "one": "рік",
+    "few": "років",
+    "many": "років",
+    "other": "років"
+  },
+  "shopping_error_processing_error": {
+    "other": "Під час обробки вашої картки сталася помилка. Спробуйте пізніше або іншим способом оплати."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Сеанс покупки закінчився, повторіть спробу."
   }
 }

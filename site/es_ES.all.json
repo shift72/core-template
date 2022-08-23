@@ -545,10 +545,10 @@
     "other": "Ocurrió un error"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Por favor, introduzca una CVV válida."
+    "other": "Por favor, introduzca una CVC válida."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Por favor, introduzca una CVV válida."
+    "other": "Por favor, introduzca una CVC válida."
   },
   "shopping_error_incorrect_number": {
     "other": "Por favor, introduzca un número de  tarjeta de crédito válido."
@@ -624,6 +624,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "La tarjeta de crédito ha sido rechazada. Inténtelo de nuevo."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Su tarjeta no es compatible."
   },
   "shopping_complete_rental": {
     "other": "¡Éxito!"
@@ -903,7 +906,7 @@
     "other": "Se {{.Interval}} cada .Interval después de que finaliza la prueba gratuita de {{.Count}}"
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Cargado cada {{.Interval}} ."
+    "other": "Cargado cada {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -930,7 +933,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "¡Pruebe ahora su prueba gratuita de 24 horas!",
-    "other": "¡Pruebe su prueba gratuita de {{.Count}} day!"
+    "other": "¡Pruebe su prueba gratuita de {{.Count}} días!"
   },
   "plans_page_header": {
     "other": "Planes Disponibles"
@@ -1362,5 +1365,56 @@
   },
   "stripe_card_not_supported": {
     "other": "Su tarjeta no es compatible."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Buscar"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Aplicar búsqueda"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Renueva automáticamente cada {{.Interval}}",
+    "other": "Renueva automáticamente cada {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "¡Pruebe ahora su prueba gratuita de 24 horas!",
+    "other": "¡Pruebe su prueba gratuita de {{.Count}} días!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Suscripciones y Facturación"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Atrasado"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "No pagado"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancelado"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancelado"
+  },
+  "interval_day": {
+    "one": "día",
+    "other": "días"
+  },
+  "interval_week": {
+    "one": "semana",
+    "other": "semanas"
+  },
+  "interval_month": {
+    "one": "mes",
+    "other": "meses"
+  },
+  "interval_year": {
+    "one": "año",
+    "other": "años"
+  },
+  "shopping_error_processing_error": {
+    "other": "Ocurrió un error al procesar su tarjeta. Vuelve a intentarlo más tarde o con otro método de pago."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "La sesión de compra expiró, inténtalo de nuevo."
   }
 }
