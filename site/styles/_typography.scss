@@ -64,6 +64,7 @@
   @include typography-style(
     $font-size: var(--heading-4-style-font-size),
     $font-weight: $font-weight-light,
+    $letter-spacing: var(--heading-4-style-letter-spacing),
     $margin-bottom: 20px
   );
 }
