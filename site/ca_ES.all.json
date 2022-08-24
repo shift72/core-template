@@ -1412,5 +1412,14 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "La sessió de compres ha caducat, torna-ho a provar."
+  },
+  "live_stream_starts": {
+    "other": "El flux comença {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "En streaming ara"
+  },
+  "live_streaming_ended": {
+    "other": "S'ha acabat l'emissió"
   }
 }

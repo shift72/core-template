@@ -1466,5 +1466,14 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Сеанс покупки закінчився, повторіть спробу."
+  },
+  "live_stream_starts": {
+    "other": "Потік починається {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Зараз транслюється"
+  },
+  "live_streaming_ended": {
+    "other": "Потокове передавання закінчено"
   }
 }

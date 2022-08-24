@@ -1412,5 +1412,14 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Shopping-sessionen er udløbet, prøv venligst igen."
+  },
+  "live_stream_starts": {
+    "other": "Stream starter {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streamer nu"
+  },
+  "live_streaming_ended": {
+    "other": "Streaming sluttede"
   }
 }

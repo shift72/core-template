@@ -1483,5 +1483,14 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Sesja zakupowa wygasła, spróbuj ponownie."
+  },
+  "live_stream_starts": {
+    "other": "Strumień zaczyna się {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streaming teraz"
+  },
+  "live_streaming_ended": {
+    "other": "Transmisja zakończona"
   }
 }

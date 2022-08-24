@@ -1464,5 +1464,14 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "انتهت جلسة التسوق ، يرجى المحاولة مرة أخرى."
+  },
+  "live_stream_starts": {
+    "other": "يبدأ الدفق {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "يتدفقون الآن"
+  },
+  "live_streaming_ended": {
+    "other": "انتهى التدفق"
   }
 }

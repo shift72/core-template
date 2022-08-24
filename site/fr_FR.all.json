@@ -1416,5 +1416,14 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "La session d'achat a expiré, veuillez réessayer."
+  },
+  "live_stream_starts": {
+    "other": "Le flux commence {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Diffuser maintenant"
+  },
+  "live_streaming_ended": {
+    "other": "Diffusion terminée"
   }
 }

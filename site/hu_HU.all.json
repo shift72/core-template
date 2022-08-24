@@ -1412,5 +1412,14 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "A vásárlási munkamenet lejárt, próbálkozzon újra."
+  },
+  "live_stream_starts": {
+    "other": "Az adatfolyam elindul {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streamelés most"
+  },
+  "live_streaming_ended": {
+    "other": "A közvetítés véget ért"
   }
 }

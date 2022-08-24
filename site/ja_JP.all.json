@@ -1402,5 +1402,14 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "ショッピング セッションの有効期限が切れました。もう一度お試しください。"
+  },
+  "live_stream_starts": {
+    "other": "ストリーム開始 {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "ストリーミング中"
+  },
+  "live_streaming_ended": {
+    "other": "配信終了"
   }
 }

@@ -1460,5 +1460,14 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Сеанс покупки истек, попробуйте еще раз."
+  },
+  "live_stream_starts": {
+    "other": "Стрим начинается {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Потоковое сейчас"
+  },
+  "live_streaming_ended": {
+    "other": "Трансляция завершена"
   }
 }
