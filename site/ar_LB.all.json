@@ -1473,5 +1473,8 @@
   },
   "live_streaming_ended": {
     "other": "انتهى التدفق"
+  },
+  "availability_live": {
+    "other": "يعيش"
   }
 }

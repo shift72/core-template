@@ -1421,5 +1421,8 @@
   },
   "live_streaming_ended": {
     "other": "Streaming beendet"
+  },
+  "availability_live": {
+    "other": "LIVE"
   }
 }

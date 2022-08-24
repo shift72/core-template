@@ -1469,5 +1469,8 @@
   },
   "live_streaming_ended": {
     "other": "Трансляция завершена"
+  },
+  "availability_live": {
+    "other": "ЖИТЬ"
   }
 }

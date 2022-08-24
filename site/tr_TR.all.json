@@ -1421,5 +1421,8 @@
   },
   "live_streaming_ended": {
     "other": "Akış sona erdi"
+  },
+  "availability_live": {
+    "other": "CANLI"
   }
 }

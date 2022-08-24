@@ -1421,5 +1421,8 @@
   },
   "live_streaming_ended": {
     "other": "Η ροή έληξε"
+  },
+  "availability_live": {
+    "other": "ΖΩ"
   }
 }

@@ -1425,5 +1425,8 @@
   },
   "live_streaming_ended": {
     "other": "Transmisión finalizada"
+  },
+  "availability_live": {
+    "other": "EN VIVO"
   }
 }

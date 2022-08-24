@@ -1411,5 +1411,8 @@
   },
   "live_streaming_ended": {
     "other": "流式传输已结束"
+  },
+  "availability_live": {
+    "other": "居住"
   }
 }

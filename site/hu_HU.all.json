@@ -1421,5 +1421,8 @@
   },
   "live_streaming_ended": {
     "other": "A közvetítés véget ért"
+  },
+  "availability_live": {
+    "other": "ÉLŐ"
   }
 }

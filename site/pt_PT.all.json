@@ -1425,5 +1425,8 @@
   },
   "live_streaming_ended": {
     "other": "A transmissão terminou"
+  },
+  "availability_live": {
+    "other": "VIVER"
   }
 }

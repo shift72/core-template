@@ -1447,5 +1447,8 @@
   },
   "live_streaming_ended": {
     "other": "Srautas baigėsi"
+  },
+  "availability_live": {
+    "other": "GYVAI"
   }
 }

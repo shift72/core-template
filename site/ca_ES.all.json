@@ -1421,5 +1421,8 @@
   },
   "live_streaming_ended": {
     "other": "S'ha acabat l'emissió"
+  },
+  "availability_live": {
+    "other": "EN VIU"
   }
 }

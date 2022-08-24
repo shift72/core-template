@@ -1421,5 +1421,8 @@
   },
   "live_streaming_ended": {
     "other": "Suoratoisto päättyi"
+  },
+  "availability_live": {
+    "other": "ELÄÄ"
   }
 }

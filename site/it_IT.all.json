@@ -1425,5 +1425,8 @@
   },
   "live_streaming_ended": {
     "other": "Lo streaming è terminato"
+  },
+  "availability_live": {
+    "other": "ABITARE"
   }
 }

@@ -1421,5 +1421,8 @@
   },
   "live_streaming_ended": {
     "other": "Streaming sluttede"
+  },
+  "availability_live": {
+    "other": "DIREKTE"
   }
 }

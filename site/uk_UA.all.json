@@ -1475,5 +1475,8 @@
   },
   "live_streaming_ended": {
     "other": "Потокове передавання закінчено"
+  },
+  "availability_live": {
+    "other": "НАЖИВО"
   }
 }

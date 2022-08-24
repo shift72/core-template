@@ -1420,5 +1420,8 @@
   },
   "live_streaming_ended": {
     "other": "Streaming je završio"
+  },
+  "availability_live": {
+    "other": "UŽIVO"
   }
 }

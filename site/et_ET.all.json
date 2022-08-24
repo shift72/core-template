@@ -1421,5 +1421,8 @@
   },
   "live_streaming_ended": {
     "other": "Voogesitus lõppes"
+  },
+  "availability_live": {
+    "other": "LIVE"
   }
 }
