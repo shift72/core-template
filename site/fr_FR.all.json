@@ -1428,5 +1428,8 @@
   },
   "availability_live": {
     "other": "DIRECT"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Obtenir un billet"
   }
 }

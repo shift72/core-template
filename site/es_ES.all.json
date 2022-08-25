@@ -1428,5 +1428,8 @@
   },
   "availability_live": {
     "other": "EN VIVO"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Obtener boleto"
   }
 }

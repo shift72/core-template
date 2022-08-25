@@ -1424,5 +1424,8 @@
   },
   "availability_live": {
     "other": "DIREKTE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Få billet"
   }
 }

@@ -1414,5 +1414,8 @@
   },
   "availability_live": {
     "other": "居住"
+  },
+  "shopping_action_get_ticket": {
+    "other": "取票"
   }
 }

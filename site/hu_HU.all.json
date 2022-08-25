@@ -1424,5 +1424,8 @@
   },
   "availability_live": {
     "other": "ÉLŐ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Vegyél jegyet"
   }
 }

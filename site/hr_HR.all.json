@@ -1423,5 +1423,8 @@
   },
   "availability_live": {
     "other": "UŽIVO"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Uzmi kartu"
   }
 }

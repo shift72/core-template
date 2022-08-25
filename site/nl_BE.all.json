@@ -1424,5 +1424,8 @@
   },
   "availability_live": {
     "other": "LIVE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Koop een kaartje"
   }
 }

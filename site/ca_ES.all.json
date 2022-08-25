@@ -1424,5 +1424,8 @@
   },
   "availability_live": {
     "other": "EN VIU"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Aconsegueix el bitllet"
   }
 }

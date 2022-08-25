@@ -1472,5 +1472,8 @@
   },
   "availability_live": {
     "other": "ЖИТЬ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Получить билет"
   }
 }

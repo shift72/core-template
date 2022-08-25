@@ -1428,5 +1428,8 @@
   },
   "availability_live": {
     "other": "ABITARE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Ottieni il biglietto"
   }
 }

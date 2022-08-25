@@ -1450,5 +1450,8 @@
   },
   "availability_live": {
     "other": "GYVAI"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Gaukite bilietą"
   }
 }

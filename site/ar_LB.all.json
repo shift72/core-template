@@ -1476,5 +1476,8 @@
   },
   "availability_live": {
     "other": "يعيش"
+  },
+  "shopping_action_get_ticket": {
+    "other": "احصل على تذكرة"
   }
 }

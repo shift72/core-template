@@ -1424,5 +1424,8 @@
   },
   "availability_live": {
     "other": "ELÄÄ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Hanki lippu"
   }
 }

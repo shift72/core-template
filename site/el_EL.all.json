@@ -1424,5 +1424,8 @@
   },
   "availability_live": {
     "other": "ΖΩ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Πάρτε εισιτήριο"
   }
 }

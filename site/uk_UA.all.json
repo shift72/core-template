@@ -1478,5 +1478,8 @@
   },
   "availability_live": {
     "other": "НАЖИВО"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Отримати квиток"
   }
 }

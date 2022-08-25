@@ -1495,5 +1495,8 @@
   },
   "availability_live": {
     "other": "RELACJA NA ŻYWO"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Kup bilet"
   }
 }

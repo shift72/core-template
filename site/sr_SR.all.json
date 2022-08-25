@@ -1437,5 +1437,8 @@
   },
   "availability_live": {
     "other": "ЛИВЕ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Узми карту"
   }
 }
