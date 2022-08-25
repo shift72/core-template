@@ -10,6 +10,7 @@
 - Added support for self-service CSS and brand images.
 - Added support for carousel_play_speed and carousel_fade_time configs.
 - Added support to toggle on cloudsearch via Meta > cloudsearch feature toggle.
+- Add translations for live events
 
 ## Changed
 - Moved the carousel availability label above the CTA's.
