@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.4.0...HEAD)
 
+### Added
+- Translations for live events
+
 ## [1.4.0](https://github.com/shift72/core-template/compare/1.3.0...1.4.0)
 
 ### Added
@@ -12,7 +15,6 @@
 - Added support for self-service CSS and brand images.
 - Added support for carousel_play_speed and carousel_fade_time configs.
 - Added support to toggle on cloudsearch via Meta > cloudsearch feature toggle.
-- Add translations for live events
 
 ## Changed
 - Moved the carousel availability label above the CTA's.
