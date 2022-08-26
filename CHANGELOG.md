@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.3.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.4.0...HEAD)
+
+## [1.4.0](https://github.com/shift72/core-template/compare/1.3.0...1.4.0)
 
 ### Added
 - Add new variables to change the font sizes and letter spacing of headings, subtitles, body text, etc.
