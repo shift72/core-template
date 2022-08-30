@@ -96,8 +96,7 @@ s72-carousel {
   @extend .carousel-bottom-gradient;
 
   bottom: 0;
-  display: flex;
-  flex-direction: column;
+  display: grid;  
   left: 0;
   padding: var(--carousel-bottom-gradient-height) 20px 1px;
   position: absolute;
@@ -109,8 +108,13 @@ s72-carousel {
   }
 
   @include media-breakpoint-up(lg) {
-    flex-direction: row;
+    grid-template-columns: 1fr auto;
     padding: var(--carousel-bottom-gradient-height-lg) 50px 1px;
+  }
+
+  .live-lozenge {
+    margin-bottom: 8px;
+    grid-column: 1;
   }
 
   .meta-awards {
@@ -124,14 +128,15 @@ s72-carousel {
     color: var(--body-color);
 
     @include media-breakpoint-up(lg) {
-      align-self: flex-end;
-      flex-shrink: 0;
-      margin-left: auto;
-      order: 1;
+      grid-column: 2;
+      grid-row: 2;
+      align-self: end;
     }
   }
 
   .sponsor {
+    margin-bottom: 8px;
+
     @include media-breakpoint-up(lg) {
       text-align: right;
     }
@@ -149,6 +154,11 @@ s72-carousel {
 
   .meta-item-content {
     color: var(--body-color);
+
+    @include media-breakpoint-up(lg) {
+      grid-column: 1;
+      grid-row: 2;
+    }
   }
 
   h3 {

@@ -16,6 +16,8 @@
 
       {{if showItemContent}}
         <div class="carousel-item-caption">
+          <s72-live-lozenge data-slug="{{item.Slug}}"></s72-live-lozenge>
+
           {{if item.ItemType == "film"}}
             {{if len(item.InnerItem.AwardCategories) > 0 || item.InnerItem.ImageMap["Sponsor"]}}
               <div class="sponsor-awards-wrapper">
@@ -24,6 +26,7 @@
               </div>
             {{end}}
           {{end}}
+
           <div class="meta-item-content">
             {{yield carouselItemTitle(title=item.GetTitle(i18n))}}
 

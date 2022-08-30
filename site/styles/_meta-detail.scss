@@ -121,11 +121,7 @@
     }
 
     .live-lozenge {
-      margin-bottom: 7px;
-
-      @include media-breakpoint-up(xs) {
-        margin-bottom: 11px;
-      }
+      margin-bottom: 12px;
 
       @include media-breakpoint-up(lg) {
         margin-bottom: 8px;
@@ -142,7 +138,7 @@
       margin-bottom: 12px;
 
       @include media-breakpoint-up(xs) {
-        margin-bottom: 26px;
+        margin-bottom: 20px;
       }
     }
   }
