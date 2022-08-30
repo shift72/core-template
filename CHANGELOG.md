@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.4.0...HEAD)
 
+### Added
+- Live lozenge to film detail page and carousel with translations.
+
 ## [1.4.0](https://github.com/shift72/core-template/compare/1.3.0...1.4.0)
 
 ### Added
