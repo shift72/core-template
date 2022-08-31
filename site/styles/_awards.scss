@@ -6,6 +6,7 @@
     gap: 30px 104px;
     grid-auto-rows: 1fr;
     margin-bottom: 51px;
+    margin-top: -14px;
 
     @include media-breakpoint-up(md) {
       grid-template-columns: repeat(2, minmax(0, 320px));
