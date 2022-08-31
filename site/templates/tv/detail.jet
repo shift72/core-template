@@ -31,8 +31,10 @@
         {{end}}
         <div class="meta-detail-content">
           <h1>{{tvseason.GetTitle(i18n)}}</h1>
-          <div class="meta-detail-tagline">
-            {{yield metaItemTagline() tvseason}}
+          <div class="meta-detail-tagline-and-classification">
+            <div class="meta-detail-tagline">
+              {{yield metaItemTagline() tvseason}}
+            </div>
           </div>
           <s72-availability-label data-slug="{{tvseason.Slug}}"></s72-availability-label>
 
