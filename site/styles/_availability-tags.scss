@@ -2,8 +2,8 @@ s72-availability-label {
   .availability-state {
     @extend .d-flex;
     @include body-1-style;
-    margin-bottom: 16px;
     line-height: 24px;
+    margin-bottom: 16px;
 
     &::before {
       @extend .fa;
