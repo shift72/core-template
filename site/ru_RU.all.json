@@ -1460,5 +1460,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Сеанс покупки истек, попробуйте еще раз."
+  },
+  "live_lozenge_ended": {
+    "other": "ПРЯМОЕ ЗАВЕРШЕНИЕ"
+  },
+  "live_lozenge_live": {
+    "other": "ЖИТЬ"
+  },
+  "live_lozenge_minutes": {
+    "other": "В прямом эфире: {{.MINUTES}} МИНУТ"
+  },
+  "live_lozenge_hours": {
+    "other": "ПРЯМОЕ ВРЕМЯ: {{.HOURS}} ЧАСОВ"
+  },
+  "live_lozenge_days": {
+    "other": "В ПРЯМОМ ЭФИРЕ: {{.DAYS}} ДНЕЙ"
   }
 }

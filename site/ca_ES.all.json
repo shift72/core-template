@@ -1412,5 +1412,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "La sessió de compres ha caducat, torna-ho a provar."
+  },
+  "live_lozenge_ended": {
+    "other": "ACABAT EN DIRECTE"
+  },
+  "live_lozenge_live": {
+    "other": "EN VIU"
+  },
+  "live_lozenge_minutes": {
+    "other": "EN DIRECTE: {{.MINUTES}} MINUTS"
+  },
+  "live_lozenge_hours": {
+    "other": "EN DIRECTE: {{.HOURS}} HORES"
+  },
+  "live_lozenge_days": {
+    "other": "EN DIRECTE: {{.DAYS}} DIES"
   }
 }

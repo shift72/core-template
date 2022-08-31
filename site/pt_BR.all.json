@@ -1416,5 +1416,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "A sessão de compras expirou. Tente novamente."
+  },
+  "live_lozenge_ended": {
+    "other": "LIVE ENCERRADA"
+  },
+  "live_lozenge_live": {
+    "other": "VIVER"
+  },
+  "live_lozenge_minutes": {
+    "other": "AO VIVO: {{.MINUTES}} MINUTOS"
+  },
+  "live_lozenge_hours": {
+    "other": "AO VIVO: {{.HOURS}} HORAS"
+  },
+  "live_lozenge_days": {
+    "other": "AO VIVO: {{.DAYS}} DIAS"
   }
 }

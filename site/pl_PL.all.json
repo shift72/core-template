@@ -1483,5 +1483,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Sesja zakupowa wygasła, spróbuj ponownie."
+  },
+  "live_lozenge_ended": {
+    "other": "NA ŻYWO ZAKOŃCZONE"
+  },
+  "live_lozenge_live": {
+    "other": "RELACJA NA ŻYWO"
+  },
+  "live_lozenge_minutes": {
+    "other": "NA ŻYWO: {{.MINUTES}} MINUT"
+  },
+  "live_lozenge_hours": {
+    "other": "NA ŻYWO: {{.HOURS}} GODZ."
+  },
+  "live_lozenge_days": {
+    "other": "NA ŻYWO: {{.DAYS}} DNI"
   }
 }

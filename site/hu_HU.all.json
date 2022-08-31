@@ -1412,5 +1412,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "A vásárlási munkamenet lejárt, próbálkozzon újra."
+  },
+  "live_lozenge_ended": {
+    "other": "ÉLŐ VÉGE"
+  },
+  "live_lozenge_live": {
+    "other": "ÉLŐ"
+  },
+  "live_lozenge_minutes": {
+    "other": "ÉLŐ: {{.MINUTES}} PERC"
+  },
+  "live_lozenge_hours": {
+    "other": "ÉLŐ: {{.HOURS}} ÓRA"
+  },
+  "live_lozenge_days": {
+    "other": "ÉLŐ: {{.DAYS}} NAP"
   }
 }

@@ -1466,5 +1466,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Сеанс покупки закінчився, повторіть спробу."
+  },
+  "live_lozenge_ended": {
+    "other": "ПРАМА ЗАВЕРШИЛАСЯ"
+  },
+  "live_lozenge_live": {
+    "other": "НАЖИВО"
+  },
+  "live_lozenge_minutes": {
+    "other": "НАЖИВО: {{.MINUTES}} ХВИЛИН"
+  },
+  "live_lozenge_hours": {
+    "other": "НАЖИВО: {{.HOURS}} ГОД"
+  },
+  "live_lozenge_days": {
+    "other": "НАЖИВО: {{.DAYS}} ДНІВ"
   }
 }

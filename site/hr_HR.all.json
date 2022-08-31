@@ -1411,5 +1411,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Sesija kupnje je istekla, pokušajte ponovno."
+  },
+  "live_lozenge_ended": {
+    "other": "UŽIVO ZAVRŠENO"
+  },
+  "live_lozenge_live": {
+    "other": "UŽIVO"
+  },
+  "live_lozenge_minutes": {
+    "other": "UŽIVO: {{.MINUTES}} MINUTA"
+  },
+  "live_lozenge_hours": {
+    "other": "UŽIVO: {{.HOURS}} SATI"
+  },
+  "live_lozenge_days": {
+    "other": "UŽIVO: {{.DAYS}} DANA"
   }
 }

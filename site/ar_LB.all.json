@@ -1464,5 +1464,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "انتهت جلسة التسوق ، يرجى المحاولة مرة أخرى."
+  },
+  "live_lozenge_ended": {
+    "other": "انتهى البث المباشر"
+  },
+  "live_lozenge_live": {
+    "other": "يعيش"
+  },
+  "live_lozenge_minutes": {
+    "other": "البث المباشر: {{.MINUTES}} دقيقة"
+  },
+  "live_lozenge_hours": {
+    "other": "البث المباشر: {{.HOURS}} ساعة"
+  },
+  "live_lozenge_days": {
+    "other": "مباشر: {{.DAYS}} يوم"
   }
 }

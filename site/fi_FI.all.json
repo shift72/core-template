@@ -1412,5 +1412,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Ostosistunto vanhentunut, yritä uudelleen."
+  },
+  "live_lozenge_ended": {
+    "other": "LIVE PÄÄTTYNYT"
+  },
+  "live_lozenge_live": {
+    "other": "ELÄÄ"
+  },
+  "live_lozenge_minutes": {
+    "other": "LIVE: {{.MINUTES}} MINUUTTIA"
+  },
+  "live_lozenge_hours": {
+    "other": "LIVE: {{.HOURS}} TUNTIA"
+  },
+  "live_lozenge_days": {
+    "other": "LIVE: {{.DAYS}} PÄIVÄÄ"
   }
 }

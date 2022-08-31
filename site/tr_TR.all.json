@@ -1412,5 +1412,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Alışveriş oturumunun süresi doldu, lütfen tekrar deneyin."
+  },
+  "live_lozenge_ended": {
+    "other": "CANLI SONA ERDİ"
+  },
+  "live_lozenge_live": {
+    "other": "CANLI"
+  },
+  "live_lozenge_minutes": {
+    "other": "CANLI: {{.MINUTES}} DAKİKA"
+  },
+  "live_lozenge_hours": {
+    "other": "CANLI: {{.HOURS}} SAAT"
+  },
+  "live_lozenge_days": {
+    "other": "CANLI: {{.DAYS}} GÜN"
   }
 }

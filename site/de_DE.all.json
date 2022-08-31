@@ -1412,5 +1412,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Einkaufssitzung abgelaufen, bitte versuchen Sie es erneut."
+  },
+  "live_lozenge_ended": {
+    "other": "LEBEN BEENDET"
+  },
+  "live_lozenge_live": {
+    "other": "LIVE"
+  },
+  "live_lozenge_minutes": {
+    "other": "LIVE: {{.MINUTES}} MINUTEN"
+  },
+  "live_lozenge_hours": {
+    "other": "LIVE: {{.HOURS}} STUNDEN"
+  },
+  "live_lozenge_days": {
+    "other": "LIVE: {{.DAYS}} TAGE"
   }
 }

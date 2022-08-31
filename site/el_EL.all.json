@@ -1412,5 +1412,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Η περίοδος αγορών έληξε, δοκιμάστε ξανά."
+  },
+  "live_lozenge_ended": {
+    "other": "LIVE ΤΕΛΕΙΩΣΕ"
+  },
+  "live_lozenge_live": {
+    "other": "ΖΩ"
+  },
+  "live_lozenge_minutes": {
+    "other": "ΖΩΝΤΑΝΑ: {{.MINUTES}} ΛΕΠΤΑ"
+  },
+  "live_lozenge_hours": {
+    "other": "ΖΩΝΤΑΝΑ: {{.HOURS}} ΩΡΕΣ"
+  },
+  "live_lozenge_days": {
+    "other": "ΖΩΝΤΑΝΑ: {{.DAYS}} ΗΜΕΡΕΣ"
   }
 }

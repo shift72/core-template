@@ -1412,5 +1412,20 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Shoppingøkten er utløpt, prøv igjen."
+  },
+  "live_lozenge_ended": {
+    "other": "LIVE AVSLUTTET"
+  },
+  "live_lozenge_live": {
+    "other": "BO"
+  },
+  "live_lozenge_minutes": {
+    "other": "LIVE: {{.MINUTES}} MINUTTER"
+  },
+  "live_lozenge_hours": {
+    "other": "LIVE: {{.HOURS}} TIMER"
+  },
+  "live_lozenge_days": {
+    "other": "LIVE: {{.DAYS}} DAGER"
   }
 }
