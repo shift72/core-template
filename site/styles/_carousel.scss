@@ -96,7 +96,7 @@ s72-carousel {
   @extend .carousel-bottom-gradient;
 
   bottom: 0;
-  display: grid;  
+  display: grid;
   left: 0;
   padding: var(--carousel-bottom-gradient-height) 20px 1px;
   position: absolute;
@@ -113,8 +113,8 @@ s72-carousel {
   }
 
   .live-lozenge {
-    margin-bottom: 8px;
     grid-column: 1;
+    margin-bottom: 8px;
   }
 
   .meta-awards {
@@ -128,9 +128,9 @@ s72-carousel {
     color: var(--body-color);
 
     @include media-breakpoint-up(lg) {
+      align-self: end;
       grid-column: 2;
       grid-row: 2;
-      align-self: end;
     }
   }
 
