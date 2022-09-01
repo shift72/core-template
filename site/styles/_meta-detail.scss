@@ -122,9 +122,19 @@
 
     .live-lozenge {
       margin-bottom: 12px;
+      position: absolute;
+      // 42px magic number is 30px height of the lozenge + 12px of "margin".
+      top: calc(var(--page-detail-padding-top) - 42px);
+
+      @include media-breakpoint-up(xs) {
+        // 42px magic number is 30px height of the lozenge + 12px of "margin".
+        top: calc(var(--page-detail-padding-top-md) - 42px);
+      }
 
       @include media-breakpoint-up(lg) {
         margin-bottom: 8px;
+        // 42px magic number is 30px height of the lozenge + 12px of "margin".
+        top: calc(var(--page-detail-padding-top-lg) - 42px);
       }
     }
   }
