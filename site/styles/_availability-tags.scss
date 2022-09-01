@@ -74,8 +74,9 @@ s72-plan-label {
 
 s72-live-lozenge {
   .live-lozenge {
-    background-color: var(--live-lozenge-background-color);
+    backdrop-filter: blur(16px);
     border-radius: 100px;
+    color: var(--body-color);
     font-size: 12px;
     line-height: 30px;
     padding: 0 12px;
