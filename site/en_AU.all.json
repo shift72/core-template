@@ -1420,7 +1420,7 @@
     "other": "LIVE"
   },
   "live_lozenge_minutes": {
-    "other": "LIVE: {{.MINUTES}} MINS"
+    "other": "LIVE: {{.MINUTES}} MINUTES"
   },
   "live_lozenge_hours": {
     "other": "LIVE: {{.HOURS}} HOURS"
