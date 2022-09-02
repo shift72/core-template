@@ -1414,18 +1414,18 @@
     "other": "Shoppingøkten er utløpt, prøv igjen."
   },
   "live_lozenge_ended": {
-    "other": "LIVE AVSLUTTET"
+    "other": "LIVE: AVSLUTTET"
   },
   "live_lozenge_live": {
     "other": "BO"
   },
   "live_lozenge_minutes": {
-    "other": "LIVE: {{.MINUTES}} MINUTTER"
+    "other": "LIVE: {{.Minutes}} MINUTTER"
   },
   "live_lozenge_hours": {
-    "other": "LIVE: {{.HOURS}} TIMER"
+    "other": "LIVE: {{.Hours}} TIMER"
   },
   "live_lozenge_days": {
-    "other": "LIVE: {{.DAYS}} DAGER"
+    "other": "LIVE: {{.Days}} DAGER"
   }
 }

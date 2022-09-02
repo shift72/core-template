@@ -1462,18 +1462,18 @@
     "other": "Сеанс покупки истек, попробуйте еще раз."
   },
   "live_lozenge_ended": {
-    "other": "ПРЯМОЕ ЗАВЕРШЕНИЕ"
+    "other": "ПРЯМОЙ ЭФИР: ЗАКОНЧИЛСЯ"
   },
   "live_lozenge_live": {
     "other": "ЖИТЬ"
   },
   "live_lozenge_minutes": {
-    "other": "В прямом эфире: {{.MINUTES}} МИНУТ"
+    "other": "В прямом эфире: {{.Minutes}} МИНУТ"
   },
   "live_lozenge_hours": {
-    "other": "ПРЯМОЕ ВРЕМЯ: {{.HOURS}} ЧАСОВ"
+    "other": "ПРЯМОЕ ВРЕМЯ: {{.Hours}} ЧАСОВ"
   },
   "live_lozenge_days": {
-    "other": "В ПРЯМОМ ЭФИРЕ: {{.DAYS}} ДНЕЙ"
+    "other": "В ПРЯМОМ ЭФИРЕ: {{.Days}} ДНЕЙ"
   }
 }

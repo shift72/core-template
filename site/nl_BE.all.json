@@ -1414,18 +1414,18 @@
     "other": "Shopping-sessie is verlopen, probeer het opnieuw."
   },
   "live_lozenge_ended": {
-    "other": "LIVE BEINDIGD"
+    "other": "LIVE: BEINDIGD"
   },
   "live_lozenge_live": {
     "other": "LIVE"
   },
   "live_lozenge_minutes": {
-    "other": "LIVE: {{.MINUTES}} MINUTEN"
+    "other": "LIVE: {{.Minutes}} MINUTEN"
   },
   "live_lozenge_hours": {
-    "other": "LIVE: {{.HOURS}} UUR"
+    "other": "LIVE: {{.Hours}} UUR"
   },
   "live_lozenge_days": {
-    "other": "LIVE: {{.DAYS}} DAGEN"
+    "other": "LIVE: {{.Days}} DAGEN"
   }
 }

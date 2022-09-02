@@ -1466,18 +1466,18 @@
     "other": "انتهت جلسة التسوق ، يرجى المحاولة مرة أخرى."
   },
   "live_lozenge_ended": {
-    "other": "انتهى البث المباشر"
+    "other": "مباشر: انتهى"
   },
   "live_lozenge_live": {
     "other": "يعيش"
   },
   "live_lozenge_minutes": {
-    "other": "البث المباشر: {{.MINUTES}} دقيقة"
+    "other": "البث المباشر {{.Minutes}} دقائق من الدقائق"
   },
   "live_lozenge_hours": {
-    "other": "البث المباشر: {{.HOURS}} ساعة"
+    "other": "مباشر: {{.Hours}}"
   },
   "live_lozenge_days": {
-    "other": "مباشر: {{.DAYS}} يوم"
+    "other": "مباشر {{.Days}} أيام"
   }
 }

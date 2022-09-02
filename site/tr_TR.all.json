@@ -1414,18 +1414,18 @@
     "other": "Alışveriş oturumunun süresi doldu, lütfen tekrar deneyin."
   },
   "live_lozenge_ended": {
-    "other": "CANLI SONA ERDİ"
+    "other": "CANLI: SONA ERDİ"
   },
   "live_lozenge_live": {
     "other": "CANLI"
   },
   "live_lozenge_minutes": {
-    "other": "CANLI: {{.MINUTES}} DAKİKA"
+    "other": "CANLI: {{.Minutes}} DAKİKA"
   },
   "live_lozenge_hours": {
-    "other": "CANLI: {{.HOURS}} SAAT"
+    "other": "CANLI: {{.Hours}} SAAT"
   },
   "live_lozenge_days": {
-    "other": "CANLI: {{.DAYS}} GÜN"
+    "other": "CANLI: {{.Days}} GÜNLER"
   }
 }

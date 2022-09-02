@@ -1414,18 +1414,18 @@
     "other": "La sessió de compres ha caducat, torna-ho a provar."
   },
   "live_lozenge_ended": {
-    "other": "ACABAT EN DIRECTE"
+    "other": "EN DIRECTE: ACABAT"
   },
   "live_lozenge_live": {
     "other": "EN VIU"
   },
   "live_lozenge_minutes": {
-    "other": "EN DIRECTE: {{.MINUTES}} MINUTS"
+    "other": "EN DIRECTE: {{.Minutes}} MINUTS"
   },
   "live_lozenge_hours": {
-    "other": "EN DIRECTE: {{.HOURS}} HORES"
+    "other": "EN DIRECTE: {{.Hours}} HORES"
   },
   "live_lozenge_days": {
-    "other": "EN DIRECTE: {{.DAYS}} DIES"
+    "other": "EN DIRECTE: {{.Days}} DIES"
   }
 }

@@ -1414,18 +1414,18 @@
     "other": "Osteseanss aegus, proovige uuesti."
   },
   "live_lozenge_ended": {
-    "other": "OTSEADE LÕPPENUD"
+    "other": "Otseülekanne: LÕPPENUD"
   },
   "live_lozenge_live": {
     "other": "LIVE"
   },
   "live_lozenge_minutes": {
-    "other": "Otseülekanne: {{.MINUTES}} MINUTIT"
+    "other": "OTSES: {{.Minutes}} MINUTIT"
   },
   "live_lozenge_hours": {
-    "other": "Otseülekanne: {{.HOURS}} TUNDI"
+    "other": "OTSE: {{.Hours}} HOURS"
   },
   "live_lozenge_days": {
-    "other": "Otseülekanne: {{.DAYS}} PÄEVA"
+    "other": "OTSE: {{.Days}} PÄEVAD"
   }
 }

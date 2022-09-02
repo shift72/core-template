@@ -1427,18 +1427,18 @@
     "other": "Сесија куповине је истекла, покушајте поново."
   },
   "live_lozenge_ended": {
-    "other": "ЛИВЕ ЕНДЕД"
+    "other": "УЖИВО: ЗАВРШЕНО"
   },
   "live_lozenge_live": {
     "other": "ЛИВЕ"
   },
   "live_lozenge_minutes": {
-    "other": "УЖИВО: {{.MINUTES}} МИНУТА"
+    "other": "УЖИВО: {{.Minutes}} МИНУТА"
   },
   "live_lozenge_hours": {
-    "other": "УЖИВО: {{.HOURS}} САТИ"
+    "other": "УЖИВО: {{.Hours}} САТИ"
   },
   "live_lozenge_days": {
-    "other": "УЖИВО: {{.DAYS}} ДАНА"
+    "other": "УЖИВО: {{.Days}} ДАНИ"
   }
 }

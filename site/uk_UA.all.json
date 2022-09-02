@@ -1468,18 +1468,18 @@
     "other": "Сеанс покупки закінчився, повторіть спробу."
   },
   "live_lozenge_ended": {
-    "other": "ПРАМА ЗАВЕРШИЛАСЯ"
+    "other": "НАЖИВО: ЗАВЕРШЕНО"
   },
   "live_lozenge_live": {
     "other": "НАЖИВО"
   },
   "live_lozenge_minutes": {
-    "other": "НАЖИВО: {{.MINUTES}} ХВИЛИН"
+    "other": "НАЖИВО: {{.Minutes}} ХВИЛИН"
   },
   "live_lozenge_hours": {
-    "other": "НАЖИВО: {{.HOURS}} ГОД"
+    "other": "НАЖИВО: {{.Hours}} ГОДИНИ"
   },
   "live_lozenge_days": {
-    "other": "НАЖИВО: {{.DAYS}} ДНІВ"
+    "other": "LIVE: {{.Days}} ДНІ"
   }
 }

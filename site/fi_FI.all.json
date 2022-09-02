@@ -1414,18 +1414,18 @@
     "other": "Ostosistunto vanhentunut, yritä uudelleen."
   },
   "live_lozenge_ended": {
-    "other": "LIVE PÄÄTTYNYT"
+    "other": "LIVE: PÄÄTTYNYT"
   },
   "live_lozenge_live": {
     "other": "ELÄÄ"
   },
   "live_lozenge_minutes": {
-    "other": "LIVE: {{.MINUTES}} MINUUTTIA"
+    "other": "LIVE: {{.Minutes}} MINUTES"
   },
   "live_lozenge_hours": {
-    "other": "LIVE: {{.HOURS}} TUNTIA"
+    "other": "LIVE: {{.Hours}} HOURS"
   },
   "live_lozenge_days": {
-    "other": "LIVE: {{.DAYS}} PÄIVÄÄ"
+    "other": "LIVE: {{.Days}} DAYS"
   }
 }

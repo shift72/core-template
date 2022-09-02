@@ -1413,18 +1413,18 @@
     "other": "Sesija kupnje je istekla, pokušajte ponovno."
   },
   "live_lozenge_ended": {
-    "other": "UŽIVO ZAVRŠENO"
+    "other": "UŽIVO: ZAVRŠENO"
   },
   "live_lozenge_live": {
     "other": "UŽIVO"
   },
   "live_lozenge_minutes": {
-    "other": "UŽIVO: {{.MINUTES}} MINUTA"
+    "other": "UŽIVO: {{.Minutes}} MINUTE"
   },
   "live_lozenge_hours": {
-    "other": "UŽIVO: {{.HOURS}} SATI"
+    "other": "UŽIVO: {{.Hours}} SATI"
   },
   "live_lozenge_days": {
-    "other": "UŽIVO: {{.DAYS}} DANA"
+    "other": "UŽIVO: {{.Days}} DANI"
   }
 }

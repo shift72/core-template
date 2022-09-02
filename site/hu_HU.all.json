@@ -1414,18 +1414,18 @@
     "other": "A vásárlási munkamenet lejárt, próbálkozzon újra."
   },
   "live_lozenge_ended": {
-    "other": "ÉLŐ VÉGE"
+    "other": "ÉLŐ: VÉGE"
   },
   "live_lozenge_live": {
     "other": "ÉLŐ"
   },
   "live_lozenge_minutes": {
-    "other": "ÉLŐ: {{.MINUTES}} PERC"
+    "other": "ÉLŐ: {{.Minutes}} PERC"
   },
   "live_lozenge_hours": {
-    "other": "ÉLŐ: {{.HOURS}} ÓRA"
+    "other": "ÉLŐ: {{.Hours}} HOURS"
   },
   "live_lozenge_days": {
-    "other": "ÉLŐ: {{.DAYS}} NAP"
+    "other": "ÉLŐ: {{.Days}} NAPOK"
   }
 }

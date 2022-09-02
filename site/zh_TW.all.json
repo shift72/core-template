@@ -1404,18 +1404,18 @@
     "other": "購物會話已過期，請重試。"
   },
   "live_lozenge_ended": {
-    "other": "直播结束"
+    "other": "直播：結束"
   },
   "live_lozenge_live": {
     "other": "居住"
   },
   "live_lozenge_minutes": {
-    "other": "直播：{{.MINUTES}} 分钟"
+    "other": "直播：{{.Minutes}} 分钟"
   },
   "live_lozenge_hours": {
-    "other": "直播：{{.HOURS}} 小时"
+    "other": "直播：{{.Hours}} 小时"
   },
   "live_lozenge_days": {
-    "other": "直播：{{.DAYS}} 天"
+    "other": "直播：{{.Days}} 天"
   }
 }

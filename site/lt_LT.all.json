@@ -1440,18 +1440,18 @@
     "other": "Apsipirkimo sesija baigėsi, bandykite dar kartą."
   },
   "live_lozenge_ended": {
-    "other": "TIESIOGIAI PASIBAIGĖ"
+    "other": "TIESIOGIAI: PABAIGTA"
   },
   "live_lozenge_live": {
     "other": "GYVAI"
   },
   "live_lozenge_minutes": {
-    "other": "TIESIOGIAI: {{.MINUTES}} MINUTĖS"
+    "other": "TIESIOGIAI: {{.Minutes}} MINUTĖS"
   },
   "live_lozenge_hours": {
-    "other": "TIESIOGIAI: {{.HOURS}} VALANDOS"
+    "other": "TIESIOGIAI: {{.Hours}} VALANDOS"
   },
   "live_lozenge_days": {
-    "other": "TIESIOGIAI: {{.DAYS}} DIENŲ"
+    "other": "TIESIOGIAI: {{.Days}} DIENOS"
   }
 }

@@ -1418,18 +1418,18 @@
     "other": "Sessione di acquisto scaduta, riprova."
   },
   "live_lozenge_ended": {
-    "other": "IN DIRETTA FINITA"
+    "other": "IN DIRETTA: FINITA"
   },
   "live_lozenge_live": {
     "other": "ABITARE"
   },
   "live_lozenge_minutes": {
-    "other": "IN DIRETTA: {{.MINUTES}} MINUTI"
+    "other": "IN DIRETTA: {{.Minutes}} MINUTI"
   },
   "live_lozenge_hours": {
-    "other": "IN DIRETTA: {{.HOURS}} ORE"
+    "other": "IN DIRETTA: {{.Hours}} ORE"
   },
   "live_lozenge_days": {
-    "other": "IN DIRETTA: {{.DAYS}} GIORNI"
+    "other": "IN DIRETTA: {{.Days}} GIORNI"
   }
 }

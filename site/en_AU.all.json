@@ -1414,18 +1414,18 @@
     "other": "Shopping session expired, please try again."
   },
   "live_lozenge_ended": {
-    "other": "LIVE ENDED"
+    "other": "LIVE: ENDED"
   },
   "live_lozenge_live": {
     "other": "LIVE"
   },
   "live_lozenge_minutes": {
-    "other": "LIVE: {{.MINUTES}} MINUTES"
+    "other": "LIVE: {{.Minutes}} MINUTES"
   },
   "live_lozenge_hours": {
-    "other": "LIVE: {{.HOURS}} HOURS"
+    "other": "LIVE: {{.Hours}} HOURS"
   },
   "live_lozenge_days": {
-    "other": "LIVE: {{.DAYS}} DAYS"
+    "other": "LIVE: {{.Days}} DAYS"
   }
 }

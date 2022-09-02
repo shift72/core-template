@@ -1418,18 +1418,18 @@
     "other": "La sesión de compra expiró, inténtalo de nuevo."
   },
   "live_lozenge_ended": {
-    "other": "VIVO FINALIZADO"
+    "other": "EN VIVO: FINALIZADO"
   },
   "live_lozenge_live": {
     "other": "EN VIVO"
   },
   "live_lozenge_minutes": {
-    "other": "EN VIVO: {{.MINUTES}} MINUTOS"
+    "other": "EN VIVO: {{.Minutes}} MINUTOS"
   },
   "live_lozenge_hours": {
-    "other": "EN VIVO: {{.HOURS}} HORAS"
+    "other": "EN VIVO: {{.Hours}} HORAS"
   },
   "live_lozenge_days": {
-    "other": "EN VIVO: {{.DAYS}} DÍAS"
+    "other": "EN VIVO: {{.Days}} DÍAS"
   }
 }

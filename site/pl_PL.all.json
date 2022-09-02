@@ -1485,18 +1485,18 @@
     "other": "Sesja zakupowa wygasła, spróbuj ponownie."
   },
   "live_lozenge_ended": {
-    "other": "NA ŻYWO ZAKOŃCZONE"
+    "other": "NA ŻYWO: ZAKOŃCZONE"
   },
   "live_lozenge_live": {
     "other": "RELACJA NA ŻYWO"
   },
   "live_lozenge_minutes": {
-    "other": "NA ŻYWO: {{.MINUTES}} MINUT"
+    "other": "NA ŻYWO: {{.Minutes}} MINUT"
   },
   "live_lozenge_hours": {
-    "other": "NA ŻYWO: {{.HOURS}} GODZ."
+    "other": "NA ŻYWO: {{.Hours}} GODZINY"
   },
   "live_lozenge_days": {
-    "other": "NA ŻYWO: {{.DAYS}} DNI"
+    "other": "NA ŻYWO: {{.Days}} DNI"
   }
 }

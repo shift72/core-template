@@ -1414,18 +1414,18 @@
     "other": "Einkaufssitzung abgelaufen, bitte versuchen Sie es erneut."
   },
   "live_lozenge_ended": {
-    "other": "LEBEN BEENDET"
+    "other": "LIVE: BEENDET"
   },
   "live_lozenge_live": {
     "other": "LIVE"
   },
   "live_lozenge_minutes": {
-    "other": "LIVE: {{.MINUTES}} MINUTEN"
+    "other": "LIVE: {{.Minutes}}"
   },
   "live_lozenge_hours": {
-    "other": "LIVE: {{.HOURS}} STUNDEN"
+    "other": "LIVE: {{.Hours}} STUNDEN"
   },
   "live_lozenge_days": {
-    "other": "LIVE: {{.DAYS}} TAGE"
+    "other": "LIVE: {{.Days}} TAGE"
   }
 }

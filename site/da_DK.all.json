@@ -1414,18 +1414,18 @@
     "other": "Shopping-sessionen er udløbet, prøv venligst igen."
   },
   "live_lozenge_ended": {
-    "other": "LIVE SLUTTEDE"
+    "other": "LIVE: SLUT"
   },
   "live_lozenge_live": {
     "other": "DIREKTE"
   },
   "live_lozenge_minutes": {
-    "other": "LIVE: {{.MINUTES}} MINUTTER"
+    "other": "LIVE: {{.Minutes}}"
   },
   "live_lozenge_hours": {
-    "other": "LIVE: {{.HOURS}} TIMER"
+    "other": "LIVE: {{.Hours}} TIMER"
   },
   "live_lozenge_days": {
-    "other": "LIVE: {{.DAYS}} DAGE"
+    "other": "LIVE: {{.Days}} DAGE"
   }
 }
