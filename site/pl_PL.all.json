@@ -1484,19 +1484,19 @@
   "shopping_error_invalid_session_token": {
     "other": "Sesja zakupowa wygasła, spróbuj ponownie."
   },
-  "live_lozenge_ended": {
+  "live_label_ended": {
     "other": "NA ŻYWO: ZAKOŃCZONE"
   },
-  "live_lozenge_live": {
+  "live_label_live": {
     "other": "RELACJA NA ŻYWO"
   },
-  "live_lozenge_minutes": {
+  "live_label_minutes": {
     "other": "NA ŻYWO: {{.Minutes}} MINUT"
   },
-  "live_lozenge_hours": {
+  "live_label_hours": {
     "other": "NA ŻYWO: {{.Hours}} GODZINY"
   },
-  "live_lozenge_days": {
+  "live_label_days": {
     "other": "NA ŻYWO: {{.Days}} DNI"
   }
 }

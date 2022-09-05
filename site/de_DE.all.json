@@ -1413,19 +1413,19 @@
   "shopping_error_invalid_session_token": {
     "other": "Einkaufssitzung abgelaufen, bitte versuchen Sie es erneut."
   },
-  "live_lozenge_ended": {
+  "live_label_ended": {
     "other": "LIVE: BEENDET"
   },
-  "live_lozenge_live": {
+  "live_label_live": {
     "other": "LIVE"
   },
-  "live_lozenge_minutes": {
+  "live_label_minutes": {
     "other": "LIVE: {{.Minutes}}"
   },
-  "live_lozenge_hours": {
+  "live_label_hours": {
     "other": "LIVE: {{.Hours}} STUNDEN"
   },
-  "live_lozenge_days": {
+  "live_label_days": {
     "other": "LIVE: {{.Days}} TAGE"
   }
 }

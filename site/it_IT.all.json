@@ -1417,19 +1417,19 @@
   "shopping_error_invalid_session_token": {
     "other": "Sessione di acquisto scaduta, riprova."
   },
-  "live_lozenge_ended": {
+  "live_label_ended": {
     "other": "IN DIRETTA: FINITA"
   },
-  "live_lozenge_live": {
+  "live_label_live": {
     "other": "ABITARE"
   },
-  "live_lozenge_minutes": {
+  "live_label_minutes": {
     "other": "IN DIRETTA: {{.Minutes}} MINUTI"
   },
-  "live_lozenge_hours": {
+  "live_label_hours": {
     "other": "IN DIRETTA: {{.Hours}} ORE"
   },
-  "live_lozenge_days": {
+  "live_label_days": {
     "other": "IN DIRETTA: {{.Days}} GIORNI"
   }
 }

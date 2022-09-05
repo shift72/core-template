@@ -1413,19 +1413,19 @@
   "shopping_error_invalid_session_token": {
     "other": "Osteseanss aegus, proovige uuesti."
   },
-  "live_lozenge_ended": {
+  "live_label_ended": {
     "other": "Otseülekanne: LÕPPENUD"
   },
-  "live_lozenge_live": {
+  "live_label_live": {
     "other": "LIVE"
   },
-  "live_lozenge_minutes": {
+  "live_label_minutes": {
     "other": "OTSES: {{.Minutes}} MINUTIT"
   },
-  "live_lozenge_hours": {
+  "live_label_hours": {
     "other": "OTSE: {{.Hours}} HOURS"
   },
-  "live_lozenge_days": {
+  "live_label_days": {
     "other": "OTSE: {{.Days}} PÄEVAD"
   }
 }

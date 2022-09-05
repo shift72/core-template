@@ -1413,19 +1413,19 @@
   "shopping_error_invalid_session_token": {
     "other": "Η περίοδος αγορών έληξε, δοκιμάστε ξανά."
   },
-  "live_lozenge_ended": {
+  "live_label_ended": {
     "other": "LIVE: ΤΕΛΕΙΩΣΕ"
   },
-  "live_lozenge_live": {
+  "live_label_live": {
     "other": "ΖΩ"
   },
-  "live_lozenge_minutes": {
+  "live_label_minutes": {
     "other": "LIVE: {{.Minutes}} ΛΕΠΤΑ"
   },
-  "live_lozenge_hours": {
+  "live_label_hours": {
     "other": "LIVE: {{.Hours}} ΩΡΕΣ"
   },
-  "live_lozenge_days": {
+  "live_label_days": {
     "other": "LIVE: {{.Days}} ΗΜΕΡΕΣ"
   }
 }

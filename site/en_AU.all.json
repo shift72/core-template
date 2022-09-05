@@ -1413,19 +1413,19 @@
   "shopping_error_invalid_session_token": {
     "other": "Shopping session expired, please try again."
   },
-  "live_lozenge_ended": {
+  "live_label_ended": {
     "other": "LIVE: ENDED"
   },
-  "live_lozenge_live": {
+  "live_label_live": {
     "other": "LIVE"
   },
-  "live_lozenge_minutes": {
+  "live_label_minutes": {
     "other": "LIVE: {{.Minutes}} MINUTES"
   },
-  "live_lozenge_hours": {
+  "live_label_hours": {
     "other": "LIVE: {{.Hours}} HOURS"
   },
-  "live_lozenge_days": {
+  "live_label_days": {
     "other": "LIVE: {{.Days}} DAYS"
   }
 }

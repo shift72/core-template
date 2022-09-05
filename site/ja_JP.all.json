@@ -1403,19 +1403,19 @@
   "shopping_error_invalid_session_token": {
     "other": "ショッピング セッションの有効期限が切れました。もう一度お試しください。"
   },
-  "live_lozenge_ended": {
+  "live_label_ended": {
     "other": "ライブ: 終了しました"
   },
-  "live_lozenge_live": {
+  "live_label_live": {
     "other": "住む"
   },
-  "live_lozenge_minutes": {
+  "live_label_minutes": {
     "other": "ライブ: {{.Minutes}} 分"
   },
-  "live_lozenge_hours": {
+  "live_label_hours": {
     "other": "ライブ: {{.Hours}} 時間"
   },
-  "live_lozenge_days": {
+  "live_label_days": {
     "other": "ライブ: {{.Days}} 日"
   }
 }

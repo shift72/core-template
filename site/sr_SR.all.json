@@ -1426,19 +1426,19 @@
   "shopping_error_invalid_session_token": {
     "other": "Сесија куповине је истекла, покушајте поново."
   },
-  "live_lozenge_ended": {
+  "live_label_ended": {
     "other": "УЖИВО: ЗАВРШЕНО"
   },
-  "live_lozenge_live": {
+  "live_label_live": {
     "other": "ЛИВЕ"
   },
-  "live_lozenge_minutes": {
+  "live_label_minutes": {
     "other": "УЖИВО: {{.Minutes}} МИНУТА"
   },
-  "live_lozenge_hours": {
+  "live_label_hours": {
     "other": "УЖИВО: {{.Hours}} САТИ"
   },
-  "live_lozenge_days": {
+  "live_label_days": {
     "other": "УЖИВО: {{.Days}} ДАНИ"
   }
 }

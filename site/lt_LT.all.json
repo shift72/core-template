@@ -1439,19 +1439,19 @@
   "shopping_error_invalid_session_token": {
     "other": "Apsipirkimo sesija baigėsi, bandykite dar kartą."
   },
-  "live_lozenge_ended": {
+  "live_label_ended": {
     "other": "TIESIOGIAI: PABAIGTA"
   },
-  "live_lozenge_live": {
+  "live_label_live": {
     "other": "GYVAI"
   },
-  "live_lozenge_minutes": {
+  "live_label_minutes": {
     "other": "TIESIOGIAI: {{.Minutes}} MINUTĖS"
   },
-  "live_lozenge_hours": {
+  "live_label_hours": {
     "other": "TIESIOGIAI: {{.Hours}} VALANDOS"
   },
-  "live_lozenge_days": {
+  "live_label_days": {
     "other": "TIESIOGIAI: {{.Days}} DIENOS"
   }
 }

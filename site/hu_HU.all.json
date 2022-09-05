@@ -1413,19 +1413,19 @@
   "shopping_error_invalid_session_token": {
     "other": "A vásárlási munkamenet lejárt, próbálkozzon újra."
   },
-  "live_lozenge_ended": {
+  "live_label_ended": {
     "other": "ÉLŐ: VÉGE"
   },
-  "live_lozenge_live": {
+  "live_label_live": {
     "other": "ÉLŐ"
   },
-  "live_lozenge_minutes": {
+  "live_label_minutes": {
     "other": "ÉLŐ: {{.Minutes}} PERC"
   },
-  "live_lozenge_hours": {
+  "live_label_hours": {
     "other": "ÉLŐ: {{.Hours}} HOURS"
   },
-  "live_lozenge_days": {
+  "live_label_days": {
     "other": "ÉLŐ: {{.Days}} NAPOK"
   }
 }

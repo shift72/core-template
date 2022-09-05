@@ -1417,19 +1417,19 @@
   "shopping_error_invalid_session_token": {
     "other": "La sesión de compra expiró, inténtalo de nuevo."
   },
-  "live_lozenge_ended": {
+  "live_label_ended": {
     "other": "EN VIVO: FINALIZADO"
   },
-  "live_lozenge_live": {
+  "live_label_live": {
     "other": "EN VIVO"
   },
-  "live_lozenge_minutes": {
+  "live_label_minutes": {
     "other": "EN VIVO: {{.Minutes}} MINUTOS"
   },
-  "live_lozenge_hours": {
+  "live_label_hours": {
     "other": "EN VIVO: {{.Hours}} HORAS"
   },
-  "live_lozenge_days": {
+  "live_label_days": {
     "other": "EN VIVO: {{.Days}} DÍAS"
   }
 }
