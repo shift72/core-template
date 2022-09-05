@@ -1412,5 +1412,26 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Shopping session expired, please try again."
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "You can not use a promo code for this purchase or rental"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "That promo code is not valid yet"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Promo codes cannot be applied to free shopping sessions"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Promo codes cannot be applied one the purchase is complete"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Promo code could not be applied, please try again"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Invalid promo code"
+  },
+  "shopping_error_missing_code": {
+    "other": "No promo code was provided"
   }
 }

@@ -1416,5 +1416,26 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "La sesión de compra expiró, inténtalo de nuevo."
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "No puede usar un código de promoción para esta compra o alquiler"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Ese código de promoción aún no es válido"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Los códigos promocionales no se pueden aplicar a las sesiones de compras gratuitas."
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Los códigos de promoción no se pueden aplicar una vez que se completa la compra"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "No se pudo aplicar el código de promoción, inténtalo de nuevo"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Código de promoción no válido"
+  },
+  "shopping_error_missing_code": {
+    "other": "No se proporcionó ningún código de promoción"
   }
 }

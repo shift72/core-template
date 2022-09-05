@@ -1402,5 +1402,26 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "購物會話已過期，請重試。"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "您不能為此購買或租賃使用促銷代碼"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "該促銷代碼無效"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "促銷代碼不能應用於免費購物時段"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "購買完成後無法使用促銷代碼"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "無法應用促銷代碼，請重試"
+  },
+  "shopping_error_invalid_code": {
+    "other": "促銷代碼無效"
+  },
+  "shopping_error_missing_code": {
+    "other": "未提供促銷代碼"
   }
 }

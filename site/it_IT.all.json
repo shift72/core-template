@@ -1416,5 +1416,26 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Sessione di acquisto scaduta, riprova."
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Non è possibile utilizzare un codice promozionale per questo acquisto o noleggio"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Quel codice promozionale non è ancora valido"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "I codici promozionali non possono essere applicati alle sessioni di acquisto gratuite"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "I codici promozionali non possono essere applicati una volta completato l'acquisto"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Impossibile applicare il codice promozionale, riprova"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Codice promozionale non valido"
+  },
+  "shopping_error_missing_code": {
+    "other": "Non è stato fornito alcun codice promozionale"
   }
 }
