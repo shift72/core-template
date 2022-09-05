@@ -62,6 +62,23 @@ s72-availability-label {
     font-size: 12px;
     text-align: center;
   }
+
+  .availability-bg.live {
+    color: var(--body-color, rgb(255, 255, 255));
+    background-color: rgba(var(--body-bg-rgb, 0, 0, 0), 0.7);
+  }
+
+  s72-availability-status {
+    .availability-livenow:before {
+      content: "";
+      border-radius: 50%;
+      background-color: rgb(var(--poster-live-circle-color-rgb, (255, 0, 0)));
+      display: inline-block;
+      margin-right: 6px;
+      width: 8px;
+      height: 8px;
+    }
+  }
 }
 
 .poster .availability-state,
