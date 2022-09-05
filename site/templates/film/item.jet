@@ -71,7 +71,8 @@
                       <p>
                         {{range index, member := film.Cast}}
                           {{ path := "/search.html?q=" + member.Name }}
-                          <a href="{{ routeToPath(path) }}">{{member.Name}}</a>{{if index < len(film.Cast) - 1}}, {{end}}
+                          <a href="{{ routeToPath(path) }}">{{member.Name}}</a>{{if len(member.Character) > 0}} (as {{member.Character}}) {{end}}
+                          {{if index < len(film.Cast) - 1}}, {{end}}
                         {{end}}
                       </p>
                     </div>

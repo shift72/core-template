@@ -12,6 +12,7 @@
 - Added support for self-service CSS and brand images.
 - Added support for carousel_play_speed and carousel_fade_time configs.
 - Added support to toggle on cloudsearch via Meta > cloudsearch feature toggle.
+- Added character names to the cast list on film and tv detail pages.
 
 ## Changed
 - Moved the carousel availability label above the CTA's.
