@@ -115,25 +115,25 @@
     padding-bottom: 0;
   }
 
-  s72-live-lozenge {
+  s72-live-label {
     @include media-breakpoint-up(lg) {
       grid-column: 2;
     }
 
-    .live-lozenge {
+    .live-label {
       margin-bottom: 12px;
       position: absolute;
-      // 42px magic number is 30px height of the lozenge + 12px of "margin".
+      // 42px magic number is 30px height of the label + 12px of "margin".
       top: calc(var(--page-detail-padding-top) - 42px);
 
       @include media-breakpoint-up(xs) {
-        // 42px magic number is 30px height of the lozenge + 12px of "margin".
+        // 42px magic number is 30px height of the label + 12px of "margin".
         top: calc(var(--page-detail-padding-top-md) - 42px);
       }
 
       @include media-breakpoint-up(lg) {
         margin-bottom: 8px;
-        // 42px magic number is 30px height of the lozenge + 12px of "margin".
+        // 42px magic number is 30px height of the label + 12px of "margin".
         top: calc(var(--page-detail-padding-top-lg) - 42px);
       }
     }

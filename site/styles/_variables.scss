@@ -57,8 +57,8 @@
   --live-red: rgb(var(--live-red-rgb));
   /*#endregion BASE COLOURS */
 
-  --live-lozenge-background-color: var(--hover-background);
-  --live-lozenge-live-background-color: var(--live-red);
+  --live-label-background-color: var(--hover-background);
+  --live-label-live-background-color: var(--live-red);
 
   --tooltip-color: var(--body-bg, #000);
   --tooltip-bg: var(--primary, #00a3ff);

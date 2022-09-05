@@ -27,7 +27,7 @@
     </div>
     <div class="container">
       <div class="meta-detail-main">
-        <s72-live-lozenge data-slug="{{film.Slug}}"></s72-live-lozenge>
+        <s72-live-label data-slug="{{film.Slug}}"></s72-live-label>
 
         <div class="poster-wrapper">
           {{if config("default_image_type") == "portrait"}}

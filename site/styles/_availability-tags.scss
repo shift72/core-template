@@ -72,8 +72,8 @@ s72-plan-label {
   text-align: center;
 }
 
-s72-live-lozenge {
-  .live-lozenge {
+s72-live-label {
+  .live-label {
     backdrop-filter: blur(16px);
     border-radius: 100px;
     color: var(--body-color);
@@ -84,11 +84,12 @@ s72-live-lozenge {
     width: fit-content;
 
     &.is-live {
-      background-color: var(--live-lozenge-live-background-color);
+      background-color: var(--live-label-live-background-color);
     }
 
-    .fa-circle {
-      @extend .fa;
+    .s72-icon-live {
+      @extend .fa-circle;
+      @extend .s72-icon;
 
       margin-right: 8px;
       margin-top: -1.5px;
