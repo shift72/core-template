@@ -75,8 +75,8 @@ s72-plan-label {
 s72-live-label {
   .live-label {
     align-items: center;
-    background-color: rgba(var(--body-color-rgb), 0.16);
     backdrop-filter: blur(16px);
+    background-color: rgba(var(--body-color-rgb), 0.16);
     border-radius: 100px;
     color: var(--body-color);
     display: flex;
