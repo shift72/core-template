@@ -72,7 +72,7 @@ s72-availability-label {
     .availability-livenow:before {
       content: "";
       border-radius: 50%;
-      background-color: rgb(var(--poster-live-circle-color-rgb, (255, 0, 0)));
+      background-color: var(--live-red);
       display: inline-block;
       margin-right: 6px;
       width: 8px;
