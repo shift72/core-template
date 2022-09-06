@@ -91,8 +91,7 @@ s72-live-label {
     }
 
     .s72-icon-live {
-      @extend .fa-circle;
-      @extend .s72-icon;
+      @include s72-icon-live;
 
       margin-right: 8px;
     }
