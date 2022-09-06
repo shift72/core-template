@@ -1427,5 +1427,26 @@
   },
   "shopping_action_get_ticket": {
     "other": "Aconsegueix el bitllet"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "No podeu utilitzar un codi promocional per a aquesta compra o lloguer"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Aquest codi promocional encara no és vàlid"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Els codis promocionals no es poden aplicar a les sessions de compres gratuïtes"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Els codis promocionals no es poden aplicar un cop s'ha completat la compra"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "No s'ha pogut aplicar el codi promocional, torna-ho a provar"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Codi promocional no vàlid"
+  },
+  "shopping_error_missing_code": {
+    "other": "No s'ha proporcionat cap codi promocional"
   }
 }

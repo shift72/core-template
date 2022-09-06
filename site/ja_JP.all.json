@@ -1417,5 +1417,26 @@
   },
   "shopping_action_get_ticket": {
     "other": "チケットを入手"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "この購入またはレンタルにはプロモーション コードを使用できません"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "そのプロモーション コードはまだ有効ではありません"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "プロモーション コードは、無料のショッピング セッションには適用できません"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "購入が完了するとプロモーション コードを適用できません"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "プロモーション コードを適用できませんでした。もう一度お試しください"
+  },
+  "shopping_error_invalid_code": {
+    "other": "プロモーション コードが無効です"
+  },
+  "shopping_error_missing_code": {
+    "other": "プロモーション コードが提供されていません"
   }
 }

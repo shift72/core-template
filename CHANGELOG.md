@@ -15,6 +15,7 @@
 - Added support for self-service CSS and brand images.
 - Added support for carousel_play_speed and carousel_fade_time configs.
 - Added support to toggle on cloudsearch via Meta > cloudsearch feature toggle.
+- Translations for discount errors
 
 ## Changed
 - Moved the carousel availability label above the CTA's.
@@ -28,6 +29,7 @@
 - Fixed translation for plan frequency in plans.html
 - Added Intl to polyfill to catch iOS devices.
 - Film detail page element switcher uses grid instead of flex with gap.
+- Fixed bad Portuguese translation.
 
 ## [1.3.0](https://github.com/shift72/core-template/compare/1.3.0-alpha...1.3.0)
 

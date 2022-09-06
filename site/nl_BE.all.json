@@ -1427,5 +1427,26 @@
   },
   "shopping_action_get_ticket": {
     "other": "Koop een kaartje"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "U kunt geen promotiecode gebruiken voor deze aankoop of huur"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Die actiecode is nog niet geldig"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Promotiecodes kunnen niet worden toegepast op gratis winkelsessies"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Promotiecodes kunnen niet worden toegepast zodra de aankoop is voltooid"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Promotiecode kan niet worden toegepast, probeer het opnieuw"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Ongeldige promotiecode"
+  },
+  "shopping_error_missing_code": {
+    "other": "Er is geen promotiecode verstrekt"
   }
 }

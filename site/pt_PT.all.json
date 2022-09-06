@@ -1431,5 +1431,26 @@
   },
   "shopping_action_get_ticket": {
     "other": "Obter bilhete"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Você não pode usar um código promocional para esta compra ou aluguel"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Esse código promocional ainda não é válido"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Os códigos promocionais não podem ser aplicados a sessões de compras gratuitas"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Os códigos promocionais não podem ser aplicados depois que a compra for concluída"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Não foi possível aplicar o código promocional. Tente novamente"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Código promocional inválido"
+  },
+  "shopping_error_missing_code": {
+    "other": "Nenhum código promocional foi fornecido"
   }
 }

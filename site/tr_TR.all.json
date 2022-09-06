@@ -1427,5 +1427,26 @@
   },
   "shopping_action_get_ticket": {
     "other": "Bilet al"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Bu satın alma veya kiralama için promosyon kodu kullanamazsınız"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Bu promosyon kodu henüz geçerli değil"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Promosyon kodları ücretsiz alışveriş seanslarına uygulanamaz"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Promosyon kodları, satın alma işlemi tamamlandıktan sonra uygulanamaz"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Promosyon kodu uygulanamadı, lütfen tekrar deneyin"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Geçersiz reklam kodu"
+  },
+  "shopping_error_missing_code": {
+    "other": "Promosyon kodu sağlanmadı"
   }
 }

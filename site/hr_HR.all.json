@@ -1426,5 +1426,26 @@
   },
   "shopping_action_get_ticket": {
     "other": "Uzmi kartu"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Ne možete koristiti promotivni kod za ovu kupnju ili iznajmljivanje"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Taj promo kod još nije valjan"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Promotivni kodovi se ne mogu primijeniti na sesije besplatne kupnje"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Promotivni kodovi se ne mogu primijeniti nakon što je kupnja dovršena"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Promotivni kôd nije moguće primijeniti, pokušajte ponovno"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Nevažeći promotivni kod"
+  },
+  "shopping_error_missing_code": {
+    "other": "Nije dostavljen promotivni kod"
   }
 }
