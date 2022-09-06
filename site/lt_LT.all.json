@@ -1439,6 +1439,27 @@
   "shopping_error_invalid_session_token": {
     "other": "Apsipirkimo sesija baigėsi, bandykite dar kartą."
   },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Šiam pirkimui ar nuomai negalite naudoti reklamos kredito kodo"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Šis reklamos kredito kodas dar negalioja"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Reklamos kredito kodai negali būti taikomi nemokamoms apsipirkimo sesijoms"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Kai pirkimas baigtas, reklamos kredito kodai negali būti taikomi"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Nepavyko pritaikyti reklamos kredito kodo, bandykite dar kartą"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Neteisingas reklamos kredito kodas"
+  },
+  "shopping_error_missing_code": {
+    "other": "Reklamos kodas nebuvo pateiktas"
+  },
   "live_label_ended": {
     "other": "TIESIOGIAI: PABAIGTA"
   },

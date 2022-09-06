@@ -1484,6 +1484,27 @@
   "shopping_error_invalid_session_token": {
     "other": "Sesja zakupowa wygasła, spróbuj ponownie."
   },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Nie możesz użyć kodu promocyjnego do tego zakupu lub wypożyczenia"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Ten kod promocyjny nie jest jeszcze ważny"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Kodów promocyjnych nie można zastosować do bezpłatnych sesji zakupowych"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Kodów promocyjnych nie można zastosować po zakończeniu zakupu"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Nie można zastosować kodu promocyjnego, spróbuj ponownie"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Nieprawidłowy kod promocyjny"
+  },
+  "shopping_error_missing_code": {
+    "other": "Nie podano kodu promocyjnego"
+  },
   "live_label_ended": {
     "other": "NA ŻYWO: ZAKOŃCZONE"
   },

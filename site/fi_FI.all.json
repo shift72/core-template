@@ -1413,6 +1413,27 @@
   "shopping_error_invalid_session_token": {
     "other": "Ostosistunto vanhentunut, yritä uudelleen."
   },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Et voi käyttää tarjouskoodia tähän ostoon tai vuokraukseen"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Tämä tarjouskoodi ei ole vielä voimassa"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Tarjouskoodeja ei voi käyttää ilmaisissa ostosistunnoissa"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Tarjouskoodeja ei voi käyttää, kun osto on suoritettu"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Tarjouskoodia ei voitu käyttää. Yritä uudelleen"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Virheellinen tarjouskoodi"
+  },
+  "shopping_error_missing_code": {
+    "other": "Tarjouskoodia ei annettu"
+  },
   "live_label_ended": {
     "other": "LIVE: PÄÄTTYNYT"
   },

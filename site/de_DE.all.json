@@ -1413,6 +1413,27 @@
   "shopping_error_invalid_session_token": {
     "other": "Einkaufssitzung abgelaufen, bitte versuchen Sie es erneut."
   },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Sie können keinen Aktionscode für diesen Kauf oder diese Miete verwenden"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Dieser Promo-Code ist noch nicht gültig"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Promo-Codes können nicht auf kostenlose Shopping-Sessions angewendet werden"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Promo-Codes können nicht angewendet werden, nachdem der Kauf abgeschlossen ist"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Der Aktionscode konnte nicht angewendet werden, bitte versuchen Sie es erneut"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Ungültiger Promo-Code"
+  },
+  "shopping_error_missing_code": {
+    "other": "Es wurde kein Aktionscode angegeben"
+  },
   "live_label_ended": {
     "other": "LIVE: BEENDET"
   },

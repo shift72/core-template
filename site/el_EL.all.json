@@ -1413,6 +1413,27 @@
   "shopping_error_invalid_session_token": {
     "other": "Η περίοδος αγορών έληξε, δοκιμάστε ξανά."
   },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Δεν μπορείτε να χρησιμοποιήσετε κωδικό προσφοράς για αυτήν την αγορά ή ενοικίαση"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Αυτός ο κωδικός προσφοράς δεν είναι ακόμη έγκυρος"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Οι κωδικοί προσφοράς δεν μπορούν να εφαρμοστούν σε δωρεάν συνεδρίες αγορών"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Οι κωδικοί προσφοράς δεν μπορούν να εφαρμοστούν μετά την ολοκλήρωση της αγοράς"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Δεν ήταν δυνατή η εφαρμογή του κωδικού προσφοράς, δοκιμάστε ξανά"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Μη έγκυρος κωδικός προσφοράς"
+  },
+  "shopping_error_missing_code": {
+    "other": "Δεν δόθηκε κωδικός προσφοράς"
+  },
   "live_label_ended": {
     "other": "LIVE: ΤΕΛΕΙΩΣΕ"
   },

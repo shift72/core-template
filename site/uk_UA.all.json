@@ -1467,6 +1467,27 @@
   "shopping_error_invalid_session_token": {
     "other": "Сеанс покупки закінчився, повторіть спробу."
   },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Ви не можете використовувати промокод для цієї покупки або оренди"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Цей промокод ще не дійсний"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Промокоди не можуть бути застосовані до безкоштовних сеансів покупок"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Промокоди не можна застосувати після завершення покупки"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Не вдалося застосувати промокод, повторіть спробу"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Недійсний промокод"
+  },
+  "shopping_error_missing_code": {
+    "other": "Промокод не надано"
+  },
   "live_label_ended": {
     "other": "НАЖИВО: ЗАВЕРШЕНО"
   },
