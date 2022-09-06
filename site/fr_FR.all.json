@@ -1416,5 +1416,26 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "La session d'achat a expiré, veuillez réessayer."
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Vous ne pouvez pas utiliser de code promo pour cet achat ou cette location"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Ce code promotionnel n'est pas encore valide"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Les codes promotionnels ne peuvent pas être appliqués aux séances d'achat gratuites"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Les codes promotionnels ne peuvent pas être appliqués une fois l'achat terminé"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Le code promotionnel n'a pas pu être appliqué, veuillez réessayer"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Code promotionnel invalide"
+  },
+  "shopping_error_missing_code": {
+    "other": "Aucun code promotionnel n'a été fourni"
   }
 }

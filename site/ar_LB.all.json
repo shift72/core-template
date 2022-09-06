@@ -1464,5 +1464,26 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "انتهت جلسة التسوق ، يرجى المحاولة مرة أخرى."
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "لا يمكنك استخدام الرمز الترويجي لهذا الشراء أو الاستئجار"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "هذا الرمز الترويجي غير صالح حتى الآن"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "لا يمكن تطبيق الرموز الترويجية على جلسات التسوق المجانية"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "لا يمكن تطبيق الرموز الترويجية بعد اكتمال عملية الشراء"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "لا يمكن تطبيق الرمز الترويجي ، يرجى المحاولة مرة أخرى"
+  },
+  "shopping_error_invalid_code": {
+    "other": "الرمز الترويجي غير صالح"
+  },
+  "shopping_error_missing_code": {
+    "other": "لم يتم تقديم رمز ترويجي"
   }
 }
