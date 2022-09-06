@@ -54,7 +54,7 @@
                       <p>
                         {{range index, member := tvseason.Cast}}
                           {{ path := "/search.html?q=" + member.Name }}
-                          <a href="{{ routeToPath(path) }}">{{member.Name}}</a>{{if len(member.Character) > 0}} (as {{member.Character}}) {{end}}
+                          <a href="{{ routeToPath(path) }}">{{member.Name}}</a>{{if len(member.Character) > 0}} ({{member.Character}}) {{end}}
                           {{if index < len(tvseason.Cast) - 1}}, {{end}}
                         {{end}}
                       </p>
