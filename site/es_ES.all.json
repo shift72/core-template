@@ -1445,7 +1445,8 @@
     "other": "EN VIVO"
   },
   "live_label_minutes": {
-    "other": "EN VIVO: {{.Minutes}} MINUTOS"
+    "one": "EN VIVO: 1 MINUTO",
+    "other": "EN VIVO: {{.Count}} MINUTOS"
   },
   "live_label_hours": {
     "other": "EN VIVO: {{.Hours}} HORAS"

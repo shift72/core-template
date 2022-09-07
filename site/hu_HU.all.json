@@ -1441,7 +1441,8 @@
     "other": "ÉLŐ"
   },
   "live_label_minutes": {
-    "other": "ÉLŐ: {{.Minutes}} PERC"
+    "one": "ÉLŐ: 1 PERC",
+    "other": "ÉLŐ: {{.Count}} PERC"
   },
   "live_label_hours": {
     "other": "ÉLŐ: {{.Hours}} HOURS"

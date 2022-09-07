@@ -1467,7 +1467,10 @@
     "other": "GYVAI"
   },
   "live_label_minutes": {
-    "other": "TIESIOGIAI: {{.Minutes}} MINUTĖS"
+    "one": "TIESIOGIAI: 1 MINUTĖ",
+    "few": "TIESIOGIAI: {{.Count}} MINUTES",
+    "many": "TIESIOGIAI: {{.Count}} MINUTES",
+    "other": "TIESIOGIAI: {{.Count}} MINUTES"
   },
   "live_label_hours": {
     "other": "TIESIOGIAI: {{.Hours}} VALANDOS"

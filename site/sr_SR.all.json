@@ -1454,7 +1454,9 @@
     "other": "ЛИВЕ"
   },
   "live_label_minutes": {
-    "other": "УЖИВО: {{.Minutes}} МИНУТА"
+    "one": "УЖИВО: 1 МИНУТА",
+    "few": "УЖИВО: {{.Count}} МИНУТЕ",
+    "other": "УЖИВО: {{.Count}} МИНУТЕ"
   },
   "live_label_hours": {
     "other": "УЖИВО: {{.Hours}} САТИ"

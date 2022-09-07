@@ -1441,7 +1441,8 @@
     "other": "LIVE"
   },
   "live_label_minutes": {
-    "other": "LIVE: {{.Minutes}} MINUTES"
+    "one": "LIVE: 1 MINUTE",
+    "other": "LIVE: {{.Count}} MINUTES"
   },
   "live_label_hours": {
     "other": "LIVE: {{.Hours}} HOURS"

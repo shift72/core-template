@@ -1445,7 +1445,8 @@
     "other": "DIRECT"
   },
   "live_label_minutes": {
-    "other": "EN DIRECT : {{.Minutes}} MINUTES"
+    "one": "EN DIRECT : 1 MINUTE",
+    "other": "EN DIRECT : {{.Count}} MINUTES"
   },
   "live_label_hours": {
     "other": "EN DIRECT : {{.Hours}} HEURES"

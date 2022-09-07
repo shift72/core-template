@@ -1431,7 +1431,7 @@
     "other": "住む"
   },
   "live_label_minutes": {
-    "other": "ライブ: {{.Minutes}} 分"
+    "other": "ライブ: {{.Count}} 分"
   },
   "live_label_hours": {
     "other": "ライブ: {{.Hours}} 時間"

@@ -1440,7 +1440,9 @@
     "other": "UŽIVO"
   },
   "live_label_minutes": {
-    "other": "UŽIVO: {{.Minutes}} MINUTE"
+    "one": "UŽIVO: 1 MINUTA",
+    "few": "UŽIVO: {{.Count}} MINUTE",
+    "other": "UŽIVO: {{.Count}} MINUTE"
   },
   "live_label_hours": {
     "other": "UŽIVO: {{.Hours}} SATI"

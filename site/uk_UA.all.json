@@ -1495,12 +1495,15 @@
     "other": "НАЖИВО"
   },
   "live_label_minutes": {
-    "other": "НАЖИВО: {{.Minutes}} ХВИЛИН"
+    "one": "НАЖИВО: 1 ХВИЛИНА",
+    "few": "НАЖИВО: {{.Count}} ХВИЛИНИ",
+    "many": "НАЖИВО: {{.Count}} ХВИЛИНИ",
+    "other": "НАЖИВО: {{.Count}} ХВИЛИНИ"
   },
   "live_label_hours": {
     "other": "НАЖИВО: {{.Hours}} ГОДИНИ"
   },
   "live_label_days": {
-    "other": "LIVE: {{.Days}} ДНІ"
+    "other": "НАЖИВО: {{.Days}} ДНІ"
   }
 }

@@ -1512,7 +1512,10 @@
     "other": "RELACJA NA ŻYWO"
   },
   "live_label_minutes": {
-    "other": "NA ŻYWO: {{.Minutes}} MINUT"
+    "one": "NA ŻYWO: 1 MINUTA",
+    "few": "NA ŻYWO: {{.Count}} MINUTY",
+    "many": "NA ŻYWO: {{.Count}} MINUTY",
+    "other": "NA ŻYWO: {{.Count}} MINUTY"
   },
   "live_label_hours": {
     "other": "NA ŻYWO: {{.Hours}} GODZINY"

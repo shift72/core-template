@@ -1441,7 +1441,8 @@
     "other": "EN VIU"
   },
   "live_label_minutes": {
-    "other": "EN DIRECTE: {{.Minutes}} MINUTS"
+    "one": "EN DIRECTE: 1 MINUT",
+    "other": "EN DIRECTE: {{.Count}} MINUTS"
   },
   "live_label_hours": {
     "other": "EN DIRECTE: {{.Hours}} HORES"

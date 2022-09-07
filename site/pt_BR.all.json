@@ -1445,7 +1445,8 @@
     "other": "VIVER"
   },
   "live_label_minutes": {
-    "other": "AO VIVO: {{.Minutes}} MINUTOS"
+    "one": "AO VIVO: 1 MINUTO",
+    "other": "AO VIVO: {{.Count}} MINUTOS"
   },
   "live_label_hours": {
     "other": "AO VIVO: {{.Hours}} HORAS"

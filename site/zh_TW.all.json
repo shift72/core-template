@@ -1431,7 +1431,7 @@
     "other": "居住"
   },
   "live_label_minutes": {
-    "other": "直播：{{.Minutes}} 分钟"
+    "other": "直播：{{.Count}} 分钟"
   },
   "live_label_hours": {
     "other": "直播：{{.Hours}} 小时"

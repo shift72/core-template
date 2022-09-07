@@ -1441,7 +1441,8 @@
     "other": "ΖΩ"
   },
   "live_label_minutes": {
-    "other": "LIVE: {{.Minutes}} ΛΕΠΤΑ"
+    "one": "LIVE: 1 ΛΕΠΤΟ",
+    "other": "LIVE: {{.Count}} ΛΕΠΤΑ"
   },
   "live_label_hours": {
     "other": "LIVE: {{.Hours}} ΩΡΕΣ"

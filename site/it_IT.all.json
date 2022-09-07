@@ -1445,7 +1445,8 @@
     "other": "ABITARE"
   },
   "live_label_minutes": {
-    "other": "IN DIRETTA: {{.Minutes}} MINUTI"
+    "one": "IN DIRETTA: 1 MINUTO",
+    "other": "IN DIRETTA: {{.Count}} MINUTI"
   },
   "live_label_hours": {
     "other": "IN DIRETTA: {{.Hours}} ORE"
