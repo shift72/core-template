@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.4.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.5.0...HEAD)
+
+## [1.5.0](https://github.com/shift72/core-template/compare/1.4.0...1.5.0)
 
 ### Added
 - Translations for discount errors
