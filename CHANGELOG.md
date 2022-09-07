@@ -1,6 +1,18 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.4.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.5.0...HEAD)
+
+## [1.5.0](https://github.com/shift72/core-template/compare/1.4.0...1.5.0)
+
+### Added
+- Translations for discount errors
+
+## Changed
+- Spacing between components AB#9013 
+
+### Fixed
+- Default language now gets set either by site record or kibble.json depending on if DB translations are enabled AB#9675
+- Fixed incorrect Portuguese translation for shopping success
 
 ## [1.4.0](https://github.com/shift72/core-template/compare/1.3.0...1.4.0)
 

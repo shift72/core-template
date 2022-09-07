@@ -1460,5 +1460,26 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Сеанс покупки истек, попробуйте еще раз."
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Вы не можете использовать промо-код для этой покупки или аренды"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Этот промокод еще не действителен"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Промокоды не могут быть применены к бесплатным сеансам покупок."
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Промокоды не могут быть применены после завершения покупки"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Не удалось применить промокод, попробуйте еще раз"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Недействительный промо-код"
+  },
+  "shopping_error_missing_code": {
+    "other": "Промокод не был предоставлен"
   }
 }

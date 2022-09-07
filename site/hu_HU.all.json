@@ -1412,5 +1412,26 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "A vásárlási munkamenet lejárt, próbálkozzon újra."
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Nem használhat promóciós kódot ehhez a vásárláshoz vagy kölcsönzéshez"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Ez a promóciós kód még nem érvényes"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "A promóciós kódok nem alkalmazhatók ingyenes vásárlási alkalmakra"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "A promóciós kódok nem alkalmazhatók, ha a vásárlás befejeződött"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Nem sikerült alkalmazni a promóciós kódot, próbálkozzon újra"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Érvénytelen promóciós kód"
+  },
+  "shopping_error_missing_code": {
+    "other": "Nem adtak meg promóciós kódot"
   }
 }

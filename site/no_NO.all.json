@@ -1412,5 +1412,26 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Shoppingøkten er utløpt, prøv igjen."
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Du kan ikke bruke en kampanjekode for dette kjøpet eller utleien"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Kampanjekoden er ikke gyldig ennå"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Kampanjekoder kan ikke brukes på gratis shoppingøkter"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Kampanjekoder kan ikke brukes etter at kjøpet er fullført"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Kampanjekoden kunne ikke brukes. Prøv igjen"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Ugyldig kampanjekode"
+  },
+  "shopping_error_missing_code": {
+    "other": "Ingen kampanjekode ble oppgitt"
   }
 }

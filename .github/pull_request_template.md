@@ -1,4 +1,4 @@
-ADO card: ☑️ [AB#XXXX](https://dev.azure.com/S72/SHIFT72/_workitems/edit/XXXX)
+ADO card: ☑️ AB#XXXX
 
 Elab notes/AC: 📃 [Google Docs](https://docs.google.com)
 - [ ] Has this been discussed with Delivery Team?

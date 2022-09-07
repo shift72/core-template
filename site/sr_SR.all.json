@@ -1425,5 +1425,26 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Сесија куповине је истекла, покушајте поново."
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Не можете да користите промотивни код за ову куповину или изнајмљивање"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Тај промо код још увек није важећи"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Промотивни кодови се не могу применити на бесплатне сесије куповине"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Промо кодови се не могу применити након што је куповина завршена"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Није могуће применити промотивни код, покушајте поново"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Неважећи промо код"
+  },
+  "shopping_error_missing_code": {
+    "other": "Није наведен промотивни код"
   }
 }
