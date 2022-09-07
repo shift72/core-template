@@ -1433,5 +1433,23 @@
   },
   "shopping_error_missing_code": {
     "other": "Er is geen promotiecode verstrekt"
+  },
+  "live_label_ended": {
+    "other": "LIVE: BEINDIGD"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MINUUT",
+    "other": "LIVE: {{.Count}} MINUTEN"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 UUR",
+    "other": "LIVE: {{.Count}} UUR"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 DAG",
+    "other": "LIVE: {{.Count}} DAGEN"
   }
 }

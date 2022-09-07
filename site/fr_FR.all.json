@@ -1437,5 +1437,23 @@
   },
   "shopping_error_missing_code": {
     "other": "Aucun code promotionnel n'a été fourni"
+  },
+  "live_label_ended": {
+    "other": "EN DIRECT : TERMINÉ"
+  },
+  "live_label_live": {
+    "other": "DIRECT"
+  },
+  "live_label_minutes": {
+    "one": "EN DIRECT : 1 MINUTE",
+    "other": "EN DIRECT : {{.Count}} MINUTES"
+  },
+  "live_label_hours": {
+    "one": "EN DIRECT : 1 HEURE",
+    "other": "EN DIRECT : {{.Count}} HEURES"
+  },
+  "live_label_days": {
+    "one": "EN DIRECT : 1 JOUR",
+    "other": "EN DIRECT : {{.Count}} JOURS"
   }
 }

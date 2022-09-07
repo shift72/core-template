@@ -1437,5 +1437,23 @@
   },
   "shopping_error_missing_code": {
     "other": "No se proporcionó ningún código de promoción"
+  },
+  "live_label_ended": {
+    "other": "EN VIVO: FINALIZADO"
+  },
+  "live_label_live": {
+    "other": "EN VIVO"
+  },
+  "live_label_minutes": {
+    "one": "EN VIVO: 1 MINUTO",
+    "other": "EN VIVO: {{.Count}} MINUTOS"
+  },
+  "live_label_hours": {
+    "one": "EN VIVO: 1 HORA",
+    "other": "EN VIVO: {{.Count}} HORAS"
+  },
+  "live_label_days": {
+    "one": "EN VIVO: 1 DÍA",
+    "other": "EN VIVO: {{.Count}} DÍAS"
   }
 }

@@ -1433,5 +1433,23 @@
   },
   "shopping_error_missing_code": {
     "other": "Ingen kampanjekode ble oppgitt"
+  },
+  "live_label_ended": {
+    "other": "LIVE: AVSLUTTET"
+  },
+  "live_label_live": {
+    "other": "BO"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MITT",
+    "other": "LIVE: {{.Count}} MINUTTER"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 TIME",
+    "other": "LIVE: {{.Count}} TIMER"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 DAG",
+    "other": "LIVE: {{.Count}} DAGER"
   }
 }

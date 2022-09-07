@@ -1433,5 +1433,23 @@
   },
   "shopping_error_missing_code": {
     "other": "Promosyon kodu sağlanmadı"
+  },
+  "live_label_ended": {
+    "other": "CANLI: SONA ERDİ"
+  },
+  "live_label_live": {
+    "other": "CANLI"
+  },
+  "live_label_minutes": {
+    "one": "CANLI: 1 DAKİKA",
+    "other": "CANLI: {{.Count}} DAKİKA"
+  },
+  "live_label_hours": {
+    "one": "CANLI: 1 SAAT",
+    "other": "CANLI: {{.Count}} SAAT"
+  },
+  "live_label_days": {
+    "one": "CANLI: 1 GÜN",
+    "other": "CANLI: {{.Count}} GÜNLER"
   }
 }

@@ -14,6 +14,9 @@
 - Default language now gets set either by site record or kibble.json depending on if DB translations are enabled AB#9675
 - Fixed incorrect Portuguese translation for shopping success
 
+### Added
+- Live label to film detail page and carousel with translations.
+
 ## [1.4.0](https://github.com/shift72/core-template/compare/1.3.0...1.4.0)
 
 ### Added

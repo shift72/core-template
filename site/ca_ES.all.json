@@ -1433,5 +1433,23 @@
   },
   "shopping_error_missing_code": {
     "other": "No s'ha proporcionat cap codi promocional"
+  },
+  "live_label_ended": {
+    "other": "EN DIRECTE: ACABAT"
+  },
+  "live_label_live": {
+    "other": "EN VIU"
+  },
+  "live_label_minutes": {
+    "one": "EN DIRECTE: 1 MINUT",
+    "other": "EN DIRECTE: {{.Count}} MINUTS"
+  },
+  "live_label_hours": {
+    "one": "EN DIRECTE: 1 HORA",
+    "other": "EN DIRECTE: {{.Count}} HORES"
+  },
+  "live_label_days": {
+    "one": "EN DIRECTE: 1 DIA",
+    "other": "EN DIRECTE: {{.Count}} DIES"
   }
 }

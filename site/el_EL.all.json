@@ -1433,5 +1433,23 @@
   },
   "shopping_error_missing_code": {
     "other": "Δεν δόθηκε κωδικός προσφοράς"
+  },
+  "live_label_ended": {
+    "other": "LIVE: ΤΕΛΕΙΩΣΕ"
+  },
+  "live_label_live": {
+    "other": "ΖΩ"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 ΛΕΠΤΟ",
+    "other": "LIVE: {{.Count}} ΛΕΠΤΑ"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 ΩΡΑ",
+    "other": "LIVE: {{.Count}} ΩΡΕΣ"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 ΜΕΡΑ",
+    "other": "LIVE: {{.Count}} ΗΜΕΡΕΣ"
   }
 }

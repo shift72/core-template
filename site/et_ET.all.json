@@ -1433,5 +1433,23 @@
   },
   "shopping_error_missing_code": {
     "other": "Sooduskoodi ei antud"
+  },
+  "live_label_ended": {
+    "other": "Otseülekanne: LÕPPENUD"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "OTSE: 1 MINUT",
+    "other": "OTSE: {{.Count}} MINUTID"
+  },
+  "live_label_hours": {
+    "one": "OTSE: 1 TUND",
+    "other": "OTSE: {{.Count}} TUNNID"
+  },
+  "live_label_days": {
+    "one": "OTSE: 1 PÄEV",
+    "other": "OTSE: {{.Count}} PÄEVAD"
   }
 }

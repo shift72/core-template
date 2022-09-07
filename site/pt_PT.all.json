@@ -1437,5 +1437,23 @@
   },
   "shopping_error_missing_code": {
     "other": "Nenhum código promocional foi fornecido"
+  },
+  "live_label_ended": {
+    "other": "AO VIVO: TERMINADO"
+  },
+  "live_label_live": {
+    "other": "VIVER"
+  },
+  "live_label_minutes": {
+    "one": "AO VIVO: 1 MINUTO",
+    "other": "AO VIVO: {{.Count}} MINUTOS"
+  },
+  "live_label_hours": {
+    "one": "AO VIVO: 1 HORA",
+    "other": "AO VIVO: {{.Count}} HORAS"
+  },
+  "live_label_days": {
+    "one": "AO VIVO: 1 DIA",
+    "other": "AO VIVO: {{.Count}} DIAS"
   }
 }

@@ -71,3 +71,29 @@ s72-plan-label {
   font-size: 12px;
   text-align: center;
 }
+
+s72-live-label {
+  .live-label {
+    align-items: center;
+    backdrop-filter: blur(16px);
+    background-color: rgba(var(--body-color-rgb), 0.16);
+    border-radius: 100px;
+    color: var(--body-color);
+    display: flex;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 12px;
+    white-space: nowrap;
+    width: fit-content;
+
+    &.is-live {
+      background-color: var(--live-label-live-background-color);
+    }
+
+    .s72-icon-live {
+      @include s72-icon-live;
+
+      margin-right: 8px;
+    }
+  }
+}

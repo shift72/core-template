@@ -1504,5 +1504,29 @@
   },
   "shopping_error_missing_code": {
     "other": "Nie podano kodu promocyjnego"
+  },
+  "live_label_ended": {
+    "other": "NA ŻYWO: ZAKOŃCZONE"
+  },
+  "live_label_live": {
+    "other": "RELACJA NA ŻYWO"
+  },
+  "live_label_minutes": {
+    "one": "NA ŻYWO: 1 MINUTA",
+    "few": "NA ŻYWO: {{.Count}} MINUTY",
+    "many": "NA ŻYWO: {{.Count}} MINUTY",
+    "other": "NA ŻYWO: {{.Count}} MINUTY"
+  },
+  "live_label_hours": {
+    "one": "NA ŻYWO: 1 GODZINA",
+    "few": "NA ŻYWO: {{.Count}} GODZINY",
+    "many": "NA ŻYWO: {{.Count}} GODZINY",
+    "other": "NA ŻYWO: {{.Count}} GODZINY"
+  },
+  "live_label_days": {
+    "one": "NA ŻYWO: 1 DZIEŃ",
+    "few": "NA ŻYWO: {{.Count}} DNI",
+    "many": "NA ŻYWO: {{.Count}} DNI",
+    "other": "NA ŻYWO: {{.Count}} DNI"
   }
 }

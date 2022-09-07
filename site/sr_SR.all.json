@@ -1446,5 +1446,26 @@
   },
   "shopping_error_missing_code": {
     "other": "Није наведен промотивни код"
+  },
+  "live_label_ended": {
+    "other": "УЖИВО: ЗАВРШЕНО"
+  },
+  "live_label_live": {
+    "other": "ЛИВЕ"
+  },
+  "live_label_minutes": {
+    "one": "УЖИВО: 1 МИНУТА",
+    "few": "УЖИВО: {{.Count}} МИНУТЕ",
+    "other": "УЖИВО: {{.Count}} МИНУТЕ"
+  },
+  "live_label_hours": {
+    "one": "УЖИВО: 1 САТ",
+    "few": "УЖИВО: {{.Count}} САТИ",
+    "other": "УЖИВО: {{.Count}} САТИ"
+  },
+  "live_label_days": {
+    "one": "УЖИВО: 1 ДАН",
+    "few": "УЖИВО: {{.Count}} ДАНА",
+    "other": "УЖИВО: {{.Count}} ДАНА"
   }
 }
