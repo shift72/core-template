@@ -1445,9 +1445,11 @@
     "other": "LIVE: {{.Count}} MINUUTTIA"
   },
   "live_label_hours": {
-    "other": "LIVE: {{.Hours}} HOURS"
+    "one": "LIVE: 1 TUNTI",
+    "other": "LIVE: {{.Count}} TUNTIA"
   },
   "live_label_days": {
-    "other": "LIVE: {{.Days}} DAYS"
+    "one": "LIVE: 1 PÄIVÄ",
+    "other": "LIVE: {{.Count}} PÄIVÄT"
   }
 }

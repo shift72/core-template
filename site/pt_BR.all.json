@@ -1449,9 +1449,11 @@
     "other": "AO VIVO: {{.Count}} MINUTOS"
   },
   "live_label_hours": {
-    "other": "AO VIVO: {{.Hours}} HORAS"
+    "one": "AO VIVO: 1 HORA",
+    "other": "AO VIVO: {{.Count}} HORAS"
   },
   "live_label_days": {
-    "other": "AO VIVO: {{.Days}} DIAS"
+    "one": "AO VIVO: 1 DIA",
+    "other": "AO VIVO: {{.Count}} DIAS"
   }
 }

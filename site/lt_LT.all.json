@@ -1473,9 +1473,15 @@
     "other": "TIESIOGIAI: {{.Count}} MINUTES"
   },
   "live_label_hours": {
-    "other": "TIESIOGIAI: {{.Hours}} VALANDOS"
+    "one": "TIESIOGIAI: 1 VALANDA",
+    "few": "TIESIOGIAI: {{.Count}} VALANDAS",
+    "many": "TIESIOGIAI: {{.Count}} VALANDAS",
+    "other": "TIESIOGIAI: {{.Count}} VALANDAS"
   },
   "live_label_days": {
-    "other": "TIESIOGIAI: {{.Days}} DIENOS"
+    "one": "TIESIOGIAI: 1 DIENA",
+    "few": "TIESIOGIAI: {{.Count}} DIENAS",
+    "many": "TIESIOGIAI: {{.Count}} DIENAS",
+    "other": "TIESIOGIAI: {{.Count}} DIENAS"
   }
 }

@@ -1445,9 +1445,11 @@
     "other": "OTSE: {{.Count}} MINUTID"
   },
   "live_label_hours": {
-    "other": "OTSE: {{.Hours}} HOURS"
+    "one": "OTSE: 1 TUND",
+    "other": "OTSE: {{.Count}} TUNNID"
   },
   "live_label_days": {
-    "other": "OTSE: {{.Days}} PÄEVAD"
+    "one": "OTSE: 1 PÄEV",
+    "other": "OTSE: {{.Count}} PÄEVAD"
   }
 }

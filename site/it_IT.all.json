@@ -1449,9 +1449,11 @@
     "other": "IN DIRETTA: {{.Count}} MINUTI"
   },
   "live_label_hours": {
-    "other": "IN DIRETTA: {{.Hours}} ORE"
+    "one": "IN DIRETTA: 1 ORA",
+    "other": "IN DIRETTA: {{.Count}} ORE"
   },
   "live_label_days": {
-    "other": "IN DIRETTA: {{.Days}} GIORNI"
+    "one": "IN DIRETTA: 1 GIORNO",
+    "other": "IN DIRETTA: {{.Count}} GIORNI"
   }
 }

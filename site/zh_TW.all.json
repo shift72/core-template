@@ -1434,9 +1434,9 @@
     "other": "直播：{{.Count}} 分钟"
   },
   "live_label_hours": {
-    "other": "直播：{{.Hours}} 小时"
+    "other": "直播：{{.Count}} 小时"
   },
   "live_label_days": {
-    "other": "直播：{{.Days}} 天"
+    "other": "直播：{{.Count}} 天"
   }
 }

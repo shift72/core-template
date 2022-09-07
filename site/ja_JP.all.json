@@ -1434,9 +1434,9 @@
     "other": "ライブ: {{.Count}} 分"
   },
   "live_label_hours": {
-    "other": "ライブ: {{.Hours}} 時間"
+    "other": "ライブ: {{.Count}} 時間"
   },
   "live_label_days": {
-    "other": "ライブ: {{.Days}} 日"
+    "other": "ライブ: {{.Count}} 日"
   }
 }

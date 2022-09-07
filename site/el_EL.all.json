@@ -1445,9 +1445,11 @@
     "other": "LIVE: {{.Count}} ΛΕΠΤΑ"
   },
   "live_label_hours": {
-    "other": "LIVE: {{.Hours}} ΩΡΕΣ"
+    "one": "LIVE: 1 ΩΡΑ",
+    "other": "LIVE: {{.Count}} ΩΡΕΣ"
   },
   "live_label_days": {
-    "other": "LIVE: {{.Days}} ΗΜΕΡΕΣ"
+    "one": "LIVE: 1 ΜΕΡΑ",
+    "other": "LIVE: {{.Count}} ΗΜΕΡΕΣ"
   }
 }

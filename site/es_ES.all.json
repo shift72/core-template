@@ -1449,9 +1449,11 @@
     "other": "EN VIVO: {{.Count}} MINUTOS"
   },
   "live_label_hours": {
-    "other": "EN VIVO: {{.Hours}} HORAS"
+    "one": "EN VIVO: 1 HORA",
+    "other": "EN VIVO: {{.Count}} HORAS"
   },
   "live_label_days": {
-    "other": "EN VIVO: {{.Days}} DÍAS"
+    "one": "EN VIVO: 1 DÍA",
+    "other": "EN VIVO: {{.Count}} DÍAS"
   }
 }

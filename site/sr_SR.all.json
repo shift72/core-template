@@ -1459,9 +1459,13 @@
     "other": "УЖИВО: {{.Count}} МИНУТЕ"
   },
   "live_label_hours": {
-    "other": "УЖИВО: {{.Hours}} САТИ"
+    "one": "УЖИВО: 1 САТ",
+    "few": "УЖИВО: {{.Count}} САТИ",
+    "other": "УЖИВО: {{.Count}} САТИ"
   },
   "live_label_days": {
-    "other": "УЖИВО: {{.Days}} ДАНИ"
+    "one": "УЖИВО: 1 ДАН",
+    "few": "УЖИВО: {{.Count}} ДАНА",
+    "other": "УЖИВО: {{.Count}} ДАНА"
   }
 }

@@ -1518,9 +1518,15 @@
     "other": "NA ŻYWO: {{.Count}} MINUTY"
   },
   "live_label_hours": {
-    "other": "NA ŻYWO: {{.Hours}} GODZINY"
+    "one": "NA ŻYWO: 1 GODZINA",
+    "few": "NA ŻYWO: {{.Count}} GODZINY",
+    "many": "NA ŻYWO: {{.Count}} GODZINY",
+    "other": "NA ŻYWO: {{.Count}} GODZINY"
   },
   "live_label_days": {
-    "other": "NA ŻYWO: {{.Days}} DNI"
+    "one": "NA ŻYWO: 1 DZIEŃ",
+    "few": "NA ŻYWO: {{.Count}} DNI",
+    "many": "NA ŻYWO: {{.Count}} DNI",
+    "other": "NA ŻYWO: {{.Count}} DNI"
   }
 }

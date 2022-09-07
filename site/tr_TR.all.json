@@ -1445,9 +1445,11 @@
     "other": "CANLI: {{.Count}} DAKİKA"
   },
   "live_label_hours": {
-    "other": "CANLI: {{.Hours}} SAAT"
+    "one": "CANLI: 1 SAAT",
+    "other": "CANLI: {{.Count}} SAAT"
   },
   "live_label_days": {
-    "other": "CANLI: {{.Days}} GÜNLER"
+    "one": "CANLI: 1 GÜN",
+    "other": "CANLI: {{.Count}} GÜNLER"
   }
 }

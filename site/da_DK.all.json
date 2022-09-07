@@ -1445,9 +1445,11 @@
     "other": "LIVE: {{.Count}} MINUTTER"
   },
   "live_label_hours": {
-    "other": "LIVE: {{.Hours}} TIMER"
+    "one": "LIVE: 1 TIME",
+    "other": "LIVE: {{.Count}} TIMER"
   },
   "live_label_days": {
-    "other": "LIVE: {{.Days}} DAGE"
+    "one": "LIVE: 1 DAG",
+    "other": "LIVE: {{.Count}} DAGE"
   }
 }

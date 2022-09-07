@@ -1445,9 +1445,11 @@
     "other": "ÉLŐ: {{.Count}} PERC"
   },
   "live_label_hours": {
-    "other": "ÉLŐ: {{.Hours}} HOURS"
+    "one": "ÉLŐ: 1 ÓRA",
+    "other": "ÉLŐ: {{.Count}} ÓRA"
   },
   "live_label_days": {
-    "other": "ÉLŐ: {{.Days}} NAPOK"
+    "one": "ÉLŐ: 1 NAP",
+    "other": "ÉLŐ: {{.Count}} NAPOK"
   }
 }

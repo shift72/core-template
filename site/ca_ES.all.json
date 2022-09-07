@@ -1445,9 +1445,11 @@
     "other": "EN DIRECTE: {{.Count}} MINUTS"
   },
   "live_label_hours": {
-    "other": "EN DIRECTE: {{.Hours}} HORES"
+    "one": "EN DIRECTE: 1 HORA",
+    "other": "EN DIRECTE: {{.Count}} HORES"
   },
   "live_label_days": {
-    "other": "EN DIRECTE: {{.Days}} DIES"
+    "one": "EN DIRECTE: 1 DIA",
+    "other": "EN DIRECTE: {{.Count}} DIES"
   }
 }
