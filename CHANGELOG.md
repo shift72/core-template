@@ -18,7 +18,7 @@
 - Live label to film detail page and carousel with translations.
 
 ### Added
-- Translations for live events
+- Translations for live events, poster live availability status styling changes
 
 ## [1.4.0](https://github.com/shift72/core-template/compare/1.3.0...1.4.0)
 
