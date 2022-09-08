@@ -1474,5 +1474,29 @@
   },
   "shopping_error_missing_code": {
     "other": "Reklamos kodas nebuvo pateiktas"
+  },
+  "live_label_ended": {
+    "other": "TIESIOGIAI: PABAIGTA"
+  },
+  "live_label_live": {
+    "other": "GYVAI"
+  },
+  "live_label_minutes": {
+    "one": "TIESIOGIAI: 1 MINUTĖ",
+    "few": "TIESIOGIAI: {{.Count}} MINUTES",
+    "many": "TIESIOGIAI: {{.Count}} MINUTES",
+    "other": "TIESIOGIAI: {{.Count}} MINUTES"
+  },
+  "live_label_hours": {
+    "one": "TIESIOGIAI: 1 VALANDA",
+    "few": "TIESIOGIAI: {{.Count}} VALANDAS",
+    "many": "TIESIOGIAI: {{.Count}} VALANDAS",
+    "other": "TIESIOGIAI: {{.Count}} VALANDAS"
+  },
+  "live_label_days": {
+    "one": "TIESIOGIAI: 1 DIENA",
+    "few": "TIESIOGIAI: {{.Count}} DIENAS",
+    "many": "TIESIOGIAI: {{.Count}} DIENAS",
+    "other": "TIESIOGIAI: {{.Count}} DIENAS"
   }
 }

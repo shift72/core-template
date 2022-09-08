@@ -1448,5 +1448,23 @@
   },
   "shopping_error_missing_code": {
     "other": "No promo code was provided"
+  },
+  "live_label_ended": {
+    "other": "LIVE: ENDED"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MINUTE",
+    "other": "LIVE: {{.Count}} MINUTES"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 HOUR",
+    "other": "LIVE: {{.Count}} HOURS"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 DAY",
+    "other": "LIVE: {{.Count}} DAYS"
   }
 }

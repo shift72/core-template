@@ -102,8 +102,7 @@
 }
 
 .meta-detail-main {
-  @extend .d-flex;
-  flex-direction: column;
+  display: grid;
   padding: var(--page-detail-padding-top) 20px 0 20px;
 
   @include media-breakpoint-up(xs) {
@@ -111,19 +110,45 @@
   }
 
   @include media-breakpoint-up(lg) {
-    flex-direction: row;
+    grid-template-columns: auto 1fr;
     padding: var(--page-detail-padding-top-lg) 50px 0 50px;
     padding-bottom: 0;
   }
 
-  .poster-wrapper {
-    margin-bottom: 20px;
-    position: relative;
-    .sponsor {
-      bottom: 100%;
+  s72-live-label {
+    @include media-breakpoint-up(lg) {
+      grid-column: 2;
+    }
+
+    .live-label {
+      margin-bottom: 12px;
       position: absolute;
+      // 42px magic number is 30px height of the label + 12px of "margin".
+      top: calc(var(--page-detail-padding-top) - 42px);
+
       @include media-breakpoint-up(xs) {
-        position: relative;
+        // 42px magic number is 30px height of the label + 12px of "margin".
+        top: calc(var(--page-detail-padding-top-md) - 42px);
+      }
+
+      @include media-breakpoint-up(lg) {
+        margin-bottom: 8px;
+        // 42px magic number is 30px height of the label + 12px of "margin".
+        top: calc(var(--page-detail-padding-top-lg) - 42px);
+      }
+    }
+  }
+
+  .poster-wrapper {
+    @include media-breakpoint-up(lg) {
+      grid-row: 2;
+    }
+
+    .sponsor {
+      margin-bottom: 12px;
+
+      @include media-breakpoint-up(xs) {
+        margin-bottom: 20px;
       }
     }
   }
@@ -132,6 +157,7 @@
     animation: fadein 2s;
     display: block;
     flex-shrink: 0;
+    margin-bottom: 20px;
     margin-right: 20px;
     width: 110px;
 
@@ -147,6 +173,13 @@
   .poster-wrapper .sponsor {
     @include media-breakpoint-up(lg) {
       display: none;
+    }
+  }
+
+  .meta-detail-content {
+    @include media-breakpoint-up(lg) {
+      grid-column: 2;
+      grid-row: 2;
     }
   }
 }

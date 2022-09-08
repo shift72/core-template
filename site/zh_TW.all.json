@@ -1438,5 +1438,20 @@
   },
   "shopping_error_missing_code": {
     "other": "未提供促銷代碼"
+  },
+  "live_label_ended": {
+    "other": "直播：結束"
+  },
+  "live_label_live": {
+    "other": "居住"
+  },
+  "live_label_minutes": {
+    "other": "直播：{{.Count}} 分钟"
+  },
+  "live_label_hours": {
+    "other": "直播：{{.Count}} 小时"
+  },
+  "live_label_days": {
+    "other": "直播：{{.Count}} 天"
   }
 }

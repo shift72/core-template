@@ -1447,5 +1447,26 @@
   },
   "shopping_error_missing_code": {
     "other": "Nije dostavljen promotivni kod"
+  },
+  "live_label_ended": {
+    "other": "UŽIVO: ZAVRŠENO"
+  },
+  "live_label_live": {
+    "other": "UŽIVO"
+  },
+  "live_label_minutes": {
+    "one": "UŽIVO: 1 MINUTA",
+    "few": "UŽIVO: {{.Count}} MINUTE",
+    "other": "UŽIVO: {{.Count}} MINUTE"
+  },
+  "live_label_hours": {
+    "one": "UŽIVO: 1 SAT",
+    "few": "UŽIVO: {{.Count}} SATA",
+    "other": "UŽIVO: {{.Count}} SATA"
+  },
+  "live_label_days": {
+    "one": "UŽIVO: 1 DAN",
+    "few": "UŽIVO: {{.Count}} DANE",
+    "other": "UŽIVO: {{.Count}} DANE"
   }
 }

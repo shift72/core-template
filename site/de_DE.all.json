@@ -1448,5 +1448,23 @@
   },
   "shopping_error_missing_code": {
     "other": "Es wurde kein Aktionscode angegeben"
+  },
+  "live_label_ended": {
+    "other": "LIVE: BEENDET"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MINUTE",
+    "other": "LIVE: {{.Count}} MINUTEN"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 STUNDE",
+    "other": "LIVE: {{.Count}} STUNDEN"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 TAG",
+    "other": "LIVE: {{.Count}} TAGE"
   }
 }

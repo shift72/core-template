@@ -1,6 +1,21 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.4.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.5.0...HEAD)
+
+## [1.5.0](https://github.com/shift72/core-template/compare/1.4.0...1.5.0)
+
+### Added
+- Translations for discount errors
+
+## Changed
+- Spacing between components AB#9013 
+
+### Fixed
+- Default language now gets set either by site record or kibble.json depending on if DB translations are enabled AB#9675
+- Fixed incorrect Portuguese translation for shopping success
+
+### Added
+- Live label to film detail page and carousel with translations.
 
 ### Added
 - Translations for live events
@@ -15,7 +30,6 @@
 - Added support for self-service CSS and brand images.
 - Added support for carousel_play_speed and carousel_fade_time configs.
 - Added support to toggle on cloudsearch via Meta > cloudsearch feature toggle.
-- Translations for discount errors
 
 ## Changed
 - Moved the carousel availability label above the CTA's.
@@ -29,7 +43,6 @@
 - Fixed translation for plan frequency in plans.html
 - Added Intl to polyfill to catch iOS devices.
 - Film detail page element switcher uses grid instead of flex with gap.
-- Fixed bad Portuguese translation.
 
 ## [1.3.0](https://github.com/shift72/core-template/compare/1.3.0-alpha...1.3.0)
 

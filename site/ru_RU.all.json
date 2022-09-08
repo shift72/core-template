@@ -1496,5 +1496,29 @@
   },
   "shopping_error_missing_code": {
     "other": "Промокод не был предоставлен"
+  },
+  "live_label_ended": {
+    "other": "ПРЯМОЙ ЭФИР: ЗАКОНЧИЛСЯ"
+  },
+  "live_label_live": {
+    "other": "ЖИТЬ"
+  },
+  "live_label_minutes": {
+    "one": "ЖИТЬ: 1 МИНУТА",
+    "few": "ЖИТЬ: {{.Count}} МИНУТ",
+    "many": "ЖИТЬ: {{.Count}} МИНУТ",
+    "other": "ЖИТЬ: {{.Count}} МИНУТ"
+  },
+  "live_label_hours": {
+    "one": "ЖИТЬ: 1 ЧАС",
+    "few": "ЖИТЬ: {{.Count}} ЧАСЫ",
+    "many": "ЖИТЬ: {{.Count}} ЧАСЫ",
+    "other": "ЖИТЬ: {{.Count}} ЧАСЫ"
+  },
+  "live_label_days": {
+    "one": "ЖИТЬ: 1 ДЕНЬ",
+    "few": "ЖИТЬ: {{.Count}} ДНЕЙ",
+    "many": "ЖИТЬ: {{.Count}} ДНЕЙ",
+    "other": "ЖИТЬ: {{.Count}} ДНЕЙ"
   }
 }

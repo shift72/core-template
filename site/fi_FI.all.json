@@ -1448,5 +1448,23 @@
   },
   "shopping_error_missing_code": {
     "other": "Tarjouskoodia ei annettu"
+  },
+  "live_label_ended": {
+    "other": "LIVE: PÄÄTTYNYT"
+  },
+  "live_label_live": {
+    "other": "ELÄÄ"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MINUUTI",
+    "other": "LIVE: {{.Count}} MINUUTTIA"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 TUNTI",
+    "other": "LIVE: {{.Count}} TUNTIA"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 PÄIVÄ",
+    "other": "LIVE: {{.Count}} PÄIVÄT"
   }
 }

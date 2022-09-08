@@ -1452,5 +1452,23 @@
   },
   "shopping_error_missing_code": {
     "other": "Non è stato fornito alcun codice promozionale"
+  },
+  "live_label_ended": {
+    "other": "IN DIRETTA: FINITA"
+  },
+  "live_label_live": {
+    "other": "ABITARE"
+  },
+  "live_label_minutes": {
+    "one": "IN DIRETTA: 1 MINUTO",
+    "other": "IN DIRETTA: {{.Count}} MINUTI"
+  },
+  "live_label_hours": {
+    "one": "IN DIRETTA: 1 ORA",
+    "other": "IN DIRETTA: {{.Count}} ORE"
+  },
+  "live_label_days": {
+    "one": "IN DIRETTA: 1 GIORNO",
+    "other": "IN DIRETTA: {{.Count}} GIORNI"
   }
 }

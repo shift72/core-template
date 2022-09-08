@@ -1438,5 +1438,20 @@
   },
   "shopping_error_missing_code": {
     "other": "プロモーション コードが提供されていません"
+  },
+  "live_label_ended": {
+    "other": "ライブ: 終了しました"
+  },
+  "live_label_live": {
+    "other": "住む"
+  },
+  "live_label_minutes": {
+    "other": "ライブ: {{.Count}} 分"
+  },
+  "live_label_hours": {
+    "other": "ライブ: {{.Count}} 時間"
+  },
+  "live_label_days": {
+    "other": "ライブ: {{.Count}} 日"
   }
 }

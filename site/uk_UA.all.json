@@ -1502,5 +1502,29 @@
   },
   "shopping_error_missing_code": {
     "other": "Промокод не надано"
+  },
+  "live_label_ended": {
+    "other": "НАЖИВО: ЗАВЕРШЕНО"
+  },
+  "live_label_live": {
+    "other": "НАЖИВО"
+  },
+  "live_label_minutes": {
+    "one": "НАЖИВО: 1 ХВИЛИНА",
+    "few": "НАЖИВО: {{.Count}} ХВИЛИНИ",
+    "many": "НАЖИВО: {{.Count}} ХВИЛИНИ",
+    "other": "НАЖИВО: {{.Count}} ХВИЛИНИ"
+  },
+  "live_label_hours": {
+    "one": "НАЖИВО: 1 ГОДИНА",
+    "few": "НАЖИВО: {{.Count}} ГОДИНИ",
+    "many": "НАЖИВО: {{.Count}} ГОДИНИ",
+    "other": "НАЖИВО: {{.Count}} ГОДИНИ"
+  },
+  "live_label_days": {
+    "one": "НАЖИВО: 1 ДЕНЬ",
+    "few": "НАЖИВО: {{.Count}} ДНІВ",
+    "many": "НАЖИВО: {{.Count}} ДНІВ",
+    "other": "НАЖИВО: {{.Count}} ДНІВ"
   }
 }
