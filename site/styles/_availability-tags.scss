@@ -70,13 +70,10 @@ s72-availability-label {
 
   s72-availability-status {
     .availability-livenow:before {
-      content: "";
-      border-radius: 50%;
-      background-color: var(--live-red);
-      display: inline-block;
+      @include s72-icon-live;
       margin-right: 6px;
-      width: 8px;
-      height: 8px;
+      font-size: 8px;
+      color: var(--live-red);
     }
   }
 }

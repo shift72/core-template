@@ -168,6 +168,10 @@
     @include media-breakpoint-up(xl) {
       width: 208px;
     }
+
+    .live {
+      display: none;
+    }
   }
 
   .poster-wrapper .sponsor {
