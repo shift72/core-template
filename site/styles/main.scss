@@ -56,3 +56,28 @@
 @import 'local/local';
 
 // DO NOT PUT ANYTHING IN THIS FILE.
+
+
+// Theme editor tools
+.tools {
+    position: fixed;
+    background: rgba(225,225,225,.55);
+    padding: 1em;
+    margin: .5em;
+    border-radius: .25em;
+    max-width: 20em;
+    top: 160px;
+    right: 43px;
+    z-index: 999;
+    color: #000;
+  }
+  
+  .tools > * {
+    display: inline-block;
+  }
+  
+  .tools label {
+  
+    min-width: 9em;
+    max-width: 11em;
+  }
