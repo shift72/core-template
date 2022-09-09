@@ -1413,6 +1413,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Η περίοδος αγορών έληξε, δοκιμάστε ξανά."
   },
+  "live_stream_starts": {
+    "other": "Η ροή ξεκινάει {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Μετάδοση ροής τώρα"
+  },
+  "live_streaming_ended": {
+    "other": "Η ροή έληξε"
+  },
+  "availability_live": {
+    "other": "ΖΩ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Πάρτε εισιτήριο"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Δεν μπορείτε να χρησιμοποιήσετε κωδικό προσφοράς για αυτήν την αγορά ή ενοικίαση"
   },

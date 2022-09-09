@@ -1413,6 +1413,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Shopping session expired, please try again."
   },
+  "live_stream_starts": {
+    "other": "Stream starts {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streaming now"
+  },
+  "live_streaming_ended": {
+    "other": "Stream ended"
+  },
+  "availability_live": {
+    "other": "LIVE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Get ticket"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "You can not use a promo code for this purchase or rental"
   },

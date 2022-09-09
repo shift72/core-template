@@ -1413,6 +1413,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Ostosistunto vanhentunut, yritä uudelleen."
   },
+  "live_stream_starts": {
+    "other": "Stream alkaa {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Striimaa nyt"
+  },
+  "live_streaming_ended": {
+    "other": "Striimi päättyi"
+  },
+  "availability_live": {
+    "other": "ELÄÄ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Hanki lippu"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Et voi käyttää tarjouskoodia tähän ostoon tai vuokraukseen"
   },

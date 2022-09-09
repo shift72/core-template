@@ -1403,6 +1403,21 @@
   "shopping_error_invalid_session_token": {
     "other": "ショッピング セッションの有効期限が切れました。もう一度お試しください。"
   },
+  "live_stream_starts": {
+    "other": "ストリーム開始 {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "ストリーミング中"
+  },
+  "live_streaming_ended": {
+    "other": "配信終了"
+  },
+  "availability_live": {
+    "other": "住む"
+  },
+  "shopping_action_get_ticket": {
+    "other": "チケットを入手"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "この購入またはレンタルにはプロモーション コードを使用できません"
   },

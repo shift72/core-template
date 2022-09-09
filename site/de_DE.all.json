@@ -1413,6 +1413,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Einkaufssitzung abgelaufen, bitte versuchen Sie es erneut."
   },
+  "live_stream_starts": {
+    "other": "Der Stream beginnt {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Jetzt streamen"
+  },
+  "live_streaming_ended": {
+    "other": "Stream beendet"
+  },
+  "availability_live": {
+    "other": "LIVE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Fahrkarte bekommen"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Sie können keinen Aktionscode für diesen Kauf oder diese Miete verwenden"
   },

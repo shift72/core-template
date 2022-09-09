@@ -1439,6 +1439,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Apsipirkimo sesija baigėsi, bandykite dar kartą."
   },
+  "live_stream_starts": {
+    "other": "Srautas prasideda {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Dabar transliuojama"
+  },
+  "live_streaming_ended": {
+    "other": "Srautas baigėsi"
+  },
+  "availability_live": {
+    "other": "GYVAI"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Gaukite bilietą"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Šiam pirkimui ar nuomai negalite naudoti reklamos kredito kodo"
   },

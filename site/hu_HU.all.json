@@ -1413,6 +1413,21 @@
   "shopping_error_invalid_session_token": {
     "other": "A vásárlási munkamenet lejárt, próbálkozzon újra."
   },
+  "live_stream_starts": {
+    "other": "Az adatfolyam elindul {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streamelés most"
+  },
+  "live_streaming_ended": {
+    "other": "Az adatfolyam véget ért"
+  },
+  "availability_live": {
+    "other": "ÉLŐ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Vegyél jegyet"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Nem használhat promóciós kódot ehhez a vásárláshoz vagy kölcsönzéshez"
   },

@@ -1484,6 +1484,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Sesja zakupowa wygasła, spróbuj ponownie."
   },
+  "live_stream_starts": {
+    "other": "Strumień zaczyna się {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streaming teraz"
+  },
+  "live_streaming_ended": {
+    "other": "Transmisja zakończyła się"
+  },
+  "availability_live": {
+    "other": "RELACJA NA ŻYWO"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Kup bilet"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Nie możesz użyć kodu promocyjnego do tego zakupu lub wypożyczenia"
   },

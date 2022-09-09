@@ -1412,6 +1412,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Sesija kupnje je istekla, pokušajte ponovno."
   },
+  "live_stream_starts": {
+    "other": "Stream počinje {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streaming sada"
+  },
+  "live_streaming_ended": {
+    "other": "Stream je završio"
+  },
+  "availability_live": {
+    "other": "UŽIVO"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Uzmi kartu"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Ne možete koristiti promotivni kod za ovu kupnju ili iznajmljivanje"
   },

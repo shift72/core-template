@@ -1403,6 +1403,21 @@
   "shopping_error_invalid_session_token": {
     "other": "購物會話已過期，請重試。"
   },
+  "live_stream_starts": {
+    "other": "流开始 {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "立即流式传输"
+  },
+  "live_streaming_ended": {
+    "other": "直播已结束"
+  },
+  "availability_live": {
+    "other": "居住"
+  },
+  "shopping_action_get_ticket": {
+    "other": "取票"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "您不能為此購買或租賃使用促銷代碼"
   },

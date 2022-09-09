@@ -1413,6 +1413,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Shopping-sessie is verlopen, probeer het opnieuw."
   },
+  "live_stream_starts": {
+    "other": "Stream begint {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Nu streamen"
+  },
+  "live_streaming_ended": {
+    "other": "Stream beëindigd"
+  },
+  "availability_live": {
+    "other": "LIVE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Koop een kaartje"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "U kunt geen promotiecode gebruiken voor deze aankoop of huur"
   },

@@ -1413,6 +1413,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Alışveriş oturumunun süresi doldu, lütfen tekrar deneyin."
   },
+  "live_stream_starts": {
+    "other": "Akış başlıyor {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Şimdi yayınlanıyor"
+  },
+  "live_streaming_ended": {
+    "other": "Akış sona erdi"
+  },
+  "availability_live": {
+    "other": "CANLI"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Bilet al"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Bu satın alma veya kiralama için promosyon kodu kullanamazsınız"
   },

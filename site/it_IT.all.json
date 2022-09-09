@@ -1417,6 +1417,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Sessione di acquisto scaduta, riprova."
   },
+  "live_stream_starts": {
+    "other": "Lo streaming inizia {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "In streaming ora"
+  },
+  "live_streaming_ended": {
+    "other": "Il flusso è terminato"
+  },
+  "availability_live": {
+    "other": "ABITARE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Ottieni il biglietto"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Non è possibile utilizzare un codice promozionale per questo acquisto o noleggio"
   },

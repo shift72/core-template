@@ -1417,6 +1417,21 @@
   "shopping_error_invalid_session_token": {
     "other": "A sessão de compras expirou. Tente novamente."
   },
+  "live_stream_starts": {
+    "other": "A transmissão começa {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Transmissão agora"
+  },
+  "live_streaming_ended": {
+    "other": "Stream encerrado"
+  },
+  "availability_live": {
+    "other": "VIVER"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Obter bilhete"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Você não pode usar um código promocional para esta compra ou aluguel"
   },
