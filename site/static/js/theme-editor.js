@@ -2,8 +2,8 @@ var primaryColorPicker = document.getElementById('color-picker-primary');
 var secondaryColorPicker = document.getElementById('color-picker-secondary');
 var bodyBgColorPicker = document.getElementById('color-picker-body-bg');
 var bodyColorColorPicker = document.getElementById('color-picker-body-color');
-var logoWidthPicker = document.getElementById('logo-width');
-var headerHeightPicker = document.getElementById('header-height');
+var logoWidthPicker = document.getElementById('nav-logo-height');
+var headerHeightPicker = document.getElementById('footer-logo-height');
 
 function setThemeVar(name, value, unit) {
   var r = document.querySelector(':root');
@@ -31,8 +31,8 @@ bodyColorColorPicker.addEventListener('input', function (e) {
   setThemeVar('--body-color-rgb', bodyColorHex);
 });
 logoWidthPicker.addEventListener('input', function (e) {
-  setThemeVar('--navbar-brand-min-width-xl', e.target.value, 'px');
+  setThemeVar('--navbar-brand-height', e.target.value, 'px');
 });
 headerHeightPicker.addEventListener('input', function (e) {
-  setThemeVar('--navbar-brand-padding-y', e.target.value, 'px');
+  setThemeVar('--footer-brand-height', e.target.value, 'px');
 });

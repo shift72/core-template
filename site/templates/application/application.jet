@@ -71,10 +71,10 @@
   <body>
   {* Theme editor tools *}
   <div class="tools">
-    <label for="font-picker-size">Logo width</label>
-    <input type="range" id="logo-width" value="125" min="80" max="300">
-    <label for="font-picker-size">Header height</label>
-    <input type="range" id="header-height" value="25" min="20" max="100">
+    <label for="font-picker-size">Nav Logo Size</label>
+    <input type="range" id="nav-logo-height" value="50" min="20" max="100">
+    <label for="font-picker-size">Footer Logo Size</label>
+    <input type="range" id="footer-logo-height" value="50" min="20" max="100">
     <label for="color-picker-primary">Primary colour</label>
     <input type="color" id="color-picker-primary" value="#35a0a8">
     <label for="color-picker-secondary">Secondary colour</label>
