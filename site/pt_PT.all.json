@@ -1470,5 +1470,26 @@
   "live_label_days": {
     "one": "AO VIVO: 1 DIA",
     "other": "AO VIVO: {{.Count}} DIAS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Transmissão ao vivo"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Este é um evento ao vivo. O fluxo começa {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Você pode comprar um ingresso agora, mas precisará assistir enquanto a transmissão estiver ao vivo."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Você precisará assistir enquanto a transmissão estiver ao vivo."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Este é um evento ao vivo. Você precisará assistir enquanto a transmissão estiver ao vivo."
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "O fluxo termina {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Você não poderá assistir à transmissão depois disso."
   }
 }

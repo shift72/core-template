@@ -1466,5 +1466,26 @@
   "live_label_days": {
     "one": "OTSE: 1 PÄEV",
     "other": "OTSE: {{.Count}} PÄEVAD"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Otseülekanne"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "See on otseülekanne. Voog algab {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Pileti saate osta kohe, kuid peate vaatama otseülekannet."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Peate vaatama otseülekannet."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "See on otseülekanne. Peate vaatama otseülekannet."
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Voog lõpeb {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Pärast seda ei saa te otseülekannet vaadata."
   }
 }

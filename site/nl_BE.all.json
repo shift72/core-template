@@ -1466,5 +1466,26 @@
   "live_label_days": {
     "one": "LIVE: 1 DAG",
     "other": "LIVE: {{.Count}} DAGEN"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Livestream"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dit is een live-evenement. Stream start {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Je kunt nu een kaartje kopen, maar je moet kijken terwijl de stream live is."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Je moet kijken terwijl de stream live is."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Dit is een live-evenement. Je moet kijken terwijl de stream live is."
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream eindigt {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Daarna kun je de stream niet meer bekijken."
   }
 }

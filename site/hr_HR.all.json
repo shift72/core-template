@@ -1468,5 +1468,26 @@
     "one": "UŽIVO: 1 DAN",
     "few": "UŽIVO: {{.Count}} DANE",
     "other": "UŽIVO: {{.Count}} DANE"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Uživo prijenos"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Ovo je događaj uživo. Stream počinje {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Ulaznicu možete kupiti sada, ali morat ćete gledati dok je prijenos uživo."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Morat ćete gledati dok je prijenos uživo."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Ovo je događaj uživo. Morat ćete gledati dok je prijenos uživo."
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream završava {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Nakon toga nećete moći gledati prijenos."
   }
 }

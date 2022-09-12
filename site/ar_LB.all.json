@@ -1530,5 +1530,26 @@
     "few": "مباشر: {{.Count}} أيام",
     "many": "مباشر: {{.Count}} أيام",
     "other": "مباشر: {{.Count}} أيام"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "البث المباشر"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "هذا حدث مباشر. يبدأ {{.Date}} . التاريخ."
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "يمكنك شراء تذكرة الآن ولكنك ستحتاج إلى المشاهدة أثناء البث المباشر."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "ستحتاج إلى المشاهدة أثناء البث المباشر."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "هذا حدث مباشر. ستحتاج إلى المشاهدة أثناء البث المباشر."
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "ينتهي {{.Date}} . التاريخ."
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "لن تتمكن من مشاهدة البث بعد ذلك."
   }
 }

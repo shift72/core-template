@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.5.0...HEAD)
 
+### Added
+- Translations and CSS for live event purchase flow.
+
 ## [1.5.0](https://github.com/shift72/core-template/compare/1.4.0...1.5.0)
 
 ### Added

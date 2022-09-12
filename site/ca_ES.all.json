@@ -1466,5 +1466,26 @@
   "live_label_days": {
     "one": "EN DIRECTE: 1 DIA",
     "other": "EN DIRECTE: {{.Count}} DIES"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Transmissió en directe"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Aquest és un esdeveniment en directe. Comença la {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Ja pots comprar una entrada, però hauràs de mirar-la mentre la transmissió sigui en directe."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Haureu de mirar-lo mentre la transmissió sigui en directe."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Aquest és un esdeveniment en directe. Haureu de mirar-lo mentre la transmissió sigui en directe."
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "El flux acaba {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Després d'això, no podreu veure l'emissió."
   }
 }

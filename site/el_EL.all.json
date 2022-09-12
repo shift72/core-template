@@ -1466,5 +1466,26 @@
   "live_label_days": {
     "one": "LIVE: 1 ΜΕΡΑ",
     "other": "LIVE: {{.Count}} ΗΜΕΡΕΣ"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Ζωντανή μετάδοση"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Αυτή είναι μια Ζωντανή Εκδήλωση. Έναρξη ροής {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Μπορείτε να αγοράσετε ένα εισιτήριο τώρα, αλλά θα πρέπει να το παρακολουθήσετε όσο είναι ζωντανή η ροή."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Θα χρειαστεί να παρακολουθήσετε ενώ η ροή είναι ζωντανή."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Αυτή είναι μια Ζωντανή Εκδήλωση. Θα χρειαστεί να παρακολουθήσετε ενώ η ροή είναι ζωντανή."
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Λήξη ροής {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Δεν θα μπορείτε να παρακολουθήσετε τη ροή μετά από αυτό."
   }
 }

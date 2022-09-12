@@ -1466,5 +1466,26 @@
   "live_label_days": {
     "one": "LIVE: 1 TAG",
     "other": "LIVE: {{.Count}} TAGE"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Liveübertragung"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dies ist ein Live-Event. Stream beginnt {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Sie können jetzt ein Ticket kaufen, aber Sie müssen zuschauen, während der Stream live ist."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Sie müssen zuschauen, während der Stream live ist."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Dies ist ein Live-Event. Sie müssen zuschauen, während der Stream live ist."
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream endet am {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Danach können Sie den Stream nicht mehr ansehen."
   }
 }

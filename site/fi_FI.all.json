@@ -1466,5 +1466,26 @@
   "live_label_days": {
     "one": "LIVE: 1 PÄIVÄ",
     "other": "LIVE: {{.Count}} PÄIVÄT"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Suora lähetys"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Tämä on live-tapahtuma. Suoratoisto alkaa {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Voit ostaa lipun nyt, mutta sinun on katsottava suoratoiston aikana."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Sinun on katsottava suoratoiston aikana."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Tämä on live-tapahtuma. Sinun on katsottava suoratoiston aikana."
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Lähetys päättyy {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Et voi katsoa striimiä sen jälkeen."
   }
 }

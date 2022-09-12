@@ -1466,5 +1466,26 @@
   "live_label_days": {
     "one": "LIVE: 1 DAG",
     "other": "LIVE: {{.Count}} DAGE"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Live stream"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dette er en Live Event. Stream starter {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Du kan købe en billet nu, men du bliver nødt til at se den, mens streamen er live."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Du skal se, mens streamen er live."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Dette er en Live Event. Du skal se, mens streamen er live."
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream slutter {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Du vil ikke være i stand til at se streamen efter det."
   }
 }
