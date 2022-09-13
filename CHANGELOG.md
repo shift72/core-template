@@ -2,6 +2,16 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.5.0...HEAD)
 
+### Added
+- AB#9564 Live label to film detail page and carousel with translations.
+- AB#9361 Translations for live events, poster live availability status styling changes
+
+### Changed
+
+### Fixed
+
+
+
 ## [1.5.0](https://github.com/shift72/core-template/compare/1.4.0...1.5.0)
 
 ### Added
@@ -13,12 +23,6 @@
 ### Fixed
 - Default language now gets set either by site record or kibble.json depending on if DB translations are enabled AB#9675
 - Fixed incorrect Portuguese translation for shopping success
-
-### Added
-- Live label to film detail page and carousel with translations.
-
-### Added
-- Translations for live events, poster live availability status styling changes
 
 ## [1.4.0](https://github.com/shift72/core-template/compare/1.3.0...1.4.0)
 
