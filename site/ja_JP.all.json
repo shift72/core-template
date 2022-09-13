@@ -1443,7 +1443,7 @@
     "other": "ライブ: 終了しました"
   },
   "live_label_live": {
-    "other": "住む"
+    "other": "ライブ"
   },
   "live_label_minutes": {
     "other": "ライブ: {{.Count}} 分"
