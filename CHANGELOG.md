@@ -7,6 +7,7 @@
 - AB#9361 Translations for live events, poster live availability status styling changes
 
 ### Changed
+- Revert to using relish 1.3 rather than latest
 
 ### Fixed
 
