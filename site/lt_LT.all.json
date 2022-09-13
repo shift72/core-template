@@ -1519,5 +1519,8 @@
   },
   "shopping_info_available_until_date_explanation_live_event_rent": {
     "other": "Po to srauto žiūrėti nebegalėsite."
+  },
+  "shopping_action_ticket": {
+    "other": "Gaukite bilietą"
   }
 }

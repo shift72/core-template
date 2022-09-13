@@ -1491,5 +1491,8 @@
   },
   "shopping_info_available_until_date_explanation_live_event_rent": {
     "other": "No podrás ver la transmisión después de eso."
+  },
+  "shopping_action_ticket": {
+    "other": "Obtener boleto"
   }
 }

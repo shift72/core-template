@@ -1487,5 +1487,8 @@
   },
   "shopping_info_available_until_date_explanation_live_event_rent": {
     "other": "Pärast seda ei saa te otseülekannet vaadata."
+  },
+  "shopping_action_ticket": {
+    "other": "Hankige pilet"
   }
 }

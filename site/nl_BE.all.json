@@ -1487,5 +1487,8 @@
   },
   "shopping_info_available_until_date_explanation_live_event_rent": {
     "other": "Daarna kun je de stream niet meer bekijken."
+  },
+  "shopping_action_ticket": {
+    "other": "Koop een kaartje"
   }
 }

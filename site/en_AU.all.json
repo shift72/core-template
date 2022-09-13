@@ -1487,5 +1487,8 @@
   },
   "shopping_info_available_until_date_explanation_live_event_rent": {
     "other": "You won't be able to watch the stream after that."
+  },
+  "shopping_action_ticket": {
+    "other": "Get ticket"
   }
 }

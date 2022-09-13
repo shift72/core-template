@@ -1489,5 +1489,8 @@
   },
   "shopping_info_available_until_date_explanation_live_event_rent": {
     "other": "Nakon toga nećete moći gledati prijenos."
+  },
+  "shopping_action_ticket": {
+    "other": "Uzmi kartu"
   }
 }

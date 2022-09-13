@@ -1487,5 +1487,8 @@
   },
   "shopping_info_available_until_date_explanation_live_event_rent": {
     "other": "Danach können Sie den Stream nicht mehr ansehen."
+  },
+  "shopping_action_ticket": {
+    "other": "Fahrkarte bekommen"
   }
 }

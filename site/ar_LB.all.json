@@ -1551,5 +1551,8 @@
   },
   "shopping_info_available_until_date_explanation_live_event_rent": {
     "other": "لن تتمكن من مشاهدة البث بعد ذلك."
+  },
+  "shopping_action_ticket": {
+    "other": "احصل على تذكرة"
   }
 }

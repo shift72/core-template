@@ -1491,5 +1491,8 @@
   },
   "shopping_info_available_until_date_explanation_live_event_rent": {
     "other": "Vous ne pourrez plus regarder le flux après cela."
+  },
+  "shopping_action_ticket": {
+    "other": "Obtenir un billet"
   }
 }

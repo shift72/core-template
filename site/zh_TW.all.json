@@ -1474,5 +1474,8 @@
   },
   "shopping_info_available_until_date_explanation_live_event_rent": {
     "other": "之後您將無法觀看直播。"
+  },
+  "shopping_action_ticket": {
+    "other": "取票"
   }
 }
