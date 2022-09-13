@@ -1450,10 +1450,10 @@
     "other": "Sooduskoodi ei antud"
   },
   "live_label_ended": {
-    "other": "Otseülekanne: LÕPPENUD"
+    "other": "OTSE: LÕPPENUD"
   },
   "live_label_live": {
-    "other": "LIVE"
+    "other": "OTSE"
   },
   "live_label_minutes": {
     "one": "OTSE: 1 MINUT",
