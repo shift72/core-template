@@ -1423,7 +1423,7 @@
     "other": "Stream sluttede"
   },
   "availability_live": {
-    "other": "DIREKTE"
+    "other": "LIVE"
   },
   "shopping_action_get_ticket": {
     "other": "Få billet"
@@ -1453,7 +1453,7 @@
     "other": "LIVE: SLUT"
   },
   "live_label_live": {
-    "other": "DIREKTE"
+    "other": "LIVE"
   },
   "live_label_minutes": {
     "one": "LIVE: 1 MINUT",
