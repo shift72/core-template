@@ -1,6 +1,11 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.5.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.5.1...HEAD)
+
+## [1.5.1](https://github.com/shift72/core-template/compare/1.5.0...1.5.1)
+
+## Changed
+- Revert relish version to 1.3 from latest
 
 ## [1.5.0](https://github.com/shift72/core-template/compare/1.4.0...1.5.0)
 
