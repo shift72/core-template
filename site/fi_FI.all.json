@@ -1450,22 +1450,22 @@
     "other": "Tarjouskoodia ei annettu"
   },
   "live_label_ended": {
-    "other": "LIVE: PÄÄTTYNYT"
+    "other": "SUORA: PÄÄTTYNYT"
   },
   "live_label_live": {
-    "other": "ELÄÄ"
+    "other": "SUORA"
   },
   "live_label_minutes": {
-    "one": "LIVE: 1 MINUUTI",
-    "other": "LIVE: {{.Count}} MINUUTTIA"
+    "one": "SUORA: 1 MINUUTI",
+    "other": "SUORA: {{.Count}} MINUUTTIA"
   },
   "live_label_hours": {
-    "one": "LIVE: 1 TUNTI",
-    "other": "LIVE: {{.Count}} TUNTIA"
+    "one": "SUORA: 1 TUNTI",
+    "other": "SUORA: {{.Count}} TUNTIA"
   },
   "live_label_days": {
-    "one": "LIVE: 1 PÄIVÄ",
-    "other": "LIVE: {{.Count}} PÄIVÄT"
+    "one": "SUORA: 1 PÄIVÄ",
+    "other": "SUORA: {{.Count}} PÄIVÄT"
   },
   "shopping_info_subtitle_live_event": {
     "other": "Suora lähetys"

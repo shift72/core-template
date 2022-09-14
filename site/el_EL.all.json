@@ -1450,22 +1450,22 @@
     "other": "Δεν δόθηκε κωδικός προσφοράς"
   },
   "live_label_ended": {
-    "other": "LIVE: ΤΕΛΕΙΩΣΕ"
+    "other": "ΖΩΝΤΑΝΗ: ΤΕΛΕΙΩΣΕ"
   },
   "live_label_live": {
-    "other": "ΖΩ"
+    "other": "ΖΩΝΤΑΝΗ"
   },
   "live_label_minutes": {
-    "one": "LIVE: 1 ΛΕΠΤΟ",
-    "other": "LIVE: {{.Count}} ΛΕΠΤΑ"
+    "one": "ΖΩΝΤΑΝΗ: 1 ΛΕΠΤΟ",
+    "other": "ΖΩΝΤΑΝΗ: {{.Count}} ΛΕΠΤΑ"
   },
   "live_label_hours": {
-    "one": "LIVE: 1 ΩΡΑ",
-    "other": "LIVE: {{.Count}} ΩΡΕΣ"
+    "one": "ΖΩΝΤΑΝΗ: 1 ΩΡΑ",
+    "other": "ΖΩΝΤΑΝΗ: {{.Count}} ΩΡΕΣ"
   },
   "live_label_days": {
-    "one": "LIVE: 1 ΜΕΡΑ",
-    "other": "LIVE: {{.Count}} ΗΜΕΡΕΣ"
+    "one": "ΖΩΝΤΑΝΗ: 1 ΜΕΡΑ",
+    "other": "ΖΩΝΤΑΝΗ: {{.Count}} ΗΜΕΡΕΣ"
   },
   "shopping_info_subtitle_live_event": {
     "other": "Ζωντανή μετάδοση"
