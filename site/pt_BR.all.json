@@ -1484,7 +1484,7 @@
     "other": "Você precisará assistir enquanto a transmissão estiver ao vivo."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Este evento está atualmente ao vivo. Você não pode rebobinar."
+    "other": "Este evento está atualmente ao vivo. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "O fluxo termina {{.Date}}. "
@@ -1497,5 +1497,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "O fluxo começa {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Começou em {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Você não pode rebobinar."
   }
 }

@@ -1480,7 +1480,7 @@
     "other": "Yayın canlıyken izlemeniz gerekecek."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Bu etkinlik şu anda yayında. Geri saramazsınız."
+    "other": "Bu etkinlik şu anda yayında. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Akış biter {{.Date}}. "
@@ -1493,5 +1493,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Akış başlar {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "{{.Date}} başladı. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Geri saramazsınız."
   }
 }

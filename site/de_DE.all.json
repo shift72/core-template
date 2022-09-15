@@ -1480,7 +1480,7 @@
     "other": "Sie müssen zuschauen, während der Stream live ist."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Diese Veranstaltung ist derzeit live. Sie können es nicht zurückspulen."
+    "other": "Diese Veranstaltung ist derzeit live. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Stream endet am {{.Date}}. "
@@ -1493,5 +1493,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Stream beginnt {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Es begann am {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Sie können es nicht zurückspulen."
   }
 }

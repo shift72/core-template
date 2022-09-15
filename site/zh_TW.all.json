@@ -1467,7 +1467,7 @@
     "other": "您需要在直播時觀看。"
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "此活動目前正在進行中。你不能倒帶。"
+    "other": "此活動目前正在進行中。"
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "流結束{{.Date}}。"
@@ -1480,5 +1480,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "流開始{{.Date}}。"
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "它始於{{.Date}}。"
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "你不能倒帶。"
   }
 }

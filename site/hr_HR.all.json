@@ -1482,7 +1482,7 @@
     "other": "Morat ćete gledati dok je prijenos uživo."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Ovaj događaj trenutno je uživo. Ne možete ga premotati unatrag."
+    "other": "Ovaj događaj trenutno je uživo. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Stream završava {{.Date}}. "
@@ -1495,5 +1495,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Stream počinje {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Počelo je u {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Ne možete ga premotati unatrag."
   }
 }

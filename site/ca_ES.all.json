@@ -1480,7 +1480,7 @@
     "other": "Haureu de mirar-lo mentre la transmissió sigui en directe."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Aquest esdeveniment està actualment en directe. No pots rebobinar-lo."
+    "other": "Aquest esdeveniment està actualment en directe. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "El flux acaba {{.Date}}. "
@@ -1493,5 +1493,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Comença la {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Va començar a {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "No pots rebobinar-lo."
   }
 }

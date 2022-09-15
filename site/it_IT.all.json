@@ -1484,7 +1484,7 @@
     "other": "Dovrai guardare mentre lo streaming è in diretta."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Questo evento è attualmente in diretta. Non puoi riavvolgerlo."
+    "other": "Questo evento è attualmente in diretta. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Il flusso termina {{.Date}}. "
@@ -1497,5 +1497,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Il flusso inizia {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "È iniziato a {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Non puoi riavvolgerlo."
   }
 }

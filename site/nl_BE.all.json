@@ -1480,7 +1480,7 @@
     "other": "Je moet kijken terwijl de stream live is."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Dit evenement is momenteel live. Je kunt het niet terugspoelen."
+    "other": "Dit evenement is momenteel live. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Stream eindigt {{.Date}}. "
@@ -1493,5 +1493,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Stream start {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Het begon om {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Je kunt het niet terugspoelen."
   }
 }

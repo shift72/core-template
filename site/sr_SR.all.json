@@ -1496,7 +1496,7 @@
     "other": "Мораћете да гледате док је стрим уживо."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Овај догађај је тренутно уживо. Не можете га премотати."
+    "other": "Овај догађај је тренутно уживо. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Стрим се завршава {{.Date}}. "
@@ -1509,5 +1509,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Стрим почиње {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Почело је у {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Не можете га премотати."
   }
 }

@@ -1544,7 +1544,7 @@
     "other": "ستحتاج إلى المشاهدة أثناء البث المباشر."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "هذا الحدث مباشر حاليا. لا يمكنك إرجاعه."
+    "other": "هذا الحدث مباشر حاليا."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "ينتهي {{.Date}} . التاريخ."
@@ -1557,5 +1557,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "يبدأ {{.Date}} . التاريخ."
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "بدأت في {{.Date}} ."
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "لا يمكنك إرجاعه."
   }
 }

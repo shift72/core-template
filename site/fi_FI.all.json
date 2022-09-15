@@ -1480,7 +1480,7 @@
     "other": "Sinun on katsottava suoratoiston aikana."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Tämä tapahtuma on tällä hetkellä live-tilassa. Et voi kelata sitä taaksepäin."
+    "other": "Tämä tapahtuma on tällä hetkellä live-tilassa. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Lähetys päättyy {{.Date}}. "
@@ -1493,5 +1493,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Suoratoisto alkaa {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Se alkoi {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Et voi kelata sitä taaksepäin."
   }
 }

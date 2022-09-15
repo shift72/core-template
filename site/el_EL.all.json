@@ -1480,7 +1480,7 @@
     "other": "Θα χρειαστεί να παρακολουθήσετε ενώ η ροή είναι ζωντανή."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Αυτή η εκδήλωση είναι ζωντανή αυτήν τη στιγμή. Δεν μπορείτε να το επανατυλίξετε."
+    "other": "Αυτή η εκδήλωση είναι ζωντανή αυτήν τη στιγμή. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Λήξη ροής {{.Date}}. "
@@ -1493,5 +1493,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Έναρξη ροής {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Ξεκίνησε στις {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Δεν μπορείτε να το επανατυλίξετε."
   }
 }

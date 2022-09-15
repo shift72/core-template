@@ -1480,7 +1480,7 @@
     "other": "Peate vaatama otseülekannet."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "See sündmus on praegu otse-eetris. Te ei saa seda tagasi kerida."
+    "other": "See sündmus on praegu otse-eetris. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Voog lõpeb {{.Date}}. "
@@ -1493,5 +1493,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Voog algab {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "See algas kell {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Te ei saa seda tagasi kerida."
   }
 }

@@ -1534,7 +1534,7 @@
     "other": "Вам нужно будет смотреть, пока трансляция идет в прямом эфире."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Это событие в настоящее время в прямом эфире. Вы не можете перемотать его назад."
+    "other": "Это событие в настоящее время в прямом эфире. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Поток заканчивается {{.Date}}. "
@@ -1547,5 +1547,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Поток начинается {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Это началось в {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Вы не можете перемотать его назад."
   }
 }

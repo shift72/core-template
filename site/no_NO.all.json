@@ -1480,7 +1480,7 @@
     "other": "Du må se mens strømmen er direkte."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Denne begivenheten er for øyeblikket live. Du kan ikke spole den tilbake."
+    "other": "Denne begivenheten er for øyeblikket live. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Strøm slutter {{.Date}}. "
@@ -1493,5 +1493,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Strømmen starter {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Det startet på {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Du kan ikke spole den tilbake."
   }
 }

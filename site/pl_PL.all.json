@@ -1557,7 +1557,7 @@
     "other": "Musisz oglądać transmisję na żywo."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "To wydarzenie jest aktualnie na żywo. Nie możesz go cofnąć."
+    "other": "To wydarzenie jest aktualnie na żywo. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Transmisja kończy się {{.Date}}. "
@@ -1570,5 +1570,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Strumień zaczyna się {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Zaczęło się w {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Nie możesz go cofnąć."
   }
 }

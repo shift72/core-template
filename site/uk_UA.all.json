@@ -1540,7 +1540,7 @@
     "other": "Вам потрібно буде дивитися, поки йде трансляція."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Ця подія зараз транслюється. Ви не можете перемотати його назад."
+    "other": "Ця подія зараз транслюється. "
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Потік закінчується {{.Date}}. "
@@ -1553,5 +1553,11 @@
   },
   "shopping_info_release_date_title_live_event_start": {
     "other": "Початок потоку {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Це почалося о {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Ви не можете перемотати його назад."
   }
 }
