@@ -18,7 +18,7 @@ function initializeWishlist() {
       originalFunction.apply(this, [className]);
 
       /* Convert this to a swiper */
-      let containers = wishlist.getElementsByClassName('swiper-container');
+      let containers = wishlist.getElementsByClassName('collection-container');
       if (containers.length > 0) {
         let container = containers[0];
         let swiper = initializeSwiper(container, true);
@@ -467,7 +467,7 @@ function documentReady(app) {
 
   detectTouchscreen();
 
-  let swipers = document.getElementsByClassName('swiper-container');
+  let swipers = document.getElementsByClassName('collection-container');
   for (let i = 0; i < swipers.length; i++) {
     let el = swipers[i];
     if (el.getAttribute('is-wishlist') == undefined) {

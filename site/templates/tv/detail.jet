@@ -106,9 +106,9 @@
         <div class="collection-wrapper-container">
 
           {{if config("default_image_type") == "portrait"}}
-            <div class="swiper-container" data-items-per-row="6" data-layout="portrait">
+            <div class="collection-container" data-items-per-row="6" data-layout="portrait">
           {{else}}
-            <div class="swiper-container" data-items-per-row="4" data-layout="landscape">
+            <div class="collection-container" data-items-per-row="4" data-layout="landscape">
           {{end}}
 
             <div class="swiper-title">
