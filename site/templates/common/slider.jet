@@ -1,5 +1,5 @@
 {{block slider(itemsPerRow, itemLayout, title="", fluid=false)}}
-  <div class="swiper-wrapper-container">
+  <div class="collection-wrapper-container">
       <div class="swiper-container">
           {{if title != ""}}
           <div class="swiper-title">

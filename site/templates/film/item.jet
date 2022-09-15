@@ -169,7 +169,7 @@
 
     {{if len(film.Recommendations) > 0 }}
     <section class="page-collection recommendations-collection" aria-label="{{i18n("meta_detail_recommendations_title")}}">
-      <div class="swiper-wrapper-container">
+      <div class="collection-wrapper-container">
         {{if config("default_image_type") == "portrait"}}
           <div class="swiper-container" data-items-per-row="6" data-layout="portrait">
         {{else}}

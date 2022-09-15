@@ -188,12 +188,12 @@ function initializeSwiper(element, force) {
 
   initButton(
     element,
-    element.closest('.swiper-wrapper-container').querySelector('.swiper-button-next'),
+    element.closest('.collection-wrapper-container').querySelector('.swiper-button-next'),
     1
   );
   initButton(
     element,
-    element.closest('.swiper-wrapper-container').querySelector('.swiper-button-prev'),
+    element.closest('.collection-wrapper-container').querySelector('.swiper-button-prev'),
     -1
   );
 

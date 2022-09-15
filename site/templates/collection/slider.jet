@@ -3,7 +3,7 @@
 {{block pageCollectionSlider()}}
 {{if len(.Items) > 0}}
 <section class="page-collection page-collection-slider page-collection-slider-{{.ItemsPerRow}} page-collection-slider-{{.ItemLayout}} slider-{{.ItemsPerRow}} slider-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-slider" aria-label="{{i18n("wcag_aria_label_collection_slider")}}">
-  <div class="swiper-wrapper-container">
+  <div class="collection-wrapper-container">
     <div class="swiper-container" data-items-per-row="{{.ItemsPerRow}}" data-layout="{{.ItemLayout}}">
       {{if .DisplayName != ""}}
       <div class="swiper-title">
