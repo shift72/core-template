@@ -470,7 +470,7 @@ function documentReady(app) {
   let swipers = document.getElementsByClassName('collection-container');
   for (let i = 0; i < swipers.length; i++) {
     let el = swipers[i];
-    if (el.getAttribute('is-wishlist') == undefined) {
+    if (el.getAttribute('swiper-ignore') == undefined) {
       let swiper = initializeSwiper(el, false);
       init(swiper);
 
