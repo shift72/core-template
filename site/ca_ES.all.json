@@ -1471,7 +1471,7 @@
     "other": "Transmissió en directe"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Aquest és un esdeveniment en directe. Comença la {{.Date}}. "
+    "other": "Aquest és un esdeveniment en directe. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Ja pots comprar una entrada, però hauràs de mirar-la mentre la transmissió sigui en directe."
@@ -1480,7 +1480,7 @@
     "other": "Haureu de mirar-lo mentre la transmissió sigui en directe."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Aquest és un esdeveniment en directe. Haureu de mirar-lo mentre la transmissió sigui en directe."
+    "other": "Aquest esdeveniment està actualment en directe. No pots rebobinar-lo."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "El flux acaba {{.Date}}. "
@@ -1490,5 +1490,8 @@
   },
   "shopping_action_ticket": {
     "other": "Aconsegueix el bitllet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Comença la {{.Date}}. "
   }
 }

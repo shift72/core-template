@@ -1471,7 +1471,7 @@
     "other": "Livestream"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Dit is een live-evenement. Stream start {{.Date}}. "
+    "other": "Dit is een live-evenement. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Je kunt nu een kaartje kopen, maar je moet kijken terwijl de stream live is."
@@ -1480,7 +1480,7 @@
     "other": "Je moet kijken terwijl de stream live is."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Dit is een live-evenement. Je moet kijken terwijl de stream live is."
+    "other": "Dit evenement is momenteel live. Je kunt het niet terugspoelen."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Stream eindigt {{.Date}}. "
@@ -1490,5 +1490,8 @@
   },
   "shopping_action_ticket": {
     "other": "Koop een kaartje"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream start {{.Date}}. "
   }
 }

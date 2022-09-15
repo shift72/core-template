@@ -1471,7 +1471,7 @@
     "other": "Élő adás"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Ez egy élő esemény. Az adatfolyam elindul {{.Date}}. "
+    "other": "Ez egy élő esemény. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Már most is vásárolhat jegyet, de a közvetítést élőben kell néznie."
@@ -1480,7 +1480,7 @@
     "other": "A közvetítést élőben kell nézni."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Ez egy élő esemény. A közvetítést élőben kell nézni."
+    "other": "Ez az esemény jelenleg élő. Nem tudod visszatekerni."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Az adatfolyam véget ér {{.Date}}. "
@@ -1490,5 +1490,8 @@
   },
   "shopping_action_ticket": {
     "other": "Vegyél jegyet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Az adatfolyam elindul {{.Date}}. "
   }
 }

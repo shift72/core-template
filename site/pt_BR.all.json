@@ -1475,7 +1475,7 @@
     "other": "Transmissão ao vivo"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Este é um evento ao vivo. O fluxo começa {{.Date}}. "
+    "other": "Este é um evento ao vivo. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Você pode comprar um ingresso agora, mas precisará assistir enquanto a transmissão estiver ao vivo."
@@ -1484,7 +1484,7 @@
     "other": "Você precisará assistir enquanto a transmissão estiver ao vivo."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Este é um evento ao vivo. Você precisará assistir enquanto a transmissão estiver ao vivo."
+    "other": "Este evento está atualmente ao vivo. Você não pode rebobinar."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "O fluxo termina {{.Date}}. "
@@ -1494,5 +1494,8 @@
   },
   "shopping_action_ticket": {
     "other": "Obter bilhete"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "O fluxo começa {{.Date}}. "
   }
 }

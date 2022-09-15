@@ -1548,7 +1548,7 @@
     "other": "Transmisja na żywo"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "To jest wydarzenie na żywo. Strumień zaczyna się {{.Date}}. "
+    "other": "To jest wydarzenie na żywo. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Możesz teraz kupić bilet, ale musisz oglądać, gdy transmisja jest na żywo."
@@ -1557,7 +1557,7 @@
     "other": "Musisz oglądać transmisję na żywo."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "To jest wydarzenie na żywo. Musisz oglądać transmisję na żywo."
+    "other": "To wydarzenie jest aktualnie na żywo. Nie możesz go cofnąć."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Transmisja kończy się {{.Date}}. "
@@ -1567,5 +1567,8 @@
   },
   "shopping_action_ticket": {
     "other": "Kup bilet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Strumień zaczyna się {{.Date}}. "
   }
 }

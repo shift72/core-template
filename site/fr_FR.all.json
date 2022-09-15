@@ -1475,7 +1475,7 @@
     "other": "Direct"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Ceci est un événement en direct. Le flux commence {{.Date}}. "
+    "other": "Ceci est un événement en direct. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Vous pouvez acheter un billet maintenant, mais vous devrez regarder pendant que le flux est en direct."
@@ -1484,7 +1484,7 @@
     "other": "Vous devrez regarder pendant que le flux est en direct."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Ceci est un événement en direct. Vous devrez regarder pendant que le flux est en direct."
+    "other": "Cet événement est actuellement en direct. Vous ne pouvez pas le rembobiner."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Le flux se termine {{.Date}}. "
@@ -1494,5 +1494,8 @@
   },
   "shopping_action_ticket": {
     "other": "Obtenir un billet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Le flux commence {{.Date}}. "
   }
 }

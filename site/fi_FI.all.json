@@ -1471,7 +1471,7 @@
     "other": "Suora lähetys"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Tämä on live-tapahtuma. Suoratoisto alkaa {{.Date}}. "
+    "other": "Tämä on live-tapahtuma. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Voit ostaa lipun nyt, mutta sinun on katsottava suoratoiston aikana."
@@ -1480,7 +1480,7 @@
     "other": "Sinun on katsottava suoratoiston aikana."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Tämä on live-tapahtuma. Sinun on katsottava suoratoiston aikana."
+    "other": "Tämä tapahtuma on tällä hetkellä live-tilassa. Et voi kelata sitä taaksepäin."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Lähetys päättyy {{.Date}}. "
@@ -1490,5 +1490,8 @@
   },
   "shopping_action_ticket": {
     "other": "Hanki lippu"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Suoratoisto alkaa {{.Date}}. "
   }
 }

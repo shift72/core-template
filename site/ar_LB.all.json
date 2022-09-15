@@ -1535,7 +1535,7 @@
     "other": "البث المباشر"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "هذا حدث مباشر. يبدأ {{.Date}} . التاريخ."
+    "other": "هذا حدث مباشر."
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "يمكنك شراء تذكرة الآن ولكنك ستحتاج إلى المشاهدة أثناء البث المباشر."
@@ -1544,7 +1544,7 @@
     "other": "ستحتاج إلى المشاهدة أثناء البث المباشر."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "هذا حدث مباشر. ستحتاج إلى المشاهدة أثناء البث المباشر."
+    "other": "هذا الحدث مباشر حاليا. لا يمكنك إرجاعه."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "ينتهي {{.Date}} . التاريخ."
@@ -1554,5 +1554,8 @@
   },
   "shopping_action_ticket": {
     "other": "احصل على تذكرة"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "يبدأ {{.Date}} . التاريخ."
   }
 }

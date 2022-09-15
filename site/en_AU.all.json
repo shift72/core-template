@@ -1471,7 +1471,7 @@
     "other": "Live Stream"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "This is a Live Event. Stream starts {{.Date}}. "
+    "other": "This is a Live Event. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "You can buy a ticket now but you will need to watch while the stream is live."
@@ -1480,7 +1480,7 @@
     "other": "You will need to watch while the stream is live."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "This is a Live Event. You will need to watch while the stream is live."
+    "other": "This event is currently live. You cannot rewind it."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Stream ends {{.Date}}. "
@@ -1490,5 +1490,8 @@
   },
   "shopping_action_ticket": {
     "other": "Get ticket"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream starts {{.Date}}. "
   }
 }

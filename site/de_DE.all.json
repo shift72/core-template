@@ -1471,7 +1471,7 @@
     "other": "Liveübertragung"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Dies ist ein Live-Event. Stream beginnt {{.Date}}. "
+    "other": "Dies ist ein Live-Event. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Sie können jetzt ein Ticket kaufen, aber Sie müssen zuschauen, während der Stream live ist."
@@ -1480,7 +1480,7 @@
     "other": "Sie müssen zuschauen, während der Stream live ist."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Dies ist ein Live-Event. Sie müssen zuschauen, während der Stream live ist."
+    "other": "Diese Veranstaltung ist derzeit live. Sie können es nicht zurückspulen."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Stream endet am {{.Date}}. "
@@ -1490,5 +1490,8 @@
   },
   "shopping_action_ticket": {
     "other": "Fahrkarte bekommen"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream beginnt {{.Date}}. "
   }
 }

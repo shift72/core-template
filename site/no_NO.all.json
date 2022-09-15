@@ -1471,7 +1471,7 @@
     "other": "Direktestrømming"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Dette er en Live Event. Strømmen starter {{.Date}}. "
+    "other": "Dette er en Live Event. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Du kan kjøpe en billett nå, men du må se mens strømmen er direkte."
@@ -1480,7 +1480,7 @@
     "other": "Du må se mens strømmen er direkte."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Dette er en Live Event. Du må se mens strømmen er direkte."
+    "other": "Denne begivenheten er for øyeblikket live. Du kan ikke spole den tilbake."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Strøm slutter {{.Date}}. "
@@ -1490,5 +1490,8 @@
   },
   "shopping_action_ticket": {
     "other": "Få billett"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Strømmen starter {{.Date}}. "
   }
 }

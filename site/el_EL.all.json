@@ -1471,7 +1471,7 @@
     "other": "Ζωντανή μετάδοση"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Αυτή είναι μια Ζωντανή Εκδήλωση. Έναρξη ροής {{.Date}}. "
+    "other": "Αυτή είναι μια Ζωντανή Εκδήλωση. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Μπορείτε να αγοράσετε ένα εισιτήριο τώρα, αλλά θα πρέπει να το παρακολουθήσετε όσο είναι ζωντανή η ροή."
@@ -1480,7 +1480,7 @@
     "other": "Θα χρειαστεί να παρακολουθήσετε ενώ η ροή είναι ζωντανή."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Αυτή είναι μια Ζωντανή Εκδήλωση. Θα χρειαστεί να παρακολουθήσετε ενώ η ροή είναι ζωντανή."
+    "other": "Αυτή η εκδήλωση είναι ζωντανή αυτήν τη στιγμή. Δεν μπορείτε να το επανατυλίξετε."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Λήξη ροής {{.Date}}. "
@@ -1490,5 +1490,8 @@
   },
   "shopping_action_ticket": {
     "other": "Πάρτε εισιτήριο"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Έναρξη ροής {{.Date}}. "
   }
 }

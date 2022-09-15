@@ -1471,7 +1471,7 @@
     "other": "Otseülekanne"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "See on otseülekanne. Voog algab {{.Date}}. "
+    "other": "See on otseülekanne. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Pileti saate osta kohe, kuid peate vaatama otseülekannet."
@@ -1480,7 +1480,7 @@
     "other": "Peate vaatama otseülekannet."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "See on otseülekanne. Peate vaatama otseülekannet."
+    "other": "See sündmus on praegu otse-eetris. Te ei saa seda tagasi kerida."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Voog lõpeb {{.Date}}. "
@@ -1490,5 +1490,8 @@
   },
   "shopping_action_ticket": {
     "other": "Hankige pilet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Voog algab {{.Date}}. "
   }
 }

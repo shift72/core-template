@@ -1531,7 +1531,7 @@
     "other": "Наживо"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Це подія в прямому ефірі. Початок потоку {{.Date}}. "
+    "other": "Це подія в прямому ефірі. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Ви можете придбати квиток зараз, але вам потрібно буде дивитися, поки йде трансляція."
@@ -1540,7 +1540,7 @@
     "other": "Вам потрібно буде дивитися, поки йде трансляція."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Це подія в прямому ефірі. Вам потрібно буде дивитися, поки йде трансляція."
+    "other": "Ця подія зараз транслюється. Ви не можете перемотати його назад."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Потік закінчується {{.Date}}. "
@@ -1550,5 +1550,8 @@
   },
   "shopping_action_ticket": {
     "other": "Отримати квиток"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Початок потоку {{.Date}}. "
   }
 }

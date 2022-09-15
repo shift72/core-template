@@ -1473,7 +1473,7 @@
     "other": "Uživo prijenos"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Ovo je događaj uživo. Stream počinje {{.Date}}. "
+    "other": "Ovo je događaj uživo. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Ulaznicu možete kupiti sada, ali morat ćete gledati dok je prijenos uživo."
@@ -1482,7 +1482,7 @@
     "other": "Morat ćete gledati dok je prijenos uživo."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Ovo je događaj uživo. Morat ćete gledati dok je prijenos uživo."
+    "other": "Ovaj događaj trenutno je uživo. Ne možete ga premotati unatrag."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Stream završava {{.Date}}. "
@@ -1492,5 +1492,8 @@
   },
   "shopping_action_ticket": {
     "other": "Uzmi kartu"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream počinje {{.Date}}. "
   }
 }

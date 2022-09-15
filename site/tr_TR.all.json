@@ -1471,7 +1471,7 @@
     "other": "Canlı yayın"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Bu Canlı Bir Etkinliktir. Akış başlar {{.Date}}. "
+    "other": "Bu Canlı Bir Etkinliktir. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Şimdi bir bilet satın alabilirsiniz, ancak yayın canlıyken izlemeniz gerekecek."
@@ -1480,7 +1480,7 @@
     "other": "Yayın canlıyken izlemeniz gerekecek."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Bu Canlı Bir Etkinliktir. Yayın canlıyken izlemeniz gerekecek."
+    "other": "Bu etkinlik şu anda yayında. Geri saramazsınız."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "Akış biter {{.Date}}. "
@@ -1490,5 +1490,8 @@
   },
   "shopping_action_ticket": {
     "other": "Bilet al"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Akış başlar {{.Date}}. "
   }
 }

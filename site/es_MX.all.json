@@ -1475,7 +1475,7 @@
     "other": "Transmisión en vivo"
   },
   "shopping_info_release_date_title_live_event": {
-    "other": "Este es un evento en vivo. La transmisión comienza {{.Date}}. "
+    "other": "Este es un evento en vivo. "
   },
   "shopping_info_release_date_explanation1_live_event_rent": {
     "other": "Puede comprar un boleto ahora, pero deberá mirar mientras la transmisión está en vivo."
@@ -1484,7 +1484,7 @@
     "other": "Deberá mirar mientras la transmisión está en vivo."
   },
   "shopping_info_release_date_explanation3_live_event_rent": {
-    "other": "Este es un evento en vivo. Deberá mirar mientras la transmisión está en vivo."
+    "other": "Este evento está actualmente en vivo. No puedes rebobinarlo."
   },
   "shopping_info_available_until_date_title_live_event": {
     "other": "La transmisión termina {{.Date}}. "
@@ -1494,5 +1494,8 @@
   },
   "shopping_action_ticket": {
     "other": "Obtener boleto"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "La transmisión comienza {{.Date}}. "
   }
 }
