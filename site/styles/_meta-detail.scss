@@ -186,6 +186,11 @@
       grid-row: 2;
     }
   }
+
+  .page-collection-list {
+    grid-row: 3;
+    grid-column-end: -1;
+  }
 }
 
 s72-element-switcher,
