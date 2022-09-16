@@ -7,7 +7,7 @@
 - AB#9361 Translations for live events, poster live availability status styling changes
 
 ### Fixed
-- inline cta buttons now grow when text is wider than button width
+- Inline cta buttons now grow when text is wider than button width
 
 ## [1.5.1](https://github.com/shift72/core-template/compare/1.5.0...1.5.1)
 
