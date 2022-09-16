@@ -1,4 +1,16 @@
 /* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
+@mixin text-cta-btn-inline {
+  margin: 0;
+  padding: 6px 12px;
+  width: 100%;
+  white-space: nowrap;
+
+  @include media-breakpoint-up(xs) {
+    width: 140px;
+    min-width: fit-content;
+  }
+}
+
 .cta-buttons {
   display: grid;
   gap: 16px;
@@ -121,12 +133,7 @@
     }
 
     .s72-btn {
-      white-space: nowrap;
-      width: 100%;
-
-      @include media-breakpoint-up(xs) {
-        width: auto;
-      }
+      @include text-cta-btn-inline;
 
       &:nth-child(2) {
         margin: 0; // RELISH OVERRIDE.
@@ -136,10 +143,7 @@
 
   s72-play-button {
     .s72-btn-play {
-      margin: 0;
-      min-width: 140px;
-      padding: 6px 12px;
-      width: 100%;
+      @include text-cta-btn-inline;
     }
 
     .s72-btn-play-icon {
@@ -152,9 +156,7 @@
   }
 
   .s72-btn-can-be-watched {
-    min-width: 140px;
-    padding: 6px 12px;
-    width: 100%;
+    @include text-cta-btn-inline;
 
     .padder {
       display: none;
