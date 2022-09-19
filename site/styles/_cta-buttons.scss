@@ -2,12 +2,12 @@
 @mixin text-cta-btn-inline {
   margin: 0;
   padding: 6px 12px;
-  width: 100%;
   white-space: nowrap;
+  width: 100%;
 
   @include media-breakpoint-up(xs) {
-    width: 140px;
     min-width: fit-content;
+    width: 140px;
   }
 }
 
