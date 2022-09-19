@@ -64,16 +64,16 @@ s72-availability-label {
   }
 
   .availability-bg.live {
-    color: var(--body-color, rgb(255, 255, 255));
     background-color: rgba(var(--body-bg-rgb, 0, 0, 0), 0.7);
+    color: var(--body-color, rgb(255, 255, 255));
   }
 
   s72-availability-status {
-    .availability-livenow:before {
+    .availability-livenow::before {
       @include s72-icon-live;
-      margin-right: 6px;
-      font-size: 8px;
       color: var(--live-red);
+      font-size: 8px;
+      margin-right: 6px;
     }
   }
 }
@@ -98,7 +98,6 @@ s72-live-label {
     line-height: 30px;
     padding: 0 12px;
     white-space: nowrap;
-    width: fit-content;
 
     &.is-live {
       background-color: var(--live-label-live-background-color);
