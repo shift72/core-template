@@ -3,7 +3,7 @@
   background-color: transparent;
   display: flex;
   flex-direction: column;
-  height: auto;
+  height: 190px;
   margin-left: auto;
   margin-right: auto;
   position: absolute;
@@ -11,6 +11,14 @@
   top: 0;
   width: 100%;
   z-index: 9;
+
+  @include media-breakpoint-up(sm) {
+    height: 240px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 358px;
+  }
 
   &.show {
     height: 100%;
@@ -117,7 +125,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  height: 100%;
   padding: 10px 20px;
   position: relative;
   transition: background-color 0.25s ease-out;
