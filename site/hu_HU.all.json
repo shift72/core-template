@@ -1466,5 +1466,38 @@
   "live_label_days": {
     "one": "ÉLŐ: 1 NAP",
     "other": "ÉLŐ: {{.Count}} NAPOK"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Élő adás"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Ez egy élő esemény. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Már most is vásárolhat jegyet, de a közvetítést élőben kell néznie."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "A közvetítést élőben kell nézni."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Ez az esemény jelenleg élő. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Az adatfolyam véget ér {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Utána nem fogod tudni nézni a streamet."
+  },
+  "shopping_action_ticket": {
+    "other": "Vegyél jegyet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Az adatfolyam elindul {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "{{.Date}} -kor kezdődött. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Nem lehet visszatekerni."
   }
 }

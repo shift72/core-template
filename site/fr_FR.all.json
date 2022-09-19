@@ -1470,5 +1470,38 @@
   "live_label_days": {
     "one": "EN DIRECT : 1 JOUR",
     "other": "EN DIRECT : {{.Count}} JOURS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Direct"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Ceci est un événement en direct. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Vous pouvez acheter un billet maintenant, mais vous devrez regarder pendant que le flux est en direct."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Vous devrez regarder pendant que le flux est en direct."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Cet événement est actuellement en direct. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Le flux se termine {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Vous ne pourrez plus regarder le flux après cela."
+  },
+  "shopping_action_ticket": {
+    "other": "Obtenir un billet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Le flux commence {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Cela a commencé à {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Vous ne pouvez pas le rembobiner."
   }
 }

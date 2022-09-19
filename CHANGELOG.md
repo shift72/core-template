@@ -5,6 +5,7 @@
 ### Added
 - AB#9564 Live label to film detail page and carousel with translations.
 - AB#9361 Translations for live events, poster live availability status styling changes
+- Translations for live event purchase flow.
 
 ## [1.5.1](https://github.com/shift72/core-template/compare/1.5.0...1.5.1)
 

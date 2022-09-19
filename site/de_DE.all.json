@@ -1466,5 +1466,38 @@
   "live_label_days": {
     "one": "LIVE: 1 TAG",
     "other": "LIVE: {{.Count}} TAGE"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Liveübertragung"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dies ist ein Live-Event. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Sie können jetzt ein Ticket kaufen, aber Sie müssen zuschauen, während der Stream live ist."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Sie müssen zuschauen, während der Stream live ist."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Diese Veranstaltung ist derzeit live. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream endet am {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Danach können Sie den Stream nicht mehr ansehen."
+  },
+  "shopping_action_ticket": {
+    "other": "Fahrkarte bekommen"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream beginnt {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Es begann am {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Sie können es nicht zurückspulen."
   }
 }

@@ -1498,5 +1498,38 @@
     "few": "TIESIOGIAI: {{.Count}} DIENAS",
     "many": "TIESIOGIAI: {{.Count}} DIENAS",
     "other": "TIESIOGIAI: {{.Count}} DIENAS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Tiesiogiai"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Tai tiesioginis įvykis. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Galite nusipirkti bilietą dabar, bet turėsite žiūrėti, kol bus transliuojama tiesioginė transliacija."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Turėsite žiūrėti, kol vyksta tiesioginė transliacija."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Šis įvykis šiuo metu vyksta tiesiogiai. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Srautas baigiasi {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Po to srauto žiūrėti nebegalėsite."
+  },
+  "shopping_action_ticket": {
+    "other": "Gaukite bilietą"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Srautas prasideda {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Jis prasidėjo {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Jūs negalite jo atsukti."
   }
 }

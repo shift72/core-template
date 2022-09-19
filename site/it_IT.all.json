@@ -1470,5 +1470,38 @@
   "live_label_days": {
     "one": "IN DIRETTA: 1 GIORNO",
     "other": "IN DIRETTA: {{.Count}} GIORNI"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Trasmissione in diretta"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Questo è un evento dal vivo. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Puoi acquistare un biglietto ora ma dovrai guardarlo mentre lo streaming è in diretta."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Dovrai guardare mentre lo streaming è in diretta."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Questo evento è attualmente in diretta. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Il flusso termina {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Non sarai in grado di guardare lo streaming dopo."
+  },
+  "shopping_action_ticket": {
+    "other": "Ottieni il biglietto"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Il flusso inizia {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "È iniziato a {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Non puoi riavvolgerlo."
   }
 }

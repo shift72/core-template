@@ -1526,5 +1526,38 @@
     "few": "НАЖИВО: {{.Count}} ДНІВ",
     "many": "НАЖИВО: {{.Count}} ДНІВ",
     "other": "НАЖИВО: {{.Count}} ДНІВ"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Наживо"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Це подія в прямому ефірі. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Ви можете придбати квиток зараз, але вам потрібно буде дивитися, поки йде трансляція."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Вам потрібно буде дивитися, поки йде трансляція."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Ця подія зараз транслюється. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Потік закінчується {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Після цього ви не зможете дивитися трансляцію."
+  },
+  "shopping_action_ticket": {
+    "other": "Отримати квиток"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Початок потоку {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Це почалося о {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Ви не можете перемотати його назад."
   }
 }
