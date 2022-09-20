@@ -6,9 +6,9 @@
   <div class="collection-wrapper-container">
     <div class="collection-container">
       {{ if showTitle }}
-      <div class="page-collection-list-title">
-        <h3>{{.DisplayName}}</h3>
-      </div>
+        <div class="page-collection-list-title">
+          <h3>{{.DisplayName}}</h3>
+        </div>
       {{ end }}
 
       <div class="page-collection-items collection-items">
