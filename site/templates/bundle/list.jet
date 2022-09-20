@@ -7,7 +7,7 @@
 
     <section class="page-collection page-collection-list page-collection-list-{{itemsPerRow}} page-collection-list-{{itemLayout}} list-{{itemsPerRow}} list-{{itemLayout}} page-collection-{{itemsPerRow}}-list" aria-label="{{i18n("wcag_aria_label_bundle_items")}}">
       <div class="collection-wrapper-container">
-        <div class="collection-container" swiper-ignore="true">
+        <div class="collection-container">
           <div class="page-collection-list-title">
             <h2>{{i18n("meta_detail_bundle_items_title")}}</h2>
           </div>
