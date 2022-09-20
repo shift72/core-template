@@ -19,8 +19,8 @@
               </div>
             {{end}}
           </div>
-        </section>
+        </div>
       </div>
-    </div>
+    </section>
   {{end}}
 {{end}}
