@@ -7,6 +7,9 @@
 - AB#9361 Translations for live events, poster live availability status styling changes
 - Translations for live event purchase flow.
 
+### Fixed
+- Inline cta buttons now grow when text is wider than button width
+
 ## [1.5.1](https://github.com/shift72/core-template/compare/1.5.0...1.5.1)
 
 ## Changed
@@ -18,7 +21,7 @@
 - Translations for discount errors
 
 ## Changed
-- Spacing between components AB#9013 
+- Spacing between components AB#9013
 
 ### Fixed
 - Default language now gets set either by site record or kibble.json depending on if DB translations are enabled AB#9675
