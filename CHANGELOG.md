@@ -5,6 +5,10 @@
 ### Added
 - AB#9564 Live label to film detail page and carousel with translations.
 - AB#9361 Translations for live events, poster live availability status styling changes
+- Translations for live event purchase flow.
+
+### Fixed
+- Inline cta buttons now grow when text is wider than button width
 
 ### Changed
 - Increased nav height to make gradient larger.
@@ -20,7 +24,7 @@
 - Translations for discount errors
 
 ## Changed
-- Spacing between components AB#9013 
+- Spacing between components AB#9013
 
 ### Fixed
 - Default language now gets set either by site record or kibble.json depending on if DB translations are enabled AB#9675

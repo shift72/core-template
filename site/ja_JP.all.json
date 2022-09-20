@@ -1453,5 +1453,38 @@
   },
   "live_label_days": {
     "other": "ライブ: {{.Count}} 日"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "ライブ ストリーム"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "これはライブイベントです。"
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "今すぐチケットを購入できますが、ストリームがライブである間に視聴する必要があります。"
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "ストリームがライブである間、視聴する必要があります。"
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "このイベントは現在開催中です。"
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "ストリームは{{.Date}}で終了します。"
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "その後、ストリームを視聴することはできません。"
+  },
+  "shopping_action_ticket": {
+    "other": "チケットを入手"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "ストリーム開始{{.Date}}。"
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "それは{{.Date}}に始まりました。"
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "巻き戻しはできません。"
   }
 }
