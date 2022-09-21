@@ -9,6 +9,8 @@
 
 ### Fixed
 - Inline cta buttons now grow when text is wider than button width
+- Gap below page-collections consistent with sliders
+- Made item-collections similar in structure and style to sliders, renamed accordingly
 
 ### Changed
 - Increased nav height to make gradient larger.
