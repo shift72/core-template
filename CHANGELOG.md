@@ -10,6 +10,10 @@
 ### Fixed
 - Inline cta buttons now grow when text is wider than button width
 
+### Fixed
+- Gap below page-collections consistent with sliders
+- Made item-collections similar in structure and style to sliders, renamed accordingly
+
 ## [1.5.1](https://github.com/shift72/core-template/compare/1.5.0...1.5.1)
 
 ## Changed

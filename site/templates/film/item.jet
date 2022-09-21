@@ -169,11 +169,11 @@
 
     {{if len(film.Recommendations) > 0 }}
     <section class="page-collection recommendations-collection" aria-label="{{i18n("meta_detail_recommendations_title")}}">
-      <div class="swiper-wrapper-container">
+      <div class="collection-wrapper-container swiper-wrapper-container">
         {{if config("default_image_type") == "portrait"}}
-          <div class="swiper-container" data-items-per-row="6" data-layout="portrait">
+          <div class="collection-container swiper-container" data-items-per-row="6" data-layout="portrait">
         {{else}}
-          <div class="swiper-container" data-items-per-row="4" data-layout="landscape">
+          <div class="collection-container swiper-container" data-items-per-row="4" data-layout="landscape">
         {{end}}
           <div class="swiper-title">
               <h2>{{i18n("meta_detail_recommendations_title")}}</h2>
