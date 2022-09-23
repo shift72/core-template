@@ -1580,7 +1580,7 @@
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "Data ważności Twojej karty już minęła."
   },
-  "shopping_error_stripe_invalid_expiry_year_pastt": {
+  "shopping_error_stripe_invalid_expiry_year_past": {
     "other": "Rok ważności Twojej karty już minął."
   }
 }

@@ -1503,7 +1503,7 @@
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "Korttisi viimeinen voimassaolopäivä on mennyt."
   },
-  "shopping_error_stripe_invalid_expiry_year_pastt": {
+  "shopping_error_stripe_invalid_expiry_year_past": {
     "other": "Korttisi vanhentumisvuosi on mennyt."
   }
 }

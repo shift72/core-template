@@ -1503,7 +1503,7 @@
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "La data de caducitat de la vostra targeta és del passat."
   },
-  "shopping_error_stripe_invalid_expiry_year_pastt": {
+  "shopping_error_stripe_invalid_expiry_year_past": {
     "other": "L'any de caducitat de la vostra targeta és del passat."
   }
 }
