@@ -1562,5 +1562,8 @@
   },
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "Термін дії вашої картки минув."
+  },
+  "shopping_error_stripe_invalid_expiry_year_pastt": {
+    "other": "Рік закінчення терміну дії вашої картки минув."
   }
 }

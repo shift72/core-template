@@ -1502,5 +1502,8 @@
   },
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "Your card's expiration date is in the past."
+  },
+  "shopping_error_stripe_invalid_expiry_year_pastt": {
+    "other": "Your card's expiration year is in the past."
   }
 }

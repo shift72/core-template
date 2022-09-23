@@ -1502,5 +1502,8 @@
   },
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "Dit korts udløbsdato ligger i fortiden."
+  },
+  "shopping_error_stripe_invalid_expiry_year_pastt": {
+    "other": "Dit korts udløbsår er i fortiden."
   }
 }

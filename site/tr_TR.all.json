@@ -1502,5 +1502,8 @@
   },
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "Kartınızın son kullanma tarihi geçmişte."
+  },
+  "shopping_error_stripe_invalid_expiry_year_pastt": {
+    "other": "Kartınızın son kullanma yılı geçmişte kaldı."
   }
 }

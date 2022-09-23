@@ -1502,5 +1502,8 @@
   },
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "Kártyája lejárati dátuma a múltban van."
+  },
+  "shopping_error_stripe_invalid_expiry_year_pastt": {
+    "other": "A kártya lejárati éve már a múltban van."
   }
 }

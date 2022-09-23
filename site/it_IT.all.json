@@ -1506,5 +1506,8 @@
   },
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "La data di scadenza della tua carta è nel passato."
+  },
+  "shopping_error_stripe_invalid_expiry_year_pastt": {
+    "other": "L'anno di scadenza della tua carta è nel passato."
   }
 }

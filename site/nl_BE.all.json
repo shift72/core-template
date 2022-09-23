@@ -1502,5 +1502,8 @@
   },
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "De vervaldatum van uw kaart ligt in het verleden."
+  },
+  "shopping_error_stripe_invalid_expiry_year_pastt": {
+    "other": "Het vervaljaar van uw kaart is in het verleden."
   }
 }

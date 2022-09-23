@@ -1489,5 +1489,8 @@
   },
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "カードの有効期限が過ぎています。"
+  },
+  "shopping_error_stripe_invalid_expiry_year_pastt": {
+    "other": "カードの有効期限が過ぎています。"
   }
 }

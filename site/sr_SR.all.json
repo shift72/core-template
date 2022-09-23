@@ -1518,5 +1518,8 @@
   },
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "Датум истека ваше картице је у прошлости."
+  },
+  "shopping_error_stripe_invalid_expiry_year_pastt": {
+    "other": "Година истека ваше картице је у прошлости."
   }
 }

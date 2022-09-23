@@ -1566,5 +1566,8 @@
   },
   "shopping_error_stripe_invalid_expiry_month_past": {
     "other": "تاريخ انتهاء صلاحية بطاقتك في الماضي."
+  },
+  "shopping_error_stripe_invalid_expiry_year_pastt": {
+    "other": "انقضت سنة انتهاء صلاحية بطاقتك."
   }
 }
