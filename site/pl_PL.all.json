@@ -1576,5 +1576,8 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "Nie możesz go cofnąć."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Data ważności Twojej karty już minęła."
   }
 }

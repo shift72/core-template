@@ -1499,5 +1499,8 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "Sie können es nicht zurückspulen."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Das Ablaufdatum Ihrer Karte liegt in der Vergangenheit."
   }
 }

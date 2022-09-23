@@ -1499,5 +1499,8 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "No pots rebobinar-lo."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "La data de caducitat de la vostra targeta és del passat."
   }
 }

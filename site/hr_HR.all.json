@@ -1501,5 +1501,8 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "Ne možete ga premotati unatrag."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Datum isteka vaše kartice je u prošlosti."
   }
 }

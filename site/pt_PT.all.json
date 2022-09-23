@@ -1503,5 +1503,8 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "Você não pode rebobinar."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "A data de validade do seu cartão está no passado."
   }
 }
