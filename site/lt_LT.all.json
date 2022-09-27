@@ -1531,5 +1531,11 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "Jūs negalite jo atsukti."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Jūsų kortelės galiojimo laikas yra praeityje."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Jūsų kortelės galiojimo laikas yra praeityje."
   }
 }

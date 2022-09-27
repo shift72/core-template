@@ -1499,5 +1499,11 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "Du kan ikke spole den tilbage."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Dit korts udløbsdato ligger i fortiden."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Dit korts udløbsår er i fortiden."
   }
 }

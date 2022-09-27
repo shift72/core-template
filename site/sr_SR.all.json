@@ -1515,5 +1515,11 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "Не можете га премотати."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Датум истека ваше картице је у прошлости."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Година истека ваше картице је у прошлости."
   }
 }

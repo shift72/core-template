@@ -1486,5 +1486,11 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "你不能倒帶。"
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "您卡的過期日期已過。"
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "您的卡的到期年份已過去。"
   }
 }
