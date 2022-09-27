@@ -1468,5 +1468,44 @@
     "one": "UŽIVO: 1 DAN",
     "few": "UŽIVO: {{.Count}} DANE",
     "other": "UŽIVO: {{.Count}} DANE"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Uživo prijenos"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Ovo je događaj uživo. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Ulaznicu možete kupiti sada, ali morat ćete gledati dok je prijenos uživo."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Morat ćete gledati dok je prijenos uživo."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Ovaj događaj trenutno je uživo. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream završava {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Nakon toga nećete moći gledati prijenos."
+  },
+  "shopping_action_ticket": {
+    "other": "Uzmi kartu"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream počinje {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Počelo je u {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Ne možete ga premotati unatrag."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Datum isteka vaše kartice je u prošlosti."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Godina isteka vaše kartice je u prošlosti."
   }
 }

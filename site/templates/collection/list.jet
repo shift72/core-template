@@ -3,21 +3,23 @@
 {{block pageCollectionList(showTitle=true)}}
 {{if len(.Items) > 0}}
 <section class="page-collection page-collection-list page-collection-list-{{.ItemsPerRow}} page-collection-list-{{.ItemLayout}} list-{{.ItemsPerRow}} list-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-list" aria-label="{{i18n("wcag_aria_label_collection_list")}}">
+  <div class="collection-wrapper-container">
+    <div class="collection-container">
+      {{ if showTitle }}
+        <div class="page-collection-list-title">
+          <h3>{{.DisplayName}}</h3>
+        </div>
+      {{ end }}
 
-  {{ if showTitle }}
-  <div class="page-collection-list-title">
-    <h3>{{.DisplayName}}</h3>
-  </div>
-  {{ end }}
-
-  <div class="page-collection-items collection-items">
-    {{range item := .Items}}
-      <div class="page-collection-item page-collection-list-item page-collection-list-item-{{.ItemLayout}} page-collection-item-{{.ItemLayout}} page-collection-list-item-{{.ItemsPerRow}} page-collection-item-{{.ItemsPerRow}}">
-        {{yield pageCollectionItem(item=item, layout=.ItemLayout)}}
+      <div class="page-collection-items collection-items">
+        {{range item := .Items}}
+          <div class="page-collection-item page-collection-list-item page-collection-list-item-{{.ItemLayout}} page-collection-item-{{.ItemLayout}} page-collection-list-item-{{.ItemsPerRow}} page-collection-item-{{.ItemsPerRow}}">
+            {{yield pageCollectionItem(item=item, layout=.ItemLayout)}}
+          </div>
+        {{end}}
       </div>
-    {{end}}
+    </div>
   </div>
-
 </section>
 {{end}}
 {{end}}

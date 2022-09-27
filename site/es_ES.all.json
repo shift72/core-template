@@ -1470,5 +1470,44 @@
   "live_label_days": {
     "one": "EN VIVO: 1 DÍA",
     "other": "EN VIVO: {{.Count}} DÍAS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Transmisión en vivo"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Este es un evento en vivo. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Puede comprar un boleto ahora, pero deberá mirar mientras la transmisión está en vivo."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Deberá mirar mientras la transmisión está en vivo."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Este evento está actualmente en vivo. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "La transmisión termina {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "No podrás ver la transmisión después de eso."
+  },
+  "shopping_action_ticket": {
+    "other": "Obtener boleto"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "La transmisión comienza {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Comenzó en {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "No puedes rebobinarlo."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "La fecha de vencimiento de su tarjeta ya pasó."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "El año de vencimiento de su tarjeta está en el pasado."
   }
 }

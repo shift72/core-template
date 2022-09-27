@@ -1466,5 +1466,44 @@
   "live_label_days": {
     "one": "LIVE: 1 DAG",
     "other": "LIVE: {{.Count}} DAGER"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Direktestrømming"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dette er en Live Event. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Du kan kjøpe en billett nå, men du må se mens strømmen er direkte."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Du må se mens strømmen er direkte."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Denne begivenheten er for øyeblikket live. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Strøm slutter {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Du vil ikke kunne se strømmen etter det."
+  },
+  "shopping_action_ticket": {
+    "other": "Få billett"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Strømmen starter {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Det startet på {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Du kan ikke spole den tilbake."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Kortets utløpsdato er i fortiden."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Kortets utløpsår er i fortiden."
   }
 }

@@ -1466,5 +1466,44 @@
   "live_label_days": {
     "one": "LIVE: 1 DAG",
     "other": "LIVE: {{.Count}} DAGEN"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Livestream"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dit is een live-evenement. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Je kunt nu een kaartje kopen, maar je moet kijken terwijl de stream live is."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Je moet kijken terwijl de stream live is."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Dit evenement is momenteel live. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream eindigt {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Daarna kun je de stream niet meer bekijken."
+  },
+  "shopping_action_ticket": {
+    "other": "Koop een kaartje"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream start {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Het begon om {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Je kunt het niet terugspoelen."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "De vervaldatum van uw kaart ligt in het verleden."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Het vervaljaar van uw kaart is in het verleden."
   }
 }

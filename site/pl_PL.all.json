@@ -1543,5 +1543,44 @@
     "few": "NA ŻYWO: {{.Count}} DNI",
     "many": "NA ŻYWO: {{.Count}} DNI",
     "other": "NA ŻYWO: {{.Count}} DNI"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Transmisja na żywo"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "To jest wydarzenie na żywo. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Możesz teraz kupić bilet, ale musisz oglądać, gdy transmisja jest na żywo."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Musisz oglądać transmisję na żywo."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "To wydarzenie jest aktualnie na żywo. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Transmisja kończy się {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Po tym nie będziesz mógł oglądać transmisji."
+  },
+  "shopping_action_ticket": {
+    "other": "Kup bilet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Strumień zaczyna się {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Zaczęło się w {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Nie możesz go cofnąć."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Data ważności Twojej karty już minęła."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Rok ważności Twojej karty już minął."
   }
 }

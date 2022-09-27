@@ -1453,5 +1453,44 @@
   },
   "live_label_days": {
     "other": "直播：{{.Count}} 天"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "現場直播"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "這是一個現場活動。"
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "您現在可以購買門票，但您需要在直播期間觀看。"
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "您需要在直播時觀看。"
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "此活動目前正在進行中。"
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "流結束{{.Date}}。"
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "之後您將無法觀看直播。"
+  },
+  "shopping_action_ticket": {
+    "other": "取票"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "流開始{{.Date}}。"
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "它始於{{.Date}}。"
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "你不能倒帶。"
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "您卡的過期日期已過。"
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "您的卡的到期年份已過去。"
   }
 }

@@ -1520,5 +1520,44 @@
     "few": "ЖИТЬ: {{.Count}} ДНЕЙ",
     "many": "ЖИТЬ: {{.Count}} ДНЕЙ",
     "other": "ЖИТЬ: {{.Count}} ДНЕЙ"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Прямая трансляция"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Это живое событие. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Вы можете купить билет сейчас, но вам нужно будет смотреть, пока трансляция идет в прямом эфире."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Вам нужно будет смотреть, пока трансляция идет в прямом эфире."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Это событие в настоящее время в прямом эфире. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Поток заканчивается {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "После этого вы не сможете смотреть трансляцию."
+  },
+  "shopping_action_ticket": {
+    "other": "Получить билет"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Поток начинается {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Это началось в {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Вы не можете перемотать его назад."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Срок действия вашей карты истек."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Срок действия вашей карты истек."
   }
 }
