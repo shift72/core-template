@@ -587,10 +587,10 @@
     "other": "Įvyko klaida"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVV)."
+    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVC)."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVV)."
+    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVC)."
   },
   "shopping_error_incorrect_number": {
     "other": "Prašome įvesti teisingą mokėjimo kortelės numerį."
@@ -666,6 +666,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Mokėjimo kortelė nepriimta. Prašome bandyti dar kartą."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Jūsų kortelė nepalaikoma."
   },
   "shopping_complete_rental": {
     "other": "Pirkinys sėkmingas!"
@@ -1082,7 +1085,7 @@
     "other": "{{.Interval}} kas .Intervalas pasibaigus {{.Count}} dienų bandomajam laikotarpiui."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Įkraunama kas {{.Interval}} ."
+    "other": "Įkraunama kas {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1111,6 +1114,8 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Išbandykite nemokamą 24 valandų bandomąją versiją dabar!",
+    "few": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
+    "many": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
     "other": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!"
   },
   "plans_page_header": {
@@ -1335,7 +1340,202 @@
   "pricing_ownership_promo": {
     "other": "Išpirkti"
   },
+  "subscription_cta_label": {
+    "other": "Prenumeruoti {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Metai",
+    "few": "{{.Count}} Metai",
+    "many": "{{.Count}} Metai",
+    "other": "{{.Count}} Metai"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mėnuo",
+    "few": "{{.Count}} Mėnesių",
+    "many": "{{.Count}} Mėnesių",
+    "other": "{{.Count}} Mėnesių"
+  },
+  "subscription_recurrence_week": {
+    "one": "Savaitė",
+    "few": "{{.Count}} Savaitės",
+    "many": "{{.Count}} Savaitės",
+    "other": "{{.Count}} Savaitės"
+  },
+  "subscription_recurrence_day": {
+    "one": "Diena",
+    "few": "{{.Count}} Dienos",
+    "many": "{{.Count}} Dienos",
+    "other": "{{.Count}} Dienos"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Prenumerata"
+  },
+  "something_bad_happened": {
+    "other": "Prašau, pabandykite dar kartą"
+  },
+  "stripe_card_not_supported": {
+    "other": "Jūsų kortelė nepalaikoma."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Paieška"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Pateikti paiešką"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Automatiškai atnaujina kiekvieną {{.Interval}}",
+    "few": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}",
+    "many": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}",
+    "other": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Išbandykite nemokamą 24 valandų bandomąją versiją dabar!",
+    "few": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
+    "many": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
+    "other": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Prenumeratos ir atsiskaitymas"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Pradelsta"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Neapmokėta"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Atšauktas"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Atšaukiamas"
+  },
+  "interval_day": {
+    "one": "dieną",
+    "few": "dienų",
+    "many": "dienų",
+    "other": "dienų"
+  },
+  "interval_week": {
+    "one": "savaitę",
+    "few": "savaites",
+    "many": "savaites",
+    "other": "savaites"
+  },
+  "interval_month": {
+    "one": "mėnuo",
+    "few": "mėnesių",
+    "many": "mėnesių",
+    "other": "mėnesių"
+  },
+  "interval_year": {
+    "one": "metų",
+    "few": "metų",
+    "many": "metų",
+    "other": "metų"
+  },
+  "shopping_error_processing_error": {
+    "other": "Apdorojant kortelę įvyko klaida. Bandykite dar kartą vėliau arba naudodami kitą mokėjimo metodą."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Apsipirkimo sesija baigėsi, bandykite dar kartą."
+  },
+  "live_stream_starts": {
+    "other": "Srautas prasideda {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Dabar transliuojama"
+  },
+  "live_streaming_ended": {
+    "other": "Srautas baigėsi"
+  },
+  "availability_live": {
+    "other": "GYVAI"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Gaukite bilietą"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Šiam pirkimui ar nuomai negalite naudoti reklamos kredito kodo"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Šis reklamos kredito kodas dar negalioja"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Reklamos kredito kodai negali būti taikomi nemokamoms apsipirkimo sesijoms"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Kai pirkimas baigtas, reklamos kredito kodai negali būti taikomi"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Nepavyko pritaikyti reklamos kredito kodo, bandykite dar kartą"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Neteisingas reklamos kredito kodas"
+  },
+  "shopping_error_missing_code": {
+    "other": "Reklamos kodas nebuvo pateiktas"
+  },
+  "live_label_ended": {
+    "other": "TIESIOGIAI: PABAIGTA"
+  },
+  "live_label_live": {
+    "other": "TIESIOGIAI"
+  },
+  "live_label_minutes": {
+    "one": "TIESIOGIAI: 1 MINUTĖ",
+    "few": "TIESIOGIAI: {{.Count}} MINUTES",
+    "many": "TIESIOGIAI: {{.Count}} MINUTES",
+    "other": "TIESIOGIAI: {{.Count}} MINUTES"
+  },
+  "live_label_hours": {
+    "one": "TIESIOGIAI: 1 VALANDA",
+    "few": "TIESIOGIAI: {{.Count}} VALANDAS",
+    "many": "TIESIOGIAI: {{.Count}} VALANDAS",
+    "other": "TIESIOGIAI: {{.Count}} VALANDAS"
+  },
+  "live_label_days": {
+    "one": "TIESIOGIAI: 1 DIENA",
+    "few": "TIESIOGIAI: {{.Count}} DIENAS",
+    "many": "TIESIOGIAI: {{.Count}} DIENAS",
+    "other": "TIESIOGIAI: {{.Count}} DIENAS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Tiesiogiai"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Tai tiesioginis įvykis. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Galite nusipirkti bilietą dabar, bet turėsite žiūrėti, kol bus transliuojama tiesioginė transliacija."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Turėsite žiūrėti, kol vyksta tiesioginė transliacija."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Šis įvykis šiuo metu vyksta tiesiogiai. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Srautas baigiasi {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Po to srauto žiūrėti nebegalėsite."
+  },
+  "shopping_action_ticket": {
+    "other": "Gaukite bilietą"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Srautas prasideda {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Jis prasidėjo {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Jūs negalite jo atsukti."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Jūsų kortelės galiojimo laikas yra praeityje."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Jūsų kortelės galiojimo laikas yra praeityje."
   }
 }

@@ -551,10 +551,10 @@
     "other": "Hiba történt."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Kérjük, adj meg egy érvényes CVV számot."
+    "other": "Kérjük, adj meg egy érvényes CVC számot."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Kérjük, adj meg egy érvényes CVV számot."
+    "other": "Kérjük, adj meg egy érvényes CVC számot."
   },
   "shopping_error_incorrect_number": {
     "other": "Kérjük, adj meg egy érvényes bankkártya számot."
@@ -630,6 +630,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "A bankkártyát visszautasították. Kérjük, próbálkozz újra."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "A kártya nem támogatott."
   },
   "shopping_complete_rental": {
     "other": "Sikerült!"
@@ -908,13 +911,10 @@
     "other": "Lejár: {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
-    "other": "usersubscriptions_subscription_status_cancelled"
-  },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
+    "other": "Törölve"
   },
   "usersubscriptions_subscription_status_past_due": {
-    "other": "usersubscriptions_subscription_status_past_due"
+    "other": "Határidőn túl"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Próbaidő"
@@ -1340,7 +1340,170 @@
   "pricing_ownership_promo": {
     "other": "Beváltani"
   },
+  "subscription_cta_label": {
+    "other": "Iratkozz fel {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Év",
+    "other": "{{.Count}} Évek"
+  },
+  "subscription_recurrence_month": {
+    "one": "Hónap",
+    "other": "{{.Count}} Hónapok"
+  },
+  "subscription_recurrence_week": {
+    "one": "Hét",
+    "other": "{{.Count}} Hetek"
+  },
+  "subscription_recurrence_day": {
+    "one": "Nap",
+    "other": "{{.Count}} Napok"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Feliratkozás"
+  },
+  "something_bad_happened": {
+    "other": "Kérlek próbáld újra"
+  },
+  "stripe_card_not_supported": {
+    "other": "A kártya nem támogatott."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Keresés"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Keresés indítása"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Automatikusan megújítja minden {{.Interval}}",
+    "other": "Automatikusan {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Próbálja ki most az ingyenes 24 órás próbaverziót!",
+    "other": "Próbálja ki ingyenes {{.Count}} napos próbaverzióját!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Előfizetések és számlázás"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Kifizetetlen"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Törlés"
+  },
+  "interval_day": {
+    "one": "nap",
+    "other": "napok"
+  },
+  "interval_week": {
+    "one": "hét",
+    "other": "hétig"
+  },
+  "interval_month": {
+    "one": "hónap",
+    "other": "hónapok"
+  },
+  "interval_year": {
+    "one": "év",
+    "other": "évek"
+  },
+  "shopping_error_processing_error": {
+    "other": "Hiba történt a kártya feldolgozása közben. Próbálja újra később vagy másik fizetési móddal."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "A vásárlási munkamenet lejárt, próbálkozzon újra."
+  },
+  "live_stream_starts": {
+    "other": "Az adatfolyam elindul {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streamelés most"
+  },
+  "live_streaming_ended": {
+    "other": "Az adatfolyam véget ért"
+  },
+  "availability_live": {
+    "other": "ÉLŐ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Vegyél jegyet"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Nem használhat promóciós kódot ehhez a vásárláshoz vagy kölcsönzéshez"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Ez a promóciós kód még nem érvényes"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "A promóciós kódok nem alkalmazhatók ingyenes vásárlási alkalmakra"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "A promóciós kódok nem alkalmazhatók, ha a vásárlás befejeződött"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Nem sikerült alkalmazni a promóciós kódot, próbálkozzon újra"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Érvénytelen promóciós kód"
+  },
+  "shopping_error_missing_code": {
+    "other": "Nem adtak meg promóciós kódot"
+  },
+  "live_label_ended": {
+    "other": "ÉLŐ: VÉGE"
+  },
+  "live_label_live": {
+    "other": "ÉLŐ"
+  },
+  "live_label_minutes": {
+    "one": "ÉLŐ: 1 PERC",
+    "other": "ÉLŐ: {{.Count}} PERC"
+  },
+  "live_label_hours": {
+    "one": "ÉLŐ: 1 ÓRA",
+    "other": "ÉLŐ: {{.Count}} ÓRA"
+  },
+  "live_label_days": {
+    "one": "ÉLŐ: 1 NAP",
+    "other": "ÉLŐ: {{.Count}} NAPOK"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Élő adás"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Ez egy élő esemény. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Már most is vásárolhat jegyet, de a közvetítést élőben kell néznie."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "A közvetítést élőben kell nézni."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Ez az esemény jelenleg élő. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Az adatfolyam véget ér {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Utána nem fogod tudni nézni a streamet."
+  },
+  "shopping_action_ticket": {
+    "other": "Vegyél jegyet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Az adatfolyam elindul {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "{{.Date}} -kor kezdődött. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Nem lehet visszatekerni."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Kártyája lejárati dátuma a múltban van."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "A kártya lejárati éve már a múltban van."
   }
 }

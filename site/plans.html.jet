@@ -55,9 +55,19 @@
 
                   <p class="plan-description">{{p.Description}}</p>
                   {{ if p.Interval }}
-                    <p class="plan-interval">{{i18n("shopping_info_plan_offer", map("Interval", p.Interval, "Count", p.IntervalCount))}}</p>
+                    {{interval := p.Interval}}
+                    {{if interval == "day"}}
+                      {{interval = i18n("interval_day", p.IntervalCount)}}
+                    {{else if interval == "month"}}
+                      {{interval = i18n("interval_month", p.IntervalCount)}}
+                    {{else if interval == "week"}}
+                      {{interval = i18n("interval_week", p.IntervalCount)}}
+                    {{else if interval == "year"}}
+                      {{interval = i18n("interval_year", p.IntervalCount)}}
+                    {{end}}
+                    <p class="plan-interval">{{i18n("shopping_info_plan_interval", map("Interval", interval, "Count", p.IntervalCount))}}</p>
                     {{ if p.TrialPeriodDays }}
-                      <p class="plan-trial-period">{{i18n("shopping_info_trial_period_offer", p.TrialPeriodDays)}}</p>
+                      <p class="plan-trial-period">{{i18n("shopping_info_trial_period", p.TrialPeriodDays)}}</p>
                     {{ end }}
                   {{ end }}
                 </div>

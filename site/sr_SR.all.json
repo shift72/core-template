@@ -646,6 +646,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Кредитна картица је одбијена. Молимо Вас покушајте поново."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Ваша картица није подржана."
+  },
   "shopping_complete_rental": {
     "other": "Успешно!"
   },
@@ -1081,7 +1084,7 @@
     "other": "Оптужен сваки {{.Interval}} после ваших {{.Count}} дневни бесплатни пробни крајевима."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Наплаћује се сваки {{.Interval}} ."
+    "other": "Наплаћује се сваки {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1105,11 +1108,12 @@
   },
   "shopping_info_plan_offer": {
     "one": "Аутоматски обнавља сваки {{.Interval}}",
-    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}} с"
+    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
     "one": "Испробајте своју бесплатну пробну верзију од 24 сата сада!",
-    "other": "Испробајте своју бесплатну пробну верзију {{.Count}}"
+    "few": "Испробајте своју бесплатну пробну верзију од {{.Count}} дана!",
+    "other": "Испробајте своју бесплатну пробну верзију од {{.Count}} дана!"
   },
   "plans_page_header": {
     "other": "Доступни планови"
@@ -1333,7 +1337,189 @@
   "pricing_ownership_promo": {
     "other": "Искупити"
   },
+  "subscription_cta_label": {
+    "other": "претплатити се {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Година",
+    "few": "{{.Count}} Године",
+    "other": "{{.Count}} Године"
+  },
+  "subscription_recurrence_month": {
+    "one": "Месец дана",
+    "few": "{{.Count}} месеци",
+    "other": "{{.Count}} месеци"
+  },
+  "subscription_recurrence_week": {
+    "one": "Недеља",
+    "few": "{{.Count}} Недеље",
+    "other": "{{.Count}} Недеље"
+  },
+  "subscription_recurrence_day": {
+    "one": "Дан",
+    "few": "{{.Count}} Дани",
+    "other": "{{.Count}} Дани"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Претплата"
+  },
+  "something_bad_happened": {
+    "other": "Молим вас, покушајте поново"
+  },
+  "stripe_card_not_supported": {
+    "other": "Ваша картица није подржана."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Претрага"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Пошаљите претрагу"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Аутоматски обнавља сваки {{.Interval}}",
+    "few": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}}",
+    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Испробајте своју бесплатну пробну верзију од 24 сата сада!",
+    "few": "Испробајте своју бесплатну пробну верзију {{.Count}} даи!",
+    "other": "Испробајте своју бесплатну пробну верзију {{.Count}} даи!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Претплате и наплата"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Касни рок"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Неплаћено"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Отказано"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Отказивање"
+  },
+  "interval_day": {
+    "one": "дан",
+    "few": "дана",
+    "other": "дана"
+  },
+  "interval_week": {
+    "one": "Недеља",
+    "few": "недеље",
+    "other": "недеље"
+  },
+  "interval_month": {
+    "one": "месец дана",
+    "few": "месеци",
+    "other": "месеци"
+  },
+  "interval_year": {
+    "one": "године",
+    "few": "године",
+    "other": "године"
+  },
+  "shopping_error_processing_error": {
+    "other": "Дошло је до грешке приликом обраде ваше картице. Покушајте поново касније или са другим начином плаћања."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Сесија куповине је истекла, покушајте поново."
+  },
+  "live_stream_starts": {
+    "other": "Стрим почиње {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Стримовање сада"
+  },
+  "live_streaming_ended": {
+    "other": "Стрим је завршен"
+  },
+  "availability_live": {
+    "other": "ЛИВЕ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Узми карту"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Не можете да користите промотивни код за ову куповину или изнајмљивање"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Тај промо код још увек није важећи"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Промотивни кодови се не могу применити на бесплатне сесије куповине"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Промо кодови се не могу применити након што је куповина завршена"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Није могуће применити промотивни код, покушајте поново"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Неважећи промо код"
+  },
+  "shopping_error_missing_code": {
+    "other": "Није наведен промотивни код"
+  },
+  "live_label_ended": {
+    "other": "УЖИВО: ЗАВРШЕНО"
+  },
+  "live_label_live": {
+    "other": "ЛИВЕ"
+  },
+  "live_label_minutes": {
+    "one": "УЖИВО: 1 МИНУТА",
+    "few": "УЖИВО: {{.Count}} МИНУТЕ",
+    "other": "УЖИВО: {{.Count}} МИНУТЕ"
+  },
+  "live_label_hours": {
+    "one": "УЖИВО: 1 САТ",
+    "few": "УЖИВО: {{.Count}} САТИ",
+    "other": "УЖИВО: {{.Count}} САТИ"
+  },
+  "live_label_days": {
+    "one": "УЖИВО: 1 ДАН",
+    "few": "УЖИВО: {{.Count}} ДАНА",
+    "other": "УЖИВО: {{.Count}} ДАНА"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Ливе Стреам"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Ово је догађај уживо. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Можете купити карту сада, али ћете морати да гледате док је стрим уживо."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Мораћете да гледате док је стрим уживо."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Овај догађај је тренутно уживо. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Стрим се завршава {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "После тога нећете моћи да гледате стрим."
+  },
+  "shopping_action_ticket": {
+    "other": "Узми карту"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Стрим почиње {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Почело је у {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Не можете га премотати."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Датум истека ваше картице је у прошлости."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Година истека ваше картице је у прошлости."
   }
 }

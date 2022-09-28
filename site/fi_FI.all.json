@@ -513,10 +513,10 @@
     "other": "Tapahtui virhe"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Syötä kelvollinen CVV-tunnus."
+    "other": "Syötä kelvollinen CVC-tunnus."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Syötä kelvollinen CVV-tunnus."
+    "other": "Syötä kelvollinen CVC-tunnus."
   },
   "shopping_error_incorrect_number": {
     "other": "Syötä voimassa olevan luottokortin numero."
@@ -589,6 +589,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Kortti hylätty. Ole hyvä ja yritä uudestaan."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Korttiasi ei tueta."
   },
   "shopping_complete_rental": {
     "other": "Tapahtuma hyväksytty"
@@ -1331,7 +1334,176 @@
   "pricing_ownership_promo": {
     "other": "Lunastaa"
   },
+  "subscription_cta_label": {
+    "other": "Tilaa {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "vuosi",
+    "other": "{{.Count}} Vuosia"
+  },
+  "subscription_recurrence_month": {
+    "one": "Kuukausi",
+    "other": "{{.Count}} Kuukaudet"
+  },
+  "subscription_recurrence_week": {
+    "one": "Viikko",
+    "other": "{{.Count}} Viikot"
+  },
+  "subscription_recurrence_day": {
+    "one": "Päivä",
+    "other": "{{.Count}} päivää"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Tilaus"
+  },
+  "something_bad_happened": {
+    "other": "Yritä uudelleen"
+  },
+  "stripe_card_not_supported": {
+    "other": "Korttiasi ei tueta."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Haku"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Hae"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Uusiutuu automaattisesti joka {{.Interval}}",
+    "other": "{{.Count}} automaattisesti joka {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Kokeile ilmaista 24 tunnin kokeilua nyt!",
+    "other": "Kokeile ilmaista {{.Count}} päivän kokeiluversiota!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Tilaukset ja laskutus"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Erääntynyt"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Palkaton"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Peruutettu"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Peruutetaan"
+  },
+  "interval_day": {
+    "one": "päivä",
+    "other": "päivää"
+  },
+  "interval_week": {
+    "one": "viikko",
+    "other": "viikkoa"
+  },
+  "interval_month": {
+    "one": "kuukausi",
+    "other": "kuukaudet"
+  },
+  "interval_year": {
+    "one": "vuosi",
+    "other": "vuotta"
+  },
+  "shopping_error_processing_error": {
+    "other": "Korttiasi käsiteltäessä tapahtui virhe. Yritä myöhemmin uudelleen tai käytä toista maksutapaa."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Ostosistunto vanhentunut, yritä uudelleen."
+  },
+  "live_stream_starts": {
+    "other": "Stream alkaa {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Striimaa nyt"
+  },
+  "live_streaming_ended": {
+    "other": "Striimi päättyi"
+  },
+  "availability_live": {
+    "other": "ELÄÄ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Hanki lippu"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Et voi käyttää tarjouskoodia tähän ostoon tai vuokraukseen"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Tämä tarjouskoodi ei ole vielä voimassa"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Tarjouskoodeja ei voi käyttää ilmaisissa ostosistunnoissa"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Tarjouskoodeja ei voi käyttää, kun osto on suoritettu"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Tarjouskoodia ei voitu käyttää. Yritä uudelleen"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Virheellinen tarjouskoodi"
+  },
+  "shopping_error_missing_code": {
+    "other": "Tarjouskoodia ei annettu"
+  },
+  "live_label_ended": {
+    "other": "SUORA: PÄÄTTYNYT"
+  },
+  "live_label_live": {
+    "other": "SUORA"
+  },
+  "live_label_minutes": {
+    "one": "SUORA: 1 MINUUTI",
+    "other": "SUORA: {{.Count}} MINUUTTIA"
+  },
+  "live_label_hours": {
+    "one": "SUORA: 1 TUNTI",
+    "other": "SUORA: {{.Count}} TUNTIA"
+  },
+  "live_label_days": {
+    "one": "SUORA: 1 PÄIVÄ",
+    "other": "SUORA: {{.Count}} PÄIVÄT"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Suora lähetys"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Tämä on live-tapahtuma. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Voit ostaa lipun nyt, mutta sinun on katsottava suoratoiston aikana."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Sinun on katsottava suoratoiston aikana."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Tämä tapahtuma on tällä hetkellä live-tilassa. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Lähetys päättyy {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Et voi katsoa striimiä sen jälkeen."
+  },
+  "shopping_action_ticket": {
+    "other": "Hanki lippu"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Suoratoisto alkaa {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Se alkoi {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Et voi kelata sitä taaksepäin."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Korttisi viimeinen voimassaolopäivä on mennyt."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Korttisi vanhentumisvuosi on mennyt."
   }
 }

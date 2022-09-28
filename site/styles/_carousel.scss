@@ -96,8 +96,7 @@ s72-carousel {
   @extend .carousel-bottom-gradient;
 
   bottom: 0;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   left: 0;
   padding: var(--carousel-bottom-gradient-height) 20px 1px;
   position: absolute;
@@ -109,8 +108,14 @@ s72-carousel {
   }
 
   @include media-breakpoint-up(lg) {
-    flex-direction: row;
+    grid-template-columns: 1fr auto;
     padding: var(--carousel-bottom-gradient-height-lg) 50px 1px;
+  }
+
+  .live-label {
+    grid-column: 1;
+    margin-bottom: 8px;
+    width: fit-content;
   }
 
   .meta-awards {
@@ -124,21 +129,22 @@ s72-carousel {
     color: var(--body-color);
 
     @include media-breakpoint-up(lg) {
-      align-self: flex-end;
-      flex-shrink: 0;
-      margin-left: auto;
-      order: 1;
+      align-self: end;
+      grid-column: 2;
+      grid-row: 2;
     }
   }
 
   .sponsor {
+    margin-bottom: 8px;
+
     @include media-breakpoint-up(lg) {
       text-align: right;
     }
   }
 
   .availability-bg {
-    margin-bottom: 8px;
+    margin-bottom: 22px;
   }
 
   .availability-state {
@@ -149,6 +155,11 @@ s72-carousel {
 
   .meta-item-content {
     color: var(--body-color);
+
+    @include media-breakpoint-up(lg) {
+      grid-column: 1;
+      grid-row: 2;
+    }
   }
 
   h3 {
@@ -179,7 +190,7 @@ s72-carousel {
 
   .meta-item-tagline-and-classification {
     display: flex;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
   }
 
   .meta-item-tagline {
@@ -190,12 +201,16 @@ s72-carousel {
 
   .meta-item-synopsis {
     display: none;
-    margin-bottom: 8px;
+    margin-bottom: 14px;
     max-width: 600px;
     padding-top: 0;
 
     @include media-breakpoint-up(xs) {
       display: block;
+    }
+
+    p {
+      margin-bottom: 0;
     }
   }
 }

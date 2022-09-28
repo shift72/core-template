@@ -554,10 +554,10 @@
     "other": "C'è stato un errore"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Prego, inserisci un CVV valido."
+    "other": "Prego, inserisci un CVC valido."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Prego, inserisci un CVV valido."
+    "other": "Prego, inserisci un CVC valido."
   },
   "shopping_error_incorrect_number": {
     "other": "Prego, inserisci un numero di carta di credito valido."
@@ -633,6 +633,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "La carta di credito è stata rifiutata. Ti prego di riprovare."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "La tua carta non è supportata."
   },
   "shopping_complete_rental": {
     "other": "Fatto!"
@@ -909,7 +912,7 @@
     "other": "Addebitato ogni {{.Interval}} al termine del periodo di prova gratuito di {{.Count}} giorni."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Addebitato ogni {{.Interval}} ."
+    "other": "Addebitato ogni {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -936,7 +939,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Prova subito la tua prova gratuita di 24 ore!",
-    "other": "Prova la tua prova gratuita di {{.Count}} Day!"
+    "other": "Prova la tua prova gratuita di {{.Count}} giorni!"
   },
   "plans_page_header": {
     "other": "Piani disponibili"
@@ -1331,7 +1334,180 @@
   "pricing_ownership_promo": {
     "other": "Riscattare"
   },
+  "subscription_cta_label": {
+    "other": "Sottoscrivi {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Anno",
+    "many": "{{.Count}} Anni",
+    "other": "{{.Count}} Anni"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mese",
+    "many": "{{.Count}} Mesi",
+    "other": "{{.Count}} Mesi"
+  },
+  "subscription_recurrence_week": {
+    "one": "Settimana",
+    "many": "{{.Count}} Settimane",
+    "other": "{{.Count}} Settimane"
+  },
+  "subscription_recurrence_day": {
+    "one": "Giorno",
+    "many": "{{.Count}} Giorni",
+    "other": "{{.Count}} Giorni"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Sottoscrizione"
+  },
+  "something_bad_happened": {
+    "other": "Per favore riprova"
+  },
+  "stripe_card_not_supported": {
+    "other": "La tua carta non è supportata."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Cerca"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Invia la ricerca"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Si rinnova automaticamente ogni {{.Interval}}",
+    "other": "Rinnova automaticamente ogni {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Prova subito la tua prova gratuita di 24 ore!",
+    "other": "Prova la tua prova gratuita di {{.Count}} giorni!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Abbonamenti e fatturazione"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Scaduto"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Non pagato"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Annullato"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancellazione"
+  },
+  "interval_day": {
+    "one": "giorno",
+    "other": "giorni"
+  },
+  "interval_week": {
+    "one": "settimana",
+    "other": "settimane"
+  },
+  "interval_month": {
+    "one": "mese",
+    "other": "mesi"
+  },
+  "interval_year": {
+    "one": "anno",
+    "other": "anni"
+  },
+  "shopping_error_processing_error": {
+    "other": "Si è verificato un errore durante l'elaborazione della carta. Riprova più tardi o con un metodo di pagamento diverso."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Sessione di acquisto scaduta, riprova."
+  },
+  "live_stream_starts": {
+    "other": "Lo streaming inizia {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "In streaming ora"
+  },
+  "live_streaming_ended": {
+    "other": "Il flusso è terminato"
+  },
+  "availability_live": {
+    "other": "ABITARE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Ottieni il biglietto"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Non è possibile utilizzare un codice promozionale per questo acquisto o noleggio"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Quel codice promozionale non è ancora valido"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "I codici promozionali non possono essere applicati alle sessioni di acquisto gratuite"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "I codici promozionali non possono essere applicati una volta completato l'acquisto"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Impossibile applicare il codice promozionale, riprova"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Codice promozionale non valido"
+  },
+  "shopping_error_missing_code": {
+    "other": "Non è stato fornito alcun codice promozionale"
+  },
+  "live_label_ended": {
+    "other": "IN DIRETTA: FINITA"
+  },
+  "live_label_live": {
+    "other": "IN DIRETTA"
+  },
+  "live_label_minutes": {
+    "one": "IN DIRETTA: 1 MINUTO",
+    "other": "IN DIRETTA: {{.Count}} MINUTI"
+  },
+  "live_label_hours": {
+    "one": "IN DIRETTA: 1 ORA",
+    "other": "IN DIRETTA: {{.Count}} ORE"
+  },
+  "live_label_days": {
+    "one": "IN DIRETTA: 1 GIORNO",
+    "other": "IN DIRETTA: {{.Count}} GIORNI"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Trasmissione in diretta"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Questo è un evento dal vivo. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Puoi acquistare un biglietto ora ma dovrai guardarlo mentre lo streaming è in diretta."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Dovrai guardare mentre lo streaming è in diretta."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Questo evento è attualmente in diretta. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Il flusso termina {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Non sarai in grado di guardare lo streaming dopo."
+  },
+  "shopping_action_ticket": {
+    "other": "Ottieni il biglietto"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Il flusso inizia {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "È iniziato a {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Non puoi riavvolgerlo."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "La data di scadenza della tua carta è nel passato."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "L'anno di scadenza della tua carta è nel passato."
   }
 }

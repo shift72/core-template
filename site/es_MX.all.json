@@ -545,10 +545,10 @@
     "other": "Ocurrió un error"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Por favor ingresa un CVV válido."
+    "other": "Por favor ingresa un CVC válido."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Por favor ingresa un CVV válido."
+    "other": "Por favor ingresa un CVC válido."
   },
   "shopping_error_incorrect_number": {
     "other": "Por favor ingresa un número de tarjeta de crédito válido."
@@ -624,6 +624,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Esa tarjeta de crédito está declinada. Por favor intenta más tarde."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Su tarjeta no es compatible."
   },
   "shopping_complete_rental": {
     "other": "¡Éxito!"
@@ -1189,7 +1192,7 @@
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
-    "other": "{{.Count}} {{.Interval}}s"
+    "other": "{{.Count}} {{.Interval}}"
   },
   "shopping_enter_card_prompt_subscription": {
     "other": "Ingrese los detalles de su tarjeta de crédito a continuación para comenzar su suscripción."
@@ -1208,11 +1211,11 @@
   },
   "shopping_info_plan_offer": {
     "one": "Se renueva automáticamente cada {{.Interval}}",
-    "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}s"
+    "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}"
   },
   "shopping_info_trial_period_offer": {
-    "one": "Renueva automáticamente cada {{.Interval}}",
-    "other": "Renueva automáticamente cada {{.Count}} {{.Interval}}"
+    "one": "¡Pruebe ahora su prueba gratuita de 24 horas!",
+    "other": "¡Pruebe su prueba gratuita de {{.Count}} días!"
   },
   "availability_expires": {
     "other": "Caducó {{.Expiry}}"
@@ -1331,7 +1334,180 @@
   "pricing_ownership_promo": {
     "other": "Redimir"
   },
+  "subscription_cta_label": {
+    "other": "Suscribir {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Año",
+    "many": "{{.Count}} Años",
+    "other": "{{.Count}} Años"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mes",
+    "many": "{{.Count}} Meses",
+    "other": "{{.Count}} Meses"
+  },
+  "subscription_recurrence_week": {
+    "one": "Semana",
+    "many": "{{.Count}} Semanas",
+    "other": "{{.Count}} Semanas"
+  },
+  "subscription_recurrence_day": {
+    "one": "Día",
+    "many": "{{.Count}} Días",
+    "other": "{{.Count}} Días"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Suscripción"
+  },
+  "something_bad_happened": {
+    "other": "Inténtalo de nuevo"
+  },
+  "stripe_card_not_supported": {
+    "other": "Su tarjeta no es compatible."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Buscar"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Enviar busqueda"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Se renueva automáticamente cada {{.Interval}}",
+    "other": "Se renueva automáticamente cada {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "¡Pruebe ahora su prueba gratuita de 24 horas!",
+    "other": "¡Pruebe su prueba gratuita de {{.Count}} días!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Suscripciones y Facturación"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Atrasado"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "No pagado"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancelado"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancelado"
+  },
+  "interval_day": {
+    "one": "día",
+    "other": "días"
+  },
+  "interval_week": {
+    "one": "semana",
+    "other": "semanas"
+  },
+  "interval_month": {
+    "one": "mes",
+    "other": "meses"
+  },
+  "interval_year": {
+    "one": "año",
+    "other": "años"
+  },
+  "shopping_error_processing_error": {
+    "other": "Ocurrió un error al procesar su tarjeta. Vuelve a intentarlo más tarde o con otro método de pago."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "La sesión de compra expiró, inténtalo de nuevo."
+  },
+  "live_stream_starts": {
+    "other": "La transmisión comienza {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Transmitiendo ahora"
+  },
+  "live_streaming_ended": {
+    "other": "Transmisión finalizada"
+  },
+  "availability_live": {
+    "other": "EN VIVO"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Obtener boleto"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "No puede usar un código de promoción para esta compra o alquiler"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Ese código de promoción aún no es válido"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Los códigos promocionales no se pueden aplicar a las sesiones de compras gratuitas."
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Los códigos de promoción no se pueden aplicar una vez que se completa la compra"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "No se pudo aplicar el código de promoción, inténtalo de nuevo"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Código de promoción no válido"
+  },
+  "shopping_error_missing_code": {
+    "other": "No se proporcionó ningún código de promoción"
+  },
+  "live_label_ended": {
+    "other": "EN VIVO: FINALIZADO"
+  },
+  "live_label_live": {
+    "other": "EN VIVO"
+  },
+  "live_label_minutes": {
+    "one": "EN VIVO: 1 MINUTO",
+    "other": "EN VIVO: {{.Count}} MINUTOS"
+  },
+  "live_label_hours": {
+    "one": "EN VIVO: 1 HORA",
+    "other": "EN VIVO: {{.Count}} HORAS"
+  },
+  "live_label_days": {
+    "one": "EN VIVO: 1 DÍA",
+    "other": "EN VIVO: {{.Count}} DÍAS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Transmisión en vivo"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Este es un evento en vivo. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Puede comprar un boleto ahora, pero deberá mirar mientras la transmisión está en vivo."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Deberá mirar mientras la transmisión está en vivo."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Este evento está actualmente en vivo. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "La transmisión termina {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "No podrás ver la transmisión después de eso."
+  },
+  "shopping_action_ticket": {
+    "other": "Obtener boleto"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "La transmisión comienza {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Comenzó en {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "No puedes rebobinarlo."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "La fecha de vencimiento de su tarjeta ya pasó."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "El año de vencimiento de su tarjeta está en el pasado."
   }
 }

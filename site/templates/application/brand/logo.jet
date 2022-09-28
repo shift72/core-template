@@ -1,0 +1,11 @@
+{{block logo(class="")}}
+  {{logo1x := site.SiteBrand.GetImage("logo@1x", "/images/common/logo.png")}}
+  {{logo2x := site.SiteBrand.GetImage("logo@2x", "/images/common/logo@2x.png")}}
+  {{siteName := site.Config.GetSiteName()}}
+
+  <img class="{{class}}"
+       srcset="{{logo1x}} 300w, {{logo2x}} 600w"
+       sizes="(max-width: 768px) 300px, 600px"
+       src="{{logo2x}}"
+       alt="{{siteName}}">
+{{end}}

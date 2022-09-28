@@ -545,10 +545,10 @@
     "other": "Αντιμετωπίσαμε ένα σφάλμα. "
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVV. "
+    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVC. "
   },
   "shopping_error_invalid_cvc": {
-    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVV. "
+    "other": "Παρακαλώ εισάγετε έναν έγκυρο κωδικό CVC. "
   },
   "shopping_error_incorrect_number": {
     "other": "Παρακαλώ εισάγετε έναν έγκυρο αριθμό κάρτας."
@@ -624,6 +624,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Η πιστωτική σας κάρτα δεν έγινε δεκτή. Παρακαλώ προσπαθήστε ξανά."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Η κάρτα σας δεν υποστηρίζεται."
   },
   "shopping_complete_rental": {
     "other": "Επιτυχία!"
@@ -990,7 +993,7 @@
     "other": "Χρεώνεται κάθε {{.Interval}} μετά τη λήξη της δωρεάν δοκιμής {{.Count}} ημερών."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Χρεώνεται κάθε {{.Interval}} ."
+    "other": "Χρεώνεται κάθε {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1017,7 +1020,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Δοκιμάστε τη δωρεάν δοκιμή 24 ωρών τώρα!",
-    "other": "Δοκιμάστε τη δωρεάν {{.Count}} day!"
+    "other": "Δοκιμάστε τη δωρεάν ημερήσια δοκιμή {{.Count}}!"
   },
   "plans_page_header": {
     "other": "Διαθέσιμα σχέδια"
@@ -1331,7 +1334,176 @@
   "pricing_ownership_promo": {
     "other": "Εξαργυρώνω"
   },
+  "subscription_cta_label": {
+    "other": "Εγγραφείτε {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Ετος",
+    "other": "{{.Count}} Χρόνια"
+  },
+  "subscription_recurrence_month": {
+    "one": "Μήνας",
+    "other": "{{.Count}} Μήνες"
+  },
+  "subscription_recurrence_week": {
+    "one": "Εβδομάδα",
+    "other": "{{.Count}} Εβδομάδες"
+  },
+  "subscription_recurrence_day": {
+    "one": "Ημέρα",
+    "other": "{{.Count}} Ημέρες"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Συνδρομή"
+  },
+  "something_bad_happened": {
+    "other": "ΠΑΡΑΚΑΛΩ προσπαθησε ξανα"
+  },
+  "stripe_card_not_supported": {
+    "other": "Η κάρτα σας δεν υποστηρίζεται."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Αναζήτηση"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Υποβάλετε αναζήτηση"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Ανανεώνει αυτόματα κάθε {{.Interval}}",
+    "other": "Ανανεώνει αυτόματα κάθε {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Δοκιμάστε τη δωρεάν δοκιμή 24 ωρών τώρα!",
+    "other": "Δοκιμάστε τη δωρεάν ημερήσια δοκιμή {{.Count}}!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Συνδρομές και Χρεώσεις"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Παρελθούσα"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Απλήρωτος"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Ακυρώθηκε"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Ακύρωση"
+  },
+  "interval_day": {
+    "one": "ημέρα",
+    "other": "ημέρες"
+  },
+  "interval_week": {
+    "one": "εβδομάδα",
+    "other": "εβδομάδες"
+  },
+  "interval_month": {
+    "one": "μήνας",
+    "other": "μήνες"
+  },
+  "interval_year": {
+    "one": "έτος",
+    "other": "χρόνια"
+  },
+  "shopping_error_processing_error": {
+    "other": "Παρουσιάστηκε σφάλμα κατά την επεξεργασία της κάρτας σας. Δοκιμάστε ξανά αργότερα ή με διαφορετικό τρόπο πληρωμής."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Η περίοδος αγορών έληξε, δοκιμάστε ξανά."
+  },
+  "live_stream_starts": {
+    "other": "Η ροή ξεκινάει {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Μετάδοση ροής τώρα"
+  },
+  "live_streaming_ended": {
+    "other": "Η ροή έληξε"
+  },
+  "availability_live": {
+    "other": "ΖΩ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Πάρτε εισιτήριο"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Δεν μπορείτε να χρησιμοποιήσετε κωδικό προσφοράς για αυτήν την αγορά ή ενοικίαση"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Αυτός ο κωδικός προσφοράς δεν είναι ακόμη έγκυρος"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Οι κωδικοί προσφοράς δεν μπορούν να εφαρμοστούν σε δωρεάν συνεδρίες αγορών"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Οι κωδικοί προσφοράς δεν μπορούν να εφαρμοστούν μετά την ολοκλήρωση της αγοράς"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Δεν ήταν δυνατή η εφαρμογή του κωδικού προσφοράς, δοκιμάστε ξανά"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Μη έγκυρος κωδικός προσφοράς"
+  },
+  "shopping_error_missing_code": {
+    "other": "Δεν δόθηκε κωδικός προσφοράς"
+  },
+  "live_label_ended": {
+    "other": "ΖΩΝΤΑΝΗ: ΤΕΛΕΙΩΣΕ"
+  },
+  "live_label_live": {
+    "other": "ΖΩΝΤΑΝΗ"
+  },
+  "live_label_minutes": {
+    "one": "ΖΩΝΤΑΝΗ: 1 ΛΕΠΤΟ",
+    "other": "ΖΩΝΤΑΝΗ: {{.Count}} ΛΕΠΤΑ"
+  },
+  "live_label_hours": {
+    "one": "ΖΩΝΤΑΝΗ: 1 ΩΡΑ",
+    "other": "ΖΩΝΤΑΝΗ: {{.Count}} ΩΡΕΣ"
+  },
+  "live_label_days": {
+    "one": "ΖΩΝΤΑΝΗ: 1 ΜΕΡΑ",
+    "other": "ΖΩΝΤΑΝΗ: {{.Count}} ΗΜΕΡΕΣ"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Ζωντανή μετάδοση"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Αυτή είναι μια Ζωντανή Εκδήλωση. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Μπορείτε να αγοράσετε ένα εισιτήριο τώρα, αλλά θα πρέπει να το παρακολουθήσετε όσο είναι ζωντανή η ροή."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Θα χρειαστεί να παρακολουθήσετε ενώ η ροή είναι ζωντανή."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Αυτή η εκδήλωση είναι ζωντανή αυτήν τη στιγμή. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Λήξη ροής {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Δεν θα μπορείτε να παρακολουθήσετε τη ροή μετά από αυτό."
+  },
+  "shopping_action_ticket": {
+    "other": "Πάρτε εισιτήριο"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Έναρξη ροής {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Ξεκίνησε στις {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Δεν μπορείτε να το επανατυλίξετε."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Η ημερομηνία λήξης της κάρτας σας είναι παρελθόν."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Το έτος λήξης της κάρτας σας είναι παρελθόν."
   }
 }

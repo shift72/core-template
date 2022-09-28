@@ -1,6 +1,79 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.1.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.5.1...HEAD)
+
+### Added
+- AB#9564 Live label to film detail page and carousel with translations.
+- AB#9361 Translations for live events, poster live availability status styling changes
+- Translations for live event purchase flow.
+- Translations for credit card expiry validation.
+
+### Fixed
+- Inline cta buttons now grow when text is wider than button width
+
+### Fixed
+- Gap below page-collections consistent with sliders
+- Made item-collections similar in structure and style to sliders, renamed accordingly
+
+## [1.5.1](https://github.com/shift72/core-template/compare/1.5.0...1.5.1)
+
+## Changed
+- Revert relish version to 1.3 from latest
+
+## [1.5.0](https://github.com/shift72/core-template/compare/1.4.0...1.5.0)
+
+### Added
+- Translations for discount errors
+
+## Changed
+- Spacing between components AB#9013
+
+### Fixed
+- Default language now gets set either by site record or kibble.json depending on if DB translations are enabled AB#9675
+- Fixed incorrect Portuguese translation for shopping success
+
+## [1.4.0](https://github.com/shift72/core-template/compare/1.3.0...1.4.0)
+
+### Added
+- Add new variables to change the font sizes and letter spacing of headings, subtitles, body text, etc.
+- Add translations for intervals without counts
+- New keys for translations that were used by Relish and Core-template removing their overlapping usage
+- Add translation for `shopping_error_card_not_supported`, `shopping_error_processing_error` and `shopping_error_invalid_session_token`
+- Added support for self-service CSS and brand images.
+- Added support for carousel_play_speed and carousel_fade_time configs.
+- Added support to toggle on cloudsearch via Meta > cloudsearch feature toggle.
+
+## Changed
+- Moved the carousel availability label above the CTA's.
+- The site url in kibble.json now points to [tvoddemo.shift72.com](https://tvoddemo.shift72.com).
+- Full width background image and gradient on meta detail pages
+- Various links and buttons now use new colour variables.
+- Translations refer to "CVC" rather than "CVV" at payment stage
+
+### Fixed
+- Broken share modal styles.
+- Fixed translation for plan frequency in plans.html
+- Added Intl to polyfill to catch iOS devices.
+- Film detail page element switcher uses grid instead of flex with gap.
+
+## [1.3.0](https://github.com/shift72/core-template/compare/1.3.0-alpha...1.3.0)
+
+No changes from `alpha-0`.
+
+## [1.3.0-alpha.0](https://github.com/shift72/core-template/compare/1.2.0...1.3.0-alpha.0)
+
+### Added
+- Add translations for subscription recurrence on purchase CTA.
+- Add translations for more friendlier stripe & error messages. (`stripe_card_not_supported`, `something_bad_happened`).
+
+### Fixed
+- Spinner not rotating.
+
+## [1.2.0](https://github.com/shift72/core-template/compare/1.2.0-alpha.0...1.2.0)
+
+No changes from `alpha-0`.
+
+## [1.2.0-alpha.0](https://github.com/shift72/core-template/compare/1.1.0...1.2.0-alpha.0)
 
 ### Added
 - Tooltips on meta detail/item CTA buttons.

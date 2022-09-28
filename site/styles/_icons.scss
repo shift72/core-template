@@ -6,6 +6,7 @@
 }
 
 .fa {
+  display: inline-block;
   font-family: 'fa-s72' !important;
   font-style: normal !important;
   font-variant: normal !important;
@@ -220,4 +221,9 @@ s72-availability-label .availability-state::before {
 
 .fa-play-trailer::before {
   content: '\e01d';
+}
+
+@mixin s72-icon-live {
+  @extend .fa-circle;
+  @extend .s72-icon;
 }

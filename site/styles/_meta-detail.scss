@@ -33,25 +33,18 @@
   top: 0;
   width: 100%;
   z-index: -1;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(xs) {
     height: 700px;
     opacity: 1;
   }
-  @include media-breakpoint-up(xl) {
-    height: 100%;
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    right: 0;
+  @include media-breakpoint-up(lg) {
+    height: auto;
   }
 
   s72-image {
     display: block;
     position: relative;
     width: 100%;
-    @include media-breakpoint-up(lg) {
-      width: 1600px;
-    }
 
     &::before {
       @extend .left-gradient-bg;
@@ -63,37 +56,29 @@
       top: 0;
       width: 60%;
       z-index: 8;
-      @include media-breakpoint-up(md) {
-        width: 100%;
+      @include media-breakpoint-up(lg) {
+        display: none;
       }
     }
 
     img {
       animation: fadein 2s;
-      height: 500px;
-      max-width: 1600px;
-      width: auto;
-      @include media-breakpoint-up(md) {
-        float: right;
-        height: 700px;
-        margin-left: 0;
-      }
-      @include media-breakpoint-up(xl) {
-        float: right;
-        height: auto;
-      }
+      min-height: 100%;
+      object-fit: cover;
     }
   }
 
   &::after {
     @extend .bottom-gradient-bg;
-    bottom: 0;
     content: '';
     height: 350px;
-    left: 0;
     position: absolute;
     width: 100%;
     z-index: 8;
+    @include media-breakpoint-up(lg) {
+      @include detail-page-gradient-lg;
+      height: 100%;
+    }
   }
 }
 
@@ -117,8 +102,7 @@
 }
 
 .meta-detail-main {
-  @extend .d-flex;
-  flex-direction: column;
+  display: grid;
   padding: var(--page-detail-padding-top) 20px 0 20px;
 
   @include media-breakpoint-up(xs) {
@@ -126,19 +110,45 @@
   }
 
   @include media-breakpoint-up(lg) {
-    flex-direction: row;
+    grid-template-columns: auto 1fr;
     padding: var(--page-detail-padding-top-lg) 50px 0 50px;
     padding-bottom: 0;
   }
 
-  .poster-wrapper {
-    margin-bottom: 20px;
-    position: relative;
-    .sponsor {
-      bottom: 100%;
+  s72-live-label {
+    @include media-breakpoint-up(lg) {
+      grid-column: 2;
+    }
+
+    .live-label {
+      margin-bottom: 12px;
       position: absolute;
+      // 42px magic number is 30px height of the label + 12px of "margin".
+      top: calc(var(--page-detail-padding-top) - 42px);
+
       @include media-breakpoint-up(xs) {
-        position: relative;
+        // 42px magic number is 30px height of the label + 12px of "margin".
+        top: calc(var(--page-detail-padding-top-md) - 42px);
+      }
+
+      @include media-breakpoint-up(lg) {
+        margin-bottom: 8px;
+        // 42px magic number is 30px height of the label + 12px of "margin".
+        top: calc(var(--page-detail-padding-top-lg) - 42px);
+      }
+    }
+  }
+
+  .poster-wrapper {
+    @include media-breakpoint-up(lg) {
+      grid-row: 2;
+    }
+
+    .sponsor {
+      margin-bottom: 12px;
+
+      @include media-breakpoint-up(xs) {
+        margin-bottom: 20px;
       }
     }
   }
@@ -147,6 +157,7 @@
     animation: fadein 2s;
     display: block;
     flex-shrink: 0;
+    margin-bottom: 20px;
     margin-right: 20px;
     width: 110px;
 
@@ -157,11 +168,22 @@
     @include media-breakpoint-up(xl) {
       width: 208px;
     }
+
+    .live {
+      display: none;
+    }
   }
 
   .poster-wrapper .sponsor {
     @include media-breakpoint-up(lg) {
       display: none;
+    }
+  }
+
+  .meta-detail-content {
+    @include media-breakpoint-up(lg) {
+      grid-column: 2;
+      grid-row: 2;
     }
   }
 }
@@ -207,7 +229,7 @@ s72-element-switcher,
 
   .meta-detail-synopsis,
   .meta-detail-switcher-tagline {
-    padding-top: 10px;
+    padding-top: 22px;
 
     p {
       animation: fadein 2s;
@@ -238,6 +260,10 @@ s72-element-switcher,
 
     a {
       animation: fadein 2s;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }
@@ -387,21 +413,24 @@ s72-element-switcher,
 }
 
 .element-switcher-wrapper {
-  display: flex;
+  display: grid;
   gap: 50px;
-  justify-content: space-between;
+  grid-template-columns: auto auto;
   width: 100%;
 
   .sponsor {
     display: none;
     padding-top: 10px;
+
     @include media-breakpoint-up(lg) {
       display: block;
+      margin-left: auto;
     }
   }
 }
 
 .sponsor {
+  @include body-1-style();
   margin-bottom: 24px;
   max-width: 250px;
 
@@ -416,9 +445,12 @@ s72-element-switcher,
 }
 
 s72-element-switcher {
-  margin-bottom: 60px;
-  @include media-breakpoint-up(sm) {
-    margin-bottom: 100px;
+  margin-bottom: 62px;
+
+  .s72-toggle {
+    &:hover {
+      color: var(--body-color-hover);
+    }
   }
 }
 
@@ -426,6 +458,7 @@ s72-element-switcher {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(1, 1fr);
+  padding-bottom: 20px;
 
   @include media-breakpoint-up(lg) {
     grid-template-columns: repeat(2, 1fr);

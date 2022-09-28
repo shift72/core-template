@@ -551,10 +551,10 @@
     "other": "En feil har oppstått."
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Skriv inn en gyldig CVV-kode."
+    "other": "Skriv inn en gyldig CVC-kode."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Skriv inn en gyldig CVV-kode."
+    "other": "Skriv inn en gyldig CVC-kode."
   },
   "shopping_error_incorrect_number": {
     "other": "Skriv inn et gyldig kredittkortnummer."
@@ -631,6 +631,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Kredittkortet har blitt avvist. Vennligst prøv igjen."
   },
+  "shopping_error_card_not_supported": {
+    "other": "Kortet ditt støttes ikke."
+  },
   "shopping_complete_rental": {
     "other": "Vellykket!"
   },
@@ -658,7 +661,7 @@
   },
   "shopping_complete_rental_watch_window_start": {
     "one": "Du kan nå se den om {{.Count}} dager.",
-    "other": "You are now able to start watching it within the next {{.Count}} days."
+    "other": "Du kan nå begynne å se den i løpet av de neste {{.Count}} dagene."
   },
   "shopping_complete_rental_watch_window_end": {
     "one": "Når du starter avspillingen, vil du ha {{.Count}} timer til å se filmen så mange ganger du vil.",
@@ -999,7 +1002,7 @@
     "other": "Belastet hvert {{.Interval}} etter at {{.Count}} dager avsluttes."
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "Lades hvert {{.Interval}} ."
+    "other": "Lades hvert {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1026,7 +1029,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Prøv din gratis 24-timers prøveversjon nå!",
-    "other": "Prøv din gratis {{.Count}} day prøveversjon!"
+    "other": "Prøv din gratis prøveperiode på {{.Count}} dager!"
   },
   "plans_page_header": {
     "other": "Tilgjengelige planer"
@@ -1331,7 +1334,176 @@
   "pricing_ownership_promo": {
     "other": "Løs inn"
   },
+  "subscription_cta_label": {
+    "other": "Abonnere {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "År",
+    "other": "{{.Count}} år"
+  },
+  "subscription_recurrence_month": {
+    "one": "Måned",
+    "other": "{{.Count}} Måneder"
+  },
+  "subscription_recurrence_week": {
+    "one": "Uke",
+    "other": "{{.Count}} Uker"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dag",
+    "other": "{{.Count}} Dager"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Abonnement"
+  },
+  "something_bad_happened": {
+    "other": "Vær så snill, prøv på nytt"
+  },
+  "stripe_card_not_supported": {
+    "other": "Kortet ditt støttes ikke."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Søk"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Søk"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Fornyes automatisk hver {{.Interval}}",
+    "other": "{{.Count}} automatisk hver {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Prøv din gratis 24-timers prøveversjon nå!",
+    "other": "Prøv din gratis prøveperiode på {{.Count}} dager!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Abonnementer og fakturering"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Forfalt"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Ubetalt"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "avbrutt"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Avbryter"
+  },
+  "interval_day": {
+    "one": "dag",
+    "other": "dager"
+  },
+  "interval_week": {
+    "one": "uke",
+    "other": "uker"
+  },
+  "interval_month": {
+    "one": "måned",
+    "other": "måneder"
+  },
+  "interval_year": {
+    "one": "år",
+    "other": "år"
+  },
+  "shopping_error_processing_error": {
+    "other": "Det oppsto en feil under behandlingen av kortet ditt. Prøv igjen senere eller med en annen betalingsmetode."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Shoppingøkten er utløpt, prøv igjen."
+  },
+  "live_stream_starts": {
+    "other": "Stream starter {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streamer nå"
+  },
+  "live_streaming_ended": {
+    "other": "Strømmen ble avsluttet"
+  },
+  "availability_live": {
+    "other": "BO"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Få billett"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Du kan ikke bruke en kampanjekode for dette kjøpet eller utleien"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Kampanjekoden er ikke gyldig ennå"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Kampanjekoder kan ikke brukes på gratis shoppingøkter"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Kampanjekoder kan ikke brukes etter at kjøpet er fullført"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Kampanjekoden kunne ikke brukes. Prøv igjen"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Ugyldig kampanjekode"
+  },
+  "shopping_error_missing_code": {
+    "other": "Ingen kampanjekode ble oppgitt"
+  },
+  "live_label_ended": {
+    "other": "LIVE: AVSLUTTET"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MITT",
+    "other": "LIVE: {{.Count}} MINUTTER"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 TIME",
+    "other": "LIVE: {{.Count}} TIMER"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 DAG",
+    "other": "LIVE: {{.Count}} DAGER"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Direktestrømming"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dette er en Live Event. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Du kan kjøpe en billett nå, men du må se mens strømmen er direkte."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Du må se mens strømmen er direkte."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Denne begivenheten er for øyeblikket live. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Strøm slutter {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Du vil ikke kunne se strømmen etter det."
+  },
+  "shopping_action_ticket": {
+    "other": "Få billett"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Strømmen starter {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Det startet på {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Du kan ikke spole den tilbake."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Kortets utløpsdato er i fortiden."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Kortets utløpsår er i fortiden."
   }
 }

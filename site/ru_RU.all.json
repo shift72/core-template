@@ -564,10 +564,10 @@
     "other": "Произошла ошибка"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Пожалуйста, введите правильный код CVV."
+    "other": "Пожалуйста, введите правильный код CVC."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Пожалуйста, введите правильный код CVV."
+    "other": "Пожалуйста, введите правильный код CVC."
   },
   "shopping_error_incorrect_number": {
     "other": "Пожалуйста, введите действительную кредитную карту Number."
@@ -643,6 +643,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "Кредитная карта была отклонена. Пожалуйста, попробуйте еще раз."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Ваша карта не поддерживается."
   },
   "shopping_complete_rental": {
     "other": "Успех!"
@@ -1023,7 +1026,7 @@
     "other": "Взимается каждые после окончания {{.Interval}} вашей дневной бесплатной пробной {{.Count}}"
   },
   "shopping_price_plan_note_without_trial": {
-    "other": "{{.Interval}} каждые .интервал."
+    "other": "Взимается каждые {{.Interval}}."
   },
   "shopping_price_plan_note_interval": {
     "one": "{{.Interval}}",
@@ -1052,7 +1055,9 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Попробуйте бесплатную 24-часовую пробную версию прямо сейчас!",
-    "other": "Попробуйте бесплатную дневную пробную версию {{.Count}}"
+    "few": "Попробуйте бесплатную {{.Count}}-дневную пробную версию!",
+    "many": "Попробуйте бесплатную {{.Count}}-дневную пробную версию!",
+    "other": "Попробуйте бесплатную {{.Count}}-дневную пробную версию!"
   },
   "plans_page_header": {
     "other": "Доступные планы"
@@ -1357,7 +1362,202 @@
   "pricing_ownership_promo": {
     "other": "Выкупать"
   },
+  "subscription_cta_label": {
+    "other": "Подписывайся {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Год",
+    "few": "{{.Count}} Годы",
+    "many": "{{.Count}} Годы",
+    "other": "{{.Count}} Годы"
+  },
+  "subscription_recurrence_month": {
+    "one": "Месяц",
+    "few": "{{.Count}} Месяцы",
+    "many": "{{.Count}} Месяцы",
+    "other": "{{.Count}} Месяцы"
+  },
+  "subscription_recurrence_week": {
+    "one": "Неделя",
+    "few": "{{.Count}} Недели",
+    "many": "{{.Count}} Недели",
+    "other": "{{.Count}} Недели"
+  },
+  "subscription_recurrence_day": {
+    "one": "День",
+    "few": "{{.Count}} Дни",
+    "many": "{{.Count}} Дни",
+    "other": "{{.Count}} Дни"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Подписка"
+  },
+  "something_bad_happened": {
+    "other": "Пожалуйста, попробуйте еще раз"
+  },
+  "stripe_card_not_supported": {
+    "other": "Ваша карта не поддерживается."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Поиск"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Начать поиск"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Автоматически обновляется каждые {{.Interval}}",
+    "few": "Автоматически обновляется каждые {{.Count}} {{.Interval}}",
+    "many": "Автоматически обновляется каждые {{.Count}} {{.Interval}}",
+    "other": "Автоматически обновляется каждые {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Попробуйте бесплатную 24-часовую пробную версию прямо сейчас!",
+    "few": "Попробуйте бесплатную {{.Count}}-дневную пробную версию!",
+    "many": "Попробуйте бесплатную {{.Count}}-дневную пробную версию!",
+    "other": "Попробуйте бесплатную {{.Count}}-дневную пробную версию!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Подписки и выставление счетов"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Просроченный"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Неоплачиваемый"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Отменено"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Отмена"
+  },
+  "interval_day": {
+    "one": "день",
+    "few": "дни",
+    "many": "дни",
+    "other": "дни"
+  },
+  "interval_week": {
+    "one": "неделя",
+    "few": "недели",
+    "many": "недели",
+    "other": "недели"
+  },
+  "interval_month": {
+    "one": "месяц",
+    "few": "месяцы",
+    "many": "месяцы",
+    "other": "месяцы"
+  },
+  "interval_year": {
+    "one": "год",
+    "few": "годы",
+    "many": "годы",
+    "other": "годы"
+  },
+  "shopping_error_processing_error": {
+    "other": "При обработке вашей карты произошла ошибка. Повторите попытку позже или с другим способом оплаты."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Сеанс покупки истек, попробуйте еще раз."
+  },
+  "live_stream_starts": {
+    "other": "Стрим начинается {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Потоковое сейчас"
+  },
+  "live_streaming_ended": {
+    "other": "Трансляция завершена"
+  },
+  "availability_live": {
+    "other": "ЖИТЬ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Получить билет"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Вы не можете использовать промо-код для этой покупки или аренды"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Этот промокод еще не действителен"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Промокоды не могут быть применены к бесплатным сеансам покупок."
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Промокоды не могут быть применены после завершения покупки"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Не удалось применить промокод, попробуйте еще раз"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Недействительный промо-код"
+  },
+  "shopping_error_missing_code": {
+    "other": "Промокод не был предоставлен"
+  },
+  "live_label_ended": {
+    "other": "ПРЯМОЙ ЭФИР: ЗАКОНЧИЛСЯ"
+  },
+  "live_label_live": {
+    "other": "ЖИТЬ"
+  },
+  "live_label_minutes": {
+    "one": "ЖИТЬ: 1 МИНУТА",
+    "few": "ЖИТЬ: {{.Count}} МИНУТ",
+    "many": "ЖИТЬ: {{.Count}} МИНУТ",
+    "other": "ЖИТЬ: {{.Count}} МИНУТ"
+  },
+  "live_label_hours": {
+    "one": "ЖИТЬ: 1 ЧАС",
+    "few": "ЖИТЬ: {{.Count}} ЧАСЫ",
+    "many": "ЖИТЬ: {{.Count}} ЧАСЫ",
+    "other": "ЖИТЬ: {{.Count}} ЧАСЫ"
+  },
+  "live_label_days": {
+    "one": "ЖИТЬ: 1 ДЕНЬ",
+    "few": "ЖИТЬ: {{.Count}} ДНЕЙ",
+    "many": "ЖИТЬ: {{.Count}} ДНЕЙ",
+    "other": "ЖИТЬ: {{.Count}} ДНЕЙ"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Прямая трансляция"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Это живое событие. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Вы можете купить билет сейчас, но вам нужно будет смотреть, пока трансляция идет в прямом эфире."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Вам нужно будет смотреть, пока трансляция идет в прямом эфире."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Это событие в настоящее время в прямом эфире. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Поток заканчивается {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "После этого вы не сможете смотреть трансляцию."
+  },
+  "shopping_action_ticket": {
+    "other": "Получить билет"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Поток начинается {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Это началось в {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Вы не можете перемотать его назад."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Срок действия вашей карты истек."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Срок действия вашей карты истек."
   }
 }

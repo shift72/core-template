@@ -17,8 +17,8 @@ rl.question(`Enter Username for ${siteUrl}: `, username => {
       .then(authToken => {
         return uploadCSS(authToken);
       })
-      .then(filename => {
-        console.log(`CSS file upload success: https://${url.hostname}/styles/${filename}`);
+      .then(filePath => {
+        console.log(`CSS file upload success: https://${url.hostname}/styles${filePath}`);
       })
       .catch(handleError);
   });
@@ -57,7 +57,7 @@ function uploadCSS(authToken) {
       }
 
       res.on('data', d => {
-        let filename = readJsonValueFromRawData('css_filename', d);
+        let filename = readJsonValueFromRawData('css_path', d);
         return resolve(filename);
       });
     });

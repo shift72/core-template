@@ -605,10 +605,10 @@
     "other": "Va ocórrer un error"
   },
   "shopping_error_incorrect_cvc": {
-    "other": "Introduïu un CVV vàlid."
+    "other": "Introduïu un CVC vàlid."
   },
   "shopping_error_invalid_cvc": {
-    "other": "Introduïu un CVV vàlid."
+    "other": "Introduïu un CVC vàlid."
   },
   "shopping_error_incorrect_number": {
     "other": "Si us plau, introduïu un número de targeta de crèdit vàlid."
@@ -684,6 +684,9 @@
   },
   "shopping_error_payment_intent_authentication_failure": {
     "other": "S'ha rebutjat la targeta de crèdit. Siusplau torna-ho a provar."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "La teva targeta no és compatible."
   },
   "shopping_complete_rental": {
     "other": "Èxit!"
@@ -992,13 +995,10 @@
     "other": "Caduca {{.Expiry}}"
   },
   "usersubscriptions_subscription_status_cancelled": {
-    "other": "usersubscriptions_subscription_status_cancelled"
-  },
-  "usersubscriptions_subscription_status_errored": {
-    "other": "usersubscriptions_subscription_status_errored"
+    "other": "Cancel·lat"
   },
   "usersubscriptions_subscription_status_past_due": {
-    "other": "usersubscriptions_subscription_status_past_due"
+    "other": "Vençuda"
   },
   "usersubscriptions_subscription_status_trialing": {
     "other": "Període de prova"
@@ -1206,7 +1206,7 @@
   },
   "shopping_info_trial_period_offer": {
     "one": "Prova la teva prova gratuïta de 24 hores ara!",
-    "other": "Prova la teva prova gratuïta de {{.Count}} day!"
+    "other": "Prova la teva prova gratuïta de {{.Count}} dies!"
   },
   "plans_page_header": {
     "other": "Plans disponibles"
@@ -1340,7 +1340,170 @@
   "pricing_ownership_promo": {
     "other": "Redimir"
   },
+  "subscription_cta_label": {
+    "other": "Subscriu-te {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Curs",
+    "other": "{{.Count}} Anys"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mes",
+    "other": "{{.Count}} Mesos"
+  },
+  "subscription_recurrence_week": {
+    "one": "Setmana",
+    "other": "{{.Count}} Setmanes"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dia",
+    "other": "{{.Count}} Dies"
+  },
   "shopping_info_ownership_subscription": {
     "other": "Subscripció"
+  },
+  "something_bad_happened": {
+    "other": "Siusplau torna-ho a provar"
+  },
+  "stripe_card_not_supported": {
+    "other": "La teva targeta no és compatible."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Cerca"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Envia la cerca"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Renova automàticament cada {{.Interval}}",
+    "other": "Renova automàticament cada {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Prova la teva prova gratuïta de 24 hores ara!",
+    "other": "Prova la teva prova gratuïta de {{.Count}} dies!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Subscripcions i facturació"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Sense pagar"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "S'està cancel·lant"
+  },
+  "interval_day": {
+    "one": "dia",
+    "other": "dies"
+  },
+  "interval_week": {
+    "one": "setmana",
+    "other": "setmanes"
+  },
+  "interval_month": {
+    "one": "mes",
+    "other": "mesos"
+  },
+  "interval_year": {
+    "one": "curs",
+    "other": "anys"
+  },
+  "shopping_error_processing_error": {
+    "other": "S'ha produït un error en processar la vostra targeta. Torna-ho a provar més tard o amb una altra forma de pagament."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "La sessió de compres ha caducat, torna-ho a provar."
+  },
+  "live_stream_starts": {
+    "other": "El flux comença {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "En streaming ara"
+  },
+  "live_streaming_ended": {
+    "other": "El flux s'ha acabat"
+  },
+  "availability_live": {
+    "other": "EN VIU"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Aconsegueix el bitllet"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "No podeu utilitzar un codi promocional per a aquesta compra o lloguer"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Aquest codi promocional encara no és vàlid"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Els codis promocionals no es poden aplicar a les sessions de compres gratuïtes"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Els codis promocionals no es poden aplicar un cop s'ha completat la compra"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "No s'ha pogut aplicar el codi promocional, torna-ho a provar"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Codi promocional no vàlid"
+  },
+  "shopping_error_missing_code": {
+    "other": "No s'ha proporcionat cap codi promocional"
+  },
+  "live_label_ended": {
+    "other": "EN DIRECTE: ACABAT"
+  },
+  "live_label_live": {
+    "other": "EN VIU"
+  },
+  "live_label_minutes": {
+    "one": "EN DIRECTE: 1 MINUT",
+    "other": "EN DIRECTE: {{.Count}} MINUTS"
+  },
+  "live_label_hours": {
+    "one": "EN DIRECTE: 1 HORA",
+    "other": "EN DIRECTE: {{.Count}} HORES"
+  },
+  "live_label_days": {
+    "one": "EN DIRECTE: 1 DIA",
+    "other": "EN DIRECTE: {{.Count}} DIES"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Transmissió en directe"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Aquest és un esdeveniment en directe. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Ja pots comprar una entrada, però hauràs de mirar-la mentre la transmissió sigui en directe."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Haureu de mirar-lo mentre la transmissió sigui en directe."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Aquest esdeveniment està actualment en directe. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "El flux acaba {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Després d'això, no podreu veure l'emissió."
+  },
+  "shopping_action_ticket": {
+    "other": "Aconsegueix el bitllet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Comença la {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Va començar a {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "No pots rebobinar-lo."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "La data de caducitat de la vostra targeta és del passat."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "L'any de caducitat de la vostra targeta és del passat."
   }
 }

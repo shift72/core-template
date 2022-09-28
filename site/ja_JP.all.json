@@ -590,6 +590,9 @@
   "shopping_error_payment_intent_authentication_failure": {
     "other": "このクレジットカードは拒否されました。もう一度お試しください。"
   },
+  "shopping_error_card_not_supported": {
+    "other": "お使いのカードはサポートされていません。"
+  },
   "shopping_complete_rental": {
     "other": "成功しました！"
   },
@@ -1329,7 +1332,165 @@
   "pricing_ownership_promo": {
     "other": "償還"
   },
+  "subscription_cta_label": {
+    "other": "申し込む {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "other": "{{.Count}} 年"
+  },
+  "subscription_recurrence_month": {
+    "other": "{{.Count}} 月"
+  },
+  "subscription_recurrence_week": {
+    "other": "{{.Count}} 週"
+  },
+  "subscription_recurrence_day": {
+    "other": "{{.Count}} 日"
+  },
   "shopping_info_ownership_subscription": {
     "other": "サブスクリプション"
+  },
+  "something_bad_happened": {
+    "other": "もう一度やり直してください"
+  },
+  "stripe_card_not_supported": {
+    "other": "カードはサポートされていません。"
+  },
+  "nav_search_control_placeholder": {
+    "other": "検索"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "検索する"
+  },
+  "shopping_info_plan_interval": {
+    "one": "{{.Interval}}ごとに自動的に更新されます",
+    "other": "{{.Count}} {{.Interval}}ごとに自動的に更新されます"
+  },
+  "shopping_info_trial_period": {
+    "one": "今すぐ無料の24時間トライアルをお試しください！",
+    "other": "{{.Count}}日トライアルをお試しください！"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "サブスクリプションと請求"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "延滞"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "未払い"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "キャンセル"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "キャンセル中"
+  },
+  "interval_day": {
+    "other": "日々"
+  },
+  "interval_week": {
+    "other": "週間"
+  },
+  "interval_month": {
+    "other": "月"
+  },
+  "interval_year": {
+    "other": "年"
+  },
+  "shopping_error_processing_error": {
+    "other": "カードの処理中にエラーが発生しました。しばらくしてからもう一度お試しいただくか、別のお支払い方法でお試しください。"
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "ショッピング セッションの有効期限が切れました。もう一度お試しください。"
+  },
+  "live_stream_starts": {
+    "other": "ストリーム開始 {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "ストリーミング中"
+  },
+  "live_streaming_ended": {
+    "other": "配信終了"
+  },
+  "availability_live": {
+    "other": "住む"
+  },
+  "shopping_action_get_ticket": {
+    "other": "チケットを入手"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "この購入またはレンタルにはプロモーション コードを使用できません"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "そのプロモーション コードはまだ有効ではありません"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "プロモーション コードは、無料のショッピング セッションには適用できません"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "購入が完了するとプロモーション コードを適用できません"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "プロモーション コードを適用できませんでした。もう一度お試しください"
+  },
+  "shopping_error_invalid_code": {
+    "other": "プロモーション コードが無効です"
+  },
+  "shopping_error_missing_code": {
+    "other": "プロモーション コードが提供されていません"
+  },
+  "live_label_ended": {
+    "other": "ライブ: 終了しました"
+  },
+  "live_label_live": {
+    "other": "ライブ"
+  },
+  "live_label_minutes": {
+    "other": "ライブ: {{.Count}} 分"
+  },
+  "live_label_hours": {
+    "other": "ライブ: {{.Count}} 時間"
+  },
+  "live_label_days": {
+    "other": "ライブ: {{.Count}} 日"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "ライブ ストリーム"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "これはライブイベントです。"
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "今すぐチケットを購入できますが、ストリームがライブである間に視聴する必要があります。"
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "ストリームがライブである間、視聴する必要があります。"
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "このイベントは現在開催中です。"
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "ストリームは{{.Date}}で終了します。"
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "その後、ストリームを視聴することはできません。"
+  },
+  "shopping_action_ticket": {
+    "other": "チケットを入手"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "ストリーム開始{{.Date}}。"
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "それは{{.Date}}に始まりました。"
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "巻き戻しはできません。"
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "カードの有効期限が過ぎています。"
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "カードの有効期限が過ぎています。"
   }
 }
