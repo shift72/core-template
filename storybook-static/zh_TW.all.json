@@ -1,0 +1,1496 @@
+{
+  "settings_title": {
+    "other": "設置"
+  },
+  "powered_by": {
+    "other": "指定網站服務商"
+  },
+  "powered_by_name": {
+    "other": "Shift72"
+  },
+  "powered_by_url": {
+    "other": "https://www.shift72.com"
+  },
+  "in_partnership_with": {
+    "other": "合作單位"
+  },
+  "festival_scope": {
+    "other": "Festival Scope"
+  },
+  "festival_scope_url": {
+    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
+  },
+  "en": {
+    "other": "英語"
+  },
+  "fr": {
+    "other": "法語"
+  },
+  "episode_name": {
+    "other": "集"
+  },
+  "season_name": {
+    "other": "季"
+  },
+  "seasons": {
+    "one": "共 1 季",
+    "other": "共 {{.Count}} 季"
+  },
+  "tvseason": {
+    "other": "{{.ShowInfo.Title}} 第 {{.Season.SeasonNumber}} 集"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>第 {{.Season.SeasonNumber}} 季</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "影集 {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "共 1 集",
+    "other": "共 {{.Count}} 集"
+  },
+  "date_day": {
+    "other": "日"
+  },
+  "date_month": {
+    "other": "月"
+  },
+  "date_year": {
+    "other": "年"
+  },
+  "404_page_header": {
+    "other": "此頁面不存在"
+  },
+  "404_page_content": {
+    "other": "<p>很抱歉，此頁面不存在。</p><p>頁面可能已被移除，或輸入的資訊有誤。</p><p>請回到首頁重新搜尋。</p><p><a href=\"{{.URL}}\">回到首頁</a></p>"
+  },
+  "nav_signin": {
+    "other": "登入"
+  },
+  "nav_signup": {
+    "other": "建立帳號"
+  },
+  "nav_signed_in_as": {
+    "other": "使用者"
+  },
+  "nav_library": {
+    "other": "已付費影片"
+  },
+  "nav_devices": {
+    "other": "我的播放裝置"
+  },
+  "nav_wishlist": {
+    "other": "我的追蹤片單"
+  },
+  "nav_account": {
+    "other": "我的帳號"
+  },
+  "nav_signout": {
+    "other": "登出"
+  },
+  "header_banner": {
+    "other": "標題橫幅"
+  },
+  "play_trailer": {
+    "other": "預告"
+  },
+  "runtime_hours": {
+    "other": "時"
+  },
+  "runtime_minutes": {
+    "other": "分"
+  },
+  "datetime_today": {
+    "other": "今天 {{.Date}}"
+  },
+  "datetime_tomorrow": {
+    "other": "明天 {{.Date}}"
+  },
+  "datetime_yesterday": {
+    "other": "昨天 {{.Date}}"
+  },
+  "datetime_next": {
+    "other": "{{.Date}}"
+  },
+  "datetime_last": {
+    "other": "最近一次觀看 {{.Date}}"
+  },
+  "search_control_placeholder": {
+    "other": "關鍵字搜尋"
+  },
+  "search_control_submit": {
+    "other": "送出"
+  },
+  "play_button_watch": {
+    "other": "立即观看"
+  },
+  "play_button_resume": {
+    "other": "繼續播放"
+  },
+  "social_media_buttons_title": {
+    "other": "分享"
+  },
+  "social_media_buttons_facebook": {
+    "other": "Facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "电子邮件"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "链接分享"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "鏈接已復制"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "复制链接"
+  },
+  "accept_invite_page_header": {
+    "other": "歡迎 "
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+    "other": "您已接受過此邀請，請從 <a href=\"{{.SigninURL}}\">登入</a> 。若忘記密碼，請至 <a href=\"{{.ForgotPasswordURL}}\">重設密碼</a>。"
+  },
+  "acceptinvite_complete": {
+    "other": "帳號已建立"
+  },
+  "acceptinvite_form_submit": {
+    "other": "接受邀請"
+  },
+  "acceptinvite_agreement": {
+    "other": "按下「接受邀請」前，請先確認已閱讀並詳細了解我們的服務條款<a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">條款 &amp; 狀況</a> 和 <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">隱私政策</a>。"
+  },
+  "signup_page_header": {
+    "other": "建立新帳號"
+  },
+  "signup_form_name": {
+    "other": "姓名"
+  },
+  "signup_form_email": {
+    "other": "電子郵件"
+  },
+  "signup_form_password": {
+    "other": "密碼"
+  },
+  "signup_form_password_confirmation": {
+    "other": "確認密碼"
+  },
+  "signup_form_gender": {
+    "other": "性別"
+  },
+  "signup_form_dob": {
+    "other": "生日"
+  },
+  "signup_form_submit": {
+    "other": "送出"
+  },
+  "signin_page_header": {
+    "other": "登入"
+  },
+  "signin_form_email": {
+    "other": "電子郵件"
+  },
+  "signin_form_password": {
+    "other": "密碼"
+  },
+  "signin_form_remember": {
+    "other": "記住我"
+  },
+  "signin_form_submit": {
+    "other": "送出"
+  },
+  "signin_page_forgotpassword": {
+    "other": "忘記密碼？"
+  },
+  "signin_page_createnewaccount": {
+    "other": "還沒有帳號？立即加入"
+  },
+  "signup_page_alreadyhaveanaccount": {
+    "other": "已有帳號？立即登入"
+  },
+  "signup_form_error_email_already_in_use": {
+    "other": "此電子郵件已被使用。"
+  },
+  "signin_form_error_incorrect_credentials": {
+    "other": "輸入的帳號或密碼錯誤。"
+  },
+  "signin_form_error_ip_throttled": {
+    "other": "登入錯誤超過次數，請稍候再試。"
+  },
+  "signin_form_error_account_suspended": {
+    "other": "此帳號目前暫停使用。若有任何疑問，請與我們聯繫。"
+  },
+  "signup_form_error_forbidden": {
+    "other": "發生錯誤"
+  },
+  "combined_auth_continue": {
+    "other": "繼續"
+  },
+  "combined_auth_change": {
+    "other": "變更"
+  },
+  "combined_auth_signin": {
+    "other": "登入"
+  },
+  "combined_auth_signup": {
+    "other": "建立帳號"
+  },
+  "combined_auth_signin_password": {
+    "other": "請輸入您的密碼登入帳號"
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+    "other": "密碼輸入錯誤"
+  },
+  "combined_auth_error_forbidden": {
+    "other": "發生錯誤"
+  },
+  "combined_auth_error_too_many_requests": {
+    "other": "請求過多，請稍後重試。"
+  },
+  "forgotpassword_page_header": {
+    "other": "重設密碼"
+  },
+  "forgotpassword_form_email": {
+    "other": "電子郵件"
+  },
+  "forgotpassword_form_submit": {
+    "other": "重設"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+    "other": "此電子郵件無對應的帳號。"
+  },
+  "forgotpassword_form_error_account_suspended": {
+    "other": "此帳號已暫停使用。"
+  },
+  "forgotpassword_complete": {
+    "other": "謝謝，請至您的個人信箱收取「重設密碼」通知。"
+  },
+  "forgotpassword_form_error_forbidden": {
+    "other": "發生錯誤"
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "請求過多，請稍後重試。"
+  },
+  "resetpassword_page_header": {
+    "other": "變更密碼"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+    "other": "重設密碼失敗，請點選 <a href=\"{{.URL}}\">忘記密碼</a>重新申請"
+  },
+  "resetpassword_form_password": {
+    "other": "新密碼"
+  },
+  "resetpassword_form_password2": {
+    "other": "再次確認新密碼"
+  },
+  "resetpassword_form_submit": {
+    "other": "變更"
+  },
+  "resetpassword_complete": {
+    "other": "謝謝，密碼已變更，系統已將您重新登入。"
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+    "other": "重設密碼失敗，請稍後再試。"
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+    "other": "「重設密碼」申請已失效，請重新申請。"
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "請求過多，請稍後重試。"
+  },
+  "account_page_header": {
+    "other": "我的帳號"
+  },
+  "account_form_name": {
+    "other": "姓名"
+  },
+  "account_form_email": {
+    "other": "電子郵件"
+  },
+  "account_form_password": {
+    "other": "密碼"
+  },
+  "account_form_change_password": {
+    "other": "變更"
+  },
+  "account_form_gender": {
+    "other": "性別"
+  },
+  "account_form_dob": {
+    "other": "生日"
+  },
+  "account_form_submit": {
+    "other": "更新"
+  },
+  "account_form_submitted": {
+    "other": "已更新"
+  },
+  "account_form_password_changed": {
+    "other": "密碼已更新"
+  },
+  "account_form_error_incorrect_password": {
+    "other": "密碼錯誤"
+  },
+  "account_form_pin_code": {
+    "other": "PIN碼"
+  },
+  "account_form_pin_code_not_set": {
+    "other": "未設定PIN碼。請設定PIN碼以購買、租借和觀看影片。"
+  },
+  "account_form_set_pin": {
+    "other": "設定PIN碼"
+  },
+  "account_form_pin_changed": {
+    "other": "已更新"
+  },
+  "account_form_change_pin": {
+    "other": "變更PIN碼"
+  },
+  "user_set_pin_header": {
+    "other": "設定PIN碼"
+  },
+  "user_set_pin_button": {
+    "other": "設定PIN碼"
+  },
+  "user_submit_pin_heading": {
+    "other": "為此專屬內容 {{.Action}} 設定PIN碼"
+  },
+  "user_error_wrong_pin_retry": {
+    "other": "輸入PIN碼錯誤"
+  },
+  "user_error_too_many_pin_errors": {
+    "other": "<p>PIN碼多次輸入錯誤。</p><p>請重設PIN碼或與我們聯繫 <a href=\"{{.HelpURL}}\" target=\"_blank\">幫助</a>"
+  },
+  "user_submit_pin_button": {
+    "other": "輸入"
+  },
+  "user_reset_pin_button": {
+    "other": "重設PIN碼"
+  },
+  "signup_form_optin": {
+    "other": "訂閱電子報"
+  },
+  "passwordconfirmation_modal_header": {
+    "other": "確認密碼"
+  },
+  "passwordconfirmation_modal_label": {
+    "other": "請輸入密碼來更新資訊"
+  },
+  "passwordconfirmation_modal_confirm": {
+    "other": "確認"
+  },
+  "changepassword_modal_header": {
+    "other": "變更密碼"
+  },
+  "changepassword_modal_currentpassword": {
+    "other": "目前密碼"
+  },
+  "changepassword_modal_password": {
+    "other": "新密碼"
+  },
+  "changepassword_modal_password2": {
+    "other": "再次確認新密碼"
+  },
+  "changepassword_modal_submit": {
+    "other": "更新"
+  },
+  "changepassword_modal_error_incorrect_password": {
+    "other": "密碼錯誤"
+  },
+  "userlibrary_page_header": {
+    "other": "已付費影片"
+  },
+  "userlibrary_empty_header": {
+    "other": "尚無任何影片。"
+  },
+  "userlibrary_empty_content": {
+    "other": "歡迎至 <a href=\"{{.HomeURL}}\">首頁</a> 瀏覽影展精選片單 。"
+  },
+  "searchresults_page_header": {
+    "other": "搜尋結果"
+  },
+  "searchresults_load_more": {
+    "other": "顯示 {{.Count}} 更多"
+  },
+  "searchresults_total": {
+    "one": "找到1個符合 \"{{.Query}}\"的結果。",
+    "other": "找到 {{.Count}} 個符合 \"{{.Query}}\"的結果。"
+  },
+  "searchresults_empty_header": {
+    "other": "沒有符合 \"{{.Query}}\"的結果"
+  },
+  "searchresults_empty_content": {
+    "other": "請嘗試其他搜尋，或回到<a href=\"{{.HomeURL}}\">首頁</a> 瀏覽影展精選片單 。"
+  },
+  "validation_name_required": {
+    "other": "請輸入姓名"
+  },
+  "validation_email_required": {
+    "other": "請輸入電子郵件"
+  },
+  "validation_email_email": {
+    "other": "請輸入有效的電子郵件"
+  },
+  "validation_currentpassword_required": {
+    "other": "請輸入目前使用的密碼"
+  },
+  "validation_password_required": {
+    "other": "請輸入密碼"
+  },
+  "validation_password2_required": {
+    "other": "請再次輸入密碼"
+  },
+  "validation_password2_match": {
+    "other": "密碼不符，請重新輸入"
+  },
+  "validation_password_minlength": {
+    "other": "請至少輸入 {{.Count}} 碼"
+  },
+  "validation_promocode_required": {
+    "other": "請輸入兌換碼"
+  },
+  "validation_pincode_required": {
+    "other": "請輸入PIN碼"
+  },
+  "validation_pincode1_required": {
+    "other": "請輸入有效PIN碼"
+  },
+  "validation_pincode2_required": {
+    "other": "請輸入有效PIN碼"
+  },
+  "validation_pincode1_pattern": {
+    "other": "請輸入有效PIN碼"
+  },
+  "validation_pincode2_pattern": {
+    "other": "請輸入有效的PIN碼"
+  },
+  "validation_pincode2_match": {
+    "other": "輸入的PIN碼不符"
+  },
+  "validation_gender_required": {
+    "other": "請選擇您的性別"
+  },
+  "validation_dob_required": {
+    "other": "請輸入您的生日"
+  },
+  "validation_dob_date": {
+    "other": "請輸入有效的生日日期"
+  },
+  "shopping_info_subtitle_hd": {
+    "other": "提供HD畫質"
+  },
+  "shopping_info_subtitle_sd": {
+    "other": "提供SD畫質"
+  },
+  "shopping_info_subtitle_wallet": {
+    "other": "錢包中的金額可用來購買或租借SreenPlus的內容。"
+  },
+  "shopping_info_subtitle_help": {
+    "other": "點此查看裝置及系統需求"
+  },
+  "shopping_info_ownership_buy": {
+    "other": "購買"
+  },
+  "shopping_info_ownership_rent": {
+    "other": "租借"
+  },
+  "shopping_info_sd_only": {
+    "other": "僅限以SD畫質播放"
+  },
+  "shopping_info_release_date_title": {
+    "other": "上線日期 {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation_rent": {
+    "other": "可先租借，並於影片上線後開始觀看。"
+  },
+  "shopping_info_release_date_explanation_buy": {
+    "other": "可先購買，並於影片上線後開始觀看。"
+  },
+  "shopping_info_available_until_date_title": {
+    "other": "影片可觀看至 {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+    "other": "影片下線後將無法觀看。"
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+    "other": "影片下線後將無法觀看。"
+  },
+  "duration_hour": {
+    "one": "1小時",
+    "other": "{{.Count}}個小時"
+  },
+  "duration_day": {
+    "one": "1天",
+    "other": "{{.Count}}天"
+  },
+  "shopping_info_rental_period_duration": {
+    "other": "租借天數 {{.ValueUnit}} "
+  },
+  "shopping_info_watch_window_duration": {
+    "other": "觀影期限 {{.Count}} 小時。  "
+  },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "完成租借後，影片將在帳號中保留 {{.ValueUnit}}。",
+    "other": "完成租借後，影片將在帳號中保留 {{.ValueUnit}}。"
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "one": "觀影期限，將由進入播放視窗按下「播放」開始計算，可於 1 小時內無限次觀看。",
+    "other": "觀影期限，將由進入播放視窗按下「播放」開始計算，可於 {{.Count}} 小時內無限次觀看。"
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "one": "完成租借後，影片合輯將於帳號中保留 1 天。",
+    "other": "完成租借後，影片合輯將於帳號中保留 {{.Count}} 天。"
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "one": "觀影期限，將由進入播放視窗按下「播放」開始計算，可於 1 小時內無限次觀看。",
+    "other": "觀影期限，將由進入播放視窗按下「播放」開始計算，可於 {{.Count}} 小時內無限次觀看。"
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "one": "完成租借後，影集將於帳號中保留 1 天。",
+    "other": "完成租借後，影集將於帳號中保留 {{.Count}} 天。"
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "one": "觀影期限，將由進入播放視窗按下「播放」開始計算，可於 1 小時內無限次觀看。",
+    "other": "觀影期限，將由進入播放視窗按下「播放」開始計算，可於 {{.Count}} 小時內無限次觀看。"
+  },
+  "shopping_info_credit_bonus_title": {
+    "other": "折扣{{.BonusPercentage}}%"
+  },
+  "shopping_enter_card_prompt": {
+    "other": "請輸入信用卡資訊，以完成 {{.Verb}}。"
+  },
+  "shopping_terms": {
+    "other": "完成付款時，即代表您已同意本站 <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">使用者服務條款</a>."
+  },
+  "shopping_discount_applied": {
+    "other": "已折扣 {{.DiscountAmount}} "
+  },
+  "shopping_discount_apply": {
+    "other": "兌換"
+  },
+  "shopping_discount_code": {
+    "other": "輸入兌換碼"
+  },
+  "shopping_discount_have_code": {
+    "other": "我有兌換碼"
+  },
+  "shopping_price_you_pay": {
+    "other": "您將支付"
+  },
+  "shopping_price_nothing": {
+    "other": "無項目"
+  },
+  "shopping_price_free": {
+    "other": "免費"
+  },
+  "shopping_auth_directions": {
+    "other": "請先登入。於下方輸入電子郵件。"
+  },
+  "shopping_error_in_library": {
+    "other": "{{.Title}} 已在您的已付費影片。"
+  },
+  "shopping_error_missing_card": {
+    "other": "請輸入信用卡資訊"
+  },
+  "shopping_error_title": {
+    "other": "發生錯誤"
+  },
+  "shopping_error_incorrect_cvc": {
+    "other": "請輸入有效的CVC"
+  },
+  "shopping_error_invalid_cvc": {
+    "other": "請輸入有效的CVC"
+  },
+  "shopping_error_incorrect_number": {
+    "other": "請輸入有效的信用卡卡號"
+  },
+  "shopping_error_invalid_number": {
+    "other": "請輸入有效的信用卡卡號"
+  },
+  "shopping_error_card_declined": {
+    "other": "信用卡遭拒絕"
+  },
+  "shopping_error_invalid_expiry_month": {
+    "other": "請輸入正確的有效日期"
+  },
+  "shopping_error_invalid_expiry_year": {
+    "other": "請輸入正確的有效日期"
+  },
+  "shopping_error_expired_card": {
+    "other": "此信用卡已過效期"
+  },
+  "shopping_error_creditcard_country_mismatch": {
+    "other": "{{.Ownership}} 未完成。請使用所在地區核發之有效信用卡進行支付，或使用其他卡片完成付款。"
+  },
+  "shopping_error_proxy_detected": {
+    "other": "{{.Ownership}} 未完成。已偵測到使用代理或遠端伺服器。請先將任何相關服務關閉。"
+  },
+  "shopping_error_discount_worn_out": {
+    "other": "此兌換碼已失效"
+  },
+  "shopping_error_discount_blank": {
+    "other": "請輸入兌換碼"
+  },
+  "shopping_error_discount_not_applied": {
+    "other": "請輸入有效的兌換碼"
+  },
+  "shopping_error_discount_invalid": {
+    "other": "請輸入有效的兌換碼"
+  },
+  "shopping_error_discount_disabled": {
+    "other": "請輸入有效的兌換碼"
+  },
+  "shopping_error_discount_already_applied": {
+    "other": "此兌換碼已在此項目使用"
+  },
+  "shopping_error_discount_already_redeemed": {
+    "other": "此兌換碼已被使用"
+  },
+  "shopping_error_discount_used_previously": {
+    "other": "此兌換碼已被使用"
+  },
+  "shopping_error_discount_max_limit": {
+    "other": "此兌換碼已失效"
+  },
+  "shopping_error_discount_expired": {
+    "other": "此兌換碼已過期"
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+    "other": "此兌換碼無法於購買時使用"
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+    "other": "此兌換碼無法於租借時使用"
+  },
+  "shopping_error_discount_invalid_item": {
+    "other": "此兌換碼無法於此項目使用"
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+    "other": "所在地區無法使用此兌換碼"
+  },
+  "shopping_error_discounts_not_allowed": {
+    "other": "此兌換碼無法使用"
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+    "other": "此兌換碼無法用於影片合輯"
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+    "other": "輸入的信用卡遭拒絕。請再試一次。"
+  },
+  "shopping_error_card_not_supported": {
+    "other": "不支持您的卡。"
+  },
+  "shopping_complete_rental": {
+    "other": "付費成功！"
+  },
+  "shopping_complete_rental_period": {
+    "one": "可於 1 天內無限次觀看。",
+    "other": "可於 {{.Count}} 天內無限次觀看。"
+  },
+  "shopping_complete_purchase": {
+    "other": "感謝您付費觀賞 {{.Title}}。"
+  },
+  "shopping_complete_credit_purchase": {
+    "other": "{{.Title}}已完成付費，{{.CreditTotal}} 已加入您的帳號。"
+  },
+  "shopping_complete_purchase_coming_soon": {
+    "other": "您可於 {{.Date}} 後開始觀看。"
+  },
+  "shopping_complete_receipt": {
+    "other": "收據已透過電子郵件發送至您的信箱。"
+  },
+  "shopping_complete_library_link": {
+    "other": "瀏覽已付費影片"
+  },
+  "shopping_complete_plan": {
+    "other": "您已成功{{.Title}}"
+  },
+  "shopping_complete_rental_watch_window_start": {
+    "one": "可於 1 天內開始觀看。",
+    "other": "您可於 {{.Count}} 天內開始觀看。"
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "one": "觀影期限，將由進入播放視窗按下「播放」開始計算，可於 1 小時內無限次觀看。",
+    "other": "觀影期限，將由進入播放視窗按下「播放」開始計算，可於 {{.Count}} 小時內無限次觀看。"
+  },
+  "shopping_complete_rental_coming_soon": {
+    "one": "可於 {{.Date}} 後開始觀看影片，租借天數還有1天。",
+    "other": "可於 {{.Date}} 後開始觀看影片，租借天數還有 {{.Count}} 天。"
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "one": "可於 {{.Date}} 後開始觀看影片，租借天數還有1天。",
+    "other": "可於 {{.Date}} 後開始觀看影片，租借天數還有 {{.Count}} 天。"
+  },
+  "shopping_action_rent": {
+    "other": "租借"
+  },
+  "shopping_action_buy": {
+    "other": "購買"
+  },
+  "shopping_payment_method_header": {
+    "other": "付款方式"
+  },
+  "shopping_payment_method_credit_card": {
+    "other": "信用卡"
+  },
+  "shopping_payment_method_giropay": {
+    "other": "Giropay"
+  },
+  "shopping_error_stripe_unknown_error": {
+    "other": "付款時發生問題，請稍後再試。"
+  },
+  "shopping_error_payment_complete_failed": {
+    "other": "付款被拒絕，請關掉視窗後再重試。"
+  },
+  "meta_detail_cast_title": {
+    "other": "演員"
+  },
+  "meta_detail_crew_title": {
+    "other": "工作人員"
+  },
+  "meta_detail_languages": {
+    "one": "語言",
+    "other": "語言"
+  },
+  "meta_detail_studios": {
+    "one": "片商",
+    "other": "片商"
+  },
+  "meta_detail_countries": {
+    "one": "地區",
+    "other": "地區"
+  },
+  "meta_detail_subtitles": {
+    "other": "字幕"
+  },
+  "meta_detail_captions": {
+    "other": "字幕 [CC]"
+  },
+  "meta_detail_episodes_title": {
+    "other": "集數"
+  },
+  "meta_detail_bonus_title": {
+    "other": "相關花絮"
+  },
+  "meta_detail_recommendations_title": {
+    "other": "您也許也會喜歡"
+  },
+  "meta_detail_bundle_items_title": {
+    "other": "此影片合輯包括以下內容"
+  },
+  "bundle_items_all_films": {
+    "other": "共 {{.Count}} 部影片"
+  },
+  "bundle_items_all_seasons": {
+    "other": "共 {{.Count}} 部影集"
+  },
+  "bundle_items_mixed": {
+    "other": "共 {{.Count}} 部影片與影集"
+  },
+  "userwishlist_page_header": {
+    "other": "我的追蹤片單"
+  },
+  "userwishlist_slider_header": {
+    "other": "我的追蹤片單"
+  },
+  "userwishlist_empty_header": {
+    "other": "尚無任何影片。"
+  },
+  "userwishlist_empty_content": {
+    "other": "歡迎至 <a href=\"{{.HomeURL}}\">首頁</a> 瀏覽影展精選片單 。"
+  },
+  "userwishlist_button_add": {
+    "other": "加入我的追蹤片單"
+  },
+  "userwishlist_button_remove": {
+    "other": "从我的列表中删除"
+  },
+  "userwishlist_button_add_compact": {
+    "other": "我的追蹤片單"
+  },
+  "userwishlist_button_remove_compact": {
+    "other": "我的追蹤片單"
+  },
+  "activatedevice_page_header": {
+    "other": "可使用裝置"
+  },
+  "activatedevice_page_content": {
+    "other": "請依照指示取得PIN碼，並確認電腦與裝置皆已連上可用網路。"
+  },
+  "activatedevice_form_pin": {
+    "other": "PIN碼"
+  },
+  "activatedevice_form_submit": {
+    "other": "啟用"
+  },
+  "activatedevice_form_error_invalid_code": {
+    "other": "PIN碼錯誤，請重新輸入"
+  },
+  "activatedevice_form_error_pin_not_found": {
+    "other": "PIN碼錯誤，請重新輸入"
+  },
+  "activatedevice_signin_prompt": {
+    "other": "請先登入再啟動播放裝置"
+  },
+  "activatedevice_page_activated": {
+    "other": "{{.DeviceName}}已啟用。請使用此裝置開始觀賞影片。"
+  },
+  "userdevices_page_header": {
+    "other": "我的播放裝置"
+  },
+  "userdevices_page_content": {
+    "one": "播放裝置將於使用時自動加入，您最多可使用 1 個裝置。",
+    "other": "播放裝置將於使用時自動加入，您最多可使用 {{.Count}} 個裝置。"
+  },
+  "userdevices_empty_content": {
+    "other": "目前尚未加入任何裝置"
+  },
+  "userdevices_header_type": {
+    "other": "裝置類型"
+  },
+  "userdevices_header_description": {
+    "other": "裝置內容"
+  },
+  "userdevices_device_added": {
+    "other": "於 {{.Date}} 加入"
+  },
+  "userdevices_device_actions_delete": {
+    "other": "移除"
+  },
+  "userdevices_device_actions_cancel": {
+    "other": "取消"
+  },
+  "userdevices_device_actions_confirm": {
+    "other": "是，移除裝置"
+  },
+  "userdevices_device_deleted": {
+    "other": "（裝置已移除）"
+  },
+  "userdevices_delete_limits": {
+    "other": "您可於每 {{.Period}} 日，移除 {{.Limit}} 項裝置。"
+  },
+  "userdevices_delete_limit_reached": {
+    "other": "加入的裝置數已達上限，目前無法移除裝置，請於 {{.Days}} 日後移除裝置。"
+  },
+  "playlist_page_header": {
+    "other": "播放清單"
+  },
+  "playlist_sign_in_warning": {
+    "other": "請先登入以觀賞直播。"
+  },
+  "playlist_share_title": {
+    "other": "播放清單"
+  },
+  "playlist_up_next_title": {
+    "other": "下一部"
+  },
+  "pricing_ownership_buy": {
+    "other": "購買"
+  },
+  "pricing_ownership_rent": {
+    "other": "租借"
+  },
+  "classification_intro": {
+    "other": "評分：  "
+  },
+  "classification_divider": {
+    "other": " - "
+  },
+  "classification_outro": {
+    "other": ""
+  },
+  "cookie_banner_message": {
+    "other": "本網站採用Cookies以提供您更流暢的用戶/上網體驗，繼續使用本網站，即表示您同意我們的<a href=\"{{.CookiePolicyURL}}\">Cookie相關使用條例</a>。"
+  },
+  "cookie_banner_accept": {
+    "other": "接受"
+  },
+  "all_rights_reserved": {
+    "other": "版權所有，本網站未經書面同意禁止重製。"
+  },
+  "users_gender_none": {
+    "other": "未定"
+  },
+  "users_gender_female": {
+    "other": "女"
+  },
+  "users_gender_male": {
+    "other": "男"
+  },
+  "users_gender_diverse": {
+    "other": "多元"
+  },
+  "users_gender_other": {
+    "other": "其他"
+  },
+  "pricing_quality_hd": {
+    "other": "HD"
+  },
+  "pricing_quality_sd": {
+    "other": "SD"
+  },
+  "pricing_quality_hd_only": {
+    "other": "HD 只要"
+  },
+  "pricing_quality_sd_only": {
+    "other": "SD 只要"
+  },
+  "shopping_card_save_card": {
+    "other": "儲存此信用卡資訊，供日後使用"
+  },
+  "shopping_card_button_change": {
+    "other": "顯示所有已儲存的信用卡"
+  },
+  "shopping_card_existing_description": {
+    "other": "{{.Card.Brand}} 末碼為 {{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+    "other": "（於 {{.Card.Expiry}} 失效）"
+  },
+  "shopping_card_existing_expired": {
+    "other": "（已過期）"
+  },
+  "shopping_card_use_other": {
+    "other": "添加新卡"
+  },
+  "shopping_card_use_new_card": {
+    "other": "換一張信用卡"
+  },
+  "shopping_card_update_reason_none": {
+    "other": "此信用卡無法更新"
+  },
+  "shopping_card_new_subscription": {
+    "other": "此信用卡已儲存，將依照您的使用進行付款"
+  },
+  "shopping_card_change": {
+    "other": "信用卡錯誤 <a href=\"{{.SubscriptionsURL}}\">請按此更新。</a>"
+  },
+  "shopping_info_ownership_plan": {
+    "other": "计划"
+  },
+  "shopping_action_credit": {
+    "other": "頂尖"
+  },
+  "shopping_info_rental_period_coming_soon": {
+    "other": "自上架時間起"
+  },
+  "usersubscriptions_change_payment_method_change": {
+    "other": "改變信用卡"
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+    "other": "更新信用卡詳細信息"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "更新"
+  },
+  "usersubscriptions_subscription_expiry": {
+    "other": "到期 {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "試用期"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+    "other": "取消我的訂閱"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+    "other": "不，谢谢"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+    "other": "是的，取消"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+    "other": "取消訂閱？"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+    "other": "这将取消对 {{.Name}} 的订阅。在内容到期 {{.Expiry}} 之前，您仍然可以观看内容。"
+  },
+  "availability_coming_soon": {
+    "other": "即將播映"
+  },
+  "availability_renting": {
+    "other": "租借中"
+  },
+  "availability_not_available": {
+    "other": "無法觀看"
+  },
+  "availability_in_watch_window": {
+    "other": "可觀看"
+  },
+  "availability_sold_out": {
+    "other": "售完"
+  },
+  "availability_available_till": {
+    "other": "可觀看至 {{.ExpiryDate}}"
+  },
+  "availability_not_available_in_country": {
+    "other": "您的所在地區無法觀看"
+  },
+  "availability_available": {
+    "other": "將於 {{.ReleaseDate}} 上線"
+  },
+  "availability_expires": {
+    "other": "將於 {{.Expiry}} 到期"
+  },
+  "availability_expired": {
+    "other": "已到期"
+  },
+  "modal_cancel": {
+    "other": "取消"
+  },
+  "play": {
+    "other": "播放"
+  },
+  "combined_auth_signin_prompt": {
+    "other": "登入"
+  },
+  "combined_auth_signup_prompt": {
+    "other": "登出"
+  },
+  "combined_auth_terms": {
+    "other": "我同意本站 <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">使用者服務條款</a>"
+  },
+  "signup_terms": {
+    "other": "我同意本站 <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">使用者服務條款</a>"
+  },
+  "validation_terms_required": {
+    "other": "您必須同意本站使用者服務條款"
+  },
+  "shopping_error_item_limit_exceeded": {
+    "other": "很抱歉，{{.Title}} 已售完"
+  },
+  "changepincode_modal_header": {
+    "other": "變更PIN碼"
+  },
+  "changepincode_modal_currentpassword": {
+    "other": "目前密碼"
+  },
+  "changepincode_modal_pincode1": {
+    "other": "新PIN碼"
+  },
+  "changepincode_modal_pincode2": {
+    "other": "再次確認新PIN碼"
+  },
+  "changepincode_modal_submit": {
+    "other": "設定PIN碼"
+  },
+  "changepincode_modal_error_wrong_password": {
+    "other": "密碼錯誤"
+  },
+  "user_set_pin_intro": {
+    "other": "需輸入PIN碼以 {{.Action}} 此內容"
+  },
+  "user_error_wrong_pin_reset": {
+    "other": "按此重置PIN碼"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+    "other": ""
+  },
+  "shopping_error_age_restricted": {
+    "other": "此內容有年齡限制。"
+  },
+  "shopping_error_close_button": {
+    "other": "好"
+  },
+  "wcag_skip_links_header": {
+    "other": "輔助連結"
+  },
+  "wcag_skip_links_content": {
+    "other": "跳至內文"
+  },
+  "wcag_homepage_h1": {
+    "other": "首頁"
+  },
+  "wcag_carousel_h2": {
+    "other": "輪播"
+  },
+  "wcag_collections_h2": {
+    "other": "收藏"
+  },
+  "wcag_aria_label_footer": {
+    "other": "頁尾"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "首頁內容"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "子頁"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "浮動導覽選單"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "影片合輯"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "輪播"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "分页"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "收藏頁面"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "收藏清單"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "收藏內容輪播"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "我的追蹤片單"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "分享至Facebook"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "分享至Twitter"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "分享至LinkedIn"
+  },
+  "app_badge_title": {
+    "other": "下載應用程序以查看購買的內容！"
+  },
+  "app_badge_ios": {
+    "other": "在App Store上下載"
+  },
+  "app_badge_android": {
+    "other": "在Google Play上獲取它"
+  },
+  "shopping_price_title_plan": {
+    "other": "價錢"
+  },
+  "shopping_price_plan_note": {
+    "other": "{{.Count}}天免費試用期結束後， {{.Interval}}收費一次。"
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "每隔{{.Interval}}充電。"
+  },
+  "shopping_price_plan_note_interval": {
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "在下面輸入您的信用卡詳細信息以開始訂閱。"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "在下面输入您的信用卡详细信息以开始您的计划。"
+  },
+  "shopping_action_plan": {
+    "other": "完全的"
+  },
+  "shopping_complete_subscription": {
+    "other": "您的訂閱購買成功。您現在訂閱了{{.Title}} 。"
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "隨意<a href=\"/\">瀏覽</a>網站，或<a href=\"/search.html\">搜索</a>特定內容。"
+  },
+  "shopping_info_plan_offer": {
+    "one": "{{.Interval}}自動更新",
+    "other": "自動更新每個{{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "立即試用您的 24 小時免費試用版！",
+    "other": "免費{{.Count}}天！"
+  },
+  "plans_page_header": {
+    "other": "可用計劃"
+  },
+  "plan_label_owned": {
+    "other": "您擁有此計劃"
+  },
+  "plan_expiry_date": {
+    "other": "銷售結束："
+  },
+  "plan_read_more": {
+    "other": "了解更多"
+  },
+  "plan_page_read_more": {
+    "other": "閱讀更多"
+  },
+  "plan_page_header_text": {
+    "other": "享受{{.Name}}"
+  },
+  "page_plan_explore_intro": {
+    "other": "或者"
+  },
+  "page_plan_explore_link": {
+    "other": "探索更多"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "立即購買"
+  },
+  "plan_free_link_text": {
+    "other": "免費註冊"
+  },
+  "awards_in_competition": {
+    "other": "比賽中"
+  },
+  "meta_description_expand": {
+    "other": "查看更多"
+  },
+  "meta_description_collapse": {
+    "other": "少看"
+  },
+  "awards_winner": {
+    "other": "优胜者"
+  },
+  "donate_button_text": {
+    "other": "捐"
+  },
+  "shopping_error_plan_already_owned": {
+    "other": "你已經擁有這個計劃."
+  },
+  "shopping_error_plan_expired": {
+    "other": "該計劃不再可用."
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "在letterboxd上查看"
+  },
+  "usersubscriptions_page_header": {
+    "other": "订阅和计费"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "付款方法"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "对信用卡付款方式的更改将在您的下一个结算周期生效。"
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "订阅详情"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "积极的"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "已到期"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "发现订阅"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "以优惠的价格发现精彩的内容，在此处轻松管理。"
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "探索订阅"
+  },
+  "nav_subscriptions": {
+    "other": "我的订阅"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "第一次付款{{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "下次付款{{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "到期付款{{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "結束{{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "結束{{.Expiry}}"
+  },
+  "sponsor_image_alt": {
+    "other": "赞助商标志"
+  },
+  "subscribe_to_watch": {
+    "other": "订阅观看"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} 项目"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "更新您的信用卡。支持的卡是 Visa、Mastercard 和 American Express。"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "代碼成功應用。"
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "請輸入有效的促銷代碼。"
+  },
+  "shopping_complete_promo_only": {
+    "other": "您現在可以觀看{{.Title}}。"
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "贖回"
+  },
+  "pricing_ownership_promo": {
+    "other": "贖回"
+  },
+  "subscription_cta_label": {
+    "other": "订阅 {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "other": "{{.Count}} 年"
+  },
+  "subscription_recurrence_month": {
+    "other": "{{.Count}} 月"
+  },
+  "subscription_recurrence_week": {
+    "other": "{{.Count}} 星期"
+  },
+  "subscription_recurrence_day": {
+    "other": "{{.Count}} 天"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "订阅"
+  },
+  "something_bad_happened": {
+    "other": "请再试一次"
+  },
+  "stripe_card_not_supported": {
+    "other": "不支持您的卡。"
+  },
+  "nav_search_control_placeholder": {
+    "other": "關鍵字搜尋"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "送出"
+  },
+  "shopping_info_plan_interval": {
+    "one": "{{.Interval}}自動更新",
+    "other": "自動更新每個{{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "立即試用您的 24 小時免費試用版！",
+    "other": "免費{{.Count}}天！"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "订阅和计费"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "逾期"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "未付"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "取消"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "取消"
+  },
+  "interval_day": {
+    "other": "天"
+  },
+  "interval_week": {
+    "other": "週"
+  },
+  "interval_month": {
+    "other": "月"
+  },
+  "interval_year": {
+    "other": "年"
+  },
+  "shopping_error_processing_error": {
+    "other": "處理您的卡時發生錯誤。請稍後重試或使用其他付款方式。"
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "購物會話已過期，請重試。"
+  },
+  "live_stream_starts": {
+    "other": "流开始 {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "立即流式传输"
+  },
+  "live_streaming_ended": {
+    "other": "直播已结束"
+  },
+  "availability_live": {
+    "other": "居住"
+  },
+  "shopping_action_get_ticket": {
+    "other": "取票"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "您不能為此購買或租賃使用促銷代碼"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "該促銷代碼無效"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "促銷代碼不能應用於免費購物時段"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "購買完成後無法使用促銷代碼"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "無法應用促銷代碼，請重試"
+  },
+  "shopping_error_invalid_code": {
+    "other": "促銷代碼無效"
+  },
+  "shopping_error_missing_code": {
+    "other": "未提供促銷代碼"
+  },
+  "live_label_ended": {
+    "other": "直播：結束"
+  },
+  "live_label_live": {
+    "other": "居住"
+  },
+  "live_label_minutes": {
+    "other": "直播：{{.Count}} 分钟"
+  },
+  "live_label_hours": {
+    "other": "直播：{{.Count}} 小时"
+  },
+  "live_label_days": {
+    "other": "直播：{{.Count}} 天"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "現場直播"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "這是一個現場活動。"
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "您現在可以購買門票，但您需要在直播期間觀看。"
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "您需要在直播時觀看。"
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "此活動目前正在進行中。"
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "流結束{{.Date}}。"
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "之後您將無法觀看直播。"
+  },
+  "shopping_action_ticket": {
+    "other": "取票"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "流開始{{.Date}}。"
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "它始於{{.Date}}。"
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "你不能倒帶。"
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "您卡的過期日期已過。"
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "您的卡的到期年份已過去。"
+  }
+}

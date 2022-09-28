@@ -1,0 +1,1509 @@
+{
+  "settings_title": {
+    "other": "Configuració"
+  },
+  "powered_by": {
+    "other": "Ofert per"
+  },
+  "powered_by_name": {
+    "other": "Shift72"
+  },
+  "powered_by_url": {
+    "other": "https://www.screenplus.com"
+  },
+  "in_partnership_with": {
+    "other": "En col·laboració amb"
+  },
+  "festival_scope": {
+    "other": "Festival Scope"
+  },
+  "festival_scope_url": {
+    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
+  },
+  "en": {
+    "other": "Anglès"
+  },
+  "fr": {
+    "other": "Francès"
+  },
+  "episode_name": {
+    "other": "Episodi"
+  },
+  "season_name": {
+    "other": "Temporada"
+  },
+  "seasons": {
+    "one": "una temporada",
+    "other": "{{.Count}} temporades"
+  },
+  "tvseason": {
+    "other": "{{.ShowInfo.Title}} Sèries {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>Sèries {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "Sèries {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "1 episodi",
+    "other": "{{.Count}} Episodis"
+  },
+  "date_day": {
+    "other": "Dia"
+  },
+  "date_month": {
+    "other": "Mes"
+  },
+  "date_year": {
+    "other": "Curs"
+  },
+  "404_page_header": {
+    "other": "Aquesta pàgina no existeix ..."
+  },
+  "404_page_content": {
+    "other": "<p>Ho sento, sembla que la pàgina que busqueu no existeix.</p><p>Podria haver estat traslladada o suprimida, o potser heu escrit malament alguna cosa.</p><p>Proveu a tornar a la pàgina d'inici per trobar el que buscaves.</p><p><a href=\"{{.URL}}\">Tornar a la pàgina principal</a></p>"
+  },
+  "nav_signin": {
+    "other": "Inicieu la sessió"
+  },
+  "nav_signup": {
+    "other": "Crear compte"
+  },
+  "nav_signed_in_as": {
+    "other": "Signat com"
+  },
+  "nav_library": {
+    "other": "La meva llibreria"
+  },
+  "nav_devices": {
+    "other": "Els meus dispositius"
+  },
+  "nav_wishlist": {
+    "other": "La meva llista"
+  },
+  "nav_account": {
+    "other": "El meu compte"
+  },
+  "nav_signout": {
+    "other": "Tanca sessió"
+  },
+  "header_banner": {
+    "other": "ABC Cinemas - 21è Festival de Cinema, de l'1 al 6 de juny de 2021"
+  },
+  "play_trailer": {
+    "other": "Tràiler"
+  },
+  "runtime_hours": {
+    "other": "h"
+  },
+  "runtime_minutes": {
+    "other": "m"
+  },
+  "datetime_today": {
+    "other": "avui {{.Date}}"
+  },
+  "datetime_tomorrow": {
+    "other": "demà {{.Date}}"
+  },
+  "datetime_yesterday": {
+    "other": "ahir {{.Date}}"
+  },
+  "datetime_next": {
+    "other": "{{.Date}}"
+  },
+  "datetime_last": {
+    "other": "Últim {{.Date}}"
+  },
+  "search_control_placeholder": {
+    "other": "Cerca"
+  },
+  "search_control_submit": {
+    "other": "Envia la cerca"
+  },
+  "play_button_watch": {
+    "other": "Veure ara"
+  },
+  "play_button_resume": {
+    "other": "Continuar"
+  },
+  "social_media_buttons_title": {
+    "other": "Compartir"
+  },
+  "social_media_buttons_facebook": {
+    "other": "Facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "Correu electrònic"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "Comparteix l'enllaç"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "S'ha copiat l'enllaç"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "Copia l'enllaç"
+  },
+  "accept_invite_page_header": {
+    "other": "Benvingut "
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+    "other": "Sembla que ja heu reclamat aquesta invitació, haureu de fer <a href=\"{{.SigninURL}}\">inicia la sessió</a> en canvi. Si heu oblidat la vostra contrasenya, també podeu <a href=\"{{.ForgotPasswordURL}}\">restablir la contrasenya</a>."
+  },
+  "acceptinvite_complete": {
+    "other": "Gràcies. El teu compte ha estat creat."
+  },
+  "acceptinvite_form_submit": {
+    "other": "Accepta invitació"
+  },
+  "acceptinvite_agreement": {
+    "other": "En fer clic a \"Acceptar invitació\", accepteu que heu llegit i entès el nostres <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Condicions generals; Condicions </a> i <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">Política de privadesa</a>."
+  },
+  "signup_page_header": {
+    "other": "Crear un nou compte"
+  },
+  "signup_form_name": {
+    "other": "Nom"
+  },
+  "signup_form_email": {
+    "other": "Correu electrònic"
+  },
+  "signup_form_password": {
+    "other": "Contrasenya"
+  },
+  "signup_form_password_confirmation": {
+    "other": "Confirmar la contrasenya"
+  },
+  "signup_form_gender": {
+    "other": "Génere"
+  },
+  "signup_form_dob": {
+    "other": "Data de naixement"
+  },
+  "signup_form_submit": {
+    "other": "Presentar"
+  },
+  "signin_page_header": {
+    "other": "Inicieu la sessió"
+  },
+  "signin_form_email": {
+    "other": "Correu electrònic"
+  },
+  "signin_form_password": {
+    "other": "Contrasenya"
+  },
+  "signin_form_remember": {
+    "other": "Recorda'm"
+  },
+  "signin_form_submit": {
+    "other": "Presentar"
+  },
+  "signin_page_forgotpassword": {
+    "other": "Has oblidat la teva contrassenya?"
+  },
+  "signin_page_createnewaccount": {
+    "other": "No teniu un compte? Crear un nou compte"
+  },
+  "signup_page_alreadyhaveanaccount": {
+    "other": "Ja tens un compte? Inicieu la sessió"
+  },
+  "signup_form_error_email_already_in_use": {
+    "other": "Aquesta adreça de correu electrònic ja està en ús."
+  },
+  "signin_form_error_incorrect_credentials": {
+    "other": "El nom d'usuari o la contrasenya és incorrecte."
+  },
+  "signin_form_error_ip_throttled": {
+    "other": "No heu pogut iniciar la sessió massa vegades. Si us plau, intenta-ho més tard."
+  },
+  "signin_form_error_account_suspended": {
+    "other": "El teu compte ha estat suspès temporalment. Poseu-vos en contacte amb un administrador si creieu que això és un error."
+  },
+  "signup_form_error_forbidden": {
+    "other": "S'ha produït un error."
+  },
+  "combined_auth_continue": {
+    "other": "Continuar"
+  },
+  "combined_auth_change": {
+    "other": "canvi"
+  },
+  "combined_auth_signin": {
+    "other": "Inicieu la sessió"
+  },
+  "combined_auth_signup": {
+    "other": "Crear compte"
+  },
+  "combined_auth_signin_password": {
+    "other": "Introduïu la vostra contrasenya per iniciar la sessió al vostre compte."
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+    "other": "Aquesta contrasenya és incorrecta."
+  },
+  "combined_auth_error_forbidden": {
+    "other": "S'ha produït un error."
+  },
+  "combined_auth_error_too_many_requests": {
+    "other": "Hi ha massa sol·licituds, torneu-ho a provar més tard."
+  },
+  "forgotpassword_page_header": {
+    "other": "Restablir la contrasenya"
+  },
+  "forgotpassword_form_email": {
+    "other": "Correu electrònic"
+  },
+  "forgotpassword_form_submit": {
+    "other": "Reiniciar"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+    "other": "No hi ha cap compte que coincideixi amb aquesta adreça de correu electrònic."
+  },
+  "forgotpassword_form_error_account_suspended": {
+    "other": "Aquest compte està suspès."
+  },
+  "forgotpassword_complete": {
+    "other": "Gràcies. Un correu electrònic de restabliment de la contrasenya hauria d'aparèixer a la vostra safata d'entrada en breu."
+  },
+  "forgotpassword_form_error_forbidden": {
+    "other": "S'ha produït un error."
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "Hi ha massa sol·licituds, torneu-ho a provar més tard."
+  },
+  "resetpassword_page_header": {
+    "other": "Canvia la teva contrasenya"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+    "other": "Sembla com si aquesta sol·licitud de contrasenya de restabliment no és vàlida, empleneu la contrasenya <a href=\"{{.URL}}\">Heu oblidat la contrasenya</a> de nou."
+  },
+  "resetpassword_form_password": {
+    "other": "Nova contrasenya"
+  },
+  "resetpassword_form_password2": {
+    "other": "Confirmeu la vostra nova contrasenya"
+  },
+  "resetpassword_form_submit": {
+    "other": "Canvi"
+  },
+  "resetpassword_complete": {
+    "other": "Gràcies. S'ha canviat la vostra contrasenya i heu estat iniciat la sessió."
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+    "other": "La sol·licitud de restabliment de la contrasenya no és vàlida. Siusplau, intenta-ho més tard."
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+    "other": "El token de restabliment ha caducat. Si us plau, sol·liciteu-ne un de nou."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "Hi ha massa sol·licituds, torneu-ho a provar més tard."
+  },
+  "account_page_header": {
+    "other": "El meu compte"
+  },
+  "account_form_name": {
+    "other": "Nom"
+  },
+  "account_form_email": {
+    "other": "Correu electrònic"
+  },
+  "account_form_password": {
+    "other": "Contrasenya"
+  },
+  "account_form_change_password": {
+    "other": "Canvi"
+  },
+  "account_form_gender": {
+    "other": "Génere"
+  },
+  "account_form_dob": {
+    "other": "Data de naixement"
+  },
+  "account_form_submit": {
+    "other": "Actualitzar"
+  },
+  "account_form_submitted": {
+    "other": "Actualitzat"
+  },
+  "account_form_password_changed": {
+    "other": "Actualitzat"
+  },
+  "account_form_error_incorrect_password": {
+    "other": "Aquesta contrasenya és incorrecta."
+  },
+  "account_form_pin_code": {
+    "other": "PIN"
+  },
+  "account_form_pin_code_not_set": {
+    "other": "No teniu un conjunt de PIN, que es requereix per comprar, llogar i veure alguns títols."
+  },
+  "account_form_set_pin": {
+    "other": "Estableix el PIN"
+  },
+  "account_form_pin_changed": {
+    "other": "Actualitzat"
+  },
+  "account_form_change_pin": {
+    "other": "Canvia el PIN"
+  },
+  "user_set_pin_header": {
+    "other": "Configureu el PIN"
+  },
+  "user_set_pin_button": {
+    "other": "Estableix el PIN"
+  },
+  "user_submit_pin_heading": {
+    "other": "Introduïu el vostre PIN a {{.Action}} aquest contingut restringit"
+  },
+  "user_error_wrong_pin_retry": {
+    "other": "Oops, heu introduït un PIN incorrecte"
+  },
+  "user_error_too_many_pin_errors": {
+    "other": "<p>Sembla que teniu problemes.</p><p>Restableix el vostre PIN o poseu-vos en contacte amb nosaltres <a href=\"{{.HelpURL}}\" target=\"_blank\">Ajuda</a>"
+  },
+  "user_submit_pin_button": {
+    "other": "Entrar"
+  },
+  "user_reset_pin_button": {
+    "other": "Restablir el PIN"
+  },
+  "signup_form_optin": {
+    "other": "Inscriviu-vos al nostre butlletí gratuït"
+  },
+  "passwordconfirmation_modal_header": {
+    "other": "Confirmar la contrasenya"
+  },
+  "passwordconfirmation_modal_label": {
+    "other": "Introduïu la vostra contrasenya per actualitzar els canvis"
+  },
+  "passwordconfirmation_modal_confirm": {
+    "other": "Confirmar"
+  },
+  "changepassword_modal_header": {
+    "other": "Canvia la teva contrasenya"
+  },
+  "changepassword_modal_currentpassword": {
+    "other": "La vostra contrasenya actual"
+  },
+  "changepassword_modal_password": {
+    "other": "La vostra nova contrasenya"
+  },
+  "changepassword_modal_password2": {
+    "other": "Confirmeu la vostra nova contrasenya"
+  },
+  "changepassword_modal_submit": {
+    "other": "Actualitzar"
+  },
+  "changepassword_modal_error_incorrect_password": {
+    "other": "Aquesta contrasenya és incorrecta."
+  },
+  "userlibrary_page_header": {
+    "other": "La meva biblioteca"
+  },
+  "userlibrary_empty_header": {
+    "other": "La vostra biblioteca està buida."
+  },
+  "userlibrary_empty_content": {
+    "other": "Empleneu-lo de <a href=\"{{.HomeURL}}\">navegació</a>la nostra gran selecció."
+  },
+  "searchresults_page_header": {
+    "other": "Resultats de la cerca"
+  },
+  "searchresults_load_more": {
+    "other": "Carregueu {{.Count}} més"
+  },
+  "searchresults_total": {
+    "one": "Trobat 1 resultat per a \"{{.Query}}\".",
+    "other": "Trobat {{.Count}} Resultats per a \"{{.Query}}\"."
+  },
+  "searchresults_empty_header": {
+    "other": "No hi va ha resultats de cerca per a \"{{.Query}}\""
+  },
+  "searchresults_empty_content": {
+    "other": "Proveu una altra cerca o <a href=\"{{.HomeURL}}\">Navegueu en el nostre contingut</a>per trobar el que busqueu."
+  },
+  "validation_name_required": {
+    "other": "Introduïu el vostre nom."
+  },
+  "validation_email_required": {
+    "other": "Si us plau, ingressi el seu correu electrònic."
+  },
+  "validation_email_email": {
+    "other": "Si us plau, introdueixi una adreça de correu electrònic vàlida."
+  },
+  "validation_currentpassword_required": {
+    "other": "Introduïu la vostra contrasenya actual."
+  },
+  "validation_password_required": {
+    "other": "Introduïu una contrasenya."
+  },
+  "validation_password2_required": {
+    "other": "Confirmeu la vostra contrasenya."
+  },
+  "validation_password2_match": {
+    "other": "Les vostres contrasenyes no coincideixen."
+  },
+  "validation_password_minlength": {
+    "other": "Introduïu els caràcters com a mínim {{.Count}}."
+  },
+  "validation_promocode_required": {
+    "other": "Introduïu un codi de promoció."
+  },
+  "validation_pincode_required": {
+    "other": "Introduïu un codi PIN."
+  },
+  "validation_pincode1_required": {
+    "other": "Introduïu un codi PIN vàlid."
+  },
+  "validation_pincode2_required": {
+    "other": "Introduïu un codi PIN vàlid."
+  },
+  "validation_pincode1_pattern": {
+    "other": "Introduïu un codi PIN vàlid."
+  },
+  "validation_pincode2_pattern": {
+    "other": "Introduïu un codi PIN vàlid."
+  },
+  "validation_pincode2_match": {
+    "other": "El codi PIN no coincideix."
+  },
+  "validation_gender_required": {
+    "other": "Seleccioneu el gènere més proper amb el qual us identifiqueu."
+  },
+  "validation_dob_required": {
+    "other": "Si us plau introduïu la vostra data de neixement."
+  },
+  "validation_dob_date": {
+    "other": "Introduïu una data de naixement vàlida."
+  },
+  "shopping_info_subtitle_hd": {
+    "other": "Vídeo HD sota demanda."
+  },
+  "shopping_info_subtitle_sd": {
+    "other": "Vídeo SD sota demanda."
+  },
+  "shopping_info_subtitle_wallet": {
+    "other": "Els fons de la cartera es poden utilitzar per a la compra o lloguer de qualsevol contingut de ScreenPlus."
+  },
+  "shopping_info_subtitle_help": {
+    "other": "Consulteu aquí els requisits del sistema."
+  },
+  "shopping_info_ownership_buy": {
+    "other": "comprar"
+  },
+  "shopping_info_ownership_rent": {
+    "other": "lloguer"
+  },
+  "shopping_info_sd_only": {
+    "other": "Limitat només a la reproducció SD."
+  },
+  "shopping_info_release_date_title": {
+    "other": "Llançaments {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation_rent": {
+    "other": "Podeu llogar-lo ara, però no podreu veure-ho fins llavors."
+  },
+  "shopping_info_release_date_explanation_buy": {
+    "other": "Podeu comprar-lo ara, però no podreu veure-ho fins llavors."
+  },
+  "shopping_info_available_until_date_title": {
+    "other": "Disponible fins a {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+    "other": "No podreu veure el contingut després d'això."
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+    "other": "No podreu veure el contingut després d'això."
+  },
+  "duration_hour": {
+    "one": "1 hora",
+    "other": "{{.Count}} hores"
+  },
+  "duration_day": {
+    "one": "1 dia",
+    "other": "{{.Count}} dies"
+  },
+  "shopping_info_rental_period_duration": {
+    "other": "{{.ValueUnit}} de lloguer "
+  },
+  "shopping_info_watch_window_duration": {
+    "other": "{{.Count}} Finestra de reproducció d'hora. "
+  },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "Un cop llogat, la pel·lícula estarà disponible al vostre compte durant {{.ValueUnit}}. ",
+    "other": "Un cop llogat, la vostra pel·lícula estarà disponible al vostre compte per a {{.ValueUnit}}. "
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "one": "Un cop activada la reproducció, comença la finestra de reproducció i teniu una hora per veure la pel·lícula tantes vegades com vulgueu.",
+    "other": "Un cop activada la reproducció, comença la finestra de reproducció i teniu {{.Count}} hores per veure la pel·lícula tantes vegades com vulgueu."
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "one": "Un cop llogats, els articles del vostre paquet estaran disponibles al vostre compte durant un dia. ",
+    "other": "Un cop llogats, els articles del vostre paquet estaran disponibles al vostre compte per {{.Count}} dies. "
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "one": "Una vegada que premeu PLAY en una pel·lícula específica, comença la finestra de visionat i teniu una hora per veure aquesta pel·lícula tantes vegades com vulgueu.",
+    "other": "Quan premeu PLAY en una pel·lícula específica, comença la finestra de visionat i teniu {{.Count}} hores per veure aquesta pel·lícula tantes vegades com vulgueu."
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "one": "Un cop llogada, la vostra temporada estarà disponible al vostre compte durant un dia. ",
+    "other": "Un cop llogada, la vostra temporada estarà disponible al vostre compte per a {{.Count}} dies. "
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "one": "Una vegada que premeu Play en un episodi, comença la finestra de visionat i teniu una hora per veure aquest episodi tantes vegades com vulgueu.",
+    "other": "Un cop premuda la reproducció d'un episodi, comença la finestra de visionat i teniu {{.Count}} hores per veure aquest episodi tantes vegades com vulgueu."
+  },
+  "shopping_info_credit_bonus_title": {
+    "other": "{{.BonusPercentage}}% Bonificació"
+  },
+  "shopping_enter_card_prompt": {
+    "other": "Introduïu les dades de la vostra targeta de crèdit a continuació per completar el vostre {{.Verb}}."
+  },
+  "shopping_terms": {
+    "other": "En completar aquesta transacció, accepto les <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">Condicions generals</a>."
+  },
+  "shopping_discount_applied": {
+    "other": "{{.DiscountAmount}} Descompte aplicat."
+  },
+  "shopping_discount_apply": {
+    "other": "Dedicar-se"
+  },
+  "shopping_discount_code": {
+    "other": "Introduïu un codi de promoció."
+  },
+  "shopping_discount_have_code": {
+    "other": "Tinc un codi de promoció."
+  },
+  "shopping_price_you_pay": {
+    "other": "Tu pagues"
+  },
+  "shopping_price_nothing": {
+    "other": "Res"
+  },
+  "shopping_price_free": {
+    "other": "Lliure"
+  },
+  "shopping_auth_directions": {
+    "other": "Primer es necessita un compte. Si us plau, ingressi el seu correu electrònic."
+  },
+  "shopping_error_in_library": {
+    "other": "{{.Title}} ja es troba a la vostra llibreria."
+  },
+  "shopping_error_missing_card": {
+    "other": "Introduïu les dades de la vostra targeta de crèdit."
+  },
+  "shopping_error_title": {
+    "other": "Va ocórrer un error"
+  },
+  "shopping_error_incorrect_cvc": {
+    "other": "Introduïu un CVC vàlid."
+  },
+  "shopping_error_invalid_cvc": {
+    "other": "Introduïu un CVC vàlid."
+  },
+  "shopping_error_incorrect_number": {
+    "other": "Si us plau, introduïu un número de targeta de crèdit vàlid."
+  },
+  "shopping_error_invalid_number": {
+    "other": "Si us plau, introduïu un número de targeta de crèdit vàlid."
+  },
+  "shopping_error_card_declined": {
+    "other": "S'ha rebutjat la targeta de crèdit."
+  },
+  "shopping_error_invalid_expiry_month": {
+    "other": "Introduïu una caducitat vàlida."
+  },
+  "shopping_error_invalid_expiry_year": {
+    "other": "Introduïu una caducitat vàlida."
+  },
+  "shopping_error_expired_card": {
+    "other": "La targeta de crèdit ha caducat."
+  },
+  "shopping_error_creditcard_country_mismatch": {
+    "other": "No s'ha completat el vostre {{.Ownership}}. Heu d'estar al país on es va emetre la targeta de crèdit. Utilitzeu una altra targeta per fer el pagament."
+  },
+  "shopping_error_proxy_detected": {
+    "other": "No s'ha completat el vostre {{.Ownership}}. Hem detectat que esteu utilitzant un servei de desbloqueig o proxy. Si us plau, apagueu qualsevol d'aquests serveis i torneu-ho a provar."
+  },
+  "shopping_error_discount_worn_out": {
+    "other": "Que el codi de promoció ja no es pot utilitzar."
+  },
+  "shopping_error_discount_blank": {
+    "other": "Introduïu un codi de promoció."
+  },
+  "shopping_error_discount_not_applied": {
+    "other": "Introduïu un codi de promoció vàlid."
+  },
+  "shopping_error_discount_invalid": {
+    "other": "Introduïu un codi de promoció vàlid."
+  },
+  "shopping_error_discount_disabled": {
+    "other": "Introduïu un codi de promoció vàlid."
+  },
+  "shopping_error_discount_already_applied": {
+    "other": "Ja s'ha utilitzat un codi de promoció per a aquesta sessió."
+  },
+  "shopping_error_discount_already_redeemed": {
+    "other": "Aquest codi de promoció ja s'ha utilitzat."
+  },
+  "shopping_error_discount_used_previously": {
+    "other": "Aquest codi de promoció ja s'ha utilitzat."
+  },
+  "shopping_error_discount_max_limit": {
+    "other": "Que el codi de promoció ja no es pot utilitzar."
+  },
+  "shopping_error_discount_expired": {
+    "other": "Aquest codi de promoció ha caducat."
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+    "other": "Aquest codi de promoció no es pot utilitzar quan es compra."
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+    "other": "Aquest codi de promoció no es pot utilitzar quan es lloga."
+  },
+  "shopping_error_discount_invalid_item": {
+    "other": "Aquest codi de promoció no es pot utilitzar amb aquest element."
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+    "other": "Aquest codi de promoció no es pot utilitzar al vostre país."
+  },
+  "shopping_error_discounts_not_allowed": {
+    "other": "Que el codi de promoció no es pot utilitzar."
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+    "other": "Aquest codi de promoció no es pot utilitzar en paquets."
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+    "other": "S'ha rebutjat la targeta de crèdit. Siusplau torna-ho a provar."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "La teva targeta no és compatible."
+  },
+  "shopping_complete_rental": {
+    "other": "Èxit!"
+  },
+  "shopping_complete_rental_period": {
+    "one": "Ara podeu veure-ho tan sovint com vulgueu durant l'endemà.",
+    "other": "Ara podeu veure-ho tantes vegades com vulgueu durant els propers dies {{.Count}}."
+  },
+  "shopping_complete_purchase": {
+    "other": "Gràcies per comprar {{.Title}}."
+  },
+  "shopping_complete_credit_purchase": {
+    "other": "Gràcies per comprar {{.Title}}, {{.CreditTotal}} s'ha afegit al vostre compte."
+  },
+  "shopping_complete_purchase_coming_soon": {
+    "other": "Podreu veure-ho des de {{.Date}}."
+  },
+  "shopping_complete_plan": {
+    "other": "La teva compra de {{.Title}} estat correcta."
+  },
+  "shopping_complete_receipt": {
+    "other": "S'ha enviat un rebut per correu electrònic."
+  },
+  "shopping_complete_library_link": {
+    "other": "Consulteu la vostra llibreria"
+  },
+  "shopping_complete_rental_watch_window_start": {
+    "one": "Ara podeu començar a veure-ho durant l'endemà.",
+    "other": "Ara podeu començar a veure-ho dins dels propers dies {{.Count}}."
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "one": "Quan es comença la reproducció, tindreu una hora per veure l'article tantes vegades com vulgueu.",
+    "other": "Quan es comença la reproducció, tindreu {{.Count}} hores per veure l'article tantes vegades com vulgueu."
+  },
+  "shopping_complete_rental_coming_soon": {
+    "one": "Podreu veure-ho des de {{.Date}} i el vostre lloguer es mantindrà actiu durant un dia.",
+    "other": "Podreu veure-ho des de {{.Date}} i el vostre lloguer es mantindrà actiu per als dies {{.Count}}."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "one": "Podreu veure-ho des de {{.Date}} i el vostre lloguer es mantindrà actiu durant un dia.",
+    "other": "Podreu veure-ho des de {{.Date}} i el vostre lloguer es mantindrà actiu per als dies {{.Count}}."
+  },
+  "shopping_action_rent": {
+    "other": "Llogar"
+  },
+  "shopping_action_buy": {
+    "other": "Comprar"
+  },
+  "shopping_payment_method_header": {
+    "other": "Mètodes de Pagament"
+  },
+  "shopping_payment_method_credit_card": {
+    "other": "Targeta de crèdit"
+  },
+  "shopping_payment_method_giropay": {
+    "other": "Giropay"
+  },
+  "shopping_error_stripe_unknown_error": {
+    "other": "Alguna cosa va sortir malament amb aquest pagament. Si us plau, intenta-ho més tard."
+  },
+  "shopping_error_payment_complete_failed": {
+    "other": "El pagament es va denegar. Tanqueu aquesta finestra i torneu-ho a provar."
+  },
+  "meta_detail_cast_title": {
+    "other": "Equip artistic"
+  },
+  "meta_detail_crew_title": {
+    "other": "Equip técnic"
+  },
+  "meta_detail_languages": {
+    "one": "Llenguatge",
+    "other": "Llengües"
+  },
+  "meta_detail_studios": {
+    "one": "Estudi",
+    "other": "Estudis"
+  },
+  "meta_detail_countries": {
+    "one": "Pais",
+    "other": "Països"
+  },
+  "meta_detail_subtitles": {
+    "other": "Subtítols"
+  },
+  "meta_detail_captions": {
+    "other": "Subtítols [CC]"
+  },
+  "meta_detail_episodes_title": {
+    "other": "Episodis"
+  },
+  "meta_detail_bonus_title": {
+    "other": "Contingut extra"
+  },
+  "meta_detail_recommendations_title": {
+    "other": "també et pot agradar"
+  },
+  "meta_detail_bundle_items_title": {
+    "other": "Contingut inclòs en aquest paquet"
+  },
+  "bundle_items_all_films": {
+    "other": "{{.Count}} Films"
+  },
+  "bundle_items_all_seasons": {
+    "other": "{{.Count}} Temporades"
+  },
+  "bundle_items_mixed": {
+    "other": "{{.Count}} Films i temporades"
+  },
+  "userwishlist_page_header": {
+    "other": "La meva llista"
+  },
+  "userwishlist_slider_header": {
+    "other": "La meva llista"
+  },
+  "userwishlist_empty_header": {
+    "other": "La vostra llista està buida."
+  },
+  "userwishlist_empty_content": {
+    "other": "Empleneu-lo de <a href=\"{{.HomeURL}}\">navegació</a> la nostra gran selecció."
+  },
+  "userwishlist_button_add": {
+    "other": "Afegeix a la meva llista"
+  },
+  "userwishlist_button_remove": {
+    "other": "Elimina de la meva llista"
+  },
+  "userwishlist_button_add_compact": {
+    "other": "La meva llista"
+  },
+  "userwishlist_button_remove_compact": {
+    "other": "La meva llista"
+  },
+  "activatedevice_page_header": {
+    "other": "Activeu el dispositiu"
+  },
+  "activatedevice_page_content": {
+    "other": "Seguiu les instruccions del dispositiu per obtenir un codi PIN. El vostre ordinador i dispositiu han de connectar-se a Internet per activar-lo."
+  },
+  "activatedevice_form_pin": {
+    "other": "Codi PIN"
+  },
+  "activatedevice_form_submit": {
+    "other": "Activar"
+  },
+  "activatedevice_form_error_invalid_code": {
+    "other": "El codi PIN no s'ha trobat, torneu-ho a provar."
+  },
+  "activatedevice_form_error_pin_not_found": {
+    "other": "El codi PIN no s'ha trobat, torneu-ho a provar."
+  },
+  "activatedevice_signin_prompt": {
+    "other": "Inicieu la sessió abans d'activar el dispositiu."
+  },
+  "activatedevice_page_activated": {
+    "other": "Gràcies per activar {{.DeviceName}}. Ara haureu de poder navegar per la vostra biblioteca a la vostra televisió o dispositiu."
+  },
+  "userdevices_page_header": {
+    "other": "Dispositius"
+  },
+  "userdevices_page_content": {
+    "one": "Els dispositius s'afegiran automàticament aquí quan els utilitzeu. Està limitat a només un dispositiu.",
+    "other": "Els dispositius s'afegiran automàticament aquí quan els utilitzeu. Està limitat als dispositius {{.Count}}."
+  },
+  "userdevices_empty_content": {
+    "other": "Actualment teniu 0 dispositius registrats."
+  },
+  "userdevices_header_type": {
+    "other": "Tipus de dispositiu"
+  },
+  "userdevices_header_description": {
+    "other": "Descripció"
+  },
+  "userdevices_device_added": {
+    "other": "Afegit {{.Date}}"
+  },
+  "userdevices_device_actions_delete": {
+    "other": "Treure"
+  },
+  "userdevices_device_actions_cancel": {
+    "other": "Cancel · lar"
+  },
+  "userdevices_device_actions_confirm": {
+    "other": "Sí, elimina el dispositiu"
+  },
+  "userdevices_device_deleted": {
+    "other": "(Eliminat)"
+  },
+  "userdevices_delete_limits": {
+    "other": "Podeu eliminar els vostres dispositius {{.Limit}} d'aquesta llista tots els dies {{.Period}}."
+  },
+  "userdevices_delete_limit_reached": {
+    "other": "Heu arribat a aquest límit i no podeu eliminar cap dispositiu ara mateix. Podeu suprimir un dispositiu a {{.Days}} dia (s)."
+  },
+  "playlist_page_header": {
+    "other": "Llista de reproducció"
+  },
+  "playlist_sign_in_warning": {
+    "other": "Inicieu la sessió per veure la televisió en directe."
+  },
+  "playlist_share_title": {
+    "other": "Llista de reproducció"
+  },
+  "playlist_up_next_title": {
+    "other": "Fins a la propera"
+  },
+  "pricing_ownership_buy": {
+    "other": "Comprar"
+  },
+  "pricing_ownership_rent": {
+    "other": "Llogar"
+  },
+  "classification_intro": {
+    "other": "Valoració: "
+  },
+  "classification_divider": {
+    "other": " - "
+  },
+  "classification_outro": {
+    "other": ""
+  },
+  "cookie_banner_message": {
+    "other": "Aquest lloc utilitza galetes per millorar la vostra experiència. Mitjançant l'ús d'aquest lloc, accepteu el nostre Ús <a href=\"{{.CookiePolicyURL}}\">cookie</a>."
+  },
+  "cookie_banner_accept": {
+    "other": "Accepto"
+  },
+  "all_rights_reserved": {
+    "other": "Tots els drets reservats. No es pot reproduir cap part d'aquest lloc sense el nostre permís per escrit."
+  },
+  "users_gender_none": {
+    "other": "Sense especificar"
+  },
+  "users_gender_female": {
+    "other": "Dona"
+  },
+  "users_gender_male": {
+    "other": "Home"
+  },
+  "users_gender_diverse": {
+    "other": "Divers"
+  },
+  "users_gender_other": {
+    "other": "Altre"
+  },
+  "pricing_quality_hd": {
+    "other": "HD"
+  },
+  "pricing_quality_sd": {
+    "other": "SD"
+  },
+  "pricing_quality_hd_only": {
+    "other": "Només HD"
+  },
+  "pricing_quality_sd_only": {
+    "other": "Només SD"
+  },
+  "shopping_card_save_card": {
+    "other": "Deseu aquesta targeta per a un ús futur"
+  },
+  "shopping_card_button_change": {
+    "other": "Mostra totes les targetes desades"
+  },
+  "shopping_card_existing_description": {
+    "other": "{{.Card.Brand}} Finalitza a {{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+    "other": "(caduca {{.Card.Expiry}})"
+  },
+  "shopping_card_existing_expired": {
+    "other": "(caducat)"
+  },
+  "shopping_card_use_other": {
+    "other": "Afegeix una targeta nova"
+  },
+  "shopping_card_use_new_card": {
+    "other": "Canvia la targeta"
+  },
+  "shopping_card_update_reason_none": {
+    "other": "tarja-decompra_actualitzada_cap_motiu"
+  },
+  "shopping_card_new_subscription": {
+    "other": "Aquesta targeta es desarà i es cobrarà regularment"
+  },
+  "shopping_card_change": {
+    "other": "La targeta de crèdit no és correcta? <a href=\"{{.SubscriptionsURL}}\">Feu clic aquí per actualitzar la vostra targeta.</a>"
+  },
+  "shopping_info_ownership_plan": {
+    "other": "Pla"
+  },
+  "shopping_action_credit": {
+    "other": "Omplir"
+  },
+  "shopping_info_rental_period_coming_soon": {
+    "other": "des de la data i l'hora de l'alliberament."
+  },
+  "usersubscriptions_change_payment_method_change": {
+    "other": "Canviar targeta de crèdit"
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+    "other": "Actualitza els detalls de la targeta de crèdit"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "Actualització"
+  },
+  "usersubscriptions_subscription_expiry": {
+    "other": "Caduca {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancel·lat"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Vençuda"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "Període de prova"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+    "other": "Cancel·la la meva subscripció"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+    "other": "No gràcies"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+    "other": "Sí, cancel·la"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+    "other": "Cancel·lar la subscripció?"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+    "other": "Això cancel·larà la subscripció a {{.Name}}. Encara podreu veure el contingut fins que caduqui {{.Expiry}}."
+  },
+  "availability_coming_soon": {
+    "other": "Pròximament"
+  },
+  "availability_renting": {
+    "other": "Lloguer"
+  },
+  "availability_not_available": {
+    "other": "No disponible"
+  },
+  "availability_in_watch_window": {
+    "other": "disponibilitat_a_visualització_finestra"
+  },
+  "availability_sold_out": {
+    "other": "Venut"
+  },
+  "availability_available_till": {
+    "other": "Disponible fins a {{.ExpiryDate}}"
+  },
+  "availability_not_available_in_country": {
+    "other": "No disponible al vostre país"
+  },
+  "availability_available": {
+    "other": "Disponible {{.ReleaseDate}}"
+  },
+  "availability_expires": {
+    "other": "Caduca {{.Expiry}}"
+  },
+  "availability_expired": {
+    "other": "Expirat"
+  },
+  "modal_cancel": {
+    "other": "Cancel·lar"
+  },
+  "play": {
+    "other": "Reproduir"
+  },
+  "combined_auth_signin_prompt": {
+    "other": "Inicieu la sessió"
+  },
+  "combined_auth_signup_prompt": {
+    "other": "Registra't"
+  },
+  "combined_auth_terms": {
+    "other": "Accepto tots els <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Termes de targetes; Condicions</a>."
+  },
+  "signup_terms": {
+    "other": "Accepto tots els <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Termes de targetes; Condicions</a>."
+  },
+  "validation_terms_required": {
+    "other": "Heu d'acceptar els termes i condicions."
+  },
+  "shopping_error_item_limit_exceeded": {
+    "other": "Malauradament, {{.Title}} s'ha esgotat."
+  },
+  "changepincode_modal_header": {
+    "other": "Canvieu el vostre PIN"
+  },
+  "changepincode_modal_currentpassword": {
+    "other": "La vostra contrasenya actual"
+  },
+  "changepincode_modal_pincode1": {
+    "other": "El vostre nou PIN de 4 dígits"
+  },
+  "changepincode_modal_pincode2": {
+    "other": "Confirmeu el vostre nou PIN de 4 dígits"
+  },
+  "changepincode_modal_submit": {
+    "other": "Estableix el PIN"
+  },
+  "changepincode_modal_error_wrong_password": {
+    "other": "Aquesta contrasenya és incorrecta."
+  },
+  "user_set_pin_intro": {
+    "other": "Necessiteu un PIN a {{.Action}} contingut restringit"
+  },
+  "user_error_wrong_pin_reset": {
+    "other": "Feu clic aquí per restablir el vostre PIN"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+    "other": ""
+  },
+  "shopping_error_age_restricted": {
+    "other": "Aquest contingut és restringit per edat."
+  },
+  "shopping_error_close_button": {
+    "other": "D'acord"
+  },
+  "wcag_skip_links_header": {
+    "other": "Enllaços d'accessibilitat"
+  },
+  "wcag_skip_links_content": {
+    "other": "Saltar al contingut"
+  },
+  "wcag_homepage_h1": {
+    "other": "Pàgina principal"
+  },
+  "wcag_carousel_h2": {
+    "other": "Carrusel"
+  },
+  "wcag_collections_h2": {
+    "other": "Col·leccions"
+  },
+  "wcag_aria_label_footer": {
+    "other": "Peu"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "Principal"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "Sub"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "Commuta la navegació"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "Articles de paquets"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "Carrusel"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginació"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "Col·lecció de pàgines"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "Llista de col·leccions"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "Control lliscant de col·lecció"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "Cessió"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "Comparteix a Facebook"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "Comparteix a Twitter"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "Comparteix a LinkedIn"
+  },
+  "app_badge_title": {
+    "other": "Descarrega l'aplicació per veure el contingut comprat!"
+  },
+  "app_badge_ios": {
+    "other": "Descarrega a l'App Store"
+  },
+  "app_badge_android": {
+    "other": "Aconsegueix-ho a Google Play"
+  },
+  "shopping_price_title_plan": {
+    "other": "Preu"
+  },
+  "shopping_price_plan_note": {
+    "one": "Se cobra cada {{.Interval}} después de que finaliza su prueba gratuita de 24 horas.",
+    "other": "Es cobra cada {{.Interval}} un cop finalitza la prova gratuïta de {{.Count}} dies."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Es cobra cada {{.Interval}}."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Introduïu les dades de la vostra targeta de crèdit a continuació per iniciar la vostra subscripció."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Introduïu les dades de la vostra targeta de crèdit a continuació per iniciar el vostre pla."
+  },
+  "shopping_action_plan": {
+    "other": "Completa"
+  },
+  "shopping_complete_subscription": {
+    "other": "La teva compra de subscripció ha estat correcta. Ara esteu subscrit a {{.Title}}."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "No dubteu a <a href=\"/\">navegar pel</a> lloc o <a href=\"/search.html\">cercar</a> alguna cosa específica."
+  },
+  "shopping_info_plan_offer": {
+    "one": "Renova automàticament cada {{.Interval}}",
+    "other": "Renova automàticament cada {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Prova la teva prova gratuïta de 24 hores ara!",
+    "other": "Prova la teva prova gratuïta de {{.Count}} dies!"
+  },
+  "plans_page_header": {
+    "other": "Plans disponibles"
+  },
+  "plan_label_owned": {
+    "other": "Ets propietari d'aquest pla"
+  },
+  "plan_expiry_date": {
+    "other": "Tancament de vendes:"
+  },
+  "plan_read_more": {
+    "other": "Trobar més"
+  },
+  "plan_page_read_more": {
+    "other": "Llegeix més"
+  },
+  "plan_page_header_text": {
+    "other": "Gaudeix {{.Name}}"
+  },
+  "page_plan_explore_intro": {
+    "other": "O"
+  },
+  "page_plan_explore_link": {
+    "other": "Exploreu més"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Compra ara"
+  },
+  "plan_free_link_text": {
+    "other": "Registra't gratuitament"
+  },
+  "awards_in_competition": {
+    "other": "En Competició"
+  },
+  "meta_description_expand": {
+    "other": "Veure més"
+  },
+  "meta_description_collapse": {
+    "other": "Veure menys"
+  },
+  "awards_winner": {
+    "other": "Guanyador"
+  },
+  "donate_button_text": {
+    "other": "Donar"
+  },
+  "shopping_error_plan_already_owned": {
+    "other": "Ja tens aquest pla."
+  },
+  "shopping_error_plan_expired": {
+    "other": "Aquest pla ja no està disponible."
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "Veure a Letterboxd"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Subscripcions i facturació"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Mètode de pagament"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Els canvis al mètode de pagament de la vostra targeta de crèdit tindran efecte el proper cicle de facturació."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Detalls de la subscripció"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Actiu"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Caducat"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Descobriu les subscripcions"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Descobriu contingut fantàstic a preus fantàstics, fàcil de gestionar aquí."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Exploreu les subscripcions"
+  },
+  "nav_subscriptions": {
+    "other": "Les meves subscripcions"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Primer pagament {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Pròxim pagament {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Pagament vençut {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Finalitza {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Finalitzat {{.Expiry}}"
+  },
+  "sponsor_image_alt": {
+    "other": "logotip del patrocinador"
+  },
+  "subscribe_to_watch": {
+    "other": "Subscriu-te per veure'l"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} elements"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Actualitza la teva targeta de crèdit. Les targetes admeses són Visa, Mastercard i American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "El codi s'ha aplicat correctament."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Introduïu un codi promocional vàlid."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Ja podeu veure {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Redimir"
+  },
+  "pricing_ownership_promo": {
+    "other": "Redimir"
+  },
+  "subscription_cta_label": {
+    "other": "Subscriu-te {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Curs",
+    "other": "{{.Count}} Anys"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mes",
+    "other": "{{.Count}} Mesos"
+  },
+  "subscription_recurrence_week": {
+    "one": "Setmana",
+    "other": "{{.Count}} Setmanes"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dia",
+    "other": "{{.Count}} Dies"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Subscripció"
+  },
+  "something_bad_happened": {
+    "other": "Siusplau torna-ho a provar"
+  },
+  "stripe_card_not_supported": {
+    "other": "La teva targeta no és compatible."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Cerca"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Envia la cerca"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Renova automàticament cada {{.Interval}}",
+    "other": "Renova automàticament cada {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Prova la teva prova gratuïta de 24 hores ara!",
+    "other": "Prova la teva prova gratuïta de {{.Count}} dies!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Subscripcions i facturació"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Sense pagar"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "S'està cancel·lant"
+  },
+  "interval_day": {
+    "one": "dia",
+    "other": "dies"
+  },
+  "interval_week": {
+    "one": "setmana",
+    "other": "setmanes"
+  },
+  "interval_month": {
+    "one": "mes",
+    "other": "mesos"
+  },
+  "interval_year": {
+    "one": "curs",
+    "other": "anys"
+  },
+  "shopping_error_processing_error": {
+    "other": "S'ha produït un error en processar la vostra targeta. Torna-ho a provar més tard o amb una altra forma de pagament."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "La sessió de compres ha caducat, torna-ho a provar."
+  },
+  "live_stream_starts": {
+    "other": "El flux comença {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "En streaming ara"
+  },
+  "live_streaming_ended": {
+    "other": "El flux s'ha acabat"
+  },
+  "availability_live": {
+    "other": "EN VIU"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Aconsegueix el bitllet"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "No podeu utilitzar un codi promocional per a aquesta compra o lloguer"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Aquest codi promocional encara no és vàlid"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Els codis promocionals no es poden aplicar a les sessions de compres gratuïtes"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Els codis promocionals no es poden aplicar un cop s'ha completat la compra"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "No s'ha pogut aplicar el codi promocional, torna-ho a provar"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Codi promocional no vàlid"
+  },
+  "shopping_error_missing_code": {
+    "other": "No s'ha proporcionat cap codi promocional"
+  },
+  "live_label_ended": {
+    "other": "EN DIRECTE: ACABAT"
+  },
+  "live_label_live": {
+    "other": "EN VIU"
+  },
+  "live_label_minutes": {
+    "one": "EN DIRECTE: 1 MINUT",
+    "other": "EN DIRECTE: {{.Count}} MINUTS"
+  },
+  "live_label_hours": {
+    "one": "EN DIRECTE: 1 HORA",
+    "other": "EN DIRECTE: {{.Count}} HORES"
+  },
+  "live_label_days": {
+    "one": "EN DIRECTE: 1 DIA",
+    "other": "EN DIRECTE: {{.Count}} DIES"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Transmissió en directe"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Aquest és un esdeveniment en directe. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Ja pots comprar una entrada, però hauràs de mirar-la mentre la transmissió sigui en directe."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Haureu de mirar-lo mentre la transmissió sigui en directe."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Aquest esdeveniment està actualment en directe. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "El flux acaba {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Després d'això, no podreu veure l'emissió."
+  },
+  "shopping_action_ticket": {
+    "other": "Aconsegueix el bitllet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Comença la {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Va començar a {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "No pots rebobinar-lo."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "La data de caducitat de la vostra targeta és del passat."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "L'any de caducitat de la vostra targeta és del passat."
+  }
+}

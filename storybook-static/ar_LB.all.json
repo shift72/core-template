@@ -1,0 +1,1573 @@
+{
+  "settings_title": {
+    "other": "إعدادات"
+  },
+  "powered_by": {
+    "other": "مشغل بواسطة"
+  },
+  "powered_by_name": {
+    "other": "Shift72"
+  },
+  "powered_by_url": {
+    "other": "https://www.shift72.com"
+  },
+  "in_partnership_with": {
+    "other": "بالشراكة مع/ بالتعاون مع"
+  },
+  "festival_scope": {
+    "other": "Festival Scope"
+  },
+  "festival_scope_url": {
+    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
+  },
+  "en": {
+    "other": "إنجليزي"
+  },
+  "fr": {
+    "other": "الفرنسية"
+  },
+  "episode_name": {
+    "other": "حلقة"
+  },
+  "season_name": {
+    "other": "موسم"
+  },
+  "seasons": {
+    "one": "مواسم",
+    "other": "{{.Count}} مواسم"
+  },
+  "tvseason": {
+    "other": "مسلسل {{.ShowInfo.Title}} {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "<span>{{.Season.SeasonNumber}}</span> مسلسل {{.ShowInfo.Title}}"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "مسلسل {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "حلقة واحدة ",
+    "other": "{{.Count}} حلقات"
+  },
+  "date_day": {
+    "other": "يوم"
+  },
+  "date_month": {
+    "other": "شهر"
+  },
+  "date_year": {
+    "other": "سنة"
+  },
+  "404_page_header": {
+    "other": "هذه الصفحة غير موجودة ...."
+  },
+  "404_page_content": {
+    "other": "<p> المعذرة ، يبدو أن الصفحة التي تبحث عنها غير موجودة. </ p> <p> ربما تم نقلها أو حذفها ، أو ربما أخطأت في الكتابة. </ p> <p> حاول العودة إلى الصفحة الرئيسية للعثور على ما كنت تبحث عنه. </ p> <p> <a href=\"{{.URL}}\"> الرجوع إلى الصفحة الرئيسية </a> </p>>"
+  },
+  "nav_signin": {
+    "other": "تسجيل الدخول"
+  },
+  "nav_signup": {
+    "other": "إنشاء حساب"
+  },
+  "nav_signed_in_as": {
+    "other": "تسجيل الدخول بصفة / تسجيل الدخول من حساب / تسجيل الدخول بإسم"
+  },
+  "nav_library": {
+    "other": "المدوّنة"
+  },
+  "nav_devices": {
+    "other": "أجهزتي"
+  },
+  "nav_wishlist": {
+    "other": "قائمتي"
+  },
+  "nav_account": {
+    "other": "حسابي"
+  },
+  "nav_signout": {
+    "other": "تسجيل الخروج"
+  },
+  "play_trailer": {
+    "other": "إعلان ترويجي"
+  },
+  "runtime_hours": {
+    "other": "ساعة"
+  },
+  "runtime_minutes": {
+    "other": "دقيقة"
+  },
+  "datetime_today": {
+    "other": "اليوم {{.Date}}"
+  },
+  "datetime_tomorrow": {
+    "other": "غداً {{.Date}}"
+  },
+  "datetime_yesterday": {
+    "other": "البارحة {{.Date}}"
+  },
+  "datetime_next": {
+    "other": "{{.Date}}"
+  },
+  "datetime_last": {
+    "other": "{{.Date}}"
+  },
+  "search_control_placeholder": {
+    "other": "البحث"
+  },
+  "search_control_submit": {
+    "other": "تأكيد البحث"
+  },
+  "play_button_watch": {
+    "other": "شاهد الآن"
+  },
+  "play_button_resume": {
+    "other": "تابع "
+  },
+  "social_media_buttons_title": {
+    "other": "يشارك"
+  },
+  "social_media_buttons_facebook": {
+    "other": "Facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "بريد الالكتروني"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "مشاركة الارتباط"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "تم نسخ الرابط"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "نسخ الوصلة"
+  },
+  "accept_invite_page_header": {
+    "other": "أهلا بك"
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+    "other": "يبدو أنك طالبت بهذه الدعوة من قبل ، يجب عليك <a href=\"{{.SigninURL}}\"> تسجيل الدخول </a> بدلاً من ذلك. إذا نسيت كلمة المرور ، فيمكنك أيضًا <a href=\"{{.ForgotPasswordURL}}\"> إعادة تعيين كلمة المرور </a>."
+  },
+  "acceptinvite_complete": {
+    "other": "شكراً لك. لقد تم إنشاء حسابك."
+  },
+  "acceptinvite_form_submit": {
+    "other": "قبول الدعوة"
+  },
+  "acceptinvite_agreement": {
+    "other": "بالضغط على ، فإنك توافق على أنك قد قرأت وفهمت <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">بنود & amp؛ و شروط </a> و <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\"> سياسة الخصوصية </a>."
+  },
+  "signup_page_header": {
+    "other": "انشاء حساب جديد"
+  },
+  "signup_form_name": {
+    "other": "الإسم"
+  },
+  "signup_form_email": {
+    "other": "عنوان البريد الإلكتروني"
+  },
+  "signup_form_password": {
+    "other": "كلمة المرور"
+  },
+  "signup_form_password_confirmation": {
+    "other": "تأكيد كلمة المرور"
+  },
+  "signup_form_gender": {
+    "other": "الجنس"
+  },
+  "signup_form_dob": {
+    "other": "تاريخ الولادة"
+  },
+  "signup_form_submit": {
+    "other": "إرسال"
+  },
+  "signin_page_header": {
+    "other": "تسجيل الدخول"
+  },
+  "signin_form_email": {
+    "other": "عنوان البريد الإلكتروني"
+  },
+  "signin_form_password": {
+    "other": "كلمه المرور"
+  },
+  "signin_form_remember": {
+    "other": "تذكرني"
+  },
+  "signin_form_submit": {
+    "other": "إرسال"
+  },
+  "signin_page_forgotpassword": {
+    "other": "هل نسيت كلمة المرور؟"
+  },
+  "signin_page_createnewaccount": {
+    "other": "ليس لديك حساب؟ انشاء حساب جديد"
+  },
+  "signup_page_alreadyhaveanaccount": {
+    "other": "لديك حساب؟ تسجيل الدخول"
+  },
+  "signup_form_error_email_already_in_use": {
+    "other": "تم إستخدام هذا البريد الإلكتروني مسبقاً."
+  },
+  "signin_form_error_incorrect_credentials": {
+    "other": "خطأ في عنوان البريد الإلكتروني أو كلمة المرور."
+  },
+  "signin_form_error_ip_throttled": {
+    "other": "لقد فشلت في تسجيل الدخول عدة مرات. الرجاء معاودة المحاولة في وقت لاحق."
+  },
+  "signin_form_error_account_suspended": {
+    "other": "لقد تم إيقاف حسابك مؤقتا. يرجى الاتصال بمدير الموقع إذا كنت تعتقد(ين) أن هناك خطأ."
+  },
+  "signup_form_error_forbidden": {
+    "other": "حدث خطأ."
+  },
+  "combined_auth_continue": {
+    "other": "إكمال"
+  },
+  "combined_auth_change": {
+    "other": "تغيير"
+  },
+  "combined_auth_signin": {
+    "other": "تسجيل الدخول"
+  },
+  "combined_auth_signup": {
+    "other": "التسجيل"
+  },
+  "combined_auth_signin_password": {
+    "other": "الرجاء إدخال كلمة المرور الخاصة بك لتسجيل الدخول إلى حسابك."
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+    "other": "كلمة المرور هذه غير صحيحة."
+  },
+  "combined_auth_error_forbidden": {
+    "other": "حدث خطأ."
+  },
+  "combined_auth_error_too_many_requests": {
+    "other": "هنالك طلبات كثيرة، الرجاء المحاولة لاحقا."
+  },
+  "forgotpassword_page_header": {
+    "other": "تغيير كلمة المرور"
+  },
+  "forgotpassword_form_email": {
+    "other": "عنوان البريد الإلكتروني"
+  },
+  "forgotpassword_form_submit": {
+    "other": "تغيير"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+    "other": "لا يوجد حساب بهذا العنوان البريد الإلكتروني."
+  },
+  "forgotpassword_form_error_account_suspended": {
+    "other": "تم تعليق هذا الحساب."
+  },
+  "forgotpassword_complete": {
+    "other": "شكراً لك. سوف يصلك قريباً  بريد إلكتروني لإعادة تعيين كلمة المرور."
+  },
+  "forgotpassword_form_error_forbidden": {
+    "other": "حدث خطأ."
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "هنالك طلبات كثيرة، الرجاء المحاولة لاحقا."
+  },
+  "resetpassword_page_header": {
+    "other": "تغيير كلمة المرور الخاصة بك"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+    "other": "يبدو أن طلب إعادة تعيين كلمة المرور هذا غير صالح ، يرجى ملء نموذج <a href=\"{{.URL}}\"> نسيت كلمة المرور </a> مرة أخرى."
+  },
+  "resetpassword_form_password": {
+    "other": "كلمة المرور الجديدة "
+  },
+  "resetpassword_form_password2": {
+    "other": "تأكيد كلمة المرور الجديدة الخاصة بك"
+  },
+  "resetpassword_form_submit": {
+    "other": "تغيير"
+  },
+  "resetpassword_complete": {
+    "other": "شكراً لك. تم تغيير كلمة المرور الخاصة بك وتم تسجيل دخولك."
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+    "other": "طلب إعادة تعيين كلمة المرور غير صالح. الرجاء معاودة المحاولة لاحقا."
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+    "other": "انتهت صلاحية الرمز. الرجاء إعادة الطلب."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "هنالك طلبات كثيرة، الرجاء المحاولة لاحقا."
+  },
+  "account_page_header": {
+    "other": "حسابي"
+  },
+  "account_form_name": {
+    "other": "الإسم"
+  },
+  "account_form_email": {
+    "other": "العنوان الالكتروني"
+  },
+  "account_form_password": {
+    "other": "كلمة المرور"
+  },
+  "account_form_change_password": {
+    "other": "تغيير"
+  },
+  "account_form_gender": {
+    "other": "الجنس"
+  },
+  "account_form_dob": {
+    "other": "تاريخ الولادة"
+  },
+  "account_form_submit": {
+    "other": "تحديث"
+  },
+  "account_form_submitted": {
+    "other": "تم التحديث"
+  },
+  "account_form_password_changed": {
+    "other": "تم التحديث"
+  },
+  "account_form_error_incorrect_password": {
+    "other": "كلمة المرور هذه غير صحيحة"
+  },
+  "account_form_pin_code": {
+    "other": "الرمز PIN"
+  },
+  "account_form_pin_code_not_set": {
+    "other": "ليس لديك رمز PIN ، وهو مطلوب لشراء بعض الأفلام واستئجارها ومشاهدتها."
+  },
+  "account_form_set_pin": {
+    "other": "ضبط رمز PIN"
+  },
+  "account_form_pin_changed": {
+    "other": "تم التحديث"
+  },
+  "account_form_change_pin": {
+    "other": "تعديل الرمز PIN"
+  },
+  "user_set_pin_header": {
+    "other": "ضبط رمز PIN"
+  },
+  "user_set_pin_button": {
+    "other": "ضبط رمز PIN"
+  },
+  "user_submit_pin_heading": {
+    "other": "أدخل رقم التعريف الشخصي لـ {{.Action}} هذا المحتوى مقيد"
+  },
+  "user_error_wrong_pin_retry": {
+    "other": "رقم التعريف الشخصي غير صحيح"
+  },
+  "user_error_too_many_pin_errors": {
+    "other": "<p> يبدو أنك تواجه مشكلة. </ p> <p> أعد تعيين رقم التعريف الشخصي أو اتصل بنا <a href=\"{{.HelpURL}}\" target=\"_blank\"> للمساعدة </a>"
+  },
+  "user_submit_pin_button": {
+    "other": "أدخل"
+  },
+  "user_reset_pin_button": {
+    "other": "إعادة ضبط رمز PIN"
+  },
+  "signup_form_optin": {
+    "other": "اشترك(ي) في نشرةنا الإلكترونية مجانا"
+  },
+  "passwordconfirmation_modal_header": {
+    "other": "تأكيد كلمة المرور"
+  },
+  "passwordconfirmation_modal_label": {
+    "other": "الرجاء إدخال كلمة المرور لتحديث التغييرات "
+  },
+  "passwordconfirmation_modal_confirm": {
+    "other": "تأكيد"
+  },
+  "changepassword_modal_header": {
+    "other": "تغيير كلمة المرور"
+  },
+  "changepassword_modal_currentpassword": {
+    "other": "كلمة المرور الحالية"
+  },
+  "changepassword_modal_password": {
+    "other": "كلمة المرور الجديدة"
+  },
+  "changepassword_modal_password2": {
+    "other": "تأكيد كلمة المرور"
+  },
+  "changepassword_modal_submit": {
+    "other": "تحديث"
+  },
+  "changepassword_modal_error_incorrect_password": {
+    "other": "كلمة المرور غير صحيحة"
+  },
+  "userlibrary_page_header": {
+    "other": "مكتبتي"
+  },
+  "userlibrary_empty_header": {
+    "other": "مكتبتك فارغة"
+  },
+  "userlibrary_empty_content": {
+    "other": "تصفح(ي) <a href=\"{{.HomeURL}}\"> مجموعتنا الرائعة </a> واملأها."
+  },
+  "searchresults_page_header": {
+    "other": "نتائج البحث"
+  },
+  "searchresults_load_more": {
+    "other": "تحميل {{.Count}} أكثر"
+  },
+  "searchresults_total": {
+    "one": "تم العثور على {{.Count}} نتائج لـ \"{{.Query}}\".",
+    "other": "تم العثور على {{.Count}} نتائج لـ  \"{{.Query}}\"."
+  },
+  "searchresults_empty_header": {
+    "other": "لا توجد نتائج بحث عن \"{{.Query}}\""
+  },
+  "searchresults_empty_content": {
+    "other": "جرّب بحثًا آخر أو <a href=\"{{.HomeURL}}\"> تصفح المحتوى الخاص بنا </a> للعثور على ما تبحث عنه."
+  },
+  "validation_name_required": {
+    "other": "الرجاء إدخال الإسم"
+  },
+  "validation_email_required": {
+    "other": "الرجاء إدخال العنوان الإلكتروني"
+  },
+  "validation_email_email": {
+    "other": "الرجاء إدخال عنوان إلكتروني صالح"
+  },
+  "validation_currentpassword_required": {
+    "other": "الرجاء إدخال كلمة المرور الحالية"
+  },
+  "validation_password_required": {
+    "other": "الرجاء إدخال كلمة مرور"
+  },
+  "validation_password2_required": {
+    "other": "الرجاء تأكيد كلمة المرور"
+  },
+  "validation_password2_match": {
+    "other": "كلمات السر الخاصة بك لا تتطابق."
+  },
+  "validation_password_minlength": {
+    "other": "الرجاء إدخال {{.Count}} أحرف على الأقل."
+  },
+  "validation_promocode_required": {
+    "other": "الرجاء إدخال الرمز الترويجي."
+  },
+  "validation_pincode_required": {
+    "other": "الرجاء إدخال رمز PIN."
+  },
+  "validation_pincode1_required": {
+    "other": "الرجاء إدخال رمز PIN صالح."
+  },
+  "validation_pincode2_required": {
+    "other": "الرجاء إدخال رمز PIN صالح."
+  },
+  "validation_pincode1_pattern": {
+    "other": "الرجاء إدخال رمز PIN صالح."
+  },
+  "validation_pincode2_pattern": {
+    "other": "الرجاء إدخال رمز PIN صالح."
+  },
+  "validation_pincode2_match": {
+    "other": "رمز PIN غير متطابق."
+  },
+  "validation_gender_required": {
+    "other": "الرجاء اختيار الجنس"
+  },
+  "validation_dob_required": {
+    "other": "الرجاء ادخال تاريخ الولادة"
+  },
+  "validation_dob_date": {
+    "other": "الرجاء ادخال تاريخ ولادة صالح"
+  },
+  "shopping_info_subtitle_hd": {
+    "other": "فيديو عالي الدقة HD حسب الطلب"
+  },
+  "shopping_info_subtitle_sd": {
+    "other": "فيديو  SD حسب الطلب"
+  },
+  "shopping_info_subtitle_wallet": {
+    "other": "يمكن استخدام الرصيد في محفظتك لشراء أو استئجار أي محتوى على ScreenPlus."
+  },
+  "shopping_info_subtitle_help": {
+    "other": "انظر هنا لمتطلبات النظام."
+  },
+  "shopping_info_ownership_buy": {
+    "other": "شراء"
+  },
+  "shopping_info_ownership_rent": {
+    "other": "استئجار"
+  },
+  "shopping_info_sd_only": {
+    "other": "يقتصر على تشغيل SD فقط."
+  },
+  "shopping_info_release_date_title": {
+    "other": "الإصدارات  {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation_rent": {
+    "other": "يمكنك الاستئجار الآن ، لكنك لن تتمكن من المشاهدة حتى ذلك الحين."
+  },
+  "shopping_info_release_date_explanation_buy": {
+    "other": "يمكنك الشراء الآن ، لكنك لن تتمكن من المشاهدة حتى ذلك الحين."
+  },
+  "shopping_info_available_until_date_title": {
+    "other": "صالح لغاية {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+    "other": "لن تتمكن من عرض المحتوى بعد ذلك."
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+    "other": "لن تتمكن من عرض المحتوى بعد ذلك."
+  },
+  "duration_hour": {
+    "one": "1 ساعة",
+    "other": "{{.Count}} ساعة"
+  },
+  "duration_day": {
+    "one": "1 يوم",
+    "other": "{{.Count}} يوما"
+  },
+  "shopping_info_rental_period_duration": {
+    "other": "تأجير لمدة {{.ValueUnit}} "
+  },
+  "shopping_info_watch_window_duration": {
+    "other": "تشغيل لمدة {{.Count}} ساعة. "
+  },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة {{.ValueUnit}}.",
+    "other": "عند الاستئجار، سيكون الفيلم متاحًا في حسابك لمدة {{.ValueUnit}}."
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "one": "عند الضغط على تشغيل، يمكنك مشاهدة الفيلم عدة مرات لمدة ساعة واحدة. ",
+    "other": "عند الضغط على تشغيل، يمكنك مشاهدة الفيلم عدة مرات لمدة {{.Count}} ساعات. "
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "one": "عند الاستئجار ، ستكون العناصر الموجودة في حزمتك متوفرة في حسابك لمدة يوم واحد. ",
+    "other": "عند الاستئجار ، ستكون العناصر الموجودة في حزمتك متوفرة في حسابك لمدة {{.Count}} أيام. "
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "one": "عند الضغط على تشغيل فيلم معين ، يمكنك مشاهدته عدة مرات لمدة ساعة واحدة",
+    "other": "عند الضغط على تشغيل فيلم معين ، يمكنك مشاهدته عدة مرات لمدة {{.Count}} ساعات"
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "one": "عند الاستئجار ، سيكون الموسم متاحًا في حسابك لمدة يوم واحد. ",
+    "other": "عند الاستئجار ، سيكون الموسم متاحًا في حسابك لمدة {{.Count}} أيام. "
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "one": "عند الضغط على التشغيل لإحدى الحلقات، تبدأ فترة المشاهدة لمدة {{.Count}} ساعات يمكنك خلالها مشاهدة تلك الحلقة عدة مرات.",
+    "other": "عند الضغط على التشغيل لإحدى الحلقات، تبدأ فترة المشاهدة لمدة {{.Count}} ساعات يمكنك خلالها مشاهدة تلك الحلقة عدة مرات."
+  },
+  "shopping_info_credit_bonus_title": {
+    "other": "{{.BonusPercentage}}٪ مكافأة"
+  },
+  "shopping_enter_card_prompt": {
+    "other": "أدخل تفاصيل بطاقتك الائتمانية أدناه لإكمال {{.Verb}}."
+  },
+  "shopping_terms": {
+    "other": "بإكمال هذه المعاملة ، أوافق على <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\"> البنود والشروط </a>."
+  },
+  "shopping_discount_applied": {
+    "other": "تم تطبيق الخصم {{.DiscountAmount}}."
+  },
+  "shopping_discount_apply": {
+    "other": "تطبيق"
+  },
+  "shopping_discount_code": {
+    "other": "أدخل الرمز الترويجي."
+  },
+  "shopping_discount_have_code": {
+    "other": "لدي رمز ترويجي."
+  },
+  "shopping_price_you_pay": {
+    "other": "دفع"
+  },
+  "shopping_price_nothing": {
+    "other": "لا شيء"
+  },
+  "shopping_price_free": {
+    "other": "مجاني"
+  },
+  "shopping_auth_directions": {
+    "other": "يجب إنشاء حساب حساب أولا. الرجاء إدخال العنوان الإلكتروني."
+  },
+  "shopping_error_in_library": {
+    "other": "{{.Title}} موجود في مكتبتك."
+  },
+  "shopping_error_missing_card": {
+    "other": "الرجاء إدخال تفاصيل بطاقة الائتمان."
+  },
+  "shopping_error_title": {
+    "other": "حدث خطأ"
+  },
+  "shopping_error_incorrect_cvc": {
+    "other": "الرجاء إدخال رمز CVC صالح."
+  },
+  "shopping_error_invalid_cvc": {
+    "other": "الرجاء إدخال رمز CVC صالح."
+  },
+  "shopping_error_incorrect_number": {
+    "other": "الرجاء إدخال رقم بطاقة ائتمان صالحة."
+  },
+  "shopping_error_invalid_number": {
+    "other": "الرجاء إدخال رقم بطاقة ائتمان صالحة."
+  },
+  "shopping_error_card_declined": {
+    "other": "تم رفض بطاقة الائتمان."
+  },
+  "shopping_error_invalid_expiry_month": {
+    "other": "الرجاء إدخال تاريخ انتهاء صالح."
+  },
+  "shopping_error_invalid_expiry_year": {
+    "other": "الرجاء إدخال تاريخ انتهاء صالح."
+  },
+  "shopping_error_expired_card": {
+    "other": "انتهت صلاحية بطاقة الائتمان."
+  },
+  "shopping_error_creditcard_country_mismatch": {
+    "other": "لم تكتمل {{.Ownership}}. يجب التواجد في البلد الذي تم إصدار البطاقة الائتمانية فيه. الرجاء استخدام بطاقة أخرى لإجراء الدفع."
+  },
+  "shopping_error_proxy_detected": {
+    "other": "لم تكتمل {{.Ownership}}. لقد اكتشفنا استخدامكم لخدمة فك تشفير أو خدمة وكيل Proxy. الرجاء إيقاف تشغيل أي من هذه الخدمات وحاول مرة أخرى."
+  },
+  "shopping_error_discount_worn_out": {
+    "other": "لم يعد من الممكن استخدام هذا الرمز الترويجي."
+  },
+  "shopping_error_discount_blank": {
+    "other": "الرجاء إدخال الرمز الترويجي."
+  },
+  "shopping_error_discount_not_applied": {
+    "other": "الرجاء إدخال رمز ترويجي صالح."
+  },
+  "shopping_error_discount_invalid": {
+    "other": "الرجاء إدخال رمز ترويجي صالح."
+  },
+  "shopping_error_discount_disabled": {
+    "other": "الرجاء إدخال رمز ترويجي صالح."
+  },
+  "shopping_error_discount_already_applied": {
+    "other": "سبق وتم استخدام رمز ترويجي لهذه الجلسة."
+  },
+  "shopping_error_discount_already_redeemed": {
+    "other": "تم استخدام هذا الرمز الترويجي سابقا."
+  },
+  "shopping_error_discount_used_previously": {
+    "other": "تم استخدام هذا الرمز الترويجي سابقا."
+  },
+  "shopping_error_discount_max_limit": {
+    "other": "لم يعد من الممكن استخدام هذا الرمز الترويجي."
+  },
+  "shopping_error_discount_expired": {
+    "other": "انتهت صلاحية هذا الرمز الترويجي."
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+    "other": "لا يمكن استخدام هذا الرمز الترويجي عند الشراء."
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+    "other": "لا يمكن استخدام هذا الرمز الترويجي عند الاستئجار."
+  },
+  "shopping_error_discount_invalid_item": {
+    "other": "لا يمكن استخدام هذا الرمز الترويجي مع هذا العنصر."
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+    "other": "لا يمكن استخدام هذا الرمز الترويجي في بلدك."
+  },
+  "shopping_error_discounts_not_allowed": {
+    "other": "لا يمكن استخدام هذا الرمز الترويجي."
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+    "other": "لا يمكن استخدام هذا الرمز الترويجي للباقات."
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+    "other": "تم رفض بطاقة الائتمان. الرجاء المحاولة مرة اخرى."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "بطاقتك غير مدعومة."
+  },
+  "shopping_complete_rental": {
+    "other": "نجاح!"
+  },
+  "shopping_complete_rental_period": {
+    "one": "يمكنك الآن مشاهدته بقدر ما تريد(ين) حتى اليوم التالي.",
+    "other": "يمكنك الآن المشاهدة قدر ما تريد(ين) على مدار الأيام الـ {{.Count}} القادمة."
+  },
+  "shopping_complete_purchase": {
+    "other": "شكرًا لشراء {{.Title}}."
+  },
+  "shopping_complete_credit_purchase": {
+    "other": "شكرًا لشراء {{.Title}} ، تمت إضافة {{.CreditTotal}} إلى حسابك."
+  },
+  "shopping_complete_purchase_coming_soon": {
+    "other": "يمكن المشاهدة ابتداء من {{.Date}}."
+  },
+  "shopping_complete_receipt": {
+    "other": "تم إرسال الإيصال عبر البريد الإلكتروني."
+  },
+  "shopping_complete_library_link": {
+    "other": "عرض المكتبة"
+  },
+  "shopping_complete_plan": {
+    "other": "لقد نجحت عملية شرائك لـ {{.Title}}"
+  },
+  "shopping_complete_rental_watch_window_start": {
+    "one": "يمكن الآن بدء المشاهدة حتى اليوم التالي.",
+    "other": "يمكن الآن بدء المشاهدة في غضون الأيام الـ {{.Count}} القادمة."
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "one": "عند بدء التشغيل ، يمكن المشاهدة قدر ما تريد(ين) لمدة ساعة واحدة.",
+    "other": "عند بدء التشغيل ، يمكن المشاهدة قدر ما تريد(ين) لمدة {{.Count}} ساعات."
+  },
+  "shopping_complete_rental_coming_soon": {
+    "one": "يمكن المشاهدة اعتبارًا من {{.Date}} وسيظل التأجير سار لمدة يوم.",
+    "other": "يمكن المشاهدة اعتبارًا من {{.Date}} وسيظل التأجير سار لمدة {{.Count}} أيام."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "one": "يمكن المشاهدة اعتبارًا من {{.Date}} وسيظل التأجير سار لمدة يوم.",
+    "other": "يمكن المشاهدة اعتبارًا من {{.Date}} وسيظل التأجير سار لمدة {{.Count}} أيام.."
+  },
+  "shopping_action_rent": {
+    "other": "تأجير"
+  },
+  "shopping_action_buy": {
+    "other": "شراء"
+  },
+  "shopping_payment_method_header": {
+    "other": "طرق الدفع"
+  },
+  "shopping_payment_method_credit_card": {
+    "other": "بطاقة إئتمان"
+  },
+  "shopping_payment_method_giropay": {
+    "other": "جيروباي Giropay"
+  },
+  "shopping_error_stripe_unknown_error": {
+    "other": "حدث خطأ ما فيعملية  الدفع. الرجاء معاودة المحاولة لاحقا."
+  },
+  "shopping_error_payment_complete_failed": {
+    "other": "تم رفض الدفعة. الرجاء إغلاق هذه النافذة والمحاولة مرة أخرى."
+  },
+  "meta_detail_cast_title": {
+    "other": "الممثلين"
+  },
+  "meta_detail_crew_title": {
+    "other": "طاقم العمل"
+  },
+  "meta_detail_languages": {
+    "one": "اللغة",
+    "other": "اللغات"
+  },
+  "meta_detail_studios": {
+    "one": "الاستديو",
+    "other": "الاستوديوهات"
+  },
+  "meta_detail_countries": {
+    "one": "البلد",
+    "other": "البلدان"
+  },
+  "meta_detail_subtitles": {
+    "other": "الترجمة"
+  },
+  "meta_detail_captions": {
+    "other": "الترجمة [CC]"
+  },
+  "meta_detail_episodes_title": {
+    "other": "الحلفات"
+  },
+  "meta_detail_bonus_title": {
+    "other": "محتوى إضافي"
+  },
+  "meta_detail_recommendations_title": {
+    "other": "قد يعجبك أيضا"
+  },
+  "meta_detail_bundle_items_title": {
+    "other": "المحتوى المتضمن في هذه الحزمة"
+  },
+  "bundle_items_all_films": {
+    "other": "{{.Count}} أفلام"
+  },
+  "bundle_items_all_seasons": {
+    "other": "{{.Count}} مواسم"
+  },
+  "bundle_items_mixed": {
+    "other": "{{.Count}} أفلام ومواسم"
+  },
+  "userwishlist_page_header": {
+    "other": "قائمتي"
+  },
+  "userwishlist_slider_header": {
+    "other": "قائمتي"
+  },
+  "userwishlist_empty_header": {
+    "other": "قائمتك فارغة."
+  },
+  "userwishlist_empty_content": {
+    "other": "تصفح(ي) <a href=\"{{.HomeURL}}\"> مجموعتنا الرائعة </a> واملأها."
+  },
+  "userwishlist_button_add": {
+    "other": "أضف إلى قائمتي"
+  },
+  "userwishlist_button_remove": {
+    "other": "إزالة من قائمتي"
+  },
+  "userwishlist_button_add_compact": {
+    "other": "قائمتي"
+  },
+  "userwishlist_button_remove_compact": {
+    "other": "قائمتي"
+  },
+  "activatedevice_page_header": {
+    "other": "تنشيط الجهاز"
+  },
+  "activatedevice_page_content": {
+    "other": "اتبع(ي) التعليمات الموجودة على جهازك للحصول على رمز PIN. يجب أن يكون كل من الكمبيوتر والجهاز متصلين بالإنترنت لتنشيطهما."
+  },
+  "activatedevice_form_pin": {
+    "other": "رمز PIN "
+  },
+  "activatedevice_form_submit": {
+    "other": "تفعيل"
+  },
+  "activatedevice_form_error_invalid_code": {
+    "other": "لم يتم العثور على رمز PIN ، الرجاء المحاولة مرة أخرى."
+  },
+  "activatedevice_form_error_pin_not_found": {
+    "other": "لم يتم العثور على رمز PIN ، الرجاء المحاولة مرة أخرى."
+  },
+  "activatedevice_signin_prompt": {
+    "other": "الرجاء تسجيل الدخول قبل تنشيط الجهاز."
+  },
+  "activatedevice_page_activated": {
+    "other": "شكرًا لتنشيط {{.DeviceName}}. يمكن الآن تصفح مكتبتك على التلفزيون أو الجهاز."
+  },
+  "userdevices_page_header": {
+    "other": "الأجهزة"
+  },
+  "userdevices_page_content": {
+    "one": "سيتم إضافة الأجهزة هنا تلقائيًا عند استخدامها. الرجاء التقيد بـ {{.Count}} أجهزة.",
+    "other": "سيتم إضافة الأجهزة هنا تلقائيًا عند استخدامها. الرجاء التقيد بـ {{.Count}} أجهزة."
+  },
+  "userdevices_empty_content": {
+    "other": "لديك حاليا 0 أجهزة مسجلة."
+  },
+  "userdevices_header_type": {
+    "other": "نوع الجهاز"
+  },
+  "userdevices_header_description": {
+    "other": "وصف"
+  },
+  "userdevices_device_added": {
+    "other": "تمت الإضافة {{.Date}}"
+  },
+  "userdevices_device_actions_delete": {
+    "other": "إزالة"
+  },
+  "userdevices_device_actions_cancel": {
+    "other": "إلغاء"
+  },
+  "userdevices_device_actions_confirm": {
+    "other": "نعم ، القيام بإزالة الجهاز"
+  },
+  "userdevices_device_deleted": {
+    "other": "(تمت الإزالة)"
+  },
+  "userdevices_delete_limits": {
+    "other": "يمكن إزالة {{.Limit}} من الأجهزة من هذه القائمة كل {{.Period}} يوم (أيام)."
+  },
+  "userdevices_delete_limit_reached": {
+    "other": "لقد وصلت إلى الحد الأقصى  ولا يمكن إزالة أية أجهزة في الوقت الحالي. يمكنك حذف إحدى الأجهزة بعد {{.Days}} يوم (أيام)."
+  },
+  "playlist_page_header": {
+    "other": "قائمة التشغيل"
+  },
+  "playlist_sign_in_warning": {
+    "other": "الرجاء تسجيل الدخول لمشاهدة البث التلفزيوني المباشر."
+  },
+  "playlist_share_title": {
+    "other": "الرجاء تسجيل الدخول لمشاهدة البث التلفزيوني المباشر."
+  },
+  "playlist_up_next_title": {
+    "other": "التالي"
+  },
+  "pricing_ownership_buy": {
+    "other": "شراء"
+  },
+  "pricing_ownership_rent": {
+    "other": "إيجار"
+  },
+  "classification_intro": {
+    "other": "تقييم: "
+  },
+  "classification_divider": {
+    "other": " - "
+  },
+  "classification_outro": {
+    "other": ""
+  },
+  "cookie_banner_message": {
+    "other": "يستخدم هذا الموقع ملفات تعريف الارتباط لتحسين تجربتك. باستخدام هذا الموقع ، فإنك توافق على <a href=\"{{.CookiePolicyURL}}\"> استخدام ملفات تعريف الارتباط </a>."
+  },
+  "cookie_banner_accept": {
+    "other": "وافق"
+  },
+  "all_rights_reserved": {
+    "other": "كل الحقوق محفوظة. لا يجوز إعادة إنتاج أي جزء من هذا الموقع دون إذن كتابي."
+  },
+  "users_gender_none": {
+    "other": "غير محدد"
+  },
+  "users_gender_female": {
+    "other": "أنثى"
+  },
+  "users_gender_male": {
+    "other": "ذكر"
+  },
+  "users_gender_diverse": {
+    "other": "مختلف"
+  },
+  "users_gender_other": {
+    "other": "غير محدد"
+  },
+  "pricing_quality_hd": {
+    "other": "HD"
+  },
+  "pricing_quality_sd": {
+    "other": "SD"
+  },
+  "pricing_quality_hd_only": {
+    "other": "HD فقط"
+  },
+  "pricing_quality_sd_only": {
+    "other": "SD فقط"
+  },
+  "shopping_card_save_card": {
+    "other": "احفظ(ي) هذه البطاقة لاستخدامها في المستقبل"
+  },
+  "shopping_card_button_change": {
+    "other": "إظهار كل البطاقات المحفوظة"
+  },
+  "shopping_card_existing_description": {
+    "other": "{{.Card.Brand}} بالرقم تنتهي {{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+    "other": "(تنتهي صلاحيتها {{.Card.Expiry}})"
+  },
+  "shopping_card_existing_expired": {
+    "other": "(منتهية الصلاحية)"
+  },
+  "shopping_card_use_other": {
+    "other": "أضف بطاقة جديدة"
+  },
+  "shopping_card_use_new_card": {
+    "other": "تغيير البطاقة"
+  },
+  "shopping_card_update_reason_none": {
+    "other": "لا يوجد سبب لتحديث بطاقة التسوق"
+  },
+  "shopping_card_new_subscription": {
+    "other": "سيتم حفظ هذه البطاقة وإعادة تعبئتها بانتظام"
+  },
+  "shopping_card_change": {
+    "other": "بطاقة الائتمان غير صحيحة؟ <a href=\"{{.SubscriptionsURL}}\"> انقر(ي) هنا لتحديث بطاقتك. </a>"
+  },
+  "shopping_info_ownership_plan": {
+    "other": "يخطط"
+  },
+  "shopping_info_rental_period_coming_soon": {
+    "other": "من تاريخ ووقت الإصدار."
+  },
+  "usersubscriptions_change_payment_method_change": {
+    "other": "تغيير بطاقة الائتمان"
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+    "other": "تحديث تفاصيل بطاقة الائتمان"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "تحديث"
+  },
+  "usersubscriptions_subscription_expiry": {
+    "other": "تنتهي {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "ألغيت"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "فات موعد الاستحقاق"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "فترة النسخة التجريبية"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+    "other": "إلغاء اشتراكي"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+    "other": "لا شكرا"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+    "other": "نعم ، إلغاء"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+    "other": "إلغاء الاشتراك؟"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+    "other": "سيؤدي هذا إلى إلغاء الاشتراك في {{.Name}}. ستظل قادرًا على مشاهدة المحتوى حتى انتهاء صلاحيته {{.Expiry}}."
+  },
+  "availability_coming_soon": {
+    "other": "قريبا"
+  },
+  "availability_renting": {
+    "other": "إيجار"
+  },
+  "availability_not_available": {
+    "other": "غير متوفر"
+  },
+  "availability_in_watch_window": {
+    "other": "التوفر في مدة المشاهدة"
+  },
+  "availability_sold_out": {
+    "other": "نفذ"
+  },
+  "availability_available_till": {
+    "other": "متوفر حتى {{.ExpiryDate}}"
+  },
+  "availability_not_available_in_country": {
+    "other": "غير متاح في بلدك"
+  },
+  "availability_available": {
+    "other": "متوفر في {{.ReleaseDate}}"
+  },
+  "availability_expires": {
+    "other": "تنتهي الصلاحية في {{.Expiry}}"
+  },
+  "availability_expired": {
+    "other": "منتهي الصلاحية"
+  },
+  "modal_cancel": {
+    "other": "إلغاء"
+  },
+  "play": {
+    "other": "تشغيل"
+  },
+  "combined_auth_signin_prompt": {
+    "other": "تسجيل الدخول"
+  },
+  "combined_auth_signup_prompt": {
+    "other": "اشتراك"
+  },
+  "combined_auth_terms": {
+    "other": "أوافق على جميع <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\"> البنود & amp؛ الشروط </a>."
+  },
+  "signup_terms": {
+    "other": "أوافق على جميع <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\"> البنود & amp؛ الشروط </a>."
+  },
+  "validation_terms_required": {
+    "other": "يجب الموافقة على الاحكام والشروط."
+  },
+  "shopping_error_item_limit_exceeded": {
+    "other": "للأسف ، لقد نفذ {{.Title}}."
+  },
+  "changepincode_modal_header": {
+    "other": "بتغيير رقم التعريف الشخصي PIN"
+  },
+  "changepincode_modal_currentpassword": {
+    "other": "كلمة السر الحالية "
+  },
+  "changepincode_modal_pincode1": {
+    "other": "رقم التعريف الشخصي PIN الجديد المكون من 4 أرقام"
+  },
+  "changepincode_modal_pincode2": {
+    "other": "تأكيد رقم التعريف الشخصي PIN الجديد المكون من 4 أرقام"
+  },
+  "changepincode_modal_submit": {
+    "other": "تعيين رقم التعريف الشخصي PIN"
+  },
+  "changepincode_modal_error_wrong_password": {
+    "other": "كلمة المرورغير صحيحة."
+  },
+  "user_set_pin_intro": {
+    "other": "أنت بحاجة إلى رقم تعريف شخصي PIN  ل {{.Action}} المحتوى المحظور"
+  },
+  "user_error_wrong_pin_reset": {
+    "other": "انقر(ي) هنا لإعادة تعيين رقم التعريف الشخصي PIN الخاص بك"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+    "other": ""
+  },
+  "shopping_error_age_restricted": {
+    "other": "هذا المحتوى مقيد بالفئة العمرية."
+  },
+  "shopping_error_close_button": {
+    "other": "نعم"
+  },
+  "wcag_skip_links_header": {
+    "other": "روابط الوصول"
+  },
+  "wcag_skip_links_content": {
+    "other": "روابط الوصول"
+  },
+  "wcag_homepage_h1": {
+    "other": "الصفحة الرئيسية"
+  },
+  "wcag_carousel_h2": {
+    "other": "المشاركات الدائرية"
+  },
+  "wcag_collections_h2": {
+    "other": "المجموعات"
+  },
+  "wcag_aria_label_footer": {
+    "other": "أسفل الصفحة"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "الرئيسية"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "الفرعية"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "تبديل التنقل"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "عناصر الحزمات"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "المشاركات الدائرية"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "ترقيم الصفحات"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "صفحة المجموعات"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "لائحة المجموعات"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "شريط تمرير المجموعات"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "قائمة الرغبات"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "انشر على الفيسبوك"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "انشر على تويتر"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "انشر على لينكد ان"
+  },
+  "shopping_price_title_plan": {
+    "other": "سعر"
+  },
+  "shopping_price_plan_note": {
+    "zero": "اتهم كل {{.Interval}}.",
+    "one": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية لمدة 24 ساعة.",
+    "two": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
+    "few": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
+    "many": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا.",
+    "other": "يتم تحصيل الرسوم كل {{.Interval}} بعد انتهاء الفترة التجريبية المجانية التي تبلغ مدتها {{.Count}} يومًا."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "اتهم كل {{.Interval}}."
+  },
+  "shopping_price_plan_note_interval": {
+    "zero": "{{.Interval}}",
+    "one": "{{.Interval}}",
+    "two": "{{.Count}} {{.Interval}}",
+    "few": "{{.Count}} {{.Interval}}",
+    "many": "{{.Count}} {{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "أدخل تفاصيل بطاقة الائتمان الخاصة بك أدناه لبدء اشتراكك."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "أدخل تفاصيل بطاقة الائتمان الخاصة بك أدناه لبدء خطتك."
+  },
+  "shopping_action_plan": {
+    "other": "مكتمل"
+  },
+  "shopping_action_credit": {
+    "other": "فوق حتى"
+  },
+  "shopping_complete_subscription": {
+    "other": "تم شراء اشتراكك بنجاح. أنت الآن مشترك في {{.Title}}."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "لا تتردد في <a href=\"/\">تصفح</a> الموقع ، أو <a href=\"/search.html\">البحث</a> عن شيء محدد."
+  },
+  "shopping_info_plan_offer": {
+    "one": "يجدد تلقائيا كل. {{.Interval}}",
+    "other": "يجدد تلقائيا كل {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period_offer": {
+    "zero": "جرب الإصدار التجريبي المجاني لمدة 24 ساعة الآن!",
+    "one": "جرب الإصدار التجريبي المجاني لمدة 24 ساعة الآن!",
+    "two": "جرب الإصدار التجريبي المجاني لمدة {{.Count}} أيام!",
+    "few": "جرب الإصدار التجريبي المجاني لمدة {{.Count}} أيام!",
+    "many": "جرب الإصدار التجريبي المجاني لمدة {{.Count}} أيام!",
+    "other": "جرب الإصدار التجريبي المجاني لمدة {{.Count}} أيام!"
+  },
+  "plans_page_header": {
+    "other": "الخطط المتاحة"
+  },
+  "plan_label_owned": {
+    "other": "أنت تملك هذه الخطة"
+  },
+  "plan_expiry_date": {
+    "other": "إغلاق المبيعات:"
+  },
+  "plan_read_more": {
+    "other": "اكتشف المزيد"
+  },
+  "plan_page_read_more": {
+    "other": "اقرأ أكثر"
+  },
+  "plan_page_header_text": {
+    "other": "استمتع {{.Name}}"
+  },
+  "page_plan_explore_intro": {
+    "other": "أو"
+  },
+  "page_plan_explore_link": {
+    "other": "استكشاف المزيد"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "اشتري الآن"
+  },
+  "plan_free_link_text": {
+    "other": "سجل مجانا"
+  },
+  "awards_in_competition": {
+    "other": "في المنافسة"
+  },
+  "donate_button_text": {
+    "other": "يتبرع"
+  },
+  "shopping_error_plan_already_owned": {
+    "other": "لديك بالفعل هذه الخطة"
+  },
+  "shopping_error_plan_expired": {
+    "other": "هذه الخطة لم تعد متوفرة"
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "عرض على Letterboxd"
+  },
+  "header_banner": {
+    "other": "سينما ABC - مهرجان الفيلم الحادي والعشرون ، 1-6 يونيو 2021"
+  },
+  "app_badge_title": {
+    "other": "قم بتنزيل التطبيق لعرض المحتوى الذي اشتريته!"
+  },
+  "app_badge_ios": {
+    "other": "قم بالتحميل من متجر البرامج"
+  },
+  "app_badge_android": {
+    "other": "احصل عليه من متجر جوجل للتطبيقات"
+  },
+  "awards_winner": {
+    "other": "الفائز"
+  },
+  "meta_description_expand": {
+    "other": "شاهد المزيد"
+  },
+  "meta_description_collapse": {
+    "other": "رؤية أقل"
+  },
+  "usersubscriptions_page_header": {
+    "other": "الاشتراكات والفواتير"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "طريقة الدفع او السداد"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "تسري التغييرات التي تم إجراؤها على طريقة الدفع ببطاقتك الائتمانية في دورة الفوترة التالية."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "تفاصيل الاشتراك"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "نشيط"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "منتهية الصلاحية"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "اكتشف الاشتراكات"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "اكتشف محتوى رائعًا بأسعار رائعة ، ويمكن إدارته بسهولة هنا."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "اكتشف الاشتراكات"
+  },
+  "nav_subscriptions": {
+    "other": "اشتراكاتي"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "الدفعة {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "الدفعة {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "الدفع {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "{{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "{{.Expiry}}"
+  },
+  "sponsor_image_alt": {
+    "other": "شعار الراعي"
+  },
+  "subscribe_to_watch": {
+    "other": "اشترك للمشاهدة"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} أغراض"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "قم بتحديث بطاقتك الائتمانية. البطاقات المدعومة هي Visa و Mastercard و American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "تم تطبيق الكود بنجاح."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "الرجاء إدخال رمز ترويجي صالح."
+  },
+  "shopping_complete_promo_only": {
+    "other": "يمكنك الآن مشاهدة {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "يسترد"
+  },
+  "pricing_ownership_promo": {
+    "other": "يسترد"
+  },
+  "subscription_cta_label": {
+    "other": "{{.Recurrence}}/الإشتراك {{.Price}}"
+  },
+  "subscription_recurrence_year": {
+    "zero": "سنة",
+    "one": "سنة",
+    "two": "{{.Count}} سنوات",
+    "few": "{{.Count}} سنوات",
+    "many": "{{.Count}} سنوات",
+    "other": "{{.Count}} سنوات"
+  },
+  "subscription_recurrence_month": {
+    "zero": "شهر",
+    "one": "شهر",
+    "two": "{{.Count}} شهور",
+    "few": "{{.Count}} شهور",
+    "many": "{{.Count}} شهور",
+    "other": "{{.Count}} شهور"
+  },
+  "subscription_recurrence_week": {
+    "zero": "أسبوع",
+    "one": "أسبوع",
+    "two": "{{.Count}} أسابيع",
+    "few": "{{.Count}} أسابيع",
+    "many": "{{.Count}} أسابيع",
+    "other": "{{.Count}} أسابيع"
+  },
+  "subscription_recurrence_day": {
+    "zero": "يوم",
+    "one": "{{.Count}} يوم",
+    "two": "{{.Count}} أيام",
+    "few": "{{.Count}} أيام",
+    "many": "{{.Count}} أيام",
+    "other": "{{.Count}} أيام"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "الاشتراك"
+  },
+  "something_bad_happened": {
+    "other": "حاول مرة اخرى"
+  },
+  "stripe_card_not_supported": {
+    "other": "بطاقتك غير مدعومة."
+  },
+  "nav_search_control_placeholder": {
+    "other": "البحث"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "تأكيد البحث"
+  },
+  "shopping_info_plan_interval": {
+    "zero": "يجدد تلقائيا كل. {{.Interval}}",
+    "one": "يجدد تلقائيا كل. {{.Interval}}",
+    "two": "يجدد تلقائيا كل {{.Count}} {{.Interval}}",
+    "few": "يجدد تلقائيا كل {{.Count}} {{.Interval}}",
+    "many": "يجدد تلقائيا كل {{.Count}} {{.Interval}}",
+    "other": "يجدد تلقائيا كل {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "zero": "جرب الإصدار التجريبي المجاني لمدة 24 ساعة الآن!",
+    "one": "جرب الإصدار التجريبي المجاني لمدة 24 ساعة الآن!",
+    "two": "جرب الإصدار التجريبي المجاني لمدة {{.Count}} أيام!",
+    "few": "جرب الإصدار التجريبي المجاني لمدة {{.Count}} أيام!",
+    "many": "جرب الإصدار التجريبي المجاني لمدة {{.Count}} أيام!",
+    "other": "جرب الإصدار التجريبي المجاني لمدة {{.Count}} أيام!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "الاشتراكات والفواتير"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "غير مدفوعة"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "الإلغاء"
+  },
+  "interval_day": {
+    "zero": "أيام",
+    "one": "يوم",
+    "two": "أيام",
+    "few": "أيام",
+    "many": "أيام",
+    "other": "أيام"
+  },
+  "interval_week": {
+    "zero": "أسابيع",
+    "one": "أسبوع",
+    "two": "أسابيع",
+    "few": "أسابيع",
+    "many": "أسابيع",
+    "other": "أسابيع"
+  },
+  "interval_month": {
+    "zero": "الشهور",
+    "one": "شهر",
+    "two": "الشهور",
+    "few": "الشهور",
+    "many": "الشهور",
+    "other": "الشهور"
+  },
+  "interval_year": {
+    "zero": "سنوات",
+    "one": "عام",
+    "two": "سنوات",
+    "few": "سنوات",
+    "many": "سنوات",
+    "other": "سنوات"
+  },
+  "shopping_error_processing_error": {
+    "other": "حدث خطأ أثناء معالجة بطاقتك. حاول مرة أخرى لاحقًا أو باستخدام طريقة دفع مختلفة."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "انتهت جلسة التسوق ، يرجى المحاولة مرة أخرى."
+  },
+  "live_stream_starts": {
+    "other": "يبدأ الدفق {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "يتدفقون الآن"
+  },
+  "live_streaming_ended": {
+    "other": "انتهى الدفق"
+  },
+  "availability_live": {
+    "other": "يعيش"
+  },
+  "shopping_action_get_ticket": {
+    "other": "احصل على تذكرة"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "لا يمكنك استخدام الرمز الترويجي لهذا الشراء أو الاستئجار"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "هذا الرمز الترويجي غير صالح حتى الآن"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "لا يمكن تطبيق الرموز الترويجية على جلسات التسوق المجانية"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "لا يمكن تطبيق الرموز الترويجية بعد اكتمال عملية الشراء"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "لا يمكن تطبيق الرمز الترويجي ، يرجى المحاولة مرة أخرى"
+  },
+  "shopping_error_invalid_code": {
+    "other": "الرمز الترويجي غير صالح"
+  },
+  "shopping_error_missing_code": {
+    "other": "لم يتم تقديم رمز ترويجي"
+  },
+  "live_label_ended": {
+    "other": "مباشر: انتهى"
+  },
+  "live_label_live": {
+    "other": "يعيش"
+  },
+  "live_label_minutes": {
+    "zero": "{{.Count}} المباشر: عدد الدقائق",
+    "one": "البث المباشر: دقيقة واحدة",
+    "two": "{{.Count}} المباشر: عدد الدقائق",
+    "few": "{{.Count}} المباشر: عدد الدقائق",
+    "many": "{{.Count}} المباشر: عدد الدقائق",
+    "other": "{{.Count}} المباشر: عدد الدقائق"
+  },
+  "live_label_hours": {
+    "zero": "البث المباشر: {{.Count}} الساعات",
+    "one": "بث مباشر: 1 ساعة",
+    "two": "البث المباشر: {{.Count}} الساعات",
+    "few": "البث المباشر: {{.Count}} الساعات",
+    "many": "البث المباشر: {{.Count}} الساعات",
+    "other": "البث المباشر: {{.Count}} الساعات"
+  },
+  "live_label_days": {
+    "zero": "مباشر: {{.Count}} أيام",
+    "one": "مباشر: يوم واحد",
+    "two": "مباشر: {{.Count}} أيام",
+    "few": "مباشر: {{.Count}} أيام",
+    "many": "مباشر: {{.Count}} أيام",
+    "other": "مباشر: {{.Count}} أيام"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "البث المباشر"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "هذا حدث مباشر."
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "يمكنك شراء تذكرة الآن ولكنك ستحتاج إلى المشاهدة أثناء البث المباشر."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "ستحتاج إلى المشاهدة أثناء البث المباشر."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "هذا الحدث مباشر حاليا."
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "ينتهي {{.Date}} . التاريخ."
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "لن تتمكن من مشاهدة البث بعد ذلك."
+  },
+  "shopping_action_ticket": {
+    "other": "احصل على تذكرة"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "يبدأ {{.Date}} . التاريخ."
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "بدأت في {{.Date}} ."
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "لا يمكنك إرجاعه."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "تاريخ انتهاء صلاحية بطاقتك في الماضي."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "انقضت سنة انتهاء صلاحية بطاقتك."
+  }
+}

@@ -1,0 +1,1509 @@
+{
+  "settings_title": {
+    "other": "Seaded"
+  },
+  "powered_by": {
+    "other": "Toiteallikaks"
+  },
+  "powered_by_name": {
+    "other": "Shift72"
+  },
+  "powered_by_url": {
+    "other": "https://www.screenplus.com"
+  },
+  "in_partnership_with": {
+    "other": "koostöös"
+  },
+  "festival_scope": {
+    "other": "Festival Scope"
+  },
+  "festival_scope_url": {
+    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
+  },
+  "en": {
+    "other": "Inglise"
+  },
+  "fr": {
+    "other": "prantsuse keel"
+  },
+  "episode_name": {
+    "other": "Episood"
+  },
+  "season_name": {
+    "other": "Hooaeg"
+  },
+  "seasons": {
+    "one": "üks hooaeg",
+    "other": "{{.Count}} hooaega"
+  },
+  "tvseason": {
+    "other": "{{.ShowInfo.Title}} Hooaeg {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>Hooaeg {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "Hooaeg {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "1 Episood",
+    "other": "{{.Count}} Episoodi"
+  },
+  "date_day": {
+    "other": "Päev"
+  },
+  "date_month": {
+    "other": "Kuu"
+  },
+  "date_year": {
+    "other": "Aasta"
+  },
+  "404_page_header": {
+    "other": "Lehte ei leitud..."
+  },
+  "404_page_content": {
+    "other": "<p>Vabandame, näib, otsitud lehte ei eksisteeri.</p><p>Selle asukoht võib olla muutunud või on see kustutatud. Või tegid sa kirjutamisel vea.</p><p>Proovi minna tagasi avalehele ja otsi uuesti.</p><p><a href=\"{{.URL}}\">Tagasi lehele.</a></p>"
+  },
+  "nav_signin": {
+    "other": "Logi sisse"
+  },
+  "nav_signup": {
+    "other": "Loo konto"
+  },
+  "nav_signed_in_as": {
+    "other": "Sisse logitud kui"
+  },
+  "nav_library": {
+    "other": "Minu filmid"
+  },
+  "nav_devices": {
+    "other": "Minu seadmed"
+  },
+  "nav_wishlist": {
+    "other": "Minu nimekiri"
+  },
+  "nav_account": {
+    "other": "Minu konto"
+  },
+  "nav_signout": {
+    "other": "Logi välja"
+  },
+  "play_trailer": {
+    "other": "Treiler"
+  },
+  "runtime_hours": {
+    "other": "h"
+  },
+  "runtime_minutes": {
+    "other": "min"
+  },
+  "datetime_today": {
+    "other": "täna {{.Date}}"
+  },
+  "datetime_tomorrow": {
+    "other": "homme {{.Date}}"
+  },
+  "datetime_yesterday": {
+    "other": "eile {{.Date}}"
+  },
+  "datetime_next": {
+    "other": "{{.Date}}"
+  },
+  "datetime_last": {
+    "other": "eelmine {{.Date}}"
+  },
+  "search_control_placeholder": {
+    "other": "Otsing"
+  },
+  "search_control_submit": {
+    "other": "Otsi"
+  },
+  "play_button_watch": {
+    "other": "Vaata nüüd"
+  },
+  "play_button_resume": {
+    "other": "Jätka"
+  },
+  "social_media_buttons_title": {
+    "other": "Jaga"
+  },
+  "social_media_buttons_facebook": {
+    "other": "Facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "Meil"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "Lingi jagamine"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "Link on kopeeritud"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "Kopeeri link"
+  },
+  "accept_invite_page_header": {
+    "other": "Tere tulemast "
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+    "other": "Näib, et sa oled kutse juba vastu võtnud. Sa peaksid hoopis <a href=\"{{.SigninURL}}\">sisse logima</a>. Kui oled salasõna unustanud, saad selle <a href=\"{{.ForgotPasswordURL}}\">uuendada</a>."
+  },
+  "acceptinvite_complete": {
+    "other": "Aitäh! Sinu konto on loodud."
+  },
+  "acceptinvite_form_submit": {
+    "other": "Võta kutse vastu."
+  },
+  "acceptinvite_agreement": {
+    "other": "Vajutades Võta kutse vastu kinnitad, et oled lugenud ja nõustud <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">kasutustingimustega</a> ja <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">privaatsustingimustega</a>."
+  },
+  "signup_page_header": {
+    "other": "Loo uus konto"
+  },
+  "signup_form_name": {
+    "other": "Nimi"
+  },
+  "signup_form_email": {
+    "other": "E-posti aadress"
+  },
+  "signup_form_password": {
+    "other": "Salasõna"
+  },
+  "signup_form_password_confirmation": {
+    "other": "Kinnita salasõna"
+  },
+  "signup_form_gender": {
+    "other": "Sugu"
+  },
+  "signup_form_dob": {
+    "other": "Sünniaeg"
+  },
+  "signup_form_submit": {
+    "other": "Saada"
+  },
+  "signin_page_header": {
+    "other": "Logi sisse"
+  },
+  "signin_form_email": {
+    "other": "E-posti aadress"
+  },
+  "signin_form_password": {
+    "other": "Salasõna"
+  },
+  "signin_form_remember": {
+    "other": "Pea mind meeles"
+  },
+  "signin_form_submit": {
+    "other": "Saada"
+  },
+  "signin_page_forgotpassword": {
+    "other": "Unustasid salasõna?"
+  },
+  "signin_page_createnewaccount": {
+    "other": "Sul pole kontot? Loo uus konto. "
+  },
+  "signup_page_alreadyhaveanaccount": {
+    "other": "Sul juba on konto? Logi sisse."
+  },
+  "signup_form_error_email_already_in_use": {
+    "other": "E-posti aadress on juba kasutusel."
+  },
+  "signin_form_error_incorrect_credentials": {
+    "other": "Kasutajanimi või salasõna ei kehti."
+  },
+  "signin_form_error_ip_throttled": {
+    "other": "Teil pole liiga palju kordi sisselogimine ebaõnnestunud. Palun proovi hiljem uuesti."
+  },
+  "signin_form_error_account_suspended": {
+    "other": "Sinu konto on ajutiselt suletud. Kui arvate, et see on eksitus, võtke ühendust administraatoriga."
+  },
+  "signup_form_error_forbidden": {
+    "other": "On juhtunud viga."
+  },
+  "combined_auth_continue": {
+    "other": "Jätka"
+  },
+  "combined_auth_change": {
+    "other": "Muuda"
+  },
+  "combined_auth_signin": {
+    "other": "Logi sisse"
+  },
+  "combined_auth_signup": {
+    "other": "Loo konto"
+  },
+  "combined_auth_signin_password": {
+    "other": "Sisse logimiseks sisesta palun oma salasõna."
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+    "other": "Vale salasõna."
+  },
+  "combined_auth_error_forbidden": {
+    "other": "On juhtunud viga."
+  },
+  "combined_auth_error_too_many_requests": {
+    "other": "Liiga palju taotlusi. Palun proovi hiljem uuesti."
+  },
+  "forgotpassword_page_header": {
+    "other": "Lähtesta oma salasõna"
+  },
+  "forgotpassword_form_email": {
+    "other": "E-posti aadress"
+  },
+  "forgotpassword_form_submit": {
+    "other": "Lähtesta"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+    "other": "Sellise e-posti aadressiga kontot ei ole."
+  },
+  "forgotpassword_form_error_account_suspended": {
+    "other": "Konto on peatatud."
+  },
+  "forgotpassword_complete": {
+    "other": "Aitäh! Salasõna lähtestamise e-kiri peaks kohe su postkasti jüudma."
+  },
+  "forgotpassword_form_error_forbidden": {
+    "other": "On toimunud viga."
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "Liiga palju taotlusi. Palun proovi hiljem uuesti."
+  },
+  "resetpassword_page_header": {
+    "other": "Muuda oma salasõna"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+    "other": "Näib, et salasõna lähtestamisel läks midagi valesti. Palun täida <a href=\"{{.URL}}\">salasõna lähtestamise vorm</a> uuesti."
+  },
+  "resetpassword_form_password": {
+    "other": "Uus salasõna"
+  },
+  "resetpassword_form_password2": {
+    "other": "Kinnita uus salasõna"
+  },
+  "resetpassword_form_submit": {
+    "other": "Muuda"
+  },
+  "resetpassword_complete": {
+    "other": "Aitäh! Sinu salasõna on muudetud ja oled sisse logitud."
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+    "other": "Salasõna lähtestamise päring ebaõnnestus. Palun proovi hiljem uuesti."
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+    "other": "Salasõna lähtestamise võti on aegunud. Palun täida salasõna lähtestamise vorm uuesti."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "Liiga palju taotlusi. Palun proovi hiljem uuesti."
+  },
+  "account_page_header": {
+    "other": "Minu konto"
+  },
+  "account_form_name": {
+    "other": "Nimi"
+  },
+  "account_form_email": {
+    "other": "E-posti aadress"
+  },
+  "account_form_password": {
+    "other": "Salasõna"
+  },
+  "account_form_change_password": {
+    "other": "Muuda"
+  },
+  "account_form_gender": {
+    "other": "Sugu"
+  },
+  "account_form_dob": {
+    "other": "Sünniaeg"
+  },
+  "account_form_submit": {
+    "other": "Uuenda"
+  },
+  "account_form_submitted": {
+    "other": "Uuendatud"
+  },
+  "account_form_password_changed": {
+    "other": "Uuendatud"
+  },
+  "account_form_error_incorrect_password": {
+    "other": "Salasõna ei kehti."
+  },
+  "signup_form_optin": {
+    "other": "Liitu uudiskirjaga"
+  },
+  "passwordconfirmation_modal_header": {
+    "other": "Kinnita salasõna"
+  },
+  "passwordconfirmation_modal_label": {
+    "other": "Muudatuste salvestamiseks palun sisesta oma salasõna."
+  },
+  "passwordconfirmation_modal_confirm": {
+    "other": "Kinnita"
+  },
+  "changepassword_modal_header": {
+    "other": "Muuda oma salasõna"
+  },
+  "changepassword_modal_currentpassword": {
+    "other": "Praegune salasõnaa"
+  },
+  "changepassword_modal_password": {
+    "other": "Uus salasõna"
+  },
+  "changepassword_modal_password2": {
+    "other": "Kinnita uus salasõna"
+  },
+  "changepassword_modal_submit": {
+    "other": "Uuenda"
+  },
+  "changepassword_modal_error_incorrect_password": {
+    "other": "Salasõna ei kehti."
+  },
+  "userlibrary_page_header": {
+    "other": "Minu filmid"
+  },
+  "userlibrary_empty_header": {
+    "other": "Otsingu tulemused"
+  },
+  "userlibrary_empty_content": {
+    "other": "Täida nimekiri meie <a href=\"{{.HomeURL}}\">valikust</a>. "
+  },
+  "searchresults_page_header": {
+    "other": "Otsingu tulemused"
+  },
+  "searchresults_load_more": {
+    "other": "Lae {{.Count}} veel"
+  },
+  "searchresults_total": {
+    "one": "Leitud {{.Count}} vastust otsingule \"{{.Query}}\".",
+    "other": "Leitud {{.Count}} vastust otsingule \"{{.Query}}\"."
+  },
+  "searchresults_empty_header": {
+    "other": "Otsingule \"{{.Query}}\" ei leitud vastuseid"
+  },
+  "searchresults_empty_content": {
+    "other": "Proovi uut otsingut või <a href=\"{{.HomeURL}}\">lehitse</a>."
+  },
+  "validation_name_required": {
+    "other": "Palun sisesta oma nimi."
+  },
+  "validation_email_required": {
+    "other": "Palun sisesta oma e-posti aadress."
+  },
+  "validation_email_email": {
+    "other": "Palun sisesta kehtiv e-posti aadress."
+  },
+  "validation_currentpassword_required": {
+    "other": "Palun sisesta praegune salasõna."
+  },
+  "validation_password_required": {
+    "other": "Palun sisesta uus salasõna."
+  },
+  "validation_password2_required": {
+    "other": "Kinnita uus salasõna."
+  },
+  "validation_password2_match": {
+    "other": "Salasõnad on erinevad."
+  },
+  "validation_password_minlength": {
+    "other": "Palun sisesta vähemalt {{.Count}} tähte."
+  },
+  "validation_promocode_required": {
+    "other": "Palun sisesta sooduskood."
+  },
+  "validation_pincode_required": {
+    "other": "Sisestage PIN-kood."
+  },
+  "validation_gender_required": {
+    "other": "Palun vali sulle sobivaim sugu."
+  },
+  "validation_dob_required": {
+    "other": "Palun sisesta oma sünniaeg."
+  },
+  "validation_dob_date": {
+    "other": "Palun sisesta korrektne sünniaeg."
+  },
+  "shopping_info_subtitle_hd": {
+    "other": "HD-video nõudmisel."
+  },
+  "shopping_info_subtitle_sd": {
+    "other": "Tutvu nõuetega süsteemile."
+  },
+  "shopping_info_subtitle_wallet": {
+    "other": "Teie Walletis olevaid vahendeid võib kasutada ScreenPlusis mis tahes sisu ostmiseks või rentimiseks."
+  },
+  "shopping_info_subtitle_help": {
+    "other": "Tutvu süsteeminõuetega."
+  },
+  "shopping_info_ownership_buy": {
+    "other": "ost"
+  },
+  "shopping_info_ownership_rent": {
+    "other": "pilet"
+  },
+  "shopping_info_sd_only": {
+    "other": "Piiratud ainult SD taasesitusega."
+  },
+  "shopping_info_release_date_title": {
+    "other": "Film on vaadatav alates {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation_rent": {
+    "other": "Pileti võid osta juba praegu, kuid film avaneb antud kuupäeval."
+  },
+  "shopping_info_release_date_explanation_buy": {
+    "other": "Pileti võid osta juba praegu, kuid film avaneb antud kuupäeval."
+  },
+  "shopping_info_available_until_date_title": {
+    "other": "Vaadatav kuni {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+    "other": "Pärast antud kuupäeva ei saa filmi enam vaadata."
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+    "other": "Pärast antud kuupäeva ei saa filmi enam vaadata."
+  },
+  "duration_hour": {
+    "one": "1 tund",
+    "other": "{{.Count}} tundi"
+  },
+  "duration_day": {
+    "one": "1 päev",
+    "other": "{{.Count}} päeva"
+  },
+  "shopping_info_rental_period_duration": {
+    "other": "Pilet kehtib {{.ValueUnit}} "
+  },
+  "shopping_info_watch_window_duration": {
+    "other": "{{.Count}} tunnine vaatamise periood. "
+  },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "Pärast pileti ostmist on film sinu kontol vaadatav {{.ValueUnit}} jooksul. ",
+    "other": "Pärast pileti ostmist on film sinu kontol vaadatav {{.ValueUnit}} jooksul. "
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "one": "Kui vajutad 'Vaata', algab filmi esitamine ja sul on aega 30 tundi, et film lõpuni vaadata.",
+    "other": "Kui vajutad 'Vaata', on sul on aega {{.Count}} tundi, et film lõpuni vaadata."
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "one": "Pärast pileti ostmist on sinu kogumiku filmid sinu kontol vaatamiseks ühe päeva. ",
+    "other": "Pärast pileti ostmist on sinu kogumiku filmid sinu kontol vaatamiseks {{.Count}} päeva. "
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "one": "Kui vajutad 'Vaata', on sul on aega {{.Count}} tundi, et film lõpuni vaadata.",
+    "other": "Kui vajutad 'Vaata', on sul on aega {{.Count}} tundi, et filmid lõpuni vaadata."
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "one": "Pärast pileti ostmist on hooaeg sinu kontol vaatamiseks ühe päeva. ",
+    "other": "Pärast pileti ostmist on hooaeg sinu kontol vaatamiseks {{.Count}} päeva. "
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "one": "Kui vajutad 'Vaata', on sul on aega 30 tundi, et filmid lõpuni vaadata.",
+    "other": "Kui vajutad Play / Mängi konkreetse episoodi aknas, algab esitamine ja sul on {{.Count}} tundi episoodi vaatamiseks."
+  },
+  "shopping_info_credit_bonus_title": {
+    "other": "{{.BonusPercentage}}% Boonus"
+  },
+  "shopping_enter_card_prompt": {
+    "other": "Sisesta oma krediitkaardi andmed, et lõpetada {{.Verb}}."
+  },
+  "shopping_terms": {
+    "other": "Tehingu lõpetamisel nõustud <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">kasutustingimustega</a>."
+  },
+  "shopping_discount_applied": {
+    "other": "{{.DiscountAmount}} soodustus on rakendatud."
+  },
+  "shopping_discount_apply": {
+    "other": "Rakenda"
+  },
+  "shopping_discount_code": {
+    "other": "Sisesta sooduskood."
+  },
+  "shopping_discount_have_code": {
+    "other": "Mul on sooduskood"
+  },
+  "shopping_price_you_pay": {
+    "other": "Sina maksad"
+  },
+  "shopping_price_nothing": {
+    "other": "Mitte midagi"
+  },
+  "shopping_price_free": {
+    "other": "Tasuta"
+  },
+  "shopping_auth_directions": {
+    "other": "Vajalik on konto olemasolu. Palun sisesta oma e-posti aadress."
+  },
+  "shopping_error_in_library": {
+    "other": "{{.Title}} on juba sinu filmide hulgas."
+  },
+  "shopping_error_missing_card": {
+    "other": "Palun sisesta oma krediitkaardi andmed."
+  },
+  "shopping_error_title": {
+    "other": "Juhtus viga. "
+  },
+  "shopping_error_incorrect_cvc": {
+    "other": "Palun sisesta kehtiv CVC."
+  },
+  "shopping_error_invalid_cvc": {
+    "other": "Palun sisesta kehtiv CVC."
+  },
+  "shopping_error_incorrect_number": {
+    "other": "Palun sisesta kehtiv krediitkaardi number."
+  },
+  "shopping_error_invalid_number": {
+    "other": "Palun sisesta kehtiv krediitkaardi number."
+  },
+  "shopping_error_card_declined": {
+    "other": "Krediitkaart on tagasi lükatud."
+  },
+  "shopping_error_invalid_expiry_month": {
+    "other": "Palun sisesta kehtiv aegumise tähtaeg."
+  },
+  "shopping_error_invalid_expiry_year": {
+    "other": "Palun sisesta kehtiv aegumise tähtaeg."
+  },
+  "shopping_error_expired_card": {
+    "other": "Krediitkaart on aegunud."
+  },
+  "shopping_error_creditcard_country_mismatch": {
+    "other": "Sinu {{.Ownership}} ei ole lõpule viidud. Sa pead asuma samas riigis, kus krediitkaart on väljastatud. Palun kasuta maksmiseks teist krediitkaarti."
+  },
+  "shopping_error_proxy_detected": {
+    "other": "Sinu {{.Ownership}} ei ole lõpule viidud. Oleme tuvastanud, et sa kasutad proxy teenust või unblockerit. Palun sulge need teenused ja proovi uuesti."
+  },
+  "shopping_error_discount_worn_out": {
+    "other": "Seda sooduskoodi ei saa enam kasutada."
+  },
+  "shopping_error_discount_blank": {
+    "other": "Palun sisesta sooduskood."
+  },
+  "shopping_error_discount_not_applied": {
+    "other": "Palun sisesta kehtiv sooduskood."
+  },
+  "shopping_error_discount_invalid": {
+    "other": "Palun sisesta kehtiv sooduskood."
+  },
+  "shopping_error_discount_disabled": {
+    "other": "Palun sisesta kehtiv sooduskood."
+  },
+  "shopping_error_discount_already_applied": {
+    "other": "Sooduskood on selle sessiooni jaoks juba kasutatud."
+  },
+  "shopping_error_discount_already_redeemed": {
+    "other": "Sooduskood on juba kasutatud."
+  },
+  "shopping_error_discount_used_previously": {
+    "other": "Sooduskood on juba kasutatud."
+  },
+  "shopping_error_discount_max_limit": {
+    "other": "Sooduskoodi ei saa enam kasutada."
+  },
+  "shopping_error_discount_expired": {
+    "other": "Sooduskood on aegunud."
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+    "other": "Sooduskoodi ei saa ostu juures kasutada."
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+    "other": "Sooduskoodi ei saa ostu juures kasutada."
+  },
+  "shopping_error_discount_invalid_item": {
+    "other": "Sooduskoodi ei saa antud toote juures kasutada."
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+    "other": "Sooduskoodi ei saa sinu riigis kasutada."
+  },
+  "shopping_error_discounts_not_allowed": {
+    "other": "Sooduskoodi ei saa kasutada."
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+    "other": "Sooduskoodi ei saa kogumike juures kasutada."
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+    "other": "Krediitkaart on tagasi lükatud. Palun proovi uuesti."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Teie kaarti ei toetata."
+  },
+  "shopping_complete_rental": {
+    "other": "Õnnestus!"
+  },
+  "shopping_complete_rental_period": {
+    "one": "Sul on nüüd aega 30 tundi, et film lõpuni vaadata.",
+    "other": "Alusta filmi vaatamisega {{.Count}} päeva jooksul."
+  },
+  "shopping_complete_purchase": {
+    "other": "Täname, et ostsid {{.Title}}."
+  },
+  "shopping_complete_credit_purchase": {
+    "other": "Täname, et ostsid {{.Title}}, {{.CreditTotal}} lisati sinu kontole."
+  },
+  "shopping_complete_purchase_coming_soon": {
+    "other": "Saad hakata filmi vaatama alates {{.Date}}."
+  },
+  "shopping_complete_receipt": {
+    "other": "Makse kinnitus saadeti sinu e-posti aadressile."
+  },
+  "shopping_complete_library_link": {
+    "other": "Saad nüüd kogumikus olevaid filme vaatama hakata."
+  },
+  "shopping_complete_plan": {
+    "other": "Teie ost {{.Title}} oli edukas."
+  },
+  "shopping_complete_rental_watch_window_start": {
+    "one": "Saad filmi vaatamist alustada {{.Count}} päeva jooksul.",
+    "other": "Alusta filmi vaatamisega {{.Count}} päeva jooksul."
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "one": "Pärast filmi esitamise algust on sul aega 30 tundi, et film lõpuni vaadata.",
+    "other": "Pärast filmi esituse alustamist on sul aega {{.Count}} tundi selle lõpuni vaatamiseks."
+  },
+  "shopping_complete_rental_coming_soon": {
+    "one": "Saad filmi vaadata alates {{.Date}} ja sinu pilet kehtib üks päev.",
+    "other": "Saad filmi vaadata alates {{.Date}} ja sinu pilet on aktiivne {{.Count}} päeva."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "one": "Saad filmi vaadata alates {{.Date}} ja sinu pilet kehtib üks päev.",
+    "other": "Saad filmi vaadata alates {{.Date}} ja sinu pilet on aktiivne {{.Count}} päeva."
+  },
+  "shopping_action_rent": {
+    "other": "Osta pilet"
+  },
+  "shopping_action_buy": {
+    "other": "Osta"
+  },
+  "meta_detail_cast_title": {
+    "other": "Osades"
+  },
+  "meta_detail_crew_title": {
+    "other": "Meeskond"
+  },
+  "meta_detail_languages": {
+    "one": "Keeled",
+    "other": "Keeled"
+  },
+  "meta_detail_studios": {
+    "one": "Stuudiod",
+    "other": "Stuudiod"
+  },
+  "meta_detail_countries": {
+    "one": "Riigid",
+    "other": "Riigid"
+  },
+  "meta_detail_subtitles": {
+    "other": "Subtiitrid"
+  },
+  "meta_detail_captions": {
+    "other": "Subtiitrid [CC]"
+  },
+  "meta_detail_episodes_title": {
+    "other": "Episoodid"
+  },
+  "meta_detail_bonus_title": {
+    "other": "Lisasisu"
+  },
+  "meta_detail_recommendations_title": {
+    "other": "Sulle võib veel meeldida"
+  },
+  "meta_detail_bundle_items_title": {
+    "other": "Kogumik sisaldab"
+  },
+  "bundle_items_all_films": {
+    "other": "{{.Count}} filmi"
+  },
+  "bundle_items_all_seasons": {
+    "other": "{{.Count}} hooaega"
+  },
+  "bundle_items_mixed": {
+    "other": "{{.Count}} filmi ja hooaega"
+  },
+  "userwishlist_page_header": {
+    "other": "Minu nimekiri"
+  },
+  "userwishlist_slider_header": {
+    "other": "Minu nimekiri"
+  },
+  "userwishlist_empty_header": {
+    "other": "Sinu nimekiri on tühi."
+  },
+  "userwishlist_empty_content": {
+    "other": "Täida see <a href=\"{{.HomeURL}}\">meie valikust</a>."
+  },
+  "userwishlist_button_add": {
+    "other": "Lisa minu nimekirja"
+  },
+  "userwishlist_button_remove": {
+    "other": "Eemalda minu loendist"
+  },
+  "userwishlist_button_add_compact": {
+    "other": "Minu nimekiri"
+  },
+  "userwishlist_button_remove_compact": {
+    "other": "Minu nimekiri"
+  },
+  "activatedevice_page_header": {
+    "other": "Aktiveeri Seade"
+  },
+  "activatedevice_page_content": {
+    "other": "PIN-koodi saamiseks järgige seadmes kuvatavaid juhiseid. Aktiveerimiseks peavad teie arvuti ja seade olema Internetiga ühendatud."
+  },
+  "activatedevice_form_pin": {
+    "other": "PIN-koodi"
+  },
+  "activatedevice_form_submit": {
+    "other": "Aktiveerige"
+  },
+  "activatedevice_form_error_invalid_code": {
+    "other": "PIN-koodi ei leitud, proovige uuesti."
+  },
+  "activatedevice_form_error_pin_not_found": {
+    "other": "PIN-koodi ei leitud, proovige uuesti."
+  },
+  "activatedevice_signin_prompt": {
+    "other": "Enne seadme aktiveerimist logige sisse."
+  },
+  "activatedevice_page_activated": {
+    "other": "Täname teid seadme {{.DeviceName}} aktiveerimise eest. Nüüd peaksite saama oma kogu oma teleris või seadmes sirvida."
+  },
+  "userdevices_page_header": {
+    "other": "Seadmed"
+  },
+  "userdevices_page_content": {
+    "one": "Seade lisatakse selle kasutamisel automaatselt. Seadmete hulka võib kuuluda kuni {{.Count}} seadet.",
+    "other": "Seade lisatakse selle kasutamisel automaatselt. Seadmete hulka võib kuuluda kuni {{.Count}} seadet."
+  },
+  "userdevices_empty_content": {
+    "other": "Sul on registreeritud 0 seadet."
+  },
+  "userdevices_header_type": {
+    "other": "Seadme tüüp"
+  },
+  "userdevices_header_description": {
+    "other": "Kirjeldus"
+  },
+  "userdevices_device_added": {
+    "other": "Lisatud {{.Date}}"
+  },
+  "userdevices_device_actions_delete": {
+    "other": "Eemalda"
+  },
+  "userdevices_device_actions_cancel": {
+    "other": "Tühista"
+  },
+  "userdevices_device_actions_confirm": {
+    "other": "Jah, eemalda seade"
+  },
+  "userdevices_device_deleted": {
+    "other": "(Eemaldatud)"
+  },
+  "playlist_page_header": {
+    "other": "Esitusloend"
+  },
+  "playlist_sign_in_warning": {
+    "other": "Teleri otseülekande vaatamiseks logige sisse."
+  },
+  "playlist_share_title": {
+    "other": "Esitusloend"
+  },
+  "playlist_up_next_title": {
+    "other": "Järgmisena"
+  },
+  "pricing_ownership_buy": {
+    "other": "Osta"
+  },
+  "pricing_ownership_rent": {
+    "other": "Osta pilet"
+  },
+  "classification_intro": {
+    "other": "Jaotus: "
+  },
+  "classification_divider": {
+    "other": " - "
+  },
+  "classification_outro": {
+    "other": ""
+  },
+  "cookie_banner_message": {
+    "other": "Kasutuskogemuse parandamiseks kasutab see leht küpsiseid. Lehte edasi kasutades nõustud <a href=\"{{.CookiePolicyURL}}\">küpsiste kasutamisega</a>."
+  },
+  "cookie_banner_accept": {
+    "other": "Nõustu"
+  },
+  "all_rights_reserved": {
+    "other": "Kõik õigused kaitstud. Ühtegi selle saidi osa ei tohi reprodutseerida ilma meie kirjaliku loata."
+  },
+  "users_gender_none": {
+    "other": "Määramata"
+  },
+  "users_gender_female": {
+    "other": "Naine"
+  },
+  "users_gender_male": {
+    "other": "Mees"
+  },
+  "users_gender_diverse": {
+    "other": "Sooneutraalne"
+  },
+  "users_gender_other": {
+    "other": "Muu"
+  },
+  "pricing_quality_hd": {
+    "other": "HD"
+  },
+  "pricing_quality_sd": {
+    "other": "SD"
+  },
+  "pricing_quality_hd_only": {
+    "other": "Ainult HD"
+  },
+  "pricing_quality_sd_only": {
+    "other": "Ainult SD"
+  },
+  "shopping_card_save_card": {
+    "other": "Hoidke see kaart edaspidiseks kasutamiseks alles"
+  },
+  "shopping_card_button_change": {
+    "other": "Kuva kõik salvestatud kaardid"
+  },
+  "shopping_card_existing_description": {
+    "other": "{{.Card.Brand}}, mis lõpeb numbritega {{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+    "other": "(Aegub {{.Card.Expiry}})"
+  },
+  "shopping_card_existing_expired": {
+    "other": "(aegunud)"
+  },
+  "shopping_card_use_other": {
+    "other": "Lisa uus kaart"
+  },
+  "shopping_card_use_new_card": {
+    "other": "Vaheta kaarti"
+  },
+  "shopping_info_ownership_plan": {
+    "other": "Plaan"
+  },
+  "shopping_action_credit": {
+    "other": "Täida"
+  },
+  "shopping_info_rental_period_coming_soon": {
+    "other": "alates avaldamise kuupäevast ja kellaajast."
+  },
+  "usersubscriptions_change_payment_method_change": {
+    "other": "Muuda krediitkaarti"
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+    "other": "Värskendage krediitkaardi andmeid"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "Värskenda"
+  },
+  "usersubscriptions_subscription_expiry": {
+    "other": "Aegub {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Tühistatud"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Tähtaeg ületatud"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "Prooviperiood"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+    "other": "Tühista minu tellimus"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+    "other": "Ei aitäh"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+    "other": "Jah, tühista"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+    "other": "Kas tühistada tellimus?"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+    "other": "See tühistab {{.Name}} tellimuse. Saate sisu endiselt vaadata, kuni see aegub {{.Expiry}}."
+  },
+  "shopping_card_update_reason_none": {
+    "other": "Värskendage oma krediitkaarti. Toetatud kaardid on Visa, Mastercard ja American Express."
+  },
+  "availability_coming_soon": {
+    "other": "Tulemas"
+  },
+  "availability_renting": {
+    "other": "Pilet ostetud"
+  },
+  "availability_not_available": {
+    "other": "Pole saadaval"
+  },
+  "availability_in_watch_window": {
+    "other": "Saadaval"
+  },
+  "availability_sold_out": {
+    "other": "Välja müüdud"
+  },
+  "availability_available_till": {
+    "other": "Saadaval kuni {{.ExpiryDate}}"
+  },
+  "availability_not_available_in_country": {
+    "other": "Pole saadaval"
+  },
+  "availability_available": {
+    "other": "Saadaval {{.ReleaseDate}}"
+  },
+  "modal_cancel": {
+    "other": "Tühista"
+  },
+  "play": {
+    "other": "Mängi"
+  },
+  "combined_auth_signin_prompt": {
+    "other": "Logi sisse"
+  },
+  "combined_auth_signup_prompt": {
+    "other": "Loo konto"
+  },
+  "combined_auth_terms": {
+    "other": "Nõustun kõigi <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">kasutustingimustega</a>."
+  },
+  "signup_terms": {
+    "other": "Nõustun kõigi <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">kasutustingimustega</a>."
+  },
+  "validation_terms_required": {
+    "other": "Sa pead nõustuma kasutustingimustega."
+  },
+  "shopping_error_item_limit_exceeded": {
+    "other": "Kahjuks on {{.Title}} välja müüdud."
+  },
+  "availability_expires": {
+    "other": "Aegub {{.Expiry}}"
+  },
+  "shopping_card_change": {
+    "other": "Kas krediitkaart pole õige? <a href=\"{{.SubscriptionsURL}}\">Kaardi värskendamiseks klõpsake siin.</a>"
+  },
+  "user_error_too_many_pin_errors": {
+    "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>"
+  },
+  "app_badge_title": {
+    "other": "Ostetud sisu vaatamiseks laadige rakendus alla!"
+  },
+  "app_badge_ios": {
+    "other": "Laadige alla App Store'ist"
+  },
+  "app_badge_android": {
+    "other": "Hankige see Google Playst"
+  },
+  "shopping_price_title_plan": {
+    "other": "Hind"
+  },
+  "shopping_price_plan_note": {
+    "one": "Tasu võetakse iga {{.Interval}} järel pärast 24-tunnise tasuta prooviperioodi lõppu.",
+    "other": "Tasu võetakse iga {{.Interval}} järel pärast teie {{.Count}}-päevase tasuta prooviperioodi lõppu."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Tasu võetakse iga {{.Interval}} järel."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Tellimuse alustamiseks sisestage allpool oma krediitkaardi andmed."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Plaani alustamiseks sisestage allpool oma krediitkaardi andmed."
+  },
+  "shopping_action_plan": {
+    "other": "Täielik"
+  },
+  "shopping_complete_subscription": {
+    "other": "Teie tellimuse ostmine õnnestus. Olete nüüd {{.Title}} tellinud."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "<a href=\"/\">Sirvige</a> saiti või <a href=\"/search.html\">otsige</a> midagi konkreetset."
+  },
+  "shopping_info_plan_offer": {
+    "one": "{{.Interval}} automaatselt iga .intervall",
+    "other": "{{.Count}} automaatselt iga {{.Interval}}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Proovige oma tasuta 24-tunnist prooviperioodi kohe!",
+    "other": "Proovige oma tasuta {{.Count}} päevast prooviversiooni!"
+  },
+  "plans_page_header": {
+    "other": "Saadaolevad plaanid"
+  },
+  "plan_label_owned": {
+    "other": "See plaan kuulub teile"
+  },
+  "plan_expiry_date": {
+    "other": "Müük suletakse:"
+  },
+  "plan_read_more": {
+    "other": "Leia rohkem"
+  },
+  "plan_page_read_more": {
+    "other": "Loe rohkem"
+  },
+  "plan_page_header_text": {
+    "other": "Nautige {{.Name}}"
+  },
+  "page_plan_explore_intro": {
+    "other": "VÕI"
+  },
+  "page_plan_explore_link": {
+    "other": "Uurige rohkem"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Osta kohe"
+  },
+  "plan_free_link_text": {
+    "other": "Registreeru tasuta"
+  },
+  "awards_in_competition": {
+    "other": "Võistluses"
+  },
+  "awards_winner": {
+    "other": "Võitja"
+  },
+  "donate_button_text": {
+    "other": "Anneta"
+  },
+  "wcag_skip_links_header": {
+    "other": "Juurdepääsetavuse lingid"
+  },
+  "wcag_skip_links_content": {
+    "other": "Jätke sisu juurde"
+  },
+  "wcag_homepage_h1": {
+    "other": "Koduleht"
+  },
+  "wcag_carousel_h2": {
+    "other": "Karussell"
+  },
+  "wcag_collections_h2": {
+    "other": "Kollektsioonid"
+  },
+  "wcag_aria_label_footer": {
+    "other": "Jalus"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "Peamine"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "Sub"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "Lülitage navigeerimine sisse"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "Komplekti esemed"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "Karussell"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Leheküljed"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "Lehekülje kollektsioon"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "Kollektsioonide loend"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "Kogumise liugur"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "Soovinimekiri"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "Jaga Facebook"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "Jaga Twitter"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "Jagage LinkedIn"
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "Vaata Letterboxd"
+  },
+  "shopping_error_plan_already_owned": {
+    "other": "See plaan on teil juba olemas."
+  },
+  "shopping_error_plan_expired": {
+    "other": "See plaan pole enam saadaval."
+  },
+  "shopping_payment_method_header": {
+    "other": "Makseviisid"
+  },
+  "shopping_payment_method_credit_card": {
+    "other": "Krediitkaart"
+  },
+  "shopping_payment_method_giropay": {
+    "other": "Giropay"
+  },
+  "shopping_error_stripe_unknown_error": {
+    "other": "Selle maksega läks midagi valesti. Palun proovi hiljem uuesti."
+  },
+  "shopping_error_payment_complete_failed": {
+    "other": "Makse lükati tagasi. Sulgege see aken ja proovige uuesti."
+  },
+  "header_banner": {
+    "other": "ABC Cinemas – 21. filmifestival, 1.–6. juuni 2021"
+  },
+  "account_form_pin_code": {
+    "other": "PIN-kood"
+  },
+  "account_form_pin_code_not_set": {
+    "other": "Teil ei ole määratud PIN-koodi, mida on vaja mõne pealkirja ostmiseks, laenutamiseks ja vaatamiseks."
+  },
+  "account_form_set_pin": {
+    "other": "Määra PIN"
+  },
+  "account_form_pin_changed": {
+    "other": "Uuendatud"
+  },
+  "account_form_change_pin": {
+    "other": "Muuda PIN-koodi"
+  },
+  "user_set_pin_header": {
+    "other": "Määrake oma PIN-kood"
+  },
+  "user_set_pin_button": {
+    "other": "Määra PIN"
+  },
+  "user_submit_pin_heading": {
+    "other": "Sisestage selle piiratud sisu {{.Action}} PIN-kood"
+  },
+  "user_error_wrong_pin_retry": {
+    "other": "Oih, sisestasite vale PIN-koodi"
+  },
+  "user_submit_pin_button": {
+    "other": "Sisenema"
+  },
+  "user_reset_pin_button": {
+    "other": "Lähtestage PIN-kood"
+  },
+  "validation_pincode1_required": {
+    "other": "Sisestage kehtiv PIN-kood."
+  },
+  "validation_pincode2_required": {
+    "other": "Sisestage kehtiv PIN-kood."
+  },
+  "validation_pincode1_pattern": {
+    "other": "Sisestage kehtiv PIN-kood."
+  },
+  "validation_pincode2_pattern": {
+    "other": "Sisestage kehtiv PIN-kood."
+  },
+  "validation_pincode2_match": {
+    "other": "PIN-kood ei ühti."
+  },
+  "userdevices_delete_limits": {
+    "other": "Saate sellest loendist eemaldada {{.Limit}} seadet iga {{.Period}} päeva järel."
+  },
+  "userdevices_delete_limit_reached": {
+    "other": "Olete jõudnud selle limiidini ja te ei saa praegu ühtegi seadet eemaldada. Saate seadme kustutada {{.Days}} päeva pärast."
+  },
+  "shopping_card_new_subscription": {
+    "other": "Seda kaarti salvestatakse ja selle eest võetakse regulaarselt tasu"
+  },
+  "changepincode_modal_header": {
+    "other": "Muutke oma PIN-koodi"
+  },
+  "changepincode_modal_currentpassword": {
+    "other": "Teie praegune parool"
+  },
+  "changepincode_modal_pincode1": {
+    "other": "Teie uus 4-kohaline PIN-kood"
+  },
+  "changepincode_modal_pincode2": {
+    "other": "Kinnitage oma uus 4-kohaline PIN-kood"
+  },
+  "changepincode_modal_submit": {
+    "other": "Määra PIN"
+  },
+  "changepincode_modal_error_wrong_password": {
+    "other": "See parool on vale."
+  },
+  "user_set_pin_intro": {
+    "other": "Piiratud sisu {{.Action}} jaoks vajate PIN-koodi"
+  },
+  "user_error_wrong_pin_reset": {
+    "other": "PIN-koodi lähtestamiseks klõpsake siin"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+    "other": ""
+  },
+  "shopping_error_age_restricted": {
+    "other": "Sellel sisul on vanusepiirang."
+  },
+  "shopping_error_close_button": {
+    "other": "Okei"
+  },
+  "availability_expired": {
+    "other": "Aegunud"
+  },
+  "meta_description_expand": {
+    "other": "Näe rohkem"
+  },
+  "meta_description_collapse": {
+    "other": "Vaadake vähem"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Tellimused ja arveldamine"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Makseviis"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Teie krediitkaardimaksemeetodi muudatused jõustuvad teie järgmisel arveldustsüklil."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Tellimuse üksikasjad"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktiivne"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Aegunud"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Avastage tellimusi"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Avastage suurepärast sisu suurepäraste hindadega, mida siin on lihtne hallata."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Uurige tellimusi"
+  },
+  "nav_subscriptions": {
+    "other": "Minu tellimused"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Esimene makse {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Järgmine makse {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Maksetähtaeg {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Lõpeb {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Lõppenud {{.Expiry}}"
+  },
+  "sponsor_image_alt": {
+    "other": "sponsori logo"
+  },
+  "subscribe_to_watch": {
+    "other": "Tellige vaatamiseks"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} üksused"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Värskendage oma krediitkaarti. Toetatud kaardid on Visa, Mastercard ja American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Koodi rakendamine õnnestus."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Sisestage kehtiv sooduskood."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Nüüd saate vaadata {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Lunastama"
+  },
+  "pricing_ownership_promo": {
+    "other": "Lunastama"
+  },
+  "subscription_cta_label": {
+    "other": "Telli {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "aasta",
+    "other": "{{.Count}} Aastaid"
+  },
+  "subscription_recurrence_month": {
+    "one": "Kuu",
+    "other": "{{.Count}} Kuud"
+  },
+  "subscription_recurrence_week": {
+    "one": "Nädal",
+    "other": "{{.Count}} Nädalad"
+  },
+  "subscription_recurrence_day": {
+    "one": "päev",
+    "other": "{{.Count}} Päevad"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Tellimus"
+  },
+  "something_bad_happened": {
+    "other": "Palun proovi uuesti"
+  },
+  "stripe_card_not_supported": {
+    "other": "Teie kaarti ei toetata."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Otsing"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Otsi"
+  },
+  "shopping_info_plan_interval": {
+    "one": "{{.Interval}} automaatselt iga .intervall",
+    "other": "{{.Count}} automaatselt iga {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Proovige oma tasuta 24-tunnist prooviperioodi kohe!",
+    "other": "Proovige oma tasuta {{.Count}} päevast prooviversiooni!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Tellimused ja arveldamine"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Tasumata"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Tühistamine"
+  },
+  "interval_day": {
+    "one": "päeval",
+    "other": "päevadel"
+  },
+  "interval_week": {
+    "one": "nädal",
+    "other": "nädalaid"
+  },
+  "interval_month": {
+    "one": "kuu",
+    "other": "kuud"
+  },
+  "interval_year": {
+    "one": "aastal",
+    "other": "aastat"
+  },
+  "shopping_error_processing_error": {
+    "other": "Teie kaardi töötlemisel ilmnes viga. Proovige hiljem uuesti või mõne muu makseviisiga."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Osteseanss aegus, proovige uuesti."
+  },
+  "live_stream_starts": {
+    "other": "Voog käivitub {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Voogesitus praegu"
+  },
+  "live_streaming_ended": {
+    "other": "Voog lõppes"
+  },
+  "availability_live": {
+    "other": "LIVE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Hankige pilet"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Selle ostu või rentimise jaoks ei saa te sooduskoodi kasutada"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "See sooduskood ei kehti veel"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Sooduskoode ei saa tasuta ostuseanssidele rakendada"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Kui ost on lõpetatud, ei saa sooduskoode rakendada"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Sooduskoodi ei saanud rakendada, proovige uuesti"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Kehtetu sooduskood"
+  },
+  "shopping_error_missing_code": {
+    "other": "Sooduskoodi ei antud"
+  },
+  "live_label_ended": {
+    "other": "OTSE: LÕPPENUD"
+  },
+  "live_label_live": {
+    "other": "OTSE"
+  },
+  "live_label_minutes": {
+    "one": "OTSE: 1 MINUT",
+    "other": "OTSE: {{.Count}} MINUTID"
+  },
+  "live_label_hours": {
+    "one": "OTSE: 1 TUND",
+    "other": "OTSE: {{.Count}} TUNNID"
+  },
+  "live_label_days": {
+    "one": "OTSE: 1 PÄEV",
+    "other": "OTSE: {{.Count}} PÄEVAD"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Otseülekanne"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "See on otseülekanne. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Pileti saate osta kohe, kuid peate vaatama otseülekannet."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Peate vaatama otseülekannet."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "See sündmus on praegu otse-eetris. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Voog lõpeb {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Pärast seda ei saa te otseülekannet vaadata."
+  },
+  "shopping_action_ticket": {
+    "other": "Hankige pilet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Voog algab {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "See algas kell {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Te ei saa seda tagasi kerida."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Teie kaardi aegumiskuupäev on minevik."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Teie kaardi aegumisaasta on möödas."
+  }
+}

@@ -1,0 +1,1496 @@
+{
+  "settings_title": {
+    "other": "Settings"
+  },
+  "powered_by": {
+    "other": "Powered by"
+  },
+  "powered_by_name": {
+    "other": "ScreenPlus"
+  },
+  "powered_by_url": {
+    "other": "https://www.screenplus.com"
+  },
+  "in_partnership_with": {
+    "other": "in partnership with"
+  },
+  "festival_scope": {
+    "other": "Festival Scope"
+  },
+  "festival_scope_url": {
+    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
+  },
+  "en": {
+    "other": "English"
+  },
+  "fr": {
+    "other": "French"
+  },
+  "episode_name": {
+    "other": "シーズン"
+  },
+  "season_name": {
+    "other": "エピソード"
+  },
+  "date_day": {
+    "other": "日"
+  },
+  "date_month": {
+    "other": "月"
+  },
+  "date_year": {
+    "other": "年"
+  },
+  "404_page_header": {
+    "other": "このページは存在しません…"
+  },
+  "404_page_content": {
+    "other": "<p>お探しのページは存在しないようです。移 動もしくは削除されたか、入力間違いかも しれません。ホーム画面でページを探して みてください。</p><p><a href=\"/\">ホーム 画面に戻る</a></p>"
+  },
+  "nav_signin": {
+    "other": "サインイン"
+  },
+  "nav_signup": {
+    "other": "アカウント登録"
+  },
+  "nav_signed_in_as": {
+    "other": "サインイン中"
+  },
+  "nav_library": {
+    "other": "マイライブラリー"
+  },
+  "nav_devices": {
+    "other": "マイデバイス"
+  },
+  "nav_wishlist": {
+    "other": "マイリスト"
+  },
+  "nav_account": {
+    "other": "マイアカウント"
+  },
+  "nav_signout": {
+    "other": "サインアウト"
+  },
+  "play_trailer": {
+    "other": "予告編"
+  },
+  "runtime_hours": {
+    "other": "時間"
+  },
+  "runtime_minutes": {
+    "other": "分"
+  },
+  "datetime_today": {
+    "other": "本日 {{.Date}}"
+  },
+  "datetime_tomorrow": {
+    "other": "明日 {{.Date}}"
+  },
+  "datetime_yesterday": {
+    "other": "昨日 {{.Date}}"
+  },
+  "datetime_next": {
+    "other": "{{.Date}}"
+  },
+  "datetime_last": {
+    "other": "最終 {{.Date}}"
+  },
+  "search_control_placeholder": {
+    "other": "検索"
+  },
+  "search_control_submit": {
+    "other": "検索する"
+  },
+  "play_button_watch": {
+    "other": "今見る"
+  },
+  "play_button_resume": {
+    "other": "続きから見る"
+  },
+  "social_media_buttons_title": {
+    "other": "共有"
+  },
+  "social_media_buttons_facebook": {
+    "other": "Facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "メール"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "リンクシェア"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "リンクがコピーされました"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "リンクをコピーする"
+  },
+  "accept_invite_page_header": {
+    "other": "ようこそ "
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+    "other": "すでに招待リクエスト済みですので、サインインしてください。"
+  },
+  "acceptinvite_complete": {
+    "other": "ありがとうございます。アカウント登録は完了しました。"
+  },
+  "acceptinvite_form_submit": {
+    "other": "招待を受け取る"
+  },
+  "acceptinvite_agreement": {
+    "other": "「招待を受け取る」をクリックすること で、<a href=\"/page/terms-and-conditions/\" target=\"_blank\">利用規約</a>と<a href=\"/page/privacy/\" target=\"_blank\">プラ イベートポリシー</a>を確認・同意したと みなします。"
+  },
+  "signup_page_header": {
+    "other": "アカウントを新規作成する"
+  },
+  "signup_form_name": {
+    "other": "名前"
+  },
+  "signup_form_email": {
+    "other": "Eメールアドレス"
+  },
+  "signup_form_password": {
+    "other": "パスワード"
+  },
+  "signup_form_password_confirmation": {
+    "other": "パスワード再確認"
+  },
+  "signup_form_gender": {
+    "other": "性別"
+  },
+  "signup_form_dob": {
+    "other": "生年月日"
+  },
+  "signup_form_submit": {
+    "other": "送信"
+  },
+  "signin_page_header": {
+    "other": "サインイン"
+  },
+  "signin_form_email": {
+    "other": "Eメールアドレス"
+  },
+  "signin_form_password": {
+    "other": "パスワード"
+  },
+  "signin_form_remember": {
+    "other": "ログイン情報を記憶する"
+  },
+  "signin_form_submit": {
+    "other": "送信"
+  },
+  "signin_page_forgotpassword": {
+    "other": "パスワードを忘れましたか？"
+  },
+  "signin_page_createnewaccount": {
+    "other": "アカウント登録がお済みでない方は初めに登録してください。"
+  },
+  "signup_page_alreadyhaveanaccount": {
+    "other": "アカウントをお持ちの方はサインインしてください。"
+  },
+  "signup_form_error_email_already_in_use": {
+    "other": "このEメールアドレスは登録済みです。"
+  },
+  "signin_form_error_incorrect_credentials": {
+    "other": "ユーザー名とパスワードが間違っています。"
+  },
+  "signup_form_error_forbidden": {
+    "other": "エラーが発生しました。"
+  },
+  "combined_auth_continue": {
+    "other": "続ける"
+  },
+  "combined_auth_change": {
+    "other": "変更する"
+  },
+  "combined_auth_signin": {
+    "other": "サインイン"
+  },
+  "combined_auth_signup": {
+    "other": "アカウントを作成する"
+  },
+  "combined_auth_signin_password": {
+    "other": "パスワードを入力してサインインする。"
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+    "other": "このパスワードは不正です。"
+  },
+  "combined_auth_error_forbidden": {
+    "other": "エラーが発生しました。"
+  },
+  "combined_auth_error_too_many_requests": {
+    "other": "要求が多すぎます。あとで言ってください。"
+  },
+  "forgotpassword_page_header": {
+    "other": "パスワードをリセットする"
+  },
+  "forgotpassword_form_email": {
+    "other": "Eメールアドレス"
+  },
+  "forgotpassword_form_submit": {
+    "other": "リセット"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+    "other": "このEメールアドレスと一致するアカウントは存在しません。"
+  },
+  "forgotpassword_form_error_account_suspended": {
+    "other": "このアカウントは停止中です。"
+  },
+  "forgotpassword_complete": {
+    "other": "ありがとうございます。パスワード再登録の案内メールをお送りしました。"
+  },
+  "forgotpassword_form_error_forbidden": {
+    "other": "エラーが発生しました。"
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "要求が多すぎます。あとで言ってください。"
+  },
+  "resetpassword_page_header": {
+    "other": "パスワードを変更する"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+    "other": "パスワード再設定リクエスト有効期限切れのようです。再度、 <a href=\"{{.URL}}\">パスワード再設定</a> フォームから申請してください。"
+  },
+  "resetpassword_form_password": {
+    "other": "新しいパスワード"
+  },
+  "resetpassword_form_password2": {
+    "other": "パスワードを再確認"
+  },
+  "resetpassword_form_submit": {
+    "other": "変更する"
+  },
+  "resetpassword_complete": {
+    "other": "ありがとうございます。パスワードは変更されました。サインイン中です。"
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+    "other": "パスワード再設定リクエストは無効です。もう一度リクエストしてください。"
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+    "other": "パスワード再設定のトークンは有効期限が切れました。新しいトークンを申請してください。"
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "要求が多すぎます。あとで言ってください。"
+  },
+  "account_page_header": {
+    "other": "マイアカウント"
+  },
+  "account_form_name": {
+    "other": "名前"
+  },
+  "account_form_email": {
+    "other": "Eメールアドレス"
+  },
+  "account_form_password": {
+    "other": "パスワード"
+  },
+  "account_form_change_password": {
+    "other": "変更する"
+  },
+  "account_form_gender": {
+    "other": "性別"
+  },
+  "account_form_dob": {
+    "other": "生年月日"
+  },
+  "account_form_submit": {
+    "other": "更新する"
+  },
+  "account_form_submitted": {
+    "other": "更新済み"
+  },
+  "account_form_password_changed": {
+    "other": "更新済み"
+  },
+  "account_form_error_incorrect_password": {
+    "other": "パスワードが正しくありません"
+  },
+  "signup_form_optin": {
+    "other": "無料のニュースレターを購読する"
+  },
+  "passwordconfirmation_modal_header": {
+    "other": "パスワードを再入力する"
+  },
+  "passwordconfirmation_modal_label": {
+    "other": "変更を登録するためにパスワードを入力してください"
+  },
+  "passwordconfirmation_modal_confirm": {
+    "other": "確定する"
+  },
+  "changepassword_modal_header": {
+    "other": "パスワードを変更する"
+  },
+  "changepassword_modal_currentpassword": {
+    "other": "現在のパスワード"
+  },
+  "changepassword_modal_password": {
+    "other": "新しいパスワード"
+  },
+  "changepassword_modal_password2": {
+    "other": "新しいパスワードを再入力する"
+  },
+  "changepassword_modal_submit": {
+    "other": "更新する"
+  },
+  "changepassword_modal_error_incorrect_password": {
+    "other": "パスワードが正しくありません"
+  },
+  "userlibrary_page_header": {
+    "other": "マイライブラリー"
+  },
+  "userlibrary_empty_header": {
+    "other": "あなたのライブラリーには何も入っていません"
+  },
+  "userlibrary_empty_content": {
+    "other": "<a href=\"{{.HomeURL}}\">作品ラインナップ</a>からご覧になりたい作品を選んでください"
+  },
+  "searchresults_page_header": {
+    "other": "検索結果"
+  },
+  "searchresults_load_more": {
+    "other": "{{.Count}} 以上を読み込んでいます"
+  },
+  "searchresults_total": {
+    "one": "\"{{.Query}}\"について1件の 検索結果",
+    "other": "\"{{.Query}}\"について{{.Count}} 件の 検索結果"
+  },
+  "searchresults_empty_header": {
+    "other": "\"{{.Query}}\"では検索結果なし"
+  },
+  "searchresults_empty_content": {
+    "other": "他の検索用語を入力して<a href=\"{{.HomeURL}}\">検索</a> してください"
+  },
+  "validation_name_required": {
+    "other": "お名前を入力してください"
+  },
+  "validation_email_required": {
+    "other": "Eメールアドレスを入力してください"
+  },
+  "validation_email_email": {
+    "other": "正しいEメールアドレスを入力してください"
+  },
+  "validation_currentpassword_required": {
+    "other": "現在のパスワードを入力してください"
+  },
+  "validation_password_required": {
+    "other": "パスワードを入力してください"
+  },
+  "validation_password2_required": {
+    "other": "パスワードを再入力してください"
+  },
+  "validation_password2_match": {
+    "other": "パスワードが一致しません"
+  },
+  "validation_password_minlength": {
+    "other": "少なくとも{{.Count}} 以上の文字を含めてください"
+  },
+  "validation_promocode_required": {
+    "other": "プロモーションコードを入力してください"
+  },
+  "validation_gender_required": {
+    "other": "性別を入力してください"
+  },
+  "validation_dob_required": {
+    "other": "生年月日を入力してください"
+  },
+  "validation_dob_date": {
+    "other": "生年月日を入力してください"
+  },
+  "shopping_info_subtitle_hd": {
+    "other": "HD画質で見る"
+  },
+  "shopping_info_subtitle_help": {
+    "other": "システム要件をご確認ください"
+  },
+  "shopping_info_ownership_buy": {
+    "other": "購入"
+  },
+  "shopping_info_ownership_rent": {
+    "other": "期間限定視聴（レンタル）"
+  },
+  "shopping_info_release_date_title": {
+    "other": "{{.Date}} より視聴可能になります。"
+  },
+  "shopping_info_release_date_explanation_rent": {
+    "other": "現在、お申し込みはできますが、期日まではご視聴いただけません。"
+  },
+  "shopping_info_release_date_explanation_buy": {
+    "other": "現在、購入はできますが、配信日まではご視聴いただけません。"
+  },
+  "shopping_info_available_until_date_title": {
+    "other": "{{.Date}}から利用可能"
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+    "other": "この日時以降の視聴はできません。"
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+    "other": "この日時以降の視聴はできません。"
+  },
+  "duration_hour": {
+    "one": "1時間",
+    "other": "{{.Count}}時間"
+  },
+  "duration_day": {
+    "one": "1日",
+    "other": "{{.Count}}日間"
+  },
+  "shopping_info_rental_period_duration": {
+    "other": "レンタル期間 {{.ValueUnit}}"
+  },
+  "shopping_info_watch_window_duration": {
+    "other": "再生開始後{{.Count}} 時間視聴できます。"
+  },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "お申し込み完了後、{{.ValueUnit}}以内に視聴を開始してください。",
+    "other": "お申し込み完了後、{{.ValueUnit}}以内に視聴を開始してください。"
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "one": "再生開始後、1時間以内に限り、何度でも視聴いただけます。",
+    "other": "再生開始後、{{.Count}} 時間以内に限り、何度でも視聴いただけます。"
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "one": "お申し込み完了後、本日中にパック作品の視聴を開始してください。",
+    "other": "お申し込み完了後、{{.Count}}日間以内にパック作品の視聴を開始してください。"
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "one": "再生開始後、1時間以内に限り何度でも視聴いただけます。",
+    "other": "再生開始後、{{.Count}} 時間以内は何度でも視聴いただけます。"
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "one": "お申し込み完了後、ご利用のシーズンを本日中に視聴を開始してください。",
+    "other": "お申し込み完了後、ご利用のシーズンを{{.Count}} 日間以内に視聴してください。"
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "one": "シーズン内のエピソード再生開始後は、1時間以内に限り、そのエピソードを何度でも視聴いただけます。",
+    "other": "シーズン内のエピソード再生開始後は、{{.Count}} 時間以内に限り、そのエピソードを何度でも視聴いただけます。"
+  },
+  "shopping_info_credit_bonus_title": {
+    "other": "{{.BonusPercentage}}% ボーナス"
+  },
+  "shopping_enter_card_prompt": {
+    "other": "クレジットカード情報を入力して{{.Verb}}を完了してください。"
+  },
+  "shopping_terms": {
+    "other": "<a href=\"/page/terms-and-conditions/\"target=\"_blank\" tabindex=\"-1\">利用規約</a>に同意して決済を完了する。"
+  },
+  "shopping_discount_applied": {
+    "other": "{{.DiscountAmount}} 割引が適用されました。"
+  },
+  "shopping_discount_apply": {
+    "other": "適用する"
+  },
+  "shopping_discount_code": {
+    "other": "プロモーションコードを入力する"
+  },
+  "shopping_discount_have_code": {
+    "other": "プロモーションコードを持っている"
+  },
+  "shopping_price_you_pay": {
+    "other": "お支払い額"
+  },
+  "shopping_price_nothing": {
+    "other": "なし"
+  },
+  "shopping_price_free": {
+    "other": "無料"
+  },
+  "shopping_auth_directions": {
+    "other": "最初にアカウントが必要です。Eメールアドレスを入力してください。"
+  },
+  "shopping_error_in_library": {
+    "other": "{{.Title}} はすでにお客様のライブラリーに入っています。"
+  },
+  "shopping_error_missing_card": {
+    "other": "お客様のクレジットカード情報を入力してください。"
+  },
+  "shopping_error_title": {
+    "other": "エラーが発生しました。"
+  },
+  "shopping_error_incorrect_cvc": {
+    "other": "有効なセキュリティコードを入力してください。"
+  },
+  "shopping_error_invalid_cvc": {
+    "other": "有効なセキュリティコードを入力してください。"
+  },
+  "shopping_error_incorrect_number": {
+    "other": "有効なクレジットカード番号を入力してください。"
+  },
+  "shopping_error_invalid_number": {
+    "other": "有効なクレジットカード番号を入力してください。"
+  },
+  "shopping_error_card_declined": {
+    "other": "このクレジットカードは有効ではありません。"
+  },
+  "shopping_error_invalid_expiry_month": {
+    "other": "正しい有効期限を入力してください。"
+  },
+  "shopping_error_invalid_expiry_year": {
+    "other": "正しい有効期限を入力してください。"
+  },
+  "shopping_error_expired_card": {
+    "other": "このクレジットカードは有効期限切れです。"
+  },
+  "shopping_error_creditcard_country_mismatch": {
+    "other": "{{.Ownership}} は完了していません。ご入力いただいたクレジットカードが発行された国でのみご視聴が可能です。お支払いには別のクレジットカードをご利用ください。"
+  },
+  "shopping_error_proxy_detected": {
+    "other": "{{.Ownership}} は完了していません。ブロック解除機能またはプロキシサービスをご利用のようです。これらのサービスを停止してから再度お試しください。"
+  },
+  "shopping_error_discount_blank": {
+    "other": "有効なプロモーションコードを入力する"
+  },
+  "shopping_error_discount_not_applied": {
+    "other": "有効なプロモーションコードを入力する"
+  },
+  "shopping_error_discount_invalid": {
+    "other": "有効なプロモーションコードを入力する"
+  },
+  "shopping_error_discount_disabled": {
+    "other": "有効なプロモーションコードを入力する"
+  },
+  "shopping_error_discount_already_applied": {
+    "other": "このプロモーションコードはすでにご使用済みです。"
+  },
+  "shopping_error_discount_already_redeemed": {
+    "other": "このプロモーションコードはすでにご使用済みです。"
+  },
+  "shopping_error_discount_used_previously": {
+    "other": "このプロモーションコードはすでにご使用済みです。"
+  },
+  "shopping_error_discount_max_limit": {
+    "other": "このプロモーションコードはご利用いただけません。"
+  },
+  "shopping_error_discount_expired": {
+    "other": "このプロモーションコードは有効期限切れです。"
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+    "other": "このプロモーションコードは購入にはご利用いただけません。"
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+    "other": "このプローモションコードは期間限定視聴（レンタル）にはご利用いただけません"
+  },
+  "shopping_error_discount_invalid_item": {
+    "other": "このプロモーションコードはこの作品にはご使用いただけません。"
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+    "other": "このプロモーションコードはお客様の国ではご使用いただけません。"
+  },
+  "shopping_error_discounts_not_allowed": {
+    "other": "このプロモーションコードはご使用いただけません。"
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+    "other": "このプロモーションコードはパックではご使用いただけません。"
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+    "other": "このクレジットカードは拒否されました。もう一度お試しください。"
+  },
+  "shopping_error_card_not_supported": {
+    "other": "お使いのカードはサポートされていません。"
+  },
+  "shopping_complete_rental": {
+    "other": "成功しました！"
+  },
+  "shopping_complete_rental_period": {
+    "one": "今から明日まで、何度でもご視聴いただけます。",
+    "other": "今から{{.Count}} 日間、何度でもご視聴いただけます。"
+  },
+  "shopping_complete_purchase": {
+    "other": "{{.Title}}をご購入ありがとうございます。"
+  },
+  "shopping_complete_purchase_coming_soon": {
+    "other": "{{.Date}}からご視聴いただけます。"
+  },
+  "shopping_complete_receipt": {
+    "other": "領収証をEメールでお送りしました。"
+  },
+  "shopping_complete_library_link": {
+    "other": "お客様のライブラリー内にある{{.BundleItems}} の作品をご視聴いただけます。"
+  },
+  "shopping_complete_plan": {
+    "other": "{{.Title}}購入は成功しました。"
+  },
+  "shopping_complete_rental_watch_window_start": {
+    "one": "本作品は明日中に限り視聴を開始いただけます。",
+    "other": "本作品は{{.Count}} 日間、視聴を開始いただけます。"
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "one": "再生開始後は、1時間以内に限り、何度でも視聴いただけます。",
+    "other": "再生開始後は、{{.Count}} 時間以内に限り、何度でも視聴いただけます。"
+  },
+  "shopping_complete_rental_coming_soon": {
+    "one": "{{.Date}} より視聴開始可能です。お客様の視聴可能期間は1日間です。",
+    "other": "{{.Date}} より視聴開始可能です。お客様の視聴可能期間は{{.Count}} 日間です。"
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "one": "{{.Date}} より視聴開始可能です。お客様の視聴可能期間は1日間です。",
+    "other": "{{.Date}} より視聴開始可能です。お客様の視聴可能期間は{{.Count}} 日間です"
+  },
+  "shopping_action_rent": {
+    "other": "期間限定視聴（レンタル）する"
+  },
+  "shopping_action_buy": {
+    "other": "購入する"
+  },
+  "shopping_info_rental_period_coming_soon": {
+    "other": "視聴開始可能日時より"
+  },
+  "meta_detail_cast_title": {
+    "other": "出演"
+  },
+  "meta_detail_crew_title": {
+    "other": "スタッフ"
+  },
+  "meta_detail_languages": {
+    "one": "言語",
+    "other": "言語"
+  },
+  "meta_detail_studios": {
+    "one": "製作",
+    "other": "製作"
+  },
+  "meta_detail_countries": {
+    "one": "製作国",
+    "other": "製作国"
+  },
+  "meta_detail_subtitles": {
+    "other": "字幕"
+  },
+  "meta_detail_captions": {
+    "other": "字幕 [CC]"
+  },
+  "meta_detail_episodes_title": {
+    "other": "エピソード"
+  },
+  "meta_detail_bonus_title": {
+    "other": "特典映像"
+  },
+  "meta_detail_recommendations_title": {
+    "other": "おすすめ作品"
+  },
+  "meta_detail_bundle_items_title": {
+    "other": "このパックに含まれる作品"
+  },
+  "bundle_items_all_films": {
+    "other": "{{.Count}} 作品"
+  },
+  "bundle_items_all_seasons": {
+    "other": "{{.Count}} シーズン"
+  },
+  "bundle_items_mixed": {
+    "other": "{{.Count}} 作品およびシーズン"
+  },
+  "userwishlist_page_header": {
+    "other": "マイリスト"
+  },
+  "userwishlist_slider_header": {
+    "other": "マイリスト"
+  },
+  "userwishlist_empty_header": {
+    "other": "お客様のマイリストには何も入っていません。"
+  },
+  "userwishlist_empty_content": {
+    "other": "作品を<a href=\"/\">チェック</a> してマイリストに追加してみてください。"
+  },
+  "userwishlist_button_add": {
+    "other": "マイリストに追加"
+  },
+  "userwishlist_button_remove": {
+    "other": "マイリストから削除"
+  },
+  "userwishlist_button_add_compact": {
+    "other": "マイリスト"
+  },
+  "userwishlist_button_remove_compact": {
+    "other": "マイリスト"
+  },
+  "userdevices_page_header": {
+    "other": "視聴端末（デバイス）"
+  },
+  "userdevices_page_content": {
+    "one": "お使いになった視聴端末は自動的にここに追加されます。ご使用いただけるデバイスは１個に限ります。",
+    "other": "お使いになった視聴端末は自動的にここに追加されます。最大{{.Count}} 個までご使用いただけます。"
+  },
+  "userdevices_empty_content": {
+    "other": "現在、登録されている視聴端末（デバイス）はありません。"
+  },
+  "userdevices_header_type": {
+    "other": "視聴端末の種類"
+  },
+  "userdevices_header_description": {
+    "other": "説明"
+  },
+  "userdevices_device_added": {
+    "other": "{{.Date}}に追加済み"
+  },
+  "userdevices_device_actions_delete": {
+    "other": "削除する"
+  },
+  "userdevices_device_actions_cancel": {
+    "other": "キャンセル"
+  },
+  "userdevices_device_actions_confirm": {
+    "other": "はい、視聴端末を削除します"
+  },
+  "userdevices_device_deleted": {
+    "other": "（削除済み）"
+  },
+  "pricing_ownership_buy": {
+    "other": "購入"
+  },
+  "pricing_ownership_rent": {
+    "other": "期間限定視聴（レンタル）"
+  },
+  "classification_intro": {
+    "other": "種別："
+  },
+  "cookie_banner_message": {
+    "other": "当サイトはお客様のウェブ体験を向上させ るためにCookieを使用します。当サイトの 利用により<a href=\"/page/cookie-policy/\"> プライベートポリシー</a>に同意するもの とします。"
+  },
+  "cookie_banner_accept": {
+    "other": "同意する"
+  },
+  "all_rights_reserved": {
+    "other": "当サイトの掲載内容について無断転載・無断使用を固く禁じます。"
+  },
+  "users_gender_none": {
+    "other": "特定しない"
+  },
+  "users_gender_female": {
+    "other": "女性"
+  },
+  "users_gender_male": {
+    "other": "男性"
+  },
+  "users_gender_diverse": {
+    "other": "どちらでもない"
+  },
+  "users_gender_other": {
+    "other": "その他"
+  },
+  "availability_coming_soon": {
+    "other": "準備中"
+  },
+  "availability_renting": {
+    "other": "期間限定視聴（レンタル）中"
+  },
+  "availability_not_available": {
+    "other": "利用不可"
+  },
+  "availability_in_watch_window": {
+    "other": "利用可能"
+  },
+  "availability_sold_out": {
+    "other": "完売"
+  },
+  "availability_available_till": {
+    "other": "{{.ExpiryDate}} まで視聴可能"
+  },
+  "availability_not_available_in_country": {
+    "other": "視聴不可"
+  },
+  "availability_available": {
+    "other": "{{.ReleaseDate}} から視聴可能"
+  },
+  "availability_expires": {
+    "other": "視聴期限{{.Expiry}}まで"
+  },
+  "availability_expired": {
+    "other": "視聴期限切れ"
+  },
+  "modal_cancel": {
+    "other": "キャンセル"
+  },
+  "play": {
+    "other": "再生"
+  },
+  "combined_auth_signin_prompt": {
+    "other": "サインイン"
+  },
+  "combined_auth_signup_prompt": {
+    "other": "サインアップ"
+  },
+  "combined_auth_terms": {
+    "other": "<a href=\"/page/terms-and-conditions/\"target=\"_blank\">利用規約</a>に同意する。"
+  },
+  "signup_terms": {
+    "other": "<a href=\"/page/terms-and-conditions/\"target=\"_blank\">利用規約</a>に同意する。"
+  },
+  "validation_terms_required": {
+    "other": "利用規約に同意してください。"
+  },
+  "shopping_error_item_limit_exceeded": {
+    "other": "申し訳ありません。{{.Title}} は完売しました。"
+  },
+  "app_badge_title": {
+    "other": "アプリをダウンロードして、購入したコンテンツを表示してください。"
+  },
+  "app_badge_ios": {
+    "other": "AppStoreでダウンロード"
+  },
+  "app_badge_android": {
+    "other": "Google Playで入手する"
+  },
+  "shopping_price_title_plan": {
+    "other": "価格"
+  },
+  "shopping_price_plan_note": {
+    "other": "{{.Count}}日の無料試用期間が終了すると、{{.Interval}}ごとに課金されます。"
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "{{.Interval}}ごとに課金されます。"
+  },
+  "shopping_price_plan_note_interval": {
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "サブスクリプションを開始するには、以下にクレジットカードの詳細を入力してください。"
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "プランを開始するには、以下にクレジットカードの詳細を入力してください。"
+  },
+  "shopping_action_plan": {
+    "other": "完了"
+  },
+  "shopping_complete_subscription": {
+    "other": "サブスクリプションの購入は成功しました。これで、 {{.Title}}サブスクライブしました。"
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "気軽に<a href=\"/\">サイトを閲覧したり</a>、特定のものを<a href=\"/search.html\">検索</a>したりしてください。"
+  },
+  "shopping_info_plan_offer": {
+    "one": "{{.Interval}}ごとに自動的に更新されます",
+    "other": "{{.Count}} {{.Interval}}ごとに自動的に更新されます"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "今すぐ無料の24時間トライアルをお試しください！",
+    "other": "{{.Count}}日トライアルをお試しください！"
+  },
+  "plans_page_header": {
+    "other": "利用可能なプラン"
+  },
+  "plan_label_owned": {
+    "other": "あなたはこの計画を所有しています"
+  },
+  "plan_expiry_date": {
+    "other": "販売終了："
+  },
+  "plan_read_more": {
+    "other": "詳細はこちら"
+  },
+  "plan_page_read_more": {
+    "other": "続きを読む"
+  },
+  "plan_page_header_text": {
+    "other": "{{.Name}}お楽しみください"
+  },
+  "page_plan_explore_intro": {
+    "other": "また"
+  },
+  "page_plan_explore_link": {
+    "other": "詳細を見る"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "今買う"
+  },
+  "plan_free_link_text": {
+    "other": "無料でお申し込み頂けます"
+  },
+  "awards_in_competition": {
+    "other": "競争中"
+  },
+  "meta_description_expand": {
+    "other": "続きを見る"
+  },
+  "meta_description_collapse": {
+    "other": "あまり見ない"
+  },
+  "awards_winner": {
+    "other": "勝者"
+  },
+  "donate_button_text": {
+    "other": "寄付"
+  },
+  "wcag_skip_links_header": {
+    "other": "アクセシビリティリンク"
+  },
+  "wcag_skip_links_content": {
+    "other": "コンテンツにスキップ"
+  },
+  "wcag_homepage_h1": {
+    "other": "ホームページ"
+  },
+  "wcag_carousel_h2": {
+    "other": "カルーセル"
+  },
+  "wcag_collections_h2": {
+    "other": "コレクション"
+  },
+  "wcag_aria_label_footer": {
+    "other": "フッター"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "主要"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "サブ"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "ナビゲーションの切り替え"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "バンドルアイテム"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "カルーセル"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "ページ付け"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "ページコレクション"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "コレクションリスト"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "コレクションスライダー"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "ウィッシュリスト"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "Facebookでシェア"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "Twitterで共有する"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "LinkedInで共有する"
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "Letterboxdで見る"
+  },
+  "shopping_error_plan_already_owned": {
+    "other": "あなたはすでにこの計画を持っています。"
+  },
+  "shopping_error_plan_expired": {
+    "other": "このプランはご利用いただけなくなりました。"
+  },
+  "shopping_payment_method_header": {
+    "other": "お支払い方法"
+  },
+  "shopping_payment_method_credit_card": {
+    "other": "クレジットカード"
+  },
+  "shopping_payment_method_giropay": {
+    "other": "Giropay"
+  },
+  "shopping_error_stripe_unknown_error": {
+    "other": "この支払いで問題が発生しました。 後でもう一度やり直してください。"
+  },
+  "shopping_error_payment_complete_failed": {
+    "other": "支払いは拒否されました。 このウィンドウを閉じて、再試行してください。"
+  },
+  "header_banner": {
+    "other": "ABCシネマ–第21回映画祭、2021年6月1日– 6日"
+  },
+  "account_form_pin_code": {
+    "other": "PIN"
+  },
+  "account_form_pin_code_not_set": {
+    "other": "一部のタイトルの購入、レンタル、視聴に必要なPINセットがありません。"
+  },
+  "account_form_set_pin": {
+    "other": "PINを設定する"
+  },
+  "account_form_pin_changed": {
+    "other": "更新しました"
+  },
+  "account_form_change_pin": {
+    "other": "PINを変更する"
+  },
+  "user_set_pin_header": {
+    "other": "PINを設定する"
+  },
+  "user_set_pin_button": {
+    "other": "PINを設定する"
+  },
+  "user_submit_pin_heading": {
+    "other": "この制限されたコンテンツの{{.Action}}にPINを入力してください"
+  },
+  "user_error_wrong_pin_retry": {
+    "other": "間違ったPINを入力しました"
+  },
+  "user_submit_pin_button": {
+    "other": "入力"
+  },
+  "user_reset_pin_button": {
+    "other": "PINをリセット"
+  },
+  "validation_pincode1_required": {
+    "other": "有効なPINコードを入力してください。"
+  },
+  "validation_pincode2_required": {
+    "other": "有効なPINコードを入力してください。"
+  },
+  "validation_pincode1_pattern": {
+    "other": "有効なPINコードを入力してください。"
+  },
+  "validation_pincode2_pattern": {
+    "other": "有効なPINコードを入力してください。"
+  },
+  "validation_pincode2_match": {
+    "other": "PINコードが一致しません。"
+  },
+  "userdevices_delete_limits": {
+    "other": "このリストから{{.Limit}}デバイスを{{.Period}}日ごとに削除できます。"
+  },
+  "userdevices_delete_limit_reached": {
+    "other": "この制限に達しており、現在デバイスを削除できません。 {{.Days}}日以内にデバイスを削除できます。"
+  },
+  "shopping_card_new_subscription": {
+    "other": "このカードは定期的に保存され、請求されます"
+  },
+  "changepincode_modal_header": {
+    "other": "PINを変更する"
+  },
+  "changepincode_modal_currentpassword": {
+    "other": "あなたの現在のパスワード"
+  },
+  "changepincode_modal_pincode1": {
+    "other": "新しい4桁のPIN"
+  },
+  "changepincode_modal_pincode2": {
+    "other": "新しい4桁のPINを確認します"
+  },
+  "changepincode_modal_submit": {
+    "other": "PINを設定する"
+  },
+  "changepincode_modal_error_wrong_password": {
+    "other": "そのパスワードは正しくありません。"
+  },
+  "user_set_pin_intro": {
+    "other": "{{.Action}}制限付きコンテンツへのPINが必要です"
+  },
+  "user_error_wrong_pin_reset": {
+    "other": "PINをリセットするには、ここをクリックしてください"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+    "other": ""
+  },
+  "shopping_error_age_restricted": {
+    "other": "このコンテンツは年齢制限があります。"
+  },
+  "shopping_error_close_button": {
+    "other": "わかった"
+  },
+  "usersubscriptions_subscription_expiry": {
+    "other": "有効期限{{.Expiry}}"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "トライアル期間"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+    "other": "サブスクリプションをキャンセルする"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+    "other": "結構です"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+    "other": "はい、キャンセルします"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+    "other": "サブスクリプションをキャンセルしますか？"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+    "other": "これにより、{{.Name}}へのサブスクリプションがキャンセルされます。 {{.Expiry}}の有効期限が切れるまで、コンテンツを引き続き視聴できます。"
+  },
+  "signin_form_error_ip_throttled": {
+    "other": "サインインに何度も失敗しました。 後でもう一度やり直してください。"
+  },
+  "signin_form_error_account_suspended": {
+    "other": "あなたのアカウントは一時的に停止されています。 これがエラーであると思われる場合は、管理者に連絡してください。"
+  },
+  "pricing_quality_hd": {
+    "other": "HD"
+  },
+  "pricing_quality_sd": {
+    "other": "SD"
+  },
+  "pricing_quality_hd_only": {
+    "other": "HDのみ"
+  },
+  "pricing_quality_sd_only": {
+    "other": "SDのみ"
+  },
+  "shopping_card_save_card": {
+    "other": "将来の使用のためにこのカードを保存します"
+  },
+  "shopping_card_button_change": {
+    "other": "保存したカードをすべて表示"
+  },
+  "shopping_card_existing_description": {
+    "other": "{{.Card.Brand}}で終わる{{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+    "other": "（有効期限{{.Card.Expiry}}）"
+  },
+  "shopping_card_existing_expired": {
+    "other": "（期限切れ）"
+  },
+  "shopping_card_use_other": {
+    "other": "新しいカードを追加する"
+  },
+  "shopping_card_use_new_card": {
+    "other": "カードを変更する"
+  },
+  "shopping_card_update_reason_none": {
+    "other": "クレジットカードを更新します。 サポートされているカードは、Visa、Mastercard、AmericanExpressです。"
+  },
+  "shopping_info_ownership_plan": {
+    "other": "プラン"
+  },
+  "shopping_action_credit": {
+    "other": "補充"
+  },
+  "usersubscriptions_change_payment_method_change": {
+    "other": "クレジットカードを変更する"
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+    "other": "クレジットカードの詳細を更新する"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "アップデート"
+  },
+  "seasons": {
+    "one": "ワンシーズン",
+    "other": "{{.Count}}シーズン"
+  },
+  "tvseason": {
+    "other": "{{.ShowInfo.Title}}シーズン{{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>シーズン{{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "シーズン{{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "1話",
+    "other": "{{.Count}}エピソード"
+  },
+  "user_error_too_many_pin_errors": {
+    "other": "<p>問題が発生しているようです。</p> <p> PINをリセットするか、<a href=\"{{.HelpURL}}\" target=\"_blank\">ヘルプ</a>"
+  },
+  "validation_pincode_required": {
+    "other": "PINコードを入力してください。"
+  },
+  "shopping_info_subtitle_sd": {
+    "other": "SDビデオオンデマンド。"
+  },
+  "shopping_info_subtitle_wallet": {
+    "other": "ウォレットの資金は、ScreenPlusのコンテンツの購入またはレンタルに使用される場合があります。"
+  },
+  "shopping_info_sd_only": {
+    "other": "Limited to SD playback only."
+  },
+  "shopping_error_discount_worn_out": {
+    "other": "そのプロモーションコードは使用できなくなります。"
+  },
+  "activatedevice_page_header": {
+    "other": "デバイスをアクティブ化"
+  },
+  "activatedevice_page_content": {
+    "other": "デバイスの指示に従ってPINコードを取得します。 アクティベートするには、コンピューターとデバイスの両方がインターネットに接続されている必要があります。"
+  },
+  "activatedevice_form_pin": {
+    "other": "ピンコード"
+  },
+  "activatedevice_form_submit": {
+    "other": "活性化"
+  },
+  "activatedevice_form_error_invalid_code": {
+    "other": "PINコードが見つかりません。もう一度やり直してください。"
+  },
+  "activatedevice_form_error_pin_not_found": {
+    "other": "PINコードが見つかりません。もう一度やり直してください。"
+  },
+  "activatedevice_signin_prompt": {
+    "other": "デバイスをアクティブ化する前にサインインしてください。"
+  },
+  "activatedevice_page_activated": {
+    "other": "{{.DeviceName}}を有効にしていただきありがとうございます。 これで、テレビまたはデバイスでライブラリを閲覧できるようになります。"
+  },
+  "playlist_page_header": {
+    "other": "プレイリスト"
+  },
+  "playlist_sign_in_warning": {
+    "other": "サインインしてテレビの生放送をご覧ください。"
+  },
+  "playlist_share_title": {
+    "other": "プレイリスト"
+  },
+  "playlist_up_next_title": {
+    "other": "次に"
+  },
+  "classification_divider": {
+    "other": " - "
+  },
+  "classification_outro": {
+    "other": ""
+  },
+  "shopping_card_change": {
+    "other": "クレジットカードが正しくありませんか？ <a href = \"{{.SubscriptionsURL}}\">カードを更新するにはここをクリックしてください。</a>"
+  },
+  "shopping_complete_credit_purchase": {
+    "other": "{{.Title}}をご購入いただきありがとうございます。{{.CreditTotal}}がアカウントに追加されました。"
+  },
+  "usersubscriptions_page_header": {
+    "other": "サブスクリプションと請求"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "支払方法"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "クレジットカードのお支払い方法の変更は、次の請求サイクルで有効になります。"
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "サブスクリプションの詳細"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "アクティブ"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "期限切れ"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "サブスクリプションの検出"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "ここで簡単に管理できる、優れたコンテンツを手頃な価格で見つけてください。"
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "サブスクリプションを調べる"
+  },
+  "nav_subscriptions": {
+    "other": "私のサブスクリプション"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "最初の支払い{{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "次の支払い{{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "支払{{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "終了{{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "終了{{.Expiry}}"
+  },
+  "sponsor_image_alt": {
+    "other": "スポンサーロゴ"
+  },
+  "subscribe_to_watch": {
+    "other": "視聴するために購読する"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}}アイテム"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "クレジットカードを更新します。サポートされているカードは、Visa、Mastercard、AmericanExpressです。"
+  },
+  "shopping_discount_applied_promo": {
+    "other": "コードが正常に適用されました。"
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "有効なプロモーションコードを入力してください。"
+  },
+  "shopping_complete_promo_only": {
+    "other": "これで、 {{.Title}}を見ることができます。"
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "償還"
+  },
+  "pricing_ownership_promo": {
+    "other": "償還"
+  },
+  "subscription_cta_label": {
+    "other": "申し込む {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "other": "{{.Count}} 年"
+  },
+  "subscription_recurrence_month": {
+    "other": "{{.Count}} 月"
+  },
+  "subscription_recurrence_week": {
+    "other": "{{.Count}} 週"
+  },
+  "subscription_recurrence_day": {
+    "other": "{{.Count}} 日"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "サブスクリプション"
+  },
+  "something_bad_happened": {
+    "other": "もう一度やり直してください"
+  },
+  "stripe_card_not_supported": {
+    "other": "カードはサポートされていません。"
+  },
+  "nav_search_control_placeholder": {
+    "other": "検索"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "検索する"
+  },
+  "shopping_info_plan_interval": {
+    "one": "{{.Interval}}ごとに自動的に更新されます",
+    "other": "{{.Count}} {{.Interval}}ごとに自動的に更新されます"
+  },
+  "shopping_info_trial_period": {
+    "one": "今すぐ無料の24時間トライアルをお試しください！",
+    "other": "{{.Count}}日トライアルをお試しください！"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "サブスクリプションと請求"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "延滞"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "未払い"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "キャンセル"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "キャンセル中"
+  },
+  "interval_day": {
+    "other": "日々"
+  },
+  "interval_week": {
+    "other": "週間"
+  },
+  "interval_month": {
+    "other": "月"
+  },
+  "interval_year": {
+    "other": "年"
+  },
+  "shopping_error_processing_error": {
+    "other": "カードの処理中にエラーが発生しました。しばらくしてからもう一度お試しいただくか、別のお支払い方法でお試しください。"
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "ショッピング セッションの有効期限が切れました。もう一度お試しください。"
+  },
+  "live_stream_starts": {
+    "other": "ストリーム開始 {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "ストリーミング中"
+  },
+  "live_streaming_ended": {
+    "other": "配信終了"
+  },
+  "availability_live": {
+    "other": "住む"
+  },
+  "shopping_action_get_ticket": {
+    "other": "チケットを入手"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "この購入またはレンタルにはプロモーション コードを使用できません"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "そのプロモーション コードはまだ有効ではありません"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "プロモーション コードは、無料のショッピング セッションには適用できません"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "購入が完了するとプロモーション コードを適用できません"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "プロモーション コードを適用できませんでした。もう一度お試しください"
+  },
+  "shopping_error_invalid_code": {
+    "other": "プロモーション コードが無効です"
+  },
+  "shopping_error_missing_code": {
+    "other": "プロモーション コードが提供されていません"
+  },
+  "live_label_ended": {
+    "other": "ライブ: 終了しました"
+  },
+  "live_label_live": {
+    "other": "ライブ"
+  },
+  "live_label_minutes": {
+    "other": "ライブ: {{.Count}} 分"
+  },
+  "live_label_hours": {
+    "other": "ライブ: {{.Count}} 時間"
+  },
+  "live_label_days": {
+    "other": "ライブ: {{.Count}} 日"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "ライブ ストリーム"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "これはライブイベントです。"
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "今すぐチケットを購入できますが、ストリームがライブである間に視聴する必要があります。"
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "ストリームがライブである間、視聴する必要があります。"
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "このイベントは現在開催中です。"
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "ストリームは{{.Date}}で終了します。"
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "その後、ストリームを視聴することはできません。"
+  },
+  "shopping_action_ticket": {
+    "other": "チケットを入手"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "ストリーム開始{{.Date}}。"
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "それは{{.Date}}に始まりました。"
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "巻き戻しはできません。"
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "カードの有効期限が過ぎています。"
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "カードの有効期限が過ぎています。"
+  }
+}

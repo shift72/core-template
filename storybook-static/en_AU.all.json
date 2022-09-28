@@ -1,0 +1,1509 @@
+{
+  "settings_title": {
+    "other": "Settings"
+  },
+  "powered_by": {
+    "other": "Powered by"
+  },
+  "powered_by_name": {
+    "other": "Shift72"
+  },
+  "powered_by_url": {
+    "other": "https://www.screenplus.com"
+  },
+  "in_partnership_with": {
+    "other": "in partnership with"
+  },
+  "festival_scope": {
+    "other": "Festival Scope"
+  },
+  "festival_scope_url": {
+    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
+  },
+  "en": {
+    "other": "English"
+  },
+  "fr": {
+    "other": "French"
+  },
+  "episode_name": {
+    "other": "Episode"
+  },
+  "season_name": {
+    "other": "Season"
+  },
+  "seasons": {
+    "one": "one season",
+    "other": "{{.Count}} seasons"
+  },
+  "tvseason": {
+    "other": "{{.ShowInfo.Title}} Season {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>Season {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "Season {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "1 Episode",
+    "other": "{{.Count}} Episodes"
+  },
+  "date_day": {
+    "other": "Day"
+  },
+  "date_month": {
+    "other": "Month"
+  },
+  "date_year": {
+    "other": "Year"
+  },
+  "404_page_header": {
+    "other": "That page doesn't exist..."
+  },
+  "404_page_content": {
+    "other": "<p>Sorry, it looks like the page that you're looking for doesn't exist.</p><p>It could have been moved or deleted, or perhaps you misspelled something.</p><p>Try going back to the homepage to find what you were looking for.</p><p><a href=\"{{.URL}}\">Back to the Homepage</a></p>"
+  },
+  "nav_signin": {
+    "other": "Sign In"
+  },
+  "nav_signup": {
+    "other": "Create Account"
+  },
+  "nav_signed_in_as": {
+    "other": "Signed in as"
+  },
+  "nav_library": {
+    "other": "My Library"
+  },
+  "nav_devices": {
+    "other": "My Devices"
+  },
+  "nav_subscriptions": {
+    "other": "My Subscriptions"
+  },
+  "nav_wishlist": {
+    "other": "My List"
+  },
+  "nav_account": {
+    "other": "My Account"
+  },
+  "nav_signout": {
+    "other": "Sign Out"
+  },
+  "play_trailer": {
+    "other": "Trailer"
+  },
+  "header_banner": {
+    "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021"
+  },
+  "runtime_hours": {
+    "other": "h"
+  },
+  "runtime_minutes": {
+    "other": "m"
+  },
+  "datetime_today": {
+    "other": "today {{.Date}}"
+  },
+  "datetime_tomorrow": {
+    "other": "tomorrow {{.Date}}"
+  },
+  "datetime_yesterday": {
+    "other": "yesterday {{.Date}}"
+  },
+  "datetime_next": {
+    "other": "{{.Date}}"
+  },
+  "datetime_last": {
+    "other": "last {{.Date}}"
+  },
+  "search_control_placeholder": {
+    "other": "Search"
+  },
+  "search_control_submit": {
+    "other": "Submit search"
+  },
+  "play_button_watch": {
+    "other": "Watch now"
+  },
+  "play_button_resume": {
+    "other": "Continue"
+  },
+  "social_media_buttons_title": {
+    "other": "Share"
+  },
+  "social_media_buttons_facebook": {
+    "other": "Facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "Email"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "Link share"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "Link copied"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "Copy Link"
+  },
+  "accept_invite_page_header": {
+    "other": "Welcome"
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+    "other": "It looks like you have already claimed this invite, you should <a href=\"{{.SigninURL}}\">sign in</a> instead. If you have forgotten your password, you can also <a href=\"{{.ForgotPasswordURL}}\">reset your password</a>."
+  },
+  "acceptinvite_complete": {
+    "other": "Thank you. Your account has been created."
+  },
+  "acceptinvite_form_submit": {
+    "other": "Accept Invitation"
+  },
+  "acceptinvite_agreement": {
+    "other": "By clicking \"Accept Invitation\" you agree that you have read and understood our <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a> and <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">privacy policy</a>."
+  },
+  "signup_page_header": {
+    "other": "Create New Account"
+  },
+  "signup_form_name": {
+    "other": "Name"
+  },
+  "signup_form_email": {
+    "other": "Email address"
+  },
+  "signup_form_password": {
+    "other": "Password"
+  },
+  "signup_form_password_confirmation": {
+    "other": "Confirm your password"
+  },
+  "signup_form_gender": {
+    "other": "Gender"
+  },
+  "signup_form_dob": {
+    "other": "Birth date"
+  },
+  "signup_form_submit": {
+    "other": "Submit"
+  },
+  "signin_page_header": {
+    "other": "Sign In"
+  },
+  "signin_form_email": {
+    "other": "Email address"
+  },
+  "signin_form_password": {
+    "other": "Password"
+  },
+  "signin_form_remember": {
+    "other": "Remember me"
+  },
+  "signin_form_submit": {
+    "other": "Submit"
+  },
+  "signin_page_forgotpassword": {
+    "other": "Forgotten your password?"
+  },
+  "signin_page_createnewaccount": {
+    "other": "Don't have an account? Create new account"
+  },
+  "signup_page_alreadyhaveanaccount": {
+    "other": "Already have an account? Sign in"
+  },
+  "signup_form_error_email_already_in_use": {
+    "other": "That email address is already in use."
+  },
+  "signin_form_error_incorrect_credentials": {
+    "other": "The username or password is incorrect."
+  },
+  "signin_form_error_ip_throttled": {
+    "other": "You have failed to sign in too many times. Please try again later."
+  },
+  "signin_form_error_account_suspended": {
+    "other": "Your account has been temporarily suspended. Please contact an admin if you believe this is in error."
+  },
+  "signup_form_error_forbidden": {
+    "other": "An error has occurred."
+  },
+  "combined_auth_continue": {
+    "other": "Continue"
+  },
+  "combined_auth_change": {
+    "other": "change"
+  },
+  "combined_auth_signin": {
+    "other": "Sign in"
+  },
+  "combined_auth_signup": {
+    "other": "Create Account"
+  },
+  "combined_auth_signin_password": {
+    "other": "Please enter your password to sign in to your account."
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+    "other": "That password is incorrect."
+  },
+  "combined_auth_error_forbidden": {
+    "other": "An error has occurred."
+  },
+  "combined_auth_error_too_many_requests": {
+    "other": "Too many requests, please try again later."
+  },
+  "forgotpassword_page_header": {
+    "other": "Reset your Password"
+  },
+  "forgotpassword_form_email": {
+    "other": "Email address"
+  },
+  "forgotpassword_form_submit": {
+    "other": "Reset"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+    "other": "An account matching that email address does not exist."
+  },
+  "forgotpassword_form_error_account_suspended": {
+    "other": "This account is suspended."
+  },
+  "forgotpassword_complete": {
+    "other": "Thank you. A password reset email should appear in your inbox shortly."
+  },
+  "forgotpassword_form_error_forbidden": {
+    "other": "An error has occurred."
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "Too many requests, please try again later."
+  },
+  "resetpassword_page_header": {
+    "other": "Change your Password"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+    "other": "It appears as if this reset password request is invalid, please fill out the <a href=\"{{.URL}}\">Forgot Password</a> form again."
+  },
+  "resetpassword_form_password": {
+    "other": "New password"
+  },
+  "resetpassword_form_password2": {
+    "other": "Confirm your new password"
+  },
+  "resetpassword_form_submit": {
+    "other": "Change"
+  },
+  "resetpassword_complete": {
+    "other": "Thank you. Your password has been changed, and you have been signed in."
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+    "other": "The reset password request is invalid. Please try again later."
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+    "other": "The reset password token has expired. Please request a new one."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "Too many requests, please try again later."
+  },
+  "account_page_header": {
+    "other": "My Account"
+  },
+  "account_form_name": {
+    "other": "Name"
+  },
+  "account_form_email": {
+    "other": "Email address"
+  },
+  "account_form_password": {
+    "other": "Password"
+  },
+  "account_form_change_password": {
+    "other": "Change"
+  },
+  "account_form_gender": {
+    "other": "Gender"
+  },
+  "account_form_dob": {
+    "other": "Birth date"
+  },
+  "account_form_submit": {
+    "other": "Update"
+  },
+  "account_form_submitted": {
+    "other": "Updated"
+  },
+  "account_form_password_changed": {
+    "other": "Updated"
+  },
+  "account_form_error_incorrect_password": {
+    "other": "That password is incorrect."
+  },
+  "account_form_pin_code": {
+    "other": "PIN"
+  },
+  "account_form_pin_code_not_set": {
+    "other": "You don't have a PIN set, which is required for purchasing, renting and watching some titles."
+  },
+  "account_form_set_pin": {
+    "other": "Set PIN"
+  },
+  "account_form_pin_changed": {
+    "other": "Updated"
+  },
+  "account_form_change_pin": {
+    "other": "Change PIN"
+  },
+  "user_set_pin_header": {
+    "other": "Set your PIN"
+  },
+  "user_set_pin_button": {
+    "other": "Set PIN"
+  },
+  "user_submit_pin_heading": {
+    "other": "Enter your PIN to {{.Action}} this restricted content"
+  },
+  "user_error_wrong_pin_retry": {
+    "other": "Oops, you have entered an incorrect PIN"
+  },
+  "user_error_too_many_pin_errors": {
+    "other": "<p>Looks like you're having trouble.</p><p>Reset your PIN or contact us for <a href=\"{{.HelpURL}}\" target=\"_blank\">help</a>"
+  },
+  "user_submit_pin_button": {
+    "other": "Enter"
+  },
+  "user_reset_pin_button": {
+    "other": "Reset PIN"
+  },
+  "signup_form_optin": {
+    "other": "Sign up for our free newsletter"
+  },
+  "passwordconfirmation_modal_header": {
+    "other": "Confirm your password"
+  },
+  "passwordconfirmation_modal_label": {
+    "other": "Please enter your password in order to update your changes"
+  },
+  "passwordconfirmation_modal_confirm": {
+    "other": "Confirm"
+  },
+  "changepassword_modal_header": {
+    "other": "Change your password"
+  },
+  "changepassword_modal_currentpassword": {
+    "other": "Your current password"
+  },
+  "changepassword_modal_password": {
+    "other": "Your new password"
+  },
+  "changepassword_modal_password2": {
+    "other": "Confirm your new password"
+  },
+  "changepassword_modal_submit": {
+    "other": "Update"
+  },
+  "changepassword_modal_error_incorrect_password": {
+    "other": "That password is incorrect."
+  },
+  "userlibrary_page_header": {
+    "other": "My Library"
+  },
+  "userlibrary_empty_header": {
+    "other": "Your library is empty."
+  },
+  "userlibrary_empty_content": {
+    "other": "Fill it by <a href=\"{{.HomeURL}}\">browsing</a> our great selection."
+  },
+  "searchresults_page_header": {
+    "other": "Search Results"
+  },
+  "searchresults_load_more": {
+    "other": "Load {{.Count}} more"
+  },
+  "searchresults_total": {
+    "one": "Found 1 result for \"{{.Query}}\".",
+    "other": "Found {{.Count}} results for \"{{.Query}}\"."
+  },
+  "searchresults_empty_header": {
+    "other": "There were no search results for \"{{.Query}}\""
+  },
+  "searchresults_empty_content": {
+    "other": "Try another search or <a href=\"{{.HomeURL}}\">browse our content</a> to find what you're looking for."
+  },
+  "validation_name_required": {
+    "other": "Please enter your name."
+  },
+  "validation_email_required": {
+    "other": "Please enter your email address."
+  },
+  "validation_email_email": {
+    "other": "Please enter a valid email address."
+  },
+  "validation_currentpassword_required": {
+    "other": "Please enter your current password."
+  },
+  "validation_password_required": {
+    "other": "Please enter a password."
+  },
+  "validation_password2_required": {
+    "other": "Please confirm your password."
+  },
+  "validation_password2_match": {
+    "other": "Your passwords do not match."
+  },
+  "validation_password_minlength": {
+    "other": "Please enter at least {{.Count}} characters."
+  },
+  "validation_promocode_required": {
+    "other": "Please enter a promo code."
+  },
+  "validation_pincode_required": {
+    "other": "Please enter a PIN code."
+  },
+  "validation_pincode1_required": {
+    "other": "Please enter a valid PIN code."
+  },
+  "validation_pincode2_required": {
+    "other": "Please enter a valid PIN code."
+  },
+  "validation_pincode1_pattern": {
+    "other": "Please enter a valid PIN code."
+  },
+  "validation_pincode2_pattern": {
+    "other": "Please enter a valid PIN code."
+  },
+  "validation_pincode2_match": {
+    "other": "PIN code does not match."
+  },
+  "validation_gender_required": {
+    "other": "Please select the closest gender you identify with."
+  },
+  "validation_dob_required": {
+    "other": "Please enter your date of birth."
+  },
+  "validation_dob_date": {
+    "other": "Please enter a valid date of birth."
+  },
+  "shopping_info_subtitle_hd": {
+    "other": "HD Video on Demand."
+  },
+  "shopping_info_subtitle_sd": {
+    "other": "SD Video on Demand."
+  },
+  "shopping_info_subtitle_wallet": {
+    "other": "Funds in your Wallet may be used for the purchase or rental of any content on ScreenPlus."
+  },
+  "shopping_info_subtitle_help": {
+    "other": "See here for system requirements."
+  },
+  "shopping_info_ownership_buy": {
+    "other": "purchase"
+  },
+  "shopping_info_ownership_rent": {
+    "other": "rental"
+  },
+  "shopping_info_sd_only": {
+    "other": "Limited to SD playback only."
+  },
+  "shopping_info_release_date_title": {
+    "other": "Releases {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation_rent": {
+    "other": "You can rent it now, but you won't be able to watch it until then."
+  },
+  "shopping_info_release_date_explanation_buy": {
+    "other": "You can buy it now, but you won't be able to watch it until then."
+  },
+  "shopping_info_available_until_date_title": {
+    "other": "Available until {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+    "other": "You will not be able to view the content after this."
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+    "other": "You will not be able to view the content after this."
+  },
+  "duration_hour": {
+    "one": "1 hour",
+    "other": "{{.Count}} hours"
+  },
+  "duration_day": {
+    "one": "1 day",
+    "other": "{{.Count}} days"
+  },
+  "shopping_info_rental_period_duration": {
+    "other": "{{.ValueUnit}} rental "
+  },
+  "shopping_info_watch_window_duration": {
+    "other": "{{.Count}} hour playback window. "
+  },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "Once rented, your film will be available in your account for {{.ValueUnit}}. ",
+    "other": "Once rented, your film will be available in your account for {{.ValueUnit}}. "
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "one": "Once you press play, the watch window begins and you have an hour to watch the film as many times as you like.",
+    "other": "Once you press play, the watch window begins and you have {{.Count}} hours to watch the film as many times as you like."
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "one": "Once rented, the items in your bundle will be available in your account for a day. ",
+    "other": "Once rented, the items in your bundle will be available in your account for {{.Count}} days. "
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "one": "Once you press play on a specific film, the watch window begins and you have an hour to watch that film as many times as you like.",
+    "other": "Once you press play on a specific film, the watch window begins and you have {{.Count}} hours to watch that film as many times as you like."
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "one": "Once rented, your season will be available in your account for a day. ",
+    "other": "Once rented, your season will be available in your account for {{.Count}} days. "
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "one": "Once you press play on an episode, the watch window begins and you have an hour to watch that episode as many times as you like.",
+    "other": "Once you press play on an episode, the watch window begins and you have {{.Count}} hours to watch that episode as many times as you like."
+  },
+  "shopping_info_credit_bonus_title": {
+    "other": "{{.BonusPercentage}}% Bonus"
+  },
+  "shopping_enter_card_prompt": {
+    "other": "Enter your credit card details below to complete your {{.Verb}}."
+  },
+  "shopping_terms": {
+    "other": "By completing this transaction, I agree to the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">terms and conditions</a>."
+  },
+  "shopping_discount_applied": {
+    "other": "{{.DiscountAmount}} discount applied."
+  },
+  "shopping_discount_apply": {
+    "other": "Apply"
+  },
+  "shopping_discount_code": {
+    "other": "Enter a promo code."
+  },
+  "shopping_discount_have_code": {
+    "other": "I have a promo code."
+  },
+  "shopping_price_you_pay": {
+    "other": "You pay"
+  },
+  "shopping_price_nothing": {
+    "other": "Nothing"
+  },
+  "shopping_price_free": {
+    "other": "Free"
+  },
+  "shopping_auth_directions": {
+    "other": "An account is needed first. Please enter your email address."
+  },
+  "shopping_error_in_library": {
+    "other": "{{.Title}} is already in your library."
+  },
+  "shopping_error_missing_card": {
+    "other": "Please enter your Credit Card details."
+  },
+  "shopping_error_title": {
+    "other": "An error occurred"
+  },
+  "shopping_error_incorrect_cvc": {
+    "other": "Please enter a valid CVC."
+  },
+  "shopping_error_invalid_cvc": {
+    "other": "Please enter a valid CVC."
+  },
+  "shopping_error_processing_error": {
+    "other": "An error occurred while processing your card. Try again later or with a different payment method."
+  },
+  "shopping_error_incorrect_number": {
+    "other": "Please enter a valid Credit Card Number."
+  },
+  "shopping_error_invalid_number": {
+    "other": "Please enter a valid Credit Card Number."
+  },
+  "shopping_error_card_declined": {
+    "other": "The Credit Card has been declined."
+  },
+  "shopping_error_invalid_expiry_month": {
+    "other": "Please enter a valid Expiry."
+  },
+  "shopping_error_invalid_expiry_year": {
+    "other": "Please enter a valid Expiry."
+  },
+  "shopping_error_expired_card": {
+    "other": "The Credit Card has expired."
+  },
+  "shopping_error_creditcard_country_mismatch": {
+    "other": "Your {{.Ownership}} has not been completed. You need to be in the country your credit card was issued. Please use another card for making the payment."
+  },
+  "shopping_error_proxy_detected": {
+    "other": "Your {{.Ownership}} has not been completed. We have detected that you are using an unblocker or proxy service. Please turn off any of these services and try again."
+  },
+  "shopping_error_discount_worn_out": {
+    "other": "That promo code can no longer be used."
+  },
+  "shopping_error_discount_blank": {
+    "other": "Please enter a promo code."
+  },
+  "shopping_error_discount_not_applied": {
+    "other": "Please enter a valid promo code."
+  },
+  "shopping_error_discount_invalid": {
+    "other": "Please enter a valid promo code."
+  },
+  "shopping_error_discount_disabled": {
+    "other": "Please enter a valid promo code."
+  },
+  "shopping_error_discount_already_applied": {
+    "other": "A promo code has already been used for this session."
+  },
+  "shopping_error_discount_already_redeemed": {
+    "other": "That promo code has already been used."
+  },
+  "shopping_error_discount_used_previously": {
+    "other": "That promo code has already been used."
+  },
+  "shopping_error_discount_max_limit": {
+    "other": "That promo code can no longer be used."
+  },
+  "shopping_error_discount_expired": {
+    "other": "That promo code has expired."
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+    "other": "That promo code can not be used when purchasing."
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+    "other": "That promo code can not be used when renting."
+  },
+  "shopping_error_discount_invalid_item": {
+    "other": "That promo code can not be used with this item."
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+    "other": "That promo code can not be used in your country."
+  },
+  "shopping_error_discounts_not_allowed": {
+    "other": "That promo code can not be used."
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+    "other": "That promo code can not be used on bundles."
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+    "other": "The Credit Card has been declined. Please try again."
+  },
+  "shopping_error_plan_already_owned": {
+    "other": "You already have this plan."
+  },
+  "shopping_error_plan_expired": {
+    "other": "This plan is no longer available."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Your card is not supported."
+  },
+  "shopping_complete_rental": {
+    "other": "Success!"
+  },
+  "shopping_complete_rental_period": {
+    "one": "You are now able to watch it as often as you like over the next day.",
+    "other": "You are now able to watch it as often as you like over the next {{.Count}} days."
+  },
+  "shopping_complete_purchase": {
+    "other": "Thank you for purchasing {{.Title}}."
+  },
+  "shopping_complete_credit_purchase": {
+    "other": "Thank you for purchasing {{.Title}}, {{.CreditTotal}} has been added to your account."
+  },
+  "shopping_complete_purchase_coming_soon": {
+    "other": "You will be able to watch it from {{.Date}}."
+  },
+  "shopping_complete_receipt": {
+    "other": "A receipt has been emailed to you."
+  },
+  "shopping_complete_library_link": {
+    "other": "View your library"
+  },
+  "shopping_complete_rental_watch_window_start": {
+    "one": "You are now able to start watching it within the next day.",
+    "other": "You are now able to start watching it within the next {{.Count}} days."
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "one": "When playback is started you will then have an hour to watch the item as many times as you like.",
+    "other": "When playback is started you will then have {{.Count}} hours to watch the item as many times as you like."
+  },
+  "shopping_complete_rental_coming_soon": {
+    "one": "You will be able to watch it from {{.Date}} and your rental will remain active for a day.",
+    "other": "You will be able to watch it from {{.Date}} and your rental will remain active for {{.Count}} days."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "one": "You will be able to watch it from {{.Date}} and your rental will remain active for a day.",
+    "other": "You will be able to watch it from {{.Date}} and your rental will remain active for {{.Count}} days."
+  },
+  "shopping_action_rent": {
+    "other": "Rent"
+  },
+  "shopping_action_buy": {
+    "other": "Buy"
+  },
+  "shopping_payment_method_header": {
+    "other": "Payment methods"
+  },
+  "shopping_payment_method_credit_card": {
+    "other": "Credit card"
+  },
+  "shopping_payment_method_giropay": {
+    "other": "Giropay"
+  },
+  "shopping_error_stripe_unknown_error": {
+    "other": "Something went wrong with this payment. Please try again later."
+  },
+  "shopping_error_payment_complete_failed": {
+    "other": "The payment was declined. Close this window and try again."
+  },
+  "meta_detail_cast_title": {
+    "other": "Cast"
+  },
+  "meta_detail_crew_title": {
+    "other": "Crew"
+  },
+  "meta_detail_languages": {
+    "one": "Language",
+    "other": "Languages"
+  },
+  "meta_detail_studios": {
+    "one": "Studio",
+    "other": "Studios"
+  },
+  "meta_detail_countries": {
+    "one": "Country",
+    "other": "Countries"
+  },
+  "meta_detail_subtitles": {
+    "other": "Subtitles"
+  },
+  "meta_detail_captions": {
+    "other": "Closed Captions [CC]"
+  },
+  "meta_detail_episodes_title": {
+    "other": "Episodes"
+  },
+  "meta_detail_bonus_title": {
+    "other": "Bonus Content"
+  },
+  "meta_detail_recommendations_title": {
+    "other": "You may also like"
+  },
+  "meta_detail_bundle_items_title": {
+    "other": "Content included in this bundle"
+  },
+  "bundle_items_all_films": {
+    "other": "{{.Count}} films"
+  },
+  "bundle_items_all_seasons": {
+    "other": "{{.Count}} seasons"
+  },
+  "bundle_items_mixed": {
+    "other": "{{.Count}} films and seasons"
+  },
+  "userwishlist_page_header": {
+    "other": "My List"
+  },
+  "userwishlist_slider_header": {
+    "other": "My List"
+  },
+  "userwishlist_empty_header": {
+    "other": "Your list is empty."
+  },
+  "userwishlist_empty_content": {
+    "other": "Fill it by <a href=\"{{.HomeURL}}\">browsing</a> our great selection."
+  },
+  "userwishlist_button_add": {
+    "other": "Add to My List"
+  },
+  "userwishlist_button_remove": {
+    "other": "Remove from My List"
+  },
+  "userwishlist_button_add_compact": {
+    "other": "My List"
+  },
+  "userwishlist_button_remove_compact": {
+    "other": "My List"
+  },
+  "activatedevice_page_header": {
+    "other": "Activate Device"
+  },
+  "activatedevice_page_content": {
+    "other": "Follow the instructions on your device to get a PIN code. Your computer and device must both be connected to the internet to activate."
+  },
+  "activatedevice_form_pin": {
+    "other": "PIN Code"
+  },
+  "activatedevice_form_submit": {
+    "other": "Activate"
+  },
+  "activatedevice_form_error_invalid_code": {
+    "other": "PIN Code not found, please try again."
+  },
+  "activatedevice_form_error_pin_not_found": {
+    "other": "PIN Code not found, please try again."
+  },
+  "activatedevice_signin_prompt": {
+    "other": "Please sign in before activating your device."
+  },
+  "activatedevice_page_activated": {
+    "other": "Thank you for activating {{.DeviceName}}. You should now be able to browse your library on your television or device."
+  },
+  "userdevices_page_header": {
+    "other": "Devices"
+  },
+  "userdevices_page_content": {
+    "one": "Devices will be automatically added here when you use them. You are limited to only one device.",
+    "other": "Devices will be automatically added here when you use them. You are limited to {{.Count}} devices."
+  },
+  "userdevices_empty_content": {
+    "other": "You currently have 0 registered devices."
+  },
+  "userdevices_header_type": {
+    "other": "Device Type"
+  },
+  "userdevices_header_description": {
+    "other": "Description"
+  },
+  "userdevices_device_added": {
+    "other": "Added {{.Date}}"
+  },
+  "userdevices_device_actions_delete": {
+    "other": "Remove"
+  },
+  "userdevices_device_actions_cancel": {
+    "other": "Cancel"
+  },
+  "userdevices_device_actions_confirm": {
+    "other": "Yes, remove device"
+  },
+  "userdevices_device_deleted": {
+    "other": "(Removed)"
+  },
+  "userdevices_delete_limits": {
+    "other": "You can remove {{.Limit}} device(s) from this list every {{.Period}} day(s)."
+  },
+  "userdevices_delete_limit_reached": {
+    "other": "You have reached this limit and can't remove any devices right now. You can delete a device in {{.Days}} day(s)."
+  },
+  "playlist_page_header": {
+    "other": "Playlist"
+  },
+  "playlist_sign_in_warning": {
+    "other": "Please sign in to watch live TV."
+  },
+  "playlist_share_title": {
+    "other": "Playlist"
+  },
+  "playlist_up_next_title": {
+    "other": "Up Next"
+  },
+  "pricing_ownership_buy": {
+    "other": "Buy"
+  },
+  "pricing_ownership_rent": {
+    "other": "Rent"
+  },
+  "classification_intro": {
+    "other": "Rating: "
+  },
+  "classification_divider": {
+    "other": " - "
+  },
+  "classification_outro": {
+    "other": ""
+  },
+  "cookie_banner_message": {
+    "other": "This site uses cookies to enhance your experience. By using this site, you accept our <a href=\"{{.CookiePolicyURL}}\">cookie usage</a>."
+  },
+  "cookie_banner_accept": {
+    "other": "Accept"
+  },
+  "all_rights_reserved": {
+    "other": "All rights reserved. No part of this site may be reproduced without our written permission."
+  },
+  "users_gender_none": {
+    "other": "Not specified"
+  },
+  "users_gender_female": {
+    "other": "Female"
+  },
+  "users_gender_male": {
+    "other": "Male"
+  },
+  "users_gender_diverse": {
+    "other": "Diverse"
+  },
+  "users_gender_other": {
+    "other": "Other"
+  },
+  "pricing_quality_hd": {
+    "other": "HD"
+  },
+  "pricing_quality_sd": {
+    "other": "SD"
+  },
+  "pricing_quality_hd_only": {
+    "other": "HD Only"
+  },
+  "pricing_quality_sd_only": {
+    "other": "SD Only"
+  },
+  "shopping_card_save_card": {
+    "other": "Save this card for future use"
+  },
+  "shopping_card_button_change": {
+    "other": "Show all saved cards"
+  },
+  "shopping_card_existing_description": {
+    "other": "{{.Card.Brand}} ending in {{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+    "other": "(expires {{.Card.Expiry}})"
+  },
+  "shopping_card_existing_expired": {
+    "other": "(expired)"
+  },
+  "shopping_card_use_other": {
+    "other": "Add new card"
+  },
+  "shopping_card_use_new_card": {
+    "other": "Change card"
+  },
+  "shopping_card_update_reason_none": {
+    "other": "Update your credit card. Supported cards are Visa, Mastercard and American Express."
+  },
+  "shopping_card_new_subscription": {
+    "other": "This card will be saved and charged regularly"
+  },
+  "shopping_card_change": {
+    "other": "Credit card not correct? <a href=\"{{.SubscriptionsURL}}\">Click here to update your card.</a>"
+  },
+  "shopping_info_ownership_plan": {
+    "other": "Plan"
+  },
+  "shopping_price_title_plan": {
+    "other": "Price"
+  },
+  "shopping_price_plan_note": {
+    "one": "Charged every {{.Interval}} after your 24 hour free trial ends.",
+    "other": "Charged every {{.Interval}} after your {{.Count}} day free trial ends."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Charged every {{.Interval}}."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Enter your credit card details below in order start your subscription."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Enter your credit card details below in order start your plan."
+  },
+  "shopping_action_credit": {
+    "other": "Top up"
+  },
+  "shopping_action_plan": {
+    "other": "Complete"
+  },
+  "shopping_complete_subscription": {
+    "other": "Your subscription purchase was successful. You are now subscribed to {{.Title}}."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Feel free to <a href=\"/\">browse around</a> the site, or <a href=\"/search.html\">search</a> for something specific."
+  },
+  "shopping_complete_plan": {
+    "other": "Your purchase of {{.Title}} was successful."
+  },
+  "shopping_info_rental_period_coming_soon": {
+    "other": "from the date and time of release."
+  },
+  "shopping_info_plan_offer": {
+    "one": "Automatically renews every {{.Interval}}",
+    "other": "Automatically renews every {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Try your free 24hr trial now!",
+    "other": "Try your free {{.Count}} day trial!"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Subscriptions and Billing"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Payment Method"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Changes to your credit card payment method will take effect on your next billing cycle."
+  },
+  "usersubscriptions_change_payment_method_change": {
+    "other": "Change Credit Card"
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Subscription Details"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Active"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "Trial Period"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Expired"
+  },
+  "usersubscriptions_subscription_expiry": {
+    "other": "Expires {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "First payment {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Next payment {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Payment due {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Ends {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Ended {{.Expiry}}"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Discover Subscriptions"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Discover great content at great prices, easily managed here."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Explore subscriptions"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+    "other": "Cancel my subscription"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+    "other": "No thanks"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+    "other": "Yes, cancel"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+    "other": "Cancel subscription?"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+    "other": "This will cancel the subscription to the {{.Name}}. You will still be able to watch the content until it expires {{.Expiry}}."
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+    "other": "Update credit card details"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "Update"
+  },
+  "availability_coming_soon": {
+    "other": "Coming soon"
+  },
+  "availability_renting": {
+    "other": "Renting"
+  },
+  "availability_not_available": {
+    "other": "Not available"
+  },
+  "availability_in_watch_window": {
+    "other": "Available in watch window"
+  },
+  "availability_sold_out": {
+    "other": "Sold Out"
+  },
+  "availability_available_till": {
+    "other": "Available until {{.ExpiryDate}}"
+  },
+  "availability_not_available_in_country": {
+    "other": "Not available in your country"
+  },
+  "availability_available": {
+    "other": "Available {{.ReleaseDate}}"
+  },
+  "availability_expires": {
+    "other": "Expires {{.Expiry}}"
+  },
+  "availability_expired": {
+    "other": "Expired"
+  },
+  "modal_cancel": {
+    "other": "Cancel"
+  },
+  "play": {
+    "other": "Play"
+  },
+  "combined_auth_signin_prompt": {
+    "other": "Sign in"
+  },
+  "combined_auth_signup_prompt": {
+    "other": "Create Account"
+  },
+  "combined_auth_terms": {
+    "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>."
+  },
+  "signup_terms": {
+    "other": "I agree to all the <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">terms &amp; conditions</a>."
+  },
+  "validation_terms_required": {
+    "other": "You must agree to the terms and conditions."
+  },
+  "shopping_error_item_limit_exceeded": {
+    "other": "Unfortunately, {{.Title}} has sold out."
+  },
+  "changepincode_modal_header": {
+    "other": "Change your PIN"
+  },
+  "changepincode_modal_currentpassword": {
+    "other": "Your current password"
+  },
+  "changepincode_modal_pincode1": {
+    "other": "Your new 4 digit PIN"
+  },
+  "changepincode_modal_pincode2": {
+    "other": "Confirm your new 4 digit PIN"
+  },
+  "changepincode_modal_submit": {
+    "other": "Set PIN"
+  },
+  "changepincode_modal_error_wrong_password": {
+    "other": "That password is incorrect."
+  },
+  "user_set_pin_intro": {
+    "other": "You need a PIN to {{.Action}} restricted content"
+  },
+  "user_error_wrong_pin_reset": {
+    "other": "Click here to reset your PIN"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+    "other": ""
+  },
+  "shopping_error_age_restricted": {
+    "other": "This content is age restricted."
+  },
+  "shopping_error_close_button": {
+    "other": "OK"
+  },
+  "wcag_skip_links_header": {
+    "other": "Accessibility Links"
+  },
+  "wcag_skip_links_content": {
+    "other": "Skip to main content"
+  },
+  "wcag_homepage_h1": {
+    "other": "Homepage"
+  },
+  "wcag_carousel_h2": {
+    "other": "Carousel"
+  },
+  "wcag_collections_h2": {
+    "other": "Collections"
+  },
+  "wcag_aria_label_footer": {
+    "other": "Footer"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "Main"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "Sub"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "Toggle Navigation"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "Bundle Items"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "Carousel"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Pagination"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "Page Collection"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "Collection List"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "Collection Slider"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "Wishlist"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "Share on Facebook"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "Share on Twitter"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "Share on LinkedIn"
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "View on Letterboxd"
+  },
+  "app_badge_title": {
+    "other": "Download the app to view your purchased content!"
+  },
+  "app_badge_ios": {
+    "other": "Download on the App Store"
+  },
+  "app_badge_android": {
+    "other": "Get it on Google Play"
+  },
+  "plans_page_header": {
+    "other": "Available Plans"
+  },
+  "plan_label_owned": {
+    "other": "You own this plan"
+  },
+  "plan_expiry_date": {
+    "other": "Sales close: "
+  },
+  "plan_read_more": {
+    "other": "Find out more"
+  },
+  "plan_page_read_more": {
+    "other": "Read more"
+  },
+  "plan_page_header_text": {
+    "other": "Enjoy {{.Name}}"
+  },
+  "page_plan_explore_intro": {
+    "other": "OR"
+  },
+  "page_plan_explore_link": {
+    "other": "Explore more"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Buy now"
+  },
+  "plan_free_link_text": {
+    "other": "Sign up for free"
+  },
+  "awards_in_competition": {
+    "other": "In Competition"
+  },
+  "awards_winner": {
+    "other": "Winner"
+  },
+  "donate_button_text": {
+    "other": "Donate"
+  },
+  "meta_description_expand": {
+    "other": "See more"
+  },
+  "meta_description_collapse": {
+    "other": "See less"
+  },
+  "sponsor_image_alt": {
+    "other": "sponsor logo"
+  },
+  "subscribe_to_watch": {
+    "other": "Subscribe to watch"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} items"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Update your credit card. Supported cards are Visa, Mastercard and American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Code successfully applied."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Please enter a valid promo code."
+  },
+  "shopping_complete_promo_only": {
+    "other": "You can now watch {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Redeem"
+  },
+  "pricing_ownership_promo": {
+    "other": "Redeem"
+  },
+  "subscription_cta_label": {
+    "other": "Subscribe {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_day": {
+    "one": "Day",
+    "other": "{{.Count}} Days"
+  },
+  "subscription_recurrence_week": {
+    "one": "Week",
+    "other": "{{.Count}} Weeks"
+  },
+  "subscription_recurrence_month": {
+    "one": "Month",
+    "other": "{{.Count}} Months"
+  },
+  "subscription_recurrence_year": {
+    "one": "Year",
+    "other": "{{.Count}} Years"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Subscription"
+  },
+  "something_bad_happened": {
+    "other": "Please try again"
+  },
+  "stripe_card_not_supported": {
+    "other": "Your card is not supported."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Search"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Submit search"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Automatically renews every {{.Interval}}",
+    "other": "Automatically renews every {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Try your free 24hr trial now!",
+    "other": "Try your free {{.Count}} day trial!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Subscriptions and Billing"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Past due"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Unpaid"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancelled"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancelling"
+  },
+  "interval_day": {
+    "one": "day",
+    "other": "days"
+  },
+  "interval_week": {
+    "one": "week",
+    "other": "weeks"
+  },
+  "interval_month": {
+    "one": "month",
+    "other": "months"
+  },
+  "interval_year": {
+    "one": "year",
+    "other": "years"
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Shopping session expired, please try again."
+  },
+  "live_stream_starts": {
+    "other": "Stream starts {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streaming now"
+  },
+  "live_streaming_ended": {
+    "other": "Stream ended"
+  },
+  "availability_live": {
+    "other": "LIVE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Get ticket"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "You can not use a promo code for this purchase or rental"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "That promo code is not valid yet"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Promo codes cannot be applied to free shopping sessions"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Promo codes cannot be applied one the purchase is complete"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Promo code could not be applied, please try again"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Invalid promo code"
+  },
+  "shopping_error_missing_code": {
+    "other": "No promo code was provided"
+  },
+  "live_label_ended": {
+    "other": "LIVE: ENDED"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MINUTE",
+    "other": "LIVE: {{.Count}} MINUTES"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 HOUR",
+    "other": "LIVE: {{.Count}} HOURS"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 DAY",
+    "other": "LIVE: {{.Count}} DAYS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Live Stream"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "This is a Live Event. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "You can buy a ticket now but you will need to watch while the stream is live."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "You will need to watch while the stream is live."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "This event is currently live. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream ends {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "You won't be able to watch the stream after that."
+  },
+  "shopping_action_ticket": {
+    "other": "Get ticket"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream starts {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "It started at {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "You cannot rewind it."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Your card's expiration date is in the past."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Your card's expiration year is in the past."
+  }
+}

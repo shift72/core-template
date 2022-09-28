@@ -7,4 +7,3 @@ site/static/styles/main.css.map
 site/static/scripts/main.js
 .DS_Store
 scripts/language-file-to-csv/output
-storybook-static

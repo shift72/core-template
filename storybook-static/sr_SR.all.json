@@ -1,0 +1,1525 @@
+{
+  "settings_title": {
+    "other": "Settings"
+  },
+  "powered_by": {
+    "other": "Powered by"
+  },
+  "powered_by_name": {
+    "other": "Shift72"
+  },
+  "powered_by_url": {
+    "other": "https://www.shift72.com"
+  },
+  "in_partnership_with": {
+    "other": "у сарадњи са"
+  },
+  "festival_scope": {
+    "other": "Festival Scope"
+  },
+  "festival_scope_url": {
+    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
+  },
+  "en": {
+    "other": "английский"
+  },
+  "fr": {
+    "other": "Французский"
+  },
+  "episode_name": {
+    "other": "Епизода"
+  },
+  "season_name": {
+    "other": "Сезона"
+  },
+  "seasons": {
+    "one": "один сезон",
+    "other": "{{.Count}} сезоны"
+  },
+  "tvseason": {
+    "other": "{{.ShowInfo.Title}} Ряд {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>Ряд {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "Ряд {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "1 Эпизод",
+    "other": "{{.Count}} Эпизоды"
+  },
+  "date_day": {
+    "other": "Дан"
+  },
+  "date_month": {
+    "other": "Месец"
+  },
+  "date_year": {
+    "other": "Година"
+  },
+  "404_page_header": {
+    "other": "Таква страница не постоји..."
+  },
+  "404_page_content": {
+    "other": "<p>Нажалост, изледа да страница коју тражите не постоји.</p><p>Можда је премештена или обрисана или сте направили грешку при писању.</p><p>Покушајте да се вратите на почетну страницу и пронађете то што тражите.</p><p><a href=\"{{.URL}}\">Назад на почетну страницу</a></p>"
+  },
+  "nav_signin": {
+    "other": "Пријавите се"
+  },
+  "nav_signup": {
+    "other": "Направите налог"
+  },
+  "nav_signed_in_as": {
+    "other": "Пријављени сте као"
+  },
+  "nav_library": {
+    "other": "Моја библиотека"
+  },
+  "nav_devices": {
+    "other": "Моји уређаји"
+  },
+  "nav_wishlist": {
+    "other": "Моја листа"
+  },
+  "nav_account": {
+    "other": "Мој налог"
+  },
+  "nav_signout": {
+    "other": "Одјављени сте"
+  },
+  "play_trailer": {
+    "other": "Трејлер"
+  },
+  "runtime_hours": {
+    "other": "ч"
+  },
+  "runtime_minutes": {
+    "other": "м"
+  },
+  "datetime_today": {
+    "other": "данас {{.Date}}"
+  },
+  "datetime_tomorrow": {
+    "other": "сутра {{.Date}}"
+  },
+  "datetime_yesterday": {
+    "other": "јуче {{.Date}}"
+  },
+  "datetime_next": {
+    "other": "следеће {{.Date}}"
+  },
+  "datetime_last": {
+    "other": "претходно {{.Date}}"
+  },
+  "search_control_placeholder": {
+    "other": "Претрага"
+  },
+  "search_control_submit": {
+    "other": "Пошаљите претрагу"
+  },
+  "play_button_watch": {
+    "other": "Гледај сада"
+  },
+  "play_button_resume": {
+    "other": "Наставите"
+  },
+  "social_media_buttons_title": {
+    "other": "Објави"
+  },
+  "social_media_buttons_facebook": {
+    "other": "Facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "Емаил"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "Дељење везе"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "Линк је копиран"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "Копирај везу"
+  },
+  "accept_invite_page_header": {
+    "other": "Добродошли "
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+    "other": "Изгледа да сте већ активирали овај позив. Потребно је да се <a href=\"{{.SigninURL}}\">пријавите</a>. Ако сте заборавили лозинку, можете и да <a href=\"{{.ForgotPasswordURL}}\">ресетујете лозинку</a>."
+  },
+  "acceptinvite_complete": {
+    "other": "Хвала Вам. Ваш налог је направљен."
+  },
+  "acceptinvite_form_submit": {
+    "other": "Прихватите позив."
+  },
+  "acceptinvite_agreement": {
+    "other": "Кликом на „Прихватите позив” потврђујете сте да сте прочитали и разумели <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">услове и одредбе</a> and <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">наше политике приватности.</a>."
+  },
+  "signup_page_header": {
+    "other": "Направите нови налог"
+  },
+  "signup_form_name": {
+    "other": "Име"
+  },
+  "signup_form_email": {
+    "other": "Имејл адреса"
+  },
+  "signup_form_password": {
+    "other": "Лозинка"
+  },
+  "signup_form_password_confirmation": {
+    "other": "Потврдите лозинку"
+  },
+  "signup_form_gender": {
+    "other": "Пол"
+  },
+  "signup_form_dob": {
+    "other": "Датум рођења"
+  },
+  "signup_form_submit": {
+    "other": "Пошаљите"
+  },
+  "signin_page_header": {
+    "other": "Пријавите се"
+  },
+  "signin_form_email": {
+    "other": "Имејл адреса"
+  },
+  "signin_form_password": {
+    "other": "Лозинка"
+  },
+  "signin_form_remember": {
+    "other": "Запамти ме"
+  },
+  "signin_form_submit": {
+    "other": "Пошаљите"
+  },
+  "signin_page_forgotpassword": {
+    "other": "Заборавили сте лозинку?"
+  },
+  "signin_page_createnewaccount": {
+    "other": "Немате налог? Направите нови налог"
+  },
+  "signup_page_alreadyhaveanaccount": {
+    "other": "Већ имате налог? Пријавите се"
+  },
+  "signup_form_error_email_already_in_use": {
+    "other": "Ова имејл адреса је већ употребљена."
+  },
+  "signin_form_error_incorrect_credentials": {
+    "other": "Корисничко име или лозинка нису тачни."
+  },
+  "signin_form_error_ip_throttled": {
+    "other": "Не успели сте да се пријавите превише пута.Покушајте поново касније."
+  },
+  "signin_form_error_account_suspended": {
+    "other": "Ваш налог је привремено суспендован.Молимо контактирајте администратора ако верујете да је то грешка."
+  },
+  "signup_form_error_forbidden": {
+    "other": "Догодила се грешка."
+  },
+  "combined_auth_continue": {
+    "other": "Наставите"
+  },
+  "combined_auth_change": {
+    "other": "промените"
+  },
+  "combined_auth_signin": {
+    "other": "Пријавите се"
+  },
+  "combined_auth_signup": {
+    "other": "Направите налог"
+  },
+  "combined_auth_signin_password": {
+    "other": "Молимо Вас унесите лозинку да бисте се пријавили."
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+    "other": "Лозинка је нетачна."
+  },
+  "combined_auth_error_forbidden": {
+    "other": "Догодила се грешка."
+  },
+  "combined_auth_error_too_many_requests": {
+    "other": "Превише захтева. Покушајте поново касније."
+  },
+  "forgotpassword_page_header": {
+    "other": "Ресетујте лозинку"
+  },
+  "forgotpassword_form_email": {
+    "other": "Имејл адреса"
+  },
+  "forgotpassword_form_submit": {
+    "other": "Ресетуј"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+    "other": "Налог са том имејл адресом не постоји."
+  },
+  "forgotpassword_form_error_account_suspended": {
+    "other": "Овај налог је суспендован."
+  },
+  "forgotpassword_complete": {
+    "other": "Хвала Вам. Имејл за ресетовање лозинке ће Вам убрзо стићи у инбокс."
+  },
+  "forgotpassword_form_error_forbidden": {
+    "other": "Догодила се грешка."
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "Превише захтева. Покушајте поново касније."
+  },
+  "resetpassword_page_header": {
+    "other": "Промените лозинку"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+    "other": "Изгледа да је захтев за ресетовање лозинке неправилан, молимо Вас попуните <a href=\"{{.URL}}\">Образац за заборављену лозинку</a> поново."
+  },
+  "resetpassword_form_password": {
+    "other": "Нова лозинка"
+  },
+  "resetpassword_form_password2": {
+    "other": "Потврдите нову лозинку"
+  },
+  "resetpassword_form_submit": {
+    "other": "Промените"
+  },
+  "resetpassword_complete": {
+    "other": "Хвала. Ваша лозинка је промењена и пријављени сте."
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+    "other": "Захтев за ресетовање лозинке је неправилан."
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+    "other": "Токен за ресетовање лозинке је истекао. Молимо Вас, тражите нови."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "Превише захтева. Покушајте поново касније."
+  },
+  "account_page_header": {
+    "other": "Мој налог"
+  },
+  "account_form_name": {
+    "other": "Име"
+  },
+  "account_form_email": {
+    "other": "Имејл адреса"
+  },
+  "account_form_password": {
+    "other": "Лозинка"
+  },
+  "account_form_change_password": {
+    "other": "Промените"
+  },
+  "account_form_gender": {
+    "other": "Пол"
+  },
+  "account_form_dob": {
+    "other": "Датум рођења"
+  },
+  "account_form_submit": {
+    "other": "Ажурирајте"
+  },
+  "account_form_submitted": {
+    "other": "Ажурирано"
+  },
+  "account_form_password_changed": {
+    "other": "Ажурирано"
+  },
+  "account_form_error_incorrect_password": {
+    "other": "Лозинка је нетачна."
+  },
+  "account_form_pin_code": {
+    "other": "ПРИКОЛОТЬ"
+  },
+  "account_form_pin_code_not_set": {
+    "other": "У вас нет набора PIN, который требуется для покупки, аренды и наблюдения за некоторыми названиями."
+  },
+  "account_form_set_pin": {
+    "other": "Установить PIN-код"
+  },
+  "account_form_pin_changed": {
+    "other": "Обновленный"
+  },
+  "account_form_change_pin": {
+    "other": "Изменить PIN-код"
+  },
+  "signup_form_optin": {
+    "other": "Пријавите се за бесплатни билтен"
+  },
+  "passwordconfirmation_modal_header": {
+    "other": "Потврдите лозинку"
+  },
+  "passwordconfirmation_modal_label": {
+    "other": "Молимо Вас упишите лозинку да бисте ажурирали измене које сте направили."
+  },
+  "passwordconfirmation_modal_confirm": {
+    "other": "Потврдите"
+  },
+  "changepassword_modal_header": {
+    "other": "Промените лозинку"
+  },
+  "changepassword_modal_currentpassword": {
+    "other": "Ваша тренутна лозинка"
+  },
+  "changepassword_modal_password": {
+    "other": "Ваша нова лозинка"
+  },
+  "changepassword_modal_password2": {
+    "other": "Потврдите нову лозинку"
+  },
+  "changepassword_modal_submit": {
+    "other": "Ажурирајте"
+  },
+  "changepassword_modal_error_incorrect_password": {
+    "other": "Лозинка је нетачна."
+  },
+  "userlibrary_page_header": {
+    "other": "Резултати претраге"
+  },
+  "userlibrary_empty_header": {
+    "other": "Ваша библиотека је празна."
+  },
+  "userlibrary_empty_content": {
+    "other": "<a href=\"{{.HomeURL}}\">Прелистајте</a> нашу селекцију да је попуните."
+  },
+  "searchresults_page_header": {
+    "other": "результаты поиска"
+  },
+  "searchresults_load_more": {
+    "other": "Учитај још {{.Count}} "
+  },
+  "searchresults_total": {
+    "one": "Пронађен је 1 резултат за \"{{.Query}}\".",
+    "other": "Пронађено је {{.Count}} резултата за \"{{.Query}}\"."
+  },
+  "searchresults_empty_header": {
+    "other": "Нема резултата за \"{{.Query}}\""
+  },
+  "searchresults_empty_content": {
+    "other": "Пробајте са новом претрагом или <a href=\"{{.HomeURL}}\"> прелистајте садржај</a> како бисте нашлито што тражите."
+  },
+  "validation_name_required": {
+    "other": "Молимо Вас упишите своје име."
+  },
+  "validation_email_required": {
+    "other": "Молимо Вас упишите Вашу имејл адресу."
+  },
+  "validation_email_email": {
+    "other": "Молимо Вас упишите исправну имејл адресу."
+  },
+  "validation_currentpassword_required": {
+    "other": "Молимо Вас упишите важећу лозинку."
+  },
+  "validation_password_required": {
+    "other": "Молимо Вас упишите своју лозинку."
+  },
+  "validation_password2_required": {
+    "other": "Молимо Вас потврдите лозинку."
+  },
+  "validation_password2_match": {
+    "other": "Лозинке се не подударају."
+  },
+  "validation_password_minlength": {
+    "other": "Молимо Вас упишите најмање {{.Count}} карактера. "
+  },
+  "validation_promocode_required": {
+    "other": "Молимо Вас упишите промотивни код."
+  },
+  "validation_pincode_required": {
+    "other": "Унесите ПИН код."
+  },
+  "validation_gender_required": {
+    "other": "Молимо Вас да одаберете пол са којим се идентификујете."
+  },
+  "validation_dob_required": {
+    "other": "Молимо Вас упишите свој датум рођења."
+  },
+  "validation_dob_date": {
+    "other": "Молимо Вас упишите исправан датум рођења."
+  },
+  "shopping_info_subtitle_hd": {
+    "other": "ХД видео на захтев."
+  },
+  "shopping_info_subtitle_sd": {
+    "other": "SD видео по требованию."
+  },
+  "shopping_info_subtitle_wallet": {
+    "other": "Средства в вашем кошельке могут использоваться для покупки или аренда любого содержимого на ScreenPlus."
+  },
+  "shopping_info_subtitle_help": {
+    "other": "Погледајте системске захтеве."
+  },
+  "shopping_info_ownership_buy": {
+    "other": "куповина"
+  },
+  "shopping_info_ownership_rent": {
+    "other": "изнајмљивање"
+  },
+  "shopping_info_sd_only": {
+    "other": "Ограничено только для воспроизведения SD."
+  },
+  "shopping_info_release_date_title": {
+    "other": "Излази {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation_rent": {
+    "other": "Можете одмах да изнајмите, али нећете моћи да гледате пре тога."
+  },
+  "shopping_info_release_date_explanation_buy": {
+    "other": "Можете одмах да купите, али нећете моћи да гледате пре тога."
+  },
+  "shopping_info_available_until_date_title": {
+    "other": "Доступно до {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+    "other": "Нећете моћи да гледате садржај након тога."
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+    "other": "Нећете моћи да гледате садржај након тога."
+  },
+  "duration_hour": {
+    "one": "1 сат",
+    "other": "{{.Count}} сата"
+  },
+  "duration_day": {
+    "one": "1 дан",
+    "other": "{{.Count}} дана"
+  },
+  "shopping_info_rental_period_duration": {
+    "other": "Изнајмљено на {{.ValueUnit}} "
+  },
+  "shopping_info_watch_window_duration": {
+    "other": "{{.Count}} ч. за гледање. "
+  },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "Када изнајмите филм, биће доступан на Вашем налогу {{.ValueUnit}}. ",
+    "other": "Када изнајмите филм, биће доступан на Вашем налогу {{.ValueUnit}}. "
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "one": "Када притиснете дугме за гледање, имаћете један сат да погледате филм колико год пута желите.",
+    "other": "Када притиснете дугме за гледање, имаћете {{.Count}} ч. да погледате филм колико год пута желите."
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "one": "Наслови из пакета биће Вам доступни један дан кадага изнајмите.",
+    "other": "Наслови из пакета биће Вам доступни {{.Count}} дана када га изнајмите."
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "one": "Када притиснете дугме за гледање изабраног филма, имаћете један сат да погледате филм колико год пута желите.",
+    "other": "Када притиснете дугме за гледање изабраног филма, имаћете{{.Count}} ч. да погледате филм колико год пута желите."
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "one": "Сезона ће вам бити доступна један дан када јеизнајмите.",
+    "other": "Сезона ће Вам бити доступна {{.Count}} дана када је изнајмите."
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "one": "Када притиснете дугме за гледање епизоде имаћете један сат да погледате епизоду колико год пута желите.",
+    "other": "Када притиснете дугме за гледање епизоде, имаћете{{.Count}} ч. да погледате епизоду колико год пута желите."
+  },
+  "shopping_info_credit_bonus_title": {
+    "other": "Бонус {{.BonusPercentage}}% "
+  },
+  "shopping_enter_card_prompt": {
+    "other": "Унесите детаље са Ваше кредитне картице да довршите {{.Verb}}."
+  },
+  "shopping_terms": {
+    "other": "Обављањем ове трансакције прихватате <a href=\"{{.TermsAndConditionsURL}}\"target=\"_blank\" tabindex=\"-1\">услове и одредбе</a>."
+  },
+  "shopping_discount_applied": {
+    "other": "Примењено снижење {{.DiscountAmount}}."
+  },
+  "shopping_discount_apply": {
+    "other": "Примените"
+  },
+  "shopping_discount_code": {
+    "other": "Унесите промотивни код."
+  },
+  "shopping_discount_have_code": {
+    "other": "Имам промотивни код."
+  },
+  "shopping_price_you_pay": {
+    "other": "Ви не плаћате"
+  },
+  "shopping_price_nothing": {
+    "other": "Ништа"
+  },
+  "shopping_price_free": {
+    "other": "Бесплатно"
+  },
+  "shopping_auth_directions": {
+    "other": "Неопходно је да имате налог. Молимо Вас унесите своју имејл адресу."
+  },
+  "shopping_error_in_library": {
+    "other": "{{.Title}} је већ у Вашој библиотеци."
+  },
+  "shopping_error_missing_card": {
+    "other": "Молимо Вас унесите податке са ваше кредитне картице."
+  },
+  "shopping_error_title": {
+    "other": "Догодила се грешка"
+  },
+  "shopping_error_incorrect_cvc": {
+    "other": "Молимо Вас унесите исправан сигурносни код."
+  },
+  "shopping_error_invalid_cvc": {
+    "other": "Молимо Вас унесите исправан сигурносни код."
+  },
+  "shopping_error_incorrect_number": {
+    "other": "Молимо Вас унесите исправан број кредитне картице."
+  },
+  "shopping_error_invalid_number": {
+    "other": "Молимо Вас унесите исправан број кредитне картице."
+  },
+  "shopping_error_card_declined": {
+    "other": "Кредитна картица је одбијена."
+  },
+  "shopping_error_invalid_expiry_month": {
+    "other": "Молимо Вас унесите исправан датум истека."
+  },
+  "shopping_error_invalid_expiry_year": {
+    "other": "Молимо Вас унесите исправан датум истека."
+  },
+  "shopping_error_expired_card": {
+    "other": "Кредитна картица је истекла."
+  },
+  "shopping_error_creditcard_country_mismatch": {
+    "other": "Ваш {{.Ownership}} није довршен. Морате бити у земљи у којој је кредитна картицаиздата. Молимо Вас користите другу картицу за плаћање."
+  },
+  "shopping_error_proxy_detected": {
+    "other": "Ваш {{.Ownership}} није довршен. Препознали смо да користите деблокатор или прокси сервис. Молимо Вас искључите ове сервисе и покушајте поново."
+  },
+  "shopping_error_discount_worn_out": {
+    "other": "Тај промо код се више не може користити."
+  },
+  "shopping_error_discount_blank": {
+    "other": "Молимо Вас унесите промотивни код."
+  },
+  "shopping_error_discount_not_applied": {
+    "other": "Молимо Вас унесите исправан промотивни код."
+  },
+  "shopping_error_discount_invalid": {
+    "other": "Молимо Вас унесите исправан промотивни код."
+  },
+  "shopping_error_discount_disabled": {
+    "other": "Молимо Вас унесите исправан промотивни код."
+  },
+  "shopping_error_discount_already_applied": {
+    "other": "Промотивни код је већ искоришћен у овој сесији."
+  },
+  "shopping_error_discount_already_redeemed": {
+    "other": "Тај промотивни код је већ искоришћен."
+  },
+  "shopping_error_discount_used_previously": {
+    "other": "Тај промотивни код је већ искоришћен."
+  },
+  "shopping_error_discount_max_limit": {
+    "other": "Тај промотивни код више не може да се користи."
+  },
+  "shopping_error_discount_expired": {
+    "other": "Тај промотивни код је истекао."
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+    "other": "Тај промотивни код не може да се користи при куповини."
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+    "other": "Тај промотивни код не може да се користи при изнајмљивању."
+  },
+  "shopping_error_discount_invalid_item": {
+    "other": "Тај промотивни код не може да се користи са овим насловом."
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+    "other": "Тај промотивни код не може да се користи у Вашој земљи."
+  },
+  "shopping_error_discounts_not_allowed": {
+    "other": "Тај промотивни код не може да се користи."
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+    "other": "Тај промотивни код не може да се користи за пакете."
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+    "other": "Кредитна картица је одбијена. Молимо Вас покушајте поново."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Ваша картица није подржана."
+  },
+  "shopping_complete_rental": {
+    "other": "Успешно!"
+  },
+  "shopping_complete_rental_period": {
+    "one": "Сада можете да га гледате колико год желите током наредног дана.",
+    "other": "Сада можете да га гледате колико год пута желите током наредних {.Count}} дана."
+  },
+  "shopping_complete_purchase": {
+    "other": "Хвала што сте купили {{.Title}}."
+  },
+  "shopping_complete_credit_purchase": {
+    "other": "Хвала што сте купили {{.Title}}, {{.CreditTotal}} је додато на ваш налог."
+  },
+  "shopping_complete_purchase_coming_soon": {
+    "other": "Моћи ћете да гледате од {{.Date}}."
+  },
+  "shopping_complete_receipt": {
+    "other": "Рачун вам је послат имејлом."
+  },
+  "shopping_complete_library_link": {
+    "other": "Почните са гледањем {{.BundleItems}} у вашој библиотеци."
+  },
+  "shopping_complete_plan": {
+    "other": "Ваша куповина {{.Title}} је била успешна."
+  },
+  "shopping_complete_rental_watch_window_start": {
+    "one": "Можете да почнете са гледањем до краја наредног дана.",
+    "other": "Можете да почнете са гледањем одмах или у наредних {{.Count}} дана."
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "one": "Када пројекција почне, имате сат времена да погледате наслов колико год пута желите.",
+    "other": "Када пројекција почне, имате {{.Count}} часова да погледате наслов колико год пута желите."
+  },
+  "shopping_complete_rental_coming_soon": {
+    "one": "Моћи ћете да гледате од {{.Date}}, а изнајмљивање ће трајати један дан.",
+    "other": "Моћи ћете да гледате од {{.Date}}, а изнајмљивање ће трајати {{.Count}} дана."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "one": "Моћи ћете да гледате од {{.Date}}, а изнајмљивање ће трајати један дан.",
+    "other": "Моћи ћете да гледате од {{.Date}}, а изнајмљивање ће трајати {{.Count}} дана."
+  },
+  "shopping_action_rent": {
+    "other": "Изнајмите"
+  },
+  "shopping_action_buy": {
+    "other": "Купите"
+  },
+  "meta_detail_cast_title": {
+    "other": "Улоге"
+  },
+  "meta_detail_crew_title": {
+    "other": "Екипа"
+  },
+  "meta_detail_languages": {
+    "one": "Језик",
+    "other": "Језици"
+  },
+  "meta_detail_studios": {
+    "one": "Студио",
+    "other": "Студији"
+  },
+  "meta_detail_countries": {
+    "one": "Држава",
+    "other": "Државе"
+  },
+  "meta_detail_subtitles": {
+    "other": "Титлови"
+  },
+  "meta_detail_captions": {
+    "other": "Титлови [CC]"
+  },
+  "meta_detail_episodes_title": {
+    "other": "Епизоде"
+  },
+  "meta_detail_bonus_title": {
+    "other": "Додатни садржај"
+  },
+  "meta_detail_recommendations_title": {
+    "other": "Можда Вам се допадне"
+  },
+  "meta_detail_bundle_items_title": {
+    "other": "Садржај овог пакета"
+  },
+  "bundle_items_all_films": {
+    "other": "{{.Count}} филмова"
+  },
+  "bundle_items_all_seasons": {
+    "other": "{{.Count}} сезона"
+  },
+  "bundle_items_mixed": {
+    "other": "{{.Count}} филмова и сезона"
+  },
+  "userwishlist_page_header": {
+    "other": "Моја листа"
+  },
+  "userwishlist_slider_header": {
+    "other": "Моја листа"
+  },
+  "userwishlist_empty_header": {
+    "other": "Ваша листа је празна."
+  },
+  "userwishlist_empty_content": {
+    "other": "<a href=\"{{.HomeURL}}\">Прелистајте</a> нашу селекцију да је попуните."
+  },
+  "userwishlist_button_add": {
+    "other": "Додај на Моју листу"
+  },
+  "userwishlist_button_remove": {
+    "other": "Уклони са моје листе"
+  },
+  "userwishlist_button_add_compact": {
+    "other": "Моја листа"
+  },
+  "userwishlist_button_remove_compact": {
+    "other": "Моја листа"
+  },
+  "activatedevice_page_header": {
+    "other": "Активировать устройство"
+  },
+  "activatedevice_page_content": {
+    "other": "Следуйте инструкциям на вашем устройстве, чтобы получить PIN-код.Ваш компьютер и устройство должны быть подключены к Интернету для активации."
+  },
+  "activatedevice_form_pin": {
+    "other": "Пин-код"
+  },
+  "activatedevice_form_submit": {
+    "other": "Активировать"
+  },
+  "activatedevice_form_error_invalid_code": {
+    "other": "PIN-код не найден, пожалуйста, попробуйте еще раз."
+  },
+  "activatedevice_form_error_pin_not_found": {
+    "other": "PIN-код не найден, пожалуйста, попробуйте еще раз."
+  },
+  "activatedevice_signin_prompt": {
+    "other": "Пожалуйста, войдите, прежде чем активировать ваше устройство."
+  },
+  "activatedevice_page_activated": {
+    "other": "Спасибо за активируемость {{.DeviceName}}. Теперь вы должны иметь возможность просматривать вашу библиотеку на вашем телевизоре или устройстве."
+  },
+  "userdevices_page_header": {
+    "other": "Уређаји"
+  },
+  "userdevices_page_content": {
+    "one": "Уређаји ће бити аутоматски додати овде када их будете користили. Ограничени сте на само један уређај. ",
+    "other": "Уређаји ће аутоматски бити додати овде када их будете користили. Ограничени сте на{{.Count}} уређаја."
+  },
+  "userdevices_empty_content": {
+    "other": "Тренутно имате 0 регистрованих уређаја."
+  },
+  "userdevices_header_type": {
+    "other": "Тип уређаја"
+  },
+  "userdevices_header_description": {
+    "other": "Опис"
+  },
+  "userdevices_device_added": {
+    "other": "Додато {{.Date}}"
+  },
+  "userdevices_device_actions_delete": {
+    "other": "Уклоните"
+  },
+  "userdevices_device_actions_cancel": {
+    "other": "Откажите"
+  },
+  "userdevices_device_actions_confirm": {
+    "other": "Да, уклони уређај"
+  },
+  "userdevices_device_deleted": {
+    "other": "(Уклоњено)"
+  },
+  "userdevices_delete_limits": {
+    "other": "Вы можете удалить {{.Limit}} Устройство (ы) из этого списка каждый {{.Period}} День (ы)."
+  },
+  "userdevices_delete_limit_reached": {
+    "other": "Вы достигли этого предела и не можете удалить какие-либо устройства прямо сейчас.Вы можете удалить устройство в {{.Days}} День (ы)."
+  },
+  "playlist_page_header": {
+    "other": "Плейлист"
+  },
+  "playlist_sign_in_warning": {
+    "other": "Пожалуйста, войдите, чтобы смотреть живое телевидение."
+  },
+  "playlist_share_title": {
+    "other": "Плейлист"
+  },
+  "playlist_up_next_title": {
+    "other": "Следующий"
+  },
+  "pricing_ownership_buy": {
+    "other": "Купите"
+  },
+  "pricing_ownership_rent": {
+    "other": "Изнајмите"
+  },
+  "classification_intro": {
+    "other": "Класификација: "
+  },
+  "classification_divider": {
+    "other": " - "
+  },
+  "classification_outro": {
+    "other": ""
+  },
+  "cookie_banner_message": {
+    "other": "Овај сајт користи колачиће да би побољшао Ваш доживљај.Коришћењем сајта прихватате <a href=\"{{.CookiePolicyURL}}\">употребу колачића</a>."
+  },
+  "cookie_banner_accept": {
+    "other": "Прихвати"
+  },
+  "all_rights_reserved": {
+    "other": "Сва права су задржана. Ниједан део овог сајта не сме се репродуковати без наше писмене дозволе."
+  },
+  "users_gender_none": {
+    "other": "Није одређен"
+  },
+  "users_gender_female": {
+    "other": "Женски"
+  },
+  "users_gender_male": {
+    "other": "Мушки"
+  },
+  "users_gender_diverse": {
+    "other": "Свакојаки"
+  },
+  "users_gender_other": {
+    "other": "Друго"
+  },
+  "pricing_quality_hd": {
+    "other": "HD"
+  },
+  "pricing_quality_sd": {
+    "other": "SD"
+  },
+  "pricing_quality_hd_only": {
+    "other": "HD только"
+  },
+  "pricing_quality_sd_only": {
+    "other": "Только SD"
+  },
+  "shopping_card_save_card": {
+    "other": "Сохраните эту карту для будущего использования"
+  },
+  "shopping_card_button_change": {
+    "other": "Показать все сохраненные карты"
+  },
+  "shopping_card_existing_description": {
+    "other": "{{.Card.Brand}} кончающийся на {{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+    "other": "(истекает {{.Card.Expiry}})"
+  },
+  "shopping_card_existing_expired": {
+    "other": "(истекший)"
+  },
+  "shopping_card_use_other": {
+    "other": "Додајте нову картицу"
+  },
+  "shopping_card_use_new_card": {
+    "other": "Изменить карту"
+  },
+  "shopping_card_update_reason_none": {
+    "other": "Обновите свою кредитную карту.Поддерживаемые карты - виза, MasterCard и American Express."
+  },
+  "shopping_card_new_subscription": {
+    "other": "Эта карта будет спасена и регулярно планировать"
+  },
+  "shopping_card_change": {
+    "other": "Кредитная карта не правильная? <a href=\"{{.SubscriptionsURL}}\">Нажмите здесь, чтобы обновить свою карту.</a>"
+  },
+  "shopping_info_ownership_plan": {
+    "other": "План"
+  },
+  "shopping_action_credit": {
+    "other": "Пополнить"
+  },
+  "shopping_info_rental_period_coming_soon": {
+    "other": "fод датума и времена "
+  },
+  "usersubscriptions_change_payment_method_change": {
+    "other": "Изменить кредитную карту"
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+    "other": "Обновить данные кредитной карты"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "Обновлять"
+  },
+  "usersubscriptions_subscription_expiry": {
+    "other": "Истекает {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "Испытательный срок"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+    "other": "Отменить мою подписку"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+    "other": "Не хвала"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+    "other": "Да, откажи"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+    "other": "Отменить подписку?"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+    "other": "Ово ће отказати претплату на {{.Name}}. И даље ћете моћи да гледате садржај док не истекне {{.Expiry}}."
+  },
+  "availability_coming_soon": {
+    "other": "Ускоро"
+  },
+  "availability_renting": {
+    "other": "Изнајмљивање"
+  },
+  "availability_not_available": {
+    "other": "Није доступно"
+  },
+  "availability_in_watch_window": {
+    "other": "Доступно"
+  },
+  "availability_sold_out": {
+    "other": "Распродато"
+  },
+  "availability_available_till": {
+    "other": "Доступно до {{.ExpiryDate}}"
+  },
+  "availability_not_available_in_country": {
+    "other": "Недоступно"
+  },
+  "availability_available": {
+    "other": "Доступно од {{.ReleaseDate}}"
+  },
+  "availability_expires": {
+    "other": "Истиче {{.Expiry}}"
+  },
+  "availability_expired": {
+    "other": "Истекло"
+  },
+  "modal_cancel": {
+    "other": "Откажите"
+  },
+  "play": {
+    "other": "Гледајте"
+  },
+  "combined_auth_signin_prompt": {
+    "other": "Пријавите се"
+  },
+  "combined_auth_signup_prompt": {
+    "other": "Направите налог"
+  },
+  "combined_auth_terms": {
+    "other": "Сагласан сам са свим <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">условима и одредбама</a>."
+  },
+  "signup_terms": {
+    "other": "Сагласан сам са свим <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">условима и одредбама</a>."
+  },
+  "validation_terms_required": {
+    "other": "Потребно је да се сагласите са одредбама и условима."
+  },
+  "shopping_error_item_limit_exceeded": {
+    "other": "Нажалост, {{.Title}} је распродат."
+  },
+  "changepincode_modal_header": {
+    "other": "Изменить свой PIN-код"
+  },
+  "changepincode_modal_currentpassword": {
+    "other": "ваш текущий пароль"
+  },
+  "changepincode_modal_pincode1": {
+    "other": "Ваш новый 4-значный PIN-код"
+  },
+  "changepincode_modal_pincode2": {
+    "other": "Подтвердите свой новый 4-значный PIN-код"
+  },
+  "changepincode_modal_submit": {
+    "other": "Установить PIN-код"
+  },
+  "changepincode_modal_error_wrong_password": {
+    "other": "Этот пароль неверный."
+  },
+  "user_submit_pin_heading": {
+    "other": "Введите свой PIN-код в {{.Action}} Это ограниченный контент"
+  },
+  "user_submit_pin_button": {
+    "other": "Войти"
+  },
+  "user_set_pin_intro": {
+    "other": "Вам нужен PIN-код до {{.Action}} Ограниченный контент"
+  },
+  "user_set_pin_header": {
+    "other": "Установите свой PIN-код"
+  },
+  "user_set_pin_button": {
+    "other": "Установить PIN-код"
+  },
+  "user_reset_pin_button": {
+    "other": "Сбросить PIN-код"
+  },
+  "user_error_wrong_pin_retry": {
+    "other": "Упс, вы ввели неверный PIN-код"
+  },
+  "user_error_wrong_pin_reset": {
+    "other": "Нажмите здесь, чтобы сбросить PIN-код"
+  },
+  "user_error_too_many_pin_errors": {
+    "other": "<p>Похоже, у тебя проблемы.</p><p>Сбросьте свой PIN-код или свяжитесь с нами для <a href=\"{{.HelpURL}}\" target=\"_blank\">помощь</a>"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+    "other": ""
+  },
+  "shopping_error_age_restricted": {
+    "other": "Этот контент ограничен возрастом."
+  },
+  "shopping_error_close_button": {
+    "other": "Ok"
+  },
+  "app_badge_title": {
+    "other": "Загрузите приложение для просмотра вашего приобретенного контента!"
+  },
+  "app_badge_ios": {
+    "other": "Загрузить в App Store"
+  },
+  "app_badge_android": {
+    "other": "Получить его в Google Play"
+  },
+  "shopping_price_title_plan": {
+    "other": "Цена"
+  },
+  "shopping_price_plan_note": {
+    "one": "Наплаћује се сваки {{.Interval}} након завршетка бесплатног пробног периода од 24 сата.",
+    "few": "Оптужен сваки {{.Interval}} после ваших {{.Count}} дневни бесплатни пробни крајевима.",
+    "other": "Оптужен сваки {{.Interval}} после ваших {{.Count}} дневни бесплатни пробни крајевима."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Наплаћује се сваки {{.Interval}}."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{.Interval}}",
+    "few": "{{.Count}} {{.Interval}} а",
+    "other": "{{.Count}} {{.Interval}} а"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Унесите податке о својој кредитној картици испод да бисте започели претплату."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Унесите детаље своје кредитне картице испод да бисте започели свој план."
+  },
+  "shopping_action_plan": {
+    "other": "комплетан"
+  },
+  "shopping_complete_subscription": {
+    "other": "Ваша куповина претплате је била успешна. Сада сте претплаћени на {{.Title}}."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Слободно <a href=\"/\">претражујте по</a> сајту или <a href=\"/search.html\">тражите</a> нешто специфично."
+  },
+  "shopping_info_plan_offer": {
+    "one": "Аутоматски обнавља сваки {{.Interval}}",
+    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Испробајте своју бесплатну пробну верзију од 24 сата сада!",
+    "few": "Испробајте своју бесплатну пробну верзију од {{.Count}} дана!",
+    "other": "Испробајте своју бесплатну пробну верзију од {{.Count}} дана!"
+  },
+  "plans_page_header": {
+    "other": "Доступни планови"
+  },
+  "plan_label_owned": {
+    "other": "Ви сте власник овог плана"
+  },
+  "plan_expiry_date": {
+    "other": "Завршена продаја:"
+  },
+  "plan_read_more": {
+    "other": "Откриј више"
+  },
+  "plan_page_read_more": {
+    "other": "Опширније"
+  },
+  "plan_page_header_text": {
+    "other": "Уживајте у {{.Name}}"
+  },
+  "page_plan_explore_intro": {
+    "other": "ИЛИ"
+  },
+  "page_plan_explore_link": {
+    "other": "Истражите више"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Купите сада"
+  },
+  "plan_free_link_text": {
+    "other": "Бесплатно се пријави"
+  },
+  "awards_in_competition": {
+    "other": "Ин Цомпетитион"
+  },
+  "awards_winner": {
+    "other": "Победник"
+  },
+  "donate_button_text": {
+    "other": "Донирајте"
+  },
+  "wcag_skip_links_header": {
+    "other": "Ссылки на доступность"
+  },
+  "wcag_skip_links_content": {
+    "other": "Перейти к содержанию"
+  },
+  "wcag_homepage_h1": {
+    "other": "Главная страница"
+  },
+  "wcag_carousel_h2": {
+    "other": "Карусель"
+  },
+  "wcag_collections_h2": {
+    "other": "Коллекции"
+  },
+  "wcag_aria_label_footer": {
+    "other": "Нижний колонтин"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "Основной"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "Подразделение"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "Переключить навигацию"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "Пучок предметаs"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "Карусель"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Пагинација"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "Коллекция страницы"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "Список коллекции"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "Сладер коллекции"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "Список желаний"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "Поделиться на Facebok"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "Поделиться на Twitter"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "Поделиться на LinkedIn"
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "Просмотр на letterboxd"
+  },
+  "shopping_error_plan_already_owned": {
+    "other": "У вас уже есть этот план."
+  },
+  "shopping_error_plan_expired": {
+    "other": "Этот план больше не доступен."
+  },
+  "shopping_payment_method_header": {
+    "other": "Способы оплаты"
+  },
+  "shopping_payment_method_credit_card": {
+    "other": "Кредитная карта"
+  },
+  "shopping_payment_method_giropay": {
+    "other": "Гиропай"
+  },
+  "shopping_error_stripe_unknown_error": {
+    "other": "Что-то пошло не так с этим платежом.Пожалуйста, попробуйте позже."
+  },
+  "shopping_error_payment_complete_failed": {
+    "other": "Оплата была отклонена.Закройте это окно и попробуйте снова."
+  },
+  "validation_pincode1_required": {
+    "other": "Пожалуйста, введите действительный PIN-код."
+  },
+  "validation_pincode2_required": {
+    "other": "Пожалуйста, введите действительный PIN-код."
+  },
+  "validation_pincode1_pattern": {
+    "other": "Пожалуйста, введите действительный PIN-код."
+  },
+  "validation_pincode2_pattern": {
+    "other": "Пожалуйста, введите действительный PIN-код."
+  },
+  "validation_pincode2_match": {
+    "other": "PIN-код не совпадает."
+  },
+  "header_banner": {
+    "other": "Знамя заголовка"
+  },
+  "meta_description_expand": {
+    "other": "Види више"
+  },
+  "meta_description_collapse": {
+    "other": "Видите мање"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Претплате и наплата"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Начин плаћања"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Промене у начину плаћања кредитном картицом ступиће на снагу у следећем обрачунском циклусу."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Детаљи претплате"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Ацтиве"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "истекао"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Откријте претплате"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Откријте одличан садржај по одличним ценама, којим се лако управља овде."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Истражите претплате"
+  },
+  "nav_subscriptions": {
+    "other": "Моје претплате"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Прва уплата {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Следећа уплата {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Рок за плаћање {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Завршава {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Ендед {{.Expiry}}"
+  },
+  "sponsor_image_alt": {
+    "other": "логотип спонзора"
+  },
+  "subscribe_to_watch": {
+    "other": "Претплатите се на гледање"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} ставке"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Ажурирајте своју кредитну картицу. Подржане картице су Виса, Мастерцард и Америцан Екпресс."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Код је успешно примењен."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Унесите важећи промотивни код."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Сада можете гледати {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Искупити"
+  },
+  "pricing_ownership_promo": {
+    "other": "Искупити"
+  },
+  "subscription_cta_label": {
+    "other": "претплатити се {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Година",
+    "few": "{{.Count}} Године",
+    "other": "{{.Count}} Године"
+  },
+  "subscription_recurrence_month": {
+    "one": "Месец дана",
+    "few": "{{.Count}} месеци",
+    "other": "{{.Count}} месеци"
+  },
+  "subscription_recurrence_week": {
+    "one": "Недеља",
+    "few": "{{.Count}} Недеље",
+    "other": "{{.Count}} Недеље"
+  },
+  "subscription_recurrence_day": {
+    "one": "Дан",
+    "few": "{{.Count}} Дани",
+    "other": "{{.Count}} Дани"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Претплата"
+  },
+  "something_bad_happened": {
+    "other": "Молим вас, покушајте поново"
+  },
+  "stripe_card_not_supported": {
+    "other": "Ваша картица није подржана."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Претрага"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Пошаљите претрагу"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Аутоматски обнавља сваки {{.Interval}}",
+    "few": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}}",
+    "other": "Аутоматски обнавља на сваких {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Испробајте своју бесплатну пробну верзију од 24 сата сада!",
+    "few": "Испробајте своју бесплатну пробну верзију {{.Count}} даи!",
+    "other": "Испробајте своју бесплатну пробну верзију {{.Count}} даи!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Претплате и наплата"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Касни рок"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Неплаћено"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Отказано"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Отказивање"
+  },
+  "interval_day": {
+    "one": "дан",
+    "few": "дана",
+    "other": "дана"
+  },
+  "interval_week": {
+    "one": "Недеља",
+    "few": "недеље",
+    "other": "недеље"
+  },
+  "interval_month": {
+    "one": "месец дана",
+    "few": "месеци",
+    "other": "месеци"
+  },
+  "interval_year": {
+    "one": "године",
+    "few": "године",
+    "other": "године"
+  },
+  "shopping_error_processing_error": {
+    "other": "Дошло је до грешке приликом обраде ваше картице. Покушајте поново касније или са другим начином плаћања."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Сесија куповине је истекла, покушајте поново."
+  },
+  "live_stream_starts": {
+    "other": "Стрим почиње {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Стримовање сада"
+  },
+  "live_streaming_ended": {
+    "other": "Стрим је завршен"
+  },
+  "availability_live": {
+    "other": "ЛИВЕ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Узми карту"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Не можете да користите промотивни код за ову куповину или изнајмљивање"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Тај промо код још увек није важећи"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Промотивни кодови се не могу применити на бесплатне сесије куповине"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Промо кодови се не могу применити након што је куповина завршена"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Није могуће применити промотивни код, покушајте поново"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Неважећи промо код"
+  },
+  "shopping_error_missing_code": {
+    "other": "Није наведен промотивни код"
+  },
+  "live_label_ended": {
+    "other": "УЖИВО: ЗАВРШЕНО"
+  },
+  "live_label_live": {
+    "other": "ЛИВЕ"
+  },
+  "live_label_minutes": {
+    "one": "УЖИВО: 1 МИНУТА",
+    "few": "УЖИВО: {{.Count}} МИНУТЕ",
+    "other": "УЖИВО: {{.Count}} МИНУТЕ"
+  },
+  "live_label_hours": {
+    "one": "УЖИВО: 1 САТ",
+    "few": "УЖИВО: {{.Count}} САТИ",
+    "other": "УЖИВО: {{.Count}} САТИ"
+  },
+  "live_label_days": {
+    "one": "УЖИВО: 1 ДАН",
+    "few": "УЖИВО: {{.Count}} ДАНА",
+    "other": "УЖИВО: {{.Count}} ДАНА"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Ливе Стреам"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Ово је догађај уживо. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Можете купити карту сада, али ћете морати да гледате док је стрим уживо."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Мораћете да гледате док је стрим уживо."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Овај догађај је тренутно уживо. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Стрим се завршава {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "После тога нећете моћи да гледате стрим."
+  },
+  "shopping_action_ticket": {
+    "other": "Узми карту"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Стрим почиње {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Почело је у {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Не можете га премотати."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Датум истека ваше картице је у прошлости."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Година истека ваше картице је у прошлости."
+  }
+}

@@ -1,0 +1,1511 @@
+{
+  "settings_title": {
+    "other": "Settings"
+  },
+  "powered_by": {
+    "other": "Sadržaj omogućio"
+  },
+  "powered_by_name": {
+    "other": "Shift72"
+  },
+  "powered_by_url": {
+    "other": "https://www.screenplus.com"
+  },
+  "in_partnership_with": {
+    "other": "u suradnji s"
+  },
+  "festival_scope": {
+    "other": "Festival Scope"
+  },
+  "festival_scope_url": {
+    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
+  },
+  "en": {
+    "other": "English"
+  },
+  "fr": {
+    "other": "French"
+  },
+  "episode_name": {
+    "other": "Epizoda"
+  },
+  "season_name": {
+    "other": "Sezona"
+  },
+  "seasons": {
+    "other": "{{.Count}} sezona"
+  },
+  "tvseason": {
+    "other": "{{.ShowInfo.Title}} Serija {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>Serija {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "Serija {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "other": "{{.Count}} Epizoda"
+  },
+  "date_day": {
+    "other": "Dan"
+  },
+  "date_month": {
+    "other": "Mjesec"
+  },
+  "date_year": {
+    "other": "Godina"
+  },
+  "404_page_header": {
+    "other": "Tražena stranica nije dostupna..."
+  },
+  "404_page_content": {
+    "other": "<p>Žao nam je, ali stranica koju tražite nije dostupna.</p><p>Stranica je možda premještena ili izbrisana, ili je unesena pogrešna adresa stranice.</p><p>Pokušajte se vratiti na početnu stranicu i ponovno pronaći traženi sadržaj.</p><p><a href=\"{{.URL}}\">Povratak na početnu stranicu</a></p>"
+  },
+  "nav_signin": {
+    "other": "Prijava"
+  },
+  "nav_signup": {
+    "other": "Izradi korisnički račun"
+  },
+  "nav_signed_in_as": {
+    "other": "Prijavljen kao"
+  },
+  "nav_library": {
+    "other": "Moja zbirka"
+  },
+  "nav_devices": {
+    "other": "Moji uređaji"
+  },
+  "nav_wishlist": {
+    "other": "Moj popis"
+  },
+  "nav_account": {
+    "other": "Moj račun"
+  },
+  "nav_signout": {
+    "other": "Odjava"
+  },
+  "play_trailer": {
+    "other": "Prikolica"
+  },
+  "header_banner": {
+    "other": "ABC Cinemas – 21. filmski festival, 1. – 6. lipnja 2021"
+  },
+  "runtime_hours": {
+    "other": "h"
+  },
+  "runtime_minutes": {
+    "other": "min"
+  },
+  "datetime_today": {
+    "other": "danas {{.Date}}"
+  },
+  "datetime_tomorrow": {
+    "other": "sutra {{.Date}}"
+  },
+  "datetime_yesterday": {
+    "other": "jučer {{.Date}}"
+  },
+  "datetime_next": {
+    "other": "{{.Date}}"
+  },
+  "datetime_last": {
+    "other": "posljednje {{.Date}}"
+  },
+  "search_control_placeholder": {
+    "other": "Pretraživanje"
+  },
+  "search_control_submit": {
+    "other": "Potvrdi pretraživanje"
+  },
+  "play_button_watch": {
+    "other": "Gledajte sad"
+  },
+  "play_button_resume": {
+    "other": "Nastavi"
+  },
+  "social_media_buttons_title": {
+    "other": "Udio"
+  },
+  "social_media_buttons_facebook": {
+    "other": "Facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "E-mail"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "Dijeljenje veze"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "Veza je kopirana"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "Kopiraj link"
+  },
+  "accept_invite_page_header": {
+    "other": "Dobrodošli "
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+    "other": "Ovaj pozivni kod je već iskorišten i potrebna je ponovna <a href=\"{{.SigninURL}}\">prijava</a>. Ako ste zaboravili lozinku, možete je <a href=\"{{.ForgotPasswordURL}}\">resetirati</a>."
+  },
+  "acceptinvite_complete": {
+    "other": "Hvala vam. Izradili ste korisnički račun."
+  },
+  "acceptinvite_form_submit": {
+    "other": "Prihvati pozivnicu"
+  },
+  "acceptinvite_agreement": {
+    "other": "Pritiskom na dugme \"Prihvati pozivnicu\" potvrđujete da ste pročitali i razumjeli <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">uvjete korištenja</a> i <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">pravila o zaštiti privatnosti</a>."
+  },
+  "signup_page_header": {
+    "other": "Izradi novi korisnički račun"
+  },
+  "signup_form_name": {
+    "other": "Ime"
+  },
+  "signup_form_email": {
+    "other": "Email adresa"
+  },
+  "signup_form_password": {
+    "other": "Lozinka"
+  },
+  "signup_form_password_confirmation": {
+    "other": "Potvrdi lozinku"
+  },
+  "signup_form_gender": {
+    "other": "Spol"
+  },
+  "signup_form_dob": {
+    "other": "Datum rođenja"
+  },
+  "signup_form_submit": {
+    "other": "Potvrdi"
+  },
+  "signin_page_header": {
+    "other": "Prijava"
+  },
+  "signin_form_email": {
+    "other": "Email adresa"
+  },
+  "signin_form_password": {
+    "other": "Lozinka"
+  },
+  "signin_form_remember": {
+    "other": "Zapamti me"
+  },
+  "signin_form_submit": {
+    "other": "Potvrdi"
+  },
+  "signin_page_forgotpassword": {
+    "other": "Zaboravili ste lozinku?"
+  },
+  "signin_page_createnewaccount": {
+    "other": "Nemate korisnički račun? Izradi novi korisnički račun"
+  },
+  "signup_page_alreadyhaveanaccount": {
+    "other": "Imate korisnički račun? Prijavite se"
+  },
+  "signup_form_error_email_already_in_use": {
+    "other": "Email adresa je povezana s drugim korisničkim računom."
+  },
+  "signin_form_error_incorrect_credentials": {
+    "other": "Pogrešno korisničko ime ili lozinka."
+  },
+  "signin_form_error_ip_throttled": {
+    "other": "Premašili ste broj pokušaja prijave. Pokušajte ponovno kasnije."
+  },
+  "signin_form_error_account_suspended": {
+    "other": "Korisnički račun je privremeno blokiran. Obratite se administratoru ako smatrate da je riječ o pogrešci."
+  },
+  "signup_form_error_forbidden": {
+    "other": "Došlo je do pogreške."
+  },
+  "combined_auth_continue": {
+    "other": "Nastavi"
+  },
+  "combined_auth_change": {
+    "other": "promijeni"
+  },
+  "combined_auth_signin": {
+    "other": "Prijava"
+  },
+  "combined_auth_signup": {
+    "other": "Izradi korisnički račun"
+  },
+  "combined_auth_signin_password": {
+    "other": "Molimo unesite lozinku za prijavu na vaš korisnički račun."
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+    "other": "Pogrešna lozinka."
+  },
+  "combined_auth_error_forbidden": {
+    "other": "Došlo je do pogreške."
+  },
+  "combined_auth_error_too_many_requests": {
+    "other": "Previše zahtjeva. Pokušajte ponovno kasnije."
+  },
+  "forgotpassword_page_header": {
+    "other": "Resetirajte lozinku"
+  },
+  "forgotpassword_form_email": {
+    "other": "Email adresa"
+  },
+  "forgotpassword_form_submit": {
+    "other": "Resetiraj"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+    "other": "Ne postoji korisnički račun povezan s email adresom."
+  },
+  "forgotpassword_form_error_account_suspended": {
+    "other": "Ovaj račun je blokiran."
+  },
+  "forgotpassword_complete": {
+    "other": "Hvala vam. Email s uputama za resetiranje lozinke upućen je na vaš email."
+  },
+  "forgotpassword_form_error_forbidden": {
+    "other": "Došlo je do pogreške."
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "Previše zahtjeva. Pokušajte ponovno kasnije."
+  },
+  "resetpassword_page_header": {
+    "other": "Promijeni lozinku"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+    "other": "Zahtjev za resetiranje lozinke nije valjan, molimo ispunite <a href=\"{{.URL}}\">Forgot Password</a> obrazac ponovno."
+  },
+  "resetpassword_form_password": {
+    "other": "Nova lozinka"
+  },
+  "resetpassword_form_password2": {
+    "other": "Potvrdi novu lozinku"
+  },
+  "resetpassword_form_submit": {
+    "other": "Izmijeni"
+  },
+  "resetpassword_complete": {
+    "other": "Hvala vam. Vaša lozinka je promijenjena i prijavljeni ste."
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+    "other": "Zahtjev za resetiranje lozinke nije valjan. Molimo pokušajte kasnije."
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+    "other": "Ključ za resetiranje lozinke je istekao. Molimo zatražite novi."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "Previše zahtjeva. Pokušajte ponovno kasnije."
+  },
+  "account_page_header": {
+    "other": "Moj korisnički račun"
+  },
+  "account_form_name": {
+    "other": "Ime"
+  },
+  "account_form_email": {
+    "other": "Email adresa"
+  },
+  "account_form_password": {
+    "other": "Lozinka"
+  },
+  "account_form_change_password": {
+    "other": "Izmijeni"
+  },
+  "account_form_gender": {
+    "other": "Spol"
+  },
+  "account_form_dob": {
+    "other": "Datum rođenja"
+  },
+  "account_form_submit": {
+    "other": "Ažuriranje"
+  },
+  "account_form_submitted": {
+    "other": "Ažurirano"
+  },
+  "account_form_password_changed": {
+    "other": "Ažurirano"
+  },
+  "account_form_error_incorrect_password": {
+    "other": "Pogrešna lozinka."
+  },
+  "account_form_pin_code": {
+    "other": "PIN"
+  },
+  "account_form_pin_code_not_set": {
+    "other": "Niste postavili PIN, koji je potreban za kupovinu, posudbu i gledanje nekih naslova."
+  },
+  "account_form_set_pin": {
+    "other": "Postavite PIN"
+  },
+  "account_form_pin_changed": {
+    "other": "Ažurirano"
+  },
+  "account_form_change_pin": {
+    "other": "Promijenite PIN"
+  },
+  "user_set_pin_header": {
+    "other": "Postavite vaš PIN"
+  },
+  "user_set_pin_button": {
+    "other": "Postavite PIN"
+  },
+  "user_submit_pin_heading": {
+    "other": "Unesite PIN za {{.Action}} ograničenom sadržaju"
+  },
+  "user_error_wrong_pin_retry": {
+    "other": "Unijeli ste pogrešan PIN"
+  },
+  "user_error_too_many_pin_errors": {
+    "other": "<p>Došlo je do problema s unosom.</p><p>Resetirajte PIN ili nam se obratite za <a href=\"{{.HelpURL}}\" target=\"_blank\">pomoć</a>"
+  },
+  "user_submit_pin_button": {
+    "other": "Unos"
+  },
+  "user_reset_pin_button": {
+    "other": "Resetirajte PIN"
+  },
+  "signup_form_optin": {
+    "other": "Prijavite se za naš newsletter"
+  },
+  "passwordconfirmation_modal_header": {
+    "other": "Potvrdite lozinku"
+  },
+  "passwordconfirmation_modal_label": {
+    "other": "Molimo unesite lozinku kako bi potvrdili promjene"
+  },
+  "passwordconfirmation_modal_confirm": {
+    "other": "Potvrdi"
+  },
+  "changepassword_modal_header": {
+    "other": "Promijenite lozinku"
+  },
+  "changepassword_modal_currentpassword": {
+    "other": "Vaša trenutna lozinka"
+  },
+  "changepassword_modal_password": {
+    "other": "Vaša nova lozinka"
+  },
+  "changepassword_modal_password2": {
+    "other": "Potvrdite novu lozinku"
+  },
+  "changepassword_modal_submit": {
+    "other": "Ažuriranje"
+  },
+  "changepassword_modal_error_incorrect_password": {
+    "other": "Pogrešna lozinka."
+  },
+  "userlibrary_page_header": {
+    "other": "Moja zbirka"
+  },
+  "userlibrary_empty_header": {
+    "other": "Vaša zbirka je prazna."
+  },
+  "userlibrary_empty_content": {
+    "other": "Popunite zbirku <a href=\"{{.HomeURL}}\">pretraživanjem</a> naših sadržaja."
+  },
+  "searchresults_page_header": {
+    "other": "Rezultati pretraživanja"
+  },
+  "searchresults_load_more": {
+    "other": "Učitaj {{.Count}} više"
+  },
+  "searchresults_total": {
+    "other": "Pronađeno {{.Count}} rezultata za \"{{.Query}}\"."
+  },
+  "searchresults_empty_header": {
+    "other": "Nema rezultata pretrage za \"{{.Query}}\""
+  },
+  "searchresults_empty_content": {
+    "other": "Pokušajte s drugim terminom za pretragu ili <a href=\"{{.HomeURL}}\">pretražite sadržaje</a> kako bi pronašli ono što tražite."
+  },
+  "validation_name_required": {
+    "other": "Molimo unesite ime."
+  },
+  "validation_email_required": {
+    "other": "Molimo unesite email adresu."
+  },
+  "validation_email_email": {
+    "other": "Molimo unesite valjanu email adresu."
+  },
+  "validation_currentpassword_required": {
+    "other": "Molimo unesite trenutnu lozinku."
+  },
+  "validation_password_required": {
+    "other": "Molimo unesite lozinku."
+  },
+  "validation_password2_required": {
+    "other": "Molimo potvrdite lozinku."
+  },
+  "validation_password2_match": {
+    "other": "Lozinke se ne podudaraju."
+  },
+  "validation_password_minlength": {
+    "other": "Molimo unesite najmanje {{.Count}} znakova."
+  },
+  "validation_promocode_required": {
+    "other": "Molimo unesite promotivni kod."
+  },
+  "validation_pincode_required": {
+    "other": "Molimo unesite PIN."
+  },
+  "validation_pincode1_required": {
+    "other": "Molimo unesite valjan PIN."
+  },
+  "validation_pincode2_required": {
+    "other": "Molimo unesite valjan PIN."
+  },
+  "validation_pincode1_pattern": {
+    "other": "Molimo unesite valjan PIN."
+  },
+  "validation_pincode2_pattern": {
+    "other": "Molimo unesite valjan PIN."
+  },
+  "validation_pincode2_match": {
+    "other": "PIN ne odgovara."
+  },
+  "validation_gender_required": {
+    "other": "Molimo unesite spol s kojim se identificirate."
+  },
+  "validation_dob_required": {
+    "other": "Molimo unesite datum rođenja."
+  },
+  "validation_dob_date": {
+    "other": "Molimo unesite valjan datum rođenja."
+  },
+  "shopping_info_subtitle_hd": {
+    "other": "HD Video na zahtjev."
+  },
+  "shopping_info_subtitle_sd": {
+    "other": "SD Video na zahtjev."
+  },
+  "shopping_info_subtitle_wallet": {
+    "other": "Sredstva možete iskoristiti za kupovinu ili posudbu sadržaja na ScreenPlus."
+  },
+  "shopping_info_subtitle_help": {
+    "other": "Vidi zahtjeve sustava."
+  },
+  "shopping_info_ownership_buy": {
+    "other": "kupovina"
+  },
+  "shopping_info_ownership_rent": {
+    "other": "posudba"
+  },
+  "shopping_info_sd_only": {
+    "other": "Ograničeno na SD format."
+  },
+  "shopping_info_release_date_title": {
+    "other": "Dolazi {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation_rent": {
+    "other": "Sadržaj možete posuditi sada, ali ga nećete moći gledati do zadanog datuma."
+  },
+  "shopping_info_release_date_explanation_buy": {
+    "other": "Sadržaj možete kupiti sada, ali ga nećete moći gledati do zadanog datuma."
+  },
+  "shopping_info_available_until_date_title": {
+    "other": "Dostupno do {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+    "other": "Nakon ovoga više ne možete gledati sadržaj."
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+    "other": "Nakon ovoga više ne možete gledati sadržaj."
+  },
+  "duration_hour": {
+    "one": "1 sat",
+    "other": "{{.Count}} sata"
+  },
+  "duration_day": {
+    "one": "1 dan",
+    "other": "{{.Count}} dana"
+  },
+  "shopping_info_rental_period_duration": {
+    "other": "{{.ValueUnit}} posudbe "
+  },
+  "shopping_info_watch_window_duration": {
+    "other": "{{.Count}} sati zaslona za reprodukciju. "
+  },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "Nakon posudbe, film će biti dostupan na vašem korisničkom računu {{.ValueUnit}}. ",
+    "other": "Nakon posudbe, film će biti dostupan na vašem korisničkom računu {{.ValueUnit}}. "
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "other": "Nakon pokretanja sadržaja, otvara se prozor prikazivanja i imate na raspolaganju {{.Count}} sati za gledanje filma, koliko puta želite. "
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "other": "Nakon posudbe, sadržaji iz paketa će biti dostupni na vašem korisničkom računu {{.Count}} dana. "
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "other": "Nakon pokretanja određenog filma, otvara se prozor prikazivanja i imate na raspolaganju {{.Count}} sati za gledanje filma, koliko puta želite."
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "other": "Nakon posudbe, sezona će biti dostupna na vašem korisničkom računu {{.Count}} dana. "
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "other": "Nakon pokretanja epizode, otvara se prozor prikazivanja i imate na raspolaganju {{.Count}} sati za gledanje epizode, koliko puta želite."
+  },
+  "shopping_info_credit_bonus_title": {
+    "other": "{{.BonusPercentage}}% Bonus"
+  },
+  "shopping_enter_card_prompt": {
+    "other": "Unesite podatke s vaše kreditne kartice za završetak {{.Verb}}."
+  },
+  "shopping_terms": {
+    "other": "Izvršavanjem transakcije, prihvaćam <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">uvjete korištenja</a>."
+  },
+  "shopping_discount_applied": {
+    "other": "{{.DiscountAmount}} popust iskorišten."
+  },
+  "shopping_discount_apply": {
+    "other": "Iskoristi"
+  },
+  "shopping_discount_code": {
+    "other": "Unesite promotivni kod."
+  },
+  "shopping_discount_have_code": {
+    "other": "Imam promotivni kod."
+  },
+  "shopping_price_you_pay": {
+    "other": "Plaćate"
+  },
+  "shopping_price_nothing": {
+    "other": "Ništa"
+  },
+  "shopping_price_free": {
+    "other": "Besplatno"
+  },
+  "shopping_auth_directions": {
+    "other": "Potreban je korisnički račun. Molimo unesite email adresu."
+  },
+  "shopping_error_in_library": {
+    "other": "{{.Title}} se već nalazi u vašoj zbirci."
+  },
+  "shopping_error_missing_card": {
+    "other": "Molimo unesite podatke s vaše kreditne kartice."
+  },
+  "shopping_error_title": {
+    "other": "Došlo je do pogreške"
+  },
+  "shopping_error_incorrect_cvc": {
+    "other": "Molimo unesite valjan  CVC."
+  },
+  "shopping_error_invalid_cvc": {
+    "other": "Molimo unesite valjan CVC."
+  },
+  "shopping_error_incorrect_number": {
+    "other": "Molimo unesite valjan broj kreditne kartice."
+  },
+  "shopping_error_invalid_number": {
+    "other": "Molimo unesite valjan broj kreditne kartice."
+  },
+  "shopping_error_card_declined": {
+    "other": "Kreditna kartica je odbijena."
+  },
+  "shopping_error_invalid_expiry_month": {
+    "other": "Molimo unesite važeći rok valjanosti.."
+  },
+  "shopping_error_invalid_expiry_year": {
+    "other": "Molimo unesite važeći rok valjanosti."
+  },
+  "shopping_error_expired_card": {
+    "other": "Kreditna kartica je istekla."
+  },
+  "shopping_error_creditcard_country_mismatch": {
+    "other": "Vaša {{.Ownership}} nije izvršena. Morate se nalaziti u zemlji u kojoj je izdana vaša kreditna kartica. Molimo koristite drugu karticu za plaćanje."
+  },
+  "shopping_error_proxy_detected": {
+    "other": "Vaša {{.Ownership}} nije izvršena. Otkriven je kod za deblokiranje ili proxy poslužitelj. Molimo isključite takve usluge i pokušajte ponovno."
+  },
+  "shopping_error_discount_worn_out": {
+    "other": "Promotivni kod se ne može više koristiti."
+  },
+  "shopping_error_discount_blank": {
+    "other": "Molimo unesite promotivni kod."
+  },
+  "shopping_error_discount_not_applied": {
+    "other": "Molimo unesite valjani promotivni kod."
+  },
+  "shopping_error_discount_invalid": {
+    "other": "Molimo unesite valjani promotivni kod."
+  },
+  "shopping_error_discount_disabled": {
+    "other": "Molimo unesite valjani promotivni kod."
+  },
+  "shopping_error_discount_already_applied": {
+    "other": "Promotivni kod je već iskorišten za ovaj termin."
+  },
+  "shopping_error_discount_already_redeemed": {
+    "other": "Promotivni kod je već iskorišten."
+  },
+  "shopping_error_discount_used_previously": {
+    "other": "Promotivni kod je već iskorišten."
+  },
+  "shopping_error_discount_max_limit": {
+    "other": "Promotivni kod se ne može više koristiti."
+  },
+  "shopping_error_discount_expired": {
+    "other": "Promotivni kod je istekao."
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+    "other": "Promotivni kod se ne može koristiti za kupovinu."
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+    "other": "Promotivni kod se ne može koristiti za posudbu."
+  },
+  "shopping_error_discount_invalid_item": {
+    "other": "Promotivni kod se ne može koristiti za ovaj naslov."
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+    "other": "Promotivni kod se ne može koristiti u vašoj zemlji."
+  },
+  "shopping_error_discounts_not_allowed": {
+    "other": "Promotivni kod se ne može koristiti."
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+    "other": "Promotivni kod ne može se koristiti za pakete."
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+    "other": "Kreditna kartica je odbijena. Molimo pokušajte ponovno."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Vaša kartica nije podržana."
+  },
+  "shopping_complete_rental": {
+    "other": "Uspješan unos!"
+  },
+  "shopping_complete_rental_period": {
+    "other": "Sada možete gledati sadržaj tijekom narednih {{.Count}} dana, koliko puta želite."
+  },
+  "shopping_complete_purchase": {
+    "other": "Hvala vam što ste kupili {{.Title}}."
+  },
+  "shopping_complete_credit_purchase": {
+    "other": "Hvala vam što ste kupili {{.Title}}, {{.CreditTotal}} je naplaćeno s vašeg računa."
+  },
+  "shopping_complete_purchase_coming_soon": {
+    "other": "Sadržaj možete gledati od {{.Date}}."
+  },
+  "shopping_complete_receipt": {
+    "other": "Račun je upućen na vašu email adresu."
+  },
+  "shopping_complete_library_link": {
+    "other": "Pregled naslova iz zbirke"
+  },
+  "shopping_complete_rental_watch_window_start": {
+    "other": "Sada možete gledati sadržaj tijekom sljedećih {{.Count}} dana."
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "other": "Kad započnete reprodukciju, imate {{.Count}} jedan sat za gledanje sadržaja, koliko puta želite."
+  },
+  "shopping_complete_rental_coming_soon": {
+    "other": "Sadržaj možete gledati od {{.Date}} i vaša posudba traje {{.Count}} dana."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "other": "Sadržaj možete gledati od {{.Date}} i vaša posudba traje {{.Count}} dana."
+  },
+  "shopping_complete_plan": {
+    "other": "Vaša kupnja {{.Title}} je uspjela."
+  },
+  "shopping_action_rent": {
+    "other": "Posudi"
+  },
+  "shopping_action_buy": {
+    "other": "Kupi"
+  },
+  "shopping_payment_method_header": {
+    "other": "Načini plaćanja"
+  },
+  "shopping_payment_method_credit_card": {
+    "other": "Kreditna kartica   "
+  },
+  "shopping_payment_method_giropay": {
+    "other": "Giropay"
+  },
+  "shopping_error_stripe_unknown_error": {
+    "other": "Došlo je do pogreške prilikom plaćanja. Molimo pokušajte ponovno kasnije."
+  },
+  "shopping_error_payment_complete_failed": {
+    "other": "Plaćanje je odbijeno. Zatvorite ovaj prozor i pokušajte ponovno."
+  },
+  "meta_detail_cast_title": {
+    "other": "Glumci"
+  },
+  "meta_detail_crew_title": {
+    "other": "Filmska ekipa"
+  },
+  "meta_detail_languages": {
+    "other": "Jezici"
+  },
+  "meta_detail_studios": {
+    "other": "Studiji"
+  },
+  "meta_detail_countries": {
+    "other": "Zemlje"
+  },
+  "meta_detail_subtitles": {
+    "other": "Podnaslovi"
+  },
+  "meta_detail_captions": {
+    "other": "Podnaslovi [CC]"
+  },
+  "meta_detail_episodes_title": {
+    "other": "Epizode"
+  },
+  "meta_detail_bonus_title": {
+    "other": "Bonus sadržaj"
+  },
+  "meta_detail_recommendations_title": {
+    "other": "Nalovi koji bi vam se mogli svidjeti"
+  },
+  "meta_detail_bundle_items_title": {
+    "other": "Sadržaj uključen u ovaj paket"
+  },
+  "bundle_items_all_films": {
+    "other": "{{.Count}} filmova"
+  },
+  "bundle_items_all_seasons": {
+    "other": "{{.Count}} sezona"
+  },
+  "bundle_items_mixed": {
+    "other": "{{.Count}} filmova i sezona"
+  },
+  "userwishlist_page_header": {
+    "other": "Moj popis"
+  },
+  "userwishlist_slider_header": {
+    "other": "Moj popis"
+  },
+  "userwishlist_empty_header": {
+    "other": "Vaš popis je prazan."
+  },
+  "userwishlist_empty_content": {
+    "other": "Nadopuni popis <a href=\"{{.HomeURL}}\">pretraživanjem naslova</a> iz naše kolekcije."
+  },
+  "userwishlist_button_add": {
+    "other": "Dodaj na moj popis"
+  },
+  "userwishlist_button_remove": {
+    "other": "Ukloni s moje liste"
+  },
+  "userwishlist_button_add_compact": {
+    "other": "Moj popis"
+  },
+  "userwishlist_button_remove_compact": {
+    "other": "Moj popis"
+  },
+  "activatedevice_page_header": {
+    "other": "Aktiviraj uređaj"
+  },
+  "activatedevice_page_content": {
+    "other": "Slijedite upute na vašem uređaju kako bi dobili PIN. Vaše računalo i uređaj moraju biti spojeni na internet za aktivaciju."
+  },
+  "activatedevice_form_pin": {
+    "other": "PIN"
+  },
+  "activatedevice_form_submit": {
+    "other": "Aktiviraj"
+  },
+  "activatedevice_form_error_invalid_code": {
+    "other": "PIN nije pronađen, pokušajte ponovno."
+  },
+  "activatedevice_form_error_pin_not_found": {
+    "other": "PIN nije pronađen, pokušajte ponovno."
+  },
+  "activatedevice_signin_prompt": {
+    "other": "Molimo prijavite se prije aktivirana uređaja."
+  },
+  "activatedevice_page_activated": {
+    "other": "Hvala vam što ste aktivirali {{.DeviceName}}. Sada možete pretraživati sadržaje na vašem TV-u ili uređaju."
+  },
+  "userdevices_page_header": {
+    "other": "Uređaji  "
+  },
+  "userdevices_page_content": {
+    "other": "Uređaji se automatski dodaju prilikom korištenja. Broj uređaja je ograničen na {{.Count}}."
+  },
+  "userdevices_empty_content": {
+    "other": "Trenutno imate 0 registriranih uređaja."
+  },
+  "userdevices_header_type": {
+    "other": "Tip uređaja"
+  },
+  "userdevices_header_description": {
+    "other": "Opis"
+  },
+  "userdevices_device_added": {
+    "other": "Dodano {{.Date}}"
+  },
+  "userdevices_device_actions_delete": {
+    "other": "Ukloni"
+  },
+  "userdevices_device_actions_cancel": {
+    "other": "Poništi"
+  },
+  "userdevices_device_actions_confirm": {
+    "other": "Da, ukloni uređaj"
+  },
+  "userdevices_device_deleted": {
+    "other": "(Uklonjeno)"
+  },
+  "userdevices_delete_limits": {
+    "other": "Možete ukloniti sljedeći broj {{.Limit}} uređaja s ovog popisa svakih {{.Period}} dana."
+  },
+  "userdevices_delete_limit_reached": {
+    "other": "Dostigli ste ograničenje i sada ne možete uklanjati uređaje. Možete ukloniti uređaj za {{.Days}} dana."
+  },
+  "playlist_page_header": {
+    "other": "Popis za reprodukciju"
+  },
+  "playlist_sign_in_warning": {
+    "other": "Prijavite se za gledanje live TV-a."
+  },
+  "playlist_share_title": {
+    "other": "Popis za reprodukciju"
+  },
+  "playlist_up_next_title": {
+    "other": "Sljedeće"
+  },
+  "pricing_ownership_buy": {
+    "other": "Kupi"
+  },
+  "pricing_ownership_rent": {
+    "other": "Posudi"
+  },
+  "classification_intro": {
+    "other": "Ocjena: "
+  },
+  "cookie_banner_message": {
+    "other": "Mrežne stranice koriste kolačiće za bolje korisničko iskustvo. Korištenjem stranica, prihvaćate <a href=\"{{.CookiePolicyURL}}\">korištenje podataka o stranicama</a>."
+  },
+  "cookie_banner_accept": {
+    "other": "Prihvatiti"
+  },
+  "all_rights_reserved": {
+    "other": "Sva prava pridržana. Nijedan dio ovih mrežnih stranica ne smije se koristiti bez naše pisane privole."
+  },
+  "users_gender_none": {
+    "other": "Nije definirano"
+  },
+  "users_gender_female": {
+    "other": "Žensko"
+  },
+  "users_gender_male": {
+    "other": "Muško"
+  },
+  "users_gender_diverse": {
+    "other": "Različito"
+  },
+  "users_gender_other": {
+    "other": "Ostalo"
+  },
+  "shopping_card_save_card": {
+    "other": "Sačuvaj karticu za buduće korištenje"
+  },
+  "shopping_card_button_change": {
+    "other": "Prikaži sve pohranjene kartice"
+  },
+  "shopping_card_existing_description": {
+    "other": "{{.Card.Brand}} završne znamenke {{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+    "other": "(vrijedi do {{.Card.Expiry}})"
+  },
+  "shopping_card_existing_expired": {
+    "other": "(istekla)"
+  },
+  "shopping_card_use_other": {
+    "other": "Dodajte novu karticu"
+  },
+  "shopping_card_use_new_card": {
+    "other": "Promijenite karticu"
+  },
+  "shopping_card_update_reason_none": {
+    "other": "Ažurirajte svoju kreditnu karticu. Podržane kartice su Visa, Mastercard i American Express."
+  },
+  "shopping_card_new_subscription": {
+    "other": "Ova kartica će biti pohranjena za redovitu naplatu"
+  },
+  "shopping_card_change": {
+    "other": "Kreditna kartica nije ispravna? <a href=\"{{.SubscriptionsURL}}\">Pritisnite ovdje za ažuriranje kartice.</a>"
+  },
+  "shopping_info_rental_period_coming_soon": {
+    "other": "od datuma i sata objavljivanja."
+  },
+  "availability_coming_soon": {
+    "other": "Uskoro dostupno"
+  },
+  "availability_renting": {
+    "other": "Posudba"
+  },
+  "availability_not_available": {
+    "other": "Nije dostupno"
+  },
+  "availability_in_watch_window": {
+    "other": "Dostupno u prozoru sata"
+  },
+  "availability_sold_out": {
+    "other": "Rasprodano"
+  },
+  "availability_available_till": {
+    "other": "Dostupno do {{.ExpiryDate}}"
+  },
+  "availability_not_available_in_country": {
+    "other": "Nije dostupno u vašoj zemlji"
+  },
+  "availability_available": {
+    "other": "Dostupno {{.ReleaseDate}}"
+  },
+  "availability_expires": {
+    "other": "Ističe {{.Expiry}}"
+  },
+  "availability_expired": {
+    "other": "Isteklo"
+  },
+  "modal_cancel": {
+    "other": "Prekid"
+  },
+  "play": {
+    "other": "Pokreni reprodukciju"
+  },
+  "combined_auth_signin_prompt": {
+    "other": "Prijavi se "
+  },
+  "combined_auth_signup_prompt": {
+    "other": "Izradi korisnički račun"
+  },
+  "combined_auth_terms": {
+    "other": "Prihvaćam <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">uvjete korištenja</a>."
+  },
+  "signup_terms": {
+    "other": "Prihvaćam <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">uvjete korištenja</a>."
+  },
+  "validation_terms_required": {
+    "other": "Morate prihvatiti uvjete korištenja."
+  },
+  "shopping_error_item_limit_exceeded": {
+    "other": "Nažalost, sadržaj {{.Title}} je rasprodan."
+  },
+  "changepincode_modal_header": {
+    "other": "Promijenite PIN"
+  },
+  "changepincode_modal_currentpassword": {
+    "other": "Vaša trenutna lozinka"
+  },
+  "changepincode_modal_pincode1": {
+    "other": "Vaš novi 4-znamenkasti PIN"
+  },
+  "changepincode_modal_pincode2": {
+    "other": "Potvrdi novi 4-znamenkasti PIN"
+  },
+  "changepincode_modal_submit": {
+    "other": "Postavi PIN"
+  },
+  "changepincode_modal_error_wrong_password": {
+    "other": "Pogrešna lozinka."
+  },
+  "user_set_pin_intro": {
+    "other": "Potreban je PIN za {{.Action}} ograničenom sadržaju"
+  },
+  "user_error_wrong_pin_reset": {
+    "other": "Pritisnite ze resetiranje PIN-a"
+  },
+  "shopping_error_age_restricted": {
+    "other": "Ovaj sadržaj je ograničen za maloljetnike."
+  },
+  "shopping_error_close_button": {
+    "other": "OK"
+  },
+  "wcag_skip_links_header": {
+    "other": "Poveznice pristupačnosti"
+  },
+  "wcag_skip_links_content": {
+    "other": "Idi na sadržaj"
+  },
+  "wcag_homepage_h1": {
+    "other": "Početna stranica"
+  },
+  "wcag_carousel_h2": {
+    "other": "Kružni prikaz"
+  },
+  "wcag_collections_h2": {
+    "other": "Zbirke"
+  },
+  "wcag_aria_label_footer": {
+    "other": "Podnožje"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "Glavni dio"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "Sub"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "Način prikaza"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "Naslovi iz paketa"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "Kružni prikaz"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginacija"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "Zbirka stranica"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "Popis zbirki"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "Klizač s naslovima iz zbirke"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "Popis želja"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "Podijeli sadržaj Facebook"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "Podijeli sadržaj Twitter"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "Podijeli sadržaj LinkedIn"
+  },
+  "shopping_price_title_plan": {
+    "other": "Cijena"
+  },
+  "shopping_price_plan_note": {
+    "one": "Naplaćuje se svaki {{.Interval}} nakon što završi besplatno probno razdoblje od 24 sata.",
+    "few": "Naplaćuje se svaki {{.Interval}} nakon {{.Count}}-dnevnog besplatnog probnog perioda.",
+    "other": "Naplaćuje se svaki {{.Interval}} nakon {{.Count}}-dnevnog besplatnog probnog perioda."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Naplaćuje se svaki {{.Interval}}."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{.Interval}}",
+    "few": "{{.Count}} {{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Unesite podatke svoje kreditne kartice ispod kako biste započeli svoju pretplatu."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Unesite podatke svoje kreditne kartice ispod kako biste započeli svoj plan."
+  },
+  "shopping_action_plan": {
+    "other": "Dovršeno"
+  },
+  "shopping_complete_subscription": {
+    "other": "Vaša je kupnja pretplate uspjela. Sada ste pretplaćeni na {{.Title}}."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Slobodno <a href=\"/\">pregledavajte</a> stranicu ili <a href=\"/search.html\">tražite</a> nešto specifično."
+  },
+  "shopping_info_plan_offer": {
+    "one": "Automatski obnavlja svaki {{.Interval}}",
+    "other": "Automatski obnavlja svaki {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Isprobajte svoju besplatnu probnu verziju od 24 sata sada!",
+    "few": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!",
+    "many": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!",
+    "other": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!"
+  },
+  "plans_page_header": {
+    "other": "Dostupni planovi"
+  },
+  "plan_label_owned": {
+    "other": "Vi ste vlasnik ovog plana"
+  },
+  "plan_expiry_date": {
+    "other": "Završena prodaja:"
+  },
+  "plan_read_more": {
+    "other": "Saznaj više"
+  },
+  "plan_page_read_more": {
+    "other": "Čitaj više"
+  },
+  "plan_page_header_text": {
+    "other": "Uživajte {{.Name}}"
+  },
+  "page_plan_explore_intro": {
+    "other": "ILI"
+  },
+  "page_plan_explore_link": {
+    "other": "Istražite više"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Kupi sada"
+  },
+  "plan_free_link_text": {
+    "other": "Prijavite se besplatno"
+  },
+  "awards_in_competition": {
+    "other": "U natjecanju"
+  },
+  "meta_description_expand": {
+    "other": "Vidi više"
+  },
+  "meta_description_collapse": {
+    "other": "Vidite manje"
+  },
+  "awards_winner": {
+    "other": "Pobjednik"
+  },
+  "donate_button_text": {
+    "other": "Donirajte"
+  },
+  "shopping_error_plan_already_owned": {
+    "other": "Već imate ovaj plan."
+  },
+  "shopping_error_plan_expired": {
+    "other": "Ovaj plan više nije dostupan."
+  },
+  "usersubscriptions_subscription_expiry": {
+    "other": "Istječe {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Otkazano"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Dospjelo"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "Probni rok"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+    "other": "Otkaži moju pretplatu"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+    "other": "Ne hvala"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+    "other": "Da, otkaži"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+    "other": "Otkazati pretplatu?"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+    "other": "Ovo će otkazati pretplatu na {{.Name}}. I dalje ćete moći gledati sadržaj dok ne istekne {{.Expiry}}."
+  },
+  "classification_divider": {
+    "other": " - "
+  },
+  "classification_outro": {
+    "other": ""
+  },
+  "pricing_quality_hd": {
+    "other": "HD"
+  },
+  "pricing_quality_sd": {
+    "other": "SD"
+  },
+  "pricing_quality_hd_only": {
+    "other": "HD Only"
+  },
+  "pricing_quality_sd_only": {
+    "other": "SD Only"
+  },
+  "shopping_info_ownership_plan": {
+    "other": "Plan"
+  },
+  "shopping_action_credit": {
+    "other": "Dopuniti"
+  },
+  "usersubscriptions_change_payment_method_change": {
+    "other": "Promjena kreditne kartice"
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+    "other": "Ažurirajte podatke o kreditnoj kartici"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "Ažuriraj"
+  },
+  "app_badge_title": {
+    "other": "Preuzmite aplikaciju za pregled kupljenog sadržaja!"
+  },
+  "app_badge_ios": {
+    "other": "Preuzmite na App Storeu"
+  },
+  "app_badge_android": {
+    "other": "Nabavite ga na Google Playu"
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "Pogled na Letterboxd"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+    "other": ""
+  },
+  "usersubscriptions_page_header": {
+    "other": "Pretplate i naplata"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Način plaćanja"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Promjene vašeg načina plaćanja kreditnom karticom stupit će na snagu u vašem sljedećem ciklusu naplate."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Pojedinosti o pretplati"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktivan"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Istekao"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Otkrijte pretplate"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Otkrijte sjajan sadržaj po odličnim cijenama, kojima se ovdje lako upravlja."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Istražite pretplate"
+  },
+  "nav_subscriptions": {
+    "other": "Moje pretplate"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Prva uplata {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Sljedeća uplata {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Rok za plaćanje {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Završava {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Završeno {{.Expiry}}"
+  },
+  "sponsor_image_alt": {
+    "other": "logotip sponzora"
+  },
+  "subscribe_to_watch": {
+    "other": "Pretplatite se na gledanje"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} stavke"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Ažurirajte svoju kreditnu karticu. Podržane kartice su Visa, Mastercard i American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Kôd je uspješno primijenjen."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Unesite važeći promotivni kod."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Sada možete gledati {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Otkupiti"
+  },
+  "pricing_ownership_promo": {
+    "other": "Otkupiti"
+  },
+  "subscription_cta_label": {
+    "other": "Pretplatite se {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Godina",
+    "few": "{{.Count}} Godine",
+    "other": "{{.Count}} Godine"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mjesec",
+    "few": "{{.Count}} mjeseci",
+    "other": "{{.Count}} mjeseci"
+  },
+  "subscription_recurrence_week": {
+    "one": "Tjedan",
+    "few": "{{.Count}} Tjedni",
+    "other": "{{.Count}} Tjedni"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dan",
+    "few": "{{.Count}} dana",
+    "other": "{{.Count}} dana"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Pretplata"
+  },
+  "something_bad_happened": {
+    "other": "Molim te pokušaj ponovno"
+  },
+  "stripe_card_not_supported": {
+    "other": "Vaša kartica nije podržana."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Pretraživanje"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Potvrdi pretraživanje"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Automatski obnavlja svaki {{.Interval}}",
+    "few": "Automatski obnavlja svaki {{.Count}} {{.Interval}}",
+    "many": "Automatski obnavlja svaki {{.Count}} {{.Interval}}",
+    "other": "Automatski obnavlja svaki {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Isprobajte svoju besplatnu probnu verziju od 24 sata sada!",
+    "few": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!",
+    "many": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!",
+    "other": "Isprobajte {{.Count}}-dnevno besplatno probno razdoblje!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Pretplate i naplata"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Neplaćeno"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Otkazivanje"
+  },
+  "interval_day": {
+    "one": "dan",
+    "few": "dana",
+    "other": "dana"
+  },
+  "interval_week": {
+    "one": "tjedan",
+    "few": "tjedni",
+    "other": "tjedni"
+  },
+  "interval_month": {
+    "one": "mjesec",
+    "few": "mjeseca",
+    "other": "mjeseca"
+  },
+  "interval_year": {
+    "one": "godina",
+    "few": "godine",
+    "other": "godine"
+  },
+  "shopping_error_processing_error": {
+    "other": "Došlo je do pogreške prilikom obrade vaše kartice. Pokušajte ponovno kasnije ili drugim načinom plaćanja."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Sesija kupnje je istekla, pokušajte ponovno."
+  },
+  "live_stream_starts": {
+    "other": "Stream počinje {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streaming sada"
+  },
+  "live_streaming_ended": {
+    "other": "Stream je završio"
+  },
+  "availability_live": {
+    "other": "UŽIVO"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Uzmi kartu"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Ne možete koristiti promotivni kod za ovu kupnju ili iznajmljivanje"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Taj promo kod još nije valjan"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Promotivni kodovi se ne mogu primijeniti na sesije besplatne kupnje"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Promotivni kodovi se ne mogu primijeniti nakon što je kupnja dovršena"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Promotivni kôd nije moguće primijeniti, pokušajte ponovno"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Nevažeći promotivni kod"
+  },
+  "shopping_error_missing_code": {
+    "other": "Nije dostavljen promotivni kod"
+  },
+  "live_label_ended": {
+    "other": "UŽIVO: ZAVRŠENO"
+  },
+  "live_label_live": {
+    "other": "UŽIVO"
+  },
+  "live_label_minutes": {
+    "one": "UŽIVO: 1 MINUTA",
+    "few": "UŽIVO: {{.Count}} MINUTE",
+    "other": "UŽIVO: {{.Count}} MINUTE"
+  },
+  "live_label_hours": {
+    "one": "UŽIVO: 1 SAT",
+    "few": "UŽIVO: {{.Count}} SATA",
+    "other": "UŽIVO: {{.Count}} SATA"
+  },
+  "live_label_days": {
+    "one": "UŽIVO: 1 DAN",
+    "few": "UŽIVO: {{.Count}} DANE",
+    "other": "UŽIVO: {{.Count}} DANE"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Uživo prijenos"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Ovo je događaj uživo. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Ulaznicu možete kupiti sada, ali morat ćete gledati dok je prijenos uživo."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Morat ćete gledati dok je prijenos uživo."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Ovaj događaj trenutno je uživo. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream završava {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Nakon toga nećete moći gledati prijenos."
+  },
+  "shopping_action_ticket": {
+    "other": "Uzmi kartu"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream počinje {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Počelo je u {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Ne možete ga premotati unatrag."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Datum isteka vaše kartice je u prošlosti."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Godina isteka vaše kartice je u prošlosti."
+  }
+}

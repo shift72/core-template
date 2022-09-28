@@ -1,0 +1,1541 @@
+{
+  "settings_title": {
+    "other": "Settings"
+  },
+  "powered_by": {
+    "other": "Powered by"
+  },
+  "powered_by_name": {
+    "other": "Shift72"
+  },
+  "powered_by_url": {
+    "other": "https://www.screenplus.com"
+  },
+  "in_partnership_with": {
+    "other": "in partnership with"
+  },
+  "festival_scope": {
+    "other": "Festival Scope"
+  },
+  "festival_scope_url": {
+    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
+  },
+  "en": {
+    "other": "English"
+  },
+  "fr": {
+    "other": "French"
+  },
+  "episode_name": {
+    "other": "Epizodas"
+  },
+  "season_name": {
+    "other": "Sezonas"
+  },
+  "seasons": {
+    "one": "vieną sezoną",
+    "other": "{{.Count}} sezonai"
+  },
+  "tvseason": {
+    "other": "{{.ShowInfo.Title}} Serija {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>Serija {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "Serija {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "1 epizodas",
+    "other": "{{.Count}} serijų"
+  },
+  "date_day": {
+    "other": "Diena"
+  },
+  "date_month": {
+    "other": "Mėnuo"
+  },
+  "date_year": {
+    "other": "Metai"
+  },
+  "404_page_header": {
+    "other": "Puslapis neegzistuoja..."
+  },
+  "404_page_content": {
+    "other": "<p>Apgailestaujame, jūsų nurodytu adresu puslapio neradome.</p><p>Tikėtina, kad pasikeitė puslapio adresas, puslapis buvo ištrintas arba įsivėlė rašybos klaida.</p><p>Rekomenduojame reikalingos informacijos ieškoti grįžus į pagrindinį puslapį.</p><p><a href=\"{{.URL}}\">Grįžti į pagrindinį puslapį</a></p>"
+  },
+  "nav_signin": {
+    "other": "Prisijungti"
+  },
+  "nav_signup": {
+    "other": "Registruotis"
+  },
+  "nav_signed_in_as": {
+    "other": "Prisijungęs (-usi) kaip"
+  },
+  "nav_library": {
+    "other": "Įsigyti filmai"
+  },
+  "nav_devices": {
+    "other": "Mano įrenginiai"
+  },
+  "nav_wishlist": {
+    "other": "Noriu pamatyti"
+  },
+  "nav_account": {
+    "other": "Mano paskyra"
+  },
+  "nav_signout": {
+    "other": "Atsijungti"
+  },
+  "play_trailer": {
+    "other": "Anonsas"
+  },
+  "runtime_hours": {
+    "other": "val."
+  },
+  "runtime_minutes": {
+    "other": "min."
+  },
+  "datetime_today": {
+    "other": "šiandien {{.Date}}"
+  },
+  "datetime_tomorrow": {
+    "other": "rytoj {{.Date}}"
+  },
+  "datetime_yesterday": {
+    "other": "vakar {{.Date}}"
+  },
+  "datetime_next": {
+    "other": "{{.Date}}"
+  },
+  "datetime_last": {
+    "other": "ankstesnis {{.Date}}"
+  },
+  "search_control_placeholder": {
+    "other": "Paieška"
+  },
+  "search_control_submit": {
+    "other": "Pateikti paiešką"
+  },
+  "play_button_watch": {
+    "other": "Žiūrėk dabar"
+  },
+  "play_button_resume": {
+    "other": "Tęsti"
+  },
+  "social_media_buttons_title": {
+    "other": "Dalintis"
+  },
+  "social_media_buttons_facebook": {
+    "other": "Facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "El. paštas"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "Nuorodos bendrinimas"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "Nuoroda nukopijuota"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "Nukopijuoti nuorodą"
+  },
+  "accept_invite_page_header": {
+    "other": "Sveiki "
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+    "other": "Panašu, kad jau patvirtinote šį kvietimą, prašome <a href=\"{{.SigninURL}}\">prisijungti</a>. Pamiršus slaptažodį, galite <a href=\"{{.ForgotPasswordURL}}\">susikurti naują</a>."
+  },
+  "acceptinvite_complete": {
+    "other": "Ačiū, jūsų paskyra sukurta."
+  },
+  "acceptinvite_form_submit": {
+    "other": "Priimti kvietimą"
+  },
+  "acceptinvite_agreement": {
+    "other": "Spausdami „Priimti kvietimą“ patvirtinate, kad perskaitėte ir sutinkate su mūsų <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">tVartotojų taisyklėmis</a> bei <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">Privatumo politika</a>."
+  },
+  "signup_page_header": {
+    "other": "Registruotis"
+  },
+  "signup_form_name": {
+    "other": "Vardas"
+  },
+  "signup_form_email": {
+    "other": "El. pašto adresas"
+  },
+  "signup_form_password": {
+    "other": "Slaptažodis"
+  },
+  "signup_form_password_confirmation": {
+    "other": "Patvirtinkite slaptažodį"
+  },
+  "signup_form_gender": {
+    "other": "Lytis"
+  },
+  "signup_form_dob": {
+    "other": "Gimimo data"
+  },
+  "signup_form_submit": {
+    "other": "Pateikti"
+  },
+  "signin_page_header": {
+    "other": "Prisijungti"
+  },
+  "signin_form_email": {
+    "other": "El. pašto adresas"
+  },
+  "signin_form_password": {
+    "other": "Slaptažodis"
+  },
+  "signin_form_remember": {
+    "other": "Prisiminti mane"
+  },
+  "signin_form_submit": {
+    "other": "Pateikti"
+  },
+  "signin_page_forgotpassword": {
+    "other": "Pamiršote slaptažodį?"
+  },
+  "signin_page_createnewaccount": {
+    "other": "Neturite paskyros? Registruotis"
+  },
+  "signup_page_alreadyhaveanaccount": {
+    "other": "Turite paskyrą? Prisijungti"
+  },
+  "signup_form_error_email_already_in_use": {
+    "other": "Su šiuo el. paštu paskyra jau sukurta."
+  },
+  "signin_form_error_incorrect_credentials": {
+    "other": "Neteisingas vartotojo vardas arba slaptažodis."
+  },
+  "signin_form_error_ip_throttled": {
+    "other": "Per daug kartų nepavyko prisijungti. Pabandykite dar kartą vėliau."
+  },
+  "signin_form_error_account_suspended": {
+    "other": "Jūsų sąskaita laikinai sustabdyta. Jei manote, kad tai klaida, susisiekite su administratoriumi."
+  },
+  "signup_form_error_forbidden": {
+    "other": "Įvyko klaida."
+  },
+  "combined_auth_continue": {
+    "other": "Tęsti"
+  },
+  "combined_auth_change": {
+    "other": "keisti"
+  },
+  "combined_auth_signin": {
+    "other": "Prisijungti"
+  },
+  "combined_auth_signup": {
+    "other": "Registruotis"
+  },
+  "combined_auth_signin_password": {
+    "other": "Norėdami prisijungti prie savo paskyros įveskite slaptažodį."
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+    "other": "Neteisingas slaptažodis."
+  },
+  "combined_auth_error_forbidden": {
+    "other": "Įvyko klaida."
+  },
+  "combined_auth_error_too_many_requests": {
+    "other": "Per daug užklausų. Prašome pabandyti vėliau."
+  },
+  "forgotpassword_page_header": {
+    "other": "Atkurti slaptažodį"
+  },
+  "forgotpassword_form_email": {
+    "other": "El. pašto adresas"
+  },
+  "forgotpassword_form_submit": {
+    "other": "Atkurti"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+    "other": "Paskyra su šiuo el. paštu neegzistuoja."
+  },
+  "forgotpassword_form_error_account_suspended": {
+    "other": "Paskyra laikinai užrakinta."
+  },
+  "forgotpassword_complete": {
+    "other": "Ačiū. Neužilgo gausite laišką dėl slaptažodžio atkūrimo."
+  },
+  "forgotpassword_form_error_forbidden": {
+    "other": "Įvyko klaida."
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "Per daug užklausų. Prašome pabandyti vėliau."
+  },
+  "resetpassword_page_header": {
+    "other": "Keisti slaptažodį"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+    "other": "Prašymas atkurti slaptažodį negalioja. <a href=\"{{.URL}}\">Prašome iš naujo užpildyti formą</a>."
+  },
+  "resetpassword_form_password": {
+    "other": "Naujas slaptažodis"
+  },
+  "resetpassword_form_password2": {
+    "other": "Patvirtinkite naują slaptažodį"
+  },
+  "resetpassword_form_submit": {
+    "other": "Keisti"
+  },
+  "resetpassword_complete": {
+    "other": "Ačiū. Jūsų slaptažodis pakeistas, jūs prisijungėte prie savo paskyros."
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+    "other": "Prašymas atkurti slaptažodį negalioja. Prašome vėliau bandyti dar kartą."
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+    "other": "Slaptažodžio atkūrimo kodas nebegalioja. Prašome kreiptis dėl naujo kodo."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "Per daug užklausų. Prašome pabandyti vėliau."
+  },
+  "account_page_header": {
+    "other": "Mano paskyra"
+  },
+  "account_form_name": {
+    "other": "Vardas"
+  },
+  "account_form_email": {
+    "other": "El. pašto adresas"
+  },
+  "account_form_password": {
+    "other": "Slaptažodis"
+  },
+  "account_form_change_password": {
+    "other": "Keisti"
+  },
+  "account_form_gender": {
+    "other": "Lytis"
+  },
+  "account_form_dob": {
+    "other": "Gimimo data"
+  },
+  "account_form_submit": {
+    "other": "Atnaujinti"
+  },
+  "account_form_submitted": {
+    "other": "Atnaujinta"
+  },
+  "account_form_password_changed": {
+    "other": "Atnaujinta"
+  },
+  "account_form_error_incorrect_password": {
+    "other": "Neteisingas slaptažodis."
+  },
+  "account_form_pin_code": {
+    "other": "PIN"
+  },
+  "account_form_pin_code_not_set": {
+    "other": "Neturite PIN kodo, kurio reikia norint įsigyti, išsinuomoti ir žiūrėti kai kuriuos kūrinius."
+  },
+  "account_form_set_pin": {
+    "other": "Nustatyti PIN kodą"
+  },
+  "account_form_pin_changed": {
+    "other": "Atnaujinta"
+  },
+  "account_form_change_pin": {
+    "other": "Pakeiskite PIN kodą"
+  },
+  "user_set_pin_header": {
+    "other": "Nustatykite savo PIN kodą"
+  },
+  "user_set_pin_button": {
+    "other": "Nustatyti PIN kodą"
+  },
+  "user_submit_pin_heading": {
+    "other": "Įveskite PIN kodą, kad galėtumėte {{.Action}} naudoti šį apribotą turinį"
+  },
+  "user_error_wrong_pin_retry": {
+    "other": "Oi, įvedėte neteisingą PIN kodą"
+  },
+  "user_error_too_many_pin_errors": {
+    "other": "<p>Panašu, kad turite problemų.</p><p>Iš naujo nustatykite PIN kodą arba susisiekite su mumis dėl</p><a href=\"{{.HelpURL}}\" target=\"_blank\">pagalbos</a>"
+  },
+  "user_submit_pin_button": {
+    "other": "Įeikite"
+  },
+  "user_reset_pin_button": {
+    "other": "Iš naujo nustatyti PIN kodą"
+  },
+  "signup_form_optin": {
+    "other": "Prenumeruokite mūsų naujienlaiškį"
+  },
+  "passwordconfirmation_modal_header": {
+    "other": "Patvirtinkite slaptažodį"
+  },
+  "passwordconfirmation_modal_label": {
+    "other": "Norint išsaugoti pakeitimus, prašome įvesti slaptažodį"
+  },
+  "passwordconfirmation_modal_confirm": {
+    "other": "Patvirtinti"
+  },
+  "changepassword_modal_header": {
+    "other": "Keisti slaptažodį"
+  },
+  "changepassword_modal_currentpassword": {
+    "other": "Dabartinis slaptažodis"
+  },
+  "changepassword_modal_password": {
+    "other": "Naujas slaptažodis"
+  },
+  "changepassword_modal_password2": {
+    "other": "Pakartokite naują slaptažodį"
+  },
+  "changepassword_modal_submit": {
+    "other": "Atnaujinti"
+  },
+  "changepassword_modal_error_incorrect_password": {
+    "other": "Neteisingas slaptažodis."
+  },
+  "userlibrary_page_header": {
+    "other": "Įsigyti filmai"
+  },
+  "userlibrary_empty_header": {
+    "other": "Įrašų nėra"
+  },
+  "userlibrary_empty_content": {
+    "other": "Rinkitės filmus iš <a href=\"{{.HomeURL}}\">programos</a>."
+  },
+  "searchresults_page_header": {
+    "other": "Paieškos rezultatai"
+  },
+  "searchresults_load_more": {
+    "other": "Rodyti {{.Count}} daugiau"
+  },
+  "searchresults_total": {
+    "one": "Radome 1 \"{{.Query}}\" rezultatą.",
+    "other": "Radome {{.Count}} \"{{.Query}}\" rezultatus."
+  },
+  "searchresults_empty_header": {
+    "other": "Užklausai neradome nė vieno rezultato \"{{.Query}}\""
+  },
+  "searchresults_empty_content": {
+    "other": "Pradėkite naują paiešką arba <a href=\"{{.HomeURL}}\">peržiūrėkite mūsų programą</a>."
+  },
+  "validation_name_required": {
+    "other": "Prašome įvesti savo vardą."
+  },
+  "validation_email_required": {
+    "other": "Prašome įvesti savo el. pašto adresą."
+  },
+  "validation_email_email": {
+    "other": "Prašome įvesti galiojantį el. pašto adresą."
+  },
+  "validation_currentpassword_required": {
+    "other": "Prašome įvesti esamą slaptažodį."
+  },
+  "validation_password_required": {
+    "other": "Prašome įvesti slaptažodį."
+  },
+  "validation_password2_required": {
+    "other": "Prašome patvirtinti slaptažodį."
+  },
+  "validation_password2_match": {
+    "other": "Jūsų slaptažodžiai nesutampa."
+  },
+  "validation_password_minlength": {
+    "other": "Prašome įvesti mažiausiai {{.Count}} ženklus."
+  },
+  "validation_promocode_required": {
+    "other": "Prašome įvesti nuolaidos kodą."
+  },
+  "validation_pincode_required": {
+    "other": "Įveskite PIN kodą."
+  },
+  "validation_gender_required": {
+    "other": "Prašome pažymėti lytį, su kuria tapatinatės."
+  },
+  "validation_dob_required": {
+    "other": "Prašome įrašyti savo gimimo datą."
+  },
+  "validation_dob_date": {
+    "other": "Prašome įrašyti teisingą gimimo datą."
+  },
+  "shopping_info_subtitle_hd": {
+    "other": "Vaizdo įrašas."
+  },
+  "shopping_info_subtitle_sd": {
+    "other": "SD Video on Demand."
+  },
+  "shopping_info_subtitle_wallet": {
+    "other": "Lėšos jūsų piniginėje gali būti naudojama bet kokio turinio įsigijimui ar nuomai."
+  },
+  "shopping_info_subtitle_help": {
+    "other": "Informacija apie sistemos techninius reikalavimus."
+  },
+  "shopping_info_ownership_buy": {
+    "other": "Pirkti"
+  },
+  "shopping_info_ownership_rent": {
+    "other": "Išsinuomoti"
+  },
+  "shopping_info_sd_only": {
+    "other": "Tik SD atkūrimas."
+  },
+  "shopping_info_release_date_title": {
+    "other": "Peržiūra galima nuo {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation_rent": {
+    "other": "Galite išsinuomoti dabar, tačiau peržiūrėti galėsite tik nuo nurodytos datos."
+  },
+  "shopping_info_release_date_explanation_buy": {
+    "other": "Galite pirkti dabar, tačiau peržiūrėti galėsite tik nuo nurodytos datos."
+  },
+  "shopping_info_available_until_date_title": {
+    "other": "Peržiūra galima iki {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+    "other": "Po šios datos peržiūra bus nebegalima."
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+    "other": "Po šios datos peržiūra bus nebegalima."
+  },
+  "duration_hour": {
+    "one": "1 valandą",
+    "other": "{{.Count}} valandos"
+  },
+  "duration_day": {
+    "one": "1 diena",
+    "other": "{{.Count}} dienos"
+  },
+  "shopping_info_rental_period_duration": {
+    "other": "{{.ValueUnit}} nuoma "
+  },
+  "shopping_info_watch_window_duration": {
+    "other": "{{.Count}} val. peržiūros laikas. "
+  },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "Įsigytą filmą savo paskyroje galėsite žiūrėti {{.ValueUnit}}. ",
+    "other": "Įsigytą filmą savo paskyroje galėsite žiūrėti {{.ValueUnit}}. "
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "one": "Paspaudus mygtuką „Žiūrėti“ atsidarys peržiūros langas. Per 1 valandą galėsite peržiūrėti filmą tiek kartų, kiek norėsite.",
+    "other": "Paspaudus mygtuką „Žiūrėti“ atsidarys peržiūros langas. Per {{.Count}} valandas galėsite peržiūrėti filmą tiek kartų, kiek norėsite."
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "one": "Įsigyti rinkinio filmai jūsų paskyroje galios vieną dieną. ",
+    "other": "Įsigyti rinkinio filmai jūsų paskyroje galios {{.Count}} dienas. "
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "one": "Paspaudus mygtuką „Žiūrėti“ atsidarys peržiūros langas. Per 1 valandą galėsite peržiūrėti filmą tiek kartų, kiek norėsite.",
+    "other": "Paspaudus mygtuką „Žiūrėti“ atsidarys peržiūros langas. Per {{.Count}} valandas galėsite peržiūrėti filmą tiek kartų, kiek norėsite."
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "one": "Įsigytą sezoną savo paskyroje galėsite žiūrėti vieną dieną. ",
+    "other": "Įsigytą sezoną savo paskyroje galėsite žiūrėti {{.Count}} dienas. "
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "one": "Paspaudus mygtuką „Žiūrėti“ atsidarys peržiūros langas. Per 1 valandą galėsite peržiūrėti filmą tiek kartų, kiek norėsite.",
+    "other": "Paspaudus mygtuką „Žiūrėti“ atsidarys peržiūros langas. Per {{.Count}} valandas galėsite peržiūrėti filmą tiek kartų, kiek norėsite."
+  },
+  "shopping_info_credit_bonus_title": {
+    "other": "{{.BonusPercentage}}% Nuolaida"
+  },
+  "shopping_enter_card_prompt": {
+    "other": "Norėdami patvirtinti {{.Verb}}, įveskite savo mokėjimo kortelės duomenis."
+  },
+  "shopping_terms": {
+    "other": "Patvirtindamas pirkimą, sutinku su <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">Vartotojų taisyklėmis</a>."
+  },
+  "shopping_discount_applied": {
+    "other": "Pritaikyta {{.DiscountAmount}} nuolaida."
+  },
+  "shopping_discount_apply": {
+    "other": "Taikyti"
+  },
+  "shopping_discount_code": {
+    "other": "Įveskite nuolaidos kodą."
+  },
+  "shopping_discount_have_code": {
+    "other": "Turiu nuolaidos kodą"
+  },
+  "shopping_price_you_pay": {
+    "other": "Mokėti"
+  },
+  "shopping_price_nothing": {
+    "other": "Nereikia"
+  },
+  "shopping_price_free": {
+    "other": "Nemokamas"
+  },
+  "shopping_auth_directions": {
+    "other": "Būtina prisijungti. Prašome įvesti savo el. pašto adresą."
+  },
+  "shopping_error_in_library": {
+    "other": "{{.Title}} jau yra prie jūsų „Įsigytų filmų“."
+  },
+  "shopping_error_missing_card": {
+    "other": "Prašome įvesti savo mokėjimo kortelės duomenis."
+  },
+  "shopping_error_title": {
+    "other": "Įvyko klaida"
+  },
+  "shopping_error_incorrect_cvc": {
+    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVC)."
+  },
+  "shopping_error_invalid_cvc": {
+    "other": "Prašome įvesti teisingą kortelės saugos kodą (CVC)."
+  },
+  "shopping_error_incorrect_number": {
+    "other": "Prašome įvesti teisingą mokėjimo kortelės numerį."
+  },
+  "shopping_error_invalid_number": {
+    "other": "Prašome įvesti teisingą mokėjimo kortelės numerį."
+  },
+  "shopping_error_card_declined": {
+    "other": "Mokėjimo kortelė nepriimta."
+  },
+  "shopping_error_invalid_expiry_month": {
+    "other": "Prašome įvesti teisingą kortelės galiojimo datą."
+  },
+  "shopping_error_invalid_expiry_year": {
+    "other": "Prašome įvesti teisingą kortelės galiojimo datą."
+  },
+  "shopping_error_expired_card": {
+    "other": "Mokėjimo kortelės galiojimo laikas baigėsi."
+  },
+  "shopping_error_creditcard_country_mismatch": {
+    "other": "Jūsų {{.Ownership}} nepatvirtintas. Privalote būti mokėjimo kortelę išdavusioje šalyje. Prašome naudoti kitą kortelę."
+  },
+  "shopping_error_proxy_detected": {
+    "other": "Jūsų {{.Ownership}} nepatvirtintas. Naudojate blokavimo programą arba tarpinį serverį. Prašome išjungti šias programas ir bandyti iš naujo."
+  },
+  "shopping_error_discount_worn_out": {
+    "other": "Kad reklamos kodas nebegali būti naudojamas."
+  },
+  "shopping_error_discount_blank": {
+    "other": "Prašome įvesti nuolaidos kodą."
+  },
+  "shopping_error_discount_not_applied": {
+    "other": "Prašome įvesti galiojantį nuolaidos kodą."
+  },
+  "shopping_error_discount_invalid": {
+    "other": "Prašome įvesti galiojantį nuolaidos kodą."
+  },
+  "shopping_error_discount_disabled": {
+    "other": "Prašome įvesti galiojantį nuolaidos kodą."
+  },
+  "shopping_error_discount_already_applied": {
+    "other": "Šiam apsipirkimui jau panaudojote nuolaidos kodą."
+  },
+  "shopping_error_discount_already_redeemed": {
+    "other": "Nuolaidos kodas jau panaudotas."
+  },
+  "shopping_error_discount_used_previously": {
+    "other": "Nuolaidos kodas jau panaudotas."
+  },
+  "shopping_error_discount_max_limit": {
+    "other": "Įvestas nuolaidos kodas jau panaudotas."
+  },
+  "shopping_error_discount_expired": {
+    "other": "Nuolaidos kodas nebegalioja."
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+    "other": "Nuolaidos kodas perkant negalioja."
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+    "other": "Nuolaidos kodas nuomojant negalioja."
+  },
+  "shopping_error_discount_invalid_item": {
+    "other": "Nuolaidos kodas negalioja šiam filmui."
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+    "other": "Nuolaidos kodas negalioja jūsų gyvenamojoje šalyje."
+  },
+  "shopping_error_discounts_not_allowed": {
+    "other": "Nuolaidos kodo panaudoti negalima."
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+    "other": "Nuolaidos kodas negalioja rinkiniams."
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+    "other": "Mokėjimo kortelė nepriimta. Prašome bandyti dar kartą."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Jūsų kortelė nepalaikoma."
+  },
+  "shopping_complete_rental": {
+    "other": "Pirkinys sėkmingas!"
+  },
+  "shopping_complete_rental_period": {
+    "one": "Per ateinančią dieną įrašą galite žiūrėti tiek kartu, kiek norite.",
+    "other": "Per {{.Count}} dienas įrašą peržiūrėti galite tiek kartų, kiek norite. "
+  },
+  "shopping_complete_purchase": {
+    "other": "Jūs įsigijote filmą {{.Title}}."
+  },
+  "shopping_complete_credit_purchase": {
+    "other": "Jūs įsigijote filmą {{.Title}}. Jūsų paskyra papildyta {{.CreditTotal}}."
+  },
+  "shopping_complete_purchase_coming_soon": {
+    "other": "Filmą galėsite žiūrėti nuo {{.Date}}."
+  },
+  "shopping_complete_receipt": {
+    "other": "Kvitą jums išsiuntėme el. paštu."
+  },
+  "shopping_complete_library_link": {
+    "other": "Pradėkite žiūrėti bet kurį iš savo įsigytų filmų."
+  },
+  "shopping_complete_plan": {
+    "other": "{{.Title}} buvo sėkmingas."
+  },
+  "shopping_complete_rental_watch_window_start": {
+    "one": "Per ateinančią dieną galėsite pradėti žiūrėti filmą.",
+    "other": "Pradėkite žiūrėti filmą per {{.Count}} dienas."
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "one": "Pradėję peržiūrą, turėsite 1 valandą peržiūrėti filmą tiek kartų, kiek norėsite.",
+    "other": "Pradėję peržiūrą, turėsite {{.Count}} valandas peržiūrėti filmą tiek kartų, kiek norėsite."
+  },
+  "shopping_complete_rental_coming_soon": {
+    "one": "FIlmą galėsite žiūrėti nuo {{.Date}}, o filmo peržiūra galios vieną dieną.",
+    "other": "Filmą galėsite žiūrėti nuo {{.Date}}, o filmo peržiūra galios {{.Count}} dienas."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "one": "Filmą galėsite žiūrėti nuo {{.Date}}, o filmo peržiūra galios vieną dieną.",
+    "other": "Filmą galėsite žiūrėti nuo {{.Date}}, o filmo peržiūra galios {{.Count}} dienas."
+  },
+  "shopping_action_rent": {
+    "other": "Nuomoti"
+  },
+  "shopping_action_buy": {
+    "other": "Pirkti"
+  },
+  "meta_detail_cast_title": {
+    "other": "Aktoriai"
+  },
+  "meta_detail_crew_title": {
+    "other": "Komanda"
+  },
+  "meta_detail_languages": {
+    "one": "Kalba",
+    "other": "Kalbos"
+  },
+  "meta_detail_studios": {
+    "one": "Kompanija",
+    "other": "Kompanijos"
+  },
+  "meta_detail_countries": {
+    "one": "Šalis",
+    "other": "Šalys"
+  },
+  "meta_detail_subtitles": {
+    "other": "Subtitrai"
+  },
+  "meta_detail_captions": {
+    "other": "Subtitrai [CC]"
+  },
+  "meta_detail_episodes_title": {
+    "other": "Epizodai"
+  },
+  "meta_detail_bonus_title": {
+    "other": "Specialus papildomas turinys"
+  },
+  "meta_detail_recommendations_title": {
+    "other": "Taip pat gali patikti"
+  },
+  "meta_detail_bundle_items_title": {
+    "other": "Šiame rinkinyje rasite"
+  },
+  "bundle_items_all_films": {
+    "other": "{{.Count}} filmų (-us)"
+  },
+  "bundle_items_all_seasons": {
+    "other": "{{.Count}} sezonus (-ų)"
+  },
+  "bundle_items_mixed": {
+    "other": "{{.Count}} filmus (-ų) ir sezonus (-ų)"
+  },
+  "userwishlist_page_header": {
+    "other": "Noriu pamatyti"
+  },
+  "userwishlist_slider_header": {
+    "other": "Noriu pamatyti"
+  },
+  "userwishlist_empty_header": {
+    "other": "Sąrašas tuščias."
+  },
+  "userwishlist_empty_content": {
+    "other": "Rinkitės filmus <a href=\"{{.HomeURL}}\">iš programos</a>."
+  },
+  "userwishlist_button_add": {
+    "other": "Pridėti prie „Noriu pamatyti“"
+  },
+  "userwishlist_button_remove": {
+    "other": "Pašalinti iš Mano sąrašo"
+  },
+  "userwishlist_button_add_compact": {
+    "other": "Noriu pamatyti"
+  },
+  "userwishlist_button_remove_compact": {
+    "other": "Noriu pamatyti"
+  },
+  "activatedevice_page_header": {
+    "other": "Aktyvuoti įrenginį"
+  },
+  "activatedevice_page_content": {
+    "other": "Vadovaukitės savo prietaiso instrukcijomis, kad gautumėte PIN kodą. Jūsų kompiuteris ir įrenginys turi būti prijungtas prie interneto, kad suaktyvintumėte."
+  },
+  "activatedevice_form_pin": {
+    "other": "PIN kodas"
+  },
+  "activatedevice_form_submit": {
+    "other": "Aktyvuokite"
+  },
+  "activatedevice_form_error_invalid_code": {
+    "other": "PIN kodas nerastas, bandykite dar kartą."
+  },
+  "activatedevice_form_error_pin_not_found": {
+    "other": "PIN kodas nerastas, bandykite dar kartą."
+  },
+  "activatedevice_signin_prompt": {
+    "other": "Prisijunkite prieš įjungdami savo prietaisą."
+  },
+  "activatedevice_page_activated": {
+    "other": "Dėkojame, kad suaktyvinote {{.DeviceName}}. Dabar turėtumėte galėti naršyti biblioteką televizoriuje arba įrenginyje."
+  },
+  "userdevices_page_header": {
+    "other": "Įrenginiai"
+  },
+  "userdevices_page_content": {
+    "one": "Čia automatiškai atsiras jūsų naudojami įrenginiai. Įrenginių skaičius ribojimas iki vieno.",
+    "few": "Čia automatiškai atsiras jūsų naudojami įrenginiai. Įrenginių skaičius ribojimas iki {{.Count}}."
+  },
+  "userdevices_empty_content": {
+    "other": "Šiuo metu esate užregistravę 0 įrenginių."
+  },
+  "userdevices_header_type": {
+    "other": "Įrenginio tipas"
+  },
+  "userdevices_header_description": {
+    "other": "Apibūdinimas"
+  },
+  "userdevices_device_added": {
+    "other": "Pridėtas {{.Date}}"
+  },
+  "userdevices_device_actions_delete": {
+    "other": "Pašalinti"
+  },
+  "userdevices_device_actions_cancel": {
+    "other": "Atšaukti"
+  },
+  "userdevices_device_actions_confirm": {
+    "other": "Taip, pašalinti įrenginį"
+  },
+  "userdevices_device_deleted": {
+    "other": "(Pašalintas)"
+  },
+  "userdevices_delete_limits": {
+    "other": "Iš šio sąrašo galite pašalinti {{.Limit}} įrenginį (-ius) kas {{.Period}} d."
+  },
+  "userdevices_delete_limit_reached": {
+    "other": "Pasiekėte šį limitą ir šiuo metu negalite pašalinti jokių įrenginių. Įrenginį galite ištrinti po {{.Days}} d."
+  },
+  "playlist_page_header": {
+    "other": "Grojaraštis"
+  },
+  "playlist_sign_in_warning": {
+    "other": "Jei norite žiūrėti tiesioginę televiziją, prisijunkite."
+  },
+  "playlist_share_title": {
+    "other": "Grojaraštis"
+  },
+  "playlist_up_next_title": {
+    "other": "Kitas"
+  },
+  "pricing_ownership_buy": {
+    "other": "Pirkti"
+  },
+  "pricing_ownership_rent": {
+    "other": "Nuomoti"
+  },
+  "classification_intro": {
+    "other": "Kategorija: "
+  },
+  "classification_divider": {
+    "other": " - "
+  },
+  "classification_outro": {
+    "other": ""
+  },
+  "cookie_banner_message": {
+    "other": "Šioje svetainėje naudojame slapukus, siekdami pagerinti jūsų vartojimo patirtį. Lankydamiesi svetainėje sutinkate su mūsų <a href=\"{{.CookiePolicyURL}}\">slapukų politika</a>."
+  },
+  "cookie_banner_accept": {
+    "other": "Sutinku"
+  },
+  "all_rights_reserved": {
+    "other": "Visos teisės saugomos. Svetainėje esančią informaciją kopijuoti leidžiama tik gavus mūsų sutikimą."
+  },
+  "users_gender_none": {
+    "other": "Nenurodyti"
+  },
+  "users_gender_female": {
+    "other": "Moteris"
+  },
+  "users_gender_male": {
+    "other": "Vyras"
+  },
+  "users_gender_diverse": {
+    "other": "Nedvinarė"
+  },
+  "users_gender_other": {
+    "other": "Kita"
+  },
+  "pricing_quality_hd": {
+    "other": "HD"
+  },
+  "pricing_quality_sd": {
+    "other": "SD"
+  },
+  "pricing_quality_hd_only": {
+    "other": "Tik HD"
+  },
+  "pricing_quality_sd_only": {
+    "other": "Tik SD"
+  },
+  "shopping_card_save_card": {
+    "other": "Išsaugokite šią kortelę būsimam naudojimui"
+  },
+  "shopping_card_button_change": {
+    "other": "Rodyti visas išsaugotas korteles"
+  },
+  "shopping_card_existing_description": {
+    "other": "{{.Card.Brand}} baigiasi {{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+    "other": "(pasibaigia {{.Card.Expiry}})"
+  },
+  "shopping_card_existing_expired": {
+    "other": "(pasibaigęs)"
+  },
+  "shopping_card_use_other": {
+    "other": "Pridėti naują kortelę"
+  },
+  "shopping_card_use_new_card": {
+    "other": "Keisti kortelę"
+  },
+  "shopping_card_update_reason_none": {
+    "other": "Atnaujinkite savo kredito kortelę. Palaikomos kortelės yra „Visa“, „Mastercard“ ir „American Express“."
+  },
+  "shopping_card_new_subscription": {
+    "other": "Ši kortelė bus išsaugota ir reguliariai apmokestinama"
+  },
+  "shopping_card_change": {
+    "other": "Netinkama kredito kortelė? <a href=\"{{.SubscriptionsURL}}\">Jei norite atnaujinti kortelę, spustelėkite čia.</a>"
+  },
+  "shopping_info_ownership_plan": {
+    "other": "Planuoti"
+  },
+  "shopping_action_credit": {
+    "other": "Prisipilti"
+  },
+  "shopping_info_rental_period_coming_soon": {
+    "other": "nuo išleidimo datos ir laiko."
+  },
+  "usersubscriptions_change_payment_method_change": {
+    "other": "Pakeiskite kredito kortelę"
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+    "other": "Atnaujinkite kredito kortelės duomenis"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "Atnaujinkite"
+  },
+  "usersubscriptions_subscription_expiry": {
+    "other": "Baigiasi {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "Bandomasis laikotarpis"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+    "other": "Atšaukti mano prenumeratą"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+    "other": "Ne, ačiū"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+    "other": "Taip, atšaukti"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+    "other": "Atšaukti prenumeratą?"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+    "other": "Taip bus atšaukta {{.Name}} prenumerata. Vis tiek galėsite žiūrėti turinį, kol baigsis {{.Expiry}}."
+  },
+  "availability_coming_soon": {
+    "other": "Jau greitai"
+  },
+  "availability_renting": {
+    "other": "Nuomojama"
+  },
+  "availability_not_available": {
+    "other": "Peržiūra negalima"
+  },
+  "availability_in_watch_window": {
+    "other": "Peržiūra galima"
+  },
+  "availability_sold_out": {
+    "other": "Peržiūra nebegalima"
+  },
+  "availability_available_till": {
+    "other": "Peržiūra galima iki {{.ExpiryDate}}"
+  },
+  "availability_not_available_in_country": {
+    "other": "Jūsų šalyje peržiūra negalima"
+  },
+  "availability_available": {
+    "other": "Peržiūra galima nuo {{.ReleaseDate}}"
+  },
+  "availability_expires": {
+    "other": "pasibaigia {{.Expiry}}"
+  },
+  "availability_expired": {
+    "other": "pasibaigęs"
+  },
+  "modal_cancel": {
+    "other": "Atšaukti"
+  },
+  "play": {
+    "other": "Žiūrėti"
+  },
+  "combined_auth_signin_prompt": {
+    "other": "Prisijungti"
+  },
+  "combined_auth_signup_prompt": {
+    "other": "Registruotis"
+  },
+  "combined_auth_terms": {
+    "other": "Sutinku su <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Vartotojų taisyklėmis</a>."
+  },
+  "signup_terms": {
+    "other": "Sutinku su <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">Vartotojų taisyklėmis</a>."
+  },
+  "validation_terms_required": {
+    "other": "Privalote sutikti su Vartotojų taisyklėmis."
+  },
+  "shopping_error_item_limit_exceeded": {
+    "other": "Apgailestaujame, filmo {{.Title}} peržiūra nebegalima."
+  },
+  "changepincode_modal_header": {
+    "other": "Pakeiskite savo PIN kodą"
+  },
+  "changepincode_modal_currentpassword": {
+    "other": "Jūsų dabartinis slaptažodis"
+  },
+  "changepincode_modal_pincode1": {
+    "other": "Jūsų naujas 4 skaitmenų PIN kodas"
+  },
+  "changepincode_modal_pincode2": {
+    "other": "Patvirtinkite naują 4 skaitmenų PIN kodą"
+  },
+  "changepincode_modal_submit": {
+    "other": "Nustatyti PIN kodą"
+  },
+  "changepincode_modal_error_wrong_password": {
+    "other": "Tas slaptažodis neteisingas."
+  },
+  "user_set_pin_intro": {
+    "other": "Norėdami {{.Action}} apriboti turinį, jums reikia PIN kodo"
+  },
+  "user_error_wrong_pin_reset": {
+    "other": "Spustelėkite čia, kad iš naujo nustatytumėte PIN kodą"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+    "other": ""
+  },
+  "shopping_error_age_restricted": {
+    "other": "Šiam turiniui taikomas amžiaus apribojimas."
+  },
+  "shopping_error_close_button": {
+    "other": "OK"
+  },
+  "app_badge_title": {
+    "other": "Atsisiųskite programą, kad peržiūrėtumėte įsigytą turinį!"
+  },
+  "app_badge_ios": {
+    "other": "Atsisiųskite iš „App Store“."
+  },
+  "app_badge_android": {
+    "other": "Gaukite jį iš „Google Play“."
+  },
+  "shopping_price_title_plan": {
+    "other": "Kaina"
+  },
+  "shopping_price_plan_note": {
+    "one": "{{.Interval}} kas .Intervalas pasibaigus 24 valandų nemokamam bandomajam laikotarpiui.",
+    "few": "{{.Interval}} kas .Intervalas pasibaigus {{.Count}} dienų bandomajam laikotarpiui.",
+    "many": "{{.Interval}} kas .Intervalas pasibaigus {{.Count}} dienų bandomajam laikotarpiui.",
+    "other": "{{.Interval}} kas .Intervalas pasibaigus {{.Count}} dienų bandomajam laikotarpiui."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Įkraunama kas {{.Interval}}."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{.Interval}}",
+    "few": "{{.Count}} {{.Interval}}",
+    "many": "{{.Count}} {{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Norėdami pradėti prenumeratą, žemiau įveskite savo kredito kortelės duomenis."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Norėdami pradėti planą, toliau įveskite savo kredito kortelės duomenis."
+  },
+  "shopping_action_plan": {
+    "other": "Užbaigti"
+  },
+  "shopping_complete_subscription": {
+    "other": "Prenumeratos įsigijimas buvo sėkmingas. Dabar esate užsiprenumeravę {{.Title}}."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Nedvejodami <a href=\"/\">naršykite</a> svetainėje arba <a href=\"/search.html\">ieškokite</a> ko nors konkretaus."
+  },
+  "shopping_info_plan_offer": {
+    "one": "Automatiškai atnaujina kiekvieną {{.Interval}}",
+    "other": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Išbandykite nemokamą 24 valandų bandomąją versiją dabar!",
+    "few": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
+    "many": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
+    "other": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!"
+  },
+  "plans_page_header": {
+    "other": "Galimi planai"
+  },
+  "plan_label_owned": {
+    "other": "Jums priklauso šis planas"
+  },
+  "plan_expiry_date": {
+    "other": "Išpardavimas uždarytas:"
+  },
+  "plan_read_more": {
+    "other": "Sužinoti daugiau"
+  },
+  "plan_page_read_more": {
+    "other": "Skaityti daugiau"
+  },
+  "plan_page_header_text": {
+    "other": "Mėgaukitės {{.Name}}"
+  },
+  "page_plan_explore_intro": {
+    "other": "ARBA"
+  },
+  "page_plan_explore_link": {
+    "other": "Naršyti daugiau"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Pirkti dabar"
+  },
+  "plan_free_link_text": {
+    "other": "Prisijunk nemokamai"
+  },
+  "awards_in_competition": {
+    "other": "Varžybose"
+  },
+  "meta_description_expand": {
+    "other": "Žiūrėti daugiau"
+  },
+  "meta_description_collapse": {
+    "other": "Mažiau matyti"
+  },
+  "awards_winner": {
+    "other": "Nugalėtojas"
+  },
+  "donate_button_text": {
+    "other": "Paaukoti"
+  },
+  "wcag_skip_links_header": {
+    "other": "Prieinamumo nuorodos"
+  },
+  "wcag_skip_links_content": {
+    "other": "Pereiti prie turinio"
+  },
+  "wcag_homepage_h1": {
+    "other": "Pagrindinis puslapis"
+  },
+  "wcag_carousel_h2": {
+    "other": "Karuselė"
+  },
+  "wcag_collections_h2": {
+    "other": "Kolekcijos"
+  },
+  "wcag_aria_label_footer": {
+    "other": "Poraštė"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "Pagrindinis"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "Subrendę"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "Perjungti navigaciją"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "Supakuoti daiktai"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "Karuselė"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Puslapių rašymas"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "Puslapių kolekcija"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "Kolekcijos sąrašas"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "Kolekcijos slankiklis"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "Norų sąrašas"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "Dalintis Facebook"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "Bendrinti Twitter"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "Bendrinkite „LinkedIn“."
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "Žiūrėti „Letterboxd“."
+  },
+  "shopping_error_plan_already_owned": {
+    "other": "Jūs jau turite šį planą."
+  },
+  "shopping_error_plan_expired": {
+    "other": "Šis planas nebepasiekiamas."
+  },
+  "shopping_payment_method_header": {
+    "other": "Mokėjimo metodai"
+  },
+  "shopping_payment_method_credit_card": {
+    "other": "Kreditinė kortelė"
+  },
+  "shopping_payment_method_giropay": {
+    "other": "Giropay"
+  },
+  "shopping_error_stripe_unknown_error": {
+    "other": "Kažkas nutiko su šiuo mokėjimu. Pabandykite dar kartą vėliau."
+  },
+  "shopping_error_payment_complete_failed": {
+    "other": "Mokėjimas buvo atmestas. Uždarykite šį langą ir bandykite dar kartą."
+  },
+  "validation_pincode1_required": {
+    "other": "Įveskite galiojantį PIN kodą."
+  },
+  "validation_pincode2_required": {
+    "other": "Įveskite galiojantį PIN kodą."
+  },
+  "validation_pincode1_pattern": {
+    "other": "Įveskite galiojantį PIN kodą."
+  },
+  "validation_pincode2_pattern": {
+    "other": "Įveskite galiojantį PIN kodą."
+  },
+  "validation_pincode2_match": {
+    "other": "PIN kodas nesutampa."
+  },
+  "header_banner": {
+    "other": "ABC Cinemas – 21-asis kino festivalis, 2021 m. birželio 1–6 d"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Prenumeratos ir atsiskaitymas"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Mokėjimo būdas"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Mokėjimo kredito kortele metodo pakeitimai įsigalios kitą atsiskaitymo ciklą."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Informacija apie prenumeratą"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktyvus"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Baigėsi galiojimo laikas"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Atraskite prenumeratas"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Atraskite puikų turinį puikiomis kainomis, nesunkiai valdykite čia."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Naršykite prenumeratas"
+  },
+  "nav_subscriptions": {
+    "other": "Mano prenumeratos"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Pirmas mokėjimas {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Kitas mokėjimas {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Mokėjimo {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Baigiasi {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Baigėsi {{.Expiry}}"
+  },
+  "sponsor_image_alt": {
+    "other": "rėmėjo logotipas"
+  },
+  "subscribe_to_watch": {
+    "other": "Prenumeruokite žiūrėti"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} elementai"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Atnaujinkite savo kredito kortelę. Palaikomos kortelės yra „Visa“, „Mastercard“ ir „American Express“."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Kodas sėkmingai pritaikytas."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Įveskite galiojantį reklamos kredito kodą."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Dabar galite žiūrėti {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Išpirkti"
+  },
+  "pricing_ownership_promo": {
+    "other": "Išpirkti"
+  },
+  "subscription_cta_label": {
+    "other": "Prenumeruoti {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Metai",
+    "few": "{{.Count}} Metai",
+    "many": "{{.Count}} Metai",
+    "other": "{{.Count}} Metai"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mėnuo",
+    "few": "{{.Count}} Mėnesių",
+    "many": "{{.Count}} Mėnesių",
+    "other": "{{.Count}} Mėnesių"
+  },
+  "subscription_recurrence_week": {
+    "one": "Savaitė",
+    "few": "{{.Count}} Savaitės",
+    "many": "{{.Count}} Savaitės",
+    "other": "{{.Count}} Savaitės"
+  },
+  "subscription_recurrence_day": {
+    "one": "Diena",
+    "few": "{{.Count}} Dienos",
+    "many": "{{.Count}} Dienos",
+    "other": "{{.Count}} Dienos"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Prenumerata"
+  },
+  "something_bad_happened": {
+    "other": "Prašau, pabandykite dar kartą"
+  },
+  "stripe_card_not_supported": {
+    "other": "Jūsų kortelė nepalaikoma."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Paieška"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Pateikti paiešką"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Automatiškai atnaujina kiekvieną {{.Interval}}",
+    "few": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}",
+    "many": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}",
+    "other": "Automatiškai atnaujina kiekvieną {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Išbandykite nemokamą 24 valandų bandomąją versiją dabar!",
+    "few": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
+    "many": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!",
+    "other": "Išbandykite nemokamą {{.Count}} dienos bandomąją versiją!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Prenumeratos ir atsiskaitymas"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Pradelsta"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Neapmokėta"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Atšauktas"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Atšaukiamas"
+  },
+  "interval_day": {
+    "one": "dieną",
+    "few": "dienų",
+    "many": "dienų",
+    "other": "dienų"
+  },
+  "interval_week": {
+    "one": "savaitę",
+    "few": "savaites",
+    "many": "savaites",
+    "other": "savaites"
+  },
+  "interval_month": {
+    "one": "mėnuo",
+    "few": "mėnesių",
+    "many": "mėnesių",
+    "other": "mėnesių"
+  },
+  "interval_year": {
+    "one": "metų",
+    "few": "metų",
+    "many": "metų",
+    "other": "metų"
+  },
+  "shopping_error_processing_error": {
+    "other": "Apdorojant kortelę įvyko klaida. Bandykite dar kartą vėliau arba naudodami kitą mokėjimo metodą."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Apsipirkimo sesija baigėsi, bandykite dar kartą."
+  },
+  "live_stream_starts": {
+    "other": "Srautas prasideda {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Dabar transliuojama"
+  },
+  "live_streaming_ended": {
+    "other": "Srautas baigėsi"
+  },
+  "availability_live": {
+    "other": "GYVAI"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Gaukite bilietą"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Šiam pirkimui ar nuomai negalite naudoti reklamos kredito kodo"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Šis reklamos kredito kodas dar negalioja"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Reklamos kredito kodai negali būti taikomi nemokamoms apsipirkimo sesijoms"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Kai pirkimas baigtas, reklamos kredito kodai negali būti taikomi"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Nepavyko pritaikyti reklamos kredito kodo, bandykite dar kartą"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Neteisingas reklamos kredito kodas"
+  },
+  "shopping_error_missing_code": {
+    "other": "Reklamos kodas nebuvo pateiktas"
+  },
+  "live_label_ended": {
+    "other": "TIESIOGIAI: PABAIGTA"
+  },
+  "live_label_live": {
+    "other": "TIESIOGIAI"
+  },
+  "live_label_minutes": {
+    "one": "TIESIOGIAI: 1 MINUTĖ",
+    "few": "TIESIOGIAI: {{.Count}} MINUTES",
+    "many": "TIESIOGIAI: {{.Count}} MINUTES",
+    "other": "TIESIOGIAI: {{.Count}} MINUTES"
+  },
+  "live_label_hours": {
+    "one": "TIESIOGIAI: 1 VALANDA",
+    "few": "TIESIOGIAI: {{.Count}} VALANDAS",
+    "many": "TIESIOGIAI: {{.Count}} VALANDAS",
+    "other": "TIESIOGIAI: {{.Count}} VALANDAS"
+  },
+  "live_label_days": {
+    "one": "TIESIOGIAI: 1 DIENA",
+    "few": "TIESIOGIAI: {{.Count}} DIENAS",
+    "many": "TIESIOGIAI: {{.Count}} DIENAS",
+    "other": "TIESIOGIAI: {{.Count}} DIENAS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Tiesiogiai"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Tai tiesioginis įvykis. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Galite nusipirkti bilietą dabar, bet turėsite žiūrėti, kol bus transliuojama tiesioginė transliacija."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Turėsite žiūrėti, kol vyksta tiesioginė transliacija."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Šis įvykis šiuo metu vyksta tiesiogiai. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Srautas baigiasi {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Po to srauto žiūrėti nebegalėsite."
+  },
+  "shopping_action_ticket": {
+    "other": "Gaukite bilietą"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Srautas prasideda {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Jis prasidėjo {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Jūs negalite jo atsukti."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Jūsų kortelės galiojimo laikas yra praeityje."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Jūsų kortelės galiojimo laikas yra praeityje."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "short_name": "STG Store",
+  "name": "STG Store",
+  "icons": [
+    {
+      
+      "src": "/images/common/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      
+      "src": "/images/common/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#222",
+  "display": "standalone",
+  "theme_color": "#222"
+}

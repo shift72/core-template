@@ -1,0 +1,1509 @@
+{
+  "settings_title": {
+    "other": "Indstillinger"
+  },
+  "powered_by": {
+    "other": "Drevet af"
+  },
+  "powered_by_name": {
+    "other": "Shift72"
+  },
+  "powered_by_url": {
+    "other": "https://www.screenplus.com"
+  },
+  "in_partnership_with": {
+    "other": "i samarbejde med"
+  },
+  "festival_scope": {
+    "other": "Festival Scope"
+  },
+  "festival_scope_url": {
+    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
+  },
+  "en": {
+    "other": "Engelsk"
+  },
+  "fr": {
+    "other": "Fransk"
+  },
+  "episode_name": {
+    "other": "Episode"
+  },
+  "season_name": {
+    "other": "Sæson"
+  },
+  "seasons": {
+    "one": "en sæson",
+    "other": "{{.Count}} sæsoner"
+  },
+  "tvseason": {
+    "other": "{{.ShowInfo.Title}} sæson {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span>sæson {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "sæson {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "1 Episode",
+    "other": "{{.Count}} Episoder"
+  },
+  "date_day": {
+    "other": "Dag"
+  },
+  "date_month": {
+    "other": "Måned"
+  },
+  "date_year": {
+    "other": "År"
+  },
+  "404_page_header": {
+    "other": "Denne side findes ikke..."
+  },
+  "404_page_content": {
+    "other": "<p>Beklager, det ser ud til, at den side, du leder efter, ikke eksisterer.</p><p>Den kunne være blevet flyttet eller slettet, eller måske har du stavet forkert.</p><p>Prøv gå tilbage til startsiden for at finde det, du ledte efter.</p><p><a href=\"{{.URL}}\">Tilbage til startsiden</a></p>"
+  },
+  "nav_signin": {
+    "other": "Log ind"
+  },
+  "nav_signup": {
+    "other": "Opret konto"
+  },
+  "nav_signed_in_as": {
+    "other": "Logget ind som"
+  },
+  "nav_library": {
+    "other": "Mit bibliotek"
+  },
+  "nav_devices": {
+    "other": "Mine enheder"
+  },
+  "nav_wishlist": {
+    "other": "Min liste"
+  },
+  "nav_account": {
+    "other": "Min konto"
+  },
+  "nav_signout": {
+    "other": "Log ud"
+  },
+  "play_trailer": {
+    "other": "Anhænger"
+  },
+  "runtime_hours": {
+    "other": "h"
+  },
+  "runtime_minutes": {
+    "other": "m"
+  },
+  "datetime_today": {
+    "other": "i dag {{.Date}}"
+  },
+  "datetime_tomorrow": {
+    "other": "i morgen {{.Date}}"
+  },
+  "datetime_yesterday": {
+    "other": "i går {{.Date}}"
+  },
+  "datetime_next": {
+    "other": "{{.Date}}"
+  },
+  "datetime_last": {
+    "other": "sidste {{.Date}}"
+  },
+  "search_control_placeholder": {
+    "other": "Søg"
+  },
+  "search_control_submit": {
+    "other": "Søg nu"
+  },
+  "play_button_watch": {
+    "other": "Se nu"
+  },
+  "play_button_resume": {
+    "other": "Fortsæt"
+  },
+  "social_media_buttons_title": {
+    "other": "Del"
+  },
+  "social_media_buttons_facebook": {
+    "other": "Facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "E-mail"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "Linkdeling"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "Linket er kopieret"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "Kopier link"
+  },
+  "accept_invite_page_header": {
+    "other": "Velkommen "
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+    "other": "Det ser ud som om du allerede har accepteret denne invitation, du skal derfor <a href=\"signin.html\">logge ind</a> i stedet Hvis du har glemt dit kodeord, kan du også <a href=\"forgotpassword.html\">nulstille dit kodeord</a>."
+  },
+  "acceptinvite_complete": {
+    "other": "Tak. Din konto er klar."
+  },
+  "acceptinvite_form_submit": {
+    "other": "Accepter invitation"
+  },
+  "acceptinvite_agreement": {
+    "other": "Ved at klikke \"Accepter Invitation\" erklærer du at du har læst og forstået vores <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">vilkår og betingelser</a> og <a href=\"/page/privacy/\" target=\"_blank\">privatpolitik</a>."
+  },
+  "signup_page_header": {
+    "other": "Opret ny konto"
+  },
+  "signup_form_name": {
+    "other": "Navn"
+  },
+  "signup_form_email": {
+    "other": "E-mailadresse"
+  },
+  "signup_form_password": {
+    "other": "Kodeord"
+  },
+  "signup_form_password_confirmation": {
+    "other": "Bekræft dit kodeord"
+  },
+  "signup_form_gender": {
+    "other": "Køn"
+  },
+  "signup_form_dob": {
+    "other": "Fødselsdato"
+  },
+  "signup_form_submit": {
+    "other": "Tilmeld"
+  },
+  "signin_page_header": {
+    "other": "Log ind"
+  },
+  "signin_form_email": {
+    "other": "E-mailadresse"
+  },
+  "signin_form_password": {
+    "other": "Kodeord"
+  },
+  "signin_form_remember": {
+    "other": "Husk mig"
+  },
+  "signin_form_submit": {
+    "other": "Tilmeld"
+  },
+  "signin_page_forgotpassword": {
+    "other": "Har du glemt dit kodeord?"
+  },
+  "signin_page_createnewaccount": {
+    "other": "Har du ikke en konto? Opret en ny konto"
+  },
+  "signup_page_alreadyhaveanaccount": {
+    "other": "Har du allerede en konto? Log ind"
+  },
+  "signup_form_error_email_already_in_use": {
+    "other": "Denne e-mailadresse er allerede i brug"
+  },
+  "signin_form_error_incorrect_credentials": {
+    "other": "Brugernavn eller kodeord er forkert"
+  },
+  "signin_form_error_ip_throttled": {
+    "other": "Du har undladt at logge ind for mange gange. Prøv igen senere."
+  },
+  "signin_form_error_account_suspended": {
+    "other": "Din konto er blevet midlertidigt suspenderet. Kontakt venligst en administrator, hvis du mener, at dette er en fejl."
+  },
+  "signup_form_error_forbidden": {
+    "other": "Der er sket en fejl"
+  },
+  "combined_auth_continue": {
+    "other": "Fortsæt"
+  },
+  "combined_auth_change": {
+    "other": "Skift"
+  },
+  "combined_auth_signin": {
+    "other": "Log ind"
+  },
+  "combined_auth_signup": {
+    "other": "Opret konto"
+  },
+  "combined_auth_signin_password": {
+    "other": "Skriv venligst dit kodeord for at logge ind på din konto"
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+    "other": "Kodeordet er forkert"
+  },
+  "combined_auth_error_forbidden": {
+    "other": "Der er sket en fejl"
+  },
+  "combined_auth_error_too_many_requests": {
+    "other": "For mange anmodninger, prøv venligst igen senere."
+  },
+  "forgotpassword_page_header": {
+    "other": "Nulstil dit kodeord"
+  },
+  "forgotpassword_form_email": {
+    "other": "E-mailadresse"
+  },
+  "forgotpassword_form_submit": {
+    "other": "Nulstil"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+    "other": "En konto med denne e-mailadresse findes ikke"
+  },
+  "forgotpassword_form_error_account_suspended": {
+    "other": "Denne konto er blevet suspenderet"
+  },
+  "forgotpassword_complete": {
+    "other": "Tak. En email vedrørende nulstilling af kodeord bør snart kunne findes i din indbakke."
+  },
+  "forgotpassword_form_error_forbidden": {
+    "other": "Der er sket en fejl"
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "For mange anmodninger, prøv venligst igen senere."
+  },
+  "resetpassword_page_header": {
+    "other": "Skift kodeord"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+    "other": "Det ser ud som denne forespørgsel om nulstilling af kodeord er ugyldig, udfyld venligst formularen <a href=\"{{.URL}}\">Glemt kodeordd</a> igen."
+  },
+  "resetpassword_form_password": {
+    "other": "Nyt kodeord"
+  },
+  "resetpassword_form_password2": {
+    "other": "Bekræft dit nye kodeord"
+  },
+  "resetpassword_form_submit": {
+    "other": "Skift"
+  },
+  "resetpassword_complete": {
+    "other": "Tak. Dit kodeord er blevet ændret og du er nu logget ind."
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+    "other": "Forespørgslen om nulstilling af kodeord er ugyldig. Prøv venligst igen senere."
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+    "other": "Koden til nulstilling af kodeord er udløbet. Få venligst en ny."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "For mange anmodninger, prøv venligst igen senere."
+  },
+  "account_page_header": {
+    "other": "Min konto"
+  },
+  "account_form_name": {
+    "other": "Navn"
+  },
+  "account_form_email": {
+    "other": "E-mailadresse"
+  },
+  "account_form_password": {
+    "other": "Kodeord"
+  },
+  "account_form_change_password": {
+    "other": "Skift"
+  },
+  "account_form_gender": {
+    "other": "Køn"
+  },
+  "account_form_dob": {
+    "other": "Fødselsdato"
+  },
+  "account_form_submit": {
+    "other": "Opdater"
+  },
+  "account_form_submitted": {
+    "other": "Opdateret"
+  },
+  "account_form_password_changed": {
+    "other": "Opdateret"
+  },
+  "account_form_error_incorrect_password": {
+    "other": "Kodeordet er ugyldigt"
+  },
+  "account_form_pin_code": {
+    "other": "PIN-kode"
+  },
+  "account_form_pin_code_not_set": {
+    "other": "Du har ikke en PIN-kode, som er påkrævet for at købe, leje og se nogle titler."
+  },
+  "account_form_set_pin": {
+    "other": "Indstil pinkode"
+  },
+  "account_form_pin_changed": {
+    "other": "Updated"
+  },
+  "account_form_change_pin": {
+    "other": "Skift pinkode"
+  },
+  "user_set_pin_header": {
+    "other": "Indstil din pinkode"
+  },
+  "user_set_pin_button": {
+    "other": "Indstil pinkode"
+  },
+  "user_submit_pin_heading": {
+    "other": "Indtast din pinkode til {{.Action}} dette begrænsede indhold"
+  },
+  "user_error_wrong_pin_retry": {
+    "other": "Ups, du har indtastet en forkert pinkode"
+  },
+  "user_error_too_many_pin_errors": {
+    "other": "<p>Det ser ud til, at du har problemer.</p><p>Nulstil din pinkode, eller kontakt os for <a href=\"{{.HelpURL}}\" target=\"_blank\">hjælp</a>"
+  },
+  "user_submit_pin_button": {
+    "other": "Gå ind"
+  },
+  "user_reset_pin_button": {
+    "other": "Nulstil PIN-koden"
+  },
+  "signup_form_optin": {
+    "other": "Log ind for at modtage vores gratis nyhedsbrev"
+  },
+  "passwordconfirmation_modal_header": {
+    "other": "Bekræft dit kodeord"
+  },
+  "passwordconfirmation_modal_label": {
+    "other": "Skriv venligst dit kodeord for at opdatere dine ændringer"
+  },
+  "passwordconfirmation_modal_confirm": {
+    "other": "Bekræft"
+  },
+  "changepassword_modal_header": {
+    "other": "Skift kodeord"
+  },
+  "changepassword_modal_currentpassword": {
+    "other": "Dit nuværende kodeord"
+  },
+  "changepassword_modal_password": {
+    "other": "Dit nye kodeord"
+  },
+  "changepassword_modal_password2": {
+    "other": "Bekræft dit nye kodeord"
+  },
+  "changepassword_modal_submit": {
+    "other": "Opdater"
+  },
+  "changepassword_modal_error_incorrect_password": {
+    "other": "Kodeordet er ugyldigt"
+  },
+  "userlibrary_page_header": {
+    "other": "Mit bibliotek"
+  },
+  "userlibrary_empty_header": {
+    "other": "Dit bibliotek er tomt"
+  },
+  "userlibrary_empty_content": {
+    "other": "Gør noget ved det ved at <a href=\"{{.HomeURL}}\">udforske</a> vores store udvalg."
+  },
+  "searchresults_page_header": {
+    "other": "Søgeresultater"
+  },
+  "searchresults_load_more": {
+    "other": "Vis {{.Count}} mere"
+  },
+  "searchresults_total": {
+    "one": "Fandt {{.Count}} resultater for \"{{.Query}}\".",
+    "other": "Fandt {{.Count}} resultater for \"{{.Query}}\"."
+  },
+  "searchresults_empty_header": {
+    "other": "Der var ingen søgeresultater for \"{{.Query}}\""
+  },
+  "searchresults_empty_content": {
+    "other": "Prøv en ny søgning eller <a href=\"{{.HomeURL}}\">find alle vores film</a> for at finde hvad du leder efter"
+  },
+  "validation_name_required": {
+    "other": "Skriv dit navn"
+  },
+  "validation_email_required": {
+    "other": "Skriv din e-mailadresse"
+  },
+  "validation_email_email": {
+    "other": "Skriv venligst en valid e-mailadresse"
+  },
+  "validation_currentpassword_required": {
+    "other": "Skriv dit nuværende kodeord"
+  },
+  "validation_password_required": {
+    "other": "Skriv et kodeord"
+  },
+  "validation_password2_required": {
+    "other": "Bekræft dit kodeord"
+  },
+  "validation_password2_match": {
+    "other": "Dine kodeord matcher ikke hinanden"
+  },
+  "validation_password_minlength": {
+    "other": "Skriv mindst {{.Count}} karakterer."
+  },
+  "validation_promocode_required": {
+    "other": "Skriv en rabatkode"
+  },
+  "validation_pincode_required": {
+    "other": "Indtast venligst en PIN-kode."
+  },
+  "validation_pincode1_required": {
+    "other": "Indtast venligst en gyldig PIN-kode."
+  },
+  "validation_pincode2_required": {
+    "other": "Indtast venligst en gyldig PIN-kode."
+  },
+  "validation_pincode1_pattern": {
+    "other": "Indtast venligst en gyldig PIN-kode."
+  },
+  "validation_pincode2_pattern": {
+    "other": "Indtast venligst en gyldig PIN-kode."
+  },
+  "validation_pincode2_match": {
+    "other": "PIN-koden stemmer ikke overens."
+  },
+  "validation_gender_required": {
+    "other": "Vælg venligst det køn, du overvejende identificerer dig med"
+  },
+  "validation_dob_required": {
+    "other": "Skriv din fødselsdato"
+  },
+  "validation_dob_date": {
+    "other": "Skriv venligst en valid fødselsdato"
+  },
+  "shopping_info_subtitle_hd": {
+    "other": "HD Video on Demand."
+  },
+  "shopping_info_subtitle_sd": {
+    "other": "SD Video on Demand."
+  },
+  "shopping_info_subtitle_wallet": {
+    "other": "Midler i din tegnebog kan bruges til køb eller leje af indhold på ScreenPlus."
+  },
+  "shopping_info_subtitle_help": {
+    "other": "Se her for systemkrav"
+  },
+  "shopping_info_ownership_buy": {
+    "other": "køb"
+  },
+  "shopping_info_ownership_rent": {
+    "other": "leje"
+  },
+  "shopping_info_sd_only": {
+    "other": "Begrænset til kun SD-afspilning."
+  },
+  "shopping_info_release_date_title": {
+    "other": "Premiere {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation_rent": {
+    "other": "Du kan leje den nu, men du vil ikke kunne se den før da."
+  },
+  "shopping_info_release_date_explanation_buy": {
+    "other": "Du kan købe den nu, men du vil ikke kunne se den før da."
+  },
+  "shopping_info_available_until_date_title": {
+    "other": "Tilgængelig indtil {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+    "other": "Du vil ikke kunne se indholdet efter dette."
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+    "other": "Du vil ikke kunne se indholdet efter dette."
+  },
+  "duration_hour": {
+    "one": "1 time",
+    "other": "{{.Count}} timer"
+  },
+  "duration_day": {
+    "one": "1 dag",
+    "other": "{{.Count}} dage"
+  },
+  "shopping_info_rental_period_duration": {
+    "other": "{{.ValueUnit}} leje "
+  },
+  "shopping_info_watch_window_duration": {
+    "other": "{{.Count}} timers afspilningsperiode. "
+  },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "Fra lejeperiodens start vil din film kunne afspilles i {{.ValueUnit}}. ",
+    "other": "Fra lejeperiodens start vil din film kunne afspilles i {{.ValueUnit}}. "
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "one": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu en time til at se filmen.",
+    "other": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu {{.Count}} timer til at se filmen."
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "one": "Når du har lejet filmene, der er tilknyttet filmpakke, vil de være gældende i en dag. ",
+    "other": "Når du har lejet filmene, der er tilknyttet filmpakke, vil de være gældende i {{.Count}} dage. "
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "one": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu en time til at se filmen.",
+    "other": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu {{.Count}} timer til at se filmen."
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "one": "Fra lejeperiodens start vil din film kunne afspilles i en dag. ",
+    "other": "Fra lejeperiodens start vil din film kunne afspilles i {{.Count}} dage. "
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "one": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu en time til at se filmen.",
+    "other": "Fra du har trykket 'afspil', er din afspilningsperiode begyndt og du har nu {{.Count}} timer til at se filmen."
+  },
+  "shopping_info_credit_bonus_title": {
+    "other": "{{.BonusPercentage}}% Bonus"
+  },
+  "shopping_enter_card_prompt": {
+    "other": "Indtast kortoplysninger for at gennemføre {{.Verb}}."
+  },
+  "shopping_terms": {
+    "other": "Ved at gennemføre denne transaktion accepterer jeg <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">vilkår og betingelser</a>."
+  },
+  "shopping_discount_applied": {
+    "other": "{{.DiscountAmount}} rabat indløst."
+  },
+  "shopping_discount_apply": {
+    "other": "Indløs"
+  },
+  "shopping_discount_code": {
+    "other": "Indtast rabatkode"
+  },
+  "shopping_discount_have_code": {
+    "other": "Jeg har en rabatkode"
+  },
+  "shopping_price_you_pay": {
+    "other": "Du betaler"
+  },
+  "shopping_price_nothing": {
+    "other": "Ingenting"
+  },
+  "shopping_price_free": {
+    "other": "Gratis"
+  },
+  "shopping_auth_directions": {
+    "other": "Du skal først have en konto. Skriv venligst din e-mailadresse."
+  },
+  "shopping_error_in_library": {
+    "other": "{{.Title}} er allerede i dit bibliotek."
+  },
+  "shopping_error_missing_card": {
+    "other": "Indtast venligst dine kortoplysninger."
+  },
+  "shopping_error_title": {
+    "other": "Der er sket en fejl"
+  },
+  "shopping_error_incorrect_cvc": {
+    "other": "Indtast venligst et gyldigt CVC."
+  },
+  "shopping_error_invalid_cvc": {
+    "other": "Indtast venligst et gyldigt CVC."
+  },
+  "shopping_error_incorrect_number": {
+    "other": "Indtast venligst et gyldigt kreditkortnummer"
+  },
+  "shopping_error_invalid_number": {
+    "other": "Indtast venligst et gyldigt kreditkortnummer"
+  },
+  "shopping_error_card_declined": {
+    "other": "Kreditkortet er blevet afvist"
+  },
+  "shopping_error_invalid_expiry_month": {
+    "other": "Indtast venligst en gyldig udløbsdato."
+  },
+  "shopping_error_invalid_expiry_year": {
+    "other": "Indtast venligst en gyldig udløbsdato."
+  },
+  "shopping_error_expired_card": {
+    "other": "Kreditkortet er udløbet."
+  },
+  "shopping_error_creditcard_country_mismatch": {
+    "other": "Dit {{.Ownership}} er ikke gået igennem. Du skal være i det land, hvor dit kort er udstedt. Brug venligst et andet kort for at gennemføre transaktionen."
+  },
+  "shopping_error_proxy_detected": {
+    "other": "Dit {{.Ownership}} er ikke gået igennem. Vi har opdaget at du bruger en unblocker eller proxy tjeneste. Slå venligst disse tjenester fra og prøv igen."
+  },
+  "shopping_error_discount_worn_out": {
+    "other": "Den kampagnekode kan ikke længere bruges."
+  },
+  "shopping_error_discount_blank": {
+    "other": "Indtast en rabatkode."
+  },
+  "shopping_error_discount_not_applied": {
+    "other": "Indtast en gyldig rabatkode."
+  },
+  "shopping_error_discount_invalid": {
+    "other": "Indtast en gyldig rabatkode."
+  },
+  "shopping_error_discount_disabled": {
+    "other": "Indtast en gyldig rabatkode."
+  },
+  "shopping_error_discount_already_applied": {
+    "other": "En rabatkode er allerede blevet brugt én gang i forbindelse med denne session."
+  },
+  "shopping_error_discount_already_redeemed": {
+    "other": "Rabatkoden har allerede været i brug."
+  },
+  "shopping_error_discount_used_previously": {
+    "other": "Rabatkoden har allerede været i brug."
+  },
+  "shopping_error_discount_max_limit": {
+    "other": "Denne rabatkode kan ikke længere bruges."
+  },
+  "shopping_error_discount_expired": {
+    "other": "Rabatkoden er udløbet."
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+    "other": "Rabatkoden kan ikke bruges til køb."
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+    "other": "Rabatkoden kan ikke bruges til leje."
+  },
+  "shopping_error_discount_invalid_item": {
+    "other": "Rabatkoden kan ikke bruges til denne film."
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+    "other": "Rabatkoden kan ikke bruges i dit land."
+  },
+  "shopping_error_discounts_not_allowed": {
+    "other": "Rabatkoden kan ikke bruges."
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+    "other": "Rabatkoden kan ikke bruges til filmpakker."
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+    "other": "Kreditkortet er afvist. Prøv venligst igen."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Dit kort er ikke understøttet."
+  },
+  "shopping_complete_rental": {
+    "other": "Succes!"
+  },
+  "shopping_complete_rental_period": {
+    "one": "Du kan nu se filmen i løbet af den næste dag.",
+    "other": "Du kan nu se filmen i løbet af de næste {{.Count}} dage."
+  },
+  "shopping_complete_purchase": {
+    "other": "Tak fordi du købte {{.Title}}."
+  },
+  "shopping_complete_credit_purchase": {
+    "other": "Tak fordi du købte {{.Title}}, {{.CreditTotal}} er blevet tilføjet din konto."
+  },
+  "shopping_complete_purchase_coming_soon": {
+    "other": "Du vil kunne se den fra {{.Date}}."
+  },
+  "shopping_complete_receipt": {
+    "other": "En kvittering er blevet mailet til dig."
+  },
+  "shopping_complete_plan": {
+    "other": "Dit køb af {{.Title}} blev gennemført."
+  },
+  "shopping_complete_library_link": {
+    "other": "Se dit bibliotek"
+  },
+  "shopping_complete_rental_watch_window_start": {
+    "one": "Du vil nu kunne starte med at se den inden for den næste dag.",
+    "other": "Du vil nu kunne starte med at se den inden for de næste {{.Count}} dage."
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "one": "Når afspilningen er begyndt, har du en time til at se filmen.",
+    "other": "Når afspilningen er begyndt, har du {{.Count}} timer til at se filmen."
+  },
+  "shopping_complete_rental_coming_soon": {
+    "one": "Du vil kunne se den fra {{.Date}} og din leje af filmen vil være gældende i en dag.",
+    "other": "Du vil kunne se den fra {{.Date}} og din leje af filmen vil være gældende i {{.Count}} dage."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "one": "Du vil kunne se den fra {{.Date}} og din leje af filmen vil være gældende i en dag.",
+    "other": "Du vil kunne se den fra {{.Date}} og din leje af filmen vil være gældende i {{.Count}} dage."
+  },
+  "shopping_action_rent": {
+    "other": "Lej"
+  },
+  "shopping_action_buy": {
+    "other": "Køb"
+  },
+  "meta_detail_cast_title": {
+    "other": "Medvirkende"
+  },
+  "meta_detail_crew_title": {
+    "other": "Hold"
+  },
+  "meta_detail_languages": {
+    "one": "Sprog",
+    "other": "Sprog"
+  },
+  "meta_detail_studios": {
+    "one": "Studie",
+    "other": "Studier"
+  },
+  "meta_detail_countries": {
+    "one": "Land",
+    "other": "Lande"
+  },
+  "meta_detail_subtitles": {
+    "other": "Undertekster"
+  },
+  "meta_detail_captions": {
+    "other": "Undertekster [CC]"
+  },
+  "meta_detail_episodes_title": {
+    "other": "Episoder"
+  },
+  "meta_detail_bonus_title": {
+    "other": "Bonusindhold"
+  },
+  "meta_detail_recommendations_title": {
+    "other": "Du vil måske også kunne lide"
+  },
+  "meta_detail_bundle_items_title": {
+    "other": "Film man kan se i denne filmpakke"
+  },
+  "bundle_items_all_films": {
+    "other": "{{.Count}} film"
+  },
+  "bundle_items_all_seasons": {
+    "other": "{{.Count}} film"
+  },
+  "bundle_items_mixed": {
+    "other": "{{.Count}} film"
+  },
+  "userwishlist_page_header": {
+    "other": "Min liste"
+  },
+  "userwishlist_slider_header": {
+    "other": "Min liste"
+  },
+  "userwishlist_empty_header": {
+    "other": "Din liste er tom."
+  },
+  "userwishlist_empty_content": {
+    "other": "Fyld den ved at <a href=\"{{.HomeURL}}\">gennemse</a> vores store udvalg."
+  },
+  "userwishlist_button_add": {
+    "other": "Tilføj til Min liste"
+  },
+  "userwishlist_button_remove": {
+    "other": "Fjern fra Min liste"
+  },
+  "userwishlist_button_add_compact": {
+    "other": "Min liste"
+  },
+  "userwishlist_button_remove_compact": {
+    "other": "Min liste"
+  },
+  "activatedevice_page_header": {
+    "other": "Aktiver Enhed"
+  },
+  "activatedevice_page_content": {
+    "other": "Følg instruktionerne på din enhed for at få en PIN-kode. Din computer og enhed skal begge være forbundet til internettet for at aktivere."
+  },
+  "activatedevice_form_pin": {
+    "other": "Pinkode"
+  },
+  "activatedevice_form_submit": {
+    "other": "Aktiver"
+  },
+  "activatedevice_form_error_invalid_code": {
+    "other": "PIN-koden blev ikke fundet, prøv venligst igen."
+  },
+  "activatedevice_form_error_pin_not_found": {
+    "other": "PIN-koden blev ikke fundet, prøv venligst igen."
+  },
+  "activatedevice_signin_prompt": {
+    "other": "Log venligst ind, før du aktiverer din enhed."
+  },
+  "activatedevice_page_activated": {
+    "other": "Tak, fordi du aktiverede {{.DeviceName}}. Du skulle nu være i stand til at gennemse dit bibliotek på dit fjernsyn eller din enhed."
+  },
+  "userdevices_page_header": {
+    "other": "Enheder"
+  },
+  "userdevices_page_content": {
+    "one": "Enheder vil automatisk blive tilføjet her, når du bruger dem. Du kan højst bruge en enhed.",
+    "other": "Enheder vil automatisk blive tilføjet her, når du bruger dem. Du kan højst bruge {{.Count}} enheder."
+  },
+  "userdevices_empty_content": {
+    "other": "Du har lige nu 0 registrerede enheder."
+  },
+  "userdevices_header_type": {
+    "other": "Enhedstype"
+  },
+  "userdevices_header_description": {
+    "other": "Beskrivelse"
+  },
+  "userdevices_device_added": {
+    "other": "Tilføjet {{.Date}}"
+  },
+  "userdevices_device_actions_delete": {
+    "other": "Fjern"
+  },
+  "userdevices_device_actions_cancel": {
+    "other": "Fortryd"
+  },
+  "userdevices_device_actions_confirm": {
+    "other": "Ja, fjern enhed"
+  },
+  "userdevices_device_deleted": {
+    "other": "(Fjernet)."
+  },
+  "userdevices_delete_limits": {
+    "other": "Du kan fjerne {{.Limit}} enhed(er) fra denne liste hver {{.Period}} dag(e)."
+  },
+  "userdevices_delete_limit_reached": {
+    "other": "Du har nået denne grænse og kan ikke fjerne nogen enheder lige nu. Du kan slette en enhed om {{.Days}} dag(e)."
+  },
+  "playlist_page_header": {
+    "other": "Afspilningsliste"
+  },
+  "playlist_sign_in_warning": {
+    "other": "Log venligst ind for at se live-tv."
+  },
+  "playlist_share_title": {
+    "other": "Afspilningsliste"
+  },
+  "playlist_up_next_title": {
+    "other": "Næste"
+  },
+  "pricing_ownership_buy": {
+    "other": "Køb"
+  },
+  "pricing_ownership_rent": {
+    "other": "Lej"
+  },
+  "classification_intro": {
+    "other": "Klassificering: "
+  },
+  "classification_divider": {
+    "other": " - "
+  },
+  "classification_outro": {
+    "other": ""
+  },
+  "cookie_banner_message": {
+    "other": "Dette website bruger cookies til at forbedre din oplevelse. Ved at bruge dette website accepterer du vores <a href=\"/page/cookie-policy/\">cookie usage</a>."
+  },
+  "cookie_banner_accept": {
+    "other": "Accepterer"
+  },
+  "all_rights_reserved": {
+    "other": "Alle rettigheder forbeholdes. Ingen del af denne side må gengives uden vores skriftlige tilladelse."
+  },
+  "users_gender_none": {
+    "other": "Ikke specificeret"
+  },
+  "users_gender_female": {
+    "other": "Kvinde"
+  },
+  "users_gender_male": {
+    "other": "Mand"
+  },
+  "users_gender_diverse": {
+    "other": "Forskellig"
+  },
+  "users_gender_other": {
+    "other": "Andet"
+  },
+  "pricing_quality_hd": {
+    "other": "HD"
+  },
+  "pricing_quality_sd": {
+    "other": "SD"
+  },
+  "pricing_quality_hd_only": {
+    "other": "Kun HD"
+  },
+  "pricing_quality_sd_only": {
+    "other": "Kun SD"
+  },
+  "shopping_card_save_card": {
+    "other": "Gem dette kort til fremtidig brug"
+  },
+  "shopping_card_button_change": {
+    "other": "Vis alle gemte kort"
+  },
+  "shopping_card_existing_description": {
+    "other": "{{.Card.Brand}}, der slutter på {{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+    "other": "(udløber {{.Card.Expiry}})"
+  },
+  "shopping_card_existing_expired": {
+    "other": "(udløbet)"
+  },
+  "shopping_card_use_other": {
+    "other": "Tilføj nyt kort"
+  },
+  "shopping_card_use_new_card": {
+    "other": "Skift kort"
+  },
+  "shopping_card_update_reason_none": {
+    "other": "Opdater dit kreditkort. Understøttede kort er Visa, Mastercard og American Express."
+  },
+  "shopping_card_new_subscription": {
+    "other": "Dette kort vil blive opbevaret og opkrævet regelmæssigt"
+  },
+  "shopping_card_change": {
+    "other": "Kreditkort ikke korrekt? <a href=\"{{.SubscriptionsURL}}\">Klik her for at opdatere dit kort.</a>"
+  },
+  "shopping_info_ownership_plan": {
+    "other": "Plan"
+  },
+  "shopping_action_credit": {
+    "other": "Fyld op"
+  },
+  "shopping_info_rental_period_coming_soon": {
+    "other": "fra premieredatoen og -tidspunktet."
+  },
+  "usersubscriptions_change_payment_method_change": {
+    "other": "Skift kreditkort"
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+    "other": "Opdater kreditkortoplysninger"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "Opdatering"
+  },
+  "usersubscriptions_subscription_expiry": {
+    "other": "Udløber {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Annulleret"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Ikke betalt til tiden"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "Prøveperiode"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+    "other": "Opsig mit abonnement"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+    "other": "Nej tak"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+    "other": "Ja, annuller"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+    "other": "Vil du opsige abonnement?"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+    "other": "Dette vil annullere abonnementet på {{.Name}}. Du vil stadig kunne se indholdet, indtil det udløber {{.Expiry}}."
+  },
+  "availability_coming_soon": {
+    "other": "Kommer snart"
+  },
+  "availability_renting": {
+    "other": "Lejer"
+  },
+  "availability_not_available": {
+    "other": "Kan ikke ses"
+  },
+  "availability_in_watch_window": {
+    "other": "Kan ses"
+  },
+  "availability_sold_out": {
+    "other": "Udsolgt"
+  },
+  "availability_available_till": {
+    "other": "Kan ses indtil {{.ExpiryDate}}"
+  },
+  "availability_not_available_in_country": {
+    "other": "Kan ikke ses"
+  },
+  "availability_available": {
+    "other": "Kan ses fra {{.ReleaseDate}}"
+  },
+  "availability_expires": {
+    "other": "Udløber {{.Expiry}}"
+  },
+  "availability_expired": {
+    "other": "Udløbet"
+  },
+  "modal_cancel": {
+    "other": "Fortryd"
+  },
+  "play": {
+    "other": "Afspil"
+  },
+  "combined_auth_signin_prompt": {
+    "other": "Log ind"
+  },
+  "combined_auth_signup_prompt": {
+    "other": "Opret konto"
+  },
+  "combined_auth_terms": {
+    "other": "Jeg erklærer mig enig i alle <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">vilkår og betingelser</a>."
+  },
+  "signup_terms": {
+    "other": "Jeg erklærer mig enig i alle <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">vilkår og betingelser</a>."
+  },
+  "validation_terms_required": {
+    "other": "Du skal erklære dig enig i vilkår og betingelser."
+  },
+  "shopping_error_item_limit_exceeded": {
+    "other": "{{.Title}} er desværre udsolgt."
+  },
+  "changepincode_modal_header": {
+    "other": "Skift din pinkode"
+  },
+  "changepincode_modal_currentpassword": {
+    "other": "Din nuværende adgangskode"
+  },
+  "changepincode_modal_pincode1": {
+    "other": "Din nye 4-cifrede pinkode"
+  },
+  "changepincode_modal_pincode2": {
+    "other": "Bekræft din nye 4-cifrede PIN-kode"
+  },
+  "changepincode_modal_submit": {
+    "other": "Indstil pinkode"
+  },
+  "changepincode_modal_error_wrong_password": {
+    "other": "Adgangskoden er forkert."
+  },
+  "user_set_pin_intro": {
+    "other": "Du skal bruge en pinkode til {{.Action}} begrænset indhold"
+  },
+  "user_error_wrong_pin_reset": {
+    "other": "Klik her for at nulstille din pinkode"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+    "other": ""
+  },
+  "shopping_error_age_restricted": {
+    "other": "Dette indhold er aldersbegrænset."
+  },
+  "shopping_error_close_button": {
+    "other": "Okay"
+  },
+  "app_badge_title": {
+    "other": "Download appen for at se dit købte indhold!"
+  },
+  "app_badge_ios": {
+    "other": "Download på App Store"
+  },
+  "app_badge_android": {
+    "other": "Få det på Google Play"
+  },
+  "shopping_price_title_plan": {
+    "other": "Pris"
+  },
+  "shopping_price_plan_note": {
+    "one": "Opkræves hvert {{.Interval}} efter din 24 timers gratis prøveperiode slutter.",
+    "other": "Opkræves hvert {{.Interval}} efter din {{.Count}} dages gratis prøveperiode slutter."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Opkræves hvert {{.Interval}}."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Indtast dine kreditkortoplysninger nedenfor for at starte dit abonnement."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Indtast dine kreditkortoplysninger nedenfor for at starte din plan."
+  },
+  "shopping_action_plan": {
+    "other": "Komplet"
+  },
+  "shopping_complete_subscription": {
+    "other": "Dit abonnementskøb blev gennemført. Du abonnerer nu på {{.Title}}."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Du er velkommen til at <a href=\"/\">browse rundt</a> på siden, eller <a href=\"/search.html\">søg</a> efter noget specifikt."
+  },
+  "shopping_info_plan_offer": {
+    "one": "Fornyer automatisk hver {{.Interval}}",
+    "other": "{{.Count}} automatisk hver {{.Interval}}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Prøv din gratis 24 timers prøveperiode nu!",
+    "other": "Prøv din {{.Count}} dages gratis prøveperiode!"
+  },
+  "plans_page_header": {
+    "other": "Tilgængelige planer"
+  },
+  "plan_label_owned": {
+    "other": "Du ejer denne plan"
+  },
+  "plan_expiry_date": {
+    "other": "Salg lukker:"
+  },
+  "plan_read_more": {
+    "other": "Find ud af mere"
+  },
+  "plan_page_read_more": {
+    "other": "Læs mere"
+  },
+  "plan_page_header_text": {
+    "other": "Nyd {{.Name}}"
+  },
+  "page_plan_explore_intro": {
+    "other": "ELLER"
+  },
+  "page_plan_explore_link": {
+    "other": "Udforsk mere"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Køb nu"
+  },
+  "plan_free_link_text": {
+    "other": "Gratis tilmelding"
+  },
+  "awards_in_competition": {
+    "other": "I Konkurrence"
+  },
+  "awards_winner": {
+    "other": "Vinder"
+  },
+  "donate_button_text": {
+    "other": "Doner"
+  },
+  "shopping_error_plan_already_owned": {
+    "other": "Du har allerede denne plan."
+  },
+  "shopping_error_plan_expired": {
+    "other": "Denne plan er ikke længere tilgængelig."
+  },
+  "shopping_payment_method_header": {
+    "other": "Betalingsmetoder"
+  },
+  "shopping_payment_method_credit_card": {
+    "other": "Kreditkort"
+  },
+  "shopping_payment_method_giropay": {
+    "other": "Giropay"
+  },
+  "shopping_error_stripe_unknown_error": {
+    "other": "Der gik noget galt med denne betaling. Prøv igen senere."
+  },
+  "shopping_error_payment_complete_failed": {
+    "other": "Betalingen blev afvist. Luk dette vindue og prøv igen."
+  },
+  "wcag_skip_links_header": {
+    "other": "Accessibility Links"
+  },
+  "wcag_skip_links_content": {
+    "other": "Skip to Content"
+  },
+  "wcag_homepage_h1": {
+    "other": "Hjemmeside"
+  },
+  "wcag_carousel_h2": {
+    "other": "Karrusel"
+  },
+  "wcag_collections_h2": {
+    "other": "Samlinger"
+  },
+  "wcag_aria_label_footer": {
+    "other": "Sidefod"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "Hoved"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "Sub"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "Slå navigation til/fra"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "Pak varer"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "Karrusel"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Sideinddeling"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "Sidesamling"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "Samlingsliste"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "Indsamlingsskyder"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "Ønskeliste"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "Del på Facebook"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "Del på Twitter"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "Del på LinkedIn"
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "Se på Letterboxd"
+  },
+  "header_banner": {
+    "other": "ABC Cinemas – 21. filmfestival, 1. – 6. juni 2021"
+  },
+  "meta_description_expand": {
+    "other": "Se mere"
+  },
+  "meta_description_collapse": {
+    "other": "Se mindre"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Abonnementer og fakturering"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Betalingsmetode"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "Ændringer af din kreditkortbetalingsmetode træder i kraft på din næste faktureringsperiode."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Abonnementsoplysninger"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Aktiv"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Udløbet"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Opdag abonnementer"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Oplev fantastisk indhold til fantastiske priser, nemt at administrere her."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Udforsk abonnementer"
+  },
+  "nav_subscriptions": {
+    "other": "Mine abonnementer"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Første betaling {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Næste betaling {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Forfalden betaling {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Slutter {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Afsluttet {{.Expiry}}"
+  },
+  "sponsor_image_alt": {
+    "other": "sponsor logo"
+  },
+  "subscribe_to_watch": {
+    "other": "Abonner for at se"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} elementer"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Opdater dit kreditkort. Understøttede kort er Visa, Mastercard og American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Koden blev anvendt."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Indtast venligst en gyldig kampagnekode."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Du kan nu se {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Indløs"
+  },
+  "pricing_ownership_promo": {
+    "other": "Indløs"
+  },
+  "subscription_cta_label": {
+    "other": "Abonner {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "År",
+    "other": "{{.Count}} Flere år"
+  },
+  "subscription_recurrence_month": {
+    "one": "Måned",
+    "other": "{{.Count}} Måneder"
+  },
+  "subscription_recurrence_week": {
+    "one": "Uge",
+    "other": "{{.Count}} Uger"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dag",
+    "other": "{{.Count}} Dage"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Abonnement"
+  },
+  "something_bad_happened": {
+    "other": "Prøv igen"
+  },
+  "stripe_card_not_supported": {
+    "other": "Dit kort er ikke understøttet."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Søg"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Søg nu"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Fornyer automatisk hver {{.Interval}}",
+    "other": "{{.Count}} automatisk hver {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Prøv din gratis 24 timers prøveperiode nu!",
+    "other": "Prøv din {{.Count}} dages gratis prøveperiode!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Abonnementer og fakturering"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Ubetalt"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Annullerer"
+  },
+  "interval_day": {
+    "one": "dag",
+    "other": "dage"
+  },
+  "interval_week": {
+    "one": "uge",
+    "other": "uger"
+  },
+  "interval_month": {
+    "one": "måned",
+    "other": "måneder"
+  },
+  "interval_year": {
+    "one": "år",
+    "other": "flere år"
+  },
+  "shopping_error_processing_error": {
+    "other": "Der opstod en fejl under behandlingen af dit kort. Prøv igen senere eller med en anden betalingsmetode."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "Shopping-sessionen er udløbet, prøv venligst igen."
+  },
+  "live_stream_starts": {
+    "other": "Stream starter {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streamer nu"
+  },
+  "live_streaming_ended": {
+    "other": "Stream sluttede"
+  },
+  "availability_live": {
+    "other": "LIVE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Få billet"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Du kan ikke bruge en kampagnekode til dette køb eller leje"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Denne kampagnekode er ikke gyldig endnu"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Kampagnekoder kan ikke anvendes til gratis shoppingsessioner"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Kampagnekoder kan ikke anvendes, når købet er gennemført"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Kampagnekoden kunne ikke anvendes. Prøv venligst igen"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Ugyldig kampagnekode"
+  },
+  "shopping_error_missing_code": {
+    "other": "Der blev ikke angivet nogen kampagnekode"
+  },
+  "live_label_ended": {
+    "other": "LIVE: SLUT"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MINUT",
+    "other": "LIVE: {{.Count}} MINUTTER"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 TIME",
+    "other": "LIVE: {{.Count}} TIMER"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 DAG",
+    "other": "LIVE: {{.Count}} DAGE"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Live stream"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dette er en Live Event. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Du kan købe en billet nu, men du bliver nødt til at se den, mens streamen er live."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Du skal se, mens streamen er live."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Denne begivenhed er i øjeblikket live. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream slutter {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Du vil ikke være i stand til at se streamen efter det."
+  },
+  "shopping_action_ticket": {
+    "other": "Få billet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream starter {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Det startede kl {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Du kan ikke spole den tilbage."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Dit korts udløbsdato ligger i fortiden."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Dit korts udløbsår er i fortiden."
+  }
+}

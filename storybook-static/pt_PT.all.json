@@ -1,0 +1,1513 @@
+{
+  "settings_title": {
+    "other": "Configurações"
+  },
+  "powered_by": {
+    "other": "Distribuído por"
+  },
+  "powered_by_name": {
+    "other": "ScreenPlus"
+  },
+  "powered_by_url": {
+    "other": "https://www.shift72.com"
+  },
+  "in_partnership_with": {
+    "other": "em parceria com"
+  },
+  "festival_scope": {
+    "other": "Festival Scope"
+  },
+  "festival_scope_url": {
+    "other": "https://www.festivalscope.com/page/create-your-online-film-festival/"
+  },
+  "en": {
+    "other": "English"
+  },
+  "fr": {
+    "other": "French"
+  },
+  "episode_name": {
+    "other": "Episódio"
+  },
+  "season_name": {
+    "other": "Temporada"
+  },
+  "seasons": {
+    "one": "uma temporada",
+    "other": "{{.Count}} temporadas"
+  },
+  "tvseason": {
+    "other": "{{.ShowInfo.Title}} Séries {{.Season.SeasonNumber}}"
+  },
+  "tvseason_html": {
+    "other": "{{.ShowInfo.Title}} <span> Séries {{.Season.SeasonNumber}}</span>"
+  },
+  "tvepisode": {
+    "other": "{{.Episode.Title}}"
+  },
+  "tvseason_number": {
+    "other": "Séries {{.Season.SeasonNumber}}"
+  },
+  "episode_count": {
+    "one": "1 Episódio",
+    "other": "{{.Count}} Episódios"
+  },
+  "date_day": {
+    "other": "Dia"
+  },
+  "date_month": {
+    "other": "Mês"
+  },
+  "date_year": {
+    "other": "Ano"
+  },
+  "404_page_header": {
+    "other": "Esta página não existe..."
+  },
+  "404_page_content": {
+    "other": "<p>Desculpe-nos, parece que a página que você está procurando não existe.</p><p>Ela pode ter sido removida, ou talvez você tenha digitado algo errado.</p><p>Tente voltar para a Página Inicial para buscar o que você estava procurando.</p><p><a href=\"{{.URL}}\">Voltar a Página Inicial</a></p>"
+  },
+  "nav_signin": {
+    "other": "Entrar"
+  },
+  "nav_signup": {
+    "other": "Criar Conta"
+  },
+  "nav_signed_in_as": {
+    "other": "Conectado como"
+  },
+  "nav_library": {
+    "other": "Minha Biblioteca"
+  },
+  "nav_devices": {
+    "other": "Meus Dispositivos"
+  },
+  "nav_wishlist": {
+    "other": "Minha Lista"
+  },
+  "nav_account": {
+    "other": "Minha Conta"
+  },
+  "nav_signout": {
+    "other": "Sair"
+  },
+  "play_trailer": {
+    "other": "Trailer"
+  },
+  "runtime_hours": {
+    "other": "h"
+  },
+  "runtime_minutes": {
+    "other": "m"
+  },
+  "datetime_today": {
+    "other": "hoje {{.Date}}"
+  },
+  "datetime_tomorrow": {
+    "other": "amanhã {{.Date}}"
+  },
+  "datetime_yesterday": {
+    "other": "ontem {{.Date}}"
+  },
+  "datetime_next": {
+    "other": "{{.Date}}"
+  },
+  "datetime_last": {
+    "other": "último(a) {{.Date}}"
+  },
+  "search_control_placeholder": {
+    "other": "Buscar"
+  },
+  "search_control_submit": {
+    "other": "Buscar"
+  },
+  "play_button_watch": {
+    "other": "Assista agora"
+  },
+  "play_button_resume": {
+    "other": "Continuar"
+  },
+  "social_media_buttons_title": {
+    "other": "Participação"
+  },
+  "social_media_buttons_facebook": {
+    "other": "Facebook"
+  },
+  "social_media_buttons_twitter": {
+    "other": "Twitter"
+  },
+  "social_media_buttons_linkedin": {
+    "other": "Linkedin"
+  },
+  "social_media_buttons_email": {
+    "other": "E-mail"
+  },
+  "social_media_buttons_email_subject": {
+    "other": "Compartilhamento de link"
+  },
+  "social_media_buttons_copied_link": {
+    "other": "Link copiado"
+  },
+  "social_media_buttons_copy_link": {
+    "other": "Link de cópia"
+  },
+  "accept_invite_page_header": {
+    "other": "Acolher "
+  },
+  "acceptinvite_form_invalid_reset_password_token": {
+    "other": "Parece que você já aceitou esse convite, você deve <a href=\"{{.SigninURL}}\">entrar em sua conta</a>. Se você esqueceu sua senha, você também pode <a href=\"{{.ForgotPasswordURL}}\">alterar sua senha</a>."
+  },
+  "acceptinvite_complete": {
+    "other": "Obrigado! Sua conta foi criada."
+  },
+  "acceptinvite_form_submit": {
+    "other": "Aceitar Convite"
+  },
+  "acceptinvite_agreement": {
+    "other": "Ao clicar em \"Aceitar Convite\" você concorda que leu e concorda com os nossos <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">termos de uso</a> e <a href=\"{{.PrivacyPolicyURL}}\" target=\"_blank\">política de privacidade</a>."
+  },
+  "signup_page_header": {
+    "other": "Criar nova conta"
+  },
+  "signup_form_name": {
+    "other": "Nome"
+  },
+  "signup_form_email": {
+    "other": "E-mail"
+  },
+  "signup_form_password": {
+    "other": "Senha"
+  },
+  "signup_form_password_confirmation": {
+    "other": "Confirme sua senha"
+  },
+  "signup_form_gender": {
+    "other": "Gênero"
+  },
+  "signup_form_dob": {
+    "other": "Data de nascimento"
+  },
+  "signup_form_submit": {
+    "other": "Enviar"
+  },
+  "signin_page_header": {
+    "other": "Entrar"
+  },
+  "signin_form_email": {
+    "other": "E-mail"
+  },
+  "signin_form_password": {
+    "other": "Senha"
+  },
+  "signin_form_remember": {
+    "other": "Lembrar-me"
+  },
+  "signin_form_submit": {
+    "other": "Enviar"
+  },
+  "signin_page_forgotpassword": {
+    "other": "Esqueceu sua senha?"
+  },
+  "signin_page_createnewaccount": {
+    "other": "Não tem uma conta? Criar uma conta"
+  },
+  "signup_page_alreadyhaveanaccount": {
+    "other": "Já possui uma conta? Acessar sua conta"
+  },
+  "signup_form_error_email_already_in_use": {
+    "other": "Esse endereço de e-mail já está em uso."
+  },
+  "signin_form_error_incorrect_credentials": {
+    "other": "O nome de usuário ou senha estão incorretos."
+  },
+  "signup_form_error_forbidden": {
+    "other": "Ocorreu um erro."
+  },
+  "combined_auth_continue": {
+    "other": "Continuar"
+  },
+  "combined_auth_change": {
+    "other": "mudar"
+  },
+  "combined_auth_signin": {
+    "other": "Entrar"
+  },
+  "combined_auth_signup": {
+    "other": "Criar conta"
+  },
+  "combined_auth_signin_password": {
+    "other": "Por favor, insira sua senha para entrar em sua conta."
+  },
+  "combined_auth_signin_error_incorrect_credentials": {
+    "other": "A senha fornecida está incorreta."
+  },
+  "combined_auth_error_forbidden": {
+    "other": "Ocorreu um erro."
+  },
+  "combined_auth_error_too_many_requests": {
+    "other": "Muitos pedidos. Por favor tente mais tarde."
+  },
+  "forgotpassword_page_header": {
+    "other": "Alterar senha"
+  },
+  "forgotpassword_form_email": {
+    "other": "E-mail"
+  },
+  "forgotpassword_form_submit": {
+    "other": "Alterar"
+  },
+  "forgotpassword_form_error_email_doesnt_exist": {
+    "other": "Não existe uma conta com esse endereço de e-mail."
+  },
+  "forgotpassword_form_error_account_suspended": {
+    "other": "Essa conta foi suspensa."
+  },
+  "forgotpassword_complete": {
+    "other": "Obrigado. Você deve receber um e-mail para alteração de senha na sua caixa de entrada."
+  },
+  "forgotpassword_form_error_forbidden": {
+    "other": "Ocorreu um erro."
+  },
+  "forgotpassword_form_error_too_many_requests": {
+    "other": "Muitos pedidos. Por favor tente mais tarde."
+  },
+  "resetpassword_page_header": {
+    "other": "Alterar sua senha"
+  },
+  "resetpassword_form_invalid_reset_password_token": {
+    "other": "Parece que esse pedido para alteração de senha é inválido. Por favor, faça uma nova solicitação em <a href=\"{{.URL}}\">Esqueci minha senha</a>."
+  },
+  "resetpassword_form_password": {
+    "other": "Nova senha"
+  },
+  "resetpassword_form_password2": {
+    "other": "Confirmar nova senha"
+  },
+  "resetpassword_form_submit": {
+    "other": "Alterar"
+  },
+  "resetpassword_complete": {
+    "other": "Obrigado. Sua senha foi alterada e você está conectado."
+  },
+  "resetpassword_form_error_invalid_reset_password_token": {
+    "other": "O pedido para alteração de senha é inválido, por favor tente novamente mais tarde."
+  },
+  "resetpassword_form_error_reset_password_token_expired": {
+    "other": "O token para alteração de senha expirou. Por favor, solicite novamente."
+  },
+  "resetpassword_form_error_too_many_requests": {
+    "other": "Muitos pedidos. Por favor tente mais tarde."
+  },
+  "account_page_header": {
+    "other": "Minha conta"
+  },
+  "account_form_name": {
+    "other": "Nome"
+  },
+  "account_form_email": {
+    "other": "E-mail"
+  },
+  "account_form_password": {
+    "other": "Senha"
+  },
+  "account_form_change_password": {
+    "other": "Alterar"
+  },
+  "account_form_gender": {
+    "other": "Gênero"
+  },
+  "account_form_dob": {
+    "other": "Data de Nascimento"
+  },
+  "account_form_submit": {
+    "other": "Atualizar"
+  },
+  "account_form_submitted": {
+    "other": "Atualizado"
+  },
+  "account_form_password_changed": {
+    "other": "Atualizado"
+  },
+  "account_form_error_incorrect_password": {
+    "other": "Senha incorreta."
+  },
+  "signup_form_optin": {
+    "other": "Inscreva-se na nossa newsletter"
+  },
+  "passwordconfirmation_modal_header": {
+    "other": "Confirme sua senha"
+  },
+  "passwordconfirmation_modal_label": {
+    "other": "Por favor, insira sua senha para atualizar seu cadastro."
+  },
+  "passwordconfirmation_modal_confirm": {
+    "other": "Confirmar"
+  },
+  "changepassword_modal_header": {
+    "other": "Alterar senha"
+  },
+  "changepassword_modal_currentpassword": {
+    "other": "Sua senha atual"
+  },
+  "changepassword_modal_password": {
+    "other": "Sua nova senha"
+  },
+  "changepassword_modal_password2": {
+    "other": "Confirmar nova senha"
+  },
+  "changepassword_modal_submit": {
+    "other": "Alterar"
+  },
+  "changepassword_modal_error_incorrect_password": {
+    "other": "Senha incorreta."
+  },
+  "userlibrary_page_header": {
+    "other": "Minha Biblioteca"
+  },
+  "userlibrary_empty_header": {
+    "other": "Sua biblioteca está vazia."
+  },
+  "userlibrary_empty_content": {
+    "other": "Preencha-a <a href=\"{{.HomeURL}}\">navegando</a> em nossa programação."
+  },
+  "searchresults_page_header": {
+    "other": "Resultados da busca"
+  },
+  "searchresults_load_more": {
+    "other": "Carregar {{.Count}} mais"
+  },
+  "searchresults_total": {
+    "one": "Encontrado 1 resultado para  \"{{.Query}}\".",
+    "other": "Encontrado {{.Count}} resultado para \"{{.Query}}\"."
+  },
+  "searchresults_empty_header": {
+    "other": "Não foram encontrados resultados para \"{{.Query}}\""
+  },
+  "searchresults_empty_content": {
+    "other": "Tente fazer outra busca ou <a href=\"{{.HomeURL}}\">navegue pelo nosso conteúdo</a> para encontrar o que está procurando."
+  },
+  "validation_name_required": {
+    "other": "Por favor, insira seu nome."
+  },
+  "validation_email_required": {
+    "other": "Por favor, insira seu e-mail"
+  },
+  "validation_email_email": {
+    "other": "Por favor, insira um e-mail válido."
+  },
+  "validation_currentpassword_required": {
+    "other": "Por favor, insira sua senha atual."
+  },
+  "validation_password_required": {
+    "other": "Por favor, insira uma senha"
+  },
+  "validation_password2_required": {
+    "other": "Por favor, confirme sua senha."
+  },
+  "validation_password2_match": {
+    "other": "Suas senhas não conferem."
+  },
+  "validation_password_minlength": {
+    "other": "Por favor, sua senha deve ter pelo menos {{.Count}} caracteres."
+  },
+  "validation_promocode_required": {
+    "other": "Por favor, insira um código promocional"
+  },
+  "validation_pincode_required": {
+    "other": "Por favor, insira um código PIN."
+  },
+  "validation_gender_required": {
+    "other": "Por favor, selecione o gênero com o qual você se identifica mais."
+  },
+  "validation_dob_required": {
+    "other": "Por favor, insira sua data de nascimento"
+  },
+  "validation_dob_date": {
+    "other": "Por favor, insira uma data de nascimento válida."
+  },
+  "shopping_info_subtitle_hd": {
+    "other": "HD Vídeo sob demanda."
+  },
+  "shopping_info_subtitle_sd": {
+    "other": "SD Vídeo sob demanda."
+  },
+  "shopping_info_subtitle_wallet": {
+    "other": "Os fundos em sua Carteira podem ser usados ​​para a compra ou aluguel de qualquer conteúdo no ScreenPlus."
+  },
+  "shopping_info_subtitle_help": {
+    "other": "Veja aqui os requisitos de sistema."
+  },
+  "shopping_info_ownership_buy": {
+    "other": "compra"
+  },
+  "shopping_info_ownership_rent": {
+    "other": "aluguel"
+  },
+  "shopping_info_sd_only": {
+    "other": "Limitado apenas à reprodução SD."
+  },
+  "shopping_info_release_date_title": {
+    "other": "Lançamentos {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation_rent": {
+    "other": "Você pode alugar agora, mas não poderá assistir até a data."
+  },
+  "shopping_info_release_date_explanation_buy": {
+    "other": "Você pode comprar agora, mas não poderá assistir até a data."
+  },
+  "shopping_info_available_until_date_title": {
+    "other": "Disponível até {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_rent": {
+    "other": "Você não poderá assistir ao conteúdo após esta data."
+  },
+  "shopping_info_available_until_date_explanation_buy": {
+    "other": "Você não poderá assistir ao conteúdo após esta data."
+  },
+  "duration_hour": {
+    "one": "1 hora",
+    "other": "{{.Count}} horas"
+  },
+  "duration_day": {
+    "one": "1 dia",
+    "other": "{{.Count}} dias"
+  },
+  "shopping_info_rental_period_duration": {
+    "other": "Aluguel de {{.ValueUnit}} "
+  },
+  "shopping_info_watch_window_duration": {
+    "other": "Período de reprodução de {{.Count}} horas. "
+  },
+  "shopping_info_watch_window_explanation_film": {
+    "one": "Uma vez alugado, o filme estará disponível na sua conta por {{.ValueUnit}}. ",
+    "other": "Uma vez alugado, o filme estará disponível na sua conta por {{.ValueUnit}}. "
+  },
+  "shopping_info_watch_window_explanation2_film": {
+    "one": "Uma vez pressionado play, o período de reprodução se inicia e você tem uma hora para assistir o filme quantas vezes quiser.",
+    "other": "Uma vez pressionado play, o período de reprodução se inicia e você tem {{.Count}} horas para assistir o filme quantas vezes quiser."
+  },
+  "shopping_info_watch_window_explanation_bundle": {
+    "one": "Uma vez alugado, os filmes do pacote estarão disponíveis na sua conta por um dia.",
+    "other": "Uma vez alugado, os filmes do pacote estarão disponíveis na sua conta por {{.Count}} dias."
+  },
+  "shopping_info_watch_window_explanation2_bundle": {
+    "one": "Uma vez pressionado play, o período de reprodução se inicia e você tem uma hora para assistir o filme quantas vezes quiser.",
+    "other": "Uma vez pressionado play, o período de reprodução se inicia e você tem {{.Count}} horas para assistir o filme quantas vezes quiser."
+  },
+  "shopping_info_watch_window_explanation_season": {
+    "one": "Uma vez alugada, sua temporada estará disponível na sua conta por um dia. ",
+    "other": "Uma vez alugada, sua temporada estará disponível na sua conta por {{.Count}} dias."
+  },
+  "shopping_info_watch_window_explanation2_season": {
+    "one": "Uma vez pressionado play, o período de reprodução se inicia e você tem uma hora para assistir o episódio quantas vezes quiser.",
+    "other": "Uma vez pressionado play, o período de reprodução se inicia e você tem {{.Count}} horas para assistir o episódio quantas vezes quiser."
+  },
+  "shopping_info_credit_bonus_title": {
+    "other": "{{.BonusPercentage}}% Bônus"
+  },
+  "shopping_enter_card_prompt": {
+    "other": "Preencha abaixo os dados do seu cartão para completar sua {{.Verb}}."
+  },
+  "shopping_terms": {
+    "other": "Ao realizar essa transação, eu aceito os <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\" tabindex=\"-1\">termos e condições</a>."
+  },
+  "shopping_discount_applied": {
+    "other": "{{.DiscountAmount}} de desconto aplicado."
+  },
+  "shopping_discount_apply": {
+    "other": "Aplicar"
+  },
+  "shopping_discount_code": {
+    "other": "Insira um código promocional."
+  },
+  "shopping_discount_have_code": {
+    "other": "Eu tenho um código promocional."
+  },
+  "shopping_price_you_pay": {
+    "other": "Você paga"
+  },
+  "shopping_price_nothing": {
+    "other": "Nada"
+  },
+  "shopping_price_free": {
+    "other": "Gratuito"
+  },
+  "shopping_auth_directions": {
+    "other": "Uma conta é necessária primeiro. Por favor, insira seu endereço de e-mail."
+  },
+  "shopping_error_in_library": {
+    "other": "{{.Title}} já está na sua biblioteca."
+  },
+  "shopping_error_missing_card": {
+    "other": "Por favor, insira os dados do seu cartão de crédito."
+  },
+  "shopping_error_title": {
+    "other": "Ocorreu um erro."
+  },
+  "shopping_error_incorrect_cvc": {
+    "other": "Por favor, insira um CVC válido."
+  },
+  "shopping_error_invalid_cvc": {
+    "other": "Por favor, insira um CVC válido."
+  },
+  "shopping_error_incorrect_number": {
+    "other": "Por favor, insira um número de cartão de crédito válido."
+  },
+  "shopping_error_invalid_number": {
+    "other": "Por favor, insira um número de cartão de crédito válido."
+  },
+  "shopping_error_card_declined": {
+    "other": "O cartão de crédito foi recusado."
+  },
+  "shopping_error_invalid_expiry_month": {
+    "other": "Por favor, insira uma data de validade válida."
+  },
+  "shopping_error_invalid_expiry_year": {
+    "other": "Por favor, insira uma data de validade válida."
+  },
+  "shopping_error_expired_card": {
+    "other": "O cartão de crédito está vencido."
+  },
+  "shopping_error_creditcard_country_mismatch": {
+    "other": "Sua {{.Ownership}} não foi bem-sucedida. Você deve estar no mesmo país onde seu cartão de crédito foi emitido. Por favor, use outro cartão de crédito para este pagamento."
+  },
+  "shopping_error_proxy_detected": {
+    "other": "Sua {{.Ownership}} não foi bem-sucedida. Nós detectamos que você está utilizando um desbloqueador ou proxy. Por favor, desligue esses dispositivos e tente novamente."
+  },
+  "shopping_error_discount_worn_out": {
+    "other": "Esse código promocional não pode mais ser usado."
+  },
+  "shopping_error_discount_blank": {
+    "other": "Por favor, insira um código promocional válido"
+  },
+  "shopping_error_discount_not_applied": {
+    "other": "Por favor, insira um código promocional válido"
+  },
+  "shopping_error_discount_invalid": {
+    "other": "Por favor, insira um código promocional válido"
+  },
+  "shopping_error_discount_disabled": {
+    "other": "Por favor, insira um código promocional válido."
+  },
+  "shopping_error_discount_already_applied": {
+    "other": "Um código promocional já foi usado para essa sessão."
+  },
+  "shopping_error_discount_already_redeemed": {
+    "other": "Este código promocional já foi utilizado."
+  },
+  "shopping_error_discount_used_previously": {
+    "other": "Este código promocional já foi utilizado."
+  },
+  "shopping_error_discount_max_limit": {
+    "other": "Este código promocional já não pode ser utilizado."
+  },
+  "shopping_error_discount_expired": {
+    "other": "Este código promocional já expirou."
+  },
+  "shopping_error_discount_invalid_ownership_buy": {
+    "other": "Este código promocional não pode ser usado para compra."
+  },
+  "shopping_error_discount_invalid_ownership_rent": {
+    "other": "Este código promocional não pode ser usado para locação."
+  },
+  "shopping_error_discount_invalid_item": {
+    "other": "Este código promocional não pode ser usado para este item."
+  },
+  "shopping_error_discount_invalid_pricing_region": {
+    "other": "Este código promocional não pode ser usado no seu país."
+  },
+  "shopping_error_discounts_not_allowed": {
+    "other": "Este código promocional não pode ser usado."
+  },
+  "shopping_error_discount_disallowed_on_bundles": {
+    "other": "Este código promocional não pode ser usado em pacotes."
+  },
+  "shopping_error_payment_intent_authentication_failure": {
+    "other": "Seu cartão de crédito foi recusado. Por favor, tente novamente."
+  },
+  "shopping_error_card_not_supported": {
+    "other": "Seu cartão não é compatível."
+  },
+  "shopping_complete_rental": {
+    "other": "Successo!"
+  },
+  "shopping_complete_rental_period": {
+    "one": "Agora você pode assistir quantas vezes quiser durante o próximo dia.",
+    "other": "Agora você pode assistir quantas vezes quiser durante os próximos {{.Count}} dias."
+  },
+  "shopping_complete_purchase": {
+    "other": "Obrigado por comprar {{.Title}}."
+  },
+  "shopping_complete_credit_purchase": {
+    "other": "Obrigado por comprar {{.Title}}, {{.CreditTotal}} foram adicionados à sua conta."
+  },
+  "shopping_complete_purchase_coming_soon": {
+    "other": "Você poderá assistir a partir de {{.Date}}."
+  },
+  "shopping_complete_receipt": {
+    "other": "Um comprovante foi enviado por e-mail."
+  },
+  "shopping_complete_library_link": {
+    "other": "Ver sua biblioteca"
+  },
+  "shopping_complete_plan": {
+    "other": "Sua compra de {{.Title}} foi bem-sucedida."
+  },
+  "shopping_complete_rental_watch_window_start": {
+    "one": "Você pode começar a assistir durante o próximo dia.",
+    "other": "Você pode começar a assistir durante os próximos{{.Count}} dias."
+  },
+  "shopping_complete_rental_watch_window_end": {
+    "one": "Quando a reprodução iniciar, você terá uma hora para assistir quantas vezes quiser.",
+    "other": "Quando a reprodução iniciar, você terá {{.Count}} horas para assistir quantas vezes quiser."
+  },
+  "shopping_complete_rental_coming_soon": {
+    "one": "Você poderá assistir a partir de {{.Date}} e sua locação continuará ativa por um dia.",
+    "other": "Você poderá assistir a partir de {{.Date}} e sua locação continuará ativa por {{.Count}} dias."
+  },
+  "shopping_complete_rental_coming_soon_watch_window_start": {
+    "one": "Você poderá assistir a partir de {{.Date}} e sua locação continuará ativa por um dia.",
+    "other": "Você poderá assistir a partir de {{.Date}} e sua locação continuará ativa por {{.Count}} dias."
+  },
+  "shopping_action_rent": {
+    "other": "Alugar"
+  },
+  "shopping_action_buy": {
+    "other": "Comprar"
+  },
+  "meta_detail_cast_title": {
+    "other": "Elenco"
+  },
+  "meta_detail_crew_title": {
+    "other": "Equipe"
+  },
+  "meta_detail_languages": {
+    "one": "Idioma",
+    "other": "Idiomas"
+  },
+  "meta_detail_studios": {
+    "one": "Estúdio",
+    "other": "Estúdios"
+  },
+  "meta_detail_countries": {
+    "one": "País",
+    "other": "Países"
+  },
+  "meta_detail_subtitles": {
+    "other": "Legendas"
+  },
+  "meta_detail_captions": {
+    "other": "Legendas [CC]"
+  },
+  "meta_detail_episodes_title": {
+    "other": "Episódios"
+  },
+  "meta_detail_bonus_title": {
+    "other": "Conteúdo Adicional"
+  },
+  "meta_detail_recommendations_title": {
+    "other": "Você também pode gostar de..."
+  },
+  "meta_detail_bundle_items_title": {
+    "other": "Conteúdo incluso nesse pacote"
+  },
+  "bundle_items_all_films": {
+    "other": "{{.Count}} filmes"
+  },
+  "bundle_items_all_seasons": {
+    "other": "{{.Count}} temporada"
+  },
+  "bundle_items_mixed": {
+    "other": "{{.Count}} filmes e temporadas"
+  },
+  "userwishlist_page_header": {
+    "other": "Minha Lista"
+  },
+  "userwishlist_slider_header": {
+    "other": "Minha Lista"
+  },
+  "userwishlist_empty_header": {
+    "other": "Sua lista está vazia."
+  },
+  "userwishlist_empty_content": {
+    "other": "Preencha-a <a href=\"{{.HomeURL}}\">navegando</a> na nossa programação."
+  },
+  "userwishlist_button_add": {
+    "other": "Adicionar à minha lista"
+  },
+  "userwishlist_button_remove": {
+    "other": "Remover da minha lista"
+  },
+  "userwishlist_button_add_compact": {
+    "other": "Minha Lista"
+  },
+  "userwishlist_button_remove_compact": {
+    "other": "Minha Lista"
+  },
+  "activatedevice_page_header": {
+    "other": "Dispositivo Ativado"
+  },
+  "activatedevice_page_content": {
+    "other": "Siga as instruções no seu dispositivo para obter um código PIN. O computador e o dispositivo devem estar conectados à Internet para ativar."
+  },
+  "activatedevice_form_pin": {
+    "other": "PIN Código"
+  },
+  "activatedevice_form_submit": {
+    "other": "Ativar"
+  },
+  "activatedevice_form_error_invalid_code": {
+    "other": "Código PIN não encontrado, tente novamente."
+  },
+  "activatedevice_form_error_pin_not_found": {
+    "other": "Código PIN não encontrado, tente novamente."
+  },
+  "activatedevice_signin_prompt": {
+    "other": "Faça login antes de ativar seu dispositivo."
+  },
+  "activatedevice_page_activated": {
+    "other": "Obrigado por ativar {{.DeviceName}}. Agora você pode navegar na sua biblioteca na televisão ou dispositivo."
+  },
+  "userdevices_page_header": {
+    "other": "Dispositivos"
+  },
+  "userdevices_page_content": {
+    "one": "Dispositivos serão automaticamente adicionados aqui quando você usá-los. Você pode adicionar apenas um dispositivo.",
+    "other": "Dispositivos serão automaticamente adicionados aqui quando você usá-los. Você pode adicionar até {{.Count}} dispositivos."
+  },
+  "userdevices_empty_content": {
+    "other": "Você possui 0 dispositivos registrados."
+  },
+  "userdevices_header_type": {
+    "other": "Tipo de Dispositivo"
+  },
+  "userdevices_header_description": {
+    "other": "Descrição"
+  },
+  "userdevices_device_added": {
+    "other": "Adicionado em {{.Date}}"
+  },
+  "userdevices_device_actions_delete": {
+    "other": "Remover"
+  },
+  "userdevices_device_actions_cancel": {
+    "other": "Cancelar"
+  },
+  "userdevices_device_actions_confirm": {
+    "other": "Sim, remover dispositivo"
+  },
+  "userdevices_device_deleted": {
+    "other": "(Removido)"
+  },
+  "playlist_page_header": {
+    "other": "Lista de reprodução"
+  },
+  "playlist_sign_in_warning": {
+    "other": "Faça login para assistir TV ao vivo."
+  },
+  "playlist_share_title": {
+    "other": "Lista de reprodução"
+  },
+  "playlist_up_next_title": {
+    "other": "Próximo"
+  },
+  "pricing_ownership_buy": {
+    "other": "Comprar"
+  },
+  "pricing_ownership_rent": {
+    "other": "Alugar"
+  },
+  "classification_intro": {
+    "other": "Classificação: "
+  },
+  "classification_divider": {
+    "other": " - "
+  },
+  "classification_outro": {
+    "other": ""
+  },
+  "cookie_banner_message": {
+    "other": "Esse site utiliza cookies para melhorar sua experiência. Ao usar esse site, você aceita nossa <a href=\"{{.CookiePolicyURL}}\">cookie usage</a>."
+  },
+  "cookie_banner_accept": {
+    "other": "Aceitar"
+  },
+  "all_rights_reserved": {
+    "other": "Todos os direitos reservados. Nenhuma parte desse site pode ser reproduzida sem permissão por escrito."
+  },
+  "users_gender_none": {
+    "other": "Não especificado"
+  },
+  "users_gender_female": {
+    "other": "Feminino"
+  },
+  "users_gender_male": {
+    "other": "Masculino"
+  },
+  "users_gender_diverse": {
+    "other": "Diverso"
+  },
+  "users_gender_other": {
+    "other": "Outro"
+  },
+  "pricing_quality_hd": {
+    "other": "HD"
+  },
+  "pricing_quality_sd": {
+    "other": "SD"
+  },
+  "pricing_quality_hd_only": {
+    "other": "HD só"
+  },
+  "pricing_quality_sd_only": {
+    "other": "SD só"
+  },
+  "shopping_card_save_card": {
+    "other": "Salve este cartão para nós no futuroe"
+  },
+  "shopping_card_button_change": {
+    "other": "Mostrar todos os cartões salvos"
+  },
+  "shopping_card_existing_description": {
+    "other": "{{.Card.Brand}} acabando{{.Card.Number}}"
+  },
+  "shopping_card_existing_expiry": {
+    "other": "(expira {{.Card.Expiry}})"
+  },
+  "shopping_card_existing_expired": {
+    "other": "(expirada)"
+  },
+  "shopping_card_use_other": {
+    "other": "Adicionar novo cartão"
+  },
+  "shopping_card_use_new_card": {
+    "other": "Alterar cartão"
+  },
+  "shopping_info_ownership_plan": {
+    "other": "Plano"
+  },
+  "shopping_action_credit": {
+    "other": "Completar"
+  },
+  "shopping_info_rental_period_coming_soon": {
+    "other": "a partir da data e horário do lançamento.."
+  },
+  "usersubscriptions_change_payment_method_change": {
+    "other": "Alterar cartão de crédito"
+  },
+  "usersubscriptions_change_payment_method_modal_title": {
+    "other": "Atualizar detalhes do cartão de crédito"
+  },
+  "usersubscriptions_change_payment_method_modal_submit": {
+    "other": "Atualizar"
+  },
+  "usersubscriptions_subscription_expiry": {
+    "other": "Expira {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_status_trialing": {
+    "other": "Período de teste"
+  },
+  "usersubscriptions_subscription_unsubscribe": {
+    "other": "Cancelar minha assinaturan"
+  },
+  "usersubscriptions_unsubscribe_modal_cancel": {
+    "other": "Não, obrigado"
+  },
+  "usersubscriptions_unsubscribe_modal_confirm": {
+    "other": "Sim, cancelar"
+  },
+  "usersubscriptions_unsubscribe_modal_title": {
+    "other": "Cancelar assinatura?"
+  },
+  "usersubscriptions_unsubscribe_modal_body": {
+    "other": "Isso cancelará a assinatura do {{.Name}}. Você ainda poderá assistir ao conteúdo até que expire {{.Expiry}}."
+  },
+  "shopping_card_update_reason_none": {
+    "other": "Atualize seu cartão de crédito. Os cartões suportados são Visa, Mastercard e American Express"
+  },
+  "availability_coming_soon": {
+    "other": "Em breve"
+  },
+  "availability_renting": {
+    "other": "Alugando"
+  },
+  "availability_not_available": {
+    "other": "Não disponível"
+  },
+  "availability_in_watch_window": {
+    "other": "availability_in_watch_window"
+  },
+  "availability_sold_out": {
+    "other": "Esgotado"
+  },
+  "availability_available_till": {
+    "other": "Disponível até {{.ExpiryDate}}"
+  },
+  "availability_not_available_in_country": {
+    "other": "Não disponível"
+  },
+  "availability_available": {
+    "other": "Disponível em {{.ReleaseDate}}"
+  },
+  "modal_cancel": {
+    "other": "Cancelar"
+  },
+  "play": {
+    "other": "Assistir"
+  },
+  "combined_auth_signin_prompt": {
+    "other": "Entrar"
+  },
+  "combined_auth_signup_prompt": {
+    "other": "Inscrever-se"
+  },
+  "combined_auth_terms": {
+    "other": "Eu aceito todos os <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">termos &amp; condições</a>."
+  },
+  "signup_terms": {
+    "other": "Eu aceito todos os <a href=\"{{.TermsAndConditionsURL}}\" target=\"_blank\">termos &amp; condições</a>."
+  },
+  "validation_terms_required": {
+    "other": "Você deve aceitar os termos e condições."
+  },
+  "shopping_error_item_limit_exceeded": {
+    "other": "Infelizmente, {{.Title}} já está esgotado."
+  },
+  "shopping_card_change": {
+    "other": "Cartão de crédito incorreto? <a href=\"{{.SubscriptionsURL}}\">Clique aqui para atualizar seu cartão.</a>"
+  },
+  "user_error_too_many_pin_errors": {
+    "other": "<p>Parece que você está com problemas.</p><p>Redefina seu PIN ou entre em contato conosco para <a href=\"{{.HelpURL}}\" target=\"_blank\">ajuda</a>"
+  },
+  "app_badge_title": {
+    "other": "Baixe o aplicativo para visualizar o conteúdo adquirido!"
+  },
+  "app_badge_ios": {
+    "other": "Baixar na loja de aplicativos"
+  },
+  "app_badge_android": {
+    "other": "Obtê-lo no Google Play"
+  },
+  "shopping_price_title_plan": {
+    "other": "Preço"
+  },
+  "shopping_price_plan_note": {
+    "one": "Cobrado a cada {{.Interval}} após o término da avaliação gratuita de 24 horas.",
+    "other": "Cobrado a cada {{.Interval}} após o término da avaliação gratuita de {{.Count}} dias."
+  },
+  "shopping_price_plan_note_without_trial": {
+    "other": "Cobrado a cada {{.Interval}}."
+  },
+  "shopping_price_plan_note_interval": {
+    "one": "{{.Interval}}",
+    "other": "{{.Count}} {{.Interval}}"
+  },
+  "shopping_enter_card_prompt_subscription": {
+    "other": "Insira os dados do seu cartão de crédito abaixo para iniciar a sua assinatura."
+  },
+  "shopping_enter_card_prompt_plan": {
+    "other": "Insira os dados do seu cartão de crédito abaixo para iniciar seu plano."
+  },
+  "shopping_action_plan": {
+    "other": "Completo"
+  },
+  "shopping_complete_subscription": {
+    "other": "Sua compra de assinatura foi bem-sucedida. Agora você está inscrito em {{.Title}}."
+  },
+  "shopping_complete_subscription_browse": {
+    "other": "Fique à vontade para <a href=\"/\">navegar pelo</a> site ou <a href=\"/search.html\">pesquisar</a> algo específico."
+  },
+  "shopping_info_plan_offer": {
+    "one": "Renova automaticamente a cada {{.Interval}}",
+    "other": "Renova automaticamente cada {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period_offer": {
+    "one": "Experimente agora o seu teste gratuito de 24 horas!",
+    "other": "Experimente o seu teste gratuito de {{.Count}} dia!"
+  },
+  "plans_page_header": {
+    "other": "Planos Disponíveis"
+  },
+  "plan_label_owned": {
+    "other": "Você possui este plano"
+  },
+  "plan_expiry_date": {
+    "other": "Fechamento de vendas:"
+  },
+  "plan_read_more": {
+    "other": "Descubra mais"
+  },
+  "plan_page_read_more": {
+    "other": "Consulte Mais informação"
+  },
+  "plan_page_header_text": {
+    "other": "Aproveite {{.Name}}"
+  },
+  "page_plan_explore_intro": {
+    "other": "OU"
+  },
+  "page_plan_explore_link": {
+    "other": "Explore mais"
+  },
+  "plan_showcase_page_ownership_button_buy": {
+    "other": "Compre Agora"
+  },
+  "plan_free_link_text": {
+    "other": "Cadastre-se gratuitamente"
+  },
+  "awards_in_competition": {
+    "other": "Em competição"
+  },
+  "awards_winner": {
+    "other": "Vencedora"
+  },
+  "donate_button_text": {
+    "other": "Doar"
+  },
+  "wcag_skip_links_header": {
+    "other": "Links de acessibilidade"
+  },
+  "wcag_skip_links_content": {
+    "other": "Ir para o conteúdo"
+  },
+  "wcag_homepage_h1": {
+    "other": "Pagina inicial"
+  },
+  "wcag_carousel_h2": {
+    "other": "Carrossel"
+  },
+  "wcag_collections_h2": {
+    "other": "Coleções"
+  },
+  "wcag_aria_label_footer": {
+    "other": "Rodapé"
+  },
+  "wcag_aria_label_nav_main": {
+    "other": "Principal"
+  },
+  "wcag_aria_label_nav_sub": {
+    "other": "Sub"
+  },
+  "wcag_aria_label_toggle_nav": {
+    "other": "Alternar de navegação"
+  },
+  "wcag_aria_label_bundle_items": {
+    "other": "Itens do pacote"
+  },
+  "wcag_aria_label_carousel": {
+    "other": "Carrossel"
+  },
+  "wcag_aria_label_carousel_pagination": {
+    "other": "Paginação"
+  },
+  "wcag_aria_label_page_collection": {
+    "other": "Página Coleções"
+  },
+  "wcag_aria_label_collection_list": {
+    "other": "Coleções Lista"
+  },
+  "wcag_aria_label_collection_slider": {
+    "other": "Coleções Controle deslizante"
+  },
+  "wcag_aria_label_wishlist": {
+    "other": "Lista de Desejos"
+  },
+  "wcag_aria_label_facebook": {
+    "other": "Compartilhar no Facebook"
+  },
+  "wcag_aria_label_twitter": {
+    "other": "Compartilhar no Twitter"
+  },
+  "wcag_aria_label_linkedin": {
+    "other": "Compartilhar no LinkedIn"
+  },
+  "wcag_aria_label_letterboxd": {
+    "other": "Visualizar no Letterboxd"
+  },
+  "shopping_error_plan_already_owned": {
+    "other": "Você já tem este plano."
+  },
+  "shopping_error_plan_expired": {
+    "other": "Este plano não está mais disponível."
+  },
+  "shopping_payment_method_header": {
+    "other": "Métodos de Pagamento"
+  },
+  "shopping_payment_method_credit_card": {
+    "other": "Cartão de crédito"
+  },
+  "shopping_payment_method_giropay": {
+    "other": "Giropay"
+  },
+  "shopping_error_stripe_unknown_error": {
+    "other": "Salgo deu errado com este pagamento. Por favor, tente novamente mais tarde."
+  },
+  "shopping_error_payment_complete_failed": {
+    "other": "O pagamento foi recusado. Feche esta janela e tente novamente."
+  },
+  "header_banner": {
+    "other": "ABC Cinemas – 21st  Film Festival, June 1 – 6, 2021"
+  },
+  "account_form_pin_code": {
+    "other": "PIN"
+  },
+  "account_form_pin_code_not_set": {
+    "other": "Você não tem um PIN definido, que é necessário para comprar, alugar e assistir a alguns títulos."
+  },
+  "account_form_set_pin": {
+    "other": "Definir PIN"
+  },
+  "account_form_pin_changed": {
+    "other": "Atualizada"
+  },
+  "account_form_change_pin": {
+    "other": "Mudar PIN"
+  },
+  "user_set_pin_header": {
+    "other": "Defina seu PIN"
+  },
+  "user_set_pin_button": {
+    "other": "Defina PIN"
+  },
+  "user_submit_pin_heading": {
+    "other": "Digite seu PIN para {{.Action}} este conteúdo restrito"
+  },
+  "user_error_wrong_pin_retry": {
+    "other": "Ops, você digitou um PIN incorreto"
+  },
+  "user_submit_pin_button": {
+    "other": "Entrar"
+  },
+  "user_reset_pin_button": {
+    "other": "Redefinir PIN"
+  },
+  "validation_pincode1_required": {
+    "other": "Insira um código PIN válido."
+  },
+  "validation_pincode2_required": {
+    "other": "Insira um código PIN válido."
+  },
+  "validation_pincode1_pattern": {
+    "other": "Insira um código PIN válido."
+  },
+  "validation_pincode2_pattern": {
+    "other": "Insira um código PIN válido."
+  },
+  "validation_pincode2_match": {
+    "other": "O código PIN não corresponde."
+  },
+  "userdevices_delete_limits": {
+    "other": "Você pode remover {{.Limit}} dispositivo(s) desta lista a cada {{.Period}} dia(s)."
+  },
+  "userdevices_delete_limit_reached": {
+    "other": "Você atingiu esse limite e não pode remover nenhum dispositivo agora. Você pode excluir um dispositivo em {{.Days}} dia(s)."
+  },
+  "shopping_card_new_subscription": {
+    "other": "Este cartão será salvo e cobrado regularmente"
+  },
+  "changepincode_modal_header": {
+    "other": "Alterar seu PIN"
+  },
+  "changepincode_modal_currentpassword": {
+    "other": "Sua senha atual"
+  },
+  "changepincode_modal_pincode1": {
+    "other": "Seus novos 4 dígitos"
+  },
+  "changepincode_modal_pincode2": {
+    "other": "Confirme seus novos 4 dígitos PIN"
+  },
+  "changepincode_modal_submit": {
+    "other": "Definir PIN"
+  },
+  "changepincode_modal_error_wrong_password": {
+    "other": "Essa senha está incorreta."
+  },
+  "user_set_pin_intro": {
+    "other": "Você precisa de um PIN para {{.Action}} conteúdo restrito"
+  },
+  "user_error_wrong_pin_reset": {
+    "other": "Clique aqui para redefinir seu PIN"
+  },
+  "user_error_too_many_pin_errors_help_page_link": {
+    "other": ""
+  },
+  "shopping_error_age_restricted": {
+    "other": "Este conteúdo tem restrição de idade."
+  },
+  "shopping_error_close_button": {
+    "other": "OK"
+  },
+  "availability_expires": {
+    "other": "Expira {{.Expiry}}"
+  },
+  "availability_expired": {
+    "other": "Expirada"
+  },
+  "signin_form_error_ip_throttled": {
+    "other": "Você falhou ao fazer login muitas vezes. Por favor, tente novamente mais tarde."
+  },
+  "signin_form_error_account_suspended": {
+    "other": "Sua conta foi temporariamente suspensa. Entre em contato com um administrador se você acredita que isso é um erro."
+  },
+  "meta_description_expand": {
+    "other": "Ver mais"
+  },
+  "meta_description_collapse": {
+    "other": "Ver menos"
+  },
+  "usersubscriptions_page_header": {
+    "other": "Assinaturas e cobrança"
+  },
+  "usersubscriptions_page_content": {
+    "other": " "
+  },
+  "usersubscriptions_payment_section_title": {
+    "other": "Forma de pagamento"
+  },
+  "usersubscriptions_payment_section_content": {
+    "other": "As alterações na forma de pagamento com cartão de crédito entrarão em vigor no próximo ciclo de cobrança."
+  },
+  "usersubscriptions_subscriptions_section_title": {
+    "other": "Detalhes da assinatura"
+  },
+  "usersubscriptions_subscriptions_section_content": {
+    "other": " "
+  },
+  "usersubscriptions_subscription_status_active": {
+    "other": "Ativo"
+  },
+  "usersubscriptions_subscription_expired": {
+    "other": "Expirado"
+  },
+  "usersubscriptions_no_subscriptions_section_title": {
+    "other": "Descubra assinaturas"
+  },
+  "usersubscriptions_no_subscriptions_content": {
+    "other": "Descubra ótimos conteúdos a ótimos preços, facilmente gerenciados aqui."
+  },
+  "usersubscriptions_no_subscriptions_button_title": {
+    "other": "Explorar assinaturas"
+  },
+  "nav_subscriptions": {
+    "other": "Minhas assinaturas"
+  },
+  "usersubscriptions_subscription_expiry_trialing": {
+    "other": "Primeiro pagamento {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_active": {
+    "other": "Próximo pagamento {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_past_due": {
+    "other": "Pagamento devido. {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_cancelled": {
+    "other": "Termina {{.Expiry}}"
+  },
+  "usersubscriptions_subscription_expiry_expired": {
+    "other": "Terminado {{.Expiry}}"
+  },
+  "sponsor_image_alt": {
+    "other": "logotipo do patrocinador"
+  },
+  "subscribe_to_watch": {
+    "other": "Inscreva-se para assistir"
+  },
+  "bundle_items_generic": {
+    "other": "{{.Count}} Itens"
+  },
+  "shopping_card_update_reason_expired": {
+    "other": "Atualize seu cartão de crédito. Os cartões suportados são Visa, Mastercard e American Express."
+  },
+  "shopping_discount_applied_promo": {
+    "other": "Código aplicado com sucesso."
+  },
+  "promo_only_purchases_must_be_100_percent_discounted": {
+    "other": "Insira um código promocional válido."
+  },
+  "shopping_complete_promo_only": {
+    "other": "Agora você pode assistir {{.Title}}."
+  },
+  "shopping_action_redeem_promo_code": {
+    "other": "Resgatar"
+  },
+  "pricing_ownership_promo": {
+    "other": "Resgatar"
+  },
+  "subscription_cta_label": {
+    "other": "Se inscrever {{.Price}}/{{.Recurrence}}"
+  },
+  "subscription_recurrence_year": {
+    "one": "Ano",
+    "many": "{{.Count}} Anos",
+    "other": "{{.Count}} Anos"
+  },
+  "subscription_recurrence_month": {
+    "one": "Mês",
+    "many": "{{.Count}} Meses",
+    "other": "{{.Count}} Meses"
+  },
+  "subscription_recurrence_week": {
+    "one": "Semana",
+    "many": "{{.Count}} Semanas",
+    "other": "{{.Count}} Semanas"
+  },
+  "subscription_recurrence_day": {
+    "one": "Dia",
+    "many": "{{.Count}} Dias",
+    "other": "{{.Count}} Dias"
+  },
+  "shopping_info_ownership_subscription": {
+    "other": "Inscrição"
+  },
+  "something_bad_happened": {
+    "other": "Por favor, tente novamente"
+  },
+  "stripe_card_not_supported": {
+    "other": "Seu cartão não é compatível."
+  },
+  "nav_search_control_placeholder": {
+    "other": "Buscar"
+  },
+  "nav_search_control_sr_submit": {
+    "other": "Buscar"
+  },
+  "shopping_info_plan_interval": {
+    "one": "Renova automaticamente a cada {{.Interval}}",
+    "other": "Renova automaticamente cada {{.Count}} {{.Interval}}"
+  },
+  "shopping_info_trial_period": {
+    "one": "Experimente agora o seu teste gratuito de 24 horas!",
+    "other": "Experimente o seu teste gratuito de {{.Count}} dia!"
+  },
+  "usersubscriptions_page_header_seo": {
+    "other": "Assinaturas e cobrança"
+  },
+  "usersubscriptions_subscription_status_past_due": {
+    "other": "Vencido"
+  },
+  "usersubscriptions_subscription_status_unpaid": {
+    "other": "Não pago"
+  },
+  "usersubscriptions_subscription_status_cancelled": {
+    "other": "Cancelado"
+  },
+  "usersubscriptions_subscription_status_cancelling": {
+    "other": "Cancelando"
+  },
+  "interval_day": {
+    "one": "dia",
+    "other": "dias"
+  },
+  "interval_week": {
+    "one": "semana",
+    "other": "semanas"
+  },
+  "interval_month": {
+    "one": "mês",
+    "other": "meses"
+  },
+  "interval_year": {
+    "one": "ano",
+    "other": "anos"
+  },
+  "shopping_error_processing_error": {
+    "other": "Ocorreu um erro ao processar seu cartão. Tente novamente mais tarde ou com outra forma de pagamento."
+  },
+  "shopping_error_invalid_session_token": {
+    "other": "A sessão de compras expirou. Tente novamente."
+  },
+  "live_stream_starts": {
+    "other": "A transmissão começa {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Transmissão agora"
+  },
+  "live_streaming_ended": {
+    "other": "Stream encerrado"
+  },
+  "availability_live": {
+    "other": "VIVER"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Obter bilhete"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Você não pode usar um código promocional para esta compra ou aluguel"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Esse código promocional ainda não é válido"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Os códigos promocionais não podem ser aplicados a sessões de compras gratuitas"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Os códigos promocionais não podem ser aplicados depois que a compra for concluída"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Não foi possível aplicar o código promocional. Tente novamente"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Código promocional inválido"
+  },
+  "shopping_error_missing_code": {
+    "other": "Nenhum código promocional foi fornecido"
+  },
+  "live_label_ended": {
+    "other": "AO VIVO: TERMINADO"
+  },
+  "live_label_live": {
+    "other": "VIVER"
+  },
+  "live_label_minutes": {
+    "one": "AO VIVO: 1 MINUTO",
+    "other": "AO VIVO: {{.Count}} MINUTOS"
+  },
+  "live_label_hours": {
+    "one": "AO VIVO: 1 HORA",
+    "other": "AO VIVO: {{.Count}} HORAS"
+  },
+  "live_label_days": {
+    "one": "AO VIVO: 1 DIA",
+    "other": "AO VIVO: {{.Count}} DIAS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Transmissão ao vivo"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Este é um evento ao vivo. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Você pode comprar um ingresso agora, mas precisará assistir enquanto a transmissão estiver ao vivo."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Você precisará assistir enquanto a transmissão estiver ao vivo."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Este evento está atualmente ao vivo. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "O fluxo termina {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Você não poderá assistir à transmissão depois disso."
+  },
+  "shopping_action_ticket": {
+    "other": "Obter bilhete"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "O fluxo começa {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Começou em {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Você não pode rebobinar."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "A data de validade do seu cartão está no passado."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "O ano de validade do seu cartão está no passado."
+  }
+}
