@@ -9,7 +9,8 @@
 - Translations for credit card expiry validation.
 
 ### Fixed
-- Inline cta buttons now grow when text is wider than button width
+- Inline cta buttons now grow when text is wider than button width.
+- TV season detail page layout now matches film detail page layout.
 
 ### Fixed
 - Gap below page-collections consistent with sliders
