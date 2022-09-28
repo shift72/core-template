@@ -1505,5 +1505,8 @@
   },
   "shopping_error_stripe_invalid_expiry_year_past": {
     "other": "Teie kaardi aegumisaasta on möödas."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Teie kaardi number on kehtetu."
   }
 }

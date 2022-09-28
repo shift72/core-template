@@ -1569,5 +1569,8 @@
   },
   "shopping_error_stripe_invalid_expiry_year_past": {
     "other": "انقضت سنة انتهاء صلاحية بطاقتك."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "رقم بطاقتك غير صالح."
   }
 }

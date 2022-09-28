@@ -1505,5 +1505,8 @@
   },
   "shopping_error_stripe_invalid_expiry_year_past": {
     "other": "A kártya lejárati éve már a múltban van."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "A kártyaszám érvénytelen."
   }
 }
