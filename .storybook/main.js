@@ -10,5 +10,5 @@ module.exports = {
     "storybook-addon-mock/register"
   ],
   "framework": "@storybook/html",
-  "staticDirs": ['../.kibble/build'],
+  "staticDirs": ['../.kibble/build']
 }

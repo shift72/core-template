@@ -29,7 +29,7 @@
     "prepare": "npm run version",
     "translate": "node scripts/translate.mjs",
     "storybook": "export NODE_OPTIONS=--openssl-legacy-provider; start-storybook -p 6006 --no-manager-cache",
-    "build-storybook": "export NODE_OPTIONS=--openssl-legacy-provider; build-storybook"
+    "build-storybook": "export NODE_OPTIONS=--openssl-legacy-provider; build-storybook -o .storybook/static"
   },
   "repository": {
     "type": "git",
