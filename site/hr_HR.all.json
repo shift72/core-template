@@ -1507,5 +1507,8 @@
   },
   "shopping_error_stripe_invalid_expiry_year_past": {
     "other": "Godina isteka vaše kartice je u prošlosti."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Broj vaše kartice je nevažeći."
   }
 }

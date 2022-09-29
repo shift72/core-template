@@ -1582,5 +1582,8 @@
   },
   "shopping_error_stripe_invalid_expiry_year_past": {
     "other": "Rok ważności Twojej karty już minął."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Numer Twojej karty jest nieprawidłowy."
   }
 }

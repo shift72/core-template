@@ -1505,5 +1505,8 @@
   },
   "shopping_error_stripe_invalid_expiry_year_past": {
     "other": "Het vervaljaar van uw kaart is in het verleden."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Uw kaartnummer is ongeldig."
   }
 }

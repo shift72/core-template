@@ -6,7 +6,7 @@
 - AB#9564 Live label to film detail page and carousel with translations.
 - AB#9361 Translations for live events, poster live availability status styling changes
 - Translations for live event purchase flow.
-- Translations for credit card expiry validation.
+- Translations for credit card validation errors.
 
 ### Fixed
 - Inline cta buttons now grow when text is wider than button width
