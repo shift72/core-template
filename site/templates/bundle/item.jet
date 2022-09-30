@@ -31,9 +31,8 @@
 
           {{yield bundleSynopsis(class="meta-detail-synopsis", synopsis=bundle.Description)}}
         </div>
-
-        {{yield bundleList(items=bundle.Items)}}
       </div>
     </div>
+    {{yield bundleList(items=bundle.Items)}}
   </main>
 {{end}}
