@@ -1495,7 +1495,7 @@
     "other": "Stream starts {{.Date}}. "
   },
   "shopping_info_release_date_explanation4_live_event_rent": {
-    "other": "It started at {{.Date}}. "
+    "other": "It started {{.Date}}."
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "You cannot rewind it."
