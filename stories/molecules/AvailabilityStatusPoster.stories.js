@@ -1,15 +1,14 @@
 import { createAvailabilityStatusPoster } from './AvailabilityStatusPoster';
 import withMock from 'storybook-addon-mock';
-import { customDocs } from './functions/customDocs'
-import { itemLimitReached, itemLimitNotReached, noItemLimits } from './mocks/shopping/v1/item_limit';
-import { noPlaybackProgress, playbackProgressExists } from './mocks/content/v1/playback_progress';
-import { noUserPlans } from './mocks/content/v1/user_plans';
-import { emptyWishlist } from './mocks/users/v1/wishlist';
-import { singleFilmRentableInYourRegion, noPricesInYourRegion, singleFilmBelongsToMultipleRecurringPlans } from './mocks/pricing/v2/prices/show_multiple';
-import { currentlyRenting, startedWatchWindow, emptyLibrary, expiredWatchWindow } from "./mocks/content/v4/user_library";
-import { assortedPlans, noPlans } from './mocks/pricing/v1/plans';
-import { availableNowUntil48Hours, availableIn48Hours, availableIn24Hours, availableIn3Hours, availableIn1Hour, availableIn8Days, availableNowUntilIndefinate, expired48HoursAgo, noAvailabilitySet } from './mocks/content/v1/availabilities';
-import { DocsPage, DocsContainer } from '@storybook/addon-docs';
+import { customDocs } from './../functions/customDocs'
+import { itemLimitReached, itemLimitNotReached, noItemLimits } from './../mocks/shopping/v1/item_limit';
+import { noPlaybackProgress, playbackProgressExists } from './../mocks/content/v1/playback_progress';
+import { noUserPlans } from './../mocks/content/v1/user_plans';
+import { emptyWishlist } from './../mocks/users/v1/wishlist';
+import { singleFilmRentableInYourRegion, noPricesInYourRegion, singleFilmBelongsToMultipleRecurringPlans } from './../mocks/pricing/v2/prices/show_multiple';
+import { currentlyRenting, startedWatchWindow, emptyLibrary, expiredWatchWindow } from "./../mocks/content/v4/user_library";
+import { assortedPlans, noPlans } from './../mocks/pricing/v1/plans';
+import { availableNowUntil48Hours, availableIn48Hours, availableIn24Hours, availableIn3Hours, availableIn1Hour, availableIn8Days, availableNowUntilIndefinate, expired48HoursAgo, noAvailabilitySet } from './../mocks/content/v1/availabilities';
 
 export default {
   title: 'Molecules/AvailabilityStatusPoster',
@@ -25,11 +24,30 @@ export default {
   decorators: [withMock],
 };
 
-const Template = ({ label, ...args }) => {
-  return createAvailabilityStatusPoster({ label, ...args });
+const Template = (args, {loaded: { Component }}) => {
+    const parser = new DOMParser();
+    const htmlDoc = parser.parseFromString(Component, "text/html");
+    var div = document.createElement('div');
+    div.innerHTML = htmlDoc.querySelector('.page-collection-slider').outerHTML
+    div.makeOnlyOneOf('.swiper-slide');
+    div.querySelector('.swiper-title').remove();
+    document.addEventListener('s72loaded', function (event) {
+      div.querySelector('.page-collection').classList = "";
+      div.querySelector('.collection-wrapper-container').classList = "";
+      div.querySelector('.swiper-wrapper').classList = "";
+      div.querySelector('.collection-container').classList = "";
+    }, { once: true });
+    return div;
 };
 
-export const SoldOut = Template.bind({});
+export const SoldOut =  Template.bind({});
+
+
+SoldOut.loaders = [async () => {
+  return ({ Component: (await new Promise(async resolve => await fetch('index.html').then(res=>{
+      return resolve(res.text())
+   })))})
+}];
 SoldOut.args = {
   poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
 };
@@ -81,13 +99,13 @@ SubscribeToWatch.parameters = {
       page: customDocs(`
         <h3 class="mb-2">Key conditions that trigger 'Subscribe to watch':</h3>
         <h4>APIs:</h4>
-        <code>/services/pricing/v2/prices/show_multiple?items=/film/123</code>
+        <code>/services/pricing/v2/prices/show_multiple?items=/film/3138</code>
         <pre>
           <code>
           {
             "prices": [],
             "plans":[
-              {"item":"/film/123","plans":["/plan/56","/plan/79"]},
+              {"item":"/film/3138","plans":["/plan/56","/plan/79"]},
             ]
           }
           </code>
@@ -143,7 +161,7 @@ Renting.parameters = {
       <pre>
         <code>
           [{
-            "item": "/film/123",
+            "item": "/film/3138",
             "info": {
               ...
               "expiry": "2040-04-17T07:00:00.000Z", //future date
@@ -175,11 +193,11 @@ AvailableUntil.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Available Until' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <code>/services/content/v1/availabilities?items=/film/3138</code>
       <pre>
         <code>
           [{
-            "slug": "/film/123",
+            "slug": "/film/3138",
             "to": "2022-09-15T22:53:01.374Z", // some future date
             ...
           }]
@@ -208,11 +226,11 @@ ComingSoonMoreThan1Week.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available {{day month year}}' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <code>/services/content/v1/availabilities?items=/film/3138</code>
       <pre>
         <code>
         [{
-          "slug": "/film/123",
+          "slug": "/film/3138",
           "from": "${new Date().addHours(24 * 8).toISOString()}", //now plus 8 days, or anytime over one week
         }]
         </code>
@@ -241,11 +259,11 @@ ComingSoonWithinWeek.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available {{weekday}} {{time}}' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <code>/services/content/v1/availabilities?items=/film/3138</code>
       <pre>
         <code>
         [{
-          "slug": "/film/123",
+          "slug": "/film/3138",
           "from": "${new Date().addHours(48).toISOString()}", //now plus 48 hours, or anytime within one week
         }]
         </code>
@@ -273,11 +291,11 @@ ComingSoon24Hours.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available tomorrow {{time}}' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <code>/services/content/v1/availabilities?items=/film/3138</code>
       <pre>
         <code>
         [{
-          "slug": "/film/123",
+          "slug": "/film/3138",
           "from": "${new Date().addHours(24).toISOString()}", //now plus 24 hours
         }]
         </code>
@@ -305,11 +323,11 @@ ComingSoon3Hours.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available today {{time}}' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <code>/services/content/v1/availabilities?items=/film/3138</code>
       <pre>
         <code>
         [{
-          "slug": "/film/123",
+          "slug": "/film/3138",
           "from": "${new Date().addHours(3).toISOString()}", //now plus 3 hours
         }]
         </code>
@@ -339,11 +357,11 @@ ComingSoon1Hour.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available today {{time}}' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <code>/services/content/v1/availabilities?items=/film/3138</code>
       <pre>
         <code>
         [{
-          "slug": "/film/123",
+          "slug": "/film/3138",
           "from": "${new Date().addHours(1).toISOString()}", //now plus 1 hours
         }]
         </code>
@@ -386,11 +404,11 @@ Expired.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Expired' labels:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <code>/services/content/v1/availabilities?items=/film/3138</code>
       <pre>
         <code>
         [{
-          "slug": "/film/123",
+          "slug": "/film/3138",
           "from": "${new Date().addHours(-13).toISOString()}", // 13 hours ago
         }]
         </code>
@@ -419,7 +437,7 @@ NotAvailable.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Not Available in your country' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/pricing/v2/prices/show_multiple?items=/film/123</code>
+      <code>/services/pricing/v2/prices/show_multiple?items=/film/3138</code>
       <pre>
         <code>
         {
@@ -457,15 +475,15 @@ InWatchWindow.parameters = {
         <code>
         {
           "play_position": 50,
-          "item": "/film/123",
+          "item": "/film/3138",
         }
         </code>
       </pre>
-      <code>/services/content/v1/availabilities?items=/film/123</code>
+      <code>/services/content/v1/availabilities?items=/film/3138</code>
       <pre>
         <code>
         [{
-          "slug": "/film/123",
+          "slug": "/film/3138",
           "from": "${new Date().addHours(72).toISOString()}", // 72 hour watch window just started
         }]
         </code>

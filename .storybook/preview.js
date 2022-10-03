@@ -8,6 +8,11 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  options: {
+    storySort: {
+      order: ['Readme', 'Atoms', 'Molecules', 'Organisms', 'Pages'],
+    },
+  },
 }
 
 Object.prototype.makeOnlyOneOf = function(selector){

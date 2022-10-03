@@ -4,7 +4,7 @@ export const itemLimitNotReached = {
     status: 200,
     response: [
         {
-          "slug": "/film/123",
+          "slug": "/film/3138",
           "max_rent": null,
           "max_buy": null,
           "max_total": 500,
@@ -26,7 +26,7 @@ export const itemLimitReached = {
     status: 200,
     response: [
       {
-        "slug": "/film/123",
+        "slug": "/film/3138",
         "can_rent": false,
         "can_buy": false,
         "level_rent": 0,

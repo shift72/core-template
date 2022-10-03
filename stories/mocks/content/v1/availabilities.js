@@ -1,9 +1,9 @@
 export const availableNowUntilIndefinate = {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/3138`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/123",
+        "slug": "/film/3138",
         "from": `${new Date().toISOString()}`,
         "ms_from": 0,
         "to": null,
@@ -15,21 +15,21 @@ export const availableNowUntilIndefinate = {
 }
 
 export const availableIn48Hours = {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/3138`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/123",
+        "slug": "/film/3138",
         "from": `${new Date().addHours(48).toISOString()}`,
     }]
 }
 
 export const availableIn24Hours = {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/3138`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/123",
+        "slug": "/film/3138",
         "from": `${new Date().addHours(24).toISOString()}`,
         "ms_from": 0,
         "to": null,
@@ -41,11 +41,11 @@ export const availableIn24Hours = {
 }
 
 export const availableIn3Hours = {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/3138`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/123",
+        "slug": "/film/3138",
         "from": `${new Date().addHours(3).toISOString()}`,
         "ms_from": 0,
         "to": null,
@@ -58,11 +58,11 @@ export const availableIn3Hours = {
 
 
 export const availableIn1Hour = {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/3138`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/123",
+        "slug": "/film/3138",
         "from": `${new Date().addHours(1).toISOString()}`,
         "ms_from": 0,
         "to": null,
@@ -73,11 +73,11 @@ export const availableIn1Hour = {
     }]
 }
 export const availableIn8Days = {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/3138`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/123",
+        "slug": "/film/3138",
         "from": `${new Date().addHours(24 * 8).toISOString()}`,
         "ms_from": 0,
         "to": null,
@@ -89,11 +89,11 @@ export const availableIn8Days = {
 }
 
 export const availableNowUntil48Hours = {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/3138`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/123",
+        "slug": "/film/3138",
         "from": `${new Date().toISOString()}`,
         "ms_from": 0,
         "to": `${new Date().addHours(48).toISOString()}`,
@@ -121,11 +121,11 @@ export const availableNowUntil48Hours = {
 }
 
 export const expired48HoursAgo = {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/3138`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/123",
+        "slug": "/film/3138",
         "from": `${new Date(-96).toISOString()}`,
         "ms_from": 0,
         "to": `${new Date().addHours(-48).toISOString()}`,
@@ -137,11 +137,11 @@ export const expired48HoursAgo = {
 }
 
 export const noAvailabilitySet =   {
-    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/123`,
+    url: `${window.location.origin}/services/content/v1/availabilities?items=/film/3138`,
     method: 'GET',
     status: 200,
     response: [{
-        "slug": "/film/123",
+        "slug": "/film/3138",
         "from": null,
         "ms_from": null,
         "to": null,
