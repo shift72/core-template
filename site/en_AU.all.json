@@ -1495,9 +1495,18 @@
     "other": "Stream starts {{.Date}}. "
   },
   "shopping_info_release_date_explanation4_live_event_rent": {
-    "other": "It started at {{.Date}}. "
+    "other": "It started {{.Date}}. "
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "You cannot rewind it."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Your card's expiration date is in the past."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Your card's expiration year is in the past."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Your card number is invalid."
   }
 }

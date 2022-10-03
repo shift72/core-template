@@ -1486,5 +1486,14 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "巻き戻しはできません。"
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "カードの有効期限が過ぎています。"
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "カードの有効期限が過ぎています。"
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "カード番号が無効です。"
   }
 }

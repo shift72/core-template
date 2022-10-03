@@ -6,11 +6,14 @@
 - AB#9564 Live label to film detail page and carousel with translations.
 - AB#9361 Translations for live events, poster live availability status styling changes
 - Translations for live event purchase flow.
+- Translations for credit card validation errors.
 
 ### Fixed
 - Inline cta buttons now grow when text is wider than button width
+- TV season detail page layout now matches film detail page layout.
 - Gap below page-collections consistent with sliders
 - Made item-collections similar in structure and style to sliders, renamed accordingly
+- Bundle page style regression
 
 ### Changed
 - Increased nav height to make gradient larger.

@@ -1499,5 +1499,14 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "Sie können es nicht zurückspulen."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Das Ablaufdatum Ihrer Karte liegt in der Vergangenheit."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Das Ablaufjahr Ihrer Karte liegt in der Vergangenheit."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Ihre Kartennummer ist ungültig."
   }
 }

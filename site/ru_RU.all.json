@@ -1553,5 +1553,14 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "Вы не можете перемотать его назад."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Срок действия вашей карты истек."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Срок действия вашей карты истек."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Номер вашей карты недействителен."
   }
 }

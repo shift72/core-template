@@ -1503,5 +1503,14 @@
   },
   "shopping_info_release_date_explanation5_live_event_rent": {
     "other": "Vous ne pouvez pas le rembobiner."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "La date d'expiration de votre carte est dans le passé."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "L'année d'expiration de votre carte est dans le passé."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Votre numéro de carte est invalide."
   }
 }
