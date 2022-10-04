@@ -6,14 +6,18 @@
 - AB#9564 Live label to film detail page and carousel with translations.
 - AB#9361 Translations for live events, poster live availability status styling changes
 - Translations for live event purchase flow.
-- Translations for credit card expiry validation.
+- Translations for credit card validation errors.
 
 ### Fixed
-- Inline cta buttons now grow when text is wider than button width
+- Inline cta buttons now grow when text is wider than button width.
+- TV season detail page layout now matches film detail page layout.
 
 ### Fixed
 - Gap below page-collections consistent with sliders
 - Made item-collections similar in structure and style to sliders, renamed accordingly
+
+### Fixed
+- Bundle page style regression
 
 ## [1.5.1](https://github.com/shift72/core-template/compare/1.5.0...1.5.1)
 

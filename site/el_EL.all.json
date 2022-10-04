@@ -1505,5 +1505,8 @@
   },
   "shopping_error_stripe_invalid_expiry_year_past": {
     "other": "Το έτος λήξης της κάρτας σας είναι παρελθόν."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Ο αριθμός της κάρτας σας δεν είναι έγκυρος."
   }
 }

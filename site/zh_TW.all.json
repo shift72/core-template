@@ -1492,5 +1492,8 @@
   },
   "shopping_error_stripe_invalid_expiry_year_past": {
     "other": "您的卡的到期年份已過去。"
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "您的卡號無效。"
   }
 }
