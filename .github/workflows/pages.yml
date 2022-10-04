@@ -28,13 +28,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: npm install, build-storybook
-        working-directory: ./
-        run: |
-          npm ci
-          npm run build-storybook --if-present
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+      - run: npm ci
+      - run: run build-storybook --if-present
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
