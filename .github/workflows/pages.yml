@@ -29,9 +29,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: npm install, build-storybook
-        working-directory: ./../
+        working-directory: ./
         run: |
-          npm install
+          npm ci
           npm run build-storybook --if-present
       - name: Checkout
         uses: actions/checkout@v3
