@@ -28,8 +28,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - run: npm install
-      - run: npm run build-storybook
+      - name: npm install, build-storybook
+        working-directory: ./
+        run: |
+          npm install
+          npm run build-storybook --if-present
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
