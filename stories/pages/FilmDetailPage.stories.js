@@ -1,9 +1,9 @@
 import withMock from 'storybook-addon-mock';
-import { itemLimitReached} from '../mocks/shopping/v1/item_limit';
+import { itemLimitNotReached } from '../mocks/shopping/v1/item_limit';
 import { noUserPlans } from '../mocks/content/v1/user_plans';
 import { emptyWishlist } from '../mocks/users/v1/wishlist';
-import { singleFilmRentableInYourRegion} from '../mocks/pricing/v2/prices/show_multiple';
-import { emptyLibrary } from "../mocks/content/v4/user_library";
+import { singleFilmRentableInYourRegion, singleFilmBuyableInYourRegion, noPricesInYourRegion, singleFilmBuyableAndRentableInYourRegion} from '../mocks/pricing/v2/prices/show_multiple';
+import { currentlyRenting, emptyLibrary } from "../mocks/content/v4/user_library";
 import { noPlans } from '../mocks/pricing/v1/plans';
 import { availableNowUntil48Hours } from '../mocks/content/v1/availabilities';
 import { locationNewZealand } from '../mocks/geo/v1/location/where_am_i';
@@ -12,26 +12,106 @@ import { playbackProgressExists } from '../mocks/content/v1/playback_progress';
 export default {
   title: 'Pages/FilmDetail',
   decorators: [withMock],
+  argTypes: {
+    showAwardCategories: {
+      control: 'boolean'
+    },
+    showBonusContent: {
+      control: 'boolean'
+    },
+    showRecommended: {
+      control: 'boolean'
+    },
+    showSponsorImage: {
+      control: 'boolean'
+    },
+    enableElementSwitcher: {
+      control: 'boolean'
+    },
+    showAvailabilityLabel: {
+      control: 'boolean'
+    }
+  },
 };
 
-export const All = (args, {loaded: { Component }}) => {
+export const Rentable = ({showAwardCategories, showBonusContent, showRecommended, showSponsorImage, enableElementSwitcher, enableCanBeWatchedButton, showTrailerButton, showWishlistButton, showShareButton, showAvailabilityLabel, showPoster, showRating}, {loaded: { Component }}) => {
     const parser = new DOMParser();
     const htmlDoc = parser.parseFromString(Component, "text/html");
     const div = document.createElement('div');
     div.innerHTML = htmlDoc.body.innerHTML
+
+    if (!showAwardCategories) {
+      div.querySelector('.meta-awards')?.remove();
+    }
+
+    if (!showBonusContent) {
+      div.querySelector('.meta-detail-bonus-content')?.remove();
+    }
+    if (!showRecommended) {
+      div.querySelector('.recommendations-collection')?.remove();
+    }
+    if (!showSponsorImage) {
+      div.querySelectorAll('.sponsor')?.forEach(e => e.remove());
+    }
+    if (!enableElementSwitcher) {
+      div.querySelector('.meta-detail-switcher-tagline')?.remove();
+      div.querySelector('s72-element-switcher .s72-hide')?.classList.remove('s72-hide');
+    }
+    if (!enableCanBeWatchedButton) {
+      div.querySelector('can-be-watched-button')?.remove();
+    }
+    if (!showTrailerButton) {
+      div.querySelector('s72-modal-player')?.remove();
+    }
+    if (!showWishlistButton) {
+      div.querySelector('s72-userwishlist-button')?.remove();
+    }
+    if (!showShareButton) {
+      div.querySelector('.social-media-buttons')?.remove();
+    }
+    if (!showAvailabilityLabel) {
+      div.querySelector('s72-availability-label')?.remove();
+    }
+    if (!showRating) {
+      div.querySelector('s72-classification-label')?.remove();
+    }
+    if (!showPoster) {
+      div.querySelector('.poster-wrapper .poster-portrait')?.remove();
+    }
+
     return div;
 };
 
-All.loaders = [async () => {
+export const InLibrary = Rentable.bind({});
+export const Buyable = Rentable.bind({});
+export const Unavailable = Rentable.bind({});
+export const RentableAndBuyable = Rentable.bind({});
+
+Rentable.loaders = InLibrary.loaders = Buyable.loaders = Unavailable.loaders = RentableAndBuyable.loaders = [async () => {
     return ({ Component: (await new Promise(async resolve => await fetch('film/storybook/index.html').then(res=>{
         return resolve(res.text())
      })))})
 
 }];
 
-All.parameters = {
+Rentable.args = InLibrary.args = Buyable.args = Unavailable.args  = RentableAndBuyable.args = {
+  showAwardCategories: true,
+  showBonusContent: true,
+  showRecommended: true,
+  showSponsorImage: true,
+  enableElementSwitcher: true,
+  enableCanBeWatchedButton: true,
+  showTrailerButton: true,
+  showWishlistButton: true,
+  showShareButton: true,
+  showAvailabilityLabel: true,
+  showPoster: true,
+  showRating: true
+};
+
+Rentable.parameters = {
   mockData: [
-    itemLimitReached,
+    itemLimitNotReached,
     noPlans,
     singleFilmRentableInYourRegion,
     availableNowUntil48Hours,
@@ -43,94 +123,67 @@ All.parameters = {
     ]
 };
 
-export const NoAwardCategories = (args, {loaded: { Component }}) => {
-  const parser = new DOMParser();
-  const htmlDoc = parser.parseFromString(Component, "text/html");
-  const div = document.createElement('div');
-  div.innerHTML = htmlDoc.body.innerHTML
- div.querySelector('.meta-awards').remove();
-  return div;
-};
 
-NoAwardCategories.loaders = [async () => {
+InLibrary.loaders = [async () => {
   return ({ Component: (await new Promise(async resolve => await fetch('film/storybook/index.html').then(res=>{
       return resolve(res.text())
    })))})
-
 }];
 
-NoAwardCategories.parameters = {
+InLibrary.parameters = {
 mockData: [
-  itemLimitReached,
+  itemLimitNotReached,
   noPlans,
   singleFilmRentableInYourRegion,
   availableNowUntil48Hours,
   noUserPlans,
-  emptyLibrary,
+  currentlyRenting,
   emptyWishlist,
   locationNewZealand,
   playbackProgressExists
   ]
 };
 
-export const NoBonusContent = (args, {loaded: { Component }}) => {
-  const parser = new DOMParser();
-  const htmlDoc = parser.parseFromString(Component, "text/html");
-  const div = document.createElement('div');
-  div.innerHTML = htmlDoc.body.innerHTML
- div.querySelector('.meta-detail-bonus-content').remove();
-  return div;
-};
 
-NoBonusContent.loaders = [async () => {
-  return ({ Component: (await new Promise(async resolve => await fetch('film/storybook/index.html').then(res=>{
-      return resolve(res.text())
-   })))})
+Buyable.parameters = {
+  mockData: [
+    itemLimitNotReached,
+    noPlans,
+    singleFilmBuyableInYourRegion,
+    availableNowUntil48Hours,
+    noUserPlans,
+    emptyLibrary,
+    emptyWishlist,
+    locationNewZealand,
+    playbackProgressExists
+    ]
+  };
 
-}];
 
-NoBonusContent.parameters = {
-mockData: [
-  itemLimitReached,
-  noPlans,
-  singleFilmRentableInYourRegion,
-  availableNowUntil48Hours,
-  noUserPlans,
-  emptyLibrary,
-  emptyWishlist,
-  locationNewZealand,
-  playbackProgressExists
-  ]
-};
+  RentableAndBuyable.parameters = {
+    mockData: [
+      itemLimitNotReached,
+      noPlans,
+      singleFilmBuyableAndRentableInYourRegion,
+      availableNowUntil48Hours,
+      noUserPlans,
+      emptyLibrary,
+      emptyWishlist,
+      locationNewZealand,
+      playbackProgressExists
+      ]
+    };
 
-export const NoBonusContentNoAwardCategories = (args, {loaded: { Component }}) => {
-  const parser = new DOMParser();
-  const htmlDoc = parser.parseFromString(Component, "text/html");
-  const div = document.createElement('div');
-  div.innerHTML = htmlDoc.body.innerHTML
- div.querySelector('.meta-awards').remove();
-
- div.querySelector('.meta-detail-bonus-content').remove();
-  return div;
-};
-
-NoBonusContentNoAwardCategories.loaders = [async () => {
-  return ({ Component: (await new Promise(async resolve => await fetch('film/storybook/index.html').then(res=>{
-      return resolve(res.text())
-   })))})
-
-}];
-
-NoBonusContentNoAwardCategories.parameters = {
-mockData: [
-  itemLimitReached,
-  noPlans,
-  singleFilmRentableInYourRegion,
-  availableNowUntil48Hours,
-  noUserPlans,
-  emptyLibrary,
-  emptyWishlist,
-  locationNewZealand,
-  playbackProgressExists
-  ]
-};
+  Unavailable.parameters = {
+    mockData: [
+      itemLimitNotReached,
+      noPlans,
+      noPricesInYourRegion,
+      availableNowUntil48Hours,
+      noUserPlans,
+      emptyLibrary,
+      emptyWishlist,
+      locationNewZealand,
+      playbackProgressExists
+      ]
+    };
