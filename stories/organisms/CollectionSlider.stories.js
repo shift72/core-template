@@ -57,7 +57,7 @@ export const PageCollectionListLandscape = (args, {loaded: { Component }}) => {
 };
 
 PageCollectionListLandscape.loaders = [async () => {
-  return ({ Component: (await new Promise(async resolve => await fetch('index.html').then(res=>{
+  return ({ Component: (await new Promise(async resolve => await fetch('homepage/index.html').then(res=>{
       return resolve(res.text())
    })))})
 

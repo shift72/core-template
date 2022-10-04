@@ -99,13 +99,13 @@ SubscribeToWatch.parameters = {
       page: customDocs(`
         <h3 class="mb-2">Key conditions that trigger 'Subscribe to watch':</h3>
         <h4>APIs:</h4>
-        <code>/services/pricing/v2/prices/show_multiple?items=/film/3138</code>
+        <code>/services/pricing/v2/prices/show_multiple?items=/film/3144</code>
         <pre>
           <code>
           {
             "prices": [],
             "plans":[
-              {"item":"/film/3138","plans":["/plan/56","/plan/79"]},
+              {"item":"/film/3144","plans":["/plan/56","/plan/79"]},
             ]
           }
           </code>
@@ -162,7 +162,7 @@ Renting.parameters = {
       <pre>
         <code>
           [{
-            "item": "/film/3138",
+            "item": "/film/3144",
             "info": {
               ...
               "expiry": "2040-04-17T07:00:00.000Z", //future date
@@ -198,7 +198,7 @@ RentingWithCanBeWatchedButton.parameters = {
       <pre>
         <code>
           [{
-            "item": "/film/3138",
+            "item": "/film/3144",
             "info": {
               ...
               "expiry": "2040-04-17T07:00:00.000Z", //future date
@@ -230,11 +230,11 @@ AvailableUntil.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Available Until' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/3138</code>
+      <code>/services/content/v1/availabilities?items=/film/3144</code>
       <pre>
         <code>
           [{
-            "slug": "/film/3138",
+            "slug": "/film/3144",
             "to": "2022-09-15T22:53:01.374Z", // some future date
             ...
           }]
@@ -263,11 +263,11 @@ ComingSoonMoreThan1Week.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available {{day month year}}' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/3138</code>
+      <code>/services/content/v1/availabilities?items=/film/3144</code>
       <pre>
         <code>
         [{
-          "slug": "/film/3138",
+          "slug": "/film/3144",
           "from": "${new Date().addHours(24 * 8).toISOString()}", //now plus 8 days, or anytime over one week
         }]
         </code>
@@ -296,11 +296,11 @@ ComingSoonWithinWeek.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available {{weekday}} {{time}}' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/3138</code>
+      <code>/services/content/v1/availabilities?items=/film/3144</code>
       <pre>
         <code>
         [{
-          "slug": "/film/3138",
+          "slug": "/film/3144",
           "from": "${new Date().addHours(48).toISOString()}", //now plus 48 hours, or anytime within one week
         }]
         </code>
@@ -328,11 +328,11 @@ ComingSoon24Hours.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available tomorrow {{time}}' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/3138</code>
+      <code>/services/content/v1/availabilities?items=/film/3144</code>
       <pre>
         <code>
         [{
-          "slug": "/film/3138",
+          "slug": "/film/3144",
           "from": "${new Date().addHours(24).toISOString()}", //now plus 24 hours
         }]
         </code>
@@ -360,11 +360,11 @@ ComingSoon3Hours.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available today {{time}}' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/3138</code>
+      <code>/services/content/v1/availabilities?items=/film/3144</code>
       <pre>
         <code>
         [{
-          "slug": "/film/3138",
+          "slug": "/film/3144",
           "from": "${new Date().addHours(3).toISOString()}", //now plus 3 hours
         }]
         </code>
@@ -394,11 +394,11 @@ ComingSoon1Hour.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Coming soon' plus 'Available today {{time}}' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/3138</code>
+      <code>/services/content/v1/availabilities?items=/film/3144</code>
       <pre>
         <code>
         [{
-          "slug": "/film/3138",
+          "slug": "/film/3144",
           "from": "${new Date().addHours(1).toISOString()}", //now plus 1 hours
         }]
         </code>
@@ -441,11 +441,11 @@ Expired.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Expired' labels:</h3>
       <h4>APIs:</h4>
-      <code>/services/content/v1/availabilities?items=/film/3138</code>
+      <code>/services/content/v1/availabilities?items=/film/3144</code>
       <pre>
         <code>
         [{
-          "slug": "/film/3138",
+          "slug": "/film/3144",
           "from": "${new Date().addHours(-13).toISOString()}", // 13 hours ago
         }]
         </code>
@@ -474,7 +474,7 @@ NotAvailable.parameters = {
     page: customDocs(`
       <h3 class="mb-2">Key conditions that trigger 'Not Available in your country' label:</h3>
       <h4>APIs:</h4>
-      <code>/services/pricing/v2/prices/show_multiple?items=/film/3138</code>
+      <code>/services/pricing/v2/prices/show_multiple?items=/film/3144</code>
       <pre>
         <code>
         {
@@ -512,15 +512,15 @@ InWatchWindow.parameters = {
         <code>
         {
           "play_position": 50,
-          "item": "/film/3138",
+          "item": "/film/3144",
         }
         </code>
       </pre>
-      <code>/services/content/v1/availabilities?items=/film/3138</code>
+      <code>/services/content/v1/availabilities?items=/film/3144</code>
       <pre>
         <code>
         [{
-          "slug": "/film/3138",
+          "slug": "/film/3144",
           "from": "${new Date().addHours(72).toISOString()}", // 72 hour watch window just started
         }]
         </code>
@@ -529,7 +529,7 @@ InWatchWindow.parameters = {
 };
 
 SoldOut.loaders = SubscribeToWatch.loaders = Renting.loaders = AvailableUntil.loaders = InWatchWindow.loaders = NotAvailable.loaders = Expired.loaders = ComingSoon1Hour.loaders = ComingSoon3Hours.loaders = ComingSoon24Hours.loaders = ComingSoonWithinWeek.loaders = ComingSoonMoreThan1Week.loaders = RentingWithCanBeWatchedButton.loaders = [async () => {
-  return ({ Component: (await new Promise(async resolve => await fetch('index.html').then(res=>{
+  return ({ Component: (await new Promise(async resolve => await fetch('homepage/index.html').then(res=>{
       return resolve(res.text())
    })))})
 }];

@@ -3,7 +3,7 @@ export const createAvailabilityStatus = ({poster}) => {
   btn.innerHTML = `
           <div class="poster" style="overflow: visible;">
               <s72-availability-status
-                data-slug="/film/3138"
+                data-slug="/film/3144"
               ></s72-availability-status>
           </div>
 `

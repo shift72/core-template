@@ -29,7 +29,8 @@
     "prepare": "npm run version",
     "translate": "node scripts/translate.mjs",
     "storybook": "export NODE_OPTIONS=--openssl-legacy-provider; start-storybook -p 6006 --no-manager-cache",
-    "build-storybook": "export NODE_OPTIONS=--openssl-legacy-provider; build-storybook -o .storybook/static"
+    "build-storybook": "export NODE_OPTIONS=--openssl-legacy-provider; build-storybook -o .storybook/static",
+    "publish-storybook": "kibble render && run-s -l css js:build css:build build-storybook"
   },
   "repository": {
     "type": "git",

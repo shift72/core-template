@@ -12,7 +12,7 @@ import { assortedBundles } from './../mocks/meta/v1/bundles';
 import { multipleEpisodes } from './../mocks/meta/v2/tv/season/show_multiple';
 
 export default {
-  title: 'Molecules/FilmDetail',
+  title: 'Molecules/FilmDetailPageMolecules',
   decorators: [withMock],
 };
 

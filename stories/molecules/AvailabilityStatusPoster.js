@@ -13,11 +13,11 @@ export const createAvailabilityStatusPoster = ({poster, warning}) => {
         >
           <div class="poster poster-portrait">
             <s72-availability-label
-              data-slug="/film/3138"
+              data-slug="/film/3144"
             ></s72-availability-label>
             <div class="poster-overlay poster-overlay-top">
               <s72-availability-status
-                data-slug="/film/3138"
+                data-slug="/film/3144"
               ></s72-availability-status>
             </div>
 
@@ -32,26 +32,26 @@ export const createAvailabilityStatusPoster = ({poster, warning}) => {
               <div class="content">
                 <div class="buttons">
                   <s72-play-button
-                    data-slug="/film/3138"
+                    data-slug="/film/3144"
                     title="Babe: Pig in the City"
                     class=""
                   ></s72-play-button>
 
                   <s72-pricing-buttons
-                    data-slug="/film/3138"
+                    data-slug="/film/3144"
                     class="pricing-buttons-fit s72-show"
                     title="Babe: Pig in the City"
                     ></s72-pricing-buttons>
 
                   <can-be-watched-button
-                    data-slug="/film/3138"
+                    data-slug="/film/3144"
                     data-url=""
                     data-label="can_be_watched_button_text"
                   ></can-be-watched-button>
                 </div>
               </div>
               <s72-userwishlist-button
-                data-slug="/film/3138"
+                data-slug="/film/3144"
                 class="btn-wishlist"
               ></s72-userwishlist-button>
             </div>
