@@ -36,7 +36,7 @@ jobs:
           node-version: 16.14.2
           cache: 'npm'
       - run: npm ci
-      - run: run build-storybook --if-present
+      - run: npm run build-storybook --if-present
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
