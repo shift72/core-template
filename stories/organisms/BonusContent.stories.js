@@ -12,7 +12,7 @@ import { assortedBundles } from './../mocks/meta/v1/bundles';
 import { multipleEpisodes } from './../mocks/meta/v2/tv/season/show_multiple';
 
 export default {
-  title: 'Organisms/MetaDetail',
+  title: 'Organisms/FilmDetail',
   decorators: [withMock],
 };
 
@@ -32,39 +32,6 @@ BonusContent.loaders = [async () => {
 }];
 
 BonusContent.parameters = {
-mockData: [
-  itemLimitReached,
-  noPlans,
-  singleFilmRentableInYourRegion,
-  availableNowUntil48Hours,
-  noUserPlans,
-  emptyLibrary,
-  emptyWishlist,
-  locationNewZealand,
-  playbackProgressExists,
-  assortedBundles,
-  multipleEpisodes
-  ]
-};
-
-
-
-export const CTAButtons = (args, {loaded: { Component }}) => {
-  const parser = new DOMParser();
-  const htmlDoc = parser.parseFromString(Component, "text/html");
-  const div = document.createElement('div');
-  div.innerHTML = htmlDoc.querySelector('.cta-buttons').outerHTML
-  return div;
-};
-
-CTAButtons.loaders = [async () => {
-  return ({ Component: (await new Promise(async resolve => await fetch('film/storybook/index.html').then(res=>{
-      return resolve(res.text())
-   })))})
-
-}];
-
-CTAButtons.parameters = {
 mockData: [
   itemLimitReached,
   noPlans,

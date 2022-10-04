@@ -24,7 +24,7 @@ export default {
   decorators: [withMock],
 };
 
-const Template = (args, {loaded: { Component }}) => {
+const Template = ({hideCanBeWatchedButton}, {loaded: { Component }}) => {
     const parser = new DOMParser();
     const htmlDoc = parser.parseFromString(Component, "text/html");
     var div = document.createElement('div');
@@ -37,17 +37,17 @@ const Template = (args, {loaded: { Component }}) => {
       div.querySelector('.swiper-wrapper').classList = "";
       div.querySelector('.collection-container').classList = "";
     }, { once: true });
+
+    if (hideCanBeWatchedButton) {
+      div.querySelector('can-be-watched-button')?.remove();
+    }
     return div;
 };
 
 export const SoldOut =  Template.bind({});
 
 
-SoldOut.loaders = [async () => {
-  return ({ Component: (await new Promise(async resolve => await fetch('index.html').then(res=>{
-      return resolve(res.text())
-   })))})
-}];
+
 SoldOut.args = {
   poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
 };
@@ -141,8 +141,45 @@ SubscribeToWatch.parameters = {
 export const Renting = Template.bind({});
 Renting.args = {
   poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
+  hideCanBeWatchedButton: true
 };
 Renting.parameters = {
+  mockData: [
+    noPlans,
+    noUserPlans,
+    emptyWishlist,
+    singleFilmRentableInYourRegion,
+    availableNowUntilIndefinate,
+    noItemLimits,
+    currentlyRenting,
+    noPlaybackProgress
+  ],
+  docs: {
+    page: customDocs(`
+      <h3 class="mb-2">Key conditions that trigger 'Renting' label:</h3>
+      <h4>APIs:</h4>
+      <code>/services/content/v4/user_library/123/index</code>
+      <pre>
+        <code>
+          [{
+            "item": "/film/3138",
+            "info": {
+              ...
+              "expiry": "2040-04-17T07:00:00.000Z", //future date
+              ...
+            }
+          }]
+        </code>
+      </pre>
+    `)
+  }
+};
+
+export const RentingWithCanBeWatchedButton = Template.bind({});
+RentingWithCanBeWatchedButton.args = {
+  poster: "https://d2gynsnnx1ixn5.cloudfront.net/jgwp5/images/282x422/film/58674/777e87bdc0783cae11748756f026b6a8.jpg",
+};
+RentingWithCanBeWatchedButton.parameters = {
   mockData: [
     noPlans,
     noUserPlans,
@@ -490,3 +527,9 @@ InWatchWindow.parameters = {
     `)
   }
 };
+
+SoldOut.loaders = SubscribeToWatch.loaders = Renting.loaders = AvailableUntil.loaders = InWatchWindow.loaders = NotAvailable.loaders = Expired.loaders = ComingSoon1Hour.loaders = ComingSoon3Hours.loaders = ComingSoon24Hours.loaders = ComingSoonWithinWeek.loaders = ComingSoonMoreThan1Week.loaders = RentingWithCanBeWatchedButton.loaders = [async () => {
+  return ({ Component: (await new Promise(async resolve => await fetch('index.html').then(res=>{
+      return resolve(res.text())
+   })))})
+}];

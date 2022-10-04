@@ -12,7 +12,7 @@ import { assortedBundles } from './../mocks/meta/v1/bundles';
 import { multipleEpisodes } from './../mocks/meta/v2/tv/season/show_multiple';
 
 export default {
-  title: 'Organisms/MetaDetail',
+  title: 'Molecules/FilmDetail',
   decorators: [withMock],
 };
 
@@ -46,7 +46,6 @@ mockData: [
   multipleEpisodes
   ]
 };
-
 
 
 export const CTAButtons = (args, {loaded: { Component }}) => {

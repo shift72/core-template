@@ -16,7 +16,7 @@ export default {
   decorators: [withMock],
 };
 
-export const PageCollectionSlider = (args, {loaded: { Component }}) => {
+export const PageCollectionSliderPortrait = (args, {loaded: { Component }}) => {
     const parser = new DOMParser();
     const htmlDoc = parser.parseFromString(Component, "text/html");
     const div = document.createElement('div');
@@ -24,14 +24,14 @@ export const PageCollectionSlider = (args, {loaded: { Component }}) => {
     return div;
 };
 
-PageCollectionSlider.loaders = [async () => {
+PageCollectionSliderPortrait.loaders = [async () => {
     return ({ Component: (await new Promise(async resolve => await fetch('homepage/index.html').then(res=>{
         return resolve(res.text())
      })))})
 
 }];
 
-PageCollectionSlider.parameters = {
+PageCollectionSliderPortrait.parameters = {
   mockData: [
     itemLimitReached,
     noPlans,
@@ -48,7 +48,7 @@ PageCollectionSlider.parameters = {
 };
 
 
-export const PageCollectionList = (args, {loaded: { Component }}) => {
+export const PageCollectionListLandscape = (args, {loaded: { Component }}) => {
   const parser = new DOMParser();
   const htmlDoc = parser.parseFromString(Component, "text/html");
   const div = document.createElement('div');
@@ -56,14 +56,14 @@ export const PageCollectionList = (args, {loaded: { Component }}) => {
   return div;
 };
 
-PageCollectionList.loaders = [async () => {
+PageCollectionListLandscape.loaders = [async () => {
   return ({ Component: (await new Promise(async resolve => await fetch('index.html').then(res=>{
       return resolve(res.text())
    })))})
 
 }];
 
-PageCollectionList.parameters = {
+PageCollectionListLandscape.parameters = {
 mockData: [
   itemLimitReached,
   noPlans,

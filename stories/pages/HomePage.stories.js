@@ -10,27 +10,23 @@ import { locationNewZealand } from '../mocks/geo/v1/location/where_am_i';
 import { playbackProgressExists } from '../mocks/content/v1/playback_progress';
 
 export default {
-  title: 'Pages/FilmDetail',
+  title: 'Pages/Home',
   decorators: [withMock],
   argTypes: {
     showAwardCategories: { control: 'boolean' },
-    showBonusContent: { control: 'boolean' },
-    showRecommended: { control: 'boolean' },
     showSponsorImage: { control: 'boolean' },
     showSponsorImageText: { control: 'boolean' },
-    enableElementSwitcher: { control: 'boolean' },
     showAvailabilityLabel: { control: 'boolean' },
     enableCanBeWatchedButton: { control: 'boolean' },
     showTrailerButton: { control: 'boolean' },
     showWishlistButton: { control: 'boolean' },
     showShareButton: { control: 'boolean' },
     showAvailabilityLabel: { control: 'boolean' },
-    showPoster: { control: 'boolean' },
     showRating: { control: 'boolean' }
   },
 };
 
-export const Rentable = ({showAwardCategories, showBonusContent, showRecommended, showSponsorImage, showSponsorImageText, enableElementSwitcher, enableCanBeWatchedButton, showTrailerButton, showWishlistButton, showShareButton, showAvailabilityLabel, showPoster, showRating}, {loaded: { Component }}) => {
+export const Rentable = ({showAwardCategories, showSponsorImage, showSponsorImageText, enableCanBeWatchedButton, showTrailerButton, showWishlistButton, showShareButton, showAvailabilityLabel, showRating}, {loaded: { Component }}) => {
     const parser = new DOMParser();
     const htmlDoc = parser.parseFromString(Component, "text/html");
     const div = document.createElement('div');
@@ -39,22 +35,11 @@ export const Rentable = ({showAwardCategories, showBonusContent, showRecommended
     if (!showAwardCategories) {
       div.querySelector('.meta-awards')?.remove();
     }
-
-    if (!showBonusContent) {
-      div.querySelector('.meta-detail-bonus-content')?.remove();
-    }
-    if (!showRecommended) {
-      div.querySelector('.recommendations-collection')?.remove();
-    }
     if (!showSponsorImage) {
       div.querySelectorAll('.sponsor')?.forEach(e => e.remove());
     }
     if (!showSponsorImageText) {
       div.querySelectorAll('.sponsor div')?.forEach(e => e.remove());
-    }
-    if (!enableElementSwitcher) {
-      div.querySelector('.meta-detail-switcher-tagline')?.remove();
-      div.querySelector('s72-element-switcher .s72-hide')?.classList.remove('s72-hide');
     }
     if (!enableCanBeWatchedButton) {
       div.querySelector('can-be-watched-button')?.remove();
@@ -74,9 +59,7 @@ export const Rentable = ({showAwardCategories, showBonusContent, showRecommended
     if (!showRating) {
       div.querySelector('s72-classification-label')?.remove();
     }
-    if (!showPoster) {
-      div.querySelector('.poster-wrapper .poster-portrait')?.remove();
-    }
+
 
     return div;
 };
@@ -87,25 +70,23 @@ export const Unavailable = Rentable.bind({});
 export const RentableAndBuyable = Rentable.bind({});
 
 Rentable.loaders = InLibrary.loaders = Buyable.loaders = Unavailable.loaders = RentableAndBuyable.loaders = [async () => {
-  return ({ Component: (await new Promise(async resolve => await fetch('film/storybook/index.html').then(res=>{
-    return resolve(res.text())
-  })))})
+    return ({ Component: (await new Promise(async resolve => await fetch('homepage/index.html').then(res=>{
+        return resolve(res.text())
+     })))})
+
 }];
 
 Rentable.args = InLibrary.args = Buyable.args = Unavailable.args  = RentableAndBuyable.args = {
   showAwardCategories: true,
-  showBonusContent: true,
-  showRecommended: true,
   showSponsorImage: true,
   showSponsorImageText: true,
-  enableElementSwitcher: true,
   enableCanBeWatchedButton: true,
   showTrailerButton: true,
   showWishlistButton: true,
   showShareButton: true,
   showAvailabilityLabel: true,
-  showPoster: true,
-  showRating: true
+  showRating: true,
+  showSponsorImageText: true
 };
 
 Rentable.parameters = {
@@ -121,6 +102,7 @@ Rentable.parameters = {
     playbackProgressExists
     ]
 };
+
 
 InLibrary.parameters = {
 mockData: [
@@ -150,7 +132,6 @@ Buyable.parameters = {
     playbackProgressExists
     ]
   };
-
 
   RentableAndBuyable.parameters = {
     mockData: [
