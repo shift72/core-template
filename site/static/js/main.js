@@ -464,8 +464,8 @@ function toggleScroll() {
 function documentReady(app) {
   initializeWishlist();
 
-  app.classificationsService.load('/classifications.all.json');
-  app.urlMapService.load('/urlmap.json');
+  app.classificationsService.load('classifications.all.json');
+  app.urlMapService.load('urlmap.json');
 
   detectTouchscreen();
 
