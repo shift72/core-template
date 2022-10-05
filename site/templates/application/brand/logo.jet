@@ -1,6 +1,6 @@
 {{block logo(class="")}}
-  {{logo1x := site.SiteBrand.GetImage("logo@1x", "/images/common/logo.png")}}
-  {{logo2x := site.SiteBrand.GetImage("logo@2x", "/images/common/logo@2x.png")}}
+  {{logo1x := site.SiteBrand.GetImage("logo@1x", "images/common/logo.png")}}
+  {{logo2x := site.SiteBrand.GetImage("logo@2x", "images/common/logo@2x.png")}}
   {{siteName := site.Config.GetSiteName()}}
 
   <img class="{{class}}"
