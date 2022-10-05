@@ -1540,5 +1540,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "Jūsų kortelės numeris neteisingas."
+  },
+  "new_card_error_timed_out": {
+    "other": "Pridedant šią kortelę kažkas nutiko. Vėliau bandykite dar kartą arba naudokite kitą kortelę."
   }
 }

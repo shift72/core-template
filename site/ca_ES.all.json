@@ -1508,5 +1508,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "El vostre número de targeta no és vàlid."
+  },
+  "new_card_error_timed_out": {
+    "other": "S'ha produït un error en afegir aquesta targeta. Torna-ho a provar més tard o utilitza una altra targeta."
   }
 }

@@ -1572,5 +1572,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "رقم بطاقتك غير صالح."
+  },
+  "new_card_error_timed_out": {
+    "other": "حدث خطأ ما عند إضافة تلك البطاقة. حاول مرة أخرى لاحقًا أو استخدم بطاقة مختلفة."
   }
 }

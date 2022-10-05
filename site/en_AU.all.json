@@ -1508,5 +1508,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "Your card number is invalid."
+  },
+  "new_card_error_timed_out": {
+    "other": "Something went wrong when adding that card. Try again later or use a different card."
   }
 }
