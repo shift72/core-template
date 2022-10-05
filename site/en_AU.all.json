@@ -1510,6 +1510,6 @@
     "other": "Your card number is invalid."
   },
   "new_card_error_timed_out": {
-    "other": "Something went wrong when adding that card. Try again later or use a different card."
+    "other": "Something went wrong when adding that card. Please try again later or use a different card."
   }
 }

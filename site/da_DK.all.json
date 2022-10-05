@@ -1510,6 +1510,6 @@
     "other": "Dit kortnummer er ugyldigt."
   },
   "new_card_error_timed_out": {
-    "other": "Noget gik galt, da du tilføjede det kort. Prøv igen senere, eller brug et andet kort."
+    "other": "Der gik noget galt, da det pågældende kort blev tilføjet. Prøv igen senere, eller brug et andet kort."
   }
 }
