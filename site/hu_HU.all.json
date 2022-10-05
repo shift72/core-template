@@ -1508,5 +1508,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "A kártyaszám érvénytelen."
+  },
+  "new_card_error_timed_out": {
+    "other": "Valami hiba történt a kártya hozzáadásakor. Kérjük, próbálja újra később, vagy használjon másik kártyát."
   }
 }
