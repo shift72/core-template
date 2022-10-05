@@ -2,10 +2,10 @@ import withMock from 'storybook-addon-mock';
 import { itemLimitNotReached } from '../mocks/shopping/v1/item_limit';
 import { noUserPlans } from '../mocks/content/v1/user_plans';
 import { emptyWishlist } from '../mocks/users/v1/wishlist';
-import { singleFilmRentableInYourRegion, singleFilmBuyableInYourRegion, noPricesInYourRegion, singleFilmBuyableAndRentableInYourRegion} from '../mocks/pricing/v2/prices/show_multiple';
+import { singleFilmRentableInYourRegion, singleFilmBuyableInYourRegion, noPricesInYourRegion, singleFilmBuyableAndRentableInYourRegion, singleFilmBelongsToSingleRecurringPlan } from '../mocks/pricing/v2/prices/show_multiple';
 import { currentlyRenting, emptyLibrary } from "../mocks/content/v4/user_library";
-import { noPlans } from '../mocks/pricing/v1/plans';
-import { availableNowUntil48Hours } from '../mocks/content/v1/availabilities';
+import { assortedPlans, noPlans } from './../mocks/pricing/v1/plans';
+import { availableNowUntil48Hours, noAvailabilitySet } from '../mocks/content/v1/availabilities';
 import { locationNewZealand } from '../mocks/geo/v1/location/where_am_i';
 import { playbackProgressExists } from '../mocks/content/v1/playback_progress';
 
@@ -85,14 +85,15 @@ export const InLibrary = Rentable.bind({});
 export const Buyable = Rentable.bind({});
 export const Unavailable = Rentable.bind({});
 export const RentableAndBuyable = Rentable.bind({});
+export const SubscribeToWatch = Rentable.bind({});
 
-Rentable.loaders = InLibrary.loaders = Buyable.loaders = Unavailable.loaders = RentableAndBuyable.loaders = [async () => {
+Rentable.loaders = InLibrary.loaders = Buyable.loaders = Unavailable.loaders = RentableAndBuyable.loaders = SubscribeToWatch.loaders = [async () => {
   return ({ Component: (await new Promise(async resolve => await fetch('film/storybook/index.html').then(res=>{
     return resolve(res.text())
   })))})
 }];
 
-Rentable.args = InLibrary.args = Buyable.args = Unavailable.args  = RentableAndBuyable.args = {
+Rentable.args = InLibrary.args = Buyable.args = Unavailable.args  = RentableAndBuyable.args = SubscribeToWatch.args = {
   showAwardCategories: true,
   showBonusContent: true,
   showRecommended: true,
@@ -121,6 +122,18 @@ Rentable.parameters = {
     playbackProgressExists
     ]
 };
+
+SubscribeToWatch.parameters = {
+  mockData: [
+    itemLimitNotReached,
+    assortedPlans,
+    singleFilmBelongsToSingleRecurringPlan,
+    noAvailabilitySet,
+    noUserPlans,
+    emptyLibrary,
+    emptyWishlist
+  ]
+}
 
 InLibrary.parameters = {
 mockData: [

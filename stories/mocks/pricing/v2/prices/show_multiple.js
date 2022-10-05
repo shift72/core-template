@@ -113,14 +113,14 @@ export const singleFilmRentableInYourRegion = {
   }
   }
 
-  export const singleFilmBelongsToMultipleRecurringPlans = {
+  export const singleFilmBelongsToSingleRecurringPlan = {
     url: `${window.location.origin}/services/pricing/v2/prices/show_multiple?items=/film/3144`,
     method: 'GET',
     status: 200,
     response: {
       "prices": [],
       "plans":[
-        {"item":"/film/3144","plans":["/plan/56","/plan/79"]},
+        {"item":"/film/3144","plans":["/plan/80"]},
     ]
   }
   }

@@ -28,7 +28,7 @@
     "prebuild": "npm run version",
     "prepare": "npm run version",
     "translate": "node scripts/translate.mjs",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "run-s -l init && run-p -l css js:build && kibble render && start-storybook -p 6006",
     "build-storybook": "build-storybook -o .storybook/static",
     "publish-storybook": "run-s -l init && run-p -l css js:build && kibble render && run-s -l build-storybook"
   },

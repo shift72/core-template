@@ -1,11 +1,10 @@
-import { createAvailabilityStatusPoster } from './AvailabilityStatusPoster';
 import withMock from 'storybook-addon-mock';
 import { customDocs } from './../functions/customDocs'
 import { itemLimitReached, itemLimitNotReached, noItemLimits } from './../mocks/shopping/v1/item_limit';
 import { noPlaybackProgress, playbackProgressExists } from './../mocks/content/v1/playback_progress';
 import { noUserPlans } from './../mocks/content/v1/user_plans';
 import { emptyWishlist } from './../mocks/users/v1/wishlist';
-import { singleFilmRentableInYourRegion, noPricesInYourRegion, singleFilmBelongsToMultipleRecurringPlans } from './../mocks/pricing/v2/prices/show_multiple';
+import { singleFilmRentableInYourRegion, noPricesInYourRegion, singleFilmBelongsToSingleRecurringPlan } from './../mocks/pricing/v2/prices/show_multiple';
 import { currentlyRenting, startedWatchWindow, emptyLibrary, expiredWatchWindow } from "./../mocks/content/v4/user_library";
 import { assortedPlans, noPlans } from './../mocks/pricing/v1/plans';
 import { availableNowUntil48Hours, availableIn48Hours, availableIn24Hours, availableIn3Hours, availableIn1Hour, availableIn8Days, availableNowUntilIndefinate, expired48HoursAgo, noAvailabilitySet } from './../mocks/content/v1/availabilities';
@@ -89,7 +88,7 @@ SubscribeToWatch.parameters = {
   mockData: [
     noItemLimits,
     assortedPlans,
-    singleFilmBelongsToMultipleRecurringPlans,
+    singleFilmBelongsToSingleRecurringPlan,
     noAvailabilitySet,
     noUserPlans,
     emptyLibrary,
