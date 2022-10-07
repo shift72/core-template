@@ -12,7 +12,7 @@
 ### Fixed
 - Inline cta buttons now grow when text is wider than button width.
 - TV season detail page layout now matches film detail page layout.
-- Links to specific episodes from collections.
+- Links to specific episodes from collections (inc homepage carousel).
 
 ### Fixed
 - Gap below page-collections consistent with sliders
