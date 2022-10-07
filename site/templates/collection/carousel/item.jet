@@ -8,14 +8,8 @@
 
 {{block carouselItem(item)}}
   {{showItemContent := !isset(item["PageType"]) || item.PageType != "external"}}
-  {{slugRoute := routeToSlug(item.Slug)}}
-  {{if item.ItemType == "tvepisode"}}
-    {{slugRoute = routeToSlug(item.InnerItem.Season.Slug) + "#episode-" + item.InnerItem.EpisodeNumber}}
-  {{end}}
-
-
   <div class="s72-carousel-item" data-slug="{{item.Slug}}">
-    <a href="{{slugRoute}}" class="carousel-item-link" aria-label="{{item.Title}}">
+    <a href="{{routeToSlug(item.Slug)}}" class="carousel-item-link" aria-label="{{item.Title}}">
 
       {{yield carouselItemImage() item}}
 

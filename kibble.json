@@ -144,6 +144,12 @@
       "pageSize": 0
     },
     {
+      "name": "tvEpisode",
+      "urlPath": "/tv/:slug/:seasonNumber/#episode-:episodeNumber",
+      "datasource": "TVEpisode",
+      "pageSize": 0
+    },
+    {
       "name": "pageItem",
       "urlPath": "/page/:slug/",
       "templatePath": "templates/page/:type.jet",
