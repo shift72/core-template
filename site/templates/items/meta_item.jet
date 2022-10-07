@@ -45,7 +45,7 @@
   {{if wrapper_class != ""}}
   <div class="{{wrapper_class}}">
   {{end}}
-  <a href="{{routeToSlug(item.Slug)}}" class="meta-item-link" aria-label="{{item.Title}}" target="{{isExternalPage ? "_blank" : ""}}">
+  <a href="{{slugRoute}}" class="meta-item-link" aria-label="{{item.Title}}" target="{{isExternalPage ? "_blank" : ""}}">
     <div class="poster poster-{{layout}}">
       <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
       <div class="poster-overlay poster-overlay-top">
