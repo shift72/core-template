@@ -12,6 +12,7 @@
 ### Fixed
 - Inline cta buttons now grow when text is wider than button width.
 - TV season detail page layout now matches film detail page layout.
+- Trailer autoplay disabled for CTA buttons in homepage carousel.
 
 ### Fixed
 - Gap below page-collections consistent with sliders
