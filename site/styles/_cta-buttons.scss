@@ -4,15 +4,11 @@
   padding: 6px 12px;
   white-space: nowrap;
   width: 100%;
-
-  @include media-breakpoint-up(xs) {
-    min-width: fit-content;
-    width: 140px;
-  }
+  min-width: 140px;
 }
 
 .cta-buttons {
-  display: grid;
+  display: flex;
   gap: 16px;
   margin-bottom: 8px;
 
@@ -32,9 +28,8 @@
   }
 
   .s72-pricing-button-container {
-    display: grid;
-    gap: 16px;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    @include flex-gap-safari-13(16px);
 
     @include media-breakpoint-up(xs) {
       grid-template-columns: none;

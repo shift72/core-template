@@ -131,3 +131,12 @@
     background-color: $navbar-show-background-color;
   }
 }
+
+@mixin flex-gap-safari-13($pixels) {
+  @supports (-webkit-touch-callout: none) and (not (translate: none)) {
+    &:not(:last-child) {
+      background-color: rgba(255,255,0,0.5);
+      margin-right: $pixels;
+    }
+  }
+}
