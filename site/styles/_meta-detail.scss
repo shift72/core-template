@@ -417,8 +417,11 @@ s72-element-switcher,
 .element-switcher-wrapper {
   display: grid;
   gap: 50px;
-  grid-template-columns: auto auto;
   width: 100%;
+
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: auto auto;
+  }
 
   .sponsor {
     display: none;
