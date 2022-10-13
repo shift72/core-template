@@ -147,7 +147,7 @@
     .sponsor {
       margin-bottom: 12px;
 
-      @include media-breakpoint-up(xs) {
+      @include media-breakpoint-up(lg) {
         margin-bottom: 20px;
       }
     }
