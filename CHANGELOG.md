@@ -8,6 +8,7 @@
 - Translations for live event purchase flow.
 - Translations for credit card validation errors.
 - Translations for new card timing out error.
+- Award categories moved to above film description
 
 ### Fixed
 - Inline cta buttons now grow when text is wider than button width.
