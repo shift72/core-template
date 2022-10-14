@@ -222,6 +222,8 @@ s72-element-switcher,
 
   .meta-detail-synopsis {
     max-width: 728px;
+    padding-bottom: 4px;
+
     @include media-breakpoint-up(xl) {
       max-width: 1100px;
     }
