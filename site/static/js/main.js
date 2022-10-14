@@ -424,23 +424,31 @@ function cullSlides(slider, direction) {
 }
 
 function initSearch() {
-  let searchButton = document.querySelector('.btn-search-open');
-  let searchForm = document.querySelector('.form-control-search');
+  // console.log("INIT SEARCH");
+  // var searchForm = document.querySelector('form.form-search');
+  // var searchOpenButton = document.querySelector('.btn-search-open');
+  // var searchCloseButton = document.querySelector('.btn-search-close');
+  // var searchInput = document.querySelector('.form-control-search');
 
-  let openSearch = function () {
-    document.querySelector('.form-control-search').focus();
-    document.querySelector('.navbar-nav-search').classList.add('search-show');
-    document.querySelector('.navbar-nav-search').classList.remove('search-hidden');
-  };
+  // var openSearch = function () {
+  //   document.querySelector('.form-control-search').focus();
+  //   document.querySelector('.navbar-nav-search').classList.add('search-show');
+  //   document.querySelector('.navbar-nav-search').classList.remove('search-hidden');
+  // };
 
-  let closeSearch = function () {
-    document.querySelector('.navbar-nav-search').classList.remove('search-show');
-    document.querySelector('.navbar-nav-search').classList.add('search-hidden');
-  };
+  // var closeSearch = function (e) {
+  //   e.preventDefault();
+  //   // console.log("E RELATED TARGET", e);
+  //   if(e.relatedTarget !== searchOpenButton) {
+  //     document.querySelector('.navbar-nav-search').classList.remove('search-show');
+  //     document.querySelector('.navbar-nav-search').classList.add('search-hidden');
+  //   }
+  // };
 
-  searchButton.addEventListener('click', openSearch, false);
-  searchForm.addEventListener('focusin', openSearch, false);
-  searchForm.addEventListener('focusout', closeSearch, false);
+  // searchOpenButton.addEventListener('click', openSearch, false);
+  // searchCloseButton.addEventListener('click', closeSearch, false);
+  // searchInput.addEventListener('focusin', openSearch, false);
+  // searchForm.addEventListener('focusout', closeSearch, false);
 }
 
 function initScroll() {
