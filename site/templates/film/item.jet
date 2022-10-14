@@ -61,6 +61,8 @@
             <br>
           {{end}}
 
+          {{yield awardNominations() film}}
+
           <div class="element-switcher-wrapper">
             <s72-element-switcher>
               {{if isEnabled("element_switcher_enabled")}}
@@ -150,7 +152,6 @@
             </s72-element-switcher>
             {{yield sponsor() film}}
           </div>
-          {{yield awardNominations() film}}
           {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}
             <section class="meta-detail-bonus-content" aria-label="{{i18n("meta_detail_bonus_title")}}">
               <h2>{{i18n("meta_detail_bonus_title")}}</h2>
