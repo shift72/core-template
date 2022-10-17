@@ -1413,6 +1413,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Η περίοδος αγορών έληξε, δοκιμάστε ξανά."
   },
+  "live_stream_starts": {
+    "other": "Η ροή ξεκινάει {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Μετάδοση ροής τώρα"
+  },
+  "live_streaming_ended": {
+    "other": "Η ροή έληξε"
+  },
+  "availability_live": {
+    "other": "ΖΩ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Πάρτε εισιτήριο"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Δεν μπορείτε να χρησιμοποιήσετε κωδικό προσφοράς για αυτήν την αγορά ή ενοικίαση"
   },
@@ -1433,5 +1448,68 @@
   },
   "shopping_error_missing_code": {
     "other": "Δεν δόθηκε κωδικός προσφοράς"
+  },
+  "live_label_ended": {
+    "other": "ΖΩΝΤΑΝΗ: ΤΕΛΕΙΩΣΕ"
+  },
+  "live_label_live": {
+    "other": "ΖΩΝΤΑΝΗ"
+  },
+  "live_label_minutes": {
+    "one": "ΖΩΝΤΑΝΗ: 1 ΛΕΠΤΟ",
+    "other": "ΖΩΝΤΑΝΗ: {{.Count}} ΛΕΠΤΑ"
+  },
+  "live_label_hours": {
+    "one": "ΖΩΝΤΑΝΗ: 1 ΩΡΑ",
+    "other": "ΖΩΝΤΑΝΗ: {{.Count}} ΩΡΕΣ"
+  },
+  "live_label_days": {
+    "one": "ΖΩΝΤΑΝΗ: 1 ΜΕΡΑ",
+    "other": "ΖΩΝΤΑΝΗ: {{.Count}} ΗΜΕΡΕΣ"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Ζωντανή μετάδοση"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Αυτή είναι μια Ζωντανή Εκδήλωση. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Μπορείτε να αγοράσετε ένα εισιτήριο τώρα, αλλά θα πρέπει να το παρακολουθήσετε όσο είναι ζωντανή η ροή."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Θα χρειαστεί να παρακολουθήσετε ενώ η ροή είναι ζωντανή."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Αυτή η εκδήλωση είναι ζωντανή αυτήν τη στιγμή. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Λήξη ροής {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Δεν θα μπορείτε να παρακολουθήσετε τη ροή μετά από αυτό."
+  },
+  "shopping_action_ticket": {
+    "other": "Πάρτε εισιτήριο"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Έναρξη ροής {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Ξεκίνησε στις {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Δεν μπορείτε να το επανατυλίξετε."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Η ημερομηνία λήξης της κάρτας σας είναι παρελθόν."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Το έτος λήξης της κάρτας σας είναι παρελθόν."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Ο αριθμός της κάρτας σας δεν είναι έγκυρος."
+  },
+  "new_card_error_timed_out": {
+    "other": "Κάτι πήγε στραβά κατά την προσθήκη αυτής της κάρτας. Δοκιμάστε ξανά αργότερα ή χρησιμοποιήστε διαφορετική κάρτα."
   }
 }

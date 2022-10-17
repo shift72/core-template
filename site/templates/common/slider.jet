@@ -1,6 +1,6 @@
 {{block slider(itemsPerRow, itemLayout, title="", fluid=false)}}
-  <div class="swiper-wrapper-container">
-      <div class="swiper-container">
+  <div class="collection-wrapper-container swiper-wrapper-container">
+      <div class="collection-container swiper-container">
           {{if title != ""}}
           <div class="swiper-title">
               <h3>{{title}}</h3>

@@ -1439,6 +1439,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Apsipirkimo sesija baigėsi, bandykite dar kartą."
   },
+  "live_stream_starts": {
+    "other": "Srautas prasideda {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Dabar transliuojama"
+  },
+  "live_streaming_ended": {
+    "other": "Srautas baigėsi"
+  },
+  "availability_live": {
+    "other": "GYVAI"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Gaukite bilietą"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Šiam pirkimui ar nuomai negalite naudoti reklamos kredito kodo"
   },
@@ -1459,5 +1474,74 @@
   },
   "shopping_error_missing_code": {
     "other": "Reklamos kodas nebuvo pateiktas"
+  },
+  "live_label_ended": {
+    "other": "TIESIOGIAI: PABAIGTA"
+  },
+  "live_label_live": {
+    "other": "TIESIOGIAI"
+  },
+  "live_label_minutes": {
+    "one": "TIESIOGIAI: 1 MINUTĖ",
+    "few": "TIESIOGIAI: {{.Count}} MINUTES",
+    "many": "TIESIOGIAI: {{.Count}} MINUTES",
+    "other": "TIESIOGIAI: {{.Count}} MINUTES"
+  },
+  "live_label_hours": {
+    "one": "TIESIOGIAI: 1 VALANDA",
+    "few": "TIESIOGIAI: {{.Count}} VALANDAS",
+    "many": "TIESIOGIAI: {{.Count}} VALANDAS",
+    "other": "TIESIOGIAI: {{.Count}} VALANDAS"
+  },
+  "live_label_days": {
+    "one": "TIESIOGIAI: 1 DIENA",
+    "few": "TIESIOGIAI: {{.Count}} DIENAS",
+    "many": "TIESIOGIAI: {{.Count}} DIENAS",
+    "other": "TIESIOGIAI: {{.Count}} DIENAS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Tiesiogiai"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Tai tiesioginis įvykis. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Galite nusipirkti bilietą dabar, bet turėsite žiūrėti, kol bus transliuojama tiesioginė transliacija."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Turėsite žiūrėti, kol vyksta tiesioginė transliacija."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Šis įvykis šiuo metu vyksta tiesiogiai. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Srautas baigiasi {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Po to srauto žiūrėti nebegalėsite."
+  },
+  "shopping_action_ticket": {
+    "other": "Gaukite bilietą"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Srautas prasideda {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Jis prasidėjo {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Jūs negalite jo atsukti."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Jūsų kortelės galiojimo laikas yra praeityje."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Jūsų kortelės galiojimo laikas yra praeityje."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Jūsų kortelės numeris neteisingas."
+  },
+  "new_card_error_timed_out": {
+    "other": "Pridedant šią kortelę kažkas nutiko. Bandykite dar kartą vėliau arba naudokite kitą kortelę."
   }
 }

@@ -1413,6 +1413,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Alışveriş oturumunun süresi doldu, lütfen tekrar deneyin."
   },
+  "live_stream_starts": {
+    "other": "Akış başlıyor {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Şimdi yayınlanıyor"
+  },
+  "live_streaming_ended": {
+    "other": "Akış sona erdi"
+  },
+  "availability_live": {
+    "other": "CANLI"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Bilet al"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Bu satın alma veya kiralama için promosyon kodu kullanamazsınız"
   },
@@ -1433,5 +1448,68 @@
   },
   "shopping_error_missing_code": {
     "other": "Promosyon kodu sağlanmadı"
+  },
+  "live_label_ended": {
+    "other": "CANLI: SONA ERDİ"
+  },
+  "live_label_live": {
+    "other": "CANLI"
+  },
+  "live_label_minutes": {
+    "one": "CANLI: 1 DAKİKA",
+    "other": "CANLI: {{.Count}} DAKİKA"
+  },
+  "live_label_hours": {
+    "one": "CANLI: 1 SAAT",
+    "other": "CANLI: {{.Count}} SAAT"
+  },
+  "live_label_days": {
+    "one": "CANLI: 1 GÜN",
+    "other": "CANLI: {{.Count}} GÜNLER"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Canlı yayın"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Bu Canlı Bir Etkinliktir. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Şimdi bir bilet satın alabilirsiniz, ancak yayın canlıyken izlemeniz gerekecek."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Yayın canlıyken izlemeniz gerekecek."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Bu etkinlik şu anda yayında. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Akış biter {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Bundan sonra yayını izleyemezsiniz."
+  },
+  "shopping_action_ticket": {
+    "other": "Bilet al"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Akış başlar {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "{{.Date}} başladı. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Geri saramazsınız."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Kartınızın son kullanma tarihi geçmişte."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Kartınızın son kullanma yılı geçmişte kaldı."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Kart numaranız geçersiz."
+  },
+  "new_card_error_timed_out": {
+    "other": "Bu kartı eklerken bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin veya farklı bir kart kullanın."
   }
 }

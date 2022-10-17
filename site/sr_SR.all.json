@@ -1426,6 +1426,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Сесија куповине је истекла, покушајте поново."
   },
+  "live_stream_starts": {
+    "other": "Стрим почиње {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Стримовање сада"
+  },
+  "live_streaming_ended": {
+    "other": "Стрим је завршен"
+  },
+  "availability_live": {
+    "other": "ЛИВЕ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Узми карту"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Не можете да користите промотивни код за ову куповину или изнајмљивање"
   },
@@ -1446,5 +1461,71 @@
   },
   "shopping_error_missing_code": {
     "other": "Није наведен промотивни код"
+  },
+  "live_label_ended": {
+    "other": "УЖИВО: ЗАВРШЕНО"
+  },
+  "live_label_live": {
+    "other": "ЛИВЕ"
+  },
+  "live_label_minutes": {
+    "one": "УЖИВО: 1 МИНУТА",
+    "few": "УЖИВО: {{.Count}} МИНУТЕ",
+    "other": "УЖИВО: {{.Count}} МИНУТЕ"
+  },
+  "live_label_hours": {
+    "one": "УЖИВО: 1 САТ",
+    "few": "УЖИВО: {{.Count}} САТИ",
+    "other": "УЖИВО: {{.Count}} САТИ"
+  },
+  "live_label_days": {
+    "one": "УЖИВО: 1 ДАН",
+    "few": "УЖИВО: {{.Count}} ДАНА",
+    "other": "УЖИВО: {{.Count}} ДАНА"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Ливе Стреам"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Ово је догађај уживо. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Можете купити карту сада, али ћете морати да гледате док је стрим уживо."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Мораћете да гледате док је стрим уживо."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Овај догађај је тренутно уживо. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Стрим се завршава {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "После тога нећете моћи да гледате стрим."
+  },
+  "shopping_action_ticket": {
+    "other": "Узми карту"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Стрим почиње {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Почело је у {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Не можете га премотати."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Датум истека ваше картице је у прошлости."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Година истека ваше картице је у прошлости."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Број ваше картице је неважећи."
+  },
+  "new_card_error_timed_out": {
+    "other": "Нешто није у реду приликом додавања те картице. Покушајте поново касније или користите другу картицу."
   }
 }

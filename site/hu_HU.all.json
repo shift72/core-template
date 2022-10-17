@@ -1413,6 +1413,21 @@
   "shopping_error_invalid_session_token": {
     "other": "A vásárlási munkamenet lejárt, próbálkozzon újra."
   },
+  "live_stream_starts": {
+    "other": "Az adatfolyam elindul {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streamelés most"
+  },
+  "live_streaming_ended": {
+    "other": "Az adatfolyam véget ért"
+  },
+  "availability_live": {
+    "other": "ÉLŐ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Vegyél jegyet"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Nem használhat promóciós kódot ehhez a vásárláshoz vagy kölcsönzéshez"
   },
@@ -1433,5 +1448,68 @@
   },
   "shopping_error_missing_code": {
     "other": "Nem adtak meg promóciós kódot"
+  },
+  "live_label_ended": {
+    "other": "ÉLŐ: VÉGE"
+  },
+  "live_label_live": {
+    "other": "ÉLŐ"
+  },
+  "live_label_minutes": {
+    "one": "ÉLŐ: 1 PERC",
+    "other": "ÉLŐ: {{.Count}} PERC"
+  },
+  "live_label_hours": {
+    "one": "ÉLŐ: 1 ÓRA",
+    "other": "ÉLŐ: {{.Count}} ÓRA"
+  },
+  "live_label_days": {
+    "one": "ÉLŐ: 1 NAP",
+    "other": "ÉLŐ: {{.Count}} NAPOK"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Élő adás"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Ez egy élő esemény. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Már most is vásárolhat jegyet, de a közvetítést élőben kell néznie."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "A közvetítést élőben kell nézni."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Ez az esemény jelenleg élő. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Az adatfolyam véget ér {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Utána nem fogod tudni nézni a streamet."
+  },
+  "shopping_action_ticket": {
+    "other": "Vegyél jegyet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Az adatfolyam elindul {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "{{.Date}} -kor kezdődött. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Nem lehet visszatekerni."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Kártyája lejárati dátuma a múltban van."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "A kártya lejárati éve már a múltban van."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "A kártyaszám érvénytelen."
+  },
+  "new_card_error_timed_out": {
+    "other": "Valami hiba történt a kártya hozzáadásakor. Kérjük, próbálja újra később, vagy használjon másik kártyát."
   }
 }

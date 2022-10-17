@@ -1465,6 +1465,21 @@
   "shopping_error_invalid_session_token": {
     "other": "انتهت جلسة التسوق ، يرجى المحاولة مرة أخرى."
   },
+  "live_stream_starts": {
+    "other": "يبدأ الدفق {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "يتدفقون الآن"
+  },
+  "live_streaming_ended": {
+    "other": "انتهى الدفق"
+  },
+  "availability_live": {
+    "other": "يعيش"
+  },
+  "shopping_action_get_ticket": {
+    "other": "احصل على تذكرة"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "لا يمكنك استخدام الرمز الترويجي لهذا الشراء أو الاستئجار"
   },
@@ -1485,5 +1500,80 @@
   },
   "shopping_error_missing_code": {
     "other": "لم يتم تقديم رمز ترويجي"
+  },
+  "live_label_ended": {
+    "other": "مباشر: انتهى"
+  },
+  "live_label_live": {
+    "other": "يعيش"
+  },
+  "live_label_minutes": {
+    "zero": "{{.Count}} المباشر: عدد الدقائق",
+    "one": "البث المباشر: دقيقة واحدة",
+    "two": "{{.Count}} المباشر: عدد الدقائق",
+    "few": "{{.Count}} المباشر: عدد الدقائق",
+    "many": "{{.Count}} المباشر: عدد الدقائق",
+    "other": "{{.Count}} المباشر: عدد الدقائق"
+  },
+  "live_label_hours": {
+    "zero": "البث المباشر: {{.Count}} الساعات",
+    "one": "بث مباشر: 1 ساعة",
+    "two": "البث المباشر: {{.Count}} الساعات",
+    "few": "البث المباشر: {{.Count}} الساعات",
+    "many": "البث المباشر: {{.Count}} الساعات",
+    "other": "البث المباشر: {{.Count}} الساعات"
+  },
+  "live_label_days": {
+    "zero": "مباشر: {{.Count}} أيام",
+    "one": "مباشر: يوم واحد",
+    "two": "مباشر: {{.Count}} أيام",
+    "few": "مباشر: {{.Count}} أيام",
+    "many": "مباشر: {{.Count}} أيام",
+    "other": "مباشر: {{.Count}} أيام"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "البث المباشر"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "هذا حدث مباشر."
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "يمكنك شراء تذكرة الآن ولكنك ستحتاج إلى المشاهدة أثناء البث المباشر."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "ستحتاج إلى المشاهدة أثناء البث المباشر."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "هذا الحدث مباشر حاليا."
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "ينتهي {{.Date}} . التاريخ."
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "لن تتمكن من مشاهدة البث بعد ذلك."
+  },
+  "shopping_action_ticket": {
+    "other": "احصل على تذكرة"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "يبدأ {{.Date}} . التاريخ."
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "بدأت في {{.Date}} ."
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "لا يمكنك إرجاعه."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "تاريخ انتهاء صلاحية بطاقتك في الماضي."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "انقضت سنة انتهاء صلاحية بطاقتك."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "رقم بطاقتك غير صالح."
+  },
+  "new_card_error_timed_out": {
+    "other": "حدث خطأ ما عند إضافة تلك البطاقة. يرجى المحاولة مرة أخرى في وقت لاحق أو استخدام بطاقة مختلفة."
   }
 }

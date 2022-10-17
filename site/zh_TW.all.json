@@ -1403,6 +1403,21 @@
   "shopping_error_invalid_session_token": {
     "other": "購物會話已過期，請重試。"
   },
+  "live_stream_starts": {
+    "other": "流开始 {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "立即流式传输"
+  },
+  "live_streaming_ended": {
+    "other": "直播已结束"
+  },
+  "availability_live": {
+    "other": "居住"
+  },
+  "shopping_action_get_ticket": {
+    "other": "取票"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "您不能為此購買或租賃使用促銷代碼"
   },
@@ -1423,5 +1438,65 @@
   },
   "shopping_error_missing_code": {
     "other": "未提供促銷代碼"
+  },
+  "live_label_ended": {
+    "other": "直播：結束"
+  },
+  "live_label_live": {
+    "other": "居住"
+  },
+  "live_label_minutes": {
+    "other": "直播：{{.Count}} 分钟"
+  },
+  "live_label_hours": {
+    "other": "直播：{{.Count}} 小时"
+  },
+  "live_label_days": {
+    "other": "直播：{{.Count}} 天"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "現場直播"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "這是一個現場活動。"
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "您現在可以購買門票，但您需要在直播期間觀看。"
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "您需要在直播時觀看。"
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "此活動目前正在進行中。"
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "流結束{{.Date}}。"
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "之後您將無法觀看直播。"
+  },
+  "shopping_action_ticket": {
+    "other": "取票"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "流開始{{.Date}}。"
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "它始於{{.Date}}。"
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "你不能倒帶。"
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "您卡的過期日期已過。"
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "您的卡的到期年份已過去。"
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "您的卡號無效。"
+  },
+  "new_card_error_timed_out": {
+    "other": "添加該卡時出現問題。請稍後再試或使用其他卡。"
   }
 }

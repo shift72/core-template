@@ -1413,6 +1413,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Shoppingøkten er utløpt, prøv igjen."
   },
+  "live_stream_starts": {
+    "other": "Stream starter {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streamer nå"
+  },
+  "live_streaming_ended": {
+    "other": "Strømmen ble avsluttet"
+  },
+  "availability_live": {
+    "other": "BO"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Få billett"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Du kan ikke bruke en kampanjekode for dette kjøpet eller utleien"
   },
@@ -1433,5 +1448,68 @@
   },
   "shopping_error_missing_code": {
     "other": "Ingen kampanjekode ble oppgitt"
+  },
+  "live_label_ended": {
+    "other": "LIVE: AVSLUTTET"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MITT",
+    "other": "LIVE: {{.Count}} MINUTTER"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 TIME",
+    "other": "LIVE: {{.Count}} TIMER"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 DAG",
+    "other": "LIVE: {{.Count}} DAGER"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Direktestrømming"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dette er en Live Event. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Du kan kjøpe en billett nå, men du må se mens strømmen er direkte."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Du må se mens strømmen er direkte."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Denne begivenheten er for øyeblikket live. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Strøm slutter {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Du vil ikke kunne se strømmen etter det."
+  },
+  "shopping_action_ticket": {
+    "other": "Få billett"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Strømmen starter {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Det startet på {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Du kan ikke spole den tilbake."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Kortets utløpsdato er i fortiden."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Kortets utløpsår er i fortiden."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Kortnummeret ditt er ugyldig."
+  },
+  "new_card_error_timed_out": {
+    "other": "Noe gikk galt da kortet ble lagt til. Prøv igjen senere eller bruk et annet kort."
   }
 }

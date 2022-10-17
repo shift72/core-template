@@ -1417,6 +1417,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Sessione di acquisto scaduta, riprova."
   },
+  "live_stream_starts": {
+    "other": "Lo streaming inizia {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "In streaming ora"
+  },
+  "live_streaming_ended": {
+    "other": "Il flusso è terminato"
+  },
+  "availability_live": {
+    "other": "ABITARE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Ottieni il biglietto"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Non è possibile utilizzare un codice promozionale per questo acquisto o noleggio"
   },
@@ -1437,5 +1452,68 @@
   },
   "shopping_error_missing_code": {
     "other": "Non è stato fornito alcun codice promozionale"
+  },
+  "live_label_ended": {
+    "other": "IN DIRETTA: FINITA"
+  },
+  "live_label_live": {
+    "other": "IN DIRETTA"
+  },
+  "live_label_minutes": {
+    "one": "IN DIRETTA: 1 MINUTO",
+    "other": "IN DIRETTA: {{.Count}} MINUTI"
+  },
+  "live_label_hours": {
+    "one": "IN DIRETTA: 1 ORA",
+    "other": "IN DIRETTA: {{.Count}} ORE"
+  },
+  "live_label_days": {
+    "one": "IN DIRETTA: 1 GIORNO",
+    "other": "IN DIRETTA: {{.Count}} GIORNI"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Trasmissione in diretta"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Questo è un evento dal vivo. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Puoi acquistare un biglietto ora ma dovrai guardarlo mentre lo streaming è in diretta."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Dovrai guardare mentre lo streaming è in diretta."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Questo evento è attualmente in diretta. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Il flusso termina {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Non sarai in grado di guardare lo streaming dopo."
+  },
+  "shopping_action_ticket": {
+    "other": "Ottieni il biglietto"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Il flusso inizia {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "È iniziato a {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Non puoi riavvolgerlo."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "La data di scadenza della tua carta è nel passato."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "L'anno di scadenza della tua carta è nel passato."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Il numero della tua carta non è valido."
+  },
+  "new_card_error_timed_out": {
+    "other": "Qualcosa è andato storto durante l'aggiunta di quella carta. Riprova più tardi o usa una carta diversa."
   }
 }

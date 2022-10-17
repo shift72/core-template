@@ -1413,6 +1413,21 @@
   "shopping_error_invalid_session_token": {
     "other": "Osteseanss aegus, proovige uuesti."
   },
+  "live_stream_starts": {
+    "other": "Voog käivitub {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Voogesitus praegu"
+  },
+  "live_streaming_ended": {
+    "other": "Voog lõppes"
+  },
+  "availability_live": {
+    "other": "LIVE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Hankige pilet"
+  },
   "shopping_error_credit_discounts_not_allowed": {
     "other": "Selle ostu või rentimise jaoks ei saa te sooduskoodi kasutada"
   },
@@ -1433,5 +1448,68 @@
   },
   "shopping_error_missing_code": {
     "other": "Sooduskoodi ei antud"
+  },
+  "live_label_ended": {
+    "other": "OTSE: LÕPPENUD"
+  },
+  "live_label_live": {
+    "other": "OTSE"
+  },
+  "live_label_minutes": {
+    "one": "OTSE: 1 MINUT",
+    "other": "OTSE: {{.Count}} MINUTID"
+  },
+  "live_label_hours": {
+    "one": "OTSE: 1 TUND",
+    "other": "OTSE: {{.Count}} TUNNID"
+  },
+  "live_label_days": {
+    "one": "OTSE: 1 PÄEV",
+    "other": "OTSE: {{.Count}} PÄEVAD"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Otseülekanne"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "See on otseülekanne. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Pileti saate osta kohe, kuid peate vaatama otseülekannet."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Peate vaatama otseülekannet."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "See sündmus on praegu otse-eetris. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Voog lõpeb {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Pärast seda ei saa te otseülekannet vaadata."
+  },
+  "shopping_action_ticket": {
+    "other": "Hankige pilet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Voog algab {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "See algas kell {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Te ei saa seda tagasi kerida."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Teie kaardi aegumiskuupäev on minevik."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Teie kaardi aegumisaasta on möödas."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Teie kaardi number on kehtetu."
+  },
+  "new_card_error_timed_out": {
+    "other": "Selle kaardi lisamisel läks midagi valesti. Proovige hiljem uuesti või kasutage teist kaarti."
   }
 }
