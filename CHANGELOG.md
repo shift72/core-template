@@ -1,6 +1,9 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.5.1...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.6.0...HEAD)
+
+
+## [1.6.0](https://github.com/shift72/core-template/compare/1.5.1...1.6.0)
 
 ### Added
 - AB#9564 Live label to film detail page and carousel with translations.
