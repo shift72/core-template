@@ -4,11 +4,6 @@
   padding: 6px 12px;
   white-space: nowrap;
   width: 100%;
-
-  @include media-breakpoint-up(xs) {
-    min-width: fit-content;
-    width: 140px;
-  }
 }
 
 .cta-buttons {
@@ -37,7 +32,7 @@
     grid-template-columns: 1fr 1fr;
 
     @include media-breakpoint-up(xs) {
-      grid-template-columns: none;
+      grid-template-columns: fit-content(100%);
     }
 
     > * {
