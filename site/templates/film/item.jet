@@ -157,9 +157,9 @@
               <h2>{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := film.Bonuses}}
-                  <div class="sub-item">
+                  <s72-unhide-switch class="sub-item" target-elem=".synopsis" disable-above=667>
                     {{yield subItem(item=bonus)}}
-                  </div>
+                  </s72-unhide-switch>
                 {{end}}
               {{end}}
             </section>
