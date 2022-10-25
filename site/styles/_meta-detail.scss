@@ -151,31 +151,31 @@
         margin-bottom: 20px;
       }
     }
-  }
 
-  .poster {
-    animation: fadein 2s;
-    display: block;
-    flex-shrink: 0;
-    margin-right: 20px;
-    width: 110px;
+    .poster {
+      animation: fadein 2s;
+      display: block;
+      flex-shrink: 0;
+      margin-right: 20px;
+      width: 110px;
 
-    @include media-breakpoint-up(xs) {
-      width: 155px;
+      @include media-breakpoint-up(xs) {
+        width: 155px;
+      }
+
+      @include media-breakpoint-up(xl) {
+        width: 208px;
+      }
+
+      .live {
+        display: none;
+      }
     }
 
-    @include media-breakpoint-up(xl) {
-      width: 208px;
-    }
-
-    .live {
-      display: none;
-    }
-  }
-
-  .poster-wrapper .sponsor {
-    @include media-breakpoint-up(lg) {
-      display: none;
+    .sponsor {
+      @include media-breakpoint-up(lg) {
+        display: none;
+      }
     }
   }
 
