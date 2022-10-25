@@ -75,7 +75,10 @@ export const Rentable = ({showAwardCategories, showBonusContent, showRecommended
       div.querySelector('s72-classification-label')?.remove();
     }
     if (!showPoster) {
-      div.querySelector('.poster-wrapper .poster-portrait')?.remove();
+      const poster = div.querySelector('.poster-wrapper .poster-portrait')
+      if (poster) {
+        poster.innerHTML = "";
+      }
     }
 
     return div;
