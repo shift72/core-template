@@ -1508,8 +1508,5 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "Ihre Kartennummer ist ungültig."
-  },
-  "new_card_error_timed_out": {
-    "other": "Beim Hinzufügen dieser Karte ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut oder verwenden Sie eine andere Karte."
   }
 }

@@ -1495,8 +1495,5 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "カード番号が無効です。"
-  },
-  "new_card_error_timed_out": {
-    "other": "カードの追加中にエラーが発生しました。後でもう一度試すか、別のカードを使用してください。"
   }
 }

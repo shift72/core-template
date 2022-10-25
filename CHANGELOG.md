@@ -7,12 +7,10 @@
 - AB#9361 Translations for live events, poster live availability status styling changes
 - Translations for live event purchase flow.
 - Translations for credit card validation errors.
-- Translations for new card timing out error.
 
 ### Fixed
 - Inline cta buttons now grow when text is wider than button width.
 - TV season detail page layout now matches film detail page layout.
-- Trailer autoplay disabled for CTA buttons in homepage carousel.
 
 ### Fixed
 - Gap below page-collections consistent with sliders

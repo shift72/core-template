@@ -48,7 +48,7 @@
     $font-size: var(--heading-3-style-font-size),
     $letter-spacing: var(--heading-3-style-letter-spacing),
     $font-weight: $font-weight-normal,
-    $margin-bottom: 12px,
+    $margin-bottom: 6px,
     $line-height: 24px
   );
   @include media-breakpoint-up(sm) {

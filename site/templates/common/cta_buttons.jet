@@ -1,11 +1,10 @@
 {{import "./social-media-buttons.jet"}}
 
-{{block ctaButtons(itemType, context="item")}}
+{{block ctaButtons(itemType)}}
   {{isFilm := itemType == "film"}}
   {{isSeason := itemType == "tvseason"}}
   {{isEpisode := itemType == "tvepisode"}}
   {{isBundle := itemType == "bundle"}}
-  {{isCarousel := context == "carousel"}}
 
   {{slug := .Slug}}
   {{trailerURL := isBundle ? .PromoURL : (isFilm || isSeason) && len(.Trailers) > 0 ? .Trailers[0].URL : ""}}
@@ -16,11 +15,9 @@
   {{showTrailerButton := trailerURL != ""}}
   {{showWishlistButton := isFilm || isSeason || isEpisode}}
   {{showShareButton := isFilm || isSeason || isEpisode || isBundle}}
-  {{autoplay := !isCarousel}}
 
   {{showCtaButtons := showPricingButtons || showPlayButton || showCanBeWatchedButton || showTrailerButton || showWishlistButton || showShareButton}}
   {{showExtraButtons := showTrailerButton || showWishlistButton || showShareButton}}
-
 
   {{if showCtaButtons}}
     <div class="cta-buttons">
@@ -44,7 +41,7 @@
 
           {{if showTrailerButton}}
             {{dataLabel := i18n("play_trailer")}}
-            <s72-modal-player src="{{trailerURL}}" class="s72-btn-trailer" data-slug="{{slug}}" data-label="{{dataLabel}}" {{if autoplay}}autoplay="querystring"{{end}} layout="tooltip"></s72-modal-player>
+            <s72-modal-player src="{{trailerURL}}" class="s72-btn-trailer" data-slug="{{slug}}" data-label="{{dataLabel}}" autoplay="querystring" layout="tooltip"></s72-modal-player>
           {{end}}
 
           {{if showWishlistButton}}
