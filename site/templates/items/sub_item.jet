@@ -17,6 +17,6 @@
     </span>
   {{end}}
   {{if item.Overview}}
-    <div class="synopsis">{{item.Overview | raw}}</div>
+    <div class="synopsis s72-hide">{{item.Overview | raw}}</div> {* hide class prevents FOUC *}
   {{end}}
 {{ end }}
