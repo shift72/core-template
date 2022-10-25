@@ -14,9 +14,7 @@
       <a class="navbar-brand-logo" href="{{routeToPath("/")}}">{{yield logo()}}</a>
     </div>
 
-    {{if config("search_disabled") != "true"}}
-      <s72-search-bar></s72-search-bar>
-    {{end}}
+    <s72-search-bar></s72-search-bar>
     <div class="navbar-toggler-container">
       <button class="navbar-toggler" type="button" s72-collapse=".navigation" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="hamburger-top"></span>
