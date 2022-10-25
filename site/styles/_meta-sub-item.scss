@@ -9,6 +9,9 @@
   @include media-breakpoint-up(sm) {
     grid-template-columns: 175px minmax(100px, 1fr);
     grid-template-rows: auto auto minmax(0, 1fr);
+    .s72-toggle {
+      display: none;
+    }
   }
 
   h3 {
