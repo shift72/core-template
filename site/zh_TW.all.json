@@ -1495,5 +1495,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "您的卡號無效。"
+  },
+  "new_card_error_timed_out": {
+    "other": "添加該卡時出現問題。請稍後再試或使用其他卡。"
   }
 }

@@ -1508,5 +1508,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "Korttisi numero on virheellinen."
+  },
+  "new_card_error_timed_out": {
+    "other": "Jotain meni pieleen korttia lisättäessä. Yritä myöhemmin uudelleen tai käytä toista korttia."
   }
 }
