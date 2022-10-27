@@ -4,7 +4,7 @@
   &.meta-awards-all {
     display: grid;
     gap: 30px 104px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-top: 20px;
 
     @include media-breakpoint-up(md) {
