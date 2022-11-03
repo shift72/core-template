@@ -10,17 +10,21 @@ import { locationNewZealand } from './../mocks/geo/v1/location/where_am_i';
 import { playbackProgressExists } from './../mocks/content/v1/playback_progress';
 import { assortedBundles } from './../mocks/meta/v1/bundles';
 import { multipleEpisodes } from './../mocks/meta/v2/tv/season/show_multiple';
+import { customDocs } from './../functions/customDocs'
 
 export default {
-  title: 'Molecules/FilmDetailPageMolecules',
+  title: 'Molecules/FilmDetailPage',
   decorators: [withMock],
+  parameters: {
+    docs: { page: customDocs(`<h3>No docs written yet<h3>`) }
+  },
 };
 
 export const SubItem = (args, {loaded: { Component }}) => {
   const parser = new DOMParser();
   const htmlDoc = parser.parseFromString(Component, "text/html");
   const div = document.createElement('div');
-  div.innerHTML = htmlDoc.querySelector('.sub-item').outerHTML
+  div.innerHTML = htmlDoc.querySelector('.sub-item')?.outerHTML
   return div;
 };
 
@@ -52,7 +56,7 @@ export const CTAButtons = (args, {loaded: { Component }}) => {
   const parser = new DOMParser();
   const htmlDoc = parser.parseFromString(Component, "text/html");
   const div = document.createElement('div');
-  div.innerHTML = htmlDoc.querySelector('.cta-buttons').outerHTML
+  div.innerHTML = htmlDoc.querySelector('.cta-buttons')?.outerHTML
   return div;
 };
 

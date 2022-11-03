@@ -8,6 +8,7 @@ import { assortedPlans, noPlans } from './../mocks/pricing/v1/plans';
 import { availableNowUntil48Hours, noAvailabilitySet } from '../mocks/content/v1/availabilities';
 import { locationNewZealand } from '../mocks/geo/v1/location/where_am_i';
 import { playbackProgressExists } from '../mocks/content/v1/playback_progress';
+import { customDocs } from './../functions/customDocs'
 
 export default {
   title: 'Pages/Home',
@@ -23,6 +24,9 @@ export default {
     showShareButton: { control: 'boolean' },
     showAvailabilityLabel: { control: 'boolean' },
     showRating: { control: 'boolean' }
+  },
+  parameters: {
+    docs: { page: customDocs(`<h3>No docs written yet<h3>`) }
   },
 };
 

@@ -10,17 +10,21 @@ import { locationNewZealand } from './../mocks/geo/v1/location/where_am_i';
 import { playbackProgressExists } from './../mocks/content/v1/playback_progress';
 import { assortedBundles } from './../mocks/meta/v1/bundles';
 import { multipleEpisodes } from './../mocks/meta/v2/tv/season/show_multiple';
+import { customDocs } from './../functions/customDocs'
 
 export default {
   title: 'Organisms/Collections',
   decorators: [withMock],
+  parameters: {
+    docs: { page: customDocs(`<h3>No docs written yet<h3>`) }
+  },
 };
 
 export const PageCollectionSliderPortrait = (args, {loaded: { Component }}) => {
     const parser = new DOMParser();
     const htmlDoc = parser.parseFromString(Component, "text/html");
     const div = document.createElement('div');
-    div.innerHTML = htmlDoc.querySelector('.page-collection-slider').outerHTML
+    div.innerHTML = htmlDoc.querySelector('.page-collection-slider')?.outerHTML
     return div;
 };
 
@@ -52,7 +56,7 @@ export const PageCollectionListLandscape = (args, {loaded: { Component }}) => {
   const parser = new DOMParser();
   const htmlDoc = parser.parseFromString(Component, "text/html");
   const div = document.createElement('div');
-  div.innerHTML = htmlDoc.querySelector('.page-collection-list').outerHTML
+  div.innerHTML = htmlDoc.querySelector('.page-collection-list')?.outerHTML
   return div;
 };
 

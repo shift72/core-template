@@ -4,6 +4,7 @@ import { itemLimitNotReached } from './../mocks/shopping/v1/item_limit';
 import { assortedPlans } from './../mocks/pricing/v1/plans';
 import { singleFilmRentableInYourRegion } from './../mocks/pricing/v2/prices/show_multiple';
 import { availableNowUntil48Hours } from './../mocks/content/v1/availabilities';
+import { customDocs } from './../functions/customDocs'
 
 export default {
   title: 'Molecules/ForgotPasswordForm',
@@ -11,6 +12,9 @@ export default {
     poster: {
       control: 'text'
     },
+  },
+  parameters: {
+    docs: { page: customDocs(`<h3>No docs written yet<h3>`) }
   },
   decorators: [withMock],
 };

@@ -15,7 +15,6 @@ export default {
     poster: {
       control: 'text'
     },
-
   },
   parameters: {
     docs: { page: customDocs(`<h3>No docs written yet<h3>`) }
@@ -27,9 +26,9 @@ const Template = ({hideCanBeWatchedButton}, {loaded: { Component }}) => {
     const parser = new DOMParser();
     const htmlDoc = parser.parseFromString(Component, "text/html");
     var div = document.createElement('div');
-    div.innerHTML = htmlDoc.querySelector('.page-collection-slider').outerHTML
+    div.innerHTML = htmlDoc.querySelector('.page-collection-slider')?.outerHTML
     div.makeOnlyOneOf('.swiper-slide');
-    div.querySelector('.swiper-title').remove();
+    div.querySelector('.swiper-title')?.remove();
     document.addEventListener('s72loaded', function (event) {
       div.querySelector('.page-collection').classList = "";
       div.querySelector('.collection-wrapper-container').classList = "";
