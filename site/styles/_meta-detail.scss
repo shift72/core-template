@@ -241,10 +241,6 @@ s72-element-switcher,
   .meta-detail-switcher-tagline {
     padding-top: 12px;
 
-    @include media-breakpoint-up(xs) {
-      padding-bottom: 4px;
-    }
-
     p {
       animation: fadein 2s;
     }
@@ -457,6 +453,7 @@ s72-element-switcher {
   margin-bottom: 62px;
 
   .s72-toggle {
+    bottom: -36px;
     &:hover {
       color: var(--body-color-hover);
     }
@@ -467,7 +464,6 @@ s72-element-switcher {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(1, 1fr);
-  padding-bottom: 14px;
 
   @include media-breakpoint-up(lg) {
     grid-template-columns: repeat(2, 1fr);
