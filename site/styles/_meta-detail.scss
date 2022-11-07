@@ -422,8 +422,8 @@ s72-element-switcher,
   width: 100%;
 
   @include media-breakpoint-up(lg) {
-    grid-template-columns: auto auto;
     gap: 50px;
+    grid-template-columns: auto auto;
   }
 
   .sponsor {
