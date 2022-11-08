@@ -3,19 +3,10 @@
   grid-gap: 15px;
   grid-template-columns: 112px minmax(100px, 1fr);
   grid-template-rows: auto minmax(0, 1fr);
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-  transition: height 0.5s ease;
-  @include media-breakpoint-up(sm) {
-    height: auto !important;
-  }
 
   @include media-breakpoint-up(sm) {
     grid-template-columns: 175px minmax(100px, 1fr);
     grid-template-rows: auto auto minmax(0, 1fr);
-    .s72-toggle {
-      display: none;
-    }
   }
 
   h3 {
@@ -119,4 +110,20 @@
 
 .s72-playback-progress-bar {
   background-color: var(--secondary);
+}
+
+s72-show-hide-switcher {
+  display: block;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  transition: height 0.5s ease;
+
+  @include media-breakpoint-up(sm) {
+    height: auto !important;
+  }
+  .s72-toggle {
+    @include media-breakpoint-up(sm) {
+      display: none;
+    }
+  }
 }
