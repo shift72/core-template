@@ -233,7 +233,7 @@ s72-element-switcher,
     max-width: 728px;
 
     @include media-breakpoint-up(xs) {
-      padding-bottom: 4px;
+      margin-bottom: 0;
     }
     @include media-breakpoint-up(xl) {
       max-width: 1100px;
