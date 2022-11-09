@@ -118,9 +118,6 @@ s72-show-hide-switcher {
   padding-bottom: 15px;
   transition: height 0.5s ease;
 
-  @include media-breakpoint-up(sm) {
-    height: auto !important;
-  }
   .s72-toggle {
     @include media-breakpoint-up(sm) {
       display: none;
