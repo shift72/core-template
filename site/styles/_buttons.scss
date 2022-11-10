@@ -130,10 +130,12 @@
   }
 }
 
-
-
 .s72-purchase-option.rent-or-buy {
   .s72-purchase-option-buttons {
+
+    @include media-breakpoint-up(md) {
+      flex-wrap: nowrap;
+    }
     // If there are two buttons...
     :first-child:nth-last-child(2) {
       @include media-breakpoint-up(md) {
@@ -146,10 +148,6 @@
         margin-left: 5px;
       }
     }
-
-    @include media-breakpoint-up(md) {
-      flex-wrap: nowrap;
-    }
   }
 
   .s72-btn-purchase-option {
@@ -157,10 +155,6 @@
     color: var(--body-color);
     margin-bottom: 10px;
 
-    &:last-child {
-      margin-bottom: 0;
-    }
-    
     @include hover-focus {
       background: $button-background-hover;
       border-color: $button-background-hover;
@@ -168,6 +162,10 @@
     }
 
     @include media-breakpoint-up(md) {
+      margin-bottom: 0;
+    }
+
+    &:last-child {
       margin-bottom: 0;
     }
   }
