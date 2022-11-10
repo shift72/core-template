@@ -110,7 +110,8 @@
 
 .s72-btn-rent,
 .s72-btn-purchase,
-.s72-btn-subscribe {
+.s72-btn-subscribe,
+.s72-btn-purchase-option {
   background: $button-background;
   border: 3px solid $button-background;
   min-width: 140px;
@@ -126,6 +127,49 @@
 
   .price {
     font-weight: $font-weight-normal;
+  }
+}
+
+
+
+.s72-purchase-option.rent-or-buy {
+  .s72-purchase-option-buttons {
+    // If there are two buttons...
+    :first-child:nth-last-child(2) {
+      @include media-breakpoint-up(md) {
+        margin-right: 5px;
+      }
+    }
+
+    :last-child:nth-last-child(1) {
+      @include media-breakpoint-up(md) {
+        margin-left: 5px;
+      }
+    }
+
+    @include media-breakpoint-up(md) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  .s72-btn-purchase-option {
+    background: transparent;
+    color: var(--body-color);
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
+    @include hover-focus {
+      background: $button-background-hover;
+      border-color: $button-background-hover;
+      color: $button-text-color-hover;
+    }
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0;
+    }
   }
 }
 

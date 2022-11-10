@@ -118,6 +118,10 @@
   content: '\e010';
 }
 
+.fa-external-link::before {
+  content: '\e004'
+}
+
 .fa-linkedin::before {
   content: '\e011';
 }
