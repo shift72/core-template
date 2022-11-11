@@ -6,14 +6,14 @@
   "scripts": {
     "start": "run-s -l init && run-p -l css:watch js:watch kibble:start",
     "init": "run-p -l css css:local:get js",
-    "css": "sass ./site/styles/main.scss ./site/static/styles/main.css --load-path=node_modules",
+    "css": "sass --embed-sources ./site/styles/main.scss ./site/static/styles/main.css --load-path=node_modules",
     "css:lint": "prettier 'site/styles/*.scss' --write && stylelint ./site/styles/*.scss --fix",
     "css:watch": "npm run css -- --watch",
     "css:build": "postcss ./site/static/styles/main.css --use autoprefixer --use cssnano -r",
     "css:local:get": "node scripts/css-local-get.js",
     "css:local:put": "node scripts/css-local-put.js",
     "js": "rollup -c",
-    "js:lint": "prettier '{scripts,site/static/js}/**/!(modernizr-custom).*js' --write && eslint ./site/static/js/*.*js ./scripts --fix",
+    "js:lint": "prettier '{scripts,site/static/js}/**/!(modernizr-custom).*js' --wrrite && eslint ./site/static/js/*.*js ./scripts --fix",
     "js:watch": "rollup -c -w",
     "js:build": "rollup -c",
     "kibble": "kibble render",
@@ -27,7 +27,8 @@
     "prestart": "npm run version",
     "prebuild": "npm run version",
     "prepare": "npm run version",
-    "translate": "node scripts/translate.mjs"
+    "translate": "node scripts/translate.mjs",
+    "coverage": "node scripts/puppeteer.js"
   },
   "repository": {
     "type": "git",
@@ -50,6 +51,7 @@
     "npm-run-all": "^4.0.2",
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.1",
+    "puppeteer": "^19.2.2",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
     "s72-kibble": "^0.17.0",
@@ -63,14 +65,15 @@
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "form-data": "^4.0.0",
+    "glob": "^7.2.0",
+    "node-fetch": "^3.2.3",
     "prettier": "^2.3.2",
+    "storybook-addon-mock": "^3.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-prettier": "^1.2.0",
-    "stylelint-scss": "^3.19.0",
-    "glob": "^7.2.0",
-    "node-fetch": "^3.2.3"
+    "stylelint-scss": "^3.19.0"
   },
   "eslintConfig": {
     "settings": {
