@@ -63,3 +63,9 @@ window.waitForGlobal = (name, callback) => {
     setTimeout(waitForGlobal, 250);
   }
 }
+
+document.addEventListener('s72loaded', ()=>{
+  if (document.readyState == 'complete') {
+    window.dispatchEvent(new Event("load"));
+  }
+});

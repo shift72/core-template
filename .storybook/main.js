@@ -10,8 +10,12 @@ module.exports = {
     "storybook-addon-mock/register"
   ],
   "framework": "@storybook/html",
-  "staticDirs": ['../.kibble/build',{ from: '../.kibble/build/index.html', to: '/homepage/index.html' }],
-    "features": {
-      "previewMdx2": true,
-    },
+  "staticDirs": [
+    '../.kibble/build',
+    { from: '../.kibble/build/index.html', to: '/homepage/index.html' },
+    { from: './robots.txt', to: '/robots.txt' }
+  ],
+  "features": {
+    "previewMdx2": true,
+  },
 }

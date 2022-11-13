@@ -1,11 +1,10 @@
-import { createAvailabilityStatusPoster } from './AvailabilityStatusPoster';
 import withMock from 'storybook-addon-mock';
 import { customDocs } from './../functions/customDocs'
 import { itemLimitReached, itemLimitNotReached, noItemLimits } from './../mocks/shopping/v1/item_limit';
 import { noPlaybackProgress, playbackProgressExists } from './../mocks/content/v1/playback_progress';
 import { noUserPlans } from './../mocks/content/v1/user_plans';
 import { emptyWishlist } from './../mocks/users/v1/wishlist';
-import { singleFilmRentableInYourRegion, noPricesInYourRegion, singleFilmBelongsToMultipleRecurringPlans } from './../mocks/pricing/v2/prices/show_multiple';
+import { singleFilmRentableInYourRegion, noPricesInYourRegion, singleFilmBelongsToSingleRecurringPlan } from './../mocks/pricing/v2/prices/show_multiple';
 import { currentlyRenting, startedWatchWindow, emptyLibrary, expiredWatchWindow } from "./../mocks/content/v4/user_library";
 import { assortedPlans, noPlans } from './../mocks/pricing/v1/plans';
 import { availableNowUntil48Hours, availableIn48Hours, availableIn24Hours, availableIn3Hours, availableIn1Hour, availableIn8Days, availableNowUntilIndefinate, expired48HoursAgo, noAvailabilitySet } from './../mocks/content/v1/availabilities';
@@ -16,7 +15,6 @@ export default {
     poster: {
       control: 'text'
     },
-
   },
   parameters: {
     docs: { page: customDocs(`<h3>No docs written yet<h3>`) }
@@ -28,9 +26,9 @@ const Template = ({hideCanBeWatchedButton}, {loaded: { Component }}) => {
     const parser = new DOMParser();
     const htmlDoc = parser.parseFromString(Component, "text/html");
     var div = document.createElement('div');
-    div.innerHTML = htmlDoc.querySelector('.page-collection-slider').outerHTML
+    div.innerHTML = htmlDoc.querySelector('.page-collection-slider')?.outerHTML
     div.makeOnlyOneOf('.swiper-slide');
-    div.querySelector('.swiper-title').remove();
+    div.querySelector('.swiper-title')?.remove();
     document.addEventListener('s72loaded', function (event) {
       div.querySelector('.page-collection').classList = "";
       div.querySelector('.collection-wrapper-container').classList = "";
@@ -89,7 +87,7 @@ SubscribeToWatch.parameters = {
   mockData: [
     noItemLimits,
     assortedPlans,
-    singleFilmBelongsToMultipleRecurringPlans,
+    singleFilmBelongsToSingleRecurringPlan,
     noAvailabilitySet,
     noUserPlans,
     emptyLibrary,

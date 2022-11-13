@@ -1,5 +1,6 @@
 import { createAvailabilityStatus } from './AvailabilityStatus';
 import withMock from 'storybook-addon-mock';
+import { customDocs } from './../functions/customDocs'
 
 import { noItemLimits, itemLimitReached } from './../mocks/shopping/v1/item_limit';
 import { noPlans } from './../mocks/pricing/v1/plans';
@@ -12,6 +13,9 @@ import { currentlyRenting, emptyLibrary } from "./../mocks/content/v4/user_libra
 export default {
   title: 'Atoms/AvailabilityStatus',
   decorators: [withMock],
+  parameters: {
+    docs: { page: customDocs(`<h3>No docs written yet<h3>`) }
+  },
 };
 
 const Template = ({ label, ...args }) => {
