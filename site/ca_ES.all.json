@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "En col·laboració amb"
@@ -1508,5 +1508,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "El vostre número de targeta no és vàlid."
+  },
+  "new_card_error_timed_out": {
+    "other": "S'ha produït un error en afegir aquesta targeta. Torneu-ho a provar més tard o utilitzeu una altra targeta."
   }
 }

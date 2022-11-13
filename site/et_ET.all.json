@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "koostöös"
@@ -1508,5 +1508,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "Teie kaardi number on kehtetu."
+  },
+  "new_card_error_timed_out": {
+    "other": "Selle kaardi lisamisel läks midagi valesti. Proovige hiljem uuesti või kasutage teist kaarti."
   }
 }

@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "u suradnji s"
@@ -1510,5 +1510,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "Broj vaše kartice je nevažeći."
+  },
+  "new_card_error_timed_out": {
+    "other": "Nešto nije u redu prilikom dodavanja te kartice. Pokušajte ponovno kasnije ili upotrijebite drugu karticu."
   }
 }

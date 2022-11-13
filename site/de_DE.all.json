@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "in einer Beziehung mit"
@@ -682,7 +682,7 @@
     "other": "Die Zahlung wurde nicht akzeptiert. Bitte schließen Sie das Fenster und versuchen Sie es noch einmal."
   },
   "meta_detail_cast_title": {
-    "other": "Gießen"
+    "other": "Cast"
   },
   "meta_detail_crew_title": {
     "other": "Besatzung"
@@ -1508,5 +1508,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "Ihre Kartennummer ist ungültig."
+  },
+  "new_card_error_timed_out": {
+    "other": "Beim Hinzufügen dieser Karte ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut oder verwenden Sie eine andere Karte."
   }
 }

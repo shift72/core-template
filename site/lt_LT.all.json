@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "in partnership with"
@@ -1540,5 +1540,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "Jūsų kortelės numeris neteisingas."
+  },
+  "new_card_error_timed_out": {
+    "other": "Pridedant šią kortelę kažkas nutiko. Bandykite dar kartą vėliau arba naudokite kitą kortelę."
   }
 }

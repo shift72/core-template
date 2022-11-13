@@ -1512,5 +1512,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "O número do seu cartão é inválido."
+  },
+  "new_card_error_timed_out": {
+    "other": "Algo deu errado ao adicionar esse cartão. Tente novamente mais tarde ou use um cartão diferente."
   }
 }

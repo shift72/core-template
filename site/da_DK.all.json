@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "i samarbejde med"
@@ -1508,5 +1508,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "Dit kortnummer er ugyldigt."
+  },
+  "new_card_error_timed_out": {
+    "other": "Der gik noget galt, da det pågældende kort blev tilføjet. Prøv igen senere, eller brug et andet kort."
   }
 }

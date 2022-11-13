@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "у партнерстві з"
@@ -1568,5 +1568,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "Номер вашої картки недійсний."
+  },
+  "new_card_error_timed_out": {
+    "other": "Під час додавання цієї картки сталася помилка. Повторіть спробу пізніше або скористайтеся іншою карткою."
   }
 }

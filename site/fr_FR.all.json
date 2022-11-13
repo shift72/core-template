@@ -6,10 +6,10 @@
     "other": "Powered by"
   },
   "powered_by_name": {
-    "other": "ScreenPlus"
+    "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "in partnership with"
@@ -1512,5 +1512,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "Votre numéro de carte est invalide."
+  },
+  "new_card_error_timed_out": {
+    "other": "Une erreur s'est produite lors de l'ajout de cette carte. Veuillez réessayer plus tard ou utiliser une autre carte."
   }
 }

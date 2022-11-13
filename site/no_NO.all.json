@@ -1508,5 +1508,8 @@
   },
   "shopping_error_stripe_invalid_number": {
     "other": "Kortnummeret ditt er ugyldig."
+  },
+  "new_card_error_timed_out": {
+    "other": "Noe gikk galt da kortet ble lagt til. Prøv igjen senere eller bruk et annet kort."
   }
 }
