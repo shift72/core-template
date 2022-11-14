@@ -28,7 +28,7 @@
     "prebuild": "npm run version",
     "prepare": "npm run version",
     "translate": "node scripts/translate.mjs",
-    "coverage": "node scripts/puppeteer.js"
+    "coverage": "node scripts/puppeteer.mjs"
   },
   "repository": {
     "type": "git",
