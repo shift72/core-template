@@ -1,108 +1,39 @@
 export const initHomePage = async (page) => {
+
+
     var button = await page.$(`#pages-home`);
     await button.evaluate(b => b.click());
-    await delay(200)
 
-    await homeActions(page);
 
-    var button = await page.$(`#pages-home--in-library`);
+    const homePages = [
+    `#pages-home--in-library`,
+    `#pages-home--buyable`,
+    `#pages-home--unavailable`,
+    `#pages-home--rentable-and-buyable`,
+    `#pages-home--subscribe-to-watch`,
+  ]
+
+  for (const homePageID of homePages) {
+    var button = await page.$(homePageID);
     await button.evaluate(b => b.click());
-    await delay(200)
-
     await homeActions(page);
+ }
 
-    var button = await page.$(`#pages-home--buyable`);
-    await button.evaluate(b => b.click());
-    await delay(200)
-
-    await homeActions(page);
-
-    var button = await page.$(`#pages-home--unavailable`);
-    await button.evaluate(b => b.click());
-    await delay(200)
-
-    await homeActions(page);
-
-    var button = await page.$(`#pages-home--rentable-and-buyable`);
-    await button.evaluate(b => b.click());
-    await delay(200)
-
-    await homeActions(page);
-
-     var button = await page.$(`#pages-home--subscribe-to-watch`);
-    await button.evaluate(b => b.click());
-    await delay(200)
-
-    await homeActions(page);
     page.setViewport({ width: 991, height: 768 });
-    await delay(200)
 
-    await homeActions(page);
-
-    var button = await page.$(`#pages-home--in-library`);
+  for (const homePageID of homePages) {
+    var button = await page.$(homePageID);
     await button.evaluate(b => b.click());
-    await delay(200)
-
     await homeActions(page);
-
-    var button = await page.$(`#pages-home--buyable`);
-    await button.evaluate(b => b.click());
-    await delay(200)
-
-    await homeActions(page);
-
-    var button = await page.$(`#pages-home--unavailable`);
-    await button.evaluate(b => b.click());
-    await delay(200)
-
-    await homeActions(page);
-
-    var button = await page.$(`#pages-home--rentable-and-buyable`);
-    await button.evaluate(b => b.click());
-    await delay(200)
-
-    await homeActions(page);
-
-     var button = await page.$(`#pages-home--subscribe-to-watch`);
-    await button.evaluate(b => b.click());
-    await delay(200)
-
-    await homeActions(page);
+ }
 
     page.setViewport({ width: 380, height: 768 });
-    await delay(200)
 
-    await homeActions(page);
-
-    var button = await page.$(`#pages-home--in-library`);
+  for (const homePageID of homePages) {
+    var button = await page.$(homePageID);
     await button.evaluate(b => b.click());
-    await delay(200)
-
     await homeActions(page);
-
-    var button = await page.$(`#pages-home--buyable`);
-    await button.evaluate(b => b.click());
-    await delay(200)
-
-    await homeActions(page);
-
-    var button = await page.$(`#pages-home--unavailable`);
-    await button.evaluate(b => b.click());
-    await delay(200)
-
-    await homeActions(page);
-
-    var button = await page.$(`#pages-home--rentable-and-buyable`);
-    await button.evaluate(b => b.click());
-    await delay(200)
-
-    await homeActions(page);
-
-     var button = await page.$(`#pages-home--subscribe-to-watch`);
-    await button.evaluate(b => b.click());
-    await delay(200)
-
-    await homeActions(page);
+ }
 }
 
 async function homeActions(page) {
