@@ -9,6 +9,10 @@ import { availableNowUntil48Hours, noAvailabilitySet } from '../mocks/content/v1
 import { locationNewZealand } from '../mocks/geo/v1/location/where_am_i';
 import { playbackProgressExists } from '../mocks/content/v1/playback_progress';
 import { customDocs } from './../functions/customDocs'
+import { filmExists } from "../mocks/meta/v2/film/3144/show_multiple";
+import { shoppingSessionCreated } from "../mocks/shopping/v1/item/create";
+import { stripePurchaseProcessing } from "../mocks/shopping/v2/item/1ff72eae33e0e1dd1deb6a608144f1b1/stripe/purchase"
+import { stripePurchase2 } from "../mocks/shopping/v1/item/1ff72eae33e0e1dd1deb6a608144f1b1/status"
 
 export default {
   title: 'Pages/FilmDetail',
@@ -126,7 +130,11 @@ Rentable.parameters = {
     emptyLibrary,
     emptyWishlist,
     locationNewZealand,
-    playbackProgressExists
+    playbackProgressExists,
+    filmExists,
+    shoppingSessionCreated,
+    stripePurchaseProcessing,
+    stripePurchase2
     ]
 };
 
@@ -138,7 +146,11 @@ SubscribeToWatch.parameters = {
     noAvailabilitySet,
     noUserPlans,
     emptyLibrary,
-    emptyWishlist
+    emptyWishlist,
+    filmExists,
+    shoppingSessionCreated,
+    stripePurchaseProcessing,
+    stripePurchase2
   ]
 }
 
@@ -152,7 +164,11 @@ mockData: [
   currentlyRenting,
   emptyWishlist,
   locationNewZealand,
-  playbackProgressExists
+  playbackProgressExists,
+  filmExists,
+  shoppingSessionCreated,
+  stripePurchaseProcessing,
+  stripePurchase2
   ]
 };
 
@@ -167,7 +183,11 @@ Buyable.parameters = {
     emptyLibrary,
     emptyWishlist,
     locationNewZealand,
-    playbackProgressExists
+    playbackProgressExists,
+    filmExists,
+    shoppingSessionCreated,
+    stripePurchaseProcessing,
+    stripePurchase2
     ]
   };
 
@@ -182,7 +202,11 @@ Buyable.parameters = {
       emptyLibrary,
       emptyWishlist,
       locationNewZealand,
-      playbackProgressExists
+      playbackProgressExists,
+      filmExists,
+      shoppingSessionCreated,
+      stripePurchaseProcessing,
+      stripePurchase2
       ]
     };
 
@@ -196,6 +220,10 @@ Buyable.parameters = {
       emptyLibrary,
       emptyWishlist,
       locationNewZealand,
-      playbackProgressExists
+      playbackProgressExists,
+      filmExists,
+      shoppingSessionCreated,
+      stripePurchaseProcessing,
+      stripePurchase2
       ]
     };
