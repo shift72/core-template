@@ -36,7 +36,7 @@
               <div class="poster poster-portrait">
                 {{if film.ImageMap["Portrait"] != ""}}
                   <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
-                  <s72-image src="{{film.ImageMap["Classification"]}}" alt="" class="classification-image"></s72-image>
+                  <s72-image src="{{film.ImageMap["Classification"]}}" alt="" class="classification-image">
                   <s72-image src="{{film.ImageMap["Portrait"]}}" alt="{{film.Title}}" class="poster poster-image poster-image-portrait"></s72-image>
                 {{end}}
               </div>
