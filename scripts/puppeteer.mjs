@@ -35,6 +35,10 @@ import { tvDetail } from './actions/tvdetail.mjs';
 
 
 async function allActions() {
+  var  elementHandle = await page.waitForSelector('#storybook-preview-wrapper iframe');
+  var frame = await elementHandle.contentFrame();
+
+
   await filmDetail(page)
   await home(page);
   await pageNotFound(page);

@@ -109,7 +109,7 @@ async function checkoutFlow(page) {
   var button = await frame.waitForSelector(`.s72-btn-purchase-card`);
   await button.evaluate(b => b.click());
 
-  await delay(1000)
+  await delay(1500)
 
   await frame.evaluate( () => {
     document.querySelector('.s72-btn-close').click()
