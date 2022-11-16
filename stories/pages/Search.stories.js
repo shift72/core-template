@@ -8,6 +8,8 @@ import { assortedPlans, noPlans } from '../mocks/pricing/v1/plans';
 import { availableNowUntil48Hours, noAvailabilitySet } from '../mocks/content/v1/availabilities';
 import { locationNewZealand } from '../mocks/geo/v1/location/where_am_i';
 import { playbackProgressExists } from '../mocks/content/v1/playback_progress';
+import { search } from '../mocks/meta/v1/search';
+
 import { customDocs } from '../functions/customDocs'
 
 export default {
@@ -25,7 +27,11 @@ export const Primary = (args, {loaded: { Component }}) => {
     div.innerHTML = htmlDoc.body.innerHTML
     return div;
 };
-
+Primary.parameters = {
+  mockData: [
+    search
+    ]
+};
 Primary.loaders  = [async () => {
   return ({ Component: (await new Promise(async resolve => await fetch('search.html').then(res=>{
     return resolve(res.text())

@@ -11,7 +11,7 @@ import { playbackProgressExists } from '../mocks/content/v1/playback_progress';
 import { customDocs } from '../functions/customDocs'
 
 export default {
-  title: 'Pages/Account',
+  title: 'Pages/Signin',
   decorators: [withMock],
   parameters: {
     docs: { page: customDocs(`<h3>No docs written yet<h3>`) }
@@ -27,7 +27,8 @@ export const Primary = (args, {loaded: { Component }}) => {
 };
 
 Primary.loaders  = [async () => {
-  return ({ Component: (await new Promise(async resolve => await fetch('account.html').then(res=>{
+  window.unauthenticated = true
+  return ({ Component: (await new Promise(async resolve => await fetch('signin.html').then(res=>{
     return resolve(res.text())
   })))})
 }];

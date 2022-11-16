@@ -23,10 +23,12 @@ export const Primary = (args, {loaded: { Component }}) => {
     const htmlDoc = parser.parseFromString(Component, "text/html");
     const div = document.createElement('div');
     div.innerHTML = htmlDoc.body.innerHTML
+
     return div;
 };
 
 Primary.loaders  = [async () => {
+  window.unauthenticated = true
   return ({ Component: (await new Promise(async resolve => await fetch('signup.html').then(res=>{
     return resolve(res.text())
   })))})

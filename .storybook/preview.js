@@ -40,8 +40,14 @@ addDecorator((story, context) => {
   waitForGlobal("s72", ()=>{
     localStorage.clear();
     sessionStorage.clear();
-    localStorage["shift72.authToken"] = "1234"
-    localStorage["shift72.user"] = "{\"user_id\":123}"
+
+    if(!window.unauthenticated) {
+      localStorage["shift72.authToken"] = "1234"
+      localStorage["shift72.user"] = "{\"user_id\":123}"
+    } else {
+      window.unauthenticated = false
+    }
+
     s72.cfg(function(){
       return s72.i18n.load('en', 'en_AU.all.json');
     });
