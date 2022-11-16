@@ -3,11 +3,12 @@
 
   &.meta-awards-all {
     display: grid;
-    gap: 30px 104px;
+    gap: 28px 104px;
     margin-bottom: 0;
     margin-top: 20px;
 
     @include media-breakpoint-up(md) {
+      grid-auto-rows: 1fr;
       grid-template-columns: repeat(2, minmax(0, 320px));
     }
   }
