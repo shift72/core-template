@@ -1515,5 +1515,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Une erreur s'est produite lors de l'ajout de cette carte. Veuillez réessayer plus tard ou utiliser une autre carte."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Connection impossible. Pour des raisons de sécurité, les comptes administrateur nécessitent une authentification multifacteur (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Connection impossible. Pour des raisons de sécurité, les comptes administrateur nécessitent une adresse e-mail vérifiée."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Vous pouvez configurer votre compte pour {{.DisplayName}} en cliquant ici."
+  },
+  "nav_signin_sso_option": {
+    "other": "Ou"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "S'identifier"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Créer un compte"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

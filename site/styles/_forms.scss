@@ -280,3 +280,33 @@ s72-signup-form {
 .s72-form-control {
   @include body-1-style;
 }
+
+// OAuth
+.s72-oauth-buttons {
+  padding-top: 10px;
+  text-align: center;
+
+  .divider {
+    width:100%;
+    border: 1px solid rgba(var(--body-color-rgb), 0.5) !important;
+    margin-top: 60px;
+  }
+
+  .s72-veriplay-option {
+    padding: 10px;
+  }
+
+  .s72-veriplay-powered-by {
+    padding: 10px;
+
+    .logo-container {
+      padding: 10px;
+    }
+
+    .logo {
+      padding: 10px;
+      height: 50px;
+      background: url("/images/common/vp-logo-col-white@3x-8.png") no-repeat center;
+    }
+  }
+}

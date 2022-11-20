@@ -1511,5 +1511,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Er is iets misgegaan bij het toevoegen van die kaart. Probeer het later opnieuw of gebruik een andere kaart."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Niet mogelijk om in te loggen. Om veiligheidsredenen vereisen beheerdersaccounts Multi-Factor Authentication (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Niet mogelijk om in te loggen. Om veiligheidsredenen hebben beheerdersaccounts een geverifieerd e-mailadres nodig."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "U kunt uw account voor {{.DisplayName}} configureren door hier te klikken."
+  },
+  "nav_signin_sso_option": {
+    "other": "Of"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Log in"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Maak account"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

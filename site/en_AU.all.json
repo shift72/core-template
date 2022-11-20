@@ -1511,5 +1511,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Something went wrong when adding that card. Please try again later or use a different card."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Unable to login. For security reasons Administrator accounts require Multi-Factor Authentication (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Unable to login. For security reasons Administrator accounts require a verified email address."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "You can configure your account for {{.DisplayName}} by clicking here."
+  },
+  "nav_signin_sso_option": {
+    "other": "Or"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Sign In"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Create Account"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

@@ -1511,5 +1511,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Selle kaardi lisamisel läks midagi valesti. Proovige hiljem uuesti või kasutage teist kaarti."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Ei saa sisse logida. Turvalisuse huvides nõuavad administraatorikontod mitmefaktorilist autentimist (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Ei saa sisse logida. Turvalisuse huvides nõuavad administraatorikontod kinnitatud e-posti aadressi."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Saate seadistada oma konto {{.DisplayName}} jaoks, klõpsates siin."
+  },
+  "nav_signin_sso_option": {
+    "other": "Või"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Logi sisse"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Loo konto"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

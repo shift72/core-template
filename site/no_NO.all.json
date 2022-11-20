@@ -1511,5 +1511,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Noe gikk galt da kortet ble lagt til. Prøv igjen senere eller bruk et annet kort."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Klarte ikke å logge inn. Av sikkerhetsgrunner krever administratorkontoer Multi-Factor Authentication (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Klarte ikke å logge inn. Av sikkerhetsgrunner krever administratorkontoer en bekreftet e-postadresse."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Du kan konfigurere kontoen din for {{.DisplayName}} ved å klikke her."
+  },
+  "nav_signin_sso_option": {
+    "other": "Eller"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Logg inn"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Opprett konto"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

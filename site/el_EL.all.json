@@ -1511,5 +1511,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Κάτι πήγε στραβά κατά την προσθήκη αυτής της κάρτας. Δοκιμάστε ξανά αργότερα ή χρησιμοποιήστε διαφορετική κάρτα."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Αδύνατη η πρόσβαση. Για λόγους ασφαλείας, οι λογαριασμοί διαχειριστή απαιτούν έλεγχο ταυτότητας πολλαπλών παραγόντων (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Αδύνατη η πρόσβαση. Για λόγους ασφαλείας, οι λογαριασμοί διαχειριστή απαιτούν μια επαληθευμένη διεύθυνση email."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Μπορείτε να διαμορφώσετε τον λογαριασμό σας για {{.DisplayName}} κάνοντας κλικ εδώ."
+  },
+  "nav_signin_sso_option": {
+    "other": "Ή"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Συνδεθείτε"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Δημιουργήστε λογαριασμό"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

@@ -1575,5 +1575,26 @@
   },
   "new_card_error_timed_out": {
     "other": "حدث خطأ ما عند إضافة تلك البطاقة. يرجى المحاولة مرة أخرى في وقت لاحق أو استخدام بطاقة مختلفة."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "غير قادر على تسجيل الدخول. لأسباب أمنية ، تتطلب حسابات المسؤول مصادقة متعددة العوامل (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "غير قادر على تسجيل الدخول. لأسباب تتعلق بالأمان ، تتطلب حسابات المسؤول عنوان بريد إلكتروني تم التحقق منه."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "يمكنك تكوين حسابك لـ {{.DisplayName}} بالنقر هنا."
+  },
+  "nav_signin_sso_option": {
+    "other": "أو"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "تسجيل الدخول"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "إصنع حساب"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

@@ -1565,5 +1565,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Что-то пошло не так при добавлении этой карты. Повторите попытку позже или используйте другую карту."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Невозможно войти. По соображениям безопасности учетным записям администратора требуется многофакторная аутентификация (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Невозможно войти. В целях безопасности для учетных записей администратора требуется подтвержденный адрес электронной почты."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Вы можете настроить свою учетную запись для {{.DisplayName}} , нажав здесь."
+  },
+  "nav_signin_sso_option": {
+    "other": "Или же"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Войти"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Зарегистрироваться"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

@@ -1543,5 +1543,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Pridedant šią kortelę kažkas nutiko. Bandykite dar kartą vėliau arba naudokite kitą kortelę."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Negalima prisijungti. Saugumo sumetimais administratoriaus paskyroms reikalingas kelių faktorių autentifikavimas (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Negalima prisijungti. Saugumo sumetimais administratoriaus paskyroms reikalingas patvirtintas el. pašto adresas."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Galite sukonfigūruoti savo paskyrą {{.DisplayName}} spustelėdami čia."
+  },
+  "nav_signin_sso_option": {
+    "other": "Arba"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Prisijungti"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Sukurti paskyrą"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

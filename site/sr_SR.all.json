@@ -1527,5 +1527,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Нешто није у реду приликом додавања те картице. Покушајте поново касније или користите другу картицу."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Немогућност логовања. Из безбедносних разлога, администраторски налози захтевају вишефакторску аутентификацију (МФА)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Немогућност логовања. Из безбедносних разлога, администраторским налозима је потребна верификована адреса е-поште."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Можете да конфигуришете свој налог за {{.DisplayName}} кликом овде."
+  },
+  "nav_signin_sso_option": {
+    "other": "Ор"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Пријавите се"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Региструј се"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

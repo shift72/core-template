@@ -1588,5 +1588,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Coś poszło nie tak podczas dodawania tej karty. Spróbuj ponownie później lub użyj innej karty."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Niezdolny do logowania. Ze względów bezpieczeństwa konta administratora wymagają uwierzytelniania wieloskładnikowego (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Niezdolny do logowania. Ze względów bezpieczeństwa konta Administratora wymagają zweryfikowanego adresu e-mail."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Możesz skonfigurować swoje konto dla {{.DisplayName}} , klikając tutaj."
+  },
+  "nav_signin_sso_option": {
+    "other": "Lub"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Zaloguj się"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Utwórz konto"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

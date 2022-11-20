@@ -1515,5 +1515,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Algo salió mal al agregar esa tarjeta. Vuelva a intentarlo más tarde o utilice una tarjeta diferente."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Incapaz de iniciar sesión. Por razones de seguridad, las cuentas de administrador requieren autenticación multifactor (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Incapaz de iniciar sesión. Por razones de seguridad, las cuentas de administrador requieren una dirección de correo electrónico verificada."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Puede configurar su cuenta para {{.DisplayName}} haciendo clic aquí."
+  },
+  "nav_signin_sso_option": {
+    "other": "O"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Registrarse"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Crear una cuenta"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

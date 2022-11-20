@@ -1511,5 +1511,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Beim Hinzufügen dieser Karte ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut oder verwenden Sie eine andere Karte."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Anmeldung nicht möglich. Aus Sicherheitsgründen benötigen Administratorkonten eine Multi-Factor Authentication (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Anmeldung nicht möglich. Aus Sicherheitsgründen benötigen Administratorkonten eine verifizierte E-Mail-Adresse."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Sie können Ihr Konto für {{.DisplayName}} konfigurieren, indem Sie hier klicken."
+  },
+  "nav_signin_sso_option": {
+    "other": "Oder"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Einloggen"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Konto anlegen"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

@@ -1511,5 +1511,26 @@
   },
   "new_card_error_timed_out": {
     "other": "S'ha produït un error en afegir aquesta targeta. Torneu-ho a provar més tard o utilitzeu una altra targeta."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "No es pot iniciar sessió. Per motius de seguretat, els comptes d'administrador requereixen l'autenticació multifactor (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "No es pot iniciar sessió. Per motius de seguretat, els comptes d'administrador requereixen una adreça de correu electrònic verificada."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Podeu configurar el vostre compte per a {{.DisplayName}} fent clic aquí."
+  },
+  "nav_signin_sso_option": {
+    "other": "O"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Inicieu la sessió"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Crear compte"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

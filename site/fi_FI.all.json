@@ -1511,5 +1511,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Jotain meni pieleen korttia lisättäessä. Yritä myöhemmin uudelleen tai käytä toista korttia."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Kirjautuminen ei onnistu. Turvallisuussyistä järjestelmänvalvojatilit vaativat monivaiheisen todennuksen (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Kirjautuminen ei onnistu. Turvallisuussyistä järjestelmänvalvojatilit vaativat vahvistetun sähköpostiosoitteen."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Voit määrittää tilisi {{.DisplayName}} napsauttamalla tätä."
+  },
+  "nav_signin_sso_option": {
+    "other": "Tai"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Kirjaudu sisään"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Luo tili"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

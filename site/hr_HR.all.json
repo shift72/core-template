@@ -1513,5 +1513,26 @@
   },
   "new_card_error_timed_out": {
     "other": "Nešto nije u redu prilikom dodavanja te kartice. Pokušajte ponovno kasnije ili upotrijebite drugu karticu."
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Nije moguća prijava. Iz sigurnosnih razloga administratorski računi zahtijevaju provjeru autentičnosti s više faktora (MFA)."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Nije moguća prijava. Iz sigurnosnih razloga administratorski računi zahtijevaju potvrđenu adresu e-pošte."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Možete konfigurirati svoj račun za {{.DisplayName}} klikom ovdje."
+  },
+  "nav_signin_sso_option": {
+    "other": "Ili"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "Prijaviti se"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "Napravi račun"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

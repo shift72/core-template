@@ -1498,5 +1498,26 @@
   },
   "new_card_error_timed_out": {
     "other": "カードの追加中にエラーが発生しました。後でもう一度試すか、別のカードを使用してください。"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "ログインできません。セキュリティ上の理由から、管理者アカウントには多要素認証 (MFA) が必要です。"
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "ログインできません。セキュリティ上の理由から、管理者アカウントには確認済みの電子メール アドレスが必要です。"
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "ここをクリックして、 {{.DisplayName}}のアカウントを構成できます。"
+  },
+  "nav_signin_sso_option": {
+    "other": "または"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "ログイン"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "アカウントを作成する"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }

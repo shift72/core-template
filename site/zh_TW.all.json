@@ -1498,5 +1498,26 @@
   },
   "new_card_error_timed_out": {
     "other": "添加該卡時出現問題。請稍後再試或使用其他卡。"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "無法登入。出於安全原因，管理員帳戶需要多重身份驗證 (MFA)。"
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "無法登入。出於安全原因，管理員帳戶需要經過驗證的電子郵件地址。"
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "您可以通過單擊此處為{{.DisplayName}}配置您的帳戶。"
+  },
+  "nav_signin_sso_option": {
+    "other": "或者"
+  },
+  "nav_signin_sso_veriplay": {
+    "other": "登入"
+  },
+  "nav_create_sso_veriplay": {
+    "other": "創建賬戶"
+  },
+  "nav_general_sso_veriplay": {
+    "other": "{{.DisplayName}}"
   }
 }
