@@ -287,9 +287,9 @@ s72-signup-form {
   text-align: center;
 
   .divider {
-    width:100%;
     border: 1px solid rgba(var(--body-color-rgb), 0.5) !important;
     margin-top: 60px;
+    width: 100%;
   }
 
   .s72-veriplay-option {
@@ -304,9 +304,9 @@ s72-signup-form {
     }
 
     .logo {
-      padding: 10px;
+      background: url('/images/common/vp-logo-col-white@3x-8.png') no-repeat center;
       height: 50px;
-      background: url("/images/common/vp-logo-col-white@3x-8.png") no-repeat center;
+      padding: 10px;
     }
   }
 }

@@ -221,14 +221,14 @@ s72-userwishlist-button {
 
 .s72-btn-sso-veriplay {
   @extend .btn-primary;
-  border-color: var(--veriplay-button-background);
   background-color: var(--veriplay-button-background);
-  width: 100%;
+  border-color: var(--veriplay-button-background);
   color: var(--veriplay-button-text-color);
+  width: 100%;
 
   @include hover() {
-    border-color: var(--veriplay-button-background-hover);
     background-color: var(--veriplay-button-background-hover);
+    border-color: var(--veriplay-button-background-hover);
     color: var(--veriplay-button-text-color-hover);
   }
 
