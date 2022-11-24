@@ -1532,5 +1532,17 @@
   },
   "nav_general_sso_veriplay": {
     "other": "{{.DisplayName}}"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Unable to sign in. This site is only available to invited users."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Please check you have signed in with the same email address you were invited with or contact the site administrator."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Temporary error"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Please attempt to sign in again. If this error persists please contact the site administrator."
   }
 }

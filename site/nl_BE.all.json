@@ -1532,5 +1532,17 @@
   },
   "nav_general_sso_veriplay": {
     "other": "{{.DisplayName}}"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Kan niet inloggen. Deze site is alleen beschikbaar voor uitgenodigde gebruikers."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Controleer of je bent ingelogd met hetzelfde e-mailadres waarmee je bent uitgenodigd of neem contact op met de sitebeheerder."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Tijdelijke fout"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Probeer opnieuw in te loggen. Neem contact op met de sitebeheerder als deze fout zich blijft voordoen."
   }
 }

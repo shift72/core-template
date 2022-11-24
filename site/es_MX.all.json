@@ -1536,5 +1536,17 @@
   },
   "nav_general_sso_veriplay": {
     "other": "{{.DisplayName}}"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "No se puede iniciar sesión. Este sitio solo está disponible para usuarios invitados."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Verifique que haya iniciado sesión con la misma dirección de correo electrónico con la que fue invitado o comuníquese con el administrador del sitio."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Error temporal"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Intente iniciar sesión de nuevo. Si este error persiste, comuníquese con el administrador del sitio."
   }
 }

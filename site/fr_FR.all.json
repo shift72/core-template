@@ -1536,5 +1536,17 @@
   },
   "nav_general_sso_veriplay": {
     "other": "{{.DisplayName}}"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Impossible de se connecter. Ce site n'est disponible que pour les utilisateurs invités."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Veuillez vérifier que vous vous êtes connecté avec la même adresse e-mail avec laquelle vous avez été invité ou contactez l'administrateur du site."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Erreur temporaire"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Veuillez réessayer de vous connecter. Si cette erreur persiste, veuillez contacter l'administrateur du site."
   }
 }

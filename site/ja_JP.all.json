@@ -1519,5 +1519,17 @@
   },
   "nav_general_sso_veriplay": {
     "other": "{{.DisplayName}}"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "サインインできません。このサイトは、招待されたユーザーのみが利用できます。"
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "招待されたのと同じメール アドレスでサインインしていることを確認するか、サイト管理者に連絡してください。"
+  },
+  "sso_error_invalid_grant": {
+    "other": "一時的なエラー"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "再度サインインしてください。このエラーが続く場合は、サイト管理者に連絡してください。"
   }
 }

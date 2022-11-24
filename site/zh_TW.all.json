@@ -1519,5 +1519,17 @@
   },
   "nav_general_sso_veriplay": {
     "other": "{{.DisplayName}}"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "無法登錄。此站點僅供受邀用戶使用。"
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "請檢查您是否使用受邀時使用的相同電子郵件地址登錄，或聯繫站點管理員。"
+  },
+  "sso_error_invalid_grant": {
+    "other": "臨時錯誤"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "請嘗試重新登錄。如果此錯誤仍然存在，請聯繫網站管理員。"
   }
 }

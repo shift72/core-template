@@ -1532,5 +1532,17 @@
   },
   "nav_general_sso_veriplay": {
     "other": "{{.DisplayName}}"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Kirjautuminen ei onnistu. Tämä sivusto on vain kutsuttujen käyttäjien käytettävissä."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Tarkista, että olet kirjautunut sisään samalla sähköpostiosoitteella, jolla sinut kutsuttiin, tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Väliaikainen virhe"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Yritä kirjautua sisään uudelleen. Jos tämä virhe toistuu, ota yhteyttä sivuston ylläpitäjään."
   }
 }
