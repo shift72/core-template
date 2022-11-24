@@ -245,7 +245,8 @@ $signup-border-color-hover: transparent !default;
 $signup-background: $button-background !default;
 $signup-background-hover: $button-background-hover !default;
 
-$veriplay-logo-path: '/images/common/vp-logo-col-white@3x-8.png';
+// black image is available veriplay-col-black.png
+$veriplay-logo-path: '/images/common/veriplay-col-white.png';
 
 // Image Gradient Overlays
 $top-gradient-color: var(--body-bg-rgb) !default;
