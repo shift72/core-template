@@ -219,6 +219,10 @@ s72-userwishlist-button {
   }
 }
 
+.s72-btn-sso {
+  width: 100%;
+}
+
 .s72-btn-sso-veriplay {
   @extend .btn-primary;
   background-color: var(--veriplay-button-background);
@@ -261,10 +265,10 @@ s72-userwishlist-button {
       @if $enable-shadows and $btn-active-box-shadow != none {
         @include box-shadow(
           $btn-active-box-shadow,
-          0 0 0 $btn-focus-width rgba(var(--primary-rgb), 0.5)
+          0 0 0 $btn-focus-width rgba(var(--veriplay-button-background), 0.5)
         );
       } @else {
-        box-shadow: 0 0 0 $btn-focus-width rgba(var(--primary-rgb), 0.5);
+        box-shadow: 0 0 0 $btn-focus-width rgba(var(--veriplay-button-background), 0.5);
       }
     }
   }
