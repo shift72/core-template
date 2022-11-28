@@ -1534,9 +1534,6 @@
   "nav_create_sso_veriplay": {
     "other": "Crear una cuenta"
   },
-  "nav_general_sso_veriplay": {
-    "other": "{{.DisplayName}}"
-  },
   "sso_error_user_account_creation_disabled": {
     "other": "No se puede iniciar sesión. Este sitio solo está disponible para usuarios invitados."
   },

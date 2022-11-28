@@ -1584,9 +1584,6 @@
   "nav_create_sso_veriplay": {
     "other": "Зарегистрироваться"
   },
-  "nav_general_sso_veriplay": {
-    "other": "{{.DisplayName}}"
-  },
   "sso_error_user_account_creation_disabled": {
     "other": "Невозможно войти. Этот сайт доступен только для приглашенных пользователей."
   },
