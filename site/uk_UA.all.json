@@ -1581,14 +1581,8 @@
   "sso_error_action_admin_requires_mfa": {
     "other": "Ви можете налаштувати свій обліковий запис для {{.DisplayName}} , натиснувши тут."
   },
-  "nav_signin_sso_option": {
+  "sso_signin_option": {
     "other": "Або"
-  },
-  "nav_signin_sso_veriplay": {
-    "other": "Увійти"
-  },
-  "nav_create_sso_veriplay": {
-    "other": "Створити акаунт"
   },
   "sso_error_user_account_creation_disabled": {
     "other": "Не вдається ввійти. Цей сайт доступний лише для запрошених користувачів."
@@ -1601,5 +1595,11 @@
   },
   "sso_error_action_invalid_grant": {
     "other": "Спробуйте ввійти знову. Якщо ця помилка не зникає, зверніться до адміністратора сайту."
+  },
+  "sso_signin_generic": {
+    "other": "Увійдіть за допомогою {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Створіть обліковий запис за допомогою {{.DisplayName}}"
   }
 }

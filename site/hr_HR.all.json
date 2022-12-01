@@ -1523,14 +1523,8 @@
   "sso_error_action_admin_requires_mfa": {
     "other": "Možete konfigurirati svoj račun za {{.DisplayName}} klikom ovdje."
   },
-  "nav_signin_sso_option": {
+  "sso_signin_option": {
     "other": "Ili"
-  },
-  "nav_signin_sso_veriplay": {
-    "other": "Prijaviti se"
-  },
-  "nav_create_sso_veriplay": {
-    "other": "Napravi račun"
   },
   "sso_error_user_account_creation_disabled": {
     "other": "Nije moguće prijaviti se. Ova je stranica dostupna samo pozvanim korisnicima."
@@ -1543,5 +1537,11 @@
   },
   "sso_error_action_invalid_grant": {
     "other": "Pokušajte se ponovo prijaviti. Ako se ova pogreška nastavi, obratite se administratoru stranice."
+  },
+  "sso_signin_generic": {
+    "other": "Prijavite se s {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Stvorite račun s {{.DisplayName}}"
   }
 }

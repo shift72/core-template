@@ -1521,14 +1521,8 @@
   "sso_error_action_admin_requires_mfa": {
     "other": "Podeu configurar el vostre compte per a {{.DisplayName}} fent clic aquí."
   },
-  "nav_signin_sso_option": {
+  "sso_signin_option": {
     "other": "O"
-  },
-  "nav_signin_sso_veriplay": {
-    "other": "Inicieu la sessió"
-  },
-  "nav_create_sso_veriplay": {
-    "other": "Crear compte"
   },
   "sso_error_user_account_creation_disabled": {
     "other": "No es pot iniciar la sessió. Aquest lloc només està disponible per als usuaris convidats."
@@ -1541,5 +1535,11 @@
   },
   "sso_error_action_invalid_grant": {
     "other": "Si us plau, intenteu iniciar la sessió de nou. Si aquest error persisteix, poseu-vos en contacte amb l'administrador del lloc."
+  },
+  "sso_signin_generic": {
+    "other": "Inicieu la sessió amb {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Creeu un compte amb {{.DisplayName}}"
   }
 }

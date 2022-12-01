@@ -1585,14 +1585,8 @@
   "sso_error_action_admin_requires_mfa": {
     "other": "يمكنك تكوين حسابك لـ {{.DisplayName}} بالنقر هنا."
   },
-  "nav_signin_sso_option": {
+  "sso_signin_option": {
     "other": "أو"
-  },
-  "nav_signin_sso_veriplay": {
-    "other": "تسجيل الدخول"
-  },
-  "nav_create_sso_veriplay": {
-    "other": "إصنع حساب"
   },
   "sso_error_user_account_creation_disabled": {
     "other": "تعذر تسجيل الدخول. هذا الموقع متاح فقط للمستخدمين المدعوين."
@@ -1605,5 +1599,11 @@
   },
   "sso_error_action_invalid_grant": {
     "other": "يرجى محاولة تسجيل الدخول مرة أخرى. إذا استمر هذا الخطأ ، يرجى الاتصال بمسؤول الموقع."
+  },
+  "sso_signin_generic": {
+    "other": "قم بتسجيل الدخول باستخدام {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "إنشاء حساب مع {{.DisplayName}}"
   }
 }

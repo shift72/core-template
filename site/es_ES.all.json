@@ -1525,14 +1525,8 @@
   "sso_error_action_admin_requires_mfa": {
     "other": "Puede configurar su cuenta para {{.DisplayName}} haciendo clic aquí."
   },
-  "nav_signin_sso_option": {
+  "sso_signin_option": {
     "other": "O"
-  },
-  "nav_signin_sso_veriplay": {
-    "other": "Registrarse"
-  },
-  "nav_create_sso_veriplay": {
-    "other": "Crear una cuenta"
   },
   "sso_error_user_account_creation_disabled": {
     "other": "No se puede iniciar sesión. Este sitio solo está disponible para usuarios invitados."
@@ -1545,5 +1539,11 @@
   },
   "sso_error_action_invalid_grant": {
     "other": "Intente iniciar sesión de nuevo. Si este error persiste, comuníquese con el administrador del sitio."
+  },
+  "sso_signin_generic": {
+    "other": "Inicie sesión con {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Crear cuenta con {{.DisplayName}}"
   }
 }

@@ -1521,14 +1521,8 @@
   "sso_error_action_admin_requires_mfa": {
     "other": "Du kan konfigurere kontoen din for {{.DisplayName}} ved å klikke her."
   },
-  "nav_signin_sso_option": {
+  "sso_signin_option": {
     "other": "Eller"
-  },
-  "nav_signin_sso_veriplay": {
-    "other": "Logg inn"
-  },
-  "nav_create_sso_veriplay": {
-    "other": "Opprett konto"
   },
   "sso_error_user_account_creation_disabled": {
     "other": "Kan ikke logge på. Dette nettstedet er kun tilgjengelig for inviterte brukere."
@@ -1541,5 +1535,11 @@
   },
   "sso_error_action_invalid_grant": {
     "other": "Prøv å logge på igjen. Hvis denne feilen vedvarer, vennligst kontakt nettstedadministratoren."
+  },
+  "sso_signin_generic": {
+    "other": "Logg på med {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Opprett konto med {{.DisplayName}}"
   }
 }

@@ -1553,14 +1553,8 @@
   "sso_error_action_admin_requires_mfa": {
     "other": "Galite sukonfigūruoti savo paskyrą {{.DisplayName}} spustelėdami čia."
   },
-  "nav_signin_sso_option": {
+  "sso_signin_option": {
     "other": "Arba"
-  },
-  "nav_signin_sso_veriplay": {
-    "other": "Prisijungti"
-  },
-  "nav_create_sso_veriplay": {
-    "other": "Sukurti paskyrą"
   },
   "sso_error_user_account_creation_disabled": {
     "other": "Nepavyko prisijungti. Ši svetainė prieinama tik pakviestiems vartotojams."
@@ -1573,5 +1567,11 @@
   },
   "sso_error_action_invalid_grant": {
     "other": "Bandykite prisijungti dar kartą. Jei ši klaida išlieka, susisiekite su svetainės administratoriumi."
+  },
+  "sso_signin_generic": {
+    "other": "Prisijunkite naudodami {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Sukurkite paskyrą naudodami {{.DisplayName}}"
   }
 }

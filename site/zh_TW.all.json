@@ -1508,14 +1508,8 @@
   "sso_error_action_admin_requires_mfa": {
     "other": "您可以通過單擊此處為{{.DisplayName}}配置您的帳戶。"
   },
-  "nav_signin_sso_option": {
+  "sso_signin_option": {
     "other": "或者"
-  },
-  "nav_signin_sso_veriplay": {
-    "other": "登入"
-  },
-  "nav_create_sso_veriplay": {
-    "other": "創建賬戶"
   },
   "sso_error_user_account_creation_disabled": {
     "other": "無法登錄。此站點僅供受邀用戶使用。"
@@ -1528,5 +1522,11 @@
   },
   "sso_error_action_invalid_grant": {
     "other": "請嘗試重新登錄。如果此錯誤仍然存在，請聯繫網站管理員。"
+  },
+  "sso_signin_generic": {
+    "other": "使用{{.DisplayName}}登錄"
+  },
+  "sso_create_generic": {
+    "other": "使用{{.DisplayName}}創建帳戶"
   }
 }

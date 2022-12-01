@@ -1521,14 +1521,14 @@
   "sso_error_action_admin_requires_mfa": {
     "other": "You can configure your account for {{.DisplayName}} by clicking here."
   },
-  "nav_signin_sso_option": {
+  "sso_signin_option": {
     "other": "Or"
   },
-  "nav_signin_sso_veriplay": {
-    "other": "Sign In"
+  "sso_signin_generic": {
+    "other": "Sign in with {{.DisplayName}}"
   },
-  "nav_create_sso_veriplay": {
-    "other": "Create Account"
+  "sso_create_generic": {
+    "other": "Create account with {{.DisplayName}}"
   },
   "sso_error_user_account_creation_disabled": {
     "other": "Unable to sign in. This site is only available to invited users."

@@ -1537,14 +1537,8 @@
   "sso_error_action_admin_requires_mfa": {
     "other": "Можете да конфигуришете свој налог за {{.DisplayName}} кликом овде."
   },
-  "nav_signin_sso_option": {
+  "sso_signin_option": {
     "other": "Ор"
-  },
-  "nav_signin_sso_veriplay": {
-    "other": "Пријавите се"
-  },
-  "nav_create_sso_veriplay": {
-    "other": "Региструј се"
   },
   "sso_error_user_account_creation_disabled": {
     "other": "Није могуће пријавити се. Овај сајт је доступан само позваним корисницима."
@@ -1557,5 +1551,11 @@
   },
   "sso_error_action_invalid_grant": {
     "other": "Покушајте поново да се пријавите. Ако се ова грешка настави, обратите се администратору сајта."
+  },
+  "sso_signin_generic": {
+    "other": "Пријавите се са {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Направите налог са {{.DisplayName}}"
   }
 }

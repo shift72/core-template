@@ -1598,14 +1598,8 @@
   "sso_error_action_admin_requires_mfa": {
     "other": "Możesz skonfigurować swoje konto dla {{.DisplayName}} , klikając tutaj."
   },
-  "nav_signin_sso_option": {
+  "sso_signin_option": {
     "other": "Lub"
-  },
-  "nav_signin_sso_veriplay": {
-    "other": "Zaloguj się"
-  },
-  "nav_create_sso_veriplay": {
-    "other": "Utwórz konto"
   },
   "sso_error_user_account_creation_disabled": {
     "other": "Nie można się zalogować. Ta witryna jest dostępna tylko dla zaproszonych użytkowników."
@@ -1618,5 +1612,11 @@
   },
   "sso_error_action_invalid_grant": {
     "other": "Spróbuj zalogować się ponownie. Jeśli ten błąd będzie się powtarzał, skontaktuj się z administratorem witryny."
+  },
+  "sso_signin_generic": {
+    "other": "Zaloguj się za pomocą {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Utwórz konto z {{.DisplayName}}"
   }
 }

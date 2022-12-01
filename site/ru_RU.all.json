@@ -1575,14 +1575,8 @@
   "sso_error_action_admin_requires_mfa": {
     "other": "Вы можете настроить свою учетную запись для {{.DisplayName}} , нажав здесь."
   },
-  "nav_signin_sso_option": {
+  "sso_signin_option": {
     "other": "Или же"
-  },
-  "nav_signin_sso_veriplay": {
-    "other": "Войти"
-  },
-  "nav_create_sso_veriplay": {
-    "other": "Зарегистрироваться"
   },
   "sso_error_user_account_creation_disabled": {
     "other": "Невозможно войти. Этот сайт доступен только для приглашенных пользователей."
@@ -1595,5 +1589,11 @@
   },
   "sso_error_action_invalid_grant": {
     "other": "Пожалуйста, попробуйте войти еще раз. Если эта ошибка повторяется, обратитесь к администратору сайта."
+  },
+  "sso_signin_generic": {
+    "other": "Войти с {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Создайте учетную запись с {{.DisplayName}}"
   }
 }
