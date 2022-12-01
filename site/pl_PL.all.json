@@ -1590,7 +1590,7 @@
     "other": "Coś poszło nie tak podczas dodawania tej karty. Spróbuj ponownie później lub użyj innej karty."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Niezdolny do logowania. Ze względów bezpieczeństwa konta administratora wymagają uwierzytelniania wieloskładnikowego (MFA)."
+    "other": "Niezdolny do logowania. Ze względów bezpieczeństwa konta administratora wymagają uwierzytelniania wieloskładnikowego."
   },
   "sso_error_email_address_not_verified": {
     "other": "Niezdolny do logowania. Ze względów bezpieczeństwa konta Administratora wymagają zweryfikowanego adresu e-mail."

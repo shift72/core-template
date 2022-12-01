@@ -1513,7 +1513,7 @@
     "other": "Selle kaardi lisamisel läks midagi valesti. Proovige hiljem uuesti või kasutage teist kaarti."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Ei saa sisse logida. Turvalisuse huvides nõuavad administraatorikontod mitmefaktorilist autentimist (MFA)."
+    "other": "Ei saa sisse logida. Turvalisuse huvides nõuavad administraatorikontod mitmefaktorilist autentimist."
   },
   "sso_error_email_address_not_verified": {
     "other": "Ei saa sisse logida. Turvalisuse huvides nõuavad administraatorikontod kinnitatud e-posti aadressi."

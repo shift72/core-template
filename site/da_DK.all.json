@@ -1513,7 +1513,7 @@
     "other": "Der gik noget galt, da det pågældende kort blev tilføjet. Prøv igen senere, eller brug et andet kort."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Kan ikke logge ind. Af sikkerhedsmæssige årsager kræver administratorkonti Multi-Factor Authentication (MFA)."
+    "other": "Kan ikke logge ind. Af sikkerhedsmæssige årsager kræver administratorkonti Multi-Factor Authentication."
   },
   "sso_error_email_address_not_verified": {
     "other": "Kan ikke logge ind. Af sikkerhedsmæssige årsager kræver administratorkonti en bekræftet e-mailadresse."

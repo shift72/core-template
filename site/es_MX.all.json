@@ -1517,7 +1517,7 @@
     "other": "Algo salió mal al agregar esa tarjeta. Vuelva a intentarlo más tarde o utilice una tarjeta diferente."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Incapaz de iniciar sesión. Por razones de seguridad, las cuentas de administrador requieren autenticación multifactor (MFA)."
+    "other": "Incapaz de iniciar sesión. Por razones de seguridad, las cuentas de administrador requieren autenticación multifactor."
   },
   "sso_error_email_address_not_verified": {
     "other": "Incapaz de iniciar sesión. Por razones de seguridad, las cuentas de administrador requieren una dirección de correo electrónico verificada."

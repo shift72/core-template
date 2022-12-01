@@ -1513,7 +1513,7 @@
     "other": "Noe gikk galt da kortet ble lagt til. Prøv igjen senere eller bruk et annet kort."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Klarte ikke å logge inn. Av sikkerhetsgrunner krever administratorkontoer Multi-Factor Authentication (MFA)."
+    "other": "Klarte ikke å logge inn. Av sikkerhetsgrunner krever administratorkontoer Multi-Factor Authentication."
   },
   "sso_error_email_address_not_verified": {
     "other": "Klarte ikke å logge inn. Av sikkerhetsgrunner krever administratorkontoer en bekreftet e-postadresse."

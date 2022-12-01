@@ -1545,7 +1545,7 @@
     "other": "Pridedant šią kortelę kažkas nutiko. Bandykite dar kartą vėliau arba naudokite kitą kortelę."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Negalima prisijungti. Saugumo sumetimais administratoriaus paskyroms reikalingas kelių faktorių autentifikavimas (MFA)."
+    "other": "Negalima prisijungti. Saugumo sumetimais administratoriaus paskyroms reikalingas kelių veiksnių autentifikavimas."
   },
   "sso_error_email_address_not_verified": {
     "other": "Negalima prisijungti. Saugumo sumetimais administratoriaus paskyroms reikalingas patvirtintas el. pašto adresas."

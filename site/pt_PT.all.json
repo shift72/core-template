@@ -1517,7 +1517,7 @@
     "other": "Algo deu errado ao adicionar esse cartão. Tente novamente mais tarde ou use um cartão diferente."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Incapaz de entrar. Por motivos de segurança, as contas de administrador exigem autenticação multifator (MFA)."
+    "other": "Incapaz de entrar. Por motivos de segurança, as contas de administrador exigem autenticação multifator."
   },
   "sso_error_email_address_not_verified": {
     "other": "Incapaz de entrar. Por motivos de segurança, as contas de administrador exigem um endereço de e-mail verificado."

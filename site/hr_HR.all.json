@@ -1515,7 +1515,7 @@
     "other": "Nešto nije u redu prilikom dodavanja te kartice. Pokušajte ponovno kasnije ili upotrijebite drugu karticu."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Nije moguća prijava. Iz sigurnosnih razloga administratorski računi zahtijevaju provjeru autentičnosti s više faktora (MFA)."
+    "other": "Nije moguća prijava. Iz sigurnosnih razloga administratorski računi zahtijevaju provjeru autentičnosti s više faktora."
   },
   "sso_error_email_address_not_verified": {
     "other": "Nije moguća prijava. Iz sigurnosnih razloga administratorski računi zahtijevaju potvrđenu adresu e-pošte."

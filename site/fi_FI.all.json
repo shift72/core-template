@@ -1513,7 +1513,7 @@
     "other": "Jotain meni pieleen korttia lisättäessä. Yritä myöhemmin uudelleen tai käytä toista korttia."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Kirjautuminen ei onnistu. Turvallisuussyistä järjestelmänvalvojatilit vaativat monivaiheisen todennuksen (MFA)."
+    "other": "Kirjautuminen ei onnistu. Turvallisuussyistä järjestelmänvalvojatilit vaativat monivaiheisen todennuksen."
   },
   "sso_error_email_address_not_verified": {
     "other": "Kirjautuminen ei onnistu. Turvallisuussyistä järjestelmänvalvojatilit vaativat vahvistetun sähköpostiosoitteen."

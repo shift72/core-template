@@ -1517,7 +1517,7 @@
     "other": "Une erreur s'est produite lors de l'ajout de cette carte. Veuillez réessayer plus tard ou utiliser une autre carte."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Connection impossible. Pour des raisons de sécurité, les comptes administrateur nécessitent une authentification multifacteur (MFA)."
+    "other": "Connection impossible. Pour des raisons de sécurité, les comptes administrateur nécessitent une authentification multifacteur."
   },
   "sso_error_email_address_not_verified": {
     "other": "Connection impossible. Pour des raisons de sécurité, les comptes administrateur nécessitent une adresse e-mail vérifiée."

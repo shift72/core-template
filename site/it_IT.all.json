@@ -1517,7 +1517,7 @@
     "other": "Qualcosa è andato storto durante l'aggiunta di quella carta. Riprova più tardi o usa una carta diversa."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Impossibile fare il log in. Per motivi di sicurezza, gli account amministratore richiedono l'autenticazione a più fattori (MFA)."
+    "other": "Impossibile fare il log in. Per motivi di sicurezza, gli account amministratore richiedono l'autenticazione a più fattori."
   },
   "sso_error_email_address_not_verified": {
     "other": "Impossibile fare il log in. Per motivi di sicurezza, gli account amministratore richiedono un indirizzo email verificato."

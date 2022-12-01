@@ -1513,7 +1513,7 @@
     "other": "Beim Hinzufügen dieser Karte ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut oder verwenden Sie eine andere Karte."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Anmeldung nicht möglich. Aus Sicherheitsgründen benötigen Administratorkonten eine Multi-Factor Authentication (MFA)."
+    "other": "Anmeldung nicht möglich. Aus Sicherheitsgründen benötigen Administratorkonten eine mehrstufige Authentifizierung."
   },
   "sso_error_email_address_not_verified": {
     "other": "Anmeldung nicht möglich. Aus Sicherheitsgründen benötigen Administratorkonten eine verifizierte E-Mail-Adresse."

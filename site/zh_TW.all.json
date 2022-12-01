@@ -1500,7 +1500,7 @@
     "other": "添加該卡時出現問題。請稍後再試或使用其他卡。"
   },
   "sso_error_admin_requires_mfa": {
-    "other": "無法登入。出於安全原因，管理員帳戶需要多重身份驗證 (MFA)。"
+    "other": "無法登入。出於安全原因，管理員帳戶需要多重身份驗證。"
   },
   "sso_error_email_address_not_verified": {
     "other": "無法登入。出於安全原因，管理員帳戶需要經過驗證的電子郵件地址。"

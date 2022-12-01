@@ -1513,7 +1513,7 @@
     "other": "Bu kartı eklerken bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin veya farklı bir kart kullanın."
   },
   "sso_error_admin_requires_mfa": {
-    "other": "Giriş yapılamıyor. Güvenlik nedenleriyle Yönetici hesapları, Çok Faktörlü Kimlik Doğrulaması (MFA) gerektirir."
+    "other": "Giriş yapılamıyor. Güvenlik nedenleriyle Yönetici hesapları, Çok Faktörlü Kimlik Doğrulaması gerektirir."
   },
   "sso_error_email_address_not_verified": {
     "other": "Giriş yapılamıyor. Güvenlik nedeniyle, Yönetici hesapları doğrulanmış bir e-posta adresi gerektirir."
