@@ -41,4 +41,12 @@
   max-width: 100%;
   position: relative;
   width: 100%;
+
+  &-portrait {
+    aspect-ratio: var(--image-ratio-poster-portrait);
+  }
+
+  &-landscape {
+    aspect-ratio: var(--image-ratio-poster-landscape);
+  }
 }
