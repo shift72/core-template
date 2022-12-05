@@ -38,14 +38,21 @@
 // The following override classes are to get around Bootstrap 4's use of Sass variables.
 // CSS themes will not work without these hacks.
 
-.btn-primary-override {
-  @extend .btn-primary;
-  border-color: $button-background;
 
+@mixin btn-override(
+  $button-text-color,
+  $button-text-color-hover,
+  $button-background,
+  $button-background-hover){
+  @extend .btn-primary;
+
+  border-color: $button-background;
+  background-color: $button-background;
   color: $button-text-color;
 
   @include hover() {
     border-color: $button-background-hover;
+    background-color: $button-background-hover;
     color: $button-text-color-hover;
   }
 
@@ -54,9 +61,9 @@
     border-color: $button-background-hover;
     color: $button-text-color-hover;
     @if $enable-shadows {
-      @include box-shadow($btn-box-shadow, 0 0 0 $btn-focus-width rgba(var(--primary-rgb), 0.5));
+      @include box-shadow($btn-box-shadow, 0 0 0 $btn-focus-width rgba($button-background, 0.5));
     } @else {
-      box-shadow: 0 0 0 $btn-focus-width rgba(var(--primary-rgb), 0.5);
+      box-shadow: 0 0 0 $btn-focus-width rgba($button-background, 0.5);
     }
   }
 
@@ -78,13 +85,21 @@
       @if $enable-shadows and $btn-active-box-shadow != none {
         @include box-shadow(
           $btn-active-box-shadow,
-          0 0 0 $btn-focus-width rgba(var(--primary-rgb), 0.5)
+          0 0 0 $btn-focus-width rgba($button-background, 0.5)
         );
       } @else {
-        box-shadow: 0 0 0 $btn-focus-width rgba(var(--primary-rgb), 0.5);
+        box-shadow: 0 0 0 $btn-focus-width rgba($button-background, 0.5);
       }
     }
   }
+}
+
+.btn-primary-override {
+  @include btn-override(
+    $button-text-color,
+    $button-text-color-hover,
+    $button-background,
+    $button-background-hover);
 }
 
 .btn-link-override {

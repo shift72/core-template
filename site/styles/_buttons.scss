@@ -225,52 +225,9 @@ s72-userwishlist-button {
 }
 
 .s72-btn-sso-veriplay {
-  @extend .btn-primary;
-  background-color: var(--veriplay-button-background);
-  border-color: var(--veriplay-button-background);
-  color: var(--veriplay-button-text-color);
-  width: 100%;
-
-  @include hover() {
-    background-color: var(--veriplay-button-background-hover);
-    border-color: var(--veriplay-button-background-hover);
-    color: var(--veriplay-button-text-color-hover);
-  }
-
-  &:focus,
-  &.focus {
-    border-color: var(--veriplay-button-background-hover);
-    color: var(--veriplay-button-text-color-hover);
-    @if $enable-shadows {
-      @include box-shadow($btn-box-shadow, 0 0 0 $btn-focus-width rgba(var(--primary-rgb), 0.5));
-    } @else {
-      box-shadow: 0 0 0 $btn-focus-width rgba(var(--primary-rgb), 0.5);
-    }
-  }
-
-  &.disabled,
-  &:disabled {
-    background-color: var(--veriplay-button-background);
-    border-color: var(--veriplay-button-background);
-    color: var(--veriplay-button-text-color);
-  }
-
-  &:not(:disabled):not(.disabled):active,
-  &:not(:disabled):not(.disabled).active,
-  .show > &.dropdown-toggle {
-    background-color: var(--veriplay-button-background-hover);
-    border-color: var(--veriplay-button-background-hover);
-    color: var(--veriplay-button-text-color-hover);
-
-    &:focus {
-      @if $enable-shadows and $btn-active-box-shadow != none {
-        @include box-shadow(
-          $btn-active-box-shadow,
-          0 0 0 $btn-focus-width rgba(var(--veriplay-button-background), 0.5)
-        );
-      } @else {
-        box-shadow: 0 0 0 $btn-focus-width rgba(var(--veriplay-button-background), 0.5);
-      }
-    }
-  }
+  @include btn-override(
+    var(--veriplay-button-text-color),
+    var(--veriplay-button-text-color-hover),
+    var(--veriplay-button-background),
+    var(--veriplay-button-background-hover));
 }
