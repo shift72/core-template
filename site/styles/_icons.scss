@@ -231,3 +231,14 @@ s72-availability-label .availability-state::before {
   @extend .fa-circle;
   @extend .s72-icon;
 }
+
+// Rule: icon classes in relish should be prefxed with 's72-'
+.s72-icon-down {
+  @extend .fa;
+  @extend .fa-angle-down;
+}
+
+.s72-icon-up {
+  @extend .fa;
+  @extend .fa-angle-up;
+}
