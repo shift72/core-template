@@ -132,7 +132,6 @@
 
 .s72-purchase-option.rent-or-buy {
   .s72-purchase-option-buttons {
-
     @include media-breakpoint-up(md) {
       flex-wrap: nowrap;
     }
