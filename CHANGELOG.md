@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.6.0...HEAD)
 
+### Added
+- CSS for the new purchase flow.
+
 ### Fixed
 - Pricing buttons no longer get squashed in Firefox.
 - Spacing issues on small screens
