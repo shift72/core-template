@@ -135,18 +135,6 @@
     @include media-breakpoint-up(md) {
       flex-wrap: nowrap;
     }
-    // If there are two buttons...
-    :first-child:nth-last-child(2) {
-      @include media-breakpoint-up(md) {
-        margin-right: 5px;
-      }
-    }
-
-    :last-child:nth-last-child(1) {
-      @include media-breakpoint-up(md) {
-        margin-left: 5px;
-      }
-    }
   }
 
   .s72-btn-purchase-option {
@@ -162,10 +150,12 @@
 
     @include media-breakpoint-up(md) {
       margin-bottom: 0;
+      margin-right: 10px;
     }
 
     &:last-child {
       margin-bottom: 0;
+      margin-right: 0;
     }
   }
 }
