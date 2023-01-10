@@ -161,8 +161,8 @@
     animation: fadein 2s;
     display: block;
     flex-shrink: 0;
-    margin-right: 20px;
     margin-bottom: 20px;
+    margin-right: 20px;
     width: 110px;
 
     @include media-breakpoint-up(xs) {
@@ -183,9 +183,9 @@
   }
 
   .poster-wrapper .sponsor {
-      @include media-breakpoint-up(lg) {
-        display: none;
-      }
+    @include media-breakpoint-up(lg) {
+      display: none;
+    }
   }
 
   .meta-detail-content {
