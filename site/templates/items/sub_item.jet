@@ -1,22 +1,26 @@
 {{ block subItem(item) }}
-  <div class="poster-container">
-    <div class="poster">
-      <s72-availability-status slug="{{item.Slug}}"></s72-availability-status>
-      <s72-image src="{{item.Images.Landscape}}" alt="{{item.Title}}" class="poster-image poster-image-landscape"></s72-image>
-      <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
-      <s72-playback-progress slug="{{item.Slug}}"></s72-playback-progress>
-    </div>
-  </div>
-  <h3>{{item.Title}}</h3>
-  {{if item.Runtime > 0 }}
-    <span class="runtime">
-      {{if item.Runtime.Hours() > 0}}
-        {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
+  <s72-show-hide-switcher target-elem=".synopsis">
+    <div class="sub-item">
+      <div class="poster-container">
+        <div class="poster">
+          <s72-availability-status slug="{{item.Slug}}"></s72-availability-status>
+          <s72-image src="{{item.Images.Landscape}}" alt="{{item.Title}}" class="poster-image poster-image-landscape"></s72-image>
+          <s72-play-button data-slug="{{item.Slug}}" title="{{item.Title}}"></s72-play-button>
+          <s72-playback-progress slug="{{item.Slug}}"></s72-playback-progress>
+        </div>
+      </div>
+      <h3>{{item.Title}}</h3>
+      {{if item.Runtime > 0 }}
+        <span class="runtime">
+          {{if item.Runtime.Hours() > 0}}
+            {{item.Runtime.Hours()}}{{i18n("runtime_hours")}}
+          {{end}}
+          {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
+        </span>
       {{end}}
-      {{item.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
-    </span>
-  {{end}}
-  {{if item.Overview}}
-    <div class="synopsis">{{item.Overview | raw}}</div>
-  {{end}}
+      {{if item.Overview}}
+        <div class="synopsis s72-hide">{{item.Overview | raw}}</div> {* hide class prevents FOUC *}
+      {{end}}
+    </div>
+  </s72-show-hide-switcher>
 {{ end }}

@@ -147,9 +147,13 @@
     .sponsor {
       margin-bottom: 12px;
 
-      @include media-breakpoint-up(xs) {
+      @include media-breakpoint-up(lg) {
         margin-bottom: 20px;
       }
+    }
+
+    > .poster {
+      margin-bottom: 5px;
     }
   }
 
@@ -157,8 +161,8 @@
     animation: fadein 2s;
     display: block;
     flex-shrink: 0;
-    margin-bottom: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
     width: 110px;
 
     @include media-breakpoint-up(xs) {
@@ -172,12 +176,16 @@
     .live {
       display: none;
     }
+
+    .s72-image {
+      display: initial;
+    }
   }
 
   .poster-wrapper .sponsor {
-    @include media-breakpoint-up(lg) {
-      display: none;
-    }
+      @include media-breakpoint-up(lg) {
+        display: none;
+      }
   }
 
   .meta-detail-content {
@@ -190,7 +198,8 @@
 
 s72-element-switcher,
 .meta-detail-bonus-content,
-.meta-detail-episodes-content {
+.meta-detail-episodes-content,
+.meta-awards-all {
   flex: 1 1 100%;
   max-width: 728px;
 
@@ -221,7 +230,12 @@ s72-element-switcher,
   }
 
   .meta-detail-synopsis {
+    margin-bottom: -4px;
     max-width: 728px;
+
+    @include media-breakpoint-up(xs) {
+      margin-bottom: 0;
+    }
     @include media-breakpoint-up(xl) {
       max-width: 1100px;
     }
@@ -229,7 +243,7 @@ s72-element-switcher,
 
   .meta-detail-synopsis,
   .meta-detail-switcher-tagline {
-    padding-top: 22px;
+    padding-top: 12px;
 
     p {
       animation: fadein 2s;
@@ -265,19 +279,6 @@ s72-element-switcher,
         text-decoration: none;
       }
     }
-  }
-}
-
-.recommendations-collection {
-  padding-top: 20px;
-  @include media-breakpoint-up(md) {
-    padding-top: 0;
-  }
-  @include media-breakpoint-up(lg) {
-    padding-top: 20px;
-  }
-  @include media-breakpoint-up(xl) {
-    padding-top: 80px;
   }
 }
 
@@ -399,7 +400,10 @@ s72-element-switcher,
 
 .meta-detail-episodes-content,
 .meta-detail-bonus-content {
-  margin-bottom: 40px;
+  margin-bottom: 18px;
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 32px;
+  }
 
   h2 {
     @include heading-3-style;
@@ -416,9 +420,12 @@ s72-element-switcher,
 
 .element-switcher-wrapper {
   display: grid;
-  gap: 50px;
-  grid-template-columns: auto auto;
   width: 100%;
+
+  @include media-breakpoint-up(lg) {
+    gap: 50px;
+    grid-template-columns: auto auto;
+  }
 
   .sponsor {
     display: none;
@@ -450,6 +457,7 @@ s72-element-switcher {
   margin-bottom: 62px;
 
   .s72-toggle {
+    bottom: -36px;
     &:hover {
       color: var(--body-color-hover);
     }
@@ -460,7 +468,6 @@ s72-element-switcher {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(1, 1fr);
-  padding-bottom: 20px;
 
   @include media-breakpoint-up(lg) {
     grid-template-columns: repeat(2, 1fr);

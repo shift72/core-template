@@ -1,6 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.5.1...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.6.0...HEAD)
+
+### Fixed
+- Pricing buttons no longer get squashed in Firefox.
+- Spacing issues on small screens
+
+## [1.6.0](https://github.com/shift72/core-template/compare/1.5.1...1.6.0)
 
 ### Added
 - AB#9564 Live label to film detail page and carousel with translations.
@@ -8,11 +14,13 @@
 - Translations for live event purchase flow.
 - Translations for credit card validation errors.
 - Translations for new card timing out error.
+- Award categories moved to above film description
 
 ### Fixed
 - Inline cta buttons now grow when text is wider than button width.
 - TV season detail page layout now matches film detail page layout.
 - Links to specific episodes from collections (inc homepage carousel).
+- Trailer autoplay disabled for CTA buttons in homepage carousel.
 
 ### Fixed
 - Gap below page-collections consistent with sliders
