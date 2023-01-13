@@ -5,6 +5,7 @@
 ### Fixed
 - Pricing buttons no longer get squashed in Firefox.
 - Spacing issues on small screens
+- Fixed episode description container issue.
 
 ## [1.6.0](https://github.com/shift72/core-template/compare/1.5.1...1.6.0)
 
