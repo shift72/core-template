@@ -11,6 +11,9 @@
 - Modified powered_by_url translations.
 - Various spacing style changes.
 
+### Added
+- CSS for the new purchase flow.
+
 ### Fixed
 - Pricing buttons no longer get squashed in Firefox.
 - Spacing issues on small screens.
