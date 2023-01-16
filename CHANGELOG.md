@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.7.0...HEAD)
 
+### Added
+- CSS for the new purchase flow.
+
 ## [1.7.0](https://github.com/shift72/core-template/compare/1.6.0...1.7.0)
 
 ### Added
@@ -10,9 +13,6 @@
 ### Changed
 - Modified powered_by_url translations.
 - Various spacing style changes.
-
-### Added
-- CSS for the new purchase flow.
 
 ### Fixed
 - Pricing buttons no longer get squashed in Firefox.
