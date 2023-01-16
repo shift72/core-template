@@ -5,6 +5,9 @@
 ### Added
 - CSS for the new purchase flow.
 
+### Fixed
+- Links to specific episodes from collections (inc homepage carousel).
+
 ## [1.7.0](https://github.com/shift72/core-template/compare/1.6.0...1.7.0)
 
 ### Added
