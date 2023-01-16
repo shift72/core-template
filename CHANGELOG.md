@@ -1,10 +1,22 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.6.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.7.0...HEAD)
+
+### Added
+- CSS for the new purchase flow.
+
+## [1.7.0](https://github.com/shift72/core-template/compare/1.6.0...1.7.0)
+
+### Added
+- Bonus content and episode show/hide component.
+
+### Changed
+- Modified powered_by_url translations.
+- Various spacing style changes.
 
 ### Fixed
 - Pricing buttons no longer get squashed in Firefox.
-- Spacing issues on small screens
+- Spacing issues on small screens.
 
 ## [1.6.0](https://github.com/shift72/core-template/compare/1.5.1...1.6.0)
 

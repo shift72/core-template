@@ -82,9 +82,7 @@
               {{yield list(itemsPerRow=4, itemLayout="portrait") content}}
                 {{range episode := tvseason.Episodes}}
                   <a id="episode-{{episode.EpisodeNumber}}"></a>
-                  <div class="sub-item">
-                    {{yield subItem(item=episode)}}
-                  </div>
+                  {{yield subItem(item=episode)}}
                 {{end}}
               {{end}}
             </div>
