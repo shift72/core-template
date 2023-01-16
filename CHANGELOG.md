@@ -5,6 +5,9 @@
 ### Added
 - CSS for the new purchase flow.
 
+### Fixed
+- Links to specific episodes from collections (inc homepage carousel).
+
 ## [1.7.0](https://github.com/shift72/core-template/compare/1.6.0...1.7.0)
 
 ### Added
@@ -31,7 +34,6 @@
 ### Fixed
 - Inline cta buttons now grow when text is wider than button width.
 - TV season detail page layout now matches film detail page layout.
-- Links to specific episodes from collections (inc homepage carousel).
 - Trailer autoplay disabled for CTA buttons in homepage carousel.
 
 ### Fixed
