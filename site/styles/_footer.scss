@@ -49,6 +49,34 @@ footer {
   }
 }
 
+.social-media-icons {
+  padding-top: 10px;
+  text-align: center;
+  @include media-breakpoint-up(xl) {
+    text-align: left;
+    :first-child {
+      padding-left: 0px;
+      margin-left: -1px;
+    }
+  }
+  
+  .social-media-icon {
+    @extend .btn;
+    svg {
+      height: 18px;
+    }
+    svg path {
+      fill: var(--body-color);
+      @extend .animate-this;
+    }
+    &:hover {
+      svg path {
+        fill: var(--primary);
+      }
+    }
+  }
+}
+
 .footer-info {
   background-color: $footer-bar-background-color;
   padding: 20px 42px;
