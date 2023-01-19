@@ -6,9 +6,11 @@ This template supports the following features:
 * Template only pages (robots.txt and sitemap.txt are examples)
 * Internationalization
 
-## Building
+## Getting started
 
- * install kibble
- * ```kibble render``` - generate a new site (files are located at ```.kibble/build```)
- * ```kibble serve --watch``` to preview the site
+ * `npm install`
+ * `npm start` will build and start the site in watch mode
 
+## Running local content
+
+To serve content from a local build comment out [application.jet#L7](site/templates/application/application.jet#L7) and uncomment the [localhost CDN](site/templates/application/application.jet#L8). The local content must be served via http://localhost:3000 and must match the expected sources.
