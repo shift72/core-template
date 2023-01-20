@@ -136,7 +136,7 @@
     },
     {
       "name": "tvItem",
-      "urlPath": "/tv/:slug/:seasonNumber",
+      "urlPath": "/tv/:slug/:seasonNumber/",
       "templatePath": "templates/tv/detail.jet",
       "partialUrlPath": "/partials/tv/:showID/season/:seasonNumber.html",
       "partialTemplatePath": "templates/tv/partial.jet",
