@@ -13,4 +13,4 @@ This template supports the following features:
 
 ## Running local content
 
-To serve content from a local build comment out [application.jet#L7](site/templates/application/application.jet#L7) and uncomment the [localhost CDN](site/templates/application/application.jet#L8). The local content must be served via http://localhost:3000 and must match the expected sources.
+To use a local version of relish, update [application.jet](site/templates/application/application.jet) to set the CDN to: `{{CDN := "//localhost:3000"}}`.
