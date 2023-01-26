@@ -11,6 +11,6 @@
       </ul>
     {{ end }}
     
-    {{ yield socialMediaButtonsFooter() }}
+    {{ yield footerSocialMediaButtons() }}
   </nav>
 {{ end }}

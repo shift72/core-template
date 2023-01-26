@@ -1,4 +1,4 @@
-{{block socialMediaButtonsFooter()}}
+{{block footerSocialMediaButtons()}}
   {{social_link_instagram := config("social_link_instagram")}}
   {{social_link_youtube := config("social_link_youtube")}}
   {{social_link_facebook := config("social_link_facebook")}}
