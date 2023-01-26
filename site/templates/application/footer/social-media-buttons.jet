@@ -5,7 +5,7 @@
   {{social_link_twitter := config("social_link_twitter")}}
   {{social_link_letterboxd := config("social_link_letterboxd")}}
   {{if social_link_instagram != "" || social_link_youtube != "" || social_link_facebook != "" || social_link_twitter != "" || social_link_letterboxd != ""}}
-    <div class="social-media-icons">
+    <div class="footer-social-media-icons">
     {{if social_link_instagram != ""}}
       <a target="_blank" title="Instagram" href="{{social_link_instagram}}" class="social-media-icon insta">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
