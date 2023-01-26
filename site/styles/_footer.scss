@@ -55,24 +55,24 @@ footer {
   @include media-breakpoint-up(xl) {
     text-align: left;
     :first-child {
-      padding-left: 0px;
       margin-left: -1px;
+      padding-left: 0;
     }
   }
-  
-  .social-media-icon {
-    @extend .btn;
-    svg {
-      height: 18px;
-    }
+}
+
+.footer-social-media-icon {
+  @extend .btn;
+  svg {
+    height: 18px;
+  }
+  svg path {
+    @extend .animate-this;
+    fill: var(--body-color);
+  }
+  &:hover {
     svg path {
-      fill: var(--body-color);
-      @extend .animate-this;
-    }
-    &:hover {
-      svg path {
-        fill: var(--primary);
-      }
+      fill: var(--primary);
     }
   }
 }
