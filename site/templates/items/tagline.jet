@@ -17,7 +17,7 @@
 
     {{if isset(.Runtime)}}
       {{yield item(class="runtime") content}}
-        {{if .Runtime > 60}}
+        {{if .Runtime > 59}}
           {{.Runtime.Hours()}}{{i18n("runtime_hours")}}
         {{end}}
         {{.Runtime.Minutes()}}{{i18n("runtime_minutes")}}
