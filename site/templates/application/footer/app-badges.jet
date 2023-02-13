@@ -6,7 +6,7 @@
   {{app_link_apple_tv := config("app_link_apple_tv")}}
   {{app_link_android_tv := config("app_link_android_tv")}}
   {{app_link_fire_tv := config("app_link_fire_tv")}}
-  {{if config("app_link_ios") != "" || config("app_link_android") != "" || config("app_link_fire_tv") != ""}}
+  {{if config("app_link_ios") != "" || config("app_link_android") != ""}}
     <div class="app-banner">
       <h2 class="app-badge-title">{{ i18n("app_badge_title") }}</h2>
       <div class="app-badge-container">
@@ -21,30 +21,24 @@
           </a>
         {{end}}
       </div>
-      <br>
+    </div>
+    {{yield separator()}} {* Test these - toggle configs and test resolutions *}
+  {{end}}
+  {{if config("app_link_appletv") != "" || config("app_link_android_tv") != "" || config("app_link_fire_tv") != ""}}
+    <div class="app-banner">
       <h2 class="app-badge-title">Available on TV apps</h2>
       <div class="app-badge-container">
-        {{if config("app_link_apple_tv") != ""}}
-          {{if config("app_link_ios") != ""}}
+        {{if config("app_link_apple_tv_enabled") != ""}}  {* true/false toggle instead of a link *}
           <s72-image src="/images/icons/appletv.png" alt="Apple TV" class="app-badge-image appletv"></s72-image>
-          {{else}}
-            <a class="app-badge-link" href="{{app_link_apple_tv}}" target="_blank">
-              <s72-image src="/images/icons/appletv.png" alt="Apple TV" class="app-badge-image appletv"></s72-image>
-            </a>
-          {{end}}
         {{end}}
         {{if config("app_link_android_tv") != ""}}
-          {{if config("app_link_android") != ""}}
+          <a class="app-badge-link" href="{{app_link_android_tv}}" target="_blank">
             <s72-image src="/images/icons/androidtv.png" alt="Android TV" class="app-badge-image androidtv"></s72-image>
-          {{else}}
-            <a class="app-badge-link" href="{{app_link_android_tv}}" target="_blank">
-             <s72-image src="/images/icons/androidtv.png" alt="Android TV" class="app-badge-image androidtv"></s72-image>
-            </a>
-          {{end}}
+          </a>
         {{end}}
         {{if config("app_link_fire_tv") != ""}}
-          <a>
-            <a href="{{app_link_fire_tv}}" target="_blank"><s72-image src="/images/icons/amazonfiretv.png" alt="Amazon Fire TV" class="app-badge-image amazonfiretv"></s72-image></a>
+          <a href="{{app_link_fire_tv}}" target="_blank">
+            <s72-image src="/images/icons/amazonfiretv.png" alt="Amazon Fire TV" class="app-badge-image amazonfiretv"></s72-image>
           </a>
         {{end}}
       </div>
