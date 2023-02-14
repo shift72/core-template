@@ -61,20 +61,17 @@ footer {
   }
 }
 
-.footer-social-media-icon {
+.footer-social-media-icon i {
+  color: var(--body-color);
+  font-size: 32px;
+  &:hover{
+    color: var(--primary);
+  }
   @extend .btn;
-  svg {
-    height: 18px;
-  }
-  svg path {
-    @extend .animate-this;
-    fill: var(--body-color);
-  }
-  &:hover {
-    svg path {
-      fill: var(--primary);
-    }
-  }
+}
+
+.footer-social-media-icons a:hover {
+  text-decoration: none;
 }
 
 .footer-info {

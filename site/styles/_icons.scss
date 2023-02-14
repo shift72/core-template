@@ -82,8 +82,28 @@
   content: '\e002';
 }
 
+.fa-instagramFooter::before {
+  content: '\e007';
+}
+
 .fa-twitter::before {
   content: '\e008';
+}
+
+.fa-twitterFooter::before {
+  content: '\e01f';
+}
+
+.fa-facebookFooter::before {
+  content: '\e01e';
+}
+
+.fa-youtubeFooter::before {
+  content: '\e005';
+}
+
+.fa-letterboxdFooter::before {
+  content: '\e006';
 }
 
 .fa-star::before {
