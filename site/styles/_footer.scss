@@ -85,7 +85,7 @@ footer {
   }
 }
 
-.app-banner {
+.app-banner, .tv-app-banner {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -94,11 +94,11 @@ footer {
   @include media-breakpoint-up(lg) {
     margin: 0 50px;
   }
-  .app-badge-container {
+  .app-badge-container, .tv-app-badge-container {
     display: flex;
   }
 
-  .app-badge-title {
+  .app-badge-title, .tv-app-badge-title {
     @include body-1-style;
     margin-bottom: 20px;
     text-align: center;
@@ -107,27 +107,42 @@ footer {
   .app-badge-link {
     margin: 0 5px;
   }
+
   .app-badge-image {
     height: 40px;
   }
 
-  .appletv {
-    padding-left: 0px;
+  .amazonfiretv {
+    padding-left: 23px;
+    height: 30px;
+    margin-top: 5px;
   }
 
   .androidtv {
-    padding-left: 20px;
+    padding-left: 23px;
     height: 20px;
-    margin-top: 7px;
+    margin-top: 8px;
   }
 
-  .amazonfiretv {
-    padding-left: 20px;
-    height: 30px;
-    margin-top: 10px;
+  .appletv {
+    padding-left: 23px;
+    height: 44px;
+    margin-top: -3px;
   }
+
+  .tv-app-badge-container {
+    @include media-breakpoint-up(xl) {
+      text-align: left;
+      div:first-child {
+        img {
+          margin-left: -1px;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+
 }
-
 
 .sponsor-banner {
   display: flex;

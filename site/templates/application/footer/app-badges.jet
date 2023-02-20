@@ -24,22 +24,28 @@
     </div>
     {{yield separator()}} {* Test these - toggle configs and test resolutions *}
   {{end}}
-  {{if config("app_link_appletv") != "" || config("app_link_android_tv") != "" || config("app_link_fire_tv") != ""}}
-    <div class="app-banner">
-      <h2 class="app-badge-title">Available on TV apps</h2>
-      <div class="app-badge-container">
-        {{if config("app_link_apple_tv_enabled") != ""}}  {* true/false toggle instead of a link *}
-          <s72-image src="/images/icons/appletv.png" alt="Apple TV" class="app-badge-image appletv"></s72-image>
+  {{if config("app_link_apple_tv_enabled") == "true" || config("app_link_android_tv") != "" || config("app_link_fire_tv") != ""}}
+    <div class="tv-app-banner">
+      <h2 class="tv-app-badge-title">Available on TV apps</h2>
+      <div class="tv-app-badge-container">
+        {{if config("app_link_fire_tv") != ""}}
+          <div class="tv-app-badge">
+            <a class="app-badge-link" href="{{app_link_fire_tv}}" target="_blank">
+              <s72-image class="amazonfiretv" src="/images/icons/amazonfiretv.png" alt="Amazon Fire TV"></s72-image>
+            </a>
+          </div>
         {{end}}
         {{if config("app_link_android_tv") != ""}}
-          <a class="app-badge-link" href="{{app_link_android_tv}}" target="_blank">
-            <s72-image src="/images/icons/androidtv.png" alt="Android TV" class="app-badge-image androidtv"></s72-image>
-          </a>
+          <div class="tv-app-badge">
+            <a class="app-badge-link" href="{{app_link_android_tv}}" target="_blank">
+              <s72-image class="androidtv" src="/images/icons/androidtv.png" alt="Android TV"></s72-image>
+            </a>
+          </div>
         {{end}}
-        {{if config("app_link_fire_tv") != ""}}
-          <a href="{{app_link_fire_tv}}" target="_blank">
-            <s72-image src="/images/icons/amazonfiretv.png" alt="Amazon Fire TV" class="app-badge-image amazonfiretv"></s72-image>
-          </a>
+        {{if config("app_link_apple_tv_enabled") == "true"}}  {* true/false toggle instead of a link *}
+          <div class="tv-app-badge">
+            <s72-image class="app-badge-link appletv" src="/images/icons/appletv.png" alt="Apple TV"></s72-image>
+          </div>
         {{end}}
       </div>
     </div>
