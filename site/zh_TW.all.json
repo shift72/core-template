@@ -1498,5 +1498,8 @@
   },
   "new_card_error_timed_out": {
     "other": "添加該卡時出現問題。請稍後再試或使用其他卡。"
+  },
+  "tv_app_badge_title": {
+    "other": "在電視應用程序上可用"
   }
 }

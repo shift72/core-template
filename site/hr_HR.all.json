@@ -1513,5 +1513,8 @@
   },
   "new_card_error_timed_out": {
     "other": "Nešto nije u redu prilikom dodavanja te kartice. Pokušajte ponovno kasnije ili upotrijebite drugu karticu."
+  },
+  "tv_app_badge_title": {
+    "other": "Dostupno u TV aplikacijama"
   }
 }

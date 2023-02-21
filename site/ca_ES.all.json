@@ -1511,5 +1511,8 @@
   },
   "new_card_error_timed_out": {
     "other": "S'ha produït un error en afegir aquesta targeta. Torneu-ho a provar més tard o utilitzeu una altra targeta."
+  },
+  "tv_app_badge_title": {
+    "other": "Disponible a les aplicacions de televisió"
   }
 }

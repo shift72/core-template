@@ -1498,5 +1498,8 @@
   },
   "new_card_error_timed_out": {
     "other": "カードの追加中にエラーが発生しました。後でもう一度試すか、別のカードを使用してください。"
+  },
+  "tv_app_badge_title": {
+    "other": "TV アプリで利用可能"
   }
 }

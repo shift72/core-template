@@ -1588,5 +1588,8 @@
   },
   "new_card_error_timed_out": {
     "other": "Coś poszło nie tak podczas dodawania tej karty. Spróbuj ponownie później lub użyj innej karty."
+  },
+  "tv_app_badge_title": {
+    "other": "Dostępne w aplikacjach telewizyjnych"
   }
 }

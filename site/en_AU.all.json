@@ -1259,6 +1259,9 @@
   "app_badge_title": {
     "other": "Download the app to view your purchased content!"
   },
+  "tv_app_badge_title": {
+    "other": "Available on TV apps"
+  },
   "app_badge_ios": {
     "other": "Download on the App Store"
   },

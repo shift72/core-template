@@ -1511,5 +1511,8 @@
   },
   "new_card_error_timed_out": {
     "other": "Selle kaardi lisamisel läks midagi valesti. Proovige hiljem uuesti või kasutage teist kaarti."
+  },
+  "tv_app_badge_title": {
+    "other": "Saadaval telerirakendustes"
   }
 }

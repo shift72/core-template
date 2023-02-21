@@ -1511,5 +1511,8 @@
   },
   "new_card_error_timed_out": {
     "other": "Der gik noget galt, da det pågældende kort blev tilføjet. Prøv igen senere, eller brug et andet kort."
+  },
+  "tv_app_badge_title": {
+    "other": "Tilgængelig på tv-apps"
   }
 }

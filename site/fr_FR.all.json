@@ -1515,5 +1515,8 @@
   },
   "new_card_error_timed_out": {
     "other": "Une erreur s'est produite lors de l'ajout de cette carte. Veuillez réessayer plus tard ou utiliser une autre carte."
+  },
+  "tv_app_badge_title": {
+    "other": "Disponible sur les applications TV"
   }
 }

@@ -1515,5 +1515,8 @@
   },
   "new_card_error_timed_out": {
     "other": "Qualcosa è andato storto durante l'aggiunta di quella carta. Riprova più tardi o usa una carta diversa."
+  },
+  "tv_app_badge_title": {
+    "other": "Disponibile sulle app TV"
   }
 }

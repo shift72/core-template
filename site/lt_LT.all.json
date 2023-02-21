@@ -1543,5 +1543,8 @@
   },
   "new_card_error_timed_out": {
     "other": "Pridedant šią kortelę kažkas nutiko. Bandykite dar kartą vėliau arba naudokite kitą kortelę."
+  },
+  "tv_app_badge_title": {
+    "other": "Pasiekiama TV programose"
   }
 }

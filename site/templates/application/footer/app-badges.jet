@@ -26,7 +26,7 @@
   {{end}}
   {{if config("app_link_apple_tv_enabled") == "true" || config("app_link_android_tv") != "" || config("app_link_fire_tv") != ""}}
     <div class="tv-app-banner">
-      <h2 class="tv-app-badge-title">Available on TV apps</h2>
+      <h2 class="tv-app-badge-title">{{ i18n("tv_app_badge_title") }}</h2>
       <div class="tv-app-badge-container">
         {{if config("app_link_fire_tv") != ""}}
           <div class="tv-app-badge">

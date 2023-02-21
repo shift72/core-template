@@ -1511,5 +1511,8 @@
   },
   "new_card_error_timed_out": {
     "other": "Bu kartı eklerken bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin veya farklı bir kart kullanın."
+  },
+  "tv_app_badge_title": {
+    "other": "TV uygulamalarında kullanılabilir"
   }
 }

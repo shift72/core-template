@@ -1511,5 +1511,8 @@
   },
   "new_card_error_timed_out": {
     "other": "Jotain meni pieleen korttia lisättäessä. Yritä myöhemmin uudelleen tai käytä toista korttia."
+  },
+  "tv_app_badge_title": {
+    "other": "Saatavilla TV-sovelluksissa"
   }
 }
