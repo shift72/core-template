@@ -17,6 +17,6 @@
 
 {{block socialMediaIcon(link,social)}}
       <a target="_blank" title="{{social}}" href="{{link}}" class="footer-social-media-icon {{social}}">
-        <i class="fa fa-{{social}}Footer"></i>
+        <i class="fa fa-{{social}}-footer"></i>
       </a>
 {{end}}

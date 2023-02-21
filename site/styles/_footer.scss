@@ -62,12 +62,12 @@ footer {
 }
 
 .footer-social-media-icon i {
+  @extend .btn;
   color: var(--body-color);
   font-size: 32px;
-  &:hover{
+  &:hover {
     color: var(--primary);
   }
-  @extend .btn;
 }
 
 .footer-social-media-icons a:hover {
