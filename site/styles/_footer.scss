@@ -53,6 +53,7 @@ footer {
   padding-top: 10px;
   text-align: center;
   @include media-breakpoint-up(xl) {
+    padding: 0px 50px 20px 50px;
     text-align: left;
     :first-child {
       margin-left: -1px;
