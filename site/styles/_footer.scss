@@ -7,10 +7,11 @@ footer {
 .footer-brand-link {
   align-self: center;
   display: flex;
+  margin-bottom: 30px;
 
   @include media-breakpoint-up(xl) {
     align-self: flex-start;
-    margin: 0 50px;
+    margin: 0 50px 20px;
   }
 }
 
@@ -19,10 +20,10 @@ footer {
 }
 
 .footer-nav {
-  padding: 30px 0;
+  margin-bottom: 30px;
 
   @include media-breakpoint-up(xl) {
-    padding: 20px 50px;
+    margin: 0 50px 20px;
   }
 
   .nav {
@@ -60,18 +61,18 @@ footer {
 
   @include media-breakpoint-up(xl) {
     justify-content: start;
-    margin: 0px 50px 20px;
+    margin: 0 50px 20px;
     text-align: left;
   }
 
   .s72-btn {
     grid-row: 1;
     padding: 0;
-    
+
     i {
       color: var(--body-color);
       font-size: 32px;
-  
+
       &:hover {
         color: var(--body-color-hover);
       }
@@ -81,12 +82,14 @@ footer {
 
 .footer-info {
   background-color: $footer-bar-background-color;
+  margin-top: 30px;
   padding: 20px 42px;
 
   @include media-breakpoint-up(xl) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
     padding: 20px 50px;
   }
 }
