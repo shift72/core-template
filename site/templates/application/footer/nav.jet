@@ -1,4 +1,3 @@
-{{import "./social-media-buttons.jet"}}
 {{ block footerNav(navLinks) }}
   <nav class="footer-nav" aria-label="{{ i18n("wcag_aria_label_footer") }}">
     {{ if len(navLinks) > 0 }}
@@ -10,7 +9,5 @@
         {{ end }}
       </ul>
     {{ end }}
-    
-    {{ yield footerSocialMediaButtons() }}
   </nav>
 {{ end }}

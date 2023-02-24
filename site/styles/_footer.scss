@@ -50,28 +50,33 @@ footer {
 }
 
 .footer-social-media-icons {
-  padding-top: 10px;
-  text-align: center;
+  display: grid;
+  gap: 16px;
+  grid-auto-columns: 32px;
+  grid-auto-flow: column;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  margin-bottom: 30px;
+
   @include media-breakpoint-up(xl) {
+    justify-content: start;
+    margin: 0px 50px 20px;
     text-align: left;
-    :first-child {
-      margin-left: -1px;
-      padding-left: 0;
+  }
+
+  .s72-btn {
+    grid-row: 1;
+    padding: 0;
+    
+    i {
+      color: var(--body-color);
+      font-size: 32px;
+  
+      &:hover {
+        color: var(--body-color-hover);
+      }
     }
   }
-}
-
-.footer-social-media-icon i {
-  @extend .btn;
-  color: var(--body-color);
-  font-size: 32px;
-  &:hover {
-    color: var(--primary);
-  }
-}
-
-.footer-social-media-icons a:hover {
-  text-decoration: none;
 }
 
 .footer-info {
