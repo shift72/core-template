@@ -3,53 +3,51 @@
 {{block appBadges()}}
   {{app_link_ios := config("app_link_ios")}}
   {{app_link_android := config("app_link_android")}}
-  {{app_link_apple_tv := config("app_link_apple_tv")}}
+  {{app_link_apple_tv_enabled := config("app_link_apple_tv_enabled")}}
   {{app_link_android_tv := config("app_link_android_tv")}}
   {{app_link_fire_tv := config("app_link_fire_tv")}}
-  {{if config("app_link_ios") != "" || config("app_link_android") != ""}}
+
+  {{if app_link_ios != "" || app_link_android != ""}}
     <div class="app-banner">
       <h2 class="app-badge-title">{{ i18n("app_badge_title") }}</h2>
       <div class="app-badge-container">
-        {{if config("app_link_ios") != ""}}
-          <a class="app-badge-link" href="{{app_link_ios}}" target="_blank">
-            <s72-image src="/images/icons/app-store-badge.png" alt="{{ i18n("app_badge_ios") }}" class="app-badge-image"></s72-image>
-          </a>
-        {{end}}
-        {{if config("app_link_android") != ""}}
-          <a class="app-badge-link" href="{{app_link_android}}" target="_blank">
-            <s72-image src="/images/icons/google-play-badge.png" alt="{{ i18n("app_badge_android") }}" class="app-badge-image"></s72-image>
-          </a>
-        {{end}}
+
+        {{yield appBadge(link=app_link_ios, image="/images/icons/app-store-badge.png", altKey="app_badge_ios", imgClass="app-badge-image-ios")}}
+        {{yield appBadge(link=app_link_android, image="/images/icons/google-play-badge.png", altKey="app_badge_android", imgClass="app-badge-image-android")}} 
+        
       </div>
     </div>
-    {{yield separator()}} {* Test these - toggle configs and test resolutions *}
+
+    {{yield separator()}}
+  
   {{end}}
-  {{if config("app_link_apple_tv_enabled") == "true" || config("app_link_android_tv") != "" || config("app_link_fire_tv") != ""}}
+
+  {{if app_link_apple_tv_enabled == "true" || app_link_android_tv != "" || app_link_fire_tv != ""}}
     <div class="tv-app-banner">
       <h2 class="tv-app-badge-title">{{ i18n("tv_app_badge_title") }}</h2>
       <div class="tv-app-badge-container">
-        {{if config("app_link_fire_tv") != ""}}
-          <div class="tv-app-badge">
-            <a class="app-badge-link" href="{{app_link_fire_tv}}" target="_blank">
-              <s72-image class="amazonfiretv" src="/images/icons/amazonfiretv.png" alt="Amazon Fire TV"></s72-image>
-            </a>
-          </div>
-        {{end}}
-        {{if config("app_link_android_tv") != ""}}
-          <div class="tv-app-badge">
-            <a class="app-badge-link" href="{{app_link_android_tv}}" target="_blank">
-              <s72-image class="androidtv" src="/images/icons/androidtv.png" alt="Android TV"></s72-image>
-            </a>
-          </div>
-        {{end}}
-        {{if config("app_link_apple_tv_enabled") == "true"}}  {* true/false toggle instead of a link *}
-          <div class="tv-app-badge">
-            <s72-image class="app-badge-link appletv" src="/images/icons/appletv.png" alt="Apple TV"></s72-image>
-          </div>
-        {{end}}
+      
+        {{yield appBadge(link=app_link_fire_tv, image="/images/icons/amazonfiretv.png", altKey="Amazon Fire TV", imgClass="app-badge-image-amazonfiretv")}}
+        {{yield appBadge(link=app_link_android_tv, image="/images/icons/androidtv.png", altKey="Android TV", imgClass="app-badge-image-androidtv")}} 
+        {{yield appBadge(link=app_link_apple_tv_enabled, image="/images/icons/appletv.png", altKey="Apple TV", imgClass="app-badge-image-appletv")}} 
+
       </div>
     </div>
 
     {{yield separator()}}
   {{end}}
+{{end}}
+
+{{block appBadge(link, image, altKey, imgClass)}}
+
+  {{if link != "" && imgClass != "app-badge-image-appletv"}}
+    <a class="app-badge-link" href="{{link}}" target="_blank">
+      <s72-image class="{{imgClass}}" src="{{image}}" alt="{{ i18n("altKey") }}" ></s72-image>
+    </a>
+  {{end}}
+
+  {{if link == "true" && imgClass == "app-badge-image-appletv"}}
+    <s72-image class="app-badge-link {{imgClass}}" src="{{image}}" alt="{{ i18n("altKey") }}"></s72-image>
+  {{end}}
+
 {{end}}
