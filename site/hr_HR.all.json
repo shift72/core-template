@@ -1513,5 +1513,20 @@
   },
   "new_card_error_timed_out": {
     "other": "Nešto nije u redu prilikom dodavanja te kartice. Pokušajte ponovno kasnije ili upotrijebite drugu karticu."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Posjetite nas na Instagramu"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Pretplatite se na Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Posjetite nas na Facebooku"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Posjetite nas na Twitteru"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Posjetite nas na Letterboxd"
   }
 }

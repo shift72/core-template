@@ -1511,5 +1511,20 @@
   },
   "new_card_error_timed_out": {
     "other": "Noe gikk galt da kortet ble lagt til. Prøv igjen senere eller bruk et annet kort."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Besøk oss på Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Abonner på Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Besøk oss på Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Besøk oss på Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Besøk oss på Letterboxd"
   }
 }

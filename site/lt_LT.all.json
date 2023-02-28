@@ -1543,5 +1543,20 @@
   },
   "new_card_error_timed_out": {
     "other": "Pridedant šią kortelę kažkas nutiko. Bandykite dar kartą vėliau arba naudokite kitą kortelę."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Aplankykite mus Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Prenumeruokite Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Aplankykite mus Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Aplankykite mus Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Aplankykite mus „Letterboxd“."
   }
 }
