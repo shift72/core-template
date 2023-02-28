@@ -42,12 +42,12 @@
 
   {{if link != "" && imgClass != "app-badge-image-appletv"}}
     <a class="app-badge-link" href="{{link}}" target="_blank">
-      <s72-image class="{{imgClass}}" src="{{image}}" alt="{{ i18n("altKey") }}" ></s72-image>
+      <s72-image class="{{imgClass}}" src="{{image}}" alt="{{ i18n(altKey) }}" ></s72-image>
     </a>
   {{end}}
 
   {{if link == "true" && imgClass == "app-badge-image-appletv"}}
-    <s72-image class="app-badge-link {{imgClass}}" src="{{image}}" alt="{{ i18n("altKey") }}"></s72-image>
+    <s72-image class="app-badge-link {{imgClass}}" src="{{image}}" alt="{{ i18n(altKey) }}"></s72-image>
   {{end}}
 
 {{end}}
