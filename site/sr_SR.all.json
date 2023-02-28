@@ -1530,5 +1530,14 @@
   },
   "tv_app_badge_title": {
     "other": "Доступно у ТВ апликацијама"
+  },
+  "app_badge_fire_tv": {
+    "other": "Набавите га на Амазон Фире ТВ-у"
+  },
+  "app_badge_android_tv": {
+    "other": "Набавите га на Андроид ТВ-у"
+  },
+  "app_badge_apple_tv": {
+    "other": "Набавите га на Аппле ТВ-у"
   }
 }

@@ -27,9 +27,9 @@
       <h2 class="tv-app-badge-title">{{ i18n("tv_app_badge_title") }}</h2>
       <div class="tv-app-badge-container">
       
-        {{yield appBadge(link=app_link_fire_tv, image="/images/icons/amazonfiretv.png", altKey="Amazon Fire TV", imgClass="app-badge-image-amazonfiretv")}}
-        {{yield appBadge(link=app_link_android_tv, image="/images/icons/androidtv.png", altKey="Android TV", imgClass="app-badge-image-androidtv")}} 
-        {{yield appBadge(link=app_link_apple_tv_enabled, image="/images/icons/appletv.png", altKey="Apple TV", imgClass="app-badge-image-appletv")}} 
+        {{yield appBadge(link=app_link_fire_tv, image="/images/icons/amazonfiretv.png", altKey="app_badge_fire_tv", imgClass="app-badge-image-amazonfiretv")}}
+        {{yield appBadge(link=app_link_android_tv, image="/images/icons/androidtv.png", altKey="app_badge_android_tv", imgClass="app-badge-image-androidtv")}} 
+        {{yield appBadge(link=app_link_apple_tv_enabled, image="/images/icons/appletv.png", altKey="app_badge_apple_tv", imgClass="app-badge-image-appletv")}} 
 
       </div>
     </div>

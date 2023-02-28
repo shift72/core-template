@@ -1514,5 +1514,14 @@
   },
   "tv_app_badge_title": {
     "other": "Verfügbar in TV-Apps"
+  },
+  "app_badge_fire_tv": {
+    "other": "Holen Sie es sich auf Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Holen Sie es sich auf Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Hol es dir auf Apple TV"
   }
 }

@@ -1514,5 +1514,14 @@
   },
   "tv_app_badge_title": {
     "other": "Tilgængelig på tv-apps"
+  },
+  "app_badge_fire_tv": {
+    "other": "Få det på Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Få det på Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Få det på Apple TV"
   }
 }

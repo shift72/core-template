@@ -1546,5 +1546,14 @@
   },
   "tv_app_badge_title": {
     "other": "Pasiekiama TV programose"
+  },
+  "app_badge_fire_tv": {
+    "other": "Gaukite jį „Amazon Fire TV“."
+  },
+  "app_badge_android_tv": {
+    "other": "Gaukite jį „Android TV“."
+  },
+  "app_badge_apple_tv": {
+    "other": "Gaukite jį per Apple TV"
   }
 }

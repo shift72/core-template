@@ -1501,5 +1501,14 @@
   },
   "tv_app_badge_title": {
     "other": "TV アプリで利用可能"
+  },
+  "app_badge_fire_tv": {
+    "other": "Amazon Fire TV で入手する"
+  },
+  "app_badge_android_tv": {
+    "other": "Android TV で入手する"
+  },
+  "app_badge_apple_tv": {
+    "other": "Apple TV で入手する"
   }
 }

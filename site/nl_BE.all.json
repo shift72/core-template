@@ -1514,5 +1514,14 @@
   },
   "tv_app_badge_title": {
     "other": "Beschikbaar in tv-apps"
+  },
+  "app_badge_fire_tv": {
+    "other": "Download het op Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Download het op Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Download het op Apple TV"
   }
 }

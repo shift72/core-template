@@ -1268,6 +1268,15 @@
   "app_badge_android": {
     "other": "Get it on Google Play"
   },
+  "app_badge_fire_tv": {
+    "other": "Get it on Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Get it on Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Get it on Apple TV"
+  },
   "plans_page_header": {
     "other": "Available Plans"
   },

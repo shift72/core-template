@@ -1514,5 +1514,14 @@
   },
   "tv_app_badge_title": {
     "other": "TV uygulamalarında kullanılabilir"
+  },
+  "app_badge_fire_tv": {
+    "other": "Amazon Fire TV'den alın"
+  },
+  "app_badge_android_tv": {
+    "other": "Android TV'de alın"
+  },
+  "app_badge_apple_tv": {
+    "other": "Apple TV'de alın"
   }
 }

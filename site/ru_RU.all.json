@@ -1568,5 +1568,14 @@
   },
   "tv_app_badge_title": {
     "other": "Доступно в приложениях для ТВ"
+  },
+  "app_badge_fire_tv": {
+    "other": "Получите его на Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Загрузите его на Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Получить его на Apple TV"
   }
 }

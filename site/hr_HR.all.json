@@ -1516,5 +1516,14 @@
   },
   "tv_app_badge_title": {
     "other": "Dostupno u TV aplikacijama"
+  },
+  "app_badge_fire_tv": {
+    "other": "Nabavite ga na Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Preuzmite ga na Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Nabavite ga na Apple TV-u"
   }
 }

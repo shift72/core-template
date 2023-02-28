@@ -1514,5 +1514,14 @@
   },
   "tv_app_badge_title": {
     "other": "Elérhető a TV-alkalmazásokban"
+  },
+  "app_badge_fire_tv": {
+    "other": "Szerezd meg az Amazon Fire TV-n"
+  },
+  "app_badge_android_tv": {
+    "other": "Szerezd meg Android TV-n"
+  },
+  "app_badge_apple_tv": {
+    "other": "Szerezd meg az Apple TV-n"
   }
 }

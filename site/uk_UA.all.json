@@ -1574,5 +1574,14 @@
   },
   "tv_app_badge_title": {
     "other": "Доступно в додатках для телевізора"
+  },
+  "app_badge_fire_tv": {
+    "other": "Отримайте його на Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Завантажте на Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Отримайте його на Apple TV"
   }
 }

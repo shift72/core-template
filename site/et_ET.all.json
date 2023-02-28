@@ -1514,5 +1514,14 @@
   },
   "tv_app_badge_title": {
     "other": "Saadaval telerirakendustes"
+  },
+  "app_badge_fire_tv": {
+    "other": "Hankige see Amazon Fire TV-st"
+  },
+  "app_badge_android_tv": {
+    "other": "Hankige see Android TV-s"
+  },
+  "app_badge_apple_tv": {
+    "other": "Hankige see Apple TV-st"
   }
 }
