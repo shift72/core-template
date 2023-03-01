@@ -136,18 +136,16 @@ footer {
   }
 
   .tv-app-badge-container {
-    align-items: center;
     display: grid;
     gap: 22px;
     grid-auto-flow: column;
     grid-template-rows: 1fr;
     justify-content: center;
-    margin-bottom: 30px;
-    
-    .app-badge-link{
-      height: 45px;
-      display: flex;
+
+    .app-badge-link {
       align-items: center;
+      display: flex;
+      height: 45px;
     }
   }
 
