@@ -1587,5 +1587,20 @@
   },
   "app_badge_apple_tv": {
     "other": "احصل عليه من Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "قم بزيارتنا على Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "اشترك على يوتيوب"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "زورونا على الفيسبوك"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "قم بزيارتنا على Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "قم بزيارتنا على Letterboxd"
   }
 }

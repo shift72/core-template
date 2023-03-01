@@ -1539,5 +1539,20 @@
   },
   "app_badge_apple_tv": {
     "other": "Набавите га на Аппле ТВ-у"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Посетите нас на Инстаграму"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Претплатите се на Иоутубе"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Посетите нас на Фејсбуку"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Посетите нас на Твитеру"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Посетите нас на Леттербокд-у"
   }
 }

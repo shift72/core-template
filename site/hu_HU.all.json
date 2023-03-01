@@ -1523,5 +1523,20 @@
   },
   "app_badge_apple_tv": {
     "other": "Szerezd meg az Apple TV-n"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Látogass meg minket az Instagramon"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Iratkozz fel a Youtube-on"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Látogass el hozzánk a Facebookon"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Látogasson el hozzánk a Twitteren"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Látogasson el hozzánk a Letterboxd-on"
   }
 }

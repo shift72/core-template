@@ -1512,6 +1512,21 @@
   "new_card_error_timed_out": {
     "other": "Jotain meni pieleen korttia lisättäessä. Yritä myöhemmin uudelleen tai käytä toista korttia."
   },
+  "wcag_aria_label_social_instagram": {
+    "other": "Vieraile meillä Instagramissa"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Tilaa Youtubessa"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Vieraile Facebookissa"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Vieraile Twitterissä"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Vieraile meillä Letterboxdissa"
+  },
   "tv_app_badge_title": {
     "other": "Saatavilla TV-sovelluksissa"
   },

@@ -1510,5 +1510,20 @@
   },
   "app_badge_apple_tv": {
     "other": "Apple TV で入手する"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Instagramで私たちをご覧ください"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Youtubeで購読する"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Facebookで私たちをご覧ください"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Twitterで私たちをご覧ください"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Letterboxdにアクセスしてください"
   }
 }

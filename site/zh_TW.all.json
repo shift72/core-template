@@ -1510,5 +1510,20 @@
   },
   "app_badge_apple_tv": {
     "other": "在 Apple TV 上獲取它"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "在 Instagram 上訪問我們"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "在 Youtube 上訂閱"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "在 Facebook 上訪問我們"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "在推特上訪問我們"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "在 Letterboxd 上訪問我們"
   }
 }

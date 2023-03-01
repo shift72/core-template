@@ -1527,5 +1527,20 @@
   },
   "app_badge_apple_tv": {
     "other": "Obtenez-le sur Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Visitez-nous sur Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Abonnez-vous sur Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Visitez-nous sur Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Visitez-nous sur Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Rendez-nous visite sur Letterboxd"
   }
 }

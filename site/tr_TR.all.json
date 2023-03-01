@@ -1523,5 +1523,20 @@
   },
   "app_badge_apple_tv": {
     "other": "Apple TV'de alın"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Bizi Instagram'da ziyaret edin"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Youtube'da abone olun"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Facebook'ta bizi ziyaret edin"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Twitter'da bizi ziyaret edin"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Bizi Letterboxd'da ziyaret edin"
   }
 }

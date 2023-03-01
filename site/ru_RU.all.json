@@ -1577,5 +1577,20 @@
   },
   "app_badge_apple_tv": {
     "other": "Получить его на Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Посетите нас в Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Подпишитесь на Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Посетите нас на Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Посетите нас в Твиттере"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Посетите нас на Letterboxd"
   }
 }

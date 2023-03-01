@@ -1523,5 +1523,20 @@
   },
   "app_badge_apple_tv": {
     "other": "Hankige see Apple TV-st"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Külastage meid Instagramis"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Telli Youtube'is"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Külastage meid Facebookis"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Külastage meid Twitteris"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Külastage meid Letterboxdis"
   }
 }
