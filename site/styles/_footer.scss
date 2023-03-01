@@ -126,17 +126,29 @@ footer {
   flex-direction: column;
   margin: 0 20px;
   padding: 50px 0;
+
   @include media-breakpoint-up(lg) {
     margin: 0 50px;
   }
-  .app-badge-container,
-  .tv-app-badge-container {
+
+  .app-badge-container {
     display: flex;
   }
 
   .tv-app-badge-container {
     align-items: center;
+    display: grid;
     gap: 22px;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+    .app-badge-link{
+      height: 45px;
+      display: flex;
+      align-items: center;
+    }
   }
 
   .app-badge-title,
@@ -150,21 +162,8 @@ footer {
     margin: 0 5px;
   }
 
-  .app-badge-image-ios,
-  .app-badge-image-android {
+  .app-badge-image {
     height: 40px;
-  }
-
-  .app-badge-image-amazonfiretv {
-    height: 45px;
-  }
-
-  .app-badge-image-androidtv {
-    height: 20px;
-  }
-
-  .app-badge-image-appletv {
-    height: 44px;
   }
 }
 
