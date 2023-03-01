@@ -1515,5 +1515,20 @@
   },
   "new_card_error_timed_out": {
     "other": "Algo salió mal al agregar esa tarjeta. Vuelva a intentarlo más tarde o utilice una tarjeta diferente."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Visítanos en Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Suscríbete en Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Visítenos en Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Visítenos en Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Visítenos en Letterboxd"
   }
 }

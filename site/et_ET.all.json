@@ -1511,5 +1511,20 @@
   },
   "new_card_error_timed_out": {
     "other": "Selle kaardi lisamisel läks midagi valesti. Proovige hiljem uuesti või kasutage teist kaarti."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Külastage meid Instagramis"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Telli Youtube'is"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Külastage meid Facebookis"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Külastage meid Twitteris"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Külastage meid Letterboxdis"
   }
 }

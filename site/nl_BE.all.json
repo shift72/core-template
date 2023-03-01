@@ -1511,5 +1511,20 @@
   },
   "new_card_error_timed_out": {
     "other": "Er is iets misgegaan bij het toevoegen van die kaart. Probeer het later opnieuw of gebruik een andere kaart."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Bezoek ons op Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Abonneer je op Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Bezoek ons op Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Bezoek ons op Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Bezoek ons op Letterboxd"
   }
 }

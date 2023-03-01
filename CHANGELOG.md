@@ -4,6 +4,7 @@
 
 ### Added
 - CSS for the new purchase flow.
+- Social links in the footer.
 
 ### Fixed
 - Links to specific episodes from collections (inc homepage carousel).

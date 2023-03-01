@@ -1511,5 +1511,20 @@
   },
   "new_card_error_timed_out": {
     "other": "Κάτι πήγε στραβά κατά την προσθήκη αυτής της κάρτας. Δοκιμάστε ξανά αργότερα ή χρησιμοποιήστε διαφορετική κάρτα."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Επισκεφθείτε μας στο Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Εγγραφείτε στο Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Επισκεφθείτε μας στο Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Επισκεφθείτε μας στο Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Επισκεφθείτε μας στο Letterboxd"
   }
 }

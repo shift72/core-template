@@ -1571,5 +1571,20 @@
   },
   "new_card_error_timed_out": {
     "other": "Під час додавання цієї картки сталася помилка. Повторіть спробу пізніше або скористайтеся іншою карткою."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Відвідайте нас в Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Підпишіться на Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Відвідайте нас на Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Відвідайте нас у Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Відвідайте нас на Letterboxd"
   }
 }
