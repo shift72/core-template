@@ -1526,5 +1526,17 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Vieraile meillä Letterboxdissa"
+  },
+  "tv_app_badge_title": {
+    "other": "Saatavilla TV-sovelluksissa"
+  },
+  "app_badge_fire_tv": {
+    "other": "Hanki se Amazon Fire TV:stä"
+  },
+  "app_badge_android_tv": {
+    "other": "Lataa se Android TV:hen"
+  },
+  "app_badge_apple_tv": {
+    "other": "Lataa se Apple TV:stä"
   }
 }

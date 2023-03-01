@@ -1512,6 +1512,18 @@
   "new_card_error_timed_out": {
     "other": "Selle kaardi lisamisel läks midagi valesti. Proovige hiljem uuesti või kasutage teist kaarti."
   },
+  "tv_app_badge_title": {
+    "other": "Saadaval telerirakendustes"
+  },
+  "app_badge_fire_tv": {
+    "other": "Hankige see Amazon Fire TV-st"
+  },
+  "app_badge_android_tv": {
+    "other": "Hankige see Android TV-s"
+  },
+  "app_badge_apple_tv": {
+    "other": "Hankige see Apple TV-st"
+  },
   "wcag_aria_label_social_instagram": {
     "other": "Külastage meid Instagramis"
   },

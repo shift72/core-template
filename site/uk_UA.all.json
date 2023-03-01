@@ -1572,6 +1572,18 @@
   "new_card_error_timed_out": {
     "other": "Під час додавання цієї картки сталася помилка. Повторіть спробу пізніше або скористайтеся іншою карткою."
   },
+  "tv_app_badge_title": {
+    "other": "Доступно в додатках для телевізора"
+  },
+  "app_badge_fire_tv": {
+    "other": "Отримайте його на Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Завантажте на Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Отримайте його на Apple TV"
+  },
   "wcag_aria_label_social_instagram": {
     "other": "Відвідайте нас в Instagram"
   },

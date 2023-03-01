@@ -1499,6 +1499,18 @@
   "new_card_error_timed_out": {
     "other": "カードの追加中にエラーが発生しました。後でもう一度試すか、別のカードを使用してください。"
   },
+  "tv_app_badge_title": {
+    "other": "TV アプリで利用可能"
+  },
+  "app_badge_fire_tv": {
+    "other": "Amazon Fire TV で入手する"
+  },
+  "app_badge_android_tv": {
+    "other": "Android TV で入手する"
+  },
+  "app_badge_apple_tv": {
+    "other": "Apple TV で入手する"
+  },
   "wcag_aria_label_social_instagram": {
     "other": "Instagramで私たちをご覧ください"
   },

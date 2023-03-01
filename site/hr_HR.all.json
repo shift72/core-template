@@ -1514,6 +1514,18 @@
   "new_card_error_timed_out": {
     "other": "Nešto nije u redu prilikom dodavanja te kartice. Pokušajte ponovno kasnije ili upotrijebite drugu karticu."
   },
+  "tv_app_badge_title": {
+    "other": "Dostupno u TV aplikacijama"
+  },
+  "app_badge_fire_tv": {
+    "other": "Nabavite ga na Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Preuzmite ga na Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Nabavite ga na Apple TV-u"
+  },
   "wcag_aria_label_social_instagram": {
     "other": "Posjetite nas na Instagramu"
   },

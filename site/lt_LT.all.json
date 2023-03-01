@@ -1544,6 +1544,18 @@
   "new_card_error_timed_out": {
     "other": "Pridedant šią kortelę kažkas nutiko. Bandykite dar kartą vėliau arba naudokite kitą kortelę."
   },
+  "tv_app_badge_title": {
+    "other": "Pasiekiama TV programose"
+  },
+  "app_badge_fire_tv": {
+    "other": "Gaukite jį „Amazon Fire TV“."
+  },
+  "app_badge_android_tv": {
+    "other": "Gaukite jį „Android TV“."
+  },
+  "app_badge_apple_tv": {
+    "other": "Gaukite jį per Apple TV"
+  },
   "wcag_aria_label_social_instagram": {
     "other": "Aplankykite mus Instagram"
   },

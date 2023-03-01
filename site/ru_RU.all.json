@@ -1566,6 +1566,18 @@
   "new_card_error_timed_out": {
     "other": "Что-то пошло не так при добавлении этой карты. Повторите попытку позже или используйте другую карту."
   },
+  "tv_app_badge_title": {
+    "other": "Доступно в приложениях для ТВ"
+  },
+  "app_badge_fire_tv": {
+    "other": "Получите его на Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Загрузите его на Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Получить его на Apple TV"
+  },
   "wcag_aria_label_social_instagram": {
     "other": "Посетите нас в Instagram"
   },

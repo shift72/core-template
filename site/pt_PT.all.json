@@ -1516,6 +1516,18 @@
   "new_card_error_timed_out": {
     "other": "Algo deu errado ao adicionar esse cartão. Tente novamente mais tarde ou use um cartão diferente."
   },
+  "tv_app_badge_title": {
+    "other": "Disponível em aplicativos de TV"
+  },
+  "app_badge_fire_tv": {
+    "other": "Baixe na Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Baixe na Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Baixe na Apple TV"
+  },
   "wcag_aria_label_social_instagram": {
     "other": "Visite-nos no Instagram"
   },

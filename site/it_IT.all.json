@@ -1516,6 +1516,18 @@
   "new_card_error_timed_out": {
     "other": "Qualcosa è andato storto durante l'aggiunta di quella carta. Riprova più tardi o usa una carta diversa."
   },
+  "tv_app_badge_title": {
+    "other": "Disponibile sulle app TV"
+  },
+  "app_badge_fire_tv": {
+    "other": "Scaricalo su Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Scaricalo su Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Scaricalo su Apple TV"
+  },
   "wcag_aria_label_social_instagram": {
     "other": "Venite a trovarci su Instagram"
   },
