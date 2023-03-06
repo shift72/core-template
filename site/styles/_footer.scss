@@ -52,8 +52,8 @@ footer {
 
 .footer-social-media-icons {
   display: grid;
-  gap: 16px;
-  grid-auto-columns: 32px;
+  gap: 24px;
+  grid-auto-columns: 25px;
   grid-auto-flow: column;
   grid-template-rows: 1fr;
   justify-content: center;
@@ -62,7 +62,6 @@ footer {
   @include media-breakpoint-up(xl) {
     justify-content: start;
     margin: 0 50px 20px;
-    text-align: left;
   }
 
   .s72-btn {
@@ -72,7 +71,7 @@ footer {
 
     i {
       color: var(--body-color);
-      font-size: 32px;
+      font-size: 25px;
 
       &:hover {
         color: var(--body-color-hover);
