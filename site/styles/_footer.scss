@@ -62,7 +62,9 @@ footer {
   @include media-breakpoint-up(xl) {
     justify-content: start;
     margin: 0 50px 20px;
-    text-align: left;
+    .s72-btn {
+      text-align: left;
+    }
   }
 
   .s72-btn {
@@ -72,7 +74,7 @@ footer {
 
     i {
       color: var(--body-color);
-      font-size: 32px;
+      font-size: 25px;
 
       &:hover {
         color: var(--body-color-hover);
