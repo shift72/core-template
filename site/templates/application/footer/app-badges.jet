@@ -36,7 +36,7 @@
 {{end}}
 
 {{block appBadge(href, image, altKey, imgClass)}}
-  {{if href != ""}}
+  {{if href != "" && href != "false"}}
     <a class="app-badge-link" {{if href != "true" }} href="{{href}}" target="_blank" {{end}}>
       <s72-image class="{{imgClass}}" src="{{image}}" alt="{{ i18n(altKey) }}" ></s72-image>
     </a>
