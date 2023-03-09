@@ -1,6 +1,9 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.7.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.8.0...HEAD)
+
+
+## [1.8.0](https://github.com/shift72/core-template/compare/1.7.0...1.8.0)
 
 ### Added
 - CSS for the new purchase flow.
