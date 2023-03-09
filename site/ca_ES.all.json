@@ -1511,5 +1511,32 @@
   },
   "new_card_error_timed_out": {
     "other": "S'ha produït un error en afegir aquesta targeta. Torneu-ho a provar més tard o utilitzeu una altra targeta."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Visita'ns a Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Subscriu-te a Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Visita'ns a Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Visita'ns a Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Visita'ns a Letterboxd"
+  },
+  "tv_app_badge_title": {
+    "other": "Disponible a les aplicacions de televisió"
+  },
+  "app_badge_fire_tv": {
+    "other": "Obteniu-lo a Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Obteniu-lo a Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Aconsegueix-ho a Apple TV"
   }
 }

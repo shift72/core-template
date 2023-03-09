@@ -1511,5 +1511,32 @@
   },
   "new_card_error_timed_out": {
     "other": "Κάτι πήγε στραβά κατά την προσθήκη αυτής της κάρτας. Δοκιμάστε ξανά αργότερα ή χρησιμοποιήστε διαφορετική κάρτα."
+  },
+  "tv_app_badge_title": {
+    "other": "Διατίθεται σε εφαρμογές τηλεόρασης"
+  },
+  "app_badge_fire_tv": {
+    "other": "Αποκτήστε το στο Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Αποκτήστε το στο Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Αποκτήστε το στο Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Επισκεφθείτε μας στο Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Εγγραφείτε στο Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Επισκεφθείτε μας στο Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Επισκεφθείτε μας στο Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Επισκεφθείτε μας στο Letterboxd"
   }
 }

@@ -1575,5 +1575,32 @@
   },
   "new_card_error_timed_out": {
     "other": "حدث خطأ ما عند إضافة تلك البطاقة. يرجى المحاولة مرة أخرى في وقت لاحق أو استخدام بطاقة مختلفة."
+  },
+  "tv_app_badge_title": {
+    "other": "متوفر على تطبيقات التلفزيون"
+  },
+  "app_badge_fire_tv": {
+    "other": "احصل عليه من Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "احصل عليه على Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "احصل عليه من Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "قم بزيارتنا على Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "اشترك على يوتيوب"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "زورونا على الفيسبوك"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "قم بزيارتنا على Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "قم بزيارتنا على Letterboxd"
   }
 }

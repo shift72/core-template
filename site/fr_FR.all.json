@@ -1515,5 +1515,32 @@
   },
   "new_card_error_timed_out": {
     "other": "Une erreur s'est produite lors de l'ajout de cette carte. Veuillez réessayer plus tard ou utiliser une autre carte."
+  },
+  "tv_app_badge_title": {
+    "other": "Disponible sur les applications TV"
+  },
+  "app_badge_fire_tv": {
+    "other": "Obtenez-le sur Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Obtenez-le sur Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Obtenez-le sur Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Visitez-nous sur Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Abonnez-vous sur Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Visitez-nous sur Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Visitez-nous sur Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Rendez-nous visite sur Letterboxd"
   }
 }

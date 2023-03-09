@@ -1588,5 +1588,32 @@
   },
   "new_card_error_timed_out": {
     "other": "Coś poszło nie tak podczas dodawania tej karty. Spróbuj ponownie później lub użyj innej karty."
+  },
+  "tv_app_badge_title": {
+    "other": "Dostępne w aplikacjach telewizyjnych"
+  },
+  "app_badge_fire_tv": {
+    "other": "Pobierz go na Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Pobierz na Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Pobierz na Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Odwiedź nas na Instagramie"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Subskrybuj na Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Odwiedź nas na Facebooku"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Odwiedź nas na Twitterze"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Odwiedź nas na Letterboxd"
   }
 }

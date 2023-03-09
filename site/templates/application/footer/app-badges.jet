@@ -3,23 +3,42 @@
 {{block appBadges()}}
   {{app_link_ios := config("app_link_ios")}}
   {{app_link_android := config("app_link_android")}}
-  {{if config("app_link_ios") != "" || config("app_link_android") != ""}}
+  {{app_link_apple_tv_enabled := config("app_link_apple_tv_enabled")}}
+  {{app_link_android_tv := config("app_link_android_tv")}}
+  {{app_link_fire_tv := config("app_link_fire_tv")}}
+
+  {{if app_link_ios != "" || app_link_android != ""}}
     <div class="app-banner">
       <h2 class="app-badge-title">{{ i18n("app_badge_title") }}</h2>
+
       <div class="app-badge-container">
-        {{if config("app_link_ios") != ""}}
-          <a class="app-badge-link" href="{{app_link_ios}}" target="_blank">
-            <s72-image src="/images/icons/app-store-badge.png" alt="{{ i18n("app_badge_ios") }}" class="app-badge-image"></s72-image>
-          </a>
-        {{end}}
-        {{if config("app_link_android") != ""}}
-          <a class="app-badge-link" href="{{app_link_android}}" target="_blank">
-            <s72-image src="/images/icons/google-play-badge.png" alt="{{ i18n("app_badge_android") }}" class="app-badge-image"></s72-image>
-          </a>
-        {{end}}
+        {{yield appBadge(href=app_link_ios, image="/images/icons/app-store-badge.png", altKey="app_badge_ios", imgClass="app-badge-image")}}
+        {{yield appBadge(href=app_link_android, image="/images/icons/google-play-badge.png", altKey="app_badge_android", imgClass="app-badge-image")}}     
       </div>
     </div>
 
     {{yield separator()}}
+  {{end}}
+
+  {{if app_link_apple_tv_enabled == "true" || app_link_android_tv != "" || app_link_fire_tv != ""}}
+    <div class="tv-app-banner">
+      <h2 class="tv-app-badge-title">{{ i18n("tv_app_badge_title") }}</h2>
+
+      <div class="tv-app-badge-container">
+        {{yield appBadge(href=app_link_fire_tv, image="/images/icons/amazonfiretv.png", altKey="app_badge_fire_tv", imgClass="tv-badge-image")}}
+        {{yield appBadge(href=app_link_android_tv, image="/images/icons/androidtv.png", altKey="app_badge_android_tv", imgClass="tv-badge-image")}} 
+        {{yield appBadge(href=app_link_apple_tv_enabled, image="/images/icons/appletv.png", altKey="app_badge_apple_tv", imgClass="tv-badge-image")}} 
+      </div>
+    </div>
+
+    {{yield separator()}}
+  {{end}}
+{{end}}
+
+{{block appBadge(href, image, altKey, imgClass)}}
+  {{if href != "" && href != "false"}}
+    <a class="app-badge-link" {{if href != "true" }} href="{{href}}" target="_blank" {{end}}>
+      <s72-image class="{{imgClass}}" src="{{image}}" alt="{{ i18n(altKey) }}" ></s72-image>
+    </a>
   {{end}}
 {{end}}

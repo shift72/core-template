@@ -1256,14 +1256,41 @@
   "wcag_aria_label_letterboxd": {
     "other": "View on Letterboxd"
   },
+  "wcag_aria_label_social_instagram": {
+    "other": "Visit us on Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Subscribe on Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Visit us on Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Visit us on Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Visit us on Letterboxd"
+  },
   "app_badge_title": {
     "other": "Download the app to view your purchased content!"
+  },
+  "tv_app_badge_title": {
+    "other": "Available on TV apps"
   },
   "app_badge_ios": {
     "other": "Download on the App Store"
   },
   "app_badge_android": {
     "other": "Get it on Google Play"
+  },
+  "app_badge_fire_tv": {
+    "other": "Get it on Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Get it on Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Get it on Apple TV"
   },
   "plans_page_header": {
     "other": "Available Plans"

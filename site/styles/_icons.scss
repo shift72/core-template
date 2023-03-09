@@ -82,8 +82,28 @@
   content: '\e002';
 }
 
+.fa-instagram-footer::before {
+  content: '\e007';
+}
+
 .fa-twitter::before {
   content: '\e008';
+}
+
+.fa-twitter-footer::before {
+  content: '\e01f';
+}
+
+.fa-facebook-footer::before {
+  content: '\e01e';
+}
+
+.fa-youtube-footer::before {
+  content: '\e005';
+}
+
+.fa-letterboxd-footer::before {
+  content: '\e006';
 }
 
 .fa-star::before {
@@ -116,6 +136,10 @@
 
 .fa-link::before {
   content: '\e010';
+}
+
+.fa-external-link::before {
+  content: '\e004';
 }
 
 .fa-linkedin::before {

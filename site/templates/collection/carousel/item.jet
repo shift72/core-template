@@ -39,8 +39,6 @@
             <s72-availability-label data-slug="{{item.Slug}}"></s72-availability-label>
 
             {{yield ctaButtons(itemType=item.ItemType, context="carousel") item.InnerItem}}
-
-
           </div>
         </div>
       {{end}}

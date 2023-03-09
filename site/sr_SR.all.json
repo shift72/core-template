@@ -1527,5 +1527,32 @@
   },
   "new_card_error_timed_out": {
     "other": "Нешто није у реду приликом додавања те картице. Покушајте поново касније или користите другу картицу."
+  },
+  "tv_app_badge_title": {
+    "other": "Доступно у ТВ апликацијама"
+  },
+  "app_badge_fire_tv": {
+    "other": "Набавите га на Амазон Фире ТВ-у"
+  },
+  "app_badge_android_tv": {
+    "other": "Набавите га на Андроид ТВ-у"
+  },
+  "app_badge_apple_tv": {
+    "other": "Набавите га на Аппле ТВ-у"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Посетите нас на Инстаграму"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Претплатите се на Иоутубе"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Посетите нас на Фејсбуку"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Посетите нас на Твитеру"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Посетите нас на Леттербокд-у"
   }
 }

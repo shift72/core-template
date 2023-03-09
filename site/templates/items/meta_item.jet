@@ -29,9 +29,7 @@
   {{end}}
   {{pill := ""}}
   {{pillSupplement := ""}}
-  {{slugRoute := routeToSlug(item.Slug)}}
   {{if isEpisode}}
-    {{slugRoute = routeToSlug(item.InnerItem.Season.Slug) + "#episode-" + item.InnerItem.EpisodeNumber}}
     {{synopsis = item.InnerItem.Overview}}
     {{pill = i18n("episode_name") + " " + item.InnerItem.EpisodeNumber}}
     {{pillSupplement = "from " + i18n("season_name") + " " + item.InnerItem.Season.SeasonNumber}}

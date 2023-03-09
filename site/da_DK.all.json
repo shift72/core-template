@@ -1511,5 +1511,32 @@
   },
   "new_card_error_timed_out": {
     "other": "Der gik noget galt, da det pågældende kort blev tilføjet. Prøv igen senere, eller brug et andet kort."
+  },
+  "tv_app_badge_title": {
+    "other": "Tilgængelig på tv-apps"
+  },
+  "app_badge_fire_tv": {
+    "other": "Få det på Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Få det på Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Få det på Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Besøg os på Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Abonner på Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Besøg os på Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Besøg os på Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Besøg os på Letterboxd"
   }
 }

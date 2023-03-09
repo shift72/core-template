@@ -1,13 +1,13 @@
 {{ block footerNav(navLinks) }}
-  <nav class="footer-nav" aria-label="{{ i18n("wcag_aria_label_footer") }}">
-    {{ if len(navLinks) > 0 }}
-      <ul class="nav">
-        {{ range navLinks }}
-          <li class="nav-item {{ len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : "" }}">
-            <a class="nav-link" href="{{ len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug) }}">{{ .Label }}</a>
-          </li>
-        {{ end }}
-      </ul>
-    {{ end }}
-  </nav>
+  {{ if len(navLinks) > 0 }}
+    <nav class="footer-nav" aria-label="{{ i18n("wcag_aria_label_footer") }}">
+        <ul class="nav">
+          {{ range navLinks }}
+            <li class="nav-item {{ len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : "" }}">
+              <a class="nav-link" href="{{ len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug) }}">{{ .Label }}</a>
+            </li>
+          {{ end }}
+        </ul>
+    </nav>
+  {{ end }}
 {{ end }}
