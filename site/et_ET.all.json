@@ -1543,13 +1543,13 @@
     "other": "Konto loomiseks peame esmalt kinnitama teie e-posti aadressi. Sisesta oma e-mail ja saadame konto registreerimiskutse."
   },
   "validate_email_success": {
-    "other": "Kinnitusmeil on saadetud aadressile {{.email}} . Kontrollige oma meili ja järgige konto loomise juhiseid."
+    "other": "Kinnitusmeil on saadetud aadressile {{.Email}} . Kontrollige oma meili ja järgige konto loomise juhiseid."
   },
   "validate_email_email_already_in_use": {
     "other": "See email on juba kasutusel."
   },
   "validate_email_verify_email_already_sent": {
-    "other": "Kinnitusmeil on juba aadressile {{.email}} saadetud. Kontrollige oma meilikontot."
+    "other": "Kinnitusmeil on juba aadressile {{.Email}} saadetud. Kontrollige oma meilikontot."
   },
   "validate_email_alert_success": {
     "other": "Edu"

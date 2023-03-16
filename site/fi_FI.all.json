@@ -1543,13 +1543,13 @@
     "other": "Tilin luomiseksi meidän on ensin vahvistettava sähköpostiosoitteesi. Kirjoita sähköpostiosoitteesi, niin lähetämme kutsun tilin rekisteröintiin."
   },
   "validate_email_success": {
-    "other": "Vahvistusviesti on lähetetty osoitteeseen {{.email}} . Tarkista sähköpostisi ja seuraa tilin luomisohjeita."
+    "other": "Vahvistussähköposti on lähetetty osoitteeseen {{.Email}} . Tarkista sähköpostisi ja seuraa tilin luomisohjeita."
   },
   "validate_email_email_already_in_use": {
     "other": "Tämä sähköpostiosoite on jo käytössä."
   },
   "validate_email_verify_email_already_sent": {
-    "other": "Vahvistussähköposti on jo lähetetty osoitteeseen {{.email}} . Tarkista sähköpostitilisi."
+    "other": "Vahvistussähköposti on jo lähetetty osoitteeseen {{.Email}} . Tarkista sähköpostitilisi."
   },
   "validate_email_alert_success": {
     "other": "Menestys"

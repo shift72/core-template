@@ -1547,13 +1547,13 @@
     "other": "Per creare un account dobbiamo prima verificare il tuo indirizzo email. Inserisci la tua email e ti invieremo un invito alla registrazione dell'account."
   },
   "validate_email_success": {
-    "other": "Un&#39;email di verifica è stata inviata a {{.email}} . Controlla la tua email e segui le istruzioni per la creazione dell&#39;account."
+    "other": "Un&#39;email di verifica è stata inviata a {{.Email}} . Controlla la tua email e segui le istruzioni per la creazione dell&#39;account."
   },
   "validate_email_email_already_in_use": {
     "other": "Questa e-mail è già in uso."
   },
   "validate_email_verify_email_already_sent": {
-    "other": "Un&#39;email di verifica è già stata inviata a {{.email}} . Controlla il tuo account di posta elettronica."
+    "other": "Un&#39;email di verifica è già stata inviata a {{.Email}} . Controlla il tuo account di posta elettronica."
   },
   "validate_email_alert_success": {
     "other": "Successo"

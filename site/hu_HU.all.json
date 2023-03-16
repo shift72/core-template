@@ -1543,13 +1543,13 @@
     "other": "Fiók létrehozásához először igazolnunk kell e-mail címét. Adja meg e-mail címét, és küldünk egy fiók regisztrációs meghívót."
   },
   "validate_email_success": {
-    "other": "Egy ellenőrző e-mailt küldtünk {{.email}} címre. Kérjük, ellenőrizze e-mailjeit, és kövesse a fiók létrehozására vonatkozó utasításokat."
+    "other": "Egy ellenőrző e-mailt küldtünk {{.Email}} címre. Kérjük, ellenőrizze e-mailjeit, és kövesse a fiók létrehozására vonatkozó utasításokat."
   },
   "validate_email_email_already_in_use": {
     "other": "Ez az email cím már foglalt."
   },
   "validate_email_verify_email_already_sent": {
-    "other": "Egy ellenőrző e-mailt már elküldtek {{.email}} címre. Kérjük, ellenőrizze e-mail fiókját."
+    "other": "Egy ellenőrző e-mailt már elküldtek {{.Email}} címre. Kérjük, ellenőrizze e-mail fiókját."
   },
   "validate_email_alert_success": {
     "other": "Siker"

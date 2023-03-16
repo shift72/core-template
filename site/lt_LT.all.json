@@ -1575,13 +1575,13 @@
     "other": "Norėdami sukurti paskyrą, pirmiausia turime patvirtinti jūsų el. pašto adresą. Įveskite savo el. pašto adresą ir mes atsiųsime kvietimą prisijungti prie paskyros."
   },
   "validate_email_success": {
-    "other": "Patvirtinimo el. laiškas išsiųstas adresu {{.email}} . Patikrinkite el. paštą ir vadovaukitės paskyros kūrimo instrukcijomis."
+    "other": "Patvirtinimo el. laiškas išsiųstas adresu {{.Email}} . Patikrinkite el. paštą ir vadovaukitės paskyros kūrimo instrukcijomis."
   },
   "validate_email_email_already_in_use": {
     "other": "Šis el. paštas jau naudojamas."
   },
   "validate_email_verify_email_already_sent": {
-    "other": "Patvirtinimo el. laiškas jau išsiųstas adresu {{.email}} . Patikrinkite savo el. pašto paskyrą."
+    "other": "Patvirtinimo el. laiškas jau išsiųstas adresu {{.Email}} . Patikrinkite savo el. pašto paskyrą."
   },
   "validate_email_alert_success": {
     "other": "Sėkmė"

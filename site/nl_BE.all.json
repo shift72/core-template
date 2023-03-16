@@ -1543,13 +1543,13 @@
     "other": "Om een account aan te maken moeten we eerst uw e-mailadres verifiëren. Voer uw e-mailadres in en we sturen een uitnodiging om u aan te melden voor uw account."
   },
   "validate_email_success": {
-    "other": "Er is een verificatie-e-mail verzonden naar {{.email}} . Controleer uw e-mail en volg de instructies voor het maken van een account."
+    "other": "Er is een verificatie-e-mail verzonden naar {{.Email}} . Controleer uw e-mail en volg de instructies voor het maken van een account."
   },
   "validate_email_email_already_in_use": {
     "other": "Deze email is al in gebruik."
   },
   "validate_email_verify_email_already_sent": {
-    "other": "Er is al een verificatiemail naar {{.email}} gestuurd. Controleer uw e-mailaccount."
+    "other": "Er is al een verificatie-e-mail verzonden naar {{.Email}} . Controleer uw e-mailaccount."
   },
   "validate_email_alert_success": {
     "other": "Succes"

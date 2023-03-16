@@ -1545,13 +1545,13 @@
     "other": "Za kreiranje računa prvo moramo potvrditi vašu adresu e-pošte. Unesite svoju e-poštu i poslat ćemo vam pozivnicu za registraciju računa."
   },
   "validate_email_success": {
-    "other": "E-pošta za potvrdu poslana je na {{.email}} . Provjerite svoju e-poštu i slijedite upute za izradu računa."
+    "other": "E-pošta za potvrdu poslana je na {{.Email}} . Provjerite svoju e-poštu i slijedite upute za izradu računa."
   },
   "validate_email_email_already_in_use": {
     "other": "Ovaj email se već koristi."
   },
   "validate_email_verify_email_already_sent": {
-    "other": "E-pošta za potvrdu već je poslana na {{.email}} . Provjerite svoj račun e-pošte."
+    "other": "E-pošta za potvrdu već je poslana na {{.Email}} . Provjerite svoj račun e-pošte."
   },
   "validate_email_alert_success": {
     "other": "Uspjeh"

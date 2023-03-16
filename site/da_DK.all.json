@@ -1543,13 +1543,13 @@
     "other": "For at oprette en konto skal vi først bekræfte din e-mailadresse. Indtast din e-mail, og vi sender en invitation til kontotilmelding."
   },
   "validate_email_success": {
-    "other": "En bekræftelses-e-mail er blevet sendt til {{.email}} . Tjek venligst din e-mail og følg instruktionerne til oprettelse af konto."
+    "other": "En bekræftelsesmail er blevet sendt til {{.Email}} . Tjek venligst din e-mail og følg instruktionerne til oprettelse af konto."
   },
   "validate_email_email_already_in_use": {
     "other": "Denne e-mail er allerede i brug."
   },
   "validate_email_verify_email_already_sent": {
-    "other": "En bekræftelses-e-mail er allerede blevet sendt til {{.email}} . Tjek venligst din e-mail-konto."
+    "other": "En bekræftelsesmail er allerede blevet sendt til {{.Email}} . Tjek venligst din e-mail-konto."
   },
   "validate_email_alert_success": {
     "other": "Succes"

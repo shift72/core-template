@@ -1543,13 +1543,13 @@
     "other": "Bir hesap oluşturmak için önce e-posta adresinizi doğrulamalıyız. E-postanızı girin, bir hesap kayıt daveti göndereceğiz."
   },
   "validate_email_success": {
-    "other": "{{.email}} adresine bir doğrulama e-postası gönderildi. Lütfen e-postanızı kontrol edin ve hesap oluşturma talimatlarını takip edin."
+    "other": "{{.Email}} adresine bir doğrulama e-postası gönderildi. Lütfen e-postanızı kontrol edin ve hesap oluşturma talimatlarını takip edin."
   },
   "validate_email_email_already_in_use": {
     "other": "Bu e-posta zaten kullanılıyor."
   },
   "validate_email_verify_email_already_sent": {
-    "other": "{{.email}} adresine zaten bir doğrulama e-postası gönderildi. Lütfen e-posta hesabınızı kontrol edin."
+    "other": "{{.Email}} adresine zaten bir doğrulama e-postası gönderildi. Lütfen e-posta hesabınızı kontrol edin."
   },
   "validate_email_alert_success": {
     "other": "Başarı"
