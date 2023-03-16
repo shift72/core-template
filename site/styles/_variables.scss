@@ -136,6 +136,19 @@
   --subtitle-2-style-font-size: 14px;
   --caption-1-style-font-size: 16px;
   --overline-style-font-size: 14px;
+
+  /* Alert component dark theme colours */
+  --alert-background-color-error: rgba(224, 49, 49, 0.2);
+  --alert-text-color-error: rgb(255, 201, 201);
+  --alert-background-color-success: rgba(47, 158, 68, 0.2);
+  --alert-text-color-success: rgb(178, 242, 187);
+  /* Alert component light theme colours */
+  /* Swap above with these for light theme templates
+  --alert-background-color-error: rgb(255, 245, 245);
+  --alert-text-color-error: rgb(250, 82, 82);
+  --alert-background-color-success: rgb(235, 251, 238);
+  --alert-text-color-success: rgb(64, 192, 87);
+  */
 }
 
 // Bootstrap 4 overrides START
