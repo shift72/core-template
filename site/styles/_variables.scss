@@ -138,16 +138,28 @@
   --overline-style-font-size: 14px;
 
   /* Alert component dark theme colours */
-  --alert-background-color-error: rgb(250, 82, 82);
-  --alert-text-color-error: rgb(255, 255, 255);
-  --alert-background-color-success: rgb(64, 192, 87);
-  --alert-text-color-success: rgb(255, 255, 255);
+
+  --alert-background-color-error: #25262b;
+  --alert-border-color-error: #ff6b6b;
+  --alert-title-color-error: #ff6b6b;
+  --alert-text-color-error: #c1c2c5;
+
+  --alert-background-color-success: #25262b;
+  --alert-border-color-success: #20c997;
+  --alert-title-color-success: #20c997;
+  --alert-text-color-success: #c1c2c5;
+
   /* Alert component light theme colours */
   /* Swap above with these for light theme templates
-  --alert-background-color-error: rgb(250, 82, 82);
-  --alert-text-color-error: rgb(255, 255, 255);
-  --alert-background-color-success: rgb(64, 192, 87);
-  --alert-text-color-success: rgb(255, 255, 255);
+  --alert-background-color-error: #ffffff;
+  --alert-border-color-error: #fa5252;
+  --alert-title-color-error: #fa5252;
+  --alert-text-color-error: #000000;
+
+  --alert-background-color-success: #ffffff;
+  --alert-border-color-success: #12b886;
+  --alert-title-color-success: #12b886;
+  --alert-text-color-success: #000000;
   */
 }
 
