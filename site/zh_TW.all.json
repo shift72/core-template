@@ -1525,5 +1525,29 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "在 Letterboxd 上訪問我們"
+  },
+  "validate_email_about": {
+    "other": "要創建帳戶，我們必須首先驗證您的電子郵件地址。輸入您的電子郵件，我們將發送帳戶註冊邀請。"
+  },
+  "validate_email_success": {
+    "other": "驗證電子郵件已發送至{{.email}} 。請檢查您的電子郵件並按照帳戶創建說明進行操作。"
+  },
+  "validate_email_email_already_in_use": {
+    "other": "此電子郵件已被使用。"
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "驗證電子郵件已發送至{{.email}} 。請檢查您的電子郵件帳戶。"
+  },
+  "validate_email_alert_success": {
+    "other": "成功"
+  },
+  "validate_email_alert_error": {
+    "other": "錯誤！"
+  },
+  "validate_email_submit_button_text": {
+    "other": "創建賬戶"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "創建帳戶..."
   }
 }

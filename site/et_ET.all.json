@@ -1538,5 +1538,29 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Külastage meid Letterboxdis"
+  },
+  "validate_email_about": {
+    "other": "Konto loomiseks peame esmalt kinnitama teie e-posti aadressi. Sisesta oma e-mail ja saadame konto registreerimiskutse."
+  },
+  "validate_email_success": {
+    "other": "Kinnitusmeil on saadetud aadressile {{.email}} . Kontrollige oma meili ja järgige konto loomise juhiseid."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "See email on juba kasutusel."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Kinnitusmeil on juba aadressile {{.email}} saadetud. Kontrollige oma meilikontot."
+  },
+  "validate_email_alert_success": {
+    "other": "Edu"
+  },
+  "validate_email_alert_error": {
+    "other": "Viga!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Loo konto"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Konto loomine..."
   }
 }

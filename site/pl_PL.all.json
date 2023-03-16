@@ -1615,5 +1615,29 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Odwiedź nas na Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Aby utworzyć konto, musimy najpierw zweryfikować Twój adres e-mail. Wpisz swój adres e-mail, a my wyślemy zaproszenie do rejestracji konta."
+  },
+  "validate_email_success": {
+    "other": "E-mail weryfikacyjny został wysłany na {{.email}} . Sprawdź swoją skrzynkę e-mail i postępuj zgodnie z instrukcjami tworzenia konta."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Ten email jest już w użyciu."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "E-mail weryfikacyjny został już wysłany na {{.email}} . Sprawdź swoje konto e-mail."
+  },
+  "validate_email_alert_success": {
+    "other": "Powodzenie"
+  },
+  "validate_email_alert_error": {
+    "other": "Błąd!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Utwórz konto"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Tworzenie konta..."
   }
 }

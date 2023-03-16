@@ -1538,5 +1538,29 @@
   },
   "app_badge_apple_tv": {
     "other": "Aconsegueix-ho a Apple TV"
+  },
+  "validate_email_about": {
+    "other": "Per crear un compte primer hem de verificar la vostra adreça de correu electrònic. Introduïu el vostre correu electrònic i us enviarem una invitació per registrar-vos."
+  },
+  "validate_email_success": {
+    "other": "S&#39;ha enviat un correu electrònic de verificació a {{.email}} . Si us plau, comproveu el vostre correu electrònic i seguiu les instruccions de creació del compte."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Aquest correu electrònic ja està en ús."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Ja s&#39;ha enviat un correu electrònic de verificació a {{.email}} . Comproveu el vostre compte de correu electrònic."
+  },
+  "validate_email_alert_success": {
+    "other": "Èxit"
+  },
+  "validate_email_alert_error": {
+    "other": "Error!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Crear compte"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "S'està creant un compte..."
   }
 }

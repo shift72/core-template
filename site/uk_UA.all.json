@@ -1598,5 +1598,29 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Відвідайте нас на Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Щоб створити обліковий запис, ми повинні спочатку підтвердити вашу електронну адресу. Введіть свою електронну адресу, і ми надішлемо запрошення на реєстрацію облікового запису."
+  },
+  "validate_email_success": {
+    "other": "Електронний лист для підтвердження надіслано на {{.email}} . Перевірте свою електронну пошту та дотримуйтесь інструкцій щодо створення облікового запису."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Ця електронна адреса вже використовується."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Електронний лист для підтвердження вже надіслано на {{.email}} . Перевірте свій обліковий запис електронної пошти."
+  },
+  "validate_email_alert_success": {
+    "other": "Успіх"
+  },
+  "validate_email_alert_error": {
+    "other": "Помилка!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Створити акаунт"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Створення облікового запису..."
   }
 }

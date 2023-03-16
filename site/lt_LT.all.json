@@ -1570,5 +1570,29 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Aplankykite mus „Letterboxd“."
+  },
+  "validate_email_about": {
+    "other": "Norėdami sukurti paskyrą, pirmiausia turime patvirtinti jūsų el. pašto adresą. Įveskite savo el. pašto adresą ir mes atsiųsime kvietimą prisijungti prie paskyros."
+  },
+  "validate_email_success": {
+    "other": "Patvirtinimo el. laiškas išsiųstas adresu {{.email}} . Patikrinkite el. paštą ir vadovaukitės paskyros kūrimo instrukcijomis."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Šis el. paštas jau naudojamas."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Patvirtinimo el. laiškas jau išsiųstas adresu {{.email}} . Patikrinkite savo el. pašto paskyrą."
+  },
+  "validate_email_alert_success": {
+    "other": "Sėkmė"
+  },
+  "validate_email_alert_error": {
+    "other": "Klaida!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Sukurti paskyrą"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Kuriama paskyra..."
   }
 }

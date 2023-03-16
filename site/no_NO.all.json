@@ -1538,5 +1538,29 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Besøk oss på Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "For å opprette en konto må vi først bekrefte e-postadressen din. Skriv inn e-postadressen din, så sender vi en invitasjon til å registrere deg."
+  },
+  "validate_email_success": {
+    "other": "En bekreftelses-e-post er sendt til {{.email}} . Vennligst sjekk e-posten din og følg instruksjonene for kontooppretting."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Denne e-posten er allerede i bruk."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "En bekreftelses-e-post er allerede sendt til {{.email}} . Vennligst sjekk e-postkontoen din."
+  },
+  "validate_email_alert_success": {
+    "other": "Suksess"
+  },
+  "validate_email_alert_error": {
+    "other": "Feil!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Opprett konto"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Oppretter konto ..."
   }
 }

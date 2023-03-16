@@ -1538,5 +1538,29 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Látogasson el hozzánk a Letterboxd-on"
+  },
+  "validate_email_about": {
+    "other": "Fiók létrehozásához először igazolnunk kell e-mail címét. Adja meg e-mail címét, és küldünk egy fiók regisztrációs meghívót."
+  },
+  "validate_email_success": {
+    "other": "Egy ellenőrző e-mailt küldtünk {{.email}} címre. Kérjük, ellenőrizze e-mailjeit, és kövesse a fiók létrehozására vonatkozó utasításokat."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Ez az email cím már foglalt."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Egy ellenőrző e-mailt már elküldtek {{.email}} címre. Kérjük, ellenőrizze e-mail fiókját."
+  },
+  "validate_email_alert_success": {
+    "other": "Siker"
+  },
+  "validate_email_alert_error": {
+    "other": "Hiba!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Fiók létrehozása"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Fiók létrehozása..."
   }
 }

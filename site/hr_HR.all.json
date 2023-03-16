@@ -1540,5 +1540,29 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Posjetite nas na Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Za kreiranje računa prvo moramo potvrditi vašu adresu e-pošte. Unesite svoju e-poštu i poslat ćemo vam pozivnicu za registraciju računa."
+  },
+  "validate_email_success": {
+    "other": "E-pošta za potvrdu poslana je na {{.email}} . Provjerite svoju e-poštu i slijedite upute za izradu računa."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Ovaj email se već koristi."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "E-pošta za potvrdu već je poslana na {{.email}} . Provjerite svoj račun e-pošte."
+  },
+  "validate_email_alert_success": {
+    "other": "Uspjeh"
+  },
+  "validate_email_alert_error": {
+    "other": "Greška!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Napravi račun"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Izrada računa..."
   }
 }

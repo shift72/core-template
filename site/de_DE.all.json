@@ -1538,5 +1538,29 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Besuchen Sie uns auf Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Um ein Konto zu erstellen, müssen wir zuerst Ihre E-Mail-Adresse verifizieren. Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen eine Einladung zur Kontoregistrierung."
+  },
+  "validate_email_success": {
+    "other": "Eine Bestätigungs-E-Mail wurde an {{.email}} gesendet. Bitte überprüfen Sie Ihre E-Mails und befolgen Sie die Anweisungen zur Kontoerstellung."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Diese E-Mail-Adresse wird schon verwendet."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Eine Bestätigungs-E-Mail wurde bereits an {{.email}} gesendet. Bitte überprüfen Sie Ihr E-Mail-Konto."
+  },
+  "validate_email_alert_success": {
+    "other": "Erfolg"
+  },
+  "validate_email_alert_error": {
+    "other": "Fehler!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Benutzerkonto erstellen"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Account erstellen..."
   }
 }

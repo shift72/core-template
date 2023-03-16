@@ -1592,5 +1592,29 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Посетите нас на Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Чтобы создать учетную запись, мы должны сначала подтвердить ваш адрес электронной почты. Введите адрес электронной почты, и мы вышлем приглашение для регистрации учетной записи."
+  },
+  "validate_email_success": {
+    "other": "Письмо с подтверждением отправлено на {{.email}} . Пожалуйста, проверьте свою электронную почту и следуйте инструкциям по созданию учетной записи."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Этот электронный адрес уже используется."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Письмо с подтверждением уже отправлено на {{.email}} . Пожалуйста, проверьте свою учетную запись электронной почты."
+  },
+  "validate_email_alert_success": {
+    "other": "Успех"
+  },
+  "validate_email_alert_error": {
+    "other": "Ошибка!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Зарегистрироваться"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Создание аккаунта..."
   }
 }

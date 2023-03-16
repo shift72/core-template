@@ -1525,5 +1525,29 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Letterboxdにアクセスしてください"
+  },
+  "validate_email_about": {
+    "other": "アカウントを作成するには、まずメール アドレスを確認する必要があります。メールアドレスを入力すると、アカウントのサインアップの招待状が送信されます。"
+  },
+  "validate_email_success": {
+    "other": "確認メールが{{.email}}に送信されました。メールを確認し、アカウント作成の指示に従ってください。"
+  },
+  "validate_email_email_already_in_use": {
+    "other": "この電子メールは既に利用されています。"
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "確認メールは既に{{.email}}に送信されています。メールアカウントを確認してください。"
+  },
+  "validate_email_alert_success": {
+    "other": "成功"
+  },
+  "validate_email_alert_error": {
+    "other": "エラー！"
+  },
+  "validate_email_submit_button_text": {
+    "other": "アカウントを作成する"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "アカウントを作成しています..."
   }
 }

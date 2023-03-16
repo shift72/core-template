@@ -1538,5 +1538,29 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Επισκεφθείτε μας στο Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Για να δημιουργήσουμε έναν λογαριασμό πρέπει πρώτα να επαληθεύσουμε τη διεύθυνση email σας. Εισαγάγετε το email σας και θα σας στείλουμε μια πρόσκληση εγγραφής λογαριασμού."
+  },
+  "validate_email_success": {
+    "other": "Ένα email επαλήθευσης έχει σταλεί στη {{.email}} . Ελέγξτε το email σας και ακολουθήστε τις οδηγίες δημιουργίας λογαριασμού."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Αυτό το email χρησιμοποιείται ήδη."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Ένα email επαλήθευσης έχει ήδη σταλεί στο {{.email}} . Ελέγξτε τον λογαριασμό email σας."
+  },
+  "validate_email_alert_success": {
+    "other": "Επιτυχία"
+  },
+  "validate_email_alert_error": {
+    "other": "Λάθος!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Δημιουργήστε λογαριασμό"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Δημιουργία λογαριασμού..."
   }
 }

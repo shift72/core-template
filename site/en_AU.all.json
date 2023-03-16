@@ -1538,5 +1538,29 @@
   },
   "new_card_error_timed_out": {
     "other": "Something went wrong when adding that card. Please try again later or use a different card."
+  },
+  "validate_email_about": {
+    "other": "To create an account we must first verify your email address. Enter your email and we will send an account sign up invitation."
+  },
+  "validate_email_success": {
+    "other": "A verification email has been sent to {{.email}}. Please check your email and follow the account creation instructions."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "This email is already in use."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "A verification email has already been sent to {{.email}}. Please check your email account."
+  },
+  "validate_email_alert_success": {
+    "other": "Success"
+  },
+  "validate_email_alert_error": {
+    "other": "Error!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Create account"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Creating account..."
   }
 }
