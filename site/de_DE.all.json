@@ -1562,5 +1562,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Account erstellen..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Sie müssen zuerst <a href=\"/signup.html\">Ihre E-Mail bestätigen</a> , um ein Konto zu erstellen."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Das Verifizierungstoken ist abgelaufen. Fordern Sie ein weiteres über die <a href=\"/signup.html\">Kontoerstellungsseite</a> an."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Diese E-Mail wurde nicht bestätigt. Sie können eine weitere Bestätigungs-E-Mail über die Seite <a href=\"/signup.html\">zur Kontoerstellung</a> senden."
+  },
+  "alert_title_success": {
+    "other": "Erfolg"
+  },
+  "alert_title_error": {
+    "other": "Fehler!"
   }
 }

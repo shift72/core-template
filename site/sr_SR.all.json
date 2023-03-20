@@ -1578,5 +1578,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Прављење налога..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Прво морате <a href=\"/signup.html\">да верификујете своју е-пошту</a> да бисте креирали налог."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Токен за верификацију је истекао. Затражите још једну преко странице <a href=\"/signup.html\">за креирање налога</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Ова адреса е-поште није верификована. Можете да пошаљете другу е-поруку за верификацију преко странице <a href=\"/signup.html\">за креирање налога</a> ."
+  },
+  "alert_title_success": {
+    "other": "Успех"
+  },
+  "alert_title_error": {
+    "other": "Грешка!"
   }
 }

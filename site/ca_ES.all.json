@@ -1562,5 +1562,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "S'està creant un compte..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Primer heu de <a href=\"/signup.html\">verificar el vostre correu electrònic</a> per crear un compte."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "El testimoni de verificació ha caducat. Sol·liciteu-ne un altre a través de la pàgina <a href=\"/signup.html\">de creació del compte</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Aquest correu electrònic no s&#39;ha verificat. Podeu enviar un altre correu electrònic de verificació mitjançant la pàgina <a href=\"/signup.html\">de creació del compte</a> ."
+  },
+  "alert_title_success": {
+    "other": "Èxit"
+  },
+  "alert_title_error": {
+    "other": "Error!"
   }
 }

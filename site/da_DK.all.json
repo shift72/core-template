@@ -1562,5 +1562,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Opretter konto..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Du skal først <a href=\"/signup.html\">bekræfte din e-mail</a> for at oprette en konto."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Bekræftelsestokenet er udløbet. Anmod om en anden via <a href=\"/signup.html\">kontooprettelsessiden</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Denne e-mail er ikke blevet bekræftet. Du kan sende en anden bekræftelses-e-mail via siden <a href=\"/signup.html\">for oprettelse af konto</a> ."
+  },
+  "alert_title_success": {
+    "other": "Succes"
+  },
+  "alert_title_error": {
+    "other": "Fejl!"
   }
 }

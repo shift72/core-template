@@ -1566,5 +1566,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Creando cuenta..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Primero debe <a href=\"/signup.html\">verificar su correo electrónico</a> para crear una cuenta."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "El token de verificación ha caducado. Solicite otro a través de la página <a href=\"/signup.html\">de creación de cuenta</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Este correo electrónico no ha sido verificado. Puede enviar otro correo electrónico de verificación a través de la página <a href=\"/signup.html\">de creación de cuenta</a> ."
+  },
+  "alert_title_success": {
+    "other": "Éxito"
+  },
+  "alert_title_error": {
+    "other": "¡Error!"
   }
 }

@@ -1616,5 +1616,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Создание аккаунта..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Вы должны сначала <a href=\"/signup.html\">подтвердить свою электронную почту</a> , чтобы создать учетную запись."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Срок действия токена подтверждения истек. Запросите еще один через страницу <a href=\"/signup.html\">создания учетной записи</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Это электронное письмо не было подтверждено. Вы можете отправить еще одно электронное письмо с подтверждением через страницу <a href=\"/signup.html\">создания учетной записи</a> ."
+  },
+  "alert_title_success": {
+    "other": "Успех"
+  },
+  "alert_title_error": {
+    "other": "Ошибка!"
   }
 }

@@ -1566,5 +1566,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Creazione dell'account..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Devi prima <a href=\"/signup.html\">verificare la tua email</a> per creare un account."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Il token di verifica è scaduto. Richiedine un altro tramite la pagina <a href=\"/signup.html\">di creazione dell&#39;account</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Questa email non è stata verificata. Puoi inviare un&#39;altra email di verifica tramite la pagina <a href=\"/signup.html\">di creazione dell&#39;account</a> ."
+  },
+  "alert_title_success": {
+    "other": "Successo"
+  },
+  "alert_title_error": {
+    "other": "Errore!"
   }
 }

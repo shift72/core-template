@@ -1562,5 +1562,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Oppretter konto ..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Du må først <a href=\"/signup.html\">bekrefte e-postadressen din</a> for å opprette en konto."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Bekreftelsestokenet er utløpt. Be om en annen via siden <a href=\"/signup.html\">for kontooppretting</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Denne e-posten er ikke bekreftet. Du kan sende en annen bekreftelses-e-post via siden <a href=\"/signup.html\">for kontooppretting</a> ."
+  },
+  "alert_title_success": {
+    "other": "Suksess"
+  },
+  "alert_title_error": {
+    "other": "Feil!"
   }
 }

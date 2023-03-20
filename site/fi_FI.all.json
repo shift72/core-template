@@ -1562,5 +1562,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Luodaan tiliä..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Sinun on ensin <a href=\"/signup.html\">vahvistettava sähköpostiosoitteesi</a> luodaksesi tilin."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Vahvistustunnus on vanhentunut. Pyydä toista <a href=\"/signup.html\">tiliä luontisivun</a> kautta."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Tätä sähköpostia ei ole vahvistettu. Voit lähettää toisen vahvistussähköpostin <a href=\"/signup.html\">tilin luontisivun</a> kautta."
+  },
+  "alert_title_success": {
+    "other": "Menestys"
+  },
+  "alert_title_error": {
+    "other": "Virhe!"
   }
 }

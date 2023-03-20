@@ -1544,7 +1544,7 @@
     "other": "Visite-nos no Letterboxd"
   },
   "validate_email_about": {
-    "other": "Para criar uma conta, devemos primeiro verificar seu endereço de e-mail. Digite seu e-mail e enviaremos um convite para criar uma conta."
+    "other": "Para criar uma conta, devemos primeiro verificar seu endereço de e-mail. Digite seu e-mail e enviaremos um convite de inscrição de conta."
   },
   "validate_email_success": {
     "other": "Um e-mail de verificação foi enviado para {{.Email}} . Verifique seu e-mail e siga as instruções de criação de conta."
@@ -1566,5 +1566,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Criando conta..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Você deve primeiro <a href=\"/signup.html\">verificar seu e-mail</a> para criar uma conta."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "O token de verificação expirou. Solicite outro através da página <a href=\"/signup.html\">de criação de conta</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Este e-mail não foi verificado. Você pode enviar outro e-mail de verificação por meio da página <a href=\"/signup.html\">de criação de conta</a> ."
+  },
+  "alert_title_success": {
+    "other": "Sucesso"
+  },
+  "alert_title_error": {
+    "other": "Erro!"
   }
 }

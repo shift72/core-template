@@ -1549,5 +1549,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "アカウントを作成しています..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "アカウントを作成するには、まず<a href=\"/signup.html\">メールアドレスを確認する</a>必要があります。"
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "検証トークンの有効期限が切れています。<a href=\"/signup.html\">アカウント作成</a>ページから別のアカウントをリクエストしてください。"
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "このメールは確認されていません。<a href=\"/signup.html\">アカウント作成</a>ページから別の確認メールを送信できます。"
+  },
+  "alert_title_success": {
+    "other": "成功"
+  },
+  "alert_title_error": {
+    "other": "エラー！"
   }
 }

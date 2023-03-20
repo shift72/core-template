@@ -1562,5 +1562,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Creating account..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "You must first <a href=\"/signup.html\">verify your email</a> to create an account."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "The verification token has expired. Request another one via the <a href=\"/signup.html\">account creation</a> page."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "This email has not been verified. You may send another verification email via the <a href=\"/signup.html\">account creation</a> page."
+  },
+  "alert_title_success": {
+    "other": "Success"
+  },
+  "alert_title_error": {
+    "other": "Error!"
   }
 }

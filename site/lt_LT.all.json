@@ -1594,5 +1594,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Kuriama paskyra..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Pirmiausia turite <a href=\"/signup.html\">patvirtinti savo el. paštą</a> , kad sukurtumėte paskyrą."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Baigėsi patvirtinimo prieigos raktas. <a href=\"/signup.html\">Paskyros kūrimo</a> puslapyje paprašykite kito."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Šis el. laiškas nebuvo patvirtintas. <a href=\"/signup.html\">Paskyros kūrimo</a> puslapyje galite išsiųsti kitą patvirtinimo el. laišką."
+  },
+  "alert_title_success": {
+    "other": "Sėkmė"
+  },
+  "alert_title_error": {
+    "other": "Klaida!"
   }
 }

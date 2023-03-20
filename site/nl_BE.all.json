@@ -1562,5 +1562,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Account creëren..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "U moet eerst <a href=\"/signup.html\">uw e-mailadres verifiëren</a> om een account aan te maken."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Het verificatietoken is verlopen. Vraag er nog een aan via de pagina <a href=\"/signup.html\">voor het aanmaken van een account</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Deze e-mail is niet geverifieerd. U kunt nog een verificatie-e-mail sturen via de pagina <a href=\"/signup.html\">voor het maken van een account</a> ."
+  },
+  "alert_title_success": {
+    "other": "Succes"
+  },
+  "alert_title_error": {
+    "other": "Fout!"
   }
 }

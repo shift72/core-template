@@ -1549,5 +1549,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "創建帳戶..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "您必須先<a href=\"/signup.html\">驗證您的電子郵件</a>才能創建一個帳戶。"
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "驗證令牌已過期。通過<a href=\"/signup.html\">帳戶創建</a>頁面請求另一個。"
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "此電子郵件尚未經過驗證。您可以通過<a href=\"/signup.html\">帳戶創建</a>頁面發送另一封驗證郵件。"
+  },
+  "alert_title_success": {
+    "other": "成功"
+  },
+  "alert_title_error": {
+    "other": "錯誤！"
   }
 }

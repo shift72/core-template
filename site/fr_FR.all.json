@@ -1566,5 +1566,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "La création du compte..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Vous devez d&#39;abord <a href=\"/signup.html\">vérifier votre email</a> pour créer un compte."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Le jeton de vérification a expiré. Demandez-en un autre via la page <a href=\"/signup.html\">de création de compte</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Cet e-mail n&#39;a pas été vérifié. Vous pouvez envoyer un autre e-mail de vérification via la page <a href=\"/signup.html\">de création de compte</a> ."
+  },
+  "alert_title_success": {
+    "other": "Succès"
+  },
+  "alert_title_error": {
+    "other": "Erreur!"
   }
 }

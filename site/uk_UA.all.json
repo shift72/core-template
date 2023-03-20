@@ -1622,5 +1622,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Створення облікового запису..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Ви повинні спочатку <a href=\"/signup.html\">підтвердити свою електронну адресу</a> , щоб створити обліковий запис."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Термін дії маркера підтвердження минув. Надішліть інший запит на сторінці <a href=\"/signup.html\">створення облікового запису</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Цей електронний лист не підтверджено. Ви можете надіслати інший електронний лист для підтвердження на сторінці <a href=\"/signup.html\">створення облікового запису</a> ."
+  },
+  "alert_title_success": {
+    "other": "Успіх"
+  },
+  "alert_title_error": {
+    "other": "Помилка!"
   }
 }

@@ -1562,5 +1562,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Δημιουργία λογαριασμού..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Πρέπει πρώτα <a href=\"/signup.html\">να επαληθεύσετε το email σας</a> για να δημιουργήσετε έναν λογαριασμό."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Το διακριτικό επαλήθευσης έχει λήξει. Ζητήστε ένα άλλο μέσω της σελίδας <a href=\"/signup.html\">δημιουργίας λογαριασμού</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Αυτό το email δεν έχει επαληθευτεί. Μπορείτε να στείλετε ένα άλλο email επαλήθευσης μέσω της σελίδας <a href=\"/signup.html\">δημιουργίας λογαριασμού</a> ."
+  },
+  "alert_title_success": {
+    "other": "Επιτυχία"
+  },
+  "alert_title_error": {
+    "other": "Λάθος!"
   }
 }

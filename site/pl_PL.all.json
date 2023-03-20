@@ -1639,5 +1639,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Tworzenie konta..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Aby utworzyć konto, musisz najpierw <a href=\"/signup.html\">zweryfikować swój adres e-mail</a> ."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Token weryfikacyjny wygasł. Poproś o kolejny za pośrednictwem strony <a href=\"/signup.html\">tworzenia konta</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Ten e-mail nie został zweryfikowany. Możesz wysłać kolejną weryfikacyjną wiadomość e-mail za pośrednictwem strony <a href=\"/signup.html\">tworzenia konta</a> ."
+  },
+  "alert_title_success": {
+    "other": "Powodzenie"
+  },
+  "alert_title_error": {
+    "other": "Błąd!"
   }
 }

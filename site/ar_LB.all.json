@@ -1626,5 +1626,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "أنشاء حساب..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "يجب عليك أولاً <a href=\"/signup.html\">التحقق من بريدك الإلكتروني</a> لإنشاء حساب."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "انتهت صلاحية رمز التحقق. اطلب واحدًا آخر عبر صفحة <a href=\"/signup.html\">إنشاء الحساب</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "لم يتم التحقق من هذا البريد الإلكتروني. يمكنك إرسال رسالة تحقق أخرى عبر صفحة <a href=\"/signup.html\">إنشاء الحساب</a> ."
+  },
+  "alert_title_success": {
+    "other": "نجاح"
+  },
+  "alert_title_error": {
+    "other": "خطأ!"
   }
 }

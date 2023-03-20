@@ -1562,5 +1562,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Konto loomine..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Konto loomiseks peate esmalt <a href=\"/signup.html\">kinnitama oma e-posti aadressi</a> ."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Kinnitusluba on aegunud. Taotlege uut <a href=\"/signup.html\">konto loomise</a> lehe kaudu."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Seda meili pole kinnitatud. <a href=\"/signup.html\">Konto loomise</a> lehe kaudu võite saata uue kinnitusmeili."
+  },
+  "alert_title_success": {
+    "other": "Edu"
+  },
+  "alert_title_error": {
+    "other": "Viga!"
   }
 }

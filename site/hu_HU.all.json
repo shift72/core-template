@@ -1562,5 +1562,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Fiók létrehozása..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Fiók létrehozásához először <a href=\"/signup.html\">igazolnia kell az e-mail-címét</a> ."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Az ellenőrző token lejárt. Kérjen másikat a <a href=\"/signup.html\">fióklétrehozási</a> oldalon."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Ezt az e-mailt nem ellenőriztük. Újabb ellenőrző e-mailt küldhet a <a href=\"/signup.html\">fióklétrehozási</a> oldalon."
+  },
+  "alert_title_success": {
+    "other": "Siker"
+  },
+  "alert_title_error": {
+    "other": "Hiba!"
   }
 }

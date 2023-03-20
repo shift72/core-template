@@ -1562,5 +1562,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Hesap oluşturuluyor..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Bir hesap oluşturmak için önce <a href=\"/signup.html\">e-postanızı doğrulamanız</a> gerekir."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Doğrulama jetonunun süresi doldu. <a href=\"/signup.html\">Hesap oluşturma</a> sayfası aracılığıyla başka bir tane isteyin."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Bu e-posta doğrulanmadı. <a href=\"/signup.html\">Hesap oluşturma</a> sayfası aracılığıyla başka bir doğrulama e-postası gönderebilirsiniz."
+  },
+  "alert_title_success": {
+    "other": "Başarı"
+  },
+  "alert_title_error": {
+    "other": "Hata!"
   }
 }

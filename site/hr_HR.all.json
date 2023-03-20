@@ -1564,5 +1564,20 @@
   },
   "validate_email_submit_button_text_in_progress": {
     "other": "Izrada računa..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Najprije morate <a href=\"/signup.html\">potvrditi svoju e-poštu</a> da biste kreirali račun."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Verifikacijski token je istekao. Zatražite još jedan putem stranice <a href=\"/signup.html\">za izradu računa</a> ."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Ova adresa e-pošte nije potvrđena. Možete poslati drugu e-poruku za potvrdu putem stranice <a href=\"/signup.html\">za stvaranje računa</a> ."
+  },
+  "alert_title_success": {
+    "other": "Uspjeh"
+  },
+  "alert_title_error": {
+    "other": "Greška!"
   }
 }
