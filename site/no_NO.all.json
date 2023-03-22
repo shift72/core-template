@@ -1540,7 +1540,7 @@
     "other": "Besøk oss på Letterboxd"
   },
   "validate_email_about": {
-    "other": "For å opprette en konto må vi først bekrefte e-postadressen din. Skriv inn e-postadressen din, så sender vi en invitasjon til å registrere deg."
+    "other": "For å opprette en konto må vi først bekrefte e-postadressen din. Skriv inn e-postadressen din, så sender vi en invitasjon til kontoregistrering."
   },
   "validate_email_success": {
     "other": "En bekreftelses-e-post er sendt til {{.Email}} . Vennligst sjekk e-posten din og følg instruksjonene for kontooppretting."
@@ -1577,5 +1577,11 @@
   },
   "alert_title_error": {
     "other": "Feil!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "E-postadressen som er oppgitt er for et domene som er begrenset. Registrer deg hos en annen e-postleverandør."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Det oppstod en ukjent feil under validering av e-postadressen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
   }
 }

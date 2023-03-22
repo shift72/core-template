@@ -1577,5 +1577,11 @@
   },
   "alert_title_error": {
     "other": "Hiba!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "A megadott e-mail cím egy korlátozott domainhez tartozik. Kérjük, regisztráljon egy másik e-mail szolgáltatónál."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Ismeretlen hiba történt az e-mail-cím érvényesítése során. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
   }
 }

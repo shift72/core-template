@@ -1577,5 +1577,11 @@
   },
   "alert_title_error": {
     "other": "Fehler!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Die angegebene E-Mail-Adresse gehört zu einer eingeschränkten Domain. Bitte melden Sie sich bei einem anderen E-Mail-Anbieter an."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Beim Überprüfen Ihrer E-Mail-Adresse ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
   }
 }

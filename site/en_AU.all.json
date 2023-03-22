@@ -1577,5 +1577,11 @@
   },
   "alert_title_error": {
     "other": "Error!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "The mail address provided is for a domain that has been restricted. Please sign up with a different email provider."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "There was a unknown error while validating your email address. Try refreshing the page or contacting your site administrator."
   }
 }

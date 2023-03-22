@@ -1567,15 +1567,21 @@
     "other": "Du skal først <a href=\"/signup.html\">bekræfte din e-mail</a> for at oprette en konto."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Bekræftelsestokenet er udløbet. Anmod om en anden via <a href=\"/signup.html\">kontooprettelsessiden</a> ."
+    "other": "Bekræftelsestokenet er udløbet. Anmod om en anden via siden <a href=\"/signup.html\">for kontooprettelse</a> ."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Denne e-mail er ikke blevet bekræftet. Du kan sende en anden bekræftelses-e-mail via siden <a href=\"/signup.html\">for oprettelse af konto</a> ."
+    "other": "Denne e-mail er ikke blevet bekræftet. Du kan sende en anden bekræftelses-e-mail via siden <a href=\"/signup.html\">for kontooprettelse</a> ."
   },
   "alert_title_success": {
     "other": "Succes"
   },
   "alert_title_error": {
     "other": "Fejl!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Den angivne mailadresse er for et domæne, der er blevet begrænset. Tilmeld dig hos en anden e-mail-udbyder."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Der opstod en ukendt fejl under validering af din e-mailadresse. Prøv at opdatere siden eller kontakt din webstedsadministrator."
   }
 }

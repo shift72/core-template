@@ -1581,5 +1581,11 @@
   },
   "alert_title_error": {
     "other": "Erreur!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "L'adresse e-mail fournie est celle d'un domaine qui a été restreint. Veuillez vous inscrire avec un autre fournisseur de messagerie."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Une erreur inconnue s'est produite lors de la validation de votre adresse e-mail. Essayez d'actualiser la page ou de contacter l'administrateur de votre site."
   }
 }

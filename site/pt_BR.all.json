@@ -1581,5 +1581,11 @@
   },
   "alert_title_error": {
     "other": "Erro!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "O endereço de e-mail fornecido é para um domínio que foi restrito. Inscreva-se com um provedor de e-mail diferente."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Ocorreu um erro desconhecido ao validar seu endereço de e-mail. Tente atualizar a página ou entrar em contato com o administrador do site."
   }
 }

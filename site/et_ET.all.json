@@ -1577,5 +1577,11 @@
   },
   "alert_title_error": {
     "other": "Viga!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Esitatud meiliaadress on piiratud domeeni jaoks. Registreeruge mõne teise meiliteenuse pakkujaga."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Teie e-posti aadressi kinnitamisel ilmnes tundmatu viga. Proovige lehte värskendada või võtta ühendust saidi administraatoriga."
   }
 }

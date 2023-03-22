@@ -1557,12 +1557,18 @@
     "other": "驗證令牌已過期。通過<a href=\"/signup.html\">帳戶創建</a>頁面請求另一個。"
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "此電子郵件尚未經過驗證。您可以通過<a href=\"/signup.html\">帳戶創建</a>頁面發送另一封驗證郵件。"
+    "other": "此電子郵件尚未經過驗證。您可以通過<a href=\"/signup.html\">帳戶創建</a>頁面發送另一封驗證電子郵件。"
   },
   "alert_title_success": {
     "other": "成功"
   },
   "alert_title_error": {
     "other": "錯誤！"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "提供的郵件地址用於已受限制的域。請註冊不同的電子郵件提供商。"
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "驗證您的電子郵件地址時出現未知錯誤。嘗試刷新頁面或聯繫您的站點管理員。"
   }
 }

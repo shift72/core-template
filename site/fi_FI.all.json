@@ -1577,5 +1577,11 @@
   },
   "alert_title_error": {
     "other": "Virhe!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Annettu sähköpostiosoite on rajoitettua verkkotunnusta varten. Rekisteröidy toisen sähköpostipalvelun kautta."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Sähköpostiosoitteesi vahvistamisessa tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
   }
 }

@@ -1609,5 +1609,11 @@
   },
   "alert_title_error": {
     "other": "Klaida!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Pateiktas pašto adresas skirtas domenui, kuris buvo apribotas. Prisiregistruokite pas kitą el. pašto paslaugų teikėją."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Tikrinant jūsų el. pašto adresą įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
   }
 }

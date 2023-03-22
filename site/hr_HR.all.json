@@ -1579,5 +1579,11 @@
   },
   "alert_title_error": {
     "other": "Greška!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Navedena adresa e-pošte je za domenu koja je ograničena. Prijavite se kod drugog davatelja usluga e-pošte."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Došlo je do nepoznate pogreške tijekom provjere vaše adrese e-pošte. Pokušajte osvježiti stranicu ili se obratite administratoru stranice."
   }
 }

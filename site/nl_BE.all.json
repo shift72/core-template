@@ -1577,5 +1577,11 @@
   },
   "alert_title_error": {
     "other": "Fout!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Het opgegeven e-mailadres is voor een domein dat is beperkt. Meld u aan bij een andere e-mailprovider."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Er is een onbekende fout opgetreden bij het valideren van uw e-mailadres. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
   }
 }

@@ -1641,5 +1641,11 @@
   },
   "alert_title_error": {
     "other": "خطأ!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "عنوان البريد المقدم خاص بمجال تم تقييده. الرجاء التسجيل مع مزود بريد إلكتروني مختلف."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "حدث خطأ غير معروف أثناء التحقق من صحة عنوان بريدك الإلكتروني. حاول تحديث الصفحة أو الاتصال بمسؤول الموقع الخاص بك."
   }
 }

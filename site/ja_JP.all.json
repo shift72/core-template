@@ -1564,5 +1564,11 @@
   },
   "alert_title_error": {
     "other": "エラー！"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "指定されたメールアドレスは、制限されたドメインのものです。別のメール プロバイダーにサインアップしてください。"
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "メールアドレスの検証中に不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
   }
 }
