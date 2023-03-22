@@ -1564,13 +1564,13 @@
     "other": "S'està creant un compte..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "Primer heu de <a href=\"/signup.html\">verificar el vostre correu electrònic</a> per crear un compte."
+    "other": "Falta el codi de verificació."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "El testimoni de verificació ha caducat. Sol·liciteu-ne un altre a través de la pàgina <a href=\"/signup.html\">de creació del compte</a> ."
+    "other": "El testimoni de verificació ha caducat."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Aquest correu electrònic no s&#39;ha verificat. Podeu enviar un altre correu electrònic de verificació mitjançant la pàgina <a href=\"/signup.html\">de creació del compte</a> ."
+    "other": "Aquest correu electrònic no s'ha verificat."
   },
   "alert_title_success": {
     "other": "Èxit"
@@ -1583,5 +1583,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "S'ha produït un error desconegut en validar la vostra adreça de correu electrònic. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "signup_form_error_generic": {
+    "other": "S'ha produït un error desconegut en crear el vostre compte. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Torna per crear un compte"
   }
 }

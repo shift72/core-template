@@ -1564,13 +1564,13 @@
     "other": "Account creëren..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "U moet eerst <a href=\"/signup.html\">uw e-mailadres verifiëren</a> om een account aan te maken."
+    "other": "Verificatiecode ontbreekt."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Het verificatietoken is verlopen. Vraag er nog een aan via de pagina <a href=\"/signup.html\">voor het aanmaken van een account</a> ."
+    "other": "Het verificatietoken is verlopen."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Deze e-mail is niet geverifieerd. U kunt nog een verificatie-e-mail sturen via de pagina <a href=\"/signup.html\">voor het maken van een account</a> ."
+    "other": "Deze e-mail is niet geverifieerd."
   },
   "alert_title_success": {
     "other": "Succes"
@@ -1583,5 +1583,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "Er is een onbekende fout opgetreden bij het valideren van uw e-mailadres. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
+  },
+  "signup_form_error_generic": {
+    "other": "Er is een onbekende fout opgetreden bij het maken van uw account. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Terug naar account aanmaken"
   }
 }

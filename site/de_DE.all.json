@@ -1564,13 +1564,13 @@
     "other": "Account erstellen..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "Sie müssen zuerst <a href=\"/signup.html\">Ihre E-Mail bestätigen</a> , um ein Konto zu erstellen."
+    "other": "Bestätigungscode fehlt."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Das Verifizierungstoken ist abgelaufen. Fordern Sie ein weiteres über die <a href=\"/signup.html\">Kontoerstellungsseite</a> an."
+    "other": "Das Verifizierungstoken ist abgelaufen."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Diese E-Mail wurde nicht bestätigt. Sie können eine weitere Bestätigungs-E-Mail über die Seite <a href=\"/signup.html\">zur Kontoerstellung</a> senden."
+    "other": "Diese E-Mail wurde nicht bestätigt."
   },
   "alert_title_success": {
     "other": "Erfolg"
@@ -1583,5 +1583,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "Beim Überprüfen Ihrer E-Mail-Adresse ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
+  },
+  "signup_form_error_generic": {
+    "other": "Beim Erstellen Ihres Kontos ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Zurück zum Erstellen eines Kontos"
   }
 }

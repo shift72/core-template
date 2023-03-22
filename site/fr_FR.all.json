@@ -1568,13 +1568,13 @@
     "other": "La création du compte..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "Vous devez d&#39;abord <a href=\"/signup.html\">vérifier votre email</a> pour créer un compte."
+    "other": "Code de vérification manquant."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Le jeton de vérification a expiré. Demandez-en un autre via la page <a href=\"/signup.html\">de création de compte</a> ."
+    "other": "Le jeton de vérification a expiré."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Cet e-mail n&#39;a pas été vérifié. Vous pouvez envoyer un autre e-mail de vérification via la page <a href=\"/signup.html\">de création de compte</a> ."
+    "other": "Cet e-mail n'a pas été vérifié."
   },
   "alert_title_success": {
     "other": "Succès"
@@ -1587,5 +1587,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "Une erreur inconnue s'est produite lors de la validation de votre adresse e-mail. Essayez d'actualiser la page ou de contacter l'administrateur de votre site."
+  },
+  "signup_form_error_generic": {
+    "other": "Une erreur inconnue s'est produite lors de la création de votre compte. Essayez d'actualiser la page ou de contacter l'administrateur de votre site."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Retour pour créer un compte"
   }
 }

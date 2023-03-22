@@ -1641,13 +1641,13 @@
     "other": "Tworzenie konta..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "Aby utworzyć konto, musisz najpierw <a href=\"/signup.html\">zweryfikować swój adres e-mail</a> ."
+    "other": "Brak kodu weryfikacyjnego."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Token weryfikacyjny wygasł. Poproś o kolejny za pośrednictwem strony <a href=\"/signup.html\">tworzenia konta</a> ."
+    "other": "Token weryfikacyjny wygasł."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Ten e-mail nie został zweryfikowany. Możesz wysłać kolejną weryfikacyjną wiadomość e-mail za pośrednictwem strony <a href=\"/signup.html\">tworzenia konta</a> ."
+    "other": "Ten e-mail nie został zweryfikowany."
   },
   "alert_title_success": {
     "other": "Powodzenie"
@@ -1660,5 +1660,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "Wystąpił nieznany błąd podczas sprawdzania poprawności Twojego adresu e-mail. Spróbuj odświeżyć stronę lub skontaktować się z administratorem witryny."
+  },
+  "signup_form_error_generic": {
+    "other": "Podczas tworzenia konta wystąpił nieznany błąd. Spróbuj odświeżyć stronę lub skontaktować się z administratorem witryny."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Powrót do tworzenia konta"
   }
 }

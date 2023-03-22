@@ -1568,13 +1568,13 @@
     "other": "Creazione dell'account..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "Devi prima <a href=\"/signup.html\">verificare la tua email</a> per creare un account."
+    "other": "Codice di verifica mancante."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Il token di verifica è scaduto. Richiedine un altro tramite la pagina <a href=\"/signup.html\">di creazione dell&#39;account</a> ."
+    "other": "Il token di verifica è scaduto."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Questa email non è stata verificata. Puoi inviare un&#39;altra email di verifica tramite la pagina <a href=\"/signup.html\">di creazione dell&#39;account</a> ."
+    "other": "Questa email non è stata verificata."
   },
   "alert_title_success": {
     "other": "Successo"
@@ -1587,5 +1587,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "Si è verificato un errore sconosciuto durante la convalida del tuo indirizzo email. Prova ad aggiornare la pagina o a contattare l'amministratore del sito."
+  },
+  "signup_form_error_generic": {
+    "other": "Si è verificato un errore sconosciuto durante la creazione del tuo account. Prova ad aggiornare la pagina o a contattare l'amministratore del sito."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Torna a creare un account"
   }
 }

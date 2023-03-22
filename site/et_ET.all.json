@@ -1564,13 +1564,13 @@
     "other": "Konto loomine..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "Konto loomiseks peate esmalt <a href=\"/signup.html\">kinnitama oma e-posti aadressi</a> ."
+    "other": "Kinnituskood puudub."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Kinnitusluba on aegunud. Taotlege uut <a href=\"/signup.html\">konto loomise</a> lehe kaudu."
+    "other": "Kinnitusluba on aegunud."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Seda meili pole kinnitatud. <a href=\"/signup.html\">Konto loomise</a> lehe kaudu võite saata uue kinnitusmeili."
+    "other": "Seda meili pole kinnitatud."
   },
   "alert_title_success": {
     "other": "Edu"
@@ -1583,5 +1583,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "Teie e-posti aadressi kinnitamisel ilmnes tundmatu viga. Proovige lehte värskendada või võtta ühendust saidi administraatoriga."
+  },
+  "signup_form_error_generic": {
+    "other": "Teie konto loomisel ilmnes tundmatu viga. Proovige lehte värskendada või võtta ühendust saidi administraatoriga."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Tagasi konto loomiseks"
   }
 }

@@ -1551,13 +1551,13 @@
     "other": "アカウントを作成しています..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "アカウントを作成するには、まず<a href=\"/signup.html\">メールアドレスを確認する</a>必要があります。"
+    "other": "確認コードがありません。"
   },
   "signup_form_error_email_verification_expired": {
-    "other": "検証トークンの有効期限が切れています。<a href=\"/signup.html\">アカウント作成</a>ページから別のアカウントをリクエストしてください。"
+    "other": "検証トークンの有効期限が切れています。"
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "このメールは確認されていません。<a href=\"/signup.html\">アカウント作成</a>ページから別の確認メールを送信できます。"
+    "other": "このメールは確認されていません。"
   },
   "alert_title_success": {
     "other": "成功"
@@ -1570,5 +1570,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "メールアドレスの検証中に不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
+  },
+  "signup_form_error_generic": {
+    "other": "アカウントの作成中に不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "アカウントの作成に戻る"
   }
 }

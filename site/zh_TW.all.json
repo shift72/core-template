@@ -1551,13 +1551,13 @@
     "other": "創建帳戶..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "您必須先<a href=\"/signup.html\">驗證您的電子郵件</a>才能創建一個帳戶。"
+    "other": "缺少驗證碼。"
   },
   "signup_form_error_email_verification_expired": {
-    "other": "驗證令牌已過期。通過<a href=\"/signup.html\">帳戶創建</a>頁面請求另一個。"
+    "other": "驗證令牌已過期。"
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "此電子郵件尚未經過驗證。您可以通過<a href=\"/signup.html\">帳戶創建</a>頁面發送另一封驗證電子郵件。"
+    "other": "此電子郵件尚未經過驗證。"
   },
   "alert_title_success": {
     "other": "成功"
@@ -1570,5 +1570,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "驗證您的電子郵件地址時出現未知錯誤。嘗試刷新頁面或聯繫您的站點管理員。"
+  },
+  "signup_form_error_generic": {
+    "other": "創建您的帳戶時出現未知錯誤。嘗試刷新頁面或聯繫您的站點管理員。"
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "返回創建帳戶"
   }
 }

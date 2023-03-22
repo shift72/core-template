@@ -1596,13 +1596,13 @@
     "other": "Kuriama paskyra..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "Pirmiausia turite <a href=\"/signup.html\">patvirtinti savo el. paštą</a> , kad sukurtumėte paskyrą."
+    "other": "Trūksta patvirtinimo kodo."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Baigėsi patvirtinimo prieigos raktas. <a href=\"/signup.html\">Paskyros kūrimo</a> puslapyje paprašykite kito."
+    "other": "Baigėsi patvirtinimo prieigos rakto galiojimo laikas."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Šis el. laiškas nebuvo patvirtintas. <a href=\"/signup.html\">Paskyros kūrimo</a> puslapyje galite išsiųsti kitą patvirtinimo el. laišką."
+    "other": "Šis el. laiškas nebuvo patvirtintas."
   },
   "alert_title_success": {
     "other": "Sėkmė"
@@ -1615,5 +1615,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "Tikrinant jūsų el. pašto adresą įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
+  },
+  "signup_form_error_generic": {
+    "other": "Kuriant paskyrą įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Atgal į paskyros kūrimą"
   }
 }

@@ -1564,13 +1564,13 @@
     "other": "Creating account..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "You must first <a href=\"/signup.html\">verify your email</a> to create an account."
+    "other": "Verification code missing."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "The verification token has expired. Request another one via the <a href=\"/signup.html\">account creation</a> page."
+    "other": "The verification token has expired."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "This email has not been verified. You may send another verification email via the <a href=\"/signup.html\">account creation</a> page."
+    "other": "This email has not been verified."
   },
   "alert_title_success": {
     "other": "Success"
@@ -1583,5 +1583,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "There was a unknown error while validating your email address. Try refreshing the page or contacting your site administrator."
+  },
+  "signup_form_error_generic": {
+    "other": "There was a unknown error while creating your account. Try refreshing the page or contacting your site administrator."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Back to create account"
   }
 }

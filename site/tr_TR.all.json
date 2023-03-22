@@ -1564,13 +1564,13 @@
     "other": "Hesap oluşturuluyor..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "Bir hesap oluşturmak için önce <a href=\"/signup.html\">e-postanızı doğrulamanız</a> gerekir."
+    "other": "Doğrulama kodu eksik."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Doğrulama belirtecinin süresi doldu. <a href=\"/signup.html\">Hesap oluşturma</a> sayfası aracılığıyla başka bir tane isteyin."
+    "other": "Doğrulama jetonunun süresi doldu."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Bu e-posta doğrulanmadı. <a href=\"/signup.html\">Hesap oluşturma</a> sayfası aracılığıyla başka bir doğrulama e-postası gönderebilirsiniz."
+    "other": "Bu e-posta doğrulanmadı."
   },
   "alert_title_success": {
     "other": "Başarı"
@@ -1583,5 +1583,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "E-posta adresiniz doğrulanırken bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "signup_form_error_generic": {
+    "other": "Hesabınız oluşturulurken bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Hesap oluşturmak için geri dön"
   }
 }

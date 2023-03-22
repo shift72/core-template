@@ -1564,13 +1564,13 @@
     "other": "Opretter konto..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "Du skal først <a href=\"/signup.html\">bekræfte din e-mail</a> for at oprette en konto."
+    "other": "Bekræftelseskode mangler."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Bekræftelsestokenet er udløbet. Anmod om en anden via siden <a href=\"/signup.html\">for kontooprettelse</a> ."
+    "other": "Bekræftelsestokenet er udløbet."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Denne e-mail er ikke blevet bekræftet. Du kan sende en anden bekræftelses-e-mail via siden <a href=\"/signup.html\">for kontooprettelse</a> ."
+    "other": "Denne e-mail er ikke blevet bekræftet."
   },
   "alert_title_success": {
     "other": "Succes"
@@ -1583,5 +1583,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "Der opstod en ukendt fejl under validering af din e-mailadresse. Prøv at opdatere siden eller kontakt din webstedsadministrator."
+  },
+  "signup_form_error_generic": {
+    "other": "Der opstod en ukendt fejl under oprettelse af din konto. Prøv at opdatere siden eller kontakt din webstedsadministrator."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Tilbage for at oprette konto"
   }
 }

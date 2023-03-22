@@ -1628,13 +1628,13 @@
     "other": "أنشاء حساب..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "يجب عليك أولاً <a href=\"/signup.html\">التحقق من بريدك الإلكتروني</a> لإنشاء حساب."
+    "other": "رمز التحقق مفقود."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "انتهت صلاحية رمز التحقق. اطلب واحدًا آخر عبر صفحة <a href=\"/signup.html\">إنشاء الحساب</a> ."
+    "other": "انتهت صلاحية رمز التحقق."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "لم يتم التحقق من هذا البريد الإلكتروني. يمكنك إرسال رسالة تحقق أخرى عبر صفحة <a href=\"/signup.html\">إنشاء الحساب</a> ."
+    "other": "لم يتم التحقق من هذا البريد الإلكتروني."
   },
   "alert_title_success": {
     "other": "نجاح"
@@ -1647,5 +1647,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "حدث خطأ غير معروف أثناء التحقق من صحة عنوان بريدك الإلكتروني. حاول تحديث الصفحة أو الاتصال بمسؤول الموقع الخاص بك."
+  },
+  "signup_form_error_generic": {
+    "other": "حدث خطأ غير معروف أثناء إنشاء حسابك. حاول تحديث الصفحة أو الاتصال بمسؤول الموقع الخاص بك."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "العودة لإنشاء حساب"
   }
 }

@@ -1564,13 +1564,13 @@
     "other": "Fiók létrehozása..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "Fiók létrehozásához először <a href=\"/signup.html\">igazolnia kell az e-mail-címét</a> ."
+    "other": "Hiányzik az ellenőrző kód."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Az ellenőrző token lejárt. Kérjen másikat a <a href=\"/signup.html\">fióklétrehozási</a> oldalon."
+    "other": "Az ellenőrző token lejárt."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Ezt az e-mailt nem ellenőriztük. Újabb ellenőrző e-mailt küldhet a <a href=\"/signup.html\">fióklétrehozási</a> oldalon."
+    "other": "Ezt az e-mailt nem ellenőriztük."
   },
   "alert_title_success": {
     "other": "Siker"
@@ -1583,5 +1583,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "Ismeretlen hiba történt az e-mail-cím érvényesítése során. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "signup_form_error_generic": {
+    "other": "Ismeretlen hiba történt a fiók létrehozásakor. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Vissza a fiók létrehozásához"
   }
 }

@@ -1564,13 +1564,13 @@
     "other": "Luodaan tiliä..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "Sinun on ensin <a href=\"/signup.html\">vahvistettava sähköpostiosoitteesi</a> luodaksesi tilin."
+    "other": "Vahvistuskoodi puuttuu."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Vahvistustunnus on vanhentunut. Pyydä toista <a href=\"/signup.html\">tiliä luontisivun</a> kautta."
+    "other": "Vahvistustunnus on vanhentunut."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Tätä sähköpostia ei ole vahvistettu. Voit lähettää toisen vahvistussähköpostin <a href=\"/signup.html\">tilin luontisivun</a> kautta."
+    "other": "Tätä sähköpostia ei ole vahvistettu."
   },
   "alert_title_success": {
     "other": "Menestys"
@@ -1583,5 +1583,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "Sähköpostiosoitteesi vahvistamisessa tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "signup_form_error_generic": {
+    "other": "Tiliäsi luotaessa tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Takaisin tilin luomiseen"
   }
 }

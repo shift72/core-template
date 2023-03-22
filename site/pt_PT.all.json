@@ -1568,13 +1568,13 @@
     "other": "Criando conta..."
   },
   "signup_form_error_email_verification_missing": {
-    "other": "Você deve primeiro <a href=\"/signup.html\">verificar seu e-mail</a> para criar uma conta."
+    "other": "Falta o código de verificação."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "O token de verificação expirou. Solicite outro através da página <a href=\"/signup.html\">de criação de conta</a> ."
+    "other": "O token de verificação expirou."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Este e-mail não foi verificado. Você pode enviar outro e-mail de verificação por meio da página <a href=\"/signup.html\">de criação de conta</a> ."
+    "other": "Este e-mail não foi verificado."
   },
   "alert_title_success": {
     "other": "Sucesso"
@@ -1587,5 +1587,11 @@
   },
   "signup_form_error_email_verification_generic": {
     "other": "Ocorreu um erro desconhecido ao validar seu endereço de e-mail. Tente atualizar a página ou entrar em contato com o administrador do site."
+  },
+  "signup_form_error_generic": {
+    "other": "Ocorreu um erro desconhecido ao criar sua conta. Tente atualizar a página ou entrar em contato com o administrador do site."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Voltar para criar conta"
   }
 }
