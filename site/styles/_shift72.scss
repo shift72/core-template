@@ -122,19 +122,19 @@
   }
 
   .s72-auth-selector-buttons {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 
-    & > * {
-        width: 80%;
+    > * {
+      width: 80%;
     }
   }
 
   .s72-or-divider {
     display: flex;
-    padding: 0 10px;
     margin: 16px 0;
+    padding: 0 10px;
     width: 75%;
 
     hr {
