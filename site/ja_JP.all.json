@@ -1576,5 +1576,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "メールの検証を再試行する"
+  },
+  "auth_selector_info": {
+    "other": "このコンテンツを購入するにはアカウントが必要です。"
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "すでにメンバーですか？ログイン"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "アカウントを作成する"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "また"
   }
 }

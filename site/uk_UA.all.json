@@ -1649,5 +1649,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Повторіть перевірку електронної пошти"
+  },
+  "auth_selector_info": {
+    "other": "Щоб придбати цей вміст, потрібен обліковий запис."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Вже учасник? Увійти"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Створити акаунт"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "або"
   }
 }

@@ -1589,5 +1589,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "E-posta doğrulamasını yeniden dene"
+  },
+  "auth_selector_info": {
+    "other": "Bu içeriği satın almak için bir hesap gereklidir."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Zaten bir üye misiniz? Kayıt olmak"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Hesap oluşturmak"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "veya"
   }
 }

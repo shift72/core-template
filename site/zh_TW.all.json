@@ -1572,9 +1572,21 @@
     "other": "驗證您的電子郵件地址時出現未知錯誤。嘗試刷新頁面或聯繫您的站點管理員。"
   },
   "signup_form_error_generic": {
-    "other": "創建您的帳戶時出現未知錯誤。嘗試刷新頁面或聯繫您的站點管理員。"
+    "other": "創建您的帳戶時出現未知錯誤。嘗試刷新頁面或聯繫您的網站管理員。"
   },
   "signup_form_error_email_verification_link_text": {
     "other": "重試電子郵件驗證"
+  },
+  "auth_selector_info": {
+    "other": "購買此內容需要一個帳戶。"
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "已經是會員？登入"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "創建賬戶"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "或者"
   }
 }

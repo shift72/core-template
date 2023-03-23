@@ -1540,7 +1540,7 @@
     "other": "Besøk oss på Letterboxd"
   },
   "validate_email_about": {
-    "other": "For å opprette en konto må vi først bekrefte e-postadressen din. Skriv inn e-postadressen din, så sender vi en invitasjon til kontoregistrering."
+    "other": "For å opprette en konto må vi først bekrefte e-postadressen din. Skriv inn e-postadressen din, så sender vi en invitasjon til å registrere deg."
   },
   "validate_email_success": {
     "other": "En bekreftelses-e-post er sendt til {{.Email}} . Vennligst sjekk e-posten din og følg instruksjonene for kontooppretting."
@@ -1585,9 +1585,21 @@
     "other": "Det oppstod en ukjent feil under validering av e-postadressen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
   },
   "signup_form_error_generic": {
-    "other": "Det oppsto en ukjent feil under opprettelsen av kontoen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+    "other": "Det oppstod en ukjent feil under opprettelsen av kontoen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Prøv e-postvalidering på nytt"
+  },
+  "auth_selector_info": {
+    "other": "En konto er nødvendig for å kjøpe dette innholdet."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Allerede medlem? Logg inn"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Opprett konto"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "eller"
   }
 }

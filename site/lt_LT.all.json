@@ -1621,5 +1621,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Bandykite patvirtinti el. paštu dar kartą"
+  },
+  "auth_selector_info": {
+    "other": "Norint įsigyti šį turinį, reikalinga paskyra."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Jau narys? Prisijungti"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Sukurti paskyrą"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "arba"
   }
 }
