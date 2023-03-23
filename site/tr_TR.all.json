@@ -1588,6 +1588,6 @@
     "other": "Hesabınız oluşturulurken bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Hesap oluşturmak için geri dön"
+    "other": "E-posta doğrulamasını yeniden dene"
   }
 }

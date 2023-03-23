@@ -1588,6 +1588,6 @@
     "other": "Det oppsto en ukjent feil under opprettelsen av kontoen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Tilbake for å opprette konto"
+    "other": "Prøv e-postvalidering på nytt"
   }
 }

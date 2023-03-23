@@ -1588,6 +1588,6 @@
     "other": "Tiliäsi luotaessa tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Takaisin tilin luomiseen"
+    "other": "Yritä sähköpostin vahvistusta uudelleen"
   }
 }

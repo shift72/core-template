@@ -1665,6 +1665,6 @@
     "other": "Podczas tworzenia konta wystąpił nieznany błąd. Spróbuj odświeżyć stronę lub skontaktować się z administratorem witryny."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Powrót do tworzenia konta"
+    "other": "Ponów weryfikację adresu e-mail"
   }
 }

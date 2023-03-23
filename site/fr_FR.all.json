@@ -1592,6 +1592,6 @@
     "other": "Une erreur inconnue s'est produite lors de la création de votre compte. Essayez d'actualiser la page ou de contacter l'administrateur de votre site."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Retour pour créer un compte"
+    "other": "Réessayez la validation de l'e-mail"
   }
 }

@@ -1588,6 +1588,6 @@
     "other": "Beim Erstellen Ihres Kontos ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Zurück zum Erstellen eines Kontos"
+    "other": "E-Mail-Validierung erneut versuchen"
   }
 }

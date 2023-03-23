@@ -1575,6 +1575,6 @@
     "other": "アカウントの作成中に不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "アカウントの作成に戻る"
+    "other": "メールの検証を再試行する"
   }
 }

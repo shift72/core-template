@@ -1588,6 +1588,6 @@
     "other": "Ismeretlen hiba történt a fiók létrehozásakor. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Vissza a fiók létrehozásához"
+    "other": "Próbálja újra az e-mail érvényesítést"
   }
 }

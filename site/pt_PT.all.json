@@ -1592,6 +1592,6 @@
     "other": "Ocorreu um erro desconhecido ao criar sua conta. Tente atualizar a página ou entrar em contato com o administrador do site."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Voltar para criar conta"
+    "other": "Repetir a validação de e-mail"
   }
 }

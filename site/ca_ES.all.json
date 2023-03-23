@@ -1588,6 +1588,6 @@
     "other": "S'ha produït un error desconegut en crear el vostre compte. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Torna per crear un compte"
+    "other": "Torna a provar la validació del correu electrònic"
   }
 }

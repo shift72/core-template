@@ -1592,6 +1592,6 @@
     "other": "Si è verificato un errore sconosciuto durante la creazione del tuo account. Prova ad aggiornare la pagina o a contattare l'amministratore del sito."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Torna a creare un account"
+    "other": "Riprova la convalida dell'email"
   }
 }

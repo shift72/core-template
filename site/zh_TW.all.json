@@ -1575,6 +1575,6 @@
     "other": "創建您的帳戶時出現未知錯誤。嘗試刷新頁面或聯繫您的站點管理員。"
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "返回創建帳戶"
+    "other": "重試電子郵件驗證"
   }
 }

@@ -1590,6 +1590,6 @@
     "other": "Došlo je do nepoznate pogreške prilikom izrade vašeg računa. Pokušajte osvježiti stranicu ili se obratite administratoru stranice."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Natrag na kreiranje računa"
+    "other": "Ponovi provjeru valjanosti e-pošte"
   }
 }

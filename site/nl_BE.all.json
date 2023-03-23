@@ -1588,6 +1588,6 @@
     "other": "Er is een onbekende fout opgetreden bij het maken van uw account. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Terug naar account aanmaken"
+    "other": "Probeer de e-mailvalidatie opnieuw"
   }
 }
