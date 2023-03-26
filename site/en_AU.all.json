@@ -1589,5 +1589,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Retry email validation"
+  },
+  "auth_selector_info": {
+    "other": "An account is needed to purchase this content."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Already a member? Sign in"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Create account"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "or"
   }
 }

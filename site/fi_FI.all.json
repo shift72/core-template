@@ -1589,5 +1589,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Yritä sähköpostin vahvistusta uudelleen"
+  },
+  "auth_selector_info": {
+    "other": "Tämän sisällön ostamiseen tarvitaan tili."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "joko olet jäsen? Kirjaudu sisään"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Luo tili"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "tai"
   }
 }

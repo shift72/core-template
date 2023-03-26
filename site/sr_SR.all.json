@@ -1605,5 +1605,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Поновите проверу е-поште"
+  },
+  "auth_selector_info": {
+    "other": "За куповину овог садржаја потребан је налог."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Већ сте члан? Пријавите се"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Региструј се"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "или"
   }
 }

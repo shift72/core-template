@@ -1589,5 +1589,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "E-Mail-Validierung erneut versuchen"
+  },
+  "auth_selector_info": {
+    "other": "Zum Kauf dieser Inhalte ist ein Konto erforderlich."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Schon ein Mitglied? anmelden"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Benutzerkonto erstellen"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "oder"
   }
 }

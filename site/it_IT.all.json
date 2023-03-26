@@ -1592,6 +1592,18 @@
     "other": "Si è verificato un errore sconosciuto durante la creazione del tuo account. Prova ad aggiornare la pagina o a contattare l'amministratore del sito."
   },
   "signup_form_error_email_verification_link_text": {
-    "other": "Riprova la convalida dell'email"
+    "other": "Riprova la convalida dell'e-mail"
+  },
+  "auth_selector_info": {
+    "other": "È necessario un account per acquistare questo contenuto."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "sei già un membro? Registrazione"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Creare un account"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "O"
   }
 }

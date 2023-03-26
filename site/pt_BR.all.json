@@ -1593,5 +1593,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Repetir a validação de e-mail"
+  },
+  "auth_selector_info": {
+    "other": "É necessária uma conta para comprar este conteúdo."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "já é um membro? Entrar"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Criar uma conta"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "ou"
   }
 }

@@ -1643,5 +1643,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Повторить проверку электронной почты"
+  },
+  "auth_selector_info": {
+    "other": "Для покупки этого контента необходима учетная запись."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Уже вступил? Войти"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Зарегистрироваться"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "или"
   }
 }

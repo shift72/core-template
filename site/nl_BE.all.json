@@ -1589,5 +1589,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Probeer de e-mailvalidatie opnieuw"
+  },
+  "auth_selector_info": {
+    "other": "Er is een account nodig om deze inhoud te kopen."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Al lid? Aanmelden"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Account aanmaken"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "of"
   }
 }

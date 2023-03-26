@@ -114,6 +114,39 @@
   }
 }
 
+.s72-auth-selector {
+  padding-bottom: 10px;
+
+  p {
+    text-align: center;
+  }
+
+  .s72-auth-selector-buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    > * {
+      width: 80%;
+    }
+  }
+
+  .s72-or-divider {
+    display: flex;
+    margin: 16px 0;
+    padding: 0 10px;
+    width: 75%;
+
+    hr {
+      flex: 1;
+    }
+
+    div {
+      padding: 0 10px;
+    }
+  }
+}
+
 .s72-combined-auth-email {
   @extend .alert;
   @extend .alert-secondary;

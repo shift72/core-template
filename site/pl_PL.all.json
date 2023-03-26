@@ -1666,5 +1666,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Ponów weryfikację adresu e-mail"
+  },
+  "auth_selector_info": {
+    "other": "Do zakupu tej zawartości potrzebne jest konto."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Jesteś już członkiem? Zalogować się"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Utwórz konto"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "Lub"
   }
 }

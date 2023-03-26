@@ -1589,5 +1589,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Prøv e-mailvalidering igen"
+  },
+  "auth_selector_info": {
+    "other": "En konto er nødvendig for at købe dette indhold."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "allerede medlem? Log ind"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Opret konto"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "eller"
   }
 }

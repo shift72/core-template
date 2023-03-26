@@ -1589,5 +1589,17 @@
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Δοκιμάστε ξανά την επικύρωση μέσω email"
+  },
+  "auth_selector_info": {
+    "other": "Απαιτείται λογαριασμός για την αγορά αυτού του περιεχομένου."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Ήδη μέλος; Συνδεθείτε"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Δημιουργήστε λογαριασμό"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "ή"
   }
 }
