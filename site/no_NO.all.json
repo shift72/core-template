@@ -1540,7 +1540,7 @@
     "other": "Besøk oss på Letterboxd"
   },
   "validate_email_about": {
-    "other": "For å opprette en konto må vi først bekrefte e-postadressen din. Skriv inn e-postadressen din, så sender vi en invitasjon til å registrere deg."
+    "other": "For å opprette en konto må vi først bekrefte e-postadressen din. Skriv inn e-postadressen din, så sender vi en invitasjon til kontoregistrering."
   },
   "validate_email_success": {
     "other": "En bekreftelses-e-post er sendt til {{.Email}} . Vennligst sjekk e-posten din og følg instruksjonene for kontooppretting."
@@ -1585,7 +1585,7 @@
     "other": "Det oppstod en ukjent feil under validering av e-postadressen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
   },
   "signup_form_error_generic": {
-    "other": "Det oppstod en ukjent feil under opprettelsen av kontoen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+    "other": "Det oppsto en ukjent feil under opprettelsen av kontoen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Prøv e-postvalidering på nytt"
@@ -1601,5 +1601,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "eller"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "En bekreftelses-e-post er allerede sendt. Vennligst sjekk e-postkontoen din."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-post er ikke gyldig."
+  },
+  "validate_email_error_email_required": {
+    "other": "En e-post er nødvendig."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Denne e-posten er allerede i bruk."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "E-postadressen som er oppgitt er for et domene som er begrenset. Registrer deg hos en annen e-postleverandør."
+  },
+  "validate_email_error_pin_required": {
+    "other": "En PIN-kode kreves."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Registreringer er for øyeblikket deaktivert."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "For mange forespørsler. Vær snill å prøv senere."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "E-postvalidering er for øyeblikket deaktivert."
+  },
+  "validate_email_error_generic": {
+    "other": "Det oppstod en ukjent feil under bekreftelse av den oppgitte e-posten. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
   }
 }

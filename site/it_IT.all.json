@@ -1605,5 +1605,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "O"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "È già stata inviata un'e-mail di verifica. Controlla il tuo account di posta elettronica."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "L'e-mail non è valida."
+  },
+  "validate_email_error_email_required": {
+    "other": "E 'richiesta una email."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Questa e-mail è già in uso."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "L'indirizzo e-mail fornito è per un dominio che è stato limitato. Registrati con un altro provider di posta elettronica."
+  },
+  "validate_email_error_pin_required": {
+    "other": "È richiesto un codice PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Le iscrizioni sono attualmente disattivate."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Troppe richieste. La preghiamo di riprovare più tardi."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "La convalida dell'e-mail è attualmente disabilitata."
+  },
+  "validate_email_error_generic": {
+    "other": "Si è verificato un errore sconosciuto durante la verifica dell'e-mail fornita. Prova ad aggiornare la pagina o a contattare l'amministratore del sito."
   }
 }

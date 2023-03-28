@@ -1588,5 +1588,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "また"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "確認メールは既に送信されています。メールアカウントを確認してください。"
+  },
+  "validate_email_error_email_invalid": {
+    "other": "電子メールは有効ではありません。"
+  },
+  "validate_email_error_email_required": {
+    "other": "電子メールは必要です。"
+  },
+  "validate_email_error_email_taken": {
+    "other": "この電子メールは既に利用されています。"
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "指定されたメールアドレスは、制限されたドメインのものです。別のメール プロバイダーにサインアップしてください。"
+  },
+  "validate_email_error_pin_required": {
+    "other": "PIN コードが必要です。"
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "サインアップは現在無効になっています。"
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "要求が多すぎます。あとで言ってください。"
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "電子メールの検証は現在無効になっています。"
+  },
+  "validate_email_error_generic": {
+    "other": "提供された電子メールの確認中に不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
   }
 }

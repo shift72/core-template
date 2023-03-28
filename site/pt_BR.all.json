@@ -1605,5 +1605,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "ou"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Um e-mail de verificação já foi enviado. Verifique sua conta de e-mail."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "O e-mail não é válido."
+  },
+  "validate_email_error_email_required": {
+    "other": "Um e-mail é necessário."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Esse email já está em uso."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "O endereço de e-mail fornecido é para um domínio que foi restrito. Inscreva-se com um provedor de e-mail diferente."
+  },
+  "validate_email_error_pin_required": {
+    "other": "É necessário um código PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "As inscrições estão desativadas no momento."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Muitos pedidos. Por favor tente mais tarde."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "A validação de e-mail está desativada no momento."
+  },
+  "validate_email_error_generic": {
+    "other": "Ocorreu um erro desconhecido ao verificar o e-mail fornecido. Tente atualizar a página ou entrar em contato com o administrador do site."
   }
 }

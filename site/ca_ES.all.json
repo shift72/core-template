@@ -1601,5 +1601,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "o"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Ja s'ha enviat un correu electrònic de verificació. Comproveu el vostre compte de correu electrònic."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "El correu electrònic no és vàlid."
+  },
+  "validate_email_error_email_required": {
+    "other": "Es requereix un correu electrònic."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Aquest correu electrònic ja està en ús."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "L'adreça de correu proporcionada és per a un domini que s'ha restringit. Si us plau, registreu-vos amb un altre proveïdor de correu electrònic."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Cal un codi PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Actualment, les inscripcions estan desactivades."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Hi ha massa sol·licituds, torneu-ho a provar més tard."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "La validació del correu electrònic està desactivada actualment."
+  },
+  "validate_email_error_generic": {
+    "other": "S'ha produït un error desconegut en verificar el correu electrònic subministrat. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
   }
 }

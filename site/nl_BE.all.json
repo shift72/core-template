@@ -1601,5 +1601,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "of"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Er is al een verificatie-e-mail verzonden. Controleer uw e-mailaccount."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-mail is niet geldig."
+  },
+  "validate_email_error_email_required": {
+    "other": "Een email is verplicht."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Deze email is al in gebruik."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Het opgegeven e-mailadres is voor een domein dat is beperkt. Meld u aan bij een andere e-mailprovider."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Een pincode is vereist."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Aanmelden is momenteel uitgeschakeld."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Te veel verzoeken, probeer het later opnieuw."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "E-mailvalidatie is momenteel uitgeschakeld."
+  },
+  "validate_email_error_generic": {
+    "other": "Er is een onbekende fout opgetreden bij het verifiëren van de opgegeven e-mail. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
   }
 }

@@ -1601,5 +1601,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "tai"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Vahvistussähköposti on jo lähetetty. Tarkista sähköpostitilisi."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Sähköposti ei ole kelvollinen."
+  },
+  "validate_email_error_email_required": {
+    "other": "Sähköposti vaaditaan."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Tämä sähköpostiosoite on jo käytössä."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Annettu sähköpostiosoite on rajoitettua verkkotunnusta varten. Rekisteröidy toisen sähköpostipalvelun kautta."
+  },
+  "validate_email_error_pin_required": {
+    "other": "PIN-koodi vaaditaan."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Ilmoittautuminen on tällä hetkellä poissa käytöstä."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Liian monta pyyntöä, yritä myöhemmin uudelleen."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Sähköpostin vahvistus on tällä hetkellä poissa käytöstä."
+  },
+  "validate_email_error_generic": {
+    "other": "Toimitettua sähköpostia vahvistettaessa tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
   }
 }

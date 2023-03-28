@@ -1655,5 +1655,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "или"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Письмо с подтверждением уже отправлено. Пожалуйста, проверьте свою учетную запись электронной почты."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Электронная почта недействительна."
+  },
+  "validate_email_error_email_required": {
+    "other": "Необходимо указать адрес электронной почты."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Этот электронный адрес уже используется."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Предоставленный адрес электронной почты относится к домену, который был ограничен. Пожалуйста, зарегистрируйтесь у другого поставщика услуг электронной почты."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Требуется PIN-код."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "В настоящее время регистрация отключена."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Пожалуйста, повторите попытку позже."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Проверка электронной почты в настоящее время отключена."
+  },
+  "validate_email_error_generic": {
+    "other": "При проверке указанного адреса электронной почты произошла неизвестная ошибка. Попробуйте обновить страницу или обратиться к администратору сайта."
   }
 }

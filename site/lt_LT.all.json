@@ -1633,5 +1633,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "arba"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Patvirtinimo el. laiškas jau išsiųstas. Patikrinkite savo el. pašto paskyrą."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "El. paštas negalioja."
+  },
+  "validate_email_error_email_required": {
+    "other": "Reikalingas el."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Šis el. paštas jau naudojamas."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Pateiktas pašto adresas skirtas domenui, kuris buvo apribotas. Prisiregistruokite pas kitą el. pašto paslaugų teikėją."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Reikalingas PIN kodas."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Šiuo metu registracija išjungta."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Per daug užklausų. Prašome pabandyti vėliau."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "El. pašto patvirtinimas šiuo metu išjungtas."
+  },
+  "validate_email_error_generic": {
+    "other": "Tikrinant pateiktą el. laišką įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
   }
 }

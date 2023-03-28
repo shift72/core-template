@@ -1588,5 +1588,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "或者"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "驗證電子郵件已發送。請檢查您的電子郵件帳戶。"
+  },
+  "validate_email_error_email_invalid": {
+    "other": "電子郵件無效。"
+  },
+  "validate_email_error_email_required": {
+    "other": "需要一封電郵。"
+  },
+  "validate_email_error_email_taken": {
+    "other": "此電子郵件已被使用。"
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "提供的郵件地址用於已受限制的域。請註冊不同的電子郵件提供商。"
+  },
+  "validate_email_error_pin_required": {
+    "other": "需要 PIN 碼。"
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "目前已禁用註冊。"
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "請求過多，請稍後重試。"
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "電子郵件驗證當前已禁用。"
+  },
+  "validate_email_error_generic": {
+    "other": "驗證提供的電子郵件時出現未知錯誤。嘗試刷新頁面或聯繫您的網站管理員。"
   }
 }

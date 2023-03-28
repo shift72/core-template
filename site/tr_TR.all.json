@@ -1601,5 +1601,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "veya"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Bir doğrulama e-postası zaten gönderildi. Lütfen e-posta hesabınızı kontrol edin."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-posta geçerli değil."
+  },
+  "validate_email_error_email_required": {
+    "other": "Bir e-mail gerekli."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Bu e-posta zaten kullanılıyor."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Sağlanan posta adresi, kısıtlanmış bir etki alanı içindir. Lütfen farklı bir e-posta sağlayıcısı ile kaydolun."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Bir PIN kodu gereklidir."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Kayıtlar şu anda devre dışı."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Çok fazla talep var.Lütfen daha sonra tekrar deneyin."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "E-posta doğrulama şu anda devre dışı."
+  },
+  "validate_email_error_generic": {
+    "other": "Sağlanan e-posta doğrulanırken bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
   }
 }

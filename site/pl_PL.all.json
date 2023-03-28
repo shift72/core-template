@@ -1678,5 +1678,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "Lub"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "E-mail weryfikacyjny został już wysłany. Sprawdź swoje konto e-mail."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Adres e-mail nie jest prawidłowy."
+  },
+  "validate_email_error_email_required": {
+    "other": "E-mail jest wymagany."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Ten email jest już w użyciu."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Podany adres e-mail dotyczy domeny, która została ograniczona. Zarejestruj się u innego dostawcy poczty e-mail."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Wymagany jest kod PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Rejestracje są obecnie wyłączone."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Zbyt wiele zapytań. Spróbuj ponownie później."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Weryfikacja adresu e-mail jest obecnie wyłączona."
+  },
+  "validate_email_error_generic": {
+    "other": "Podczas weryfikacji podanego adresu e-mail wystąpił nieznany błąd. Spróbuj odświeżyć stronę lub skontaktować się z administratorem witryny."
   }
 }

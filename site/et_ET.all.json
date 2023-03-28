@@ -1601,5 +1601,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "või"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Kinnitusmeil on juba saadetud. Kontrollige oma meilikontot."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-post ei ole kehtiv."
+  },
+  "validate_email_error_email_required": {
+    "other": "Vaja on meili."
+  },
+  "validate_email_error_email_taken": {
+    "other": "See email on juba kasutusel."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Esitatud meiliaadress on piiratud domeeni jaoks. Registreeruge mõne teise meiliteenuse pakkujaga."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Vaja on PIN-koodi."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Registreerumine on praegu keelatud."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Liiga palju taotlusi. Palun proovi hiljem uuesti."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Meili kinnitamine on praegu keelatud."
+  },
+  "validate_email_error_generic": {
+    "other": "Esitatud meili kinnitamisel ilmnes tundmatu viga. Proovige lehte värskendada või võtta ühendust saidi administraatoriga."
   }
 }

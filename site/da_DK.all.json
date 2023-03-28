@@ -1601,5 +1601,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "eller"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "En bekræftelses-e-mail er allerede blevet sendt. Tjek venligst din e-mail-konto."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-mail er ikke en gyldig."
+  },
+  "validate_email_error_email_required": {
+    "other": "En e-mail er påkrævet."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Denne e-mail er allerede i brug."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Den angivne mailadresse er for et domæne, der er blevet begrænset. Tilmeld dig hos en anden e-mail-udbyder."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Der kræves en pinkode."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Tilmeldinger er i øjeblikket deaktiveret."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "For mange anmodninger, prøv venligst igen senere."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "E-mail-validering er i øjeblikket deaktiveret."
+  },
+  "validate_email_error_generic": {
+    "other": "Der opstod en ukendt fejl under bekræftelse af den angivne e-mail. Prøv at opdatere siden eller kontakt din webstedsadministrator."
   }
 }

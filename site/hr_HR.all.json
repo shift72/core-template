@@ -1603,5 +1603,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "ili"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "E-pošta za potvrdu već je poslana. Provjerite svoj račun e-pošte."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Email nije valjan."
+  },
+  "validate_email_error_email_required": {
+    "other": "Potreban je email."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Ovaj email se već koristi."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Navedena adresa e-pošte je za domenu koja je ograničena. Prijavite se kod drugog davatelja usluga e-pošte."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Potreban je PIN kod."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Prijave su trenutno onemogućene."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Previše zahtjeva. Pokušajte ponovno kasnije."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Provjera valjanosti e-pošte trenutno je onemogućena."
+  },
+  "validate_email_error_generic": {
+    "other": "Došlo je do nepoznate pogreške tijekom provjere dostavljene e-pošte. Pokušajte osvježiti stranicu ili se obratite administratoru stranice."
   }
 }

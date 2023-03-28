@@ -1605,5 +1605,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "o"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Ya se ha enviado un correo electrónico de verificación. Por favor revise su cuenta de correo electrónico."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "El correo electrónico no es válido."
+  },
+  "validate_email_error_email_required": {
+    "other": "Se requiere un email."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Este correo electrónico ya está en uso."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "La dirección de correo proporcionada es para un dominio que ha sido restringido. Regístrese con un proveedor de correo electrónico diferente."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Se requiere un código PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Los registros están actualmente deshabilitados."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Hay demasiadas solicitudes. Por favor inténtelo más tarde."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "La validación de correo electrónico está actualmente deshabilitada."
+  },
+  "validate_email_error_generic": {
+    "other": "Hubo un error desconocido al verificar el correo electrónico proporcionado. Intente actualizar la página o comuníquese con el administrador del sitio."
   }
 }

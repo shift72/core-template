@@ -1601,5 +1601,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "or"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "A verification email has already been sent. Please check your email account."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Email is not a valid."
+  },
+  "validate_email_error_email_required": {
+    "other": "An email is required."
+  },
+  "validate_email_error_email_taken": {
+    "other": "This email is already in use."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "The mail address provided is for a domain that has been restricted. Please sign up with a different email provider."
+  },
+  "validate_email_error_pin_required": {
+    "other": "A PIN code is required."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Sign ups are currently disabled."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Too many requests, please try again later."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Email validation is currently disabled."
+  },
+  "validate_email_error_generic": {
+    "other": "There was a unknown error while verifying the supplied email. Try refreshing the page or contacting your site administrator."
   }
 }

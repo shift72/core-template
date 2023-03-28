@@ -1601,5 +1601,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "ή"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Ένα email επαλήθευσης έχει ήδη σταλεί. Ελέγξτε τον λογαριασμό email σας."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Το email δεν είναι έγκυρο."
+  },
+  "validate_email_error_email_required": {
+    "other": "Απαιτείται μία διεύθυνση ηλεκτρονικού ταχυδρομείου."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Αυτό το email χρησιμοποιείται ήδη."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Η διεύθυνση αλληλογραφίας που παρέχεται είναι για έναν τομέα που έχει περιοριστεί. Εγγραφείτε με διαφορετικό πάροχο email."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Απαιτείται κωδικός PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Οι εγγραφές είναι προς το παρόν απενεργοποιημένες."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Πολλά αιτήματα. Παρακαλώ προσπαθήστε αργότερα."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Η επικύρωση email είναι προς το παρόν απενεργοποιημένη."
+  },
+  "validate_email_error_generic": {
+    "other": "Παρουσιάστηκε ένα άγνωστο σφάλμα κατά την επαλήθευση του παρεχόμενου email. Δοκιμάστε να ανανεώσετε τη σελίδα ή να επικοινωνήσετε με τον διαχειριστή του ιστότοπού σας."
   }
 }

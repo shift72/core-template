@@ -1630,7 +1630,7 @@
     "other": "Термін дії маркера підтвердження минув."
   },
   "signup_form_error_email_verification_no_match": {
-    "other": "Цей електронний лист не підтверджено."
+    "other": "Ця електронна адреса не була підтверджена."
   },
   "alert_title_success": {
     "other": "Успіх"
@@ -1639,7 +1639,7 @@
     "other": "Помилка!"
   },
   "signup_form_error_email_verification_status_rejected": {
-    "other": "Надана адреса електронної пошти призначена для обмеженого домену. Будь ласка, зареєструйтеся в іншому постачальнику електронної пошти."
+    "other": "Надана адреса електронної пошти призначена для обмеженого домену. Зареєструйтеся в іншого постачальника електронної пошти."
   },
   "signup_form_error_email_verification_generic": {
     "other": "Під час перевірки адреси електронної пошти сталася невідома помилка. Спробуйте оновити сторінку або зверніться до адміністратора сайту."
@@ -1661,5 +1661,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "або"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Електронний лист для підтвердження вже надіслано. Перевірте свій обліковий запис електронної пошти."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Електронна адреса недійсна."
+  },
+  "validate_email_error_email_required": {
+    "other": "Потрібна електронна адреса."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Ця електронна адреса вже використовується."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Надана адреса електронної пошти призначена для обмеженого домену. Зареєструйтеся в іншого постачальника електронної пошти."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Необхідно ввести PIN-код."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Реєстрацію наразі вимкнено."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Забагато запитів, спробуйте пізніше."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Перевірку електронної пошти наразі вимкнено."
+  },
+  "validate_email_error_generic": {
+    "other": "Під час перевірки наданої електронної пошти сталася невідома помилка. Спробуйте оновити сторінку або зверніться до адміністратора сайту."
   }
 }

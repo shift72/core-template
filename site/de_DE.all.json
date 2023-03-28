@@ -1601,5 +1601,35 @@
   },
   "auth_selector_or_divider_text": {
     "other": "oder"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Eine Bestätigungs-E-Mail wurde bereits gesendet. Bitte überprüfen Sie Ihr E-Mail-Konto."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-Mail ist nicht gültig."
+  },
+  "validate_email_error_email_required": {
+    "other": "Eine Email ist erforderlich."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Diese E-Mail-Adresse wird schon verwendet."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Die angegebene E-Mail-Adresse gehört zu einer eingeschränkten Domain. Bitte melden Sie sich bei einem anderen E-Mail-Anbieter an."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Ein PIN-Code ist erforderlich."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Anmeldungen sind derzeit deaktiviert."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Zu viele Anfragen. Bitte versuchen Sie es später noch einmal."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Die E-Mail-Validierung ist derzeit deaktiviert."
+  },
+  "validate_email_error_generic": {
+    "other": "Beim Verifizieren der angegebenen E-Mail ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
   }
 }
