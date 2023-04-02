@@ -1631,5 +1631,8 @@
   },
   "validate_email_error_generic": {
     "other": "Ismeretlen hiba történt a megadott e-mail ellenőrzése során. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Ez az email cím már foglalt."
   }
 }

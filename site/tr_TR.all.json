@@ -1631,5 +1631,8 @@
   },
   "validate_email_error_generic": {
     "other": "Sağlanan e-posta doğrulanırken bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Bu e-posta zaten kullanılıyor."
   }
 }

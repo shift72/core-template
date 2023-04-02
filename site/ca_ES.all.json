@@ -1631,5 +1631,8 @@
   },
   "validate_email_error_generic": {
     "other": "S'ha produït un error desconegut en verificar el correu electrònic subministrat. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Aquest correu electrònic ja està en ús."
   }
 }

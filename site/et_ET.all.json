@@ -1631,5 +1631,8 @@
   },
   "validate_email_error_generic": {
     "other": "Esitatud meili kinnitamisel ilmnes tundmatu viga. Proovige lehte värskendada või võtta ühendust saidi administraatoriga."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "See email on juba kasutusel."
   }
 }

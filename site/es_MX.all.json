@@ -1635,5 +1635,8 @@
   },
   "validate_email_error_generic": {
     "other": "Hubo un error desconocido al verificar el correo electrónico proporcionado. Intente actualizar la página o comuníquese con el administrador del sitio."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Este correo electrónico ya está en uso."
   }
 }

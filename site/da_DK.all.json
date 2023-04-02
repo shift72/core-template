@@ -1631,5 +1631,8 @@
   },
   "validate_email_error_generic": {
     "other": "Der opstod en ukendt fejl under bekræftelse af den angivne e-mail. Prøv at opdatere siden eller kontakt din webstedsadministrator."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Denne e-mail er allerede i brug."
   }
 }

@@ -1631,5 +1631,8 @@
   },
   "validate_email_error_generic": {
     "other": "Beim Verifizieren der angegebenen E-Mail ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Diese E-Mail-Adresse wird schon verwendet."
   }
 }

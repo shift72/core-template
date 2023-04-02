@@ -1618,5 +1618,8 @@
   },
   "validate_email_error_generic": {
     "other": "提供された電子メールの確認中に不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "この電子メールは既に利用されています。"
   }
 }

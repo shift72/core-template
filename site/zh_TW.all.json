@@ -1618,5 +1618,8 @@
   },
   "validate_email_error_generic": {
     "other": "驗證提供的電子郵件時出現未知錯誤。嘗試刷新頁面或聯繫您的網站管理員。"
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "此電子郵件已被使用。"
   }
 }

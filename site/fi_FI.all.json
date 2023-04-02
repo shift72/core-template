@@ -1631,5 +1631,8 @@
   },
   "validate_email_error_generic": {
     "other": "Toimitettua sähköpostia vahvistettaessa tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Tämä sähköpostiosoite on jo käytössä."
   }
 }

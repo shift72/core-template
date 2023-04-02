@@ -1599,7 +1599,7 @@
     "other": "Trūksta patvirtinimo kodo."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Baigėsi patvirtinimo prieigos rakto galiojimo laikas."
+    "other": "Baigėsi patvirtinimo prieigos raktas."
   },
   "signup_form_error_email_verification_no_match": {
     "other": "Šis el. laiškas nebuvo patvirtintas."
@@ -1663,5 +1663,8 @@
   },
   "validate_email_error_generic": {
     "other": "Tikrinant pateiktą el. laišką įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Šis el. paštas jau naudojamas."
   }
 }

@@ -1635,5 +1635,8 @@
   },
   "validate_email_error_generic": {
     "other": "Une erreur inconnue s'est produite lors de la vérification de l'e-mail fourni. Essayez d'actualiser la page ou de contacter l'administrateur de votre site."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Cet e-mail est déjà utilisée."
   }
 }

@@ -1633,5 +1633,8 @@
   },
   "validate_email_error_generic": {
     "other": "Došlo je do nepoznate pogreške tijekom provjere dostavljene e-pošte. Pokušajte osvježiti stranicu ili se obratite administratoru stranice."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Ovaj email se već koristi."
   }
 }

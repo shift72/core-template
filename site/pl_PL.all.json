@@ -1708,5 +1708,8 @@
   },
   "validate_email_error_generic": {
     "other": "Podczas weryfikacji podanego adresu e-mail wystąpił nieznany błąd. Spróbuj odświeżyć stronę lub skontaktować się z administratorem witryny."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Ten email jest już w użyciu."
   }
 }

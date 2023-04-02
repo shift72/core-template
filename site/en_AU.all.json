@@ -1631,5 +1631,8 @@
   },
   "validate_email_error_generic": {
     "other": "There was a unknown error while verifying the supplied email. Try refreshing the page or contacting your site administrator."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "This email is already in use."
   }
 }

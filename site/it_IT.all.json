@@ -1635,5 +1635,8 @@
   },
   "validate_email_error_generic": {
     "other": "Si è verificato un errore sconosciuto durante la verifica dell'e-mail fornita. Prova ad aggiornare la pagina o a contattare l'amministratore del sito."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Questa e-mail è già in uso."
   }
 }

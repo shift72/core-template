@@ -1631,5 +1631,8 @@
   },
   "validate_email_error_generic": {
     "other": "Er is een onbekende fout opgetreden bij het verifiëren van de opgegeven e-mail. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Deze email is al in gebruik."
   }
 }
