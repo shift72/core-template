@@ -1,0 +1,17 @@
+{* THIS FILE IS HERE TO SIMULATE LETTERBOXD'S MODAL *}
+
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+
+  <body>
+    <iframe
+      id="s72-purchase-iframe"
+      title="Shift72 Purchase Iframe"
+      width="600"
+      height="2000"
+      src="/purchase.html?slug=/film/3257"
+    ></iframe>
+  </body>
+</html>
