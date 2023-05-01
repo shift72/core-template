@@ -1538,5 +1538,8 @@
   },
   "new_card_error_timed_out": {
     "other": "Something went wrong when adding that card. Please try again later or use a different card."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "There was a unknown error with your shopping session. Try refreshing the page or contacting your site administrator."
   }
 }

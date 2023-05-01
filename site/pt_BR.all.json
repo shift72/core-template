@@ -1542,5 +1542,8 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Visite-nos no Letterboxd"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Ocorreu um erro desconhecido na sua sessão de compras. Tente atualizar a página ou entrar em contato com o administrador do site."
   }
 }

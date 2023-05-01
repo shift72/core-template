@@ -1538,5 +1538,8 @@
   },
   "app_badge_apple_tv": {
     "other": "Lataa se Apple TV:stä"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Ostosistunnossasi tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
   }
 }

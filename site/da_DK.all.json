@@ -1538,5 +1538,8 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Besøg os på Letterboxd"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Der opstod en ukendt fejl med din indkøbssession. Prøv at opdatere siden eller kontakt din webstedsadministrator."
   }
 }

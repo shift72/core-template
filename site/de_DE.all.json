@@ -1538,5 +1538,8 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Besuchen Sie uns auf Letterboxd"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Bei Ihrer Einkaufssitzung ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
   }
 }

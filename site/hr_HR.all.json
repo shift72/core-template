@@ -1540,5 +1540,8 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Posjetite nas na Letterboxd"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Došlo je do nepoznate pogreške u vašoj kupovnoj sesiji. Pokušajte osvježiti stranicu ili se obratite administratoru stranice."
   }
 }

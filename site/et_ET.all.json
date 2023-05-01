@@ -1538,5 +1538,8 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Külastage meid Letterboxdis"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Teie ostuseansil ilmnes tundmatu viga. Proovige lehte värskendada või võtta ühendust saidi administraatoriga."
   }
 }

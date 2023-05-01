@@ -1538,5 +1538,8 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Látogasson el hozzánk a Letterboxd-on"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Ismeretlen hiba történt a vásárlás során. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
   }
 }

@@ -1525,5 +1525,8 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Letterboxdにアクセスしてください"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "ショッピング セッションで不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
   }
 }

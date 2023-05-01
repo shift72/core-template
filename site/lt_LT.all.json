@@ -1570,5 +1570,8 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Aplankykite mus „Letterboxd“."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Apsipirkimo sesijoje įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
   }
 }

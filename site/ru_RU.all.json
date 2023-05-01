@@ -1592,5 +1592,8 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Посетите нас на Letterboxd"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Во время сеанса покупок произошла неизвестная ошибка. Попробуйте обновить страницу или обратиться к администратору сайта."
   }
 }

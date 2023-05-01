@@ -1538,5 +1538,8 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Bezoek ons op Letterboxd"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Er is een onbekende fout opgetreden tijdens uw winkelsessie. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
   }
 }

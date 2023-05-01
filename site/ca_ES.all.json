@@ -1538,5 +1538,8 @@
   },
   "app_badge_apple_tv": {
     "other": "Aconsegueix-ho a Apple TV"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "S'ha produït un error desconegut amb la vostra sessió de compra. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
   }
 }

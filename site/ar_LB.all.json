@@ -1602,5 +1602,8 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "قم بزيارتنا على Letterboxd"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "كان هناك خطأ غير معروف في جلسة التسوق الخاصة بك. حاول تحديث الصفحة أو الاتصال بمسؤول الموقع الخاص بك."
   }
 }
