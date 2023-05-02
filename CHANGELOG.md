@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.8.0...HEAD)
 
+### Fixed
+- Border radius for longer width buttons
+
 
 ## [1.8.0](https://github.com/shift72/core-template/compare/1.7.0...1.8.0)
 
