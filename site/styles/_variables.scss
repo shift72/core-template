@@ -139,15 +139,15 @@
 
   /* Alert component dark theme colours */
 
-  --alert-background-color-error: #25262b;
-  --alert-border-color-error: #ff6b6b;
-  --alert-title-color-error: #ff6b6b;
-  --alert-text-color-error: #c1c2c5;
+  --alert-background-color-error: rgba(255, 255, 255, 0.16);
+  --alert-border-color-error: #ED7470;
+  --alert-title-color-error: #ED7470;
+  --alert-text-color-error: rgba(var(--body-color-rgb), 0.8);
 
   --alert-background-color-success: #25262b;
   --alert-border-color-success: #20c997;
   --alert-title-color-success: #20c997;
-  --alert-text-color-success: #c1c2c5;
+  --alert-text-color-success: rgba(var(--body-color-rgb), 0.8);
 
   /* Alert component light theme colours */
   /* Swap above with these for light theme templates
