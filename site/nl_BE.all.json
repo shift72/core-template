@@ -212,7 +212,7 @@
     "other": "Heeft u nog geen account? Maak hier een nieuw account aan."
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Heeft u al een account? Log hier in."
+    "other": "Heb je al een account?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Dit e-mailadres is al in gebruik."
@@ -1634,5 +1634,11 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Deze email is al in gebruik."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Er is een onbekende fout opgetreden tijdens uw winkelsessie. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Aanmelden"
   }
 }

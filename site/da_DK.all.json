@@ -212,7 +212,7 @@
     "other": "Har du ikke en konto? Opret en ny konto"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Har du allerede en konto? Log ind"
+    "other": "har du allerede en bruger?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Denne e-mailadresse er allerede i brug"
@@ -1603,7 +1603,7 @@
     "other": "eller"
   },
   "validate_email_error_verify_email_already_sent": {
-    "other": "En bekræftelses-e-mail er allerede blevet sendt. Tjek venligst din e-mail-konto."
+    "other": "Der er allerede sendt en bekræftelses-e-mail. Tjek venligst din e-mail-konto."
   },
   "validate_email_error_email_invalid": {
     "other": "E-mail er ikke en gyldig."
@@ -1634,5 +1634,11 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Denne e-mail er allerede i brug."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Der opstod en ukendt fejl med din indkøbssession. Prøv at opdatere siden eller kontakt din webstedsadministrator."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Log ind"
   }
 }

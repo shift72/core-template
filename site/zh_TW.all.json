@@ -215,7 +215,7 @@
     "other": "還沒有帳號？立即加入"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "已有帳號？立即登入"
+    "other": "已有帳戶？"
   },
   "signup_form_error_email_already_in_use": {
     "other": "此電子郵件已被使用。"
@@ -1617,9 +1617,15 @@
     "other": "電子郵件驗證當前已禁用。"
   },
   "validate_email_error_generic": {
-    "other": "驗證提供的電子郵件時出現未知錯誤。嘗試刷新頁面或聯繫您的網站管理員。"
+    "other": "驗證提供的電子郵件時出現未知錯誤。嘗試刷新頁面或聯繫您的站點管理員。"
   },
   "validate_email_error_email_already_in_use": {
     "other": "此電子郵件已被使用。"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "您的購物會話出現未知錯誤。嘗試刷新頁面或聯繫您的網站管理員。"
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "登入"
   }
 }

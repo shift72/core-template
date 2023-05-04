@@ -215,7 +215,7 @@
     "other": "Não tem uma conta? Criar uma conta"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Já possui uma conta? Acessar sua conta"
+    "other": "já tem uma conta?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Esse endereço de e-mail já está em uso."
@@ -1544,7 +1544,7 @@
     "other": "Visite-nos no Letterboxd"
   },
   "validate_email_about": {
-    "other": "Para criar uma conta, devemos primeiro verificar seu endereço de e-mail. Digite seu e-mail e enviaremos um convite de inscrição de conta."
+    "other": "Para criar uma conta, devemos primeiro verificar seu endereço de e-mail. Digite seu e-mail e enviaremos um convite para criar uma conta."
   },
   "validate_email_success": {
     "other": "Um e-mail de verificação foi enviado para {{.Email}} . Verifique seu e-mail e siga as instruções de criação de conta."
@@ -1638,5 +1638,11 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Esse email já está em uso."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Ocorreu um erro desconhecido na sua sessão de compras. Tente atualizar a página ou entrar em contato com o administrador do site."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Entrar"
   }
 }

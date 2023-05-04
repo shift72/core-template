@@ -218,7 +218,10 @@
     "other": "Don't have an account? Create new account"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Already have an account? Sign in"
+    "other": "Already have an account?"
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Sign in"
   },
   "signup_form_error_email_already_in_use": {
     "other": "That email address is already in use."
@@ -1634,5 +1637,8 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "This email is already in use."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "There was a unknown error with your shopping session. Try refreshing the page or contacting your site administrator."
   }
 }

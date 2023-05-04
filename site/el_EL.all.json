@@ -212,7 +212,7 @@
     "other": "Δεν έχετε λογαριασμό; Εγγραφείτε εδώ"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Έχετε ήδη λογαριασμό; Παρακαλώ εισέλθετε"
+    "other": "Έχετε ήδη λογαριασμό?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Αυτή η διεύθυνση ηλ. ταχυδρομείου χρησιμοποιείται ήδη."
@@ -1634,5 +1634,11 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Αυτό το email χρησιμοποιείται ήδη."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Παρουσιάστηκε ένα άγνωστο σφάλμα με την περίοδο αγορών σας. Δοκιμάστε να ανανεώσετε τη σελίδα ή να επικοινωνήσετε με τον διαχειριστή του ιστότοπού σας."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Συνδεθείτε"
   }
 }

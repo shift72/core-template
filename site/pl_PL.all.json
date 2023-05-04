@@ -192,7 +192,7 @@
     "other": "Nie masz jeszcze konta? Utwórz nowe."
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Masz już konto? Zaloguj się."
+    "other": "Posiadasz już konto?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Podany adres e-mail jest już zarejestrowany."
@@ -1711,5 +1711,11 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Ten email jest już w użyciu."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Wystąpił nieznany błąd podczas sesji zakupowej. Spróbuj odświeżyć stronę lub skontaktować się z administratorem witryny."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Zalogować się"
   }
 }

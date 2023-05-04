@@ -200,7 +200,7 @@
     "other": "Sie haben noch kein Konto? Hier registrieren"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Sie haben bereits ein Konto? Hier anmelden"
+    "other": "Sie haben bereits ein Konto?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Diese E-Mail-Adresse ist bereits registriert."
@@ -1634,5 +1634,11 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Diese E-Mail-Adresse wird schon verwendet."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Bei Ihrer Einkaufssitzung ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "anmelden"
   }
 }

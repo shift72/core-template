@@ -192,7 +192,7 @@
     "other": "アカウント登録がお済みでない方は初めに登録してください。"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "アカウントをお持ちの方はサインインしてください。"
+    "other": "すでにアカウントをお持ちですか？"
   },
   "signup_form_error_email_already_in_use": {
     "other": "このEメールアドレスは登録済みです。"
@@ -1621,5 +1621,11 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "この電子メールは既に利用されています。"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "ショッピング セッションで不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "ログイン"
   }
 }

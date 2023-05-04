@@ -213,7 +213,7 @@
     "other": "Nemate korisnički račun? Izradi novi korisnički račun"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Imate korisnički račun? Prijavite se"
+    "other": "Već imate račun?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Email adresa je povezana s drugim korisničkim računom."
@@ -1636,5 +1636,11 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Ovaj email se već koristi."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Došlo je do nepoznate pogreške u vašoj kupovnoj sesiji. Pokušajte osvježiti stranicu ili se obratite administratoru stranice."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Prijaviti se"
   }
 }

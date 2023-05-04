@@ -212,7 +212,7 @@
     "other": "Sul pole kontot? Loo uus konto. "
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Sul juba on konto? Logi sisse."
+    "other": "On juba konto?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "E-posti aadress on juba kasutusel."
@@ -1634,5 +1634,11 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "See email on juba kasutusel."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Teie ostuseansil ilmnes tundmatu viga. Proovige lehte värskendada või võtta ühendust saidi administraatoriga."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Logi sisse"
   }
 }

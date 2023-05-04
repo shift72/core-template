@@ -212,7 +212,7 @@
     "other": "Hesabınız yok mu? Yeni hesap oluştur"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Zaten bir hesabınız var mı? Oturum Aç"
+    "other": "Zaten hesabınız var mı?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Bu e-posta adresi zaten kullanılıyor."
@@ -1567,7 +1567,7 @@
     "other": "Doğrulama kodu eksik."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Doğrulama jetonunun süresi doldu."
+    "other": "Doğrulama belirtecinin süresi doldu."
   },
   "signup_form_error_email_verification_no_match": {
     "other": "Bu e-posta doğrulanmadı."
@@ -1634,5 +1634,11 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Bu e-posta zaten kullanılıyor."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Alışveriş oturumunuzda bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Kayıt olmak"
   }
 }

@@ -215,7 +215,7 @@
     "other": "No teniu un compte? Crear un nou compte"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Ja tens un compte? Inicieu la sessió"
+    "other": "Ja tens un compte?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Aquesta adreça de correu electrònic ja està en ús."
@@ -1621,7 +1621,7 @@
     "other": "Cal un codi PIN."
   },
   "validate_email_error_signups_disabled": {
-    "other": "Actualment, les inscripcions estan desactivades."
+    "other": "Les inscripcions estan desactivades actualment."
   },
   "validate_email_error_too_many_requests": {
     "other": "Hi ha massa sol·licituds, torneu-ho a provar més tard."
@@ -1634,5 +1634,11 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Aquest correu electrònic ja està en ús."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "S'ha produït un error desconegut amb la vostra sessió de compra. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Inicia sessió"
   }
 }
