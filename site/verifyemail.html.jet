@@ -1,0 +1,18 @@
+{{extends "templates/application/application.jet"}}
+
+{{block head()}}
+  {{yield seo(title=i18n("signup_page_header"), index=false)}}
+{{end}}
+
+{{block body()}}
+  <main id="main" class="page form-page">
+    <div class="page-header">
+      <h1>Verify your email</h1>
+    </div>
+    <div class="page-content text-center">
+      <p>To make sure you're really you, we've sent a verification link to your email.</p>
+      <p>If you can't find it, check your spam.</p>
+      <p><a href="/signup.html">Didn't receive and email?</a></p>
+    </div>
+  </main>
+{{end}}
