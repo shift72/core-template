@@ -115,8 +115,8 @@ s72-activatedevice-form,
 
   &.s72-form-control-readonly,
   &.s72-form-control-readonly:focus {
-    border: 0;
     background-color: rgba(var(--body-color-rgb), 0.2);
+    border: 0;
     color: rgba(var(--body-color-rgb), 0.56);
     cursor: not-allowed;
     outline: none;
