@@ -1640,5 +1640,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "Kirjaudu sisään"
+  },
+  "verify_email_success_page_header": {
+    "other": "Vahvista sähköpostiosoitteesi"
+  },
+  "verify_email_success_page_message": {
+    "other": "Olemme lähettäneet sähköpostiisi vahvistuslinkin varmistaaksemme, että olet todella sinä."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Jos et löydä sitä, tarkista roskapostisi."
+  },
+  "verify_email_success_page_back": {
+    "other": "Etkö saanut sähköpostia?"
   }
 }

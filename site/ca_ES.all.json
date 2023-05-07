@@ -1621,7 +1621,7 @@
     "other": "Cal un codi PIN."
   },
   "validate_email_error_signups_disabled": {
-    "other": "Les inscripcions estan desactivades actualment."
+    "other": "Actualment, les inscripcions estan desactivades."
   },
   "validate_email_error_too_many_requests": {
     "other": "Hi ha massa sol·licituds, torneu-ho a provar més tard."
@@ -1640,5 +1640,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "Inicia sessió"
+  },
+  "verify_email_success_page_header": {
+    "other": "Verifica el teu correu electrònic"
+  },
+  "verify_email_success_page_message": {
+    "other": "Per assegurar-nos que ets realment tu, hem enviat un enllaç de verificació al teu correu electrònic."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Si no el trobeu, comproveu el vostre correu brossa."
+  },
+  "verify_email_success_page_back": {
+    "other": "No has rebut cap correu electrònic?"
   }
 }

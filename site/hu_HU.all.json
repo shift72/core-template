@@ -1640,5 +1640,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "Bejelentkezés"
+  },
+  "verify_email_success_page_header": {
+    "other": "Erősítsd meg az e-mail címedet"
+  },
+  "verify_email_success_page_message": {
+    "other": "Annak érdekében, hogy megbizonyosodjunk arról, hogy Ön valóban Ön, küldtünk egy ellenőrző linket az e-mail címére."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Ha nem találja, ellenőrizze a spameket."
+  },
+  "verify_email_success_page_back": {
+    "other": "Nem kapott e-mailt?"
   }
 }

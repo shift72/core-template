@@ -1640,5 +1640,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "Aanmelden"
+  },
+  "verify_email_success_page_header": {
+    "other": "Controleer je email"
+  },
+  "verify_email_success_page_message": {
+    "other": "Om er zeker van te zijn dat je echt jezelf bent, hebben we een verificatielink naar je e-mailadres gestuurd."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Als u het niet kunt vinden, controleer dan uw spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Geen e-mail ontvangen?"
   }
 }

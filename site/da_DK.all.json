@@ -1603,7 +1603,7 @@
     "other": "eller"
   },
   "validate_email_error_verify_email_already_sent": {
-    "other": "Der er allerede sendt en bekræftelses-e-mail. Tjek venligst din e-mail-konto."
+    "other": "En bekræftelses-e-mail er allerede blevet sendt. Tjek venligst din e-mail-konto."
   },
   "validate_email_error_email_invalid": {
     "other": "E-mail er ikke en gyldig."
@@ -1640,5 +1640,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "Log ind"
+  },
+  "verify_email_success_page_header": {
+    "other": "Bekræft din e-mail"
+  },
+  "verify_email_success_page_message": {
+    "other": "For at sikre, at du virkelig er dig, har vi sendt et bekræftelseslink til din e-mail."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Hvis du ikke kan finde det, så tjek din spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Har du ikke modtaget en e-mail?"
   }
 }

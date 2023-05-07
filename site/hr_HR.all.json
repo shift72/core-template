@@ -1642,5 +1642,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "Prijaviti se"
+  },
+  "verify_email_success_page_header": {
+    "other": "Potvrdite svoju e-poštu"
+  },
+  "verify_email_success_page_message": {
+    "other": "Kako bismo bili sigurni da ste to zaista vi, poslali smo vezu za potvrdu na vašu e-poštu."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Ako ga ne možete pronaći, provjerite neželjenu poštu."
+  },
+  "verify_email_success_page_back": {
+    "other": "Niste primili e-poruku?"
   }
 }

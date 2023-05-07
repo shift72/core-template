@@ -1627,5 +1627,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "登入"
+  },
+  "verify_email_success_page_header": {
+    "other": "驗證您的電子郵件"
+  },
+  "verify_email_success_page_message": {
+    "other": "為確保您是真實的您，我們已將驗證鏈接發送到您的電子郵箱。"
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "如果找不到，請檢查您的垃圾郵件。"
+  },
+  "verify_email_success_page_back": {
+    "other": "沒有收到電子郵件？"
   }
 }

@@ -1627,5 +1627,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "ログイン"
+  },
+  "verify_email_success_page_header": {
+    "other": "あなたの電子メールを確認します"
+  },
+  "verify_email_success_page_message": {
+    "other": "本人であることを確認するため、確認リンクをメールに送信しました。"
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "見つからない場合は、スパムを確認してください。"
+  },
+  "verify_email_success_page_back": {
+    "other": "メールが届かない場合"
   }
 }

@@ -1567,7 +1567,7 @@
     "other": "Doğrulama kodu eksik."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Doğrulama belirtecinin süresi doldu."
+    "other": "Doğrulama jetonunun süresi doldu."
   },
   "signup_form_error_email_verification_no_match": {
     "other": "Bu e-posta doğrulanmadı."
@@ -1640,5 +1640,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "Kayıt olmak"
+  },
+  "verify_email_success_page_header": {
+    "other": "Eposta adresinizi doğrulayın"
+  },
+  "verify_email_success_page_message": {
+    "other": "Gerçekten siz olduğunuzdan emin olmak için e-postanıza bir doğrulama bağlantısı gönderdik."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Bulamıyorsanız, spam'inizi kontrol edin."
+  },
+  "verify_email_success_page_back": {
+    "other": "E-posta almadınız mı?"
   }
 }

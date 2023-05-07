@@ -1544,7 +1544,7 @@
     "other": "Visite-nos no Letterboxd"
   },
   "validate_email_about": {
-    "other": "Para criar uma conta, devemos primeiro verificar seu endereço de e-mail. Digite seu e-mail e enviaremos um convite para criar uma conta."
+    "other": "Para criar uma conta, devemos primeiro verificar seu endereço de e-mail. Digite seu e-mail e enviaremos um convite de inscrição de conta."
   },
   "validate_email_success": {
     "other": "Um e-mail de verificação foi enviado para {{.Email}} . Verifique seu e-mail e siga as instruções de criação de conta."
@@ -1644,5 +1644,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "Entrar"
+  },
+  "verify_email_success_page_header": {
+    "other": "Verifique seu e-mail"
+  },
+  "verify_email_success_page_message": {
+    "other": "Para garantir que você é realmente você, enviamos um link de verificação para o seu e-mail."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Se você não conseguir encontrá-lo, verifique seu spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Não recebeu um e-mail?"
   }
 }

@@ -1540,7 +1540,7 @@
     "other": "Besøk oss på Letterboxd"
   },
   "validate_email_about": {
-    "other": "For å opprette en konto må vi først bekrefte e-postadressen din. Skriv inn e-postadressen din, så sender vi en invitasjon til å registrere deg."
+    "other": "For å opprette en konto må vi først bekrefte e-postadressen din. Skriv inn e-postadressen din, så sender vi en invitasjon til kontoregistrering."
   },
   "validate_email_success": {
     "other": "En bekreftelses-e-post er sendt til {{.Email}} . Vennligst sjekk e-posten din og følg instruksjonene for kontooppretting."
@@ -1630,7 +1630,7 @@
     "other": "E-postvalidering er for øyeblikket deaktivert."
   },
   "validate_email_error_generic": {
-    "other": "Det oppsto en ukjent feil under bekreftelse av den oppgitte e-posten. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+    "other": "Det oppstod en ukjent feil under bekreftelse av den oppgitte e-posten. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
   },
   "validate_email_error_email_already_in_use": {
     "other": "Denne e-posten er allerede i bruk."
@@ -1640,5 +1640,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "Logg inn"
+  },
+  "verify_email_success_page_header": {
+    "other": "Bekreft e-posten din"
+  },
+  "verify_email_success_page_message": {
+    "other": "For å være sikker på at du virkelig er deg, har vi sendt en bekreftelseslenke til e-posten din."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Hvis du ikke finner den, sjekk spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Har du ikke mottatt en e-post?"
   }
 }

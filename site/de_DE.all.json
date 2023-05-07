@@ -1640,5 +1640,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "anmelden"
+  },
+  "verify_email_success_page_header": {
+    "other": "Bestätigen Sie Ihre E-Mail"
+  },
+  "verify_email_success_page_message": {
+    "other": "Um sicherzustellen, dass Sie wirklich Sie sind, haben wir einen Bestätigungslink an Ihre E-Mail-Adresse gesendet."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Wenn Sie es nicht finden können, überprüfen Sie Ihren Spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Keine E-Mail erhalten?"
   }
 }

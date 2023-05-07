@@ -1644,5 +1644,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "S'identifier"
+  },
+  "verify_email_success_page_header": {
+    "other": "Vérifiez votre e-mail"
+  },
+  "verify_email_success_page_message": {
+    "other": "Pour nous assurer que vous êtes vraiment vous, nous avons envoyé un lien de vérification à votre adresse e-mail."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Si vous ne le trouvez pas, vérifiez vos spams."
+  },
+  "verify_email_success_page_back": {
+    "other": "Vous n'avez pas reçu d'e-mail ?"
   }
 }

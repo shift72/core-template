@@ -1704,5 +1704,17 @@
   },
   "signup_page_alreadyhaveanaccount_sign_in_link": {
     "other": "تسجيل الدخول"
+  },
+  "verify_email_success_page_header": {
+    "other": "قم بتأكيد بريدك الألكتروني"
+  },
+  "verify_email_success_page_message": {
+    "other": "للتأكد من أنك أنت حقًا ، أرسلنا رابط التحقق إلى بريدك الإلكتروني."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "إذا لم تتمكن من العثور عليه ، فتحقق من البريد العشوائي."
+  },
+  "verify_email_success_page_back": {
+    "other": "ألم تتلق بريدًا إلكترونيًا؟"
   }
 }
