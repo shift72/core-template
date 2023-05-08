@@ -212,7 +212,7 @@
     "other": "Har du ikke en konto? Opprett en ny konto."
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Har du allerede en konto? Logg inn."
+    "other": "Har du allerede en konto?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "E-postadressen er allerede i bruk."
@@ -1585,7 +1585,7 @@
     "other": "Det oppstod en ukjent feil under validering av e-postadressen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
   },
   "signup_form_error_generic": {
-    "other": "Det oppsto en ukjent feil under opprettelsen av kontoen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+    "other": "Det oppstod en ukjent feil under opprettelsen av kontoen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
   },
   "signup_form_error_email_verification_link_text": {
     "other": "Prøv e-postvalidering på nytt"
@@ -1634,5 +1634,23 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Denne e-posten er allerede i bruk."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Det var en ukjent feil med handleøkten din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Logg inn"
+  },
+  "verify_email_success_page_header": {
+    "other": "Bekreft e-posten din"
+  },
+  "verify_email_success_page_message": {
+    "other": "For å være sikker på at du virkelig er deg, har vi sendt en bekreftelseslenke til e-posten din."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Hvis du ikke finner den, sjekk spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Har du ikke mottatt en e-post?"
   }
 }

@@ -218,7 +218,7 @@
     "other": "Non hai un account utente? Creane uno nuovo"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Hai già un Account? Accedi qui"
+    "other": "Hai già un account?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "L'indirizzo email è già in uso."
@@ -1638,5 +1638,23 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Questa e-mail è già in uso."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Si è verificato un errore sconosciuto con la tua sessione di shopping. Prova ad aggiornare la pagina o a contattare l'amministratore del sito."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Registrazione"
+  },
+  "verify_email_success_page_header": {
+    "other": "verifica la tua email"
+  },
+  "verify_email_success_page_message": {
+    "other": "Per assicurarci che tu sia davvero te stesso, abbiamo inviato un link di verifica alla tua email."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Se non riesci a trovarlo, controlla lo spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Non hai ricevuto un'e-mail?"
   }
 }

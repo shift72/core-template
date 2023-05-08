@@ -215,7 +215,7 @@
     "other": "No teniu un compte? Crear un nou compte"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Ja tens un compte? Inicieu la sessió"
+    "other": "Ja tens un compte?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Aquesta adreça de correu electrònic ja està en ús."
@@ -1634,5 +1634,23 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Aquest correu electrònic ja està en ús."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "S'ha produït un error desconegut amb la vostra sessió de compra. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Inicia sessió"
+  },
+  "verify_email_success_page_header": {
+    "other": "Verifica el teu correu electrònic"
+  },
+  "verify_email_success_page_message": {
+    "other": "Per assegurar-nos que ets realment tu, hem enviat un enllaç de verificació al teu correu electrònic."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Si no el trobeu, comproveu el vostre correu brossa."
+  },
+  "verify_email_success_page_back": {
+    "other": "No has rebut cap correu electrònic?"
   }
 }

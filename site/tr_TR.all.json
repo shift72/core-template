@@ -212,7 +212,7 @@
     "other": "Hesabınız yok mu? Yeni hesap oluştur"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Zaten bir hesabınız var mı? Oturum Aç"
+    "other": "Zaten hesabınız var mı?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Bu e-posta adresi zaten kullanılıyor."
@@ -1634,5 +1634,23 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Bu e-posta zaten kullanılıyor."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Alışveriş oturumunuzda bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Kayıt olmak"
+  },
+  "verify_email_success_page_header": {
+    "other": "Eposta adresinizi doğrulayın"
+  },
+  "verify_email_success_page_message": {
+    "other": "Gerçekten siz olduğunuzdan emin olmak için e-postanıza bir doğrulama bağlantısı gönderdik."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Bulamıyorsanız, spam'inizi kontrol edin."
+  },
+  "verify_email_success_page_back": {
+    "other": "E-posta almadınız mı?"
   }
 }

@@ -214,7 +214,7 @@
     "other": "Немає облікового запису? Створити новий обліковий запис"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Уже маєте обліковий запис? Увійти"
+    "other": "Вже є аккаунт?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Ця електронна адреса вже використовується."
@@ -1694,5 +1694,23 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Ця електронна адреса вже використовується."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Під час сеансу покупок сталася невідома помилка. Спробуйте оновити сторінку або зверніться до адміністратора сайту."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Увійти"
+  },
+  "verify_email_success_page_header": {
+    "other": "Підтвердьте свою електронну адресу"
+  },
+  "verify_email_success_page_message": {
+    "other": "Щоб переконатися, що це дійсно ви, ми надіслали на вашу електронну адресу посилання для підтвердження."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Якщо ви не можете його знайти, перевірте спам."
+  },
+  "verify_email_success_page_back": {
+    "other": "Не отримали електронного листа?"
   }
 }

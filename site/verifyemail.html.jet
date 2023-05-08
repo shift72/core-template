@@ -1,0 +1,18 @@
+{{extends "templates/application/application.jet"}}
+
+{{block head()}}
+  {{yield seo(title=i18n("signup_page_header"), index=false)}}
+{{end}}
+
+{{block body()}}
+  <main id="main" class="page verify-email-page">
+    <div class="page-header">
+      <h1>{{ i18n("verify_email_success_page_header") }}</h1>
+    </div>
+    <div class="page-content">
+      <p>{{ i18n("verify_email_success_page_message") }}</p>
+      <p>{{ i18n("verify_email_success_page_message") }}</p>
+      <p><a href="/signup.html">{{ i18n("verify_email_success_page_back") }}</a></p>
+    </div>
+  </main>
+{{end}}

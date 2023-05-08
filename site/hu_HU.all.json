@@ -212,7 +212,7 @@
     "other": "Nincs még fiókod? Új fiók létrehozása"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Már van fiókod? Bejelentkezés"
+    "other": "Már van fiókja?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Ezt az e-mail címet már használják."
@@ -1634,5 +1634,23 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Ez az email cím már foglalt."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Ismeretlen hiba történt a vásárlás során. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Bejelentkezés"
+  },
+  "verify_email_success_page_header": {
+    "other": "Erősítsd meg az e-mail címedet"
+  },
+  "verify_email_success_page_message": {
+    "other": "Annak érdekében, hogy megbizonyosodjunk arról, hogy Ön valóban Ön, küldtünk egy ellenőrző linket az e-mail címére."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Ha nem találja, ellenőrizze a spameket."
+  },
+  "verify_email_success_page_back": {
+    "other": "Nem kapott e-mailt?"
   }
 }

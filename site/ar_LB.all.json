@@ -212,7 +212,7 @@
     "other": "ليس لديك حساب؟ انشاء حساب جديد"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "لديك حساب؟ تسجيل الدخول"
+    "other": "هل لديك حساب؟"
   },
   "signup_form_error_email_already_in_use": {
     "other": "تم إستخدام هذا البريد الإلكتروني مسبقاً."
@@ -1698,5 +1698,23 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "هذا البريد استخدم من قبل."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "كان هناك خطأ غير معروف في جلسة التسوق الخاصة بك. حاول تحديث الصفحة أو الاتصال بمسؤول الموقع الخاص بك."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "تسجيل الدخول"
+  },
+  "verify_email_success_page_header": {
+    "other": "قم بتأكيد بريدك الألكتروني"
+  },
+  "verify_email_success_page_message": {
+    "other": "للتأكد من أنك أنت حقًا ، أرسلنا رابط التحقق إلى بريدك الإلكتروني."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "إذا لم تتمكن من العثور عليه ، فتحقق من البريد العشوائي."
+  },
+  "verify_email_success_page_back": {
+    "other": "ألم تتلق بريدًا إلكترونيًا؟"
   }
 }

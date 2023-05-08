@@ -212,7 +212,7 @@
     "other": "Немате налог? Направите нови налог"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Већ имате налог? Пријавите се"
+    "other": "Већ имате налог?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Ова имејл адреса је већ употребљена."
@@ -1650,5 +1650,23 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Овај емаил је већ у употреби."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Дошло је до непознате грешке у вашој сесији куповине. Покушајте да освежите страницу или се обратите администратору сајта."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Пријавите се"
+  },
+  "verify_email_success_page_header": {
+    "other": "Потврдити своју емаил"
+  },
+  "verify_email_success_page_message": {
+    "other": "Да бисмо били сигурни да сте заиста ви, послали смо везу за верификацију на вашу е-пошту."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Ако не можете да га пронађете, проверите своју нежељену пошту."
+  },
+  "verify_email_success_page_back": {
+    "other": "Нисте примили имејл?"
   }
 }

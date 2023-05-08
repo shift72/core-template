@@ -101,22 +101,23 @@ s72-activatedevice-form,
 
   /* stylelint-disable-next-line */
   &:not(.StripeElement) {
-    background-color: $body-bg-accent;
-    border-color: rgba(var(--body-color-rgb), 0.2);
+    background-color: transparent;
+    border-color: rgba(var(--body-color-rgb), 0.6);
     color: var(--body-color);
     &:focus {
       border-color: $input-focus-border-color;
       color: var(--body-color);
     }
     &::placeholder {
-      color: rgba(var(--body-color-rgb), 0.8);
+      color: rgba(var(--body-color-rgb), 0.56);
     }
   }
 
   &.s72-form-control-readonly,
   &.s72-form-control-readonly:focus {
+    background-color: rgba(var(--body-color-rgb), 0.2);
     border: 0;
-    color: rgba(var(--body-color-rgb), 0.5);
+    color: rgba(var(--body-color-rgb), 0.56);
     cursor: not-allowed;
     outline: none;
 
@@ -259,7 +260,7 @@ s72-signup-form {
 .is-invalid.s72-pincode,
 .s72-has-error .s72-form-control,
 .s72-has-error .s72-pincode {
-  border: 2px solid rgba(var(--body-color-rgb), 0.5) !important;
+  border-width: 2px;
   box-shadow: none !important;
 }
 

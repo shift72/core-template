@@ -212,7 +212,7 @@
     "other": "Neturite paskyros? Registruotis"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Turite paskyrą? Prisijungti"
+    "other": "Jau turite paskyrą?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Su šiuo el. paštu paskyra jau sukurta."
@@ -1599,7 +1599,7 @@
     "other": "Trūksta patvirtinimo kodo."
   },
   "signup_form_error_email_verification_expired": {
-    "other": "Baigėsi patvirtinimo prieigos raktas."
+    "other": "Baigėsi patvirtinimo prieigos rakto galiojimo laikas."
   },
   "signup_form_error_email_verification_no_match": {
     "other": "Šis el. laiškas nebuvo patvirtintas."
@@ -1666,5 +1666,23 @@
   },
   "validate_email_error_email_already_in_use": {
     "other": "Šis el. paštas jau naudojamas."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Apsipirkimo sesijoje įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Prisijungti"
+  },
+  "verify_email_success_page_header": {
+    "other": "Patvirtinkite el. pašto adresą"
+  },
+  "verify_email_success_page_message": {
+    "other": "Siekdami įsitikinti, kad tikrai esate jūs, el. paštu išsiuntėme patvirtinimo nuorodą."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Jei nerandate, patikrinkite šlamštą."
+  },
+  "verify_email_success_page_back": {
+    "other": "Negavote el. laiško?"
   }
 }
