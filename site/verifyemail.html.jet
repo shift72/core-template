@@ -11,7 +11,7 @@
     </div>
     <div class="page-content">
       <p>{{ i18n("verify_email_success_page_message") }}</p>
-      <p>{{ i18n("verify_email_success_page_message") }}</p>
+      <p>{{ i18n("verify_email_success_page_check_spam") }}</p>
       <p><a href="/signup.html">{{ i18n("verify_email_success_page_back") }}</a></p>
     </div>
   </main>
