@@ -192,7 +192,7 @@
     "other": "アカウント登録がお済みでない方は初めに登録してください。"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "アカウントをお持ちの方はサインインしてください。"
+    "other": "すでにアカウントをお持ちですか？"
   },
   "signup_form_error_email_already_in_use": {
     "other": "このEメールアドレスは登録済みです。"
@@ -1525,5 +1525,119 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Letterboxdにアクセスしてください"
+  },
+  "validate_email_about": {
+    "other": "アカウントを作成するには、まずメール アドレスを確認する必要があります。メールアドレスを入力すると、アカウントのサインアップの招待状が送信されます。"
+  },
+  "validate_email_success": {
+    "other": "確認メールが{{.Email}}に送信されました。メールを確認し、アカウント作成の指示に従ってください。"
+  },
+  "validate_email_email_already_in_use": {
+    "other": "この電子メールは既に利用されています。"
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "確認メールは既に{{.Email}}に送信されています。メールアカウントを確認してください。"
+  },
+  "validate_email_alert_success": {
+    "other": "成功"
+  },
+  "validate_email_alert_error": {
+    "other": "エラー！"
+  },
+  "validate_email_submit_button_text": {
+    "other": "アカウントを作成する"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "アカウントを作成しています..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "確認コードがありません。"
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "検証トークンの有効期限が切れています。"
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "このメールは確認されていません。"
+  },
+  "alert_title_success": {
+    "other": "成功"
+  },
+  "alert_title_error": {
+    "other": "エラー！"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "指定されたメールアドレスは、制限されたドメインのものです。別のメール プロバイダーにサインアップしてください。"
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "メールアドレスの検証中に不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
+  },
+  "signup_form_error_generic": {
+    "other": "アカウントの作成中に不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "メールの検証を再試行する"
+  },
+  "auth_selector_info": {
+    "other": "このコンテンツを購入するにはアカウントが必要です。"
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "すでにメンバーですか？ログイン"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "アカウントを作成する"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "また"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "確認メールは既に送信されています。メールアカウントを確認してください。"
+  },
+  "validate_email_error_email_invalid": {
+    "other": "電子メールは有効ではありません。"
+  },
+  "validate_email_error_email_required": {
+    "other": "電子メールは必要です。"
+  },
+  "validate_email_error_email_taken": {
+    "other": "この電子メールは既に利用されています。"
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "指定されたメールアドレスは、制限されたドメインのものです。別のメール プロバイダーにサインアップしてください。"
+  },
+  "validate_email_error_pin_required": {
+    "other": "PIN コードが必要です。"
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "サインアップは現在無効になっています。"
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "要求が多すぎます。あとで言ってください。"
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "電子メールの検証は現在無効になっています。"
+  },
+  "validate_email_error_generic": {
+    "other": "提供された電子メールの確認中に不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "この電子メールは既に利用されています。"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "ショッピング セッションで不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "ログイン"
+  },
+  "verify_email_success_page_header": {
+    "other": "あなたの電子メールを確認します"
+  },
+  "verify_email_success_page_message": {
+    "other": "本人であることを確認するため、確認リンクをメールに送信しました。"
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "見つからない場合は、スパムを確認してください。"
+  },
+  "verify_email_success_page_back": {
+    "other": "メールが届かない場合"
   }
 }

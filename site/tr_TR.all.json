@@ -212,7 +212,7 @@
     "other": "Hesabınız yok mu? Yeni hesap oluştur"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Zaten bir hesabınız var mı? Oturum Aç"
+    "other": "Zaten hesabınız var mı?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Bu e-posta adresi zaten kullanılıyor."
@@ -1538,5 +1538,119 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Bizi Letterboxd'da ziyaret edin"
+  },
+  "validate_email_about": {
+    "other": "Bir hesap oluşturmak için önce e-posta adresinizi doğrulamalıyız. E-postanızı girin, bir hesap kayıt daveti göndereceğiz."
+  },
+  "validate_email_success": {
+    "other": "{{.Email}} adresine bir doğrulama e-postası gönderildi. Lütfen e-postanızı kontrol edin ve hesap oluşturma talimatlarını takip edin."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Bu e-posta zaten kullanılıyor."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "{{.Email}} adresine zaten bir doğrulama e-postası gönderildi. Lütfen e-posta hesabınızı kontrol edin."
+  },
+  "validate_email_alert_success": {
+    "other": "Başarı"
+  },
+  "validate_email_alert_error": {
+    "other": "Hata!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Hesap oluşturmak"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Hesap oluşturuluyor..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Doğrulama kodu eksik."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Doğrulama jetonunun süresi doldu."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Bu e-posta doğrulanmadı."
+  },
+  "alert_title_success": {
+    "other": "Başarı"
+  },
+  "alert_title_error": {
+    "other": "Hata!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Sağlanan posta adresi, kısıtlanmış bir etki alanı içindir. Lütfen farklı bir e-posta sağlayıcısı ile kaydolun."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "E-posta adresiniz doğrulanırken bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "signup_form_error_generic": {
+    "other": "Hesabınız oluşturulurken bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "E-posta doğrulamasını yeniden dene"
+  },
+  "auth_selector_info": {
+    "other": "Bu içeriği satın almak için bir hesap gereklidir."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Zaten bir üye misiniz? Kayıt olmak"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Hesap oluşturmak"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "veya"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Bir doğrulama e-postası zaten gönderildi. Lütfen e-posta hesabınızı kontrol edin."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-posta geçerli değil."
+  },
+  "validate_email_error_email_required": {
+    "other": "Bir e-mail gerekli."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Bu e-posta zaten kullanılıyor."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Sağlanan posta adresi, kısıtlanmış bir etki alanı içindir. Lütfen farklı bir e-posta sağlayıcısı ile kaydolun."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Bir PIN kodu gereklidir."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Kayıtlar şu anda devre dışı."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Çok fazla talep var.Lütfen daha sonra tekrar deneyin."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "E-posta doğrulama şu anda devre dışı."
+  },
+  "validate_email_error_generic": {
+    "other": "Sağlanan e-posta doğrulanırken bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Bu e-posta zaten kullanılıyor."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Alışveriş oturumunuzda bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Kayıt olmak"
+  },
+  "verify_email_success_page_header": {
+    "other": "Eposta adresinizi doğrulayın"
+  },
+  "verify_email_success_page_message": {
+    "other": "Gerçekten siz olduğunuzdan emin olmak için e-postanıza bir doğrulama bağlantısı gönderdik."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Bulamıyorsanız, spam'inizi kontrol edin."
+  },
+  "verify_email_success_page_back": {
+    "other": "E-posta almadınız mı?"
   }
 }

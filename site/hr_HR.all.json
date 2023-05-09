@@ -213,7 +213,7 @@
     "other": "Nemate korisnički račun? Izradi novi korisnički račun"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Imate korisnički račun? Prijavite se"
+    "other": "Već imate račun?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Email adresa je povezana s drugim korisničkim računom."
@@ -1540,5 +1540,119 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Posjetite nas na Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Za kreiranje računa prvo moramo potvrditi vašu adresu e-pošte. Unesite svoju e-poštu i poslat ćemo vam pozivnicu za registraciju računa."
+  },
+  "validate_email_success": {
+    "other": "E-pošta za potvrdu poslana je na {{.Email}} . Provjerite svoju e-poštu i slijedite upute za izradu računa."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Ovaj email se već koristi."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "E-pošta za potvrdu već je poslana na {{.Email}} . Provjerite svoj račun e-pošte."
+  },
+  "validate_email_alert_success": {
+    "other": "Uspjeh"
+  },
+  "validate_email_alert_error": {
+    "other": "Greška!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Napravi račun"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Izrada računa..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Nedostaje kontrolni kod."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Verifikacijski token je istekao."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Ova adresa e-pošte nije potvrđena."
+  },
+  "alert_title_success": {
+    "other": "Uspjeh"
+  },
+  "alert_title_error": {
+    "other": "Greška!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Navedena adresa e-pošte je za domenu koja je ograničena. Prijavite se kod drugog davatelja usluga e-pošte."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Došlo je do nepoznate pogreške tijekom provjere vaše adrese e-pošte. Pokušajte osvježiti stranicu ili se obratite administratoru stranice."
+  },
+  "signup_form_error_generic": {
+    "other": "Došlo je do nepoznate pogreške prilikom izrade vašeg računa. Pokušajte osvježiti stranicu ili se obratite administratoru stranice."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Ponovi provjeru valjanosti e-pošte"
+  },
+  "auth_selector_info": {
+    "other": "Za kupnju ovog sadržaja potreban je račun."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "već si član? Prijaviti se"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Napravi račun"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "ili"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "E-pošta za potvrdu već je poslana. Provjerite svoj račun e-pošte."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Email nije valjan."
+  },
+  "validate_email_error_email_required": {
+    "other": "Potreban je email."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Ovaj email se već koristi."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Navedena adresa e-pošte je za domenu koja je ograničena. Prijavite se kod drugog davatelja usluga e-pošte."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Potreban je PIN kod."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Prijave su trenutno onemogućene."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Previše zahtjeva. Pokušajte ponovno kasnije."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Provjera valjanosti e-pošte trenutno je onemogućena."
+  },
+  "validate_email_error_generic": {
+    "other": "Došlo je do nepoznate pogreške tijekom provjere dostavljene e-pošte. Pokušajte osvježiti stranicu ili se obratite administratoru stranice."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Ovaj email se već koristi."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Došlo je do nepoznate pogreške u vašoj kupovnoj sesiji. Pokušajte osvježiti stranicu ili se obratite administratoru stranice."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Prijaviti se"
+  },
+  "verify_email_success_page_header": {
+    "other": "Potvrdite svoju e-poštu"
+  },
+  "verify_email_success_page_message": {
+    "other": "Kako bismo bili sigurni da ste to zaista vi, poslali smo vezu za potvrdu na vašu e-poštu."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Ako ga ne možete pronaći, provjerite neželjenu poštu."
+  },
+  "verify_email_success_page_back": {
+    "other": "Niste primili e-poruku?"
   }
 }

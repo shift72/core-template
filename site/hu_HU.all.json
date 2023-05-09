@@ -212,7 +212,7 @@
     "other": "Nincs még fiókod? Új fiók létrehozása"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Már van fiókod? Bejelentkezés"
+    "other": "Már van fiókja?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Ezt az e-mail címet már használják."
@@ -1538,5 +1538,119 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Látogasson el hozzánk a Letterboxd-on"
+  },
+  "validate_email_about": {
+    "other": "Fiók létrehozásához először igazolnunk kell e-mail címét. Adja meg e-mail címét, és küldünk egy fiók regisztrációs meghívót."
+  },
+  "validate_email_success": {
+    "other": "Egy ellenőrző e-mailt küldtünk {{.Email}} címre. Kérjük, ellenőrizze e-mailjeit, és kövesse a fiók létrehozására vonatkozó utasításokat."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Ez az email cím már foglalt."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Egy ellenőrző e-mailt már elküldtek {{.Email}} címre. Kérjük, ellenőrizze e-mail fiókját."
+  },
+  "validate_email_alert_success": {
+    "other": "Siker"
+  },
+  "validate_email_alert_error": {
+    "other": "Hiba!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Fiók létrehozása"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Fiók létrehozása..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Hiányzik az ellenőrző kód."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Az ellenőrző token lejárt."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Ezt az e-mailt nem ellenőriztük."
+  },
+  "alert_title_success": {
+    "other": "Siker"
+  },
+  "alert_title_error": {
+    "other": "Hiba!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "A megadott e-mail cím egy korlátozott domainhez tartozik. Kérjük, regisztráljon egy másik e-mail szolgáltatónál."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Ismeretlen hiba történt az e-mail-cím érvényesítése során. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "signup_form_error_generic": {
+    "other": "Ismeretlen hiba történt a fiók létrehozásakor. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Próbálja újra az e-mail érvényesítést"
+  },
+  "auth_selector_info": {
+    "other": "A tartalom megvásárlásához fiók szükséges."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Már tag? Bejelentkezés"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Fiók létrehozása"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "vagy"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Az ellenőrző e-mailt már elküldtük. Kérjük, ellenőrizze e-mail fiókját."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Az e-mail cím nem érvényes."
+  },
+  "validate_email_error_email_required": {
+    "other": "E-mail szükséges."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Ez az email cím már foglalt."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "A megadott e-mail cím egy korlátozott domainhez tartozik. Kérjük, regisztráljon egy másik e-mail szolgáltatónál."
+  },
+  "validate_email_error_pin_required": {
+    "other": "PIN kód szükséges."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "A regisztráció jelenleg le van tiltva."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Túl sok kérés. Kérlek, próbáld újra később."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Az e-mail ellenőrzés jelenleg le van tiltva."
+  },
+  "validate_email_error_generic": {
+    "other": "Ismeretlen hiba történt a megadott e-mail ellenőrzése során. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Ez az email cím már foglalt."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Ismeretlen hiba történt a vásárlás során. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Bejelentkezés"
+  },
+  "verify_email_success_page_header": {
+    "other": "Erősítsd meg az e-mail címedet"
+  },
+  "verify_email_success_page_message": {
+    "other": "Annak érdekében, hogy megbizonyosodjunk arról, hogy Ön valóban Ön, küldtünk egy ellenőrző linket az e-mail címére."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Ha nem találja, ellenőrizze a spameket."
+  },
+  "verify_email_success_page_back": {
+    "other": "Nem kapott e-mailt?"
   }
 }

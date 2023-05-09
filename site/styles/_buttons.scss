@@ -42,6 +42,10 @@
   }
 }
 
+.s72-btn.s72-btn-block {
+  @extend .btn-block;
+}
+
 .btn.btn-signin-primary,
 .btn.btn-signup {
   align-items: center;
