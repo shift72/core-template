@@ -1,6 +1,11 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.8.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.0...HEAD)
+
+## [1.9.0](https://github.com/shift72/core-template/compare/1.8.0...1.9.0)
+
+### Added
+- Support for Relish email verification 
 
 ### Fixed
 - Border radius for longer width buttons
