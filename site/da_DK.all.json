@@ -212,7 +212,7 @@
     "other": "Har du ikke en konto? Opret en ny konto"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Har du allerede en konto? Log ind"
+    "other": "har du allerede en bruger?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Denne e-mailadresse er allerede i brug"
@@ -1538,5 +1538,119 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Besøg os på Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "For at oprette en konto skal vi først bekræfte din e-mailadresse. Indtast din e-mail, og vi sender en invitation til kontotilmelding."
+  },
+  "validate_email_success": {
+    "other": "En bekræftelsesmail er blevet sendt til {{.Email}} . Tjek venligst din e-mail og følg instruktionerne til oprettelse af konto."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Denne e-mail er allerede i brug."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "En bekræftelsesmail er allerede blevet sendt til {{.Email}} . Tjek venligst din e-mail-konto."
+  },
+  "validate_email_alert_success": {
+    "other": "Succes"
+  },
+  "validate_email_alert_error": {
+    "other": "Fejl!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Opret konto"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Opretter konto..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Bekræftelseskode mangler."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Bekræftelsestokenet er udløbet."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Denne e-mail er ikke blevet bekræftet."
+  },
+  "alert_title_success": {
+    "other": "Succes"
+  },
+  "alert_title_error": {
+    "other": "Fejl!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Den angivne mailadresse er for et domæne, der er blevet begrænset. Tilmeld dig hos en anden e-mail-udbyder."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Der opstod en ukendt fejl under validering af din e-mailadresse. Prøv at opdatere siden eller kontakt din webstedsadministrator."
+  },
+  "signup_form_error_generic": {
+    "other": "Der opstod en ukendt fejl under oprettelse af din konto. Prøv at opdatere siden eller kontakt din webstedsadministrator."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Prøv e-mailvalidering igen"
+  },
+  "auth_selector_info": {
+    "other": "En konto er nødvendig for at købe dette indhold."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "allerede medlem? Log ind"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Opret konto"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "eller"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "En bekræftelses-e-mail er allerede blevet sendt. Tjek venligst din e-mail-konto."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-mail er ikke en gyldig."
+  },
+  "validate_email_error_email_required": {
+    "other": "En e-mail er påkrævet."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Denne e-mail er allerede i brug."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Den angivne mailadresse er for et domæne, der er blevet begrænset. Tilmeld dig hos en anden e-mail-udbyder."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Der kræves en pinkode."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Tilmeldinger er i øjeblikket deaktiveret."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "For mange anmodninger, prøv venligst igen senere."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "E-mail-validering er i øjeblikket deaktiveret."
+  },
+  "validate_email_error_generic": {
+    "other": "Der opstod en ukendt fejl under bekræftelse af den angivne e-mail. Prøv at opdatere siden eller kontakt din webstedsadministrator."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Denne e-mail er allerede i brug."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Der opstod en ukendt fejl med din indkøbssession. Prøv at opdatere siden eller kontakt din webstedsadministrator."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Log ind"
+  },
+  "verify_email_success_page_header": {
+    "other": "Bekræft din e-mail"
+  },
+  "verify_email_success_page_message": {
+    "other": "For at sikre, at du virkelig er dig, har vi sendt et bekræftelseslink til din e-mail."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Hvis du ikke kan finde det, så tjek din spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Har du ikke modtaget en e-mail?"
   }
 }

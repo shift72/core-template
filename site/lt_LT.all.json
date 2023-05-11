@@ -212,7 +212,7 @@
     "other": "Neturite paskyros? Registruotis"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Turite paskyrą? Prisijungti"
+    "other": "Jau turite paskyrą?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Su šiuo el. paštu paskyra jau sukurta."
@@ -1570,5 +1570,119 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Aplankykite mus „Letterboxd“."
+  },
+  "validate_email_about": {
+    "other": "Norėdami sukurti paskyrą, pirmiausia turime patvirtinti jūsų el. pašto adresą. Įveskite savo el. pašto adresą ir mes atsiųsime kvietimą prisijungti prie paskyros."
+  },
+  "validate_email_success": {
+    "other": "Patvirtinimo el. laiškas išsiųstas adresu {{.Email}} . Patikrinkite el. paštą ir vadovaukitės paskyros kūrimo instrukcijomis."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Šis el. paštas jau naudojamas."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Patvirtinimo el. laiškas jau išsiųstas adresu {{.Email}} . Patikrinkite savo el. pašto paskyrą."
+  },
+  "validate_email_alert_success": {
+    "other": "Sėkmė"
+  },
+  "validate_email_alert_error": {
+    "other": "Klaida!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Sukurti paskyrą"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Kuriama paskyra..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Trūksta patvirtinimo kodo."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Baigėsi patvirtinimo prieigos rakto galiojimo laikas."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Šis el. laiškas nebuvo patvirtintas."
+  },
+  "alert_title_success": {
+    "other": "Sėkmė"
+  },
+  "alert_title_error": {
+    "other": "Klaida!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Pateiktas pašto adresas skirtas domenui, kuris buvo apribotas. Prisiregistruokite pas kitą el. pašto paslaugų teikėją."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Tikrinant jūsų el. pašto adresą įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
+  },
+  "signup_form_error_generic": {
+    "other": "Kuriant paskyrą įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Bandykite patvirtinti el. paštu dar kartą"
+  },
+  "auth_selector_info": {
+    "other": "Norint įsigyti šį turinį, reikalinga paskyra."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Jau narys? Prisijungti"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Sukurti paskyrą"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "arba"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Patvirtinimo el. laiškas jau išsiųstas. Patikrinkite savo el. pašto paskyrą."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "El. paštas negalioja."
+  },
+  "validate_email_error_email_required": {
+    "other": "Reikalingas el."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Šis el. paštas jau naudojamas."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Pateiktas pašto adresas skirtas domenui, kuris buvo apribotas. Prisiregistruokite pas kitą el. pašto paslaugų teikėją."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Reikalingas PIN kodas."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Šiuo metu registracija išjungta."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Per daug užklausų. Prašome pabandyti vėliau."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "El. pašto patvirtinimas šiuo metu išjungtas."
+  },
+  "validate_email_error_generic": {
+    "other": "Tikrinant pateiktą el. laišką įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Šis el. paštas jau naudojamas."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Apsipirkimo sesijoje įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Prisijungti"
+  },
+  "verify_email_success_page_header": {
+    "other": "Patvirtinkite el. pašto adresą"
+  },
+  "verify_email_success_page_message": {
+    "other": "Siekdami įsitikinti, kad tikrai esate jūs, el. paštu išsiuntėme patvirtinimo nuorodą."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Jei nerandate, patikrinkite šlamštą."
+  },
+  "verify_email_success_page_back": {
+    "other": "Negavote el. laiško?"
   }
 }

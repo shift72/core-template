@@ -218,7 +218,10 @@
     "other": "Don't have an account? Create new account"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Already have an account? Sign in"
+    "other": "Already have an account?"
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Sign in"
   },
   "signup_form_error_email_already_in_use": {
     "other": "That email address is already in use."
@@ -1538,5 +1541,116 @@
   },
   "new_card_error_timed_out": {
     "other": "Something went wrong when adding that card. Please try again later or use a different card."
+  },
+  "validate_email_about": {
+    "other": "To create an account we must first verify your email address. Enter your email and we will send an account sign up invitation."
+  },
+  "validate_email_success": {
+    "other": "A verification email has been sent to {{.Email}}. Please check your email and follow the account creation instructions."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "This email is already in use."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "A verification email has already been sent to {{.Email}}. Please check your email account."
+  },
+  "validate_email_alert_success": {
+    "other": "Success"
+  },
+  "validate_email_alert_error": {
+    "other": "Error!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Create account"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Creating account..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Verification code missing."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "The verification token has expired."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "This email has not been verified."
+  },
+  "alert_title_success": {
+    "other": "Success"
+  },
+  "alert_title_error": {
+    "other": "Error!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "The mail address provided is for a domain that has been restricted. Please sign up with a different email provider."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "There was a unknown error while validating your email address. Try refreshing the page or contacting your site administrator."
+  },
+  "signup_form_error_generic": {
+    "other": "There was a unknown error while creating your account. Try refreshing the page or contacting your site administrator."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Retry email validation"
+  },
+  "auth_selector_info": {
+    "other": "An account is needed to purchase this content."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Already a member? Sign in"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Create account"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "or"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "A verification email has already been sent. Please check your email account."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Email is not a valid."
+  },
+  "validate_email_error_email_required": {
+    "other": "An email is required."
+  },
+  "validate_email_error_email_taken": {
+    "other": "This email is already in use."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "The mail address provided is for a domain that has been restricted. Please sign up with a different email provider."
+  },
+  "validate_email_error_pin_required": {
+    "other": "A PIN code is required."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Sign ups are currently disabled."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Too many requests, please try again later."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Email validation is currently disabled."
+  },
+  "validate_email_error_generic": {
+    "other": "There was a unknown error while verifying the supplied email. Try refreshing the page or contacting your site administrator."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "This email is already in use."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "There was a unknown error with your shopping session. Try refreshing the page or contacting your site administrator."
+  },
+  "verify_email_success_page_header": {
+    "other": "Verify your email"
+  },
+  "verify_email_success_page_message": {
+    "other": "To make sure you're really you, we've sent a verification link to your email."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "If you can't find it, check your spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Didn't receive an email?"
   }
 }

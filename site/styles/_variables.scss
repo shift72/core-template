@@ -9,7 +9,7 @@
 
   --primary-rgb: 0, 163, 255;
   --secondary-rgb: 102, 199, 255;
-  --body-color-rgb: 255, 255, 255;
+  --body-color-rgb: 248, 248, 248;
   --body-bg-rgb: 0, 0, 0;
 
   // To calculate --body-color-hover-rgb, do:
@@ -136,6 +136,31 @@
   --subtitle-2-style-font-size: 14px;
   --caption-1-style-font-size: 16px;
   --overline-style-font-size: 14px;
+
+  /* Alert component dark theme colours */
+
+  --alert-background-color-error: rgba(255, 255, 255, 0.16);
+  --alert-border-color-error: #ed7470;
+  --alert-title-color-error: #ed7470;
+  --alert-text-color-error: rgba(var(--body-color-rgb), 0.8);
+
+  --alert-background-color-success: #25262b;
+  --alert-border-color-success: #20c997;
+  --alert-title-color-success: #20c997;
+  --alert-text-color-success: rgba(var(--body-color-rgb), 0.8);
+
+  /* Alert component light theme colours */
+  /* Swap above with these for light theme templates
+  --alert-background-color-error: #ffffff;
+  --alert-border-color-error: #fa5252;
+  --alert-title-color-error: #fa5252;
+  --alert-text-color-error: #000000;
+
+  --alert-background-color-success: #ffffff;
+  --alert-border-color-success: #12b886;
+  --alert-title-color-success: #12b886;
+  --alert-text-color-success: #000000;
+  */
 }
 
 // Bootstrap 4 overrides START
