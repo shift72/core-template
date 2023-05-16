@@ -1,6 +1,11 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.1...HEAD)
+
+## [1.9.1](https://github.com/shift72/core-template/compare/1.9.0...1.9.1)
+
+### Changed
+- Bumped base version of relish to 1.4.x
 
 ## [1.9.0](https://github.com/shift72/core-template/compare/1.8.0...1.9.0)
 
