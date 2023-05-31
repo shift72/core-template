@@ -209,7 +209,7 @@
     "other": "Créer un nouveau compte"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Vous avez déjà un compte? Se connecter ici"
+    "other": "Vous avez déjà un compte?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Cette adresse email est déjà utilisée."
@@ -1542,5 +1542,119 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Rendez-nous visite sur Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Pour créer un compte, nous devons d'abord vérifier votre adresse e-mail. Entrez votre e-mail et nous vous enverrons une invitation à créer un compte."
+  },
+  "validate_email_success": {
+    "other": "Un e-mail de vérification a été envoyé à {{.Email}} . Veuillez vérifier votre messagerie et suivre les instructions de création de compte."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Cet e-mail est déjà utilisée."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Un e-mail de vérification a déjà été envoyé à {{.Email}} . Veuillez vérifier votre compte de messagerie."
+  },
+  "validate_email_alert_success": {
+    "other": "Succès"
+  },
+  "validate_email_alert_error": {
+    "other": "Erreur!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Créer un compte"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "La création du compte..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Code de vérification manquant."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Le jeton de vérification a expiré."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Cet e-mail n'a pas été vérifié."
+  },
+  "alert_title_success": {
+    "other": "Succès"
+  },
+  "alert_title_error": {
+    "other": "Erreur!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "L'adresse e-mail fournie est celle d'un domaine qui a été restreint. Veuillez vous inscrire avec un autre fournisseur de messagerie."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Une erreur inconnue s'est produite lors de la validation de votre adresse e-mail. Essayez d'actualiser la page ou de contacter l'administrateur de votre site."
+  },
+  "signup_form_error_generic": {
+    "other": "Une erreur inconnue s'est produite lors de la création de votre compte. Essayez d'actualiser la page ou de contacter l'administrateur de votre site."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Réessayez la validation de l'e-mail"
+  },
+  "auth_selector_info": {
+    "other": "Un compte est nécessaire pour acheter ce contenu."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Déjà membre? S'identifier"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Créer un compte"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "ou"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Un e-mail de vérification a déjà été envoyé. Veuillez vérifier votre compte de messagerie."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "L'e-mail n'est pas valide."
+  },
+  "validate_email_error_email_required": {
+    "other": "Un e-mail est requis."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Cet e-mail est déjà utilisée."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "L'adresse e-mail fournie est celle d'un domaine qui a été restreint. Veuillez vous inscrire avec un autre fournisseur de messagerie."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Un code PIN est requis."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Les inscriptions sont actuellement désactivées."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Il y a trop de demandes. S'il-vous-plait réessayez plus tard."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "La validation des e-mails est actuellement désactivée."
+  },
+  "validate_email_error_generic": {
+    "other": "Une erreur inconnue s'est produite lors de la vérification de l'e-mail fourni. Essayez d'actualiser la page ou de contacter l'administrateur de votre site."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Cet e-mail est déjà utilisée."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Une erreur inconnue s'est produite lors de votre session d'achat. Essayez d'actualiser la page ou de contacter l'administrateur de votre site."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "S'identifier"
+  },
+  "verify_email_success_page_header": {
+    "other": "Vérifiez votre e-mail"
+  },
+  "verify_email_success_page_message": {
+    "other": "Pour nous assurer que vous êtes vraiment vous, nous avons envoyé un lien de vérification à votre adresse e-mail."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Si vous ne le trouvez pas, vérifiez vos spams."
+  },
+  "verify_email_success_page_back": {
+    "other": "Vous n'avez pas reçu d'e-mail ?"
   }
 }

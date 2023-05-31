@@ -1,6 +1,22 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.8.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.1...HEAD)
+
+### Changed
+- Nav mobile top padding to meet design spec
+
+## [1.9.1](https://github.com/shift72/core-template/compare/1.9.0...1.9.1)
+
+### Changed
+- Bumped base version of relish to 1.4.x
+
+## [1.9.0](https://github.com/shift72/core-template/compare/1.8.0...1.9.0)
+
+### Added
+- Support for Relish email verification 
+
+### Fixed
+- Border radius for longer width buttons
 
 
 ## [1.8.0](https://github.com/shift72/core-template/compare/1.7.0...1.8.0)

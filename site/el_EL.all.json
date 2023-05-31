@@ -212,7 +212,7 @@
     "other": "Δεν έχετε λογαριασμό; Εγγραφείτε εδώ"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Έχετε ήδη λογαριασμό; Παρακαλώ εισέλθετε"
+    "other": "Έχετε ήδη λογαριασμό?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Αυτή η διεύθυνση ηλ. ταχυδρομείου χρησιμοποιείται ήδη."
@@ -1538,5 +1538,119 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Επισκεφθείτε μας στο Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Για να δημιουργήσουμε έναν λογαριασμό πρέπει πρώτα να επαληθεύσουμε τη διεύθυνση email σας. Εισαγάγετε το email σας και θα σας στείλουμε μια πρόσκληση εγγραφής λογαριασμού."
+  },
+  "validate_email_success": {
+    "other": "Ένα email επαλήθευσης έχει σταλεί στη {{.Email}} . Ελέγξτε το email σας και ακολουθήστε τις οδηγίες δημιουργίας λογαριασμού."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Αυτό το email χρησιμοποιείται ήδη."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Ένα email επαλήθευσης έχει ήδη σταλεί στο {{.Email}} . Ελέγξτε τον λογαριασμό email σας."
+  },
+  "validate_email_alert_success": {
+    "other": "Επιτυχία"
+  },
+  "validate_email_alert_error": {
+    "other": "Λάθος!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Δημιουργήστε λογαριασμό"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Δημιουργία λογαριασμού..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Λείπει ο κωδικός επαλήθευσης."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Το διακριτικό επαλήθευσης έχει λήξει."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Αυτό το email δεν έχει επαληθευτεί."
+  },
+  "alert_title_success": {
+    "other": "Επιτυχία"
+  },
+  "alert_title_error": {
+    "other": "Λάθος!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Η διεύθυνση αλληλογραφίας που παρέχεται είναι για έναν τομέα που έχει περιοριστεί. Εγγραφείτε με διαφορετικό πάροχο email."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Παρουσιάστηκε ένα άγνωστο σφάλμα κατά την επικύρωση της διεύθυνσης email σας. Δοκιμάστε να ανανεώσετε τη σελίδα ή να επικοινωνήσετε με τον διαχειριστή του ιστότοπού σας."
+  },
+  "signup_form_error_generic": {
+    "other": "Παρουσιάστηκε ένα άγνωστο σφάλμα κατά τη δημιουργία του λογαριασμού σας. Δοκιμάστε να ανανεώσετε τη σελίδα ή να επικοινωνήσετε με τον διαχειριστή του ιστότοπού σας."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Δοκιμάστε ξανά την επικύρωση μέσω email"
+  },
+  "auth_selector_info": {
+    "other": "Απαιτείται λογαριασμός για την αγορά αυτού του περιεχομένου."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Ήδη μέλος; Συνδεθείτε"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Δημιουργήστε λογαριασμό"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "ή"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Ένα email επαλήθευσης έχει ήδη σταλεί. Ελέγξτε τον λογαριασμό email σας."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Το email δεν είναι έγκυρο."
+  },
+  "validate_email_error_email_required": {
+    "other": "Απαιτείται μία διεύθυνση ηλεκτρονικού ταχυδρομείου."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Αυτό το email χρησιμοποιείται ήδη."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Η διεύθυνση αλληλογραφίας που παρέχεται είναι για έναν τομέα που έχει περιοριστεί. Εγγραφείτε με διαφορετικό πάροχο email."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Απαιτείται κωδικός PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Οι εγγραφές είναι προς το παρόν απενεργοποιημένες."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Πολλά αιτήματα. Παρακαλώ προσπαθήστε αργότερα."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Η επικύρωση email είναι προς το παρόν απενεργοποιημένη."
+  },
+  "validate_email_error_generic": {
+    "other": "Παρουσιάστηκε ένα άγνωστο σφάλμα κατά την επαλήθευση του παρεχόμενου email. Δοκιμάστε να ανανεώσετε τη σελίδα ή να επικοινωνήσετε με τον διαχειριστή του ιστότοπού σας."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Αυτό το email χρησιμοποιείται ήδη."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Παρουσιάστηκε ένα άγνωστο σφάλμα με την περίοδο αγορών σας. Δοκιμάστε να ανανεώσετε τη σελίδα ή να επικοινωνήσετε με τον διαχειριστή του ιστότοπού σας."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Συνδεθείτε"
+  },
+  "verify_email_success_page_header": {
+    "other": "Επαληθεύστε το email σας"
+  },
+  "verify_email_success_page_message": {
+    "other": "Για να βεβαιωθούμε ότι είστε πραγματικά εσείς, στείλαμε έναν σύνδεσμο επαλήθευσης στο email σας."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Εάν δεν μπορείτε να το βρείτε, ελέγξτε το spam σας."
+  },
+  "verify_email_success_page_back": {
+    "other": "Δεν λάβατε email;"
   }
 }

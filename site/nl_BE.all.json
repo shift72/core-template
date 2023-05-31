@@ -212,7 +212,7 @@
     "other": "Heeft u nog geen account? Maak hier een nieuw account aan."
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Heeft u al een account? Log hier in."
+    "other": "Heb je al een account?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Dit e-mailadres is al in gebruik."
@@ -1538,5 +1538,119 @@
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Bezoek ons op Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Om een account aan te maken moeten we eerst uw e-mailadres verifiëren. Voer uw e-mailadres in en we sturen een uitnodiging om u aan te melden voor uw account."
+  },
+  "validate_email_success": {
+    "other": "Er is een verificatie-e-mail verzonden naar {{.Email}} . Controleer uw e-mail en volg de instructies voor het maken van een account."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Deze email is al in gebruik."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Er is al een verificatie-e-mail verzonden naar {{.Email}} . Controleer uw e-mailaccount."
+  },
+  "validate_email_alert_success": {
+    "other": "Succes"
+  },
+  "validate_email_alert_error": {
+    "other": "Fout!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Account aanmaken"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Account creëren..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Verificatiecode ontbreekt."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Het verificatietoken is verlopen."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Deze e-mail is niet geverifieerd."
+  },
+  "alert_title_success": {
+    "other": "Succes"
+  },
+  "alert_title_error": {
+    "other": "Fout!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Het opgegeven e-mailadres is voor een domein dat is beperkt. Meld u aan bij een andere e-mailprovider."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Er is een onbekende fout opgetreden bij het valideren van uw e-mailadres. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
+  },
+  "signup_form_error_generic": {
+    "other": "Er is een onbekende fout opgetreden bij het maken van uw account. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Probeer de e-mailvalidatie opnieuw"
+  },
+  "auth_selector_info": {
+    "other": "Er is een account nodig om deze inhoud te kopen."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Al lid? Aanmelden"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Account aanmaken"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "of"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Er is al een verificatie-e-mail verzonden. Controleer uw e-mailaccount."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-mail is niet geldig."
+  },
+  "validate_email_error_email_required": {
+    "other": "Een email is verplicht."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Deze email is al in gebruik."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Het opgegeven e-mailadres is voor een domein dat is beperkt. Meld u aan bij een andere e-mailprovider."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Een pincode is vereist."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Aanmelden is momenteel uitgeschakeld."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Te veel verzoeken, probeer het later opnieuw."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "E-mailvalidatie is momenteel uitgeschakeld."
+  },
+  "validate_email_error_generic": {
+    "other": "Er is een onbekende fout opgetreden bij het verifiëren van de opgegeven e-mail. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Deze email is al in gebruik."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Er is een onbekende fout opgetreden tijdens uw winkelsessie. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Aanmelden"
+  },
+  "verify_email_success_page_header": {
+    "other": "Controleer je email"
+  },
+  "verify_email_success_page_message": {
+    "other": "Om er zeker van te zijn dat je echt jezelf bent, hebben we een verificatielink naar je e-mailadres gestuurd."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Als u het niet kunt vinden, controleer dan uw spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Geen e-mail ontvangen?"
   }
 }
