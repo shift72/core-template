@@ -4,14 +4,16 @@
   {{social_link_facebook := config("social_link_facebook")}}
   {{social_link_twitter := config("social_link_twitter")}}
   {{social_link_letterboxd := config("social_link_letterboxd")}}
+  {{social_link_linkedin := config("social_link_linkedin")}}
 
-  {{if social_link_instagram != "" || social_link_youtube != "" || social_link_facebook != "" || social_link_twitter != "" || social_link_letterboxd != ""}}
+  {{if social_link_instagram != "" || social_link_youtube != "" || social_link_facebook != "" || social_link_twitter != "" || social_link_letterboxd != "" || social_link_linkedin != ""}}
     <div class="footer-social-media-icons">
       {{yield footerSocialMediaIcon(link=social_link_instagram, iconClass="instagram", titleKey="wcag_aria_label_social_instagram")}}
       {{yield footerSocialMediaIcon(link=social_link_youtube, iconClass="youtube", titleKey="wcag_aria_label_social_youtube")}}
       {{yield footerSocialMediaIcon(link=social_link_facebook, iconClass="facebook", titleKey="wcag_aria_label_social_facebook")}}
       {{yield footerSocialMediaIcon(link=social_link_twitter, iconClass="twitter", titleKey="wcag_aria_label_social_twitter")}}
       {{yield footerSocialMediaIcon(link=social_link_letterboxd, iconClass="letterboxd", titleKey="wcag_aria_label_social_letterboxd")}}
+      {{yield footerSocialMediaIcon(link=social_link_linkedin, iconClass="linkedin", titleKey="wcag_aria_label_social_linkedin")}}
     </div>
   {{end}}
 {{end}}
@@ -19,7 +21,79 @@
 {{block footerSocialMediaIcon(link, iconClass, titleKey)}}
   {{if link != ""}}
     <a class="s72-btn" target="_blank" title="{{i18n(titleKey)}}" href="{{link}}">
-      <i class="fa fa-{{iconClass}}-footer"></i>
+      {{if iconClass == "instagram"}}
+        {{yield instagram()}}
+      {{end}}
+      {{if iconClass == "youtube"}}
+        {{yield youtube()}}
+      {{end}}
+      {{if iconClass == "facebook"}}
+        {{yield facebook()}}
+      {{end}}
+      {{if iconClass == "twitter"}}
+        {{yield twitter()}}
+      {{end}}
+      {{if iconClass == "letterboxd"}}
+        {{yield letterboxd()}}
+      {{end}}      
+      {{if iconClass == "linkedin"}}
+        {{yield linkedin()}}
+      {{end}}                      
     </a>
   {{end}}
+{{end}}
+
+{{block instagram()}}
+<div class="social-link-button instagram">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8.8 4.38h6.4a4.422 4.422 0 0 1 4.42 4.42v6.4a4.419 4.419 0 0 1-4.42 4.419H8.8A4.422 4.422 0 0 1 4.381 15.2V8.8a4.419 4.419 0 0 1 4.42-4.42zm-.152 1.525a2.743 2.743 0 0 0-2.743 2.743v6.704a2.741 2.741 0 0 0 2.743 2.743h6.704a2.743 2.743 0 0 0 2.743-2.743V8.648a2.741 2.741 0 0 0-2.742-2.743H8.647zM16 7.048a.952.952 0 1 1 0 1.905.952.952 0 0 1 0-1.905zM12 8.19a3.81 3.81 0 1 1 0 7.62 3.81 3.81 0 0 1 0-7.62zm0 1.524a2.286 2.286 0 1 0 0 4.572 2.286 2.286 0 0 0 0-4.572z" fill="#F8F8F8"/>
+  </svg>
+</div>
+{{end}}
+
+{{block youtube()}}
+<div class="social-link-button youtube">
+  <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_611_6906)">
+      <path d="M16.6459 1.89714C16.549 1.52948 16.3592 1.19426 16.0954 0.92506C15.8316 0.655861 15.5031 0.462145 15.1428 0.363323C13.8167 0 8.50096 0 8.50096 0C8.50096 0 3.18329 0 1.85916 0.363323C1.49887 0.462145 1.17035 0.655861 0.906544 0.92506C0.642734 1.19426 0.452894 1.52948 0.356051 1.89714C0 3.24831 0 6.07241 0 6.07241C0 6.07241 0 8.89455 0.356051 10.2477C0.4526 10.6157 0.642308 10.9513 0.906138 11.2209C1.16997 11.4905 1.49864 11.6845 1.85916 11.7835C3.18521 12.1468 8.50096 12.1468 8.50096 12.1468C8.50096 12.1468 13.8167 12.1468 15.1428 11.7835C15.5031 11.6846 15.8316 11.4909 16.0954 11.2217C16.3592 10.9525 16.549 10.6173 16.6459 10.2496C17.0019 8.89651 17.0019 6.07437 17.0019 6.07437C17.0019 6.07437 17 3.24831 16.6459 1.89714ZM6.79961 8.67459V3.47023L11.2166 6.07241L6.79961 8.67459Z" fill="white"/>
+    </g>
+    <defs>
+      <clipPath id="clip0_611_6906">
+       <rect width="17" height="12.1429" fill="white"/>
+      </clipPath>
+    </defs>
+  </svg>
+</div>
+{{end}}
+
+{{block facebook()}}
+<div class="social-link-button facebook">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M13.328 19.619v-6.95h2.326l.357-2.711h-2.683v-1.73c0-.78.21-1.32 1.337-1.32h1.438V4.491c-.248-.037-1.1-.11-2.088-.11-2.07 0-3.49 1.264-3.49 3.58v1.997H8.192v2.71h2.335v6.951h2.802z" fill="#F8F8F8"/>
+  </svg>
+</div>
+{{end}}
+
+{{block twitter()}}
+<div class="social-link-button twitter">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8.7 18.939c6.315 0 9.77-5.23 9.77-9.769 0-.148 0-.297-.011-.446a7.382 7.382 0 0 0 1.721-1.775 6.883 6.883 0 0 1-1.977.531 3.424 3.424 0 0 0 1.51-1.892 6.758 6.758 0 0 1-2.18.83 3.425 3.425 0 0 0-2.508-1.085 3.432 3.432 0 0 0-3.433 3.434c0 .265.032.531.085.786a9.759 9.759 0 0 1-7.08-3.593 3.408 3.408 0 0 0-.467 1.733 3.43 3.43 0 0 0 1.53 2.86 3.459 3.459 0 0 1-1.551-.437v.043c0 1.669 1.18 3.05 2.753 3.37a3.63 3.63 0 0 1-.904.116c-.223 0-.435-.02-.648-.053a3.44 3.44 0 0 0 3.21 2.381 6.875 6.875 0 0 1-4.262 1.467c-.287 0-.553-.01-.83-.043a9.702 9.702 0 0 0 5.273 1.542z" fill="#F8F8F8"/>
+  </svg>
+</div>
+{{end}}
+
+{{block letterboxd()}}
+<div class="social-link-button letterboxd">
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8459 15C12.8459 15.5913 12.6869 16.1442 12.4108 16.6157C12.1346 16.1442 11.9757 15.5913 11.9757 15C11.9757 14.4087 12.1346 13.8558 12.4108 13.3843C12.6869 13.8558 12.8459 14.4087 12.8459 15ZM17.5893 13.3838C17.0594 12.4794 16.0981 11.875 15.0002 11.875C13.9021 11.875 12.9407 12.4797 12.4108 13.3843C11.8809 12.4797 10.9195 11.875 9.82137 11.875C8.15099 11.875 6.79688 13.2741 6.79688 15C6.79688 16.7259 8.15099 18.125 9.82137 18.125C10.9195 18.125 11.8809 17.5203 12.4108 16.6157C12.9407 17.5203 13.9021 18.125 15.0002 18.125C16.0981 18.125 17.0594 17.5206 17.5893 16.6162C18.1193 17.5206 19.0805 18.125 20.1784 18.125C21.8488 18.125 23.2029 16.7259 23.2029 15C23.2029 13.2741 21.8488 11.875 20.1784 11.875C19.0805 11.875 18.1193 12.4794 17.5893 13.3838ZM17.5893 13.3838C17.8656 13.8554 18.0247 14.4085 18.0247 15C18.0247 15.5915 17.8656 16.1446 17.5893 16.6162C17.313 16.1446 17.1539 15.5915 17.1539 15C17.1539 14.4085 17.313 13.8554 17.5893 13.3838Z" fill="#F8F8F8"/>
+    </svg>
+</div>
+{{end}}
+
+{{block linkedin()}}
+<div class="social-link-button linkedin">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5.385 8.016c1.222 0 1.987-.808 1.977-1.817C7.35 5.167 6.607 4.38 5.406 4.38c-1.19 0-1.977.786-1.977 1.818 0 1.01.754 1.817 1.934 1.817h.021zm7.185 11.969v-5.878c0-.32.032-.627.117-.861.255-.627.829-1.276 1.796-1.276 1.265 0 1.775.967 1.775 2.381v5.634h3.497v-6.038c0-3.231-1.722-4.74-4.028-4.74-1.813 0-2.65.966-3.12 1.683l-.037.058V9.45H9.073V9.477l.001.023c.004.134.012.598.016 1.96V11.898l.001.494v1.861c-.002 1.443-.007 3.313-.018 5.733h3.497zm-5.432 0V9.45H3.631v10.534h3.507z" fill="#F8F8F8"/>
+  </svg>
+</div>
 {{end}}

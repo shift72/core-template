@@ -1,4 +1,11 @@
 {{ block footerNav(navLinks) }}
+
+  {{social_link_instagram := config("social_link_instagram")}}
+  {{social_link_youtube := config("social_link_youtube")}}
+  {{social_link_facebook := config("social_link_facebook")}}
+  {{social_link_twitter := config("social_link_twitter")}}
+  {{social_link_letterboxd := config("social_link_letterboxd")}}
+  {{social_link_linkedin := config("social_link_linkedin")}}
   {{ if len(navLinks) > 0 }}
     <nav class="footer-nav" aria-label="{{ i18n("wcag_aria_label_footer") }}">
         <ul class="nav">
@@ -8,6 +15,24 @@
             </li>
           {{ end }}
         </ul>
+        {{if social_link_instagram != "" || social_link_youtube != "" || social_link_facebook != "" || social_link_twitter != "" || social_link_letterboxd != ""}}
+          <div class="footer-social-media-icons">
+            {{yield footerSocialMediaIcon(link=social_link_instagram, iconClass="instagram", titleKey="wcag_aria_label_social_instagram")}}
+            {{yield footerSocialMediaIcon(link=social_link_youtube, iconClass="youtube", titleKey="wcag_aria_label_social_youtube")}}
+            {{yield footerSocialMediaIcon(link=social_link_facebook, iconClass="facebook", titleKey="wcag_aria_label_social_facebook")}}
+            {{yield footerSocialMediaIcon(link=social_link_twitter, iconClass="twitter", titleKey="wcag_aria_label_social_twitter")}}
+            {{yield footerSocialMediaIcon(link=social_link_letterboxd, iconClass="letterboxd", titleKey="wcag_aria_label_social_letterboxd")}}
+            {{yield footerSocialMediaIcon(link=social_link_linkedin, iconClass="linkedin", titleKey="wcag_aria_label_social_linkedin")}}            
+          </div>
+        {{end}}
     </nav>
   {{ end }}
 {{ end }}
+
+{{block footerSocialMediaIcon(link, iconClass, titleKey)}}
+  {{if link != ""}}
+    <a class="s72-btn" target="_blank" title="{{i18n(titleKey)}}" href="{{link}}">
+      <i class="fa fa-{{iconClass}}-footer"></i>
+    </a>
+  {{end}}
+{{end}}

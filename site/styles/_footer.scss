@@ -21,14 +21,18 @@ footer {
 
 .footer-nav {
   margin-bottom: 30px;
-
+  vertical-align: middle;
   @include media-breakpoint-up(xl) {
-    margin: 0 50px 20px;
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .nav {
     flex-direction: column;
     justify-content: center;
+    display: flex;
+    justify-content: space-between;
 
     @include media-breakpoint-up(xl) {
       flex-direction: row;
@@ -41,44 +45,69 @@ footer {
 
     @include media-breakpoint-up(xl) {
       margin-right: 20px;
-      padding: 0;
+      padding: 4px 0 0 0;
     }
 
     &:hover {
       color: var(--body-color-hover);
     }
   }
-}
 
-.footer-social-media-icons {
-  display: grid;
-  gap: 24px;
-  grid-auto-columns: 25px;
-  grid-auto-flow: column;
-  grid-template-rows: 1fr;
-  justify-content: center;
-  margin-bottom: 30px;
+  .footer-social-media-icons {
+    display: grid;
+    gap: 16px;
+    grid-auto-columns: 32px;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr;
+    justify-content: center;
 
-  @include media-breakpoint-up(xl) {
-    justify-content: start;
-    margin: 0 50px 20px;
-  }
+    padding: 8px 16px;
 
-  .s72-btn {
-    border: initial;
-    grid-row: 1;
-    padding: 0;
+    @include media-breakpoint-up(xl) {
+      justify-content: start;
+      padding: 0;
+    }
 
-    i {
-      color: var(--body-color);
-      font-size: 25px;
+    .s72-btn {
+      border: initial;
+      grid-row: 1;
+      padding: 0;
 
-      &:hover {
-        color: var(--body-color-hover);
+      i {
+        color: var(--body-color);
+        font-size: 25px;
+
+        &:hover {
+          color: var(--body-color-hover);
+        }
       }
     }
   }
+
+  .social-link-button {
+    background-color: var(--footer-social-bg);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover{
+      background-color: var(--footer-social-bg-hover);
+      svg path{
+        fill: var(--footer-social-icon-hover);
+      }
+    }
+
+    svg path{
+      fill: var(--footer-social-icon);
+    }
+
+  }
 }
+
 
 .footer-info {
   background-color: $footer-bar-background-color;

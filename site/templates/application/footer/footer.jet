@@ -17,7 +17,7 @@
 
     {{yield footerNav(navLinks=site.Navigation.Footer)}}
 
-    {{yield footerSocialMediaButtons()}}
+
 
     {{yield footerInfo()}}
   </footer>
