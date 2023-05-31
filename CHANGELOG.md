@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.1...HEAD)
 
+### Changed
+- Nav mobile top padding to meet design spec
+
 ## [1.9.1](https://github.com/shift72/core-template/compare/1.9.0...1.9.1)
 
 ### Changed
