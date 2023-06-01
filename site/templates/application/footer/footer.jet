@@ -3,22 +3,19 @@
 {{import "./nav.jet"}}
 {{import "./app-badges.jet"}}
 {{import "./sponsor-banner.jet"}}
-{{import "./social-media-buttons.jet"}}
 
-{{block footer()}}
+{{ block footer() }}
 
-  {{yield appBadges()}}
+  {{ yield appBadges() }}
 
-  {{yield sponsorBanner()}}
+  {{ yield sponsorBanner() }}
 
   {*{ID is used for skip links.}*}
   <footer id="footer">
-    {{yield footerBrand()}}
+    {{ yield footerBrand() }}
 
-    {{yield footerNav(navLinks=site.Navigation.Footer)}}
+    {{ yield footerNav(navLinks=site.Navigation.Footer) }}
 
-
-
-    {{yield footerInfo()}}
+    {{ yield footerInfo() }}
   </footer>
-{{end}}
+{{ end }}
