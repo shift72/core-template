@@ -22,6 +22,7 @@ footer {
 .footer-nav {
   margin-bottom: 30px;
   vertical-align: middle;
+
   @include media-breakpoint-up(xl) {
     display: flex;
     justify-content: space-between;
@@ -52,58 +53,59 @@ footer {
       color: var(--body-color-hover);
     }
   }
+}
 
-  .footer-social-media-icons {
-    display: grid;
-    gap: 16px;
-    grid-auto-columns: 32px;
-    grid-auto-flow: column;
-    grid-template-rows: 1fr;
-    justify-content: center;
+.footer-social-media-icons {
+  display: grid;
+  gap: 16px;
+  grid-auto-columns: 32px;
+  grid-auto-flow: column;
+  grid-template-rows: 1fr;
+  justify-content: center;
 
-    padding: 8px 16px;
+  padding: 8px 16px;
 
-    @include media-breakpoint-up(xl) {
-      justify-content: start;
-      padding: 0;
-    }
+  @include media-breakpoint-up(xl) {
+    justify-content: start;
+    padding: 0;
+  }
 
-    .s72-btn {
-      border: initial;
-      grid-row: 1;
-      padding: 0;
+  .s72-btn {
+    border: initial;
+    grid-row: 1;
+    padding: 0;
 
-      i {
-        color: var(--body-color);
-        font-size: 25px;
+    i {
+      color: var(--body-color);
+      font-size: 25px;
 
-        &:hover {
-          color: var(--body-color-hover);
-        }
+      &:hover {
+        color: var(--body-color-hover);
       }
     }
   }
+}
 
-  .social-link-button {
-    align-items: center;
-    background-color: var(--footer-social-bg);
-    border-radius: 50%;
+.social-link-button {
+  align-items: center;
+  background-color: var(--footer-social-bg);
+  border-radius: 50%;
 
-    display: flex;
-    height: 32px;
-    justify-content: center;
-    width: 32px;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  width: 32px;
 
-    &:hover {
-      background-color: var(--footer-social-bg-hover);
-      svg path {
-        fill: var(--footer-social-icon-hover);
-      }
-    }
+  &:hover {
+    background-color: var(--footer-social-bg-hover);
 
     svg path {
-      fill: var(--footer-social-icon);
+      fill: var(--footer-social-icon-hover);
     }
+  }
+
+  svg path {
+    fill: var(--footer-social-icon);
   }
 }
 
