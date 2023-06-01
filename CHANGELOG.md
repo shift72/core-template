@@ -5,6 +5,9 @@
 ### Changed
 - Nav mobile top padding to meet design spec
 
+### Fixed
+- GA4 tracking of ecommerce data
+
 ## [1.9.1](https://github.com/shift72/core-template/compare/1.9.0...1.9.1)
 
 ### Changed
