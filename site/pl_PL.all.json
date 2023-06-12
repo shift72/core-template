@@ -452,7 +452,7 @@
     "one": "Wypożyczenie na {{.ValueUnit}} ",
     "few": "Wypożyczenie na {{.ValueUnit}} ",
     "many": "Wypożyczenie na {{.ValueUnit}} ",
-    "other": "Wypożyczenie na ({.ValueUnit}} "
+    "other": "Wypożyczenie na {{.ValueUnit}} "
   },
   "shopping_info_watch_window_duration": {
     "one": "{{.Count}} godzinne okno odtwarzania. ",
