@@ -21,9 +21,9 @@ footer {
 
 .footer-nav {
   margin-bottom: 30px;
-  vertical-align: middle;
 
   @include media-breakpoint-up(xl) {
+    align-items: center;
     display: flex;
     justify-content: space-between;
     margin: 0 50px;
@@ -33,7 +33,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-content: space-between;
 
     @include media-breakpoint-up(xl) {
       flex-direction: row;
@@ -46,7 +45,7 @@ footer {
 
     @include media-breakpoint-up(xl) {
       margin-right: 20px;
-      padding: 4px 0 0;
+      padding: 0;
     }
 
     &:hover {
