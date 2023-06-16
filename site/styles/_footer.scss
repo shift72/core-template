@@ -42,7 +42,8 @@ footer {
 
   .nav-link {
     text-align: center;
-
+    padding-top: 0px;
+    padding-bottom: 16px;
     @include media-breakpoint-up(xl) {
       margin-right: 20px;
       padding: 0;
@@ -62,7 +63,7 @@ footer {
   grid-template-rows: 1fr;
   justify-content: center;
 
-  padding: 8px 16px;
+  padding: 0 16px 16px;
 
   @include media-breakpoint-up(xl) {
     justify-content: start;
