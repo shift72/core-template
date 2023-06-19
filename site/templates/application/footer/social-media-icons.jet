@@ -21,24 +21,31 @@
 {{ block footerSocialMediaIcon(link, iconClass, titleKey) }}
   {{ if link != "" }}
     <a class="s72-btn" target="_blank" title="{{i18n(titleKey)}}" href="{{link}}">
+
       {{ if iconClass == "instagram" }}
         {{ yield instagramIcon() }}
       {{ end }}
+
       {{ if iconClass == "youtube" }}
         {{ yield youtubeIcon() }}
       {{ end }}
+
       {{ if iconClass == "facebook" }}
         {{ yield facebookIcon() }}
       {{ end }}
+
       {{ if iconClass == "twitter" }}
         {{ yield twitterIcon() }}
       {{ end }}
+
       {{ if iconClass == "letterboxd" }}
         {{ yield letterboxdIcon() }}
-      {{ end }}      
+      {{ end }}  
+
       {{ if iconClass == "linkedin" }}
         {{ yield linkedinIcon() }}
-      {{ end }}                      
+      {{ end }} 
+                           
     </a>
   {{ end }}
 {{ end }}
