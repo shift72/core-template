@@ -98,14 +98,14 @@ footer {
 
   &:hover {
     background-color: var(--footer-social-bg-hover);
-
-    svg path {
-      fill: var(--footer-social-icon-hover);
-    }
   }
 
   svg path {
     fill: var(--footer-social-icon);
+
+    &:hover {
+      fill: var(--footer-social-icon-hover);
+    }
   }
 }
 
