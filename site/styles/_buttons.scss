@@ -253,3 +253,16 @@ s72-userwishlist-button {
     /* stylelint-enable selector-max-compound-selectors, max-nesting-depth */
   }
 }
+
+.s72-btn-sso {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.s72-btn-sso-veriplay {
+  @include btn-override(
+    var(--veriplay-button-text-color),
+    var(--veriplay-button-text-color-hover),
+    var(--veriplay-button-background),
+    var(--veriplay-button-background-hover));
+}

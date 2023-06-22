@@ -1656,5 +1656,35 @@
   },
   "verify_email_success_page_back": {
     "other": "Non hai ricevuto un'e-mail?"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Impossibile fare il log in. Per motivi di sicurezza, gli account amministratore richiedono l'autenticazione a più fattori."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Impossibile fare il log in. Per motivi di sicurezza, gli account amministratore richiedono un indirizzo email verificato."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Puoi configurare il tuo account per {{.DisplayName}} facendo clic qui."
+  },
+  "sso_signin_option": {
+    "other": "O"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Impossibile accedere. Questo sito è disponibile solo per gli utenti invitati."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Verifica di aver effettuato l'accesso con lo stesso indirizzo email con cui sei stato invitato o contatta l'amministratore del sito."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Errore temporaneo"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Prova ad accedere di nuovo. Se l'errore persiste, contattare l'amministratore del sito."
+  },
+  "sso_signin_generic": {
+    "other": "Accedi con {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Crea un account con {{.DisplayName}}"
   }
 }

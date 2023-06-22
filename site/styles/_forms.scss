@@ -294,3 +294,33 @@ s72-signup-form {
 .s72-form-control {
   @include body-1-style;
 }
+
+// OAuth
+.s72-oauth-buttons {
+  padding-top: 10px;
+  text-align: center;
+
+  .divider {
+    border: 1px solid rgba(var(--body-color-rgb), 0.5);
+    margin-top: 60px;
+    width: 100%;
+  }
+
+  .s72-veriplay-option {
+    padding-top: 10px;
+  }
+
+  .s72-veriplay-powered-by {
+    padding: 10px;
+
+    .logo-container {
+      padding: 10px;
+    }
+
+    .logo {
+      background: $veriplay-logo-path no-repeat center;
+      height: 27px;
+      padding: 10px;
+    }
+  }
+}

@@ -1716,5 +1716,35 @@
   },
   "verify_email_success_page_back": {
     "other": "ألم تتلق بريدًا إلكترونيًا؟"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "غير قادر على تسجيل الدخول. لأسباب تتعلق بالأمان ، تتطلب حسابات المسؤول المصادقة متعددة العوامل."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "غير قادر على تسجيل الدخول. لأسباب تتعلق بالأمان ، تتطلب حسابات المسؤول عنوان بريد إلكتروني تم التحقق منه."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "يمكنك تكوين حسابك لـ {{.DisplayName}} بالنقر هنا."
+  },
+  "sso_signin_option": {
+    "other": "أو"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "تعذر تسجيل الدخول. هذا الموقع متاح فقط للمستخدمين المدعوين."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "يرجى التحقق من أنك قمت بتسجيل الدخول بنفس عنوان البريد الإلكتروني الذي تمت دعوتك من خلاله أو اتصل بمسؤول الموقع."
+  },
+  "sso_error_invalid_grant": {
+    "other": "خطأ مؤقت"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "يرجى محاولة تسجيل الدخول مرة أخرى. إذا استمر هذا الخطأ ، يرجى الاتصال بمسؤول الموقع."
+  },
+  "sso_signin_generic": {
+    "other": "قم بتسجيل الدخول باستخدام {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "إنشاء حساب مع {{.DisplayName}}"
   }
 }

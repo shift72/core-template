@@ -1652,5 +1652,35 @@
   },
   "verify_email_success_page_back": {
     "other": "Keine E-Mail erhalten?"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Anmeldung nicht möglich. Aus Sicherheitsgründen benötigen Administratorkonten eine mehrstufige Authentifizierung."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Anmeldung nicht möglich. Aus Sicherheitsgründen benötigen Administratorkonten eine verifizierte E-Mail-Adresse."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Sie können Ihr Konto für {{.DisplayName}} konfigurieren, indem Sie hier klicken."
+  },
+  "sso_signin_option": {
+    "other": "Oder"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Anmeldung nicht möglich. Diese Website ist nur für eingeladene Benutzer verfügbar."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Bitte überprüfen Sie, ob Sie sich mit derselben E-Mail-Adresse angemeldet haben, mit der Sie eingeladen wurden, oder wenden Sie sich an den Site-Administrator."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Vorübergehender Fehler"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Bitte versuchen Sie erneut, sich anzumelden. Wenn dieser Fehler weiterhin besteht, wenden Sie sich bitte an den Site-Administrator."
+  },
+  "sso_signin_generic": {
+    "other": "Melden Sie sich mit {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Erstellen Sie ein Konto mit {{.DisplayName}}"
   }
 }

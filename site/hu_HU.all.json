@@ -1652,5 +1652,35 @@
   },
   "verify_email_success_page_back": {
     "other": "Nem kapott e-mailt?"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Nem sikerült bejelentkezni. Biztonsági okokból a rendszergazdai fiókokhoz többtényezős hitelesítés szükséges."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Nem sikerült bejelentkezni. Biztonsági okokból a rendszergazdai fiókokhoz igazolt e-mail cím szükséges."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Ide kattintva konfigurálhatja fiókját a {{.DisplayName}} számára."
+  },
+  "sso_signin_option": {
+    "other": "Vagy"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Nem sikerült bejelentkezni. Ez a webhely csak a meghívott felhasználók számára érhető el."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Kérjük, ellenőrizze, hogy ugyanazzal az e-mail címmel jelentkezett-e be, amelyre meghívást kapott, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Ideiglenes hiba"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Kérjük, próbáljon meg újra bejelentkezni. Ha a hiba továbbra is fennáll, forduljon a webhely rendszergazdájához."
+  },
+  "sso_signin_generic": {
+    "other": "Jelentkezzen be a {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Hozzon létre fiókot a {{.DisplayName}}"
   }
 }

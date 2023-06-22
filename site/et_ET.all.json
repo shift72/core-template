@@ -1652,5 +1652,35 @@
   },
   "verify_email_success_page_back": {
     "other": "Kas te ei saanud meili?"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Ei saa sisse logida. Turvalisuse huvides nõuavad administraatorikontod mitmefaktorilist autentimist."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Ei saa sisse logida. Turvalisuse huvides nõuavad administraatorikontod kinnitatud e-posti aadressi."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Saate seadistada oma konto {{.DisplayName}} jaoks, klõpsates siin."
+  },
+  "sso_signin_option": {
+    "other": "Või"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Ei saa sisse logida. See sait on saadaval ainult kutsutud kasutajatele."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Kontrollige, kas olete sisse loginud sama e-posti aadressiga, millega kutsuti, või võtke ühendust saidi administraatoriga."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Ajutine viga"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Proovige uuesti sisse logida. Kui see tõrge püsib, võtke ühendust saidi administraatoriga."
+  },
+  "sso_signin_generic": {
+    "other": "Logige sisse rakendusega {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Looge {{.DisplayName}} konto"
   }
 }

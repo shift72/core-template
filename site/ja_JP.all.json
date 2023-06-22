@@ -1639,5 +1639,35 @@
   },
   "verify_email_success_page_back": {
     "other": "メールが届かない場合"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "ログインできません。セキュリティ上の理由から、管理者アカウントには多要素認証が必要です。"
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "ログインできません。セキュリティ上の理由から、管理者アカウントには確認済みの電子メール アドレスが必要です。"
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "ここをクリックして、 {{.DisplayName}}のアカウントを構成できます。"
+  },
+  "sso_signin_option": {
+    "other": "または"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "サインインできません。このサイトは、招待されたユーザーのみが利用できます。"
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "招待されたのと同じメール アドレスでサインインしていることを確認するか、サイト管理者に連絡してください。"
+  },
+  "sso_error_invalid_grant": {
+    "other": "一時的なエラー"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "再度サインインしてください。このエラーが続く場合は、サイト管理者に連絡してください。"
+  },
+  "sso_signin_generic": {
+    "other": "{{.DisplayName}}でサインイン"
+  },
+  "sso_create_generic": {
+    "other": "{{.DisplayName}}でアカウントを作成"
   }
 }

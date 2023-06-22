@@ -1652,5 +1652,35 @@
   },
   "verify_email_success_page_back": {
     "other": "No has rebut cap correu electrònic?"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "No es pot iniciar sessió. Per motius de seguretat, els comptes d'administrador requereixen l'autenticació multifactor."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "No es pot iniciar sessió. Per motius de seguretat, els comptes d'administrador requereixen una adreça de correu electrònic verificada."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Podeu configurar el vostre compte per a {{.DisplayName}} fent clic aquí."
+  },
+  "sso_signin_option": {
+    "other": "O"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "No es pot iniciar la sessió. Aquest lloc només està disponible per als usuaris convidats."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Si us plau, comproveu que heu iniciat la sessió amb la mateixa adreça electrònica amb la qual vau ser convidat o poseu-vos en contacte amb l'administrador del lloc."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Error temporal"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Si us plau, intenteu iniciar la sessió de nou. Si aquest error persisteix, poseu-vos en contacte amb l'administrador del lloc."
+  },
+  "sso_signin_generic": {
+    "other": "Inicieu la sessió amb {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Creeu un compte amb {{.DisplayName}}"
   }
 }

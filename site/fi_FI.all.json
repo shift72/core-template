@@ -1652,5 +1652,35 @@
   },
   "verify_email_success_page_back": {
     "other": "Etkö saanut sähköpostia?"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Kirjautuminen ei onnistu. Turvallisuussyistä järjestelmänvalvojatilit vaativat monivaiheisen todennuksen."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Kirjautuminen ei onnistu. Turvallisuussyistä järjestelmänvalvojatilit vaativat vahvistetun sähköpostiosoitteen."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Voit määrittää tilisi {{.DisplayName}} napsauttamalla tätä."
+  },
+  "sso_signin_option": {
+    "other": "Tai"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Kirjautuminen ei onnistu. Tämä sivusto on vain kutsuttujen käyttäjien käytettävissä."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Tarkista, että olet kirjautunut sisään samalla sähköpostiosoitteella, jolla sinut kutsuttiin, tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Väliaikainen virhe"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Yritä kirjautua sisään uudelleen. Jos tämä virhe toistuu, ota yhteyttä sivuston ylläpitäjään."
+  },
+  "sso_signin_generic": {
+    "other": "Kirjaudu sisään {{.DisplayName}} -tunnuksella"
+  },
+  "sso_create_generic": {
+    "other": "Luo tili {{.DisplayName}}"
   }
 }

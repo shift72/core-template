@@ -1712,5 +1712,35 @@
   },
   "verify_email_success_page_back": {
     "other": "Не отримали електронного листа?"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Неможливо увійти. З міркувань безпеки для облікових записів адміністраторів потрібна багатофакторна автентифікація."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Неможливо увійти. З міркувань безпеки для облікових записів адміністраторів потрібна підтверджена адреса електронної пошти."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Ви можете налаштувати свій обліковий запис для {{.DisplayName}} , натиснувши тут."
+  },
+  "sso_signin_option": {
+    "other": "Або"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Не вдається ввійти. Цей сайт доступний лише для запрошених користувачів."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Будь ласка, перевірте, чи ви ввійшли, використовуючи ту саму електронну адресу, з якою вас запросили, або зверніться до адміністратора сайту."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Тимчасова помилка"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Спробуйте ввійти знову. Якщо ця помилка не зникає, зверніться до адміністратора сайту."
+  },
+  "sso_signin_generic": {
+    "other": "Увійдіть за допомогою {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Створіть обліковий запис за допомогою {{.DisplayName}}"
   }
 }

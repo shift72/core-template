@@ -1684,5 +1684,35 @@
   },
   "verify_email_success_page_back": {
     "other": "Negavote el. laiško?"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Negalima prisijungti. Saugumo sumetimais administratoriaus paskyroms reikalingas kelių veiksnių autentifikavimas."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Negalima prisijungti. Saugumo sumetimais administratoriaus paskyroms reikalingas patvirtintas el. pašto adresas."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Galite sukonfigūruoti savo paskyrą {{.DisplayName}} spustelėdami čia."
+  },
+  "sso_signin_option": {
+    "other": "Arba"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Nepavyko prisijungti. Ši svetainė prieinama tik pakviestiems vartotojams."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Patikrinkite, ar prisijungėte tuo pačiu el. pašto adresu, kuriuo buvote pakviesti, arba susisiekite su svetainės administratoriumi."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Laikina klaida"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Bandykite prisijungti dar kartą. Jei ši klaida išlieka, susisiekite su svetainės administratoriumi."
+  },
+  "sso_signin_generic": {
+    "other": "Prisijunkite naudodami {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Sukurkite paskyrą naudodami {{.DisplayName}}"
   }
 }

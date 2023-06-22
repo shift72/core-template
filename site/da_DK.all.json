@@ -1652,5 +1652,35 @@
   },
   "verify_email_success_page_back": {
     "other": "Har du ikke modtaget en e-mail?"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Kan ikke logge ind. Af sikkerhedsmæssige årsager kræver administratorkonti Multi-Factor Authentication."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Kan ikke logge ind. Af sikkerhedsmæssige årsager kræver administratorkonti en bekræftet e-mailadresse."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Du kan konfigurere din konto til {{.DisplayName}} ved at klikke her."
+  },
+  "sso_signin_option": {
+    "other": "Eller"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Kunne ikke logge ind. Dette websted er kun tilgængeligt for inviterede brugere."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Tjek venligst, at du har logget ind med den samme e-mailadresse, som du blev inviteret med, eller kontakt webstedsadministratoren."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Midlertidig fejl"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Prøv at logge ind igen. Kontakt venligst webstedsadministratoren, hvis denne fejl fortsætter."
+  },
+  "sso_signin_generic": {
+    "other": "Log ind med {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Opret konto med {{.DisplayName}}"
   }
 }

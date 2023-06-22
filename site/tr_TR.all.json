@@ -1652,5 +1652,35 @@
   },
   "verify_email_success_page_back": {
     "other": "E-posta almadınız mı?"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Giriş yapılamıyor. Güvenlik nedenleriyle Yönetici hesapları, Çok Faktörlü Kimlik Doğrulaması gerektirir."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Giriş yapılamıyor. Güvenlik nedeniyle, Yönetici hesapları doğrulanmış bir e-posta adresi gerektirir."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Buraya tıklayarak hesabınızı {{.DisplayName}} için yapılandırabilirsiniz."
+  },
+  "sso_signin_option": {
+    "other": "Veya"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Oturum açılamıyor. Bu site yalnızca davet edilen kullanıcılar tarafından kullanılabilir."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Lütfen davet edildiğiniz e-posta adresiyle oturum açtığınızı kontrol edin veya site yöneticisiyle iletişime geçin."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Geçici hata"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Lütfen tekrar oturum açmayı deneyin. Bu hata devam ederse lütfen site yöneticisi ile iletişime geçin."
+  },
+  "sso_signin_generic": {
+    "other": "{{.DisplayName}} ile oturum açın"
+  },
+  "sso_create_generic": {
+    "other": "{{.DisplayName}} ile hesap oluşturun"
   }
 }

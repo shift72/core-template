@@ -1656,5 +1656,35 @@
   },
   "verify_email_success_page_back": {
     "other": "Vous n'avez pas reçu d'e-mail ?"
+  },
+  "sso_error_admin_requires_mfa": {
+    "other": "Connection impossible. Pour des raisons de sécurité, les comptes administrateur nécessitent une authentification multifacteur."
+  },
+  "sso_error_email_address_not_verified": {
+    "other": "Connection impossible. Pour des raisons de sécurité, les comptes administrateur nécessitent une adresse e-mail vérifiée."
+  },
+  "sso_error_action_admin_requires_mfa": {
+    "other": "Vous pouvez configurer votre compte pour {{.DisplayName}} en cliquant ici."
+  },
+  "sso_signin_option": {
+    "other": "Ou"
+  },
+  "sso_error_user_account_creation_disabled": {
+    "other": "Impossible de se connecter. Ce site n'est disponible que pour les utilisateurs invités."
+  },
+  "sso_error_action_user_account_creation_disabled": {
+    "other": "Veuillez vérifier que vous vous êtes connecté avec la même adresse e-mail avec laquelle vous avez été invité ou contactez l'administrateur du site."
+  },
+  "sso_error_invalid_grant": {
+    "other": "Erreur temporaire"
+  },
+  "sso_error_action_invalid_grant": {
+    "other": "Veuillez réessayer de vous connecter. Si cette erreur persiste, veuillez contacter l'administrateur du site."
+  },
+  "sso_signin_generic": {
+    "other": "Connectez-vous avec {{.DisplayName}}"
+  },
+  "sso_create_generic": {
+    "other": "Créer un compte avec {{.DisplayName}}"
   }
 }

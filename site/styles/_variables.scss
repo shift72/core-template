@@ -91,6 +91,12 @@
   --signout-text-color: var(--body-color);
   --signout-text-color-hover: var(--body-color);
 
+  --veriplay-button-background: rgb(36, 226, 163);
+  --veriplay-button-text-color: rgb(0, 0, 0);
+  --veriplay-button-background-hover: rgb(41, 247, 178);
+  --veriplay-button-text-color-hover: rgb(0, 0, 0);
+  --veriplay-logo-path: url('/images/common/veriplay-col-white.png');
+
   --carousel-height: 75vh;
   --carousel-height-sm: 75vh;
   --carousel-height-lg: 75vh;
@@ -264,6 +270,9 @@ $signup-border-color: transparent !default;
 $signup-border-color-hover: transparent !default;
 $signup-background: $button-background !default;
 $signup-background-hover: $button-background-hover !default;
+
+// black image is available veriplay-col-black.png
+$veriplay-logo-path: var(--veriplay-logo-path);
 
 // Image Gradient Overlays
 $top-gradient-color: var(--body-bg-rgb) !default;
