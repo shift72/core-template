@@ -31,9 +31,11 @@
             <a class="s72-dropdown-item" href="{{ routeToPath("/subscriptions.html") }}">{{i18n("nav_subscriptions")}}</a>
           </li>
         {{ end }}
+        {{if config("myaccount_disabled") != "true" }}
         <li>
           <a class="s72-dropdown-item" href="{{ routeToPath("/account.html") }}">{{i18n("nav_account")}}</a>
         </li>
+        {{end}}
         <li>
           <s72-sign-out class="s72-dropdown-item sign-out-desktop" >
             <a href="#" class="btn-sign-out btn-sign-out-desktop">{{i18n("nav_signout")}}</a>
