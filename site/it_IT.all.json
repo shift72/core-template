@@ -218,7 +218,7 @@
     "other": "Non hai un account utente? Creane uno nuovo"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Hai già un Account? Accedi qui"
+    "other": "Hai già un account?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "L'indirizzo email è già in uso."
@@ -1515,6 +1515,147 @@
   },
   "new_card_error_timed_out": {
     "other": "Qualcosa è andato storto durante l'aggiunta di quella carta. Riprova più tardi o usa una carta diversa."
+  },
+  "tv_app_badge_title": {
+    "other": "Disponibile sulle app TV"
+  },
+  "app_badge_fire_tv": {
+    "other": "Scaricalo su Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Scaricalo su Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Scaricalo su Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Venite a trovarci su Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Iscriviti su Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Visitaci su Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Visitaci su Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Venite a trovarci su Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Per creare un account dobbiamo prima verificare il tuo indirizzo email. Inserisci la tua email e ti invieremo un invito alla registrazione dell'account."
+  },
+  "validate_email_success": {
+    "other": "Un&#39;email di verifica è stata inviata a {{.Email}} . Controlla la tua email e segui le istruzioni per la creazione dell&#39;account."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Questa e-mail è già in uso."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Un&#39;email di verifica è già stata inviata a {{.Email}} . Controlla il tuo account di posta elettronica."
+  },
+  "validate_email_alert_success": {
+    "other": "Successo"
+  },
+  "validate_email_alert_error": {
+    "other": "Errore!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Creare un account"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Creazione dell'account..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Codice di verifica mancante."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Il token di verifica è scaduto."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Questa email non è stata verificata."
+  },
+  "alert_title_success": {
+    "other": "Successo"
+  },
+  "alert_title_error": {
+    "other": "Errore!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "L'indirizzo e-mail fornito è per un dominio che è stato limitato. Registrati con un altro provider di posta elettronica."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Si è verificato un errore sconosciuto durante la convalida del tuo indirizzo email. Prova ad aggiornare la pagina o a contattare l'amministratore del sito."
+  },
+  "signup_form_error_generic": {
+    "other": "Si è verificato un errore sconosciuto durante la creazione del tuo account. Prova ad aggiornare la pagina o a contattare l'amministratore del sito."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Riprova la convalida dell'e-mail"
+  },
+  "auth_selector_info": {
+    "other": "È necessario un account per acquistare questo contenuto."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "sei già un membro? Registrazione"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Creare un account"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "O"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "È già stata inviata un'e-mail di verifica. Controlla il tuo account di posta elettronica."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "L'e-mail non è valida."
+  },
+  "validate_email_error_email_required": {
+    "other": "E 'richiesta una email."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Questa e-mail è già in uso."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "L'indirizzo e-mail fornito è per un dominio che è stato limitato. Registrati con un altro provider di posta elettronica."
+  },
+  "validate_email_error_pin_required": {
+    "other": "È richiesto un codice PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Le iscrizioni sono attualmente disattivate."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Troppe richieste. La preghiamo di riprovare più tardi."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "La convalida dell'e-mail è attualmente disabilitata."
+  },
+  "validate_email_error_generic": {
+    "other": "Si è verificato un errore sconosciuto durante la verifica dell'e-mail fornita. Prova ad aggiornare la pagina o a contattare l'amministratore del sito."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Questa e-mail è già in uso."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Si è verificato un errore sconosciuto con la tua sessione di shopping. Prova ad aggiornare la pagina o a contattare l'amministratore del sito."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Registrazione"
+  },
+  "verify_email_success_page_header": {
+    "other": "verifica la tua email"
+  },
+  "verify_email_success_page_message": {
+    "other": "Per assicurarci che tu sia davvero te stesso, abbiamo inviato un link di verifica alla tua email."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Se non riesci a trovarlo, controlla lo spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Non hai ricevuto un'e-mail?"
   },
   "sso_error_admin_requires_mfa": {
     "other": "Impossibile fare il log in. Per motivi di sicurezza, gli account amministratore richiedono l'autenticazione a più fattori."

@@ -212,7 +212,7 @@
     "other": "Har du ikke en konto? Opprett en ny konto."
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Har du allerede en konto? Logg inn."
+    "other": "Har du allerede en konto?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "E-postadressen er allerede i bruk."
@@ -1511,6 +1511,147 @@
   },
   "new_card_error_timed_out": {
     "other": "Noe gikk galt da kortet ble lagt til. Prøv igjen senere eller bruk et annet kort."
+  },
+  "tv_app_badge_title": {
+    "other": "Tilgjengelig på TV-apper"
+  },
+  "app_badge_fire_tv": {
+    "other": "Få den på Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Få den på Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Få den på Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Besøk oss på Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Abonner på Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Besøk oss på Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Besøk oss på Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Besøk oss på Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "For å opprette en konto må vi først bekrefte e-postadressen din. Skriv inn e-postadressen din, så sender vi en invitasjon til kontoregistrering."
+  },
+  "validate_email_success": {
+    "other": "En bekreftelses-e-post er sendt til {{.Email}} . Vennligst sjekk e-posten din og følg instruksjonene for kontooppretting."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Denne e-posten er allerede i bruk."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "En bekreftelses-e-post er allerede sendt til {{.Email}} . Vennligst sjekk e-postkontoen din."
+  },
+  "validate_email_alert_success": {
+    "other": "Suksess"
+  },
+  "validate_email_alert_error": {
+    "other": "Feil!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Opprett konto"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Oppretter konto ..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Bekreftelseskode mangler."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Bekreftelsestokenet er utløpt."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Denne e-posten er ikke bekreftet."
+  },
+  "alert_title_success": {
+    "other": "Suksess"
+  },
+  "alert_title_error": {
+    "other": "Feil!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "E-postadressen som er oppgitt er for et domene som er begrenset. Registrer deg hos en annen e-postleverandør."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Det oppstod en ukjent feil under validering av e-postadressen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+  },
+  "signup_form_error_generic": {
+    "other": "Det oppstod en ukjent feil under opprettelsen av kontoen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Prøv e-postvalidering på nytt"
+  },
+  "auth_selector_info": {
+    "other": "En konto er nødvendig for å kjøpe dette innholdet."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Allerede medlem? Logg inn"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Opprett konto"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "eller"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "En bekreftelses-e-post er allerede sendt. Vennligst sjekk e-postkontoen din."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-post er ikke gyldig."
+  },
+  "validate_email_error_email_required": {
+    "other": "En e-post er nødvendig."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Denne e-posten er allerede i bruk."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "E-postadressen som er oppgitt er for et domene som er begrenset. Registrer deg hos en annen e-postleverandør."
+  },
+  "validate_email_error_pin_required": {
+    "other": "En PIN-kode kreves."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Registreringer er for øyeblikket deaktivert."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "For mange forespørsler. Vær snill å prøv senere."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "E-postvalidering er for øyeblikket deaktivert."
+  },
+  "validate_email_error_generic": {
+    "other": "Det oppstod en ukjent feil under bekreftelse av den oppgitte e-posten. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Denne e-posten er allerede i bruk."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Det var en ukjent feil med handleøkten din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Logg inn"
+  },
+  "verify_email_success_page_header": {
+    "other": "Bekreft e-posten din"
+  },
+  "verify_email_success_page_message": {
+    "other": "For å være sikker på at du virkelig er deg, har vi sendt en bekreftelseslenke til e-posten din."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Hvis du ikke finner den, sjekk spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Har du ikke mottatt en e-post?"
   },
   "sso_error_admin_requires_mfa": {
     "other": "Klarte ikke å logge inn. Av sikkerhetsgrunner krever administratorkontoer Multi-Factor Authentication."

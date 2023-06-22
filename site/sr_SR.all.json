@@ -212,7 +212,7 @@
     "other": "Немате налог? Направите нови налог"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Већ имате налог? Пријавите се"
+    "other": "Већ имате налог?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Ова имејл адреса је већ употребљена."
@@ -1527,6 +1527,147 @@
   },
   "new_card_error_timed_out": {
     "other": "Нешто није у реду приликом додавања те картице. Покушајте поново касније или користите другу картицу."
+  },
+  "tv_app_badge_title": {
+    "other": "Доступно у ТВ апликацијама"
+  },
+  "app_badge_fire_tv": {
+    "other": "Набавите га на Амазон Фире ТВ-у"
+  },
+  "app_badge_android_tv": {
+    "other": "Набавите га на Андроид ТВ-у"
+  },
+  "app_badge_apple_tv": {
+    "other": "Набавите га на Аппле ТВ-у"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Посетите нас на Инстаграму"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Претплатите се на Иоутубе"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Посетите нас на Фејсбуку"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Посетите нас на Твитеру"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Посетите нас на Леттербокд-у"
+  },
+  "validate_email_about": {
+    "other": "Да бисмо направили налог, прво морамо да верификујемо вашу адресу е-поште. Унесите своју е-пошту и послаћемо вам позивницу за регистрацију налога."
+  },
+  "validate_email_success": {
+    "other": "Порука за верификацију је послата на {{.Email}} . Проверите своју е-пошту и пратите упутства за креирање налога."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Овај емаил је већ у употреби."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Емаил за верификацију је већ послат на {{.Email}} . Проверите свој налог е-поште."
+  },
+  "validate_email_alert_success": {
+    "other": "Успех"
+  },
+  "validate_email_alert_error": {
+    "other": "Грешка!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Региструј се"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Прављење налога..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Недостаје верификациони код."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Токен за верификацију је истекао."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Ова адреса е-поште није верификована."
+  },
+  "alert_title_success": {
+    "other": "Успех"
+  },
+  "alert_title_error": {
+    "other": "Грешка!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Наведена адреса поште је за домен који је ограничен. Пријавите се код другог провајдера е-поште."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Дошло је до непознате грешке приликом провере ваше имејл адресе. Покушајте да освежите страницу или се обратите администратору сајта."
+  },
+  "signup_form_error_generic": {
+    "other": "Дошло је до непознате грешке приликом креирања налога. Покушајте да освежите страницу или се обратите администратору сајта."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Поновите проверу е-поште"
+  },
+  "auth_selector_info": {
+    "other": "За куповину овог садржаја потребан је налог."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Већ сте члан? Пријавите се"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Региструј се"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "или"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Е-порука за верификацију је већ послата. Проверите свој налог е-поште."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Е-пошта није важећа."
+  },
+  "validate_email_error_email_required": {
+    "other": "Имејл је обавезан."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Овај емаил је већ у употреби."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Наведена адреса поште је за домен који је ограничен. Пријавите се код другог провајдера е-поште."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Потребан је ПИН код."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Пријаве су тренутно онемогућене."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Превише захтева. Покушајте поново касније."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Валидација е-поште је тренутно онемогућена."
+  },
+  "validate_email_error_generic": {
+    "other": "Дошло је до непознате грешке приликом верификације достављене е-поште. Покушајте да освежите страницу или се обратите администратору сајта."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Овај емаил је већ у употреби."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Дошло је до непознате грешке у вашој сесији куповине. Покушајте да освежите страницу или се обратите администратору сајта."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Пријавите се"
+  },
+  "verify_email_success_page_header": {
+    "other": "Потврдити своју емаил"
+  },
+  "verify_email_success_page_message": {
+    "other": "Да бисмо били сигурни да сте заиста ви, послали смо везу за верификацију на вашу е-пошту."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Ако не можете да га пронађете, проверите своју нежељену пошту."
+  },
+  "verify_email_success_page_back": {
+    "other": "Нисте примили имејл?"
   },
   "sso_error_admin_requires_mfa": {
     "other": "Немогућност логовања. Из безбедносних разлога, администраторски налози захтевају вишефакторску аутентификацију."

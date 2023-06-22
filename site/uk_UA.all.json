@@ -214,7 +214,7 @@
     "other": "Немає облікового запису? Створити новий обліковий запис"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Уже маєте обліковий запис? Увійти"
+    "other": "Вже є аккаунт?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Ця електронна адреса вже використовується."
@@ -1571,6 +1571,147 @@
   },
   "new_card_error_timed_out": {
     "other": "Під час додавання цієї картки сталася помилка. Повторіть спробу пізніше або скористайтеся іншою карткою."
+  },
+  "tv_app_badge_title": {
+    "other": "Доступно в додатках для телевізора"
+  },
+  "app_badge_fire_tv": {
+    "other": "Отримайте його на Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Завантажте на Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Отримайте його на Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Відвідайте нас в Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Підпишіться на Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Відвідайте нас на Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Відвідайте нас у Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Відвідайте нас на Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Щоб створити обліковий запис, ми повинні спочатку підтвердити вашу електронну адресу. Введіть свою електронну адресу, і ми надішлемо запрошення на реєстрацію облікового запису."
+  },
+  "validate_email_success": {
+    "other": "Електронний лист для підтвердження надіслано на {{.Email}} . Перевірте свою електронну пошту та дотримуйтесь інструкцій щодо створення облікового запису."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Ця електронна адреса вже використовується."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Електронний лист для підтвердження вже надіслано на {{.Email}} . Перевірте свій обліковий запис електронної пошти."
+  },
+  "validate_email_alert_success": {
+    "other": "Успіх"
+  },
+  "validate_email_alert_error": {
+    "other": "Помилка!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Створити акаунт"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Створення облікового запису..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Відсутній код підтвердження."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Термін дії маркера підтвердження минув."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Ця електронна адреса не була підтверджена."
+  },
+  "alert_title_success": {
+    "other": "Успіх"
+  },
+  "alert_title_error": {
+    "other": "Помилка!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Надана адреса електронної пошти призначена для обмеженого домену. Зареєструйтеся в іншого постачальника електронної пошти."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Під час перевірки адреси електронної пошти сталася невідома помилка. Спробуйте оновити сторінку або зверніться до адміністратора сайту."
+  },
+  "signup_form_error_generic": {
+    "other": "Під час створення облікового запису сталася невідома помилка. Спробуйте оновити сторінку або зверніться до адміністратора сайту."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Повторіть перевірку електронної пошти"
+  },
+  "auth_selector_info": {
+    "other": "Щоб придбати цей вміст, потрібен обліковий запис."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Вже учасник? Увійти"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Створити акаунт"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "або"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Електронний лист для підтвердження вже надіслано. Перевірте свій обліковий запис електронної пошти."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Електронна адреса недійсна."
+  },
+  "validate_email_error_email_required": {
+    "other": "Потрібна електронна адреса."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Ця електронна адреса вже використовується."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Надана адреса електронної пошти призначена для обмеженого домену. Зареєструйтеся в іншого постачальника електронної пошти."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Необхідно ввести PIN-код."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Реєстрацію наразі вимкнено."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Забагато запитів, спробуйте пізніше."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Перевірку електронної пошти наразі вимкнено."
+  },
+  "validate_email_error_generic": {
+    "other": "Під час перевірки наданої електронної пошти сталася невідома помилка. Спробуйте оновити сторінку або зверніться до адміністратора сайту."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Ця електронна адреса вже використовується."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Під час сеансу покупок сталася невідома помилка. Спробуйте оновити сторінку або зверніться до адміністратора сайту."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Увійти"
+  },
+  "verify_email_success_page_header": {
+    "other": "Підтвердьте свою електронну адресу"
+  },
+  "verify_email_success_page_message": {
+    "other": "Щоб переконатися, що це дійсно ви, ми надіслали на вашу електронну адресу посилання для підтвердження."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Якщо ви не можете його знайти, перевірте спам."
+  },
+  "verify_email_success_page_back": {
+    "other": "Не отримали електронного листа?"
   },
   "sso_error_admin_requires_mfa": {
     "other": "Неможливо увійти. З міркувань безпеки для облікових записів адміністраторів потрібна багатофакторна автентифікація."

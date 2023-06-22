@@ -215,7 +215,7 @@
     "other": "Não tem uma conta? Criar uma conta"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Já possui uma conta? Acessar sua conta"
+    "other": "já tem uma conta?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Esse endereço de e-mail já está em uso."
@@ -1515,6 +1515,147 @@
   },
   "new_card_error_timed_out": {
     "other": "Algo deu errado ao adicionar esse cartão. Tente novamente mais tarde ou use um cartão diferente."
+  },
+  "tv_app_badge_title": {
+    "other": "Disponível em aplicativos de TV"
+  },
+  "app_badge_fire_tv": {
+    "other": "Baixe na Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Baixe na Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Baixe na Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Visite-nos no Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Inscreva-se no Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Visite-nos no Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Visite-nos no Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Visite-nos no Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Para criar uma conta, devemos primeiro verificar seu endereço de e-mail. Digite seu e-mail e enviaremos um convite de inscrição de conta."
+  },
+  "validate_email_success": {
+    "other": "Um e-mail de verificação foi enviado para {{.Email}} . Verifique seu e-mail e siga as instruções de criação de conta."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Esse email já está em uso."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Um e-mail de verificação já foi enviado para {{.Email}} . Verifique sua conta de e-mail."
+  },
+  "validate_email_alert_success": {
+    "other": "Sucesso"
+  },
+  "validate_email_alert_error": {
+    "other": "Erro!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Criar uma conta"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Criando conta..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Falta o código de verificação."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "O token de verificação expirou."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Este e-mail não foi verificado."
+  },
+  "alert_title_success": {
+    "other": "Sucesso"
+  },
+  "alert_title_error": {
+    "other": "Erro!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "O endereço de e-mail fornecido é para um domínio que foi restrito. Inscreva-se com um provedor de e-mail diferente."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Ocorreu um erro desconhecido ao validar seu endereço de e-mail. Tente atualizar a página ou entrar em contato com o administrador do site."
+  },
+  "signup_form_error_generic": {
+    "other": "Ocorreu um erro desconhecido ao criar sua conta. Tente atualizar a página ou entrar em contato com o administrador do site."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Repetir a validação de e-mail"
+  },
+  "auth_selector_info": {
+    "other": "É necessária uma conta para comprar este conteúdo."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "já é um membro? Entrar"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Criar uma conta"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "ou"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Um e-mail de verificação já foi enviado. Verifique sua conta de e-mail."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "O e-mail não é válido."
+  },
+  "validate_email_error_email_required": {
+    "other": "Um e-mail é necessário."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Esse email já está em uso."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "O endereço de e-mail fornecido é para um domínio que foi restrito. Inscreva-se com um provedor de e-mail diferente."
+  },
+  "validate_email_error_pin_required": {
+    "other": "É necessário um código PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "As inscrições estão desativadas no momento."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Muitos pedidos. Por favor tente mais tarde."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "A validação de e-mail está desativada no momento."
+  },
+  "validate_email_error_generic": {
+    "other": "Ocorreu um erro desconhecido ao verificar o e-mail fornecido. Tente atualizar a página ou entrar em contato com o administrador do site."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Esse email já está em uso."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Ocorreu um erro desconhecido na sua sessão de compras. Tente atualizar a página ou entrar em contato com o administrador do site."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Entrar"
+  },
+  "verify_email_success_page_header": {
+    "other": "Verifique seu e-mail"
+  },
+  "verify_email_success_page_message": {
+    "other": "Para garantir que você é realmente você, enviamos um link de verificação para o seu e-mail."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Se você não conseguir encontrá-lo, verifique seu spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Não recebeu um e-mail?"
   },
   "sso_error_admin_requires_mfa": {
     "other": "Incapaz de entrar. Por motivos de segurança, as contas de administrador exigem autenticação multifator."

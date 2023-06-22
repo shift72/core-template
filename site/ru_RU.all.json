@@ -214,7 +214,7 @@
     "other": "Не зарегистрированы? Создать новый аккаунт"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Уже есть учетная запись? войти в систему"
+    "other": "У вас уже есть аккаунт?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Этот адрес электронной почты уже используется."
@@ -1565,6 +1565,147 @@
   },
   "new_card_error_timed_out": {
     "other": "Что-то пошло не так при добавлении этой карты. Повторите попытку позже или используйте другую карту."
+  },
+  "tv_app_badge_title": {
+    "other": "Доступно в приложениях для ТВ"
+  },
+  "app_badge_fire_tv": {
+    "other": "Получите его на Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Загрузите его на Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Получить его на Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Посетите нас в Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Подпишитесь на Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Посетите нас на Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Посетите нас в Твиттере"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Посетите нас на Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Чтобы создать учетную запись, мы должны сначала подтвердить ваш адрес электронной почты. Введите адрес электронной почты, и мы вышлем приглашение для регистрации учетной записи."
+  },
+  "validate_email_success": {
+    "other": "Письмо с подтверждением отправлено на {{.Email}} . Пожалуйста, проверьте свою электронную почту и следуйте инструкциям по созданию учетной записи."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Этот электронный адрес уже используется."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Письмо с подтверждением уже отправлено на {{.Email}} . Пожалуйста, проверьте свою учетную запись электронной почты."
+  },
+  "validate_email_alert_success": {
+    "other": "Успех"
+  },
+  "validate_email_alert_error": {
+    "other": "Ошибка!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Зарегистрироваться"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Создание аккаунта..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Код подтверждения отсутствует."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Срок действия токена подтверждения истек."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Это электронное письмо не было подтверждено."
+  },
+  "alert_title_success": {
+    "other": "Успех"
+  },
+  "alert_title_error": {
+    "other": "Ошибка!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Предоставленный адрес электронной почты относится к домену, который был ограничен. Пожалуйста, зарегистрируйтесь у другого поставщика услуг электронной почты."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "При проверке адреса электронной почты произошла неизвестная ошибка. Попробуйте обновить страницу или обратиться к администратору сайта."
+  },
+  "signup_form_error_generic": {
+    "other": "При создании учетной записи произошла неизвестная ошибка. Попробуйте обновить страницу или обратиться к администратору сайта."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Повторить проверку электронной почты"
+  },
+  "auth_selector_info": {
+    "other": "Для покупки этого контента необходима учетная запись."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Уже вступил? Войти"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Зарегистрироваться"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "или"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Письмо с подтверждением уже отправлено. Пожалуйста, проверьте свою учетную запись электронной почты."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Электронная почта недействительна."
+  },
+  "validate_email_error_email_required": {
+    "other": "Необходимо указать адрес электронной почты."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Этот электронный адрес уже используется."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Предоставленный адрес электронной почты относится к домену, который был ограничен. Пожалуйста, зарегистрируйтесь у другого поставщика услуг электронной почты."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Требуется PIN-код."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "В настоящее время регистрация отключена."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Пожалуйста, повторите попытку позже."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Проверка электронной почты в настоящее время отключена."
+  },
+  "validate_email_error_generic": {
+    "other": "При проверке указанного адреса электронной почты произошла неизвестная ошибка. Попробуйте обновить страницу или обратиться к администратору сайта."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Этот электронный адрес уже используется."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Во время сеанса покупок произошла неизвестная ошибка. Попробуйте обновить страницу или обратиться к администратору сайта."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Войти"
+  },
+  "verify_email_success_page_header": {
+    "other": "Подтвердите Ваш электронный адрес"
+  },
+  "verify_email_success_page_message": {
+    "other": "Чтобы убедиться, что вы действительно являетесь собой, мы отправили ссылку для подтверждения на ваш адрес электронной почты."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Если не можете найти, проверьте спам."
+  },
+  "verify_email_success_page_back": {
+    "other": "Не получили письмо?"
   },
   "sso_error_admin_requires_mfa": {
     "other": "Невозможно войти. Из соображений безопасности для учетных записей администратора требуется многофакторная аутентификация."

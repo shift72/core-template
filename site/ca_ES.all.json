@@ -215,7 +215,7 @@
     "other": "No teniu un compte? Crear un nou compte"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Ja tens un compte? Inicieu la sessió"
+    "other": "Ja tens un compte?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Aquesta adreça de correu electrònic ja està en ús."
@@ -1511,6 +1511,147 @@
   },
   "new_card_error_timed_out": {
     "other": "S'ha produït un error en afegir aquesta targeta. Torneu-ho a provar més tard o utilitzeu una altra targeta."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Visita'ns a Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Subscriu-te a Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Visita'ns a Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Visita'ns a Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Visita'ns a Letterboxd"
+  },
+  "tv_app_badge_title": {
+    "other": "Disponible a les aplicacions de televisió"
+  },
+  "app_badge_fire_tv": {
+    "other": "Obteniu-lo a Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Obteniu-lo a Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Aconsegueix-ho a Apple TV"
+  },
+  "validate_email_about": {
+    "other": "Per crear un compte primer hem de verificar la vostra adreça de correu electrònic. Introduïu el vostre correu electrònic i us enviarem una invitació per registrar-vos."
+  },
+  "validate_email_success": {
+    "other": "S&#39;ha enviat un correu electrònic de verificació a {{.Email}} . Si us plau, comproveu el vostre correu electrònic i seguiu les instruccions de creació del compte."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Aquest correu electrònic ja està en ús."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Ja s&#39;ha enviat un correu electrònic de verificació a {{.Email}} . Comproveu el vostre compte de correu electrònic."
+  },
+  "validate_email_alert_success": {
+    "other": "Èxit"
+  },
+  "validate_email_alert_error": {
+    "other": "Error!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Crear compte"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "S'està creant un compte..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Falta el codi de verificació."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "El testimoni de verificació ha caducat."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Aquest correu electrònic no s'ha verificat."
+  },
+  "alert_title_success": {
+    "other": "Èxit"
+  },
+  "alert_title_error": {
+    "other": "Error!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "L'adreça de correu proporcionada és per a un domini que s'ha restringit. Si us plau, registreu-vos amb un altre proveïdor de correu electrònic."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "S'ha produït un error desconegut en validar la vostra adreça de correu electrònic. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "signup_form_error_generic": {
+    "other": "S'ha produït un error desconegut en crear el vostre compte. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Torna a provar la validació del correu electrònic"
+  },
+  "auth_selector_info": {
+    "other": "Es necessita un compte per comprar aquest contingut."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Ja ets membre? Inicia sessió"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Crear compte"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "o"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Ja s'ha enviat un correu electrònic de verificació. Comproveu el vostre compte de correu electrònic."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "El correu electrònic no és vàlid."
+  },
+  "validate_email_error_email_required": {
+    "other": "Es requereix un correu electrònic."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Aquest correu electrònic ja està en ús."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "L'adreça de correu proporcionada és per a un domini que s'ha restringit. Si us plau, registreu-vos amb un altre proveïdor de correu electrònic."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Cal un codi PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Actualment, les inscripcions estan desactivades."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Hi ha massa sol·licituds, torneu-ho a provar més tard."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "La validació del correu electrònic està desactivada actualment."
+  },
+  "validate_email_error_generic": {
+    "other": "S'ha produït un error desconegut en verificar el correu electrònic subministrat. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Aquest correu electrònic ja està en ús."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "S'ha produït un error desconegut amb la vostra sessió de compra. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Inicia sessió"
+  },
+  "verify_email_success_page_header": {
+    "other": "Verifica el teu correu electrònic"
+  },
+  "verify_email_success_page_message": {
+    "other": "Per assegurar-nos que ets realment tu, hem enviat un enllaç de verificació al teu correu electrònic."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Si no el trobeu, comproveu el vostre correu brossa."
+  },
+  "verify_email_success_page_back": {
+    "other": "No has rebut cap correu electrònic?"
   },
   "sso_error_admin_requires_mfa": {
     "other": "No es pot iniciar sessió. Per motius de seguretat, els comptes d'administrador requereixen l'autenticació multifactor."

@@ -215,7 +215,7 @@
     "other": "還沒有帳號？立即加入"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "已有帳號？立即登入"
+    "other": "已有帳戶？"
   },
   "signup_form_error_email_already_in_use": {
     "other": "此電子郵件已被使用。"
@@ -1498,6 +1498,147 @@
   },
   "new_card_error_timed_out": {
     "other": "添加該卡時出現問題。請稍後再試或使用其他卡。"
+  },
+  "tv_app_badge_title": {
+    "other": "在電視應用程序上可用"
+  },
+  "app_badge_fire_tv": {
+    "other": "在 Amazon Fire TV 上獲取"
+  },
+  "app_badge_android_tv": {
+    "other": "在 Android TV 上獲取它"
+  },
+  "app_badge_apple_tv": {
+    "other": "在 Apple TV 上獲取它"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "在 Instagram 上訪問我們"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "在 Youtube 上訂閱"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "在 Facebook 上訪問我們"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "在推特上訪問我們"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "在 Letterboxd 上訪問我們"
+  },
+  "validate_email_about": {
+    "other": "要創建帳戶，我們必須首先驗證您的電子郵件地址。輸入您的電子郵件，我們將發送帳戶註冊邀請。"
+  },
+  "validate_email_success": {
+    "other": "驗證電子郵件已發送至{{.Email}} 。請檢查您的電子郵件並按照帳戶創建說明進行操作。"
+  },
+  "validate_email_email_already_in_use": {
+    "other": "此電子郵件已被使用。"
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "驗證電子郵件已發送至{{.Email}} 。請檢查您的電子郵件帳戶。"
+  },
+  "validate_email_alert_success": {
+    "other": "成功"
+  },
+  "validate_email_alert_error": {
+    "other": "錯誤！"
+  },
+  "validate_email_submit_button_text": {
+    "other": "創建賬戶"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "創建帳戶..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "缺少驗證碼。"
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "驗證令牌已過期。"
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "此電子郵件尚未經過驗證。"
+  },
+  "alert_title_success": {
+    "other": "成功"
+  },
+  "alert_title_error": {
+    "other": "錯誤！"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "提供的郵件地址用於已受限制的域。請註冊不同的電子郵件提供商。"
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "驗證您的電子郵件地址時出現未知錯誤。嘗試刷新頁面或聯繫您的站點管理員。"
+  },
+  "signup_form_error_generic": {
+    "other": "創建您的帳戶時出現未知錯誤。嘗試刷新頁面或聯繫您的網站管理員。"
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "重試電子郵件驗證"
+  },
+  "auth_selector_info": {
+    "other": "購買此內容需要一個帳戶。"
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "已經是會員？登入"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "創建賬戶"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "或者"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "驗證電子郵件已發送。請檢查您的電子郵件帳戶。"
+  },
+  "validate_email_error_email_invalid": {
+    "other": "電子郵件無效。"
+  },
+  "validate_email_error_email_required": {
+    "other": "需要一封電郵。"
+  },
+  "validate_email_error_email_taken": {
+    "other": "此電子郵件已被使用。"
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "提供的郵件地址用於已受限制的域。請註冊不同的電子郵件提供商。"
+  },
+  "validate_email_error_pin_required": {
+    "other": "需要 PIN 碼。"
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "目前已禁用註冊。"
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "請求過多，請稍後重試。"
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "電子郵件驗證當前已禁用。"
+  },
+  "validate_email_error_generic": {
+    "other": "驗證提供的電子郵件時出現未知錯誤。嘗試刷新頁面或聯繫您的站點管理員。"
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "此電子郵件已被使用。"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "您的購物會話出現未知錯誤。嘗試刷新頁面或聯繫您的網站管理員。"
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "登入"
+  },
+  "verify_email_success_page_header": {
+    "other": "驗證您的電子郵件"
+  },
+  "verify_email_success_page_message": {
+    "other": "為確保您是真實的您，我們已將驗證鏈接發送到您的電子郵箱。"
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "如果找不到，請檢查您的垃圾郵件。"
+  },
+  "verify_email_success_page_back": {
+    "other": "沒有收到電子郵件？"
   },
   "sso_error_admin_requires_mfa": {
     "other": "無法登入。出於安全原因，管理員帳戶需要多重身份驗證。"

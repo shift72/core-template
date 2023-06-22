@@ -6,9 +6,11 @@ This template supports the following features:
 * Template only pages (robots.txt and sitemap.txt are examples)
 * Internationalization
 
-## Building
+## Getting started
 
- * install kibble
- * ```kibble render``` - generate a new site (files are located at ```.kibble/build```)
- * ```kibble serve --watch``` to preview the site
+ * `npm install`
+ * `npm start` will build and start the site in watch mode
 
+## Running local content
+
+To use a local version of relish, update [application.jet](site/templates/application/application.jet) to set the CDN to: `{{CDN := "//localhost:3000"}}`.

@@ -192,7 +192,7 @@
     "other": "Eikö sinulla ole tiliä? Luo uusi tili"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Onko sinulla jo tili? Kirjaudu sisään"
+    "other": "Onko sinulla jo tili?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Sähköpostiosoite on jo käytössä."
@@ -1511,6 +1511,147 @@
   },
   "new_card_error_timed_out": {
     "other": "Jotain meni pieleen korttia lisättäessä. Yritä myöhemmin uudelleen tai käytä toista korttia."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Vieraile meillä Instagramissa"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Tilaa Youtubessa"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Vieraile Facebookissa"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Vieraile Twitterissä"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Vieraile meillä Letterboxdissa"
+  },
+  "tv_app_badge_title": {
+    "other": "Saatavilla TV-sovelluksissa"
+  },
+  "app_badge_fire_tv": {
+    "other": "Hanki se Amazon Fire TV:stä"
+  },
+  "app_badge_android_tv": {
+    "other": "Lataa se Android TV:hen"
+  },
+  "app_badge_apple_tv": {
+    "other": "Lataa se Apple TV:stä"
+  },
+  "validate_email_about": {
+    "other": "Tilin luomiseksi meidän on ensin vahvistettava sähköpostiosoitteesi. Kirjoita sähköpostiosoitteesi, niin lähetämme kutsun tilin rekisteröintiin."
+  },
+  "validate_email_success": {
+    "other": "Vahvistussähköposti on lähetetty osoitteeseen {{.Email}} . Tarkista sähköpostisi ja seuraa tilin luomisohjeita."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Tämä sähköpostiosoite on jo käytössä."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Vahvistussähköposti on jo lähetetty osoitteeseen {{.Email}} . Tarkista sähköpostitilisi."
+  },
+  "validate_email_alert_success": {
+    "other": "Menestys"
+  },
+  "validate_email_alert_error": {
+    "other": "Virhe!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Luo tili"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Luodaan tiliä..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Vahvistuskoodi puuttuu."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Vahvistustunnus on vanhentunut."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Tätä sähköpostia ei ole vahvistettu."
+  },
+  "alert_title_success": {
+    "other": "Menestys"
+  },
+  "alert_title_error": {
+    "other": "Virhe!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Annettu sähköpostiosoite on rajoitettua verkkotunnusta varten. Rekisteröidy toisen sähköpostipalvelun kautta."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Sähköpostiosoitteesi vahvistamisessa tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "signup_form_error_generic": {
+    "other": "Tiliäsi luotaessa tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Yritä sähköpostin vahvistusta uudelleen"
+  },
+  "auth_selector_info": {
+    "other": "Tämän sisällön ostamiseen tarvitaan tili."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "joko olet jäsen? Kirjaudu sisään"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Luo tili"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "tai"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Vahvistussähköposti on jo lähetetty. Tarkista sähköpostitilisi."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Sähköposti ei ole kelvollinen."
+  },
+  "validate_email_error_email_required": {
+    "other": "Sähköposti vaaditaan."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Tämä sähköpostiosoite on jo käytössä."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Annettu sähköpostiosoite on rajoitettua verkkotunnusta varten. Rekisteröidy toisen sähköpostipalvelun kautta."
+  },
+  "validate_email_error_pin_required": {
+    "other": "PIN-koodi vaaditaan."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Ilmoittautuminen on tällä hetkellä poissa käytöstä."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Liian monta pyyntöä, yritä myöhemmin uudelleen."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Sähköpostin vahvistus on tällä hetkellä poissa käytöstä."
+  },
+  "validate_email_error_generic": {
+    "other": "Toimitettua sähköpostia vahvistettaessa tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Tämä sähköpostiosoite on jo käytössä."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Ostosistunnossasi tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Kirjaudu sisään"
+  },
+  "verify_email_success_page_header": {
+    "other": "Vahvista sähköpostiosoitteesi"
+  },
+  "verify_email_success_page_message": {
+    "other": "Olemme lähettäneet sähköpostiisi vahvistuslinkin varmistaaksemme, että olet todella sinä."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Jos et löydä sitä, tarkista roskapostisi."
+  },
+  "verify_email_success_page_back": {
+    "other": "Etkö saanut sähköpostia?"
   },
   "sso_error_admin_requires_mfa": {
     "other": "Kirjautuminen ei onnistu. Turvallisuussyistä järjestelmänvalvojatilit vaativat monivaiheisen todennuksen."

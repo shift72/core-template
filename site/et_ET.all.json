@@ -212,7 +212,7 @@
     "other": "Sul pole kontot? Loo uus konto. "
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Sul juba on konto? Logi sisse."
+    "other": "On juba konto?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "E-posti aadress on juba kasutusel."
@@ -1511,6 +1511,147 @@
   },
   "new_card_error_timed_out": {
     "other": "Selle kaardi lisamisel läks midagi valesti. Proovige hiljem uuesti või kasutage teist kaarti."
+  },
+  "tv_app_badge_title": {
+    "other": "Saadaval telerirakendustes"
+  },
+  "app_badge_fire_tv": {
+    "other": "Hankige see Amazon Fire TV-st"
+  },
+  "app_badge_android_tv": {
+    "other": "Hankige see Android TV-s"
+  },
+  "app_badge_apple_tv": {
+    "other": "Hankige see Apple TV-st"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Külastage meid Instagramis"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Telli Youtube'is"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Külastage meid Facebookis"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Külastage meid Twitteris"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Külastage meid Letterboxdis"
+  },
+  "validate_email_about": {
+    "other": "Konto loomiseks peame esmalt kinnitama teie e-posti aadressi. Sisesta oma e-mail ja saadame konto registreerimiskutse."
+  },
+  "validate_email_success": {
+    "other": "Kinnitusmeil on saadetud aadressile {{.Email}} . Kontrollige oma meili ja järgige konto loomise juhiseid."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "See email on juba kasutusel."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Kinnitusmeil on juba aadressile {{.Email}} saadetud. Kontrollige oma meilikontot."
+  },
+  "validate_email_alert_success": {
+    "other": "Edu"
+  },
+  "validate_email_alert_error": {
+    "other": "Viga!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Loo konto"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Konto loomine..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Kinnituskood puudub."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Kinnitusluba on aegunud."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Seda meili pole kinnitatud."
+  },
+  "alert_title_success": {
+    "other": "Edu"
+  },
+  "alert_title_error": {
+    "other": "Viga!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Esitatud meiliaadress on piiratud domeeni jaoks. Registreeruge mõne teise meiliteenuse pakkujaga."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Teie e-posti aadressi kinnitamisel ilmnes tundmatu viga. Proovige lehte värskendada või võtta ühendust saidi administraatoriga."
+  },
+  "signup_form_error_generic": {
+    "other": "Teie konto loomisel ilmnes tundmatu viga. Proovige lehte värskendada või võtta ühendust saidi administraatoriga."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Proovige meili kinnitamist uuesti"
+  },
+  "auth_selector_info": {
+    "other": "Selle sisu ostmiseks on vaja kontot."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Oled juba liige? Logi sisse"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Loo konto"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "või"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Kinnitusmeil on juba saadetud. Kontrollige oma meilikontot."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-post ei ole kehtiv."
+  },
+  "validate_email_error_email_required": {
+    "other": "Vaja on meili."
+  },
+  "validate_email_error_email_taken": {
+    "other": "See email on juba kasutusel."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Esitatud meiliaadress on piiratud domeeni jaoks. Registreeruge mõne teise meiliteenuse pakkujaga."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Vaja on PIN-koodi."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Registreerumine on praegu keelatud."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Liiga palju taotlusi. Palun proovi hiljem uuesti."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Meili kinnitamine on praegu keelatud."
+  },
+  "validate_email_error_generic": {
+    "other": "Esitatud meili kinnitamisel ilmnes tundmatu viga. Proovige lehte värskendada või võtta ühendust saidi administraatoriga."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "See email on juba kasutusel."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Teie ostuseansil ilmnes tundmatu viga. Proovige lehte värskendada või võtta ühendust saidi administraatoriga."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Logi sisse"
+  },
+  "verify_email_success_page_header": {
+    "other": "Kinnitage oma e-posti aadress"
+  },
+  "verify_email_success_page_message": {
+    "other": "Veendumaks, et olete tõesti teie, saatsime teie meilile kinnituslingi."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Kui te seda ei leia, kontrollige oma rämpsposti."
+  },
+  "verify_email_success_page_back": {
+    "other": "Kas te ei saanud meili?"
   },
   "sso_error_admin_requires_mfa": {
     "other": "Ei saa sisse logida. Turvalisuse huvides nõuavad administraatorikontod mitmefaktorilist autentimist."

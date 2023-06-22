@@ -46,14 +46,17 @@
   }
 
   .synopsis {
+    animation: fadein 2s;
     font-size: 16px;
     font-weight: $font-weight-light;
     grid-column: 1 / 3;
     letter-spacing: 0.6px;
     line-height: 1.25;
     margin-top: 5px;
+    overflow: hidden;
 
     @include media-breakpoint-up(sm) {
+      display: block !important;
       grid-column: auto;
       grid-row: 2;
       margin-bottom: 7px;
@@ -118,4 +121,17 @@
 
 .s72-playback-progress-bar {
   background-color: var(--secondary);
+}
+
+s72-show-hide-switcher {
+  display: block;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  transition: height 0.5s ease;
+
+  .s72-toggle {
+    @include media-breakpoint-up(sm) {
+      display: none;
+    }
+  }
 }

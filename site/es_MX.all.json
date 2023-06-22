@@ -212,7 +212,7 @@
     "other": "¿No tienes una cuenta? Crear nueva cuenta"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "¿Ya tienes una cuenta? Iniciar sesión"
+    "other": "¿Ya tienes una cuenta?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Esa dirección de correo electrónico ya está en uso."
@@ -1515,6 +1515,147 @@
   },
   "new_card_error_timed_out": {
     "other": "Algo salió mal al agregar esa tarjeta. Vuelva a intentarlo más tarde o utilice una tarjeta diferente."
+  },
+  "tv_app_badge_title": {
+    "other": "Disponible en aplicaciones de TV"
+  },
+  "app_badge_fire_tv": {
+    "other": "Consíguelo en Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Consíguelo en Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Consíguelo en Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Visítanos en Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Suscríbete en Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Visítenos en Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Visítenos en Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Visítenos en Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Para crear una cuenta primero debemos verificar su dirección de correo electrónico. Ingrese su correo electrónico y le enviaremos una invitación de registro de cuenta."
+  },
+  "validate_email_success": {
+    "other": "Se ha enviado un correo electrónico de verificación a {{.Email}} . Por favor revise su correo electrónico y siga las instrucciones de creación de cuenta."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Este correo electrónico ya está en uso."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Ya se ha enviado un correo electrónico de verificación a {{.Email}} . Por favor revise su cuenta de correo electrónico."
+  },
+  "validate_email_alert_success": {
+    "other": "Éxito"
+  },
+  "validate_email_alert_error": {
+    "other": "¡Error!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Crear una cuenta"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Creando cuenta..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Falta el código de verificación."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "El token de verificación ha caducado."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Este correo electrónico no ha sido verificado."
+  },
+  "alert_title_success": {
+    "other": "Éxito"
+  },
+  "alert_title_error": {
+    "other": "¡Error!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "La dirección de correo proporcionada es para un dominio que ha sido restringido. Regístrese con un proveedor de correo electrónico diferente."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Hubo un error desconocido al validar su dirección de correo electrónico. Intente actualizar la página o comuníquese con el administrador del sitio."
+  },
+  "signup_form_error_generic": {
+    "other": "Hubo un error desconocido al crear su cuenta. Intente actualizar la página o comuníquese con el administrador del sitio."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Vuelva a intentar la validación de correo electrónico"
+  },
+  "auth_selector_info": {
+    "other": "Se necesita una cuenta para comprar este contenido."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "¿Ya eres usuario? Iniciar sesión"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Crear una cuenta"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "o"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Ya se ha enviado un correo electrónico de verificación. Por favor revise su cuenta de correo electrónico."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "El correo electrónico no es válido."
+  },
+  "validate_email_error_email_required": {
+    "other": "Se requiere un email."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Este correo electrónico ya está en uso."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "La dirección de correo proporcionada es para un dominio que ha sido restringido. Regístrese con un proveedor de correo electrónico diferente."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Se requiere un código PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Los registros están actualmente deshabilitados."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Hay demasiadas solicitudes. Por favor inténtelo más tarde."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "La validación de correo electrónico está actualmente deshabilitada."
+  },
+  "validate_email_error_generic": {
+    "other": "Hubo un error desconocido al verificar el correo electrónico proporcionado. Intente actualizar la página o comuníquese con el administrador del sitio."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Este correo electrónico ya está en uso."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Hubo un error desconocido con su sesión de compras. Intente actualizar la página o comuníquese con el administrador del sitio."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Iniciar sesión"
+  },
+  "verify_email_success_page_header": {
+    "other": "Verifique su correo electrónico"
+  },
+  "verify_email_success_page_message": {
+    "other": "Para asegurarnos de que eres realmente tú, te hemos enviado un enlace de verificación a tu correo electrónico."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Si no lo encuentras, revisa tu correo no deseado."
+  },
+  "verify_email_success_page_back": {
+    "other": "¿No recibiste un correo electrónico?"
   },
   "sso_error_admin_requires_mfa": {
     "other": "Incapaz de iniciar sesión. Por razones de seguridad, las cuentas de administrador requieren autenticación multifactor."

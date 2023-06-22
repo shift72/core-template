@@ -44,7 +44,8 @@
 .collection-page,
 .devices-page,
 .plans-page,
-.carousel-len-0 {
+.carousel-len-0,
+.verify-email-page {
   padding-top: var(--page-padding-top);
   @include media-breakpoint-up(md) {
     padding: var(--page-padding-top-md) 0 0 0;
@@ -283,4 +284,27 @@
 
 .acceptinvite-invalid-token {
   @include heading-4-style;
+}
+
+.verify-email-page {
+  @include media-breakpoint-up(xl) {
+    padding: var(--page-padding-top-lg) 0 0 0;
+  }
+
+  .page-header {
+    h1 {
+      text-align: center;
+    }
+  }
+
+  .page-content {
+    padding: 0 20px;
+    @include media-breakpoint-up(lg) {
+      padding: 0 50px;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
 }

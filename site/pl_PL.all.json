@@ -192,7 +192,7 @@
     "other": "Nie masz jeszcze konta? Utwórz nowe."
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Masz już konto? Zaloguj się."
+    "other": "Posiadasz już konto?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Podany adres e-mail jest już zarejestrowany."
@@ -449,10 +449,10 @@
     "other": "{{.Count}} dni"
   },
   "shopping_info_rental_period_duration": {
-    "one": "Wypożyczono na {{.ValueUnit}} ",
-    "few": "Wypożyczono na {{.ValueUnit}} ",
-    "many": "Wypożyczono na {{.ValueUnit}} ",
-    "other": "Wypożyczono na {{.ValueUnit}} "
+    "one": "Wypożyczenie na {{.ValueUnit}} ",
+    "few": "Wypożyczenie na {{.ValueUnit}} ",
+    "many": "Wypożyczenie na {{.ValueUnit}} ",
+    "other": "Wypożyczenie na {{.ValueUnit}} "
   },
   "shopping_info_watch_window_duration": {
     "one": "{{.Count}} godzinne okno odtwarzania. ",
@@ -795,7 +795,7 @@
     "other": "Klasyfikacja: "
   },
   "cookie_banner_message": {
-    "other": "Korzystanie z naszej witryny oznacza zgodę na wykorzystywanie plików cookie. Więcej informacji można znaleźć na <a href=\"{{.CookiePolicyURL}}\">polityka prywatności</a>."
+    "other": "Korzystanie z naszej witryny oznacza zgodę na wykorzystywanie plików cookie. <a href=\"{{.CookiePolicyURL}}\">Czytaj więcej</a>."
   },
   "cookie_banner_accept": {
     "other": "Zaakceptować"
@@ -1588,6 +1588,147 @@
   },
   "new_card_error_timed_out": {
     "other": "Coś poszło nie tak podczas dodawania tej karty. Spróbuj ponownie później lub użyj innej karty."
+  },
+  "tv_app_badge_title": {
+    "other": "Dostępne w aplikacjach telewizyjnych"
+  },
+  "app_badge_fire_tv": {
+    "other": "Pobierz go na Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Pobierz na Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Pobierz na Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Odwiedź nas na Instagramie"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Subskrybuj na Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Odwiedź nas na Facebooku"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Odwiedź nas na Twitterze"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Odwiedź nas na Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Aby utworzyć konto, musimy najpierw zweryfikować Twój adres e-mail. Wpisz swój adres e-mail, a my wyślemy zaproszenie do rejestracji konta."
+  },
+  "validate_email_success": {
+    "other": "E-mail weryfikacyjny został wysłany na {{.Email}} . Sprawdź swoją skrzynkę e-mail i postępuj zgodnie z instrukcjami tworzenia konta."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Ten email jest już w użyciu."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "E-mail weryfikacyjny został już wysłany na {{.Email}} . Sprawdź swoje konto e-mail."
+  },
+  "validate_email_alert_success": {
+    "other": "Powodzenie"
+  },
+  "validate_email_alert_error": {
+    "other": "Błąd!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Utwórz konto"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Tworzenie konta..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Brak kodu weryfikacyjnego."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Token weryfikacyjny wygasł."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Ten e-mail nie został zweryfikowany."
+  },
+  "alert_title_success": {
+    "other": "Powodzenie"
+  },
+  "alert_title_error": {
+    "other": "Błąd!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Podany adres e-mail dotyczy domeny, która została ograniczona. Zarejestruj się u innego dostawcy poczty e-mail."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Wystąpił nieznany błąd podczas sprawdzania poprawności Twojego adresu e-mail. Spróbuj odświeżyć stronę lub skontaktować się z administratorem witryny."
+  },
+  "signup_form_error_generic": {
+    "other": "Podczas tworzenia konta wystąpił nieznany błąd. Spróbuj odświeżyć stronę lub skontaktować się z administratorem witryny."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Ponów weryfikację adresu e-mail"
+  },
+  "auth_selector_info": {
+    "other": "Do zakupu tej zawartości potrzebne jest konto."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Jesteś już członkiem? Zalogować się"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Utwórz konto"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "Lub"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "E-mail weryfikacyjny został już wysłany. Sprawdź swoje konto e-mail."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Adres e-mail nie jest prawidłowy."
+  },
+  "validate_email_error_email_required": {
+    "other": "E-mail jest wymagany."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Ten email jest już w użyciu."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Podany adres e-mail dotyczy domeny, która została ograniczona. Zarejestruj się u innego dostawcy poczty e-mail."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Wymagany jest kod PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Rejestracje są obecnie wyłączone."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Zbyt wiele zapytań. Spróbuj ponownie później."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Weryfikacja adresu e-mail jest obecnie wyłączona."
+  },
+  "validate_email_error_generic": {
+    "other": "Podczas weryfikacji podanego adresu e-mail wystąpił nieznany błąd. Spróbuj odświeżyć stronę lub skontaktować się z administratorem witryny."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Ten email jest już w użyciu."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Wystąpił nieznany błąd podczas sesji zakupowej. Spróbuj odświeżyć stronę lub skontaktować się z administratorem witryny."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Zalogować się"
+  },
+  "verify_email_success_page_header": {
+    "other": "zweryfikuj swój email"
+  },
+  "verify_email_success_page_message": {
+    "other": "Aby upewnić się, że to naprawdę ty, wysłaliśmy link weryfikacyjny na Twój adres e-mail."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Jeśli nie możesz go znaleźć, sprawdź spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Nie otrzymałeś wiadomości e-mail?"
   },
   "sso_error_admin_requires_mfa": {
     "other": "Niezdolny do logowania. Ze względów bezpieczeństwa konta administratora wymagają uwierzytelniania wieloskładnikowego."

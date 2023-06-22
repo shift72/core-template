@@ -3,6 +3,7 @@
 {{import "./nav.jet"}}
 {{import "./app-badges.jet"}}
 {{import "./sponsor-banner.jet"}}
+{{import "./social-media-buttons.jet"}}
 
 {{block footer()}}
 
@@ -15,6 +16,8 @@
     {{yield footerBrand()}}
 
     {{yield footerNav(navLinks=site.Navigation.Footer)}}
+
+    {{yield footerSocialMediaButtons()}}
 
     {{yield footerInfo()}}
   </footer>

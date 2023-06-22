@@ -200,7 +200,7 @@
     "other": "Sie haben noch kein Konto? Hier registrieren"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Sie haben bereits ein Konto? Hier anmelden"
+    "other": "Sie haben bereits ein Konto?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Diese E-Mail-Adresse ist bereits registriert."
@@ -1511,6 +1511,147 @@
   },
   "new_card_error_timed_out": {
     "other": "Beim Hinzufügen dieser Karte ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut oder verwenden Sie eine andere Karte."
+  },
+  "tv_app_badge_title": {
+    "other": "Verfügbar in TV-Apps"
+  },
+  "app_badge_fire_tv": {
+    "other": "Holen Sie es sich auf Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Holen Sie es sich auf Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Hol es dir auf Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Besuchen Sie uns auf Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Abonnieren Sie auf Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Besuchen Sie uns auf Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Besuchen Sie uns auf Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Besuchen Sie uns auf Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Um ein Konto zu erstellen, müssen wir zuerst Ihre E-Mail-Adresse verifizieren. Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen eine Einladung zur Kontoregistrierung."
+  },
+  "validate_email_success": {
+    "other": "Eine Bestätigungs-E-Mail wurde an {{.Email}} gesendet. Bitte überprüfen Sie Ihre E-Mails und befolgen Sie die Anweisungen zur Kontoerstellung."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Diese E-Mail-Adresse wird schon verwendet."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Eine Bestätigungs-E-Mail wurde bereits an {{.Email}} gesendet. Bitte überprüfen Sie Ihr E-Mail-Konto."
+  },
+  "validate_email_alert_success": {
+    "other": "Erfolg"
+  },
+  "validate_email_alert_error": {
+    "other": "Fehler!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Benutzerkonto erstellen"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Account erstellen..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Bestätigungscode fehlt."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Das Verifizierungstoken ist abgelaufen."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Diese E-Mail wurde nicht bestätigt."
+  },
+  "alert_title_success": {
+    "other": "Erfolg"
+  },
+  "alert_title_error": {
+    "other": "Fehler!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Die angegebene E-Mail-Adresse gehört zu einer eingeschränkten Domain. Bitte melden Sie sich bei einem anderen E-Mail-Anbieter an."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Beim Überprüfen Ihrer E-Mail-Adresse ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
+  },
+  "signup_form_error_generic": {
+    "other": "Beim Erstellen Ihres Kontos ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "E-Mail-Validierung erneut versuchen"
+  },
+  "auth_selector_info": {
+    "other": "Zum Kauf dieser Inhalte ist ein Konto erforderlich."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Schon ein Mitglied? anmelden"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Benutzerkonto erstellen"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "oder"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Eine Bestätigungs-E-Mail wurde bereits gesendet. Bitte überprüfen Sie Ihr E-Mail-Konto."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-Mail ist nicht gültig."
+  },
+  "validate_email_error_email_required": {
+    "other": "Eine Email ist erforderlich."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Diese E-Mail-Adresse wird schon verwendet."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Die angegebene E-Mail-Adresse gehört zu einer eingeschränkten Domain. Bitte melden Sie sich bei einem anderen E-Mail-Anbieter an."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Ein PIN-Code ist erforderlich."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Anmeldungen sind derzeit deaktiviert."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Zu viele Anfragen. Bitte versuchen Sie es später noch einmal."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Die E-Mail-Validierung ist derzeit deaktiviert."
+  },
+  "validate_email_error_generic": {
+    "other": "Beim Verifizieren der angegebenen E-Mail ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Diese E-Mail-Adresse wird schon verwendet."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Bei Ihrer Einkaufssitzung ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "anmelden"
+  },
+  "verify_email_success_page_header": {
+    "other": "Bestätigen Sie Ihre E-Mail"
+  },
+  "verify_email_success_page_message": {
+    "other": "Um sicherzustellen, dass Sie wirklich Sie sind, haben wir einen Bestätigungslink an Ihre E-Mail-Adresse gesendet."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Wenn Sie es nicht finden können, überprüfen Sie Ihren Spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Keine E-Mail erhalten?"
   },
   "sso_error_admin_requires_mfa": {
     "other": "Anmeldung nicht möglich. Aus Sicherheitsgründen benötigen Administratorkonten eine mehrstufige Authentifizierung."

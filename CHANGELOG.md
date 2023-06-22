@@ -1,10 +1,50 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.6.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.1...HEAD)
+
+### Changed
+- Nav mobile top padding to meet design spec
+
+### Fixed
+- GA4 tracking of ecommerce data
+
+## [1.9.1](https://github.com/shift72/core-template/compare/1.9.0...1.9.1)
+
+### Changed
+- Bumped base version of relish to 1.4.x
+
+## [1.9.0](https://github.com/shift72/core-template/compare/1.8.0...1.9.0)
+
+### Added
+- Support for Relish email verification 
+
+### Fixed
+- Border radius for longer width buttons
+
+
+## [1.8.0](https://github.com/shift72/core-template/compare/1.7.0...1.8.0)
+
+### Added
+- CSS for the new purchase flow.
+- Social links in the footer.
+- TV app banners in the footer.
+
+### Fixed
+- Links to specific episodes from collections (inc homepage carousel).
+- 60 mins runtime now shows as 1h 0m.
+
+## [1.7.0](https://github.com/shift72/core-template/compare/1.6.0...1.7.0)
+
+### Added
+- Bonus content and episode show/hide component.
+
+### Changed
+- Modified powered_by_url translations.
+- Various spacing style changes.
 
 ### Fixed
 - Pricing buttons no longer get squashed in Firefox.
-- Spacing issues on small screens
+- Spacing issues on small screens.
 
 ## [1.6.0](https://github.com/shift72/core-template/compare/1.5.1...1.6.0)
 
