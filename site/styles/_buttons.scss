@@ -43,11 +43,11 @@
 }
 // OAuth
 .s72-oauth-buttons {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   flex-direction: column;
   gap: 20px;
+  justify-content: center;
   margin-top: 10px;
 
   .btn-sso {
