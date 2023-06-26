@@ -62,7 +62,7 @@ footer {
   grid-auto-flow: column;
   grid-template-rows: 1fr;
   justify-content: center;
-
+  margin-left: auto;
   padding: 0 16px 16px;
 
   @include media-breakpoint-up(xl) {
@@ -90,7 +90,7 @@ footer {
   align-items: center;
   background-color: var(--footer-social-bg);
   border-radius: 50%;
-
+  color: var(--footer-social-icon);
   display: flex;
   height: 32px;
   justify-content: center;
@@ -98,16 +98,10 @@ footer {
 
   &:hover {
     background-color: var(--footer-social-bg-hover);
-  }
-
-  svg path {
-    fill: var(--footer-social-icon);
-
-    &:hover {
-      fill: var(--footer-social-icon-hover);
-    }
+    color: var(--footer-social-icon-hover);
   }
 }
+
 
 .footer-info {
   background-color: $footer-bar-background-color;
