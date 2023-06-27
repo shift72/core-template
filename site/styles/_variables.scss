@@ -85,11 +85,22 @@
   --signin-background-hover: var(--hover-background);
   --signin-background-lg: transparent;
   --signin-background-hover-lg: transparent;
-
   --signout-background: rgba(var(--body-color-rgb), 0.1);
   --signout-background-hover: rgba(var(--body-color-rgb), 0.2);
   --signout-text-color: var(--body-color);
   --signout-text-color-hover: var(--body-color);
+
+  // Buttons
+  --button-text-color: var(--body-bg);
+  --button-text-color-hover: var(--body-bg);
+  --button-background: var(--primary);
+  --button-background-hover: var(--secondary);
+  --trailer-button-text-color: var(--body-color);
+  --mobile-nav-link-color: var(--body-color);
+  --signin-sso-btn-text-color: var(--button-text-color);
+  --signin-sso-btn-text-hover-color: var(--button-text-color-hover);
+  --signin-sso-btn-background-color: var(--button-background);
+  --signin-sso-btn-background-hover-color: var(--button-background-hover);
 
   --carousel-height: 75vh;
   --carousel-height-sm: 75vh;
@@ -251,12 +262,12 @@ $navbar-dark-color: var(--body-color) !default;
 $navbar-dark-hover-color: #fd4766 !default;
 
 // Buttons
-$button-text-color: var(--body-bg) !default;
-$button-text-color-hover: var(--body-bg) !default;
-$button-background: var(--primary) !default;
-$button-background-hover: var(--secondary) !default;
-$trailer-button-text-color: var(--body-color) !default;
-$mobile-nav-link-color: var(--body-color) !default;
+$button-text-color: var(--button-text-color) !default;
+$button-text-color-hover: var(--button-text-color-hover) !default;
+$button-background: var(--button-background) !default;
+$button-background-hover: var(--button-background-hover) !default;
+$trailer-button-text-color: var(--trailer-button-text-color) !default;
+$mobile-nav-link-color: var(--mobile-nav-link-color) !default;
 
 $signup-text-color: $button-text-color !default;
 $signup-text-color-hover: $button-text-color-hover !default;

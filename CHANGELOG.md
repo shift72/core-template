@@ -5,6 +5,8 @@
 ### Added
 - Configuration to change or remove the forgot password link
 - Configuration to change or remove the my account link
+- Styling for SSO buttons
+- CSS variables for change default button colors
 
 ### Changed
 - Nav mobile top padding to meet design spec
