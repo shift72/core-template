@@ -10,7 +10,17 @@
       <h1>{{ i18n("signin_page_header") }}</h1>
       {{forgot_password_link := config("forgot_password_link")}}
       {{if forgot_password_link != "hide"}}
-        <p><a href="{{ forgot_password_link == "" ? routeToPath("/forgotpassword.html") : forgot_password_link }}">{{ i18n("signin_page_forgotpassword")}}</a></p>
+        {{forgot_password_href := forgot_password_link == "" ? routeToPath("/forgotpassword.html") : forgot_password_link}}
+        <p>
+          <a 
+            href="{{forgot_password_href}}"
+            {{if forgot_password_link != ""}}
+              target="_blank"
+            {{end}}
+          >
+            {{ i18n("signin_page_forgotpassword")}}
+          </a>
+        </p>
       {{end}}
     </div>
     <div class="page-form">
