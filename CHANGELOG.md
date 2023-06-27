@@ -4,6 +4,7 @@
 
 ### Added
 - Configuration to change or remove the forgot password link
+- Configuration to change or remove the my account link
 
 ### Changed
 - Nav mobile top padding to meet design spec
