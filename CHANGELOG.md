@@ -13,6 +13,7 @@
 
 ### Fixed
 - GA4 tracking of ecommerce data
+- Form control styling bug in 1.9.1
 
 ## [1.9.1](https://github.com/shift72/core-template/compare/1.9.0...1.9.1)
 
