@@ -3,6 +3,7 @@
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.1...HEAD)
 
 ### Added
+- Configuration to change or remove the forgot password link
 - linkedin social link
 
 ### Changed

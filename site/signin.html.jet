@@ -8,7 +8,10 @@
   <main id="main" class="page form-page">
     <div class="page-header">
       <h1>{{ i18n("signin_page_header") }}</h1>
-      <p><a href="{{ routeToPath("/forgotpassword.html") }}">{{ i18n("signin_page_forgotpassword")}}</a></p>
+      {{forgot_password_link := config("forgot_password_link")}}
+      {{if forgot_password_link != "hide"}}
+        <p><a href="{{ forgot_password_link == "" ? routeToPath("/forgotpassword.html") : forgot_password_link }}">{{ i18n("signin_page_forgotpassword")}}</a></p>
+      {{end}}
     </div>
     <div class="page-form">
       <div class="form-container">
