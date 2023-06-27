@@ -8,9 +8,9 @@
           <li class="nav-item {{ len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : "" }}">
             <a class="nav-link" href="{{ len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug) }}">{{ .Label }}</a>
           </li>
-         {{ end }}
-       </ul>
-      {{ end }}
+        {{ end }}
+      </ul>
+    {{ end }}
     {{ yield footerSocialMediaButtons() }}
   </nav>
 {{ end }}

@@ -41,9 +41,9 @@ footer {
   }
 
   .nav-link {
-    text-align: center;
-    padding-top: 0px;
     padding-bottom: 16px;
+    padding-top: 0;
+    text-align: center;
     @include media-breakpoint-up(xl) {
       margin-right: 20px;
       padding: 0;
@@ -101,7 +101,6 @@ footer {
     color: var(--footer-social-icon-hover);
   }
 }
-
 
 .footer-info {
   background-color: $footer-bar-background-color;
