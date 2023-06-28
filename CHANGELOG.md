@@ -7,9 +7,11 @@
 - Configuration to change or remove the my account link
 - Styling for SSO buttons
 - CSS variables for change default button colors
+- linkedin social link
 
 ### Changed
 - Nav mobile top padding to meet design spec
+- Social link redesign
 
 ### Fixed
 - GA4 tracking of ecommerce data
