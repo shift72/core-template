@@ -25,12 +25,10 @@ footer {
   @include media-breakpoint-up(xl) {
     align-items: center;
     display: flex;
-    justify-content: space-between;
     margin: 0 50px;
   }
 
   .nav {
-    display: flex;
     flex-direction: column;
     justify-content: center;
 
@@ -63,11 +61,9 @@ footer {
   grid-template-rows: 1fr;
   justify-content: center;
   margin-left: auto;
-  padding: 0 16px 16px;
 
   @include media-breakpoint-up(xl) {
     justify-content: start;
-    padding: 0;
   }
 
   .s72-btn {
