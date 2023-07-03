@@ -449,10 +449,10 @@
     "other": "{{.Count}} dni"
   },
   "shopping_info_rental_period_duration": {
-    "one": "Wypożyczono na {{.ValueUnit}} ",
-    "few": "Wypożyczono na {{.ValueUnit}} ",
-    "many": "Wypożyczono na {{.ValueUnit}} ",
-    "other": "Wypożyczono na {{.ValueUnit}} "
+    "one": "Wypożyczenie na {{.ValueUnit}} ",
+    "few": "Wypożyczenie na {{.ValueUnit}} ",
+    "many": "Wypożyczenie na {{.ValueUnit}} ",
+    "other": "Wypożyczenie na {{.ValueUnit}} "
   },
   "shopping_info_watch_window_duration": {
     "one": "{{.Count}} godzinne okno odtwarzania. ",
@@ -795,7 +795,7 @@
     "other": "Klasyfikacja: "
   },
   "cookie_banner_message": {
-    "other": "Korzystanie z naszej witryny oznacza zgodę na wykorzystywanie plików cookie. Więcej informacji można znaleźć na <a href=\"{{.CookiePolicyURL}}\">polityka prywatności</a>."
+    "other": "Korzystanie z naszej witryny oznacza zgodę na wykorzystywanie plików cookie. <a href=\"{{.CookiePolicyURL}}\">Czytaj więcej</a>."
   },
   "cookie_banner_accept": {
     "other": "Zaakceptować"

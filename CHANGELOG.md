@@ -2,6 +2,24 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.1...HEAD)
 
+
+## [1.9.2](https://github.com/shift72/core-template/compare/1.9.1...1.9.2)
+
+### Added
+- Configuration to change or remove the forgot password link
+- Configuration to change or remove the my account link
+- Styling for SSO buttons
+- CSS variables for change default button colors
+- linkedin social link
+
+### Changed
+- Nav mobile top padding to meet design spec
+- Social link redesign
+
+### Fixed
+- GA4 tracking of ecommerce data
+- Form control styling bug in 1.9.1
+
 ## [1.9.1](https://github.com/shift72/core-template/compare/1.9.0...1.9.1)
 
 ### Changed
