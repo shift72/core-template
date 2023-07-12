@@ -1656,5 +1656,8 @@
   },
   "verify_email_success_page_back": {
     "other": "Vous n'avez pas reçu d'e-mail ?"
+  },
+  "external_purchase_button_text": {
+    "other": "Achat"
   }
 }

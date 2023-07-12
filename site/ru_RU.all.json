@@ -1706,5 +1706,8 @@
   },
   "verify_email_success_page_back": {
     "other": "Не получили письмо?"
+  },
+  "external_purchase_button_text": {
+    "other": "Покупка"
   }
 }

@@ -1652,5 +1652,8 @@
   },
   "verify_email_success_page_back": {
     "other": "Nem kapott e-mailt?"
+  },
+  "external_purchase_button_text": {
+    "other": "Vásárlás"
   }
 }

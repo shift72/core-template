@@ -1716,5 +1716,8 @@
   },
   "verify_email_success_page_back": {
     "other": "ألم تتلق بريدًا إلكترونيًا؟"
+  },
+  "external_purchase_button_text": {
+    "other": "شراء"
   }
 }

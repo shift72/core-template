@@ -12,13 +12,21 @@
 
   {{showPricingButtons := isFilm || isSeason || isBundle}}
   {{showPlayButton := isFilm || isSeason || isEpisode}}
-  {{showCanBeWatchedButton := isFilm}}
   {{showTrailerButton := trailerURL != ""}}
   {{showWishlistButton := isFilm || isSeason || isEpisode}}
   {{showShareButton := isFilm || isSeason || isEpisode || isBundle}}
   {{autoplay := !isCarousel}}
 
-  {{showCtaButtons := showPricingButtons || showPlayButton || showCanBeWatchedButton || showTrailerButton || showWishlistButton || showShareButton}}
+  
+  {{canBeWatchedButtonLink := .CustomFields.GetString("can_be_watched_button_link", "")}}
+  {{canBeWatchedButtonText := .CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text")}}
+  {{showCanBeWatchedButton := len(canBeWatchedButtonLink) > 0}}
+  
+  {{externalPurchaseButtonLink := .CustomFields.GetString("external_purchase_button_link", "")}}
+  {{externalPurchaseButtonText := .CustomFields.GetString("external_purchase_button_text", "external_purchase_button_text")}}
+  {{showExternalPurchaseButton := len(externalPurchaseButtonLink) > 0}}
+
+  {{showCtaButtons := showPricingButtons || showPlayButton || showCanBeWatchedButton || showTrailerButton || showWishlistButton || showShareButton || showExternalPurchaseButton}}
   {{showExtraButtons := showTrailerButton || showWishlistButton || showShareButton}}
 
 
@@ -34,9 +42,11 @@
       {{end}}
 
       {{if showCanBeWatchedButton}}
-        {{dataURL := .CustomFields.GetString("can_be_watched_button_link", "")}}
-        {{dataLabel := .CustomFields.GetString("can_be_watched_button_text", "")}}
-        <can-be-watched-button data-slug="{{slug}}" data-url="{{dataURL}}" data-label="{{dataLabel}}"></can-be-watched-button>
+        <can-be-watched-button data-slug="{{slug}}" data-url="{{canBeWatchedButtonLink}}" data-label="{{canBeWatchedButtonText | i18n}}"></can-be-watched-button>
+      {{end}}
+
+      {{if showExternalPurchaseButton}}
+        <external-purchase-button data-slug="{{slug}}" data-url="{{externalPurchaseButtonLink}}" data-label="{{externalPurchaseButtonText | i18n}}"></external-purchase-button>
       {{end}}
 
       {{if showExtraButtons}}

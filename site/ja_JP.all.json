@@ -1639,5 +1639,8 @@
   },
   "verify_email_success_page_back": {
     "other": "メールが届かない場合"
+  },
+  "external_purchase_button_text": {
+    "other": "購入"
   }
 }

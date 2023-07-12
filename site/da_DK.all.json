@@ -1652,5 +1652,8 @@
   },
   "verify_email_success_page_back": {
     "other": "Har du ikke modtaget en e-mail?"
+  },
+  "external_purchase_button_text": {
+    "other": "Køb"
   }
 }
