@@ -1,6 +1,101 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.4.0...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.1...HEAD)
+
+
+## [1.9.2](https://github.com/shift72/core-template/compare/1.9.1...1.9.2)
+
+### Added
+- Configuration to change or remove the forgot password link
+- Configuration to change or remove the my account link
+- Styling for SSO buttons
+- CSS variables for change default button colors
+- linkedin social link
+
+### Changed
+- Nav mobile top padding to meet design spec
+- Social link redesign
+
+### Fixed
+- GA4 tracking of ecommerce data
+- Form control styling bug in 1.9.1
+
+## [1.9.1](https://github.com/shift72/core-template/compare/1.9.0...1.9.1)
+
+### Changed
+- Bumped base version of relish to 1.4.x
+
+## [1.9.0](https://github.com/shift72/core-template/compare/1.8.0...1.9.0)
+
+### Added
+- Support for Relish email verification 
+
+### Fixed
+- Border radius for longer width buttons
+
+
+## [1.8.0](https://github.com/shift72/core-template/compare/1.7.0...1.8.0)
+
+### Added
+- CSS for the new purchase flow.
+- Social links in the footer.
+- TV app banners in the footer.
+
+### Fixed
+- Links to specific episodes from collections (inc homepage carousel).
+- 60 mins runtime now shows as 1h 0m.
+
+## [1.7.0](https://github.com/shift72/core-template/compare/1.6.0...1.7.0)
+
+### Added
+- Bonus content and episode show/hide component.
+
+### Changed
+- Modified powered_by_url translations.
+- Various spacing style changes.
+
+### Fixed
+- Pricing buttons no longer get squashed in Firefox.
+- Spacing issues on small screens.
+
+## [1.6.0](https://github.com/shift72/core-template/compare/1.5.1...1.6.0)
+
+### Added
+- AB#9564 Live label to film detail page and carousel with translations.
+- AB#9361 Translations for live events, poster live availability status styling changes
+- Translations for live event purchase flow.
+- Translations for credit card validation errors.
+- Translations for new card timing out error.
+- Award categories moved to above film description
+
+### Fixed
+- Inline cta buttons now grow when text is wider than button width.
+- TV season detail page layout now matches film detail page layout.
+- Trailer autoplay disabled for CTA buttons in homepage carousel.
+
+### Fixed
+- Gap below page-collections consistent with sliders
+- Made item-collections similar in structure and style to sliders, renamed accordingly
+
+### Fixed
+- Bundle page style regression
+
+## [1.5.1](https://github.com/shift72/core-template/compare/1.5.0...1.5.1)
+
+## Changed
+- Revert relish version to 1.3 from latest
+
+## [1.5.0](https://github.com/shift72/core-template/compare/1.4.0...1.5.0)
+
+### Added
+- Translations for discount errors
+
+## Changed
+- Spacing between components AB#9013
+
+### Fixed
+- Default language now gets set either by site record or kibble.json depending on if DB translations are enabled AB#9675
+- Fixed incorrect Portuguese translation for shopping success
 
 ## [1.4.0](https://github.com/shift72/core-template/compare/1.3.0...1.4.0)
 

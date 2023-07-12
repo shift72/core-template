@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "in einer Beziehung mit"
@@ -200,7 +200,7 @@
     "other": "Sie haben noch kein Konto? Hier registrieren"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Sie haben bereits ein Konto? Hier anmelden"
+    "other": "Sie haben bereits ein Konto?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Diese E-Mail-Adresse ist bereits registriert."
@@ -682,7 +682,7 @@
     "other": "Die Zahlung wurde nicht akzeptiert. Bitte schließen Sie das Fenster und versuchen Sie es noch einmal."
   },
   "meta_detail_cast_title": {
-    "other": "Gießen"
+    "other": "Cast"
   },
   "meta_detail_crew_title": {
     "other": "Besatzung"
@@ -1412,5 +1412,245 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Einkaufssitzung abgelaufen, bitte versuchen Sie es erneut."
+  },
+  "live_stream_starts": {
+    "other": "Der Stream beginnt {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Jetzt streamen"
+  },
+  "live_streaming_ended": {
+    "other": "Stream beendet"
+  },
+  "availability_live": {
+    "other": "LIVE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Fahrkarte bekommen"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Sie können keinen Aktionscode für diesen Kauf oder diese Miete verwenden"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Dieser Promo-Code ist noch nicht gültig"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Promo-Codes können nicht auf kostenlose Shopping-Sessions angewendet werden"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Promo-Codes können nicht angewendet werden, nachdem der Kauf abgeschlossen ist"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Der Aktionscode konnte nicht angewendet werden, bitte versuchen Sie es erneut"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Ungültiger Promo-Code"
+  },
+  "shopping_error_missing_code": {
+    "other": "Es wurde kein Aktionscode angegeben"
+  },
+  "live_label_ended": {
+    "other": "LIVE: BEENDET"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MINUTE",
+    "other": "LIVE: {{.Count}} MINUTEN"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 STUNDE",
+    "other": "LIVE: {{.Count}} STUNDEN"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 TAG",
+    "other": "LIVE: {{.Count}} TAGE"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Liveübertragung"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dies ist ein Live-Event. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Sie können jetzt ein Ticket kaufen, aber Sie müssen zuschauen, während der Stream live ist."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Sie müssen zuschauen, während der Stream live ist."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Diese Veranstaltung ist derzeit live. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream endet am {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Danach können Sie den Stream nicht mehr ansehen."
+  },
+  "shopping_action_ticket": {
+    "other": "Fahrkarte bekommen"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream beginnt {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Es begann am {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Sie können es nicht zurückspulen."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Das Ablaufdatum Ihrer Karte liegt in der Vergangenheit."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Das Ablaufjahr Ihrer Karte liegt in der Vergangenheit."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Ihre Kartennummer ist ungültig."
+  },
+  "new_card_error_timed_out": {
+    "other": "Beim Hinzufügen dieser Karte ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut oder verwenden Sie eine andere Karte."
+  },
+  "tv_app_badge_title": {
+    "other": "Verfügbar in TV-Apps"
+  },
+  "app_badge_fire_tv": {
+    "other": "Holen Sie es sich auf Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Holen Sie es sich auf Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Hol es dir auf Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Besuchen Sie uns auf Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Abonnieren Sie auf Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Besuchen Sie uns auf Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Besuchen Sie uns auf Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Besuchen Sie uns auf Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Um ein Konto zu erstellen, müssen wir zuerst Ihre E-Mail-Adresse verifizieren. Geben Sie Ihre E-Mail-Adresse ein und wir senden Ihnen eine Einladung zur Kontoregistrierung."
+  },
+  "validate_email_success": {
+    "other": "Eine Bestätigungs-E-Mail wurde an {{.Email}} gesendet. Bitte überprüfen Sie Ihre E-Mails und befolgen Sie die Anweisungen zur Kontoerstellung."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Diese E-Mail-Adresse wird schon verwendet."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Eine Bestätigungs-E-Mail wurde bereits an {{.Email}} gesendet. Bitte überprüfen Sie Ihr E-Mail-Konto."
+  },
+  "validate_email_alert_success": {
+    "other": "Erfolg"
+  },
+  "validate_email_alert_error": {
+    "other": "Fehler!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Benutzerkonto erstellen"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Account erstellen..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Bestätigungscode fehlt."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Das Verifizierungstoken ist abgelaufen."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Diese E-Mail wurde nicht bestätigt."
+  },
+  "alert_title_success": {
+    "other": "Erfolg"
+  },
+  "alert_title_error": {
+    "other": "Fehler!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Die angegebene E-Mail-Adresse gehört zu einer eingeschränkten Domain. Bitte melden Sie sich bei einem anderen E-Mail-Anbieter an."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Beim Überprüfen Ihrer E-Mail-Adresse ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
+  },
+  "signup_form_error_generic": {
+    "other": "Beim Erstellen Ihres Kontos ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "E-Mail-Validierung erneut versuchen"
+  },
+  "auth_selector_info": {
+    "other": "Zum Kauf dieser Inhalte ist ein Konto erforderlich."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Schon ein Mitglied? anmelden"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Benutzerkonto erstellen"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "oder"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Eine Bestätigungs-E-Mail wurde bereits gesendet. Bitte überprüfen Sie Ihr E-Mail-Konto."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-Mail ist nicht gültig."
+  },
+  "validate_email_error_email_required": {
+    "other": "Eine Email ist erforderlich."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Diese E-Mail-Adresse wird schon verwendet."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Die angegebene E-Mail-Adresse gehört zu einer eingeschränkten Domain. Bitte melden Sie sich bei einem anderen E-Mail-Anbieter an."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Ein PIN-Code ist erforderlich."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Anmeldungen sind derzeit deaktiviert."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Zu viele Anfragen. Bitte versuchen Sie es später noch einmal."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Die E-Mail-Validierung ist derzeit deaktiviert."
+  },
+  "validate_email_error_generic": {
+    "other": "Beim Verifizieren der angegebenen E-Mail ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Diese E-Mail-Adresse wird schon verwendet."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Bei Ihrer Einkaufssitzung ist ein unbekannter Fehler aufgetreten. Versuchen Sie, die Seite zu aktualisieren, oder wenden Sie sich an Ihren Site-Administrator."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "anmelden"
+  },
+  "verify_email_success_page_header": {
+    "other": "Bestätigen Sie Ihre E-Mail"
+  },
+  "verify_email_success_page_message": {
+    "other": "Um sicherzustellen, dass Sie wirklich Sie sind, haben wir einen Bestätigungslink an Ihre E-Mail-Adresse gesendet."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Wenn Sie es nicht finden können, überprüfen Sie Ihren Spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Keine E-Mail erhalten?"
   }
 }

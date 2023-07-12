@@ -212,7 +212,7 @@
     "other": "Heeft u nog geen account? Maak hier een nieuw account aan."
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Heeft u al een account? Log hier in."
+    "other": "Heb je al een account?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Dit e-mailadres is al in gebruik."
@@ -1412,5 +1412,245 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Shopping-sessie is verlopen, probeer het opnieuw."
+  },
+  "live_stream_starts": {
+    "other": "Stream begint {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Nu streamen"
+  },
+  "live_streaming_ended": {
+    "other": "Stream beëindigd"
+  },
+  "availability_live": {
+    "other": "LIVE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Koop een kaartje"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "U kunt geen promotiecode gebruiken voor deze aankoop of huur"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Die actiecode is nog niet geldig"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Promotiecodes kunnen niet worden toegepast op gratis winkelsessies"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Promotiecodes kunnen niet worden toegepast zodra de aankoop is voltooid"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Promotiecode kan niet worden toegepast, probeer het opnieuw"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Ongeldige promotiecode"
+  },
+  "shopping_error_missing_code": {
+    "other": "Er is geen promotiecode verstrekt"
+  },
+  "live_label_ended": {
+    "other": "LIVE: BEINDIGD"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MINUUT",
+    "other": "LIVE: {{.Count}} MINUTEN"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 UUR",
+    "other": "LIVE: {{.Count}} UUR"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 DAG",
+    "other": "LIVE: {{.Count}} DAGEN"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Livestream"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dit is een live-evenement. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Je kunt nu een kaartje kopen, maar je moet kijken terwijl de stream live is."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Je moet kijken terwijl de stream live is."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Dit evenement is momenteel live. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream eindigt {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Daarna kun je de stream niet meer bekijken."
+  },
+  "shopping_action_ticket": {
+    "other": "Koop een kaartje"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream start {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Het begon om {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Je kunt het niet terugspoelen."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "De vervaldatum van uw kaart ligt in het verleden."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Het vervaljaar van uw kaart is in het verleden."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Uw kaartnummer is ongeldig."
+  },
+  "new_card_error_timed_out": {
+    "other": "Er is iets misgegaan bij het toevoegen van die kaart. Probeer het later opnieuw of gebruik een andere kaart."
+  },
+  "tv_app_badge_title": {
+    "other": "Beschikbaar in tv-apps"
+  },
+  "app_badge_fire_tv": {
+    "other": "Download het op Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Download het op Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Download het op Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Bezoek ons op Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Abonneer je op Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Bezoek ons op Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Bezoek ons op Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Bezoek ons op Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Om een account aan te maken moeten we eerst uw e-mailadres verifiëren. Voer uw e-mailadres in en we sturen een uitnodiging om u aan te melden voor uw account."
+  },
+  "validate_email_success": {
+    "other": "Er is een verificatie-e-mail verzonden naar {{.Email}} . Controleer uw e-mail en volg de instructies voor het maken van een account."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Deze email is al in gebruik."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Er is al een verificatie-e-mail verzonden naar {{.Email}} . Controleer uw e-mailaccount."
+  },
+  "validate_email_alert_success": {
+    "other": "Succes"
+  },
+  "validate_email_alert_error": {
+    "other": "Fout!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Account aanmaken"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Account creëren..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Verificatiecode ontbreekt."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Het verificatietoken is verlopen."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Deze e-mail is niet geverifieerd."
+  },
+  "alert_title_success": {
+    "other": "Succes"
+  },
+  "alert_title_error": {
+    "other": "Fout!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Het opgegeven e-mailadres is voor een domein dat is beperkt. Meld u aan bij een andere e-mailprovider."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Er is een onbekende fout opgetreden bij het valideren van uw e-mailadres. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
+  },
+  "signup_form_error_generic": {
+    "other": "Er is een onbekende fout opgetreden bij het maken van uw account. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Probeer de e-mailvalidatie opnieuw"
+  },
+  "auth_selector_info": {
+    "other": "Er is een account nodig om deze inhoud te kopen."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Al lid? Aanmelden"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Account aanmaken"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "of"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Er is al een verificatie-e-mail verzonden. Controleer uw e-mailaccount."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-mail is niet geldig."
+  },
+  "validate_email_error_email_required": {
+    "other": "Een email is verplicht."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Deze email is al in gebruik."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Het opgegeven e-mailadres is voor een domein dat is beperkt. Meld u aan bij een andere e-mailprovider."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Een pincode is vereist."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Aanmelden is momenteel uitgeschakeld."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Te veel verzoeken, probeer het later opnieuw."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "E-mailvalidatie is momenteel uitgeschakeld."
+  },
+  "validate_email_error_generic": {
+    "other": "Er is een onbekende fout opgetreden bij het verifiëren van de opgegeven e-mail. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Deze email is al in gebruik."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Er is een onbekende fout opgetreden tijdens uw winkelsessie. Probeer de pagina te vernieuwen of neem contact op met uw sitebeheerder."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Aanmelden"
+  },
+  "verify_email_success_page_header": {
+    "other": "Controleer je email"
+  },
+  "verify_email_success_page_message": {
+    "other": "Om er zeker van te zijn dat je echt jezelf bent, hebben we een verificatielink naar je e-mailadres gestuurd."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Als u het niet kunt vinden, controleer dan uw spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Geen e-mail ontvangen?"
   }
 }

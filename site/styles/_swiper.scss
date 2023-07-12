@@ -1,16 +1,16 @@
-.swiper-wrapper-container {
+.collection-wrapper-container {
   margin: 0 auto;
   padding: 0;
   position: relative;
 }
 
-.swiper-container {
+.collection-container {
   padding: 0 0 40px;
   @include media-breakpoint-up(md) {
-    padding: 15px 20px 20px;
+    padding: 10px 20px 20px;
   }
   @include media-breakpoint-up(lg) {
-    padding: 15px 50px 20px;
+    padding: 10px 50px 20px;
   }
 }
 

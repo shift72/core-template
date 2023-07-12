@@ -9,7 +9,7 @@
 
   --primary-rgb: 0, 163, 255;
   --secondary-rgb: 102, 199, 255;
-  --body-color-rgb: 255, 255, 255;
+  --body-color-rgb: 248, 248, 248;
   --body-bg-rgb: 0, 0, 0;
 
   // To calculate --body-color-hover-rgb, do:
@@ -43,6 +43,9 @@
   //   TODO(jackh): figure out a non-Sass way of calculating this.
   --hover-background-rgb: 58, 58, 58;
 
+  // It's in the designs :/
+  --live-red-rgb: 224, 49, 49;
+
   --primary: rgb(var(--primary-rgb));
   --secondary: rgb(var(--secondary-rgb));
   --body-color: rgb(var(--body-color-rgb));
@@ -51,7 +54,11 @@
   --body-bg-accent: rgb(var(--body-bg-accent-rgb));
   --input-focus-border-color: rgb(var(--input-focus-border-color-rgb));
   --hover-background: rgb(var(--hover-background-rgb));
+  --live-red: rgb(var(--live-red-rgb));
   /*#endregion BASE COLOURS */
+
+  --live-label-background-color: var(--hover-background);
+  --live-label-live-background-color: var(--live-red);
 
   --tooltip-color: var(--body-bg, #000);
   --tooltip-bg: var(--primary, #00a3ff);
@@ -69,6 +76,10 @@
   --navbar-brand-height: 50px;
 
   --footer-brand-height: 50px;
+  --footer-social-bg: var(--body-bg-accent);
+  --footer-social-bg-hover: var(--primary);
+  --footer-social-icon: var(--body-color);
+  --footer-social-icon-hover: var(--body-bg);
 
   --signin-text-color: var(--body-color);
   --signin-text-color-hover: var(--body-color-hover);
@@ -78,11 +89,22 @@
   --signin-background-hover: var(--hover-background);
   --signin-background-lg: transparent;
   --signin-background-hover-lg: transparent;
-
   --signout-background: rgba(var(--body-color-rgb), 0.1);
   --signout-background-hover: rgba(var(--body-color-rgb), 0.2);
   --signout-text-color: var(--body-color);
   --signout-text-color-hover: var(--body-color);
+
+  // Buttons
+  --button-text-color: var(--body-bg);
+  --button-text-color-hover: var(--body-bg);
+  --button-background: var(--primary);
+  --button-background-hover: var(--secondary);
+  --trailer-button-text-color: var(--body-color);
+  --mobile-nav-link-color: var(--body-color);
+  --signin-sso-btn-text-color: var(--button-text-color);
+  --signin-sso-btn-text-hover-color: var(--button-text-color-hover);
+  --signin-sso-btn-background-color: var(--button-background);
+  --signin-sso-btn-background-hover-color: var(--button-background-hover);
 
   --carousel-height: 75vh;
   --carousel-height-sm: 75vh;
@@ -94,12 +116,14 @@
   --carousel-image-object-position-sm: center;
   --carousel-image-object-position-lg: center;
 
+  --collection-padding-bottom: 40px;
+
   --page-padding-top: 120px;
   --page-padding-top-md: 120px;
   --page-padding-top-lg: 180px;
-  --page-detail-padding-top: 245px;
-  --page-detail-padding-top-md: 290px;
-  --page-detail-padding-top-lg: 440px;
+  --page-detail-padding-top: 160px;
+  --page-detail-padding-top-md: 248px;
+  --page-detail-padding-top-lg: 400px;
 
   --heading-1-style-letter-spacing: normal;
   --heading-2-style-letter-spacing: normal;
@@ -127,6 +151,31 @@
   --subtitle-2-style-font-size: 14px;
   --caption-1-style-font-size: 16px;
   --overline-style-font-size: 14px;
+
+  /* Alert component dark theme colours */
+
+  --alert-background-color-error: rgba(255, 255, 255, 0.16);
+  --alert-border-color-error: #ed7470;
+  --alert-title-color-error: #ed7470;
+  --alert-text-color-error: rgba(var(--body-color-rgb), 0.8);
+
+  --alert-background-color-success: #25262b;
+  --alert-border-color-success: #20c997;
+  --alert-title-color-success: #20c997;
+  --alert-text-color-success: rgba(var(--body-color-rgb), 0.8);
+
+  /* Alert component light theme colours */
+  /* Swap above with these for light theme templates
+  --alert-background-color-error: #ffffff;
+  --alert-border-color-error: #fa5252;
+  --alert-title-color-error: #fa5252;
+  --alert-text-color-error: #000000;
+
+  --alert-background-color-success: #ffffff;
+  --alert-border-color-success: #12b886;
+  --alert-title-color-success: #12b886;
+  --alert-text-color-success: #000000;
+  */
 }
 
 // Bootstrap 4 overrides START
@@ -217,12 +266,12 @@ $navbar-dark-color: var(--body-color) !default;
 $navbar-dark-hover-color: #fd4766 !default;
 
 // Buttons
-$button-text-color: var(--body-bg) !default;
-$button-text-color-hover: var(--body-bg) !default;
-$button-background: var(--primary) !default;
-$button-background-hover: var(--secondary) !default;
-$trailer-button-text-color: var(--body-color) !default;
-$mobile-nav-link-color: var(--body-color) !default;
+$button-text-color: var(--button-text-color) !default;
+$button-text-color-hover: var(--button-text-color-hover) !default;
+$button-background: var(--button-background) !default;
+$button-background-hover: var(--button-background-hover) !default;
+$trailer-button-text-color: var(--trailer-button-text-color) !default;
+$mobile-nav-link-color: var(--mobile-nav-link-color) !default;
 
 $signup-text-color: $button-text-color !default;
 $signup-text-color-hover: $button-text-color-hover !default;

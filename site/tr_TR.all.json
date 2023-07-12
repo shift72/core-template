@@ -212,7 +212,7 @@
     "other": "Hesabınız yok mu? Yeni hesap oluştur"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Zaten bir hesabınız var mı? Oturum Aç"
+    "other": "Zaten hesabınız var mı?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Bu e-posta adresi zaten kullanılıyor."
@@ -1412,5 +1412,245 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Alışveriş oturumunun süresi doldu, lütfen tekrar deneyin."
+  },
+  "live_stream_starts": {
+    "other": "Akış başlıyor {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Şimdi yayınlanıyor"
+  },
+  "live_streaming_ended": {
+    "other": "Akış sona erdi"
+  },
+  "availability_live": {
+    "other": "CANLI"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Bilet al"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Bu satın alma veya kiralama için promosyon kodu kullanamazsınız"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Bu promosyon kodu henüz geçerli değil"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Promosyon kodları ücretsiz alışveriş seanslarına uygulanamaz"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Promosyon kodları, satın alma işlemi tamamlandıktan sonra uygulanamaz"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Promosyon kodu uygulanamadı, lütfen tekrar deneyin"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Geçersiz reklam kodu"
+  },
+  "shopping_error_missing_code": {
+    "other": "Promosyon kodu sağlanmadı"
+  },
+  "live_label_ended": {
+    "other": "CANLI: SONA ERDİ"
+  },
+  "live_label_live": {
+    "other": "CANLI"
+  },
+  "live_label_minutes": {
+    "one": "CANLI: 1 DAKİKA",
+    "other": "CANLI: {{.Count}} DAKİKA"
+  },
+  "live_label_hours": {
+    "one": "CANLI: 1 SAAT",
+    "other": "CANLI: {{.Count}} SAAT"
+  },
+  "live_label_days": {
+    "one": "CANLI: 1 GÜN",
+    "other": "CANLI: {{.Count}} GÜNLER"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Canlı yayın"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Bu Canlı Bir Etkinliktir. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Şimdi bir bilet satın alabilirsiniz, ancak yayın canlıyken izlemeniz gerekecek."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Yayın canlıyken izlemeniz gerekecek."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Bu etkinlik şu anda yayında. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Akış biter {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Bundan sonra yayını izleyemezsiniz."
+  },
+  "shopping_action_ticket": {
+    "other": "Bilet al"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Akış başlar {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "{{.Date}} başladı. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Geri saramazsınız."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Kartınızın son kullanma tarihi geçmişte."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Kartınızın son kullanma yılı geçmişte kaldı."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Kart numaranız geçersiz."
+  },
+  "new_card_error_timed_out": {
+    "other": "Bu kartı eklerken bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin veya farklı bir kart kullanın."
+  },
+  "tv_app_badge_title": {
+    "other": "TV uygulamalarında kullanılabilir"
+  },
+  "app_badge_fire_tv": {
+    "other": "Amazon Fire TV'den alın"
+  },
+  "app_badge_android_tv": {
+    "other": "Android TV'de alın"
+  },
+  "app_badge_apple_tv": {
+    "other": "Apple TV'de alın"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Bizi Instagram'da ziyaret edin"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Youtube'da abone olun"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Facebook'ta bizi ziyaret edin"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Twitter'da bizi ziyaret edin"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Bizi Letterboxd'da ziyaret edin"
+  },
+  "validate_email_about": {
+    "other": "Bir hesap oluşturmak için önce e-posta adresinizi doğrulamalıyız. E-postanızı girin, bir hesap kayıt daveti göndereceğiz."
+  },
+  "validate_email_success": {
+    "other": "{{.Email}} adresine bir doğrulama e-postası gönderildi. Lütfen e-postanızı kontrol edin ve hesap oluşturma talimatlarını takip edin."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Bu e-posta zaten kullanılıyor."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "{{.Email}} adresine zaten bir doğrulama e-postası gönderildi. Lütfen e-posta hesabınızı kontrol edin."
+  },
+  "validate_email_alert_success": {
+    "other": "Başarı"
+  },
+  "validate_email_alert_error": {
+    "other": "Hata!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Hesap oluşturmak"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Hesap oluşturuluyor..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Doğrulama kodu eksik."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Doğrulama jetonunun süresi doldu."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Bu e-posta doğrulanmadı."
+  },
+  "alert_title_success": {
+    "other": "Başarı"
+  },
+  "alert_title_error": {
+    "other": "Hata!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Sağlanan posta adresi, kısıtlanmış bir etki alanı içindir. Lütfen farklı bir e-posta sağlayıcısı ile kaydolun."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "E-posta adresiniz doğrulanırken bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "signup_form_error_generic": {
+    "other": "Hesabınız oluşturulurken bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "E-posta doğrulamasını yeniden dene"
+  },
+  "auth_selector_info": {
+    "other": "Bu içeriği satın almak için bir hesap gereklidir."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Zaten bir üye misiniz? Kayıt olmak"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Hesap oluşturmak"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "veya"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Bir doğrulama e-postası zaten gönderildi. Lütfen e-posta hesabınızı kontrol edin."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-posta geçerli değil."
+  },
+  "validate_email_error_email_required": {
+    "other": "Bir e-mail gerekli."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Bu e-posta zaten kullanılıyor."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Sağlanan posta adresi, kısıtlanmış bir etki alanı içindir. Lütfen farklı bir e-posta sağlayıcısı ile kaydolun."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Bir PIN kodu gereklidir."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Kayıtlar şu anda devre dışı."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Çok fazla talep var.Lütfen daha sonra tekrar deneyin."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "E-posta doğrulama şu anda devre dışı."
+  },
+  "validate_email_error_generic": {
+    "other": "Sağlanan e-posta doğrulanırken bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Bu e-posta zaten kullanılıyor."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Alışveriş oturumunuzda bilinmeyen bir hata oluştu. Sayfayı yenilemeyi veya site yöneticinizle iletişime geçmeyi deneyin."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Kayıt olmak"
+  },
+  "verify_email_success_page_header": {
+    "other": "Eposta adresinizi doğrulayın"
+  },
+  "verify_email_success_page_message": {
+    "other": "Gerçekten siz olduğunuzdan emin olmak için e-postanıza bir doğrulama bağlantısı gönderdik."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Bulamıyorsanız, spam'inizi kontrol edin."
+  },
+  "verify_email_success_page_back": {
+    "other": "E-posta almadınız mı?"
   }
 }

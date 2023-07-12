@@ -1,11 +1,19 @@
 /* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
+@mixin text-cta-btn {
+  margin: 0;
+  min-width: 140px;
+  padding: 6px 12px;
+  white-space: nowrap;
+  width: 100%;
+}
+
 .cta-buttons {
   display: grid;
   gap: 16px;
   margin-bottom: 8px;
 
   @include media-breakpoint-up(xs) {
-    grid-auto-columns: min-content;
+    grid-template-columns: max-content max-content;
     grid-template-rows: 1fr;
   }
 
@@ -25,7 +33,7 @@
     grid-template-columns: 1fr 1fr;
 
     @include media-breakpoint-up(xs) {
-      grid-template-columns: none;
+      grid-template-columns: repeat(auto-fit, minmax(140px, max-content));
     }
 
     > * {
@@ -121,12 +129,7 @@
     }
 
     .s72-btn {
-      white-space: nowrap;
-      width: 100%;
-
-      @include media-breakpoint-up(xs) {
-        width: auto;
-      }
+      @include text-cta-btn;
 
       &:nth-child(2) {
         margin: 0; // RELISH OVERRIDE.
@@ -136,10 +139,7 @@
 
   s72-play-button {
     .s72-btn-play {
-      margin: 0;
-      min-width: 140px;
-      padding: 6px 12px;
-      width: 100%;
+      @include text-cta-btn;
     }
 
     .s72-btn-play-icon {
@@ -152,9 +152,11 @@
   }
 
   .s72-btn-can-be-watched {
-    min-width: 140px;
-    padding: 6px 12px;
-    width: 100%;
+    @include text-cta-btn;
+
+    @include media-breakpoint-up(xs) {
+      max-width: max-content;
+    }
 
     .padder {
       display: none;
@@ -172,11 +174,9 @@
     gap: 16px;
     grid-template-rows: 1fr;
     justify-items: center;
-    padding: 0 36px;
 
     @include media-breakpoint-up(xs) {
       grid-template-columns: min-content min-content min-content;
-      padding: 0;
     }
 
     > * {

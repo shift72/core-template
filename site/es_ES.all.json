@@ -212,7 +212,7 @@
     "other": "¿No tiene una cuenta? Cree una nueva cuenta"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "¿Ya tienes una cuenta? Inicia sesión aquí"
+    "other": "¿Ya tienes una cuenta?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Esta dirección de email ya esta en use."
@@ -1416,5 +1416,245 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "La sesión de compra expiró, inténtalo de nuevo."
+  },
+  "live_stream_starts": {
+    "other": "La transmisión comienza {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Transmitiendo ahora"
+  },
+  "live_streaming_ended": {
+    "other": "Transmisión finalizada"
+  },
+  "availability_live": {
+    "other": "EN VIVO"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Obtener boleto"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "No puede usar un código de promoción para esta compra o alquiler"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Ese código de promoción aún no es válido"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Los códigos promocionales no se pueden aplicar a las sesiones de compras gratuitas."
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Los códigos de promoción no se pueden aplicar una vez que se completa la compra"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "No se pudo aplicar el código de promoción, inténtalo de nuevo"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Código de promoción no válido"
+  },
+  "shopping_error_missing_code": {
+    "other": "No se proporcionó ningún código de promoción"
+  },
+  "live_label_ended": {
+    "other": "EN VIVO: FINALIZADO"
+  },
+  "live_label_live": {
+    "other": "EN VIVO"
+  },
+  "live_label_minutes": {
+    "one": "EN VIVO: 1 MINUTO",
+    "other": "EN VIVO: {{.Count}} MINUTOS"
+  },
+  "live_label_hours": {
+    "one": "EN VIVO: 1 HORA",
+    "other": "EN VIVO: {{.Count}} HORAS"
+  },
+  "live_label_days": {
+    "one": "EN VIVO: 1 DÍA",
+    "other": "EN VIVO: {{.Count}} DÍAS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Transmisión en vivo"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Este es un evento en vivo. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Puede comprar un boleto ahora, pero deberá mirar mientras la transmisión está en vivo."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Deberá mirar mientras la transmisión está en vivo."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Este evento está actualmente en vivo. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "La transmisión termina {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "No podrás ver la transmisión después de eso."
+  },
+  "shopping_action_ticket": {
+    "other": "Obtener boleto"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "La transmisión comienza {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Comenzó en {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "No puedes rebobinarlo."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "La fecha de vencimiento de su tarjeta ya pasó."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "El año de vencimiento de su tarjeta está en el pasado."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Su número de tarjeta no es válido."
+  },
+  "new_card_error_timed_out": {
+    "other": "Algo salió mal al agregar esa tarjeta. Vuelva a intentarlo más tarde o utilice una tarjeta diferente."
+  },
+  "tv_app_badge_title": {
+    "other": "Disponible en aplicaciones de TV"
+  },
+  "app_badge_fire_tv": {
+    "other": "Consíguelo en Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Consíguelo en Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Consíguelo en Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Visítanos en Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Suscríbete en Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Visítenos en Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Visítenos en Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Visítenos en Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Para crear una cuenta primero debemos verificar su dirección de correo electrónico. Ingrese su correo electrónico y le enviaremos una invitación de registro de cuenta."
+  },
+  "validate_email_success": {
+    "other": "Se ha enviado un correo electrónico de verificación a {{.Email}} . Por favor revise su correo electrónico y siga las instrucciones de creación de cuenta."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Este correo electrónico ya está en uso."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Ya se ha enviado un correo electrónico de verificación a {{.Email}} . Por favor revise su cuenta de correo electrónico."
+  },
+  "validate_email_alert_success": {
+    "other": "Éxito"
+  },
+  "validate_email_alert_error": {
+    "other": "¡Error!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Crear una cuenta"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Creando cuenta..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Falta el código de verificación."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "El token de verificación ha caducado."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Este correo electrónico no ha sido verificado."
+  },
+  "alert_title_success": {
+    "other": "Éxito"
+  },
+  "alert_title_error": {
+    "other": "¡Error!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "La dirección de correo proporcionada es para un dominio que ha sido restringido. Regístrese con un proveedor de correo electrónico diferente."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Hubo un error desconocido al validar su dirección de correo electrónico. Intente actualizar la página o comuníquese con el administrador del sitio."
+  },
+  "signup_form_error_generic": {
+    "other": "Hubo un error desconocido al crear su cuenta. Intente actualizar la página o comuníquese con el administrador del sitio."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Vuelva a intentar la validación de correo electrónico"
+  },
+  "auth_selector_info": {
+    "other": "Se necesita una cuenta para comprar este contenido."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "¿Ya eres usuario? Iniciar sesión"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Crear una cuenta"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "o"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Ya se ha enviado un correo electrónico de verificación. Por favor revise su cuenta de correo electrónico."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "El correo electrónico no es válido."
+  },
+  "validate_email_error_email_required": {
+    "other": "Se requiere un email."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Este correo electrónico ya está en uso."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "La dirección de correo proporcionada es para un dominio que ha sido restringido. Regístrese con un proveedor de correo electrónico diferente."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Se requiere un código PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Los registros están actualmente deshabilitados."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Hay demasiadas solicitudes. Por favor inténtelo más tarde."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "La validación de correo electrónico está actualmente deshabilitada."
+  },
+  "validate_email_error_generic": {
+    "other": "Hubo un error desconocido al verificar el correo electrónico proporcionado. Intente actualizar la página o comuníquese con el administrador del sitio."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Este correo electrónico ya está en uso."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Hubo un error desconocido con su sesión de compras. Intente actualizar la página o comuníquese con el administrador del sitio."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Iniciar sesión"
+  },
+  "verify_email_success_page_header": {
+    "other": "Verifique su correo electrónico"
+  },
+  "verify_email_success_page_message": {
+    "other": "Para asegurarnos de que eres realmente tú, te hemos enviado un enlace de verificación a tu correo electrónico."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Si no lo encuentras, revisa tu correo no deseado."
+  },
+  "verify_email_success_page_back": {
+    "other": "¿No recibiste un correo electrónico?"
   }
 }

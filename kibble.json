@@ -2,7 +2,7 @@
   "name": "core-template",
   "version": "0.0.1",
   "siteUrl": "https://tvoddemo.shift72.com",
-  "builderVersion": "0.17.0",
+  "builderVersion": "0.17.1",
   "defaultLanguage": "en",
   "languages": {
     "ar": {
@@ -136,11 +136,17 @@
     },
     {
       "name": "tvItem",
-      "urlPath": "/tv/:slug/:seasonNumber",
+      "urlPath": "/tv/:slug/:seasonNumber/",
       "templatePath": "templates/tv/detail.jet",
       "partialUrlPath": "/partials/tv/:showID/season/:seasonNumber.html",
       "partialTemplatePath": "templates/tv/partial.jet",
       "datasource": "TVSeason",
+      "pageSize": 0
+    },
+    {
+      "name": "tvEpisode",
+      "urlPath": "/tv/:slug/:seasonNumber/#episode-:episodeNumber",
+      "datasource": "TVEpisode",
       "pageSize": 0
     },
     {
@@ -185,5 +191,5 @@
       "pageSize": 0
     }
   ],
-  "coreTemplateVersion": "1.4.0"
+  "coreTemplateVersion": "1.9.2"
 }

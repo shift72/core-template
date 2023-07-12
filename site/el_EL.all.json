@@ -212,7 +212,7 @@
     "other": "Δεν έχετε λογαριασμό; Εγγραφείτε εδώ"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Έχετε ήδη λογαριασμό; Παρακαλώ εισέλθετε"
+    "other": "Έχετε ήδη λογαριασμό?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Αυτή η διεύθυνση ηλ. ταχυδρομείου χρησιμοποιείται ήδη."
@@ -1412,5 +1412,245 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Η περίοδος αγορών έληξε, δοκιμάστε ξανά."
+  },
+  "live_stream_starts": {
+    "other": "Η ροή ξεκινάει {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Μετάδοση ροής τώρα"
+  },
+  "live_streaming_ended": {
+    "other": "Η ροή έληξε"
+  },
+  "availability_live": {
+    "other": "ΖΩ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Πάρτε εισιτήριο"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Δεν μπορείτε να χρησιμοποιήσετε κωδικό προσφοράς για αυτήν την αγορά ή ενοικίαση"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Αυτός ο κωδικός προσφοράς δεν είναι ακόμη έγκυρος"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Οι κωδικοί προσφοράς δεν μπορούν να εφαρμοστούν σε δωρεάν συνεδρίες αγορών"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Οι κωδικοί προσφοράς δεν μπορούν να εφαρμοστούν μετά την ολοκλήρωση της αγοράς"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Δεν ήταν δυνατή η εφαρμογή του κωδικού προσφοράς, δοκιμάστε ξανά"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Μη έγκυρος κωδικός προσφοράς"
+  },
+  "shopping_error_missing_code": {
+    "other": "Δεν δόθηκε κωδικός προσφοράς"
+  },
+  "live_label_ended": {
+    "other": "ΖΩΝΤΑΝΗ: ΤΕΛΕΙΩΣΕ"
+  },
+  "live_label_live": {
+    "other": "ΖΩΝΤΑΝΗ"
+  },
+  "live_label_minutes": {
+    "one": "ΖΩΝΤΑΝΗ: 1 ΛΕΠΤΟ",
+    "other": "ΖΩΝΤΑΝΗ: {{.Count}} ΛΕΠΤΑ"
+  },
+  "live_label_hours": {
+    "one": "ΖΩΝΤΑΝΗ: 1 ΩΡΑ",
+    "other": "ΖΩΝΤΑΝΗ: {{.Count}} ΩΡΕΣ"
+  },
+  "live_label_days": {
+    "one": "ΖΩΝΤΑΝΗ: 1 ΜΕΡΑ",
+    "other": "ΖΩΝΤΑΝΗ: {{.Count}} ΗΜΕΡΕΣ"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Ζωντανή μετάδοση"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Αυτή είναι μια Ζωντανή Εκδήλωση. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Μπορείτε να αγοράσετε ένα εισιτήριο τώρα, αλλά θα πρέπει να το παρακολουθήσετε όσο είναι ζωντανή η ροή."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Θα χρειαστεί να παρακολουθήσετε ενώ η ροή είναι ζωντανή."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Αυτή η εκδήλωση είναι ζωντανή αυτήν τη στιγμή. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Λήξη ροής {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Δεν θα μπορείτε να παρακολουθήσετε τη ροή μετά από αυτό."
+  },
+  "shopping_action_ticket": {
+    "other": "Πάρτε εισιτήριο"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Έναρξη ροής {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Ξεκίνησε στις {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Δεν μπορείτε να το επανατυλίξετε."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Η ημερομηνία λήξης της κάρτας σας είναι παρελθόν."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Το έτος λήξης της κάρτας σας είναι παρελθόν."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Ο αριθμός της κάρτας σας δεν είναι έγκυρος."
+  },
+  "new_card_error_timed_out": {
+    "other": "Κάτι πήγε στραβά κατά την προσθήκη αυτής της κάρτας. Δοκιμάστε ξανά αργότερα ή χρησιμοποιήστε διαφορετική κάρτα."
+  },
+  "tv_app_badge_title": {
+    "other": "Διατίθεται σε εφαρμογές τηλεόρασης"
+  },
+  "app_badge_fire_tv": {
+    "other": "Αποκτήστε το στο Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Αποκτήστε το στο Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Αποκτήστε το στο Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Επισκεφθείτε μας στο Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Εγγραφείτε στο Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Επισκεφθείτε μας στο Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Επισκεφθείτε μας στο Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Επισκεφθείτε μας στο Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "Για να δημιουργήσουμε έναν λογαριασμό πρέπει πρώτα να επαληθεύσουμε τη διεύθυνση email σας. Εισαγάγετε το email σας και θα σας στείλουμε μια πρόσκληση εγγραφής λογαριασμού."
+  },
+  "validate_email_success": {
+    "other": "Ένα email επαλήθευσης έχει σταλεί στη {{.Email}} . Ελέγξτε το email σας και ακολουθήστε τις οδηγίες δημιουργίας λογαριασμού."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Αυτό το email χρησιμοποιείται ήδη."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Ένα email επαλήθευσης έχει ήδη σταλεί στο {{.Email}} . Ελέγξτε τον λογαριασμό email σας."
+  },
+  "validate_email_alert_success": {
+    "other": "Επιτυχία"
+  },
+  "validate_email_alert_error": {
+    "other": "Λάθος!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Δημιουργήστε λογαριασμό"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Δημιουργία λογαριασμού..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Λείπει ο κωδικός επαλήθευσης."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Το διακριτικό επαλήθευσης έχει λήξει."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Αυτό το email δεν έχει επαληθευτεί."
+  },
+  "alert_title_success": {
+    "other": "Επιτυχία"
+  },
+  "alert_title_error": {
+    "other": "Λάθος!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Η διεύθυνση αλληλογραφίας που παρέχεται είναι για έναν τομέα που έχει περιοριστεί. Εγγραφείτε με διαφορετικό πάροχο email."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Παρουσιάστηκε ένα άγνωστο σφάλμα κατά την επικύρωση της διεύθυνσης email σας. Δοκιμάστε να ανανεώσετε τη σελίδα ή να επικοινωνήσετε με τον διαχειριστή του ιστότοπού σας."
+  },
+  "signup_form_error_generic": {
+    "other": "Παρουσιάστηκε ένα άγνωστο σφάλμα κατά τη δημιουργία του λογαριασμού σας. Δοκιμάστε να ανανεώσετε τη σελίδα ή να επικοινωνήσετε με τον διαχειριστή του ιστότοπού σας."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Δοκιμάστε ξανά την επικύρωση μέσω email"
+  },
+  "auth_selector_info": {
+    "other": "Απαιτείται λογαριασμός για την αγορά αυτού του περιεχομένου."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Ήδη μέλος; Συνδεθείτε"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Δημιουργήστε λογαριασμό"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "ή"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Ένα email επαλήθευσης έχει ήδη σταλεί. Ελέγξτε τον λογαριασμό email σας."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Το email δεν είναι έγκυρο."
+  },
+  "validate_email_error_email_required": {
+    "other": "Απαιτείται μία διεύθυνση ηλεκτρονικού ταχυδρομείου."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Αυτό το email χρησιμοποιείται ήδη."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Η διεύθυνση αλληλογραφίας που παρέχεται είναι για έναν τομέα που έχει περιοριστεί. Εγγραφείτε με διαφορετικό πάροχο email."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Απαιτείται κωδικός PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Οι εγγραφές είναι προς το παρόν απενεργοποιημένες."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Πολλά αιτήματα. Παρακαλώ προσπαθήστε αργότερα."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Η επικύρωση email είναι προς το παρόν απενεργοποιημένη."
+  },
+  "validate_email_error_generic": {
+    "other": "Παρουσιάστηκε ένα άγνωστο σφάλμα κατά την επαλήθευση του παρεχόμενου email. Δοκιμάστε να ανανεώσετε τη σελίδα ή να επικοινωνήσετε με τον διαχειριστή του ιστότοπού σας."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Αυτό το email χρησιμοποιείται ήδη."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Παρουσιάστηκε ένα άγνωστο σφάλμα με την περίοδο αγορών σας. Δοκιμάστε να ανανεώσετε τη σελίδα ή να επικοινωνήσετε με τον διαχειριστή του ιστότοπού σας."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Συνδεθείτε"
+  },
+  "verify_email_success_page_header": {
+    "other": "Επαληθεύστε το email σας"
+  },
+  "verify_email_success_page_message": {
+    "other": "Για να βεβαιωθούμε ότι είστε πραγματικά εσείς, στείλαμε έναν σύνδεσμο επαλήθευσης στο email σας."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Εάν δεν μπορείτε να το βρείτε, ελέγξτε το spam σας."
+  },
+  "verify_email_success_page_back": {
+    "other": "Δεν λάβατε email;"
   }
 }

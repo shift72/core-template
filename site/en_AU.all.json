@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "in partnership with"
@@ -218,7 +218,10 @@
     "other": "Don't have an account? Create new account"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Already have an account? Sign in"
+    "other": "Already have an account?"
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Sign in"
   },
   "signup_form_error_email_already_in_use": {
     "other": "That email address is already in use."
@@ -1256,14 +1259,41 @@
   "wcag_aria_label_letterboxd": {
     "other": "View on Letterboxd"
   },
+  "wcag_aria_label_social_instagram": {
+    "other": "Visit us on Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Subscribe on Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Visit us on Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Visit us on Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Visit us on Letterboxd"
+  },
   "app_badge_title": {
     "other": "Download the app to view your purchased content!"
+  },
+  "tv_app_badge_title": {
+    "other": "Available on TV apps"
   },
   "app_badge_ios": {
     "other": "Download on the App Store"
   },
   "app_badge_android": {
     "other": "Get it on Google Play"
+  },
+  "app_badge_fire_tv": {
+    "other": "Get it on Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Get it on Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Get it on Apple TV"
   },
   "plans_page_header": {
     "other": "Available Plans"
@@ -1412,5 +1442,215 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Shopping session expired, please try again."
+  },
+  "live_stream_starts": {
+    "other": "Stream starts {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streaming now"
+  },
+  "live_streaming_ended": {
+    "other": "Stream ended"
+  },
+  "availability_live": {
+    "other": "LIVE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Get ticket"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "You can not use a promo code for this purchase or rental"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "That promo code is not valid yet"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Promo codes cannot be applied to free shopping sessions"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Promo codes cannot be applied one the purchase is complete"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Promo code could not be applied, please try again"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Invalid promo code"
+  },
+  "shopping_error_missing_code": {
+    "other": "No promo code was provided"
+  },
+  "live_label_ended": {
+    "other": "LIVE: ENDED"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MINUTE",
+    "other": "LIVE: {{.Count}} MINUTES"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 HOUR",
+    "other": "LIVE: {{.Count}} HOURS"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 DAY",
+    "other": "LIVE: {{.Count}} DAYS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Live Stream"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "This is a Live Event. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "You can buy a ticket now but you will need to watch while the stream is live."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "You will need to watch while the stream is live."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "This event is currently live. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream ends {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "You won't be able to watch the stream after that."
+  },
+  "shopping_action_ticket": {
+    "other": "Get ticket"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream starts {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "It started {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "You cannot rewind it."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Your card's expiration date is in the past."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Your card's expiration year is in the past."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Your card number is invalid."
+  },
+  "new_card_error_timed_out": {
+    "other": "Something went wrong when adding that card. Please try again later or use a different card."
+  },
+  "validate_email_about": {
+    "other": "To create an account we must first verify your email address. Enter your email and we will send an account sign up invitation."
+  },
+  "validate_email_success": {
+    "other": "A verification email has been sent to {{.Email}}. Please check your email and follow the account creation instructions."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "This email is already in use."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "A verification email has already been sent to {{.Email}}. Please check your email account."
+  },
+  "validate_email_alert_success": {
+    "other": "Success"
+  },
+  "validate_email_alert_error": {
+    "other": "Error!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Create account"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Creating account..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Verification code missing."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "The verification token has expired."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "This email has not been verified."
+  },
+  "alert_title_success": {
+    "other": "Success"
+  },
+  "alert_title_error": {
+    "other": "Error!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "The mail address provided is for a domain that has been restricted. Please sign up with a different email provider."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "There was a unknown error while validating your email address. Try refreshing the page or contacting your site administrator."
+  },
+  "signup_form_error_generic": {
+    "other": "There was a unknown error while creating your account. Try refreshing the page or contacting your site administrator."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Retry email validation"
+  },
+  "auth_selector_info": {
+    "other": "An account is needed to purchase this content."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Already a member? Sign in"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Create account"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "or"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "A verification email has already been sent. Please check your email account."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Email is not a valid."
+  },
+  "validate_email_error_email_required": {
+    "other": "An email is required."
+  },
+  "validate_email_error_email_taken": {
+    "other": "This email is already in use."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "The mail address provided is for a domain that has been restricted. Please sign up with a different email provider."
+  },
+  "validate_email_error_pin_required": {
+    "other": "A PIN code is required."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Sign ups are currently disabled."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Too many requests, please try again later."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Email validation is currently disabled."
+  },
+  "validate_email_error_generic": {
+    "other": "There was a unknown error while verifying the supplied email. Try refreshing the page or contacting your site administrator."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "This email is already in use."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "There was a unknown error with your shopping session. Try refreshing the page or contacting your site administrator."
+  },
+  "verify_email_success_page_header": {
+    "other": "Verify your email"
+  },
+  "verify_email_success_page_message": {
+    "other": "To make sure you're really you, we've sent a verification link to your email."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "If you can't find it, check your spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Didn't receive an email?"
   }
 }

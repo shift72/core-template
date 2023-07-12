@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "En col·laboració amb"
@@ -215,7 +215,7 @@
     "other": "No teniu un compte? Crear un nou compte"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Ja tens un compte? Inicieu la sessió"
+    "other": "Ja tens un compte?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Aquesta adreça de correu electrònic ja està en ús."
@@ -1412,5 +1412,245 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "La sessió de compres ha caducat, torna-ho a provar."
+  },
+  "live_stream_starts": {
+    "other": "El flux comença {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "En streaming ara"
+  },
+  "live_streaming_ended": {
+    "other": "El flux s'ha acabat"
+  },
+  "availability_live": {
+    "other": "EN VIU"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Aconsegueix el bitllet"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "No podeu utilitzar un codi promocional per a aquesta compra o lloguer"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Aquest codi promocional encara no és vàlid"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Els codis promocionals no es poden aplicar a les sessions de compres gratuïtes"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Els codis promocionals no es poden aplicar un cop s'ha completat la compra"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "No s'ha pogut aplicar el codi promocional, torna-ho a provar"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Codi promocional no vàlid"
+  },
+  "shopping_error_missing_code": {
+    "other": "No s'ha proporcionat cap codi promocional"
+  },
+  "live_label_ended": {
+    "other": "EN DIRECTE: ACABAT"
+  },
+  "live_label_live": {
+    "other": "EN VIU"
+  },
+  "live_label_minutes": {
+    "one": "EN DIRECTE: 1 MINUT",
+    "other": "EN DIRECTE: {{.Count}} MINUTS"
+  },
+  "live_label_hours": {
+    "one": "EN DIRECTE: 1 HORA",
+    "other": "EN DIRECTE: {{.Count}} HORES"
+  },
+  "live_label_days": {
+    "one": "EN DIRECTE: 1 DIA",
+    "other": "EN DIRECTE: {{.Count}} DIES"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Transmissió en directe"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Aquest és un esdeveniment en directe. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Ja pots comprar una entrada, però hauràs de mirar-la mentre la transmissió sigui en directe."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Haureu de mirar-lo mentre la transmissió sigui en directe."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Aquest esdeveniment està actualment en directe. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "El flux acaba {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Després d'això, no podreu veure l'emissió."
+  },
+  "shopping_action_ticket": {
+    "other": "Aconsegueix el bitllet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Comença la {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Va començar a {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "No pots rebobinar-lo."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "La data de caducitat de la vostra targeta és del passat."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "L'any de caducitat de la vostra targeta és del passat."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "El vostre número de targeta no és vàlid."
+  },
+  "new_card_error_timed_out": {
+    "other": "S'ha produït un error en afegir aquesta targeta. Torneu-ho a provar més tard o utilitzeu una altra targeta."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Visita'ns a Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Subscriu-te a Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Visita'ns a Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Visita'ns a Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Visita'ns a Letterboxd"
+  },
+  "tv_app_badge_title": {
+    "other": "Disponible a les aplicacions de televisió"
+  },
+  "app_badge_fire_tv": {
+    "other": "Obteniu-lo a Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Obteniu-lo a Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Aconsegueix-ho a Apple TV"
+  },
+  "validate_email_about": {
+    "other": "Per crear un compte primer hem de verificar la vostra adreça de correu electrònic. Introduïu el vostre correu electrònic i us enviarem una invitació per registrar-vos."
+  },
+  "validate_email_success": {
+    "other": "S&#39;ha enviat un correu electrònic de verificació a {{.Email}} . Si us plau, comproveu el vostre correu electrònic i seguiu les instruccions de creació del compte."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Aquest correu electrònic ja està en ús."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Ja s&#39;ha enviat un correu electrònic de verificació a {{.Email}} . Comproveu el vostre compte de correu electrònic."
+  },
+  "validate_email_alert_success": {
+    "other": "Èxit"
+  },
+  "validate_email_alert_error": {
+    "other": "Error!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Crear compte"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "S'està creant un compte..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Falta el codi de verificació."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "El testimoni de verificació ha caducat."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Aquest correu electrònic no s'ha verificat."
+  },
+  "alert_title_success": {
+    "other": "Èxit"
+  },
+  "alert_title_error": {
+    "other": "Error!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "L'adreça de correu proporcionada és per a un domini que s'ha restringit. Si us plau, registreu-vos amb un altre proveïdor de correu electrònic."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "S'ha produït un error desconegut en validar la vostra adreça de correu electrònic. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "signup_form_error_generic": {
+    "other": "S'ha produït un error desconegut en crear el vostre compte. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Torna a provar la validació del correu electrònic"
+  },
+  "auth_selector_info": {
+    "other": "Es necessita un compte per comprar aquest contingut."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Ja ets membre? Inicia sessió"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Crear compte"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "o"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Ja s'ha enviat un correu electrònic de verificació. Comproveu el vostre compte de correu electrònic."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "El correu electrònic no és vàlid."
+  },
+  "validate_email_error_email_required": {
+    "other": "Es requereix un correu electrònic."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Aquest correu electrònic ja està en ús."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "L'adreça de correu proporcionada és per a un domini que s'ha restringit. Si us plau, registreu-vos amb un altre proveïdor de correu electrònic."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Cal un codi PIN."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Actualment, les inscripcions estan desactivades."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Hi ha massa sol·licituds, torneu-ho a provar més tard."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "La validació del correu electrònic està desactivada actualment."
+  },
+  "validate_email_error_generic": {
+    "other": "S'ha produït un error desconegut en verificar el correu electrònic subministrat. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Aquest correu electrònic ja està en ús."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "S'ha produït un error desconegut amb la vostra sessió de compra. Proveu d'actualitzar la pàgina o poseu-vos en contacte amb l'administrador del vostre lloc."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Inicia sessió"
+  },
+  "verify_email_success_page_header": {
+    "other": "Verifica el teu correu electrònic"
+  },
+  "verify_email_success_page_message": {
+    "other": "Per assegurar-nos que ets realment tu, hem enviat un enllaç de verificació al teu correu electrònic."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Si no el trobeu, comproveu el vostre correu brossa."
+  },
+  "verify_email_success_page_back": {
+    "other": "No has rebut cap correu electrònic?"
   }
 }

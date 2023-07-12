@@ -192,7 +192,7 @@
     "other": "Eikö sinulla ole tiliä? Luo uusi tili"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Onko sinulla jo tili? Kirjaudu sisään"
+    "other": "Onko sinulla jo tili?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Sähköpostiosoite on jo käytössä."
@@ -1412,5 +1412,245 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Ostosistunto vanhentunut, yritä uudelleen."
+  },
+  "live_stream_starts": {
+    "other": "Stream alkaa {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Striimaa nyt"
+  },
+  "live_streaming_ended": {
+    "other": "Striimi päättyi"
+  },
+  "availability_live": {
+    "other": "ELÄÄ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Hanki lippu"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Et voi käyttää tarjouskoodia tähän ostoon tai vuokraukseen"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Tämä tarjouskoodi ei ole vielä voimassa"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Tarjouskoodeja ei voi käyttää ilmaisissa ostosistunnoissa"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Tarjouskoodeja ei voi käyttää, kun osto on suoritettu"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Tarjouskoodia ei voitu käyttää. Yritä uudelleen"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Virheellinen tarjouskoodi"
+  },
+  "shopping_error_missing_code": {
+    "other": "Tarjouskoodia ei annettu"
+  },
+  "live_label_ended": {
+    "other": "SUORA: PÄÄTTYNYT"
+  },
+  "live_label_live": {
+    "other": "SUORA"
+  },
+  "live_label_minutes": {
+    "one": "SUORA: 1 MINUUTI",
+    "other": "SUORA: {{.Count}} MINUUTTIA"
+  },
+  "live_label_hours": {
+    "one": "SUORA: 1 TUNTI",
+    "other": "SUORA: {{.Count}} TUNTIA"
+  },
+  "live_label_days": {
+    "one": "SUORA: 1 PÄIVÄ",
+    "other": "SUORA: {{.Count}} PÄIVÄT"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Suora lähetys"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Tämä on live-tapahtuma. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Voit ostaa lipun nyt, mutta sinun on katsottava suoratoiston aikana."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Sinun on katsottava suoratoiston aikana."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Tämä tapahtuma on tällä hetkellä live-tilassa. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Lähetys päättyy {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Et voi katsoa striimiä sen jälkeen."
+  },
+  "shopping_action_ticket": {
+    "other": "Hanki lippu"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Suoratoisto alkaa {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Se alkoi {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Et voi kelata sitä taaksepäin."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Korttisi viimeinen voimassaolopäivä on mennyt."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Korttisi vanhentumisvuosi on mennyt."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Korttisi numero on virheellinen."
+  },
+  "new_card_error_timed_out": {
+    "other": "Jotain meni pieleen korttia lisättäessä. Yritä myöhemmin uudelleen tai käytä toista korttia."
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Vieraile meillä Instagramissa"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Tilaa Youtubessa"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Vieraile Facebookissa"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Vieraile Twitterissä"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Vieraile meillä Letterboxdissa"
+  },
+  "tv_app_badge_title": {
+    "other": "Saatavilla TV-sovelluksissa"
+  },
+  "app_badge_fire_tv": {
+    "other": "Hanki se Amazon Fire TV:stä"
+  },
+  "app_badge_android_tv": {
+    "other": "Lataa se Android TV:hen"
+  },
+  "app_badge_apple_tv": {
+    "other": "Lataa se Apple TV:stä"
+  },
+  "validate_email_about": {
+    "other": "Tilin luomiseksi meidän on ensin vahvistettava sähköpostiosoitteesi. Kirjoita sähköpostiosoitteesi, niin lähetämme kutsun tilin rekisteröintiin."
+  },
+  "validate_email_success": {
+    "other": "Vahvistussähköposti on lähetetty osoitteeseen {{.Email}} . Tarkista sähköpostisi ja seuraa tilin luomisohjeita."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Tämä sähköpostiosoite on jo käytössä."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Vahvistussähköposti on jo lähetetty osoitteeseen {{.Email}} . Tarkista sähköpostitilisi."
+  },
+  "validate_email_alert_success": {
+    "other": "Menestys"
+  },
+  "validate_email_alert_error": {
+    "other": "Virhe!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Luo tili"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Luodaan tiliä..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Vahvistuskoodi puuttuu."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Vahvistustunnus on vanhentunut."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Tätä sähköpostia ei ole vahvistettu."
+  },
+  "alert_title_success": {
+    "other": "Menestys"
+  },
+  "alert_title_error": {
+    "other": "Virhe!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Annettu sähköpostiosoite on rajoitettua verkkotunnusta varten. Rekisteröidy toisen sähköpostipalvelun kautta."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Sähköpostiosoitteesi vahvistamisessa tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "signup_form_error_generic": {
+    "other": "Tiliäsi luotaessa tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Yritä sähköpostin vahvistusta uudelleen"
+  },
+  "auth_selector_info": {
+    "other": "Tämän sisällön ostamiseen tarvitaan tili."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "joko olet jäsen? Kirjaudu sisään"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Luo tili"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "tai"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Vahvistussähköposti on jo lähetetty. Tarkista sähköpostitilisi."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Sähköposti ei ole kelvollinen."
+  },
+  "validate_email_error_email_required": {
+    "other": "Sähköposti vaaditaan."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Tämä sähköpostiosoite on jo käytössä."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Annettu sähköpostiosoite on rajoitettua verkkotunnusta varten. Rekisteröidy toisen sähköpostipalvelun kautta."
+  },
+  "validate_email_error_pin_required": {
+    "other": "PIN-koodi vaaditaan."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Ilmoittautuminen on tällä hetkellä poissa käytöstä."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Liian monta pyyntöä, yritä myöhemmin uudelleen."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Sähköpostin vahvistus on tällä hetkellä poissa käytöstä."
+  },
+  "validate_email_error_generic": {
+    "other": "Toimitettua sähköpostia vahvistettaessa tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Tämä sähköpostiosoite on jo käytössä."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Ostosistunnossasi tapahtui tuntematon virhe. Yritä päivittää sivu tai ota yhteyttä sivuston ylläpitäjään."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Kirjaudu sisään"
+  },
+  "verify_email_success_page_header": {
+    "other": "Vahvista sähköpostiosoitteesi"
+  },
+  "verify_email_success_page_message": {
+    "other": "Olemme lähettäneet sähköpostiisi vahvistuslinkin varmistaaksemme, että olet todella sinä."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Jos et löydä sitä, tarkista roskapostisi."
+  },
+  "verify_email_success_page_back": {
+    "other": "Etkö saanut sähköpostia?"
   }
 }

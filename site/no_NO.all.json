@@ -212,7 +212,7 @@
     "other": "Har du ikke en konto? Opprett en ny konto."
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Har du allerede en konto? Logg inn."
+    "other": "Har du allerede en konto?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "E-postadressen er allerede i bruk."
@@ -1412,5 +1412,245 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Shoppingøkten er utløpt, prøv igjen."
+  },
+  "live_stream_starts": {
+    "other": "Stream starter {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streamer nå"
+  },
+  "live_streaming_ended": {
+    "other": "Strømmen ble avsluttet"
+  },
+  "availability_live": {
+    "other": "BO"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Få billett"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Du kan ikke bruke en kampanjekode for dette kjøpet eller utleien"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Kampanjekoden er ikke gyldig ennå"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Kampanjekoder kan ikke brukes på gratis shoppingøkter"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Kampanjekoder kan ikke brukes etter at kjøpet er fullført"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Kampanjekoden kunne ikke brukes. Prøv igjen"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Ugyldig kampanjekode"
+  },
+  "shopping_error_missing_code": {
+    "other": "Ingen kampanjekode ble oppgitt"
+  },
+  "live_label_ended": {
+    "other": "LIVE: AVSLUTTET"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MITT",
+    "other": "LIVE: {{.Count}} MINUTTER"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 TIME",
+    "other": "LIVE: {{.Count}} TIMER"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 DAG",
+    "other": "LIVE: {{.Count}} DAGER"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Direktestrømming"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dette er en Live Event. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Du kan kjøpe en billett nå, men du må se mens strømmen er direkte."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Du må se mens strømmen er direkte."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Denne begivenheten er for øyeblikket live. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Strøm slutter {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Du vil ikke kunne se strømmen etter det."
+  },
+  "shopping_action_ticket": {
+    "other": "Få billett"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Strømmen starter {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Det startet på {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Du kan ikke spole den tilbake."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Kortets utløpsdato er i fortiden."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Kortets utløpsår er i fortiden."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Kortnummeret ditt er ugyldig."
+  },
+  "new_card_error_timed_out": {
+    "other": "Noe gikk galt da kortet ble lagt til. Prøv igjen senere eller bruk et annet kort."
+  },
+  "tv_app_badge_title": {
+    "other": "Tilgjengelig på TV-apper"
+  },
+  "app_badge_fire_tv": {
+    "other": "Få den på Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Få den på Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Få den på Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Besøk oss på Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Abonner på Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Besøk oss på Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Besøk oss på Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Besøk oss på Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "For å opprette en konto må vi først bekrefte e-postadressen din. Skriv inn e-postadressen din, så sender vi en invitasjon til kontoregistrering."
+  },
+  "validate_email_success": {
+    "other": "En bekreftelses-e-post er sendt til {{.Email}} . Vennligst sjekk e-posten din og følg instruksjonene for kontooppretting."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Denne e-posten er allerede i bruk."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "En bekreftelses-e-post er allerede sendt til {{.Email}} . Vennligst sjekk e-postkontoen din."
+  },
+  "validate_email_alert_success": {
+    "other": "Suksess"
+  },
+  "validate_email_alert_error": {
+    "other": "Feil!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Opprett konto"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Oppretter konto ..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Bekreftelseskode mangler."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Bekreftelsestokenet er utløpt."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Denne e-posten er ikke bekreftet."
+  },
+  "alert_title_success": {
+    "other": "Suksess"
+  },
+  "alert_title_error": {
+    "other": "Feil!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "E-postadressen som er oppgitt er for et domene som er begrenset. Registrer deg hos en annen e-postleverandør."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Det oppstod en ukjent feil under validering av e-postadressen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+  },
+  "signup_form_error_generic": {
+    "other": "Det oppstod en ukjent feil under opprettelsen av kontoen din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Prøv e-postvalidering på nytt"
+  },
+  "auth_selector_info": {
+    "other": "En konto er nødvendig for å kjøpe dette innholdet."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Allerede medlem? Logg inn"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Opprett konto"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "eller"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "En bekreftelses-e-post er allerede sendt. Vennligst sjekk e-postkontoen din."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-post er ikke gyldig."
+  },
+  "validate_email_error_email_required": {
+    "other": "En e-post er nødvendig."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Denne e-posten er allerede i bruk."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "E-postadressen som er oppgitt er for et domene som er begrenset. Registrer deg hos en annen e-postleverandør."
+  },
+  "validate_email_error_pin_required": {
+    "other": "En PIN-kode kreves."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Registreringer er for øyeblikket deaktivert."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "For mange forespørsler. Vær snill å prøv senere."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "E-postvalidering er for øyeblikket deaktivert."
+  },
+  "validate_email_error_generic": {
+    "other": "Det oppstod en ukjent feil under bekreftelse av den oppgitte e-posten. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Denne e-posten er allerede i bruk."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Det var en ukjent feil med handleøkten din. Prøv å oppdatere siden eller kontakt nettstedadministratoren din."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Logg inn"
+  },
+  "verify_email_success_page_header": {
+    "other": "Bekreft e-posten din"
+  },
+  "verify_email_success_page_message": {
+    "other": "For å være sikker på at du virkelig er deg, har vi sendt en bekreftelseslenke til e-posten din."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Hvis du ikke finner den, sjekk spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Har du ikke mottatt en e-post?"
   }
 }

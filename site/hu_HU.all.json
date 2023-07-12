@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "in partnership with"
@@ -212,7 +212,7 @@
     "other": "Nincs még fiókod? Új fiók létrehozása"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Már van fiókod? Bejelentkezés"
+    "other": "Már van fiókja?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Ezt az e-mail címet már használják."
@@ -1412,5 +1412,245 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "A vásárlási munkamenet lejárt, próbálkozzon újra."
+  },
+  "live_stream_starts": {
+    "other": "Az adatfolyam elindul {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streamelés most"
+  },
+  "live_streaming_ended": {
+    "other": "Az adatfolyam véget ért"
+  },
+  "availability_live": {
+    "other": "ÉLŐ"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Vegyél jegyet"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Nem használhat promóciós kódot ehhez a vásárláshoz vagy kölcsönzéshez"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Ez a promóciós kód még nem érvényes"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "A promóciós kódok nem alkalmazhatók ingyenes vásárlási alkalmakra"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "A promóciós kódok nem alkalmazhatók, ha a vásárlás befejeződött"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Nem sikerült alkalmazni a promóciós kódot, próbálkozzon újra"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Érvénytelen promóciós kód"
+  },
+  "shopping_error_missing_code": {
+    "other": "Nem adtak meg promóciós kódot"
+  },
+  "live_label_ended": {
+    "other": "ÉLŐ: VÉGE"
+  },
+  "live_label_live": {
+    "other": "ÉLŐ"
+  },
+  "live_label_minutes": {
+    "one": "ÉLŐ: 1 PERC",
+    "other": "ÉLŐ: {{.Count}} PERC"
+  },
+  "live_label_hours": {
+    "one": "ÉLŐ: 1 ÓRA",
+    "other": "ÉLŐ: {{.Count}} ÓRA"
+  },
+  "live_label_days": {
+    "one": "ÉLŐ: 1 NAP",
+    "other": "ÉLŐ: {{.Count}} NAPOK"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Élő adás"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Ez egy élő esemény. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Már most is vásárolhat jegyet, de a közvetítést élőben kell néznie."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "A közvetítést élőben kell nézni."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Ez az esemény jelenleg élő. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Az adatfolyam véget ér {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Utána nem fogod tudni nézni a streamet."
+  },
+  "shopping_action_ticket": {
+    "other": "Vegyél jegyet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Az adatfolyam elindul {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "{{.Date}} -kor kezdődött. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Nem lehet visszatekerni."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Kártyája lejárati dátuma a múltban van."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "A kártya lejárati éve már a múltban van."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "A kártyaszám érvénytelen."
+  },
+  "new_card_error_timed_out": {
+    "other": "Valami hiba történt a kártya hozzáadásakor. Kérjük, próbálja újra később, vagy használjon másik kártyát."
+  },
+  "tv_app_badge_title": {
+    "other": "Elérhető a TV-alkalmazásokban"
+  },
+  "app_badge_fire_tv": {
+    "other": "Szerezd meg az Amazon Fire TV-n"
+  },
+  "app_badge_android_tv": {
+    "other": "Szerezd meg Android TV-n"
+  },
+  "app_badge_apple_tv": {
+    "other": "Szerezd meg az Apple TV-n"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Látogass meg minket az Instagramon"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Iratkozz fel a Youtube-on"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Látogass el hozzánk a Facebookon"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Látogasson el hozzánk a Twitteren"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Látogasson el hozzánk a Letterboxd-on"
+  },
+  "validate_email_about": {
+    "other": "Fiók létrehozásához először igazolnunk kell e-mail címét. Adja meg e-mail címét, és küldünk egy fiók regisztrációs meghívót."
+  },
+  "validate_email_success": {
+    "other": "Egy ellenőrző e-mailt küldtünk {{.Email}} címre. Kérjük, ellenőrizze e-mailjeit, és kövesse a fiók létrehozására vonatkozó utasításokat."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Ez az email cím már foglalt."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Egy ellenőrző e-mailt már elküldtek {{.Email}} címre. Kérjük, ellenőrizze e-mail fiókját."
+  },
+  "validate_email_alert_success": {
+    "other": "Siker"
+  },
+  "validate_email_alert_error": {
+    "other": "Hiba!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Fiók létrehozása"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Fiók létrehozása..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Hiányzik az ellenőrző kód."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Az ellenőrző token lejárt."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Ezt az e-mailt nem ellenőriztük."
+  },
+  "alert_title_success": {
+    "other": "Siker"
+  },
+  "alert_title_error": {
+    "other": "Hiba!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "A megadott e-mail cím egy korlátozott domainhez tartozik. Kérjük, regisztráljon egy másik e-mail szolgáltatónál."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Ismeretlen hiba történt az e-mail-cím érvényesítése során. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "signup_form_error_generic": {
+    "other": "Ismeretlen hiba történt a fiók létrehozásakor. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Próbálja újra az e-mail érvényesítést"
+  },
+  "auth_selector_info": {
+    "other": "A tartalom megvásárlásához fiók szükséges."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Már tag? Bejelentkezés"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Fiók létrehozása"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "vagy"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Az ellenőrző e-mailt már elküldtük. Kérjük, ellenőrizze e-mail fiókját."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "Az e-mail cím nem érvényes."
+  },
+  "validate_email_error_email_required": {
+    "other": "E-mail szükséges."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Ez az email cím már foglalt."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "A megadott e-mail cím egy korlátozott domainhez tartozik. Kérjük, regisztráljon egy másik e-mail szolgáltatónál."
+  },
+  "validate_email_error_pin_required": {
+    "other": "PIN kód szükséges."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "A regisztráció jelenleg le van tiltva."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Túl sok kérés. Kérlek, próbáld újra később."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "Az e-mail ellenőrzés jelenleg le van tiltva."
+  },
+  "validate_email_error_generic": {
+    "other": "Ismeretlen hiba történt a megadott e-mail ellenőrzése során. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Ez az email cím már foglalt."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Ismeretlen hiba történt a vásárlás során. Próbálja meg frissíteni az oldalt, vagy lépjen kapcsolatba a webhely rendszergazdájával."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Bejelentkezés"
+  },
+  "verify_email_success_page_header": {
+    "other": "Erősítsd meg az e-mail címedet"
+  },
+  "verify_email_success_page_message": {
+    "other": "Annak érdekében, hogy megbizonyosodjunk arról, hogy Ön valóban Ön, küldtünk egy ellenőrző linket az e-mail címére."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Ha nem találja, ellenőrizze a spameket."
+  },
+  "verify_email_success_page_back": {
+    "other": "Nem kapott e-mailt?"
   }
 }

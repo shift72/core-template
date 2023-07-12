@@ -6,10 +6,10 @@
     "other": "Powered by"
   },
   "powered_by_name": {
-    "other": "ScreenPlus"
+    "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "in partnership with"
@@ -192,7 +192,7 @@
     "other": "アカウント登録がお済みでない方は初めに登録してください。"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "アカウントをお持ちの方はサインインしてください。"
+    "other": "すでにアカウントをお持ちですか？"
   },
   "signup_form_error_email_already_in_use": {
     "other": "このEメールアドレスは登録済みです。"
@@ -1402,5 +1402,242 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "ショッピング セッションの有効期限が切れました。もう一度お試しください。"
+  },
+  "live_stream_starts": {
+    "other": "ストリーム開始 {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "ストリーミング中"
+  },
+  "live_streaming_ended": {
+    "other": "配信終了"
+  },
+  "availability_live": {
+    "other": "住む"
+  },
+  "shopping_action_get_ticket": {
+    "other": "チケットを入手"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "この購入またはレンタルにはプロモーション コードを使用できません"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "そのプロモーション コードはまだ有効ではありません"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "プロモーション コードは、無料のショッピング セッションには適用できません"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "購入が完了するとプロモーション コードを適用できません"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "プロモーション コードを適用できませんでした。もう一度お試しください"
+  },
+  "shopping_error_invalid_code": {
+    "other": "プロモーション コードが無効です"
+  },
+  "shopping_error_missing_code": {
+    "other": "プロモーション コードが提供されていません"
+  },
+  "live_label_ended": {
+    "other": "ライブ: 終了しました"
+  },
+  "live_label_live": {
+    "other": "ライブ"
+  },
+  "live_label_minutes": {
+    "other": "ライブ: {{.Count}} 分"
+  },
+  "live_label_hours": {
+    "other": "ライブ: {{.Count}} 時間"
+  },
+  "live_label_days": {
+    "other": "ライブ: {{.Count}} 日"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "ライブ ストリーム"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "これはライブイベントです。"
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "今すぐチケットを購入できますが、ストリームがライブである間に視聴する必要があります。"
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "ストリームがライブである間、視聴する必要があります。"
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "このイベントは現在開催中です。"
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "ストリームは{{.Date}}で終了します。"
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "その後、ストリームを視聴することはできません。"
+  },
+  "shopping_action_ticket": {
+    "other": "チケットを入手"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "ストリーム開始{{.Date}}。"
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "それは{{.Date}}に始まりました。"
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "巻き戻しはできません。"
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "カードの有効期限が過ぎています。"
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "カードの有効期限が過ぎています。"
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "カード番号が無効です。"
+  },
+  "new_card_error_timed_out": {
+    "other": "カードの追加中にエラーが発生しました。後でもう一度試すか、別のカードを使用してください。"
+  },
+  "tv_app_badge_title": {
+    "other": "TV アプリで利用可能"
+  },
+  "app_badge_fire_tv": {
+    "other": "Amazon Fire TV で入手する"
+  },
+  "app_badge_android_tv": {
+    "other": "Android TV で入手する"
+  },
+  "app_badge_apple_tv": {
+    "other": "Apple TV で入手する"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Instagramで私たちをご覧ください"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Youtubeで購読する"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Facebookで私たちをご覧ください"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Twitterで私たちをご覧ください"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Letterboxdにアクセスしてください"
+  },
+  "validate_email_about": {
+    "other": "アカウントを作成するには、まずメール アドレスを確認する必要があります。メールアドレスを入力すると、アカウントのサインアップの招待状が送信されます。"
+  },
+  "validate_email_success": {
+    "other": "確認メールが{{.Email}}に送信されました。メールを確認し、アカウント作成の指示に従ってください。"
+  },
+  "validate_email_email_already_in_use": {
+    "other": "この電子メールは既に利用されています。"
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "確認メールは既に{{.Email}}に送信されています。メールアカウントを確認してください。"
+  },
+  "validate_email_alert_success": {
+    "other": "成功"
+  },
+  "validate_email_alert_error": {
+    "other": "エラー！"
+  },
+  "validate_email_submit_button_text": {
+    "other": "アカウントを作成する"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "アカウントを作成しています..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "確認コードがありません。"
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "検証トークンの有効期限が切れています。"
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "このメールは確認されていません。"
+  },
+  "alert_title_success": {
+    "other": "成功"
+  },
+  "alert_title_error": {
+    "other": "エラー！"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "指定されたメールアドレスは、制限されたドメインのものです。別のメール プロバイダーにサインアップしてください。"
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "メールアドレスの検証中に不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
+  },
+  "signup_form_error_generic": {
+    "other": "アカウントの作成中に不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "メールの検証を再試行する"
+  },
+  "auth_selector_info": {
+    "other": "このコンテンツを購入するにはアカウントが必要です。"
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "すでにメンバーですか？ログイン"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "アカウントを作成する"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "また"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "確認メールは既に送信されています。メールアカウントを確認してください。"
+  },
+  "validate_email_error_email_invalid": {
+    "other": "電子メールは有効ではありません。"
+  },
+  "validate_email_error_email_required": {
+    "other": "電子メールは必要です。"
+  },
+  "validate_email_error_email_taken": {
+    "other": "この電子メールは既に利用されています。"
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "指定されたメールアドレスは、制限されたドメインのものです。別のメール プロバイダーにサインアップしてください。"
+  },
+  "validate_email_error_pin_required": {
+    "other": "PIN コードが必要です。"
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "サインアップは現在無効になっています。"
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "要求が多すぎます。あとで言ってください。"
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "電子メールの検証は現在無効になっています。"
+  },
+  "validate_email_error_generic": {
+    "other": "提供された電子メールの確認中に不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "この電子メールは既に利用されています。"
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "ショッピング セッションで不明なエラーが発生しました。ページを更新するか、サイト管理者に連絡してください。"
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "ログイン"
+  },
+  "verify_email_success_page_header": {
+    "other": "あなたの電子メールを確認します"
+  },
+  "verify_email_success_page_message": {
+    "other": "本人であることを確認するため、確認リンクをメールに送信しました。"
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "見つからない場合は、スパムを確認してください。"
+  },
+  "verify_email_success_page_back": {
+    "other": "メールが届かない場合"
   }
 }

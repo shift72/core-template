@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "i samarbejde med"
@@ -212,7 +212,7 @@
     "other": "Har du ikke en konto? Opret en ny konto"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Har du allerede en konto? Log ind"
+    "other": "har du allerede en bruger?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Denne e-mailadresse er allerede i brug"
@@ -1412,5 +1412,245 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Shopping-sessionen er udløbet, prøv venligst igen."
+  },
+  "live_stream_starts": {
+    "other": "Stream starter {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Streamer nu"
+  },
+  "live_streaming_ended": {
+    "other": "Stream sluttede"
+  },
+  "availability_live": {
+    "other": "LIVE"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Få billet"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Du kan ikke bruge en kampagnekode til dette køb eller leje"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Denne kampagnekode er ikke gyldig endnu"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Kampagnekoder kan ikke anvendes til gratis shoppingsessioner"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Kampagnekoder kan ikke anvendes, når købet er gennemført"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Kampagnekoden kunne ikke anvendes. Prøv venligst igen"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Ugyldig kampagnekode"
+  },
+  "shopping_error_missing_code": {
+    "other": "Der blev ikke angivet nogen kampagnekode"
+  },
+  "live_label_ended": {
+    "other": "LIVE: SLUT"
+  },
+  "live_label_live": {
+    "other": "LIVE"
+  },
+  "live_label_minutes": {
+    "one": "LIVE: 1 MINUT",
+    "other": "LIVE: {{.Count}} MINUTTER"
+  },
+  "live_label_hours": {
+    "one": "LIVE: 1 TIME",
+    "other": "LIVE: {{.Count}} TIMER"
+  },
+  "live_label_days": {
+    "one": "LIVE: 1 DAG",
+    "other": "LIVE: {{.Count}} DAGE"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Live stream"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Dette er en Live Event. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Du kan købe en billet nu, men du bliver nødt til at se den, mens streamen er live."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Du skal se, mens streamen er live."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Denne begivenhed er i øjeblikket live. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Stream slutter {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Du vil ikke være i stand til at se streamen efter det."
+  },
+  "shopping_action_ticket": {
+    "other": "Få billet"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Stream starter {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Det startede kl {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Du kan ikke spole den tilbage."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Dit korts udløbsdato ligger i fortiden."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Dit korts udløbsår er i fortiden."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Dit kortnummer er ugyldigt."
+  },
+  "new_card_error_timed_out": {
+    "other": "Der gik noget galt, da det pågældende kort blev tilføjet. Prøv igen senere, eller brug et andet kort."
+  },
+  "tv_app_badge_title": {
+    "other": "Tilgængelig på tv-apps"
+  },
+  "app_badge_fire_tv": {
+    "other": "Få det på Amazon Fire TV"
+  },
+  "app_badge_android_tv": {
+    "other": "Få det på Android TV"
+  },
+  "app_badge_apple_tv": {
+    "other": "Få det på Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Besøg os på Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Abonner på Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Besøg os på Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Besøg os på Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Besøg os på Letterboxd"
+  },
+  "validate_email_about": {
+    "other": "For at oprette en konto skal vi først bekræfte din e-mailadresse. Indtast din e-mail, og vi sender en invitation til kontotilmelding."
+  },
+  "validate_email_success": {
+    "other": "En bekræftelsesmail er blevet sendt til {{.Email}} . Tjek venligst din e-mail og følg instruktionerne til oprettelse af konto."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Denne e-mail er allerede i brug."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "En bekræftelsesmail er allerede blevet sendt til {{.Email}} . Tjek venligst din e-mail-konto."
+  },
+  "validate_email_alert_success": {
+    "other": "Succes"
+  },
+  "validate_email_alert_error": {
+    "other": "Fejl!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Opret konto"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Opretter konto..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Bekræftelseskode mangler."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Bekræftelsestokenet er udløbet."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Denne e-mail er ikke blevet bekræftet."
+  },
+  "alert_title_success": {
+    "other": "Succes"
+  },
+  "alert_title_error": {
+    "other": "Fejl!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Den angivne mailadresse er for et domæne, der er blevet begrænset. Tilmeld dig hos en anden e-mail-udbyder."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Der opstod en ukendt fejl under validering af din e-mailadresse. Prøv at opdatere siden eller kontakt din webstedsadministrator."
+  },
+  "signup_form_error_generic": {
+    "other": "Der opstod en ukendt fejl under oprettelse af din konto. Prøv at opdatere siden eller kontakt din webstedsadministrator."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Prøv e-mailvalidering igen"
+  },
+  "auth_selector_info": {
+    "other": "En konto er nødvendig for at købe dette indhold."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "allerede medlem? Log ind"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Opret konto"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "eller"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "En bekræftelses-e-mail er allerede blevet sendt. Tjek venligst din e-mail-konto."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "E-mail er ikke en gyldig."
+  },
+  "validate_email_error_email_required": {
+    "other": "En e-mail er påkrævet."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Denne e-mail er allerede i brug."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Den angivne mailadresse er for et domæne, der er blevet begrænset. Tilmeld dig hos en anden e-mail-udbyder."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Der kræves en pinkode."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Tilmeldinger er i øjeblikket deaktiveret."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "For mange anmodninger, prøv venligst igen senere."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "E-mail-validering er i øjeblikket deaktiveret."
+  },
+  "validate_email_error_generic": {
+    "other": "Der opstod en ukendt fejl under bekræftelse af den angivne e-mail. Prøv at opdatere siden eller kontakt din webstedsadministrator."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Denne e-mail er allerede i brug."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Der opstod en ukendt fejl med din indkøbssession. Prøv at opdatere siden eller kontakt din webstedsadministrator."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Log ind"
+  },
+  "verify_email_success_page_header": {
+    "other": "Bekræft din e-mail"
+  },
+  "verify_email_success_page_message": {
+    "other": "For at sikre, at du virkelig er dig, har vi sendt et bekræftelseslink til din e-mail."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Hvis du ikke kan finde det, så tjek din spam."
+  },
+  "verify_email_success_page_back": {
+    "other": "Har du ikke modtaget en e-mail?"
   }
 }

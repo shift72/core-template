@@ -9,7 +9,7 @@
     "other": "Shift72"
   },
   "powered_by_url": {
-    "other": "https://www.screenplus.com"
+    "other": "https://www.shift72.com"
   },
   "in_partnership_with": {
     "other": "in partnership with"
@@ -212,7 +212,7 @@
     "other": "Neturite paskyros? Registruotis"
   },
   "signup_page_alreadyhaveanaccount": {
-    "other": "Turite paskyrą? Prisijungti"
+    "other": "Jau turite paskyrą?"
   },
   "signup_form_error_email_already_in_use": {
     "other": "Su šiuo el. paštu paskyra jau sukurta."
@@ -1438,5 +1438,251 @@
   },
   "shopping_error_invalid_session_token": {
     "other": "Apsipirkimo sesija baigėsi, bandykite dar kartą."
+  },
+  "live_stream_starts": {
+    "other": "Srautas prasideda {{.Date}}"
+  },
+  "live_streaming_now": {
+    "other": "Dabar transliuojama"
+  },
+  "live_streaming_ended": {
+    "other": "Srautas baigėsi"
+  },
+  "availability_live": {
+    "other": "GYVAI"
+  },
+  "shopping_action_get_ticket": {
+    "other": "Gaukite bilietą"
+  },
+  "shopping_error_credit_discounts_not_allowed": {
+    "other": "Šiam pirkimui ar nuomai negalite naudoti reklamos kredito kodo"
+  },
+  "shopping_error_discount_coming_soon": {
+    "other": "Šis reklamos kredito kodas dar negalioja"
+  },
+  "shopping_error_discount_not_allowed_on_free_session": {
+    "other": "Reklamos kredito kodai negali būti taikomi nemokamoms apsipirkimo sesijoms"
+  },
+  "shopping_error_discount_not_allowed_on_processing_session": {
+    "other": "Kai pirkimas baigtas, reklamos kredito kodai negali būti taikomi"
+  },
+  "shopping_error_discount_redemption_failed": {
+    "other": "Nepavyko pritaikyti reklamos kredito kodo, bandykite dar kartą"
+  },
+  "shopping_error_invalid_code": {
+    "other": "Neteisingas reklamos kredito kodas"
+  },
+  "shopping_error_missing_code": {
+    "other": "Reklamos kodas nebuvo pateiktas"
+  },
+  "live_label_ended": {
+    "other": "TIESIOGIAI: PABAIGTA"
+  },
+  "live_label_live": {
+    "other": "TIESIOGIAI"
+  },
+  "live_label_minutes": {
+    "one": "TIESIOGIAI: 1 MINUTĖ",
+    "few": "TIESIOGIAI: {{.Count}} MINUTES",
+    "many": "TIESIOGIAI: {{.Count}} MINUTES",
+    "other": "TIESIOGIAI: {{.Count}} MINUTES"
+  },
+  "live_label_hours": {
+    "one": "TIESIOGIAI: 1 VALANDA",
+    "few": "TIESIOGIAI: {{.Count}} VALANDAS",
+    "many": "TIESIOGIAI: {{.Count}} VALANDAS",
+    "other": "TIESIOGIAI: {{.Count}} VALANDAS"
+  },
+  "live_label_days": {
+    "one": "TIESIOGIAI: 1 DIENA",
+    "few": "TIESIOGIAI: {{.Count}} DIENAS",
+    "many": "TIESIOGIAI: {{.Count}} DIENAS",
+    "other": "TIESIOGIAI: {{.Count}} DIENAS"
+  },
+  "shopping_info_subtitle_live_event": {
+    "other": "Tiesiogiai"
+  },
+  "shopping_info_release_date_title_live_event": {
+    "other": "Tai tiesioginis įvykis. "
+  },
+  "shopping_info_release_date_explanation1_live_event_rent": {
+    "other": "Galite nusipirkti bilietą dabar, bet turėsite žiūrėti, kol bus transliuojama tiesioginė transliacija."
+  },
+  "shopping_info_release_date_explanation2_live_event_rent": {
+    "other": "Turėsite žiūrėti, kol vyksta tiesioginė transliacija."
+  },
+  "shopping_info_release_date_explanation3_live_event_rent": {
+    "other": "Šis įvykis šiuo metu vyksta tiesiogiai. "
+  },
+  "shopping_info_available_until_date_title_live_event": {
+    "other": "Srautas baigiasi {{.Date}}. "
+  },
+  "shopping_info_available_until_date_explanation_live_event_rent": {
+    "other": "Po to srauto žiūrėti nebegalėsite."
+  },
+  "shopping_action_ticket": {
+    "other": "Gaukite bilietą"
+  },
+  "shopping_info_release_date_title_live_event_start": {
+    "other": "Srautas prasideda {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation4_live_event_rent": {
+    "other": "Jis prasidėjo {{.Date}}. "
+  },
+  "shopping_info_release_date_explanation5_live_event_rent": {
+    "other": "Jūs negalite jo atsukti."
+  },
+  "shopping_error_stripe_invalid_expiry_month_past": {
+    "other": "Jūsų kortelės galiojimo laikas yra praeityje."
+  },
+  "shopping_error_stripe_invalid_expiry_year_past": {
+    "other": "Jūsų kortelės galiojimo laikas yra praeityje."
+  },
+  "shopping_error_stripe_invalid_number": {
+    "other": "Jūsų kortelės numeris neteisingas."
+  },
+  "new_card_error_timed_out": {
+    "other": "Pridedant šią kortelę kažkas nutiko. Bandykite dar kartą vėliau arba naudokite kitą kortelę."
+  },
+  "tv_app_badge_title": {
+    "other": "Pasiekiama TV programose"
+  },
+  "app_badge_fire_tv": {
+    "other": "Gaukite jį „Amazon Fire TV“."
+  },
+  "app_badge_android_tv": {
+    "other": "Gaukite jį „Android TV“."
+  },
+  "app_badge_apple_tv": {
+    "other": "Gaukite jį per Apple TV"
+  },
+  "wcag_aria_label_social_instagram": {
+    "other": "Aplankykite mus Instagram"
+  },
+  "wcag_aria_label_social_youtube": {
+    "other": "Prenumeruokite Youtube"
+  },
+  "wcag_aria_label_social_facebook": {
+    "other": "Aplankykite mus Facebook"
+  },
+  "wcag_aria_label_social_twitter": {
+    "other": "Aplankykite mus Twitter"
+  },
+  "wcag_aria_label_social_letterboxd": {
+    "other": "Aplankykite mus „Letterboxd“."
+  },
+  "validate_email_about": {
+    "other": "Norėdami sukurti paskyrą, pirmiausia turime patvirtinti jūsų el. pašto adresą. Įveskite savo el. pašto adresą ir mes atsiųsime kvietimą prisijungti prie paskyros."
+  },
+  "validate_email_success": {
+    "other": "Patvirtinimo el. laiškas išsiųstas adresu {{.Email}} . Patikrinkite el. paštą ir vadovaukitės paskyros kūrimo instrukcijomis."
+  },
+  "validate_email_email_already_in_use": {
+    "other": "Šis el. paštas jau naudojamas."
+  },
+  "validate_email_verify_email_already_sent": {
+    "other": "Patvirtinimo el. laiškas jau išsiųstas adresu {{.Email}} . Patikrinkite savo el. pašto paskyrą."
+  },
+  "validate_email_alert_success": {
+    "other": "Sėkmė"
+  },
+  "validate_email_alert_error": {
+    "other": "Klaida!"
+  },
+  "validate_email_submit_button_text": {
+    "other": "Sukurti paskyrą"
+  },
+  "validate_email_submit_button_text_in_progress": {
+    "other": "Kuriama paskyra..."
+  },
+  "signup_form_error_email_verification_missing": {
+    "other": "Trūksta patvirtinimo kodo."
+  },
+  "signup_form_error_email_verification_expired": {
+    "other": "Baigėsi patvirtinimo prieigos rakto galiojimo laikas."
+  },
+  "signup_form_error_email_verification_no_match": {
+    "other": "Šis el. laiškas nebuvo patvirtintas."
+  },
+  "alert_title_success": {
+    "other": "Sėkmė"
+  },
+  "alert_title_error": {
+    "other": "Klaida!"
+  },
+  "signup_form_error_email_verification_status_rejected": {
+    "other": "Pateiktas pašto adresas skirtas domenui, kuris buvo apribotas. Prisiregistruokite pas kitą el. pašto paslaugų teikėją."
+  },
+  "signup_form_error_email_verification_generic": {
+    "other": "Tikrinant jūsų el. pašto adresą įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
+  },
+  "signup_form_error_generic": {
+    "other": "Kuriant paskyrą įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
+  },
+  "signup_form_error_email_verification_link_text": {
+    "other": "Bandykite patvirtinti el. paštu dar kartą"
+  },
+  "auth_selector_info": {
+    "other": "Norint įsigyti šį turinį, reikalinga paskyra."
+  },
+  "auth_selector_sign_in_button_text": {
+    "other": "Jau narys? Prisijungti"
+  },
+  "auth_selector_sign_up_button_text": {
+    "other": "Sukurti paskyrą"
+  },
+  "auth_selector_or_divider_text": {
+    "other": "arba"
+  },
+  "validate_email_error_verify_email_already_sent": {
+    "other": "Patvirtinimo el. laiškas jau išsiųstas. Patikrinkite savo el. pašto paskyrą."
+  },
+  "validate_email_error_email_invalid": {
+    "other": "El. paštas negalioja."
+  },
+  "validate_email_error_email_required": {
+    "other": "Reikalingas el."
+  },
+  "validate_email_error_email_taken": {
+    "other": "Šis el. paštas jau naudojamas."
+  },
+  "validate_email_error_email_verification_status_rejected": {
+    "other": "Pateiktas pašto adresas skirtas domenui, kuris buvo apribotas. Prisiregistruokite pas kitą el. pašto paslaugų teikėją."
+  },
+  "validate_email_error_pin_required": {
+    "other": "Reikalingas PIN kodas."
+  },
+  "validate_email_error_signups_disabled": {
+    "other": "Šiuo metu registracija išjungta."
+  },
+  "validate_email_error_too_many_requests": {
+    "other": "Per daug užklausų. Prašome pabandyti vėliau."
+  },
+  "validate_email_error_verify_email_disabled": {
+    "other": "El. pašto patvirtinimas šiuo metu išjungtas."
+  },
+  "validate_email_error_generic": {
+    "other": "Tikrinant pateiktą el. laišką įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
+  },
+  "validate_email_error_email_already_in_use": {
+    "other": "Šis el. paštas jau naudojamas."
+  },
+  "shopping_error_payment_provider_generic": {
+    "other": "Apsipirkimo sesijoje įvyko nežinoma klaida. Pabandykite atnaujinti puslapį arba susisiekti su svetainės administratoriumi."
+  },
+  "signup_page_alreadyhaveanaccount_sign_in_link": {
+    "other": "Prisijungti"
+  },
+  "verify_email_success_page_header": {
+    "other": "Patvirtinkite el. pašto adresą"
+  },
+  "verify_email_success_page_message": {
+    "other": "Siekdami įsitikinti, kad tikrai esate jūs, el. paštu išsiuntėme patvirtinimo nuorodą."
+  },
+  "verify_email_success_page_check_spam": {
+    "other": "Jei nerandate, patikrinkite šlamštą."
+  },
+  "verify_email_success_page_back": {
+    "other": "Negavote el. laiško?"
   }
 }

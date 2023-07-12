@@ -4,7 +4,7 @@
 {{import "./google.jet" }}
 {{import "./footer/footer.jet" }}
 
-{{CDN := "//cdn.shift72.com/latest"}}
+{{CDN := "//cdn.shift72.com/1.4"}}
 {*{CDN := "//localhost:3000"}*}
 
 {{CSSFileURL := site.SiteBrand.GetLink("css", "")}}
@@ -52,10 +52,12 @@
     <script src="{{CDN}}/s72.transactional.js" defer></script>
     <script src="https://js.stripe.com/v3/" defer></script>
 
+    {* get default language from site record or kibble.json depening on if db translations is enabled *}  
+    {{ defaultLanguage := isEnabled("site_translations_api") ? site.DefaultLanguage : site.SiteConfig.DefaultLanguage }}
     <script>
       window.addEventListener('DOMContentLoaded', function(){
         s72.cfg(function(){ return s72.i18n.load('{{lang.Code}}', '/{{lang.DefinitionFilePath}}'); });
-        s72.cfg(function(){ return s72.i18n.href.setLanguages('{{site.SiteConfig.DefaultLanguage}}', '{{lang.Code}}'); });
+        s72.cfg(function(){ return s72.i18n.href.setLanguages('{{defaultLanguage}}', '{{lang.Code}}'); });
         s72.boot({
           config: {{ site.Config | json | raw }},
           toggles: {{ site.Toggles | json | raw }},

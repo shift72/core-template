@@ -27,16 +27,22 @@
     </div>
     <div class="container">
       <div class="meta-detail-main">
+        <s72-live-label data-slug="{{film.Slug}}"></s72-live-label>
+
         <div class="poster-wrapper">
           {{if config("default_image_type") == "portrait"}}
             {{yield sponsor() film}}
-            <div class="poster poster-portrait">
-              <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
-              <s72-image src="{{film.ImageMap["Classification"]}}" alt="" class="classification-image">
-              <s72-image src="{{film.ImageMap["Portrait"]}}" alt="{{film.Title}}" class="poster poster-image poster-image-portrait"></s72-image>
-            </div>
+
+              <div class="poster poster-portrait">
+                {{if film.ImageMap["Portrait"] != ""}}
+                  <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
+                  <s72-image src="{{film.ImageMap["Classification"]}}" alt="" class="classification-image">
+                  <s72-image src="{{film.ImageMap["Portrait"]}}" alt="{{film.Title}}" class="poster poster-image poster-image-portrait"></s72-image>
+                {{end}}
+              </div>
           {{end}}
         </div>
+
         <div class="meta-detail-content">
           <h1>{{ film.Title }}</h1>
           <div class="meta-detail-tagline-and-classification">
@@ -54,6 +60,8 @@
             <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
             <br>
           {{end}}
+
+          {{yield awardNominations() film}}
 
           <div class="element-switcher-wrapper">
             <s72-element-switcher>
@@ -145,15 +153,12 @@
             </s72-element-switcher>
             {{yield sponsor() film}}
           </div>
-          {{yield awardNominations() film}}
           {{if len(film.Bonuses) > 0 && !film.CustomFields.GetBool("hide_bonus_content", false)}}
             <section class="meta-detail-bonus-content" aria-label="{{i18n("meta_detail_bonus_title")}}">
               <h2>{{i18n("meta_detail_bonus_title")}}</h2>
               {{yield list(itemsPerRow=4, itemLayout="landscape") content}}
                 {{range bonus := film.Bonuses}}
-                  <div class="sub-item">
-                    {{yield subItem(item=bonus)}}
-                  </div>
+                  {{yield subItem(item=bonus)}}
                 {{end}}
               {{end}}
             </section>
@@ -164,11 +169,11 @@
 
     {{if len(film.Recommendations) > 0 }}
     <section class="page-collection recommendations-collection" aria-label="{{i18n("meta_detail_recommendations_title")}}">
-      <div class="swiper-wrapper-container">
+      <div class="collection-wrapper-container swiper-wrapper-container">
         {{if config("default_image_type") == "portrait"}}
-          <div class="swiper-container" data-items-per-row="6" data-layout="portrait">
+          <div class="collection-container swiper-container" data-items-per-row="6" data-layout="portrait">
         {{else}}
-          <div class="swiper-container" data-items-per-row="4" data-layout="landscape">
+          <div class="collection-container swiper-container" data-items-per-row="4" data-layout="landscape">
         {{end}}
           <div class="swiper-title">
               <h2>{{i18n("meta_detail_recommendations_title")}}</h2>

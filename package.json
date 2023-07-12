@@ -1,6 +1,6 @@
 {
   "name": "@shift72/core-template",
-  "version": "1.4.0",
+  "version": "1.9.2",
   "description": "Shift72 core template",
   "license": "MIT",
   "scripts": {
@@ -52,7 +52,7 @@
     "postcss-cli": "^9.0.1",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
-    "s72-kibble": "^0.17.0",
+    "s72-kibble": "^0.17.1",
     "sass": "^1.36.0"
   },
   "devDependencies": {
@@ -63,14 +63,14 @@
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "form-data": "^4.0.0",
+    "glob": "^7.2.0",
+    "node-fetch": "^3.2.3",
     "prettier": "^2.3.2",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-prettier": "^1.2.0",
-    "stylelint-scss": "^3.19.0",
-    "glob": "^7.2.0",
-    "node-fetch": "^3.2.3"
+    "stylelint-scss": "^3.19.0"
   },
   "eslintConfig": {
     "settings": {

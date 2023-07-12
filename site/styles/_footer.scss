@@ -7,10 +7,11 @@ footer {
 .footer-brand-link {
   align-self: center;
   display: flex;
+  margin-bottom: 30px;
 
   @include media-breakpoint-up(xl) {
     align-self: flex-start;
-    margin: 0 50px;
+    margin: 0 50px 20px;
   }
 }
 
@@ -19,10 +20,12 @@ footer {
 }
 
 .footer-nav {
-  padding: 30px 0;
+  margin-bottom: 30px;
 
   @include media-breakpoint-up(xl) {
-    padding: 20px 50px;
+    align-items: center;
+    display: flex;
+    margin: 0 50px;
   }
 
   .nav {
@@ -36,8 +39,9 @@ footer {
   }
 
   .nav-link {
+    padding-bottom: 16px;
+    padding-top: 0;
     text-align: center;
-
     @include media-breakpoint-up(xl) {
       margin-right: 20px;
       padding: 0;
@@ -49,14 +53,61 @@ footer {
   }
 }
 
+.footer-social-media-icons {
+  display: grid;
+  gap: 16px;
+  grid-auto-columns: 32px;
+  grid-auto-flow: column;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  margin-left: auto;
+
+  @include media-breakpoint-up(xl) {
+    justify-content: start;
+  }
+
+  .s72-btn {
+    border: initial;
+    grid-row: 1;
+    padding: 0;
+
+    i {
+      color: var(--body-color);
+      font-size: 25px;
+
+      &:hover {
+        color: var(--body-color-hover);
+      }
+    }
+  }
+}
+
+.social-link-button {
+  align-items: center;
+  background-color: var(--footer-social-bg);
+  border-radius: 50%;
+  color: var(--footer-social-icon);
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  width: 32px;
+
+  &:hover {
+    background-color: var(--footer-social-bg-hover);
+    color: var(--footer-social-icon-hover);
+  }
+}
+
 .footer-info {
   background-color: $footer-bar-background-color;
+  margin-top: 30px;
   padding: 20px 42px;
 
   @include media-breakpoint-up(xl) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
     padding: 20px 50px;
   }
 }
@@ -85,20 +136,38 @@ footer {
   }
 }
 
-.app-banner {
+.app-banner,
+.tv-app-banner {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin: 0 20px;
   padding: 50px 0;
+
   @include media-breakpoint-up(lg) {
     margin: 0 50px;
   }
+
   .app-badge-container {
     display: flex;
   }
 
-  .app-badge-title {
+  .tv-app-badge-container {
+    display: grid;
+    gap: 22px;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr;
+    justify-content: center;
+
+    .app-badge-link {
+      align-items: center;
+      display: flex;
+      height: 45px;
+    }
+  }
+
+  .app-badge-title,
+  .tv-app-badge-title {
     @include body-1-style;
     margin-bottom: 20px;
     text-align: center;
@@ -107,6 +176,7 @@ footer {
   .app-badge-link {
     margin: 0 5px;
   }
+
   .app-badge-image {
     height: 40px;
   }
