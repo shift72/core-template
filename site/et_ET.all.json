@@ -1652,5 +1652,8 @@
   },
   "verify_email_success_page_back": {
     "other": "Kas te ei saanud meili?"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Külastage meid LinkedInis"
   }
 }

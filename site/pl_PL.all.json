@@ -1729,5 +1729,8 @@
   },
   "verify_email_success_page_back": {
     "other": "Nie otrzymałeś wiadomości e-mail?"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Odwiedź nas na LinkedInie"
   }
 }

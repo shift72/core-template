@@ -1706,5 +1706,8 @@
   },
   "verify_email_success_page_back": {
     "other": "Не получили письмо?"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Посетите нас на LinkedIn"
   }
 }
