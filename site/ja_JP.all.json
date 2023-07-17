@@ -1639,5 +1639,8 @@
   },
   "verify_email_success_page_back": {
     "other": "メールが届かない場合"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "LinkedIn にアクセスしてください"
   }
 }

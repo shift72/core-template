@@ -1716,5 +1716,8 @@
   },
   "verify_email_success_page_back": {
     "other": "ألم تتلق بريدًا إلكترونيًا؟"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "قم بزيارتنا على LinkedIn"
   }
 }

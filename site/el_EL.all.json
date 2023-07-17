@@ -1652,5 +1652,8 @@
   },
   "verify_email_success_page_back": {
     "other": "Δεν λάβατε email;"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Επισκεφθείτε μας στο LinkedIn"
   }
 }

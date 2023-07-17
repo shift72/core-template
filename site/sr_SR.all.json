@@ -1668,5 +1668,8 @@
   },
   "verify_email_success_page_back": {
     "other": "Нисте примили имејл?"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Посетите нас на ЛинкедИн-у"
   }
 }
