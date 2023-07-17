@@ -1,7 +1,6 @@
 # Changelog
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.3...HEAD)
-- Added page for signing users in across domains
 
 ## [1.9.3](https://github.com/shift72/core-template/compare/1.9.2...1.9.3)
 ### Added
