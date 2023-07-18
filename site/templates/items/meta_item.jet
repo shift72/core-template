@@ -43,11 +43,11 @@
 
 
 
-  {{canBeWatchedLink := item.InnerItem.CustomFields.GetString("can_be_watched_button_link", "")}}
-  {{canBeWatchedText := item.InnerItem.CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text")}}
+  {{canBeWatchedLink := isFilm ? item.InnerItem.CustomFields.GetString("can_be_watched_button_link", "") : ""}}
+  {{canBeWatchedText := isFilm ? item.InnerItem.CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text") : ""}}
 
-  {{externalPurchaseButtonLink := item.InnerItem.CustomFields.GetString("external_purchase_button_link", "")}}
-  {{externalPurchaseButtonText := item.InnerItem.CustomFields.GetString("external_purchase_button_text", "external_purchase_button_text")}}
+  {{externalPurchaseButtonLink := isFilm ? item.InnerItem.CustomFields.GetString("external_purchase_button_link", "") : ""}}
+  {{externalPurchaseButtonText := isFilm ? item.InnerItem.CustomFields.GetString("external_purchase_button_text", "external_purchase_button_text") : ""}}
 
   {{if wrapper_class != ""}}
   <div class="{{wrapper_class}}">

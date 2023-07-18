@@ -17,13 +17,13 @@
   {{showShareButton := isFilm || isSeason || isEpisode || isBundle}}
   {{autoplay := !isCarousel}}
 
-  
-  {{canBeWatchedButtonLink := .CustomFields.GetString("can_be_watched_button_link", "")}}
-  {{canBeWatchedButtonText := .CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text")}}
+  {* These are limited to films for now, but really it should work for anything that has custom fields *}
+  {{canBeWatchedButtonLink := isFilm ? .CustomFields.GetString("can_be_watched_button_link", "") : ""}}
+  {{canBeWatchedButtonText := isFilm ? .CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text") : ""}}
   {{showCanBeWatchedButton := len(canBeWatchedButtonLink) > 0}}
   
-  {{externalPurchaseButtonLink := .CustomFields.GetString("external_purchase_button_link", "")}}
-  {{externalPurchaseButtonText := .CustomFields.GetString("external_purchase_button_text", "external_purchase_button_text")}}
+  {{externalPurchaseButtonLink := isFilm ? .CustomFields.GetString("external_purchase_button_link", "") : ""}}
+  {{externalPurchaseButtonText := isFilm ? .CustomFields.GetString("external_purchase_button_text", "external_purchase_button_text") :"" }}
   {{showExternalPurchaseButton := len(externalPurchaseButtonLink) > 0}}
 
   {{showCtaButtons := showPricingButtons || showPlayButton || showCanBeWatchedButton || showTrailerButton || showWishlistButton || showShareButton || showExternalPurchaseButton}}
