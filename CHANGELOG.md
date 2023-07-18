@@ -1,6 +1,7 @@
 # Changelog
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.1...HEAD)
+ - Add external purchase CTA button (based on custom fields)
 
 ## [1.9.1](https://github.com/shift72/core-template/compare/1.9.0...1.9.1)
 
