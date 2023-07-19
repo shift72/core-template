@@ -1640,6 +1640,9 @@
   "verify_email_success_page_back": {
     "other": "沒有收到電子郵件？"
   },
+  "external_purchase_button_text": {
+    "other": "購買"
+  },
   "wcag_aria_label_social_linkedin": {
     "other": "在 LinkedIn 上訪問我們"
   }

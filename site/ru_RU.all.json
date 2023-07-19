@@ -1707,6 +1707,9 @@
   "verify_email_success_page_back": {
     "other": "Не получили письмо?"
   },
+  "external_purchase_button_text": {
+    "other": "Покупка"
+  },
   "wcag_aria_label_social_linkedin": {
     "other": "Посетите нас на LinkedIn"
   }

@@ -1653,6 +1653,9 @@
   "verify_email_success_page_back": {
     "other": "Kas te ei saanud meili?"
   },
+  "external_purchase_button_text": {
+    "other": "ostma"
+  },
   "wcag_aria_label_social_linkedin": {
     "other": "Külastage meid LinkedInis"
   }

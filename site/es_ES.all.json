@@ -1657,6 +1657,9 @@
   "verify_email_success_page_back": {
     "other": "¿No recibiste un correo electrónico?"
   },
+  "external_purchase_button_text": {
+    "other": "Compra"
+  },
   "wcag_aria_label_social_linkedin": {
     "other": "Visítenos en LinkedIn"
   }

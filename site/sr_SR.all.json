@@ -1669,6 +1669,9 @@
   "verify_email_success_page_back": {
     "other": "Нисте примили имејл?"
   },
+  "external_purchase_button_text": {
+    "other": "Куповина"
+  },
   "wcag_aria_label_social_linkedin": {
     "other": "Посетите нас на ЛинкедИн-у"
   }
