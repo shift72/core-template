@@ -1655,5 +1655,8 @@
   },
   "external_purchase_button_text": {
     "other": "Vásárlás"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Látogasson el hozzánk a LinkedIn-en"
   }
 }

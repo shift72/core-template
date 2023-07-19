@@ -1709,5 +1709,8 @@
   },
   "external_purchase_button_text": {
     "other": "Покупка"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Посетите нас на LinkedIn"
   }
 }

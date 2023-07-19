@@ -41,6 +41,25 @@
     font-size: 16px;
   }
 }
+// OAuth
+.s72-oauth-buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+
+  .btn-sso {
+    background-color: var(--signin-sso-btn-background-color);
+    color: var(--signin-sso-btn-text-color);
+    &:hover,
+    &:focus {
+      background-color: var(--signin-sso-btn-background-hover-color);
+      color: var(--signin-sso-btn-text-hover-color);
+    }
+  }
+}
 
 .s72-btn.s72-btn-block {
   @extend .btn-block;

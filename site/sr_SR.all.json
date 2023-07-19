@@ -1671,5 +1671,8 @@
   },
   "external_purchase_button_text": {
     "other": "Куповина"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Посетите нас на ЛинкедИн-у"
   }
 }

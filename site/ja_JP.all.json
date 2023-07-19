@@ -1642,5 +1642,8 @@
   },
   "external_purchase_button_text": {
     "other": "購入"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "LinkedIn にアクセスしてください"
   }
 }

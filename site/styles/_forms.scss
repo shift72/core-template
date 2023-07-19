@@ -101,7 +101,7 @@ s72-activatedevice-form,
 
   /* stylelint-disable-next-line */
   &:not(.StripeElement) {
-    background-color: transparent;
+    background-color: $body-bg-accent;
     border-color: rgba(var(--body-color-rgb), 0.6);
     color: var(--body-color);
     &:focus {

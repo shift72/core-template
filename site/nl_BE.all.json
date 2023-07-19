@@ -1655,5 +1655,8 @@
   },
   "external_purchase_button_text": {
     "other": "Aankoop"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Bezoek ons op LinkedIn"
   }
 }

@@ -1659,5 +1659,8 @@
   },
   "external_purchase_button_text": {
     "other": "Comprar"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Visite-nos no LinkedIn"
   }
 }
