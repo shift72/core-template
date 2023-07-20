@@ -50,6 +50,13 @@
     <script src="/scripts/main.js" defer></script>
 
     <script src="{{CDN}}/s72.transactional.js" defer></script>
+
+    {* S72 Checkout: eventually this will be hosted somewhere like /checkout/s72.checkout.js *}
+    <script src="http://localhost:4072/s72.checkout.js" defer></script>
+
+    {* Enable local dev on the checkout app. This is used by Relish when starting the checkout to point it at the dev server *}
+    <script>window.S72_CHECKOUT_OVERRIDE_URL = 'http://localhost:4072'</script>
+
     <script src="https://js.stripe.com/v3/" defer></script>
 
     {* get default language from site record or kibble.json depening on if db translations is enabled *}  
