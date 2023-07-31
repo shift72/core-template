@@ -5,6 +5,7 @@
 {{import "../collection/page_collection_item.jet"}}
 {{import "../common/list.jet"}}
 {{import "../common/cta_buttons.jet"}}
+{{import "../collection/slider-buttons.jet"}}
 
 {{block head()}}
   {{yield seo() tvseason}}
@@ -124,8 +125,7 @@
               {{end}}
             </div>
           </div>
-          <div class="swiper-button-prev swiper-button-white"></div>
-          <div class="swiper-button-next swiper-button-white"></div>
+          {{ yield sliderButtons() }}
         </div>
       </section>
     {{end}}

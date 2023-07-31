@@ -22,24 +22,33 @@
 }
 
 .swiper-button-next {
-  background: rgba(var(--body-bg-rgb), 0.8) url('/images/icons/next.png') center center no-repeat;
   right: 0;
 }
 
 .swiper-button-prev {
-  background: rgba(var(--body-bg-rgb), 0.8) url('/images/icons/prev.png') center center no-repeat;
   left: 0;
 }
 
 .swiper-button-prev,
 .swiper-button-next {
+  align-items: center;
+  background: rgba(var(--body-bg-rgb), 0.8) center center no-repeat;
   background-size: 30%;
+  display: flex;
   height: 100%;
   margin-top: 0;
   opacity: 0.8;
   outline: 0 none;
   top: 0;
   width: 44px;
+  svg {
+    margin: 0 auto;
+    display: block;
+    width: 20px;
+    path {
+      fill: var(--slider-button-color);
+    }
+  }
 
   @include hover-focus {
     opacity: 1;
