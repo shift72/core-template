@@ -1729,5 +1729,11 @@
   },
   "verify_email_success_page_back": {
     "other": "Nie otrzymałeś wiadomości e-mail?"
+  },
+  "external_purchase_button_text": {
+    "other": "Zakup"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Odwiedź nas na LinkedInie"
   }
 }

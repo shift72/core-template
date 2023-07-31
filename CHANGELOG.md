@@ -1,10 +1,15 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.3...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.4...HEAD)
+
+## [1.9.4](https://github.com/shift72/core-template/compare/1.9.3...1.9.4)
+### Added
+- external purchase CTA button (based on custom fields)
+- page for signing users in across domains
 
 ## [1.9.3](https://github.com/shift72/core-template/compare/1.9.2...1.9.3)
 ### Added
-- Show character names next to actors if populated. Can be disabled with feature toggle site_hide_character_name
+- Show character names next to actors if populated. Can be disabled with feature toggle site_hide_cast_character_name
 
 ## [1.9.2](https://github.com/shift72/core-template/compare/1.9.1...1.9.2)
 

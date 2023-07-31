@@ -1652,5 +1652,11 @@
   },
   "verify_email_success_page_back": {
     "other": "Nem kapott e-mailt?"
+  },
+  "external_purchase_button_text": {
+    "other": "Vásárlás"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Látogasson el hozzánk a LinkedIn-en"
   }
 }
