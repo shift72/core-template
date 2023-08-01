@@ -4,6 +4,7 @@
 {{import "../items/sub_item.jet"}}
 {{import "../collection/page_collection_item.jet"}}
 {{import "../collection/slider.jet"}}
+{{import "../collection/slider-buttons.jet"}}
 {{import "../common/list.jet"}}
 {{import "../common/awards/item.jet"}}
 {{import "../common/sponsor-image.jet"}}
@@ -187,8 +188,7 @@
             {{end}}
           </div>
         </div>
-        <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="swiper-button-next swiper-button-white"></div>
+        {{ yield sliderButtons() }}
       </div>
     </section>
     {{ end }}

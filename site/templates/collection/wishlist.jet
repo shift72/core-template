@@ -1,5 +1,6 @@
 {{import "./page_collection_item.jet"}}
 {{import "../common/slider.jet"}}
+{{import "./slider-buttons.jet"}}
 {{block wishlistCollection()}}
 
 {{if config("default_image_type") == "portrait"}}
@@ -39,8 +40,7 @@
               {{yield content}}
             </div>
         </div>
-        <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="swiper-button-next swiper-button-white"></div>
+        {{ yield sliderButtons() }}
     </div>
   </section>
 </s72-userwishlist>
