@@ -41,14 +41,6 @@
   outline: 0 none;
   top: 0;
   width: 44px;
-  svg {
-    margin: 0 auto;
-    display: block;
-    width: 20px;
-    path {
-      fill: var(--slider-button-color);
-    }
-  }
 
   @include hover-focus {
     opacity: 1;
@@ -56,6 +48,14 @@
 
   @include media-breakpoint-down(sm) {
     display: none;
+  }
+  svg {
+    display: block;
+    margin: 0 auto;
+    width: 20px;
+    path {
+      fill: var(--slider-button-color);
+    }
   }
 
   &.swiper-button-disabled {
