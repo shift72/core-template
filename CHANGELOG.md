@@ -1,6 +1,10 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.4...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.5...HEAD)
+
+## [1.9.5](https://github.com/shift72/core-template/compare/1.9.4...1.9.5)
+### Changed
+- Slider arrows code refactor and add css variable to change arrow color.
 
 ## [1.9.4](https://github.com/shift72/core-template/compare/1.9.3...1.9.4)
 ### Added
