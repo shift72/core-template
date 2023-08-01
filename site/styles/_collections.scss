@@ -65,27 +65,25 @@
         justify-content: space-between;
         left: 0;
         opacity: 0;
-        padding: 0px 15px; // No vertical padding so that in edge cases where multiple purchase options are displayed there's enough space.
+        padding: 0 15px; // No vertical padding so that in edge cases where multiple purchase options are displayed there's enough space.
         position: absolute;
         right: 0;
         top: 0;
         transition: opacity 0.25s ease-in;
         z-index: 100;
 
-
         .buttons {
           @extend .d-flex;
           align-items: center;
           flex-direction: row;
+
+          // If there are multiple types of buttons shown here, using flex gap
+          // will space them out.
+          gap: 16px;
           justify-content: center;
           padding-top: 10px;
           position: relative;
           width: 100%;
-
-          // If there are multiple types of buttons shown here, using flex gap 
-          // will space them out.
-          gap: 16px;
-
 
           s72-can-be-watched-now {
             margin-left: auto;
@@ -121,7 +119,9 @@
             min-width: 140px;
             width: auto;
 
-            .verb { font-size: 14px; }
+            .verb {
+              font-size: 14px;
+            }
           }
 
           .btn-wishlist .s72-btn-wishlist {
