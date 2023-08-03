@@ -56,9 +56,9 @@
 
     {{if checkoutDevMode}}
       <script>window.S72_CHECKOUT_OVERRIDE_URL = 'http://localhost:4072'</script>
-      <script src="http://localhost:4072/s72.checkout.js"></script> 
+      <script src="http://localhost:4072/s72.checkout.js" defer></script> 
     {{else if useCheckout}}
-      <script src="/checkout/s72.checkout.js" async></script>
+      <script src="/checkout/s72.checkout.js" defer></script>
     {{end}}
 
     <script src="https://js.stripe.com/v3/" defer></script>
