@@ -10,6 +10,9 @@
 {{CSSFileURL := site.SiteBrand.GetLink("css", "")}}
 {*{CSSFileURL := "/styles/local.css"}*}
 
+{{checkoutDevMode := false}}
+{{useCheckout := site.Toggles["use_checkout"] || checkoutDevMode}}
+
 <!DOCTYPE html>
 <html lang="{{lang.Code}}">
   <head>
@@ -51,11 +54,12 @@
 
     <script src="{{CDN}}/s72.transactional.js" defer></script>
 
-    {* S72 Checkout: eventually this will be hosted somewhere like /checkout/s72.checkout.js *}
-    <script src="http://localhost:4072/s72.checkout.js" defer></script>
-
-    {* Enable local dev on the checkout app. This is used by Relish when starting the checkout to point it at the dev server *}
-    <script>window.S72_CHECKOUT_OVERRIDE_URL = 'http://localhost:4072'</script>
+    {{if checkoutDevMode}}
+      <script>window.S72_CHECKOUT_OVERRIDE_URL = 'http://localhost:4072'</script>
+      <script src="http://localhost:4072/s72.checkout.js"></script> 
+    {{else if useCheckout}}
+      <script src="/checkout/s72.checkout.js" async></script>
+    {{end}}
 
     <script src="https://js.stripe.com/v3/" defer></script>
 
