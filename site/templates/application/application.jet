@@ -2,7 +2,7 @@
 {{import "./head/seo.jet" }}
 {{import "./nav/nav.jet"}}
 {{import "./google.jet" }}
-{{import "./facebook.jet"}}
+{{import "./pixel.jet"}}
 {{import "./footer/footer.jet" }}
 
 {{CDN := "//cdn.shift72.com/1.4"}}
@@ -68,7 +68,7 @@
     </script>
 
     <script type="text/javascript" src="/scripts/swiper.min.js"></script>
-    {{yield facebookScripts()}}
+    
   </head>
   <body>
 
@@ -78,6 +78,7 @@
     <s72-cookie-consent></s72-cookie-consent>
 
     {{yield googleTagManagerNoScript()}}
+    {{yield pixelNoScript()}}
 
     {{block navigation()}}
       {{yield nav() }}
@@ -88,6 +89,7 @@
     {{yield footer()}}
 
     {{yield googleScripts()}}
+    {{yield pixelScripts()}}
     <s72-donate-button></s72-donate-button>
   </body>
 </html>
