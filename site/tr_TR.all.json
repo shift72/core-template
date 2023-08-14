@@ -1652,5 +1652,11 @@
   },
   "verify_email_success_page_back": {
     "other": "E-posta almadınız mı?"
+  },
+  "external_purchase_button_text": {
+    "other": "Satın almak"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Bizi LinkedIn'de ziyaret edin"
   }
 }

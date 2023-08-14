@@ -1,13 +1,14 @@
 {{import "./page_collection_item.jet"}}
 {{import "../common/slider.jet"}}
+{{import "./slider-buttons.jet"}}
 {{block pageCollectionSlider()}}
 {{if len(.Items) > 0}}
 <section class="page-collection page-collection-slider page-collection-slider-{{.ItemsPerRow}} page-collection-slider-{{.ItemLayout}} slider-{{.ItemsPerRow}} slider-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-slider" aria-label="{{i18n("wcag_aria_label_collection_slider")}}">
   <div class="collection-wrapper-container swiper-wrapper-container">
     <div class="collection-container swiper-container" data-items-per-row="{{.ItemsPerRow}}" data-layout="{{.ItemLayout}}">
-      {{if .DisplayName != ""}}
+        {{if .DisplayName != ""}}
       <div class="swiper-title">
-          <h3>{{.DisplayName}}</h3>
+        <h3>{{.DisplayName}}</h3>
       </div>
       {{end}}
       <div class="swiper-wrapper">
@@ -18,8 +19,7 @@
         {{end}}
       </div>
     </div>
-    <div class="swiper-button-prev swiper-button-white s72-hide"></div>
-    <div class="swiper-button-next swiper-button-white s72-hide"></div>
+    {{ yield sliderButtons() }}
   </div>
 </section>
 {{end}}

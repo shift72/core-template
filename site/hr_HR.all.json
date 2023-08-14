@@ -1654,5 +1654,11 @@
   },
   "verify_email_success_page_back": {
     "other": "Niste primili e-poruku?"
+  },
+  "external_purchase_button_text": {
+    "other": "Kupiti"
+  },
+  "wcag_aria_label_social_linkedin": {
+    "other": "Posjetite nas na LinkedInu"
   }
 }
