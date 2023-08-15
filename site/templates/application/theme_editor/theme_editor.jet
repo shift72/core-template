@@ -1,0 +1,18 @@
+ {{block themeEditor()}}
+  <div class="tools">
+    <label for="--navbar-brand-height">Logo Size</label>
+    <input type="range" id="--navbar-brand-height" value="50" min="30" max="70">
+    <label for="font-picker-size">Header height</label>
+    <input type="range" id="header-height" value="25" min="20" max="100">
+    <label for="color-picker-body-bg">Background colour</label>
+    <input type="color" id="color-picker-body-bg" value="#0f0f0f">
+    <label for="color-picker-body-color">Main Text color</label>
+    <input type="color" id="color-picker-body-color" value="#ffffff">
+    <label for="color-picker-primary">Primary colour</label>
+    <input type="color" id="color-picker-primary" value="#006aff">
+    <label for="color-picker-secondary">Secondary colour</label>
+    <input type="color" id="color-picker-secondary" value="#005fe5">
+    <label for="--button-background">Button color</label>
+    <input type="color" id="--button-background">
+  </div>
+{{end}}

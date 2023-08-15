@@ -1,38 +1,48 @@
-var primaryColorPicker = document.getElementById('color-picker-primary');
-var secondaryColorPicker = document.getElementById('color-picker-secondary');
-var bodyBgColorPicker = document.getElementById('color-picker-body-bg');
-var bodyColorColorPicker = document.getElementById('color-picker-body-color');
-var logoWidthPicker = document.getElementById('logo-width');
-var headerHeightPicker = document.getElementById('header-height');
+let primaryColorPicker = document.getElementById('color-picker-primary');
+let secondaryColorPicker = document.getElementById('color-picker-secondary');
+let bodyBgColorPicker = document.getElementById('color-picker-body-bg');
+let bodyColorColorPicker = document.getElementById('color-picker-body-color');
+let logoSizePicker = document.getElementById('--navbar-brand-height');
+let headerHeightPicker = document.getElementById('header-height');
+let buttonColorPicker = document.getElementById('--button-background');
+
+if (sessionStorage.getItem('s72.theme.--button-background') !== null) {
+  buttonColorPicker.defaultValue = sessionStorage.getItem('s72.theme.--button-background');
+  setThemeVar('--button-background', buttonColorPicker.value);
+}
 
 function setThemeVar(name, value, unit) {
-  var r = document.querySelector(':root');
+  let r = document.querySelector(':root');
   r.style.setProperty(name, value + (unit || ''));
+  sessionStorage.setItem(`s72.theme.${  name}`, value);
 }
 
 function hexTorgb(hex) {
-  return ['0x' + hex[1] + hex[2] | 0, '0x' + hex[3] + hex[4] | 0, '0x' + hex[5] + hex[6] | 0];
+  return [`0x${  hex[1]  }${hex[2]}` | 0, `0x${  hex[3]  }${hex[4]}` | 0, `0x${  hex[5]  }${hex[6]}` | 0];
 }
 
-primaryColorPicker.addEventListener('input', function (e) {
-  var primaryHex = hexTorgb(e.target.value);
+primaryColorPicker.addEventListener('input', (e) => {
+  let primaryHex = hexTorgb(e.target.value);
   setThemeVar('--primary-rgb', primaryHex);
 });
-secondaryColorPicker.addEventListener('input', function (e) {
-  var secondaryHex = hexTorgb(e.target.value);
+secondaryColorPicker.addEventListener('input', (e) => {
+  let secondaryHex = hexTorgb(e.target.value);
   setThemeVar('--secondary-rgb', secondaryHex);
 });
-bodyBgColorPicker.addEventListener('input', function (e) {
-  var bodyBgHex = hexTorgb(e.target.value);
+bodyBgColorPicker.addEventListener('input', (e) => {
+  let bodyBgHex = hexTorgb(e.target.value);
   setThemeVar('--body-bg-rgb', bodyBgHex);
 });
-bodyColorColorPicker.addEventListener('input', function (e) {
-  var bodyColorHex = hexTorgb(e.target.value);
+bodyColorColorPicker.addEventListener('input', (e) => {
+  let bodyColorHex = hexTorgb(e.target.value);
   setThemeVar('--body-color-rgb', bodyColorHex);
 });
-logoWidthPicker.addEventListener('input', function (e) {
-  setThemeVar('--navbar-brand-min-width-xl', e.target.value, 'px');
+logoSizePicker.addEventListener('input', (e) => {
+  setThemeVar('--navbar-brand-height', e.target.value, 'px');
 });
-headerHeightPicker.addEventListener('input', function (e) {
+headerHeightPicker.addEventListener('input', (e) => {
   setThemeVar('--navbar-brand-padding-y', e.target.value, 'px');
+});
+buttonColorPicker.addEventListener('input', (e) => {
+  setThemeVar('--button-background', e.target.value);
 });
