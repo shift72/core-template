@@ -1,6 +1,7 @@
 import './modernizr-custom.js';
 import './can-be-watched-button.component.js';
 import './theme-editor.js';
+import './external-purchase-button.component.js';
 
 /*global Swiper, Modernizr, s72*/
 
@@ -464,6 +465,7 @@ function documentReady(app) {
   initializeWishlist();
 
   app.classificationsService.load('/classifications.all.json');
+  app.urlMapService.load('/urlmap.json');
 
   detectTouchscreen();
 
@@ -478,17 +480,17 @@ function documentReady(app) {
     }
   }
 
-  document.querySelectorAll('.btn-trailer').forEach(btn => {
+  document.querySelectorAll('.s72-btn-trailer:not(.s72-btn-play)').forEach(btn => {
     btn.addEventListener('click', e => {
       e.preventDefault();
       e.stopPropagation();
-      window.location = btn.getAttribute('data-url');
     });
   });
 
   document.querySelectorAll('.navbar-nav').forEach(nav => {
     nav.classList.remove('s72-hide');
   });
+
   if (document.querySelector('.navbar-nav-search')) {
     initSearch();
   }

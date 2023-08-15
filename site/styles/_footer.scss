@@ -7,22 +7,25 @@ footer {
 .footer-brand-link {
   align-self: center;
   display: flex;
+  margin-bottom: 30px;
 
   @include media-breakpoint-up(xl) {
     align-self: flex-start;
-    margin: 0 50px;
+    margin: 0 50px 20px;
   }
 }
 
 .footer-brand-image {
-  height: 40px;
+  height: var(--footer-brand-height);
 }
 
 .footer-nav {
-  padding: 30px 0;
+  margin-bottom: 30px;
 
   @include media-breakpoint-up(xl) {
-    padding: 20px 50px;
+    align-items: center;
+    display: flex;
+    margin: 0 50px;
   }
 
   .nav {
@@ -36,35 +39,82 @@ footer {
   }
 
   .nav-link {
+    padding-bottom: 16px;
+    padding-top: 0;
     text-align: center;
-
     @include media-breakpoint-up(xl) {
       margin-right: 20px;
       padding: 0;
     }
 
     &:hover {
-      color: var(--primary);
+      color: var(--body-color-hover);
     }
+  }
+}
+
+.footer-social-media-icons {
+  display: grid;
+  gap: 16px;
+  grid-auto-columns: 32px;
+  grid-auto-flow: column;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  margin-left: auto;
+
+  @include media-breakpoint-up(xl) {
+    justify-content: start;
+  }
+
+  .s72-btn {
+    border: initial;
+    grid-row: 1;
+    padding: 0;
+
+    i {
+      color: var(--body-color);
+      font-size: 25px;
+
+      &:hover {
+        color: var(--body-color-hover);
+      }
+    }
+  }
+}
+
+.social-link-button {
+  align-items: center;
+  background-color: var(--footer-social-bg);
+  border-radius: 50%;
+  color: var(--footer-social-icon);
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  width: 32px;
+
+  &:hover {
+    background-color: var(--footer-social-bg-hover);
+    color: var(--footer-social-icon-hover);
   }
 }
 
 .footer-info {
   background-color: $footer-bar-background-color;
+  margin-top: 30px;
   padding: 20px 42px;
 
   @include media-breakpoint-up(xl) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
     padding: 20px 50px;
   }
 }
 
 .copyright-statement {
-  font-size: 12px;
+  @include body-2-style;
   margin: 0 0 7px;
-  opacity: 0.8;
   text-align: center;
 
   @include media-breakpoint-up(xl) {
@@ -73,40 +123,60 @@ footer {
 }
 
 .powered-by {
-  color: rgba(var(--body-color-rgb), 0.8);
-  font-size: 12px;
-  font-weight: $font-weight-normal;
+  @include body-2-style;
   margin: 0;
   text-align: center;
 
   a {
-    font-weight: $font-weight-bold;
+    @include caption-1-style;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
-.app-banner {
+.app-banner,
+.tv-app-banner {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin: 0 20px;
   padding: 50px 0;
+
   @include media-breakpoint-up(lg) {
     margin: 0 50px;
   }
+
   .app-badge-container {
     display: flex;
   }
 
-  .app-badge-title {
-    font-size: 16px;
-    font-weight: $font-weight-normal;
-    margin-bottom: 12px;
+  .tv-app-badge-container {
+    display: grid;
+    gap: 22px;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr;
+    justify-content: center;
+
+    .app-badge-link {
+      align-items: center;
+      display: flex;
+      height: 45px;
+    }
+  }
+
+  .app-badge-title,
+  .tv-app-badge-title {
+    @include body-1-style;
+    margin-bottom: 20px;
     text-align: center;
   }
 
   .app-badge-link {
     margin: 0 5px;
   }
+
   .app-badge-image {
     height: 40px;
   }
@@ -116,41 +186,16 @@ footer {
   display: flex;
   justify-content: center;
   padding: 60px 20px 0;
+
   @include media-breakpoint-up(lg) {
     padding: 60px 50px 0;
   }
 
-  img {
-    max-width: max-content;
-  }
-
-  .sponsors-xxxs {
+  .sponsor-picture {
     width: 100%;
 
-    @include media-breakpoint-up(xs) {
-      display: none;
-    }
-  }
-
-  .sponsors-xs {
-    display: none;
-    width: 100%;
-
-    @include media-breakpoint-up(xs) {
-      display: block;
-    }
-
-    @include media-breakpoint-up(md) {
-      display: none;
-    }
-  }
-
-  .sponsors-md {
-    display: none;
-    width: 100%;
-
-    @include media-breakpoint-up(md) {
-      display: block;
+    .sponsor-image {
+      width: 100%;
     }
   }
 }

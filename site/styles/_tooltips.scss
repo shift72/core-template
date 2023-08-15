@@ -1,0 +1,20 @@
+.s72-tooltip {
+  display: none;
+
+  @include media-breakpoint-up(lg) {
+    display: block;
+  }
+
+  &.s72-tooltip-top .s72-tooltip-arrow::before {
+    border-top-color: var(--tooltip-arrow-color);
+  }
+
+  &.s72-tooltip-bottom .s72-tooltip-arrow::before {
+    border-bottom-color: var(--tooltip-arrow-color);
+  }
+
+  .s72-tooltip-inner {
+    background-color: var(--tooltip-bg);
+    color: var(--tooltip-color);
+  }
+}

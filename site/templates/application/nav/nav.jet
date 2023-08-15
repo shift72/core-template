@@ -1,16 +1,17 @@
 {{import "./user_logged_out.jet"}}
 {{import "./user_logged_in.jet"}}
 {{import "./header-banner.jet"}}
+{{import "../brand/logo.jet"}}
 
 {{block nav(showSubNav=true)}}
 <header class="navigation" data-toggle="affix">
   {{yield headerBanner()}}
   <div class="navbar-brand-container-tablet">
-    <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
+    <a class="navbar-brand-logo" href="{{routeToPath("/")}}">{{yield logo()}}</a>
   </div>
   <div class="navbar" aria-label="{{i18n("wcag_aria_label_nav_main")}}">
     <div class="navbar-brand-container">
-      <a class="navbar-brand" href="{{ routeToPath("/") }}">{{i18n("nav_homepage")}}</a>
+      <a class="navbar-brand-logo" href="{{routeToPath("/")}}">{{yield logo()}}</a>
     </div>
 
     {{if config("search_disabled") != "true"}}
@@ -18,8 +19,8 @@
         <button type="button" class="btn-search-open" aria-label="open search" tabindex="-1">
           <i class="fa fa-search search-icon"></i>
         </button>
-        <input class="form-control form-control-search" type="search" placeholder="{{i18n("search_control_placeholder")}}" name="q" aria-label="{{i18n("search_control_placeholder")}}">
-        <button class="sr-only" type="submit">{{i18n("search_control_submit")}}</button>
+        <input class="form-control form-control-search" type="search" placeholder="{{i18n("nav_search_control_placeholder")}}" name="q" aria-label="{{i18n("nav_search_control_placeholder")}}">
+        <button class="sr-only" type="submit">{{i18n("nav_search_control_sr_submit")}}</button>
         <button type="button" class="btn-search-close" aria-label="close search" tabindex="-1">
           <i class="fa fa-times"></i>
         </button>

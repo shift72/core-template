@@ -1,13 +1,9 @@
 .meta-item-tagline {
   @extend .list-inline;
-  font-size: 12px;
-  @include media-breakpoint-up(md) {
-    font-size: 14px;
-  }
-
+  @include overline-style;
   .meta-item-tagline-item,
   .meta-item-tagline-divider {
-    @extend .list-inline-item;
+    @extend .d-inline;
 
     &:not(:last-child) {
       margin-right: map-get($spacers, 1); // Currently 0.25rem
@@ -25,4 +21,36 @@
 .meta-item-classification-mature {
   background-color: #fdff5c;
   color: #000;
+}
+
+.s72-classification {
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 0;
+  padding: 0;
+
+  .s72-classification-intro,
+  .s72-classification-divider {
+    display: none;
+  }
+
+  .s72-classification-label {
+    background-color: rgba(var(--body-color-rgb), 0.15);
+    border: 0;
+    border-radius: 5;
+    color: rgba(var(--body-color-rgb), 0.8);
+    font-size: 12px;
+    font-weight: $font-weight-bold;
+    padding: 1px 5px;
+
+    @include media-breakpoint-up(xxxl) {
+      font-size: 14px;
+    }
+  }
+}
+
+.meta-detail-content .meta-detail-tagline-and-classification {
+  align-items: center;
+  display: flex !important;
+  padding: 5px 0 16px;
 }

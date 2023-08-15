@@ -1,16 +1,14 @@
-.page-collection-carousel {
-  position: relative;
-}
-
 .page-collection {
   @extend .clearfix;
+
+  h2 {
+    @include heading-3-style;
+  }
 }
 
 .page-collection-slider {
   padding: 0;
-  padding: 0;
-  padding-bottom: 40px;
-  padding-bottom: 40px;
+  padding-bottom: var(--collection-padding-bottom);
   position: relative;
   z-index: 8;
 }
@@ -25,20 +23,7 @@
   position: relative;
   z-index: 8;
   @include media-breakpoint-up(md) {
-    padding-bottom: $grid-gutter-width / 4;
     padding-left: 0;
-  }
-
-  h2,
-  h3 {
-    font-size: 16px;
-    font-weight: $font-weight-bold;
-    @include media-breakpoint-up(md) {
-      font-size: 18px;
-    }
-    @include media-breakpoint-up(lg) {
-      font-size: 20px;
-    }
   }
 }
 
@@ -60,6 +45,16 @@
   &:first-child {
     margin-left: -5px;
   }
+
+  h2 {
+    @include subtitle-1-style;
+  }
+
+  .title {
+    @include subtitle-1-style;
+    line-height: 1.2;
+  }
+
   > a {
     .poster {
       .hover {
@@ -70,7 +65,7 @@
         justify-content: space-between;
         left: 0;
         opacity: 0;
-        padding: 15px;
+        padding: 0 15px; // No vertical padding so that in edge cases where multiple purchase options are displayed there's enough space.
         position: absolute;
         right: 0;
         top: 0;
@@ -81,6 +76,10 @@
           @extend .d-flex;
           align-items: center;
           flex-direction: row;
+
+          // If there are multiple types of buttons shown here, using flex gap
+          // will space them out.
+          gap: 16px;
           justify-content: center;
           padding-top: 10px;
           position: relative;
@@ -113,6 +112,15 @@
                 margin-left: 0;
                 margin-top: 10px;
               }
+            }
+          }
+
+          .s72-btn-purchase {
+            min-width: 140px;
+            width: auto;
+
+            .verb {
+              font-size: 14px;
             }
           }
 
@@ -176,13 +184,8 @@
             flex-wrap: wrap;
             justify-content: center;
             padding-top: 10px;
-
-            .s72-classification {
-              margin-right: 5px;
-
-              .s72-classification-label {
-                font-size: 12px;
-              }
+            .s72-classification-label {
+              font-size: 12px;
             }
           }
 
@@ -242,6 +245,10 @@
           }
         }
       }
+
+      .s72-subscribe-trial-label {
+        display: none;
+      }
     }
 
     &:hover {
@@ -258,18 +265,6 @@
 
   .caption {
     padding: 4px 0;
-    @include media-breakpoint-up(md) {
-      padding: 8px 0;
-    }
-
-    .title,
-    .runtime {
-      font-size: 12px;
-      font-weight: $font-weight-bold;
-      @include media-breakpoint-up(md) {
-        font-size: 14px;
-      }
-    }
 
     .crumb {
       @extend .d-flex;
@@ -288,12 +283,7 @@
 
     .meta-item-tagline {
       .meta-item-tagline-item {
-        font-size: 12px;
-        font-weight: $font-weight-normal;
         text-transform: uppercase;
-        @include media-breakpoint-up(md) {
-          font-size: 12px;
-        }
       }
     }
   }
@@ -312,9 +302,9 @@
 }
 
 .page-collection-list {
-  padding: 0 20px 15px;
+  padding: 0 20px var(--collection-padding-bottom);
   @include media-breakpoint-up(lg) {
-    padding: 0 50px 30px;
+    padding: 0 0 var(--collection-padding-bottom);
   }
 
   .page-collection-items {
@@ -325,7 +315,7 @@
       @extend .col-6;
       @extend .col-md-4;
       @extend .col-lg-3;
-      padding: 0 5px;
+      padding: 5px 5px 10px;
     }
 
     .page-collection-list-item-landscape {
@@ -333,7 +323,7 @@
         @extend .col-6;
         @extend .col-md-4;
         @extend .col-lg-3;
-        padding: 0 5px;
+        padding: 5px 5px 10px;
       }
     }
 
@@ -343,7 +333,7 @@
         @extend .col-md-3;
         @extend .col-lg-3;
         @extend .col-xl-2;
-        padding: 0 5px;
+        padding: 5px 5px 10px;
       }
     }
   }

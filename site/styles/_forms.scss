@@ -1,5 +1,5 @@
 label {
-  font-size: 1rem;
+  @include subtitle-1-style;
   margin-bottom: 0.25rem;
 }
 
@@ -61,11 +61,10 @@ s72-activatedevice-form,
 }
 // Error Messaging
 .s72-error-message {
+  @include body-2-style;
   background: $error-background;
   border-radius: $border-radius;
   color: $error-color;
-  font-size: 0.875rem;
-  letter-spacing: 0.02em;
   margin-top: 10px;
   padding: 4px 8px;
   position: relative;
@@ -98,20 +97,33 @@ s72-activatedevice-form,
 }
 // Form Control Default
 .s72-form-control {
-  font-weight: $font-weight-normal;
   height: var(--input-height);
 
   /* stylelint-disable-next-line */
   &:not(.StripeElement) {
     background-color: $body-bg-accent;
-    border-color: rgba(var(--body-color-rgb), 0.1);
+    border-color: rgba(var(--body-color-rgb), 0.6);
     color: var(--body-color);
     &:focus {
       border-color: $input-focus-border-color;
       color: var(--body-color);
     }
     &::placeholder {
-      color: rgba(var(--body-color-rgb), 0.8);
+      color: rgba(var(--body-color-rgb), 0.56);
+    }
+  }
+
+  &.s72-form-control-readonly,
+  &.s72-form-control-readonly:focus {
+    background-color: rgba(var(--body-color-rgb), 0.2);
+    border: 0;
+    color: rgba(var(--body-color-rgb), 0.56);
+    cursor: not-allowed;
+    outline: none;
+
+    /* Make sure all text based inputs have the right padding */
+    &input:not([type='submit']):not([type='file']) {
+      padding: 0.375rem 0.75rem;
     }
   }
 }
@@ -155,11 +167,15 @@ s72-activatedevice-form,
 
 .s72-modal-container {
   .s72-buttons {
+    .fa-ellipsis-v {
+      opacity: 0.7;
+    }
+
     .s72-btn {
       color: $button-text-color;
 
       &:hover {
-        color: $button-text-color-hover;
+        color: $button-text-color;
       }
     }
   }
@@ -202,7 +218,13 @@ s72-activatedevice-form,
 
     .s72-btn-modal-cancel {
       border-color: transparent;
+      color: var(--body-color);
       margin-right: $grid-gutter-width / 3;
+
+      &:hover {
+        background-color: var(--hover-background);
+        color: var(--body-color-hover);
+      }
     }
   }
 }
@@ -213,7 +235,12 @@ s72-activatedevice-form,
 
 .s72-btn {
   &.s72-btn-modal-close {
+    color: var(--body-color);
     top: 11px;
+
+    &:hover {
+      color: var(--body-color-hover);
+    }
   }
 }
 
@@ -233,7 +260,7 @@ s72-signup-form {
 .is-invalid.s72-pincode,
 .s72-has-error .s72-form-control,
 .s72-has-error .s72-pincode {
-  border: 2px solid rgba(var(--body-color-rgb), 0.5) !important;
+  border-width: 2px;
   box-shadow: none !important;
 }
 
@@ -261,4 +288,9 @@ s72-signup-form {
     }
     /* stylelint-enable selector-no-qualifying-type */
   }
+}
+
+.s72-form-check-label,
+.s72-form-control {
+  @include body-1-style;
 }

@@ -3,11 +3,12 @@
 @import '_bootstrap4';
 @import '_mixins';
 @import '_globals';
+@import '_typography';
 @import '_shift72';
-@import 'font-awesome/scss/font-awesome';
 
 @import '_icons';
 @import '_buttons';
+@import '_cta-buttons';
 @import '_pages';
 @import '_forms';
 @import '_card';
@@ -18,6 +19,7 @@
 @import '_swiper';
 
 @import '_meta-item';
+@import '_meta-sub-item';
 @import '_meta-item-tagline';
 @import '_availability-tags';
 
@@ -26,7 +28,6 @@
 @import '_carousel';
 @import '_poster';
 
-@import '_homepage';
 @import '_meta-detail';
 @import '_footer';
 
@@ -37,7 +38,7 @@
 @import '_devices';
 @import '_gradients';
 
-@import '_social-media-buttons';
+@import '_share-modal';
 @import '_cookie-consent';
 @import '_pin-codes';
 @import '_language-selector';
@@ -46,6 +47,8 @@
 @import '_plans';
 
 @import '_awards';
+
+@import '_tooltips';
 
 @import '_legacy';
 

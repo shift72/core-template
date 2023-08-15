@@ -9,6 +9,8 @@
   <div class="page-header">
     <h1>{{ i18n("searchresults_page_header") }}</h1>
   </div>
-  <s72-searchresults search-param="q" partials-base-path="{{ routeToPath("/partials") }}" show-search-form="true" />
+  
+  {{cloudsearchEnabled := isEnabled("cloudsearch")}}
+  <s72-searchresults cloudsearch="{{cloudsearchEnabled}}" search-param="q" partials-base-path="{{ routeToPath("/partials") }}" show-search-form="true" />
 </main>
 {{end}}

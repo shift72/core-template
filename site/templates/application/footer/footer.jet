@@ -3,6 +3,7 @@
 {{import "./nav.jet"}}
 {{import "./app-badges.jet"}}
 {{import "./sponsor-banner.jet"}}
+{{import "./social-media-buttons.jet"}}
 
 {{block footer()}}
 

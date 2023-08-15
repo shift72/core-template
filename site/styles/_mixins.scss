@@ -24,6 +24,75 @@
   z-index: 8;
 }
 
+// Easing gradients created using this tool: https://larsenwork.com/easing-gradients/#editor
+// This gradient has solid colour from 85% to 100%.
+.carousel-bottom-gradient {
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--body-bg-rgb), 0) 0%,
+    rgba(var(--body-bg-rgb), 0.013) 6.9%,
+    rgba(var(--body-bg-rgb), 0.049) 13.2%,
+    rgba(var(--body-bg-rgb), 0.104) 19.1%,
+    rgba(var(--body-bg-rgb), 0.175) 24.7%,
+    rgba(var(--body-bg-rgb), 0.259) 30%,
+    rgba(var(--body-bg-rgb), 0.352) 35%,
+    rgba(var(--body-bg-rgb), 0.45) 40%,
+    rgba(var(--body-bg-rgb), 0.55) 45%,
+    rgba(var(--body-bg-rgb), 0.648) 50%,
+    rgba(var(--body-bg-rgb), 0.741) 55%,
+    rgba(var(--body-bg-rgb), 0.825) 60.4%,
+    rgba(var(--body-bg-rgb), 0.896) 65.9%,
+    rgba(var(--body-bg-rgb), 0.951) 71.8%,
+    rgba(var(--body-bg-rgb), 0.987) 78.1%,
+    rgb(var(--body-bg-rgb)) 85%,
+    rgb(var(--body-bg-rgb)) 100%
+  );
+}
+
+.navigation-gradient {
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--body-bg-rgb)) 0%,
+    rgba(var(--body-bg-rgb), 0.987) 1.1%,
+    rgba(var(--body-bg-rgb), 0.951) 4.2%,
+    rgba(var(--body-bg-rgb), 0.896) 9%,
+    rgba(var(--body-bg-rgb), 0.825) 15.2%,
+    rgba(var(--body-bg-rgb), 0.741) 22.6%,
+    rgba(var(--body-bg-rgb), 0.648) 30.9%,
+    rgba(var(--body-bg-rgb), 0.55) 39.8%,
+    rgba(var(--body-bg-rgb), 0.45) 49%,
+    rgba(var(--body-bg-rgb), 0.352) 58.3%,
+    rgba(var(--body-bg-rgb), 0.259) 67.4%,
+    rgba(var(--body-bg-rgb), 0.175) 76%,
+    rgba(var(--body-bg-rgb), 0.104) 83.8%,
+    rgba(var(--body-bg-rgb), 0.049) 90.6%,
+    rgba(var(--body-bg-rgb), 0.013) 96.1%,
+    rgba(var(--body-bg-rgb), 0) 100%
+  );
+}
+
+@mixin detail-page-gradient-lg() {
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--body-bg-rgb), 0) 0%,
+    rgba(var(--body-bg-rgb), 0.068) 15.9%,
+    rgba(var(--body-bg-rgb), 0.138) 28%,
+    rgba(var(--body-bg-rgb), 0.211) 36.9%,
+    rgba(var(--body-bg-rgb), 0.285) 43.1%,
+    rgba(var(--body-bg-rgb), 0.359) 47.3%,
+    rgba(var(--body-bg-rgb), 0.434) 49.9%,
+    rgba(var(--body-bg-rgb), 0.508) 51.6%,
+    rgba(var(--body-bg-rgb), 0.581) 52.9%,
+    rgba(var(--body-bg-rgb), 0.652) 54.4%,
+    rgba(var(--body-bg-rgb), 0.721) 56.7%,
+    rgba(var(--body-bg-rgb), 0.786) 60.4%,
+    rgba(var(--body-bg-rgb), 0.847) 66%,
+    rgba(var(--body-bg-rgb), 0.86) 74.1%,
+    rgba(var(--body-bg-rgb), 0.86) 85.2%,
+    rgba(var(--body-bg-rgb)) 100%
+  );
+}
+
 @mixin a {
   background-color: transparent;
   color: var(--link-color);
@@ -31,7 +100,7 @@
 
   &:hover,
   &:focus {
-    color: var(--link-color);
+    color: var(--link-color-hover);
     text-decoration: none;
   }
 }

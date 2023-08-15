@@ -1,67 +1,55 @@
-.carousel,
 s72-carousel {
-  display: block;
-  margin: 0 auto;
-  position: relative;
+  display: flex;
+  height: var(--carousel-height);
+  margin-bottom: 30px;
+  max-height: 800px;
+  min-height: 530px;
+  width: 100%;
+
+  @include media-breakpoint-up(sm) {
+    height: var(--carousel-height-sm);
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: var(--carousel-height-lg);
+  }
+}
+
+.page-collection-carousel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .s72-carousel-slides {
   background: $carousel-bg-color;
-  height: var(--carousel-height) !important;
+  height: 100% !important;
+  margin-bottom: 10px;
   overflow: hidden;
-  position: relative;
   width: 100%;
+
   @include media-breakpoint-up(sm) {
-    height: var(--carousel-height-sm) !important;
+    margin-bottom: 40px;
   }
-  @include media-breakpoint-up(md) {
-    height: var(--carousel-height-md) !important;
-  }
+}
 
-  s72-image {
-    float: right;
-    height: var(--carousel-height);
-    max-width: 1600px;
-    overflow: hidden;
-    position: relative;
+.carousel-item-link > s72-image {
+  height: 90%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    object-position: var(--carousel-image-object-position);
     width: 100%;
+    z-index: -1;
     @include media-breakpoint-up(sm) {
-      height: var(--carousel-height-sm);
+      object-position: var(--carousel-image-object-position-sm);
     }
-    @include media-breakpoint-up(md) {
-      height: var(--carousel-height-md);
-    }
-
-    &::before {
-      @extend .left-gradient-bg;
-      bottom: 0;
-      content: '';
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 60%;
-      z-index: 8;
-      @include media-breakpoint-up(lg) {
-        width: 100%;
-      }
-      @include media-breakpoint-up(xl) {
-        display: block;
-      }
-    }
-
-    img {
-      height: var(--carousel-height);
-      margin-left: 50%;
-      transform: translateX(-50%);
-
-      @include media-breakpoint-up(sm) {
-        height: var(--carousel-height-sm);
-      }
-      @include media-breakpoint-up(md) {
-        height: var(--carousel-height-md);
-        width: auto;
-      }
+    @include media-breakpoint-up(lg) {
+      object-position: var(--carousel-image-object-position-lg);
     }
   }
 }
@@ -74,9 +62,6 @@ s72-carousel {
   transition: opacity 0.7s linear;
   width: 100%;
   z-index: 1;
-  @include media-breakpoint-up(lg) {
-    position: absolute;
-  }
 
   &.in {
     display: block;
@@ -94,296 +79,162 @@ s72-carousel {
 
   .carousel-item-link {
     display: block;
-    height: 500px;
+    height: 100%;
+
+    &:focus-visible {
+      outline: none;
+
+      .meta-item-content {
+        border-radius: 4px;
+        outline: 1px solid var(--body-color);
+      }
+    }
   }
 }
 
 .carousel-item-caption {
+  @extend .carousel-bottom-gradient;
+
+  bottom: 0;
+  display: grid;
   left: 0;
-  padding: 0 20px;
+  padding: var(--carousel-bottom-gradient-height) 20px 1px;
   position: absolute;
-  top: var(--carousel-caption-top);
+  width: 100%;
   z-index: 999;
-  @include media-breakpoint-up(md) {
-    left: 60px;
-    top: var(--carousel-caption-top-md);
-    width: 70%;
+
+  @include media-breakpoint-up(sm) {
+    padding: var(--carousel-bottom-gradient-height-sm) 20px 1px;
   }
+
   @include media-breakpoint-up(lg) {
-    left: 70px;
-    top: var(--carousel-caption-top-md);
-    width: 70%;
-  }
-  @include media-breakpoint-up(xl) {
-    left: 120px;
-    top: var(--carousel-caption-top-md);
-    width: 50%;
-  }
-  @include media-breakpoint-up(xxxl) {
-    top: var(--carousel-caption-top-md);
-    width: 50%;
+    grid-template-columns: 1fr auto;
+    padding: var(--carousel-bottom-gradient-height-lg) 50px 1px;
   }
 
-  s72-availability-status,
-  s72-availability-label {
-    position: relative;
+  .live-label {
+    grid-column: 1;
+    margin-bottom: 8px;
+    width: fit-content;
+  }
 
-    .availability-bg {
-      background: transparent;
-      display: inline-block;
-      padding: 10px 0;
+  .meta-awards {
+    @include media-breakpoint-up(lg) {
+      justify-content: end;
+      margin-bottom: 8px;
     }
+  }
 
-    .availability-state {
-      color: var(--body-color);
-      font-size: 12px;
-      text-transform: none;
+  .sponsor-awards-wrapper {
+    color: var(--body-color);
+
+    @include media-breakpoint-up(lg) {
+      align-self: end;
+      grid-column: 2;
+      grid-row: 2;
     }
+  }
+
+  .sponsor {
+    margin-bottom: 8px;
+
+    @include media-breakpoint-up(lg) {
+      text-align: right;
+    }
+  }
+
+  .availability-bg {
+    margin-bottom: 22px;
+  }
+
+  .availability-state {
+    color: var(--body-color);
+    margin-bottom: 0 !important; // >:(
+    text-transform: none;
   }
 
   .meta-item-content {
-    color: #fff;
+    color: var(--body-color);
 
-    h3 {
-      color: var(--body-color);
-      font-size: 28px;
-      font-weight: $font-weight-bold;
-      margin-bottom: 0;
-      padding-bottom: 0;
-      @include media-breakpoint-up(md) {
-        font-size: 38px;
-      }
-      @include media-breakpoint-up(lg) {
-        font-size: 48px;
-      }
-      @include media-breakpoint-up(xxxl) {
-        font-size: 54px;
-      }
+    @include media-breakpoint-up(lg) {
+      grid-column: 1;
+      grid-row: 2;
     }
+  }
 
-    h4 {
-      background: var(--primary);
-      color: #000;
-      display: inline-block;
-      font-size: 6px;
-      font-weight: $font-weight-bold;
-      padding: 2px 4px;
-      text-transform: uppercase;
-      @include media-breakpoint-up(md) {
-        font-size: 12px;
-      }
-    }
+  h3 {
+    @include heading-1-style;
+    max-width: 930px;
 
-    .meta-item-tagline-and-classification {
-      @extend .d-flex;
-      align-items: center;
-      padding-bottom: 8px;
-      padding-top: 8px;
-    }
+    /* stylelint-disable */
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    /* stylelint-enable */
+  }
 
-    .s72-classification {
-      margin-right: 5px;
-    }
+  h4 {
+    background: var(--primary);
+    color: #000;
+    display: inline-block;
+    font-size: 6px;
+    font-weight: $font-weight-bold;
+    padding: 2px 4px;
+    text-transform: uppercase;
 
-    .meta-item-tagline {
-      color: rgba(var(--body-color-rgb), 0.8);
-      font-size: 14px;
-      font-weight: $font-weight-normal;
-      @include media-breakpoint-up(xxxl) {
-        font-size: 18px;
-      }
-    }
-
-    .meta-item-synopsis {
-      display: block;
+    @include media-breakpoint-up(md) {
       font-size: 12px;
-      font-weight: $font-weight-normal;
-      padding-top: 10px;
-      @include media-breakpoint-up(md) {
-        font-size: 16px;
-      }
-      @include media-breakpoint-up(xxxl) {
-        font-size: 16px;
-      }
-      @include media-breakpoint-up(xxxl) {
-        font-size: 18px;
-      }
-    }
-
-    .meta-item-extras {
-      @extend .d-flex;
-    }
-
-    .btn-wishlist {
-      position: relative;
     }
   }
 
-  // Purchase, play, trailer, wishlist and share are all in one group now
-  // Need similar bootstrap approach of handling/wrapping rows and columns via negative margin
-  .meta-item-buttons {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
-
-    /* stylelint-disable selector-max-compound-selectors */
-    s72-pricing-buttons .s72-btn,
-    .meta-detail-extras,
-    .meta-item-extras,
-    s72-play-button,
-    can-be-watched-button:not(:empty) {
-      margin-bottom: 10px;
-      margin-left: 0.5rem;
-      margin-right: 0.5rem;
-    }
-
-    // Handles spacing when there is only rent, only buy, or only play button
-    s72-pricing-buttons .s72-btn,
-    s72-play-button {
-      &:nth-child(1) {
-        margin-right: 0;
-      }
-      &:only-child {
-        margin-right: 0.5rem;
-      }
-    }
-    /* stylelint-enable selector-max-compound-selectors */
+  .meta-item-tagline-and-classification {
+    display: flex;
+    margin-bottom: 12px;
   }
 
-  .s72-btn-play {
-    circle {
-      fill: transparent;
+  .meta-item-tagline {
+    color: rgba(var(--body-color-rgb), 0.8);
+    font-size: 14px;
+    font-weight: $font-weight-normal;
+  }
+
+  .meta-item-synopsis {
+    display: none;
+    margin-bottom: 14px;
+    max-width: 600px;
+    padding-top: 0;
+
+    @include media-breakpoint-up(xs) {
+      display: block;
+    }
+
+    p {
+      margin-bottom: 0;
     }
   }
 }
 
 .s72-carousel-pagination {
-  @extend .d-flex;
-  bottom: 2px;
-  height: 60px;
-  left: 50%;
-  line-height: 60px;
-  position: absolute;
-  transform: translateX(-50%);
-
-  .s72-carousel-page {
-    color: rgba(var(--body-color-rgb), 0.2);
-    @include media-breakpoint-up(md) {
-      margin: 0 5px;
-    }
-
-    &.current {
-      color: var(--primary);
-    }
-
-    .fa {
-      @extend .fa-circle;
-      font-size: 12px;
-      padding: 0 3px;
-      @include media-breakpoint-up(md) {
-        font-size: 14px;
-      }
-    }
-  }
-}
-
-.s72-carousel-control {
-  @extend .d-flex;
-  bottom: 0;
-  flex-direction: column;
-  height: 60px;
+  display: flex;
   justify-content: center;
-  line-height: 60px;
-  position: absolute;
-  text-align: center;
-  top: auto;
-  width: 50px;
-  z-index: 6;
-  @include media-breakpoint-down(sm) {
-    :hover {
-      color: var(--primary);
-    }
-
-    :active {
-      opacity: 0.8;
-    }
-  }
-  @include media-breakpoint-up(md) {
-    background: none;
-    top: 53%;
-  }
-
-  &.left {
-    left: 0;
-    right: auto;
-  }
-
-  &.right {
-    left: auto;
-    right: 0;
-  }
-
-  &:hover,
-  &:active {
-    text-decoration: none;
-  }
-
-  span {
-    font-size: 32px;
-    text-align: center;
-    width: 100%;
-    @include media-breakpoint-up(md) {
-      font-size: inherit;
-    }
-  }
+  padding: 0 16px;
 }
 
-.right-gradient {
-  @extend .right-gradient-bg;
-  bottom: 0;
-  display: none;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  width: 500px;
-  z-index: 9;
-  @include media-breakpoint-up(lg) {
-    display: none;
-  }
-}
-
-.bottom-gradient {
-  @extend .bottom-gradient-bg;
-  bottom: 0;
-  height: 350px;
-  left: 0;
-  position: absolute;
+.s72-carousel-page {
+  background: none;
+  border: 0;
+  max-width: 60px;
+  padding: 10px 4px;
   width: 100%;
-  z-index: 8;
-  @include media-breakpoint-up(lg) {
-    display: block;
-    height: 500px;
-    width: 100%;
-  }
-}
 
-.left-gradient {
-  @extend .left-gradient-bg;
-  bottom: 0;
-  display: none;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 60%;
-  z-index: 8;
-  @include media-breakpoint-up(md) {
-    display: block;
+  .s72-carousel-line {
+    background-color: rgba(var(--body-color-rgb), 0.2);
+    border-radius: 6px;
+    height: 6px;
   }
-  @include media-breakpoint-up(lg) {
-    width: 100%;
-  }
-  @include media-breakpoint-up(xl) {
-    display: none;
-    width: 100%;
+
+  &.current .s72-carousel-line {
+    background-color: var(--primary);
   }
 }

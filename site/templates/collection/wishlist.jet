@@ -1,5 +1,6 @@
 {{import "./page_collection_item.jet"}}
 {{import "../common/slider.jet"}}
+{{import "./slider-buttons.jet"}}
 {{block wishlistCollection()}}
 
 {{if config("default_image_type") == "portrait"}}
@@ -24,11 +25,11 @@
 
 {{end}}
   <section class="page-collection" aria-label="{{i18n("wcag_aria_label_wishlist")}}">
-    <div class="swiper-wrapper-container">
+    <div class="collection-wrapper-container swiper-wrapper-container">
       {{if config("default_image_type") == "portrait"}}
-        <div class="swiper-container" is-wishlist="true" data-items-per-row="6" data-layout="portrait">
+        <div class="collection-container swiper-container" is-wishlist="true" data-items-per-row="6" data-layout="portrait">
       {{else}}
-        <div class="swiper-container" is-wishlist="true" data-items-per-row="4" data-layout="landscape">
+        <div class="collection-container swiper-container" is-wishlist="true" data-items-per-row="4" data-layout="landscape">
       {{end}}
             {{if i18n("userwishlist_slider_header") != ""}}
             <div class="swiper-title">
@@ -39,8 +40,7 @@
               {{yield content}}
             </div>
         </div>
-        <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="swiper-button-next swiper-button-white"></div>
+        {{ yield sliderButtons() }}
     </div>
   </section>
 </s72-userwishlist>

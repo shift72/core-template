@@ -4,9 +4,8 @@
 {{import "./title.jet"}}
 {{import "./tagline.jet"}}
 {{import "./synopsis.jet"}}
-{{import "./buttons.jet"}}
-{{import "./extras.jet"}}
 {{import "./list.jet"}}
+{{import "../common/cta_buttons.jet"}}
 
 {{block head()}}
   {{yield seo() bundle}}
@@ -28,14 +27,12 @@
 
           {{yield bundleTagline(class="meta-detail-tagline") bundle}}
 
-          {{yield bundleButtons(class="meta-detail-buttons", slug=bundle.Slug, title=bundle.Title, promoURL=bundle.PromoURL)}}
+          {{yield ctaButtons(itemType="bundle") bundle}}
 
           {{yield bundleSynopsis(class="meta-detail-synopsis", synopsis=bundle.Description)}}
-
         </div>
-
-        {{yield bundleList(items=bundle.Items)}}
       </div>
     </div>
+    {{yield bundleList(items=bundle.Items)}}
   </main>
 {{end}}

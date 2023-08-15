@@ -1,0 +1,7 @@
+{{import "../../../items/tagline.jet"}}
+
+{{block carouselItemTagline()}}
+  <div class="meta-item-tagline-and-classification">
+    {{yield metaItemTagline(genresLimit=1) .}}
+  </div>
+{{end}}

@@ -1,37 +1,299 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/0.4.4...HEAD)
-- Removed minimum page height from content pages
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.5...HEAD)
 
-## [0.4.4](https://github.com/shift72/core-template/compare/0.4.3...0.4.4)
-- Fixed usage of obsolete $primary var for trailer button
+## [1.9.5](https://github.com/shift72/core-template/compare/1.9.4...1.9.5)
+### Changed
+- Slider arrows code refactor and add css variable to change arrow color.
+
+## [1.9.4](https://github.com/shift72/core-template/compare/1.9.3...1.9.4)
+### Added
+- external purchase CTA button (based on custom fields)
+- page for signing users in across domains
+
+## [1.9.3](https://github.com/shift72/core-template/compare/1.9.2...1.9.3)
+### Added
+- Show character names next to actors if populated. Can be disabled with feature toggle site_hide_cast_character_name
+
+## [1.9.2](https://github.com/shift72/core-template/compare/1.9.1...1.9.2)
 
 ### Added
-- Awards categories
+- Configuration to change or remove the forgot password link
+- Configuration to change or remove the my account link
+- Styling for SSO buttons
+- CSS variables for change default button colors
+- linkedin social link
+
+### Changed
+- Nav mobile top padding to meet design spec
+- Social link redesign
+
+### Fixed
+- GA4 tracking of ecommerce data
+- Form control styling bug in 1.9.1
+
+## [1.9.1](https://github.com/shift72/core-template/compare/1.9.0...1.9.1)
+
+### Changed
+- Bumped base version of relish to 1.4.x
+
+## [1.9.0](https://github.com/shift72/core-template/compare/1.8.0...1.9.0)
+
+### Added
+- Support for Relish email verification 
+
+### Fixed
+- Border radius for longer width buttons
+
+
+## [1.8.0](https://github.com/shift72/core-template/compare/1.7.0...1.8.0)
+
+### Added
+- CSS for the new purchase flow.
+- Social links in the footer.
+- TV app banners in the footer.
+
+### Fixed
+- Links to specific episodes from collections (inc homepage carousel).
+- 60 mins runtime now shows as 1h 0m.
+
+## [1.7.0](https://github.com/shift72/core-template/compare/1.6.0...1.7.0)
+
+### Added
+- Bonus content and episode show/hide component.
+
+### Changed
+- Modified powered_by_url translations.
+- Various spacing style changes.
+
+### Fixed
+- Pricing buttons no longer get squashed in Firefox.
+- Spacing issues on small screens.
+
+## [1.6.0](https://github.com/shift72/core-template/compare/1.5.1...1.6.0)
+
+### Added
+- AB#9564 Live label to film detail page and carousel with translations.
+- AB#9361 Translations for live events, poster live availability status styling changes
+- Translations for live event purchase flow.
+- Translations for credit card validation errors.
+- Translations for new card timing out error.
+- Award categories moved to above film description
+
+### Fixed
+- Inline cta buttons now grow when text is wider than button width.
+- TV season detail page layout now matches film detail page layout.
+- Trailer autoplay disabled for CTA buttons in homepage carousel.
+
+### Fixed
+- Gap below page-collections consistent with sliders
+- Made item-collections similar in structure and style to sliders, renamed accordingly
+
+### Fixed
+- Bundle page style regression
+
+## [1.5.1](https://github.com/shift72/core-template/compare/1.5.0...1.5.1)
+
+## Changed
+- Revert relish version to 1.3 from latest
+
+## [1.5.0](https://github.com/shift72/core-template/compare/1.4.0...1.5.0)
+
+### Added
+- Translations for discount errors
+
+## Changed
+- Spacing between components AB#9013
+
+### Fixed
+- Default language now gets set either by site record or kibble.json depending on if DB translations are enabled AB#9675
+- Fixed incorrect Portuguese translation for shopping success
+
+## [1.4.0](https://github.com/shift72/core-template/compare/1.3.0...1.4.0)
+
+### Added
+- Add new variables to change the font sizes and letter spacing of headings, subtitles, body text, etc.
+- Add translations for intervals without counts
+- New keys for translations that were used by Relish and Core-template removing their overlapping usage
+- Add translation for `shopping_error_card_not_supported`, `shopping_error_processing_error` and `shopping_error_invalid_session_token`
+- Added support for self-service CSS and brand images.
+- Added support for carousel_play_speed and carousel_fade_time configs.
+- Added support to toggle on cloudsearch via Meta > cloudsearch feature toggle.
+
+## Changed
+- Moved the carousel availability label above the CTA's.
+- The site url in kibble.json now points to [tvoddemo.shift72.com](https://tvoddemo.shift72.com).
+- Full width background image and gradient on meta detail pages
+- Various links and buttons now use new colour variables.
+- Translations refer to "CVC" rather than "CVV" at payment stage
+
+### Fixed
+- Broken share modal styles.
+- Fixed translation for plan frequency in plans.html
+- Added Intl to polyfill to catch iOS devices.
+- Film detail page element switcher uses grid instead of flex with gap.
+
+## [1.3.0](https://github.com/shift72/core-template/compare/1.3.0-alpha...1.3.0)
+
+No changes from `alpha-0`.
+
+## [1.3.0-alpha.0](https://github.com/shift72/core-template/compare/1.2.0...1.3.0-alpha.0)
+
+### Added
+- Add translations for subscription recurrence on purchase CTA.
+- Add translations for more friendlier stripe & error messages. (`stripe_card_not_supported`, `something_bad_happened`).
+
+### Fixed
+- Spinner not rotating.
+
+## [1.2.0](https://github.com/shift72/core-template/compare/1.2.0-alpha.0...1.2.0)
+
+No changes from `alpha-0`.
+
+## [1.2.0-alpha.0](https://github.com/shift72/core-template/compare/1.1.0...1.2.0-alpha.0)
+
+### Added
+- Tooltips on meta detail/item CTA buttons.
+- Language strings changed for `shopping_complete_promo_only`.
+- Text label on save credit card component changed to "Add new card".
+- Grouped carousel awards component with sponsor logo.
+- Separate translations for plans, subscriptions
+- Play button i18n changed to 'Watch now' instead of 'Play now'
+
+### Changed
+- Taglines refactored with new DOM structure.
+- Language strings for usersubscriptions_unsubscribe_modal_cancel and usersubscriptions_unsubscribe_modal_confirm
+
+## [1.1.0](https://github.com/shift72/core-template/compare/1.0.0...1.1.0)
+
+### Added
+- Language strings for `shopping_card_update_reason_expired`.
+- Carousel images can now be positioned via variables.
+
+### Changed
+- Awards icon from star to laurel.
+- Meta detail page poster width, layout direction, spacing between nav and start of content adjusted at different breakpoints.
+- Show play and pricing buttons based on item type on `meta_item.jet`.
+- Carousel height now scales based on browser window height.
+- Fix font weight on the `can-be-watched button` to match primary button styling.
+- Replaces `nav_homepage` and` site_owner` translations with dynamic data via Kibble function.
+- Carousel heading is limited to a maximum of 3 lines.
+
+## [1.0.0](https://github.com/shift72/core-template/compare/1.0.0-alpha.0...1.0.0)
+
+No changes from `alpha-0`.
+
+## [1.0.0-alpha.0](https://github.com/shift72/core-template/compare/0.6.0...1.0.0-alpha.0)
+
+### Added
+- Subscribe to watch button.
+- Bundles tagline to show _n_ items rather than _n_ films.
+- Keyboard controls for the carousel.
+- Pull request template file.
+- Playback progress component and style.
+- `url` parameter in share modals.
+
+### Changed
+- New Jet and CSS for reusable CTA (call-to-action) buttons. Used for consistent button appearance on film/tv/bundle pages and carousel slides.
+- Reworked the carousel UI.
+- Carousel background now extends the full width of the window.
+
+### Fixed
+- Remove whitespaces from mustaches variables in translations.
+- Fix unwanted variables in translations.
+- Sub-item CSS is no longer broken by the linter.
+
+## [0.6.0](https://github.com/shift72/core-template/compare/0.6.0-alpha.0...0.6.0)
+
+No changes from `alpha-0`.
+
+## [0.6.0-alpha.0](https://github.com/shift72/core-template/compare/0.5.1...0.6.0-alpha.0)
+
+### Added
+- If the signed in user has plans to show, they will now be visible in `subscriptions.html.jet` with a link from "My Subscriptions" in the menu.
+- Styling and translations to support SVOD subscriptions.
+- `.nvmrc` to pin versions of Node/NPM.
+- Developer tool to fetch translations from Google Translate.
+- Social media buttons replaced with share modal.
+- Relish now loads the `urlmap.json`.
+- Sponsor image in carousel and meta detail.
+
+### Changed
+- Default Font Awesome removed. A trimmed icons file is now in `fa-s72.woff` being used by `_icons.scss`.
+- Styling changes to awards and availability label/status.
+
+### Fixed
+- Removed some redundant wishlist CSS.
+- Improved and translated element switcher.
+- Removed suffixed `plan` from subscription translations.
+- Changed incorrect language code for Estonia.
+- Donate button hover color.
+- Google scripts respect cookie consents and only load when accepted.
+
+## [0.5.1](https://github.com/shift72/core-template/compare/0.5.0...0.5.1)
+
+### Changed
+- Upgrade to kibble `0.16.7`.
+
+### Fixed
+- Sentence casing for `en_AU` translation about passes.
+
+## [0.5.0](https://github.com/shift72/core-template/compare/0.4.4...0.5.0)
+
+### Added
+- Start the site with an admin build: `npm start --admin`.
+- Added Core template version to `<head>` and `kibble.json`.
+- Added styling for floating donate button to use button sass variables.
+- A bunch of missing language keys across language files.
+- Automated translation command.
+
+### Changed
+- Upgrade to kibble `0.16.6`.
+- Moved references from `film.Images` to `film.ImageMap`.
+- Removed minimum page height from content pages.
+- Moved skip link above cookie consent banner
+
+### Changed
+- Upgrade to kibble `0.16.6`.
+- Moved references from `film.Images` to `film.ImageMap`.
+- Removed minimum page height from content pages.
+- Moved skip link above cookie consent banner
+
+### Fixed
+- Can now override the cookie consent styling.
+- Can now send analytics data to both GA4 and UA Legacy google analytics (GA4 previously not supported).
+
+## [0.4.4](https://github.com/shift72/core-template/compare/0.4.3...0.4.4)
+
+### Added
+- Awards categories.
+
+### Fixed
+- Fixed obsolete `$primary` var for trailer button.
 
 ## [0.4.3](https://github.com/shift72/core-template/compare/0.4.2...0.4.3)
 
 ### Added
-- Awards categories
-- Floating donate button
+- Awards categories.
+- Floating donate button.
 - External custom CSS link in head.
 - Scripts for downloading/uploading custom CSS files for use with local development.
 
 ### Changed
-- Replaced various SASS variables with CSS variables.
-- Added workarounds for SASS and Bootstrap functions that don't understand CSS variables.
-- Kibble 0.16.4
-- Split CC and Subtitles
-- Moved engagement icons
+- Replaced various Sass variables with CSS variables.
+- Added workarounds for Sass and Bootstrap functions that don't understand CSS variables.
+- Kibble `0.16.4`.
+- Split CC and Subtitles.
+- Moved engagement icons.
 
 ## [0.4.2](https://github.com/shift72/core-template/compare/0.4.1...0.4.2)
 
 ### Added
-- Lang files updated with entries for purchasing one-off passes
-- Sponsor banner that can be enabled/disabled in Uber Admin
+- Lang files updated with entries for purchasing one-off passes.
+- Sponsor banner.
 
-### Changed
-- Typo in English lang file
+### Fixed
+- Typo in English language file.
 
 ## [0.4.1](https://github.com/shift72/core-template/compare/0.4.0...0.4.1)
 
@@ -52,11 +314,11 @@ No changes from RC0.
 
 ### Changed
 - Moved separator line from footer jet into app badge jet.
-- Kibble upgraded to v0.15.22.
+- Kibble upgraded to `0.15.22`.
 - Application templates moved to `/site/templates/application/`.
 - Links (`<a>` tags) without a `class` attribute have `text-decoration: underline`.
 
-## Fixed
+### Fixed
 - Curated pages with a collection no longer has a `min-height` that was forcing a gap before the collection.
 
 ## [0.3.8](https://github.com/shift72/core-template/compare/0.3.7...0.3.8)

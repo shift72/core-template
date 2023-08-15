@@ -1,47 +1,11 @@
-{{block socialMediaButtons(path="", title="", letterboxdID="")}}
+{{block socialMediaButtons(url="", title="", letterboxdID="")}}
 {{show_facebook_share := config("show_facebook_share", "true") == "true"}}
 {{show_twitter_share := config("show_twitter_share", "true") == "true"}}
 {{show_linkedin_share := config("show_linkedin_share", "true") == "true"}}
 
 	{{if show_facebook_share || show_twitter_share || show_linkedin_share || letterboxdID}}
 		<div class="social-media-buttons">
-			<div class="social-media-buttons-title">
-				<h2>{{i18n("social_media_buttons_title")}}</h2>
-			</div>
-			<div class="social-media-buttons-container">
-				{{if show_facebook_share}}
-					<a class="btn btn-social btn-social-facebook" aria-label="{{i18n("wcag_aria_label_facebook")}}" href="https://www.facebook.com/sharer/sharer.php?u={{site.SiteConfig.SiteURL + path | url}}" target="_blank">
-						<i class="fa fa-facebook" title="Share on Facebook" aria-hidden="true"></i>
-					</a>
-				{{end}}
-
-				{{if show_twitter_share}}
-					<a class="btn btn-social btn-social-twitter" aria-label="{{i18n("wcag_aria_label_twitter")}}" href="https://twitter.com/intent/tweet?text={{title + " " + site.SiteConfig.SiteURL + path | url}}" target="_blank">
-						<i class="fa fa-twitter" title="Share on Twitter" aria-hidden="true"></i>
-					</a>
-				{{end}}
-
-				{{if show_linkedin_share}}
-					<a class="btn btn-social btn-social-linkedin" aria-label="{{i18n("wcag_aria_label_linkedin")}}" href="https://www.linkedin.com/shareArticle?mini=true&url={{site.SiteConfig.SiteURL + path | url}}&title={{title|url}}" target="_blank">
-						<i class="fa fa-linkedin" title="Share on LinkedIn" aria-hidden="true"></i>
-					</a>
-				{{end}}
-
-				{{if letterboxdID}}
-					<a class="btn btn-social btn-social-letterboxd" aria-label="{{i18n("wcag_aria_label_letterboxd")}}" href="https://boxd.it/{{letterboxdID}}" target="_blank">
-						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="28px" viewBox="0 0 334.79999 128" version="1.1">
-							<title>{{i18n("wcag_aria_label_letterboxd")}}</title>
-							<g transform="matrix(1.3333333,0,0,-1.3333333,0,128)">
-								<g transform="scale(0.1)">
-									<path d="M 857.793,735.43 C 775.559,870.309 630.23,960 464.551,960 207.984,960 0,745.098 0,480 0,214.902 207.984,0 464.551,0 630.23,0 775.559,89.6914 857.793,224.574 812.684,298.559 786.488,386.098 786.488,480 c 0,93.906 26.196,181.441 71.305,255.43"/>
-									<path d="M 1648.76,728.125 C 1567.38,867.098 1419.72,960 1251.04,960 1085.36,960 940.031,870.309 857.793,735.43 902.902,661.441 929.102,573.906 929.102,480 c 0,-93.902 -26.2,-181.441 -71.309,-255.426 C 940.031,89.6914 1085.36,0 1251.04,0 c 168.68,0 316.34,92.9023 397.72,231.875 -42.4,72.41 -66.82,157.316 -66.82,248.125 0,90.809 24.42,175.719 66.82,248.125"/>
-									<path d="m 2046.49,960 c -168.68,0 -316.34,-92.902 -397.73,-231.875 42.41,-72.406 66.83,-157.316 66.83,-248.125 0,-90.809 -24.42,-175.715 -66.83,-248.125 C 1730.15,92.9023 1877.81,0 2046.49,0 c 256.56,0 464.55,214.902 464.55,480 0,265.098 -207.99,480 -464.55,480"/>
-								</g>
-							</g>
-						</svg>
-					</a>
-				{{end}}
-			</div>
+			<s72-share-modal {{letterboxdID ? "letterboxd=" + letterboxdID : ""}} url="{{url}}"></s72-share-modal>
 		</div>
 	{{end}}
 {{end}}
