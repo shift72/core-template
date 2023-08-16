@@ -2,7 +2,7 @@
   <!-- Meta Pixel Code -->
   {{if pixelID != ""}}
     <script>
-      function loadPixelScripts() {
+      function loadPixelScripts(messagebus) {
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -12,7 +12,6 @@
         s.parentNode.insertBefore(t,s)}(window, document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
 
-        let messagebus = event.detail.app.messagebus;
         messagebus.publish('loaded-pixel-script', {{pixelID}});
       };
     </script>
@@ -24,13 +23,14 @@
     var cookieConsentRequired = {{ isEnabled("frontend_cookie_consent") }};
 
     document.addEventListener('s72loaded', function(event) {
+      let messagebus = event.detail.app.messagebus;
       if(!cookieConsentRequired || event.detail.app.hasCookieConsent()) {
-        loadPixelScripts();
+        loadPixelScripts(messagebus);
       }
       else {
         // Listen for an 'accept' of the cookie consent, in which case send message to load Pixel
         messagebus.subscribe('cookie-consent-set', function(event) {
-          loadPixelScripts();
+          loadPixelScripts(messagebus);
         });
       }
     });
