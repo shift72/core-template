@@ -62,7 +62,7 @@
           {{end}}
 
           {{if showShareButton}}
-            {{letterboxdID := isFilm && !isEnabled("disable_letterboxd_share") ? .Refs.LetterboxdID : ""}}
+            {{letterboxdID := isFilm && config("show_letterboxd_share", "true") == "true" ? .Refs.LetterboxdID : ""}}
             {{shareURL := site.SiteConfig.SiteURL + routeToSlug(slug)}}
             {{yield socialMediaButtons(url=shareURL, letterboxdID=letterboxdID)}}
           {{end}}
