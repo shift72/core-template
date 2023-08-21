@@ -1,12 +1,39 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.1...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.5...HEAD)
+### Added
+- Facebook / meta pixel support
+- Ability to disable letterboxd share
+
+## [1.9.5](https://github.com/shift72/core-template/compare/1.9.4...1.9.5)
+### Changed
+- Slider arrows code refactor and add css variable to change arrow color.
+
+## [1.9.4](https://github.com/shift72/core-template/compare/1.9.3...1.9.4)
+### Added
+- external purchase CTA button (based on custom fields)
+- page for signing users in across domains
+
+## [1.9.3](https://github.com/shift72/core-template/compare/1.9.2...1.9.3)
+### Added
+- Show character names next to actors if populated. Can be disabled with feature toggle site_hide_cast_character_name
+
+## [1.9.2](https://github.com/shift72/core-template/compare/1.9.1...1.9.2)
+
+### Added
+- Configuration to change or remove the forgot password link
+- Configuration to change or remove the my account link
+- Styling for SSO buttons
+- CSS variables for change default button colors
+- linkedin social link
 
 ### Changed
 - Nav mobile top padding to meet design spec
+- Social link redesign
 
 ### Fixed
 - GA4 tracking of ecommerce data
+- Form control styling bug in 1.9.1
 
 ## [1.9.1](https://github.com/shift72/core-template/compare/1.9.0...1.9.1)
 

@@ -1,0 +1,49 @@
+{{block pixelScripts(pixelID=config("meta_pixel_id"))}}
+  <!-- Meta Pixel Code -->
+  {{if pixelID != ""}}
+    <script>
+      function loadPixelScripts(messagebus) {
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+
+        messagebus.publish('loaded-pixel-script', {{pixelID}});
+      };
+    </script>
+  {{end}}
+  <!-- End Meta Pixel Code -->
+
+  <script>
+    // Only send message to load Pixel if a/ the frontend cookie consent isn't required or b/ they've agreed to the cookie consent
+    var cookieConsentRequired = {{ isEnabled("frontend_cookie_consent") }};
+
+    document.addEventListener('s72loaded', function(event) {
+      let messagebus = event.detail.app.messagebus;
+      if(!cookieConsentRequired || event.detail.app.hasCookieConsent()) {
+        loadPixelScripts(messagebus);
+      }
+      else {
+        // Listen for an 'accept' of the cookie consent, in which case send message to load Pixel
+        messagebus.subscribe('cookie-consent-set', function(event) {
+          loadPixelScripts(messagebus);
+        });
+      }
+    });
+  </script>
+{{end}}
+
+{{block pixelNoScript(pixelID=config("meta_pixel_id"))}}
+  {{if len(pixelID) > 0}}
+    {{if !isEnabled("frontend_cookie_consent")}};
+      <!-- Start Pixel (noscript) -->
+      <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={{pixelID}}&ev=PageView&noscript=1"/></noscript> 
+      <!-- End Pixel (noscript) -->
+    {{end}}
+  {{end}}
+{{end}}
+

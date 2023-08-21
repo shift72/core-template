@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script type="text/javascript">
+    let [key, val] = window.location.hash.slice(1).split("=");
+    if (key === "token") {
+      fetch("/services/users/detail/users", {
+        headers: {
+          'X-Auth-Token': val
+        }
+      }).then(res => res.json()).then(res => {
+        localStorage.setItem("shift72.user", JSON.stringify(res.account.users[0]));
+        localStorage.setItem("shift72.authToken", JSON.stringify(val));
+      }).finally(() => {
+        window.location.href = "about:blank";
+      });
+    }
+  </script>
+</head>
+
+</html>

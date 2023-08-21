@@ -23,7 +23,9 @@ footer {
   margin-bottom: 30px;
 
   @include media-breakpoint-up(xl) {
-    margin: 0 50px 20px;
+    align-items: center;
+    display: flex;
+    margin: 0 50px;
   }
 
   .nav {
@@ -37,8 +39,9 @@ footer {
   }
 
   .nav-link {
+    padding-bottom: 16px;
+    padding-top: 0;
     text-align: center;
-
     @include media-breakpoint-up(xl) {
       margin-right: 20px;
       padding: 0;
@@ -52,16 +55,15 @@ footer {
 
 .footer-social-media-icons {
   display: grid;
-  gap: 24px;
-  grid-auto-columns: 25px;
+  gap: 16px;
+  grid-auto-columns: 32px;
   grid-auto-flow: column;
   grid-template-rows: 1fr;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-left: auto;
 
   @include media-breakpoint-up(xl) {
     justify-content: start;
-    margin: 0 50px 20px;
   }
 
   .s72-btn {
@@ -77,6 +79,22 @@ footer {
         color: var(--body-color-hover);
       }
     }
+  }
+}
+
+.social-link-button {
+  align-items: center;
+  background-color: var(--footer-social-bg);
+  border-radius: 50%;
+  color: var(--footer-social-icon);
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  width: 32px;
+
+  &:hover {
+    background-color: var(--footer-social-bg-hover);
+    color: var(--footer-social-icon-hover);
   }
 }
 
