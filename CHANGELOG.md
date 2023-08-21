@@ -3,6 +3,7 @@
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.5...HEAD)
 ### Added
 - Facebook / meta pixel support
+- Ability to disable letterboxd share
 
 ## [1.9.5](https://github.com/shift72/core-template/compare/1.9.4...1.9.5)
 ### Changed
