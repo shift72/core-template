@@ -107,19 +107,7 @@
   --signin-sso-btn-background-color: var(--button-background);
   --signin-sso-btn-background-hover-color: var(--button-background-hover);
 
-  // Buttons
-  --button-text-color: var(--body-bg);
-  --button-text-color-hover: var(--body-bg);
-  --button-background: var(--primary);
-  --button-background-hover: var(--secondary);
-  --trailer-button-text-color: var(--body-color);
-  --mobile-nav-link-color: var(--body-color);
-  --slider-button-color: var(--body-color);
-  --signin-sso-btn-text-color: var(--button-text-color);
-  --signin-sso-btn-text-hover-color: var(--button-text-color-hover);
-  --signin-sso-btn-background-color: var(--button-background);
-  --signin-sso-btn-background-hover-color: var(--button-background-hover);
-
+  // Carousel
   --carousel-height: 88vh;
   --carousel-height-sm: 88vh;
   --carousel-height-lg: 88vh;
@@ -130,6 +118,7 @@
   --carousel-image-object-position-sm: center;
   --carousel-image-object-position-lg: center;
 
+  // Pages
   --collection-padding-bottom: 40px;
 
   --page-padding-top: 120px;
