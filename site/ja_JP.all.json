@@ -1645,5 +1645,8 @@
   },
   "wcag_aria_label_social_linkedin": {
     "other": "LinkedIn にアクセスしてください"
+  },
+  "pricing_from": {
+    "other": "から見る"
   }
 }

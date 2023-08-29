@@ -1658,5 +1658,8 @@
   },
   "wcag_aria_label_social_linkedin": {
     "other": "Bizi LinkedIn'de ziyaret edin"
+  },
+  "pricing_from": {
+    "other": "Şuradan izle:"
   }
 }

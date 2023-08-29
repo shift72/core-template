@@ -1658,5 +1658,8 @@
   },
   "wcag_aria_label_social_linkedin": {
     "other": "Besøg os på LinkedIn"
+  },
+  "pricing_from": {
+    "other": "Se fra"
   }
 }

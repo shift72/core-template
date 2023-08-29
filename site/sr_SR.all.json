@@ -1674,5 +1674,8 @@
   },
   "wcag_aria_label_social_linkedin": {
     "other": "Посетите нас на ЛинкедИн-у"
+  },
+  "pricing_from": {
+    "other": "Гледајте из"
   }
 }

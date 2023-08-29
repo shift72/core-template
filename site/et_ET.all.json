@@ -1658,5 +1658,8 @@
   },
   "wcag_aria_label_social_linkedin": {
     "other": "Külastage meid LinkedInis"
+  },
+  "pricing_from": {
+    "other": "Vaata alates"
   }
 }

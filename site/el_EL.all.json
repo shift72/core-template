@@ -1658,5 +1658,8 @@
   },
   "wcag_aria_label_social_linkedin": {
     "other": "Επισκεφθείτε μας στο LinkedIn"
+  },
+  "pricing_from": {
+    "other": "Παρακολουθήστε από"
   }
 }
