@@ -76,6 +76,9 @@
   --navbar-brand-height: 50px;
 
   --footer-brand-height: 50px;
+  --footer-app-badge-android-tv: var(
+    --body-color
+  ); // AndroidTV brand guidelines state this must be black or white
   --footer-social-bg: var(--body-bg-accent);
   --footer-social-bg-hover: var(--primary);
   --footer-social-icon: var(--body-color);
