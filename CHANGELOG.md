@@ -6,6 +6,7 @@
 
 - Facebook / meta pixel support
 - Ability to disable letterboxd share
+- Translations for new checkout 'watch from' button
 
 ### Changed
 
