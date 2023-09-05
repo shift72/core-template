@@ -1,6 +1,14 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.5...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.6...HEAD)
+
+### Added
+
+### Changed
+
+### Fixed
+
+## [1.9.6](https://github.com/shift72/core-template/compare/1.9.5...1.9.6)
 
 ### Added
 
