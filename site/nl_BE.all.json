@@ -1658,5 +1658,8 @@
   },
   "wcag_aria_label_social_linkedin": {
     "other": "Bezoek ons op LinkedIn"
+  },
+  "pricing_from": {
+    "other": "Kijk vanaf"
   }
 }

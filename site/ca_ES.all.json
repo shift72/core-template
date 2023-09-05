@@ -1658,5 +1658,8 @@
   },
   "wcag_aria_label_social_linkedin": {
     "other": "Visita'ns a LinkedIn"
+  },
+  "pricing_from": {
+    "other": "Mira des de"
   }
 }

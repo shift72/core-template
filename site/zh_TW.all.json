@@ -1645,5 +1645,8 @@
   },
   "wcag_aria_label_social_linkedin": {
     "other": "在 LinkedIn 上訪問我們"
+  },
+  "pricing_from": {
+    "other": "觀看來自"
   }
 }

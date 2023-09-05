@@ -26,7 +26,11 @@
 
       <div class="tv-app-badge-container">
         {{yield appBadge(href=app_link_fire_tv, image="/images/icons/amazonfiretv.png", altKey="app_badge_fire_tv", imgClass="tv-badge-image")}}
-        {{yield appBadge(href=app_link_android_tv, image="/images/icons/androidtv.png", altKey="app_badge_android_tv", imgClass="tv-badge-image")}} 
+        {{ if app_link_android_tv != "" }}
+        <a class="app-badge-link" href="{{app_link_android_tv}}" target="_blank">
+          <div class="app-badge-android-tv"></div>
+        </a>
+        {{ end }}
         {{yield appBadge(href=app_link_apple_tv_enabled, image="/images/icons/appletv.png", altKey="app_badge_apple_tv", imgClass="tv-badge-image")}} 
       </div>
     </div>

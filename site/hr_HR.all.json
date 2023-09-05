@@ -1660,5 +1660,8 @@
   },
   "wcag_aria_label_social_linkedin": {
     "other": "Posjetite nas na LinkedInu"
+  },
+  "pricing_from": {
+    "other": "Gledajte iz"
   }
 }

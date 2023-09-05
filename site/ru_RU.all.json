@@ -1712,5 +1712,8 @@
   },
   "wcag_aria_label_social_linkedin": {
     "other": "Посетите нас на LinkedIn"
+  },
+  "pricing_from": {
+    "other": "Смотреть из"
   }
 }
