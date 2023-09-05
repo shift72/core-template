@@ -110,9 +110,10 @@
   --signin-sso-btn-background-color: var(--button-background);
   --signin-sso-btn-background-hover-color: var(--button-background-hover);
 
-  --carousel-height: 75vh;
-  --carousel-height-sm: 75vh;
-  --carousel-height-lg: 75vh;
+  // Carousel
+  --carousel-height: 88vh;
+  --carousel-height-sm: 88vh;
+  --carousel-height-lg: 88vh;
   --carousel-bottom-gradient-height: 200px; // Increase this to 300px for light theme.
   --carousel-bottom-gradient-height-sm: 200px; // Increase this to 300px for light theme.
   --carousel-bottom-gradient-height-lg: 200px; // Increase this to 600px for light theme.
@@ -120,6 +121,7 @@
   --carousel-image-object-position-sm: center;
   --carousel-image-object-position-lg: center;
 
+  // Pages
   --collection-padding-bottom: 40px;
 
   --page-padding-top: 120px;
