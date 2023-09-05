@@ -11,6 +11,7 @@
 ### Changed
 
 - Updated branding for Google Play / Android TV
+- Small carousel styling tweaks
 
 ## [1.9.5](https://github.com/shift72/core-template/compare/1.9.4...1.9.5)
 
