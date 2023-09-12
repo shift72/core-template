@@ -117,6 +117,9 @@
       "js"
     ]
   },
+  "proxy": [
+    "^/checkout/"
+  ],
   "routes": [
     {
       "name": "filmItem",
