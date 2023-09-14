@@ -11,10 +11,10 @@
       <h1>{{ i18n("plans_page_header") }}</h1>
     </div>
 
-    <div class="container-xxxl px-2 px-lg-5">
+    <div class="container-fluid px-2 px-lg-5">
       <div class="row">
       {{ range _, p := site.Plans }}
-        <div class="plan col-xs-6 col-lg-4 mb-3">
+        <div class="plan col-xs-6 col-lg-4 col-xxl-3 mb-3">
           <div class="card h-100">
             <div class="plan-container">
               {{ if isset(p.LandscapeImage) && p.LandscapeImage != ""}}
