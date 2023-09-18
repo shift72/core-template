@@ -11,6 +11,8 @@
         </div>
       {{ end }}
 
+      <collection-sort-controls></collection-sort-controls>
+
       <div class="page-collection-items collection-items">
         {{range item := .Items}}
           <div class="page-collection-item page-collection-list-item page-collection-list-item-{{.ItemLayout}} page-collection-item-{{.ItemLayout}} page-collection-list-item-{{.ItemsPerRow}} page-collection-item-{{.ItemsPerRow}}">

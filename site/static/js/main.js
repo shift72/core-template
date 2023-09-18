@@ -1,6 +1,7 @@
 import './modernizr-custom.js';
 import './can-be-watched-button.component.js';
 import './external-purchase-button.component.js';
+import './collection-sort-controls.js';
 
 /*global Swiper, Modernizr, s72*/
 
