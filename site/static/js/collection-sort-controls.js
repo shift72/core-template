@@ -6,6 +6,8 @@ export class CollectionSortControls extends AppComponent {
     this.state = {
       direction: 'asc',
       search: '',
+      genres: [],
+      selectedGenre: '',
     };
 
     this.collectionItems = [];
@@ -31,7 +33,19 @@ export class CollectionSortControls extends AppComponent {
         >
           Sort {this.state.direction === 'asc' ? 'Z-A' : 'A-Z'}
         </button>
-        <input onInput={e => this.doSearch(e.currentTarget.value)} value={this.state.search} placeholder="Filter" />
+        <input
+          onInput={e => this.doSearch(e.currentTarget.value)}
+          value={this.state.search}
+          placeholder="Filter"
+        />
+        <select value={this.state.selectedGenre} onChange={e => {
+          const selectedGenre = e.currentTarget.value;
+          this.setState({selectedGenre});
+          this.filterByGenre(selectedGenre);
+        }}>
+          <option value=''>All genres</option>
+          {this.state.genres.map(g => <option key={g} value={g}>{g}</option>)}
+        </select>
       </div>
     );
   }
@@ -45,12 +59,24 @@ export class CollectionSortControls extends AppComponent {
   }
 
   doSearch(search) {
-    this.setState({search});
+    this.setState({ search });
 
     if (!search) {
       this.updateVisible(this.collectionItems);
     } else {
-      this.updateVisible(this.collectionItems.filter(item => item.title.toLowerCase().includes(search.toLowerCase())));
+      this.updateVisible(
+        this.collectionItems.filter(item => item.title.toLowerCase().includes(search.toLowerCase()))
+      );
+    }
+  }
+
+  filterByGenre(genre) {
+    if (!genre) {
+      this.updateVisible(this.collectionItems);
+    } else {
+      this.updateVisible(
+        this.collectionItems.filter(item => item.genres.includes(genre))
+      );
     }
   }
 
@@ -70,12 +96,17 @@ export class CollectionSortControls extends AppComponent {
     this.collectionItems = [];
     this.collectionContentsEl.querySelectorAll('.page-collection-item').forEach(element => {
       const title = element.querySelector('.caption .title');
+      const genres = element.querySelector('.caption .genres .item');
       console.log(title.textContent);
       this.collectionItems.push({
         element,
         title: title.textContent,
+        genres: genres ? genres.textContent.split(',').map(t => t.trim()) : []
       });
     });
+
+    const genres = this.collectionItems.flatMap(item => item.genres).sort().filter((item, index, array) => item !== array[index -1 ]);
+    this.setState({genres});
   }
 }
 
