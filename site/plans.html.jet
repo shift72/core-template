@@ -16,7 +16,7 @@
       {{ range _, p := site.Plans }}
         <div class="plan col-xs-6 col-lg-4 col-xxl-3 mb-3">
           <div class="card h-100">
-            <div class="plan-container">
+            <div class="h-100 plan-container d-flex flex-column">
               {{ if isset(p.LandscapeImage) && p.LandscapeImage != ""}}
                 <div class="poster poster-landscape">
                   {{ if p.Page }}
