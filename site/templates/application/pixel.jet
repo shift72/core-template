@@ -15,7 +15,6 @@
         messagebus.publish('loaded-pixel-script', {{pixelID}});
       };
     </script>
-  {{end}}
   <!-- End Meta Pixel Code -->
 
   <script>
@@ -35,6 +34,7 @@
       }
     });
   </script>
+  {{end}}
 {{end}}
 
 {{block pixelNoScript(pixelID=config("meta_pixel_id"))}}
