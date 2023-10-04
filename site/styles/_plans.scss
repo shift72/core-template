@@ -5,43 +5,43 @@
 s72-plan-label {
   .s72-plan-owned {
     @extend .availability-state;
-    display: inline;
     color: $button-text-color;
+    display: inline;
   }
 }
 
 /* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
 .plans-page {
   .plans-container {
-    width: 100%;
-    max-width: 1920px;
     display: grid;
+    gap: 20px;
     grid-template-columns: 1fr;
+    max-width: 1920px;
+    padding: 0 20px;
+    width: 100%;
     @include media-breakpoint-up(sm) {
       grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     }
-    gap: 20px;
-    padding: 0px 20px;
     @include media-breakpoint-up(lg) {
-      padding: 0px 50px;
+      padding: 0 50px;
     }
   }
 
   .plan {
     .plan-card {
-      height: 100%;
       border: 0;
+      box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.1);
       color: #343a40;
+      height: 100%;
       max-width: 580px;
-      box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.1);
 
       .plan-container {
+        @include border-radius($border-radius);
         background-color: rgb(255, 255, 255);
 
         display: flex;
         flex-direction: column;
         height: 100%;
-        @include border-radius($border-radius);
 
         .plan-poster {
           width: 100%;
@@ -59,18 +59,18 @@ s72-plan-label {
 
         .plan-caption-details-container {
           display: flex;
+          flex: 1 1 auto;
           flex-direction: column;
           justify-content: space-between;
-          padding: 20px;
-          flex: 1 1 auto;
           min-height: 1px;
+          padding: 20px;
         }
 
         s72-plan-label {
-          position: absolute;
-          margin: 0 auto;
 
           left: 0;
+          margin: 0 auto;
+          position: absolute;
           top: 0;
           z-index: 99;
         }
@@ -80,10 +80,10 @@ s72-plan-label {
         }
 
         .plan-caption-details .s72-plan-owned {
-          display: inline-block;
 
           background-color: var(--primary);
           border-radius: $border-radius 0 $border-radius 0;
+          display: inline-block;
           line-height: 20px;
           padding: 0 5px;
         }
