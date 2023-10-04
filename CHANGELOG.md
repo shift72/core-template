@@ -10,6 +10,8 @@
 
 ### Fixed
 
+- Plans page alignment
+
 ## [1.9.6](https://github.com/shift72/core-template/compare/1.9.5...1.9.6)
 
 ### Added

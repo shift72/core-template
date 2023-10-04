@@ -167,9 +167,9 @@ footer {
     .app-badge-android-tv {
       background-color: var(--footer-app-badge-android-tv);
       height: 44px;
-      width: 122px;
       mask: url('/images/icons/androidtv.svg') no-repeat center / contain;
-      -webkit-mask: url('/images/icons/androidtv.svg') no-repeat center / contain;
+      mask: url('/images/icons/androidtv.svg') no-repeat center / contain;
+      width: 122px;
     }
   }
 
