@@ -11,6 +11,9 @@
 {{CSSFileURL := site.SiteBrand.GetLink("css", "")}}
 {*{CSSFileURL := "/styles/local.css"}*}
 
+{{checkoutDevMode := false}}
+{{useCheckout := site.Toggles["use_checkout"] || checkoutDevMode}}
+
 <!DOCTYPE html>
 <html lang="{{lang.Code}}">
   <head>
@@ -51,6 +54,14 @@
     <script src="/scripts/main.js" defer></script>
 
     <script src="{{CDN}}/s72.transactional.js" defer></script>
+
+    {{if checkoutDevMode}}
+      <script>window.S72_CHECKOUT_OVERRIDE_URL = 'http://localhost:4072'</script>
+      <script src="http://localhost:4072/s72.checkout.js" defer></script> 
+    {{else if useCheckout}}
+      <script src="/checkout/s72.checkout.js" defer></script>
+    {{end}}
+
     <script src="https://js.stripe.com/v3/" defer></script>
 
     {* get default language from site record or kibble.json depening on if db translations is enabled *}  

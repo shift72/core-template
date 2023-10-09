@@ -1,12 +1,26 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.6...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.7...HEAD)
 
 ### Added
 
 ### Changed
 
 ### Fixed
+
+## [1.9.6](https://github.com/shift72/core-template/compare/1.9.6...1.9.7)
+
+### Added
+
+- New Checkout support
+
+### Changed
+
+- Updated Twitter share and footer logo
+
+### Fixed
+
+- Plans page alignment
 
 ## [1.9.6](https://github.com/shift72/core-template/compare/1.9.5...1.9.6)
 
