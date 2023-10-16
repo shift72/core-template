@@ -1,12 +1,18 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.7...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.8...HEAD)
 
 ### Added
 
 ### Changed
 
 ### Fixed
+
+## [1.9.8](https://github.com/shift72/core-template/compare/1.9.7...1.9.8)
+
+### Fixed
+
+- Bug with android tv app logo on Chrome
 
 ## [1.9.7](https://github.com/shift72/core-template/compare/1.9.6...1.9.7)
 
