@@ -62,7 +62,7 @@
 
     {* get default language from site record or kibble.json depening on if db translations is enabled *}
     {{ defaultLanguage := isEnabled("site_translations_api") ? site.DefaultLanguage : site.SiteConfig.DefaultLanguage }}
-    <script defer>
+    <script>
       window.addEventListener('DOMContentLoaded', function(){
         s72.cfg(function(){ return s72.i18n.load('{{lang.Code}}', '/{{lang.DefinitionFilePath}}'); });
         s72.cfg(function(){ return s72.i18n.href.setLanguages('{{defaultLanguage}}', '{{lang.Code}}'); });
