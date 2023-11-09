@@ -5,6 +5,9 @@
 ### Added
 
 ### Changed
+- Update the checkout embed to suit latest version, and to pass through urls
+- Add flags in `application.jet` to switch on local dev options for relish and
+  checkout.
 
 ### Fixed
 

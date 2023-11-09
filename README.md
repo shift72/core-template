@@ -13,4 +13,5 @@ This template supports the following features:
 
 ## Running local content
 
-To use a local version of relish, update [application.jet](site/templates/application/application.jet) to set the CDN to: `{{CDN := "//localhost:3000"}}`.
+To use a local version of relish or checkout, update the flags at the top of
+[application.jet](site/templates/application/application.jet)
