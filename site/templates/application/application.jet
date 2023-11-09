@@ -5,14 +5,17 @@
 {{import "./pixel.jet"}}
 {{import "./footer/footer.jet" }}
 
-{{CDN := "//cdn.shift72.com/1.4"}}
-{*{CDN := "//localhost:3000"}*}
+{{useLocalDevRelish := false}}
+{{useLocalDevCheckout := false}}
+
+{{CDN := useLocalDevRelish ? "//localhost:3000" : "//cdn.shift72.com/1.4"}}
 
 {{CSSFileURL := site.SiteBrand.GetLink("css", "")}}
 {*{CSSFileURL := "/styles/local.css"}*}
 
-{{checkoutDevMode := false}}
-{{useCheckout := site.Toggles["use_checkout"] || checkoutDevMode}}
+{{useCheckout := site.Toggles["use_checkout"] || useLocalDevCheckout}}
+{{checkoutDevServer := "http://localhost:4072"}}
+{{checkoutScriptUrl := useLocalDevCheckout ? checkoutDevServer + "/s72.checkout.js" : "/checkout/s72.checkout.js"}}
 
 <!DOCTYPE html>
 <html lang="{{lang.Code}}">
@@ -55,16 +58,9 @@
 
     <script src="{{CDN}}/s72.transactional.js" defer></script>
 
-    {{if checkoutDevMode}}
-      <script>window.S72_CHECKOUT_OVERRIDE_URL = 'http://localhost:4072'</script>
-      <script src="http://localhost:4072/s72.checkout.js" defer></script> 
-    {{else if useCheckout}}
-      <script src="/checkout/s72.checkout.js" defer></script>
-    {{end}}
-
     <script src="https://js.stripe.com/v3/" defer></script>
 
-    {* get default language from site record or kibble.json depening on if db translations is enabled *}  
+    {* get default language from site record or kibble.json depening on if db translations is enabled *}
     {{ defaultLanguage := isEnabled("site_translations_api") ? site.DefaultLanguage : site.SiteConfig.DefaultLanguage }}
     <script>
       window.addEventListener('DOMContentLoaded', function(){
@@ -77,6 +73,22 @@
         });
       });
     </script>
+
+    {{if useCheckout}}
+      <script src="{{checkoutScriptUrl}}" defer></script>
+      <script>
+        window.Shift72CheckoutOptions = {
+          baseUrl: window.location.origin,
+          {{if useLocalDevCheckout}}checkoutDevServerUrl: '{{checkoutDevServer}}',{{end}}
+          links: {
+            library: '{{routeToPath("/library.html")}}',
+            termsAndConditions: '{{routeToPath("/page/terms-and-conditions/")}}',
+            deviceCompatibility: '{{routeToPath("/page/help/")}}',
+            help: '{{routeToPath("/page/help/")}}'
+          }
+        };
+      </script>
+    {{end}}
 
     <script type="text/javascript" src="/scripts/swiper.min.js"></script>
   </head>
