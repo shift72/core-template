@@ -5,11 +5,16 @@
 ### Added
 
 ### Changed
+
+### Fixed
+
+## [1.9.9](https://github.com/shift72/core-template/compare/1.9.8...1.9.9)
+
+### Changed
+
 - Update the checkout embed to suit latest version, and to pass through urls
 - Add flags in `application.jet` to switch on local dev options for relish and
   checkout.
-
-### Fixed
 
 ## [1.9.8](https://github.com/shift72/core-template/compare/1.9.7...1.9.8)
 
