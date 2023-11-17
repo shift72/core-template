@@ -1661,5 +1661,38 @@
   },
   "pricing_from": {
     "other": "Nézd innen"
+  },
+  "confirm_delete_header": {
+    "other": "A törlés megerősítésére"
+  },
+  "confirm_delete_message": {
+    "other": "Ez a művelet végleges, és nem vonható vissza! Fiókja törlése után azonnal kijelentkezik, és többé nem fog tudni hozzáférni vásárlásaihoz."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Fiók törölve!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Fiókját sikeresen töröltük."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "törlése"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Fiók törlése"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Nem tudtuk törölni a fiókját. Kérlek, próbáld újra később."
+  },
+  "account_form_request_delete": {
+    "other": "Fiók törlése"
+  },
+  "account_form_request_delete_message": {
+    "other": "A fiók törlésének megerősítése érdekében e-mailt küldünk Önnek."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Hiba történt a fióktörlési e-mail küldésekor. Kérjük, próbálja újra később."
+  },
+  "account_form_request_delete_button": {
+    "other": "Törlés kérése"
   }
 }

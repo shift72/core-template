@@ -1661,5 +1661,38 @@
   },
   "pricing_from": {
     "other": "Mira des de"
+  },
+  "confirm_delete_header": {
+    "other": "Confirmeu la supressió"
+  },
+  "confirm_delete_message": {
+    "other": "Aquesta acció és permanent i no es pot desfer! Després d'eliminar el vostre compte, es tancarà la sessió immediatament i ja no podreu accedir a les vostres compres."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Compte suprimit!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "El vostre compte s'ha suprimit correctament."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "esborrant"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Esborrar compte"
+  },
+  "confirm_delete_error_generic": {
+    "other": "No hem pogut suprimir el vostre compte. Siusplau, intenta-ho més tard."
+  },
+  "account_form_request_delete": {
+    "other": "Esborrar compte"
+  },
+  "account_form_request_delete_message": {
+    "other": "Se us enviarà un correu electrònic per confirmar la supressió del vostre compte."
+  },
+  "account_form_account_delete_failed": {
+    "other": "S'ha produït un error en intentar enviar un correu electrònic d'eliminació del compte. Torneu-ho a provar més tard."
+  },
+  "account_form_request_delete_button": {
+    "other": "Sol·licita la supressió"
   }
 }

@@ -1661,5 +1661,38 @@
   },
   "pricing_from": {
     "other": "Katso alkaen"
+  },
+  "confirm_delete_header": {
+    "other": "Vahvista poisto"
+  },
+  "confirm_delete_message": {
+    "other": "Tämä toiminto on pysyvä, eikä sitä voi kumota! Tilin poistamisen jälkeen kirjaudut ulos välittömästi etkä voi enää käyttää ostoksia."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Tili poistettu!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Tilisi on poistettu onnistuneesti."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "poistamalla"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Poista tili"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Emme voineet poistaa tiliäsi. Yritä uudelleen myöhemmin."
+  },
+  "account_form_request_delete": {
+    "other": "Poista tili"
+  },
+  "account_form_request_delete_message": {
+    "other": "Sinulle lähetetään sähköposti, jossa vahvistetaan tilisi poistaminen."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Jotain meni pieleen lähetettäessä tilin poistoviestiä. Yritä myöhemmin uudelleen."
+  },
+  "account_form_request_delete_button": {
+    "other": "Pyydä poistamista"
   }
 }

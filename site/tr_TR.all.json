@@ -1661,5 +1661,38 @@
   },
   "pricing_from": {
     "other": "Şuradan izle:"
+  },
+  "confirm_delete_header": {
+    "other": "Silmeyi onayla"
+  },
+  "confirm_delete_message": {
+    "other": "Bu eylem kalıcıdır ve geri alınamaz! Hesabınızı sildikten sonra hemen çıkış yapacaksınız ve artık satın alma işlemlerinize erişemeyeceksiniz."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Hesap Silindi!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Hesabınız başarıyla silindi."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "siliniyor"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Hesabı sil"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Hesabınızı silemedik. Lütfen daha sonra tekrar deneyiniz."
+  },
+  "account_form_request_delete": {
+    "other": "Hesabı sil"
+  },
+  "account_form_request_delete_message": {
+    "other": "Hesabınızın silinmesini onaylamak için size bir e-posta gönderilecektir."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Hesap silme e-postası gönderilmeye çalışılırken bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin."
+  },
+  "account_form_request_delete_button": {
+    "other": "Silme isteği"
   }
 }

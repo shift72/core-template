@@ -9,8 +9,9 @@
     <div class="page-header text-center">
       <h1>{{ i18n("confirm_delete_header") }}</h1>
     </div>
-    <div class="d-flex">
-      <s72-confirm-delete-form />
+    <s72-confirm-delete-form />
+    <div class="page-content">
+      <p>{{ i18n("confirm_delete_message") }}</p>
     </div>
   </main>
 {{end}}

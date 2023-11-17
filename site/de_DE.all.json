@@ -1661,5 +1661,38 @@
   },
   "pricing_from": {
     "other": "Schauen Sie ab"
+  },
+  "confirm_delete_header": {
+    "other": "Löschung bestätigen"
+  },
+  "confirm_delete_message": {
+    "other": "Diese Aktion ist dauerhaft und kann nicht rückgängig gemacht werden! Nach der Löschung Ihres Kontos werden Sie sofort abgemeldet und haben keinen Zugriff mehr auf Ihre Einkäufe."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Konto gelöscht!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Ihr Konto wurde erfolgreich gelöscht."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "löschen"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Konto löschen"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Wir konnten Ihr Konto nicht löschen. Bitte versuchen Sie es später noch einmal."
+  },
+  "account_form_request_delete": {
+    "other": "Konto löschen"
+  },
+  "account_form_request_delete_message": {
+    "other": "Sie erhalten eine E-Mail zur Bestätigung der Löschung Ihres Kontos."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Beim Versuch, eine E-Mail zur Kontolöschung zu senden, ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal."
+  },
+  "account_form_request_delete_button": {
+    "other": "Löschung beantragen"
   }
 }

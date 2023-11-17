@@ -1677,5 +1677,38 @@
   },
   "pricing_from": {
     "other": "Гледајте из"
+  },
+  "confirm_delete_header": {
+    "other": "Потврдите брисање"
+  },
+  "confirm_delete_message": {
+    "other": "Ова радња је трајна и не може се поништити! Након брисања налога, одмах ћете бити одјављени и више нећете моћи да приступите својим куповинама."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Налог је избрисан!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Ваш налог је успешно избрисан."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "брисање"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Обрисати налог"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Нисмо могли да избришемо ваш налог. Покушајте поново касније."
+  },
+  "account_form_request_delete": {
+    "other": "Обрисати налог"
+  },
+  "account_form_request_delete_message": {
+    "other": "Биће вам послата е-порука да потврдите брисање вашег налога."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Нешто је пошло наопако при покушају слања е-поруке за брисање налога, покушајте поново касније."
+  },
+  "account_form_request_delete_button": {
+    "other": "Захтевај брисање"
   }
 }

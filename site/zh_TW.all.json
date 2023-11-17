@@ -1648,5 +1648,38 @@
   },
   "pricing_from": {
     "other": "觀看來自"
+  },
+  "confirm_delete_header": {
+    "other": "確認刪除"
+  },
+  "confirm_delete_message": {
+    "other": "此操作是永久性的且無法撤消！刪除您的帳戶後，您將立即登出，並且無法再存取您的購買內容。"
+  },
+  "confirm_delete_success_page_header": {
+    "other": "帳戶已刪除！"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "您的帳戶已成功刪除。"
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "刪除"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "刪除帳戶"
+  },
+  "confirm_delete_error_generic": {
+    "other": "我們無法刪除您的帳戶。請稍後再試。"
+  },
+  "account_form_request_delete": {
+    "other": "刪除帳戶"
+  },
+  "account_form_request_delete_message": {
+    "other": "我們將向您發送一封電子郵件，以確認您的帳戶刪除。"
+  },
+  "account_form_account_delete_failed": {
+    "other": "嘗試傳送帳戶刪除電子郵件時出現問題，請稍後重試。"
+  },
+  "account_form_request_delete_button": {
+    "other": "請求刪除"
   }
 }
