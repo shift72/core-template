@@ -1661,5 +1661,38 @@
   },
   "pricing_from": {
     "other": "Se fra"
+  },
+  "confirm_delete_header": {
+    "other": "Bekræft sletning"
+  },
+  "confirm_delete_message": {
+    "other": "Denne handling er permanent og kan ikke fortrydes! Efter sletning af din konto bliver du logget ud med det samme og vil ikke længere kunne få adgang til dine køb."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Konto slettet!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Din konto er blevet slettet."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "sletter"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Slet konto"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Vi kunne ikke slette din konto. Prøv igen senere."
+  },
+  "account_form_request_delete": {
+    "other": "Slet konto"
+  },
+  "account_form_request_delete_message": {
+    "other": "En e-mail vil blive sendt til dig for at bekræfte sletningen af din konto."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Noget gik galt under forsøget på at sende en e-mail til sletning af konto. Prøv venligst igen senere."
+  },
+  "account_form_request_delete_button": {
+    "other": "Anmod om sletning"
   }
 }

@@ -1715,5 +1715,38 @@
   },
   "pricing_from": {
     "other": "Смотреть из"
+  },
+  "confirm_delete_header": {
+    "other": "Подтвердить удаление"
+  },
+  "confirm_delete_message": {
+    "other": "Это действие является постоянным и не может быть отменено! После удаления учетной записи вы сразу же выйдете из системы и больше не сможете получить доступ к своим покупкам."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Аккаунт удален!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Ваша учетная запись успешно удалена."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "удаление"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Удалить аккаунт"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Нам не удалось удалить вашу учетную запись. Пожалуйста, повторите попытку позже."
+  },
+  "account_form_request_delete": {
+    "other": "Удалить аккаунт"
+  },
+  "account_form_request_delete_message": {
+    "other": "Вам будет отправлено электронное письмо для подтверждения удаления вашей учетной записи."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Что-то пошло не так при попытке отправить электронное письмо об удалении аккаунта. Повторите попытку позже."
+  },
+  "account_form_request_delete_button": {
+    "other": "Запросить удаление"
   }
 }

@@ -1663,5 +1663,38 @@
   },
   "pricing_from": {
     "other": "Gledajte iz"
+  },
+  "confirm_delete_header": {
+    "other": "Potvrdite brisanje"
+  },
+  "confirm_delete_message": {
+    "other": "Ova radnja je trajna i ne može se poništiti! Nakon brisanja računa odmah ćete biti odjavljeni i više nećete moći pristupiti svojim kupnjama."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Račun izbrisan!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Vaš račun je uspješno izbrisan."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "brisanje"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Izbriši račun"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Nismo uspjeli izbrisati vaš račun. Molimo pokušajte ponovo kasnije."
+  },
+  "account_form_request_delete": {
+    "other": "Izbriši račun"
+  },
+  "account_form_request_delete_message": {
+    "other": "Poslat ćemo vam e-poruku da potvrdite brisanje računa."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Nešto nije u redu prilikom pokušaja slanja e-pošte za brisanje računa, pokušajte ponovno kasnije."
+  },
+  "account_form_request_delete_button": {
+    "other": "Zahtjev za brisanje"
   }
 }

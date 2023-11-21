@@ -1648,5 +1648,38 @@
   },
   "pricing_from": {
     "other": "から見る"
+  },
+  "confirm_delete_header": {
+    "other": "削除の確認"
+  },
+  "confirm_delete_message": {
+    "other": "このアクションは永続的なものであり、元に戻すことはできません。アカウントを削除するとすぐにログアウトされ、購入したものにアクセスできなくなります。"
+  },
+  "confirm_delete_success_page_header": {
+    "other": "アカウントが削除されました!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "アカウントは正常に削除されました。"
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "削除する"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "アカウントを削除する"
+  },
+  "confirm_delete_error_generic": {
+    "other": "アカウントを削除できませんでした。後でもう一度試してください。"
+  },
+  "account_form_request_delete": {
+    "other": "アカウントを削除する"
+  },
+  "account_form_request_delete_message": {
+    "other": "アカウントの削除を確認する電子メールが送信されます。"
+  },
+  "account_form_account_delete_failed": {
+    "other": "アカウント削除メールの送信中に問題が発生しました。しばらくしてからもう一度お試しください。"
+  },
+  "account_form_request_delete_button": {
+    "other": "削除依頼"
   }
 }

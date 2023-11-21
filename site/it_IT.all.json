@@ -1665,5 +1665,38 @@
   },
   "pricing_from": {
     "other": "Guarda da"
+  },
+  "confirm_delete_header": {
+    "other": "Confermare la cancellazione"
+  },
+  "confirm_delete_message": {
+    "other": "Questa azione è permanente e non può essere annullata! Dopo aver eliminato il tuo account verrai disconnesso immediatamente e non potrai più accedere ai tuoi acquisti."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Account cancellato!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Il tuo account è stato eliminato con successo."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "eliminazione"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Eliminare l'account"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Non siamo riusciti a eliminare il tuo account. Per favore riprova più tardi."
+  },
+  "account_form_request_delete": {
+    "other": "Eliminare l'account"
+  },
+  "account_form_request_delete_message": {
+    "other": "Ti verrà inviata un'email per confermare la cancellazione del tuo account."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Qualcosa è andato storto durante il tentativo di inviare un'e-mail di cancellazione dell'account, riprova più tardi."
+  },
+  "account_form_request_delete_button": {
+    "other": "Richiedi la cancellazione"
   }
 }
