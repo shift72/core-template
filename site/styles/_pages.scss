@@ -45,7 +45,8 @@
 .devices-page,
 .plans-page,
 .carousel-len-0,
-.verify-email-page {
+.verify-email-page,
+.delete-result-page {
   padding-top: var(--page-padding-top);
   @include media-breakpoint-up(md) {
     padding: var(--page-padding-top-md) 0 0 0;
@@ -286,7 +287,8 @@
   @include heading-4-style;
 }
 
-.verify-email-page {
+.verify-email-page,
+.delete-result-page {
   @include media-breakpoint-up(xl) {
     padding: var(--page-padding-top-lg) 0 0 0;
   }
