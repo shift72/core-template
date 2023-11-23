@@ -54,6 +54,10 @@
   @extend .btn-primary-override;
 }
 
+.s72-btn-request-delete {
+  @extend .btn-primary-override;
+}
+
 .s72-btn-updateaccount {
   @extend .btn-primary-override;
 }
@@ -278,7 +282,8 @@
 
 s72-useraccount-form {
   .s72-account-password-form-group,
-  .s72-account-pin-form-group {
+  .s72-account-pin-form-group,
+  .s72-account-request-delete-form-group {
     margin-top: 30px;
 
     label {
