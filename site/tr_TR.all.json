@@ -1694,5 +1694,11 @@
   },
   "account_form_request_delete_button": {
     "other": "Silme isteği"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Silme İsteği Başarılı"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Hesabınızın silinmesini onaylamak için size bir e-posta gönderilecektir."
   }
 }

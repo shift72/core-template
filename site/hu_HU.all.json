@@ -1694,5 +1694,11 @@
   },
   "account_form_request_delete_button": {
     "other": "Törlés kérése"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "A törlési kérelem sikeres"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "A fiók törlésének megerősítése érdekében e-mailt küldünk Önnek."
   }
 }

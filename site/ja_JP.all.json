@@ -1681,5 +1681,11 @@
   },
   "account_form_request_delete_button": {
     "other": "削除依頼"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "削除リクエストが成功しました"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "アカウントの削除を確認する電子メールが送信されます。"
   }
 }

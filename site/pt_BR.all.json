@@ -1698,5 +1698,11 @@
   },
   "account_form_request_delete_button": {
     "other": "Solicitar exclusão"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Solicitação de exclusão bem-sucedida"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Um e-mail será enviado a você para confirmar a exclusão da sua conta."
   }
 }

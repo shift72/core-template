@@ -1694,5 +1694,11 @@
   },
   "account_form_request_delete_button": {
     "other": "Sol·licita la supressió"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Sol·licitud d'eliminació correcta"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Se us enviarà un correu electrònic per confirmar la supressió del vostre compte."
   }
 }

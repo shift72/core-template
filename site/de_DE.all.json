@@ -1694,5 +1694,11 @@
   },
   "account_form_request_delete_button": {
     "other": "Löschung beantragen"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Löschanforderung erfolgreich"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Sie erhalten eine E-Mail zur Bestätigung der Löschung Ihres Kontos."
   }
 }

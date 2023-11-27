@@ -1694,5 +1694,11 @@
   },
   "account_form_request_delete_button": {
     "other": "Αίτημα διαγραφής"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Το αίτημα διαγραφής ήταν επιτυχές"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Θα σας σταλεί ένα email για να επιβεβαιώσετε τη διαγραφή του λογαριασμού σας."
   }
 }
