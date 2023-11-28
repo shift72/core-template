@@ -1777,5 +1777,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "Zostanie wysłana do Ciebie wiadomość e-mail z potwierdzeniem usunięcia konta."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Żądanie usunięcia zakończone pomyślnie"
   }
 }

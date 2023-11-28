@@ -1700,5 +1700,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "Sie erhalten eine E-Mail zur Bestätigung der Löschung Ihres Kontos."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Löschanforderung erfolgreich"
   }
 }

@@ -1700,5 +1700,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "Konto kustutamise kinnitamiseks saadetakse teile e-kiri."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Kustutamistaotlus õnnestus"
   }
 }

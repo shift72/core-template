@@ -1700,5 +1700,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "Hesabınızın silinmesini onaylamak için size bir e-posta gönderilecektir."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Silme isteği başarılı"
   }
 }

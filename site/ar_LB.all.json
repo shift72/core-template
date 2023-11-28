@@ -1764,5 +1764,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "سيتم إرسال بريد إلكتروني إليك لتأكيد حذف حسابك."
+  },
+  "account_form_account_delete_successful": {
+    "other": "نجح طلب الحذف"
   }
 }

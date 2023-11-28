@@ -1704,5 +1704,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "Se le enviará un correo electrónico para confirmar la eliminación de su cuenta."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Solicitud de eliminación exitosa"
   }
 }

@@ -1760,5 +1760,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "Вам буде надіслано електронний лист для підтвердження видалення вашого облікового запису."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Запит на видалення успішно"
   }
 }

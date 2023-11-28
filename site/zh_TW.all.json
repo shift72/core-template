@@ -1687,5 +1687,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "我們將向您發送一封電子郵件，以確認您的帳戶刪除。"
+  },
+  "account_form_account_delete_successful": {
+    "other": "刪除請求成功"
   }
 }

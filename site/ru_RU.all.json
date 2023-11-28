@@ -1754,5 +1754,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "Вам будет отправлено электронное письмо для подтверждения удаления вашей учетной записи."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Запрос на удаление выполнен успешно"
   }
 }

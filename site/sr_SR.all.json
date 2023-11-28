@@ -1716,5 +1716,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "Биће вам послата е-порука да потврдите брисање вашег налога."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Захтев за брисање је успео"
   }
 }

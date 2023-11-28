@@ -1700,5 +1700,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "An email will be sent to you to confirm your account deletion."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Deletion request successful"
   }
 }

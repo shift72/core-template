@@ -1702,5 +1702,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "Poslat ćemo vam e-poruku da potvrdite brisanje računa."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Zahtjev za brisanje uspješan"
   }
 }

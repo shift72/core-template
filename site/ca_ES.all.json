@@ -1700,5 +1700,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "Se us enviarà un correu electrònic per confirmar la supressió del vostre compte."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Sol·licitud d'eliminació correcta"
   }
 }

@@ -1687,5 +1687,8 @@
   },
   "userdeletionsuccess_modal_body": {
     "other": "アカウントの削除を確認する電子メールが送信されます。"
+  },
+  "account_form_account_delete_successful": {
+    "other": "削除リクエストが成功しました"
   }
 }
