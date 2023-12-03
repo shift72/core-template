@@ -1693,5 +1693,47 @@
   },
   "pricing_from": {
     "other": "Žiūrėti iš"
+  },
+  "confirm_delete_header": {
+    "other": "Patvirtinkite ištrynimą"
+  },
+  "confirm_delete_message": {
+    "other": "Šis veiksmas yra nuolatinis ir jo negalima anuliuoti! Ištrynę paskyrą būsite iš karto atsijungę ir nebegalėsite pasiekti savo pirkinių."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Paskyra ištrinta!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Jūsų paskyra sėkmingai ištrinta."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "ištrynimas"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Ištrinti paskyrą"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Nepavyko ištrinti jūsų paskyros. Pabandykite dar kartą vėliau."
+  },
+  "account_form_request_delete": {
+    "other": "Ištrinti paskyrą"
+  },
+  "account_form_request_delete_message": {
+    "other": "Jums bus išsiųstas el. laiškas, patvirtinantis paskyros ištrynimą."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Bandant išsiųsti paskyros ištrynimo el. laišką, kažkas nepavyko. Vėliau bandykite dar kartą."
+  },
+  "account_form_request_delete_button": {
+    "other": "Prašyti ištrinti"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Ištrynimo užklausa sėkminga"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Jums bus išsiųstas el. laiškas, patvirtinantis paskyros ištrynimą."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Ištrynimo užklausa sėkminga"
   }
 }

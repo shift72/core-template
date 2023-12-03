@@ -1725,5 +1725,47 @@
   },
   "pricing_from": {
     "other": "شاهد من"
+  },
+  "confirm_delete_header": {
+    "other": "تأكيد الحذف"
+  },
+  "confirm_delete_message": {
+    "other": "هذا الإجراء دائم ولا يمكن التراجع عنه! بعد حذف حسابك، سيتم تسجيل خروجك على الفور ولن تتمكن من الوصول إلى مشترياتك بعد الآن."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "تم حذف الحساب!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "لقد تم حذف حسابك بنجاح."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "حذف"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "حذف الحساب"
+  },
+  "confirm_delete_error_generic": {
+    "other": "لم نتمكن من حذف حسابك. الرجاء معاودة المحاولة في وقت لاحق."
+  },
+  "account_form_request_delete": {
+    "other": "حذف الحساب"
+  },
+  "account_form_request_delete_message": {
+    "other": "سيتم إرسال بريد إلكتروني إليك لتأكيد حذف حسابك."
+  },
+  "account_form_account_delete_failed": {
+    "other": "حدث خطأ ما أثناء محاولة إرسال بريد إلكتروني لحذف الحساب، يرجى المحاولة مرة أخرى لاحقًا."
+  },
+  "account_form_request_delete_button": {
+    "other": "طلب الحذف"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "نجح طلب الحذف"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "سيتم إرسال بريد إلكتروني إليك لتأكيد حذف حسابك."
+  },
+  "account_form_account_delete_successful": {
+    "other": "نجح طلب الحذف"
   }
 }

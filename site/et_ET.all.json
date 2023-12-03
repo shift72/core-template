@@ -1661,5 +1661,47 @@
   },
   "pricing_from": {
     "other": "Vaata alates"
+  },
+  "confirm_delete_header": {
+    "other": "Kinnitage kustutamine"
+  },
+  "confirm_delete_message": {
+    "other": "See toiming on püsiv ja seda ei saa tagasi võtta! Pärast konto kustutamist logitakse teid kohe välja ja te ei pääse enam oma ostudele juurde."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Konto kustutatud!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Teie konto on edukalt kustutatud."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "kustutamine"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Kustuta konto"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Me ei saanud teie kontot kustutada. Palun proovi hiljem uuesti."
+  },
+  "account_form_request_delete": {
+    "other": "Kustuta konto"
+  },
+  "account_form_request_delete_message": {
+    "other": "Konto kustutamise kinnitamiseks saadetakse teile e-kiri."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Konto kustutamise meili saatmisel läks midagi valesti. Proovige hiljem uuesti."
+  },
+  "account_form_request_delete_button": {
+    "other": "Taotle kustutamist"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Kustutamistaotlus õnnestus"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Konto kustutamise kinnitamiseks saadetakse teile e-kiri."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Kustutamistaotlus õnnestus"
   }
 }

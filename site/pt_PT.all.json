@@ -1665,5 +1665,47 @@
   },
   "pricing_from": {
     "other": "Assista à partir"
+  },
+  "confirm_delete_header": {
+    "other": "Confirmar exclusão"
+  },
+  "confirm_delete_message": {
+    "other": "Esta ação é permanente e não pode ser desfeita! Após excluir sua conta você será desconectado imediatamente e não poderá mais acessar suas compras."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Conta excluída!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Sua conta foi excluída com sucesso."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "excluindo"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Deletar conta"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Não foi possível excluir sua conta. Por favor, tente novamente mais tarde."
+  },
+  "account_form_request_delete": {
+    "other": "Deletar conta"
+  },
+  "account_form_request_delete_message": {
+    "other": "Um e-mail será enviado a você para confirmar a exclusão da sua conta."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Algo deu errado ao tentar enviar um e-mail de exclusão de conta. Tente novamente mais tarde."
+  },
+  "account_form_request_delete_button": {
+    "other": "Solicitar exclusão"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Solicitação de exclusão bem-sucedida"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Um e-mail será enviado a você para confirmar a exclusão da sua conta."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Solicitação de exclusão bem-sucedida"
   }
 }

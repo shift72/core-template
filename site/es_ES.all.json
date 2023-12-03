@@ -1665,5 +1665,47 @@
   },
   "pricing_from": {
     "other": "Mirar desde"
+  },
+  "confirm_delete_header": {
+    "other": "Confirmar la eliminación"
+  },
+  "confirm_delete_message": {
+    "other": "¡Esta acción es permanente y no se puede deshacer! Después de eliminar su cuenta, se cerrará su sesión inmediatamente y ya no podrá acceder a sus compras."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "¡Cuenta borrada!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Su cuenta ha sido eliminada exitosamente."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "eliminando"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Borrar cuenta"
+  },
+  "confirm_delete_error_generic": {
+    "other": "No pudimos eliminar su cuenta. Por favor, inténtelo de nuevo más tarde."
+  },
+  "account_form_request_delete": {
+    "other": "Borrar cuenta"
+  },
+  "account_form_request_delete_message": {
+    "other": "Se le enviará un correo electrónico para confirmar la eliminación de su cuenta."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Algo salió mal al intentar enviar un correo electrónico de eliminación de cuenta. Vuelve a intentarlo más tarde."
+  },
+  "account_form_request_delete_button": {
+    "other": "Solicitar eliminación"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Solicitud de eliminación exitosa"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Se le enviará un correo electrónico para confirmar la eliminación de su cuenta."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Solicitud de eliminación exitosa"
   }
 }

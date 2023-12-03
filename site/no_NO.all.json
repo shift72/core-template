@@ -1661,5 +1661,47 @@
   },
   "pricing_from": {
     "other": "Se fra"
+  },
+  "confirm_delete_header": {
+    "other": "Bekreft sletting"
+  },
+  "confirm_delete_message": {
+    "other": "Denne handlingen er permanent og kan ikke angres! Etter å ha slettet kontoen din vil du bli logget ut umiddelbart og vil ikke ha tilgang til kjøpene dine lenger."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Konto slettet!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Kontoen din er slettet."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "sletter"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Slett konto"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Vi kunne ikke slette kontoen din. Prøv igjen senere."
+  },
+  "account_form_request_delete": {
+    "other": "Slett konto"
+  },
+  "account_form_request_delete_message": {
+    "other": "En e-post vil bli sendt til deg for å bekrefte slettingen av kontoen din."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Noe gikk galt under forsøk på å sende en e-post for sletting av kontoen. Prøv igjen senere."
+  },
+  "account_form_request_delete_button": {
+    "other": "Be om sletting"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Sletteforespørsel vellykket"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "En e-post vil bli sendt til deg for å bekrefte slettingen av kontoen din."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Forespørsel om sletting vellykket"
   }
 }

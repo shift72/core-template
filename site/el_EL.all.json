@@ -1661,5 +1661,47 @@
   },
   "pricing_from": {
     "other": "Παρακολουθήστε από"
+  },
+  "confirm_delete_header": {
+    "other": "Επιβεβαίωση Διαγραφής"
+  },
+  "confirm_delete_message": {
+    "other": "Αυτή η ενέργεια είναι μόνιμη και δεν μπορεί να αναιρεθεί! Μετά τη διαγραφή του λογαριασμού σας θα αποσυνδεθείτε αμέσως και δεν θα έχετε πλέον πρόσβαση στις αγορές σας."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Ο λογαριασμός διαγράφηκε!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Ο λογαριασμός σας διαγράφηκε επιτυχώς."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "διαγραφή"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Διαγραφή λογαριασμού"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Δεν ήταν δυνατή η διαγραφή του λογαριασμού σας. Παρακαλώ δοκιμάστε ξανά αργότερα."
+  },
+  "account_form_request_delete": {
+    "other": "Διαγραφή λογαριασμού"
+  },
+  "account_form_request_delete_message": {
+    "other": "Θα σας σταλεί ένα email για να επιβεβαιώσετε τη διαγραφή του λογαριασμού σας."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Παρουσιάστηκε κάποιο πρόβλημα κατά την προσπάθεια αποστολής ενός μηνύματος ηλεκτρονικού ταχυδρομείου για τη διαγραφή λογαριασμού. Δοκιμάστε ξανά αργότερα."
+  },
+  "account_form_request_delete_button": {
+    "other": "Αίτημα διαγραφής"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Το αίτημα διαγραφής ήταν επιτυχές"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Θα σας σταλεί ένα email για να επιβεβαιώσετε τη διαγραφή του λογαριασμού σας."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Επιτυχές αίτημα διαγραφής"
   }
 }

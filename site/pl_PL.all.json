@@ -1738,5 +1738,47 @@
   },
   "pricing_from": {
     "other": "Oglądaj od"
+  },
+  "confirm_delete_header": {
+    "other": "Potwierdź usunięcie"
+  },
+  "confirm_delete_message": {
+    "other": "Ta czynność jest trwała i nie można jej cofnąć! Po usunięciu konta zostaniesz natychmiast wylogowany i nie będziesz mieć już dostępu do swoich zakupów."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Konto usunięte!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Twoje konto zostało pomyślnie usunięte."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "usuwanie"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Usuń konto"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Nie udało nam się usunąć Twojego konta. Spróbuj ponownie później."
+  },
+  "account_form_request_delete": {
+    "other": "Usuń konto"
+  },
+  "account_form_request_delete_message": {
+    "other": "Zostanie wysłana do Ciebie wiadomość e-mail z potwierdzeniem usunięcia konta."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Coś poszło nie tak podczas próby wysłania wiadomości e-mail o usunięciu konta. Spróbuj ponownie później."
+  },
+  "account_form_request_delete_button": {
+    "other": "Poproś o usunięcie"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Żądanie usunięcia powiodło się"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Zostanie wysłana do Ciebie wiadomość e-mail z potwierdzeniem usunięcia konta."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Żądanie usunięcia zakończone pomyślnie"
   }
 }

@@ -1665,5 +1665,47 @@
   },
   "pricing_from": {
     "other": "Regarder depuis"
+  },
+  "confirm_delete_header": {
+    "other": "Confirmer la suppression"
+  },
+  "confirm_delete_message": {
+    "other": "Cette action est permanente et ne peut être annulée ! Après avoir supprimé votre compte, vous serez immédiatement déconnecté et ne pourrez plus accéder à vos achats."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Compte supprimé !"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Votre compte a été supprimé avec succès."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "suppression"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Supprimer le compte"
+  },
+  "confirm_delete_error_generic": {
+    "other": "Nous n'avons pas pu supprimer votre compte. Veuillez réessayer plus tard."
+  },
+  "account_form_request_delete": {
+    "other": "Supprimer le compte"
+  },
+  "account_form_request_delete_message": {
+    "other": "Un email vous sera envoyé pour confirmer la suppression de votre compte."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Une erreur s'est produite lors de la tentative d'envoi d'un e-mail de suppression de compte. Veuillez réessayer plus tard."
+  },
+  "account_form_request_delete_button": {
+    "other": "Demander la suppression"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Demande de suppression réussie"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Un email vous sera envoyé pour confirmer la suppression de votre compte."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Demande de suppression réussie"
   }
 }

@@ -1661,5 +1661,47 @@
   },
   "pricing_from": {
     "other": "Kijk vanaf"
+  },
+  "confirm_delete_header": {
+    "other": "Bevestig verwijdering"
+  },
+  "confirm_delete_message": {
+    "other": "Deze actie is permanent en kan niet ongedaan worden gemaakt! Nadat u uw account heeft verwijderd, wordt u onmiddellijk uitgelogd en heeft u geen toegang meer tot uw aankopen."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Account verwijderd!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Uw account is succesvol verwijderd."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "verwijderen"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Account verwijderen"
+  },
+  "confirm_delete_error_generic": {
+    "other": "We konden uw account niet verwijderen. Probeer het later opnieuw."
+  },
+  "account_form_request_delete": {
+    "other": "Account verwijderen"
+  },
+  "account_form_request_delete_message": {
+    "other": "Er wordt een e-mail naar u verzonden om de verwijdering van uw account te bevestigen."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Er is iets misgegaan bij het verzenden van een e-mail voor het verwijderen van een account. Probeer het later opnieuw."
+  },
+  "account_form_request_delete_button": {
+    "other": "Verwijdering aanvragen"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Verwijderingsverzoek succesvol"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Er wordt een e-mail naar u verzonden om de verwijdering van uw account te bevestigen."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Verwijderingsverzoek succesvol"
   }
 }

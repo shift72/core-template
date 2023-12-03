@@ -1661,5 +1661,47 @@
   },
   "pricing_from": {
     "other": "Watch from"
+  },
+  "confirm_delete_header": {
+    "other": "Confirm Deletion"
+  },
+  "confirm_delete_message": {
+    "other": "This action is permanent and cannot be undone! After deleting your account you will be logged out immediately and will not be able to access your purchases any more."
+  },
+  "confirm_delete_success_page_header": {
+    "other": "Account Deleted!"
+  },
+  "confirm_delete_success_page_message": {
+    "other": "Your account has been successfully deleted."
+  },
+  "confirm_delete_submit_button_text_in_progress": {
+    "other": "deleting"
+  },
+  "confirm_delete_submit_button_text": {
+    "other": "Delete Account"
+  },
+  "confirm_delete_error_generic": {
+    "other": "We were unable to delete your account. Please try again later."
+  },
+  "account_form_request_delete": {
+    "other": "Delete Account"
+  },
+  "account_form_request_delete_message": {
+    "other": "An email will be sent to you to confirm your account deletion."
+  },
+  "account_form_account_delete_failed": {
+    "other": "Something went wrong while trying to send an account deletion email, please try again later."
+  },
+  "account_form_request_delete_button": {
+    "other": "Request deletion"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Deletion Request Successful"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "An email will be sent to you to confirm your account deletion."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Deletion request successful"
   }
 }
