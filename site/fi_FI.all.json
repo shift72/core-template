@@ -1694,5 +1694,14 @@
   },
   "account_form_request_delete_button": {
     "other": "Pyydä poistamista"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Poistopyyntö onnistui"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Sinulle lähetetään sähköposti, jossa vahvistetaan tilisi poistaminen."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Poistopyyntö onnistui"
   }
 }

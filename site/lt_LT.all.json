@@ -1726,5 +1726,14 @@
   },
   "account_form_request_delete_button": {
     "other": "Prašyti ištrinti"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Ištrynimo užklausa sėkminga"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Jums bus išsiųstas el. laiškas, patvirtinantis paskyros ištrynimą."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Ištrynimo užklausa sėkminga"
   }
 }

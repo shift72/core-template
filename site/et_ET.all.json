@@ -1694,5 +1694,14 @@
   },
   "account_form_request_delete_button": {
     "other": "Taotle kustutamist"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Kustutamistaotlus õnnestus"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Konto kustutamise kinnitamiseks saadetakse teile e-kiri."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Kustutamistaotlus õnnestus"
   }
 }

@@ -1698,5 +1698,14 @@
   },
   "account_form_request_delete_button": {
     "other": "Richiedi la cancellazione"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "Richiesta di cancellazione riuscita"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "Ti verrà inviata un'email per confermare la cancellazione del tuo account."
+  },
+  "account_form_account_delete_successful": {
+    "other": "Richiesta di cancellazione riuscita"
   }
 }

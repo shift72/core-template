@@ -1758,5 +1758,14 @@
   },
   "account_form_request_delete_button": {
     "other": "طلب الحذف"
+  },
+  "userdeletionsuccess_modal_header": {
+    "other": "نجح طلب الحذف"
+  },
+  "userdeletionsuccess_modal_body": {
+    "other": "سيتم إرسال بريد إلكتروني إليك لتأكيد حذف حسابك."
+  },
+  "account_form_account_delete_successful": {
+    "other": "نجح طلب الحذف"
   }
 }
