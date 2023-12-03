@@ -1,12 +1,18 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.9...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.10...HEAD)
 
 ### Added
 
 ### Changed
 
 ### Fixed
+
+## [1.9.10](https://github.com/shift72/core-template/compare/1.9.9...1.9.10)
+
+### Added
+
+- User self deletion support
 
 ## [1.9.9](https://github.com/shift72/core-template/compare/1.9.8...1.9.9)
 
