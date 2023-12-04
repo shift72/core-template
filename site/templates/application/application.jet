@@ -84,7 +84,9 @@
             library: '{{routeToPath("/library.html")}}',
             termsAndConditions: '{{routeToPath("/page/terms-and-conditions/")}}',
             deviceCompatibility: '{{routeToPath("/page/help/")}}',
-            help: '{{routeToPath("/page/help/")}}'
+            help: '{{routeToPath("/page/help/")}}',
+            signIn: '{{routeToPath("/signin.html")}}',
+            signUp: '{{routeToPath("/signup.html")}}'
           }
         };
       </script>
