@@ -11,6 +11,7 @@
       <h1>{{ i18n("confirm_delete_header") }}</h1>
     </div>
     <div class="page-content">
+      <p>{{ i18n("confirm_delete_is_permanent") }}</p>
       <p>{{ i18n("confirm_delete_message") }}</p>
       <s72-confirm-delete-form />
     </div>
