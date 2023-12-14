@@ -1653,7 +1653,7 @@
     "other": "確認刪除"
   },
   "confirm_delete_message": {
-    "other": "此操作是永久性的且無法撤消！刪除您的帳戶後，您將立即登出，並且無法再存取您的購買內容。"
+    "other": "此操作是永久性的且無法撤消。"
   },
   "confirm_delete_success_page_header": {
     "other": "帳戶已刪除！"
@@ -1690,5 +1690,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "刪除請求成功"
+  },
+  "confirm_delete_user_email": {
+    "other": "您已要求刪除您的{{.email}}帳戶。"
+  },
+  "confirm_delete_is_permanent": {
+    "other": "此操作是永久性的且無法撤消。"
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "由於令牌無效，無法刪除帳號。再次嘗試電子郵件中的鏈接，或重新開始此過程。"
+  },
+  "confirm_delete_check_box_message": {
+    "other": "我了解此操作是永久性的"
   }
 }

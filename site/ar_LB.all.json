@@ -1730,7 +1730,7 @@
     "other": "تأكيد الحذف"
   },
   "confirm_delete_message": {
-    "other": "هذا الإجراء دائم ولا يمكن التراجع عنه! بعد حذف حسابك، سيتم تسجيل خروجك على الفور ولن تتمكن من الوصول إلى مشترياتك بعد الآن."
+    "other": "هذا الإجراء دائم ولا يمكن التراجع عنه."
   },
   "confirm_delete_success_page_header": {
     "other": "تم حذف الحساب!"
@@ -1767,5 +1767,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "نجح طلب الحذف"
+  },
+  "confirm_delete_user_email": {
+    "other": "لقد طلبت حذف حساب {{.email}} الخاص بك."
+  },
+  "confirm_delete_is_permanent": {
+    "other": "هذا الإجراء دائم ولا يمكن التراجع عنه."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "لا يمكن حذف الحساب بسبب وجود رمز غير صالح. حاول استخدام الرابط من بريدك الإلكتروني مرة أخرى، أو ابدأ هذه العملية من جديد."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "أفهم أن هذا الإجراء دائم"
   }
 }

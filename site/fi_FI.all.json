@@ -1666,7 +1666,7 @@
     "other": "Vahvista poisto"
   },
   "confirm_delete_message": {
-    "other": "Tämä toiminto on pysyvä, eikä sitä voi kumota! Tilin poistamisen jälkeen kirjaudut ulos välittömästi etkä voi enää käyttää ostoksia."
+    "other": "Tämä toiminto on pysyvä, eikä sitä voi kumota."
   },
   "confirm_delete_success_page_header": {
     "other": "Tili poistettu!"
@@ -1703,5 +1703,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Poistopyyntö onnistui"
+  },
+  "confirm_delete_user_email": {
+    "other": "Olet pyytänyt {{.email}} tilisi poistamista."
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Tämä toiminto on pysyvä, eikä sitä voi kumota."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "Tiliä ei voi poistaa virheellisen tunnuksen vuoksi. Kokeile sähköpostisi linkkiä uudelleen tai aloita tämä prosessi alusta."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Ymmärrän, että tämä toimenpide on pysyvä"
   }
 }

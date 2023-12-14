@@ -1670,7 +1670,7 @@
     "other": "Confirmer la suppression"
   },
   "confirm_delete_message": {
-    "other": "Cette action est permanente et ne peut être annulée ! Après avoir supprimé votre compte, vous serez immédiatement déconnecté et ne pourrez plus accéder à vos achats."
+    "other": "Cette action est permanente et ne peut être annulée."
   },
   "confirm_delete_success_page_header": {
     "other": "Compte supprimé !"
@@ -1707,5 +1707,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Demande de suppression réussie"
+  },
+  "confirm_delete_user_email": {
+    "other": "Vous avez demandé la suppression de votre compte {{.email}} ."
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Cette action est permanente et ne peut être annulée."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "Impossible de supprimer le compte en raison d'un jeton invalide. Essayez à nouveau le lien de votre e-mail ou recommencez ce processus."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Je comprends que cette action est permanente"
   }
 }

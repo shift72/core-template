@@ -1,6 +1,7 @@
 {{extends "templates/application/application.jet"}}
 
 {{block head()}}
+  <script>localStorage.removeItem('shift72.authToken')</script>
   {{yield seo(title=i18n("confirm_delete_header"), index=false)}}
 {{end}}
 

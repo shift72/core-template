@@ -1666,7 +1666,7 @@
     "other": "Confirmeu la supressió"
   },
   "confirm_delete_message": {
-    "other": "Aquesta acció és permanent i no es pot desfer! Després d'eliminar el vostre compte, es tancarà la sessió immediatament i ja no podreu accedir a les vostres compres."
+    "other": "Aquesta acció és permanent i no es pot desfer."
   },
   "confirm_delete_success_page_header": {
     "other": "Compte suprimit!"
@@ -1703,5 +1703,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Sol·licitud d'eliminació correcta"
+  },
+  "confirm_delete_user_email": {
+    "other": "Heu sol·licitat suprimir el vostre compte {{.email}} ."
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Aquesta acció és permanent i no es pot desfer."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "No es pot suprimir el compte a causa d'un testimoni no vàlid. Torneu a provar l'enllaç del vostre correu electrònic o torneu a començar aquest procés."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Entenc que aquesta acció és permanent"
   }
 }

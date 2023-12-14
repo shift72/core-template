@@ -1666,7 +1666,7 @@
     "other": "Bekreft sletting"
   },
   "confirm_delete_message": {
-    "other": "Denne handlingen er permanent og kan ikke angres! Etter å ha slettet kontoen din vil du bli logget ut umiddelbart og vil ikke ha tilgang til kjøpene dine lenger."
+    "other": "Denne handlingen er permanent og kan ikke angres."
   },
   "confirm_delete_success_page_header": {
     "other": "Konto slettet!"
@@ -1703,5 +1703,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Forespørsel om sletting vellykket"
+  },
+  "confirm_delete_user_email": {
+    "other": "Du har bedt om å slette {{.email}} postkontoen din."
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Denne handlingen er permanent og kan ikke angres."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "Kan ikke slette kontoen på grunn av et ugyldig token. Prøv koblingen fra e-posten din på nytt, eller start denne prosessen på nytt."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Jeg forstår at denne handlingen er permanent"
   }
 }

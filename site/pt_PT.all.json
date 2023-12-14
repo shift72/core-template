@@ -1670,7 +1670,7 @@
     "other": "Confirmar exclusão"
   },
   "confirm_delete_message": {
-    "other": "Esta ação é permanente e não pode ser desfeita! Após excluir sua conta você será desconectado imediatamente e não poderá mais acessar suas compras."
+    "other": "Esta ação é permanente e não pode ser desfeita."
   },
   "confirm_delete_success_page_header": {
     "other": "Conta excluída!"
@@ -1707,5 +1707,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Solicitação de exclusão bem-sucedida"
+  },
+  "confirm_delete_user_email": {
+    "other": "Você solicitou a exclusão de sua conta {{.email}} ."
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Esta ação é permanente e não pode ser desfeita."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "Não é possível excluir a conta devido a um token inválido. Tente o link do seu e-mail novamente ou reinicie o processo."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Entendo que esta ação é permanente"
   }
 }

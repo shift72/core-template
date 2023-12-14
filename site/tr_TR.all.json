@@ -1666,7 +1666,7 @@
     "other": "Silmeyi onayla"
   },
   "confirm_delete_message": {
-    "other": "Bu eylem kalıcıdır ve geri alınamaz! Hesabınızı sildikten sonra hemen çıkış yapacaksınız ve artık satın alma işlemlerinize erişemeyeceksiniz."
+    "other": "Bu işlem kalıcıdır ve geri alınamaz."
   },
   "confirm_delete_success_page_header": {
     "other": "Hesap Silindi!"
@@ -1703,5 +1703,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Silme isteği başarılı"
+  },
+  "confirm_delete_user_email": {
+    "other": "{{.email}} hesabınızı silme talebinde bulundunuz."
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Bu işlem kalıcıdır ve geri alınamaz."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "Geçersiz jeton nedeniyle hesap silinemiyor. E-postanızdaki bağlantıyı tekrar deneyin veya bu işleme baştan başlayın."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Bu eylemin kalıcı olduğunu anlıyorum"
   }
 }
