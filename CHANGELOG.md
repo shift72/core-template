@@ -1,12 +1,18 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.10...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.11...HEAD)
 
 ### Added
 
 ### Changed
 
 ### Fixed
+
+## [1.9.11](https://github.com/shift72/core-template/compare/1.9.10...1.9.11)
+
+### Added
+
+- Support for Checkout sign in and sign up links.
 
 ## [1.9.10](https://github.com/shift72/core-template/compare/1.9.9...1.9.10)
 
