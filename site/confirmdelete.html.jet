@@ -13,7 +13,7 @@
     <div class="page-content">
       <p>{{ i18n("confirm_delete_is_permanent") }}</p>
       <p>{{ i18n("confirm_delete_message") }}</p>
-      <s72-confirm-delete-form />
+      <s72-confirm-delete-form></s72-confirm-delete-form>
     </div>
   </main>
 {{end}}
