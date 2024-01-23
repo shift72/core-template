@@ -1668,7 +1668,7 @@
     "other": "Potvrdite brisanje"
   },
   "confirm_delete_message": {
-    "other": "Ova radnja je trajna i ne može se poništiti."
+    "other": "Odmah ćete izgubiti pristup svim sadržajima koje ste kupili."
   },
   "confirm_delete_success_page_header": {
     "other": "Račun izbrisan!"
@@ -1707,7 +1707,7 @@
     "other": "Zahtjev za brisanje uspješan"
   },
   "confirm_delete_user_email": {
-    "other": "Zatražili ste brisanje svog računa {{.email}} ."
+    "other": "Račun koji se briše:"
   },
   "confirm_delete_is_permanent": {
     "other": "Ova radnja je trajna i ne može se poništiti."

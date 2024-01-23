@@ -1730,7 +1730,7 @@
     "other": "تأكيد الحذف"
   },
   "confirm_delete_message": {
-    "other": "هذا الإجراء دائم ولا يمكن التراجع عنه."
+    "other": "ستفقد على الفور إمكانية الوصول إلى أي محتوى قمت بشرائه."
   },
   "confirm_delete_success_page_header": {
     "other": "تم حذف الحساب!"
@@ -1769,7 +1769,7 @@
     "other": "نجح طلب الحذف"
   },
   "confirm_delete_user_email": {
-    "other": "لقد طلبت حذف حساب {{.email}} الخاص بك."
+    "other": "الحساب الذي يتم حذفه:"
   },
   "confirm_delete_is_permanent": {
     "other": "هذا الإجراء دائم ولا يمكن التراجع عنه."

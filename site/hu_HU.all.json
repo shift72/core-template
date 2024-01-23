@@ -1666,7 +1666,7 @@
     "other": "A törlés megerősítésére"
   },
   "confirm_delete_message": {
-    "other": "Ez a művelet végleges, és nem vonható vissza."
+    "other": "Azonnal elveszíti hozzáférését minden megvásárolt tartalomhoz."
   },
   "confirm_delete_success_page_header": {
     "other": "Fiók törölve!"
@@ -1705,7 +1705,7 @@
     "other": "A törlési kérelem sikeres"
   },
   "confirm_delete_user_email": {
-    "other": "Ön kérte {{.email}} fiókja törlését."
+    "other": "Törlés alatt álló fiók:"
   },
   "confirm_delete_is_permanent": {
     "other": "Ez a művelet végleges, és nem vonható vissza."

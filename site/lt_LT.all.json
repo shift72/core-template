@@ -1698,7 +1698,7 @@
     "other": "Patvirtinkite ištrynimą"
   },
   "confirm_delete_message": {
-    "other": "Šis veiksmas yra nuolatinis ir jo negalima anuliuoti."
+    "other": "Nedelsdami prarasite prieigą prie bet kokio įsigyto turinio."
   },
   "confirm_delete_success_page_header": {
     "other": "Paskyra ištrinta!"
@@ -1737,7 +1737,7 @@
     "other": "Ištrynimo užklausa sėkminga"
   },
   "confirm_delete_user_email": {
-    "other": "Jūs paprašėte ištrinti savo {{.email}} paskyrą."
+    "other": "Paskyra, kuri ištrinama:"
   },
   "confirm_delete_is_permanent": {
     "other": "Šis veiksmas yra nuolatinis ir jo negalima anuliuoti."

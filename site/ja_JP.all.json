@@ -1653,7 +1653,7 @@
     "other": "削除の確認"
   },
   "confirm_delete_message": {
-    "other": "このアクションは永続的であり、元に戻すことはできません。"
+    "other": "購入したコンテンツにはすぐにアクセスできなくなります。"
   },
   "confirm_delete_success_page_header": {
     "other": "アカウントが削除されました!"
@@ -1692,7 +1692,7 @@
     "other": "削除リクエストが成功しました"
   },
   "confirm_delete_user_email": {
-    "other": "{{.email}}アカウントの削除をリクエストしました。"
+    "other": "削除されるアカウント:"
   },
   "confirm_delete_is_permanent": {
     "other": "このアクションは永続的であり、元に戻すことはできません。"

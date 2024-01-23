@@ -1666,7 +1666,7 @@
     "other": "Confirm Deletion"
   },
   "confirm_delete_message": {
-    "other": "This action is permanent and cannot be undone."
+    "other": "You will immediately lose access to any content that you have purchased."
   },
   "confirm_delete_success_page_header": {
     "other": "Account Deleted!"
@@ -1705,7 +1705,7 @@
     "other": "Deletion request successful"
   },
   "confirm_delete_user_email": {
-    "other": "You have requested to delete your {{.email}} account."
+    "other": "Account which is being deleted:"
   },
   "confirm_delete_is_permanent": {
     "other": "This action is permanent and cannot be undone."

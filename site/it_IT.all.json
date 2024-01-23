@@ -1670,7 +1670,7 @@
     "other": "Confermare la cancellazione"
   },
   "confirm_delete_message": {
-    "other": "Questa azione è permanente e non può essere annullata."
+    "other": "Perderai immediatamente l'accesso a qualsiasi contenuto che hai acquistato."
   },
   "confirm_delete_success_page_header": {
     "other": "Account cancellato!"
@@ -1709,7 +1709,7 @@
     "other": "Richiesta di cancellazione riuscita"
   },
   "confirm_delete_user_email": {
-    "other": "Hai richiesto di eliminare il tuo account {{.email}} ."
+    "other": "Account in fase di eliminazione:"
   },
   "confirm_delete_is_permanent": {
     "other": "Questa azione è permanente e non può essere annullata."

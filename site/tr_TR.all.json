@@ -1666,7 +1666,7 @@
     "other": "Silmeyi onayla"
   },
   "confirm_delete_message": {
-    "other": "Bu işlem kalıcıdır ve geri alınamaz."
+    "other": "Satın aldığınız herhangi bir içeriğe erişiminizi anında kaybedeceksiniz."
   },
   "confirm_delete_success_page_header": {
     "other": "Hesap Silindi!"
@@ -1705,7 +1705,7 @@
     "other": "Silme isteği başarılı"
   },
   "confirm_delete_user_email": {
-    "other": "{{.email}} hesabınızı silme talebinde bulundunuz."
+    "other": "Silinmekte olan hesap:"
   },
   "confirm_delete_is_permanent": {
     "other": "Bu işlem kalıcıdır ve geri alınamaz."

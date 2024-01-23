@@ -1670,7 +1670,7 @@
     "other": "Confirmar la eliminación"
   },
   "confirm_delete_message": {
-    "other": "Esta acción es permanente y no se puede deshacer."
+    "other": "Inmediatamente perderá el acceso a cualquier contenido que haya comprado."
   },
   "confirm_delete_success_page_header": {
     "other": "¡Cuenta borrada!"
@@ -1709,7 +1709,7 @@
     "other": "Solicitud de eliminación exitosa"
   },
   "confirm_delete_user_email": {
-    "other": "Ha solicitado eliminar su cuenta {{.email}} ."
+    "other": "Cuenta que se está eliminando:"
   },
   "confirm_delete_is_permanent": {
     "other": "Esta acción es permanente y no se puede deshacer."

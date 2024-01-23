@@ -1670,7 +1670,7 @@
     "other": "Confirmar exclusão"
   },
   "confirm_delete_message": {
-    "other": "Esta ação é permanente e não pode ser desfeita."
+    "other": "Você perderá imediatamente o acesso a qualquer conteúdo que tenha adquirido."
   },
   "confirm_delete_success_page_header": {
     "other": "Conta excluída!"
@@ -1709,7 +1709,7 @@
     "other": "Solicitação de exclusão bem-sucedida"
   },
   "confirm_delete_user_email": {
-    "other": "Você solicitou a exclusão de sua conta {{.email}} ."
+    "other": "Conta que está sendo excluída:"
   },
   "confirm_delete_is_permanent": {
     "other": "Esta ação é permanente e não pode ser desfeita."

@@ -1666,7 +1666,7 @@
     "other": "Kinnitage kustutamine"
   },
   "confirm_delete_message": {
-    "other": "See toiming on püsiv ja seda ei saa tagasi võtta."
+    "other": "Kaotate kohe juurdepääsu kogu ostetud sisule."
   },
   "confirm_delete_success_page_header": {
     "other": "Konto kustutatud!"
@@ -1705,7 +1705,7 @@
     "other": "Kustutamistaotlus õnnestus"
   },
   "confirm_delete_user_email": {
-    "other": "Olete taotlenud oma {{.email}} konto kustutamist."
+    "other": "Konto, mida kustutatakse:"
   },
   "confirm_delete_is_permanent": {
     "other": "See toiming on püsiv ja seda ei saa tagasi võtta."

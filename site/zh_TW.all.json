@@ -1653,7 +1653,7 @@
     "other": "確認刪除"
   },
   "confirm_delete_message": {
-    "other": "此操作是永久性的且無法撤消。"
+    "other": "您將立即失去對已購買的任何內容的存取權。"
   },
   "confirm_delete_success_page_header": {
     "other": "帳戶已刪除！"
@@ -1692,7 +1692,7 @@
     "other": "刪除請求成功"
   },
   "confirm_delete_user_email": {
-    "other": "您已要求刪除您的{{.email}}帳戶。"
+    "other": "正在刪除的帳戶："
   },
   "confirm_delete_is_permanent": {
     "other": "此操作是永久性的且無法撤消。"

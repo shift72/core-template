@@ -1666,7 +1666,7 @@
     "other": "Löschung bestätigen"
   },
   "confirm_delete_message": {
-    "other": "Diese Aktion ist dauerhaft und kann nicht rückgängig gemacht werden."
+    "other": "Sie verlieren sofort den Zugriff auf alle von Ihnen gekauften Inhalte."
   },
   "confirm_delete_success_page_header": {
     "other": "Konto gelöscht!"
@@ -1705,13 +1705,13 @@
     "other": "Löschanforderung erfolgreich"
   },
   "confirm_delete_user_email": {
-    "other": "Sie haben die Löschung Ihres {{.email}} Kontos beantragt."
+    "other": "Konto, das gelöscht wird:"
   },
   "confirm_delete_is_permanent": {
     "other": "Diese Aktion ist dauerhaft und kann nicht rückgängig gemacht werden."
   },
   "confirm_delete_error_invalid_token": {
-    "other": "Das Konto kann aufgrund eines ungültigen Tokens nicht gelöscht werden. Versuchen Sie es noch einmal mit dem Link aus Ihrer E-Mail oder beginnen Sie den Vorgang erneut."
+    "other": "Das Konto kann aufgrund eines ungültigen Tokens nicht gelöscht werden. Versuchen Sie es erneut mit dem Link aus Ihrer E-Mail oder beginnen Sie den Vorgang erneut."
   },
   "confirm_delete_check_box_message": {
     "other": "Ich verstehe, dass diese Aktion dauerhaft ist"

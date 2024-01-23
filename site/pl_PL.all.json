@@ -1743,7 +1743,7 @@
     "other": "Potwierdź usunięcie"
   },
   "confirm_delete_message": {
-    "other": "Ta czynność jest trwała i nie można jej cofnąć."
+    "other": "Natychmiast utracisz dostęp do wszelkich zakupionych treści."
   },
   "confirm_delete_success_page_header": {
     "other": "Konto usunięte!"
@@ -1782,7 +1782,7 @@
     "other": "Żądanie usunięcia zakończone pomyślnie"
   },
   "confirm_delete_user_email": {
-    "other": "Poprosiłeś o usunięcie swojego konta {{.email}} ."
+    "other": "Konto, które jest usuwane:"
   },
   "confirm_delete_is_permanent": {
     "other": "Ta czynność jest trwała i nie można jej cofnąć."
