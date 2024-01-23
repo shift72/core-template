@@ -308,7 +308,11 @@
     }
 
     p {
+      width: auto;
+      max-width: 400px;
       text-align: center;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }
