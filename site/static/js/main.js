@@ -446,9 +446,11 @@ function initSearch() {
 
 function initScroll() {
   let nav = document.querySelector('.navbar-toggler');
-  nav.addEventListener('click', () => {
-    toggleScroll();
-  });
+  if (nav) {
+    nav.addEventListener('click', () => {
+      toggleScroll();
+    });
+  }
 }
 
 function toggleScroll() {
