@@ -80,16 +80,15 @@
         window.Shift72CheckoutOptions = {
           baseUrl: window.location.origin,
           {{if useLocalDevCheckout}}checkoutDevServerUrl: '{{checkoutDevServer}}',{{end}}
-          options: {
           links: {
-              library: `${window.location.origin}{{routeToPath("/library.html")}}`,
-              termsAndConditions: `${window.location.origin}{{routeToPath("/page/terms-and-conditions/")}}`,
-              deviceCompatibility: `${window.location.origin}{{routeToPath("/page/help/")}}`,
-              help: `${window.location.origin}{{routeToPath("/page/help/")}}`,
-              signIn: `${window.location.origin}{{routeToPath("/signin.html")}}`,
-              signUp: `${window.location.origin}{{routeToPath("/signup.html")}}`,
-            }
-          }
+            library: `${window.location.origin}{{routeToPath("/library.html")}}`,
+            termsAndConditions: `${window.location.origin}{{routeToPath("/page/terms-and-conditions/")}}`,
+            deviceCompatibility: `${window.location.origin}{{routeToPath("/page/help/")}}`,
+            help: `${window.location.origin}{{routeToPath("/page/help/")}}`,
+            signIn: `${window.location.origin}{{routeToPath("/signin.html")}}`,
+            signUp: `${window.location.origin}{{routeToPath("/signup.html")}}`,
+          },
+          lang: '{{lang.Code}}'
         };
       </script>
     {{end}}
