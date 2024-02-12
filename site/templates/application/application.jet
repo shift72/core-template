@@ -88,9 +88,7 @@
             signIn: `${window.location.origin}{{routeToPath("/signin.html")}}`,
             signUp: `${window.location.origin}{{routeToPath("/signup.html")}}`,
           },
-          getLang: () => {
-            return window.localStorage.getItem('selectedLanguage');
-          }
+          lang: '{{lang.Code}}'
         };
       </script>
     {{end}}
