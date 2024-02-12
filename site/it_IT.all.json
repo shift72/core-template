@@ -1670,7 +1670,7 @@
     "other": "Confermare la cancellazione"
   },
   "confirm_delete_message": {
-    "other": "Questa azione è permanente e non può essere annullata! Dopo aver eliminato il tuo account verrai disconnesso immediatamente e non potrai più accedere ai tuoi acquisti."
+    "other": "Perderai immediatamente l'accesso a qualsiasi contenuto che hai acquistato."
   },
   "confirm_delete_success_page_header": {
     "other": "Account cancellato!"
@@ -1707,5 +1707,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Richiesta di cancellazione riuscita"
+  },
+  "confirm_delete_user_email": {
+    "other": "Account in fase di eliminazione:"
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Questa azione è permanente e non può essere annullata."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "Impossibile eliminare l'account a causa di un token non valido. Prova di nuovo il collegamento presente nella tua email o avvia nuovamente la procedura."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Capisco che questa azione è permanente"
   }
 }

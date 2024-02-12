@@ -1666,7 +1666,7 @@
     "other": "Bekræft sletning"
   },
   "confirm_delete_message": {
-    "other": "Denne handling er permanent og kan ikke fortrydes! Efter sletning af din konto bliver du logget ud med det samme og vil ikke længere kunne få adgang til dine køb."
+    "other": "Du vil øjeblikkeligt miste adgangen til alt indhold, du har købt."
   },
   "confirm_delete_success_page_header": {
     "other": "Konto slettet!"
@@ -1703,5 +1703,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Anmodning om sletning lykkedes"
+  },
+  "confirm_delete_user_email": {
+    "other": "Konto, der slettes:"
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Denne handling er permanent og kan ikke fortrydes."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "Kan ikke slette kontoen på grund af et ugyldigt token. Prøv linket fra din e-mail igen, eller start denne proces forfra."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Jeg forstår, at denne handling er permanent"
   }
 }

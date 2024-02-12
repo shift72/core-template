@@ -1698,7 +1698,7 @@
     "other": "Patvirtinkite ištrynimą"
   },
   "confirm_delete_message": {
-    "other": "Šis veiksmas yra nuolatinis ir jo negalima anuliuoti! Ištrynę paskyrą būsite iš karto atsijungę ir nebegalėsite pasiekti savo pirkinių."
+    "other": "Nedelsdami prarasite prieigą prie bet kokio įsigyto turinio."
   },
   "confirm_delete_success_page_header": {
     "other": "Paskyra ištrinta!"
@@ -1735,5 +1735,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Ištrynimo užklausa sėkminga"
+  },
+  "confirm_delete_user_email": {
+    "other": "Paskyra, kuri ištrinama:"
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Šis veiksmas yra nuolatinis ir jo negalima anuliuoti."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "Nepavyko ištrinti paskyros dėl netinkamo prieigos rakto. Išbandykite el. pašto nuorodą dar kartą arba pradėkite šį procesą iš naujo."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Suprantu, kad šis veiksmas yra nuolatinis"
   }
 }

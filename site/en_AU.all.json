@@ -1666,7 +1666,7 @@
     "other": "Confirm Deletion"
   },
   "confirm_delete_message": {
-    "other": "This action is permanent and cannot be undone! After deleting your account you will be logged out immediately and will not be able to access your purchases any more."
+    "other": "You will immediately lose access to any content that you have purchased."
   },
   "confirm_delete_success_page_header": {
     "other": "Account Deleted!"
@@ -1703,5 +1703,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Deletion request successful"
+  },
+  "confirm_delete_user_email": {
+    "other": "Account which is being deleted:"
+  },
+  "confirm_delete_is_permanent": {
+    "other": "This action is permanent and cannot be undone."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "Cannot delete the account due to an invalid token. Try the link from your email again, or start this process over."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "I understand that this action is permanent"
   }
 }

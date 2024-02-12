@@ -1743,7 +1743,7 @@
     "other": "Potwierdź usunięcie"
   },
   "confirm_delete_message": {
-    "other": "Ta czynność jest trwała i nie można jej cofnąć! Po usunięciu konta zostaniesz natychmiast wylogowany i nie będziesz mieć już dostępu do swoich zakupów."
+    "other": "Natychmiast utracisz dostęp do wszelkich zakupionych treści."
   },
   "confirm_delete_success_page_header": {
     "other": "Konto usunięte!"
@@ -1780,5 +1780,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Żądanie usunięcia zakończone pomyślnie"
+  },
+  "confirm_delete_user_email": {
+    "other": "Konto, które jest usuwane:"
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Ta czynność jest trwała i nie można jej cofnąć."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "Nie można usunąć konta z powodu nieprawidłowego tokena. Wypróbuj ponownie link z wiadomości e-mail lub rozpocznij proces od nowa."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Rozumiem, że to działanie ma charakter trwały"
   }
 }
