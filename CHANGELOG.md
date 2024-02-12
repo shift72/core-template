@@ -8,6 +8,18 @@
 
 ### Fixed
 
+## [1.9.12](https://github.com/shift72/core-template/compare/1.9.11...1.9.12)
+
+### Changed
+
+- Better UX for the account deletion pages
+- Support setting language for Checkout
+- Updated CHeckout options to new format
+
+### Fixed
+
+- Support nav menu not being present
+
 ## [1.9.11](https://github.com/shift72/core-template/compare/1.9.10...1.9.11)
 
 ### Added
