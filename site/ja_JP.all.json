@@ -1653,7 +1653,7 @@
     "other": "削除の確認"
   },
   "confirm_delete_message": {
-    "other": "このアクションは永続的なものであり、元に戻すことはできません。アカウントを削除するとすぐにログアウトされ、購入したものにアクセスできなくなります。"
+    "other": "購入したコンテンツにはすぐにアクセスできなくなります。"
   },
   "confirm_delete_success_page_header": {
     "other": "アカウントが削除されました!"
@@ -1690,5 +1690,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "削除リクエストが成功しました"
+  },
+  "confirm_delete_user_email": {
+    "other": "削除されるアカウント:"
+  },
+  "confirm_delete_is_permanent": {
+    "other": "このアクションは永続的であり、元に戻すことはできません。"
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "トークンが無効なため、アカウントを削除できません。メールのリンクをもう一度試すか、このプロセスを最初からやり直してください。"
+  },
+  "confirm_delete_check_box_message": {
+    "other": "このアクションは永続的なものであることを理解しています"
   }
 }

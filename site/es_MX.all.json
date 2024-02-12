@@ -1670,7 +1670,7 @@
     "other": "Confirmar la eliminación"
   },
   "confirm_delete_message": {
-    "other": "¡Esta acción es permanente y no se puede deshacer! Después de eliminar su cuenta, se cerrará su sesión inmediatamente y ya no podrá acceder a sus compras."
+    "other": "Inmediatamente perderá el acceso a cualquier contenido que haya comprado."
   },
   "confirm_delete_success_page_header": {
     "other": "¡Cuenta borrada!"
@@ -1707,5 +1707,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Solicitud de eliminación exitosa"
+  },
+  "confirm_delete_user_email": {
+    "other": "Cuenta que se está eliminando:"
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Esta acción es permanente y no se puede deshacer."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "No se puede eliminar la cuenta debido a un token no válido. Pruebe el enlace de su correo electrónico nuevamente o comience este proceso de nuevo."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Entiendo que esta acción es permanente"
   }
 }

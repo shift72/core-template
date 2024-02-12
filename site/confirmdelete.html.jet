@@ -1,6 +1,7 @@
 {{extends "templates/application/application.jet"}}
 
 {{block head()}}
+  <script>localStorage.removeItem('shift72.authToken')</script>
   {{yield seo(title=i18n("confirm_delete_header"), index=false)}}
 {{end}}
 
@@ -11,7 +12,7 @@
     </div>
     <div class="page-content">
       <p>{{ i18n("confirm_delete_message") }}</p>
-      <s72-confirm-delete-form />
+      <s72-confirm-delete-form></s72-confirm-delete-form>
     </div>
   </main>
 {{end}}

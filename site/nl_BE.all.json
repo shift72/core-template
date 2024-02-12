@@ -1666,7 +1666,7 @@
     "other": "Bevestig verwijdering"
   },
   "confirm_delete_message": {
-    "other": "Deze actie is permanent en kan niet ongedaan worden gemaakt! Nadat u uw account heeft verwijderd, wordt u onmiddellijk uitgelogd en heeft u geen toegang meer tot uw aankopen."
+    "other": "U verliest onmiddellijk de toegang tot alle inhoud die u hebt gekocht."
   },
   "confirm_delete_success_page_header": {
     "other": "Account verwijderd!"
@@ -1703,5 +1703,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Verwijderingsverzoek succesvol"
+  },
+  "confirm_delete_user_email": {
+    "other": "Account dat wordt verwijderd:"
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Deze actie is permanent en kan niet ongedaan worden gemaakt."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "Kan het account niet verwijderen vanwege een ongeldig token. Probeer de link uit uw e-mail opnieuw of begin dit proces opnieuw."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Ik begrijp dat deze actie permanent is"
   }
 }

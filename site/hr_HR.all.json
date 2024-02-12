@@ -1668,7 +1668,7 @@
     "other": "Potvrdite brisanje"
   },
   "confirm_delete_message": {
-    "other": "Ova radnja je trajna i ne može se poništiti! Nakon brisanja računa odmah ćete biti odjavljeni i više nećete moći pristupiti svojim kupnjama."
+    "other": "Odmah ćete izgubiti pristup svim sadržajima koje ste kupili."
   },
   "confirm_delete_success_page_header": {
     "other": "Račun izbrisan!"
@@ -1705,5 +1705,17 @@
   },
   "account_form_account_delete_successful": {
     "other": "Zahtjev za brisanje uspješan"
+  },
+  "confirm_delete_user_email": {
+    "other": "Račun koji se briše:"
+  },
+  "confirm_delete_is_permanent": {
+    "other": "Ova radnja je trajna i ne može se poništiti."
+  },
+  "confirm_delete_error_invalid_token": {
+    "other": "Nije moguće izbrisati račun zbog nevažećeg tokena. Pokušajte ponovno s vezom iz svoje e-pošte ili počnite ovaj postupak ispočetka."
+  },
+  "confirm_delete_check_box_message": {
+    "other": "Razumijem da je ova akcija trajna"
   }
 }
