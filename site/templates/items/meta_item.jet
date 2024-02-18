@@ -84,10 +84,12 @@
                 <s72-pricing-buttons data-slug="{{item.Slug}}" class="pricing-buttons-fit" title="{{item.Title}}"></s72-pricing-buttons>
               {{end}}
 
-              {{if len(canBeWatchedLink) > 0}}
-                <can-be-watched-button data-slug="{{item.InnerItem.Slug}}" data-url="{{canBeWatchedLink}}" data-label="{{canBeWatchedText | i18n}}"></can-be-watched-button>
-              {{end}}
-
+              <s72-user-known>
+                {{if len(canBeWatchedLink) > 0}}
+                  <can-be-watched-button data-slug="{{item.InnerItem.Slug}}" data-url="{{canBeWatchedLink}}" data-label="{{canBeWatchedText | i18n}}"></can-be-watched-button>
+                {{end}}
+              </s72-user-known>
+              
               {{if len(externalPurchaseButtonLink) > 0}}
                 <external-purchase-button data-slug="{{item.InnerItem.Slug}}" data-url="{{externalPurchaseButtonLink}}" data-label="{{externalPurchaseButtonText | i18n}}"></external-purchase-button>
               {{end}}
