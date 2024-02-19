@@ -1,10 +1,18 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.11...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.13...HEAD)
 
 ### Added
 
 ### Changed
+
+### Fixed
+
+## [1.9.13](https://github.com/shift72/core-template/compare/1.9.12...1.9.13)
+
+### Changed
+
+- Hid can-be-watched button for logged out users
 
 ### Fixed
 
