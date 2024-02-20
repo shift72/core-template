@@ -1,5 +1,6 @@
 {{block carouselItemImage()}}
   {{if isset(.Images["Carousel"])}}
+    {* If carousel focus is set for film (film infos metadata) or tv season (tv seasons metadata) then it will set a class accordingly to position the carousel image *}
     {{carouselFocusClass := (isset(.InnerItem["CarouselFocus"]) && .InnerItem["CarouselFocus"] != "" ) ? "carousel-focus-" + .InnerItem["CarouselFocus"] : ""}}
     <s72-image src="{{.Images.Carousel}}" alt="{{.Title}}" class="carousel-item-image {{carouselFocusClass}}"></s72-image>
   {{end}}
