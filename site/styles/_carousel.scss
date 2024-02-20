@@ -52,13 +52,13 @@ s72-carousel {
       object-position: var(--carousel-image-object-position-lg);
     }
   }
-  .carousel-position-left {
+  .carousel-focus-left {
     object-position: left;
   }
-  .carousel-position-right {
+  .carousel-focus-right {
     object-position: right;
   }
-  .carousel-position-center {
+  .carousel-focus-center {
     object-position: center;
   }
 }
