@@ -52,6 +52,15 @@ s72-carousel {
       object-position: var(--carousel-image-object-position-lg);
     }
   }
+  .carousel-position-left {
+    object-position: left;
+  }
+  .carousel-position-right {
+    object-position: right;
+  }
+  .carousel-position-center {
+    object-position: center;
+  }
 }
 
 .s72-carousel-item {
