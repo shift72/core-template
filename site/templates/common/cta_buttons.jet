@@ -42,7 +42,9 @@
       {{end}}
 
       {{if showCanBeWatchedButton}}
-        <can-be-watched-button data-slug="{{slug}}" data-url="{{canBeWatchedButtonLink}}" data-label="{{canBeWatchedButtonText | i18n}}"></can-be-watched-button>
+        <s72-user-known>
+          <can-be-watched-button data-slug="{{slug}}" data-url="{{canBeWatchedButtonLink}}" data-label="{{canBeWatchedButtonText | i18n}}"></can-be-watched-button>
+        </s72-user-known>
       {{end}}
 
       {{if showExternalPurchaseButton}}
