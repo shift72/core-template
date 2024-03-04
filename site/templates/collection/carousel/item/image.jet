@@ -1,7 +1,14 @@
 {{block carouselItemImage()}}
   {{if isset(.Images["Carousel"])}}
-    {* If carousel focus is set for film (film infos metadata) or tv season (tv seasons metadata) then it will set a class accordingly to position the carousel image *}
-    {{carouselFocusClass := (isset(.InnerItem["CarouselFocus"]) && .InnerItem["CarouselFocus"] != "" ) ? "carousel-focus-" + .InnerItem["CarouselFocus"] : ""}}
+    {* If carousel focus is set for film (film infos metadata) or tv season (tv seasons metadata) or custom fields for Pages / Bundles then it will set a class accordingly to position the carousel image *}
+      {{carouselFocus = ""}}
+      {{if isset(.InnerItem["CarouselFocus"]) && .InnerItem["CarouselFocus"] != "" }}
+        {{carouselFocus = .InnerItem["CarouselFocus"]}}
+      {{end}}
+      {{ if .InnerItem.CustomFields.GetString("carousel_focus", "") != ""}}
+        {{carouselFocus = .InnerItem.CustomFields.GetString("carousel_focus", "")}}
+      {{end}}
+    {{carouselFocusClass := (carouselFocus != "" ) ? "carousel-focus-" + carouselFocus : ""}}
     <s72-image src="{{.Images.Carousel}}" alt="{{.Title}}" class="carousel-item-image {{carouselFocusClass}}"></s72-image>
   {{end}}
 {{end}}
