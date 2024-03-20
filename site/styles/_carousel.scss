@@ -39,7 +39,7 @@ s72-carousel {
   top: 0;
   width: 100%;
 
-  img {
+  .carousel-item-image {
     height: 100%;
     object-fit: cover;
     object-position: var(--carousel-image-object-position);
