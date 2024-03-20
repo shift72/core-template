@@ -39,7 +39,7 @@ s72-carousel {
   top: 0;
   width: 100%;
 
-  img {
+  .carousel-item-image {
     height: 100%;
     object-fit: cover;
     object-position: var(--carousel-image-object-position);
@@ -50,6 +50,15 @@ s72-carousel {
     }
     @include media-breakpoint-up(lg) {
       object-position: var(--carousel-image-object-position-lg);
+    }
+    &.focus-left {
+      object-position: left;
+    }
+    &.focus-right {
+      object-position: right;
+    }
+    &.focus-center {
+      object-position: center;
     }
   }
 }

@@ -1,5 +1,16 @@
 {{block carouselItemImage()}}
   {{if isset(.Images["Carousel"])}}
-    <s72-image src="{{.Images.Carousel}}" alt="{{.Title}}" class="carousel-item-image"></s72-image>
+    {* If carousel focus is set for film (film infos metadata) or tv season (tv seasons metadata) or custom fields for Pages / Bundles then it will set a class accordingly to position the carousel image *}
+    {{focusClass = ""}}
+    {{if .GetCarouselImageFocusArea() != ""}}
+      {{if .GetCarouselImageFocusArea() == "left"}}
+        {{focusClass = "focus-left"}}
+      {{else if .GetCarouselImageFocusArea() == "right"}}
+        {{focusClass = "focus-right"}}
+      {{else if .GetCarouselImageFocusArea() == "center"}}
+        {{focusClass = "focus-center"}}
+      {{end}}
+    {{end}}
+    <s72-image src="{{.Images.Carousel}}" alt="{{.Title}}" class="carousel-item-image {{focusClass}}"></s72-image>
   {{end}}
 {{end}}

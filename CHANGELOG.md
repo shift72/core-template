@@ -4,7 +4,10 @@
 
 ### Added
 
+- Support for applying carousel image focus area if set
+
 ### Changed
+
 - Hid can-be-watched button on the film page for logged out users
 
 ### Fixed
@@ -16,7 +19,6 @@
 - Hid can-be-watched button for logged out users
 
 ### Fixed
-
 
 ## [1.9.13](https://github.com/shift72/core-template/compare/1.9.12...1.9.13)
 
