@@ -51,13 +51,13 @@ s72-carousel {
     @include media-breakpoint-up(lg) {
       object-position: var(--carousel-image-object-position-lg);
     }
-    &.left {
+    &.focus-left {
       object-position: left;
     }
-    &.right {
+    &.focus-right {
       object-position: right;
     }
-    &.center {
+    &.focus-center {
       object-position: center;
     }
   }
