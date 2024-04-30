@@ -52,7 +52,7 @@
     "postcss-cli": "^9.0.1",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
-    "s72-kibble": "^0.17.1",
+    "s72-kibble": "^0.17.5",
     "sass": "^1.36.0"
   },
   "devDependencies": {
