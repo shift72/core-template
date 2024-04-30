@@ -1,22 +1,24 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.14...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.15...HEAD)
+
+### Added
+
+### Changed
+
+### Fixed
+
+## [1.9.15](https://github.com/shift72/core-template/compare/1.9.14...1.9.15)
 
 ### Added
 
 - Support for applying carousel image focus area if set
 
-### Changed
-
-- Hid can-be-watched button on the film page for logged out users
-
-### Fixed
-
 ## [1.9.14](https://github.com/shift72/core-template/compare/1.9.13...1.9.14)
 
 ### Changed
 
-- Hid can-be-watched button for logged out users
+- fixed bug with can-be-watched button for logged out users
 
 ### Fixed
 
