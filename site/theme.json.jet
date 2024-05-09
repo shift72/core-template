@@ -1,4 +1,4 @@
 {
-  "primaryColor": {{isset(site.Config["theme_primary_color"]) ? json(site.Config["theme_primary_color"]) : "null" | raw }},
-  "mode": {{site.Config["theme_mode"] == "dark" ? "\"dark\"" : "\"light\"" | raw}}
+  "colorScheme": {{site.Config["theme_mode"] == "light" ? "\"light\"" : "\"dark\"" | raw}},
+  "colorPrimary": {{isset(site.Config["theme_primary_color"]) ? json(site.Config["theme_primary_color"]) : "null" | raw }}
 }
