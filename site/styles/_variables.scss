@@ -60,7 +60,7 @@
   --live-label-background-color: var(--hover-background);
   --live-label-live-background-color: var(--live-red);
 
-  --tooltip-color: var(--body-bg, #000);
+  --tooltip-color: var(--button-text-color, #000);
   --tooltip-bg: var(--primary, #00a3ff);
   --tooltip-arrow-color: var(--tooltip-bg);
 
