@@ -1715,5 +1715,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "Jeg forstår, at denne handling er permanent"
+  },
+  "continue_watching_slider_header": {
+    "other": "Fortsæt med at se"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "Fortsæt med at se"
   }
 }

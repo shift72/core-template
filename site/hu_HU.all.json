@@ -1715,5 +1715,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "Megértem, hogy ez a művelet végleges"
+  },
+  "continue_watching_slider_header": {
+    "other": "Folytassa a nézést"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "Folytassa a nézést"
   }
 }

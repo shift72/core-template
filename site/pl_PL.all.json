@@ -1792,5 +1792,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "Rozumiem, że to działanie ma charakter trwały"
+  },
+  "continue_watching_slider_header": {
+    "other": "Kontynuuj oglądanie"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "Kontynuuj oglądanie"
   }
 }
