@@ -2,6 +2,7 @@
 {{import "templates/collection/page_collection.jet"}}
 {{import "../collection/carousel/carousel.jet"}}
 {{import "templates/collection/wishlist.jet"}}
+{{import "templates/collection/continue_watching.jet"}}
 
 {{block head()}}
   {{yield seo() page}}
@@ -23,6 +24,11 @@
     <div class="other-sliders">
       <h2 class="sr-only">{{i18n("wcag_collections_h2")}}</h2>
       <div class="other-sliders-container">
+
+        {{if config("continue_watching") == "true"}}
+          {{yield continueWatchingCollection()}}
+        {{end}}
+
         {{yield wishlistCollection()}}
         {{range index, pf := page.PageCollections}}
           {{if index == 1}}{{yield pageCollection() pf}}{{end}}

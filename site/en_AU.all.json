@@ -831,6 +831,9 @@
   "userwishlist_button_remove_compact": {
     "other": "My List"
   },
+  "continue_watching_slider_header": {
+    "other": "Continue Watching"
+  },
   "activatedevice_page_header": {
     "other": "Activate Device"
   },
@@ -1246,6 +1249,9 @@
   },
   "wcag_aria_label_wishlist": {
     "other": "Wishlist"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "Continue watching"
   },
   "wcag_aria_label_facebook": {
     "other": "Share on Facebook"

@@ -1,0 +1,33 @@
+{{import "./page_collection_item.jet"}}
+{{import "../common/slider.jet"}}
+{{import "./slider-buttons.jet"}}
+
+{{block continueWatchingCollection()}}
+  {{layout := config("default_image_type")}}
+  {{itemsPerRow := layout == "portrait" ? 6 : 4}}
+  <s72-continue-watching
+      hide-if-empty="true"
+      partials-base-path="/partials"
+      partials-classes="swiper-slide"
+      partials-insert-point-selector=".swiper-wrapper"
+      force-login="false"
+      data-item-layout="{{layout}}"
+      data-items-per-page="{{itemsPerRow}}"
+      class="user-continue-watching s72-slider s72-hide">
+    <section class="page-collection" aria-label="{{i18n("wcag_aria_label_continue_watching")}}">
+      <div class="collection-wrapper-container swiper-wrapper-container">
+        <div class="collection-container swiper-container" data-items-per-row="{{itemsPerRow}}" data-layout="{{layout}}">
+          {{if i18n("continue_watching_slider_header") != ""}}
+          <div class="swiper-title">
+              <h3>{{i18n("continue_watching_slider_header")}}</h3>
+          </div>
+          {{end}}
+          <div class="swiper-wrapper">
+            {{yield content}}
+          </div>
+        </div>
+        {{ yield sliderButtons() }}
+      </div>
+    </section>
+  </s72-continue-watching>
+{{end}}
