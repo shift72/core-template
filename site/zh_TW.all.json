@@ -1702,5 +1702,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "我了解此操作是永久性的"
+  },
+  "continue_watching_slider_header": {
+    "other": "繼續觀看"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "繼續觀看"
   }
 }

@@ -6,34 +6,34 @@ import './external-purchase-button.component.js';
 
 let slideObservers = [];
 
-function initializeWishlist() {
-  let wishlist = document.querySelector('s72-userwishlist');
-  if (!wishlist) return;
-  let originalFunction = wishlist.classList.remove;
-  wishlist.classList.remove = function (className) {
-    if (className == 's72-hide') {
-      // Hide this from view
-      wishlist.style.opacity = '0';
+function initializeCustomSliders() {
+  ['s72-userwishlist', 's72-continue-watching'].forEach(selector => {
+    let wishlist = document.querySelector(selector);
+    if (!wishlist) return;
 
+    // Gross.
+    let originalFunction = wishlist.classList.remove;
+    wishlist.classList.remove = function (className) {
       // Remove class
       originalFunction.apply(this, [className]);
+      if (className === 's72-hide') {
+        // Hide this from view
+        wishlist.style.opacity = '0';
 
-      /* Convert this to a swiper */
-      let containers = wishlist.getElementsByClassName('swiper-container');
-      if (containers.length > 0) {
-        let container = containers[0];
-        let swiper = initializeSwiper(container, true);
+        /* Convert this to a swiper */
+        let containers = wishlist.getElementsByClassName('swiper-container');
+        if (containers.length > 0) {
+          let container = containers[0];
+          let swiper = initializeSwiper(container, true);
+          init(swiper);
+          toggleButtons(container);
+        }
 
-        init(swiper);
-        toggleButtons(container);
+        // Now show it
+        wishlist.style.opacity = '1';
       }
-
-      // Now show it
-      wishlist.style.opacity = '1';
-    } else {
-      originalFunction.apply(this, [className]);
-    }
-  };
+    };
+  });
 }
 
 function initializeSwiper(element, force) {
@@ -463,7 +463,7 @@ function toggleScroll() {
 }
 
 function documentReady(app) {
-  initializeWishlist();
+  initializeCustomSliders();
 
   app.classificationsService.load('/classifications.all.json');
   app.urlMapService.load('/urlmap.json');

@@ -1702,5 +1702,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "このアクションは永続的なものであることを理解しています"
+  },
+  "continue_watching_slider_header": {
+    "other": "視聴を続ける"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "視聴を続ける"
   }
 }

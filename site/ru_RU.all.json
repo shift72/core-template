@@ -1769,5 +1769,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "Я понимаю, что это действие является постоянным"
+  },
+  "continue_watching_slider_header": {
+    "other": "Продолжить просмотр"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "Продолжить просмотр"
   }
 }

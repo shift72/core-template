@@ -1715,5 +1715,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "Bu eylemin kalıcı olduğunu anlıyorum"
+  },
+  "continue_watching_slider_header": {
+    "other": "İzlemeye Devam Et"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "İzlemeye Devam Et"
   }
 }

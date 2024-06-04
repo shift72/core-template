@@ -4,6 +4,8 @@
 
 ### Added
 
+- Continue watching slider
+
 ### Changed
 
 ### Fixed

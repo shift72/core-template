@@ -1747,5 +1747,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "Suprantu, kad šis veiksmas yra nuolatinis"
+  },
+  "continue_watching_slider_header": {
+    "other": "Žiūrėti toliau"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "Žiūrėti toliau"
   }
 }
