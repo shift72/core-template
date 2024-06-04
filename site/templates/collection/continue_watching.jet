@@ -18,15 +18,15 @@
       <div class="collection-wrapper-container swiper-wrapper-container">
         <div class="collection-container swiper-container" data-items-per-row="{{itemsPerRow}}" data-layout="{{layout}}">
           {{if i18n("continue_watching_slider_header") != ""}}
-          <div class="swiper-title">
+            <div class="swiper-title">
               <h3>{{i18n("continue_watching_slider_header")}}</h3>
-          </div>
+            </div>
           {{end}}
           <div class="swiper-wrapper">
             {{yield content}}
           </div>
         </div>
-        {{ yield sliderButtons() }}
+        {{yield sliderButtons()}}
       </div>
     </section>
   </s72-continue-watching>
