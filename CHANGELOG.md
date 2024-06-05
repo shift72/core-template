@@ -5,6 +5,8 @@
 ### Added
 
 - Continue watching slider
+- Reduced carousel height slightly
+- css: use `--button-text-color` instead of `--body-bg` for `--tooltip-color`
 
 ### Changed
 
