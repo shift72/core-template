@@ -1719,5 +1719,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "Entiendo que esta acción es permanente"
+  },
+  "continue_watching_slider_header": {
+    "other": "Continuar viendo"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "Continuar viendo"
   }
 }

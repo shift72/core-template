@@ -1715,5 +1715,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "Κατανοώ ότι αυτή η ενέργεια είναι μόνιμη"
+  },
+  "continue_watching_slider_header": {
+    "other": "Συνεχίστε την παρακολούθηση"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "Συνεχίστε την παρακολούθηση"
   }
 }

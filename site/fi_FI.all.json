@@ -1715,5 +1715,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "Ymmärrän, että tämä toimenpide on pysyvä"
+  },
+  "continue_watching_slider_header": {
+    "other": "Jatka katselua"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "Jatka katselua"
   }
 }

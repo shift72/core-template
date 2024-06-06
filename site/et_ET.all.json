@@ -1715,5 +1715,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "Saan aru, et see toiming on püsiv"
+  },
+  "continue_watching_slider_header": {
+    "other": "Jätkake vaatamist"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "Jätkake vaatamist"
   }
 }

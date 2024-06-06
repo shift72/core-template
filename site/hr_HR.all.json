@@ -1717,5 +1717,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "Razumijem da je ova akcija trajna"
+  },
+  "continue_watching_slider_header": {
+    "other": "Nastavite s gledanjem"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "Nastavite s gledanjem"
   }
 }

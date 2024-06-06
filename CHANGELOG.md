@@ -2,11 +2,14 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.16...HEAD)
 
+## [1.9.17](https://github.com/shift72/core-template/compare/1.9.16...1.9.17)
+
 ### Added
+- Continue watching slider
 
 ### Changed
-
-### Fixed
+- Reduced carousel height slightly
+- css: use `--button-text-color` instead of `--body-bg` for `--tooltip-color`
 
 ## [1.9.16](https://github.com/shift72/core-template/compare/1.9.15...1.9.16)
 

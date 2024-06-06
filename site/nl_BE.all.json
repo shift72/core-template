@@ -1715,5 +1715,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "Ik begrijp dat deze actie permanent is"
+  },
+  "continue_watching_slider_header": {
+    "other": "Ga door met kijken"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "Ga door met kijken"
   }
 }

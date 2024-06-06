@@ -1779,5 +1779,11 @@
   },
   "confirm_delete_check_box_message": {
     "other": "أفهم أن هذا الإجراء دائم"
+  },
+  "continue_watching_slider_header": {
+    "other": "مواصلة المشاهدة"
+  },
+  "wcag_aria_label_continue_watching": {
+    "other": "مواصلة المشاهدة"
   }
 }
