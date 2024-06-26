@@ -1,6 +1,11 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.16...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.18...HEAD)
+
+## [1.9.18](https://github.com/shift72/core-template/compare/1.9.17...1.9.18)
+
+### Changed
+- Remove polyfill.io CDN in favour for Cloudflare
 
 ## [1.9.17](https://github.com/shift72/core-template/compare/1.9.16...1.9.17)
 
