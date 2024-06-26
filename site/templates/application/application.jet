@@ -50,7 +50,7 @@
       {{yield seo()}}
     {{end}}
 
-    <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.js?features=Intl%2Cdefault%2Cfetch" defer></script>
+    <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=Intl%2Cdefault%2Cfetch" defer></script>
     <script src="{{CDN}}/s72.core.js" defer></script>
     <script src="{{CDN}}/s72.ui.js" defer></script>
 
