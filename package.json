@@ -21,7 +21,7 @@
     "kibble:watch": "kibble render --watch --port 8081",
     "kibble:build": "echo \"Deprecated, use 'npm run deploy' to build + publish.\"",
     "kibble:publish": "kibble publish",
-    "build": "run-s -l css js:build css:build",
+    "build": "run-s -l css js:build css:build kibble",
     "deploy": "run-s -l build kibble:publish",
     "language:csv": "node scripts/language-file-to-csv/language-file-to-csv.js site/en_AU.all.json",
     "language:validate": "node scripts/language-file-validator.js",
