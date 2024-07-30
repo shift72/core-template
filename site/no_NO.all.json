@@ -1721,5 +1721,20 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Fortsett å se"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Oppdater"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Oppdatert"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Personverninnstillinger for annonser"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Administrer personverninnstillingene mine for annonser"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Tillat bruk av min annonserings-ID for å bygge profiler og/eller vise deg personlig tilpassede annonser"
   }
 }

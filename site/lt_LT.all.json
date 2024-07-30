@@ -1753,5 +1753,20 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Žiūrėti toliau"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Atnaujinti"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Atnaujinta"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Skelbimų privatumo nustatymai"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Tvarkyti mano skelbimų privatumo nustatymus"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Leisti naudoti mano reklamavimo ID profiliams kurti ir (arba) rodyti personalizuotus skelbimus"
   }
 }

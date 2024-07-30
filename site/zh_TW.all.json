@@ -1708,5 +1708,20 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "繼續觀看"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "更新"
+  },
+  "account_form_adconsent_changed": {
+    "other": "更新"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "廣告隱私設定"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "管理我的廣告隱私設置"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "允許使用我的廣告 ID 來建立個人資料和/或向您顯示個人化廣告"
   }
 }

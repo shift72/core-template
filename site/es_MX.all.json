@@ -1725,5 +1725,20 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Continuar viendo"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Actualizar"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Actualizado"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Configuración de privacidad de anuncios"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Administrar la configuración de privacidad de mis anuncios"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Permitir el uso de mi ID de publicidad para crear perfiles y/o mostrarle anuncios personalizados"
   }
 }

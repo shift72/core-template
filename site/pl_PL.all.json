@@ -1798,5 +1798,20 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Kontynuuj oglądanie"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Aktualizacja"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Zaktualizowano"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Ustawienia prywatności reklam"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Zarządzaj ustawieniami prywatności moich reklam"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Zezwól na wykorzystanie mojego identyfikatora reklamowego do tworzenia profili i/lub wyświetlania spersonalizowanych reklam"
   }
 }

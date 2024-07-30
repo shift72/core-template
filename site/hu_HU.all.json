@@ -1721,5 +1721,20 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Folytassa a nézést"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Frissítés"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Frissítve"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Hirdetések adatvédelmi beállításai"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Kezelje hirdetéseim adatvédelmi beállításait"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Engedélyezze a hirdetési azonosítóm használatát profilok létrehozására és/vagy személyre szabott hirdetések megjelenítésére"
   }
 }

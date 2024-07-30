@@ -1721,5 +1721,20 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "İzlemeye Devam Et"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Güncelleme"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Güncellenmiş"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Reklam gizlilik ayarları"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Reklam gizlilik ayarlarımı yönet"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Profil oluşturmak ve/veya size kişiselleştirilmiş reklamlar göstermek için reklam kimliğimin kullanılmasına izin ver"
   }
 }

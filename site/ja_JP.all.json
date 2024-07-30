@@ -1708,5 +1708,20 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "視聴を続ける"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "アップデート"
+  },
+  "account_form_adconsent_changed": {
+    "other": "更新しました"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "広告のプライバシー設定"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "広告のプライバシー設定を管理する"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "プロフィールの作成やパーソナライズされた広告の表示に広告IDの使用を許可する"
   }
 }

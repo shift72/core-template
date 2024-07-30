@@ -1785,5 +1785,20 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "مواصلة المشاهدة"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "تحديث"
+  },
+  "account_form_adconsent_changed": {
+    "other": "محدث"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "إعدادات خصوصية الإعلان"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "إدارة إعدادات خصوصية إعلاني"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "السماح باستخدام معرف الإعلان الخاص بي لإنشاء ملفات تعريف و/أو عرض إعلانات مخصصة لك"
   }
 }
