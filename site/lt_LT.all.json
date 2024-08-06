@@ -1764,9 +1764,12 @@
     "other": "Skelbimų privatumo nustatymai"
   },
   "account_form_change_adtracking_link": {
-    "other": "Tvarkyti mano skelbimų privatumo nustatymus"
+    "other": "Tvarkyti"
   },
   "account_form_change_adtracking_label": {
-    "other": "Leisti naudoti mano reklamavimo ID profiliams kurti ir (arba) rodyti personalizuotus skelbimus"
+    "other": "Leisti naudoti mano reklamavimo ID profiliams kurti ir (arba) man rodyti personalizuotus skelbimus"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Skelbimų privatumo nustatymai"
   }
 }

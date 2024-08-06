@@ -1732,9 +1732,12 @@
     "other": "Ad privacy settings"
   },
   "account_form_change_adtracking_link": {
-    "other": "Manage my ad privacy settings"
+    "other": "Manage"
   },
   "account_form_change_adtracking_label": {
-    "other": "Allow use of my advertising ID to build profiles and/or show you peronsalized ads"
+    "other": "Allow use of my advertising ID to build profiles and/or show me peronsalized ads"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Ad privacy settings"
   }
 }

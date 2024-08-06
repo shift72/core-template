@@ -1732,9 +1732,12 @@
     "other": "Mainosten tietosuoja-asetukset"
   },
   "account_form_change_adtracking_link": {
-    "other": "Hallinnoi mainosteni tietosuoja-asetuksia"
+    "other": "Hallitse"
   },
   "account_form_change_adtracking_label": {
     "other": "Salli mainostunnukseni käyttö profiilien luomiseen ja/tai henkilökohtaisten mainosten näyttämiseen"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Mainosten tietosuoja-asetukset"
   }
 }

@@ -1719,9 +1719,12 @@
     "other": "廣告隱私設定"
   },
   "account_form_change_adtracking_link": {
-    "other": "管理我的廣告隱私設置"
+    "other": "管理"
   },
   "account_form_change_adtracking_label": {
-    "other": "允許使用我的廣告 ID 來建立個人資料和/或向您顯示個人化廣告"
+    "other": "允許使用我的廣告 ID 來建立個人資料和/或向我展示個人化廣告"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "廣告隱私設定"
   }
 }

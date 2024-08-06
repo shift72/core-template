@@ -1809,9 +1809,12 @@
     "other": "Ustawienia prywatności reklam"
   },
   "account_form_change_adtracking_link": {
-    "other": "Zarządzaj ustawieniami prywatności moich reklam"
+    "other": "Zarządzać"
   },
   "account_form_change_adtracking_label": {
-    "other": "Zezwól na wykorzystanie mojego identyfikatora reklamowego do tworzenia profili i/lub wyświetlania spersonalizowanych reklam"
+    "other": "Zezwól na wykorzystanie mojego identyfikatora wyświetlania reklam do tworzenia profili i/lub wyświetlania spersonalizowanych reklam"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Ustawienia prywatności reklam"
   }
 }

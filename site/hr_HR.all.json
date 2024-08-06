@@ -1734,9 +1734,12 @@
     "other": "Postavke privatnosti oglasa"
   },
   "account_form_change_adtracking_link": {
-    "other": "Upravljaj postavkama privatnosti mojih oglasa"
+    "other": "Upravljati"
   },
   "account_form_change_adtracking_label": {
     "other": "Dopusti upotrebu mog ID-a za oglašavanje za izradu profila i/ili prikazivanje personaliziranih oglasa"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Postavke privatnosti oglasa"
   }
 }

@@ -1732,9 +1732,12 @@
     "other": "Indstillinger for annoncebeskyttelse"
   },
   "account_form_change_adtracking_link": {
-    "other": "Administrer mine annoncebeskyttelsesindstillinger"
+    "other": "Styre"
   },
   "account_form_change_adtracking_label": {
-    "other": "Tillad brug af mit annonce-id til at bygge profiler og/eller vise dig personlige annoncer"
+    "other": "Tillad brug af mit annonce-id til at bygge profiler og/eller vise mig personlige annoncer"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Indstillinger for annoncebeskyttelse"
   }
 }

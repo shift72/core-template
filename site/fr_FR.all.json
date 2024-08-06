@@ -1736,9 +1736,12 @@
     "other": "Paramètres de confidentialité des annonces"
   },
   "account_form_change_adtracking_link": {
-    "other": "Gérer mes paramètres de confidentialité des annonces"
+    "other": "Gérer"
   },
   "account_form_change_adtracking_label": {
-    "other": "Autoriser l'utilisation de mon identifiant publicitaire pour créer des profils et/ou vous montrer des publicités personnalisées"
+    "other": "Autoriser l'utilisation de mon identifiant publicitaire pour créer des profils et/ou me montrer des annonces personnalisées"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Paramètres de confidentialité des annonces"
   }
 }

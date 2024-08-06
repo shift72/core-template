@@ -1732,9 +1732,12 @@
     "other": "Configuració de privadesa dels anuncis"
   },
   "account_form_change_adtracking_link": {
-    "other": "Gestiona la configuració de privadesa dels meus anuncis"
+    "other": "Gestionar"
   },
   "account_form_change_adtracking_label": {
-    "other": "Permet l'ús del meu identificador de publicitat per crear perfils i/o mostrar-vos anuncis personalitzats"
+    "other": "Permet l'ús del meu identificador de publicitat per crear perfils i/o mostrar-me anuncis personalitzats"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Configuració de privadesa dels anuncis"
   }
 }

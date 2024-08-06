@@ -1736,9 +1736,12 @@
     "other": "Impostazioni sulla privacy degli annunci"
   },
   "account_form_change_adtracking_link": {
-    "other": "Gestisci le impostazioni sulla privacy dei miei annunci"
+    "other": "Maneggio"
   },
   "account_form_change_adtracking_label": {
-    "other": "Consenti l'uso del mio ID pubblicità per creare profili e/o mostrarti annunci personalizzati"
+    "other": "Consenti l'uso del mio ID pubblicitario per creare profili e/o mostrarmi annunci personalizzati"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Impostazioni sulla privacy degli annunci"
   }
 }

@@ -1732,9 +1732,12 @@
     "other": "Reklaami privaatsusseaded"
   },
   "account_form_change_adtracking_link": {
-    "other": "Hallake minu reklaamide privaatsusseadeid"
+    "other": "Halda"
   },
   "account_form_change_adtracking_label": {
-    "other": "Luba kasutada minu reklaami ID-d profiilide koostamiseks ja/või isikupärastatud reklaamide näitamiseks"
+    "other": "Lubage kasutada minu reklaami ID-d profiilide koostamiseks ja/või personaalsete reklaamide kuvamiseks"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Reklaami privaatsusseaded"
   }
 }

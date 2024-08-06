@@ -1719,9 +1719,12 @@
     "other": "広告のプライバシー設定"
   },
   "account_form_change_adtracking_link": {
-    "other": "広告のプライバシー設定を管理する"
+    "other": "管理"
   },
   "account_form_change_adtracking_label": {
     "other": "プロフィールの作成やパーソナライズされた広告の表示に広告IDの使用を許可する"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "広告のプライバシー設定"
   }
 }

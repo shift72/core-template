@@ -1732,9 +1732,12 @@
     "other": "Personverninnstillinger for annonser"
   },
   "account_form_change_adtracking_link": {
-    "other": "Administrer personverninnstillingene mine for annonser"
+    "other": "Få til"
   },
   "account_form_change_adtracking_label": {
-    "other": "Tillat bruk av min annonserings-ID for å bygge profiler og/eller vise deg personlig tilpassede annonser"
+    "other": "Tillat bruk av min annonserings-ID for å bygge profiler og/eller vise meg personlig tilpassede annonser"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Personverninnstillinger for annonser"
   }
 }

@@ -1732,9 +1732,12 @@
     "other": "Privacy-instellingen voor advertenties"
   },
   "account_form_change_adtracking_link": {
-    "other": "Beheer de privacy-instellingen voor mijn advertenties"
+    "other": "Beheren"
   },
   "account_form_change_adtracking_label": {
-    "other": "Sta het gebruik van mijn advertentie-ID toe om profielen samen te stellen en/of u gepersonaliseerde advertenties te tonen"
+    "other": "Sta het gebruik van mijn advertentie-ID toe om profielen samen te stellen en/of mij gepersonaliseerde advertenties te tonen"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Privacy-instellingen voor advertenties"
   }
 }
