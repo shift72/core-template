@@ -2,6 +2,11 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.18...HEAD)
 
+### Added
+- Support for Ad consent tracking option on user account settings
+### Changed
+- Deploy commands, now use npm run deploy to deploy
+
 ## [1.9.18](https://github.com/shift72/core-template/compare/1.9.17...1.9.18)
 
 ### Changed
