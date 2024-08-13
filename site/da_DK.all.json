@@ -1721,5 +1721,23 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Fortsæt med at se"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Opdatering"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Opdateret"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Indstillinger for annoncebeskyttelse"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Styre"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Tillad brug af mit annonce-id til at bygge profiler og/eller vise mig personlige annoncer"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Indstillinger for annoncebeskyttelse"
   }
 }

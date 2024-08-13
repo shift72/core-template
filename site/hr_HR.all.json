@@ -1723,5 +1723,23 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Nastavite s gledanjem"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Ažuriraj"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Ažurirano"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Postavke privatnosti oglasa"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Upravljati"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Dopusti upotrebu mog ID-a za oglašavanje za izradu profila i/ili prikazivanje personaliziranih oglasa"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Postavke privatnosti oglasa"
   }
 }

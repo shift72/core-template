@@ -1,6 +1,6 @@
 {
   "name": "@shift72/core-template",
-  "version": "1.9.18",
+  "version": "1.9.19",
   "description": "Shift72 core template",
   "license": "MIT",
   "scripts": {
@@ -19,8 +19,10 @@
     "kibble": "kibble render",
     "kibble:start": "mkdir -p .kibble && test -n \"$npm_config_admin\" && npm run kibble:watch -- --admin || npm run kibble:watch",
     "kibble:watch": "kibble render --watch --port 8081",
-    "kibble:build": "kibble publish",
-    "build": "run-s -l css js:build css:build kibble:build",
+    "kibble:build": "echo \"Deprecated, use 'npm run deploy' to build + publish.\"",
+    "kibble:publish": "kibble publish",
+    "build": "run-s -l css js:build css:build kibble",
+    "deploy": "run-s -l build kibble:publish",
     "language:csv": "node scripts/language-file-to-csv/language-file-to-csv.js site/en_AU.all.json",
     "language:validate": "node scripts/language-file-validator.js",
     "version": "node scripts/core-template-version.js",

@@ -1721,5 +1721,23 @@
   },
   "confirm_delete_check_box_message": {
     "other": "I understand that this action is permanent"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Update"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Updated"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Ad privacy settings"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Manage"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Allow use of my advertising ID to build profiles and/or show me peronsalized ads"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Ad privacy settings"
   }
 }

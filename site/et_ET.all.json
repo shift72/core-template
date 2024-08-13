@@ -1721,5 +1721,23 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Jätkake vaatamist"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Värskenda"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Uuendatud"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Reklaami privaatsusseaded"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Halda"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Lubage kasutada minu reklaami ID-d profiilide koostamiseks ja/või personaalsete reklaamide kuvamiseks"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Reklaami privaatsusseaded"
   }
 }

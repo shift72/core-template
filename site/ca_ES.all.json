@@ -1721,5 +1721,23 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Continuar mirant"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Actualització"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Actualitzat"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Configuració de privadesa dels anuncis"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Gestionar"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Permet l'ús del meu identificador de publicitat per crear perfils i/o mostrar-me anuncis personalitzats"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Configuració de privadesa dels anuncis"
   }
 }

@@ -1725,5 +1725,23 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Continuar assistindo"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Atualizar"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Atualizada"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Configurações de privacidade de anúncios"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Gerenciar"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Permitir o uso do meu ID de publicidade para criar perfis e/ou exibir anúncios personalizados"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Configurações de privacidade de anúncios"
   }
 }
