@@ -1721,5 +1721,23 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "İzlemeye Devam Et"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Güncelleme"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Güncellenmiş"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Reklam gizlilik ayarları"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Üstesinden gelmek"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Profil oluşturmak ve/veya bana kişiselleştirilmiş reklamlar göstermek için reklam kimliğimin kullanılmasına izin ver"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Reklam gizlilik ayarları"
   }
 }

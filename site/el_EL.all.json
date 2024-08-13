@@ -1721,5 +1721,23 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Συνεχίστε την παρακολούθηση"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Εκσυγχρονίζω"
+  },
+  "account_form_adconsent_changed": {
+    "other": "ΕΠΙΚΑΙΡΟΠΟΙΗΜΕΝΟ"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Ρυθμίσεις απορρήτου διαφημίσεων"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Διαχειρίζονται"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Να επιτρέπεται η χρήση του αναγνωριστικού διαφήμισης για τη δημιουργία προφίλ ή/και την εμφάνιση εξατομικευμένων διαφημίσεων"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Ρυθμίσεις απορρήτου διαφημίσεων"
   }
 }

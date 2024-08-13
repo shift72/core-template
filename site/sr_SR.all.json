@@ -1737,5 +1737,23 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Наставите са гледањем"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "ажурирање"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Ажуриран"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Подешавања приватности огласа"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Управљати"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Дозволи коришћење мог ИД-а за оглашавање за прављење профила и/или приказивање персонализованих огласа"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Подешавања приватности огласа"
   }
 }

@@ -1775,5 +1775,23 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Продолжить просмотр"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Обновлять"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Обновлено"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Настройки конфиденциальности рекламы"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Управлять"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Разрешить использование моего рекламного идентификатора для создания профилей и/или показа мне персонализированной рекламы"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Настройки конфиденциальности рекламы"
   }
 }

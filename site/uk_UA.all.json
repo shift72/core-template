@@ -1781,5 +1781,23 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Продовжити перегляд"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "оновлення"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Оновлено"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Налаштування конфіденційності реклами"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Керувати"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Дозволити використання мого рекламного ідентифікатора для створення профілів і/або показу мені персоналізованих оголошень"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Налаштування конфіденційності реклами"
   }
 }

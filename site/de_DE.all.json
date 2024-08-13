@@ -1721,5 +1721,23 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Weiter schauen"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Aktualisieren"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Aktualisiert"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Datenschutzeinstellungen für Anzeigen"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Verwalten"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Erlauben Sie die Verwendung meiner Werbe-ID, um Profile zu erstellen und/oder mir personalisierte Werbung anzuzeigen"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Datenschutzeinstellungen für Anzeigen"
   }
 }

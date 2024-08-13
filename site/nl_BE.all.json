@@ -1721,5 +1721,23 @@
   },
   "wcag_aria_label_continue_watching": {
     "other": "Ga door met kijken"
+  },
+  "adtracking_consent_modal_submit": {
+    "other": "Update"
+  },
+  "account_form_adconsent_changed": {
+    "other": "Bijgewerkt"
+  },
+  "adtracking_consent_modal_header": {
+    "other": "Privacy-instellingen voor advertenties"
+  },
+  "account_form_change_adtracking_link": {
+    "other": "Beheren"
+  },
+  "account_form_change_adtracking_label": {
+    "other": "Sta het gebruik van mijn advertentie-ID toe om profielen samen te stellen en/of mij gepersonaliseerde advertenties te tonen"
+  },
+  "account_form_ad_privacy_settings": {
+    "other": "Privacy-instellingen voor advertenties"
   }
 }
