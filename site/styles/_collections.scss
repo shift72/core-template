@@ -42,9 +42,6 @@
   @extend .meta-item;
   float: left;
   padding: 5px;
-  &:first-child {
-    margin-left: -5px;
-  }
 
   h2 {
     @include subtitle-1-style;
@@ -341,4 +338,12 @@
 
 .collection-items {
   margin: 0 auto;
+}
+
+// To cancel out the 5px padding on items, add some negative margin to the containers
+.swiper-wrapper,
+.page-collection-items,
+.s72-userlibrary-items,
+.s72-userwishlist-items {
+  margin-left: -5px;
 }
