@@ -1,3 +1,9 @@
+.library-page s72-userlibrary {
+  // It looks a bit silly if the user library stretches too wide -- the gap
+  // between items gets big rather than adding more items!
+  max-width: 1920px;
+}
+
 .s72-userlibrary-items {
   @extend .d-flex;
 
