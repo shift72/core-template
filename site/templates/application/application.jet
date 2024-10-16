@@ -101,6 +101,7 @@
     <a class="skip-link" href="#main">{{i18n("wcag_skip_links_content")}}</a>
 
     <s72-cookie-consent></s72-cookie-consent>
+    <ga-tracking></ga-tracking>
 
     {{yield googleTagManagerNoScript()}}
     {{yield pixelNoScript()}}

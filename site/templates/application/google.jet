@@ -11,15 +11,17 @@
           })(window,document,'script','dataLayer','{{ tagManagerId }}')};
       </script>
     {{end}}
-
+ 
     {{if hasPrefix(analyticsId,"G")}}
     {* Load GA4 code snippet and gtag function if G tracking code is provided, else use legacy UA code snippet *}
+    {{useDebugMode := true}}
+    {{debugEnabled := site.Toggles["ga_debug"] || useDebugMode}}
       <script>
         function loadGA4() {
           window.dataLayer = window.dataLayer || [];
           window.gtag = function(){dataLayer.push(arguments);}
           window.gtag('js', new Date());
-          window.gtag('config', '{{analyticsId}}');
+          window.gtag('config', '{{analyticsId}}', { 'debug_mode': {{debugEnabled}} });
 
           (function(d, googleId){var f = d.getElementsByTagName('script')[0];var s = d.createElement('script');
           s.src = 'https://www.googletagmanager.com/gtag/js?id=' + googleId;s.async = true;f.parentNode.insertBefore(s,f);

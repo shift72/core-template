@@ -45,7 +45,7 @@
         </div>
 
         <div class="meta-detail-content">
-          <h1>{{ film.Title }}</h1>
+          <h1 class="meta-detail-title">{{ film.Title }}</h1>
           <div class="meta-detail-tagline-and-classification">
             <div class="meta-detail-tagline">
               {{yield metaItemTagline() film}}
