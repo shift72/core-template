@@ -1,6 +1,7 @@
 import './modernizr-custom.js';
 import './can-be-watched-button.component.js';
 import './external-purchase-button.component.js';
+import CustomCarousel from './custom-carousel.component.js';
 
 /*global Swiper, Modernizr, s72*/
 
@@ -66,49 +67,49 @@ function initializeSwiper(element, force) {
 
     if (layout == 'portrait') {
       switch (itemsPerRow) {
-      case '6':
-        defaultSlidesPerView = 8;
-        slidesPerView[1600] = 6;
-        slidesPerView[1440] = 6;
-        slidesPerView[1200] = 5;
-        slidesPerView[992] = 4;
-        slidesPerView[768] = 4;
-        slidesPerView[667] = 3;
-        slidesPerView[568] = 3;
-        break;
+        case '6':
+          defaultSlidesPerView = 8;
+          slidesPerView[1600] = 6;
+          slidesPerView[1440] = 6;
+          slidesPerView[1200] = 5;
+          slidesPerView[992] = 4;
+          slidesPerView[768] = 4;
+          slidesPerView[667] = 3;
+          slidesPerView[568] = 3;
+          break;
 
-      case '4':
-        defaultSlidesPerView = 6;
-        slidesPerView[1600] = 5;
-        slidesPerView[1440] = 5;
-        slidesPerView[1200] = 4;
-        slidesPerView[992] = 3;
-        slidesPerView[768] = 3;
-        slidesPerView[667] = 3;
-        slidesPerView[568] = 2;
-        break;
+        case '4':
+          defaultSlidesPerView = 6;
+          slidesPerView[1600] = 5;
+          slidesPerView[1440] = 5;
+          slidesPerView[1200] = 4;
+          slidesPerView[992] = 3;
+          slidesPerView[768] = 3;
+          slidesPerView[667] = 3;
+          slidesPerView[568] = 2;
+          break;
       }
     } else if (layout == 'landscape') {
       switch (itemsPerRow) {
-      case '4':
-        defaultSlidesPerView = 5;
-        slidesPerView[1600] = 4;
-        slidesPerView[1440] = 4;
-        slidesPerView[1200] = 3;
-        slidesPerView[992] = 3;
-        slidesPerView[768] = 3;
-        slidesPerView[568] = 2;
-        break;
+        case '4':
+          defaultSlidesPerView = 5;
+          slidesPerView[1600] = 4;
+          slidesPerView[1440] = 4;
+          slidesPerView[1200] = 3;
+          slidesPerView[992] = 3;
+          slidesPerView[768] = 3;
+          slidesPerView[568] = 2;
+          break;
 
-      case '3':
-        defaultSlidesPerView = 4;
-        slidesPerView[1600] = 3;
-        slidesPerView[1440] = 3;
-        slidesPerView[1200] = 3;
-        slidesPerView[992] = 2;
-        slidesPerView[768] = 2;
-        slidesPerView[568] = 2;
-        break;
+        case '3':
+          defaultSlidesPerView = 4;
+          slidesPerView[1600] = 3;
+          slidesPerView[1440] = 3;
+          slidesPerView[1200] = 3;
+          slidesPerView[992] = 2;
+          slidesPerView[768] = 2;
+          slidesPerView[568] = 2;
+          break;
       }
     }
   }

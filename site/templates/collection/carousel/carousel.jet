@@ -12,7 +12,7 @@
 	{{fadeTime := config("carousel_fade_time")}}
 
 	{{if len(items) > 0}}
-		<s72-carousel play-speed="{{playSpeed}}" fade-time="{{fadeTime}}">
+		<custom-carousel play-speed="9999999" fade-time="{{fadeTime}}">
 			<section class="page-collection page-collection-carousel" aria-label="{{i18n("wcag_aria_label_carousel")}}">
 				<h2 class="sr-only">{{i18n("wcag_carousel_h2")}}</h2>
 
@@ -25,6 +25,6 @@
 				{{yield carouselPagination(items=items)}}
 
 			</section>
-		</s72-carousel>
+		</custom-carousel>
 	{{end}}
 {{end}}

@@ -1,4 +1,4 @@
-{{block carouselItemImage()}}
+{{block carouselItemImage(showTrailerBg, trailerURL)}}
   {{if isset(.Images["Carousel"])}}
     {* If carousel focus is set for film (film infos metadata) or tv season (tv seasons metadata) or custom fields for Pages / Bundles then it will set a class accordingly to position the carousel image *}
     {{focusClass = ""}}
@@ -11,6 +11,15 @@
         {{focusClass = "focus-center"}}
       {{end}}
     {{end}}
-    <s72-image src="{{.Images.Carousel}}" alt="{{.Title}}" class="carousel-item-image {{focusClass}}"></s72-image>
+
+
+    {{if showTrailerBg}}
+    <video autoplay muted loop style="width: 100vw; height: 100vh; object-fit: contain; margin-top: -100px;">
+      <source src="{{trailerURL}}" type="video/mp4">
+    </video>
+   
+    {{else}}
+      <s72-image src="{{.Images.Carousel}}" alt="{{.Title}}" class="carousel-item-image {{focusClass}}"></s72-image>
+    {{end}}
   {{end}}
 {{end}}
