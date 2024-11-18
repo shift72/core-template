@@ -28,7 +28,7 @@ export default class GATracking extends AppComponent {
 
   componentDidMount() {
     this.recordAuthenticatedPageView();
-    this.recordHomeSignupPurchasePlay();
+    // this.recordHomeSignupPurchasePlay();
     if (window.location.pathname.startsWith('/film/')) this.recordFilmPagePurchase();
     if (window.location.pathname.split('/film/')[1]) {
       this.recordViewItem('Film');
@@ -48,14 +48,14 @@ export default class GATracking extends AppComponent {
     window.dataLayer.push(args);
   }
 
+  // working
   recordTrailerPlaybackPositions() {
-    let trailer = document.querySelector('.curzon-modal-player video');
+    let trailer = document.querySelector('.s72-player video');
 
     const threeSecondCheck = event => {
       if (trailer.currentTime > 3) {
         if (trailer.currentTime < 4)
-          gtag('send', 'event', {
-            dimension13: '3',
+          gtag('event', 'trailer_passed_three_second', {
             eventCategory: 'watch',
             eventAction: 'trailer passed three second mark',
           });
@@ -67,8 +67,7 @@ export default class GATracking extends AppComponent {
     const tenSecondCheck = event => {
       if (trailer.currentTime > 10) {
         if (trailer.currentTime < 11)
-          gtag('send', 'event', {
-            dimension13: '10',
+          gtag('event', 'trailer_passed_ten_second', {
             eventCategory: 'watch',
             eventAction: 'trailer passed ten second mark',
           });
@@ -77,14 +76,14 @@ export default class GATracking extends AppComponent {
     };
     trailer.addEventListener('timeupdate', tenSecondCheck);
     trailer.addEventListener('ended', () =>
-      gtag('send', 'event', {
-        dimension14: 'ended',
+      gtag('event', 'trailer_ended', {
         eventCategory: 'event',
         eventAction: 'trailer ended',
       })
     );
   }
 
+  /*
   recordHomeSignupPurchasePlay() {
     // user visits page, get parameters for checks
     // keep in mind this components data persists over multiple pages
@@ -113,48 +112,49 @@ export default class GATracking extends AppComponent {
     if (sessionStorage['s72.a'] === undefined) sessionStorage['s72.a'] = 0;
 
     switch (parseInt(sessionStorage['s72.a'])) {
-      // if (On homepage, not logged in) -> increment "s72.a" to 1
-      case 0:
-        if (this.allConditionsTrue(checks[0])) {
-          sessionStorage['s72.a']++;
-          break;
-        }
+    // if (On homepage, not logged in) -> increment "s72.a" to 1
+    case 0:
+      if (this.allConditionsTrue(checks[0])) {
+        sessionStorage['s72.a']++;
+        break;
+      }
 
       // if (On signup page, previous page was homepage, not logged in, s72.a is 1) -> increment "s72.a" to 2
-      case 1:
-        if (this.allConditionsTrue(checks[1])) {
-          sessionStorage['s72.a']++;
-          break;
-        }
+    case 1:
+      if (this.allConditionsTrue(checks[1])) {
+        sessionStorage['s72.a']++;
+        break;
+      }
 
       // if (Previous page was signup page, now logged in) then user has signed up -> increment "s72.a" to 3
-      case 2:
-        if (this.allConditionsTrue(checks[2])) {
-          sessionStorage['s72.a']++;
+    case 2:
+      if (this.allConditionsTrue(checks[2])) {
+        sessionStorage['s72.a']++;
 
-          // and also listen for user to purchase a film
-          this.app.messagebus.subscribe('shopping-session-completed', session => {
-            // user has purchased film, subscribe to user play button click
-            this.app.messagebus.subscribe('before-play-start', url => {
-              // We need relish to redirect to the player only after google tracking hit has been sent
-              return new Promise((resolve, reject) => {
-                gtag('set', 'dimension8', 'Funnel 1');
-                gtag('send', 'pageview', { hitCallback: () => resolve() });
-              });
+        // and also listen for user to purchase a film
+        this.app.messagebus.subscribe('shopping-session-completed', session => {
+          // user has purchased film, subscribe to user play button click
+          this.app.messagebus.subscribe('before-play-start', url => {
+            // We need relish to redirect to the player only after google tracking hit has been sent
+            return new Promise((resolve, reject) => {
+              gtag('set', 'dimension8', 'Funnel 1');
+              gtag('send', 'pageview', { hitCallback: () => resolve() });
             });
           });
-          break;
-        }
+        });
+        break;
+      }
       // if user diverged from path before signup -> reset "s72.a"
-      default:
-        if (sessionStorage['s72.a'] < 3) this.resetSession('s72.a');
+    default:
+      if (sessionStorage['s72.a'] < 3) this.resetSession('s72.a');
     }
   }
+  */
 
   recordFilmPagePurchase() {
     this.app.messagebus.subscribe('shopping-session-completed', session => {
-      gtag('send', 'event', {
-        dimension12: `${window.location.pathname.split('/film/')[1]}, ${session.data.total}`,
+      gtag('event', 'item_purchase', {
+        eventItem: `${window.location.pathname.split('/film/')[1]}, ${session.data.total}`,
         eventCategory: 'purchase',
         eventAction: 'purchase on film page',
       });
@@ -286,7 +286,7 @@ export default class GATracking extends AppComponent {
           eventCategory: 'event',
           eventAction: 'btnClick',
         });
-        if (elem.classList.contains('btn-trailer')) this.recordTrailerPlaybackPositions();
+        if (elem.classList.contains('s72-btn-trailer')) this.recordTrailerPlaybackPositions();
       })
     );
   }
