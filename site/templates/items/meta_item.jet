@@ -27,18 +27,14 @@
   {{else if len(imageUrl) == 0 && isCollection}}
     {{imageUrl = layout == "portrait" ? "/images/missing/collection-portrait.png" : "/images/missing/collection-landscape.png"}}
   {{end}}
-  {{pill := ""}}
-  {{pillSupplement := ""}}
   {{if isEpisode}}
     {{synopsis = item.InnerItem.Overview}}
-    {{pill = i18n("episode_name") + " " + item.InnerItem.EpisodeNumber}}
-    {{pillSupplement = "from " + i18n("season_name") + " " + item.InnerItem.Season.SeasonNumber}}
+    {{title = item.InnerItem.GetTitle(i18n)}}
   {{end}}
   {{title := item.Title}}
   {{if isSeason}}
     {{synopsis = stripHTML(item.InnerItem.Tagline)}}
-    {{title = item.InnerItem.ShowInfo.Title}}
-    {{pill = i18n("season_name") + " " + item.InnerItem.SeasonNumber}}
+    {{title = item.InnerItem.GetTitle(i18n)}}
   {{end}}
 
 
