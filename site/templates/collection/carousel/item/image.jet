@@ -14,7 +14,7 @@
 
 
     {{if showTrailerBg}}
-    <video autoplay muted loop playsInline style="width: 100vw; height: 100vh; object-fit: contain; margin-top: -100px;">
+    <video autoplay muted loop playsInline class="carousel-item-video">
       <source src="{{trailerURL}}" type="video/mp4">
     </video>
    

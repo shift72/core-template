@@ -1,7 +1,10 @@
 import './modernizr-custom.js';
 import './can-be-watched-button.component.js';
 import './external-purchase-button.component.js';
-import CustomCarousel from './custom-carousel.component.js';
+import './carousel-video-mute-button.component.js';
+import carouselVideoPauseOnChange from './carousel-video-mutation-observer.js';
+//  testing custom carousel for heavy lifting if neccesary, load script and use <custom-carousel> tags if needed
+// import CustomCarousel from './custom-carousel.component.js';
 
 /*global Swiper, Modernizr, s72*/
 
@@ -507,7 +510,9 @@ function detectTouchscreen() {
 function isTouchscreenEnabled() {
   return document.querySelector('html').getAttribute('is-touchscreen') === 'true';
 }
+
 document.addEventListener('s72loaded', event => {
   let app = event.detail.app;
   documentReady(app);
+  carouselVideoPauseOnChange();
 });

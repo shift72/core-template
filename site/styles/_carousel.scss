@@ -1,5 +1,4 @@
-s72-carousel,
-custom-carousel {
+s72-carousel {
   display: flex;
   height: var(--carousel-height);
   margin-bottom: 30px;
@@ -14,19 +13,25 @@ custom-carousel {
   @include media-breakpoint-up(lg) {
     height: var(--carousel-height-lg);
   }
-}
-
-custom-carousel #muteBtn {
-  height: 40px;
-  width: 40px;
-  border: none;
-  &.muted {
-    background: url('/images/icons/volume-on.png');
-    background-size: contain;
-  }
-  &.unmuted {
-    background: url('/images/icons/volume-off.png');
-    background-size: contain;
+  #muteBtn {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    z-index: 99999;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border: none;
+    &.muted {
+      background-color: white;
+      -webkit-mask-image: url('/images/icons/muted.svg');
+      mask-image: url('/images/icons/muted.svg');
+    }
+    &.unmuted {
+      background-color: white;
+      -webkit-mask-image: url('/images/icons/unmuted.svg');
+      mask-image: url('/images/icons/unmuted.svg');
+    }
   }
 }
 
@@ -112,6 +117,19 @@ custom-carousel #muteBtn {
         border-radius: 4px;
         outline: 1px solid var(--body-color);
       }
+    }
+  }
+
+  .carousel-item-video {
+    width: 100vw;
+    height: var(--carousel-height);
+    object-fit: cover;
+    @include media-breakpoint-up(sm) {
+      height: var(--carousel-height-sm);
+    }
+
+    @include media-breakpoint-up(lg) {
+      height: var(--carousel-height-lg);
     }
   }
 }
