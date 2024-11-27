@@ -56,8 +56,8 @@
 
     </a>
 
-      {{if showTrailerBg}}
-        <carousel-video-mute-button></carousel-video-mute-button>
-      {{end}}
+    {{if showTrailerBg}}
+      <carousel-video-mute-button></carousel-video-mute-button>
+    {{end}}
   </div>
 {{end}}
