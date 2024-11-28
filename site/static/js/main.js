@@ -500,6 +500,16 @@ function documentReady(app) {
     initSearch();
   }
   initScroll();
+
+  // pause carousel trailer video when trailer is opened in modal
+  document.querySelectorAll('s72-modal-player button').forEach(b =>
+    b.addEventListener('click', () => {
+      let v = document.querySelector('.s72-carousel-item.current video');
+      if (v) {
+        v.pause();
+      }
+    })
+  );
 }
 
 function detectTouchscreen() {
@@ -515,4 +525,12 @@ document.addEventListener('s72loaded', event => {
   let app = event.detail.app;
   documentReady(app);
   carouselVideoPauseOnChange();
+
+  // resume carousel trailer video when trailer modal is closed.
+  app.messagebus.subscribe('modal-closed', () => {
+    let v = document.querySelector('.s72-carousel-item.current video');
+    if (v) {
+      v.play();
+    }
+  });
 });

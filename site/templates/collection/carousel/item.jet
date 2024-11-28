@@ -57,7 +57,12 @@
     </a>
 
     {{if showTrailerBg}}
+    {{trailerURL := isBundle ? item.InnerItem.PromoURL : (isFilm || isSeason) && len(item.InnerItem.Trailers) > 0 ? item.InnerItem.Trailers[0].URL : ""}}
+    {{dataLabel := i18n("play_trailer")}}
+    <div class="carousel-video-btns">
+      <s72-modal-player id="trailerBtn" src="{{trailerURL}}" data-slug="{{item.Slug}}" data-label="{{dataLabel}}" autoplay="querystring" layout="tooltip"></s72-modal-player>
       <carousel-video-mute-button></carousel-video-mute-button>
+    </div>
     {{end}}
   </div>
 {{end}}

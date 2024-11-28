@@ -13,24 +13,42 @@ s72-carousel {
   @include media-breakpoint-up(lg) {
     height: var(--carousel-height-lg);
   }
-  #muteBtn {
+
+  .carousel-video-btns {
     position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
     bottom: 100px;
     right: 50px;
     z-index: 99999;
-    height: 30px;
-    width: 30px;
-    margin: 10px;
-    border: none;
-    &.muted {
-      background-color: white;
-      -webkit-mask-image: url('/images/icons/muted.svg');
-      mask-image: url('/images/icons/muted.svg');
+
+    #muteBtn {
+      border: none;
+      padding: 0;
+      background: transparent;
+      svg {
+        fill: white;
+        width: 26px;
+        height: 26px;
+      }
     }
-    &.unmuted {
+
+    #trailerBtn {
+      height: 26px;
+      width: 26px;
+      margin: 10px;
+      border: none;
       background-color: white;
-      -webkit-mask-image: url('/images/icons/unmuted.svg');
-      mask-image: url('/images/icons/unmuted.svg');
+      -webkit-mask-image: url('/images/icons/video-popup.png');
+      mask-image: url('/images/icons/video-popup.png');
+      -webkit-mask-size: 26px;
+      mask-size: 26px;
+
+      .s72-btn-play-icon {
+        display: none;
+      }
     }
   }
 }

@@ -1,23 +1,31 @@
 import { AppComponent, bindAllComponents, render, h, attrs } from 's72.ui';
+import CarouselVideoMutedIcon from './icons/carousel-video-muted-icon.js';
+import CarouselVideoUnMutedIcon from './icons/carousel-video-unmuted-icon.js';
 
 export default class CarouselVideoMuteButton extends AppComponent {
+  constructor(props, context) {
+    super(props, context);
+    this.state = { muted: true };
+  }
+
   toggleBackgroundMute() {
     let video = document.querySelector('.s72-carousel-item.current video');
-    let button = document.querySelector('.s72-carousel-item.current #muteBtn');
 
     if (video.muted) {
       video.muted = false;
-      button.classList.remove('muted');
-      button.classList.add('unmuted');
+      this.setState({ muted: false });
     } else {
       video.muted = true;
-      button.classList.remove('unmuted');
-      button.classList.add('muted');
+      this.setState({ muted: true });
     }
   }
 
   render() {
-    return <button id="muteBtn" onClick={() => this.toggleBackgroundMute()} class="muted" />;
+    return (
+      <button id="muteBtn" onClick={() => this.toggleBackgroundMute()}>
+        {this.state.muted ? <CarouselVideoMutedIcon /> : <CarouselVideoUnMutedIcon />}
+      </button>
+    );
   }
 }
 

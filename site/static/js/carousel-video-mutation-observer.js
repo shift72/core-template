@@ -8,6 +8,7 @@ export default function carouselVideoPauseOnChange() {
 
   // watch all carousel items for class change
   document.querySelectorAll('.s72-carousel-item').forEach(carousel_item => {
+    // eslint-disable-next-line no-unused-vars
     let callback = (mutationsList, observer) => {
       mutationsList.forEach(mutation => {
         if (mutation.attributeName === 'class') {
