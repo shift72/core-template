@@ -16,7 +16,7 @@
       class="user-continue-watching s72-slider s72-hide">
     <section class="page-collection" aria-label="{{i18n("wcag_aria_label_continue_watching")}}">
       <div class="collection-wrapper-container swiper-wrapper-container">
-        <div class="collection-container swiper-container" data-items-per-row="{{itemsPerRow}}" data-layout="{{layout}}">
+        <div class="collection-container swiper-container" is-dynamic-slider disable-infinite-scroll data-items-per-row="{{itemsPerRow}}" data-layout="{{layout}}">
           {{if i18n("continue_watching_slider_header") != ""}}
             <div class="swiper-title">
               <h3>{{i18n("continue_watching_slider_header")}}</h3>
