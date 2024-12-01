@@ -2,6 +2,10 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.20...HEAD)
 
+### Fixed
+ - Turn off infinite scroll on the wishlist/continue watching sliders. This
+   caused some funkiness if items were removed after scrolling the slider.
+
 ## [1.9.20](https://github.com/shift72/core-template/compare/1.9.19...1.9.20)
 
 ### Fixed

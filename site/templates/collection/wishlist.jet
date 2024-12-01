@@ -1,9 +1,10 @@
 {{import "./page_collection_item.jet"}}
 {{import "../common/slider.jet"}}
 {{import "./slider-buttons.jet"}}
+
 {{block wishlistCollection()}}
-
-{{if config("default_image_type") == "portrait"}}
+  {{layout := config("default_image_type")}}
+  {{itemsPerRow := layout == "portrait" ? 6 : 4}}
   <s72-userwishlist
       render-as-slider="false"
       hide-if-empty="true"
@@ -11,37 +12,23 @@
       partials-classes="swiper-slide"
       partials-insert-point-selector=".swiper-wrapper"
       force-login="false"
-      data-items-per-page="6" data-item-layout="portrait" class="user-wishlist s72-slider s72-hide">
-
-{{else}}
-  <s72-userwishlist
-      render-as-slider="false"
-      hide-if-empty="true"
-      partials-base-path="/partials"
-      partials-classes="swiper-slide"
-      partials-insert-point-selector=".swiper-wrapper"
-      force-login="false"
-      data-items-per-page="4" data-item-layout="landscape" class="user-wishlist s72-slider s72-hide">
-
-{{end}}
-  <section class="page-collection" aria-label="{{i18n("wcag_aria_label_wishlist")}}">
-    <div class="collection-wrapper-container swiper-wrapper-container">
-      {{if config("default_image_type") == "portrait"}}
-        <div class="collection-container swiper-container" is-wishlist="true" data-items-per-row="6" data-layout="portrait">
-      {{else}}
-        <div class="collection-container swiper-container" is-wishlist="true" data-items-per-row="4" data-layout="landscape">
-      {{end}}
-            {{if i18n("userwishlist_slider_header") != ""}}
+      data-item-layout="{{layout}}"
+      data-items-per-page="{{itemsPerRow}}"
+      class="user-wishlist s72-slider s72-hide">
+    <section class="page-collection" aria-label="{{i18n("wcag_aria_label_wishlist")}}">
+      <div class="collection-wrapper-container swiper-wrapper-container">
+        <div class="collection-container swiper-container" is-dynamic-slider disable-infinite-scroll data-items-per-row="{{itemsPerRow}}" data-layout="{{layout}}">
+          {{if i18n("userwishlist_slider_header") != ""}}
             <div class="swiper-title">
-                <h3>{{i18n("userwishlist_slider_header")}}</h3>
+              <h3>{{i18n("userwishlist_slider_header")}}</h3>
             </div>
-            {{end}}
-            <div class="swiper-wrapper">
-              {{yield content}}
-            </div>
+          {{end}}
+          <div class="swiper-wrapper">
+            {{yield content}}
+          </div>
         </div>
-        {{ yield sliderButtons() }}
-    </div>
-  </section>
-</s72-userwishlist>
+        {{yield sliderButtons()}}
+      </div>
+    </section>
+  </s72-userwishlist>
 {{end}}
