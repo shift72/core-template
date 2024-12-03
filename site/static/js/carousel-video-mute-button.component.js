@@ -22,7 +22,7 @@ export default class CarouselVideoMuteButton extends AppComponent {
 
   render() {
     return (
-      <button id="muteBtn" onClick={() => this.toggleBackgroundMute()}>
+      <button id="muteBtn" class="mute-btn" onClick={() => this.toggleBackgroundMute()}>
         {this.state.muted ? <CarouselVideoMutedIcon /> : <CarouselVideoUnMutedIcon />}
       </button>
     );
