@@ -15,6 +15,47 @@ s72-carousel {
   }
 }
 
+.carousel-video-btns {
+  align-items: center;
+  bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  position: absolute;
+  right: 50px;
+  z-index: 99999;
+
+  .mute-btn {
+    background: transparent;
+    border: 0;
+    padding: 0;
+
+    svg {
+      fill: fff;
+      height: 26px;
+      width: 26px;
+    }
+  }
+
+  .trailer-btn {
+    background-color: #fff;
+    border: 0;
+    height: 26px;
+    margin: 10px;
+    width: 26px;
+    /* stylelint-disable */
+    -webkit-mask-image: url('/images/icons/video-popup.png');
+    mask-image: url('/images/icons/video-popup.png');
+    -webkit-mask-size: 26px;
+    mask-size: 26px;
+    /* stylelint-enable */
+
+    .s72-btn-play-icon {
+      display: none;
+    }
+  }
+}
+
 .page-collection-carousel {
   display: flex;
   flex-direction: column;
@@ -97,6 +138,19 @@ s72-carousel {
         border-radius: 4px;
         outline: 1px solid var(--body-color);
       }
+    }
+  }
+
+  .carousel-item-video {
+    height: var(--carousel-height);
+    object-fit: cover;
+    width: 100vw;
+    @include media-breakpoint-up(sm) {
+      height: var(--carousel-height-sm);
+    }
+
+    @include media-breakpoint-up(lg) {
+      height: var(--carousel-height-lg);
     }
   }
 }
