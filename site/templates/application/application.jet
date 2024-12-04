@@ -108,11 +108,11 @@
     {{block navigation()}}
       {{yield nav() }}
     {{end}}
-    <div class="s72-page-container">
-      {{yield body()}}
 
-      {{yield footer()}}
-    </div>
+    {{yield body()}}
+
+    {{yield footer()}}
+
     {{yield googleScripts()}}
     {{yield pixelScripts()}}
     <s72-donate-button></s72-donate-button>
