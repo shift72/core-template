@@ -11,6 +11,7 @@
   {{trailerURL := isBundle ? .PromoURL : (isFilm || isSeason) && len(.Trailers) > 0 ? .Trailers[0].URL : ""}}
 
   {{showPricingButtons := isFilm || isSeason || isBundle}}
+  {{showGiftButton := isFilm || isSeason || isBundle}}
   {{showPlayButton := isFilm || isSeason || isEpisode}}
   {{showTrailerButton := trailerURL != ""}}
   {{showWishlistButton := isFilm || isSeason || isEpisode}}
@@ -53,6 +54,10 @@
 
       {{if showExtraButtons}}
         <div class="extra-buttons">
+
+          {{if showGiftButton}}
+            <s72-gift-button data-slug="{{slug}}"></s72-gift-button>
+          {{end}}
 
           {{if showTrailerButton}}
             {{dataLabel := i18n("play_trailer")}}
