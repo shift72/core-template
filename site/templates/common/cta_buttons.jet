@@ -11,7 +11,7 @@
   {{trailerURL := isBundle ? .PromoURL : (isFilm || isSeason) && len(.Trailers) > 0 ? .Trailers[0].URL : ""}}
 
   {{showPricingButtons := isFilm || isSeason || isBundle}}
-  {{showGiftButton := isFilm || isSeason || isBundle}}
+  {{showGiftButton := !isCarousel && (isFilm || isSeason || isBundle)}}
   {{showPlayButton := isFilm || isSeason || isEpisode}}
   {{showTrailerButton := trailerURL != ""}}
   {{showWishlistButton := isFilm || isSeason || isEpisode}}
