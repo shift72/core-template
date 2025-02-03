@@ -1739,5 +1739,8 @@
   },
   "account_form_ad_privacy_settings": {
     "other": "Datenschutzeinstellungen für Anzeigen"
+  },
+  "gift_purchase_button_label": {
+    "other": "Geschenk"
   }
 }

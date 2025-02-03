@@ -1741,5 +1741,8 @@
   },
   "account_form_ad_privacy_settings": {
     "other": "Postavke privatnosti oglasa"
+  },
+  "gift_purchase_button_label": {
+    "other": "Dar"
   }
 }
