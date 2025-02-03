@@ -2,6 +2,9 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.20...HEAD)
 
+### Added
+ - Purchase gift CTA button
+
 ## [1.9.20](https://github.com/shift72/core-template/compare/1.9.19...1.9.20)
 
 ### Fixed
