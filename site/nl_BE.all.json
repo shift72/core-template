@@ -1739,5 +1739,8 @@
   },
   "account_form_ad_privacy_settings": {
     "other": "Privacy-instellingen voor advertenties"
+  },
+  "gift_purchase_button_label": {
+    "other": "Aankoop als geschenk"
   }
 }

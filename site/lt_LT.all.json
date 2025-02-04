@@ -1771,5 +1771,8 @@
   },
   "account_form_ad_privacy_settings": {
     "other": "Skelbimų privatumo nustatymai"
+  },
+  "gift_purchase_button_label": {
+    "other": "Pirkti kaip dovaną"
   }
 }

@@ -1739,5 +1739,8 @@
   },
   "account_form_ad_privacy_settings": {
     "other": "Personverninnstillinger for annonser"
+  },
+  "gift_purchase_button_label": {
+    "other": "Kjøp som gave"
   }
 }

@@ -1816,5 +1816,8 @@
   },
   "account_form_ad_privacy_settings": {
     "other": "Ustawienia prywatności reklam"
+  },
+  "gift_purchase_button_label": {
+    "other": "Kup na prezent"
   }
 }
