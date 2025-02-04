@@ -473,7 +473,7 @@ function documentReady(app) {
   let swipers = document.getElementsByClassName('swiper-container');
   for (let i = 0; i < swipers.length; i++) {
     let el = swipers[i];
-    if (el.getAttribute('is-wishlist') == undefined) {
+    if (el.getAttribute('is-dynamic-slider') == undefined) {
       let swiper = initializeSwiper(el, false);
       init(swiper);
 
