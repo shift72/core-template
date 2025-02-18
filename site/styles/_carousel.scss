@@ -18,18 +18,18 @@ s72-carousel {
 .carousel-video-btns {
   align-items: center;
   bottom: 135px;
-  @include media-breakpoint-up(xs) {
-    bottom: 142px;
-  }
-  @include media-breakpoint-up(lg) {
-    bottom: 18px;
-  }
   display: flex;
   flex-direction: row;
   height: 30px;
   position: absolute;
   right: 50px;
   z-index: 99999;
+  @include media-breakpoint-up(xs) {
+    bottom: 142px;
+  }
+  @include media-breakpoint-up(lg) {
+    bottom: 18px;
+  }
 
   .mute-btn {
     background: transparent;
