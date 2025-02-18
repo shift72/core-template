@@ -15,7 +15,7 @@
   {{isSeason := itemType == "tvseason"}}
   {{isBundle := itemType == "bundle"}}
   {{trailerURL := isBundle ? item.InnerItem.PromoURL : (isFilm || isSeason) && len(item.InnerItem.Trailers) > 0 ? item.InnerItem.Trailers[0].URL : ""}}
-  {{showTrailerBg := trailerURL ? item.InnerItem.CustomFields.GetString("use_trailer_as_background_video", "") : "" }}
+  {{showTrailerBg := trailerURL ? item.InnerItem.CustomFields.GetBool("use_trailer_as_background_video", false) : "" }}
   {{showItemContent := !isset(item["PageType"]) || item.PageType != "external"}}
 
   <div class="s72-carousel-item" data-slug="{{item.Slug}}">

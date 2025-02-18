@@ -17,7 +17,13 @@ s72-carousel {
 
 .carousel-video-btns {
   align-items: center;
-  bottom: 100px;
+  bottom: 135px;
+  @include media-breakpoint-up(xs) {
+    bottom: 142px;
+  }
+  @include media-breakpoint-up(lg) {
+    bottom: 18px;
+  }
   display: flex;
   flex-direction: row;
   height: 30px;
