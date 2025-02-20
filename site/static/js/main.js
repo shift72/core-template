@@ -2,7 +2,6 @@ import './modernizr-custom.js';
 import './can-be-watched-button.component.js';
 import './external-purchase-button.component.js';
 import './carousel-video-mute-button.component.js';
-import carouselVideoPauseOnChange from './carousel-video-mutation-observer.js';
 
 /*global Swiper, Modernizr, s72*/
 
@@ -464,6 +463,60 @@ function toggleScroll() {
   }
 }
 
+function initCarouselVideo(app) {
+  // pause carousel trailer video when trailer is opened in modal
+  document.querySelectorAll('s72-modal-player button').forEach(b =>
+    b.addEventListener('click', () => {
+      let video = document.querySelector('.s72-carousel-item.current video');
+      if (video) {
+        video.pause();
+      }
+    })
+  );
+
+  // listen for s72-carousel events
+  document.querySelectorAll('s72-carousel').forEach(c => {
+    c.addEventListener('s72-carousel:slide-hidden', e => {
+      console.log('slide hidden', e.target);
+      pauseVideoSlide(e.target);
+    });
+    c.addEventListener('s72-carousel:slide-shown', e => {
+      console.log('slide shown ', e.target);
+      playVideoSlide(e.target);
+    });
+  });
+
+  // resume carousel trailer video when trailer modal is closed.
+  app.messagebus.subscribe('modal-closed', () => {
+    let v = document.querySelector('.s72-carousel-item.current video');
+    if (v) {
+      v.play();
+    }
+  });
+
+  // play first carousel video trailer on load if there
+  let s = document.querySelector('.s72-carousel-item.current video source');
+  if (s) {
+    s.setAttribute('src', s.parentNode.getAttribute('data-src'));
+    s.parentNode.load();
+  }
+}
+
+function playVideoSlide(slide) {
+  const video = slide.querySelector('video');
+  let s = video.querySelector('source');
+  if (s.getAttribute('src')) {
+    video.play();
+  } else {
+    s.setAttribute('src', video.getAttribute('data-src'));
+    video.load();
+  }
+}
+function pauseVideoSlide(slide) {
+  const video = slide.querySelector('video');
+  video.pause();
+}
+
 function documentReady(app) {
   initializeCustomSliders();
 
@@ -498,16 +551,7 @@ function documentReady(app) {
     initSearch();
   }
   initScroll();
-
-  // pause carousel trailer video when trailer is opened in modal
-  document.querySelectorAll('s72-modal-player button').forEach(b =>
-    b.addEventListener('click', () => {
-      let v = document.querySelector('.s72-carousel-item.current video');
-      if (v) {
-        v.pause();
-      }
-    })
-  );
+  initCarouselVideo(app);
 }
 
 function detectTouchscreen() {
@@ -522,13 +566,4 @@ function isTouchscreenEnabled() {
 document.addEventListener('s72loaded', event => {
   let app = event.detail.app;
   documentReady(app);
-  carouselVideoPauseOnChange();
-
-  // resume carousel trailer video when trailer modal is closed.
-  app.messagebus.subscribe('modal-closed', () => {
-    let v = document.querySelector('.s72-carousel-item.current video');
-    if (v) {
-      v.play();
-    }
-  });
 });
