@@ -1,7 +1,26 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.19...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.20...HEAD)
 
+### Added
+ - Purchase gift CTA button
+
+### Fixed
+ - Turn off infinite scroll on the wishlist/continue watching sliders. This
+   caused some funkiness if items were removed after scrolling the slider.
+ - Fixed alignment on collection rows. The first item had a negative margin hack
+   to align with headings, but this didn't affect subsequent rows causing the
+   posters to be skewed by 5px. The fix applies the negative margin to the
+   entire container.
+ - Slightly reduce spacing between poster and the title below. In grid views this
+   makes it less ambiguous which poster the text is associated with.
+
+## [1.9.20](https://github.com/shift72/core-template/compare/1.9.19...1.9.20)
+
+### Fixed
+- Typo in translation for ad tracking settings
+- Positioning of plan label
+- TV seasons not showing season number under posters in sliders / search results etc.
 
 ## [1.9.19](https://github.com/shift72/core-template/compare/1.9.18...1.9.19)
 

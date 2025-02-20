@@ -1755,5 +1755,8 @@
   },
   "account_form_ad_privacy_settings": {
     "other": "Подешавања приватности огласа"
+  },
+  "gift_purchase_button_label": {
+    "other": "Купите као поклон"
   }
 }
