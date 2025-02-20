@@ -5,10 +5,16 @@
 {{import "./pixel.jet"}}
 {{import "./footer/footer.jet" }}
 
-{{useLocalDevRelish := false}}
+{{useDeployedDevRelish := site.Toggles["use_dev_relish"] || false }}
+{{useLocalDevRelish := false }}
 {{useLocalDevCheckout := false}}
 
-{{CDN := useLocalDevRelish ? "//localhost:3000" : "//cdn.shift72.com/1.4"}}
+{{CDN := "//cdn.shift72.com/1.4"}}
+{{if useLocalDevRelish}}
+  {{CDN = "//localhost:3000" }}
+{{else if useDeployedDevRelish}}
+  {{CDN = "//cdn.shift72.com/dev"}}
+{{end}}
 
 {{CSSFileURL := site.SiteBrand.GetLink("css", "")}}
 {*{CSSFileURL := "/styles/local.css"}*}
