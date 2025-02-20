@@ -112,14 +112,9 @@
   },
   "siteRootPath": "site",
   "liveReload": {
-    "ignoredPaths": [
-      "styles",
-      "js"
-    ]
+    "ignoredPaths": ["styles", "js"]
   },
-  "proxy": [
-    "^/checkout/"
-  ],
+  "proxy": ["^/checkout/"],
   "routes": [
     {
       "name": "filmItem",

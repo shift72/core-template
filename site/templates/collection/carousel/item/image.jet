@@ -1,4 +1,5 @@
-{{block carouselItemImage()}}
+{{import "./video.jet"}}
+{{block carouselItemImage(showTrailerBg, trailerURL)}}
   {{if isset(.Images["Carousel"])}}
     {* If carousel focus is set for film (film infos metadata) or tv season (tv seasons metadata) or custom fields for Pages / Bundles then it will set a class accordingly to position the carousel image *}
     {{focusClass = ""}}
@@ -11,6 +12,13 @@
         {{focusClass = "focus-center"}}
       {{end}}
     {{end}}
-    <s72-image src="{{.Images.Carousel}}" alt="{{.Title}}" class="carousel-item-image {{focusClass}}"></s72-image>
+
+
+    {{if showTrailerBg}}
+      {{yield carouselItemVideo() item.InnerItem}}
+
+    {{else}}
+      <s72-image src="{{.Images.Carousel}}" alt="{{.Title}}" class="carousel-item-image {{focusClass}}"></s72-image>
+    {{end}}
   {{end}}
 {{end}}

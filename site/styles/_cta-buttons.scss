@@ -185,6 +185,22 @@
       grid-column: auto;
       grid-row: 1;
     }
+    carousel-video-mute-button {
+      margin-left: -6px;
+    }
+    .mute-btn {
+      background: transparent;
+      border: 0;
+      height: 42px;
+      padding: 0;
+      width: 42px;
+
+      svg {
+        fill: #fff;
+        height: 26px;
+        width: 26px;
+      }
+    }
   }
 }
 /* stylelint-enable selector-max-compound-selectors, max-nesting-depth */

@@ -33,7 +33,7 @@
 
   {{showCtaButtons := showPricingButtons || showPlayButton || showCanBeWatchedButton || showTrailerButton || showWishlistButton || showShareButton || showExternalPurchaseButton}}
   {{showExtraButtons := showTrailerButton || showWishlistButton || showShareButton}}
-
+  {{showTrailerBg := trailerURL ? .CustomFields.GetBool("use_trailer_as_background_video", false) : "" }}
 
   {{if showCtaButtons}}
     <div class="cta-buttons">
@@ -66,6 +66,10 @@
           {{if showTrailerButton}}
             {{dataLabel := i18n("play_trailer")}}
             <s72-modal-player src="{{trailerURL}}" class="s72-btn-trailer" data-slug="{{slug}}" data-label="{{dataLabel}}" {{if autoplay}}autoplay="querystring"{{end}} layout="tooltip"></s72-modal-player>
+          {{end}}
+
+          {{if isCarousel && showTrailerBg}}
+            <carousel-video-mute-button></carousel-video-mute-button>
           {{end}}
 
           {{if showWishlistButton}}
