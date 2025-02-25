@@ -477,11 +477,9 @@ function initCarouselVideo(app) {
   // listen for s72-carousel events
   document.querySelectorAll('s72-carousel').forEach(c => {
     c.addEventListener('s72-carousel:slide-hidden', e => {
-      console.log('slide hidden', e.target);
       pauseVideoSlide(e.target);
     });
     c.addEventListener('s72-carousel:slide-shown', e => {
-      console.log('slide shown ', e.target);
       playVideoSlide(e.target);
     });
   });
