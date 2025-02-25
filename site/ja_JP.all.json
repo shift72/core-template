@@ -1726,5 +1726,8 @@
   },
   "account_form_ad_privacy_settings": {
     "other": "広告のプライバシー設定"
+  },
+  "gift_purchase_button_label": {
+    "other": "ギフトとして購入"
   }
 }

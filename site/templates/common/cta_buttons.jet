@@ -11,24 +11,29 @@
   {{trailerURL := isBundle ? .PromoURL : (isFilm || isSeason) && len(.Trailers) > 0 ? .Trailers[0].URL : ""}}
 
   {{showPricingButtons := isFilm || isSeason || isBundle}}
+
   {{showPlayButton := isFilm || isSeason || isEpisode}}
   {{showTrailerButton := trailerURL != ""}}
   {{showWishlistButton := isFilm || isSeason || isEpisode}}
   {{showShareButton := isFilm || isSeason || isEpisode || isBundle}}
   {{autoplay := !isCarousel}}
 
+
+  {{supportsGiftPurchase := isEnabled("use_checkout") && config("gift_purchase_enabled", "false") == "true" }}
+  {{showGiftButton := supportsGiftPurchase && !isCarousel}}
+
   {* These are limited to films for now, but really it should work for anything that has custom fields *}
   {{canBeWatchedButtonLink := isFilm ? .CustomFields.GetString("can_be_watched_button_link", "") : ""}}
   {{canBeWatchedButtonText := isFilm ? .CustomFields.GetString("can_be_watched_button_text", "can_be_watched_button_text") : ""}}
   {{showCanBeWatchedButton := len(canBeWatchedButtonLink) > 0}}
-  
+
   {{externalPurchaseButtonLink := isFilm ? .CustomFields.GetString("external_purchase_button_link", "") : ""}}
   {{externalPurchaseButtonText := isFilm ? .CustomFields.GetString("external_purchase_button_text", "external_purchase_button_text") :"" }}
   {{showExternalPurchaseButton := len(externalPurchaseButtonLink) > 0}}
 
   {{showCtaButtons := showPricingButtons || showPlayButton || showCanBeWatchedButton || showTrailerButton || showWishlistButton || showShareButton || showExternalPurchaseButton}}
   {{showExtraButtons := showTrailerButton || showWishlistButton || showShareButton}}
-
+  {{showTrailerBg := trailerURL ? .CustomFields.GetBool("use_trailer_as_background_video", false) : "" }}
 
   {{if showCtaButtons}}
     <div class="cta-buttons">
@@ -54,9 +59,17 @@
       {{if showExtraButtons}}
         <div class="extra-buttons">
 
+          {{if showGiftButton}}
+            <s72-gift-button data-slug="{{slug}}"></s72-gift-button>
+          {{end}}
+
           {{if showTrailerButton}}
             {{dataLabel := i18n("play_trailer")}}
             <s72-modal-player src="{{trailerURL}}" class="s72-btn-trailer" data-slug="{{slug}}" data-label="{{dataLabel}}" {{if autoplay}}autoplay="querystring"{{end}} layout="tooltip"></s72-modal-player>
+          {{end}}
+
+          {{if isCarousel && showTrailerBg}}
+            <carousel-video-mute-button></carousel-video-mute-button>
           {{end}}
 
           {{if showWishlistButton}}

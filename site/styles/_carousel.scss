@@ -99,6 +99,19 @@ s72-carousel {
       }
     }
   }
+
+  .carousel-item-video {
+    height: var(--carousel-height);
+    object-fit: cover;
+    width: 100vw;
+    @include media-breakpoint-up(sm) {
+      height: var(--carousel-height-sm);
+    }
+
+    @include media-breakpoint-up(lg) {
+      height: var(--carousel-height-lg);
+    }
+  }
 }
 
 .carousel-item-caption {

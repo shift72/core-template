@@ -1,6 +1,7 @@
 import './modernizr-custom.js';
 import './can-be-watched-button.component.js';
 import './external-purchase-button.component.js';
+import './carousel-video-mute-button.component.js';
 
 /*global Swiper, Modernizr, s72*/
 
@@ -66,49 +67,49 @@ function initializeSwiper(element, force) {
 
     if (layout == 'portrait') {
       switch (itemsPerRow) {
-      case '6':
-        defaultSlidesPerView = 8;
-        slidesPerView[1600] = 6;
-        slidesPerView[1440] = 6;
-        slidesPerView[1200] = 5;
-        slidesPerView[992] = 4;
-        slidesPerView[768] = 4;
-        slidesPerView[667] = 3;
-        slidesPerView[568] = 3;
-        break;
+        case '6':
+          defaultSlidesPerView = 8;
+          slidesPerView[1600] = 6;
+          slidesPerView[1440] = 6;
+          slidesPerView[1200] = 5;
+          slidesPerView[992] = 4;
+          slidesPerView[768] = 4;
+          slidesPerView[667] = 3;
+          slidesPerView[568] = 3;
+          break;
 
-      case '4':
-        defaultSlidesPerView = 6;
-        slidesPerView[1600] = 5;
-        slidesPerView[1440] = 5;
-        slidesPerView[1200] = 4;
-        slidesPerView[992] = 3;
-        slidesPerView[768] = 3;
-        slidesPerView[667] = 3;
-        slidesPerView[568] = 2;
-        break;
+        case '4':
+          defaultSlidesPerView = 6;
+          slidesPerView[1600] = 5;
+          slidesPerView[1440] = 5;
+          slidesPerView[1200] = 4;
+          slidesPerView[992] = 3;
+          slidesPerView[768] = 3;
+          slidesPerView[667] = 3;
+          slidesPerView[568] = 2;
+          break;
       }
     } else if (layout == 'landscape') {
       switch (itemsPerRow) {
-      case '4':
-        defaultSlidesPerView = 5;
-        slidesPerView[1600] = 4;
-        slidesPerView[1440] = 4;
-        slidesPerView[1200] = 3;
-        slidesPerView[992] = 3;
-        slidesPerView[768] = 3;
-        slidesPerView[568] = 2;
-        break;
+        case '4':
+          defaultSlidesPerView = 5;
+          slidesPerView[1600] = 4;
+          slidesPerView[1440] = 4;
+          slidesPerView[1200] = 3;
+          slidesPerView[992] = 3;
+          slidesPerView[768] = 3;
+          slidesPerView[568] = 2;
+          break;
 
-      case '3':
-        defaultSlidesPerView = 4;
-        slidesPerView[1600] = 3;
-        slidesPerView[1440] = 3;
-        slidesPerView[1200] = 3;
-        slidesPerView[992] = 2;
-        slidesPerView[768] = 2;
-        slidesPerView[568] = 2;
-        break;
+        case '3':
+          defaultSlidesPerView = 4;
+          slidesPerView[1600] = 3;
+          slidesPerView[1440] = 3;
+          slidesPerView[1200] = 3;
+          slidesPerView[992] = 2;
+          slidesPerView[768] = 2;
+          slidesPerView[568] = 2;
+          break;
       }
     }
   }
@@ -462,6 +463,58 @@ function toggleScroll() {
   }
 }
 
+function initCarouselVideo(app) {
+  // pause carousel trailer video when trailer is opened in modal
+  document.querySelectorAll('s72-modal-player button').forEach(b =>
+    b.addEventListener('click', () => {
+      let video = document.querySelector('.s72-carousel-item.current video');
+      if (video) {
+        video.pause();
+      }
+    })
+  );
+
+  // listen for s72-carousel events
+  document.querySelectorAll('s72-carousel').forEach(c => {
+    c.addEventListener('s72-carousel:slide-hidden', e => {
+      pauseVideoSlide(e.target);
+    });
+    c.addEventListener('s72-carousel:slide-shown', e => {
+      playVideoSlide(e.target);
+    });
+  });
+
+  // resume carousel trailer video when trailer modal is closed.
+  app.messagebus.subscribe('modal-closed', () => {
+    let v = document.querySelector('.s72-carousel-item.current video');
+    if (v) {
+      v.play();
+    }
+  });
+
+  // play first carousel video trailer on load if there
+  let s = document.querySelector('.s72-carousel-item.current video source');
+  if (s) {
+    s.setAttribute('src', s.parentNode.getAttribute('data-src'));
+    s.parentNode.load();
+  }
+}
+
+function playVideoSlide(slide) {
+  const video = slide.querySelector('video');
+  let s = video.querySelector('source');
+  if (s.getAttribute('src')) {
+    video.play();
+  } else {
+    s.setAttribute('src', video.getAttribute('data-src'));
+    video.load();
+  }
+}
+function pauseVideoSlide(slide) {
+  const video = slide.querySelector('video');
+  video.pause();
+}
+
 function documentReady(app) {
   initializeCustomSliders();
 
@@ -473,7 +526,7 @@ function documentReady(app) {
   let swipers = document.getElementsByClassName('swiper-container');
   for (let i = 0; i < swipers.length; i++) {
     let el = swipers[i];
-    if (el.getAttribute('is-wishlist') == undefined) {
+    if (el.getAttribute('is-dynamic-slider') == undefined) {
       let swiper = initializeSwiper(el, false);
       init(swiper);
 
@@ -496,6 +549,7 @@ function documentReady(app) {
     initSearch();
   }
   initScroll();
+  initCarouselVideo(app);
 }
 
 function detectTouchscreen() {
@@ -506,6 +560,7 @@ function detectTouchscreen() {
 function isTouchscreenEnabled() {
   return document.querySelector('html').getAttribute('is-touchscreen') === 'true';
 }
+
 document.addEventListener('s72loaded', event => {
   let app = event.detail.app;
   documentReady(app);
