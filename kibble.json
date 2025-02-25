@@ -112,9 +112,14 @@
   },
   "siteRootPath": "site",
   "liveReload": {
-    "ignoredPaths": ["styles", "js"]
+    "ignoredPaths": [
+      "styles",
+      "js"
+    ]
   },
-  "proxy": ["^/checkout/"],
+  "proxy": [
+    "^/checkout/"
+  ],
   "routes": [
     {
       "name": "filmItem",
@@ -189,5 +194,5 @@
       "pageSize": 0
     }
   ],
-  "coreTemplateVersion": "1.9.20"
+  "coreTemplateVersion": "1.9.21"
 }

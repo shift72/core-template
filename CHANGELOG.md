@@ -1,24 +1,29 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.20...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.21...HEAD)
+
+## [1.9.21](https://github.com/shift72/core-template/compare/1.9.20...1.9.21)
 
 ### Added
- - Purchase gift CTA button
- - Carousel video support
+
+- Purchase gift CTA button
+- Carousel video support
 
 ### Fixed
- - Turn off infinite scroll on the wishlist/continue watching sliders. This
-   caused some funkiness if items were removed after scrolling the slider.
- - Fixed alignment on collection rows. The first item had a negative margin hack
-   to align with headings, but this didn't affect subsequent rows causing the
-   posters to be skewed by 5px. The fix applies the negative margin to the
-   entire container.
- - Slightly reduce spacing between poster and the title below. In grid views this
-   makes it less ambiguous which poster the text is associated with.
+
+- Turn off infinite scroll on the wishlist/continue watching sliders. This
+  caused some funkiness if items were removed after scrolling the slider.
+- Fixed alignment on collection rows. The first item had a negative margin hack
+  to align with headings, but this didn't affect subsequent rows causing the
+  posters to be skewed by 5px. The fix applies the negative margin to the
+  entire container.
+- Slightly reduce spacing between poster and the title below. In grid views this
+  makes it less ambiguous which poster the text is associated with.
 
 ## [1.9.20](https://github.com/shift72/core-template/compare/1.9.19...1.9.20)
 
 ### Fixed
+
 - Typo in translation for ad tracking settings
 - Positioning of plan label
 - TV seasons not showing season number under posters in sliders / search results etc.
@@ -26,22 +31,27 @@
 ## [1.9.19](https://github.com/shift72/core-template/compare/1.9.18...1.9.19)
 
 ### Added
+
 - Support for Ad consent tracking option on user account settings
 
 ### Changed
+
 - Deploy commands, now use npm run deploy to deploy
 
 ## [1.9.18](https://github.com/shift72/core-template/compare/1.9.17...1.9.18)
 
 ### Changed
+
 - Remove polyfill.io CDN in favour for Cloudflare
 
 ## [1.9.17](https://github.com/shift72/core-template/compare/1.9.16...1.9.17)
 
 ### Added
+
 - Continue watching slider
 
 ### Changed
+
 - Reduced carousel height slightly
 - css: use `--button-text-color` instead of `--body-bg` for `--tooltip-color`
 
