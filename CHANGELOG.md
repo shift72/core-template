@@ -4,6 +4,7 @@
 
 ### Added
  - Purchase gift CTA button
+ - Carousel video support
 
 ### Fixed
  - Turn off infinite scroll on the wishlist/continue watching sliders. This
