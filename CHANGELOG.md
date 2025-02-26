@@ -1,6 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.21...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.22...HEAD)
+
+## [1.9.22](https://github.com/shift72/core-template/compare/1.9.21...1.9.22)
+
+### Fixed
+
+- Bug with carousel attempting to pause / play when video not found
 
 ## [1.9.21](https://github.com/shift72/core-template/compare/1.9.20...1.9.21)
 
