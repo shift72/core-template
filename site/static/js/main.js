@@ -502,6 +502,7 @@ function initCarouselVideo(app) {
 
 function playVideoSlide(slide) {
   const video = slide.querySelector('video');
+  if (!video) return;
   let s = video.querySelector('source');
   if (s.getAttribute('src')) {
     video.play();
@@ -512,6 +513,7 @@ function playVideoSlide(slide) {
 }
 function pauseVideoSlide(slide) {
   const video = slide.querySelector('video');
+  if (!video) return;
   video.pause();
 }
 
