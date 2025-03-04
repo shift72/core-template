@@ -362,7 +362,7 @@
     left: 5px;
     pointer-events: none;
     position: absolute;
-    top: 50%;
+    top: calc(50% + 2px);
     transform: translateY(-50%);
     transition: none;
   }
