@@ -1,0 +1,10 @@
+{{block itemTitle(title,class)}}
+
+ {{titleImage := .ImageMap["Title"]}}
+
+  {{if isset(titleImage)}}
+    <img src="{{titleImage}}" alt="{{title}}" class="item-title-image {{class}}"></s72-image>
+  {{else}}
+    <h3>{{title}}</h3>
+  {{end}}
+{{end}}
