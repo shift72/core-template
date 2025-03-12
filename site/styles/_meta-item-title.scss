@@ -1,13 +1,13 @@
 .item-title-image {
-  max-height: 250px;
+  max-height: var(--title-image-max-height);
   object-fit: contain;
   object-position: left;
-  width: 250px;
+  width: var(--title-image-width);
   @include media-breakpoint-up(sm) {
-    width: 350px;
+    width: var(--title-image-width-sm);
   }
   @include media-breakpoint-up(lg) {
-    width: 400px;
+    width: var(--title-image-width-lg);
   }
   &.carousel {
     margin-bottom: 16px;
