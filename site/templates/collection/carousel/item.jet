@@ -37,7 +37,7 @@
           {{end}}
 
           <div class="meta-item-content">
-            {{yield itemTitle(title=item.GetTitle(i18n),class="carousel") item.InnerItem}}
+            {{yield itemTitle(title=item.GetTitle(i18n),class="carousel",element="h3") item.InnerItem}}
 
             {{yield carouselItemTagline() item.InnerItem}}
 

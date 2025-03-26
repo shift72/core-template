@@ -46,7 +46,7 @@
         </div>
 
         <div class="meta-detail-content">
-          {{yield itemTitle(title=film.Title,class="carousel") film}}
+          {{yield itemTitle(title=film.Title,class="carousel",element="h1") film}}
           <div class="meta-detail-tagline-and-classification">
             <div class="meta-detail-tagline">
               {{yield metaItemTagline() film}}
