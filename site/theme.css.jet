@@ -1,0 +1,6 @@
+:root {
+ --primary: {{site.SiteTheme.PrimaryRGB}};
+ {{if site.SiteTheme.SiteBranding.NavbarBrandHeight}}
+ --navbar-brand-height: {{site.SiteTheme.SiteBranding.NavbarBrandHeight}}
+ {{end}}
+}

@@ -5,6 +5,7 @@
 
 {{block nav(showSubNav=true)}}
 <header class="navigation" data-toggle="affix">
+  <h1>Rendered Admin Site: {{site.SiteConfig.RunAsAdmin}} - brand color {{site.SiteTheme.PrimaryRGB}}</h1>
   {{yield headerBanner()}}
   <div class="navbar-brand-container-tablet">
     <a class="navbar-brand-logo" href="{{routeToPath("/")}}">{{yield logo()}}</a>

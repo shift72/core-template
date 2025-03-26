@@ -41,6 +41,7 @@
     {{if CSSFileURL != "" }}
       <link rel="stylesheet" href="{{CSSFileURL}}">
     {{end}}
+    <link rel="stylesheet" href="/theme.css">
 
     {{faviconURL := site.SiteBrand.GetImage("favicon", "/favicon.ico")}}
     <link rel="shortcut icon" href="{{faviconURL}}" type="image/x-icon">

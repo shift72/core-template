@@ -18,7 +18,7 @@
     "js:build": "rollup -c",
     "kibble": "kibble render",
     "kibble:start": "mkdir -p .kibble && test -n \"$npm_config_admin\" && npm run kibble:watch -- --admin || npm run kibble:watch",
-    "kibble:watch": "kibble render --watch --port 8081",
+    "kibble:watch": "kibble render --watch --admin --port 8081",
     "kibble:build": "echo \"Deprecated, use 'npm run deploy' to build + publish.\"",
     "kibble:publish": "kibble publish",
     "build": "run-s -l css js:build css:build kibble",
