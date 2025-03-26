@@ -1,5 +1,6 @@
 .item-title-image {
   max-height: var(--title-image-max-height);
+  margin-left: var(--title-image-left-margin);
   object-fit: contain;
   object-position: left;
   width: var(--title-image-width);
