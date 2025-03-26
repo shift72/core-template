@@ -2,6 +2,8 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.22...HEAD)
 
+- Add support for film title images
+
 ## [1.9.22](https://github.com/shift72/core-template/compare/1.9.21...1.9.22)
 
 ### Fixed

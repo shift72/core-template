@@ -1,7 +1,7 @@
 {
   "name": "core-template",
-  "version": "0.38.6",
-  "siteUrl": "https://store-kibble.shift72.com",
+  "version": "0.0.1",
+  "siteUrl": "https://tvoddemo-addons.shift72.com",
   "builderVersion": "0.17.5",
   "defaultLanguage": "en",
   "languages": {
@@ -112,14 +112,9 @@
   },
   "siteRootPath": "site",
   "liveReload": {
-    "ignoredPaths": [
-      "styles",
-      "js"
-    ]
+    "ignoredPaths": ["styles", "js"]
   },
-  "proxy": [
-    "^/checkout/"
-  ],
+  "proxy": ["^/checkout/"],
   "routes": [
     {
       "name": "filmItem",
