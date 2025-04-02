@@ -1,4 +1,4 @@
-{{block itemTitle(title,class,element="h1")}}
+{{block filmTitle(title,class,element="h1")}}
 
  {{titleImage := .ImageMap["Title"]}}
 

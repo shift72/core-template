@@ -1,8 +1,8 @@
 {
   "name": "core-template",
-  "version": "1.9.23",
+  "version": "1.9.24",
   "siteUrl": "https://staging-store-kibble.shift72.com",
-  "builderVersion": "0.17.5",
+  "builderVersion": "0.17.6",
   "defaultLanguage": "en",
   "languages": {
     "ar": {
@@ -112,9 +112,14 @@
   },
   "siteRootPath": "site",
   "liveReload": {
-    "ignoredPaths": ["styles", "js"]
+    "ignoredPaths": [
+      "styles",
+      "js"
+    ]
   },
-  "proxy": ["^/checkout/"],
+  "proxy": [
+    "^/checkout/"
+  ],
   "routes": [
     {
       "name": "filmItem",
@@ -189,5 +194,5 @@
       "pageSize": 0
     }
   ],
-  "coreTemplateVersion": "1.9.23"
+  "coreTemplateVersion": "1.9.24"
 }

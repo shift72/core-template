@@ -1,6 +1,6 @@
 {
   "name": "@shift72/core-template",
-  "version": "1.9.23",
+  "version": "1.9.24",
   "description": "Shift72 core template",
   "license": "MIT",
   "scripts": {
@@ -54,7 +54,7 @@
     "postcss-cli": "^9.0.1",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0",
-    "s72-kibble": "^0.17.5",
+    "s72-kibble": "^0.17.6",
     "sass": "^1.36.0"
   },
   "devDependencies": {
