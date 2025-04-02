@@ -1,6 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.23...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.24...HEAD)
+
+## [1.9.24](https://github.com/shift72/core-template/compare/1.9.23...1.9.24)
+
+### Fixed
+
+- Use title image component only for films as other item types do not yet support imagemap
 
 ## [1.9.23](https://github.com/shift72/core-template/compare/1.9.22...1.9.23)
 
