@@ -1,10 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.22...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.23...HEAD)
+
+## [1.9.23](https://github.com/shift72/core-template/compare/1.9.22...1.9.23)
 
 ### Added
 
-- Film title images
+- Film title image support
 
 ### Fixed
 
