@@ -2,6 +2,10 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.22...HEAD)
 
+### Added
+
+- Film title images
+
 ### Fixed
 
 - Carousel video mute button to support light / custom theme

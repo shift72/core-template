@@ -1,0 +1,19 @@
+.item-title-image {
+  max-height: var(--title-image-max-height);
+  margin-left: var(--title-image-left-margin);
+  object-fit: contain;
+  object-position: left;
+  width: var(--title-image-width);
+  @include media-breakpoint-up(sm) {
+    width: var(--title-image-width-sm);
+  }
+  @include media-breakpoint-up(lg) {
+    width: var(--title-image-width-lg);
+  }
+  &.carousel {
+    margin-bottom: 16px;
+  }
+  &.film {
+    margin-bottom: 8px;
+  }
+}

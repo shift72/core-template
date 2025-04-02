@@ -1,10 +1,10 @@
 {{import "../../common/awards/carousel.jet"}}
-{{import "./item/title.jet"}}
 {{import "./item/tagline.jet"}}
 {{import "./item/image.jet"}}
 {{import "./item/synopsis.jet"}}
 {{import "../../common/sponsor-image.jet"}}
 {{import "../../common/cta_buttons.jet"}}
+{{import "../../items/title.jet"}}
 
 
 
@@ -37,7 +37,7 @@
           {{end}}
 
           <div class="meta-item-content">
-            {{yield carouselItemTitle(title=item.GetTitle(i18n))}}
+            {{yield itemTitle(title=item.GetTitle(i18n),class="carousel",element="h3") item.InnerItem}}
 
             {{yield carouselItemTagline() item.InnerItem}}
 
