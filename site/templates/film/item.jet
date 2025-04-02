@@ -1,7 +1,7 @@
 {{extends "../application/application.jet"}}
 {{import "../common/slider.jet"}}
 {{import "../items/tagline.jet"}}
-{{import "../items/title.jet"}}
+{{import "../film/title.jet"}}
 {{import "../items/sub_item.jet"}}
 {{import "../collection/page_collection_item.jet"}}
 {{import "../collection/slider.jet"}}
@@ -46,7 +46,7 @@
         </div>
 
         <div class="meta-detail-content">
-          {{yield itemTitle(title=film.Title,class="carousel",element="h1") film}}
+          {{yield filmTitle(title=film.Title,class="carousel",element="h1") film}}
           <div class="meta-detail-tagline-and-classification">
             <div class="meta-detail-tagline">
               {{yield metaItemTagline() film}}

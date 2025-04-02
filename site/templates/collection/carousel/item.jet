@@ -4,7 +4,7 @@
 {{import "./item/synopsis.jet"}}
 {{import "../../common/sponsor-image.jet"}}
 {{import "../../common/cta_buttons.jet"}}
-{{import "../../items/title.jet"}}
+{{import "../../film/title.jet"}}
 
 
 
@@ -37,8 +37,11 @@
           {{end}}
 
           <div class="meta-item-content">
-            {{yield itemTitle(title=item.GetTitle(i18n),class="carousel",element="h3") item.InnerItem}}
-
+            {{if isFilm}}
+              {{yield filmTitle(title=item.GetTitle(i18n),class="carousel",element="h3") item.InnerItem}}
+            {{else}}
+              <h3>{{item.GetTitle(i18n)}}</h3>
+            {{end}}
             {{yield carouselItemTagline() item.InnerItem}}
 
             {{if isset(item.InnerItem["Tagline"])}}
