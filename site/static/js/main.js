@@ -1,7 +1,7 @@
 import './modernizr-custom.js';
-import './can-be-watched-button.component.jsx';
-import './external-purchase-button.component.jsx';
-import './carousel-video-mute-button.component.jsx';
+import './can-be-watched-button.component.js';
+import './external-purchase-button.component.js';
+import './carousel-video-mute-button.component.js';
 
 /*global Swiper, Modernizr, s72*/
 
