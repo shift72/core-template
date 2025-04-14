@@ -42,7 +42,6 @@
   ],
   "author": "Shift72",
   "dependencies": {
-    "@rollup/plugin-buble": "^0.21.3",
     "autoprefixer": "^7.1.2",
     "bootstrap": "^4.6.1",
     "concat": "^1.0.3",
@@ -58,6 +57,9 @@
     "sass": "^1.36.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@rollup/plugin-babel": "^6.0.4",
     "eslint": "^7.30.0",
     "eslint-config-preact": "^1.1.4",
     "eslint-config-prettier": "^8.3.0",
@@ -147,5 +149,11 @@
       "scss/at-extend-no-missing-placeholder": null,
       "scss/at-import-no-partial-leading-underscore": null
     }
-  }
+  },
+  "browserslist": [
+    "defaults, > 0.2% and not dead",
+    "chrome >= 58",
+    "ios >= 13",
+    "safari >= 13"
+  ]
 }
