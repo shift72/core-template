@@ -1802,5 +1802,8 @@
   },
   "gift_purchase_button_label": {
     "other": "Купівля в подарунок"
+  },
+  "wcag_aria_label_social_bluesky": {
+    "other": "Bluesky"
   }
 }

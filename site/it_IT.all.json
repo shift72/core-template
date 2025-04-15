@@ -1746,5 +1746,8 @@
   },
   "gift_purchase_button_label": {
     "other": "Acquista come regalo"
+  },
+  "wcag_aria_label_social_bluesky": {
+    "other": "Bluesky"
   }
 }
