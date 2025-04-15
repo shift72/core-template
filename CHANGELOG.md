@@ -2,6 +2,10 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.24...HEAD)
 
+### Added
+
+- Bluesky support in footer links
+
 ## [1.9.24](https://github.com/shift72/core-template/compare/1.9.23...1.9.24)
 
 ### Fixed
