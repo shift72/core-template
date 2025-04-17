@@ -150,6 +150,13 @@
   --caption-1-style-letter-spacing: normal;
   --overline-style-letter-spacing: normal;
 
+  --font-family-base: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 500;
+
   --heading-1-style-font-size: 32px;
   --heading-1-style-font-size-xs: 46px;
   --heading-1-style-font-size-small: 24px;
@@ -361,9 +368,7 @@ $modal-footer-button-margin: 5px;
 
 // Fonts
 // ------------------------------------
-$font-family-base: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-  'Noto Color Emoji' !default;
-$font-weight-light: 300 !default;
-$font-weight-normal: 400 !default;
-$font-weight-bold: 500 !default;
+$font-family-base: var(--font-family-base) !default;
+$font-weight-light: var(--font-weight-light) !default;
+$font-weight-normal: var(--font-weight-normal) !default;
+$font-weight-bold: var(--font-weight-bold) !default;
