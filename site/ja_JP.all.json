@@ -1729,5 +1729,8 @@
   },
   "gift_purchase_button_label": {
     "other": "ギフトとして購入"
+  },
+  "wcag_aria_label_social_bluesky": {
+    "other": "Bluesky"
   }
 }

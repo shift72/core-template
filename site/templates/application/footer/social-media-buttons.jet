@@ -5,8 +5,9 @@
   {{ social_link_twitter := config("social_link_twitter") }}
   {{ social_link_letterboxd := config("social_link_letterboxd") }}
   {{ social_link_linkedin := config("social_link_linkedin") }}
+  {{ social_link_bluesky := config("social_link_bluesky") }}
 
-  {{ if social_link_instagram != "" || social_link_youtube != "" || social_link_facebook != "" || social_link_twitter != "" || social_link_letterboxd != "" || social_link_linkedin != "" }}
+  {{ if social_link_instagram != "" || social_link_youtube != "" || social_link_facebook != "" || social_link_twitter != "" || social_link_letterboxd != "" || social_link_linkedin != "" || social_link_bluesky != ""}}
     <div class="footer-social-media-icons">
       {{ yield footerSocialMediaIcon(link=social_link_instagram, iconClass="instagram", titleKey="wcag_aria_label_social_instagram") }}
       {{ yield footerSocialMediaIcon(link=social_link_youtube, iconClass="youtube", titleKey="wcag_aria_label_social_youtube") }}
@@ -14,6 +15,7 @@
       {{ yield footerSocialMediaIcon(link=social_link_twitter, iconClass="twitter", titleKey="wcag_aria_label_social_twitter") }}
       {{ yield footerSocialMediaIcon(link=social_link_letterboxd, iconClass="letterboxd", titleKey="wcag_aria_label_social_letterboxd") }}
       {{ yield footerSocialMediaIcon(link=social_link_linkedin, iconClass="linkedin", titleKey="wcag_aria_label_social_linkedin") }}
+      {{ yield footerSocialMediaIcon(link=social_link_bluesky, iconClass="bluesky", titleKey="wcag_aria_label_social_bluesky") }}
     </div>
   {{ end }}
 {{ end }}
@@ -46,7 +48,10 @@
         {{ if iconClass == "linkedin" }}
           {{ yield linkedinIcon() }}
         {{ end }}
-        
+
+        {{ if iconClass == "bluesky" }}
+          {{ yield blueskyIcon() }}
+        {{ end }}
       </div>
     </a>
   {{ end }}
@@ -93,4 +98,10 @@
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M5.385 8.016c1.222 0 1.987-.808 1.977-1.817C7.35 5.167 6.607 4.38 5.406 4.38c-1.19 0-1.977.786-1.977 1.818 0 1.01.754 1.817 1.934 1.817h.021zm7.185 11.969v-5.878c0-.32.032-.627.117-.861.255-.627.829-1.276 1.796-1.276 1.265 0 1.775.967 1.775 2.381v5.634h3.497v-6.038c0-3.231-1.722-4.74-4.028-4.74-1.813 0-2.65.966-3.12 1.683l-.037.058V9.45H9.073V9.477l.001.023c.004.134.012.598.016 1.96V11.898l.001.494v1.861c-.002 1.443-.007 3.313-.018 5.733h3.497zm-5.432 0V9.45H3.631v10.534h3.507z" fill="currentColor"/>
   </svg>
+{{ end }}
+
+{{ block blueskyIcon() }}
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 568 501" fill="none">
+  <path d="M123.121 33.6637C188.241 82.5526 258.281 181.681 284 234.873C309.719 181.681 379.759 82.5526 444.879 33.6637C491.866 -1.61183 568 -28.9064 568 57.9464C568 75.2916 558.055 203.659 552.222 224.501C531.947 296.954 458.067 315.434 392.347 304.249C507.222 323.8 536.444 388.56 473.333 453.32C353.473 576.312 301.061 422.461 287.631 383.039C285.169 375.812 284.017 372.431 284 375.306C283.983 372.431 282.831 375.812 280.369 383.039C266.939 422.461 214.527 576.312 94.6667 453.32C31.5556 388.56 60.7778 323.8 175.653 304.249C109.933 315.434 36.0535 296.954 15.7778 224.501C9.94525 203.659 0 75.2916 0 57.9464C0 -28.9064 76.1345 -1.61183 123.121 33.6637Z" fill="currentColor"/>
+</svg>
 {{ end }}
