@@ -1164,7 +1164,7 @@
     "other": "Auf LinkedIn teilen"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "Ansicht auf Letterboxd"
+    "other": "Auf Letterboxd ansehen"
   },
   "signin_form_error_ip_throttled": {
     "other": "Sie haben sich zu oft nicht angemeldet. Bitte versuchen Sie es später erneut."
@@ -1744,6 +1744,6 @@
     "other": "Als Geschenk kaufen"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Besuchen Sie uns auf Bluesky"
   }
 }

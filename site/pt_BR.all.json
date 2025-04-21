@@ -1157,7 +1157,7 @@
     "other": "Compartilhar no LinkedIn"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "Visualizar no Letterboxd"
+    "other": "Ver no Letterboxd"
   },
   "app_badge_title": {
     "other": "Baixe o aplicativo para visualizar o conteúdo adquirido!"
@@ -1748,6 +1748,6 @@
     "other": "Comprar como presente"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Visite-nos no Bluesky"
   }
 }

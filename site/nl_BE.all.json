@@ -1215,7 +1215,7 @@
     "other": "Delen op LinkedIn"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "Uitzicht op Letterboxd"
+    "other": "Bekijk op Letterboxd"
   },
   "shopping_error_plan_already_owned": {
     "other": "Je hebt dit abonnement al."
@@ -1744,6 +1744,6 @@
     "other": "Aankoop als geschenk"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Bezoek ons op Bluesky"
   }
 }

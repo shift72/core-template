@@ -1535,13 +1535,13 @@
     "other": "Suscríbete en Youtube"
   },
   "wcag_aria_label_social_facebook": {
-    "other": "Visítenos en Facebook"
+    "other": "Visítanos en Facebook"
   },
   "wcag_aria_label_social_twitter": {
-    "other": "Visítenos en Twitter"
+    "other": "Visítanos en Twitter"
   },
   "wcag_aria_label_social_letterboxd": {
-    "other": "Visítenos en Letterboxd"
+    "other": "Visítanos en Letterboxd"
   },
   "validate_email_about": {
     "other": "Para crear una cuenta primero debemos verificar su dirección de correo electrónico. Ingrese su correo electrónico y le enviaremos una invitación de registro de cuenta."
@@ -1748,6 +1748,6 @@
     "other": "Comprar como regalo"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Visítanos en Bluesky"
   }
 }
