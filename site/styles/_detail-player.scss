@@ -1,0 +1,64 @@
+s72-detail-player {
+  iframe {
+    border: none;
+  }
+}
+
+.meta-detail-bg.creator-page {
+  filter: blur(20px);
+  max-height: unset;
+  transition: 0.5s;
+
+  @include media-breakpoint-down(md) {
+    opacity: 0;
+  }
+
+  &.lights-out {
+    opacity: 0;
+  }
+
+}
+
+.meta-detail-main.creator-page {
+  padding-top: 0;
+  .poster-wrapper {
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+}
+
+.meta-detail-player {
+
+  width: 100%;
+  max-width: 1700px;
+  margin: 140px 20px 30px 20px;
+  aspect-ratio: 16 / 9;
+  border: solid 1px #ffffff20;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+
+  @include media-breakpoint-up(lg) {
+    width: 65%;
+    margin: 200px 50px 30px 50px;
+  }
+
+  @include media-breakpoint-down(md) {
+    height: 100%;
+    max-width: unset;
+    margin: 140px 0 15px 0;
+    border-radius: 0;
+  }
+
+  &.theatre-mode {
+    width: 100%;
+    max-width: unset;
+    margin: 200px 0 15px 0;
+    border-radius: 0;
+    @include media-breakpoint-up(lg) {
+      height: calc(100vh -  105px);
+    }
+  }
+
+}
