@@ -569,7 +569,7 @@ document.addEventListener('s72loaded', event => {
 });
 
 window.addEventListener('message', event => {
-  if (event.data == 'toggle-theatre-mode') {
+  if (event.data.event == 's72-player:toggletheatre') {
     document.getElementById('detail-player').scrollIntoView({ behavior: 'smooth', block: 'start' });
     document.querySelector('.meta-detail-player').classList.toggle('theatre-mode');
     document.querySelector('.meta-detail-bg.creator-page').classList.toggle('lights-out');
