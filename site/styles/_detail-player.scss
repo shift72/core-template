@@ -59,6 +59,9 @@ s72-detail-player {
     @include media-breakpoint-up(lg) {
       height: calc(100vh -  105px);
     }
+    @include media-breakpoint-down(md) {
+      margin: 140px 0 15px 0;
+    }
   }
 
 }

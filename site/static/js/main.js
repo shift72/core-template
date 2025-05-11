@@ -568,11 +568,13 @@ document.addEventListener('s72loaded', event => {
   documentReady(app);
 });
 
-window.addEventListener('message', event => {
-  if (event.data.event == 's72-player:toggletheatre') {
-    document.getElementById('detail-player').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    document.querySelector('.meta-detail-player').classList.toggle('theatre-mode');
-    document.querySelector('.meta-detail-bg.creator-page').classList.toggle('lights-out');
-    document.querySelector('.poster-wrapper').classList.toggle('d-none');
+window.addEventListener('message', e => {
+  const {event, value} = e.data;
+  if (event == 's72-player:theatre-mode-change') {
+    const action = value ? 'add' : 'remove';
+    document.querySelector('.meta-detail-player').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.querySelector('.meta-detail-player').classList[action]('theatre-mode');
+    document.querySelector('.meta-detail-bg.creator-page').classList[action]('lights-out');
+    document.querySelector('.poster-wrapper').classList[action]('d-none');
   }
 });
