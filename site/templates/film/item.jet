@@ -24,20 +24,20 @@
 
   {{isCreator := config("is_creator", "false") == "true"}}
 
-  <main id="main" class="page page-film meta-detail meta-detail-film">
-    <div class="meta-detail-bg{{ if isCreator }} creator-page{{end}}">
+  <main id="main" class="page page-film meta-detail meta-detail-film{{if isCreator}} meta-detail-creator{{end}}">
+    <div class="meta-detail-bg">
       <div class="right-gradient"></div>
       <s72-image src="{{film.ImageMap["Background"]}}" alt="" class="meta-detail-bg-img"></s72-image>
     </div>
     <div class="container">
 
       {{if isCreator}}
-        <div class="meta-detail-player">
-          <s72-detail-player data-slug="{{film.Slug}}" data-bg-image="{{film.ImageMap["Background"]}}"></s72-detail-player> 
+        <div id="detail-player-container">
+          <detail-player data-slug="{{film.Slug}}" data-bg-image="{{film.ImageMap["Background"]}}"></detail-player>
         </div>
       {{end}}
 
-      <div class="meta-detail-main{{ if isCreator }} creator-page{{end}}">
+      <div class="meta-detail-main">
       
         <s72-live-label data-slug="{{film.Slug}}"></s72-live-label>
 
