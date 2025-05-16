@@ -2,6 +2,7 @@ import './modernizr-custom.js';
 import './can-be-watched-button.component.js';
 import './external-purchase-button.component.js';
 import './carousel-video-mute-button.component.js';
+import './detail-player/detail-player.component.js';
 
 /*global Swiper, Modernizr, s72*/
 
@@ -566,4 +567,16 @@ function isTouchscreenEnabled() {
 document.addEventListener('s72loaded', event => {
   let app = event.detail.app;
   documentReady(app);
+});
+
+window.addEventListener('message', e => {
+  const {event, value} = e.data;
+  if (event == 's72-player:theatre-mode-change') {
+    const action = value ? 'add' : 'remove';
+    const container = document.querySelector('#detail-player-container');
+    container.classList[action]('detail-player-theatre-mode');
+    container.querySelector('detail-player').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.querySelector('.meta-detail-bg').classList[action]('meta-detail-bg--lights-out');
+    document.querySelector('.poster-wrapper').classList[action]('d-none');
+  }
 });
