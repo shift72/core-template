@@ -573,7 +573,7 @@ window.addEventListener('message', e => {
   const {event, value} = e.data;
   if (event == 's72-player:theatre-mode-change') {
     const action = value ? 'add' : 'remove';
-    const container = document.querySelector('#detail-player-container');
+    const container = document.querySelector('#main .detail-player-container');
     container.classList[action]('detail-player-theatre-mode');
     container.querySelector('detail-player').scrollIntoView({ behavior: 'smooth', block: 'start' });
     document.querySelector('.meta-detail-bg').classList[action]('meta-detail-bg--lights-out');

@@ -22,7 +22,7 @@
 
 {{block body()}}
 
-  {{isCreator := config("is_creator", "false") == "true"}}
+  {{isCreator := config("is_creator", "true") == "true"}}
 
   <main id="main" class="page page-film meta-detail meta-detail-film{{if isCreator}} meta-detail-creator{{end}}">
     <div class="meta-detail-bg">
@@ -32,7 +32,7 @@
     <div class="container">
 
       {{if isCreator}}
-        <div id="detail-player-container">
+        <div class="detail-player-container">
           <detail-player data-slug="{{film.Slug}}" data-bg-image="{{film.ImageMap["Background"]}}"></detail-player>
         </div>
       {{end}}
