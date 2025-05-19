@@ -22,16 +22,16 @@
 
 {{block body()}}
 
-  {{isCreator := config("is_creator", "true") == "true"}}
+  {{useDetailPlayer := config("use_detail_page_player", "false") == "true"}}
 
-  <main id="main" class="page page-film meta-detail meta-detail-film{{if isCreator}} meta-detail-creator{{end}}">
+  <main id="main" class="page page-film meta-detail meta-detail-film{{if useDetailPlayer}} meta-detail-creator{{end}}">
     <div class="meta-detail-bg">
       <div class="right-gradient"></div>
       <s72-image src="{{film.ImageMap["Background"]}}" alt="" class="meta-detail-bg-img"></s72-image>
     </div>
     <div class="container">
 
-      {{if isCreator}}
+      {{if useDetailPlayer}}
         <div class="detail-player-container">
           <detail-player data-slug="{{film.Slug}}" data-bg-image="{{film.ImageMap["Background"]}}"></detail-player>
         </div>

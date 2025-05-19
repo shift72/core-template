@@ -11,6 +11,7 @@ export class DetailPlayerPlaceholder extends AppComponent {
       canBeWatched: false,
       wigglin: false,
       playClicked: false,
+      purchaseCompleted: false,
       unlockBegin: false,
       unlockAnim: 0,
     }
@@ -27,16 +28,13 @@ export class DetailPlayerPlaceholder extends AppComponent {
     this.app.messagebus.subscribe('shopping-session-completed', () => {
       this.app.availabilityService.getAvailability(this.props.slug).then(a => {
         if (a && a.canBeWatched) {
-          element.classList.add('try-unlock');
+          this.setState({ purchaseCompleted: true });
         }
       });
     });
     window.addEventListener('message', e => {
-      if (e.data.event == 's72-checkout:close') {
-        if (element.classList.contains('try-unlock')) {
-          element.classList.remove('try-unlock');
-          this.playUnlockAnimation();
-        }
+      if (e.data.event == 's72-checkout:close' && this.state.purchaseCompleted) {
+        this.playUnlockAnimation();
       }
     });
   }
