@@ -1,5 +1,5 @@
 import { i18n } from 's72';
-import { AppComponent, classes, getComponentElement } from 's72.ui';
+import { AppComponent, classes } from 's72.ui';
 
 export class DetailPlayerPlaceholder extends AppComponent {
 
@@ -18,18 +18,12 @@ export class DetailPlayerPlaceholder extends AppComponent {
   }
 
   componentDidMount() {
-    this.app.availabilityService.getAvailability(this.props.slug).then(a => {
-      this.setState({
-        availabilityLoaded: true,
-        canBeWatched: a && a.canBeWatched,
-      });
+    this.getCanBeWatched(canBeWatched => {
+      this.setState({ availabilityLoaded: true, canBeWatched });
     });
-    const element = getComponentElement(this);
     this.app.messagebus.subscribe('shopping-session-completed', () => {
-      this.app.availabilityService.getAvailability(this.props.slug).then(a => {
-        if (a && a.canBeWatched) {
-          this.setState({ purchaseCompleted: true });
-        }
+      this.getCanBeWatched(canBeWatched => {
+        if (canBeWatched) { this.setState({ purchaseCompleted: true }) }
       });
     });
     window.addEventListener('message', e => {
@@ -41,6 +35,12 @@ export class DetailPlayerPlaceholder extends AppComponent {
 
   componentWillUnmount() {
     this.app.messagebus.unsubscribe('shopping-session-completed');
+  }
+
+  getCanBeWatched(callback) {
+    this.app.availabilityService.getAvailability(this.props.slug).then(a => {
+      if (a) { callback(a.canBeWatched) }
+    });
   }
 
   render(props, state) {

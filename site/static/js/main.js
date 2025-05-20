@@ -573,8 +573,8 @@ window.addEventListener('message', e => {
   const {event, value} = e.data;
   if (event == 's72-player:theatre-mode-change') {
     const container = document.querySelector('#main .detail-player-container');
-    container.classList.toggle('detail-player-theatre-mode', value);
     container.querySelector('detail-player').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    container.classList.toggle('detail-player-theatre-mode', value);
     document.querySelector('.meta-detail-bg').classList.toggle('meta-detail-bg--lights-out', value);
     document.querySelector('.poster-wrapper').classList.toggle('d-none', value);
   }
