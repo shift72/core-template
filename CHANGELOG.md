@@ -5,6 +5,7 @@
 ### Added
 
 - Bluesky support in footer links
+- Video player on film detail page for content creators
 
 ## [1.9.24](https://github.com/shift72/core-template/compare/1.9.23...1.9.24)
 
