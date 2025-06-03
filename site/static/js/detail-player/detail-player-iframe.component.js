@@ -7,10 +7,12 @@ export class DetailPlayerIframe extends Component {
 
   render(props) {
     const {slug, onLoad} = props;
+    let startTime = new URLSearchParams(window.location.search).get('t');
+    let t = startTime ? startTime : 0;
     return (
       <iframe
         id="detail-player"
-        src={`/play/#${slug}?tm=true&from=`}
+        src={`/play/#${slug}?tm=true&t=${t}&from=`}
         width="100%"
         height="100%"
         frameborder={0}

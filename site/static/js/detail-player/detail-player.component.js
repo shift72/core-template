@@ -1,4 +1,4 @@
-import { bindEachComponent, AppComponent, attrs, h, render, classes } from 's72.ui';
+import { bindEachComponent, AppComponent, attrs, h, render } from 's72.ui';
 import { DetailPlayerIframe } from './detail-player-iframe.component';
 import { DetailPlayerPlaceholder } from './detail-player-placeholder.component';
 
@@ -11,6 +11,19 @@ export default class DetailPlayer extends AppComponent {
       playerVisible: false,
       placeholderVisible: true,
     };
+  }
+
+  componentDidMount() {
+    window.addEventListener('message', e => {
+      const {event, value} = e.data;
+      if (event == 's72-player:theatre-mode-change') {
+        const container = document.querySelector('#main .detail-player-container');
+        container.querySelector('detail-player').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        container.classList.toggle('detail-player-theatre-mode', value);
+        document.querySelector('.meta-detail-bg').classList.toggle('meta-detail-bg--lights-out', value);
+        document.querySelector('.poster-wrapper').classList.toggle('d-none', value);
+      }
+    });
   }
 
   render(props, state) {
