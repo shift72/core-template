@@ -570,8 +570,9 @@ document.addEventListener('s72loaded', event => {
 });
 
 window.addEventListener('message', e => {
-  const {event, slug} = e.data;
-  if (event == 's72-player:direct-to-detail') {
-    window.location.href = `${slug}`
+  const {event, url, type} = e.data;
+  if (event == 's72-player:navigate-to') {
+    console.log(`navigating to ${url}, reason: ${type}`);
+    window.location.href = `${url}`;
   }
 });
