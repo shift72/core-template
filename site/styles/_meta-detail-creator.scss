@@ -1,0 +1,82 @@
+.meta-detail-creator {
+  .meta-detail-bg {
+    filter: blur(20px);
+    max-height: unset;
+    opacity: 1;
+    transition: 0.5s;
+
+    @include media-breakpoint-down(md) {
+      opacity: 0;
+    }
+
+    &--lights-out {
+      opacity: 0;
+    }
+  }
+
+  .meta-detail-main {
+    padding-top: 0;
+    .poster-wrapper {
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+    }
+  }
+}
+
+.detail-player-container {
+  padding: var(--page-detail-player-padding-top) var(--page-detail-padding-hz)
+    var(--page-detail-player-padding-bottom) var(--page-detail-padding-hz);
+  transition: 0.5s;
+  width: 100%;
+
+  @include media-breakpoint-down(md) {
+    padding: var(--page-detail-player-padding-top) 0
+      var(--page-detail-player-padding-bottom-theatre) 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: var(--page-detail-player-padding-top-lg) var(--page-detail-padding-hz-lg)
+      var(--page-detail-player-padding-bottom) var(--page-detail-padding-hz-lg);
+  }
+
+  &.detail-player-theatre-mode {
+    padding: var(--page-detail-player-padding-top) 0
+      var(--page-detail-player-padding-bottom-theatre) 0;
+
+    @include media-breakpoint-up(lg) {
+      padding: var(--page-detail-player-padding-top-lg) 0
+        var(--page-detail-player-padding-bottom-theatre) 0;
+    }
+
+    detail-player {
+      border-radius: 0;
+      @include media-breakpoint-up(lg) {
+        height: calc(100vh - 105px);
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+detail-player {
+  aspect-ratio: 16 / 9;
+  border: solid 1px #ffffff20;
+  border-radius: 12px;
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  width: 100%;
+
+  @include media-breakpoint-down(md) {
+    border-radius: 0;
+    height: 100%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    max-width: 1700px;
+    width: 65%;
+  }
+}
