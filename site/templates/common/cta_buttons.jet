@@ -12,7 +12,9 @@
 
   {{showPricingButtons := isFilm || isSeason || isBundle}}
 
-  {{showPlayButton := isFilm || isSeason || isEpisode && config("use_detail_page_player", "false") == "false" }}
+  {{useDetailPlayer := config("use_detail_page_player", "false") == "true"}}
+
+  {{showPlayButton := (isFilm || isSeason || isEpisode) && !useDetailPlayer }}
   {{showTrailerButton := trailerURL != ""}}
   {{showWishlistButton := isFilm || isSeason || isEpisode}}
   {{showShareButton := isFilm || isSeason || isEpisode || isBundle}}
