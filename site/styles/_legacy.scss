@@ -7,6 +7,12 @@ body {
   flex-direction: column;
   font-family: $font-family-base;
   height: 100%;
+
+  // really only affects macOS. This makes the fonts look a lot less jaggy
+  // especially on non-retina displays. It's pretty much the default in every
+  // modern css reset/library because it makes font rendering more consistent
+  // with other platforms
+  -webkit-font-smoothing: antialiased;
 }
 
 .animate-this {

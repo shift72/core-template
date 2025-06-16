@@ -21,7 +21,6 @@
 {{end}}
 
 {{block body()}}
-
   {{useDetailPlayer := config("use_detail_page_player", "false") == "true"}}
 
   <main id="main" class="page page-film meta-detail meta-detail-film{{if useDetailPlayer}} meta-detail-creator{{end}}">
@@ -38,7 +37,7 @@
       {{end}}
 
       <div class="meta-detail-main">
-      
+
         <s72-live-label data-slug="{{film.Slug}}"></s72-live-label>
 
         <div class="poster-wrapper">
@@ -178,6 +177,8 @@
         </div>
       </div>
     </div>
+
+    <comment-section slug="{{film.Slug}}"></comment-section>
 
     {{if len(film.Recommendations) > 0 }}
     <section class="page-collection recommendations-collection" aria-label="{{i18n("meta_detail_recommendations_title")}}">
