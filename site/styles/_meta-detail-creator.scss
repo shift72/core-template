@@ -1,6 +1,6 @@
 .meta-detail-creator {
   .meta-detail-bg {
-    filter: blur(20px);
+    filter: blur(50px) saturate(1.4) opacity(0.4);
     max-height: unset;
     opacity: 1;
     transition: 0.5s;
