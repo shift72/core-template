@@ -3,6 +3,7 @@ import './can-be-watched-button.component.js';
 import './external-purchase-button.component.js';
 import './carousel-video-mute-button.component.js';
 import './detail-player/detail-player.component.js';
+import './comments.js';
 
 /*global Swiper, Modernizr, s72*/
 

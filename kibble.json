@@ -118,7 +118,8 @@
     ]
   },
   "proxy": [
-    "^/checkout/"
+    "^/checkout/",
+    "^/play/"
   ],
   "routes": [
     {

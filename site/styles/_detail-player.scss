@@ -22,7 +22,7 @@
     transition: 1s;
     width: 100%;
     z-index: 1;
-    
+
     &--visible {
       opacity: 1;
     }
@@ -58,6 +58,8 @@
     display: flex;
     justify-content: center;
     user-select: none;
+
+    filter: drop-shadow(1px 1px 1px rgba(black, 0.5));
 
     &-text {
       color: var(--detail-player-messsage-font-color);
