@@ -8,6 +8,7 @@ export class DetailPlayerPlaceholder extends AppComponent {
     super(props, context);
     this.state = {
       bgLoaded: !!!props.bgImage,
+      titleLoaded: !!!props.titleImage,
       availabilityLoaded: false,
       canBeWatched: false,
       wigglin: false,
@@ -43,17 +44,19 @@ export class DetailPlayerPlaceholder extends AppComponent {
   }
 
   render(props, state) {
-    const {bgImage, playerLoaded} = props;
-    const showPlaceholder = state.availabilityLoaded && state.bgLoaded && !playerLoaded;
+    const {playerLoaded} = props;
+    const showPlaceholder = (state.availabilityLoaded && state.bgLoaded && state.titleLoaded) && !playerLoaded;
     return (
       <div
         class={classes('detail-player-placeholder', {'detail-player-placeholder--visible': showPlaceholder})}
         onClick={() => this.playWiggleAnimation()}
       >
-        {bgImage && this.placeholderBG()}
+        {this.placeholderBG()}
         <div class="detail-player-placeholder-overlay">
           {state.canBeWatched && this.playButton() }
           {!state.canBeWatched && this.lockedMessage()}
+          <div class="detail-player-placeholder-gradient" />
+          {this.titleLogo()}
         </div>
       </div>
     );
@@ -61,23 +64,36 @@ export class DetailPlayerPlaceholder extends AppComponent {
 
   placeholderBG() {
     return (
-      <div>
-        {!this.state.bgLoaded && <img
-          class="detail-player-placeholder-bg-loader"
-          src={this.props.bgImage}
-          onLoad={() => this.setState({ bgLoaded: true }) }
-          onError={() => this.setState({ bgLoaded: true }) }
-        />}
-        {this.state.bgLoaded && <div
+      <ImageLoader
+        src={this.props.bgImage}
+        state={this.state.bgLoaded}
+        onLoad={() => this.setState({ bgLoaded: true })}
+      >
+        <div
           class="detail-player-placeholder-bg"
           style={`background-image: url(${this.props.bgImage})`}
-        />}
-      </div>
+        />
+      </ImageLoader>
+    );
+  }
+
+  titleLogo() {
+    return (
+      <ImageLoader
+        src={this.props.titleImage}
+        state={this.state.titleLoaded}
+        onLoad={() => this.setState({ titleLoaded: true })}
+      >
+        <img
+          class="detail-player-placeholder-title"
+          src={this.props.titleImage}
+        />
+      </ImageLoader>
     );
   }
 
   playWiggleAnimation() {
-    if (!this.state.wigglin) {
+    if (!this.state.wigglin && !this.state.unlockBegin) {
       this.setState({ wigglin: true });
       setTimeout(() => {
         this.setState({ wigglin: false });
@@ -87,7 +103,7 @@ export class DetailPlayerPlaceholder extends AppComponent {
 
   lockedMessage() {
     return (
-      <div class="detail-player-locked-message">
+      <div class={classes('detail-player-locked-message', {'detail-player-locked-message--unlocked': this.state.unlockBegin})}>
         <div class={classes('detail-player-lock-icon-wrapper', {
           'detail-player-lock-icon-wrapper--wiggle': this.state.wigglin, 
           'detail-player-lock-icon-wrapper--large': this.state.unlockBegin
@@ -124,4 +140,22 @@ export class DetailPlayerPlaceholder extends AppComponent {
     setTimeout(() => { this.props.showPlayer() }, 2000);
   }
 
+}
+
+function ImageLoader(props) {
+  const {src, state, onLoad, children} = props;
+  if (!src) {
+    return;
+  }
+  return (
+    <div>
+      {!state && <img
+        class="detail-player-image-loader"
+        src={src}
+        onLoad={onLoad()}
+        onError={onLoad()}
+      />}
+      {state && children}
+    </div>
+  );
 }

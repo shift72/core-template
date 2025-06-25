@@ -27,7 +27,7 @@
       opacity: 1;
     }
 
-    &-bg-loader {
+    &-image-loader {
       display: none;
       height: 0;
       width: 0;
@@ -51,34 +51,69 @@
       position: absolute;
       width: 100%;
     }
+
+    &-gradient {
+      @extend .bottom-gradient-bg;
+      width: 100%;
+      height: 30%;
+    }
+
+    &-title {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      max-width: 40%;
+      max-height: 50%;
+      z-index: 10;
+    }
   }
 
   &-locked-message {
     align-items: center;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     user-select: none;
+    background-color: rgba(var(--detail-player-messsage-bg-color), 0.3);
+    padding: 15px 25px;
+    border-radius: 100px;
+    backdrop-filter: blur(3px);
+    box-shadow: 3px 3px 3px #0005;
+    transition: 0.5s;
+
+    &--unlocked {
+      background-color: rgba(var(--detail-player-messsage-bg-color), 0);
+      box-shadow: 3px 3px 3px #0000;
+      backdrop-filter: blur(0px);
+    }
 
     &-text {
       color: var(--detail-player-messsage-font-color);
       font-size: var(--detail-player-message-font-size);
       opacity: 1;
+      flex-shrink: 1;
       overflow: hidden;
-      padding-top: 12px;
       transition: 0.5s;
       white-space: nowrap;
-      width: 100%;
+      width: auto;
+      max-width: 999px;
+      margin-top: 5px;
       &--unlocked {
         opacity: 0;
-        width: 0;
+        max-width: 0;
       }
     }
   }
 
   &-lock-icon-wrapper {
     color: var(--detail-player-lock-icon-color);
-    font-size: 50px;
-    margin-right: 10px;
+    font-size: 45px;
+    margin-right: 12px;
+    transition: 0.5s;
+
+    svg {
+      display: block;
+    }
+
     @keyframes wiggle {
       0% { transform: rotate(0deg) }
       20%, 40%, 60% { transform: rotate(8deg) }
@@ -90,7 +125,6 @@
     &--large {
       filter: drop-shadow(5px 5px 3px #0008);
       transform: scale(1.5);
-      transition: 0.5s;
     }
     &--wiggle {
       animation: wiggle 0.9s;

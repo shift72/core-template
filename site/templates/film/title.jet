@@ -1,8 +1,8 @@
-{{block filmTitle(title,class,element="h1")}}
+{{block filmTitle(title, class, element = "h1", forceText = false)}}
 
- {{titleImage := .ImageMap["Title"]}}
+  {{titleImage := .ImageMap["Title"]}}
 
-  {{if isset(titleImage)}}
+  {{if isset(titleImage) && !forceText}}
     <img src="{{titleImage}}" alt="{{title}}" class="item-title-image {{class}}" />
   {{else}}
     <{{element}}>{{title}}</{{element}}>
