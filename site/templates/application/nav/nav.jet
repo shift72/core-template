@@ -5,7 +5,13 @@
 
 {{block nav(showSubNav=true)}}
 <header class="navigation" data-toggle="affix">
-  <h1>Rendered Admin Site: {{site.SiteConfig.RunAsAdmin}} - brand color {{site.SiteTheme.PrimaryRGB}}</h1>
+  {{if site.SiteConfig.RunAsAdmin}}
+    <div class="admin-banner">
+      <span class="admin-banner-text">Rendered Admin Site: {{site.SiteConfig.RunAsAdmin}} - Theme: {{site.SiteTheme.Name}} {{site.SiteTheme.Version}}</span>
+       <a href="{{routeToPath("/admin")}}" class="btn btn-primary btn-sm">{{i18n("admin_banner_button")}}</a>
+    </div>
+  {{end}}
+ 
   {{yield headerBanner()}}
   <div class="navbar-brand-container-tablet">
     <a class="navbar-brand-logo" href="{{routeToPath("/")}}">{{yield logo()}}</a>
