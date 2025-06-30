@@ -54,3 +54,10 @@
   display: flex !important;
   padding: 5px 0 16px;
 }
+
+.caption .meta-item-tagline {
+  --overline-style-opacity: var(--collection-item-tagline-opacity);
+  --overline-style-font-size: var(--collection-item-tagline-font-size);
+  --overline-style-line-height: var(--collection-item-tagline-line-height);
+  --overline-style-letter-spacing: var(--collection-item-tagline-letter-spacing);
+}

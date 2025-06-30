@@ -148,7 +148,6 @@
   --subtitle-1-style-letter-spacing: normal;
   --subtitle-2-style-letter-spacing: normal;
   --caption-1-style-letter-spacing: normal;
-  --overline-style-letter-spacing: normal;
 
   --heading-1-style-font-size: 32px;
   --heading-1-style-font-size-xs: 46px;
@@ -163,7 +162,17 @@
   --subtitle-1-style-font-size: 16px;
   --subtitle-2-style-font-size: 14px;
   --caption-1-style-font-size: 16px;
+
   --overline-style-font-size: 14px;
+  --overline-style-font-weight: 400;
+  --overline-style-line-height: 18px;
+  --overline-style-letter-spacing: 0px;
+  --overline-style-opacity: 0.8;
+
+  --collection-item-tagline-opacity: 0.6;
+  --collection-item-tagline-font-size: 13px;
+  --collection-item-tagline-line-height: 1.2;
+  --collection-item-tagline-letter-spacing: -0.2px;
 
   /* Alert component dark theme colours */
 
@@ -313,6 +322,8 @@ $meta-item-border-radius: 4px !default;
 $featured-meta-item-body-padding: 10px !default;
 $meta-item-body-color: var(--body-color) !default;
 $meta-item-tagline-classification-border-radius: $meta-item-border-radius !default;
+
+
 
 // Posters
 // ------------------------------------
