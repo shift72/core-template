@@ -14,7 +14,7 @@
 
   {{useDetailPlayer := config("use_detail_page_player", "false") == "true"}}
 
-  {{showPlayButton := (isFilm || isSeason || isEpisode) && !useDetailPlayer }}
+  {{showPlayButton := (isFilm || isSeason || isEpisode) && (isCarousel || !useDetailPlayer) }}
   {{showTrailerButton := trailerURL != ""}}
   {{showWishlistButton := isFilm || isSeason || isEpisode}}
   {{showShareButton := isFilm || isSeason || isEpisode || isBundle}}

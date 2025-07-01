@@ -55,7 +55,7 @@
         </div>
 
         <div class="meta-detail-content">
-          {{yield filmTitle(title=film.Title,class="carousel",element="h1",forceText=useDetailPlayer) film}}
+          {{yield filmTitle(title=film.Title,class="carousel",element="h1",useTitleImage=!useDetailPlayer) film}}
           <div class="meta-detail-tagline-and-classification">
             <div class="meta-detail-tagline">
               {{yield metaItemTagline() film}}
