@@ -22,19 +22,28 @@
 
 {{block body()}}
 
-  <main id="main" class="page page-film meta-detail meta-detail-film">
+  {{useDetailPlayer := config("use_detail_page_player", "false") == "true"}}
+
+  <main id="main" class="page page-film meta-detail meta-detail-film{{if useDetailPlayer}} meta-detail-creator{{end}}">
     <div class="meta-detail-bg">
       <div class="right-gradient"></div>
       <s72-image src="{{film.ImageMap["Background"]}}" alt="" class="meta-detail-bg-img"></s72-image>
     </div>
     <div class="container">
+
+      {{if useDetailPlayer}}
+        <div class="detail-player-container">
+          <detail-player data-slug="{{film.Slug}}" data-bg-image="{{film.ImageMap["Background"]}}" data-title-image="{{film.ImageMap["Title"]}}"></detail-player>
+        </div>
+      {{end}}
+
       <div class="meta-detail-main">
+      
         <s72-live-label data-slug="{{film.Slug}}"></s72-live-label>
 
         <div class="poster-wrapper">
           {{if config("default_image_type") == "portrait"}}
             {{yield sponsor() film}}
-
               <div class="poster poster-portrait">
                 {{if film.ImageMap["Portrait"] != ""}}
                   <s72-availability-status data-slug="{{film.Slug}}"></s72-availability-status>
@@ -46,7 +55,7 @@
         </div>
 
         <div class="meta-detail-content">
-          {{yield filmTitle(title=film.Title,class="carousel",element="h1") film}}
+          {{yield filmTitle(title=film.Title,class="carousel",element="h1",useTitleImage=!useDetailPlayer) film}}
           <div class="meta-detail-tagline-and-classification">
             <div class="meta-detail-tagline">
               {{yield metaItemTagline() film}}

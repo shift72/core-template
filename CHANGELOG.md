@@ -11,6 +11,7 @@
 ### Added
 
 - Bluesky support in footer links
+- Video player on film detail page for content creators
 
 ### Changed
 
