@@ -85,8 +85,6 @@
       backdrop-filter: blur(0px);
     }
 
-    filter: drop-shadow(1px 1px 1px rgba(black, 0.5));
-
     &-text {
       color: var(--detail-player-messsage-font-color);
       font-size: var(--detail-player-message-font-size);
