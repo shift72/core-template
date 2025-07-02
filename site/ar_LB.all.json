@@ -1589,19 +1589,19 @@
     "other": "احصل عليه من Apple TV"
   },
   "wcag_aria_label_social_instagram": {
-    "other": "قم بزيارتنا على Instagram"
+    "other": "تفضل بزيارتنا على الانستجرام"
   },
   "wcag_aria_label_social_youtube": {
-    "other": "اشترك على يوتيوب"
+    "other": "اشترك على اليوتيوب"
   },
   "wcag_aria_label_social_facebook": {
-    "other": "زورونا على الفيسبوك"
+    "other": "تفضل بزيارتنا على الفيسبوك"
   },
   "wcag_aria_label_social_twitter": {
-    "other": "قم بزيارتنا على Twitter"
+    "other": "تفضل بزيارتنا على تويتر"
   },
   "wcag_aria_label_social_letterboxd": {
-    "other": "قم بزيارتنا على Letterboxd"
+    "other": "تفضل بزيارة موقعنا على Letterboxd"
   },
   "validate_email_about": {
     "other": "لإنشاء حساب ، يجب علينا أولاً التحقق من عنوان بريدك الإلكتروني. أدخل بريدك الإلكتروني وسنرسل دعوة تسجيل حساب."
@@ -1808,6 +1808,6 @@
     "other": "شراء كهدية"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "تفضل بزيارة موقعنا على بلو سكاي"
   }
 }

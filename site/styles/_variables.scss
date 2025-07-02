@@ -174,8 +174,9 @@
   --page-detail-player-padding-bottom-theatre: 15px;
 
   --detail-player-fallback-color: var(--body-bg-accent);
-  --detail-player-overlay-color: rgba(var(--body-bg-rgb), 0.3);
+  --detail-player-overlay-color: rgba(var(--body-bg-rgb), 0);
   --detail-player-message-font-size: 20px;
+  --detail-player-messsage-bg-color: var(--body-bg-rgb);
   --detail-player-messsage-font-color: var(--body-color);
   --detail-player-lock-icon-color: var(--body-color);
   --detail-player-play-icon-color: var(--body-color);

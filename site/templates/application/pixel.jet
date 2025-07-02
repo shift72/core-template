@@ -39,7 +39,7 @@
 
 {{block pixelNoScript(pixelID=config("meta_pixel_id"))}}
   {{if len(pixelID) > 0}}
-    {{if !isEnabled("frontend_cookie_consent")}};
+    {{if !isEnabled("frontend_cookie_consent")}}
       <!-- Start Pixel (noscript) -->
       <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={{pixelID}}&ev=PageView&noscript=1"/></noscript> 
       <!-- End Pixel (noscript) -->

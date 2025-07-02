@@ -1162,7 +1162,7 @@
     "other": "Поделиться на LinkedIn"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "Просмотр на letterboxd"
+    "other": "Посмотреть на Letterboxd"
   },
   "shopping_error_plan_already_owned": {
     "other": "У вас уже есть этот план."
@@ -1582,13 +1582,13 @@
     "other": "Посетите нас в Instagram"
   },
   "wcag_aria_label_social_youtube": {
-    "other": "Подпишитесь на Youtube"
+    "other": "Подписаться на Youtube"
   },
   "wcag_aria_label_social_facebook": {
     "other": "Посетите нас на Facebook"
   },
   "wcag_aria_label_social_twitter": {
-    "other": "Посетите нас в Твиттере"
+    "other": "Посетите нас в Twitter"
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Посетите нас на Letterboxd"
@@ -1798,6 +1798,6 @@
     "other": "Покупка в подарок"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Посетите нас на Bluesky"
   }
 }

@@ -1264,7 +1264,7 @@
     "other": "Поділитися на Linkedin"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "Перегляд на LetterBoxd"
+    "other": "Переглянути на Letterboxd"
   },
   "shopping_error_plan_already_owned": {
     "other": "Ви вже маєте цей план."
@@ -1804,6 +1804,6 @@
     "other": "Купівля в подарунок"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Завітайте до нас на Bluesky"
   }
 }

@@ -1134,7 +1134,7 @@
     "other": "LinkedIn'de Paylaş"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "MektupBoxd'da Görüntüle"
+    "other": "Letterboxd'da görüntüle"
   },
   "shopping_error_plan_already_owned": {
     "other": "Zaten bu planın var."
@@ -1528,13 +1528,13 @@
     "other": "Bizi Instagram'da ziyaret edin"
   },
   "wcag_aria_label_social_youtube": {
-    "other": "Youtube'da abone olun"
+    "other": "Youtube'a abone olun"
   },
   "wcag_aria_label_social_facebook": {
-    "other": "Facebook'ta bizi ziyaret edin"
+    "other": "Bizi Facebook'ta ziyaret edin"
   },
   "wcag_aria_label_social_twitter": {
-    "other": "Twitter'da bizi ziyaret edin"
+    "other": "Bizi Twitter'da ziyaret edin"
   },
   "wcag_aria_label_social_letterboxd": {
     "other": "Bizi Letterboxd'da ziyaret edin"
@@ -1744,6 +1744,6 @@
     "other": "Hediye olarak satın al"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Bizi Bluesky'da ziyaret edin"
   }
 }

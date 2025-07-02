@@ -1137,7 +1137,7 @@
     "other": "Jagage LinkedIn"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "Vaata Letterboxd"
+    "other": "Vaata Letterboxdis"
   },
   "shopping_error_plan_already_owned": {
     "other": "See plaan on teil juba olemas."
@@ -1744,6 +1744,6 @@
     "other": "Ostke kingituseks"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Külastage meid Bluesky kaudu"
   }
 }

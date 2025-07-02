@@ -1244,7 +1244,7 @@
     "other": "Nabavite ga na Google Playu"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "Pogled na Letterboxd"
+    "other": "Pogledajte na Letterboxd"
   },
   "user_error_too_many_pin_errors_help_page_link": {
     "other": ""
@@ -1746,6 +1746,6 @@
     "other": "Kupiti kao poklon"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Posjetite nas na Blueskyju"
   }
 }

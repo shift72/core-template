@@ -1,5 +1,5 @@
-{{block carouselItemVideo()}} 
-  <video autoplay muted loop playsInline class="carousel-item-video" data-src="{{trailerURL}}" poster="{{.Images.Carousel}}">
+{{block carouselItemVideo()}}
+  <video autoplay muted loop playsInline disablePictureInPicture class="carousel-item-video" data-src="{{trailerURL}}" poster="{{.Images.Carousel}}">
     <s72-image src="{{.Images.Carousel}}" alt="{{.Title}}" class="carousel-item-image {{focusClass}}"></s72-image>
     <source src="" type="video/mp4">
   </video>

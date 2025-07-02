@@ -1512,19 +1512,19 @@
     "other": "Apple TV で入手する"
   },
   "wcag_aria_label_social_instagram": {
-    "other": "Instagramで私たちをご覧ください"
+    "other": "Instagramをご覧ください"
   },
   "wcag_aria_label_social_youtube": {
-    "other": "Youtubeで購読する"
+    "other": "YouTubeで購読する"
   },
   "wcag_aria_label_social_facebook": {
-    "other": "Facebookで私たちをご覧ください"
+    "other": "Facebookでご覧ください"
   },
   "wcag_aria_label_social_twitter": {
-    "other": "Twitterで私たちをご覧ください"
+    "other": "Twitterでフォローしてください"
   },
   "wcag_aria_label_social_letterboxd": {
-    "other": "Letterboxdにアクセスしてください"
+    "other": "Letterboxdをご覧ください"
   },
   "validate_email_about": {
     "other": "アカウントを作成するには、まずメール アドレスを確認する必要があります。メールアドレスを入力すると、アカウントのサインアップの招待状が送信されます。"
@@ -1731,6 +1731,6 @@
     "other": "ギフトとして購入"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Blueskyをご覧ください"
   }
 }

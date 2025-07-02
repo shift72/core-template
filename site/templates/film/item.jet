@@ -32,7 +32,7 @@
 
       {{if useDetailPlayer}}
         <div class="detail-player-container">
-          <detail-player data-slug="{{film.Slug}}" data-bg-image="{{film.ImageMap["Background"]}}"></detail-player>
+          <detail-player data-slug="{{film.Slug}}" data-bg-image="{{film.ImageMap["Background"]}}" data-title-image="{{film.ImageMap["Title"]}}"></detail-player>
         </div>
       {{end}}
 
@@ -54,7 +54,7 @@
         </div>
 
         <div class="meta-detail-content">
-          {{yield filmTitle(title=film.Title,class="carousel",element="h1") film}}
+          {{yield filmTitle(title=film.Title,class="carousel",element="h1",useTitleImage=!useDetailPlayer) film}}
           <div class="meta-detail-tagline-and-classification">
             <div class="meta-detail-tagline">
               {{yield metaItemTagline() film}}

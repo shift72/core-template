@@ -42,6 +42,7 @@ export default class DetailPlayer extends AppComponent {
         {state.placeholderVisible && <DetailPlayerPlaceholder 
           slug={props.slug}
           bgImage={props.bgImage}
+          titleImage={props.titleImage}
           showPlayer={() => setTimeout(() => this.setState({ playerVisible: true }), 500)}
           playerLoaded={state.playerLoaded}
         />}

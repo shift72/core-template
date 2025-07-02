@@ -979,7 +979,7 @@
     "other": "Jaa LinkedIn"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "Katso Letterboxd"
+    "other": "Katso Letterboxdissa"
   },
   "shopping_error_plan_already_owned": {
     "other": "Sinulla on jo tämä suunnitelma."
@@ -1513,7 +1513,7 @@
     "other": "Jotain meni pieleen korttia lisättäessä. Yritä myöhemmin uudelleen tai käytä toista korttia."
   },
   "wcag_aria_label_social_instagram": {
-    "other": "Vieraile meillä Instagramissa"
+    "other": "Vieraile meissä Instagramissa"
   },
   "wcag_aria_label_social_youtube": {
     "other": "Tilaa Youtubessa"
@@ -1744,6 +1744,6 @@
     "other": "Osta lahjaksi"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Tule käymään Blueskyssä"
   }
 }
