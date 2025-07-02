@@ -2,6 +2,16 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.25...HEAD)
 
+### Changed
+
+ - Added `-webkit-font-smoothing: antialiased` and `font-synthesis: none` to
+   body to avoid ugly font rendering. The antialiased setting can make fonts
+   render slightly lighter on macOS but should make it more consistent with
+   other platforms. Disabling font-synthesis prevents Safari from creating
+   hideous faux bold/italic faces when the exact weights aren't loaded.
+ - Make the default meta tagline styling on posters a bit more subtle.
+   Introduces CSS variables for this to make customizing these styles easier.
+
 ### Fixed
 
  - Disable picture-in-picture for carousel videos
