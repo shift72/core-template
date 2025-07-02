@@ -41,6 +41,24 @@
   max-width: 100%;
   position: relative;
   width: 100%;
+
+  // setting aspect ratios for posters helps prevent layout shift as images load
+  // in and improves the effectiveness of image lazy-loading because the images
+  // don't all collapse down to zero height.
+  &.poster-image-portrait {
+    aspect-ratio: var(--poster-portrait-aspect-ratio);
+  }
+
+  &.poster-image-landscape {
+    aspect-ratio: var(--poster-landscape-aspect-ratio);
+  }
+
+  &.s72-image--loaded {
+    // once poster images load in, let them be their intrinsic dimensions. This
+    // handles cases where the actual image size doesn't match the configured
+    // size in the css a bit better, while still keeping layouts stable in nor
+    aspect-ratio: unset;
+  }
 }
 
 s72-image .poster-image {
