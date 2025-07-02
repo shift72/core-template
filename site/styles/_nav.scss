@@ -881,6 +881,7 @@ s72-dropdown,
   z-index: 10;
   .header-banner-message {
     font-size: 12px;
+    font-weight: 400;
     margin-bottom: 0;
     @include media-breakpoint-up(sm) {
       font-size: 14px;
