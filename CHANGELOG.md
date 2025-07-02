@@ -3,9 +3,9 @@
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.25...HEAD)
 
 ### Added
-
+ - Video player on film detail page for content creators
  - Add fade in transition on poster images
- 
+
 ### Changed
 
  - Added `-webkit-font-smoothing: antialiased` and `font-synthesis: none` to
@@ -25,7 +25,6 @@
 ### Added
 
 - Bluesky support in footer links
-- Video player on film detail page for content creators
 
 ### Changed
 
