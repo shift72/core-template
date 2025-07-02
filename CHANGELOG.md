@@ -2,6 +2,10 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.25...HEAD)
 
+### Added
+
+ - Add fade in transition on poster images
+
 ### Fixed
 
  - Disable picture-in-picture for carousel videos
