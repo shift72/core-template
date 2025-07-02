@@ -56,8 +56,8 @@
 }
 
 .caption .meta-item-tagline {
-  --overline-style-opacity: var(--collection-item-tagline-opacity);
-  --overline-style-font-size: var(--collection-item-tagline-font-size);
-  --overline-style-line-height: var(--collection-item-tagline-line-height);
-  --overline-style-letter-spacing: var(--collection-item-tagline-letter-spacing);
+  opacity: var(--collection-item-tagline-opacity);
+  font-size: var(--collection-item-tagline-font-size);
+  line-height: var(--collection-item-tagline-line-height);
+  letter-spacing: var(--collection-item-tagline-letter-spacing);
 }
