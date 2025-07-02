@@ -178,7 +178,9 @@
       </div>
     </div>
 
+    {{if isEnabled("commenting")}}
     <comment-section slug="{{film.Slug}}"></comment-section>
+    {{end}}
 
     {{if len(film.Recommendations) > 0 }}
     <section class="page-collection recommendations-collection" aria-label="{{i18n("meta_detail_recommendations_title")}}">
