@@ -1,4 +1,7 @@
 .meta-item {
+  display: flex;
+  flex-direction: column;
+
   a {
     display: inline-block;
   }

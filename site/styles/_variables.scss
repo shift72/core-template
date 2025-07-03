@@ -126,7 +126,7 @@
   --title-image-width-sm: 350px;
   --title-image-width-lg: 400px;
   --title-image-max-height: 180px;
-  --title-image-left-margin: 0px;
+  --title-image-left-margin: 0;
 
   // Pages
   --collection-padding-bottom: 40px;
@@ -138,7 +138,7 @@
   --page-detail-padding-top-md: 248px;
   --page-detail-padding-top-lg: 400px;
   --page-detail-padding-hz: 20px;
-  --page-detail-padding-hz-lg: 50px;  
+  --page-detail-padding-hz-lg: 50px;
 
   --heading-1-style-letter-spacing: normal;
   --heading-2-style-letter-spacing: normal;
@@ -168,13 +168,19 @@
   --overline-style-font-size: 14px;
   --overline-style-font-weight: 400;
   --overline-style-line-height: 18px;
-  --overline-style-letter-spacing: 0px;
+  --overline-style-letter-spacing: 0;
   --overline-style-opacity: 0.8;
 
   --collection-item-tagline-opacity: 0.6;
   --collection-item-tagline-font-size: 13px;
   --collection-item-tagline-line-height: 1.2;
   --collection-item-tagline-letter-spacing: -0.2px;
+
+  // Posters
+  --poster-portrait-aspect-ratio: 282 / 422;
+  --poster-landscape-aspect-ratio: 585 / 330;
+
+  --poster-skeleton-background-color: #3335;
 
   // Detail player
   --page-detail-player-padding-top: 140px;
@@ -338,8 +344,6 @@ $meta-item-border-radius: 4px !default;
 $featured-meta-item-body-padding: 10px !default;
 $meta-item-body-color: var(--body-color) !default;
 $meta-item-tagline-classification-border-radius: $meta-item-border-radius !default;
-
-
 
 // Posters
 // ------------------------------------
