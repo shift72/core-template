@@ -82,7 +82,7 @@
     &--unlocked {
       background-color: rgba(var(--detail-player-messsage-bg-color), 0);
       box-shadow: 3px 3px 3px #0000;
-      backdrop-filter: blur(0px);
+      backdrop-filter: blur(0);
     }
 
     &-text {
@@ -114,12 +114,28 @@
     }
 
     @keyframes wiggle {
-      0% { transform: rotate(0deg) }
-      20%, 40%, 60% { transform: rotate(8deg) }
-      30%, 50%, 70% { transform: rotate(-8deg) }
-      80% { transform: rotate(4deg) }
-      90% { transform: rotate(-4deg) }
-      100% { transform: rotate(0deg) }
+      0% {
+        transform: rotate(0deg);
+      }
+      20%,
+      40%,
+      60% {
+        transform: rotate(8deg);
+      }
+      30%,
+      50%,
+      70% {
+        transform: rotate(-8deg);
+      }
+      80% {
+        transform: rotate(4deg);
+      }
+      90% {
+        transform: rotate(-4deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
     }
     &--large {
       filter: drop-shadow(5px 5px 3px #0008);

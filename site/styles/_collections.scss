@@ -35,6 +35,11 @@
   display: block;
 }
 
+.page-collection-item {
+  display: flex;
+  flex-direction: column;
+}
+
 /* stylelint-disable selector-max-compound-selectors, max-nesting-depth */
 .page-collection-item,
 .slider-item,
@@ -262,6 +267,7 @@
 
   .caption {
     padding: 0 0 8px;
+    margin-top: 4px;
 
     .crumb {
       @extend .d-flex;
