@@ -58,6 +58,11 @@
 
     <script src="{{CDN}}/s72.transactional.js" defer></script>
 
+    {{if isEnabled("commenting")}}
+      <script src="//cdn.shift72.com/comments/dev/s72.comments.js" defer></script>
+      <link rel="stylesheet" href="//cdn.shift72.com/comments/dev/s72.comments.css">
+    {{end}}
+
     <script src="https://js.stripe.com/v3/" defer></script>
 
     {* get default language from site record or kibble.json depening on if db translations is enabled *}
