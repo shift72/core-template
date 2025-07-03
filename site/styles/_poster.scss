@@ -6,6 +6,8 @@
   width: 100%;
   z-index: 1;
 
+  background-color: var(--poster-skeleton-background-color);
+
   s72-availability-status,
   s72-plan-label {
     color: $button-text-color;
