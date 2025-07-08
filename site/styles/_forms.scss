@@ -1,3 +1,5 @@
+@use "sass:math";
+
 label {
   @include subtitle-1-style;
   margin-bottom: 0.25rem;
@@ -220,7 +222,7 @@ s72-confirm-delete-form,
     .s72-btn-modal-cancel {
       border-color: transparent;
       color: var(--body-color);
-      margin-right: $grid-gutter-width / 3;
+      margin-right: math.div($grid-gutter-width, 3);
 
       &:hover {
         background-color: var(--hover-background);

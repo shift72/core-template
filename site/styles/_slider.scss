@@ -5,14 +5,14 @@ s72-userwishlist .s72-slider-control {
   border-radius: 50%;
   font-family: $font-family-base;
   height: $slider-control-height;
-  left: -$slider-control-width / 2;
+  left: -$slider-control-width * 0.5;
   margin-top: 0;
   width: $slider-control-width;
   z-index: 10;
 
   &.right {
     left: auto;
-    right: -$slider-control-width / 2;
+    right: -$slider-control-width * 0.5;
   }
 
   .s72-icon {
@@ -39,11 +39,11 @@ s72-userwishlist .s72-slider-control {
   $child-width: $width - ($page-collection-item-padding-horizontal * 2);
   .slider-#{$i} {
     &.slider-landscape .s72-slider-control {
-      top: ($child-width * $poster-landscape-size-ratio) / 2 - ($slider-control-height / 2);
+      top: ($child-width * $poster-landscape-size-ratio) * 0.5 - ($slider-control-height * 0.5);
     }
 
     &.slider-portrait .s72-slider-control {
-      top: ($child-width * $poster-portrait-size-ratio) / 2 - ($slider-control-height / 2);
+      top: ($child-width * $poster-portrait-size-ratio) * 0.5 - ($slider-control-height * 0.5);
     }
   }
 }
