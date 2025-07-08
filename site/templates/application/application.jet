@@ -5,8 +5,8 @@
 {{import "./pixel.jet"}}
 {{import "./footer/footer.jet" }}
 
-{{useLocalDevRelish := false }}
-{{useLocalDevCheckout := false}}
+{{useLocalDevRelish := false}}
+{{useLocalDevCheckout :=  false}}
 
 {{CDN := useLocalDevRelish ? "//localhost:3000" : "//cdn.shift72.com/" + config("s72_web_version", "1.4")}}
 
@@ -59,8 +59,9 @@
     <script src="{{CDN}}/s72.transactional.js" defer></script>
 
     {{if isEnabled("commenting")}}
-      <script src="//cdn.shift72.com/comments/dev/s72.comments.js" defer></script>
-      <link rel="stylesheet" href="//cdn.shift72.com/comments/dev/s72.comments.css">
+      {{commentLibVersion := config("comments_version", "test")}}
+      <script src="//cdn.shift72.com/comments/{{commentLibVersion}}/s72.comments.js" defer></script>
+      <link rel="stylesheet" href="//cdn.shift72.com/comments/{{commentLibVersion}}/s72.comments.css">
     {{end}}
 
     <script src="https://js.stripe.com/v3/" defer></script>
