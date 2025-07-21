@@ -1,8 +1,8 @@
 {
   "name": "core-template",
-  "version": "1.9.26",
+  "version": "1.9.27",
   "siteUrl": "https://staging-store-kibble.shift72.com",
-  "builderVersion": "0.17.6",
+  "builderVersion": "0.17.8",
   "defaultLanguage": "en",
   "languages": {
     "ar": {
@@ -195,5 +195,5 @@
       "pageSize": 0
     }
   ],
-  "coreTemplateVersion": "1.9.26"
+  "coreTemplateVersion": "1.9.27"
 }
