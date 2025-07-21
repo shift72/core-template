@@ -103,7 +103,8 @@
 
 .meta-detail-main {
   display: grid;
-  padding: var(--page-detail-padding-top) 20px 0 20px;
+  padding: var(--page-detail-padding-top) var(--page-detail-padding-hz) 0
+    var(--page-detail-padding-hz);
 
   @include media-breakpoint-up(xs) {
     padding-top: var(--page-detail-padding-top-md);
@@ -111,7 +112,8 @@
 
   @include media-breakpoint-up(lg) {
     grid-template-columns: auto 1fr;
-    padding: var(--page-detail-padding-top-lg) 50px 0 50px;
+    padding: var(--page-detail-padding-top-lg) var(--page-detail-padding-hz-lg) 0
+      var(--page-detail-padding-hz-lg);
     padding-bottom: 0;
   }
 
@@ -480,4 +482,19 @@ s72-element-switcher {
   h2 {
     @include caption-1-style;
   }
+}
+
+
+comment-section {
+  display: block;
+  margin-bottom: 3rem;
+
+  padding-left: var(--page-detail-padding-hz);
+  padding-right: var(--page-detail-padding-hz);
+
+  @include media-breakpoint-up(lg) {
+    padding-left: var(--page-detail-padding-hz-lg);
+    padding-right: var(--page-detail-padding-hz-lg);
+  }
+
 }

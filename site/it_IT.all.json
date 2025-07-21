@@ -1044,7 +1044,7 @@
     "other": "Condividi su LinkedIn"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "Visualizza su Letterboxdd"
+    "other": "Visualizza su Letterboxd"
   },
   "header_banner": {
     "other": "ABC Cinemas – 21° Festival del Cinema, 1 – 6 giugno 2021"
@@ -1529,19 +1529,19 @@
     "other": "Scaricalo su Apple TV"
   },
   "wcag_aria_label_social_instagram": {
-    "other": "Venite a trovarci su Instagram"
+    "other": "Visitateci su Instagram"
   },
   "wcag_aria_label_social_youtube": {
     "other": "Iscriviti su Youtube"
   },
   "wcag_aria_label_social_facebook": {
-    "other": "Visitaci su Facebook"
+    "other": "Visitateci su Facebook"
   },
   "wcag_aria_label_social_twitter": {
-    "other": "Visitaci su Twitter"
+    "other": "Visitateci su Twitter"
   },
   "wcag_aria_label_social_letterboxd": {
-    "other": "Venite a trovarci su Letterboxd"
+    "other": "Visitateci su Letterboxd"
   },
   "validate_email_about": {
     "other": "Per creare un account dobbiamo prima verificare il tuo indirizzo email. Inserisci la tua email e ti invieremo un invito alla registrazione dell'account."
@@ -1748,6 +1748,6 @@
     "other": "Acquista come regalo"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Visitateci su Bluesky"
   }
 }

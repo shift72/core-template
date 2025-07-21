@@ -44,13 +44,23 @@ s72-carousel {
     object-fit: cover;
     object-position: var(--carousel-image-object-position);
     width: 100%;
+
+    opacity: 0;
+    transition: opacity 0.25s ease;
+
     z-index: -1;
+
     @include media-breakpoint-up(sm) {
       object-position: var(--carousel-image-object-position-sm);
     }
     @include media-breakpoint-up(lg) {
       object-position: var(--carousel-image-object-position-lg);
     }
+
+    &.s72-image--loaded {
+      opacity: 1;
+    }
+
     &.focus-left {
       object-position: left;
     }

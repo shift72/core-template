@@ -1541,7 +1541,7 @@
     "other": "Visitez-nous sur Twitter"
   },
   "wcag_aria_label_social_letterboxd": {
-    "other": "Rendez-nous visite sur Letterboxd"
+    "other": "Visitez-nous sur Letterboxd"
   },
   "validate_email_about": {
     "other": "Pour créer un compte, nous devons d'abord vérifier votre adresse e-mail. Entrez votre e-mail et nous vous enverrons une invitation à créer un compte."
@@ -1748,6 +1748,6 @@
     "other": "Acheter en cadeau"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Visitez-nous sur Bluesky"
   }
 }

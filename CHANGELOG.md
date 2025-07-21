@@ -1,6 +1,40 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.25...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.26...HEAD)
+
+## [1.9.26](https://github.com/shift72/core-template/compare/1.9.25...1.9.26)
+
+### Added
+
+- Video player on film detail page for content creators
+- Add fade in transition on poster images
+- Add skeleton background color for posters before they load.
+- Add fade transition on carousel images
+- Commenting feature support
+- seo_meta_robots_no_index toggle block search engines crawling the site
+- google_analytics_debug toggle to enable debug mode on GA4
+
+### Changed
+
+- Added `-webkit-font-smoothing: antialiased` and `font-synthesis: none` to
+  body to avoid ugly font rendering. The antialiased setting can make fonts
+  render slightly lighter on macOS but should make it more consistent with
+  other platforms. Disabling font-synthesis prevents Safari from creating
+  hideous faux bold/italic faces when the exact weights aren't loaded.
+- Make the default meta tagline styling on posters a bit more subtle.
+  Introduces CSS variables for this to make customizing these styles easier.
+- Poster images have an aspect-ratio applied before they load. `.meta-item`
+  uses flex-column sizing to give the posters some size before the images load
+- Switched to babel
+- Update autoprefixer, postcss to fix out of date browserslist.
+- Update nvmrc to 18
+- Bump to kibble builder 0.17.8
+
+### Fixed
+
+- Disable picture-in-picture for carousel videos
+- Meta Pixel rogue ; in html when loading scripts
+- Various tranalation clean up for social links
 
 ## [1.9.25](https://github.com/shift72/core-template/compare/1.9.24...1.9.25)
 

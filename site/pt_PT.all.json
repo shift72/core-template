@@ -1122,7 +1122,7 @@
     "other": "Compartilhar no LinkedIn"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "Visualizar no Letterboxd"
+    "other": "Ver no Letterboxd"
   },
   "shopping_error_plan_already_owned": {
     "other": "Você já tem este plano."
@@ -1748,6 +1748,6 @@
     "other": "Comprar como presente"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Visite-nos no Bluesky"
   }
 }

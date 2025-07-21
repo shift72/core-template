@@ -1,6 +1,6 @@
 {
   "name": "core-template",
-  "version": "1.9.25",
+  "version": "1.9.26",
   "siteUrl": "https://staging-store-kibble.shift72.com",
   "builderVersion": "0.17.6",
   "defaultLanguage": "en",
@@ -118,7 +118,8 @@
     ]
   },
   "proxy": [
-    "^/checkout/"
+    "^/checkout/",
+    "^/play/"
   ],
   "routes": [
     {
@@ -194,5 +195,5 @@
       "pageSize": 0
     }
   ],
-  "coreTemplateVersion": "1.9.25"
+  "coreTemplateVersion": "1.9.26"
 }

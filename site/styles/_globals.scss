@@ -1,3 +1,14 @@
+body {
+  // Makes the fonts look a lot sharper on macOS. This is a pretty standard part
+  // of most CSS resets.
+  -webkit-font-smoothing: antialiased;
+
+  // prevents Safari (especially) from synthesizing bold or italic version of
+  // font faces (e.g. if you specify a font weight that isn't loaded). These
+  // look really bad.
+  font-synthesis: none;
+}
+
 small {
   font-size: 85%;
 }

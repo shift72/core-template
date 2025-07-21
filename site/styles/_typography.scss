@@ -4,7 +4,8 @@
   $font-weight: null,
   $margin-bottom: null,
   $font-color: null,
-  $line-height: null
+  $line-height: null,
+  $opacity: null
 ) {
   color: $font-color;
   font-size: $font-size;
@@ -12,6 +13,7 @@
   letter-spacing: $letter-spacing;
   line-height: $line-height;
   margin-bottom: $margin-bottom;
+  opacity: $opacity;
 }
 
 @mixin heading-1-style() {
@@ -119,8 +121,9 @@
   @include typography-style(
     $font-size: var(--overline-style-font-size),
     $letter-spacing: var(--overline-style-letter-spacing),
-    $font-weight: $font-weight-normal,
-    $line-height: 18px
+    $font-weight: var(--overline-style-font-weight),
+    $opacity: var(--overline-style-opacity),
+    $line-height: var(--overline-style-line-height)
   );
 }
 

@@ -1134,7 +1134,7 @@
     "other": "Oszd meg a LinkedIn"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "Megtekintés a Letterboxd"
+    "other": "Megtekintés a Letterboxd-n"
   },
   "shopping_error_plan_already_owned": {
     "other": "Már megvan ez a terv."
@@ -1744,6 +1744,6 @@
     "other": "Vásároljon ajándékba"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Látogasson el hozzánk a Bluesky-n"
   }
 }

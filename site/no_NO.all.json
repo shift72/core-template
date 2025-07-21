@@ -1128,7 +1128,7 @@
     "other": "Dele på LinkedIn"
   },
   "wcag_aria_label_letterboxd": {
-    "other": "Dele på Letterboxd"
+    "other": "Se på Letterboxd"
   },
   "shopping_error_plan_already_owned": {
     "other": "Du har allerede denne planen."
@@ -1744,6 +1744,6 @@
     "other": "Kjøp som gave"
   },
   "wcag_aria_label_social_bluesky": {
-    "other": "Bluesky"
+    "other": "Besøk oss på Bluesky"
   }
 }

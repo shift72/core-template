@@ -2,6 +2,8 @@ import './modernizr-custom.js';
 import './can-be-watched-button.component.js';
 import './external-purchase-button.component.js';
 import './carousel-video-mute-button.component.js';
+import './detail-player/detail-player.component.js';
+import './comments.js';
 
 /*global Swiper, Modernizr, s72*/
 
@@ -566,4 +568,12 @@ function isTouchscreenEnabled() {
 document.addEventListener('s72loaded', event => {
   let app = event.detail.app;
   documentReady(app);
+});
+
+window.addEventListener('message', e => {
+  const {event, url, type} = e.data;
+  if (event == 's72-player:navigate-to') {
+    console.log(`navigating to ${url}, reason: ${type}`);
+    window.location.href = `${url}`;
+  }
 });

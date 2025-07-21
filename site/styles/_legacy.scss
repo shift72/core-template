@@ -1,3 +1,5 @@
+@use "sass:math";
+
 html {
   height: 100%;
 }
@@ -18,21 +20,21 @@ body {
   .page-collection-items {
     .page-collection-list-item-portrait {
       &.page-collection-item-6 {
-        flex-basis: (100% / 3);
-        max-width: (100% / 3);
+        flex-basis: math.div(100%, 3);
+        max-width: math.div(100%, 3);
         @include media-breakpoint-up(sm) {
-          flex-basis: (100% / 4);
-          max-width: (100% / 4);
+          flex-basis: (100% * 0.25);
+          max-width: (100% * 0.25);
         }
         @include media-breakpoint-up(lg) {
-          flex-basis: (100% / 5);
-          max-width: (100% / 5);
+          flex-basis: (100% * 0.2);
+          max-width: (100% * 0.2);
         }
         @include media-breakpoint-up(xl) {
-          max-width: (100% / 6);
+          max-width: math.div(100%, 6);
         }
         @include media-breakpoint-up(xxxl) {
-          max-width: (100% / 8);
+          max-width: (100% * 0.125);
         }
 
         .meta-item-link {
@@ -44,18 +46,18 @@ body {
         flex-basis: 50%;
         max-width: 50%;
         @include media-breakpoint-up(sm) {
-          flex-basis: (100% / 3);
-          max-width: (100% / 3);
+          flex-basis: math.div(100%, 3);
+          max-width: math.div(100%, 3);
         }
         @include media-breakpoint-up(lg) {
-          flex-basis: (100% / 4);
-          max-width: (100% / 4);
+          flex-basis: (100% * 0.25);
+          max-width: (100% * 0.25);
         }
         @include media-breakpoint-up(xl) {
-          max-width: (100% / 5);
+          max-width: (100% * 0.2);
         }
         @include media-breakpoint-up(xxxl) {
-          max-width: (100% / 6);
+          max-width: math.div(100%, 6);
         }
 
         .meta-item-link {
@@ -69,18 +71,18 @@ body {
         flex-basis: 50%;
         max-width: 50%;
         @include media-breakpoint-up(sm) {
-          flex-basis: (100% / 3);
-          max-width: (100% / 3);
+          flex-basis: math.div(100%, 3);
+          max-width: math.div(100%, 3);
         }
         @include media-breakpoint-up(lg) {
-          flex-basis: (100% / 3);
-          max-width: (100% / 3);
+          flex-basis: math.div(100%, 3);
+          max-width: math.div(100%, 3);
         }
         @include media-breakpoint-up(xl) {
-          max-width: (100% / 4);
+          max-width: (100% * 0.25);
         }
         @include media-breakpoint-up(xxxl) {
-          max-width: (100% / 5);
+          max-width: (100% * 0.2);
         }
 
         .meta-item-link {
@@ -92,15 +94,15 @@ body {
         flex-basis: 50%;
         max-width: 50%;
         @include media-breakpoint-up(lg) {
-          flex-basis: (100% / 3);
-          max-width: (100% / 3);
+          flex-basis: math.div(100%, 3);
+          max-width: math.div(100%, 3);
         }
         @include media-breakpoint-up(xl) {
-          flex-basis: (100% / 3);
-          max-width: (100% / 3);
+          flex-basis: math.div(100%, 3);
+          max-width: math.div(100%, 3);
         }
         @include media-breakpoint-up(xxxl) {
-          max-width: (100% / 4);
+          max-width: (100% * 0.25);
         }
 
         .meta-item-link {
@@ -121,23 +123,23 @@ s72-classification-label {
   flex-wrap: wrap;
 
   .partial {
-    flex-basis: (100% / 2);
-    max-width: (100% / 2);
+    flex-basis: (100% * 0.5);
+    max-width: (100% * 0.5);
     @include media-breakpoint-up(md) {
-      flex-basis: (100% / 3);
-      max-width: (100% / 3);
+      flex-basis: math.div(100%, 3);
+      max-width: math.div(100%, 3);
     }
     @include media-breakpoint-up(lg) {
-      flex-basis: (100% / 3);
-      max-width: (100% / 3);
+      flex-basis: math.div(100%, 3);
+      max-width: math.div(100%, 3);
     }
     @include media-breakpoint-up(xl) {
-      flex-basis: (100% / 4);
-      max-width: (100% / 4);
+      flex-basis: (100% * 0.25);
+      max-width: (100% * 0.25);
     }
     @include media-breakpoint-up(xxxl) {
-      flex-basis: (100% / 4);
-      max-width: (100% / 4);
+      flex-basis: (100% * 0.25);
+      max-width: (100% * 0.25);
     }
   }
 }
@@ -147,23 +149,23 @@ s72-classification-label {
   flex-wrap: wrap;
 
   .partial {
-    flex-basis: (100% / 2);
-    max-width: (100% / 2);
+    flex-basis: (100% * 0.5);
+    max-width: (100% * 0.5);
     @include media-breakpoint-up(md) {
-      flex-basis: (100% / 3);
-      max-width: (100% / 3);
+      flex-basis: math.div(100%, 3);
+      max-width: math.div(100%, 3);
     }
     @include media-breakpoint-up(lg) {
-      flex-basis: (100% / 3);
-      max-width: (100% / 3);
+      flex-basis: math.div(100%, 3);
+      max-width: math.div(100%, 3);
     }
     @include media-breakpoint-up(xl) {
-      flex-basis: (100% / 4);
-      max-width: (100% / 4);
+      flex-basis: (100% * 0.25);
+      max-width: (100% * 0.25);
     }
     @include media-breakpoint-up(xxxl) {
-      flex-basis: (100% / 4);
-      max-width: (100% / 4);
+      flex-basis: (100% * 0.25);
+      max-width: (100% * 0.25);
     }
   }
 }
@@ -173,23 +175,23 @@ s72-classification-label {
   flex-wrap: wrap;
 
   .partial {
-    flex-basis: (100% / 2);
-    max-width: (100% / 2);
+    flex-basis: (100% * 0.5);
+    max-width: (100% * 0.5);
     @include media-breakpoint-up(md) {
-      flex-basis: (100% / 3);
-      max-width: (100% / 3);
+      flex-basis: math.div(100%, 3);
+      max-width: math.div(100%, 3);
     }
     @include media-breakpoint-up(lg) {
-      flex-basis: (100% / 3);
-      max-width: (100% / 3);
+      flex-basis: math.div(100%, 3);
+      max-width: math.div(100%, 3);
     }
     @include media-breakpoint-up(xl) {
-      flex-basis: (100% / 4);
-      max-width: (100% / 4);
+      flex-basis: (100% * 0.25);
+      max-width: (100% * 0.25);
     }
     @include media-breakpoint-up(xxxl) {
-      flex-basis: (100% / 4);
-      max-width: (100% / 4);
+      flex-basis: (100% * 0.25);
+      max-width: (100% * 0.25);
     }
   }
 }

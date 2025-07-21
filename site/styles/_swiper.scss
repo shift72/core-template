@@ -68,3 +68,20 @@
     padding-left: 25px;
   }
 }
+
+// this helps to cover up wonky layouts before the Swiper components are
+// mounted. Items get sized dynamically and this can mean poster images
+// momentarily become huge
+.swiper-container {
+  opacity: 1;
+  transition: opacity 0.1s ease;
+
+  &:not(.swiper-container-initialized) {
+    opacity: 0;
+    pointer-events: none;
+
+    // bit of a hack to keep the length of the page from getting mad during init
+    // this isn't accurate
+    max-height: 500px;
+  }
+}
