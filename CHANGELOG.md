@@ -10,6 +10,7 @@
 - Add fade transition on carousel images
 - Commenting feature support
 - seo_meta_robots_no_index toggle block search engines crawling the site
+- google_analytics_debug toggle to enable debug mode on GA4
 
 ### Changed
 
