@@ -1,6 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.26...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.27...HEAD)
+
+## [1.9.27](https://github.com/shift72/core-template/compare/1.9.26...1.9.27)
+
+### Changed
+
+- Bump to kibble builder 0.17.8 (re-release for npm build)
 
 ## [1.9.26](https://github.com/shift72/core-template/compare/1.9.25...1.9.26)
 
@@ -28,7 +34,6 @@
 - Switched to babel
 - Update autoprefixer, postcss to fix out of date browserslist.
 - Update nvmrc to 18
-- Bump to kibble builder 0.17.8
 
 ### Fixed
 
