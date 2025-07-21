@@ -56,6 +56,9 @@
     <meta name="keywords" content="{{.Seo.Keywords}}">
   {{end}}
 
+
+  {* override default setting allowing search robots to index the page if seo_meta_robots_no_index is set for private sites *}
+  {{index := site.Toggles["seo_meta_robots_no_index"] ? false : index}}
   {{if !index}}
     <meta name="robots" content="noindex, nofollow">
   {{end}}

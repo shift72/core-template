@@ -9,6 +9,7 @@
 - Add skeleton background color for posters before they load.
 - Add fade transition on carousel images
 - Commenting feature support
+- seo_meta_robots_no_index toggle block search engines crawling the site
 
 ### Changed
 
