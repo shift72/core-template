@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.25...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.26...HEAD)
+
+## [1.9.26](https://github.com/shift72/core-template/compare/1.9.25...1.9.26)
 
 ### Added
 
@@ -23,6 +25,10 @@
   Introduces CSS variables for this to make customizing these styles easier.
 - Poster images have an aspect-ratio applied before they load. `.meta-item`
   uses flex-column sizing to give the posters some size before the images load
+- Switched to babel
+- Update autoprefixer, postcss to fix out of date browserslist.
+- Update nvmrc to 18
+- Bump to kibble builder 0.17.8
 
 ### Fixed
 
