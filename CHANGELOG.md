@@ -28,6 +28,7 @@
 - Switched to babel
 - Update autoprefixer, postcss to fix out of date browserslist.
 - Update nvmrc to 18
+- Bump to kibble builder 0.17.8
 
 ### Fixed
 
