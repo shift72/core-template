@@ -4,7 +4,7 @@
       <ul class="nav">
         {{ range navLinks }}
           <li class="nav-item {{ len(.Link.ExternalURL) == 0 && routeToSlug(.Link.Slug) == currentUrlPath ? "active" : "" }}">
-            <a class="nav-link" href="{{ len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug) }}">{{ .Label }}</a>
+            <a class="nav-link" href="{{ len(.Link.ExternalURL) > 0 ? .Link.ExternalURL : routeToSlug(.Link.Slug) }}" target="{{len(.Link.ExternalURL) > 0 && config("external_links_new_tab") == "true" ? "_blank" : "_self"}}">{{ .Label }}</a>
           </li>
         {{ end }}
       </ul>

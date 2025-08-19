@@ -1,6 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.27...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.28...HEAD)
+
+## [1.9.28](https://github.com/shift72/core-template/compare/1.9.27...1.9.28)
+
+### Added
+
+- external_links_new_tab config to make external links in header / footer nav open in a new tab
 
 ## [1.9.27](https://github.com/shift72/core-template/compare/1.9.26...1.9.27)
 
