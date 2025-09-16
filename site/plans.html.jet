@@ -55,16 +55,24 @@
                   <p class="plan-description">{{p.Description}}</p>
                   {{ if p.Interval }}
                     {{interval := p.Interval}}
+                    {{planMessage := ""}}
                     {{if interval == "day"}}
+                      {{planMessage = i18n("shopping_info_plan_interval_day", p.IntervalCount)}}
                       {{interval = i18n("interval_day", p.IntervalCount)}}
                     {{else if interval == "month"}}
+                      {{planMessage = i18n("shopping_info_plan_interval_month", p.IntervalCount)}}
                       {{interval = i18n("interval_month", p.IntervalCount)}}
                     {{else if interval == "week"}}
+                      {{planMessage = i18n("shopping_info_plan_interval_week", p.IntervalCount)}}
                       {{interval = i18n("interval_week", p.IntervalCount)}}
                     {{else if interval == "year"}}
+                      {{planMessage = i18n("shopping_info_plan_interval_year", p.IntervalCount)}}
                       {{interval = i18n("interval_year", p.IntervalCount)}}
                     {{end}}
-                    <p class="plan-interval">{{i18n("shopping_info_plan_interval", map("Interval", interval, "Count", p.IntervalCount))}}</p>
+                    {{if planMessage == "" || hasPrefix(planMessage, "shopping_info_plan_interval")}}
+                      {{planMessage = i18n("shopping_info_plan_interval", map("Interval", interval, "Count", p.IntervalCount))}}
+                    {{end}}
+                    <p class="plan-interval">{{planMessage}}</p>
                     {{ if p.TrialPeriodDays }}
                       <p class="plan-trial-period">{{i18n("shopping_info_trial_period", p.TrialPeriodDays)}}</p>
                     {{ end }}
@@ -96,7 +104,7 @@
           </div>
         </div>
       {{ end }}
-    
+
     </div>
 
   </main>
