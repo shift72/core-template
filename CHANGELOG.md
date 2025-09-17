@@ -8,6 +8,10 @@
 
 - external_links_new_tab config to make external links in header / footer nav open in a new tab
 
+### Changed
+
+ - Cast list: remove erroneous space before comma. CSS tweaks for the link underlines
+
 ## [1.9.27](https://github.com/shift72/core-template/compare/1.9.26...1.9.27)
 
 ### Changed
