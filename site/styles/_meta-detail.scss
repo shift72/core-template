@@ -277,8 +277,8 @@ s72-element-switcher,
     a {
       animation: fadein 2s;
 
-      text-decoration-color: rgba(var(--body-color-rgb), 0.5);
-      text-underline-offset: 0.1em;
+      text-decoration-color: rgba(var(--body-color-rgb), 0.6);
+      text-underline-offset: 0.15em;
 
       &:hover {
         text-decoration: none;
