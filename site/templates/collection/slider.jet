@@ -3,9 +3,9 @@
 {{import "./slider-buttons.jet"}}
 {{block pageCollectionSlider()}}
 {{if len(.Items) > 0}}
-<section class="page-collection page-collection-slider page-collection-slider-{{.ItemsPerRow}} page-collection-slider-{{.ItemLayout}} slider-{{.ItemsPerRow}} slider-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-slider" aria-label="{{i18n("wcag_aria_label_collection_slider")}}">
+<section class="page-collection page-collection-slider page-collection-slider-{{.ItemsPerRow}} page-collection-slider-{{.ItemLayout}} slider-{{.ItemsPerRow}} slider-{{.ItemLayout}} page-collection-{{.ItemsPerRow}}-slider slider-{{.TitleSlug}}" aria-label="{{i18n("wcag_aria_label_collection_slider")}}">
   <div class="collection-wrapper-container swiper-wrapper-container">
-    <div class="collection-container swiper-container" data-items-per-row="{{.ItemsPerRow}}" data-layout="{{.ItemLayout}}">
+    <div class="collection-container swiper-container" data-items-per-row="{{.ItemsPerRow}}" data-layout="{{.ItemLayout}}" data-title-slug="{{.TitleSlug}}">
         {{if .DisplayName != ""}}
       <div class="swiper-title">
         <h3>{{.DisplayName}}</h3>
