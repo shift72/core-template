@@ -155,10 +155,12 @@
     }
 
     > .poster {
-      margin-bottom: 5px;
+      margin-bottom: 25px;
     }
   }
-
+  s72-image {
+    display: flex;
+  }
   .poster {
     animation: fadein 2s;
     display: block;
@@ -166,6 +168,10 @@
     margin-bottom: 20px;
     margin-right: 20px;
     width: 110px;
+
+    &.poster-image {
+      margin-bottom: 0px;
+    }
 
     @include media-breakpoint-up(xs) {
       width: 155px;
@@ -487,7 +493,6 @@ s72-element-switcher {
   }
 }
 
-
 comment-section {
   display: block;
   margin-bottom: 3rem;
@@ -499,5 +504,4 @@ comment-section {
     padding-left: var(--page-detail-padding-hz-lg);
     padding-right: var(--page-detail-padding-hz-lg);
   }
-
 }
