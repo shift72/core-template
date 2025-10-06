@@ -1,12 +1,32 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.28...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.29...HEAD)
+
+## [1.9.29](https://github.com/shift72/core-template/compare/1.9.28...1.9.29)
+
+### Added
+
+- unique class and data tags on sliders / lists
+
+### Changed
+
+- removed extra space in cast list
+- tweak styling of meta detail links
+
+### Fixed
+
+- Shadow under posters
+- add missing poppins font files for italic / weights
 
 ## [1.9.28](https://github.com/shift72/core-template/compare/1.9.27...1.9.28)
 
 ### Added
 
 - external_links_new_tab config to make external links in header / footer nav open in a new tab
+
+### Changed
+
+- Cast list: remove erroneous space before comma. CSS tweaks for the link underlines
 
 ## [1.9.27](https://github.com/shift72/core-template/compare/1.9.26...1.9.27)
 
