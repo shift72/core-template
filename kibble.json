@@ -1,6 +1,6 @@
 {
   "name": "core-template",
-  "version": "1.9.29",
+  "version": "1.9.31",
   "siteUrl": "https://tvoddemo.shift72.com",
   "builderVersion": "0.17.8",
   "defaultLanguage": "en",
@@ -96,6 +96,10 @@
     "sr": {
       "code": "sr_SR",
       "name": "Српски"
+    },
+    "sv": {
+      "code": "sv_SE",
+      "name": "Svenska"
     },
     "tr": {
       "code": "tr_TR",
@@ -195,5 +199,5 @@
       "pageSize": 0
     }
   ],
-  "coreTemplateVersion": "1.9.29"
+  "coreTemplateVersion": "1.9.31"
 }

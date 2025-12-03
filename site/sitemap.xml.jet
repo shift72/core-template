@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{ range site.Pages }}
-    <url>
-      {{ if .PageType == "external" }}
-        <loc>{{routeToSlug(.Slug)}}</loc>
-      {{ else }}
-        <loc>{{site.SiteConfig.SiteURL}}{{routeToSlug(.Slug)}}</loc>
-      {{ end }}
-    </url>
+    {{ if .PageType != "external" }}
+      <url>
+          <loc>{{site.SiteConfig.SiteURL}}{{routeToSlug(.Slug)}}</loc>
+      </url>
+    {{ end }}
   {{ end }}
 
   {{ range site.Films }}

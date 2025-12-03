@@ -1,0 +1,18 @@
+s72-playback-progress {
+  // on top of the availability label, below the hover
+  z-index: 99;
+}
+
+.s72-playback-progress,
+.s72-playback-progress-bar {
+  height: var(--playback-progress-bar-height);
+}
+
+.s72-playback-progress {
+  background-color: rgba(var(--body-bg-rgb), 0.5);
+}
+
+.s72-playback-progress-bar {
+  background-color: var(--playback-progress-bar-color);
+  border-radius: 2px;
+}
