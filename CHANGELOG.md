@@ -1,13 +1,17 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.29...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.30...HEAD)
+
+## [1.9.30](https://github.com/shift72/core-template/compare/1.9.29...1.9.30)
 
 ### Added
- - Playback progress bars on media items (config: "media_item_show_playback_progress")
+
+- Playback progress bars on media items (config: "media_item_show_playback_progress")
+- Swedish translations
 
 ### Changed
- - Added CSS vars for playback progress. Reduce default size from 6px to 3px (affects TV episode sub-items)
 
+- Added CSS vars for playback progress. Reduce default size from 6px to 3px (affects TV episode sub-items)
 
 ## [1.9.29](https://github.com/shift72/core-template/compare/1.9.28...1.9.29)
 
