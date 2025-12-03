@@ -85,7 +85,7 @@
                     <can-be-watched-button data-slug="{{item.InnerItem.Slug}}" data-url="{{canBeWatchedLink}}" data-label="{{canBeWatchedText | i18n}}"></can-be-watched-button>
                   </s72-user-known>
                 {{end}}
-              
+
               {{if len(externalPurchaseButtonLink) > 0}}
                 <external-purchase-button data-slug="{{item.InnerItem.Slug}}" data-url="{{externalPurchaseButtonLink}}" data-label="{{externalPurchaseButtonText | i18n}}"></external-purchase-button>
               {{end}}
@@ -93,6 +93,10 @@
           </div>
           <s72-userwishlist-button data-slug="{{item.Slug}}" class="btn-wishlist"></s72-userwishlist-button>
         </div>
+
+        {{if config("media_item_show_playback_progress") == "true"}}
+          <s72-playback-progress data-slug={{item.Slug}}></s72-playback-progress>
+        {{end}}
       {{end}}
     </div>
   </a>

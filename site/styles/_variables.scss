@@ -182,6 +182,12 @@
 
   --poster-skeleton-background-color: #3335;
 
+  // Playback progress bar shown on meta item and sub-items
+  --playback-progress-bar-height: 3px;
+  --playback-progress-bar-color: var(--secondary);
+  --playback-progress-bar-bg-color: rgba(var(--body-bg-rgb), 0.5);
+
+
   // Detail player
   --page-detail-player-padding-top: 140px;
   --page-detail-player-padding-top-lg: 200px;
