@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/shift72/core-template/compare/1.9.30...HEAD)
+## [Unreleased](https://github.com/shift72/core-template/compare/1.9.31...HEAD)
 
-## [1.9.30](https://github.com/shift72/core-template/compare/1.9.29...1.9.30)
+## [1.9.31](https://github.com/shift72/core-template/compare/1.9.29...1.9.31)
 
 ### Added
 
@@ -12,6 +12,10 @@
 ### Changed
 
 - Added CSS vars for playback progress. Reduce default size from 6px to 3px (affects TV episode sub-items)
+
+### Fixed
+
+- Sitemap including external pages linking out of site
 
 ## [1.9.29](https://github.com/shift72/core-template/compare/1.9.28...1.9.29)
 
