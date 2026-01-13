@@ -90,7 +90,7 @@
 
 .posts-index-page {
   .post-preview + .post-preview {
-    margin-top: 8rem;
+    margin-top: var(--posts-index-spacing);
   }
 
   .post-preview-show-more {
