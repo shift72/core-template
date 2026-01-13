@@ -101,7 +101,7 @@
   // Overflow behaviour: js in the template applies a .post-preview--overflowed class
   .post-preview {
     .post-body {
-      max-height: 400px;
+      max-height: var(--post-preview-height);
     }
 
     .post-preview-show-more {
