@@ -4,7 +4,7 @@
 {{import "templates/common/background-image.jet"}}
 
 {{block body()}}
-  <main id="main" class="page posts-index-page">
+  <main id="main" class="page posts-feed-page">
     {{range page := pages}}
       {{yield postPreview(post=page)}}
     {{end}}

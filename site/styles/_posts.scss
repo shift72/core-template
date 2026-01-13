@@ -1,5 +1,5 @@
 .post-page,
-.posts-index-page {
+.posts-feed-page {
   & {
     margin-top: 2rem;
     margin-left: auto;
@@ -88,9 +88,9 @@
 
 }
 
-.posts-index-page {
+.posts-feed-page {
   .post-preview + .post-preview {
-    margin-top: var(--posts-index-spacing);
+    margin-top: var(--posts-feed-spacing);
   }
 
   .post-preview-show-more {
