@@ -1,0 +1,29 @@
+{{extends "templates/application/application.jet"}}
+
+{{import "templates/page/posts/shared.jet"}}
+{{import "templates/common/background-image.jet"}}
+
+{{block head()}}
+  {{yield seo() page}}
+{{end}}
+
+{{block body()}}
+  <main id="main" class="page post-page">
+    {{yield backgroundImage(containerClass="page-bg", gradientClass="right-gradient", imageClass="page-bg-img", imageSrc=page.Images.Background)}}
+
+    <div class="post">
+      {{yield postTitle(post=page)}}
+      {{yield postMeta(post=page)}}
+      {{yield postHeaderImage(post=page)}}
+      {{yield postBody(text=page.Content)}}
+    </div>
+
+    {{if isEnabled("commenting")}}
+      <comment-section slug="{{page.Slug}}"></comment-section>
+    {{end}}
+  </main>
+{{end}}
+
+
+
+{{block appBadges()}}{{end}}

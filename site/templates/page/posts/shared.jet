@@ -1,0 +1,34 @@
+{{block postTitle(post, href="")}}
+  <h3 class="post-title">
+    {{if len(href) > 0}}
+      <a href="{{href}}">{{post.Title}}</a>
+    {{else}}
+      {{post.Title}}
+    {{end}}
+  </h3>
+{{end}}
+
+{{block postMeta(post)}}
+  <div class="post-meta">
+    {{if !post.PublishedDate.IsZero()}}
+      <div class="post-published-date">
+        <s72-time datetime="{{post.PublishedDate.UnixMilli()}}"></s72-time>
+        &nbsp; {* nbsp helps prevent layout shift due to s72-time relish component loading delay *}
+      </div>
+    {{end}}
+  </div>
+{{end}}
+
+{{block postHeaderImage(post)}}
+  {{if len(post.Images.Header) > 0}}
+    <div class="post-header-image">
+      <s72-image src="{{post.Images.Header}}"></s72-image>
+    </div>
+  {{end}}
+{{end}}
+
+{{block postBody(text="")}}
+  <div class="post-body">
+    {{text | raw}}
+  </div>
+{{end}}
