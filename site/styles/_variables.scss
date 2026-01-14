@@ -140,6 +140,14 @@
   --page-detail-padding-hz: 20px;
   --page-detail-padding-hz-lg: 50px;
 
+  --page-reading-column-width: 69ch;
+
+  --posts-feed-spacing: 6rem;
+  --post-preview-height: 300px;
+
+  --post-body-font-weight: 400;
+  --post-body-line-height: 1.55;
+
   --heading-1-style-letter-spacing: normal;
   --heading-2-style-letter-spacing: normal;
   --heading-3-style-letter-spacing: normal;
@@ -186,7 +194,6 @@
   --playback-progress-bar-height: 3px;
   --playback-progress-bar-color: var(--secondary);
   --playback-progress-bar-bg-color: rgba(var(--body-bg-rgb), 0.5);
-
 
   // Detail player
   --page-detail-player-padding-top: 140px;

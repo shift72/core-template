@@ -3,6 +3,7 @@
   "version": "1.9.31",
   "siteUrl": "https://tvoddemo.shift72.com",
   "builderVersion": "0.17.8",
+  "builderVersion": "0.17.9",
   "defaultLanguage": "en",
   "languages": {
     "ar": {
@@ -172,6 +173,23 @@
       "templatePath": "404.html.jet",
       "datasource": "PageIndex",
       "pageSize": 0
+    },
+    {
+      "name": "postIndex",
+      "firstPageUrlPath": "/posts/",
+      "urlPath": "/posts/:index/",
+      "templatePath": "templates/page/posts-feed.jet",
+      "datasource": "PageIndex",
+      "options": {
+        "pageTypes": [
+          "post"
+        ],
+        "sortBy": [
+          "published_date:desc",
+          "title:asc"
+        ]
+      },
+      "pageSize": 5
     },
     {
       "name": "bundleItem",

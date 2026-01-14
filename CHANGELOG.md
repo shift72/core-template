@@ -2,6 +2,12 @@
 
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.31...HEAD)
 
+### Added
+
+Blog posts and feed. A /posts/ route has been added to kibble.json for the feed,
+but it shouldn't affect sites that don't actively use the posts feature and link
+to it from the nav.
+
 ## [1.9.31](https://github.com/shift72/core-template/compare/1.9.29...1.9.31)
 
 ### Added

@@ -169,16 +169,16 @@
     margin-right: 20px;
     width: 110px;
 
-    &.poster-image {
-      margin-bottom: 0px;
-    }
-
     @include media-breakpoint-up(xs) {
       width: 155px;
     }
 
     @include media-breakpoint-up(xl) {
       width: 208px;
+    }
+
+    &.poster-image {
+      margin-bottom: 0;
     }
 
     .live {
