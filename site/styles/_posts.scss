@@ -1,91 +1,98 @@
 .post-page,
 .posts-feed-page {
-  & {
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0;
-    padding-right: 0;
-    width: var(--page-reading-column-width);
-    max-width: calc(min(95vw, 1100px));
-  }
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+  width: var(--page-reading-column-width);
+  max-width: calc(min(95vw, 1100px));
+}
 
-  .post-title {
-    @include heading-2-style();
-    margin-bottom: 0.5rem;
-    line-height: 1.3;
+.post-title {
+  @include heading-2-style();
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
 
-    & > a {
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
+  > a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
     }
   }
+}
 
-  .post-meta {
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0.7;
+  font-size: var(--body-2-style-font-size);
+  margin-bottom: 1rem;
+}
+
+.post-published-date::first-letter {
+  text-transform: capitalize; // icky hack for dates like "yesterday 10:32am" maybe the s72-time component needs a 'format' prop so we can force short dates?
+}
+
+.post-header-image {
+  margin-bottom: 1rem;
+
+  s72-image {
     display: flex;
-    flex-wrap: wrap;
-    opacity: 0.7;
-    font-size: var(--body-2-style-font-size);
-    margin-bottom: 1rem;
-  }
+    flex-direction: column;
+    aspect-ratio: 1200 / 422;
 
-  .post-published-date::first-letter {
-    text-transform: capitalize; // icky hack for dates like "yesterday 10:32am" maybe the s72-time component needs a 'format' prop so we can force short dates?
-  }
+    border-radius: 0.5rem;
+    overflow: hidden;
 
-  .post-header-image {
-    margin-bottom: 1rem;
+    transition: background-color 0.25s ease;
+    background-color: var(--poster-skeleton-background-color);
 
-    s72-image {
-      display: flex;
-      flex-direction: column;
-      aspect-ratio: 1200 / 422;
+    /* stylelint-disable selector-no-qualifying-type */
+    // a bit of a pedantic rule, wrong in this case. <s72-image> applies the
+    // modifier classes to the wrapper element as well as the <img>, but setting
+    // a background color for the skeleton needs to happen on the wrapper
+    // because you can't colour an <img>
+    &.s72-image--loaded {
+      background-color: transparent;
+      aspect-ratio: unset;
+    }
 
-      border-radius: 0.5rem;
-      overflow: hidden;
-
-      transition: background-color 0.25s ease;
-      background-color: var(--poster-skeleton-background-color);
+    img {
+      transition: opacity 0.25s ease;
+      opacity: 0;
 
       &.s72-image--loaded {
-        background-color: transparent;
-        aspect-ratio: unset;
+        opacity: 1;
       }
-
-      img {
-        transition: opacity 0.25s ease;
-        opacity: 0;
-        &.s72-image--loaded {
-          opacity: 1;
-        }
-      }
-
     }
+    /* stylelint-enable selector-no-qualifying-type */
+  }
+}
+
+.post-body {
+  &,
+  p {
+    word-wrap: break-word;
+    font-weight: var(--post-body-font-weight);
+    line-height: var(--post-body-line-height);
   }
 
-  .post-body {
-    &, & p {
-      word-wrap: break-word;
-      font-weight: var(--post-body-font-weight);
-      line-height: var(--post-body-line-height);
-    }
-
-    strong {
-      font-weight: bolder;
-    }
-
-    a {
-      @include a;
-    }
+  strong {
+    font-weight: bolder;
   }
 
+  a {
+    @include a;
+  }
+}
+
+.post-page {
   comment-section {
     padding: 0;
     margin-top: 3rem;
   }
-
 }
 
 .posts-feed-page {
@@ -95,11 +102,13 @@
 
   .post-preview-show-more {
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
   }
 
   // Overflow behaviour: js in the template applies a .post-preview--overflowed class
   .post-preview {
+    overflow: hidden;
+
     .post-body {
       max-height: var(--post-preview-height);
     }
@@ -109,7 +118,10 @@
     }
 
     &.post-preview--overflowed {
-      .post-preview-show-more { display: block; }
+      .post-preview-show-more {
+        display: block;
+      }
+
       .post-body {
         mask-image: linear-gradient(180deg, #000 72%, transparent);
       }
