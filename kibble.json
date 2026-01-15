@@ -2,7 +2,6 @@
   "name": "core-template",
   "version": "1.9.31",
   "siteUrl": "https://tvoddemo.shift72.com",
-  "builderVersion": "0.17.8",
   "builderVersion": "0.17.9",
   "defaultLanguage": "en",
   "languages": {
