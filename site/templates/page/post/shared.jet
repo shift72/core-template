@@ -12,7 +12,7 @@
   <div class="post-meta">
     {{if !post.PublishedDate.IsZero()}}
       <div class="post-published-date">
-        <s72-time datetime="{{post.PublishedDate.UnixMilli()}}"></s72-time>
+        <s72-time datetime="{{post.PublishedDate.UnixMilli()}}" mode="date"></s72-time>
         &nbsp; {* nbsp helps prevent layout shift due to s72-time relish component loading delay *}
       </div>
     {{end}}

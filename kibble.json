@@ -177,7 +177,7 @@
       "name": "postIndex",
       "firstPageUrlPath": "/posts/",
       "urlPath": "/posts/:index/",
-      "templatePath": "templates/page/posts-feed.jet",
+      "templatePath": "templates/page/post/posts-feed.jet",
       "datasource": "PageIndex",
       "options": {
         "pageTypes": [

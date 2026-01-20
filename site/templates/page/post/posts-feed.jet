@@ -1,6 +1,6 @@
 {{extends "templates/application/application.jet"}}
 
-{{import "templates/page/posts/shared.jet"}}
+{{import "templates/page/post/shared.jet"}}
 {{import "templates/common/background-image.jet"}}
 
 {{block body()}}
