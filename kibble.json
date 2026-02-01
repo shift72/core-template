@@ -1,8 +1,8 @@
 {
   "name": "core-template",
-  "version": "1.9.31",
+  "version": "1.9.32",
   "siteUrl": "https://tvoddemo.shift72.com",
-  "builderVersion": "0.17.8",
+  "builderVersion": "0.17.10",
   "defaultLanguage": "en",
   "languages": {
     "ar": {
@@ -174,6 +174,23 @@
       "pageSize": 0
     },
     {
+      "name": "postIndex",
+      "firstPageUrlPath": "/posts/",
+      "urlPath": "/posts/:index/",
+      "templatePath": "templates/page/post/posts-feed.jet",
+      "datasource": "PageIndex",
+      "options": {
+        "pageTypes": [
+          "post"
+        ],
+        "sortBy": [
+          "published_date:desc",
+          "title:asc"
+        ]
+      },
+      "pageSize": 5
+    },
+    {
       "name": "bundleItem",
       "urlPath": "/bundle/:slug/",
       "templatePath": "templates/bundle/item.jet",
@@ -199,5 +216,5 @@
       "pageSize": 0
     }
   ],
-  "coreTemplateVersion": "1.9.31"
+  "coreTemplateVersion": "1.9.32"
 }

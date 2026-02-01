@@ -1,0 +1,66 @@
+{{extends "templates/application/application.jet"}}
+
+{{import "templates/page/post/shared.jet"}}
+{{import "templates/common/background-image.jet"}}
+
+{{block body()}}
+  <main id="main" class="page posts-feed-page">
+    {{range page := pages}}
+      {{yield postPreview(post=page)}}
+    {{end}}
+
+    <div class="posts-pagination">
+    {{ if len(pagination.PreviousURL) > 0 }}
+      <a class="posts-pagination-prev" href="{{pagination.PreviousURL}}">{{i18n("posts_pagination_prev")}}</a>
+    {{end}}
+    {{ if len(pagination.NextURL) > 0 }}
+      <a class="posts-pagination-next" href="{{pagination.NextURL}}">{{i18n("posts_pagination_next")}}</a>
+    {{end}}
+  </main>
+
+  <script>
+    (function () {
+      function detectClamping() {
+        var previews = document.querySelectorAll('.post-preview');
+
+        previews.forEach(function (el) {
+          el.classList.remove('post-preview--overflowed');
+
+          var scroll = el.scrollHeight;
+          var client = el.clientHeight;
+
+          if (scroll > client + 1) {
+            el.classList.add('post-preview--overflowed');
+          }
+        });
+      }
+
+      detectClamping();
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', detectClamping);
+      }
+
+      window.addEventListener('load', detectClamping);
+
+      var resizeTimeout;
+      window.addEventListener('resize', function () {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(detectClamping, 150);
+      });
+    })();
+  </script>
+{{end}}
+
+
+{{block postPreview(post)}}
+  <div class="post-preview">
+    {{yield postTitle(post=post, href=routeTo(post, "pageItem"))}}
+    {{yield postMeta(post=post)}}
+    {{yield postHeaderImage(post=post)}}
+    {{yield postBody(text=post.Content)}}
+    <a class="post-preview-show-more" href='{{routeTo(post, "pageItem")}}'>{{i18n("post_preview_show_more")}}</a>
+  </div>
+{{end}}
+
+
+{{block appBadges()}}{{end}}
