@@ -32,3 +32,9 @@
     {{text | raw}}
   </div>
 {{end}}
+
+{{block postBacktoPostsLink()}}
+  <div class="post-back-to-posts">
+    <a href="{{routeToPath("/posts/")}}">{{i18n("post_back_to_posts")}}</a>
+  </div>
+{{end}}
