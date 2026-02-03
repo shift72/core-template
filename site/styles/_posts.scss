@@ -88,15 +88,19 @@
   }
 }
 
+.post-page .post,
+.posts-feed-page .post-preview {
+  background-color: var(--post-background-color);
+  padding: 20px 25px;
+  border-radius: 8px;
+}
+
 .post-page {
   .page-bg {
     filter: blur(8px);
     -webkit-filter: blur(8px);
   }
   .post {
-    background-color: var(--posts-preview-background-color);
-    padding: 20px 25px;
-    border-radius: 8px;
     margin: 1rem 0;
   }
   comment-section {
@@ -118,9 +122,6 @@
 
   // Overflow behaviour: js in the template applies a .post-preview--overflowed class
   .post-preview {
-    background-color: var(--posts-preview-background-color);
-    padding: 20px 25px;
-    border-radius: 8px;
     overflow: hidden;
 
     .post-body {
