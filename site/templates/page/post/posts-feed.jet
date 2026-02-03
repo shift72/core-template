@@ -8,13 +8,15 @@
     {{range page := pages}}
       {{yield postPreview(post=page)}}
     {{end}}
-
-    <div class="posts-pagination">
-    {{ if len(pagination.PreviousURL) > 0 }}
-      <a class="posts-pagination-prev" href="{{pagination.PreviousURL}}">{{i18n("posts_pagination_prev")}}</a>
-    {{end}}
-    {{ if len(pagination.NextURL) > 0 }}
-      <a class="posts-pagination-next" href="{{pagination.NextURL}}">{{i18n("posts_pagination_next")}}</a>
+    {{ if len(pagination.PreviousURL) > 0 || len(pagination.NextURL) > 0 }}
+      <div class="posts-pagination">
+      {{ if len(pagination.PreviousURL) > 0 }}
+        <a class="posts-pagination-prev" href="{{pagination.PreviousURL}}">{{i18n("posts_pagination_prev")}}</a>
+      {{end}}
+      {{ if len(pagination.NextURL) > 0 }}
+        <a class="posts-pagination-next" href="{{pagination.NextURL}}">{{i18n("posts_pagination_next")}}</a>
+      {{end}}
+      </div>
     {{end}}
   </main>
 

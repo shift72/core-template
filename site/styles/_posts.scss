@@ -88,10 +88,24 @@
   }
 }
 
+.post-page .post,
+.posts-feed-page .post-preview {
+  background-color: var(--post-background-color);
+  padding: 20px 25px;
+  border-radius: 8px;
+}
+
 .post-page {
+  .page-bg {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
+  .post {
+    margin: 1rem 0;
+  }
   comment-section {
     padding: 0;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 }
 
@@ -102,6 +116,7 @@
 
   .post-preview-show-more {
     text-align: center;
+    text-decoration: underline;
     opacity: 0.8;
   }
 
@@ -110,6 +125,7 @@
     overflow: hidden;
 
     .post-body {
+      margin-bottom: 40px;
       max-height: var(--post-preview-height);
     }
 
@@ -132,8 +148,6 @@
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
-    padding-top: 2rem;
-    border-top: 1px solid #fff5;
 
     .posts-pagination-next {
       margin-left: auto;
