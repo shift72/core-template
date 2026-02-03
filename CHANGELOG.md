@@ -3,7 +3,9 @@
 ## [Unreleased](https://github.com/shift72/core-template/compare/1.9.32...HEAD)
 
 ### Changed
- - Update font.jet to use cdn.shift72.com for fonts. Preload poppins faces to prevent unwanted pop-ins.
+
+- Update font.jet to use cdn.shift72.com for fonts. Preload poppins faces to prevent unwanted pop-ins.
+- Blog post styling tweaks
 
 ## [1.9.32](https://github.com/shift72/core-template/compare/1.9.31...1.9.32)
 
