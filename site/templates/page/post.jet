@@ -10,8 +10,8 @@
 {{block body()}}
   <main id="main" class="page post-page">
     {{yield backgroundImage(containerClass="page-bg", gradientClass="right-gradient", imageClass="page-bg-img", imageSrc=page.Images.Background)}}
-
-    <div class="post">
+    {{yield postBacktoPostsLink()}}
+    <div class="post">  
       {{yield postTitle(post=page)}}
       {{yield postMeta(post=page)}}
       {{yield postHeaderImage(post=page)}}
@@ -21,9 +21,6 @@
     {{if isEnabled("commenting")}}
       <comment-section slug="{{page.Slug}}"></comment-section>
     {{end}}
+    {{yield postBacktoPostsLink()}}
   </main>
 {{end}}
-
-
-
-{{block appBadges()}}{{end}}

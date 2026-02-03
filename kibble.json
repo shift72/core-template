@@ -1,6 +1,6 @@
 {
   "name": "core-template",
-  "version": "1.9.32",
+  "version": "1.9.33",
   "siteUrl": "https://tvoddemo.shift72.com",
   "builderVersion": "0.17.10",
   "defaultLanguage": "en",
@@ -216,5 +216,5 @@
       "pageSize": 0
     }
   ],
-  "coreTemplateVersion": "1.9.32"
+  "coreTemplateVersion": "1.9.33"
 }
