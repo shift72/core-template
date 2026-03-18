@@ -22,11 +22,13 @@
   {{else if layout == "landscape" && isset(item.Images["Landscape"])}}
     {{imageUrl = item.Images.Landscape}}
   {{end}}
-  {{if len(imageUrl) == 0 && isPage}}
-    {{imageUrl = layout == "portrait" ? "/images/missing/page-portrait.png" : "/images/missing/page-landscape.png"}}
-  {{else if len(imageUrl) == 0 && isCollection}}
+    
+  {{if len(imageUrl) == 0 && isCollection}}
     {{imageUrl = layout == "portrait" ? "/images/missing/collection-portrait.png" : "/images/missing/collection-landscape.png"}}
+  {{else if len(imageUrl) == 0}}
+    {{imageUrl = layout == "portrait" ? "/images/missing/page-portrait.png" : "/images/missing/page-landscape.png"}}
   {{end}}
+
   {{if isEpisode}}
     {{synopsis = item.InnerItem.Overview}}
     {{title = item.InnerItem.GetTitle(i18n)}}
