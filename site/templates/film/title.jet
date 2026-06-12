@@ -3,7 +3,7 @@
   {{titleImage := .ImageMap["Title"]}}
 
   {{if isset(titleImage) && useTitleImage}}
-    <img src="{{titleImage}}" alt="{{title}}" class="item-title-image {{class}}" />
+    <{{element}}><img src="{{titleImage}}" alt="{{title}}" class="item-title-image {{class}}" /></{{element}}>
   {{else}}
     <{{element}}>{{title}}</{{element}}>
   {{end}}

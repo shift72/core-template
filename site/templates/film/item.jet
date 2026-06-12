@@ -22,6 +22,7 @@
 
 {{block body()}}
   {{useDetailPlayer := config("use_detail_page_player", "false") == "true"}}
+  {{useFilmTitleImage := isset(film.ImageMap["Title"]) && !useDetailPlayer}}
 
   <main id="main" class="page page-film meta-detail meta-detail-film{{if useDetailPlayer}} meta-detail-creator{{end}}">
     <div class="meta-detail-bg">
@@ -54,7 +55,7 @@
         </div>
 
         <div class="meta-detail-content">
-          {{yield filmTitle(title=film.Title,class="carousel",element="h1",useTitleImage=!useDetailPlayer) film}}
+          {{yield filmTitle(title=film.Title,class="carousel",element="h1",useTitleImage=useFilmTitleImage) film}}
           <div class="meta-detail-tagline-and-classification">
             <div class="meta-detail-tagline">
               {{yield metaItemTagline() film}}
@@ -77,11 +78,14 @@
             <s72-element-switcher>
               {{if isEnabled("element_switcher_enabled")}}
                 <div class="meta-detail-switcher-tagline">
-                  <p>{{film.Tagline}}</p>
+                  <p>
+                    {{if useFilmTitleImage}}<span class="meta-detail-inline-title">{{film.Title}} - </span>{{end}}
+                    {{film.Tagline}}
+                  </p>
                 </div>
               {{end}}
               <div class="{{ isEnabled("element_switcher_enabled") ? "s72-hide" : "" }}"> {* hide class prevents FOUC *}
-                <div class="meta-detail-synopsis">{{film.Overview | raw}}</div>
+                <div class="meta-detail-synopsis">{{if useFilmTitleImage}}<span class="meta-detail-inline-title">{{film.Title}} - </span>{{end}}{{film.Overview | raw}}</div>
                 <div class="meta-detail-info">
                   {{if len(film.Cast) > 0 }}
                     <div class="meta-detail-cast">
